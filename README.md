@@ -1,13 +1,13 @@
 # TMLHonyaku
-tMLのhjsonファイルの翻訳置き場
+<p>tMLのhjsonファイルの翻訳置き場</p>
 <p></p>
-このModを使わせていただいて翻訳する予定です。
+<p>このModを使わせていただいて翻訳する予定です。</p>
 <p></p>
-https://steamcommunity.com/sharedfiles/filedetails/?id=2986383249
+<p>https://steamcommunity.com/sharedfiles/filedetails/?id=2986383249
 <p></p>
-翻訳方法の解説
+<p>翻訳方法の解説</p>
 <p></p>
-https://eva828game.hatenablog.com/entry/tmodloader/external-localizer
+<p>https://eva828game.hatenablog.com/entry/tmodloader/external-localizer</p>
 <p></p>
-現在の対応Mod（対応完了順）
-<p><a　href="https://steamcommunity.com/sharedfiles/filedetails/?id=2562997415">ShorterRespawn</a></p>
+<p>現在の対応Mod（対応完了順）</p>
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2562997415"><p>ShorterRespawn</p></a>
