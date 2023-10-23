@@ -10,4 +10,4 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2986383249
 https://eva828game.hatenablog.com/entry/tmodloader/external-localizer
 <p></p>
 現在の対応Mod（対応完了順）
-<p><a　href=https://steamcommunity.com/sharedfiles/filedetails/?id=2562997415>ShorterRespawn</a></p>
+<p><a　href="https://steamcommunity.com/sharedfiles/filedetails/?id=2562997415">ShorterRespawn</a></p>
