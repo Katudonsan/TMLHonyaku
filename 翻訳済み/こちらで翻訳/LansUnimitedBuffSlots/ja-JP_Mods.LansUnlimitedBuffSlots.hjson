@@ -1,0 +1,11 @@
+Configs: {
+	Config: {
+		DisplayName: コンフィグ
+
+		MaxBuffSlots: {
+			Label: 最大バフスロット数
+			Tooltip: 有効となるバフの共存できる限界数
+		}
+	}
+}
+
