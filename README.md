@@ -8,3 +8,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2986383249
 翻訳方法の解説
 <p></p>
 https://eva828game.hatenablog.com/entry/tmodloader/external-localizer
+<p></p>
+現在の対応Mod（対応完了順）
+<p>ShorterRespawn</p>
