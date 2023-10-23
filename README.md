@@ -11,3 +11,4 @@
 <p></p>
 <p>現在の対応Mod（対応完了順）</p>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2562997415"><p>ShorterRespawn</p></a>
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2837407674"><p>Lan's Unlimited Buff Slots</p></a>
