@@ -19,7 +19,7 @@ Configs: {
 		}
 
 		TerrariaDefaultsPreset: {
-			Label: "[i:3099]　テラリアのデフォルト時間"
+			Label: "[i:3099]　テラリアのデフォルト時間のプリセット"
 			Tooltip: このプリセットはテラリアのデフォルトの時間をそのまま使用します。
 		}
 
@@ -41,19 +41,19 @@ Configs: {
 		DefaultRespawnTimeTooltip: テラリアのデフォルトリスポーン時間は {0} 秒
 
 		NormalRespawn: {
-			Label: 通常のリスポーンまでの時間
+			Label: 通常のリスポーン時間
 		}
 
 		NormalBossRespawn: {
-			Label: ボス戦中のリスポーンまでの時間
+			Label: ボス戦中のリスポーン時間
 		}
 
 		ExpertRespawn: {
-			Label: エキスパートモード中におけるリスポーンまでの時間
+			Label: エキスパートモード中のリスポーン時間
 		}
 
 		ExpertBossRespawn: {
-			Label: エキスパートモードのボス戦中におけるリスポーンまでの時間
+			Label: エキスパートモードのボス戦でのリスポーン時間
 		}
 	}
 }
