@@ -1,0 +1,60 @@
+DisableInstantRespawn: 高速リスポーンを無効化する
+
+EnableInstantRespawn: 高速リスポーンを有効化する
+
+Configs: {
+	ShorterRespawnConfig: {
+		DisplayName: リスポーン短縮に関するコンフィグ
+		YouLackTheXPermission: あなたには"{0}"の権限が足りない.
+
+		Headers: {
+			Presets: プリセット
+			ConfigurableRespawnScales: リスポーンの長さを設定できるようにする
+			ResultingRespawnTimes: 現在のリスポーンまでの時間
+		}
+
+		ShorterRespawnPreset: {
+			Label: "[i:889] 延長を無効化したリスポーン時間のプリセット"
+			Tooltip: このプリセットは エキスパートモード中のリスポーン時間延長を無効化しつつ、デフォルトのリスポーンまでの時間を維持する。
+		}
+
+		TerrariaDefaultsPreset: {
+			Label: "[i:3099]　テラリアのデフォルト時間"
+			Tooltip: このプリセットはテラリアのデフォルトの時間をそのまま使用します。
+		}
+
+		GlobalRespawnScale: {
+			Label: "[i:1175] 全体のリスポーン時間設定"
+			Tooltip: ""
+		}
+
+		ExpertPenaltyScale: {
+			Label: "[i:3233] エキスパートモードのリスポーン時間延長倍率設定"
+			Tooltip: エキスパートモード中のリスポーン時間を延長する倍率。 デフォルトは１．５倍
+		}
+
+		BossPenaltyScale: {
+			Label: "[i:43] ボス戦中のリスポーン時間延長倍率設定"
+			Tooltip: ボス戦中のリスポーン時間を延長する倍率。 デフォルトは２倍
+		}
+
+		DefaultRespawnTimeTooltip: テラリアのデフォルトリスポーン時間は {0} 秒
+
+		NormalRespawn: {
+			Label: 通常のリスポーンまでの時間
+		}
+
+		NormalBossRespawn: {
+			Label: ボス戦中のリスポーンまでの時間
+		}
+
+		ExpertRespawn: {
+			Label: エキスパートモード中におけるリスポーンまでの時間
+		}
+
+		ExpertBossRespawn: {
+			Label: エキスパートモードのボス戦中におけるリスポーンまでの時間
+		}
+	}
+}
+
