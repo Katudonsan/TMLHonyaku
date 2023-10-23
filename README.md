@@ -3,7 +3,7 @@
 <p></p>
 <p>このModを使わせていただいて翻訳する予定です。</p>
 <p></p>
-<p>https://steamcommunity.com/sharedfiles/filedetails/?id=2986383249
+<p>https://steamcommunity.com/sharedfiles/filedetails/?id=2986383249</p>
 <p></p>
 <p>翻訳方法の解説</p>
 <p></p>
