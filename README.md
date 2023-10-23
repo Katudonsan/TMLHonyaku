@@ -7,4 +7,4 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2986383249
 <p></p>
 翻訳方法の解説
 <p></p>
-https://eva828game.hatenablog.com/entry/tmodloader/external-localizer#terraria-hjson-download
+https://eva828game.hatenablog.com/entry/tmodloader/external-localizer
