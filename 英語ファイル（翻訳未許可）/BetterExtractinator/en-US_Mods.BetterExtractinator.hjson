@@ -1,0 +1,15 @@
+Configs: {
+	ModConfigsai: {
+		DisplayName: Better Extractinator Configurations
+
+		ExSpeeed: {
+			Label: Extractinator Speed Multiplier
+			Tooltip: ""
+		}
+
+		BlockAmount: {
+			Label: Amount of Items Used Per Use of Extractinator
+			Tooltip: ""
+		}
+	}
+}
