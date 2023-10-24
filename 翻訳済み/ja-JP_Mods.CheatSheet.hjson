@@ -1,0 +1,181 @@
+Hotbar: {
+	ShowItemBrowser: アイテムブラウザを表示
+	ShowClearMenu: クリアメニューを表示
+	ShowNPCBrowser: NPCブラウザを表示
+	ShowRecipeBrowser: レシピブラウザを表示
+	ShowModExtensionCheats: 追加されたチートツールの表示
+	ShowPaintTools: ペイントツールを表示
+	ExtraAccessorySlots: 拡張アクセサリスロット
+	VacuumItems: アイテムを吸引する
+	ShowNPCButcherer: NPC殺害メニューを表示
+	ShowQuickWaypoints: クイックウェイポイントの表示
+	ConfigureAvailableTools: 使用可能なツールの設定
+}
+
+Butcherer: {
+	ButcherHostileNPCs: 敵対NPCの殺害
+	ButcherHostileAndFriendlyNPCs: 敵対NPCと友好NPCの殺害
+	ButcherFriendlyNPCs: 友好NPCの殺害
+	ButcherNotification: NPCは{0}によって殺害された
+}
+
+Vacuum: {
+	VacuumNotification: 地面のアイテムは{0}によって吸引された
+}
+
+Teleport: {
+	Dungeon: ダンジョン
+	Spawnpoint: スポーン地点
+	Hell: 地獄
+	Temple: 寺院
+	Random: ランダム
+}
+
+QuickClear: {
+	ClearDroppedItems: 落ちているアイテムの削除
+	ClearProjectiles: 投射物の削除
+	ClearBuffs: バフの削除
+	ClearDebuffs: デバフの削除
+	ItemClearNotification: アイテムは{0}によって削除された
+	ProjectileClearNotification: 投射物は{0}によって削除された
+}
+
+SpawnRate: {
+	SpawnRateMultiplier: スポーン率の倍率 : 1х
+	SpawnRateMultiplierNew: "スポーン率の倍率: "
+	SpawnRateMultiplierText: "スポーン率と最大スポーン数 "
+	SpawnRateNormalValue: " ノーマルのスポーン率"
+}
+
+LightHack: {
+	LightHackDisabled: ライトハック: 無効
+	LightHack25%: ライトハック: 25%
+	LightHack50%: ライトハック: 50%
+	LightHack100%: ライトハック: 100%
+}
+
+GodMode: {
+	GodModeDisabled: ゴッドモードを無効化しました
+	GodModeEnabled: ゴッドモードを有効化しました
+}
+
+MinionSlot: {
+	MinionSlotBooster: ミニオンスロットブースト: +0
+	MinionSlotBoosterNew: "ミニオンスロットブースト: "
+	MinionSlotBoosterText: "現在のミニオンのブーストは "
+}
+
+RecipeBrowser: {
+	AllRecipes: 全てのレシピ
+	CycleModSpecificRecipes: Mod専用レシピをサイクル
+}
+
+ConfigurationTool: {
+	ItemBrowser: アイテムブラウザー
+	NPCBrowser: NPCブラウザー
+	RecipeBrowser: レシピブラウザー
+	MinionBooster: ミニオンブースター
+	Butcher: 殺害
+	ClearMenu: クリアメニュー
+	ExtraAccessorySlots: 拡張アクセサリスロット
+	ModExtensions: 拡張Mod
+	PaintTools: ペイントツール
+	SpawnRate: スポーン率
+	Vacuum: 吸引
+	Waypoints: ウェイポイント
+	LightHack: ライトハック
+	GodMode: ゴッドモード
+}
+
+ExtendedCheatMenu: {
+	NoExtensionCheatModsInstalled:
+		'''
+		拡張なし
+		チートMod
+		インストール済み
+		'''
+}
+
+ExtraAccessorySlots: {
+	ExtraAccessorySlots: "拡張アクセサリスロット: "
+}
+
+MobBrowser: {
+	AllNPCs: 全てのNPC
+	Bosses: ボス
+	TownNPCs: 街のNPC
+	NetIDNPCs: NetIDのNPC
+	FilteredNPCs: フィルター済みNPC
+	CycleModSpecificNPCs: ModごとのNPC
+	SpawnNPCNotification: {0} が {1} によって召喚された
+}
+
+ItemBrowser: {
+	AllItems: 全てのアイテム
+	Weapons: 武器
+	Tools: ツール
+	Armor: 防具
+	Accessories: アクセサリ
+	Blocks: ブロック
+	Ammo: 弾薬
+	Potions: ポーション
+	Expert: 熟練
+	Furniture: 家具
+	Pets: ペット
+	Mounts: 騎乗ペット
+	CycleModSpecificItems: Modごとのアイテム
+}
+
+PaintTools: {
+	ExportData: データの書き出し
+	ImportData: データの読み出し
+	DeleteSelection: 選択範囲の削除
+	SnapTopLeft: 左上に寄せる
+	SnapTopCenter: 上中央に寄せる
+	SnapTopRight: 右上に寄せる
+	SnapLeftCenter: 左中央に寄せる
+	SnapCenter: 中央に寄せる
+	SnapRightCenter: 右中央に寄せる
+	SnapBottomLeft: 左下に寄せる
+	SnapBottomCenter: 下中央に寄せる
+	SnapBottomRight: 右下に寄せる
+	PaintTiles: "    タイルを塗る"
+	EyeDropper: "    スポイト"
+	Undo: "    ペイントを元に戻す(右クリックで直近の10)["
+	Undo2: " ステップ]"
+	NoUndo: 元に戻すための履歴が存在しません。
+	UndoLeft: " 個のアクションが元に戻す履歴に残ります。"
+	FlipHorizontal: 水平方向に反転
+	FlipVertical: 垂直反転
+	TransparentSelectionOn: "    透明選択の切り替え:オフ"
+	TransparentSelectionOff: "    透明選択の切り替え:オン
+	PriorBrush: ブラシを使用する前にスポイトを使用してください。
+	DataExport: "データを出力しました。 出力先: "
+}
+
+Keybinds: {
+	ToggleCheatSheetHotbar: {
+		DisplayName: チートシートのホットバーの切り替え
+	}
+}
+
+Configs: {
+	CheatSheetClientConfig: {
+		DisplayName: チートシートのクライアントの設定
+
+		HotbarShownByDefault: {
+			Label: デフォルトで表示されるホットバー
+			Tooltip: ホットバーを非表示ではなくデフォルトで表示できるようにします
+		}
+	}
+
+	CheatSheetServerConfig: {
+		DisplayName: チートシートのサーバーの設定
+
+		DisableCheatsForNonHostUsers: {
+			Label: ホストユーザー以外のチートを無効にする
+			Tooltip: このmodの機能がホスト以外のマルチプレイヤーで動作しないようにします
+		}
+	}
+}
+
