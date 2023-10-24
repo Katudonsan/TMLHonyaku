@@ -4,90 +4,90 @@ Mods: {
 			Common: {
 				BossLog: ボスログ
 				Boss: ボス
-				BossPlural: Bosses
+				BossPlural: ボスたち
 				MiniBoss: ミニボス
-				MiniBossPlural: Mini-bosses
+				MiniBossPlural: ミニボスたち
 				Event: イベント
-				EventPlural: Events
-				Enabled: 有効化
-				Disabled: 無効化
-				PartiallyEnabled: partially enabled
+				EventPlural: イベント
+				Enabled: 有効
+				Disabled: 無効
+				PartiallyEnabled: 一部有効
 			}
 
 			Tabs: {
-				ToggleFilters: Toggle Filters
-				TableOfContents: Table of Contents
-				Credits: Credits
+				ToggleFilters: フィルターを切り替え
+				TableOfContents: 目次
+				Credits: クレジット
 				NextEntry:
 					'''
-					Next {0}:
+					次は {0}:
 					{1}
 					'''
-				Records: Records
-				SpawnInfo: Spawn Info
-				LootAndCollectibles: Loot & Collectibles
+				Records: 記録
+				SpawnInfo: 召喚方法
+				LootAndCollectibles: ドロップ品一覧
 			}
 
 			Indicator: {
-				ProgressionMode: Progression mode is {0}
-				OnlyBossContentEnabled: Only boss content is available to be displayed
-				OnlyBossContentDisabled: All content is available to be displayed
+				ProgressionMode: 進行モードは {0}
+				OnlyBossContentEnabled: 現在ボスの項目のみを表示中
+				OnlyBossContentDisabled: 現在全ての項目を表示中
 			}
 
 			TableOfContents: {
-				PreHardmode: Pre-Hardmode
-				Hardmode: Hardmode
-				ProgressBarListMods: Click to switch to Mod List mode
-				ProgressBarListTypes: Click to switch to Entry Type mode
-				AllLoot: All boss loot obtained!
-				AllDropLoot: All non-collectible boss loot obtained!
-				AllCollectibles: All boss collectibles Obtained!
+				PreHardmode: ハードモード前
+				Hardmode: ハードモード
+				ProgressBarListMods: クリックするとMODリストモードに切り替わります
+				ProgressBarListTypes: クリックすると項目種別モードに切り替わります
+				AllLoot: 全てのボス戦利品を入手しました！
+				AllDropLoot: 全てのボスドロップ品を入手しました！
+				AllCollectibles: 全てのボス収集品を入手しました！
 
 				Filter: {
-					Show: "{0}: Shown"
-					Hide: "{0}: Hidden"
+					Show: "{0}: 表示"
+					Hide: "{0}: 非表示"
 					HideWhenCompleted: "{0}: Hidden when defeated"
-					ToggleVisibility: Toggle hidden visibility
-					Disabled: Filter disabled due to 'Only Show Boss Content' config
+					ToggleVisibility: 表示状態を切り替える
+					Disabled: 「ボスの項目のみを表示」コンフィグによりフィルターが無効化中
 				}
 			}
 
 			Credits: {
-				Devs: Contributors
-				Mods: Registered Mods
+				Devs: コントリビューター
+				Mods: 項目を登録してくれたMod
 				Notice: "[List only contains loaded mods]"
-				NoIcon: Mod icon not found!
-				ModsEmpty: None of the loaded mods have any submissions registered to the Boss Log. If you want your favorite mods to be included, inform the mod's team on their steam workshop page or discord server!
+				NoIcon: Modアイコンが見つかりません！
+				ModsEmpty: 現在ロードされているMODのうち、このリストにボスを登録しているModはありません。お気に入りのMODを入れて欲しい場合は、MODのチームにSteam WorkshopのページかDiscordサーバーで知らせてください！
 			}
 
 			EntryPage: {
-				Defeated: Defeated in {0}
-				Undefeated: Undefeated in {0}
-				CopyKey: Click to copy internal 'boss key' to clipboard
-				CopySource: Click to copy internal 'mod source' to clipboard
-				ViewPage: Click to view page
-				NotImplemented: The display for this page is unavailable. The mod has either not submitted a page or has it improperly set up.
-				LogFeaturesNotAvailable: Records, spawn items, and the loot table are disabled for this page. The mod has either not submitted enough info for a page or has it improperly set up.
+				Defeated:  {0}　で倒した
+				Undefeated: {0}　では倒していない
+				CopyKey: クリックすると内部のキーがクリップボードにコピーされます。
+				CopySource: クリックすると内部のソースがクリップボードにコピーされます。
+				ViewPage: クリックしてページを表示
+				NotImplemented: このページの表示は利用できません。修正者がページを投稿していないか、不適切に設定されています。
+				LogFeaturesNotAvailable: このページでは、記録、スポーンアイテム、戦利品テーブルが無効になっています。このMODはページのために十分な情報を提出していないか、不適切に設定されています。
 			}
 
 			Records: {
-				NewRecord: New Record!
-				NewWorldRecord: World Record!
-				NoRecord: No record
-				Unchallenged: Unchallenged
-				Kills: kills
-				Deaths: deaths
-				Total: Total
-				NoHit: No hit!
-				PreviousBest: Your Previous Best
-				ClaimRecord: Be the first to claim the world record!
-				RecordHolder: Record Holder(s)
+				NewRecord: 新記録達成！
+				NewWorldRecord: 世界新記録達成！
+				NoRecord: 記録なし
+				Unchallenged: 挑戦したことがない
+				Kills: 討伐数
+				Deaths: 死亡数
+				Total: 合計
+				NoHit: 無被弾!
+				PreviousBest: これまでのベスト
+				ClaimRecord: 世界記録樹立を目指そう！
+				RecordHolder: 記録保持者
 
 				Category: {
-					PreviousAttempt: Previous Attempt
-					FirstVictory: First Victory
-					PersonalBest: Personal Best
-					WorldRecord: World Records
+					PreviousAttempt: 以前挑んだ順
+					FirstVictory: 最初に勝った順
+					PersonalBest: 自己ベスト順
+					WorldRecord: 世界記録順
 					Cycle: Cycle record categories
 				}
 
@@ -221,7 +221,7 @@ Mods: {
 		}
 
 		BossSpawnInfo: {
-			Unknown: Spawn conditions unknown
+			Unknown: このボスの召喚条件は不明です
 			KingSlime: Use [i:560], randomly in outer 3rds of map, or kill 150 slimes during slime rain.
 			EyeofCthulhu: Use [i:43] at night, or 1/3 chance nightly if over 200 HP.
 			EaterofWorlds: Use [i:70] or break 3 Shadow Orbs in a corruption chasm.
@@ -265,8 +265,8 @@ Mods: {
 		}
 
 		Keybinds: {
-			ToggleChecklist.DisplayName: Toggle Boss Checklist
-			ToggleLog.DisplayName: Toggle Boss Log
+			ToggleChecklist.DisplayName: ボスチェックリストの表示を切り替え
+			ToggleLog.DisplayName: ボスログの表示を切り替え
 		}
 
 		Configs: {
