@@ -22,21 +22,21 @@ NPCs: {
    	 }
     }
 
-    MobileMerchant: {
-   	 DisplayName: Mobile Merchant
+        MobileMerchant: {
+   	 DisplayName: 携帯型商人
 
    	 TownNPCMood: {
-   		 Content: Hey there, nice to chat with you ^^
-   		 NoHome: I don't understand this urge to have a home, I am just a static flying merchant...
-   		 FarFromHome: Huh? No, I don't need a home.
+   		 Content: わあ、お話できて嬉しいな。＾＾
+   		 NoHome: 家を持ちたいというこの衝動が理解できない。私はただの動かない飛行商人なのに...。
+   		 FarFromHome: え？いや、家はいらないわ。
    		 LoveSpace: There is so much room for me and some friends, thank you ^^
-   		 DislikeCrowded: Is there a party going on here? There is a few too many people around here.
+   		 DislikeCrowded: パーティーでもやってるの？ちょっと人が多すぎよ。
    		 HateCrowded: There is way too many people around here, please make them go away.
    		 LikeNPC_Princess: I like {NPCName}.
-   		 Princess_LovesNPC: I like {NPCName}.
+   		 Princess_LovesNPC: わたしは {NPCName} が好きね
    	 }
 
-   	 Chat: Hurry up, I can't stay for long...
+   	 Chat: いそいで、ここには長くいられないの...
     }
 
     SkeletonMerchant: {
