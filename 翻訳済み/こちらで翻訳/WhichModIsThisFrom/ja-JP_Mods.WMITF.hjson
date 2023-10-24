@@ -1,0 +1,39 @@
+TechNamesOn: "[WMITF] 内部名称が有効になりました"
+
+TechNamesOff: "[WMITF] 内部名称が無効になりました"
+
+WorldTooltipsOn: "[WMITF] NPCとタイルのツールチップが有効になりました"
+
+WorldTooltipsOff: "[WMITF] NPCとタイルのツールチップが有効になりました"
+
+Keybinds: {
+	"Technical Names": {
+		DisplayName: 内部名称の表示
+	}
+
+	"Tile/NPC Mod Tooltip": {
+		DisplayName: NPCとタイルのMod名のツールチップの表示
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: WMITFの設定
+
+		DisplayWorldTooltips: {
+			Label: ワールドのツールチップの表示
+			Tooltip: NPCやタイルの上にカーソルを置いたときに、MOD名のツールチップを表示するかどうか
+		}
+
+		DisplayItemTooltips: {
+			Label: アイテムのツールチップの表示
+			Tooltip: アイテムのツールチップにMOD名のツールチップを表示するかどうか
+		}
+
+		DisplayTechnicalNames: {
+			Label: 内部名称の表示
+			Tooltip: 内部名称を表示するかどうか
+		}
+	}
+}
+
