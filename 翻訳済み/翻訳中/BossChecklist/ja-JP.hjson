@@ -71,14 +71,14 @@ Mods: {
 			}
 
 			Records: {
-				NewRecord: 新記録達成！
-				NewWorldRecord: 世界新記録達成！
+				NewRecord: 新記録！
+				NewWorldRecord: 世界新記録！
 				NoRecord: 記録なし
 				Unchallenged: 挑戦したことがない
 				Kills: 討伐数
 				Deaths: 死亡数
 				Total: 合計
-				NoHit: 無被弾!
+				NoHit: 無被弾！
 				PreviousBest: これまでのベスト
 				ClaimRecord: 世界記録樹立を目指そう！
 				RecordHolder: 記録保持者
@@ -271,7 +271,7 @@ Mods: {
 
 		Configs: {
 			BossLogConfiguration: {
-				DisplayName: Boss Log Customization
+				DisplayName: ボスログカスタマイズ
 
 				Headers: {
 					BossLogUI: "[i:149] [c/ffeb6e:Boss Log UI]"
