@@ -20,7 +20,7 @@ Configs: {
 			Label: 画面内に居るボスのカーソルを描画しない
 		}
 
-		DisplayName: Config
+		DisplayName: コンフィグ
 	}
 }
 
