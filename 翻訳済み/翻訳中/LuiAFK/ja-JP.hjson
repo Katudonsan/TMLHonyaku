@@ -1838,10 +1838,15 @@ Items: {
     }
 
 
-    UltimatePeaceful: {
-            DisplayName: 平和のちからあぁぁぁぁぁぁぁぁあ！
-            Tooltip: とても静かだ。敵のスポーンが大幅に減少
-    }
+	UltimatePeaceful: {
+        	DisplayName: 平和のちからあぁぁぁぁぁぁぁぁあ！
+        	Tooltip:
+                	'''
+                	 とても静かだ。
+                	敵のスポーンが大幅に減少
+                	'''
+	}
+
 
 
     UnlimitedArena: {
