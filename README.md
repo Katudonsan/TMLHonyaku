@@ -16,3 +16,5 @@
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2562997415"><p>ShorterRespawn</p></a>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2837407674"><p>Lan's Unlimited Buff Slots</p></a>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2816694149"><p>BossCursor</p></a>
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2563784437"><p>Cheat Sheet</p></a>
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2563851005"><p>Which Mod Is This From?</p></a>
