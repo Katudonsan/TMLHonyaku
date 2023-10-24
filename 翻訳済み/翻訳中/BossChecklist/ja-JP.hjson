@@ -229,7 +229,7 @@ Mods: {
 			QueenBee: [i:1133] を使うか、ジャングルの蜂の巣で幼虫を見つけて壊す
 			Skeletron: 夜のダンジョンを訪れ、老人と会話して「呪い（Curse）」を選ぶ、または 夜に仕立て屋を[i:1307]などを用いて殺す
 			Deerclops: [i:5120]を雪原で使う。もしくは夜中、吹雪の雪原に自然出現する
-			WallofFlesh:  [i:267]地獄の溶岩にガイドのブードゥー人形を投げ込むと出現する（投げ込んだ際にガイドは死にます） [c/FF0000:Starts Hardmode!]
+			WallofFlesh:  ガイドが生きているときに地獄の溶岩に[i:267]を投げ込むと出現する（投げ込んだ際にガイドは死にます） [c/FF0000:Starts Hardmode!]
 			QueenSlimeBoss: Use [i:4988] in the Hallow biome, which can be found in the Underground Hallow among Crystal Shards growing on Pearlstone and Pink Ice blocks.
 			TheTwins: 10% chance to randomly spawn each night after the first altar is destroyed, until one mech boss is defeated. Alternatively, Use [i:544] at night to spawn.
 			TheDestroyer: 10% chance to randomly spawn each night after the first altar is destroyed, until one mech boss is defeated. Use [i:556] at night to spawn.
