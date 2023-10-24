@@ -2,15 +2,15 @@ Mods: {
 	BossChecklist: {
 		Log: {
 			Common: {
-				BossLog: Boss Log
-				Boss: Boss
+				BossLog: ボスログ
+				Boss: ボス
 				BossPlural: Bosses
-				MiniBoss: Mini-boss
+				MiniBoss: ミニボス
 				MiniBossPlural: Mini-bosses
-				Event: Event
+				Event: イベント
 				EventPlural: Events
-				Enabled: enabled
-				Disabled: disabled
+				Enabled: 有効化
+				Disabled: 無効化
 				PartiallyEnabled: partially enabled
 			}
 
