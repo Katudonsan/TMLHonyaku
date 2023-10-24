@@ -1,0 +1,27 @@
+Configs: {
+	Config: {
+		BlackListPillars: {
+			Tooltip: ピラーに対してカーソルを描画するか
+			Label: ピラーカーソルを描画しない
+		}
+
+		CursorSize: {
+			Tooltip: カーソルの表示倍率
+			Label: カーソルの大きさ
+		}
+
+		CursorDistance: {
+			Tooltip: プレイヤーとカーソルの距離
+			Label: カーソルの距離
+		}
+
+		HideOnScreen: {
+			Tooltip: ボスがカメラ内にいるときにカーソルを隠す
+			Label: 画面内に居るボスのカーソルを描画しない
+		}
+
+		DisplayName: Config
+	}
+}
+
+"Keybinds.Toggle Boss Cursor.DisplayName": ボスカーソルの切り替え
