@@ -1,0 +1,119 @@
+Mods: {
+	FargoEnemyModifiers: {
+		NPCs.BabySpider.DisplayName: 赤ちゃん蜘蛛
+		Configs: {
+			EnemyModifiersConfig: {
+				DisplayName: Enemy Modifiers Config
+				Header1: 能力設定
+				Header2: ブラックリスト
+				ModifierAnnouncements: {
+					Label: 能力のお知らせ
+					Tooltip: しばらくの間、敵の頭上に能力が表示される
+				}
+				BossModifiers: {
+					Label: ボスが能力を持てるか
+					Tooltip: ""
+				}
+				ChanceForModifier: {
+					Label: 能力適用の確率 (%)
+					Tooltip: ""
+				}
+				ForceModifier: {
+					Label: 能力の強制
+					Tooltip: ""
+				}
+				ModifierEnum: {
+					Label: 強制する能力
+					Tooltip: ""
+				}
+				NPCBlacklist: {
+					Label: NPCブラックリスト
+					Tooltip: ここにいれたNPCは、決して能力を受けることができない。
+				}
+				ModifierBlacklist: {
+					Label: 能力ブラックリスト
+					Tooltip: これらの能力は表示されない
+				}
+				ModifierAmount: {
+					Label: 能力の最大量
+					Tooltip: ""
+				}
+				ChanceForExtraModifier: {
+					Label: 追加の能力の確率 (%)
+					Tooltip: ""
+				}
+				AnnouncementsForever: {
+					Label: お知らせを表示したままにするか
+					Tooltip: 能力名は常に敵の上に表示される
+				}
+			}
+			ModifierID: {
+				Tooltip: ""
+				Armored.Label: 装甲
+				Impenetrable.Label: 不可侵
+				Light.Label: Light
+				Menacing.Label: Menacing
+				Rampaging.Label: Rampaging
+				Regenerating.Label: Regenerating
+				Slow.Label: Slow
+				Sluggish.Label: Sluggish
+				Splitting.Label: Splitting
+				Swift.Label: Swift
+				Unrelenting.Label: Unrelenting
+				Wealthy.Label: Wealthy
+				Accelerating.Label: Accelerating
+				Bloodthirsty.Label: Bloodthirsty
+				Bulletproof.Label: Bulletproof
+				Fortifying.Label: Fortifying
+				Hexproof.Label: Hexproof
+				Huge.Label: でかい
+				Infested.Label: Infested
+				Miniature.Label: Miniature
+				Possessed.Label: Possessed
+				Rallying.Label: Rallying
+				Shielded.Label: Shielded
+				Stealthy.Label: Stealthy
+				Veiled.Label: Veiled
+				Chained.Label: Chained
+				Devouring.Label: Devouring
+				Hyper.Label: Hyper
+				Juggernaut.Label: Juggernaut
+				Merchant.Label: Merchant
+				Rainbow.Label: Rainbow
+				Warping.Label: Warping
+				Worm.Label: Worm
+				Delerious.Label: Delerious
+				Duke.Label: Duke
+				Healthy.Label: Healthy
+				Flaming.Label: Flaming
+				Medic.Label: Medic
+				Metallic.Label: Metallic
+				Pyro.Label: Pyro
+				Vaccinated.Label: Vaccinated
+				Vampiric.Label: Vampiric
+				Solidifed.Label: Solidifed
+				Undying.Label: Undying
+				Imaginary.Label: Imaginary
+				Sticky.Label: Sticky
+				Unstable.Label: Unstable
+				Nested.Label: Nested
+				Royal.Label: Royal
+				Showman.Label: Showman
+				Red.Label: Red
+				Lethal.Label: Lethal
+				Blue.Label: Blue
+				Green.Label: Green
+				Orange.Label: Orange
+				Purple.Label: Purple
+				Yellow.Label: Yellow
+			}
+			ModifierPicker: {
+				Tooltip: ""
+				ModifierEnum: {
+					Label: ブラックリストに入れる能力
+					Tooltip: ""
+				}
+			}
+		}
+	}
+}
