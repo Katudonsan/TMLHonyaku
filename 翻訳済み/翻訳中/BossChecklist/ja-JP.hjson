@@ -46,7 +46,7 @@ Mods: {
 				Filter: {
 					Show: "{0}: 表示"
 					Hide: "{0}: 非表示"
-					HideWhenCompleted: "{0}: Hidden when defeated"
+					HideWhenCompleted: "{0}: 撃破済みを非表示"
 					ToggleVisibility: 表示状態を切り替える
 					Disabled: 「ボスの項目のみを表示」コンフィグによりフィルターが無効化中
 				}
@@ -55,7 +55,7 @@ Mods: {
 			Credits: {
 				Devs: コントリビューター
 				Mods: 項目を登録してくれたMod
-				Notice: "[List only contains loaded mods]"
+				Notice: "[リストから見つかったModのみを掲載しています]"
 				NoIcon: Modアイコンが見つかりません！
 				ModsEmpty: 現在ロードされているMODのうち、このリストにボスを登録しているModはありません。お気に入りのMODを入れて欲しい場合は、MODのチームにSteam WorkshopのページかDiscordサーバーで知らせてください！
 			}
