@@ -2791,22 +2791,22 @@ Tiles: {
 
 Keybinds: {
 	"Luiafk Recall": {
-        	DisplayName: Recall Home
+        	DisplayName: 帰還
 	}
 
 
 	"Luiafk Recall Back": {
-        	DisplayName: Return Back
+        	DisplayName: 元の地点に戻る
 	}
 
 
 	"Luiafk Buffs": {
-        	DisplayName: Buffs
+        	DisplayName: バフ
 	}
 
 
 	"Luiafk Buff Settings": {
-        	DisplayName: Potions Toggle
+        	DisplayName: ポーション効果の切り替え
 	}
 }
 
@@ -3015,7 +3015,7 @@ Configs: {
 
 
 	SettingsConfigClient: {
-        	DisplayName: LuiAFK Config Client
+        	DisplayName: LuiAFK クライアントコンフィグ
 
 
         	Headers: {
@@ -3053,36 +3053,36 @@ LuiafkRecipes: {
 	Gems: 宝石ならなんでも
 	Buckets:
         	'''
-        	Ultimate Liquid Manipulator or Pool Builder
-        	Not consumed on crafting
+       		究極の液体マニピュレータまたはプール製造機
+        	クラフトでは消費されない
         	'''
 	UltimateBuckets:
         	'''
-        	Ultimate Liquid Manipulator
-        	Not consumed on crafting
+        	究極の液体マニピュレータ
+        	クラフトでは消費されない
         	'''
 	Regrowth:
         	'''
-        	Staff of Regrowth or Plant Harvester
-        	Not consumed on crafting
+        	再成長の杖またはプラント・ハーベスター
+        	クラフトでは消費されない
         	'''
-	AdamTitanBar: Adamantite or Titanium Bars
-	CopperTinBar: Copper or Tin Bars
-	PlatGoldBar: Platinum or Gold Bars
-	IceSnowBlock: Ice or Snow Block
-	LifeCrystal: Life Crystal or Heart Lantern
-	FallenStar: Fallen Star or Star in a Bottle
-	Torches: Any Torch
-	Streamer: Any Streamer
-	WebSilkRope: Web or Silk Rope
-	RopeVine: Rope or Vine Rope
-	Tipsy: Ale or Sake
-	EvilFlask: Flask of Ichor or Cursed Flames
-	Extractinator: Silt, Shlush, or Desert Fossil
-	EvilMushroom: Vile or Vicious Mushroom
-	EvilPowder: Vile or Vicious Powder
-	GoldWatch: Gold or Platinum Watch
-	SandBlock: Any Sand Block
+	AdamTitanBar: アダマンタイトインゴット　か　チタンインゴット
+	CopperTinBar: 銅のインゴット　か　錫のインゴット
+	PlatGoldBar: プラチナインゴット　か　金のインゴット
+	IceSnowBlock: 氷　か　雪
+	LifeCrystal: ライフクリスタル　か　ハートランタン
+	FallenStar: 流れ星　か　流れ星入りの瓶
+	Torches: 松明ならなんでも
+	Streamer: ストリーマーのどれか
+	WebSilkRope: 蜘蛛糸のロープ　か　シルクのロープ
+	RopeVine: ロープ　か　蔦のロープ
+	Tipsy: エールか酒
+	EvilFlask: イコルのフラスコ　か　呪われた炎のフラスコ
+	Extractinator: 水雪ブロック　か　沈泥ブロック　もしくは　砂漠の化石
+	EvilMushroom: きけんなキノコ　か　じゃあくなキノコ
+	EvilPowder: 真紅の粉　か　不浄な粉
+	GoldWatch: 金の時計　か　プラチナの時計
+	SandBlock: 砂であればなんでも
 	EvilBar: クリムタンインゴットもしくはデモナイトインゴット
 	EvilOre: クリムタン鉱石もしくはデモナイト鉱石
 	EvilOreMat: シャドウスケイルか組織サンプル
@@ -3097,13 +3097,13 @@ FishingRod: {
 	RequireBait: 要求する餌
 	Bait: 餌
 	Power: パワー
-	Quests1: Throws an extra line for every {0} fishing {^0:quest;quests} completed.
+	Quests1: 釣りクエストを{0}回クリアするごとに釣り糸が1本追加される。
 }
 
 
 UnlimitedLucky: {
-	NoTorchLuck: The torches don't pay attention to your presence
-	TorchLuck: The torches grant you their blessing
+	NoTorchLuck: 松明の神はあなたの存在に注意を払わない
+	TorchLuck: 松明の神はあなたに祝福を与えている
 }
     	}
 }
