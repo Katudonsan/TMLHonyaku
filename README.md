@@ -12,7 +12,7 @@
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2864004486"><p>変換データの元データリンク</p></a>
 <p>eve828さんが配布されており、ここで再配布されているテラリアの日本語化変換データのライセンスは「CC BY-NC-SA 4.0（表示 - 非営利 - 継承 4.0 国際）」を継承します</p>
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja"><p>https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja</p></a>
-<p>ここの日本語化したデータのライセンスは現在選定中です（直接のデータ再配布よりリンクを貼っていただけると…あとは誤訳などあればIssuesなどで指摘いただけると…）</p>
+<p>ここの日本語化したデータのライセンスは現在選定中です（直接のデータ再配布よりリンクを貼っていただけるとサポートしやすいです…あとは誤訳などあればIssuesなどで指摘いただけるとありがたいです…）</p>
 <p>現在の対応Mod（対応完了順）</p>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2562997415"><p>ShorterRespawn</p></a>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2837407674"><p>Lan's Unlimited Buff Slots</p></a>
