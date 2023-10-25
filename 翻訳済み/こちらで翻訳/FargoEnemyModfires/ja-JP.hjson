@@ -1,0 +1,59 @@
+Mods: {
+	FargoEnemyModifiers: {
+		NPCs.BabySpider.DisplayName: 赤ちゃん蜘蛛
+		Configs: {
+			EnemyModifiersConfig: {
+				DisplayName: Enemy Modifiers Config
+				Header1: 能力設定
+				Header2: ブラックリスト
+				ModifierAnnouncements: {
+					Label: 能力のお知らせ
+					Tooltip: しばらくの間、敵の頭上に能力が表示される
+				}
+				BossModifiers: {
+					Label: ボスが能力を持てるか
+					Tooltip: ""
+				}
+				ChanceForModifier: {
+					Label: 能力適用の確率 (%)
+					Tooltip: ""
+				}
+				ForceModifier: {
+					Label: 能力の強制
+					Tooltip: ""
+				}
+				ModifierEnum: {
+					Label: 強制する能力
+					Tooltip: ""
+				}
+				NPCBlacklist: {
+					Label: NPCブラックリスト
+					Tooltip: ここにいれたNPCは、決して能力を受けることができない。
+				}
+				ModifierBlacklist: {
+					Label: 能力ブラックリスト
+					Tooltip: これらの能力は表示されない
+				}
+				ModifierAmount: {
+					Label: 能力の最大量
+					Tooltip: ""
+				}
+				ChanceForExtraModifier: {
+					Label: 追加の能力の確率 (%)
+					Tooltip: ""
+				}
+				AnnouncementsForever: {
+					Label: お知らせを表示したままにするか
+					Tooltip: 能力名は常に敵の上に表示される
+				}
+			}
+			ModifierPicker: {
+				Tooltip: ""
+				ModifierEnum: {
+					Label: ブラックリストに入れる能力
+					Tooltip: ""
+				}
+			}
+		}
+	}
+}
