@@ -1,0 +1,609 @@
+Mods: {
+	BossChecklist: {
+		Log: {
+			Common: {
+				BossLog: ボスログ
+				Boss: ボス
+				BossPlural: ボスたち
+				MiniBoss: ミニボス
+				MiniBossPlural: ミニボスたち
+				Event: イベント
+				EventPlural: イベント
+				Enabled: 有効
+				Disabled: 無効
+				PartiallyEnabled: 一部有効
+			}
+
+			Tabs: {
+				ToggleFilters: フィルターを切り替え
+				TableOfContents: 目次
+				Credits: クレジット
+				NextEntry:
+					'''
+					次は {0}:
+					{1}
+					'''
+				Records: 記録
+				SpawnInfo: 召喚方法
+				LootAndCollectibles: ドロップ品一覧
+			}
+
+			Indicator: {
+				ProgressionMode: 進行モードは {0}
+				OnlyBossContentEnabled: 現在ボスの項目のみを表示中
+				OnlyBossContentDisabled: 現在全ての項目を表示中
+			}
+
+			TableOfContents: {
+				PreHardmode: ハードモード前
+				Hardmode: ハードモード
+				ProgressBarListMods: クリックするとMODリストモードに切り替わります
+				ProgressBarListTypes: クリックすると項目種別モードに切り替わります
+				AllLoot: 全てのボス戦利品を入手しました！
+				AllDropLoot: 全てのボスドロップ品を入手しました！
+				AllCollectibles: 全てのボス収集品を入手しました！
+
+				Filter: {
+					Show: "{0}: 表示"
+					Hide: "{0}: 非表示"
+					HideWhenCompleted: "{0}: 撃破済みを非表示"
+					ToggleVisibility: 表示状態を切り替える
+					Disabled: 「ボスの項目のみを表示」コンフィグによりフィルターが無効化中
+				}
+			}
+
+			Credits: {
+				Devs: コントリビューター
+				Mods: 項目を登録してくれたMod
+				Notice: "[リストから見つかったModのみを掲載しています]"
+				NoIcon: Modアイコンが見つかりません！
+				ModsEmpty: 現在ロードされているMODのうち、このリストにボスを登録しているModはありません。お気に入りのMODを入れて欲しい場合は、MODのチームにSteam WorkshopのページかDiscordサーバーで知らせてください！
+			}
+
+			EntryPage: {
+				Defeated:  {0}　で倒した
+				Undefeated: {0}　では倒していない
+				CopyKey: クリックすると内部のキーがクリップボードにコピーされます。
+				CopySource: クリックすると内部のソースがクリップボードにコピーされます。
+				ViewPage: クリックしてページを表示
+				NotImplemented: このページの表示は利用できません。修正者がページを投稿していないか、不適切に設定されています。
+				LogFeaturesNotAvailable: このページでは、記録、スポーンアイテム、戦利品テーブルが無効になっています。このMODはページのために十分な情報を提出していないか、不適切に設定されています。
+			}
+
+			Records: {
+				NewRecord: 新記録！
+				NewWorldRecord: 世界新記録！
+				NoRecord: 記録なし
+				Unchallenged: 挑戦したことがない
+				Kills: 討伐数
+				Deaths: 死亡数
+				Total: 合計
+				NoHit: 無被弾！
+				PreviousBest: これまでのベスト
+				ClaimRecord: 世界記録樹立を目指そう！
+				RecordHolder: 記録保持者
+
+				Category: {
+					PreviousAttempt: 以前挑んだ順
+					FirstVictory: 最初に勝った順
+					PersonalBest: 自己ベスト順
+					WorldRecord: 世界記録順
+					Cycle: 記録のカテゴリを切り替える
+				}
+
+				Title: {
+					PreviousAttempt: 挑戦回数
+					FirstVictory: 初討伐時プレイ時間
+					PersonalBest: 死亡率
+					WorldRecord: 世界記録
+					Duration: 戦闘時間
+					DurationWorld: 最短戦闘時間
+					HitsTaken: ヒット数
+					HitsTakenWorld: 最小ヒット数
+				}
+
+				Tooltip: {
+					Duration: このボスを倒した最短時間！
+					HitsTaken: できるだけ攻撃を避けて、このボスをノーヒットで倒そう！
+					PreviousAttempt: このボスに遭遇した回数！
+					PersonalBest: あなたがこのボスを倒した回数と、このボスがあなたを倒した回数の合計！
+					FirstVictory: キャラクターが最初にこのボスを倒したときの総プレイ時間！
+					WorldRecord: このボスが全プレイヤーをキルした数と、プレイヤーに倒された数！
+				}
+			}
+
+			SpawnInfo: {
+				NoInfo: 情報なし
+				RecipeFrom: レシピ： {0}
+				CycleRecipe: 違うレシピに切り替え
+				Noncraftable: このアイテムはクラフトできません
+				NoSpawnItem:  {0} はスポーンアイテムを必要としません
+				ByHand: 手を使って
+			}
+
+			LootAndCollection: {
+				MaskedItems: この項目を倒すことで、戦利品と収集品を見ることができる。
+				ItemIsExpertOnly: このアイテムはエキスパートモード以上でのみ入手可能。
+				ItemIsMasterOnly: このアイテムはマスターモード以上でのみ入手可能。
+				ItemIsLocked: このアイテムを入手するには特別な条件があります。
+			}
+
+			ProgressionMode: {
+				BeforeYouBegin: 始める前に…
+				AskEnable: プログレッションモードを有効にしますか？
+				SelectAnOption: 以下のオプションを選択してください…
+				SelectDisable: プログレッションモードを無効にして続ける
+				SelectEnable: プログレッションモードを完全に有効にして続ける
+				SelectConfig: ボスログを閉じ、プログレッションモードを設定する…
+				DisablePrompt:
+					'''
+					二度と表示しない
+					(新規作成キャラクターの場合)
+					'''
+				Description:
+					'''
+					プログレッションモードでは、ボスを倒すか何らかの条件が満たされるまで、多くの項目が隠される。このモードはネタバレを避けたプレイに最適です。
+
+					さらに、ボスログはいずれかのオプションが選択されるまで表示されない！
+					'''
+				IsEnabled:
+					'''
+					[i:888] プログレッションモードが完全に、または部分的に有効になっている！
+					これはボスが倒されるまで、ボスに関するいくつかの情報を隠します。
+					プログレッションモードを無効化または設定するには、以下の場所に行ってください：
+					設定＞MOD設定＞Boss Checklist： ボスログカスタマイズ
+					をクリックし、プログレスモードの設定まで下にスクロールしてください。
+					'''
+			}
+
+			HintTexts: {
+				MarkEntry: チェックリストの項目を右クリックし、達成済みとして設定する。
+				HideEntry: altキーを押しながら右クリックし、チェックリストから項目を非表示にする。
+				ClearMarked: altキーを押しながらフィルタータブを右クリックすると、達成済みとして設定されているすべての項目を元の状態に戻す。
+				ClearHidden: altキーを押しながら「表示状態を切り替える」ボタンを右クリックすると、すべての非表示項目を元の状態に戻す。
+				ClearItems: altキーを押しながらトレジャーバッグを右クリックすると、この項目のページにあるすべてのアイテムを未入手として設定する。
+				RemoveItem: altキーを押しながら目的のアイテムスロットを右クリックすると、未入手のアイテムを達成済みとして設定する。
+				ClearAllRecords: altキーを押しながら「記録のカテゴリを切り替える」ボタンを右クリックすると、このボスのすべての記録が消去される。
+				ClearRecord: altを押しながらアイコンを右クリックすると、記録の値が消去されます。
+			}
+		}
+
+		Checklist: {
+			ToggleCompletedTooltip: 達成した表示を切り替える
+			ToggleMiniBossesTooltip: ミニボスの表示を切り替える
+			ToggleEventsTooltip: イベントの表示を切り替える
+			ToggleShowHiddenBossesTooltip:
+				'''
+				隠しボスの表示を切り替える
+				（Altキーを押しながらクリックで非表示のボスを消去）
+				（Altキーを押しながら個別にボスをクリックするとそのボスは非表示になります。）
+				'''
+		}
+
+		ChatMessages: {
+			Despawn: {
+				Generic: "{0}  はもうあなたを追っていない…"
+				Day: "{0} は日の出とともに逃げ去った…"
+			}
+
+			Defeated: {
+				Tower: {0} は破壊された！
+				Limb: "{0} が壊れた！"
+			}
+
+			Loss: {
+				Generic: "{0} はすべてのプレイヤーを殺した！"
+				KingSlime: "{0} は勝利して帰国した…"
+				EyeofCthulhu: "{0} は夜空に消えた…"
+				EaterofWorlds: "{0} は地下に潜っていった…"
+				BrainofCthulhu: "{0} は真紅の淵に消えていく…"
+				QueenBee: "{0} はコロニーの巣に戻っていく…"
+				Skeletron: "{0} は老人を苦しめ続ける…"
+				WallofFlesh: "{0}は地獄を渡ることに成功した…"
+				QueenSlimeBoss: "{0} はポンポンと弾んでいく…"
+				TheTwins: "{0} たちは観測を続ける…"
+				TheDestroyer: "{0} は貪るように別の世界を求めていった…"
+				SkeletronPrime: "{0} は新たな犠牲者を探し始める…"
+				Plantera: "{0} はジャングルの中で休息を続ける…"
+				Golem: "{0} は寺院の地下で活動停止した…"
+				HallowBoss: "{0} は聖域の光へと散っていく…"
+				DukeFishron: "{0} は深海に戻っていく…"
+				CultistBoss: "{0} は献身的な崇拝に戻っていった…"
+				MoonLord: "{0} はこの世を去っていった…"
+			}
+
+			EventEnd: {
+				BloodMoon: ブラッドムーンは地平線を越えて落ちていった…
+				FrostMoon: 太陽が昇るにつれてフロストムーンが溶けていく…
+				PumpkinMoon: パンプキンムーンは収穫を終え落ちていった…
+				SolarEclipse: 日食は終わった…また次の機会まで…
+			}
+		}
+
+		BossSpawnInfo: {
+			Unknown: このボスの召喚条件は不明です
+			KingSlime:  [i:560]　を使うか、マップの外側３分の１より外にランダムで出現する、もしくは スライムレイン中に１５０体のスライムを倒す
+			EyeofCthulhu:  [i:43] を夜に使う、または誰か一人のライフが２００以上であれば、夜になるたびに１／３の確率で出現する（勝利後は発生しなくなる）
+			EaterofWorlds: [i:70] を使うか、不浄の大地でシャドウオーブを３つ壊すたびに出現する
+			BrainofCthulhu: [i:1331]　を使うか、真紅の大地でクリムゾンハートを３つ壊すたびに出現する
+			QueenBee: [i:1133] を使うか、ジャングルの蜂の巣で幼虫を見つけて壊す
+			Skeletron: 夜のダンジョンを訪れ、老人と会話して「呪い（Curse）」を選ぶ、または 夜に仕立て屋を[i:1307]などを用いて殺す
+			Deerclops: [i:5120]を雪原で使う。もしくは夜中、吹雪の雪原に自然出現する
+			WallofFlesh:  ガイドが生きているときに地獄の溶岩に[i:267]を投げ込むと出現する（投げ込んだ際にガイドは死にます） [c/FF0000:討伐するとハードモードが始まります！]
+			QueenSlimeBoss:  [i:4988]を聖域で使う。[i:4988]は地下聖域でパールストーンかピンクアイスのブロックに生える。
+			TheTwins: 最初の祭壇が破壊された後、メカボスを1体倒すまで毎晩10%の確率でランダムに出現する。あるいは夜に[i:544]を使って召喚する
+			TheDestroyer: 最初の祭壇が破壊された後、メカボスを1体倒すまで毎晩10%の確率でランダムにスポーンする。あるいは夜に[i:556]を使うとスポーンする。
+			SkeletronPrime: 最初の祭壇が破壊された後、メカボスを1体倒すまで毎晩10%の確率でランダムにスポーンする。 あるいは夜に[i:557]を使うとスポーンする。
+			Plantera: メカニカルボスを3体倒した後、ジャングルでプランテラの球根を壊す。
+			Golem: ジャングル寺院に設置してあるリザードの祭壇で[i:1293]を使う。祭壇自体はジャングルに存在する必要はない。
+			HallowBoss: プランテラを倒した後、夜の間に聖域の地表にいる[i:4961]を聖域で倒す。[c/FF0000:昼に召喚すると凶暴化します！]
+			DD2Betsy: Old One's Army (Tier 3)の最終WaveであるWave 7で出現する。
+			DukeFishron: [i:2673]をエサにして海で釣りをする。[i:2673]は地下の光るキノコのバイオームで捕まえることができる。
+			CultistBoss: ゴーレムを倒した後、ダンジョンの入口で祈りを捧げる4人の怪しい信者たちを倒せ。
+			MoonLord: ピラーが出現していないタイミングで[i:3601]を使うか、4本のピラーをすべて倒す。
+			MoonLord_Tremor: [i:3601]を使うか、5本のピラーをすべて倒す。[c/FF0000:トレモード開始!]※デバッグ用のダミーだと思われます
+			BloodMoon: ブラッドムーンの敵がドロップする[i:4271]で召喚できる。またはワールド内のプレイヤーの体力の合計が100以上かつ現在の月の満ち欠けが新月ではない場合、夜の始まりにランダムに発生する。一度発生すると日の出まで続く。
+			GoblinArmy: 少なくとも1つのシャドウオーブまたはクリムゾンハートが破壊され、少なくとも1人のプレイヤーの体力が200以上であり、既に進行中のゴブリン軍団の侵攻が存在しない場合、3回に1回の確率で毎暁に発生する。もしくは[i:361]を使って手動で召喚することもできる。十分な数の敵を倒すまで持続する。
+			OldOnesArmy: 居酒屋の主人を見つけた後、[i:3828]で[i:3816]を購入し起動する。ゲームの進捗に応じたウェーブを全てクリアするか、クリスタルが破壊されるまで持続する。
+			FrostLegion: クリスマスシーズン中に[i:1869]を開くと見つかる[i:602]を使う。十分な数の敵を倒すまで効果が持続する。
+			Eclipse: メカニカルボスを1体倒した後、毎日の夜明けに1/20の確率で発生する。もしくは[i:2767]で発生させることができる。一度発生すると日暮れまで持続する。
+			PirateInvasion: 祭壇を1つ以上破壊するとランダムで出現する。もしくは[i:1315]で召喚できる。[i:1315]はハードモード突入後に海の敵を倒すと手に入る。十分な数の敵を倒すまで持続する。
+			PumpkinMoon: 夜に[i:1844]を使用すると発生する。日の出まで持続する。
+			FrostMoon: 夜に[i:1958]を使用すると発生する。日の出まで持続する。
+			MartianMadness: ゴーレムを倒した後、空付近にいる火星人の探査機を見つけ、プレイヤーを発見させて逃走させる。十分な数の敵を倒すまで続く。
+			LunarEvent: ダンジョンの入口にいる狂気の崇拝者を倒す。それぞれのピラーはワールド内のそれぞれのエリアに出現する。4つのピラーがすべて破壊されるまで続く。
+			Pumpking: パンプキンムーンのWave 7から出現する。 [i:1844]でパンプキンムーンを開始する。
+			MourningWood:  パンプキンムーンのWave 4から出現する。[i:1844]でパンプキンムーンを開始する。
+			IceQueen: フロストムーンのWave 11から出現する。 [i:1958]でフロストムーンを開始する。
+			SantaNK1: フロストムーンのWave 7から出現する。 [i:1958]でフロストムーンを開始する。
+			Everscream: フロストムーンのWave 4から出現する。 [i:1958]でフロストムーンを開始する。
+			PirateShip: 海賊の襲来中に時々出現する！　[i:1315]で海賊侵攻を開始する。
+			DD2OgreT3: イベント「Old One's Army」のWave 7 (Tier 2)とWave 4 と Wave 6 (Tier 3)に出現する！[i:3816]と[i:3828]でOld One's Armyを開始する。
+			DD2DarkMageT3: ベント「Old One's Army」のwave 5 (Tier 1)とWave 5 と Wave 6 (Tier 3)に出現する！[i:3816]と[i:3828]でOld One's Armyを開始する。
+			MartianSaucer: 「火星人の狂気」中に時折現れる！「火星人の狂気」は、火星人の探査機に探知され、逃走を許すと始まる。
+			TorchGod: 地下に101本の松明を置く。最後の松明が置かれるとイベントが始まる。
+		}
+
+		Keybinds: {
+			ToggleChecklist.DisplayName: ボスチェックリストの表示を切り替え
+			ToggleLog.DisplayName: ボスログの表示を切り替え
+		}
+
+		Configs: {
+			BossLogConfiguration: {
+				DisplayName: ボスログカスタマイズ
+
+				Headers: {
+					BossLogUI: "[i:149] [c/ffeb6e:ボスログUI]"
+					BossLogChecklist: "[i:903] [c/ffeb6e:ボスログチェックリスト]"
+					BlindMode: "[i:888] [c/ffeb6e:プログレッションモード　- ボスを倒し、その項目をアンロックする！]"
+				}
+
+				BossLogColor: {
+					Label: ボスログの色
+					Tooltip: ボスログの色を選んでください！
+				}
+
+				BossLogPos: {
+					Label: ログを開くボタンの位置
+					Tooltip:
+						'''
+						ここで設定する、または右クリックしたままボスログボタンにカーソルを合わせると、好きな場所に簡単に移動できます！
+						位置は画面右下から計測しています。
+						'''
+				}
+
+				HideUnavailable: {
+					Label: 遭遇できないボスの非表示
+					Tooltip:
+						'''
+						有効にすると、利用できないボスはボスログの目次から削除される。
+						例：クリスマスシーズンではないときのフロストレギオン
+						'''
+				}
+
+				HideUnsupported: {
+					Label: サポート外のボスの非表示
+					Tooltip: 有効にすると、完全に統合されていないボスはボスログの目次から削除される。
+				}
+
+				OnlyBosses: {
+					Label: ボスログはイベントなどの情報を扱わない
+					Tooltip: 有効にすると、チェックリストとページナビはボスの項目のみにアクセスするようになります。
+				}
+
+				FilterBosses: {
+					Label: ボスをリストで絞り込む
+					Tooltip: ""
+				}
+
+				FilterMiniBosses: {
+					Label: ミニボスをリストで絞り込む
+					Tooltip: ""
+				}
+
+				FilterEvents: {
+					Label: イベントをリストで絞り込む
+					Tooltip: ""
+				}
+
+				ColoredBossText: {
+					Label: ボス名の着色
+					Tooltip:
+						'''
+						目次のボスのテキストは、倒されると緑、倒されないと赤になります。
+						次回チェックが有効な場合、次のボスは黄色になります。
+						'''
+				}
+
+				SelectedCheckmarkType: {
+					Label: チェックリストで使われるマークの種類
+					Tooltip: ""
+				}
+
+				DrawNextMark: {
+					Label: 次のボスをチェック
+					Tooltip: チェックボックスに丸を入れ、次に戦うボスであることを示す。
+				}
+
+				LootChecklist: {
+					Label: 戦利品/収集品のチェックリストを有効にする
+					Tooltip: 目次では、ボスの戦利品や収集アイテムをすべて入手しているかどうかもチェックできる。
+				}
+
+				CheckDroppedLoot: {
+					Label: ドロップ可能な戦利品のみチェック
+					Tooltip: オルゴールなど、直接ドロップされないアイテムを戦利品チェックにカウントしない
+				}
+
+				EnableProgressionMode: {
+					Label: プログレッションモードを有効化する
+					Tooltip: ""
+				}
+
+				DisableProgressionMode: {
+					Label: プログレッションモードを無効化する
+					Tooltip: ""
+				}
+
+				ProgressionPrompt: {
+					Label: プログレッションモードのプロンプトを無効にする
+					Tooltip: 有効になっている間は、新しく作成されたキャラクターに対してプログレッションモードを確認するプロンプトが表示されなくなります。
+				}
+
+				MaskTextures: {
+					Label: その項目を達成するまでグラフィックを隠す
+					Tooltip: ""
+				}
+
+				MaskNames: {
+					Label: その項目を達成するまで項目の名前を隠す
+					Tooltip: ""
+				}
+
+				UnmaskNextCheck: {
+					Label: 次に戦うエントリー名を表示
+					Tooltip: 「次のボスをチェック」と「その項目を達成するまで項目の名前を隠す」が有効になっていないと機能しないことに注意してください。
+				}
+
+				MaskBossLoot: {
+					Label: ボスのドロップを隠す
+					Tooltip: ""
+				}
+
+				MaskHardMode: {
+					Label: ハードモードになるまでハードモードのコンテンツを隠す
+					Tooltip: すべてのコンテンツを非表示にし、上記で切り替えたオプションを上書きします。
+				}
+
+				ShowProgressBars: {
+					Label: 進捗バーを表示する
+					Tooltip: 無効にすると、目次の下にある合計進捗バーが表示されなくなります。
+				}
+			}
+
+			ClientConfiguration: {
+				DisplayName: その他の設定
+
+				Headers: {
+					BossRadar: "[i:3084] [c/ffeb6e:ボスレーダー]"
+					ChatMessages: "[i:3037] [c/ffeb6e:チャットメッセージ]"
+					ItemMapDetection: "[i:893] [c/ffeb6e:アイテムマップ検出]"
+				}
+
+				DespawnMessageType: {
+					Label: ボスのデスポーン時メッセージ
+					Tooltip:
+						'''
+						ボスが非アクティブになると、チャットでデスポーンメッセージが表示されます。
+						有効にした場合、一般的なメッセージかユニークなメッセージのどちらかを選択できます。
+						'''
+				}
+
+				LimbMessages: {
+					Label: 部位破壊時のメッセージ
+					Tooltip:
+						'''
+						複数の部位を持つボスは、部位を倒すごとにメッセージが送られる
+						例 スケルトロンの手
+						'''
+				}
+
+				PillarMessages: {
+					Label: ピラーが倒されたメッセージ
+					Tooltip: 各ピラーを倒すと、チャットにメッセージが送信されます。
+				}
+
+				TimerSounds: {
+					Label: リスポーンタイマーの音
+					Tooltip: 有効にすると、リスポーンタイマーが完了するまでの残り3秒間は音が鳴ります。
+				}
+
+				TreasureBags: {
+					Label: 地図上にトレジャーバッグを表示
+					Tooltip: ""
+				}
+
+				Fragments: {
+					Label: 地図上にフラグメントを表示
+					Tooltip: ""
+				}
+
+				Scales: {
+					Label: 地図上のシャドウスケイルと組織サンプルの表示
+					Tooltip: ""
+				}
+
+				BossRadar: {
+					Label: ボスレーダーを有効化
+					Tooltip: ""
+				}
+
+				RadarMiniBosses: {
+					Label: ミニボスのホワイトリスト
+					Tooltip: 注意：これは頭のアイコンがあるミニボスのみで正常に動作します。
+				}
+
+				RadarOpacity: {
+					Label: レーダー不透明度
+					Tooltip: レーダーアイコンの透明度を調整する
+				}
+
+				RadarBlacklist: {
+					Label: レーダー除外リスト
+					Tooltip: 除外されたNPCはレーダーで追跡されません。
+				}
+			}
+
+			DebugConfiguration: {
+				DisplayName: デバッグインターフェース
+
+				Headers: {
+					Debug: "[i:3625] [c/ffeb6e:Mod開発者用ツール]"
+					DebugRecordTracker: "[i:3619] [c/ffeb6e:記録追跡用ツール]"
+					DebugResetData: "[i:575] [c/ffeb6e:データリセット設定]"
+					FeatureTesting: "[i:2172] [c/ffeb6e:機能テスト]"
+				}
+
+				ModCallVerbose: {
+					Label: MODコールのログ
+					Tooltip: trueの場合、サーバーコンソールのボスチェックリストに追加されたすべての項目がログに表示されます。
+				}
+
+				ShowProgressionValue: {
+					Label: アクセスプログレッション値
+					Tooltip:
+						'''
+						目次内の項目にカーソルを置いたとき、および項目のページを表示したときに、進行値を表示します。
+						プログレッション値は、チェックリスト内での項目の並び順を決定するものです。
+						'''
+				}
+
+				AccessInternalNames: {
+					Label: Access Internal Names
+					Tooltip:
+						'''
+						項目のページに、内部キーと内部ソースをゲーム内のクリップボードにコピーするボタンを追加。
+						クロスMODコンテンツを作るMOD開発者に便利です。
+						'''
+				}
+
+				CollectionTypeDetection: {
+					Label: 自動検出された収集品タイプを表示する
+					Tooltip: ボス収集品スロットは、割り当てられた種別で並び替えて表示されます。
+				}
+
+				InactiveBossCheck: {
+					Label: 非アクティブになったボスのチェック
+					Tooltip:
+						'''
+						記録追跡が有効になっている間は、計算が始まったときにチャットにメッセージが表示される。
+						また、デスポーンメッセージが有効になっている場合、デスポーンメッセージが表示されたときにもチャットにメッセージが表示される。
+						これらのメッセージはそれぞれボスが倒されたときやボスがデスポーンしたときに表示されるはずです。
+						'''
+				}
+
+				DisableAutoLocalization: {
+					Label: 自動ローカライズを無効にする
+					Tooltip:
+						'''
+						BossChecklist は古い呼び出しを検出し、新しい呼び出しに必要な LocalizedText に従ったローカライゼーションを作成します。
+						新しい呼び出しは、これらのローカライゼーションを必要としませんが、NULLが渡された場合、デフォルトになります。
+						BossChecklistによって新しいローカライゼーションが作成されないようにするには、trueを設定します。
+						'''
+				}
+
+				DisableNewRecords: {
+					Label: 個人記録の更新を無効にする
+					Tooltip:
+						'''
+						有効になっている間は、既に記録されたもの以外のすべての個人記録が上書きされなくなります。
+						また、サーバーへの世界記録データ送信も無効になります。
+						'''
+				}
+
+				DisableRecordTracking: {
+					Label: 記録追跡を無効化する
+					Tooltip: ""
+				}
+
+				ShowRecordTracking: {
+					Label: 選択したボスの記録時間と討伐数を表示する
+					Tooltip: これを表示するには、記録追跡を有効にする必要があります。
+				}
+
+				ResetLoot: {
+					Label: 戦利品とコレクションアイテムのリセットオプションを有効にする
+					Tooltip:
+						'''
+						altキーを押しながらアイテムスロットを右クリックすることで、選択したアイテムを未入手として設定できます。
+						altキーを押しながらトレジャーバッグを右クリックすると、この項目のページにあるすべてのアイテムを未入手として設定する。
+						これはすべてのボスの戦利品リストに適用されます。
+						'''
+				}
+
+				ResetRecords: {
+					Label: 記録をリセットするオプションを有効にする
+					Tooltip:
+						'''
+						選択したボスのページで、ボスのアイコンをalt＋右クリックすることでそのボスの記録をリセットできます。
+						ボスの全記録をリセットするには、選択したボスページの「記録」ボタンをalt + 右クリックします。
+						'''
+				}
+
+				ResetForcedDowns: {
+					Label: 記録された達成済み項目をリセットするオプションを有効にする
+					Tooltip: 目次ページのフィルタータブをalt＋右クリックで、すべての討伐済み状態をリセットする。
+				}
+
+				ResetHiddenEntries: {
+					Label: 隠し項目をリセットするオプションを有効にする
+					Tooltip: フィルタータブにある隠し項目の表示／非表示ボタンをalt＋右クリックで、すべての隠し項目をリセットする。
+				}
+
+				RecordFeatureTesting: {
+					Label: Disable 「ボスの記録」機能のテスト
+					Tooltip:
+						'''
+						機能テスト中は、ボス記録に関するコードを実行できないようにします。
+						この機能が機能テストから外され、全ユーザーで完全に有効になるまでには、テストとバグ報告が必要です。
+						'''
+				}
+
+				WorldRecordFeatureTesting: {
+					Label: 「世界記録」機能テストを無効にする
+					Tooltip:
+						'''
+						世界記録に関するコードが実行されないようにします。
+						現在のバージョンでは、この機能は動作しないことが知られており、何かしらの問題を引き起こす可能性があります。
+						'''
+				}
+			}
+
+			Common: {
+				InvalidChange: {0}がいる間はこの設定を変更できない！
+				HostChange: 非常に申し訳ないが、現在この設定を変更できるのはホストだけである。
+			}
+		}
+	}
+}
