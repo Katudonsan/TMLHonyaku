@@ -1,6 +1,6 @@
 Buffs: {
 	CowboyCoinBuff: {
-		DisplayName: Cowboy Coin Buff
+		DisplayName: カウボーイのコインバフ
 		Description: Mods.MoreZenith.Buffs.CowboyCoinBuff.Description
 	}
 
@@ -32,87 +32,87 @@ Buffs: {
 
 Items: {
 	BrokenHeroWing: {
-		DisplayName: Broken Aviator Feathers
-		Tooltip: Once used to fly to other planets
+		DisplayName: 折れた英雄の羽根
+		Tooltip: かつて他の星々への飛行に使われた
 	}
 
 	DarkWings: {
 		Tooltip: Allows flight and slow fall
-		DisplayName: Dark Wings
+		DisplayName: 漆黒の翼
 	}
 
 	HallowedWings: {
 		Tooltip: Allows flight and slow fall""
-		DisplayName: Hallowed Wings
+		DisplayName: 聖なる翼
 	}
 
 	MetalsparkTreads: {
 		Tooltip:
 			'''
-			The wearer can run super fast
-			Provides the ability to walk on water, honey & lava
-			Grants the ability to swim and quintuple jump
-			Increased jump speed and jump height negates fall damage
-			Allows ability to climb walls, auto-jump
+			着用者は超高速で走ることができる。
+			水、蜂蜜、溶岩の上を歩くことができる。
+			泳ぎと5段ジャンプができるようになる。
+			ジャンプスピードとジャンプの高さが上がり、落下ダメージが軽減される。
+			壁を登る能力、オートジャンプが可能になる
 			'''
-		DisplayName: Steelspark Sneakers
+		DisplayName: 電光石火のスニーカー
 	}
 
 	TerraWings: {
-		Tooltip: Allows flight and slow fall
-		DisplayName: Terrairia
+		Tooltip: 飛行と低速落下を可能にする
+		DisplayName: 大地の翼
 	}
 
 	ZenithsparkBoots: {
 		Tooltip:
 			'''
-			Allows flight, dashing, swimming, auto-jump, super fast running, and extra mobility on ice
-			Increased movement and jump speed
-			Provides the ability to walk on water, honey & lava
-			Grants immunity to fall damage, fire blocks and lava
-			Gives a chance to dodge attacks
+			飛行、ダッシュ、泳ぎ、オートジャンプ、超高速走行、氷上での機動性が向上。
+			移動速度とジャンプ速度が向上。
+			水、蜂蜜、溶岩の上を歩くことができる。
+			落下ダメージ、炎ブロック、溶岩に対する耐性を与える。
+			攻撃を回避することができる。
 			'''
-		DisplayName: Zenithspark Boots
+		DisplayName: ゼニスパークブーツ
 	}
 
 	EndlessCrystalDartQuiver: {
 		Tooltip: ""
-		DisplayName: Endless Crystal Dart Quiver
+		DisplayName: 無限クリスタルダーツ筒
 	}
 
 	EndlessCursedDartQuiver: {
-		Tooltip: Bounces between enemies
-		DisplayName: Endless Cursed Dart Quiver
+		Tooltip: 敵の間でバウンドする
+		DisplayName: 無限呪われたダーツ筒
 	}
 
 	EndlessExplosiveJackOLanternPouch: {
-		DisplayName: Endless Explosive Jack O' Lantern Pouch
+		DisplayName: 無限ジャック・オー・ランタン爆弾ポーチ
 		Tooltip: ""
 	}
 
 	EndlessIchorDartQuiver: {
-		Tooltip: Bursts into multiple darts
-		DisplayName: Endless Ichor Dart Quiver
+		Tooltip: 複数のダーツに炸裂
+		DisplayName: 無限霊液のダーツ筒
 	}
 
 	EndlessPoisonDartQuiver: {
-		Tooltip: Inflicts poison on enemies
-		DisplayName: Endless Poison Dart Quiver
+		Tooltip: 命中した敵を毒に侵す
+		DisplayName: 無限毒ダーツ筒
 	}
 
 	EndlessSeedPouch: {
-		Tooltip: For use with the blowpipe
-		DisplayName: Endless Seed Pouch
+		Tooltip: 吹き矢専用
+		DisplayName: 無限種ポーチ
 	}
 
 	Beebrand: {
-		Tooltip: Summon killer bees after striking your enemy
-		DisplayName: Beebrand
+		Tooltip: 敵を攻撃した後、攻撃的な蜂を召喚する
+		DisplayName: ビーブランド
 	}
 
 	BloodyRicochet: {
-		Tooltip: Heals you on hit
-		DisplayName: Bloody Ricochet
+		Tooltip: 命中時に自分を回復する
+		DisplayName: 血塗れのRicochet
 	}
 
 	BoomerangOfTheStars: {
