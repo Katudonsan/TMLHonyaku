@@ -107,7 +107,7 @@ MobBrowser: {
 	NetIDNPCs: NetIDのNPC
 	FilteredNPCs: フィルター済みNPC
 	CycleModSpecificNPCs: ModごとのNPC
-	SpawnNPCNotification: {0} が {1} によって召喚された
+	SpawnNPCNotification: "{0}が{1}によって召喚された"
 }
 
 ItemBrowser: {
@@ -148,7 +148,7 @@ PaintTools: {
 	FlipHorizontal: 水平方向に反転
 	FlipVertical: 垂直反転
 	TransparentSelectionOn: "    透明選択の切り替え:オフ"
-	TransparentSelectionOff: "    透明選択の切り替え:オン
+	TransparentSelectionOff: "    透明選択の切り替え:オン"
 	PriorBrush: ブラシを使用する前にスポイトを使用してください。
 	DataExport: "データを出力しました。 出力先: "
 }

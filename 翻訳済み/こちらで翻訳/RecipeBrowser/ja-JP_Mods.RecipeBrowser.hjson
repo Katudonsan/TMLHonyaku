@@ -31,8 +31,8 @@ RecipeCatalogueUI: {
 }
 
 FavoritedUI: {
-	Close:  ({0})　を閉じる
-	ToggleHint: {0}を押すと表示を切り替え
+	Close:  ({0})を閉じる
+	ToggleHint: ({0})を押すと表示を切り替え
 	ToggleUnboundHint: 表示を切り替えるキーを設定してください
 }
 
