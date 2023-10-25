@@ -21,3 +21,4 @@
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2563851005"><p>Which Mod Is This From?</p></a>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2619954303"><p>Recipe Browser</p></a>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2669644269"><p>Boss Checklist</p></a>
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2567580488"><p>Fargo's Enemy Modifiers</p></a>
