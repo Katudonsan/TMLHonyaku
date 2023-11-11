@@ -1,14 +1,14 @@
 Configs: {
 	ModConfigsai: {
-		DisplayName: Better Extractinator Configurations
+		DisplayName: ベターエクストラクティネイターの設定
 
 		ExSpeeed: {
-			Label: Extractinator Speed Multiplier
+			Label: 取り出しスピード倍率
 			Tooltip: ""
 		}
 
 		BlockAmount: {
-			Label: Amount of Items Used Per Use of Extractinator
+			Label: 取り出し一回につき取り出せるアイテムの数
 			Tooltip: ""
 		}
 	}
