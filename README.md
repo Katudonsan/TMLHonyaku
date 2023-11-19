@@ -14,6 +14,7 @@
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja"><p>https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja</p></a>
 <p>ここの日本語化したデータのライセンスは現在選定中です（直接のデータ再配布よりリンクを貼っていただけるとサポートしやすいです…あとは誤訳などあればIssuesなどで指摘いただけるとありがたいです…）</p>
 <p>現在の対応Mod（対応完了順）</p>
+<p>※その時その時で最新バージョンの翻訳を心がけていますが、バージョン違いでの翻訳ミスやエラーが起きている場合はご一報ください</p>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2562997415"><p>ShorterRespawn</p></a>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2837407674"><p>Lan's Unlimited Buff Slots</p></a>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2816694149"><p>BossCursor</p></a>
