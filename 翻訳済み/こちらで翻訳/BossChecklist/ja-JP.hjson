@@ -57,7 +57,11 @@ Mods: {
 				Mods: 項目を登録してくれたMod
 				Notice: "[リストから見つかったModのみを掲載しています]"
 				NoIcon: Modアイコンが見つかりません!
-				ModsEmpty: 現在ロードされているMODのうち、このリストにボスを登録しているModはありません。お気に入りのMODを入れて欲しい場合は、MODのチームにSteam WorkshopのページかDiscordサーバーで知らせてください！
+				ModsEmpty: '''現在ロードされているMODのうち、
+				このリストにボスを登録しているModはありません。
+				お気に入りのMODを入れて欲しい場合は、
+				MODのチームにSteam WorkshopのページかDiscordサーバーで知らせてください！
+				'''
 			}
 
 			EntryPage: {
