@@ -741,7 +741,7 @@ Mods: {
 				Tooltip:
 					'''
 					Left click to decrease the amount of Life Crystals, or Life Fruit if you have any, by 1
-					If both are 0, decreases base maximum health by 20, down to a minimum of 1
+					If both are 0, decreases base maximum health by 20, down to a minimum of 20
 					Right click to reverse 1 use of the latter effect
 					'''
 			}
@@ -1253,7 +1253,7 @@ Mods: {
 			}
 
 			SlimyLockBox: {
-				DisplayName: Slimy Lock Box
+				DisplayName: Slimy Lock
 				Tooltip: Summons Dungeon Slime
 			}
 
@@ -1899,7 +1899,7 @@ Mods: {
 					Can be reused infinitely
 					Effects of all vanilla buff stations
 					Grants Honey when touched
-					Greatly increases luck when nearby
+					Greatly increases luck and provides Sugar Rush when nearby
 					'''
 			}
 
@@ -2377,6 +2377,8 @@ Mods: {
 					LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LikeNPC_Princess}"
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Abominationn}"
 				}
+
+				Census.SpawnCondition: Conditions unknown
 			}
 
 			Deviantt: {
@@ -2400,6 +2402,8 @@ Mods: {
 					LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LikeNPC_Princess}"
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Deviantt}"
 				}
+
+				Census.SpawnCondition: Conditions unknown
 			}
 
 			LumberJack: {
@@ -2420,6 +2424,8 @@ Mods: {
 					LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LikeNPC_Princess}"
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/LumberJack}"
 				}
+
+				Census.SpawnCondition: Conditions unknown
 			}
 
 			Mutant: {
@@ -2442,6 +2448,8 @@ Mods: {
 					LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeNPC_Princess}"
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Mutant}"
 				}
+
+				Census.SpawnCondition: Conditions unknown
 			}
 
 			Squirrel: {
@@ -2460,6 +2468,8 @@ Mods: {
 					LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LikeNPC_Princess}"
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Squirrel}"
 				}
+
+				Census.SpawnCondition: Conditions unknown
 			}
 
 			SuperDummy.DisplayName: Super Dummy
@@ -2528,49 +2538,51 @@ Mods: {
 		}
 
 		Conditions: {
-			BossDown: Mods.Fargowiltas.Conditions.BossDown
-			DutchmanDown: Mods.Fargowiltas.Conditions.DutchmanDown
-			MageDown: Mods.Fargowiltas.Conditions.MageDown
-			OgreDown: Mods.Fargowiltas.Conditions.OgreDown
-			BetsyDown: Mods.Fargowiltas.Conditions.BetsyDown
-			PillarsDown: Mods.Fargowiltas.Conditions.PillarsDown
-			Downed: Mods.Fargowiltas.Conditions.Downed
-			WormDown: Mods.Fargowiltas.Conditions.WormDown
-			PinkyDown: Mods.Fargowiltas.Conditions.PinkyDown
-			ScoutDown: Mods.Fargowiltas.Conditions.ScoutDown
-			DoctorDown: Mods.Fargowiltas.Conditions.DoctorDown
-			MinerDown: Mods.Fargowiltas.Conditions.MinerDown
-			TimDown: Mods.Fargowiltas.Conditions.TimDown
-			GnomeDown: Mods.Fargowiltas.Conditions.GnomeDown
-			GoldSlimeDown: Mods.Fargowiltas.Conditions.GoldSlimeDown
-			DungeonSlimeDown: Mods.Fargowiltas.Conditions.DungeonSlimeDown
-			MedusaDown: Mods.Fargowiltas.Conditions.MedusaDown
-			ClownDown: Mods.Fargowiltas.Conditions.ClownDown
-			NymphDown: Mods.Fargowiltas.Conditions.NymphDown
-			MothDown: Mods.Fargowiltas.Conditions.MothDown
-			RainbowSlimeDown: Mods.Fargowiltas.Conditions.RainbowSlimeDown
-			WyvernDown: Mods.Fargowiltas.Conditions.WyvernDown
-			RuneDown: Mods.Fargowiltas.Conditions.RuneDown
-			MimicDown: Mods.Fargowiltas.Conditions.MimicDown
-			MimicHallowDown: Mods.Fargowiltas.Conditions.MimicHallowDown
-			MimicCorruptDown: Mods.Fargowiltas.Conditions.MimicCorruptDown
-			MimicCrimsonDown: Mods.Fargowiltas.Conditions.MimicCrimsonDown
-			MimicJungleDown: Mods.Fargowiltas.Conditions.MimicJungleDown
-			IceGolemDown: Mods.Fargowiltas.Conditions.IceGolemDown
-			SandDown: Mods.Fargowiltas.Conditions.SandDown
-			DevilDown: Mods.Fargowiltas.Conditions.DevilDown
-			BloodFishDown: Mods.Fargowiltas.Conditions.BloodFishDown
-			BloodEelDown: Mods.Fargowiltas.Conditions.BloodEelDown
-			BloodGoblinDown: Mods.Fargowiltas.Conditions.BloodGoblinDown
-			BloodNautDown: Mods.Fargowiltas.Conditions.BloodNautDown
-			SummonerDown: Mods.Fargowiltas.Conditions.SummonerDown
-			PirateDown: Mods.Fargowiltas.Conditions.PirateDown
-			NailheadDown: Mods.Fargowiltas.Conditions.NailheadDown
-			MothronDown: Mods.Fargowiltas.Conditions.MothronDown
-			LeeDown: Mods.Fargowiltas.Conditions.LeeDown
-			PaladinDown: Mods.Fargowiltas.Conditions.PaladinDown
-			SkeleGunDown: Mods.Fargowiltas.Conditions.SkeleGunDown
-			SiblingPylon: Mods.Fargowiltas.Conditions.SiblingPylon
+			DownedBoss: After defeating any boss
+			DutchmanDown: After defeating a Flying Dutchman
+			MageDown: After defeating a Dark Mage
+			OgreDown: After defeating an Ogre
+			BetsyDown: After defeating Betsy
+			HorsemanDown: After defeating a Headless Horseman
+			PillarsDown: After defeating the Celestial Pillars
+			Downed: After defeating
+			WormDown: After defeating a Giant Worm or Digger
+			PinkyDown: After defeating a Pinky
+			ScoutDown: After defeating a Goblin Scout
+			DoctorDown: After defeating Doctor Bones
+			MinerDown: After defeating an Undead Miner
+			TimDown: After defeating Tim
+			GnomeDown: After defeating a Gnome
+			GoldSlimeDown: After defeating a Gold Slime
+			DungeonSlimeDown: After defeating a Dungeon Slime and Skeletron
+			MedusaDown: After defeating a Medusa, In hardmode
+			ClownDown: After defeating a Clown, In hardmode
+			NymphDown: After defeating a Nymph
+			MothDown: After defeating a Moth, In hardmode
+			RainbowSlimeDown: After defeating a Rainbow Slime, In hardmode
+			WyvernDown: After defeating a Wyvern, In hardmode
+			RuneDown: After defeating a Rune Wizard, In hardmode
+			MimicDown: After defeating a Mimic, In hardmode
+			MimicHallowDown: After defeating a Hallowed Mimic, In hardmode
+			MimicCorruptDown: After defeating a Corrupt Mimic, In hardmode
+			MimicCrimsonDown: After defeating a Crimson Mimic, In hardmode
+			MimicJungleDown: After defeating a Jungle Mimic, In hardmode
+			IceGolemDown: After defeating a Ice Golem, In hardmode
+			SandDown: After defeating a Sand Elemental, In hardmode
+			DevilDown: After defeating a Red Devil, In hardmode
+			BloodFishDown: After defeating a Wandering Eye Fish or Zombie Merman
+			BloodEelDown: After defeating a Blood Eel, In hardmode
+			BloodGoblinDown: After defeating a Hemogoblin Shark, In hardmode
+			BloodNautDown: After defeating Dreadnautilus, In hardmode
+			SummonerDown: After defeating a Goblin Summoner and the Goblin Army, In hardmode
+			PirateDown: After defeating a Pirate Captain and the Pirate Invasion, In hardmode
+			NailheadDown: After defeating a Nailhead and all Mechanical Bosses
+			MothronDown: After defeating a Mothron and all Mechanical Bosses
+			LeeDown: After defeating a Bone Lee and Plantera
+			PaladinDown: After defeating a Paladin and Plantera
+			SkeleGunDown: After defeating a Necromancer, Diabloist or Ragged Caster, After defeating Plantera
+			SiblingPylon: If all siblings are present
+			BossDown: After defeating any boss
 		}
 
 		Keybinds: {
