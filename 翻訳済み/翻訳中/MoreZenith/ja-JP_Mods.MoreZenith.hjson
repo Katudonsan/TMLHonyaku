@@ -1,6 +1,6 @@
 Buffs: {
 	CowboyCoinBuff: {
-		DisplayName: カウボーイのコインバフ
+		DisplayName: Cowboy Coin Buff
 		Description: Mods.MoreZenith.Buffs.CowboyCoinBuff.Description
 	}
 
@@ -32,423 +32,423 @@ Buffs: {
 
 Items: {
 	BrokenHeroWing: {
-		DisplayName: 折れた英雄の羽根
-		Tooltip: かつて他の星々への飛行に使われた
+		DisplayName: 壊れた天翔の翼
+		Tooltip: かつて他の惑星への飛行に使われた
 	}
 
 	DarkWings: {
-		Tooltip: Allows flight and slow fall
-		DisplayName: 漆黒の翼
+		Tooltip: 飛行と低速落下を可能にする
+		DisplayName: 暗黒の邪翼
 	}
 
 	HallowedWings: {
-		Tooltip: Allows flight and slow fall""
-		DisplayName: 聖なる翼
+		Tooltip: 飛行と低速落下を可能にする
+		DisplayName: 光輝の聖翼
 	}
 
 	MetalsparkTreads: {
 		Tooltip:
 			'''
-			着用者は超高速で走ることができる。
-			水、蜂蜜、溶岩の上を歩くことができる。
-			泳ぎと5段ジャンプができるようになる。
-			ジャンプスピードとジャンプの高さが上がり、落下ダメージが軽減される。
+			着用者は超高速で走ることができる
+			水、蜂蜜、溶岩の上を歩くことができる
+			泳ぎと5段ジャンプができるようになる
+			ジャンプスピードとジャンプの高さが上がり、落下ダメージが軽減される
 			壁を登る能力、オートジャンプが可能になる
 			'''
-		DisplayName: 電光石火のスニーカー
+		DisplayName: 電光石火のブーツ
 	}
 
 	TerraWings: {
 		Tooltip: 飛行と低速落下を可能にする
-		DisplayName: 大地の翼
+		DisplayName: テライリヤ
 	}
 
 	ZenithsparkBoots: {
 		Tooltip:
 			'''
-			飛行、ダッシュ、泳ぎ、オートジャンプ、超高速走行、氷上での機動性が向上。
-			移動速度とジャンプ速度が向上。
-			水、蜂蜜、溶岩の上を歩くことができる。
-			落下ダメージ、炎ブロック、溶岩に対する耐性を与える。
-			攻撃を回避することができる。
+			飛行、ダッシュ、水泳、オートジャンプ、超高速走行、氷上での機動性が向上
+			移動速度とジャンプ速度が向上
+			水、蜂蜜、溶岩の上を歩くことができる
+			落下ダメージ、炎ブロック、溶岩に対する耐性を与える
+			攻撃をかわすことができる。
 			'''
 		DisplayName: ゼニスパークブーツ
 	}
 
 	EndlessCrystalDartQuiver: {
 		Tooltip: ""
-		DisplayName: 無限クリスタルダーツ筒
+		DisplayName: 永久水晶ダーツ筒
 	}
 
 	EndlessCursedDartQuiver: {
-		Tooltip: 敵の間でバウンドする
-		DisplayName: 無限呪われたダーツ筒
+		Tooltip: 敵の間で跳弾する
+		DisplayName: 永久に呪われしダーツ筒
 	}
 
 	EndlessExplosiveJackOLanternPouch: {
-		DisplayName: 無限ジャック・オー・ランタン爆弾ポーチ
+		DisplayName: 永遠のジャック・オー・ランタン爆弾ポーチ
 		Tooltip: ""
 	}
 
 	EndlessIchorDartQuiver: {
-		Tooltip: 複数のダーツに炸裂
-		DisplayName: 無限霊液のダーツ筒
+		Tooltip: 複数のダーツに分裂する
+		DisplayName: 永遠の霊液ダーツ筒
 	}
 
 	EndlessPoisonDartQuiver: {
-		Tooltip: 命中した敵を毒に侵す
-		DisplayName: 無限毒ダーツ筒
+		Tooltip: Inflicts poison on enemies
+		DisplayName: 永遠の毒ダーツ筒
 	}
 
 	EndlessSeedPouch: {
-		Tooltip: 吹き矢専用
-		DisplayName: 無限種ポーチ
+		Tooltip: 吹き矢筒専用
+		DisplayName: Endless Seed Pouch
 	}
 
 	Beebrand: {
-		Tooltip: 敵を攻撃した後、攻撃的な蜂を召喚する
+		Tooltip: 敵を攻撃した後、殺人蜂を召喚する
 		DisplayName: ビーブランド
 	}
 
 	BloodyRicochet: {
 		Tooltip: 命中時に自分を回復する
-		DisplayName: 血塗れのRicochet
+		DisplayName: 血塗れのリコシェ
 	}
 
 	BoomerangOfTheStars: {
-		DisplayName: Boomerang of the Stars
-		Tooltip: Casts stars on hit
+		DisplayName: 星々のブーメラン
+		Tooltip: ヒット時に星を発生させる
 	}
 
 	BrokenHeroBoomerang: {
-		Tooltip: Will never come back if thrown
-		DisplayName: Broken Hero Boomerang
+		Tooltip: 投げたら二度と帰ってこない
+		DisplayName: 壊れた英雄のブーメラン
 	}
 
 	DemoniteBoomerang: {
-		Tooltip: Summons homing eaters on hit
-		DisplayName: Demon's Rebound
+		Tooltip: ヒット時に追尾するイーターを召喚
+		DisplayName: 悪魔のブーメラン
 	}
 
 	FlyingDagger: {
 		Tooltip:
 			'''
-			Throws a controllable flying dagger
-			(Doesn't work due to new update breaking it)
+			コントロール可能なフライングダガーを投げる
+			(新アップデートにより機能しなくなった）
 			'''
-		DisplayName: Flying Dagger
+		DisplayName: 飛び回るダガー
 	}
 
 	Solarrang: {
-		Tooltip: Explodes on hit
-		DisplayName: Solarrang
+		Tooltip: 命中時に爆裂する
+		DisplayName: 太陽のブーメラン
 	}
 
 	Terrarang: {
-		Tooltip: Throws terra boomerangs
-		DisplayName: Terrarang
+		Tooltip: テラブーメランを投げる
+		DisplayName: テラメラン
 	}
 
 	TrueFlyingDagger: {
 		Tooltip:
 			'''
-			Throws a controllable flying dagger
-			(Doesn't work due to new update breaking it)
+			コントロール可能なフライングダガーを投げる
+			(新アップデートにより機能しなくなった）
 			'''
-		DisplayName: True Flying Dagger
+		DisplayName: 真・飛び回るダガー
 	}
 
 	TrueFlyingKnife: {
 		Tooltip:
 			'''
-			Throws a controllable flying knife
-			(Doesn't work due to new update breaking it)
+			コントロール可能な空飛ぶナイフを投げる
+			(新アップデートにより機能しなくなった）
 			'''
-		DisplayName: True Flying Knife
+		DisplayName: 真・飛び回るナイフ
 	}
 
 	ZenithBoomerang: {
 		Tooltip:
 			'''
-			Throws all boomerangs you collected
-			(Doesn't work correctly due to new update breaking it)
+			集めたブーメランをすべて投げる
+			(アップデートの影響で正しく動作しません。）
 			'''
-		DisplayName: Zenith Boomerang
+		DisplayName: ゼニメラン
 	}
 
 	BrokenHeroBow: {
-		Tooltip: Once used to defeat the biggest of monsters
-		DisplayName: Broken Hero Bow
+		Tooltip: かつて強大な災厄を倒すために使われた
+		DisplayName: 壊れた英雄の弓
 	}
 
 	DungeonsBow: {
-		DisplayName: Kobaruto Hankyu
-		Tooltip: Turns wooden arrows into water arrows
+		DisplayName: コバルトの半弓
+		Tooltip: 木の矢を水の矢に変える
 	}
 
 	NightsRecurve: {
-		DisplayName: Night's Recurve
-		Tooltip: Shoots two arrows at once
+		DisplayName: 夜の曲芸弓
+		Tooltip: 一度に2本の矢を放つ
 	}
 
 	Observatory: {
-		DisplayName: Observatory
-		Tooltip: Turns wooden arrows into stars that rain from the sky
+		DisplayName: 天文台の弓
+		Tooltip: 木の矢を空から降る星に変える
 	}
 
 	TerraVengeance: {
-		DisplayName: Terra Vengeance
-		Tooltip: Turns wooden arrows into terra arrows
+		DisplayName: 復讐する大地の弓
+		Tooltip: 木の矢を大地の矢に変える
 	}
 
 	TheHorsemansBow: {
-		DisplayName: Autumn's Reach
-		Tooltip: Shoots homing pumpkins
+		DisplayName: 収穫祭の弓
+		Tooltip: 追尾するカボチャを撃つ
 	}
 
 	TrueHallowedRepeater: {
-		DisplayName: True Hallowed Repeater
-		Tooltip: Shoots hallowed arrows
+		DisplayName: 真・聖なるリピーターボウ
+		Tooltip: 神聖な矢を放つ
 	}
 
 	TrueNightsRecurve: {
-		DisplayName: True Night's Recurve
-		Tooltip: Turns wooden arrows into dark arrows
+		DisplayName: 真・夜の曲芸弓
+		Tooltip: 木の矢を闇の矢に変える
 	}
 
 	ZenithBow: {
-		Tooltip: Shoots arrows made out of hot and cold light
-		DisplayName: Zenith Bow
+		Tooltip: 熱い光と冷たい光でできた矢を放つ
+		DisplayName: ゼニスの弓
 	}
 
 	BloodyExtraction: {
-		Tooltip: Turns poison darts into piercing bloody darts
-		DisplayName: Bloody Extraction
+		Tooltip: 毒のダーツを貫通する血のダーツに変える
+		DisplayName: 鮮血の発射装置
 	}
 
 	BrokenHeroDartRifle: {
-		Tooltip: Once used to destroy the evil
-		DisplayName: Broken Hero Dart Rifle
+		Tooltip: かつて巨悪を滅ぼすために使われた
+		DisplayName: 壊れた英雄のダーツライフル
 	}
 
 	CattoBlaster: {
-		Tooltip: Turns poison darts into bouncing cats
-		DisplayName: Catto Blaster
+		Tooltip: 毒のダーツをニャンキャットに変える
+		DisplayName: ミャウミャウブラスター
 	}
 
 	DungeonsScope: {
-		DisplayName: Fukiya
-		Tooltip: Turns poison darts into bouncing water darts
+		DisplayName: フキヤ
+		Tooltip: 毒のダーツを弾む水のダーツに変える
 	}
 
 	HallowedDartRifle: {
-		DisplayName: Somnus Sacer
-		Tooltip: "'The world is yours'"
+		DisplayName: 聖なる睡魔
+		Tooltip: "'世界はあなたのもの'"
 	}
 
 	HellsDartgun: {
-		DisplayName: Inferno Darter
-		Tooltip: Turns poison darts into exploding fire darts
+		DisplayName: 煉獄のダーツァー
+		Tooltip: 毒のダーツを爆発する火のダーツに変える
 	}
 
 	InfluxDarter: {
-		DisplayName: Cow Prober
-		Tooltip: Turns poison darts into influx darts
+		DisplayName: 火星人のダーツァー
+		Tooltip: 毒ダーツを流れ込むダーツに変える
 	}
 
 	LightsFury: {
-		DisplayName: Light's Curse
-		Tooltip: Turns poison darts into piercing corrupted darts
+		DisplayName: 闇の呪い
+		Tooltip: 毒のダーツを貫通する腐敗したダーツに変える
 	}
 
 	NightsBlaster: {
-		DisplayName: Night's Blaster
-		Tooltip: Shoots two darts at once
+		DisplayName: 夜のブラスター
+		Tooltip: 二つのダーツを発射する
 	}
 
 	PartysFate: {
-		DisplayName: Fiesta
-		Tooltip: Shoots all darts you collected
+		DisplayName: フィエスタ
+		Tooltip: あなたが集めたダーツをすべて発射する
 	}
 
 	TerraPersuader: {
-		DisplayName: Terraflow
-		Tooltip: Shoots terra bombs
+		DisplayName: 大地の代理人
+		Tooltip: 大地の爆弾を放つ
 	}
 
 	TrueHallowedDartRifle: {
-		DisplayName: True Somnus Sacer
-		Tooltip: Turns poison darts into hallowed darts
+		DisplayName: 真・聖なる睡魔
+		Tooltip: 毒のダーツを神聖なダーツに変える
 	}
 
 	TrueNightsBlaster: {
-		DisplayName: True Night's Blaster
-		Tooltip: Shoots cursed bombs
+		DisplayName: 真・夜のブラスター
+		Tooltip: 呪われた爆弾を撃つ
 	}
 
 	VortexDominator: {
-		DisplayName: Vortex Dominator
-		Tooltip: Shoots homing vortex darts
+		DisplayName: 渦の支配者
+		Tooltip: 追尾する渦のダーツを放つ
 	}
 
 	BloodBurner: {
-		DisplayName: Blood Burner
-		Tooltip: Shoots a stream of blood
+		DisplayName: 鮮血のバーナー
+		Tooltip: 鮮血を発射する
 	}
 
 	BrokenHeroFlamethrower: {
-		Tooltip: Seems like the flame burnt out
-		DisplayName: Broken Hero Flamethrower
+		Tooltip: もはや希望という名の炎は燃え尽きてしまっているようだ
+		DisplayName: 壊れた英雄の火炎放射器
 	}
 
 	DungeonsFear: {
-		DisplayName: Dungeon's Extinguisher
-		Tooltip: Shoots a stream of water
+		DisplayName: ダンジョンの消火器
+		Tooltip: 水流を放つ
 	}
 
 	GrassSpitter: {
-		DisplayName: Grass Spitter
-		Tooltip: Shoots a stream of leaves
+		DisplayName: 草の放射器
+		Tooltip: 木の葉を飛ばす
 	}
 
 	HellsFire: {
-		DisplayName: Hell's Fire
-		Tooltip: Shoots a stream of fire
+		DisplayName: 獄炎
+		Tooltip: 火を噴く
 	}
 
 	HoneySpitter: {
-		DisplayName: Honey Spitter
-		Tooltip: Shoots a stream of honey
+		DisplayName: はちみつほうしゃき
+		Tooltip: あまいはちみつをはなつ
 	}
 
 	LightsFire: {
-		DisplayName: Light's Welder
-		Tooltip: Shoots a stream of corrupted fire
+		DisplayName: 闇の溶接機
+		Tooltip: 腐敗した炎を放つ
 	}
 
 	NightsWrath: {
-		DisplayName: Night's Melter
-		Tooltip: Shoots a stream of night fire
+		DisplayName: 夜の溶接機
+		Tooltip: 夜の炎を放つ
 	}
 
 	PartyMaster: {
-		DisplayName: Party Master
-		Tooltip: Shoots multiple streams of light
+		DisplayName: パーティーの支配者
+		Tooltip: 複数の光線を発射
 	}
 
 	SacredFlamethrower: {
-		DisplayName: Lumen Cleanser
-		Tooltip: Shoots a stream of fire
+		DisplayName: 聖なる放射器
+		Tooltip: 聖なる火を噴く
 	}
 
 	StarThrower: {
-		DisplayName: Star Thrower
-		Tooltip: Shoots stars
+		DisplayName: ホシオトシ
+		Tooltip: 星を撃つ
 	}
 
 	TerraFlamethrower: {
-		DisplayName: Terra Flamethrower
-		Tooltip: Shoots a stream of terra fire
+		DisplayName: テラ放射器
+		Tooltip: 大地が火を吹く
 	}
 
 	TrueNightsWrath: {
-		DisplayName: True Night's Melter
-		Tooltip: Shoots a stream of cursed fire
+		DisplayName: 真・闇の溶接機
+		Tooltip: 呪いの炎を放つ
 	}
 
 	TrueSacredFlamethrower: {
-		DisplayName: True Lumen Cleanser
-		Tooltip: Shoots a stream of hallowed fire
+		DisplayName: 真・聖なる放射器
+		Tooltip: 神聖な炎を放つ
 	}
 
 	VortexDelusion: {
-		DisplayName: Vortex Delusion
-		Tooltip: Shoots a stream of vortex fire
+		DisplayName: 幻想の渦
+		Tooltip: 燃え盛る渦を放つ
 	}
 
 	WoodenFlamethrower: {
-		DisplayName: Wooden Flamethrower
-		Tooltip: Shoots a stream of fire
+		DisplayName: 木星火炎放射器
+		Tooltip: 火を噴く
 	}
 
 	AmberSickle: {
-		DisplayName: Amber Sickle
-		Tooltip: Shoot amber sickles
+		DisplayName: アンバーの鎌
+		Tooltip: アンバーの鎌を放つ
 	}
 
 	BloodyObscenity: {
-		DisplayName: Bloody Obscenity
-		Tooltip: Shoots bloody sickles
+		DisplayName: 冒涜の血鎌
+		Tooltip: 血塗れの鎌を放つ
 	}
 
 	BrokenHeroScythe: {
-		Tooltip: Power was lost a long time ago
-		DisplayName: Broken Reaper Chine
+		Tooltip: 込められた力は古の時代に失われてしまった
+		DisplayName: 壊れた英雄の鎌
 	}
 
 	CattoScythe: {
-		DisplayName: Catto Scythe
-		Tooltip: Shoots multiple bouncing cats
+		DisplayName: にゃんにゃんの鎌
+		Tooltip: 複数のニャンキャットを放つ
 	}
 
 	FieryGreatSickle: {
-		Tooltip: Shoots fire sickles
-		DisplayName: Fiery Great Sickle
+		Tooltip: 燃え盛る鎌を撃つ
+		DisplayName: 燃え盛る大鎌
 	}
 
 	GrassCutter: {
-		Tooltip: Shoots explosive thorns
-		DisplayName: Grass Cutter
+		Tooltip: 爆発する棘を放つ
+		DisplayName: 草刈り鎌
 	}
 
 	HallowedSickle: {
-		DisplayName: Holy Crest
-		Tooltip: Shoots hallowed sickles
+		DisplayName: 聖なる紋章
+		Tooltip: 聖なる鎌を放つ
 	}
 
 	Honekama: {
-		Tooltip: Shoots bouncing bolts
-		DisplayName: Honekama
+		Tooltip: 跳ね返るボルトを撃つ
+		DisplayName: ホネカマ
 	}
 
 	LightsCurse: {
-		DisplayName: Collector of Souls
-		Tooltip: Shoots corrupted sickles
+		DisplayName: 魂の蒐集家
+		Tooltip: 腐敗した鎌を撃つ
 	}
 
 	NightsScythe: {
-		DisplayName: Reaper's Call
-		Tooltip: Shoots multiple dark sickles
+		DisplayName: 死神の呼び声
+		Tooltip: 複数の闇の鎌を放つ
 	}
 
 	SolarScythe: {
-		DisplayName: Fiery Eclipse
-		Tooltip: Throws homing sickles made from the sun
+		DisplayName: 焼き尽くす日蝕
+		Tooltip: 太陽から作られた追尾鎌を投げる
 	}
 
 	StarReacher: {
-		DisplayName: Star Reacher
-		Tooltip: Shoots multiple stars
+		DisplayName: 星の発射器
+		Tooltip: 複数の星を放つ
 	}
 
 	TerraScythe: {
-		DisplayName: Scyther of Terraria
-		Tooltip: Throws homing terra sickles
+		DisplayName: 大地の鎌鼬
+		Tooltip: 追尾する大地の鎌を投げる
 	}
 
 	TheHorsemansScythe: {
-		DisplayName: The Horseman's Hand
-		Tooltip: Shoots exploding pumpkins
+		DisplayName: かぼちゃ騎手の鎌
+		Tooltip: 爆発するカボチャを撃つ
 	}
 
 	TrueHallowedSickle: {
-		DisplayName: True Holy Crest
-		Tooltip: Shoots true hallowed sickles
+		DisplayName: 真・聖なる紋章
+		Tooltip: 真なる神聖な鎌を撃つ
 	}
 
 	TrueNightsScythe: {
-		DisplayName: True Reaper's Call
-		Tooltip: Shoots multiple true dark sickles
+		DisplayName: 真・死神の呼び声
+		Tooltip: 真なる暗黒の鎌を複数放つ
 	}
 
 	ZenithScythe: {
