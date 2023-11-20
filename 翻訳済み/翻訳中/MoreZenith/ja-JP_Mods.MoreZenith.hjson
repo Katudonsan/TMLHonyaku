@@ -467,7 +467,7 @@ Items: {
 	}
 
 	BrokenHeroShortsword: {
-		Tooltip: この短剣は、時がたつうちに忘れ去られていた伝説の騎士が使っていたものだ。
+		Tooltip: この短剣は、時とともに忘れ去られた伝説の騎士が使っていたものだ。
 		DisplayName: 折れた英雄の短剣
 	}
 
