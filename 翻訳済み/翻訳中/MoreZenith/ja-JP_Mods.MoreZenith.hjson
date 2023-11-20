@@ -452,380 +452,380 @@ Items: {
 	}
 
 	ZenithScythe: {
-		DisplayName: Zenith Scythe
-		Tooltip: Throws all sickles you collected
+		DisplayName: ゼニスの鎌
+		Tooltip: 集められた鎌をすべて投げる
 	}
 
 	BeesProtector: {
-		DisplayName: Bees Protector
-		Tooltip: Summons killer bees after striking
+		DisplayName: 蜂のプロテクター
+		Tooltip: 攻撃でキラービーを召喚
 	}
 
 	BloodSlayer: {
-		DisplayName: Blood Slayer
-		Tooltip: Shoots healing knifes
+		DisplayName: 鮮血の殺戮者
+		Tooltip: 癒しのナイフを放つ
 	}
 
 	BrokenHeroShortsword: {
-		Tooltip: This shortsword has been used by the legendary long forgotten knight
-		DisplayName: Broken Hero Shortsword
+		Tooltip: この短剣は、時がたつうちに忘れ去られていた伝説の騎士が使っていたものだ。
+		DisplayName: 折れた英雄の短剣
 	}
 
 	EnchantedShortsword: {
-		DisplayName: Enchanted Shortsword
-		Tooltip: Shoots enchanted beams
+		DisplayName: 魔法の短剣
+		Tooltip: 魔法のビームを放つ
 	}
 
 	FieryGreatknife: {
-		DisplayName: Magma Knife
-		Tooltip: Shoots exploding beams
+		DisplayName: マグマの短剣
+		Tooltip: 爆発するビームを放つ
 	}
 
 	Honesuki: {
-		Tooltip: Shoots water beams
-		DisplayName: Honesuki
+		Tooltip: 水のビームを放つ
+		DisplayName: ホネスキ
 	}
 
 	InflowWaver: {
-		Tooltip: Shoots inflow beams
-		DisplayName: Inflow Waver
+		Tooltip: インフロー・ビームを放つ
+		DisplayName: インフロー・ウェーバー
 	}
 
 	LightsDarkness: {
-		DisplayName: Light's Darkness
-		Tooltip: Shoots shadowflames
+		DisplayName: 闇の灯火
+		Tooltip: シャドウフレイムを放つ
 	}
 
 	NightsShortsword: {
-		DisplayName: Night's Shortsword
-		Tooltip: Shoots dark beams
+		DisplayName: 夜の短剣
+		Tooltip: 闇のビームを放つ
 	}
 
 	Shortcalibur: {
-		Tooltip: Shoots hallowed beams
-		DisplayName: Shortcalibur
+		Tooltip: 聖なるビームを放つ
+		DisplayName: ショートカリバー
 	}
 
 	ShortMeowmere: {
-		DisplayName: Short Mewmere
-		Tooltip: Shoots bouncing cats
+		DisplayName: ミニメアー
+		Tooltip: ニャンキャットを放つ
 	}
 
 	ShortswordofGrass: {
-		DisplayName: Shortsword of Grass
-		Tooltip: Shoots leaves
+		DisplayName: 草の短剣
+		Tooltip: 葉っぱを放つ
 	}
 
 	Springler: {
-		Tooltip: Shoots exploding seeds
-		DisplayName: Springler
+		Tooltip: 爆発する種を放つ
+		DisplayName: スプリングラー
 	}
 
 	StarFrenzy: {
-		Tooltip: Causes stars to rain from the sky
-		DisplayName: Star Frenzy
+		Tooltip: 空から星の雨を降らせる
+		DisplayName: 熱狂する星
 	}
 
 	StarRage: {
-		Tooltip: Causes stars to shoot out of your blade
-		DisplayName: Star Rage
+		Tooltip: 刀身から星が飛び出す
+		DisplayName: 激怒する星
 	}
 
 	TerraShortsword: {
-		DisplayName: Terra Shortsword
-		Tooltip: "'Made from pure nature'"
+		DisplayName: テラナイフ
+		Tooltip: "'純粋な自然から生み出された'"
 	}
 
 	TheHorsemansShortsword: {
-		DisplayName: Shortswordless Horseman's Shortsword
-		Tooltip: Summons Pumpkin heads to attack your enemies
+		DisplayName: かぼちゃ騎手の短剣
+		Tooltip: かぼちゃの頭を召喚して敵を攻撃する
 	}
 
 	TrueNightsShortsword: {
-		DisplayName: True Night's Shortsword
-		Tooltip: You feel like a monster
+		DisplayName: 真・夜の短剣
+		Tooltip: 怪物のように感じる
 	}
 
 	TrueShortcalibur: {
-		DisplayName: True Shortcalibur
-		Tooltip: "'You will save the world'"
+		DisplayName: 真・ショートカリバー
+		Tooltip: "'あなたは世界を救う'"
 	}
 
 	ZenithShortsword: {
-		DisplayName: Zenith Shortsword
+		DisplayName: ゼニスの短剣
 		Tooltip:
 			'''
-			Right click to shoot homing shortwords
-			Left click to swing the shortsword
+			右クリックでホーミング短剣を撃つ
+			左クリックでショートソードを振る
 			'''
 	}
 
 	AmberTome: {
-		Tooltip: Casts amber bolts
-		DisplayName: Amber Tome
+		Tooltip: 琥珀ボルトを発射する
+		DisplayName: 琥珀の書
 	}
 
 	BoilingWaterBolt: {
-		Tooltip: Casts fire and water bolts
-		DisplayName: Boiling Water Bolt
+		Tooltip: ファイアボルトとウォーターボルトを発射する
+		DisplayName: 沸騰したウォーターボルト
 	}
 
 	BrokenHeroTome: {
-		Tooltip: All the pages were torn out
-		DisplayName: Broken Hero Tome
+		Tooltip: すべてのページが破られていた
+		DisplayName: 破られた英雄の書
 	}
 
 	FireBolt: {
-		Tooltip: Casts fire bolts
-		DisplayName: Fire Bolt
+		Tooltip: ファイアボルトを発射する
+		DisplayName: ファイアボルト
 	}
 
 	FlowerGale: {
-		Tooltip: Shoots flower leaves
-		DisplayName: Flower Gale
+		Tooltip: 花の葉を発射する
+		DisplayName: 花の嵐
 	}
 
 	GalaxysFuture: {
-		DisplayName: Galaxy's Future
-		Tooltip: Casts nebula bolts
+		DisplayName: 銀河の未来
+		Tooltip: ネビュラボルトを発射する
 	}
 
 	HallowedRevenge: {
-		Tooltip: Casts hallowed bolts
-		DisplayName: Hallowed Revenge
+		Tooltip: 神聖なボルトを発射する
+		DisplayName: 聖域の復讐者
 	}
 
 	LastSpectrum: {
-		DisplayName: Last Spectrum
+		DisplayName: 最後のスペクトラム
 		Tooltip:
 			'''
-			Casts various spells
-			Nothing can stop you now
+			様々な呪文を唱える
+			もう誰にも止められない
 			'''
 	}
 
 	LeafBook: {
-		Tooltip: Casts leaves
-		DisplayName: Leaflet
+		Tooltip: 葉っぱを発射する
+		DisplayName: リーフレット
 	}
 
 	NightmareFlame: {
-		Tooltip: Casts nightmare bolts
-		DisplayName: Nightmare Flame
+		Tooltip: 悪夢の炎を発射する
+		DisplayName: 悪夢の炎
 	}
 
 	StarSpell: {
-		Tooltip: Casts stars
-		DisplayName: Star Spell
+		Tooltip: 星を発射する
+		DisplayName: 星の呪文
 	}
 
 	TerraTome: {
-		Tooltip: Casts nature's magic
-		DisplayName: Terra Tome
+		Tooltip: 大自然の魔法を発射する
+		DisplayName: 大地の書
 	}
 
 	BeeBlower: {
-		DisplayName: Bee Blower
-		Tooltip: Casts bees that fall onto your enemy
+		DisplayName: ビー・ブロワー
+		Tooltip: あなたの敵の上に蜂が発射される
 	}
 
 	BrokenHeroStaff: {
-		Tooltip: The power crystal on the top seems to be broken
-		DisplayName: Broken Hero Staff
+		Tooltip: 上部のパワークリスタルが壊れているようだ。
+		DisplayName: 破損した英雄の杖
 	}
 
 	NebulaWand: {
-		DisplayName: Nebula Wand
-		Tooltip: Shoot controllable nebula stars
+		DisplayName: 星雲の杖
+		Tooltip: 制御可能な星雲の星々を発射する
 	}
 
 	NightsVerge: {
-		DisplayName: Night's Verge
-		Tooltip: Shoots homing night bolts
+		DisplayName: 夜の際々
+		Tooltip: 追尾するナイトボルトを発射する
 	}
 
 	SacredStaff: {
-		DisplayName: Sacred Staff
-		Tooltip: Shoots hallowed bolts that explode on hit
+		DisplayName: 聖なる杖
+		Tooltip: 命中すると爆発する神聖なボルトを発射する
 	}
 
 	StarScepter: {
-		DisplayName: Star Scepter
-		Tooltip: Casts stars that rain from the sky
+		DisplayName: 星の杖
+		Tooltip: 空から降り注ぐ星々
 	}
 
 	TerraScepter: {
-		DisplayName: Terra Scepter
-		Tooltip: Shoots multiple terra bolts
+		DisplayName: 大地の杖
+		Tooltip: 複数の大自然ボルトを発射する
 	}
 
 	TrueNightsVerge: {
-		DisplayName: True Night's Verge
-		Tooltip: Shoots homing cursed bolts
+		DisplayName: 真・夜の際々
+		Tooltip: 追尾する呪われたボルトを発射する
 	}
 
 	TrueSacredStaff: {
-		DisplayName: True Sacred Staff
-		Tooltip: Shoots true hallowed bolts that explode on hit
+		DisplayName: 真・聖なる杖
+		Tooltip: 真・神聖なボルトを発射する。ボルトは命中すると爆発する
 	}
 
 	ZenithWand: {
-		DisplayName: Zenith Staff
-		Tooltip: Shoots all bolts from the staffs you collected
+		DisplayName: ゼニスタッフ
+		Tooltip: 集いし杖からすべてのボルトを撃つ
 	}
 
 	BeltofSkies: {
-		DisplayName: Belt of Skies
+		DisplayName: 空のベルト
 		Tooltip:
 			'''
-			8 summon tag damage
-			Your summons will focus struck enemies
-			Casts stars upon your enemies on hit
+			8 召喚タグダメージ
+			当たった敵を集中攻撃する
+			ヒットした敵に星を落とす
 			'''
 	}
 
 	BloodyExecutioner: {
-		DisplayName: Bloody Executioner
+		DisplayName: 血まみれの処刑人
 		Tooltip:
 			'''
-			7 summon tag damage
-			Your summons will focus struck enemies
-			Blood drops on your hands
+			7 召喚タグダメージ
+			あなたの召喚は攻撃された敵を集中攻撃する
+			手に血が滴る
 			'''
 	}
 
 	BrokenHeroWhip: {
-		Tooltip: Can't be swung
-		DisplayName: Broken Hero Whip
+		Tooltip: 振り回すことは叶わない
+		DisplayName: ボロボロの英雄の鞭
 	}
 
 	EnchantedWhip: {
-		DisplayName: Enchanted Whip
+		DisplayName: 魔法の鞭
 		Tooltip:
 			'''
-			8 summon tag damage
-			Your summons will focus struck enemies
-			Strike enemies to summon friendly enchanted flakes
+			8 召喚タグダメージ
+			あなたの召喚は攻撃した敵を集中攻撃する。
+			敵を攻撃して友好的な魔法のフレークを召喚する。
 			'''
 	}
 
 	LightsGarner: {
-		DisplayName: Light's Garner
+		DisplayName: 蓄積された闇
 		Tooltip:
 			'''
-			7 summon tag damage 
-			Your summons will focus struck enemies
+			7 召喚タグダメージ 
+			あなたの召喚獣は攻撃された敵を集中攻撃する
 			'''
 	}
 
 	EndlessBlueSolutionPouch: {
-		DisplayName: Endless Blue Solution Pouch
+		DisplayName: 無限の青ソリューションポーチ
 		Tooltip:
 			'''
-			Used by the Clentaminator
-			Spreads the Hallow
+			クリターミネーターで使用する
+			聖域を広める
 			'''
 	}
 
 	EndlessCandyCornQuiver: {
-		DisplayName: Endless Candy Corn Quiver
+		DisplayName: 無限キャンディコーン筒
 		Tooltip: ""
 	}
 
 	EndlessDarkBlueSolutionPouch: {
-		DisplayName: Endless Dark Blue Solution Pouch
+		DisplayName: 無限のダークブルーソリューションポーチ
 		Tooltip:
 			'''
-			Used by the Clentaminator
-			Spreads Glowing Mushrooms
+			クリターミネーターで使用する
+			キノコバイオームを広げる
 			'''
 	}
 
 	EndlessFlareQuiver: {
-		DisplayName: Endless Flare Quiver
+		DisplayName: 無限火炎弾筒
 		Tooltip: ""
 	}
 
 	EndlessGelPouch: {
-		DisplayName: Endless Gel Pouch
+		DisplayName: 無限ジェルポーチ
 		Tooltip: ""
 	}
 
 	EndlessGreenSolutionPouch: {
-		DisplayName: Endless Green Solution Pouch
+		DisplayName: 無限の緑ソリューションポーチ
 		Tooltip:
 			'''
-			Used by the Clentaminator
-			Spreads the Purity
+			クリターミネーターで使用する
+			環境を純粋にする
 			'''
 	}
 
 	EndlessNailQuiver: {
-		DisplayName: Endless Nail Quiver
+		DisplayName: 無限爪筒
 		Tooltip: ""
 	}
 
 	EndlessPurpleSolutionPouch: {
-		DisplayName: Endless Purple Solution Pouch
+		DisplayName: 無限の紫ソリューションポーチ
 		Tooltip:
 			'''
-			Used by the Clentaminator
-			Spreads the Corruption
+			クリターミネーターで使用する
+			不浄を広める
 			'''
 	}
 
 	EndlessRedSolutionPouch: {
-		DisplayName: Endless Red Solution Pouch
+		DisplayName: 無限の赤ソリューションポーチ
 		Tooltip:
 			'''
-			Used by the Clentaminator
-			Spreads the Crimson
+			クリターミネーターで使用する
+			真紅を広める
 			'''
 	}
 
 	EndlessSandPouch: {
-		DisplayName: Endless Sand Pouch
+		DisplayName: 無限の砂ポーチ
 		Tooltip: ""
 	}
 
 	EndlessSnowballPouch: {
-		DisplayName: Endless Snowball Pouch
+		DisplayName: 無限の雪玉ポーチ
 		Tooltip: ""
 	}
 
 	EndlessStakeQuiver: {
-		DisplayName: Endless Stake Quiver
+		DisplayName: 無限の杭ポーチ
 		Tooltip: ""
 	}
 
 	EndlessStarPouch: {
-		DisplayName: Endless Star Pouch
+		DisplayName: 無限の星ポーチ
 		Tooltip: ""
 	}
 
 	EndlessStyngerBoltQuiver: {
-		DisplayName: Endless Stynger Bolt Quiver
+		DisplayName: 無限のスティンガーボルト筒
 		Tooltip: ""
 	}
 
 	BrokenHeroYoyo: {
-		DisplayName: Broken Hero Yoyo
-		Tooltip: Seems like it was once powerful
+		DisplayName: 壊れた英雄のヨーヨー
+		Tooltip: かつては力強かったようだ
 	}
 
 	Crater: {
-		DisplayName: Volcanic Crater
-		Tooltip: Casts fire bolts on hit
+		DisplayName: ボルカニック・クレーター
+		Tooltip: ヒット時にファイア・ボルトを発射する
 	}
 
 	DiamondYoyo: {
-		DisplayName: Diamond Yoyo
-		Tooltip: Casts diamond bolts
+		DisplayName: ダイヤモンド・ヨーヨー
+		Tooltip: ダイヤモンドボルトを発射する
 	}
 
 	GolemYoyo: {
-		DisplayName: Golem's Throw
-		Tooltip: Casts homing earth bolts
+		DisplayName: ゴーレム・スロー
+		Tooltip: 追尾する大地のボルトを発射する
 	}
 
 	NightsYoyo: {
