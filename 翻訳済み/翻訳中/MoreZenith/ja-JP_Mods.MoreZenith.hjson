@@ -845,212 +845,212 @@ Items: {
 
 	StarAnger: {
 		DisplayName: 星々の怒り
-		Tooltip: Shoots stars upon enemies on hit
+		Tooltip: ヒットした敵に星を放つ
 	}
 
 	TerraYoyo: {
-		DisplayName: Terra Spin
-		Tooltip: You feel the jungle spreading on your skin
+		DisplayName: テラ・スピン
+		Tooltip: 大自然が肌に広がるのを感じる。
 	}
 
 	TrueChik: {
-		DisplayName: True Chik
-		Tooltip: "'It's made from heaven'"
+		DisplayName: トゥルー・チーク
+		Tooltip: "'それは天から作られたものだ'"
 	}
 
 	TrueNightsYoyo: {
-		DisplayName: True Night's Line
-		Tooltip: You feel the corruption spreading on your skin
+		DisplayName: トゥルー・ナイツ・ライン
+		Tooltip: 腐敗が肌に蝕むのを感じる。
 	}
 
 	ZenithYoyo: {
-		DisplayName: Zenith Yoyo
-		Tooltip: Shoots all yoyos you collected
+		DisplayName: ゼニス・ヨーヨー
+		Tooltip: 集ったすべてのヨーヨーを発射する
 	}
 
 	CowboyCoin: {
-		DisplayName: Cowboy Coin
+		DisplayName: カウボーイ・コイン
 		Tooltip: ""
 	}
 
 	DesertRunners: {
 		Tooltip:
 			'''
-			The wearer can run super fast, and even faster on sand
-			Grants the ability to float for a few seconds
+			超高速で走ることができ、砂の上ではさらに速く走ることができる。
+			数秒間浮くことができる。
 			'''
-		DisplayName: Desert Runners
+		DisplayName: デザートランナー
 	}
 
 	EndlessBoneArrowQuiver: {
-		DisplayName: Endless Bone Arrow Quiver
+		DisplayName: 無限の骨矢筒
 		Tooltip: ""
 	}
 
 	EndlessChlorophyteArrowQuiver: {
-		DisplayName: Endless Chlorophyte Arrow Quiver
-		Tooltip: Bounces back after hitting a wall
+		DisplayName: 無限のクロロファイト矢筒
+		Tooltip: 壁にぶつかると跳ね返る
 	}
 
 	EndlessVenomArrowQuiver: {
-		Tooltip: Inflicts target with Acid Venom
-		DisplayName: Endless Venom Arrow Quiver
+		Tooltip: 対象に猛毒を与える
+		DisplayName: 無限のベノム矢筒
 	}
 
 	EndlessVenomBulletPouch: {
-		Tooltip: Inflicts target with Acid Venom
-		DisplayName: Endless Venom Bullet Pouch
+		Tooltip: 対象に猛毒を与える
+		DisplayName: 無限ベノム弾ポーチ
 	}
 
 	EndlessWhiteSolutionPouch: {
 		Tooltip:
 			'''
-			Used by the Clentaminator
-			Spreads the Snow
+			クリターミネーターで使用する
+			雪原を広める
 			'''
-		DisplayName: Endless White Solution Pouch
+		DisplayName: 無限の白ソリューションポーチ
 	}
 
 	EndlessYellowSolutionPouch: {
 		Tooltip:
 			'''
-			Used by the Clentaminator
-			Spreads the Desert
+			クリターミネーターで使用する
+			砂漠を広める
 			'''
-		DisplayName: Endless Yellow Solution Pouch
+		DisplayName: 無限の黄ソリューションポーチ
 	}
 
 	EndlessBrownSolutionPouch: {
-		DisplayName: Endless Brown Solution Pouch
+		DisplayName: 無限のブラウンソリューションポーチ
 		Tooltip:
 			'''
-			Used by the Clentaminator
-			Spreads the Forest
+			クリターミネーターで使用する
+			森林を広める
 			'''
 	}
 
 	EndlessChlorophyteBulletPouch: {
-		DisplayName: Endless Chlorophyte Bullet Pouch
-		Tooltip: Chases after your enemy
+		DisplayName: 無限のクロロファイト弾ポーチ
+		Tooltip: 敵を追いかける
 	}
 
 	EndlessCrystalBulletPouch: {
-		DisplayName: Endless Crystal Bullet Pouch
-		Tooltip: Creates crystal shards on impact
+		DisplayName: 無限の水晶弾ポーチ
+		Tooltip: 着弾時クリスタルの破片を生成
 	}
 
 	EndlessCursedArrowQuiver: {
-		DisplayName: Endless Cursed Arrow Quiver
+		DisplayName: 無限の呪われた矢筒
 		Tooltip: ""
 	}
 
 	EndlessCursedBulletPouch: {
-		DisplayName: Endless Cursed Bullet Pouch
+		DisplayName: 無限の呪われた弾ポーチ
 		Tooltip: ""
 	}
 
 	EndlessExplodingBulletPouch: {
-		DisplayName: Endless Exploding Bullet Pouch
-		Tooltip: Explodes on impact
+		DisplayName: 無限の爆裂弾ポーチ
+		Tooltip: 衝撃を与えると爆発する
 	}
 
 	EndlessFlamingArrowQuiver: {
-		DisplayName: Endless Flaming Arrow Quiver
+		DisplayName: 無限の燃えている矢筒
 		Tooltip: ""
 	}
 
 	EndlessFrostburnArrowQuiver: {
-		DisplayName: Endless Frostburn Arrow Quiver
+		DisplayName: 無限の吹雪矢筒
 		Tooltip: ""
 	}
 
 	EndlessGoldBulletPouch: {
-		DisplayName: Endless Gold Bullet Pouch
+		DisplayName: 無限のゴールデン弾ポーチ
 		Tooltip: ""
 	}
 
 	EndlessHellfireArrowQuiver: {
-		DisplayName: Endless Hellfire Arrow Quiver
+		DisplayName: 無限のヘルファイア矢筒
 		Tooltip: ""
 	}
 
 	EndlessHighVelocityBulletPouch: {
-		DisplayName: Endless High Velocity Bullet Pouch
+		DisplayName: 無限の高速弾ポーチ
 		Tooltip: ""
 	}
 
 	EndlessHolyArrowQuiver: {
-		DisplayName: Endless Holy Arrow Quiver
-		Tooltip: Summons falling stars on impact
+		DisplayName: 無限の聖なる矢筒
+		Tooltip: 着弾時星を対象に降らせる
 	}
 
 	EndlessIchorArrowQuiver: {
-		DisplayName: Endless Ichor Arrow Quiver
-		Tooltip: Decreases target's defense
+		DisplayName: 無限のイコル矢筒
+		Tooltip: 対象の防御力を低下させる
 	}
 
 	EndlessIchorBulletPouch: {
-		DisplayName: Endless Ichor Bullet Pouch
-		Tooltip: Decreases target's defense
+		DisplayName: 無限のイコル弾ポーチ
+		Tooltip: 対象の防御力を低下させる
 	}
 
 	EndlessLuminiteArrowQuiver: {
-		DisplayName: Endless Luminite Arrow Quiver
-		Tooltip: "'Shooting them down at the speed of sound!'"
+		DisplayName: 無限のルミナイト矢筒
+		Tooltip: "'音速で撃ち落とす！'"
 	}
 
 	EndlessLuminiteBulletPouch: {
-		DisplayName: Endless Luminite Bullet Pouch
-		Tooltip: "'Line 'em up and knock 'em down...'"
+		DisplayName: 無限のルミナイト弾ポーチ
+		Tooltip: "'並べて倒して...'"
 	}
 
 	EndlessMeteorShotPouch: {
-		DisplayName: Endless Meteor Shot Pouch
+		DisplayName: 無限の隕石弾ポーチ
 		Tooltip: ""
 	}
 
 	EndlessNanoBulletPouch: {
-		DisplayName: Endless Nano Bullet Pouch
+		DisplayName: 無限の極小弾ポーチ
 		Tooltip: ""
 	}
 
 	EndlessPartyBulletPouch: {
-		DisplayName: Endless Party Bullet Pouch
-		Tooltip: Explodes into confetti on impact
+		DisplayName: 無限のパーティ弾ポーチ
+		Tooltip: 着弾時紙吹雪になる
 	}
 
 	EndlessShimmerArrowQuiver: {
-		DisplayName: Endless Shimmer Arrow Quiver
-		Tooltip: Falls upwards
+		DisplayName: 無限のシマー矢筒
+		Tooltip: 上に落ちる
 	}
 
 	EndlessSilverBulletPouch: {
-		DisplayName: Endless Silver Bullet Pouch
+		DisplayName: 無限の銀弾ポーチ
 		Tooltip: ""
 	}
 
 	EndlessTungstenBulletPouch: {
-		DisplayName: Endless Tungsten Bullet Pouch
+		DisplayName: 無限のタングステン弾ポーチ
 		Tooltip: ""
 	}
 
 	EndlessUnholyArrowQuiver: {
-		DisplayName: Endless Unholy Arrow Quiver
+		DisplayName: 無限の不浄矢筒
 		Tooltip: ""
 	}
 
 	EndlessJesterArrowQuiver: {
-		DisplayName: Endless Jester Arrow Quiver
+		DisplayName: 無限の道化師の矢筒
 		Tooltip: ""
 	}
 
 	SkeletonHeadItem: {
-		DisplayName: Shakujo
-		Tooltip: Summons a skull to fight for you
+		DisplayName: シャークジョウ
+		Tooltip: あなたのために戦う頭蓋骨を召喚する
 	}
 
 	NightLanternItem: {
-		DisplayName: Night Lantern Item
+		DisplayName: 夜のランタン
 		Tooltip: ""
 	}
 }
@@ -1204,17 +1204,17 @@ Projectiles: {
 
 Configs: {
 	MoreZenithConfig: {
-		DisplayName: More Zenith Config
-		Headers.Accessories: Accessories Header
+		DisplayName: モアゼニス・設定
+		Headers.Accessories: アクセサリーヘッダー
 
 		WingsToggle: {
-			Label: Wings and Boots
-			Tooltip: Toggles all Wings and Boots
+			Label: 翼と靴
+			Tooltip: 全ての翼と靴の有効無効を決定する
 		}
 
 		PetsToggle: {
-			Label: Pets
-			Tooltip: Toggles all Pets
+			Label: ペット
+			Tooltip: 全てのペットの有効無効を決定する
 		}
 	}
 }
