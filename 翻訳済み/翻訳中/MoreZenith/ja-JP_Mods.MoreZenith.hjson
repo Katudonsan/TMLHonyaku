@@ -829,22 +829,22 @@ Items: {
 	}
 
 	NightsYoyo: {
-		DisplayName: Night's Line
-		Tooltip: Casts dark bolts
+		DisplayName: ナイツ・ライン
+		Tooltip: ダークボルトを発射する
 	}
 
 	RubyYoyo: {
-		DisplayName: Ruby Yoyo
-		Tooltip: Casts ruby bolts
+		DisplayName: ルビー・ヨーヨー
+		Tooltip: ルビーボルトを発射する
 	}
 
 	SolarYoyo: {
-		DisplayName: Solar Yoyo
-		Tooltip: Explodes on hit
+		DisplayName: ソーラー・ヨーヨー
+		Tooltip: 命中時爆発する
 	}
 
 	StarAnger: {
-		DisplayName: Star Anger
+		DisplayName: 星々の怒り
 		Tooltip: Shoots stars upon enemies on hit
 	}
 
