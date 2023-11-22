@@ -367,7 +367,7 @@ Items: {
 	}
 
 	WoodenFlamethrower: {
-		DisplayName: 木星火炎放射器
+		DisplayName: 木製火炎放射器
 		Tooltip: 火を噴く
 	}
 
