@@ -1,5 +1,3 @@
-Mods: {
-	BossChecklist: {
 		Log: {
 			Common: {
 				BossLog: ボスログ
@@ -619,5 +617,3 @@ Mods: {
 				HostChange: 非常に申し訳ないが、現在この設定を変更できるのはホストだけである。
 			}
 		}
-	}
-}

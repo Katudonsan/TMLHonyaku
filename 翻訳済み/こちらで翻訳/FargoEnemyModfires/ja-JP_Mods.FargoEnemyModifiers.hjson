@@ -1,5 +1,3 @@
-Mods: {
-	FargoEnemyModifiers: {
 		NPCs.BabySpider.DisplayName: 赤ちゃん蜘蛛
 		Configs: {
 			EnemyModifiersConfig: {
@@ -55,5 +53,3 @@ Mods: {
 				}
 			}
 		}
-	}
-}

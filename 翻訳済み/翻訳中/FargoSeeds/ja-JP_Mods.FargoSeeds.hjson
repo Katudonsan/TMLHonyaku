@@ -1,5 +1,3 @@
-Mods: {
-	FargoSeeds: {
 		Configs: {
 			WorldConfig: {
 				MoreSpiders: {
@@ -58,5 +56,4 @@ Mods: {
 				Header3: For the Worthy Seed
 			}
 		}
-	}
-}
+
