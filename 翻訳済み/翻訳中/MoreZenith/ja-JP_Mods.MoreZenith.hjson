@@ -1045,7 +1045,7 @@ Items: {
 	}
 
 	SkeletonHeadItem: {
-		DisplayName: シャークジョウ
+		DisplayName: 錫杖
 		Tooltip: あなたのために戦う頭蓋骨を召喚する
 	}
 
