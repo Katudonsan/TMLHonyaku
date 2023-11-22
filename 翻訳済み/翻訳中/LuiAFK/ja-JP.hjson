@@ -1639,7 +1639,7 @@ Items: {
 
 
 	UnlimitedMining: {
-        	DisplayName: 採掘の力r
+        	DisplayName: 採掘の力
         	Tooltip: Increased mining speed.
 	}
 
