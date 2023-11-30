@@ -111,7 +111,7 @@ Mods: {
 
 		Configs: {
 			FargoServerConfig: {
-				DisplayName: Server Config
+				DisplayName: サーバー側コンフィグ
 
 				Mutant: {
 					Label: "[i:Fargowiltas/MutantMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Mutant.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
@@ -278,7 +278,7 @@ Mods: {
 			}
 
 			FargoClientConfig: {
-				DisplayName: Client Config
+				DisplayName: クライアント側コンフィグ
 
 				ExpandedTooltips: {
 					Label: "[i:171] More tooltips indicate Mutant Mod changes"
@@ -322,2036 +322,2041 @@ Mods: {
 		}
 
 		RecipeGroups: {
-			EvilWood: Evil Wood
-			CommonFish: Common Fish
-			CaughtNPC: Caught Town NPC
-			ArmoredBonesBanner: Armored Bones Banner
+			EvilWood: エボンウッドもしくはシェイドウッド
+			CommonFish: 普通の魚
+			CaughtNPC: 捕まえたタウンNPC
+			ArmoredBonesBanner: アーマードスケルトン系のバナー
 		}
 
 		MessageInfo: {
-			SiblingPylonNotNearSiblings: That pylon needs the mutated siblings to function.
-			NearbySiblingPylonNotNearSiblings: The nearby pylon needs the mutated siblings to function.
+			SiblingPylonNotNearSiblings: このパイロンが機能するには、兄弟となる別のパイロンが必要です
+			NearbySiblingPylonNotNearSiblings: 近くにいるパイロンが機能するためには、近くに別の兄弟パイロンが必要です
 		}
 
 		Buffs: {
 			Omnistation: {
-				DisplayName: Omnistation
-				Description: Effects of all vanilla stations
+				DisplayName: オムニステーション
+				Description: あらゆるバニラ設置物の効果を受けている
 			}
 
 			Semistation: {
-				DisplayName: Semistation
-				Description: Effects of some vanilla stations
+				DisplayName: セミステーション
+				Description: いくつかのバニラ設置物の効果を受けている
 			}
 
 			WoodDrop: {
-				DisplayName: Wood Drop
+				DisplayName: 樹液
 				Description: Mods.Fargowiltas.BuffDescription.WoodDrop
 			}
 		}
 
 		Items: {
 			BoneQuiver: {
-				DisplayName: Endless Bone Quiver
+				DisplayName: 無限骨矢筒
 				Tooltip: ""
 			}
 
 			ChlorophyteQuiver: {
-				DisplayName: Endless Chlorophyte Quiver
-				Tooltip: Bounces back after hitting a wall
+				DisplayName: 無限クロロファイト矢筒
+				Tooltip: 壁に当たると跳ね返る
 			}
 
 			CursedQuiver: {
-				DisplayName: Endless Cursed Quiver
+				DisplayName: 無限呪われた矢筒
 				Tooltip: ""
 			}
 
 			FlameQuiver: {
-				DisplayName: Endless Flame Quiver
+				DisplayName: 無限火矢筒
 				Tooltip: ""
 			}
 
 			FrostburnQuiver: {
-				DisplayName: Endless Frostburn Quiver
+				DisplayName: 無限吹雪の矢筒
 				Tooltip: ""
 			}
 
 			HellfireQuiver: {
-				DisplayName: Endless Hellfire Quiver
+				DisplayName: 無限ヘルファイアの矢筒
 				Tooltip: ""
 			}
 
 			HolyQuiver: {
-				DisplayName: Endless Holy Quiver
-				Tooltip: Summons falling stars on impact
+				DisplayName: 無限聖なる矢筒
+				Tooltip: 衝撃で流れ星を召喚
 			}
 
 			IchorQuiver: {
-				DisplayName: Endless Ichor Quiver
-				Tooltip: Decreases target's defense
+				DisplayName: 無限霊液矢筒
+				Tooltip: 対象の防御力を下げる
 			}
 
 			JesterQuiver: {
-				DisplayName: Endless Jester's Quiver
+				DisplayName: 無限道化師の矢筒
 				Tooltip: ""
 			}
 
 			LuminiteQuiver: {
-				DisplayName: Endless Luminite Quiver
-				Tooltip: "'Shooting them down at the speed of sound!'"
+				DisplayName: 無限ルミナイト矢筒
+				Tooltip: "「音速で撃ち落とす！」"
 			}
 
 			UnholyQuiver: {
-				DisplayName: Endless Unholy Quiver
+				DisplayName: 無限不浄な矢筒
 				Tooltip: ""
 			}
 
 			VenomQuiver: {
-				DisplayName: Endless Venom Quiver
+				DisplayName: 無限猛毒矢筒
 				Tooltip: ""
 			}
 
 			BrittleBone: {
-				DisplayName: Brittle Bone
+				DisplayName: 脆い骨
 				Tooltip: ""
 			}
 
 			ChlorophytePouch: {
-				DisplayName: Endless Chlorophyte Pouch
-				Tooltip: Chases after your enemy
+				DisplayName: 無限クロロファイト弾丸ポーチ
+				Tooltip: 敵を追う
 			}
 
 			CrystalPouch: {
-				DisplayName: Endless Crystal Pouch
-				Tooltip: Creates several crystal shards on impact
+				DisplayName: 無限クリスタル弾丸ポーチ
+				Tooltip: ヒット時にクリスタルシャードを生成する
 			}
 
 			CursedPouch: {
-				DisplayName: Endless Cursed Pouch
+				DisplayName: 無限呪われた弾丸ポーチ
 				Tooltip: ""
 			}
 
 			ExplosivePouch: {
-				DisplayName: Endless Explosive Pouch
-				Tooltip: Explodes on impact
+				DisplayName: 無限爆裂弾ポーチ
+				Tooltip: ヒット時に爆発する
 			}
 
 			GoldenPouch: {
-				DisplayName: Endless Golden Pouch
-				Tooltip: Enemies killed will drop more money
+				DisplayName: 無限黄金弾ポーチ
+				Tooltip: 敵を倒すとコインを落とす
 			}
 
 			IchorPouch: {
-				DisplayName: Endless Ichor Pouch
-				Tooltip: Decreases target's defense
+				DisplayName: 無限霊液弾丸ポーチ
+				Tooltip: 対象の防御力を下げる
 			}
 
 			LuminitePouch: {
-				DisplayName: Endless Luminite Pouch
-				Tooltip: "'Line 'em up and knock 'em down...'"
+				DisplayName: 無限ルミナイト弾丸ポーチ
+				Tooltip: "「並べて倒して...」"
 			}
 
 			MeteorPouch: {
-				DisplayName: Endless Meteor Pouch
+				DisplayName: 無限隕石弾丸ポーチ
 				Tooltip: ""
 			}
 
 			NanoPouch: {
-				DisplayName: Endless Nano Pouch
-				Tooltip: Causes confusion
+				DisplayName: 無限極小弾丸ポーチ
+				Tooltip: 混乱を引き起こす
 			}
 
 			PartyPouch: {
-				DisplayName: Endless Party Pouch
-				Tooltip: Explodes into confetti on impact
+				DisplayName: 無限パーティー弾丸ポーチ
+				Tooltip: 衝撃を与えると紙吹雪になる
 			}
 
 			SilverPouch: {
-				DisplayName: Endless Silver Pouch
+				DisplayName: 無限銀の弾丸ポーチ
 				Tooltip: ""
 			}
 
 			TungstenPouch: {
-				DisplayName: Endless Tungsten Pouch
+				DisplayName: 無限タングステン弾丸ポーチ
 				Tooltip: ""
 			}
 
 			VelocityPouch: {
-				DisplayName: Endless High Velocity Pouch
+				DisplayName: 無限高速弾ポーチ
 				Tooltip: ""
 			}
 
 			VenomPouch: {
-				DisplayName: Endless Venom Pouch
-				Tooltip: Inflicts target with venom
+				DisplayName: 無限ベノム弾ポーチ
+				Tooltip: ターゲットに酸性毒を付与する
 			}
 
 			CopperCoinBag: {
-				DisplayName: Endless Copper Coin Safe
+				DisplayName: 無限カッパー金庫
 				Tooltip: ""
 			}
 
 			GoldCoinBag: {
-				DisplayName: Endless Gold Coin Safe
+				DisplayName: 無限ゴールド金庫
 				Tooltip: ""
 			}
 
 			PlatinumCoinBag: {
-				DisplayName: Endless Platinum Coin Safe
+				DisplayName: 無限プラチナ金庫
 				Tooltip: ""
 			}
 
 			SilverCoinBag: {
-				DisplayName: Endless Silver Coin Safe
+				DisplayName: 無限シルバー金庫
 				Tooltip: ""
 			}
 
 			CrystalDartBox: {
-				DisplayName: Endless Crystal Dart Box
+				DisplayName: 無限クリスタルダーツ箱
 				Tooltip: ""
 			}
 
 			CursedDartBox: {
-				DisplayName: Endless Cursed Dart Box
+				DisplayName: 無限呪われたダーツ箱
 				Tooltip: ""
 			}
 
 			IchorDartBox: {
-				DisplayName: Endless Ichor Dart Box
+				DisplayName: 無限霊液ダーツ箱
 				Tooltip: ""
 			}
 
 			PoisonDartBox: {
-				DisplayName: Endless Poison Dart Box
+				DisplayName: 無限毒ダーツ箱
 				Tooltip: ""
 			}
 
 			GelPack: {
-				DisplayName: Endless Gel Pack
+				DisplayName: 無限ジェルパック
 				Tooltip: ""
 			}
 
 			ClusterRocket1Bag: {
-				DisplayName: Endless Cluster Rocket I Bag
+				DisplayName: 無限クラスターロケットⅠバッグ
 				Tooltip: ""
 			}
 
 			ClusterRocket2Bag: {
-				DisplayName: Endless Cluster Rocket II Bag
+				DisplayName: 無限クラスターロケットⅡバッグ
 				Tooltip: ""
 			}
 
 			DryRocketBag: {
-				DisplayName: Endless Dry Rocket Bag
+				DisplayName: 無限ドライロケットバッグ
 				Tooltip: ""
 			}
 
 			HoneyRocketBag: {
-				DisplayName: Endless Honey Rocket Bag
+				DisplayName: 無限はちみつロケットバッグ
 				Tooltip: ""
 			}
 
 			LavaRocketBag: {
-				DisplayName: Endless Lava Rocket Bag
+				DisplayName: 無限溶岩ロケットバッグ
 				Tooltip: ""
 			}
 
 			MiniNuke1Bag: {
-				DisplayName: Endless Mini Nuke I Bag
+				DisplayName: 無限ミニ核爆弾Ⅰバッグ
 				Tooltip: ""
 			}
 
 			MiniNuke2Bag: {
-				DisplayName: Endless Mini Nuke II Bag
+				DisplayName: 無限ミニ核爆弾Ⅱバッグ
 				Tooltip: ""
 			}
 
 			Rocket1Bag: {
-				DisplayName: Endless Rocket I Bag
+				DisplayName: 無限ロケットⅠバッグ
 				Tooltip: ""
 			}
 
 			Rocket2Bag: {
-				DisplayName: Endless Rocket II Bag
+				DisplayName: 無限ロケットⅡバッグ
 				Tooltip: ""
 			}
 
 			Rocket3Bag: {
-				DisplayName: Endless Rocket III Bag
+				DisplayName: 無限ロケットⅢバッグ
 				Tooltip: ""
 			}
 
 			Rocket4Bag: {
-				DisplayName: Endless Rocket IV Bag
+				DisplayName: 無限ロケットⅣバッグ
 				Tooltip: ""
 			}
 
 			WetRocketBag: {
-				DisplayName: Endless Wet Rocket Bag
+				DisplayName: 無限ウェットロケットバッグ
 				Tooltip: ""
 			}
 
 			StarPouch: {
-				DisplayName: Endless Star Pouch
+				DisplayName: 無限流れ星ポーチ
 				Tooltip: ""
 			}
 
 			AltarExterminator: {
-				DisplayName: Altar Exterminator
+				DisplayName: アルター破壊機
 				Tooltip:
 					'''
-					Destroys all natural Demon Altars and Crimson Altars
-					'Also known as the Wraithmaker 200'
+					自然生成されたデーモンアルターとクリムゾンアルターをすべて破壊する。
+					別名:レイスメイカー200
 					'''
 			}
 
 			AutoHouse: {
-				DisplayName: InstaHouse
-				Tooltip: Places an NPC house instantly
+				DisplayName: どこでもハウス
+				Tooltip: NPCの家をどこでも即座に配置する
 			}
 
 			BoomShuriken: {
-				DisplayName: Boom Shuriken
+				DisplayName: 爆弾手裏剣
 				Tooltip:
 					'''
-					Rapid firing explosives
-					Uses your pickaxe's mining power
-					'The fastest way to dig through anything is always to blow it up!'
+					速射爆薬
+					ツルハシの採掘力を使う
+					何かを掘り進む最速の方法は、常にそれを爆破することである
 					'''
 			}
 
 			CityBuster: {
-				DisplayName: City Buster
+				DisplayName: シティ・バスター
 				Tooltip:
 					'''
-					Destroys a large area
-					Will not remove background walls
-					Use at your own risk
+					広い範囲を問答無用で破壊する
+					背景の壁は除去しない
+					使用は自己責任でお願いします
 					'''
 			}
 
 			DoubleObsidianInstabridge: {
-				DisplayName: Double Obsidian Instabridge
+				DisplayName: 黒曜石橋製造機ダブル
 				Tooltip:
 					'''
-					Creates 2 bridges of obsidian platforms across the whole world
-					Also clears the area between and above the platforms
-					The bottom bridge appears at your cursor
-					Do not use if any important building is nearby
+					全世界に黒曜石のプラットフォームの橋を２つ架ける。
+					また、橋と橋の間と上のエリアも消滅させる。
+					一番下の橋はカーソルの位置に表示される。
+					近くに重要な建物がある場合は使用しないこと。
 					'''
 			}
 
 			GraveBuster: {
-				DisplayName: Grave Buster
-				Tooltip: Destroys tombstones in a large area
+				DisplayName: 墓荒らし装置
+				Tooltip: 広範囲の墓石を取り去る
 			}
 
 			HalfInstavator: {
-				DisplayName: Half Instavator
+				DisplayName: 半端な即席ヘルベーター
 				Tooltip:
 					'''
-					Drops a bomb that creates half a hellevator instantly
-					Will not dig below a certain depth
-					Do not use if any important building is below
+					爆弾を投下し、瞬時に半分のヘルベーターを作る
+					一定の深さ以下は掘らない
+					下に重要な建物がある場合は使用しないこと
 					'''
 			}
 
 			InstaBridge: {
-				DisplayName: Instabridge
+				DisplayName: 架橋装置
 				Tooltip:
 					'''
-					Creates a bridge of platforms across the whole world
-					Also clears the area right above the platforms
-					The bridge appears at your cursor
-					Do not use if any important building is nearby
+					全世界にプラットフォームの橋を架ける
+					プラットフォームの真上のエリアも消し去る
+					橋はカーソルの位置に現れる
+					近くに重要な建物がある場合は使用しないこと
 					'''
 			}
 
 			InstaTrack: {
-				DisplayName: Instatrack
+				DisplayName: トラックメーカー
 				Tooltip:
 					'''
-					Creates a minecart track across the whole world
-					Also clears the area right above the tracks
-					The track appears at your cursor
-					Do not use if any important building is nearby
+					全世界にマインカートの線路を作る
+					線路の真上もクリアする
+					線路はカーソルの位置に現れます
+					近くに重要な建物がある場合は使用しないこと
 					'''
 			}
 
 			Instavator: {
-				DisplayName: Instavator
+				DisplayName: 即席ヘルベーター
 				Tooltip:
 					'''
-					Drops a bomb that creates a hellevator instantly
-					Do not use if any important building is below
+					爆弾を投下し、即座にヘルベーターを設置する
+					下に重要な建物がある場合は使用しないこと
 					'''
 			}
 
 			LihzahrdInstactuationBomb: {
-				DisplayName: Lihzahrd Instactuation Bomb
+				DisplayName: リザードの即席爆弾
 				Tooltip:
 					'''
-					Clears a space around the Lihzahrd Altar when used while standing in front of it
-					Actuates Lihzahrd Brick and destroys others
-					Only works in the Jungle Temple and after Plantera is defeated
+					リザードの祭壇の前に立った状態で使用すると、リザードの祭壇の周囲を消滅させる
+					リザードのレンガを起動し、他を破壊する
+					プランテラを倒した後のジャングル神殿でのみ使用可能
 					'''
 			}
 
 			MiniInstaBridge: {
-				DisplayName: Mini Instabridge
+				DisplayName: 小さな架橋装置
 				Tooltip:
 					'''
-					Creates a long bridge of platforms at your cursor
-					Will not break any blocks
+					カーソルの位置にプラットフォームの長い橋をかけます。
+					ブロックを壊さない
 					'''
 			}
 
 			ObsidianInstaBridge: {
-				DisplayName: Obsidian Instabridge
+				DisplayName: 黒曜石橋製造機
 				Tooltip:
 					'''
-					Creates a bridge of obsidian platforms across the whole world
-					Also clears the area right above the platforms
-					The bridge appears at your cursor
-					Do not use if any important building is nearby
+					全世界に黒曜石のプラットフォームの橋を架ける。
+					橋の真上のエリアも消滅させる
+					橋はカーソルの位置に現れる
+					近くに重要な建物がある場合は使用しないこと
 					'''
 			}
 
 			OmniBridgifier: {
-				DisplayName: Omni-Bridgifier
+				DisplayName: 設置物をプラットフォームに設置する装置
 				Tooltip:
 					'''
-					Can be reused infinitely
-					Upgrades the platform you are standing on to use Omnistations
-					Does NOT build a platform!
+					無限に使える
+					オムニステーションの効果を使用するために、あなたが立っているプラットフォームをアップグレードする。
+					プラットフォームは作らない！
 					'''
 			}
 
 			BattleCry: {
-				DisplayName: Battle Cry
+				DisplayName: 戦いの角笛
 				Tooltip:
 					'''
-					Left click to toggle 10x increased spawn rates
-					Right click to toggle 10x decreased spawn rates
+					左クリックでスポーン率10倍を切り替え
+					右クリックで10倍のスポーン率減少に切り替える
 					'''
 			}
 
 			DeathFruit: {
-				DisplayName: Death Fruit
+				DisplayName: 死の果実
 				Tooltip:
 					'''
-					Left click to decrease the amount of Life Crystals, or Life Fruit if you have any, by 1
-					If both are 0, decreases base maximum health by 20, down to a minimum of 20
-					Right click to reverse 1 use of the latter effect
+					左クリックでライフクリスタル、またはライフフルーツの量を1減らす
+					両方が0の場合、最大ヘルスを20減少させ、最小20まで減少させる
+					右クリックで、この効果を1回だけ戻すことができる
 					'''
 			}
 
 			InstantResearch: {
-				DisplayName: Instant Research
+				DisplayName: 調査完了
 				Tooltip:
 					'''
-					DEBUG ITEM
-					Researches everything
+					デバッグ項目
+					すべてを調査する
 					'''
 			}
 
 			MapViewer: {
-				DisplayName: The Ancient Master's Map of the Lost King's Great Ancestors
-				Tooltip: Reveals the map
+				DisplayName: 古代のマスターの迷子の王の大先祖の地図
+				Tooltip: "世界の地図を表示する（マルチプレイの場合は一定範囲を表示する）"
 			}
 
 			ModeToggle: {
-				DisplayName: World Token
-				Tooltip: Cycles difficulty modes
+				DisplayName: 世界のトークン
+				Tooltip: 使用すると難易度を変更する
 			}
 
 			PortableSundial: {
-				DisplayName: Portable Sundial
+				DisplayName: 持ち運び式魔法の日時計
 				Tooltip:
 					'''
-					Left click to instantly change time
-					Time cycles between dawn, noon, dusk, and midnight
-					Right click to activate the Enchanted Sundial effect
-					Cycling to dawn will reset travelling merchant's shops
+					左クリックで瞬時に時刻を変更する
+					夜明け、正午、夕暮れ、真夜中の間でサイクルする
+					右クリックで魔法の日時計の効果が発動する
+					夜明けまでのサイクルで、旅商人の店がリセットされる
 					'''
 			}
 
 			PylonCleaner: {
-				DisplayName: Pylon Cleaner
+				DisplayName: パイロン周辺洗浄装置
 				Tooltip:
 					'''
-					Purifies the area around every pylon
-					Will use Blue Solution on Hallow Pylon and Green Solution on others
+					すべてのパイロン周辺を浄化
+					ハロウ・パイロンには青の溶液を、それ以外には緑の溶液を使用する。
 					'''
 			}
 
 			SuperDummy: {
-				DisplayName: Super Dummy
+				DisplayName: 改良型ダミー
 				Tooltip:
 					'''
-					Spawns a super dummy at your cursor
-					Same as regular Target Dummy except minions and projectiles detect and home onto it
-					On hit effects get triggered as well
-					Right click to remove all spawned super dummies
-					Can spawn up to 50 super dummies at once
+					カーソルの位置に改良型ダミーを出現させる
+					通常のターゲットダミーと同じだが、ミニオンや投擲物は改良型ダミーを感知してホーミングする
+					ヒット時にエフェクトが発動する
+					右クリックですべての改良型ダミーを削除できる
+					一度に最大50体の改良型ダミーを出現させることができる
 					'''
 			}
 
 			CorruptRenewal: {
-				DisplayName: Corruption Renewal
-				Tooltip: Corrupts a large radius
+				DisplayName: 不浄ウイルス
+				Tooltip: 広い範囲を不浄で汚染する
 			}
 
 			CorruptRenewalSupreme: {
-				DisplayName: Corruption Renewal Supreme
-				Tooltip: Corrupts the entire world
+				DisplayName: 腐りきった不浄ウイルス
+				Tooltip: あなたの世界は完全に不浄に飲み込まれる
 			}
 
 			CrimsonRenewal: {
-				DisplayName: Crimson Renewal
-				Tooltip: Crimsons a large radius
+				DisplayName: 真紅ウイルス
+				Tooltip: 広い範囲を真紅で汚染する
 			}
 
 			CrimsonRenewalSupreme: {
-				DisplayName: Crimson Renewal Supreme
-				Tooltip: Crimsons the entire world
+				DisplayName: 新鮮な真紅ウイルス
+				Tooltip: あなたの世界は完全に真紅に侵される
 			}
 
 			HallowRenewal: {
-				DisplayName: Hallowed Renewal
-				Tooltip: Hallows a large radius
+				DisplayName: 聖域のお節介
+				Tooltip: 広い範囲を聖域に変化させる
 			}
 
 			HallowRenewalSupreme: {
-				DisplayName: Hallowed Renewal Supreme
-				Tooltip: Hallows the entire world
+				DisplayName: 行き過ぎた聖域のお節介
+				Tooltip: あなたの世界は聖域に置き換えられる
 			}
 
 			MushroomRenewal: {
-				DisplayName: Mushroom Renewal
-				Tooltip: Shroomifies a large radius
+				DisplayName: キノコの変異カビ
+				Tooltip: 広い範囲にキノコを生やす
 			}
 
 			MushroomRenewalSupreme: {
-				DisplayName: Mushroom Renewal Supreme
-				Tooltip: Shroomifies the entire world
+				DisplayName: 巨大なキノコの変異カビ
+				Tooltip: あなたの世界はキノコに埋め尽くされる
 			}
 
 			PurityRenewal: {
-				DisplayName: Purity Renewal
-				Tooltip: Cleanses a large radius
+				DisplayName: 洗浄液
+				Tooltip: 広い範囲の汚染を洗浄する
 			}
 
 			PurityRenewalSupreme: {
-				DisplayName: Purity Renewal Supreme
-				Tooltip: Cleanses the entire world
+				DisplayName: 超洗浄液
+				Tooltip: 世界中の汚染をキラーする
 			}
 
 			SnowRenewal: {
-				DisplayName: Snow Renewal
-				Tooltip: Snows a large radius
+				DisplayName: ゆきやこんこん
+				Tooltip: 広い範囲に雪を積もらせる
 			}
 
 			SnowRenewalSupreme: {
-				DisplayName: Snow Renewal Supreme
-				Tooltip: Snows the entire world
+				DisplayName: ゆきやどんどん
+				Tooltip: 世界が氷河期に突入する
 			}
 
 			SandRenewal: {
-				DisplayName: Desert Renewal
-				Tooltip: Sands a large radius
+				DisplayName: 強力な乾燥剤
+				Tooltip: 広い範囲を砂漠化させる
 			}
 
 			SandRenewalSupreme: {
-				DisplayName: Desert Renewal Supreme
-				Tooltip: Sands the entire world
+				DisplayName: 超吸水性物質
+				Tooltip: 世界が砂漠化する
 			}
 
 			DirtRenewal: {
-				DisplayName: Forest Renewal
-				Tooltip: Dirts a large radius
+				DisplayName: 大地の恵み
+				Tooltip: 広い範囲に土を置く
 			}
 
 			DirtRenewalSupreme: {
-				DisplayName: Forest Renewal Supreme
-				Tooltip: Dirts the entire world
+				DisplayName: 大地讃頌
+				Tooltip: 世界は土に覆われる
 			}
 
 			Abeemination2: {
-				DisplayName: A Bee In My Nation
-				Tooltip: Summons Queen Bee in any biome
+				DisplayName: 泣きっ面のハチ
+				Tooltip: どのバイオームでも{$NPCName.QueenBee}を召喚できる
 			}
 
 			Anemometer: {
-				DisplayName: Anemometer
-				Tooltip: Starts a Windy Day
+				DisplayName: 風速計
+				Tooltip: 風の日が始まる
 			}
 
 			BatteredClub: {
-				DisplayName: Battered Club
-				Tooltip: Summons the Ogre
+				DisplayName: ボロボロの棍棒
+				Tooltip: "{$NPCName.DD2OgreT2}を召喚する"
 			}
 
 			BetsyEgg: {
-				DisplayName: Dragon's Egg
-				Tooltip: Summons Betsy
+				DisplayName: ドラゴンの卵
+				Tooltip: "{$NPCName.DD2Betsy}を召喚する"
 			}
 
 			FestiveOrnament: {
-				DisplayName: Festive Ornament
+				DisplayName: お祝いのオーナメント
 				Tooltip:
 					'''
-					Summons Everscream
-					Only usable at night
+					{$NPCName.Everscream}を召喚する
+					夜間のみ使用可能
 					'''
 			}
 
 			ForbiddenScarab: {
-				DisplayName: Forbidden Scarab
-				Tooltip: Starts a Sandstorm
+				DisplayName: 禁断のスカラベ
+				Tooltip: 砂嵐が始まる
 			}
 
 			ForbiddenTome: {
-				DisplayName: Forbidden Tome
-				Tooltip: Summons a Dark Mage
+				DisplayName: 禁じられた書
+				Tooltip: "{$NPCName.DD2DarkMageT3}を召喚する"
 			}
 
 			HeadofMan: {
-				DisplayName: Head of Man
+				DisplayName: ある騎手の頭
 				Tooltip:
 					'''
-					Summons Headless Horseman
-					Only usable at night
+					{$NPCName.HeadlessHorseman}を召喚する
+					夜間のみ使用可能
 					'''
 			}
 
 			IceKingsRemains: {
-				DisplayName: Ice King's Remains
+				DisplayName: アイスキングの遺骨
 				Tooltip:
 					'''
-					Summons Ice Queen
-					Only usable at night
+					{$NPCName.IceQueen}を召喚する
+					夜間のみ使用可能
 					'''
 			}
 
 			MartianMemoryStick: {
-				DisplayName: Martian Memory Stick
-				Tooltip: Summons Martian Saucer
+				DisplayName: 火星のメモリースティック
+				Tooltip: "{$NPCName.MartianSaucer}を召喚する"
 			}
 
 			MatsuriLantern: {
-				DisplayName: Matsuri Lantern
-				Tooltip: Makes every night a Lantern Night when possible
+				DisplayName: 祭のランタン
+				Tooltip: 可能な限り毎晩をランタンナイトにする
 			}
 
 			NaughtyList: {
-				DisplayName: Naughty List
+				DisplayName: 悪戯リスト
 				Tooltip:
 					'''
-					Summons Santa-NK1
-					Only usable at night
+					{$NPCName.SantaNK1}を召喚する
+					夜間のみ使用可能
 					'''
 			}
 
 			PartyCone: {
-				DisplayName: Party Cone
+				DisplayName: パーティ・コーン
 				Tooltip:
 					'''
-					Starts a Party!
-					Needs at least 5 town NPCs to use
+					パーティーを始めよう!
+					使用するには少なくとも5人のタウンNPCが必要だ
 					'''
 			}
 
 			PillarSummon: {
-				DisplayName: Outsider's Portal
-				Tooltip: Summons the Celestial Pillars
+				DisplayName: 外なる者たちのポータル
+				Tooltip: 宇宙からピラーたちを召喚する
 			}
 
 			RunawayProbe: {
-				DisplayName: Runaway Probe
-				Tooltip: Starts the Martian invasion
+				DisplayName: 暴走したプローブ
+				Tooltip: 火星の侵攻が始まる
 			}
 
 			SlimyBarometer: {
-				DisplayName: Slimy Barometer
-				Tooltip: Starts the Slime Rain
+				DisplayName: ぬめぬめした気圧計
+				Tooltip: スライムレインが始まる
 			}
 
 			SpentLantern: {
-				DisplayName: Spent Lantern
-				Tooltip: Deactivates Matsuri Lantern effect
+				DisplayName: 使用済みランタン
+				Tooltip: "{$MatsuriLantern.DisplayName}の効果を無効にする"
 			}
 
 			SpookyBranch: {
-				DisplayName: Spooky Branch
+				DisplayName: 不気味な枝
 				Tooltip:
 					'''
-					Summons Mourning Wood
-					Only usable at night
+					{$NPCName.MourningWood}を召喚する
+					夜間のみ使用可能
 					'''
 			}
 
 			SuspiciousLookingScythe: {
-				DisplayName: Suspicious Looking Scythe
+				DisplayName: 怪しい大鎌
 				Tooltip:
 					'''
-					Summons Pumpking
-					Only usable at night
+					{$NPCName.Pumpking}を召喚する
+					夜間のみ使用可能
 					'''
 			}
 
 			WeatherBalloon: {
-				DisplayName: Weather Balloon
-				Tooltip: Starts the Rain
+				DisplayName: 気象観測用バルーン
+				Tooltip: 雨が降り始める
 			}
 
 			CelestialSigil2: {
-				DisplayName: Celestially Sigil
-				Tooltip: Summons the Moon Lord instantly
+				DisplayName: 宇宙のシジル
+				Tooltip: 即時にムーンロードを召喚する
 			}
 
 			DeerThing2: {
-				DisplayName: Thing Deer
-				Tooltip: Summons Deerclops in any biome
+				DisplayName: シング・ディアー
+				Tooltip: どのバイオームでも{$NPCName.Deerclops}を召喚できる
 			}
 
 			AmalgamatedSkull: {
-				DisplayName: Amalgamated Skull
+				DisplayName: 融合したスカル
 				Tooltip:
 					'''
-					Summons the skeleton gunners
-					Only usable at night or underground
+					スケルトン・ガンナーを召喚
+					夜間または地下でのみ使用可能
 					'''
 			}
 
 			AmalgamatedSpirit: {
-				DisplayName: Amalgamated Spirit
+				DisplayName: 融合した霊魂
 				Tooltip:
 					'''
-					Summons the skeleton mages
-					Only usable at night or underground
+					スケルトンメイジを召喚する。
+					夜間または地下でのみ使用可能
 					'''
 			}
 
 			AthenianIdol: {
-				DisplayName: Athenian Idol
+				DisplayName: アテネの偶像
 				Tooltip:
 					'''
-					Summons Medusa
-					Only usable at night or underground
+					{$NPCName.Medusa}を召喚する
+					夜間か地下のみ使用可能
 					'''
 			}
 
 			AttractiveOre: {
-				DisplayName: Attractive Ore
+				DisplayName: 魅力的な鉱石
 				Tooltip:
 					'''
-					Summons Undead Miner
-					Only usable at night or underground
+					{$NPCName.UndeadMiner}を召喚する
+					夜間か地下のみ使用可能
 					'''
 			}
 
 			BloodSushiPlatter: {
-				DisplayName: Blood Sushi Platter
+				DisplayName: "ブラッド・寿司盛り合わせ"
 				Tooltip:
 					'''
-					Summons Dreadnautilus
-					Only usable during Blood Moon
+					{$NPCName.BloodNautilus}を召喚する
+					ブラッドムーンの夜に使用可能
 					'''
 			}
 
 			BloodUrchin: {
-				DisplayName: Blood Urchin
+				DisplayName: "ブラッド・ウニ"
 				Tooltip:
 					'''
-					Summons Blood Eel
-					Only usable during Blood Moon
+					{$NPCName.BloodEelBody}を召喚する
+					ブラッドムーンの夜に使用可能
 					'''
 			}
 
 			CloudSnack: {
-				DisplayName: Cloud Snack
-				Tooltip: Summons Wyvern
+				DisplayName: 雲のおやつ
+				Tooltip: "{$NPCName.WyvernBody}を召喚する"
 			}
 
 			ClownLicense: {
-				DisplayName: Clown License
+				DisplayName: ピエロのライセンス
 				Tooltip:
 					'''
-					Summons Clown
-					Only usable at night or underground
+					{$NPCName.Clown}を召喚する
+					夜間か地下のみ使用可能
 					'''
 			}
 
 			CoreoftheFrostCore: {
-				DisplayName: Core of the Frost Core
-				Tooltip: Summons Ice Golem
+				DisplayName: フロストコアのコア
+				Tooltip: "{$NPCName.IceGolem}を召喚する"
 			}
 
 			CorruptChest: {
-				DisplayName: Corrupt Chest
-				Tooltip: Summons Corrupt Mimic
+				DisplayName: 不浄のミミック
+				Tooltip: "{$NPCName.BigMimicCorruption}を召喚する"
 			}
 
 			CrimsonChest: {
-				DisplayName: Crimson Chest
-				Tooltip: Summons Crimson Mimic
+				DisplayName: 真紅のミミック
+				Tooltip: "{$NPCName.BigMimicCrimson}を召喚する"
 			}
 
 			DemonicPlushie: {
-				DisplayName: Demonic Plushie
+				DisplayName: 悪魔のぬいぐるみ
 				Tooltip:
 					'''
-					Summons Red Devil
-					Only usable in the Underworld
+					{$NPCName.RedDevil}を召喚する
+					アンダーワールドでのみ使用可能
 					'''
 			}
 
 			DilutedRainbowMatter: {
-				DisplayName: Diluted Rainbow Matter
-				Tooltip: Summons Rainbow Slime
+				DisplayName: 希釈されたレインボーマター
+				Tooltip: "{$NPCName.RainbowSlime}を召喚する"
 			}
 
 			Eggplant: {
-				DisplayName: Eggplant
+				DisplayName: なすび
 				Tooltip:
 					'''
-					Summons Doctor Bones
-					Only usable at night or underground
+					{$NPCName.DoctorBones}を召喚する
+					夜間か地下のみ使用可能
 					'''
 			}
 
 			ForbiddenForbiddenFragment: {
-				DisplayName: Forbidden Forbidden Fragment
-				Tooltip: Summons Sand Elemental
+				DisplayName: 禁断の禁じられた破片
+				Tooltip: "{$NPCName.SandElemental}を召喚する"
 			}
 
 			GnomeHat: {
-				DisplayName: Gnome Hat
-				Tooltip: Summons Gnome
+				DisplayName: ノームの帽子
+				Tooltip: "{$NPCName.Gnome}を召喚する"
 			}
 
 			GoblinScrap: {
-				DisplayName: Goblin Scrap
-				Tooltip: Summons Goblin Scout
+				DisplayName: ゴブリンのガラクタ
+				Tooltip: "{$NPCName.GoblinScout}を召喚する"
 			}
 
 			GoldenSlimeCrown: {
-				DisplayName: Golden Slime Crown
-				Tooltip: Summons Golden Slime
+				DisplayName: 黄金のスライムクラウン
+				Tooltip: "{$NPCName.GoldenSlime}を召喚する"
 			}
 
 			GrandCross: {
-				DisplayName: Grand Cross
+				DisplayName: 聖十字
 				Tooltip:
 					'''
-					Summons Paladin
-					Only usable at night or underground
+					{$NPCName.Paladin}を召喚する
+					夜間か地下のみ使用可能
 					'''
 			}
 
 			HallowChest: {
-				DisplayName: Hallow Chest
-				Tooltip: Summons Hallowed Mimic
+				DisplayName: 聖なるミミック
+				Tooltip: "{$NPCName.BigMimicHallow}を召喚する"
 			}
 
 			HeartChocolate: {
-				DisplayName: Heart Chocolate
+				DisplayName: ニンフの義理チョコレート
 				Tooltip:
 					'''
-					Summons Nymph
-					Only usable at night or underground
+					{$NPCName.Nymph}を召喚する
+					夜間か地下のみ使用可能
 					'''
 			}
 
 			HemoclawCrab: {
-				DisplayName: Hemoclaw Crab
+				DisplayName: ヘモクロウ・クラブ
 				Tooltip:
 					'''
-					Summons Hemogoblin Shark
-					Only usable during Blood Moon
+					{$NPCName.GoblinShark}を召喚する
+					ブラッドムーンの夜に使用可能
 					'''
 			}
 
 			HolyGrail: {
-				DisplayName: Holy Grail
+				DisplayName: 聖杯
 				Tooltip:
 					'''
-					Summons Tim
-					Only usable at night or underground
+					{$NPCName.Tim}を召喚する
+					夜間か地下のみ使用可能
 					'''
 			}
 
 			JungleChest: {
-				DisplayName: Jungle Chest
-				Tooltip: Summons Jungle Mimic
+				DisplayName: ジャングルミミック
+				Tooltip: "{$NPCName.BigMimicJungle}を召喚する"
 			}
 
 			LeesHeadband: {
-				DisplayName: Lee's Headband
+				DisplayName: リーの鉢巻
 				Tooltip:
 					'''
-					Summons Bone Lee
-					Only usable at night or underground
+					{$NPCName.BoneLee}を召喚する
+					夜間か地下のみ使用可能
 					'''
 			}
 
 			MothLamp: {
-				DisplayName: Moth Lamp
-				Tooltip: Summons Moth
+				DisplayName: "モス・ランプ"
+				Tooltip: "{$NPCName.Moth}を召喚する"
 			}
 
 			MothronEgg: {
-				DisplayName: Mothron Egg
+				DisplayName: モスロンの卵
 				Tooltip:
 					'''
-					Summons Mothron
-					Only usable during Solar Eclipse
+					{$NPCName.Mothron}を召喚する
+					日食中のみ使用可能
 					'''
 			}
 
 			Pincushion: {
-				DisplayName: Pincushion
+				DisplayName: 針クッション
 				Tooltip:
 					'''
-					Summons Nailhead
-					Only usable during Solar Eclipse
+					{$NPCName.Nailhead}を召喚する
+					日食中のみ使用可能
 					'''
 			}
 
 			PinkSlimeCrown: {
-				DisplayName: Pink Slime Crown
-				Tooltip: Summons Pinky
+				DisplayName: 桜桃のスライムクラウン
+				Tooltip: "{$NPCName.Pinky}を召喚する"
 			}
 
 			PirateFlag: {
-				DisplayName: Pirate Flag
-				Tooltip: Summons Pirate Captain
+				DisplayName: 海賊の旗
+				Tooltip: "{$NPCName.PirateCaptain}を召喚する"
 			}
 
 			PlunderedBooty: {
-				DisplayName: Plundered Booty
-				Tooltip: Summons Flying Dutchman
+				DisplayName: 略奪された戦利品
+				Tooltip: "{$NPCName.PirateShip}を召喚する"
 			}
 
 			RuneOrb: {
-				DisplayName: Rune Orb
+				DisplayName: "ルーン・オーブ"
 				Tooltip:
 					'''
-					Summons Rune Wizard
-					Only usable at night or underground
+					{$NPCName.RuneWizard}を召喚する
+					夜間か地下のみ使用可能
 					'''
 			}
 
 			ShadowflameIcon: {
-				DisplayName: Shadowflame Icon
+				DisplayName: シャドウフレイムアイコン
 				Tooltip:
 					'''
-					Summons Goblin Summoner
-					Only usable during Goblin Army
+					{$NPCName.GoblinSummoner}を召喚する
+					ゴブリンの侵略中のみ使用可能
 					'''
 			}
 
 			SlimyLockBox: {
-				DisplayName: Slimy Lock
-				Tooltip: Summons Dungeon Slime
+				DisplayName: ねっちょりした錠前
+				Tooltip: "{$NPCName.DungeonSlime}を召喚する"
 			}
 
 			SuspiciousLookingChest: {
-				DisplayName: Suspicious Looking Chest
+				DisplayName: 怪しい施錠されたチェスト
 				Tooltip:
 					'''
-					Summons Mimic
-					Summons Ice Mimic when in snow biome
+					{$NPCName.Mimic}を召喚する
+					雪原で使用すると{$NPCName.IceMimic}を召喚する
 					'''
 			}
 
 			SuspiciousLookingLure: {
-				DisplayName: Suspicious Looking Lure
+				DisplayName: 怪しげなルアー
 				Tooltip:
 					'''
-					Summons Wandering Eye Fish and Zombie Merman
-					Only usable at night
+					{$NPCName.EyeballFlyingFish}と{$NPCName.ZombieMerman}を召喚する
+					夜間のみ使用可能
 					'''
 			}
 
 			WormSnack: {
-				DisplayName: Worm Snack
+				DisplayName: ワームのおやつ
 				Tooltip:
 					'''
-					Summons Giant Worm in pre-Hardmode
-					Summons Digger in Hardmode
-					Only usable underground
+					{$NPCName.GiantWormBody}を召喚する
+					ハードモードでは{$NPCName.DiggerBody}を召喚する
+					地下でのみ使用可能
 					'''
 			}
 
 			GoreySpine: {
-				DisplayName: Red Stained Spine
-				Tooltip: Summons the Brain of Cthulhu in any biome
+				DisplayName: シミの目立つ脊椎
+				Tooltip: "{$NPCName.BrainofCthulhu}をどこでも招集することができる"
 			}
 
 			MechEye: {
-				DisplayName: Some Kind of Metallic Eye
-				Tooltip: Summons the Twins
+				DisplayName: たぶん機械の目玉
+				Tooltip: "{$Enemies.TheTwins}を召喚する"
 			}
 
 			MechSkull: {
-				DisplayName: Some Kind of Metallic Skull
-				Tooltip: Summons Skeletron Prime
+				DisplayName: おそらく機械のスカル
+				Tooltip: "{$NPCName.SkeletronPrime}を召喚する"
 			}
 
 			MechWorm: {
-				DisplayName: Some Kind of Metallic Worm
-				Tooltip: Summons the Destroyer
+				DisplayName: きっと機械のワーム
+				Tooltip: "{$NPCName.TheDestroyer}を召喚する"
 			}
 
 			AncientSeal: {
-				DisplayName: Ancient Seal
+				DisplayName: いにしえの封印
 				Tooltip:
 					'''
-					Summons ALL the bosses modded included
-					Can only be used at night
-					'Use at your own risk'
+					{$Enemies.MoonLord}を倒すと{$Mutant.DisplayName}から買うことができる
+					[c/FF0000:全てのボスとModボスを召喚する]
+					夜間のみ使用可能
+					[c/FF0000:使用は自己責任]
 					'''
 			}
 
 			CultistSummon: {
-				DisplayName: Zealot's Possession
+				DisplayName: デリバリー狂信者
 				Tooltip:
 					'''
-					Summons the Lunatic Cultist
-					Does not spawn the pillars if Lunatic Cultist has been defeated before
+					{$NPCName.CultistBoss}を召喚する。
+					{$NPCName.CultistBoss}を倒したことがある場合、柱を召喚しない。
 					'''
 			}
 
 			DeathBringerFairy: {
-				DisplayName: Death Bringer Fairy
+				DisplayName: "デスブリンガー・フェアリー"
 				Tooltip:
 					'''
-					Summons all pre-hardmode bosses
-					Can only be used at night
-					Certain bosses will only spawn if you're in their specific biome
+					ハードモード前の全てのボスとModボスを召喚する。
+					夜間のみ使用可能
+					一部のボスは、適したバイオームにいる場合にのみスポーンする。
+					[c/FF0000:使用は自己責任]
 					'''
 			}
 
 			FleshyDoll: {
-				DisplayName: Fleshy Doll
+				DisplayName: 肉付きの良い人形
 				Tooltip:
 					'''
-					Summons the Wall of Flesh
-					Make sure you use it in the Underworld
+					肉の壁を召喚
+					[c/FF0000:必ずアンダーワールドで使用すること]
 					'''
 			}
 
 			JellyCrystal: {
-				DisplayName: Jelly Crystal
-				Tooltip: Summons Queen Slime
+				DisplayName: "ゼリー・クリスタル"
+				Tooltip: "{$NPCName.QueenSlimeBoss}を召喚する"
 			}
 
 			MechanicalAmalgam: {
-				DisplayName: Mechanical Amalgam
-				Tooltip: Summons all 3 Mechanical bosses
+				DisplayName: 融合した機械
+				Tooltip: "{$Enemies.TheTwins}、{$NPCName.TheDestroyer}、{$NPCName.SkeletronPrime}を召喚する"
 			}
 
 			MutantVoodoo: {
-				DisplayName: Mutant Voodoo Doll
+				DisplayName: ミュータントのブードゥー人形
 				Tooltip:
 					'''
-					Summons ALL the bosses
-					Can only be used at night
+					すべてのボスを召喚する
+					夜間のみ使用可能
 					'''
 			}
 
 			PlanterasFruit: {
-				DisplayName: Plantera's Fruit
-				Tooltip: Summons Plantera
+				DisplayName: プランテラのつぼみ
+				Tooltip: "{$NPCName.Plantera}を召喚する"
 			}
 
 			PrismaticPrimrose: {
-				DisplayName: Prismatic Primrose
-				Tooltip: Summons the Empress of Light
+				DisplayName: 幻想のサクラソウ
+				Tooltip: "{$NPCName.HallowBoss}を召喚"
 			}
 
 			SuspiciousSkull: {
-				DisplayName: Suspicious Skull
+				DisplayName: 怪しいスカル
 				Tooltip:
 					'''
-					Summons Skeletron without killing the Clothier
-					Summons the Dungeon Guardian during the day
+					夜に使うと{$NPCName.SkeletronHead}を仕立屋を殺さずに召喚する
+					日中に使うと{$NPCName.DungeonGuardian}を召喚する
 					'''
 			}
 
 			SlimyCrown: {
-				DisplayName: Slimy Crown
-				Tooltip: Summons King Slime
+				DisplayName: ぬめった王冠
+				Tooltip: "{$NPCName.KingSlime}を召喚する"
 			}
 
 			SuspiciousEye: {
-				DisplayName: Eye That Could Be Seen As Suspicious
-				Tooltip: Summons the Eye of Cthulhu
+				DisplayName: 間違いなく疑わしい目
+				Tooltip: "{$NPCName.EyeofCthulhu}を召喚する"
 			}
 
 			EnergizerBee: {
-				DisplayName: Buzzy Energizer
+				DisplayName: ローヤルエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Overstuffed Larva
-					'Smells like it tastes like honey'
+					10個の${OverloadBee.DisplayName}を使用すると得られる
+					「蜂蜜のような香り」
 					'''
 			}
 
 			EnergizerBetsy: {
-				DisplayName: Draco Energizer
+				DisplayName: 龍のエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Dragon Egg Trays
-					'You feel like you've waited three thousand years'
+					10個の${OverloadBee.OverloadBetsy}を使用すると得られる
+					「三千年待った気分だ」
 					'''
 			}
 
 			EnergizerBrain: {
-				DisplayName: Brainy Energizer
+				DisplayName: 天才的なエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Brain Storms
-					'You still feel dumb'
+					10個の${OverloadBee.OverloadBrain}を使用すると得られる
+					「You are a browser crusher! ahahaha ahaha a ahahaha...」
 					'''
 			}
 
 			EnergizerCultist: {
-				DisplayName: Insanity Energizer
+				DisplayName: 狂気のエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Zealot's Madness
-					'You're probably insane'
+					10個の${OverloadBee.OverloadCultist}を使用すると得られる
+					「あなたはおそらく狂っている」
 					'''
 			}
 
 			EnergizerDarkMage: {
-				DisplayName: Mysterious Energizer
+				DisplayName: ミステリアスなエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Really Forbidden Tomes
-					'You feel like you've waited one thousand years'
+					10個の${OverloadBee.OverloadDarkMage}を使用すると得られる
+					「千年間待った気分だ」
 					'''
 			}
 
 			EnergizerDeer: {
-				DisplayName: Deary Energizer
+				DisplayName: シカトされたエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Deer Amalgamations
-					'Makes you hungry'
+					10個の${OverloadBee.OverloadDeer}を使用すると得られる
+					「おなか
+					  へた」
 					'''
 			}
 
 			EnergizerDestroy: {
-				DisplayName: Destruction Energizer
+				DisplayName: 破壊のエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Seismic Actuator
-					'It makes you want to break some kids'
+					10個の${OverloadBee.OverloadDestroyer}を使用すると得られる
+					「子供たちを壊したくなる機械、デストロイヤッ！」
 					'''
 			}
 
 			EnergizerDG: {
-				DisplayName: Extra Boney Energizer
+				DisplayName: "骨のあるエネルゲイザー・エクストラ"
 				Tooltip:
 					'''
-					Formed after using 10 Skull Chain Necklaces
-					'Reminds you of a mean cow'
+					10個の${OverloadBee.OverloadSkele}を使用すると得られる
+					「意地悪な牛を思い出す」
 					'''
 			}
 
 			EnergizerEmpress: {
-				DisplayName: Fairy Energizer
+				DisplayName: 妖精のエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Jars of Lacewings
-					'Wear eye protection when looking'
+					10個の${OverloadBee.OverloadEmpress}を使用すると得られる
+					「部屋を明るくして、離れてみてください」
 					'''
 			}
 
 			EnergizerEye: {
-				DisplayName: Optical Energizer
+				DisplayName: 光学的なエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Eyemalgamations
-					'It feels like it's watching you'
+					10個の${OverloadBee.OverloadEye}を使用すると得られる
+					「あなたと自宅を監視することが趣味です」
 					'''
 			}
 
 			EnergizerFish: {
-				DisplayName: Fishy Energizer
+				DisplayName: とれたてピチピチのエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Truffle Worm Clumps
-					'You feel content'
+					10個の${OverloadBee.OverloadFish}を使用すると得られる
+					「とても満足しているようだ」
 					'''
 			}
 
 			EnergizerGolem: {
-				DisplayName: Lihzahrd Energizer
+				DisplayName: 電池としても使えるエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Runic Power Cells
-					'You wish it was spelled "lizard"
+					10個の${OverloadBee.OverloadGolem}を使用すると得られる
+					「単三電池だったらよかったのに」
 					'''
 			}
 
 			EnergizerMoon: {
-				DisplayName: Lunar Energizer
+				DisplayName: 月のエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Runic Conscriptions
-					'You enjoy cheese'
+					10個の${OverloadBee.OverloadMoon}を使用すると得られる
+					「ムンロは、チーズがたべたいだけなのです！」
 					'''
 			}
 
 			EnergizerPlant: {
-				DisplayName: Leafy Energizer
+				DisplayName: 葉っぱのエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Heart of the Jungles
-					'Being a leaf sounds like a good time'
+					10個の${OverloadBee.OverloadPlant}を使用すると得られる
+					「いつか葉が茂って、根っこは大きく育って」
 					'''
 			}
 
 			EnergizerPrime: {
-				DisplayName: Prime Energizer
+				DisplayName: プレミアムエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Primal Control Chips
-					'You feel like a new you'
+					10個の${OverloadBee.OverloadPrime}を使用すると得られる
+					「広告がなくなった気分」
 					'''
 			}
 
 			EnergizerQueenSlime: {
-				DisplayName: Crystalline Energizer
+				DisplayName: 水晶のエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Swarm Crystals
-					'It feels very slimy'
+					10個の${OverloadBee.OverloadQueenSlime}を使用すると得られる
+					「とてもぬるぬるする」
 					'''
 			}
 
 			EnergizerSkele: {
-				DisplayName: Boney Energizer
+				DisplayName: 骨のあるエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Skull Chain Necklaces
-					'Reminds you of a cow'
+					10個の${OverloadBee.OverloadSkele}を使用すると得られる
+					「牛を連想させる」
 					'''
 			}
 
 			EnergizerSlime: {
-				DisplayName: Slimy Energizer
+				DisplayName: べとべとしたエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Swarm Crowns
-					'It feels a bit slimy'
+					10個の${OverloadBee.OverloadSlimeCrown}を使用すると得られる
+					「少しぬるぬるした感じがする」
 					'''
 			}
 
 			EnergizerTwins: {
-				DisplayName: Sibling Energizer
+				DisplayName: 兄弟のエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Omnifocal Lens
-					'You wish you had more'
+					10個の${OverloadBee.OverloadTwins}を使用すると得られる
+					「兄弟といえば赤と緑」
 					'''
 			}
 
 			EnergizerWall: {
-				DisplayName: Wally Energizer
+				DisplayName: ウォーリーのエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Bundle of Dolls
-					'You feel claustrophobic'
+					10個の${OverloadBee.OverloadWall}を使用すると得られる
+					「ウォールを探せ！」
 					'''
 			}
 
 			EnergizerWorm: {
-				DisplayName: Wormy Energizer
+				DisplayName: うねうねエネルゲイザー
 				Tooltip:
 					'''
-					Formed after using 10 Worm Chickens
-					'It's a little squishy'
+					10個の${OverloadBee.OverloadWorm}を使用すると得られる
+					'少し糸を引いている'
 					'''
 			}
 
 			OverloadBee: {
-				DisplayName: Overstuffed Larva
+				DisplayName:幼虫ラッシュ
 				Tooltip:
 					'''
-					Summons several Queen Bees
-					Only Treasure Bags will be dropped
+					{$NPCName.QueenBee}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadBetsy: {
-				DisplayName: Dragon Egg Tray
+				DisplayName: ドラゴンの卵１０個セット
 				Tooltip:
 					'''
-					Summons several Betsys
-					Only Treasure Bags will be dropped
+					{$NPCName.DD2Betsy}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadBrain: {
-				DisplayName: Brain Storm
+				DisplayName: 台風の脳
 				Tooltip:
 					'''
-					Summons several Brains of Cthulhu
-					Only Treasure Bags will be dropped
+					{$NPCName.BrainofCthulhu}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadCultist: {
-				DisplayName: Zealot's Madness
+				DisplayName: 狂信者の狂気
 				Tooltip:
 					'''
-					Summons several Lunatic Cultists
-					Only Treasure Bags will be dropped
+					{$NPCName.CultistBoss}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadDarkMage: {
-				DisplayName: Really Forbidden Tome
+				DisplayName: 本当に禁断の書なんだってば！
 				Tooltip:
 					'''
-					Summons several Dark Mages
-					Only Treasure Bags will be dropped
+					{$NPCName.DD2DarkMageT1}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadDeer: {
-				DisplayName: Deer Amalgamation
+				DisplayName: 合併した鹿
 				Tooltip:
 					'''
-					Summons several Deerclops
-					Only Treasure Bags will be dropped
+					{$NPCName.Deerclops}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadDestroyer: {
-				DisplayName: Seismic Actuator
+				DisplayName: 地震アクチュエータ
 				Tooltip:
 					'''
-					Summons several Destroyers
-					Only Treasure Bags will be dropped
+					{$NPCName.TheDestroyer}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadedSlimeRain: {
-				DisplayName: Slimy Stormcaller
+				DisplayName: 超べとべとした気圧計
 				Tooltip:
 					'''
-					Summons an Overloaded Slime Rain
-					Use again to stop the event
+					オーバーロードしたスライムレインを開始する。
+					もう一度使用するか中止されるまでスライムが降り注ぎ続ける
 					'''
 			}
 
 			OverloadEmpress: {
-				DisplayName: Jar of Lacewings
+				DisplayName: 瓶詰のプリズマカゲロウ
 				Tooltip:
 					'''
-					Summons several Empresses of Light
-					Only Treasure Bags will be dropped
+					{$NPCName.HallowBoss}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			Overloader: {
-				DisplayName: Overloader
+				DisplayName: オーバーローダー
 				Tooltip:
 					'''
-					Used to craft swarm summons
-					When used, all summons in the stack will be consumed
-					The more consumed, the more bosses will spawn
-					A Trophy will drop every 10 kills
-					An Energizer will drop every 100 kills
+					ボス多重召喚アイテムのクラフトに使用する。
+					スタックしている分をまとめて使用する
+					使用した際にスタックしていた数の10倍のボスが出現する
+					10キルごとにトロフィーがドロップ
+					100キルごとにエナジャイザーがドロップする。
 					'''
 			}
 
 			OverloadEye: {
-				DisplayName: Eyemalgamation
+				DisplayName: 融合した目玉
 				Tooltip:
 					'''
-					Summons several Eyes of Cthulhu
-					Only Treasure Bags will be dropped
+					{$NPCName.EyeofCthulhu}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadFish: {
-				DisplayName: Truffle Worm Clump
+				DisplayName: 特盛トリュフワーム
 				Tooltip:
 					'''
-					Summons several Duke Fishrons
-					Only Treasure Bags will be dropped
+					{$NPCName.DukeFishron}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadFrostMoon: {
-				DisplayName: Naughty Present Sack
+				DisplayName: いけないプレゼントの袋
 				Tooltip:
 					'''
-					Summons an Overloaded Frost Moon
-					Use again to stop the event
+					オーバーロードしたフロストムーンを開始する。
+					もう一度使用するか中止されるまで「プレゼント」は送られ続ける
 					'''
 			}
 
 			OverloadGoblins: {
-				DisplayName: Goblin War Banner
+				DisplayName: ゴブリンの戦旗
 				Tooltip:
 					'''
-					Summons an Overloaded Goblin Invasion
-					Use again to stop the event
+					オーバーロードしたゴブリンの軍団の襲来を開始する。
+					もう一度使用するか中止されるまでゴブリンは攻撃をやめない
 					'''
 			}
 
 			OverloadGolem: {
-				DisplayName: Runic Power Cell
+				DisplayName: リザードのスーパー電池
 				Tooltip:
 					'''
-					Summons several Golems
-					Only Treasure Bags will be dropped
+					{$NPCName.Golem}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadMartians: {
-				DisplayName: Martian Communications Satellite
+				DisplayName: 火星との通信衛星
 				Tooltip:
 					'''
-					Summons an Overloaded Martian Invasion
-					Use again to stop the event
+					オーバーロードした火星の侵略を開始する。
+					もう一度使用するか中止されるまで火星人はあなたに興味を持ち続ける
 					'''
 			}
 
 			OverloadMoon: {
-				DisplayName: Runic Inscription
+				DisplayName: ルーンの碑文
 				Tooltip:
 					'''
-					Summons several Moon Lords
-					Only Treasure Bags will be dropped
+					{$Enemies.MoonLord}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadPirates: {
-				DisplayName: Pirate's Bounty
+				DisplayName: 海賊のお宝
 				Tooltip:
 					'''
-					Summons an Overloaded Pirate Invasion
-					Use again to stop the event
+					オーバーロードした海賊の襲撃を開始する。
+					もう一度使用するか中止されるまで海賊は宝を諦められない
 					'''
 			}
 
 			OverloadPlant: {
-				DisplayName: Heart of the Jungle
+				DisplayName: プランテラの花
 				Tooltip:
 					'''
-					Summons several Planteras
-					Only Treasure Bags will be dropped
+					{$NPCName.Plantera}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadPrime: {
-				DisplayName: Primal Control Chip
+				DisplayName: プレミアム操縦チップ
 				Tooltip:
 					'''
-					Summons several Skeletron Primes
-					Only Treasure Bags will be dropped
+					{$NPCName.SkeletronPrime}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadPumpkinMoon: {
-				DisplayName: Overloaded Pumpkin Moon Medallion
+				DisplayName: 狂気のパンプキンムーンメダリオン
 				Tooltip:
 					'''
-					Summons an Overloaded Pumpkin Moon
-					Use again to stop the event
+					オーバーロードしたパンプキンムーンを開始する。
+					もう一度使用するか中止されるまで収穫祭は終わらない
 					'''
 			}
 
 			OverloadQueenSlime: {
-				DisplayName: Swarm Crystal
+				DisplayName: 融合したクリスタル
 				Tooltip:
 					'''
-					Summons several Queen Slimes
-					Only Treasure Bags will be dropped
+					{$NPCName.QueenSlimeBoss}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadSkele: {
-				DisplayName: Skull Chain Necklace
+				DisplayName: 骸骨のネックレス
 				Tooltip:
 					'''
-					Summons several Skeletrons during the night
-					Summons several Dungeon Guardians during the day
-					Only Treasure Bags will be dropped
+					夜間に{$NPCName.SkeletronHead}を1個につき10体召喚する
+					日中は代わりに{$NPCName.DungeonGuardian}を召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadSlimeCrown: {
-				DisplayName: Swarm Crown
+				DisplayName: 融合した王冠
 				Tooltip:
 					'''
-					Summons several King Slimes
-					Only Treasure Bags will be dropped
+					{$NPCName.KingSlime}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadTwins: {
-				DisplayName: Omnifocal Lens
+				DisplayName: 全焦点レンズ
 				Tooltip:
 					'''
-					Summons several sets of Twins
-					Only Treasure Bags will be dropped
+					{$Enemies.TheTwins}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadWall: {
-				DisplayName: Bundle of Dolls
+				DisplayName: 在庫処分の人形セット
 				Tooltip:
 					'''
-					Summons several Walls of Flesh
-					Only Treasure Bags will be dropped
+					{$NPCName.WallofFlesh}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			OverloadWorm: {
-				DisplayName: Worm Chicken
+				DisplayName: ワームのご馳走
 				Tooltip:
 					'''
-					Summons several Eater of Worlds
-					Only Treasure Bags will be dropped
+					{$NPCName.EaterofWorldsBody}を1個につき10体召喚する
+					トレジャーバッグのみドロップする
 					'''
 			}
 
 			TruffleWorm2: {
-				DisplayName: Truffly Worm
-				Tooltip: Summons Duke Fishron without fishing
+				DisplayName: 香りの強いトリュフワーム
+				Tooltip: "{$NPCName.DukeFishron}を釣りをせずに召喚できる"
 			}
 
 			LihzahrdPowerCell2: {
-				DisplayName: Lihzahrd Battery Pack
-				Tooltip: Summons the Golem without an altar
+				DisplayName: リザードのバッテリーパック
+				Tooltip: "{$NPCName.Golem}を{$ItemName.LihzahrdAltar}を使わずに召喚できる"
 			}
 
 			WormyFood: {
-				DisplayName: Wormy Food
-				Tooltip: Summons the Eater of Worlds in any biome
+				DisplayName: おいしいワームのえさ
+				Tooltip: どのバイオームでも{$NPCName.EaterofWorldsHead}を召喚できる
 			}
 
 			CrimsonAltar: {
-				DisplayName: Crimson Altar
+				DisplayName: クリムゾンアルター
 				Tooltip: ""
 			}
 
 			CrucibleCosmos: {
-				DisplayName: Crucible of the Cosmos
+				DisplayName: 宇宙のるつぼ
 				Tooltip:
 					'''
-					Functions as every crafting station
-					'It seems to be hiding magnificent power'
+					あらゆるクラフトステーションとして機能する
+					「壮大なパワーを秘めているようだ」
 					'''
 			}
 
 			DemonAltar: {
-				DisplayName: Demon Altar
+				DisplayName: デーモンアルター
 				Tooltip: ""
 			}
 
 			EchPainting: {
-				DisplayName: Ech Painting
-				Tooltip: "'Groalt W. Fai'"
+				DisplayName: "絵画「Ech」"
+				Tooltip: "by Groalt W. Fai"
 			}
 
 			ElementalAssembler: {
-				DisplayName: Elemental Assembler
-				Tooltip: Functions as several basic crafting stations
+				DisplayName: "エレメンタル・アセンブラー"
+				Tooltip: 基本的なクラフトステーションとして機能する
 			}
 
 			GoldenDippingVat: {
-				DisplayName: Golden Dipping Vat
-				Tooltip: Used to craft Gold Critters
+				DisplayName: 黄金のディップ桶
+				Tooltip: 黄金の生物を作成できる
 			}
 
 			MultitaskCenter: {
-				DisplayName: Multitask Center
-				Tooltip: Functions as several basic crafting stations
+				DisplayName: マルチタスクセンター
+				Tooltip: 基本的なクラフトステーションとして機能する
 			}
 
 			Omnistation: {
-				DisplayName: Omnistation
+				DisplayName: オムニステーション
 				Tooltip:
 					'''
-					Can be reused infinitely
-					Effects of all vanilla buff stations
-					Grants Honey when touched
-					Greatly increases luck when nearby
+					無限に再使用可能
+					すべてのバニラのバフを与える設置物の効果を付与する
+					触れるとはちみつ状態を与える
+					近くにいると運が大きく上昇する
 					'''
 			}
 
 			Omnistation2: {
-				DisplayName: Omnistation
+				DisplayName: オムニステーション
 				Tooltip:
 					'''
-					Can be reused infinitely
-					Effects of all vanilla buff stations
-					Grants Honey when touched
-					Greatly increases luck and provides Sugar Rush when nearby
+					無限に再使用可能
+					すべてのバニラのバフを与える設置物を付与する
+					触れるとはちみつ状態を与える
+					近くにいると運を大きく上昇させ、シュガーラッシュを与える
 					'''
 			}
 
 			RegalStatue: {
-				DisplayName: Regal Statue
-				Tooltip: Town NPCs respawn extremely quickly when nearby
+				DisplayName: 豪華な石像
+				Tooltip: 周辺の住人が非常に素早くリスポーンするようになる
 			}
 
 			Semistation: {
-				DisplayName: Semistation
+				DisplayName: セミステーション
 				Tooltip:
 					'''
-					Can be reused infinitely
-					Effects of some vanilla buff stations
+					無限に再使用可能
+					一部だが、バニラのバフを与える設置物の効果を与える
 					'''
 			}
 
 			SiblingPylon: {
-				DisplayName: Sibling Pylon
+				DisplayName: 兄弟パイロン
 				Tooltip:
 					'''
-					Teleport to another pylon when Mutant, Abominationn, and Deviantt are nearby
-					You can only place one per type
+					{$Mutant.DisplayName}、{$Abominationn.DisplayName}、{Deviantt.DisplayName}が近くにいる別のパイロンへテレポートできる
+					１種につき１つだけ設置することができる
 					'''
 			}
 
 			UnsafeBlueBrickWall: {
-				DisplayName: Unsafe Blue Brick Wall
-				Tooltip: Allows area-specific enemies to spawn
+				DisplayName: 危険な青いレンガの壁
+				Tooltip: エリア固有の敵をスポーンさせる
+
 			}
 
 			UnsafeBlueSlabWall: {
-				DisplayName: Unsafe Blue Slab Wall
-				Tooltip: Allows area-specific enemies to spawn
+				DisplayName: 危険な青いスラブの壁
+				Tooltip: エリア固有の敵をスポーンさせる
 			}
 
 			UnsafeBlueTileWall: {
-				DisplayName: Unsafe Blue Tile Wall
-				Tooltip: Allows area-specific enemies to spawn
+				DisplayName: 危険な青いタイルの壁
+				Tooltip: エリア固有の敵をスポーンさせる
 			}
 
 			UnsafeGraniteWall: {
-				DisplayName: Unsafe Granite Wall
-				Tooltip: Allows area-specific enemies to spawn
+				DisplayName: 危険な御影石の壁
+				Tooltip: エリア固有の敵をスポーンさせる
 			}
 
 			UnsafeGreenBrickWall: {
-				DisplayName: Unsafe Green Brick Wall
-				Tooltip: Allows area-specific enemies to spawn
+				DisplayName: 危険な緑レンガの壁
+				Tooltip: エリア固有の敵をスポーンさせる
 			}
 
 			UnsafeGreenSlabWall: {
-				DisplayName: Unsafe Green Slab Wall
-				Tooltip: Allows area-specific enemies to spawn
+				DisplayName: 危険な緑スラブの壁
+				Tooltip: エリア固有の敵をスポーンさせる
 			}
 
 			UnsafeGreenTileWall: {
-				DisplayName: Unsafe Green Tile Wall
-				Tooltip: Allows area-specific enemies to spawn
+				DisplayName: 危険な緑タイルの壁
+				Tooltip: エリア固有の敵をスポーンさせる
 			}
 
 			UnsafeLihzahrdBrickWall: {
-				DisplayName: Unsafe Lihzahrd Brick Wall
-				Tooltip: Allows area-specific enemies to spawn
+				DisplayName: 危険なジャングル寺院の壁
+				Tooltip: エリア固有の敵をスポーンさせる
 			}
 
 			UnsafeMarbleWall: {
-				DisplayName: Unsafe Marble Wall
-				Tooltip: Allows area-specific enemies to spawn
+				DisplayName: 危険な大理石の壁
+				Tooltip: エリア固有の敵をスポーンさせる
 			}
 
 			UnsafePinkBrickWall: {
-				DisplayName: Unsafe Pink Brick Wall
-				Tooltip: Allows area-specific enemies to spawn
+				DisplayName: 危険な桃レンガの壁
+				Tooltip: エリア固有の敵をスポーンさせる
 			}
 
 			UnsafePinkSlabWall: {
-				DisplayName: Unsafe Pink Slab Wall
-				Tooltip: Allows area-specific enemies to spawn
+				DisplayName: 危険な桃スラブの壁
+				Tooltip: エリア固有の敵をスポーンさせる
 			}
 
 			UnsafePinkTileWall: {
-				DisplayName: Unsafe Pink Tile Wall
-				Tooltip: Allows area-specific enemies to spawn
+				DisplayName: 危険な桃タイルの壁
+				Tooltip: エリア固有の敵をスポーンさせる
 			}
 
 			UnsafeSpiderWall: {
-				DisplayName: Unsafe Spider Wall
-				Tooltip: Allows area-specific enemies to spawn
+				DisplayName: 危険な蜘蛛の巣の壁
+				Tooltip: エリア固有の敵をスポーンさせる
 			}
 
 			WalkingRick: {
-				DisplayName: Walking Rick
+				DisplayName: "絵画「Walking Rick」"
 				Tooltip: "'Kien R. Oco'"
 			}
 
 			WiresPainting: {
-				DisplayName: Wires Painting
-				Tooltip: "'Look inside'"
+				DisplayName: "絵画「Wires」"
+				Tooltip: "「中を見る」"
 			}
 
 			WoodenToken: {
-				DisplayName: Wooden Token
-				Tooltip: "'The sign of a true wood lover'"
+				DisplayName: 木のトークン
+				Tooltip: "「真の木材愛好家の証」"
 			}
 
 			AbominationnBody: {
-				DisplayName: Abominationn Body
+				DisplayName: アボミネーションの体
 				Tooltip: ""
 			}
 
 			AbominationnMask: {
-				DisplayName: Abominationn Mask
+				DisplayName: アボミネーションの頭
 				Tooltip: ""
 			}
 
 			AbominationnPants: {
-				DisplayName: Abominationn Pants
+				DisplayName: アボミネーションのパンツ
 				Tooltip: ""
 			}
 
 			AbominationnScythe: {
-				DisplayName: Abominationn's Scythe
+				DisplayName: アボミネーションの鎌
 				Tooltip: ""
 			}
 
 			DevianttBody: {
-				DisplayName: Deviantt Body
+				DisplayName: デビアントの体
 				Tooltip: ""
 			}
 
 			DevianttMask: {
-				DisplayName: Deviantt Mask
+				DisplayName: デビアントの頭
 				Tooltip: ""
 			}
 
 			DevianttPants: {
-				DisplayName: Deviantt Pants
+				DisplayName: デビアントのパンツ
 				Tooltip: ""
 			}
 
 			LumberHat: {
-				DisplayName: LumberJack Hat
+				DisplayName: 木こりの帽子
 				Tooltip: ""
 			}
 
 			LumberjackBody: {
-				DisplayName: Lumberjack Body
+				DisplayName: 木こりの体
 				Tooltip: ""
 			}
 
 			LumberjackMask: {
-				DisplayName: Lumberjack Mask
+				DisplayName: 木こりの頭
 				Tooltip: ""
 			}
 
 			LumberjackPants: {
-				DisplayName: Lumberjack Pants
+				DisplayName: 木こりのパンツ
 				Tooltip: ""
 			}
 
 			MutantBody: {
-				DisplayName: Mutant Body
+				DisplayName: ミュータントの体
 				Tooltip: ""
 			}
 
 			MutantMask: {
-				DisplayName: Mutant Mask
+				DisplayName: ミュータントの頭
 				Tooltip: ""
 			}
 
 			MutantPants: {
-				DisplayName: Mutant Pants
+				DisplayName: ミュータントのパンツ
 				Tooltip: ""
 			}
 
 			LumberJaxe: {
-				DisplayName: The Lumber Jaxe
+				DisplayName: ランバー・ジャックス
 				Tooltip:
 					'''
-					Hit enemies may drop wood when killed
-					'The former weapon of a true axe wielding hero'
+					命中した敵は倒すと木を落とすことがある
+					「真の斧使いの英雄が使ったかつての武器」
 					'''
 			}
 
 			Abominationn: {
-				DisplayName: Abominationn
-				Tooltip: "'I sure wish I was a boss.'"
+				DisplayName: アボミネーション
+				Tooltip: "「俺もボスになれたらよかったんだがなぁ…」"
 			}
 
 			Angler: {
-				DisplayName: Angler
-				Tooltip: "'You'd be a great helper minion!'"
+				DisplayName: 釣り人
+				Tooltip: "「君は役に立つ使いっパシリだ！」"
 			}
 
 			ArmsDealer: {
-				DisplayName: Arms Dealer
-				Tooltip: "'Keep your hands off my gun, buddy!'"
+				DisplayName: 武器商人
+				Tooltip: "「俺の銃に手を出すな、相棒！」"
 			}
 
 			Clothier: {
-				DisplayName: Clothier
-				Tooltip: "'Thanks again for freeing me from my curse.'"
+				DisplayName: 仕立て屋
+				Tooltip: "「私を呪縛から解き放ってくれて、本当にありがとう」"
 			}
 
 			Cyborg: {
-				DisplayName: Cyborg
-				Tooltip: "'My expedition efficiency was critically reduced when a projectile impacted my locomotive actuator.'"
+				DisplayName: サイボーグ
+				Tooltip: "「かつては最高傑作とまで言われましたが、膝にある可動部に弾丸が衝突してしまい…」"
 			}
 
 			Demolitionist: {
-				DisplayName: Demolitionist
-				Tooltip: "'It's a good day to die!'"
+				DisplayName: 爆破技師
+				Tooltip: "「死ぬにはいい日だ！」"
 			}
 
 			Deviantt: {
-				DisplayName: Deviantt
-				Tooltip: "'Embrace suffering... and while you're at it, embrace another purchase!'"
+				DisplayName: デビアント
+				Tooltip: "「苦しみを受け入れ...ついでに買い物も受け入れて！」"
 			}
 
 			Dryad: {
-				DisplayName: Dryad
-				Tooltip: "'Be safe; Terraria needs you!'"
+				DisplayName: ドライアド
+				Tooltip: "「テラリアにはあなたが必要です！」"
 			}
 
 			DyeTrader: {
-				DisplayName: Dye Trader
-				Tooltip: "'My dear, what you're wearing is much too drab.'"
+				DisplayName: 染料商人
+				Tooltip: "「あなたの着ている服は、あまりにも地味ですね…」"
 			}
 
 			GoblinTinkerer: {
-				DisplayName: Goblin Tinkerer
-				Tooltip: "'Looking for a gadgets expert? I'm your goblin!'"
+				DisplayName: ゴブリンのよろずや
+				Tooltip: "「リフォージの専門家をお探しですか？それなら僕にお任せください！」"
 			}
 
 			Golfer: {
-				DisplayName: Golfer
-				Tooltip: "'An early bird catches the worm, but an early hole catches the birdie.'"
+				DisplayName: ゴルファー
+				Tooltip: "「早起きは三文の得、早ホールインはスコアの得です」"
 			}
 
 			Guide: {
-				DisplayName: Guide
-				Tooltip: "'They say there is a person who will tell you how to survive in this land.'"
+				DisplayName: ガイド
+				Tooltip: "「この土地で生き残る方法を教えてくれる人がいるというが…この環境ではあまりにも出番がないのではないのだろうか」"
 			}
 
 			LumberJack: {
-				DisplayName: Lumber Jack
-				Tooltip: "'I eat a bowl of woodchips for breakfast... without any milk.'"
+				DisplayName: 木こり
+				Tooltip: "「朝食にはウッドチップを食べる、ミルクをかけずに」"
 			}
 
 			Mechanic: {
-				DisplayName: Mechanic
-				Tooltip: "'Always buy more wire than you need!'"
+				DisplayName: メカニック
+				Tooltip: "「ワイヤーは常に必要量より多めに買うこと！」"
 			}
 
 			Merchant: {
-				DisplayName: Merchant
-				Tooltip: "'Did you say gold? I'll take that off of ya.'"
+				DisplayName: 商人
+				Tooltip: "「今ゴールドっておっしゃいました？ぜひお支払いしてほしいものですね」"
 			}
 
 			Mutant: {
-				DisplayName: Mutant
-				Tooltip: "'You're lucky I'm on your side.'"
+				DisplayName: ミュータント
+				Tooltip: "「私が味方でよかったね」"
 			}
 
 			Nurse: {
-				DisplayName: Nurse
-				Tooltip: "'Show me where it hurts.'"
+				DisplayName: ナース
+				Tooltip: "「痛いところを教えてくれ」"
 			}
 
 			Painter: {
-				DisplayName: Painter
-				Tooltip: "'I know the difference between turquoise and blue-green. But I won't tell you.'"
+				DisplayName: ペインター
+				Tooltip: "「私はターコイズブルーとブルーグリーンの違いを知っている、けどそれを説明するには時間がいくらあっても足りないな…」"
 			}
 
 			PartyGirl: {
-				DisplayName: Party Girl
-				Tooltip: "'We have to talk. It's... it's about parties.'"
+				DisplayName: パーティーガール
+				Tooltip: "話があるんだ。パーティーのことで。"
 			}
 
 			Pirate: {
-				DisplayName: Pirate
-				Tooltip: "'Stay off me booty, ya scallywag!'"
+				DisplayName: 海賊
+				Tooltip: "俺の戦利品に手を出すな、この野郎！"
 			}
 
 			SantaClaus: {
-				DisplayName: Santa Claus
-				Tooltip: "'What? You thought I wasn't real?'"
+				DisplayName: サンタクロース
+				Tooltip: "「私が実在しないと思ったのか？」"
 			}
 
 			SkeletonMerchant: {
-				DisplayName: Skeleton Merchant
-				Tooltip: "'You would not believe some of the things people throw at me... Wanna buy some of it?'"
+				DisplayName: 骸骨の商人
+				Tooltip: "「俺を見ると、みんな信じられないようなものを投げかけてくるんだ…欲しいなら売ってやるが？」"
 			}
 
 			Squirrel: {
-				DisplayName: Squirrel
-				Tooltip: *squeak*
+				DisplayName: リス
+				Tooltip: *きゅうきゅう*
 			}
 
 			Steampunker: {
-				DisplayName: Steampunker
-				Tooltip: "'Show me some gears!'"
+				DisplayName: スチームパンカー
+				Tooltip: "「そのギアを見せてくれ！」"
 			}
 
 			Stylist: {
-				DisplayName: Stylist
-				Tooltip: "'Did you even try to brush your hair today?'"
+				DisplayName: スタイリスト
+				Tooltip: "「今日は髪をとかした？」"
 			}
 
 			Tavernkeep: {
-				DisplayName: Tavernkeep
-				Tooltip: "'What am I doing here...'"
+				DisplayName: バーテンダー
+				Tooltip: "「俺はここで何をしているんだろう...」"
 			}
 
 			TaxCollector: {
-				DisplayName: Tax Collector
-				Tooltip: "'You again? Suppose you want more money!?'"
+				DisplayName: 収税使
+				Tooltip: "「またお前か…は！？まだ金が欲しいのか？ちょっとは待てんのか！」"
 			}
 
 			TravellingMerchant: {
-				DisplayName: Travelling Merchant
-				Tooltip: "'I sell wares from places that might not even exist!'"
+				DisplayName: 行商人
+				Tooltip: "「見たこともない場所の商品を売っているよ！」"
 			}
 
 			Truffle: {
-				DisplayName: Truffle
-				Tooltip: "'Everyone in this town feels a bit off.'"
+				DisplayName: トリュフ
+				Tooltip: "「この町の誰もに違和感を感じている」"
 			}
 
 			WitchDoctor: {
-				DisplayName: Witch Doctor
-				Tooltip: "'Which doctor am I? The Witch Doctor am I.'"
+				DisplayName: 呪術医
+				Tooltip: "「我がどの医者かだと？呪術医だ」"
 			}
 
 			Wizard: {
-				DisplayName: Wizard
-				Tooltip: "'Want me to pull a coin from behind your ear? No? Ok.'"
+				DisplayName: 魔法使い
+				Tooltip: "「耳からコインを出そうか？なに、いらない？そうか…」"
 			}
 
 			Zoologist: {
-				DisplayName: Zoologist
-				Tooltip: "'I love animals, like, a lot!'"
+				DisplayName: 動物学者
+				Tooltip: "「動物が大好きなんだ」"
 			}
 
 			Princess: {
-				DisplayName: Princess
-				Tooltip: "'Pink is the best color anyone could ask for!'"
+				DisplayName: プリンセス
+				Tooltip: "「ピンクは誰もが求める最高の色ですわ」"
 			}
 
 			TownDog: {
-				DisplayName: Town Dog
-				Tooltip: "'Woof!'"
+				DisplayName: タウンドッグ
+				Tooltip: "ワン！"
 			}
 
 			TownCat: {
-				DisplayName: Town Cat
-				Tooltip: "'Meow!'"
+				DisplayName: タウンキャット
+				Tooltip: "にゃーん！"
 			}
 
 			TownBunny: {
-				DisplayName: Town Bunny
-				Tooltip: "'*Bunny noises*'"
+				DisplayName: タウンバニー
+				Tooltip: "うさぎの鳴き声"
 			}
 
 			SemiBridgifier: {
-				DisplayName: Semi-Bridgifier
+				DisplayName: セミステーションをプラットフォームに設置する装置
 				Tooltip:
 					'''
-					Can be reused infinitely
-					Upgrades the platform you are standing on to use Semistations
-					Does NOT build a platform!
+					無限に利用可能
+					セミステーションを使用するために、立っているプラットフォームをアップグレードします。
+					プラットフォームを構築しない！
 					'''
 			}
 
 			PurityTotem: {
-				DisplayName: Purity Totem
+				DisplayName: 浄化のトーテム
 				Tooltip:
 					'''
-					Can be reused infinitely
-					Allows town NPCs to inhabit evil biomes
-					Prevents evil tiles from forming an evil biome
-					Prevents tombstones from forming Graveyards
+					無限に利用可能
+					町のNPCが汚染されたバイオームで生活できるようになる
+					汚染されたタイルが汚染されたバイオームを形成するのを防ぐ
+					墓石が墓地を形成するのを防ぐ
 					'''
 			}
 
 			HoneyRocketBox: {
 				Tooltip: ""
-				DisplayName: Endless Honey Rocket Box
+				DisplayName: 無限蜂蜜ロケット箱
 			}
 
 			DryRocketBox: {
 				Tooltip: ""
-				DisplayName: Endless Dry Rocket Box
+				DisplayName: 無限ドライロケット箱
 			}
 
 			ClusterRocket2Box: {
 				Tooltip: ""
-				DisplayName: Endless Cluster Rocket II Box
+				DisplayName: 無限クラスターロケットⅡ箱
 			}
 
 			ClusterRocket1Box: {
 				Tooltip: ""
-				DisplayName: Endless Cluster Rocket I Box
+				DisplayName: 無限クラスターロケットⅠ箱
 			}
 
 			LavaRocketBox: {
-				DisplayName: Endless Lava Rocket Box
+				DisplayName: 無限溶岩ロケット箱
 				Tooltip: ""
 			}
 
 			MiniNuke1Box: {
-				DisplayName: Endless Mini Nuke I Box
+				DisplayName: 無限ミニ核爆弾Ⅰ箱
 				Tooltip: ""
 			}
 
 			MiniNuke2Box: {
-				DisplayName: Endless Mini Nuke II Box
+				DisplayName: 無限ミニ核爆弾Ⅱ箱
 				Tooltip: ""
 			}
 
 			Rocket1Box: {
-				DisplayName: Endless Rocket I Box
+				DisplayName: 無限ロケットⅠ箱
 				Tooltip: ""
 			}
 
 			Rocket2Box: {
-				DisplayName: Endless Rocket II Box
+				DisplayName:  無限ロケットⅡ箱
 				Tooltip: ""
 			}
 
 			Rocket3Box: {
-				DisplayName: Endless Rocket III Box
+				DisplayName:  無限ロケットⅢ箱
 				Tooltip: ""
 			}
 
 			Rocket4Box: {
-				DisplayName: Endless Rocket IV Box
+				DisplayName:  無限ロケットⅣ箱
 				Tooltip: ""
 			}
 
 			WetRocketBox: {
-				DisplayName: Endless Wet Rocket Box
+				DisplayName: 無限ウェットロケット箱
 				Tooltip: ""
 			}
 
 			InstaPond: {
-				DisplayName: Instalake
+				DisplayName: 即席湖
 				Tooltip:
 					'''
-					Drops a bomb that creates a 150x50 body of water below it
-					Do not use if any important building is below
+					爆弾を投下し、その下に150x50の湖を作る。
+					もちろん元あったブロックは破壊されるので
+					下に重要な建物がある場合は使用しないこと
 					'''
 			}
 		}
@@ -2378,7 +2383,7 @@ Mods: {
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Abominationn}"
 				}
 
-				Census.SpawnCondition: Conditions unknown
+				Census.SpawnCondition: コンディション 不明
 			}
 
 			Deviantt: {
@@ -2403,7 +2408,7 @@ Mods: {
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Deviantt}"
 				}
 
-				Census.SpawnCondition: Conditions unknown
+				Census.SpawnCondition: コンディション 不明
 			}
 
 			LumberJack: {
@@ -2425,7 +2430,7 @@ Mods: {
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/LumberJack}"
 				}
 
-				Census.SpawnCondition: Conditions unknown
+				Census.SpawnCondition: コンディション 不明
 			}
 
 			Mutant: {
@@ -2449,7 +2454,7 @@ Mods: {
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Mutant}"
 				}
 
-				Census.SpawnCondition: Conditions unknown
+				Census.SpawnCondition: コンディション 不明
 			}
 
 			Squirrel: {
@@ -2469,7 +2474,7 @@ Mods: {
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Squirrel}"
 				}
 
-				Census.SpawnCondition: Conditions unknown
+				Census.SpawnCondition: コンディション 不明
 			}
 
 			SuperDummy.DisplayName: Super Dummy
@@ -2538,51 +2543,51 @@ Mods: {
 		}
 
 		Conditions: {
-			DownedBoss: After defeating any boss
-			DutchmanDown: After defeating a Flying Dutchman
-			MageDown: After defeating a Dark Mage
-			OgreDown: After defeating an Ogre
-			BetsyDown: After defeating Betsy
-			HorsemanDown: After defeating a Headless Horseman
+			DownedBoss: ボスが一体討伐された後
+			DutchmanDown: "{$NPCName.PirateShip}が討伐された後"
+			MageDown: "{$NPCName.DD2DarkMageT1}が討伐された後"
+			OgreDown:"{$NPCName.DD2OgreT2}が討伐された後"
+			BetsyDown: "{$NPCName.DD2Betsy}が討伐された後"
+			HorsemanDown: "{$NPCName.HeadlessHorseman}が討伐された後"
 			PillarsDown: After defeating the Celestial Pillars
 			Downed: After defeating
-			WormDown: After defeating a Giant Worm or Digger
-			PinkyDown: After defeating a Pinky
-			ScoutDown: After defeating a Goblin Scout
-			DoctorDown: After defeating Doctor Bones
-			MinerDown: After defeating an Undead Miner
-			TimDown: After defeating Tim
-			GnomeDown: After defeating a Gnome
-			GoldSlimeDown: After defeating a Gold Slime
-			DungeonSlimeDown: After defeating a Dungeon Slime and Skeletron
-			MedusaDown: After defeating a Medusa, In hardmode
-			ClownDown: After defeating a Clown, In hardmode
-			NymphDown: After defeating a Nymph
-			MothDown: After defeating a Moth, In hardmode
-			RainbowSlimeDown: After defeating a Rainbow Slime, In hardmode
-			WyvernDown: After defeating a Wyvern, In hardmode
-			RuneDown: After defeating a Rune Wizard, In hardmode
-			MimicDown: After defeating a Mimic, In hardmode
-			MimicHallowDown: After defeating a Hallowed Mimic, In hardmode
-			MimicCorruptDown: After defeating a Corrupt Mimic, In hardmode
-			MimicCrimsonDown: After defeating a Crimson Mimic, In hardmode
-			MimicJungleDown: After defeating a Jungle Mimic, In hardmode
-			IceGolemDown: After defeating a Ice Golem, In hardmode
-			SandDown: After defeating a Sand Elemental, In hardmode
-			DevilDown: After defeating a Red Devil, In hardmode
-			BloodFishDown: After defeating a Wandering Eye Fish or Zombie Merman
-			BloodEelDown: After defeating a Blood Eel, In hardmode
-			BloodGoblinDown: After defeating a Hemogoblin Shark, In hardmode
-			BloodNautDown: After defeating Dreadnautilus, In hardmode
-			SummonerDown: After defeating a Goblin Summoner and the Goblin Army, In hardmode
-			PirateDown: After defeating a Pirate Captain and the Pirate Invasion, In hardmode
-			NailheadDown: After defeating a Nailhead and all Mechanical Bosses
-			MothronDown: After defeating a Mothron and all Mechanical Bosses
-			LeeDown: After defeating a Bone Lee and Plantera
-			PaladinDown: After defeating a Paladin and Plantera
-			SkeleGunDown: After defeating a Necromancer, Diabloist or Ragged Caster, After defeating Plantera
-			SiblingPylon: If all siblings are present
-			BossDown: After defeating any boss
+			WormDown: "{$NPCName.GiantWormHead}と{$NPCName.DiggerHead}のどちらかが討伐された後"
+			PinkyDown: "{$NPCName.Pinky}が討伐された後"
+			ScoutDown: "{$NPCName.GoblinScout}が討伐された後"
+			DoctorDown: "{$NPCName.DoctorBones}が討伐された後"
+			MinerDown: "{$NPCName.UndeadMiner}が討伐された後"
+			TimDown: "{$NPCName.Tim}が討伐された後"
+			GnomeDown: "{$NPCName.Gnome}が討伐された後"
+			GoldSlimeDown: "{$NPCName.GoldenSlime}が討伐された後"
+			DungeonSlimeDown: "{$NPCName.DungeonSlime}と{$NPCName.SkeletronHead}が討伐された後"
+			MedusaDown: ハードモードで{$NPCName.Medusa}が討伐された後
+			ClownDown: ハードモードで{$NPCName.Clown}が討伐された後
+			NymphDown: "{$NPCName.Nymph}が討伐された後"
+			MothDown: ハードモードで{$NPCName.Moth}が討伐された後
+			RainbowSlimeDown: ハードモードで{$NPCName.RainbowSlime}が討伐された後
+			WyvernDown: ハードモードで{$NPCName.WyvernHead}が討伐された後
+			RuneDown: ハードモードで{$NPCName.RuneWizard}が討伐された後
+			MimicDown: ハードモードで{$NPCName.Mimic}が討伐された後
+			MimicHallowDown: ハードモードで{$NPCName.BigMimicHallow}が討伐された後
+			MimicCorruptDown: ハードモードで{$NPCName.BigMimicCorruption}が討伐された後
+			MimicCrimsonDown: ハードモードで{$NPCName.BigMimicCrimson}が討伐された後
+			MimicJungleDown: ハードモードで{$NPCName.BigMimicJungle}が討伐された後
+			IceGolemDown: ハードモードで{$NPCName.IceGolem}が討伐された後
+			SandDown: ハードモードで{$NPCName.SandElemental}が討伐された後
+			DevilDown: ハードモードで{$NPCName.RedDevil}が討伐された後
+			BloodFishDown: "{$NPCName.EyeballFlyingFish}か{$NPCName.ZombieMerman}が討伐された後"
+			BloodEelDown: ハードモードで{$NPCName.BloodEelHead}が討伐された後
+			BloodGoblinDown: ハードモードで{$NPCName.GoblinShark}が討伐された後
+			BloodNautDown: ハードモードで{$NPCName.BloodNautilus}が討伐された後
+			SummonerDown: ハードモードで{$NPCName.GoblinSummoner}が討伐され、ゴブリンの侵略が攻略された後
+			PirateDown: ハードモードで{$NPCName.PirateCaptain}が討伐され、海賊の襲来が攻略された後
+			NailheadDown: "{$NPCName.Nailhead}とすべてのメカニカルボスが討伐された後"
+			MothronDown: "{$NPCName.Mothron}とすべてのメカニカルボスが討伐された後"
+			LeeDown: "{$NPCName.BoneLee}と{$NPCName.Plantera}が討伐された後"
+			PaladinDown: "{$NPCName.Paladin}と{$NPCName.Plantera}が討伐された後"
+			SkeleGunDown: "{$NPCName.Plantera}が討伐された、かつ{$NPCName.Necromancer}か{$NPCName.RaggedCaster}か{$NPCName.DiabolistRed}のどれかが討伐された後"
+			SiblingPylon: すべての兄弟が存在しているとき
+			BossDown: ボスが一体討伐された後
 		}
 
 		Keybinds: {
@@ -2596,9 +2601,9 @@ Mods: {
 
 # this doesnt work rn
 TownNPCMood_Princess: {
-	LoveNPC_Fargowiltas/Abominationn: "{NPCName} tells great stories about his battles!"
-	LoveNPC_Fargowiltas/Deviantt: "{NPCName} is so fun, we could talk for hours!"
-	LoveNPC_Fargowiltas/Mutant: "{NPCName} has some amazing items, they're great for meeting new friends!"
-	LoveNPC_Fargowiltas/Squirrel: "{NPCName} is really adorable!"
-	LoveNPC_Fargowiltas/LumberJack: "{NPCName} is so strong, I want to try chopping wood some time!"
+	LoveNPC_Fargowiltas/Abominationn: "{NPCName} は自分の戦いについて素晴らしい話をしてくださいますわ！"
+	LoveNPC_Fargowiltas/Deviantt: "{NPCName} はとても楽しくて、何時間でも話ができますわ！"
+	LoveNPC_Fargowiltas/Mutant: "{NPCName} は素晴らしいアイテムを持っているし、新しい友達に会うには最高ですわ！"
+	LoveNPC_Fargowiltas/Squirrel: "{NPCName} は本当に愛らしい！"
+	LoveNPC_Fargowiltas/LumberJack: "{NPCName} はとても強いですわ！私はそれに感激いたしまして、今度薪割りをさせていただきたいのです！"
 }
