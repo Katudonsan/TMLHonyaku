@@ -9,103 +9,103 @@
 Mods: {
 	Fargowiltas: {
 		Bestiary: {
-			Deviantt: Provides monster spawners and (if she feels like it) a helping hand. This upbeat and energetic creature likes money almost as much as she likes violence. Only a little deformed.
-			Abominationn: Can control the weather and stop invasions, but he's lazy and his weapons are fused to his hands. Good thing he doesn't need to eat and doors magically open when he approaches.
-			Mutant: Called brother by its siblings, but refuses to confirm its gender. More interested in watching fights and small pets than talking about its past. It seems to be looking for someone strong...
-			LumberJack: A wholly ordinary lumberjack that loves collecting critters and chopping wood of any kind. But could there be more to him than meets the eye? Secret godly powers? ...Probably not.
-			Squirrel: This dapper critter sells duplicates of valuable items that it notices in inventories. Won't divulge how it gets them, mostly because it can't speak.
+			Deviantt: モンスターのスポーンアイテムと（その気になれば）助け舟を出す。この陽気でエネルギッシュなバケモンは、暴力以上にお金が好きだ。少しディフォルメされている。
+			Abominationn: 天候をコントロールし、侵略を阻止することができるが、怠け者で武器は手にくっついている。だが、食事は不要だし近づくと何かの力で勝手にドアが開くので特に困ってはいない。
+			Mutant: 兄弟からはブラザーと呼ばれるが、性別の確認は拒否している。自分の過去を話すよりも、ケンカや小さなペットを見ることに興味がある。強い相手を探しているようだ。
+			LumberJack: 生き物を集め、あらゆる種類の木を切るのが大好きな、ごく普通の木こり。しかし、彼には見た目以上の何かがあるのだろうか？秘密の神の力？...おそらくないだろう。
+			Squirrel: このお洒落な生き物は、インベントリにあると気づいた貴重なアイテムの複製を売っている。どうやって手に入れたかは明かさない。
 		}
 
 		#This is what displays during all of an NPC's happiness levels. Note that the localization key for these should always be "TownNPCMood.*NPCName*.*Mood*" or else it won't display properly.
 		TownNPCMood: {
 			Deviantt: {
-				Content: I'm feeling good!
-				NoHome: Do you have any spare housing? Please? Anything? Even a jail cell is fine with me!
-				LoveSpace: Peace and quiet means I get to live it up!
-				FarFromHome: I think my house was that way... unless you're taking me somewhere?
-				DislikeCrowded: The more the merrier and all, but I'm starting to feel a lil' overcrowded.
-				HateCrowded: I can't kick my legs out and relax without hitting someone...
-				LikeBiome: Ha ha ha, something about {BiomeName} just makes me laugh uncontrollably for some reason!
-				LoveBiome: The stars above are so pretty, I love watching them go by so much!
-				DislikeBiome: Can we go somewhere warmer than this?
-				HateBiome: I wanna live elsewhere! This is awful, I'm sweating up a storm!
-				LikeNPC: "{NPCName} is my big-but-not-biggest bro. He's pretty cool!"
-				LikeNPC_Princess: I gotta visit {NPCName} again sometime, there's a girl who gets me!
-				LoveNPC: "{NPCName} is here! That's my big bro, isn't he just the coolest?!"
-				DislikeNPC: I can't stand girls like {NPCName}, feels like she's just here for a certain audience.
-				HateNPC: Just between us. Have you ever considered throwing {NPCName} back where you found him?
+				Content: 調子はいいですね！
+				NoHome: 予備の住宅はありますか？お願いします。何でもいいんです。タコ部屋でもインスタントハウスでも構わないので！
+				LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということです！
+				FarFromHome: 私の家もそうだったと思うのですが......どこか連れてってくれるなら別ですが…？
+				DislikeCrowded: 人は多ければ多いほどいいのですが、ちょっと過密な感じがするんです。
+				HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんです…。
+				LikeBiome: "あはははは、{BiomeName}ってなんだか無性に笑っちゃうんです！"
+				LoveBiome: 上空の星はとてもきれいです！通り過ぎるのを見るのが大好きなんです！
+				DislikeBiome: もっと暖かいところに行きませんか？
+				HateBiome: 別の場所で暮らしたいです！これはひどいです！汗だくです！
+				LikeNPC: "{NPCName} は私の一番大きな、でも一番大きくない兄弟です！彼はかなりクールです！"
+				LikeNPC_Princess: "いつかまた{NPCName}を訪ねなきゃ、私を理解してくれる女の子がいるんです！"
+				LoveNPC: "{NPCName} はここにいます！私のお兄ちゃんです！最高にクールじゃないですか？"
+				DislikeNPC:"私は{NPCName}のような女の子には耐えられないんです！彼女はただ特定の動物のためにここにいるように感じるんです"
+				HateNPC: "ここだけの話ですがあのクソガキ…いや、{NPCName}を海に投げ返してやろうかと考えたことはありませんか？"
 			}
 
 			Abominationn: {
-				Content: I am content.
-				NoHome: Give me a home and I'll lower my prices.
-				LoveSpace: Not being crowded around is good.
-				FarFromHome: I'd fly back to my house, but I don't really feel like being watched.
-				DislikeCrowded: There's too many humans around, they keep poking at my face.
-				HateCrowded: Do you know how hard it is to carry a scythe and not cut anyone with this many people around?
-				LikeBiome: I like {BiomeName}, it's home to a fine opponent with my brother's wings.
-				LoveBiome: I like Space a lot, we came here first before landing.
-				DislikeBiome: Too many weak enemies live in {BiomeName}.
-				HateBiome: I dislike {BiomeName} a lot.
-				LikeNPC: "{NPCName} is my sister... I've defeated more events than her, but she's okay."
-				LikeNPC_Princess: "{NPCName} is okay."
-				LoveNPC: "{NPCName} is my brother... I've fought more bosses than him, but he's strong."
-				DislikeNPC: I do not like {NPCName}.
-				HateNPC: "{NPCName} ruins the glory of battle, I don't want her near me."
+				Content: 私は満足しているよ。
+				NoHome: 家をくれたら値段を下げてあげるよ。
+				LoveSpace: 混雑していないのはいいことだね。
+				FarFromHome: 飛んで帰りたいけど見られている気がして好きじゃないんだ。
+				DislikeCrowded: 人間が多すぎるんだ、視線が痛いよ。
+				HateCrowded: これだけの人がいる中で、誰も切らずに鎌を運ぶのがどれだけ大変かわかる？
+				LikeBiome: "{BiomeName}は好きだよ。兄の翼を持ついい対戦相手の本拠地だからね。"
+				LoveBiome: "私は宇宙がとても好きだ。上陸する前に最初に来たのはここだったからね。"
+				DislikeBiome: "{BiomeName}には弱い敵が多すぎる。"
+				HateBiome: "{BiomeName}が大嫌いだ。"
+				LikeNPC: "{NPCName}は私の妹だよ...。私の方がたくさんイベントを倒したけど、彼女はいい子だよ。"
+				LikeNPC_Princess: "{NPCName}はいいよね。"
+				LoveNPC: "{NPCName}は私の弟なんだ...。僕の方がボスとは戦ってきたけど、彼は強いよ。"
+				DislikeNPC: "{NPCName}は嫌いだ。"
+				HateNPC: "{NPCName}は戦いの輝きを台無しにするんだ、近寄ってもらっちゃ困るよ。"
 			}
 
 			Mutant: {
-				Content: Thanks for the house, I guess.
-				NoHome: A house wouldn't hurt, but I don't mind either way.
-				LoveSpace: Downtime between boss fights is nice. I don't get that with lots of humans around.
-				FarFromHome: I'll eat slimes and zombies, but eating human food at home would be good too.
-				DislikeCrowded: There's too many people here. And they seem upset I keep winning our staring contests.
-				HateCrowded: If one more human in this cramped town bumps into my brain again... never mind.
-				LikeBiome: We all start in {BiomeName}, it's a good place.
-				LoveBiome: Living up here is comfortable, but when are you going to find my temple?
-				DislikeBiome: Is {BiomeName} supposed to impress me? The big fairy doesn't, that's for sure.
-				HateBiome: Do you want pricier summons? Making me live in {BiomeName} means pricier summons.
-				LikeNPC: I forget when {NPCName} joined the family, but she's earned her place.
-				LikeNPC_Princess: "{NPCName} seems friendly."
-				LoveNPC: "{NPCName} and I fought through many battles, too bad there's no opportunity to do it again."
-				DislikeNPC: Why is {NPCName} here? It's okay, me, just don't look him in the eye and he can't scare you...
-				HateNPC: "{NPCName} needs to leave before my Penetrator makes it happen."
+				Content: 我は汝が与えた家に感謝を示す。
+				NoHome: 我は家を望む、しかし、汝の気分次第でどちらでも構わぬことを先に示しておこう
+				LoveSpace: ボス戦の間隙は良きものである。人が群れたときにそれは起きぬためだ。
+				FarFromHome: 粘体生物や不死者であろうと我の前では食事にすぎぬ。しかし、我は家で食べる食事の方が美味であるということを知っている
+				DislikeCrowded: 此方に存在する人が多すぎると我は感じる。そして、彼らは我の存在に妬みの感情に近いものを抱き始めているようだ
+				HateCrowded: 我がこの町で、また一人、我の脳にぶつかってくる人がいたとしても、我は気にしない。しかし人は大層迷惑に感じるであろう。
+				LikeBiome: "我ら生命は等しく{BiomeName} からスタートする。"
+				LoveBiome: "此方での生活は快適である。しかし、幾時になれば、我の寺を見つけるのであろうか？"
+				DislikeBiome: "[BiomeName}は我を感動させるものなのであろうか疑問を示す…少なくとも妖精はそうではない、それは確かであろう。"
+				HateBiome: 我に高価な対価を望むということか？我を{BiomeName}に住まわせることにより、我は高価な対価を要求せざるを得ないことを示す。
+				LikeNPC: "{NPCName}が何時に我が家族に加わったかはもはや忘れてしまったが、彼女が自分の居場所を得たことは間違いないであろう。"
+				LikeNPC_Princess: "{NPCName} は親切だと我は思考する"
+				LoveNPC: "{NPCName}とは幾度となく争いを繰り返した。再び闘争を試みる機会がないのは非常に残念であると思考する"
+				DislikeNPC: "何故{NPCName}が此方に？しかしそれに特に問題はないか..."
+				HateNPC: "我のペネトレーターが覚醒の刻を迎える前に、非常に我の傲慢は悔いるところだが、{NPCName}は我の前から去る必要があると思考する"
 			}
 
 			LumberJack: {
-				Content: I'm happy as long as the world has wood that needs chopping.
-				NoHome: No lumberjack is complete without a log cabin to call home!
-				LoveSpace: Fewer people around means I can swing my axe all I want with nobody in the way.
-				FarFromHome: This is too far from my cabin. I should get back and sharpen my axe.
-				DislikeCrowded: I think it's getting crowded around here.
-				HateCrowded: Too many people around. Nothing ruins a good chopping session more than chopping down someone.
-				LikeBiome: Plenty of trees to chop in {BiomeName} makes for a happy lumberjack.
-				LoveBiome: There's nothing like good old fashioned woodchopping in {BiomeName}!
+				Content: 僕は木がある限りハッピーなのさ!
+				NoHome: 木こりにはログハウスが欠かせないのさ!
+				LoveSpace: 人が少ないということは、誰にも邪魔されずに好きなだけ斧を振るえるということさ!
+				FarFromHome: 僕の小屋から遠すぎるよ。戻って斧を研がなければ...
+				DislikeCrowded: このあたりはどんどん混んできてると思うよ。
+				HateCrowded: 周りに人が多過ぎだ。せっかくの薪割り作業も、人を倒してしまえばおしまいだ。
+				LikeBiome: "{BiomeName}には切り倒せる木がたくさんあり、{$LumberJack.DisplayName}は大喜びだ。"
+				LoveBiome: "{BiomeName}には退屈な木切りがないのさ!"
 				DislikeBiome: There's nothing to chop in {BiomeName}!
-				HateBiome: There's nothing to chop in {BiomeName}!
-				LikeNPC: I chop down trees, {NPCName} plants more, we're the perfect duo.
-				LikeNPC_Princess: "{NPCName} is better with an axe than I expected!"
-				LoveNPC: I'm glad {NPCName} understands the beauty of felling a big tree.
-				DislikeNPC: "{NPCName} told me to start hugging trees... so I taught my axe to hug trees for me."
-				HateNPC: "{NPCName} doesn't get me at all. Bombing a forest isn't woodchopping!"
+				HateBiome: "{BiomeName}に切り倒すものは何もないよ!"
+				LikeNPC: 僕が木を切り倒し、{NPCName}が植物を育てる!完璧なコンビじゃないか!
+				LikeNPC_Princess: "{NPCName}は思ったより斧の扱いがうまかったよ!"
+				LoveNPC: "{NPCName}が大木を伐ることの素晴らしさを理解してくれて嬉しいよ。"
+				DislikeNPC: "{NPCName}が木とハグしてろって言うから...斧に木とハグするように教えたのさ。"
+				HateNPC: "{NPCName}は全く理解できない。森を爆破するのは薪割りじゃないんだぞ!"
 			}
 
 			Squirrel: {
-				Content: *content squeak*
-				NoHome: *sad homeless squeak*
-				LoveSpace: *happy uncrowded squeak*
-				FarFromHome: *sad lost squeak*
-				DislikeCrowded: *sad crowded squeak*
-				HateCrowded: *very sad crowded squeak*
-				LikeBiome: *happy squeak about {BiomeName}*
-				LoveBiome: *very happy squeak about {BiomeName}*
-				DislikeBiome: *sad squeak about {BiomeName}*
-				HateBiome: *very sad squeak about {BiomeName}*
-				LikeNPC: *happy squeak about {NPCName}*
-				LikeNPC_Princess: *happy squeak about {NPCName}*
-				LoveNPC: *very happy squeak about {NPCName}*
-				DislikeNPC: *angry squeak about {NPCName}*
-				HateNPC: *very angry squeak about {NPCName}*
+				Content: "*挨拶のような鳴き声*"
+				NoHome: "*家がなくて悲しそうな鳴き声*"
+				LoveSpace: "*混雑していないので、嬉しい鳴き声*"
+				FarFromHome: "*迷子で悲しそうな鳴き声*"
+				DislikeCrowded: "*騒がしいのが嫌そうな鳴き声*"
+				HateCrowded:"*騒がしいのがとても嫌そうな鳴き声*"
+				LikeBiome:"*{BiomeName}はいいよ～という鳴き声*"
+				LoveBiome: "*{BiomeName}には食べ物がたくさんあるからサイコー！という鳴き声*"
+				DislikeBiome: "*{BiomeName}はないよ～という鳴き声*"
+				HateBiome: "*{BiomeName}にいるのが嫌そうな鳴き声*"
+				LikeNPC: "*{NPCName}に関する幸せそうな鳴き声*"
+				LikeNPC_Princess: "*{NPCName}に関する結構幸せそうな鳴き声*"
+				LoveNPC: "*{NPCName}に関するすごく幸せそうな鳴き声*"
+				DislikeNPC: "*{NPCName}に関する怒ってるような鳴き声*"
+				HateNPC: "* {NPCName}だけは絶対に許せないという鳴き声**"
 			}
 		}
 
@@ -1340,7 +1340,7 @@ Mods: {
 				DisplayName: 肉付きの良い人形
 				Tooltip:
 					'''
-					肉の壁を召喚
+					ウォールオブフレッシュを召喚
 					[c/FF0000:必ずアンダーワールドで使用すること]
 					'''
 			}
@@ -1672,7 +1672,7 @@ Mods: {
 					スタックしている分をまとめて使用する
 					使用した際にスタックしていた数の10倍のボスが出現する
 					10キルごとにトロフィーがドロップ
-					100キルごとにエナジャイザーがドロップする。
+					100キルごとにエネルゲイザーがドロップする。
 					'''
 			}
 
@@ -2136,7 +2136,7 @@ Mods: {
 
 			GoblinTinkerer: {
 				DisplayName: ゴブリンのよろずや
-				Tooltip: "「リフォージの専門家をお探しですか？それなら僕にお任せください！」"
+				Tooltip: "「リフォージの専門家をお探しですか？それなら僕にお任せください！少々お値段はしますが…」"
 			}
 
 			Golfer: {
@@ -2151,7 +2151,7 @@ Mods: {
 
 			LumberJack: {
 				DisplayName: 木こり
-				Tooltip: "「朝食にはウッドチップを食べる、ミルクをかけずに」"
+				Tooltip: "「朝食にはウッドチップを食べる、ミルクをかけずに、な？」"
 			}
 
 			Mechanic: {
@@ -2166,7 +2166,7 @@ Mods: {
 
 			Mutant: {
 				DisplayName: ミュータント
-				Tooltip: "「私が味方でよかったね」"
+				Tooltip: "「私が味方でよかったね、本当に。」"
 			}
 
 			Nurse: {
@@ -2181,12 +2181,12 @@ Mods: {
 
 			PartyGirl: {
 				DisplayName: パーティーガール
-				Tooltip: "話があるんだ。パーティーのことで。"
+				Tooltip: "「話があるんだ。パーティーのことで。」"
 			}
 
 			Pirate: {
 				DisplayName: 海賊
-				Tooltip: "俺の戦利品に手を出すな、この野郎！"
+				Tooltip: "「俺の戦利品に手を出すな、この野郎！」"
 			}
 
 			SantaClaus: {
@@ -2355,7 +2355,7 @@ Mods: {
 				Tooltip:
 					'''
 					爆弾を投下し、その下に150x50の湖を作る。
-					もちろん元あったブロックは破壊されるので
+					もちろん元あったブロックは問答無用で破壊されるので
 					下に重要な建物がある場合は使用しないこと
 					'''
 			}
@@ -2383,7 +2383,7 @@ Mods: {
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Abominationn}"
 				}
 
-				Census.SpawnCondition: コンディション 不明
+				Census.SpawnCondition:  ゴブリン軍団を退ける
 			}
 
 			Deviantt: {
@@ -2408,7 +2408,7 @@ Mods: {
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Deviantt}"
 				}
 
-				Census.SpawnCondition: コンディション 不明
+				Census.SpawnCondition: レアエネミーを１種類倒すか、ワールドをエタニティモードにする
 			}
 
 			LumberJack: {
@@ -2430,7 +2430,7 @@ Mods: {
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/LumberJack}"
 				}
 
-				Census.SpawnCondition: コンディション 不明
+				Census.SpawnCondition: 切り倒された木のタイルの総量が500個以上になる
 			}
 
 			Mutant: {
@@ -2454,12 +2454,12 @@ Mods: {
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Mutant}"
 				}
 
-				Census.SpawnCondition: コンディション 不明
+				Census.SpawnCondition: なんでもいいのでボスを倒す
 			}
 
 			Squirrel: {
 				DisplayName: Squirrel
-
+				
 				TownNPCMood: {
 					Content: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.Content}"
 					NoHome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.NoHome}"
@@ -2473,11 +2473,10 @@ Mods: {
 					LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LikeNPC_Princess}"
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Squirrel}"
 				}
-
-				Census.SpawnCondition: コンディション 不明
+				Census.SpawnCondition: Trojan Squirrelを倒す（Souls Mod導入時）
 			}
 
-			SuperDummy.DisplayName: Super Dummy
+			SuperDummy.DisplayName: 改良型ダミー
 		}
 
 		Projectiles: {
