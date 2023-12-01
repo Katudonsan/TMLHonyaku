@@ -2363,7 +2363,7 @@ Mods: {
 
 		NPCs: {
 			Abominationn: {
-				DisplayName: Abominationn
+				DisplayName: アボミネーション
 
 				TownNPCMood: {
 					Content: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.Content}"
@@ -2387,7 +2387,7 @@ Mods: {
 			}
 
 			Deviantt: {
-				DisplayName: Deviantt
+				DisplayName: デビアント
 
 				TownNPCMood: {
 					Content: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.Content}"
@@ -2412,7 +2412,7 @@ Mods: {
 			}
 
 			LumberJack: {
-				DisplayName: LumberJack
+				DisplayName: 木こり
 
 				TownNPCMood: {
 					Content: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.Content}"
@@ -2434,7 +2434,7 @@ Mods: {
 			}
 
 			Mutant: {
-				DisplayName: Mutant
+				DisplayName: ミュータント
 
 				TownNPCMood: {
 					Content: "{$Mods.Fargowiltas.TownNPCMood.Mutant.Content}"
@@ -2458,7 +2458,7 @@ Mods: {
 			}
 
 			Squirrel: {
-				DisplayName: Squirrel
+				DisplayName: リス
 				
 				TownNPCMood: {
 					Content: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.Content}"
