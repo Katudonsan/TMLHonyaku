@@ -139,27 +139,27 @@ Mods: {
 				}
 
 				CatchNPCs: {
-					Label: "[i:267] Catch Town NPCs"
+					Label: "[i:267] タウンNPCを虫取り網で捕獲する"
 					Tooltip: ""
 				}
 
 				NPCSales: {
-					Label: "[i:267] Extra Town NPC sales"
+					Label: "[i:267] タウンNPCの特別商品"
 					Tooltip: ""
 				}
 
 				SaferBoundNPCs: {
-					Label: "[i:1274] Rescuable Town NPCs take no contact damage"
+					Label: "[i:1274] 救出可能な町のNPCは接触ダメージを受けない"
 					Tooltip: ""
 				}
 
 				Halloween: {
-					Label: "[i:1774] Halloween Season"
+					Label: "[i:1774] 年中ハロウィン"
 					Tooltip: ""
 				}
 
 				Christmas: {
-					Label: "[i:1869] Christmas Season"
+					Label: "[i:1869] 年中クリスマス"
 					Tooltip: ""
 				}
 
@@ -214,7 +214,7 @@ Mods: {
 				}
 
 				ExtraLures: {
-					Label: "[i:2373] Extra Lures on Fishing Rods"
+					Label: "[i:2373] 釣竿に追加のルアーをつける"
 					Tooltip: ""
 				}
 
@@ -224,17 +224,17 @@ Mods: {
 				}
 
 				RottenEggs: {
-					Label: "[i:1809] Powerful Rotten Eggs"
-					Tooltip: ""
+					Label: "[i:1809] パワフルな腐った卵"
+					Tooltip: "NPCが死ぬほど腐った卵を嫌がるようになる"
 				}
 
 				BannerRecipes: {
-					Label: "[i:1683] Banner Recipes"
+					Label: "[i:1683] バナーを使ったレシピ"
 					Tooltip: ""
 				}
 
 				IncreaseMaxStack: {
-					Label: "[i:2] Increased Max Stacks"
+					Label: "[i:2] 最大スタック数の増加"
 					Tooltip: ""
 				}
 
@@ -259,7 +259,7 @@ Mods: {
 				}
 
 				FasterLavaFishing: {
-					Label: "[i:4881] Faster Fishing in Lava"
+					Label: "[i:4881] 溶岩でより速い釣りを許可する"
 					Tooltip: ""
 				}
 
@@ -269,11 +269,11 @@ Mods: {
 				}
 
 				Headers: {
-					TownNPCs: Town NPCs
-					Seasons: Seasons
-					Seeds: Seeds
-					Unlimited: Unlimited
-					Misc: Miscellaneous
+					TownNPCs: タウンNPC
+					Seasons: シーズン
+					Seeds: シード値
+					Unlimited: 無限化
+					Misc: その他
 				}
 			}
 
@@ -313,9 +313,9 @@ Mods: {
 
 			SeasonSelections: {
 				Tooltip: ""
-				Normal.Label: Normal
-				AlwaysOn.Label: Always On
-				AlwaysOff.Label: Always Off
+				Normal.Label: バニラ仕様
+				AlwaysOn.Label: 常に適用する
+				AlwaysOff.Label: 常に停止する
 			}
 
 			Common.CanSpawn: Can Spawn
