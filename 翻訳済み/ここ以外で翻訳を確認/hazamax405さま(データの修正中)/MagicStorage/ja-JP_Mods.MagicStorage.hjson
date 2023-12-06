@@ -1,0 +1,1156 @@
+Items: {
+	BiomeGlobe: {
+		DisplayName: バイオームグローブ
+		Tooltip:
+			'''
+			世界のパワーはあなたの指先にある
+			雪原バイオーム、エクトミスト、不浄・真紅の供犠台、水・溶岩・蜂蜜を必要とするレシピのクラフトが可能になる
+			インベントリまたはクラフトインターフェイスのステーションスロットに置くことができる
+			インベントリにある間は、焚き火の近くに立たなくてもマシュマロを焼くことができる
+			クラフティングインターフェースでマシュマロのクラフトが可能になる
+			投げるとビーチボールのように動く
+			'''
+	}
+
+	CraftingAccess: {
+		DisplayName: ストレージクラフティングインターフェース
+		Tooltip: ストレージシステム内のアイテムでクラフトが可能
+	}
+
+	CreativeStorageUnit: {
+		DisplayName: クリエイティブストレージユニット
+		Tooltip:
+			'''
+			あらゆる種類のアイテムを無制限に保存できる
+			ストレージシステム内では、ストレージ制限にカウントされない
+			'''
+	}
+
+	Locator: {
+		DisplayName: 探知機
+		Tooltip:
+			'''
+			<right> でストレージハートから保存場所へ
+			<right> で遠隔ストレージアクセスを設定する
+			'''
+	}
+
+	LocatorDisk: {
+		DisplayName: 探知機ドライブ
+		Tooltip:
+			'''
+			<right> でストレージハートから保存場所へ
+			<right> で遠隔ストレージアクセスを設定する
+			使用時に壊れない
+			'''
+	}
+
+	PortableAccess: {
+		DisplayName: 究極携帯遠隔ストレージアクセス
+		Tooltip:
+			'''
+			<right> でストレージハートから保存場所へ
+			現在、どの場所にも設定されていない
+			アイテムを使用してストレージにアクセスする
+			アクセス範囲は無制限
+			'''
+	}
+
+	PortableCraftingAccess: {
+		DisplayName: 究極携帯遠隔クラフティングアクセス
+		Tooltip:
+			'''
+			<right> でストレージハートから保存場所へ
+			現在、どの場所にも設定されていない
+			アイテムを使用してクラフティングにアクセスする
+			アクセス範囲は無制限
+			'''
+	}
+
+	RadiantJewel: {
+		DisplayName: レディアントジュエル
+		Tooltip: "まばゆい光を放つ"
+	}
+
+	RemoteAccess: {
+		DisplayName: 遠隔ストレージアクセス
+		Tooltip:
+			'''
+			ストレージハートの遠隔アクセスを可能にする
+			クラフティングアクセスのような部品のストレージセンターとして機能する
+			'''
+	}
+
+	ShadowDiamond: {
+		DisplayName: シャドウダイヤモンド
+		Tooltip: 光の痕跡がまだ内側に残っている
+	}
+
+	SnowBiomeEmulator: {
+		DisplayName: 壊れたスノードーム
+		Tooltip: ストレージクラフティングインターフェースで雪原バイオームのレシピのクラフトができるようになる
+	}
+
+	StorageAccess: {
+		DisplayName: ストレージアクセス
+		Tooltip: ストレージシステム内のアイテムを見るためのもう一つのアクセスポイントとして機能する
+	}
+
+	StorageComponent: {
+		DisplayName: ストレージ部品
+		Tooltip: マジックストレージの部品を作成するための基本アイテム
+	}
+
+	StorageConnector: {
+		DisplayName: ストレージコネクター
+		Tooltip: マジックストレージの部品を接続するブリッジとして機能する
+	}
+
+	StorageDeactivator: {
+		DisplayName: ストレージユニットの杖
+		Tooltip:
+			'''
+			ストレージユニットを有効化・無効化する
+			無効化されたストレージユニットは、ストレージシステム内の有効化されたストレージユニットにアイテムを転送しようとします
+			'''
+	}
+
+	StorageHeart: {
+		DisplayName: ストレージハート
+		Tooltip:
+			'''
+			マジックストレージシステムの核となる部品
+			ストレージシステムが機能するために必要
+			'''
+	}
+
+	StorageUnit: {
+		DisplayName: ストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			40アイテムを保存可能
+			'''
+	}
+
+	StorageUnitBlueChlorophyte: {
+		DisplayName: 青クロロファイトストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			240アイテムを保存可能
+			'''
+	}
+
+	StorageUnitCrimtane: {
+		DisplayName: クリムタンストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			80アイテムを保存可能
+			'''
+	}
+
+	StorageUnitDemonite: {
+		DisplayName: デモナイトストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			80アイテムを保存可能
+			'''
+	}
+
+	StorageUnitHallowed: {
+		DisplayName: 聖なるストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			160アイテムを保存可能
+			'''
+	}
+
+	StorageUnitHellstone: {
+		DisplayName: ヘルストーンストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			120アイテムを保存可能
+			'''
+	}
+
+	StorageUnitLuminite: {
+		DisplayName: ルミナイトストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			320アイテムを保存可能
+			'''
+	}
+
+	StorageUnitTerra: {
+		DisplayName: テラストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			640アイテムを保存可能
+			'''
+	}
+
+	StorageUnitTiny: {
+		DisplayName: 極小ストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			4アイテムを保存可能
+			'''
+	}
+
+	UpgradeBlueChlorophyte: {
+		DisplayName: 青クロロファイトストレージアップグレード
+		Tooltip:
+			'''
+			ストレージユニットの容量を240にアップグレードする
+			<right> 聖なるストレージユニットに使用
+			'''
+	}
+
+	UpgradeCrimtane: {
+		DisplayName: クリムタンストレージアップグレード
+		Tooltip:
+			'''
+			ストレージユニットの容量を80にアップグレードする
+			<right> ストレージユニットに使用
+			'''
+	}
+
+	UpgradeDemonite: {
+		DisplayName: デモナイトストレージアップグレード
+		Tooltip:
+			'''
+			ストレージユニットの容量を80にアップグレードする
+			<right> ストレージユニットに使用
+			'''
+	}
+
+	UpgradeHallowed: {
+		DisplayName: 聖なるストレージアップグレード
+		Tooltip:
+			'''
+			ストレージユニットの容量を160にアップグレードする
+			<right> ヘルストーンストレージユニットに使用
+			'''
+	}
+
+	UpgradeHellstone: {
+		DisplayName: ヘルストーンストレージアップグレード
+		Tooltip:
+			'''
+			ストレージユニットの容量を120にアップグレードする
+			<right> デモナイト・クリムタンストレージユニットに使用
+			'''
+	}
+
+	UpgradeLuminite: {
+		DisplayName: ルミナイトストレージアップグレード
+		Tooltip:
+			'''
+			ストレージユニットの容量を320にアップグレードする
+			<right> アオクロロファイトストレージユニットに使用
+			'''
+	}
+
+	UpgradeTerra: {
+		DisplayName: テラストレージアップグレード
+		Tooltip:
+			'''
+			ストレージユニットの容量を640にアップグレードする
+			<right> ルミナイトストレージユニットに使用
+			'''
+	}
+
+	CrimsonAltar: {
+		DisplayName: クリムゾンアルター
+		Tooltip: 設置できるクリムゾンアルター。ハードモードのツルハシでなければ採掘できない
+	}
+
+	DemonAltar: {
+		DisplayName: デーモンアルター
+		Tooltip: 設置できるデーモンアルター。 ハードモードのツルハシでなければ採掘できない
+	}
+
+	CombinedFurnitureStations1Item: {
+		DisplayName: 合体した家具ステーション (Tier 1)
+		Tooltip: 複数のクラフトステーションの機能を家具に統合
+	}
+
+	CombinedFurnitureStations2Item: {
+		DisplayName: 合体した家具ステーション (Tier 2)
+		Tooltip: 複数のクラフトステーションの機能を家具に統合
+	}
+
+	CombinedStations1Item: {
+		DisplayName: 合体したステーション (Tier 1)
+		Tooltip: 複数のクラフトステーションの機能を統合
+	}
+
+	CombinedStations2Item: {
+		DisplayName: 合体したステーション (Tier 2)
+		Tooltip: 複数のクラフトステーションの機能を統合
+	}
+
+	CombinedStations3Item: {
+		DisplayName: 合体したステーション (Tier 3)
+		Tooltip: 複数のクラフトステーションの機能を統合
+	}
+
+	CombinedStations4Item: {
+		DisplayName: 合体したステーション (最終Tier)
+		Tooltip: 複数のクラフトステーションの機能を統合
+	}
+
+	EnvironmentAccess: {
+		DisplayName: ストレージ設定インターフェース
+		Tooltip:
+			'''
+			マジックストレージシステムでMod間アクセシビリティを実現するコンポーネント
+			他のMODによって追加された、切り替え可能な環境モジュールのリストを表示する
+			可能なモジュール:
+			<MODULES>
+			'''
+	}
+
+	PortableAccessPreHM: {
+		DisplayName: 基本携帯遠隔ストレージアクセス
+		Tooltip:
+			'''
+			<right> でストレージハートから保存場所へ
+			現在、どの場所にも設定されていない
+			アイテムを使用してストレージにアクセスする
+			接続したハートは、有効なパイロンから最大100フィート離れていなければならない
+			ストレージにアクセスするには、接続しているハートまたはパイロンから最大1000フィート離れていなければならない
+			'''
+	}
+
+	PortableAccessHM: {
+		DisplayName: 上級携帯遠隔ストレージアクセス
+		Tooltip:
+			'''
+			<right> でストレージハートから保存場所へ
+			現在、どの場所にも設定されていない
+			アイテムを使用してストレージにアクセスする
+			接続したハートは、有効なパイロンから最大200フィート離れていなければならない
+			ストレージにアクセスするには、接続しているハートまたはパイロンから最大3000フィート離れていなければならない
+			'''
+	}
+
+	Config_GlowItemGlowing: {
+		DisplayName: 設定//光るアイテムが光る
+		Tooltip: ""
+	}
+
+	Config_GlowItemNotGlowing: {
+		DisplayName: 設定//光るアイテムが光らない
+		Tooltip: ""
+	}
+
+	Config_RecipeFilterAvailable: {
+		DisplayName: 設定//レシピフィルタが有効
+		Tooltip: ""
+	}
+
+	Config_RecipeFilterAll: {
+		DisplayName: 設定//レシピフィルタ全て
+		Tooltip: ""
+	}
+
+	PortableCraftingAccessPreHM: {
+		DisplayName: 基本携帯遠隔クラフティングアクセス
+		Tooltip:
+			'''
+			<right> クラフティングインターフェースから保存場所へ
+			現在、どの場所にも設定されていない
+			アイテムを使用してクラフティングにアクセスする
+			接続したインターフェースは、有効なパイロンから最大100フィート離れていなければならない
+			クラフティングにアクセスするには、接続しているインターフェースまたはパイロンから最大1000フィート離れていなければならない
+			'''
+	}
+
+	PortableCraftingAccessHM: {
+		DisplayName: 上級携帯遠隔クラフティングアクセス
+		Tooltip:
+			'''
+			<right> クラフティングインターフェースから保存場所へ
+			現在、どの場所にも設定されていない
+			アイテムを使用してクラフティングにアクセスする
+			接続したインターフェースは、有効なパイロンから最大100フィート離れていなければならない
+			クラフティングにアクセスするには、接続しているインターフェースまたはパイロンから最大1000フィート離れていなければならない
+			'''
+	}
+}
+
+Projectiles: {
+	BiomeGlobeThrown: {
+		DisplayName: バイオームグローブ
+	}
+}
+
+NPCs: {
+	Golem: {
+		DisplayName: オートマトン
+
+		TownNPCMood: {
+			Content: システム稼働中
+			NoHome: 風雨に晒されると錆びが早まる
+			LoveSpace: 受け入れ可能な住居は確保されている
+			FarFromHome: このユニットは早急にブルーマジックのコンデンサを充電するためにホームに戻らなければならない
+			DislikeCrowded: 近くに検出された個体が多すぎる
+			HateCrowded: このユニットは孤独を好む
+			LikeBiome: "{BiomeName} はブルーマジックと調和する"
+			LoveBiome: "{BiomeName} のブルーマジックは完璧だ"
+			DislikeBiome: "{BiomeName} でブルマージックの効果が低下している"
+			HateBiome: "{BiomeName} でブルーマジックが不安定になっている"
+			LikeNPC: "{NPCName} はブルーマジックの力を高く評価している"
+			LoveNPC: "このユニットは {NPCName} に体を調べてもらっても構わない"
+			DislikeNPC: "このユニットは {NPCName} にブルーマジックの事を話したことを後悔している"
+			HateNPC: "{NPCName} はブルーマジックが利益のために使用されるものではないことを学ぶ必要がある"
+			LikeNPC_Princess: "{NPCName} は私の作成者と親友だ"
+			Princess_LovesNPC: "{NPCName} はとても興味深いマシンだが、どのように動くのか？"
+		}
+	}
+}
+
+EnvironmentModule: {
+	UseInventoryModule: {
+		DisplayName: プレイヤーのインベントリアイテムを使用する
+		DisabledTooltip: このモジュールは現在無効になっている
+	}
+
+	UseInventoryNoFavoritesModule: {
+		DisplayName: お気に入り登録されていないプレイヤーのインベントリアイテムを使用する
+		DisabledTooltip: このモジュールは現在無効になっている
+	}
+
+	JourneyInfiniteItems: {
+		DisplayName: ジャーニーモードの無限アイテムを使う
+		DisabledTooltip: このモジュールはジャーニーモードのキャラクターのみが使用できる
+	}
+}
+
+Tiles: {
+	CraftingAccess: {
+		MapEntry: "{$Mods.MagicStorage.Items.CraftingAccess.DisplayName}"
+	}
+
+	CreativeStorageUnit: {
+		MapEntry: "{$Mods.MagicStorage.Items.CreativeStorageUnit.DisplayName}"
+	}
+
+	RemoteAccess: {
+		MapEntry: "{$Mods.MagicStorage.Items.RemoteAccess.DisplayName}"
+	}
+
+	StorageAccess: {
+		MapEntry: "{$Mods.MagicStorage.Items.StorageAccess.DisplayName}"
+	}
+
+	StorageComponent: {
+		MapEntry: "{$Mods.MagicStorage.Items.StorageComponent.DisplayName}"
+	}
+
+	StorageConnector: {
+		MapEntry: "{$Mods.MagicStorage.Items.StorageConnector.DisplayName}"
+	}
+
+	StorageHeart: {
+		MapEntry: "{$Mods.MagicStorage.Items.StorageHeart.DisplayName}"
+	}
+
+	StorageUnit: {
+		MapEntry: "{$Mods.MagicStorage.Items.StorageUnit.DisplayName}"
+	}
+
+	CombinedFurnitureStations1Tile: {
+		MapEntry: "{$Mods.MagicStorage.Items.CombinedFurnitureStations1Item.DisplayName}"
+	}
+
+	CombinedFurnitureStations2Tile: {
+		MapEntry: "{$Mods.MagicStorage.Items.CombinedFurnitureStations2Item.DisplayName}"
+	}
+
+	CombinedStations1Tile: {
+		MapEntry: "{$Mods.MagicStorage.Items.CombinedStations1Item.DisplayName}"
+	}
+
+	CombinedStations2Tile: {
+		MapEntry: "{$Mods.MagicStorage.Items.CombinedStations2Item.DisplayName}"
+	}
+
+	CombinedStations3Tile: {
+		MapEntry: "{$Mods.MagicStorage.Items.CombinedStations3Item.DisplayName}"
+	}
+
+	CombinedStations4Tile: {
+		MapEntry: "{$Mods.MagicStorage.Items.CombinedStations4Item.DisplayName}"
+	}
+
+	EnvironmentAccess: {
+		MapEntry: "{$Mods.MagicStorage.Items.EnvironmentAccess.DisplayName}"
+	}
+
+	EvilAltarTile: {
+		MapEntry: デーモンアルターもしくはクリムゾンアルター
+	}
+}
+
+Bestiary: {
+	Golem:
+		'''
+		ブルーマジックというものを動力源とするオートマトン
+		マジックストレージのすべてを知っている
+		'''
+}
+
+Dialogue: {
+	Golem: {
+		Greeting: "こんにちは {0}。このユニットで何かを教えてもらいたいですか?"
+		Wizard: "魔法に精通している人間にとって、 {0} はブルーマジックの仕組みを理解できない。公正を期すために、それは本当の魔法ではありません"
+		NotLihzahrd: このユニットはリザードレンガ製ではありません。質問はやめてください
+		Bluemagic: ブルーマジックは驚異的なパワーの源だ。その能力を過小評価しない方が賢明だ
+		Violence: "こんにちは {0}。私の創造主は私のバイオレンス、つまり護身用データの入ったチップをインストールし忘れていた。しかし私はアップグレードされ、戦闘が可能になったのです"
+		NoPlant: このユニットには植物由来の有機物はない。他の誰かを思い浮かべているに違いない
+		NeedPlant: "[c/ff0000:植物をくれ] *ビー* 謝罪します、 {0}。 このユニットは無許可のルーチンを実行したようだ"
+		NewTextAvailable: "こんにちは {0}。このユニットでは、携帯遠隔アクセスに関する新しいヘルプテキストを用意しました"
+		Help1:
+			'''
+			始めるには、ストレージコンポーネントをいくつかクラフトする必要がある。このアイテムはすべてのストレージシステムコンポーネントのベースとなる。ガイドに渡して、何に使えるか試してみよう!
+			レシピ: [rg/s10:Wood] [rg/s2:IronBar] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/StorageComponent]
+			'''
+		Help2:
+			'''
+			[i:MagicStorage/StorageComponent]を手に入れたら、 ストレージハートを作成する必要があります。ストレージ・ハートは、保管されているアイテムにアクセスできる場所であり、ストレージシステムが機能するために必要です
+			レシピ: [i:MagicStorage/StorageComponent] [rg/s2:MagicStorage:AnyDiamond] [i/s3:Emerald] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/StorageHeart]
+			'''
+		Help3:
+			'''
+			[i:MagicStorage/StorageHeart]を設置した後、 ストレージハートにアイテムを保管するには、ストレージユニットを作成する必要があります
+			レシピ: [i:MagicStorage/StorageComponent] [rg:MagicStorage:AnyChest] [rg/s10:MagicStorage:AnySilverBar] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/StorageUnit]
+			'''
+		Help4:
+			'''
+			ストレージシステムでアイテムを作るには、クラフティングアクセスを作る必要がある
+			レシピ: [i:MagicStorage/StorageComponent] [rg:MagicStorage:AnyDiamond] [i/s3:Sapphire] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/CraftingAccess]
+			'''
+		Help5:
+			'''
+			クラフトアクセスのステーションスロットは、見た目以上に強力です。一度に複数のクラフト条件を継承できるアイテムもある!
+			[i:GlassKiln] は [i:Furnace] として機能します
+			[i:BewitchingTable] は [i:WoodenTable] として機能します
+			[rg:MagicStorage:AnyTombstone] は、エクトミストのレシピを提供します
+			[i:AlchemyTable] は [i:WoodenTable] と [i:Bottle] として機能します
+			[rg:MagicStorage:AnyTable] は [i:WoodenChair] として機能します
+			'''
+		Help6:
+			'''
+			[i:AlchemyTable] は33％の確率でポーションの材料を消費しない
+			[i:WaterBucket]、 [i:BottomlessBucket]、 [rg:MagicStorage:AnySink] や、水源としてカウントされるタイルを配置する他のアイテムは、水源のレシピを有効にします
+			[i:LavaBucket] は、溶岩のレシピを提供します
+			[i:HoneyBucket] は、蜂蜜のレシピを提供します
+			[i:MagicStorage/DemonAltar] と、 [i:MagicStorage/CrimsonAltar] は、不浄/真紅の供犠台のレシピを提供します
+			[i:MagicStorage/SnowBiomeEmulator] は、雪原バイオームのレシピを提供します
+			'''
+		Help7:
+			'''
+			もしあなたが [i:MagicStorage/StorageUnit] をあなたの[i:MagicStorage/StorageUnit]から広げたいのなら、ストレージシステムのすべてのコンポーネントは一緒に接続されていなければならない。
+			[i:MagicStorage/StorageHeart]は、コネクターを使って接続することができる
+			レシピ: [rg/s16:Wood] [rg:IronBar] @ [rg:MagicStorage:AnyWorkBench] = [i/s16:MagicStorage/StorageConnector]
+			'''
+		Help8: すべてのボスのコアにはシャドウダイヤモンドが隠されている。この呪われた宝石は [i:Diamond] の代わりとして、すべてのマジックストレージレシピに使用できる。一度ボスからシャドウダイヤモンドを手に入れたら、それ以上手に入れることはできない!ただし、ボスによっては複数個ドロップすることもある
+		Help9:
+			'''
+			ストレージが足りなくなりましたか？ストレージアップグレードでストレージユニットをアップグレードしましょう！特定のティアのストレージアップグレードは、前のティアのストレージユニットにのみ適用できます
+			[i:MagicStorage/StorageUnit] -> [i:MagicStorage/StorageUnitDemonite] / [i:MagicStorage/StorageUnitCrimtane]
+			[i:MagicStorage/StorageUnitDemonite] -> [i:MagicStorage/StorageUnitHellstone]    [i:MagicStorage/StorageUnitCrimtane] -> [i:MagicStorage/StorageUnitHellstone]
+			[i:MagicStorage/StorageUnitHellstone] -> [i:MagicStorage/StorageUnitHallowed]    [i:MagicStorage/StorageUnitHallowed] -> [i:MagicStorage/StorageUnitBlueChlorophyte]
+			[i:MagicStorage/StorageUnitBlueChlorophyte] -> [i:MagicStorage/StorageUnitLuminite]    [i:MagicStorage/StorageUnitLuminite] -> [i:MagicStorage/StorageUnitTerra]
+			'''
+		Help10:
+			'''
+			ストレージハートを移動したくない場合は、代わりにストレージアクセスを使用してください！このコンポーネントはストレージハートと同様に、ストレージ内のアイテムを表示するために使用することができます
+			レシピ: [i:MagicStorage/StorageComponent] [rg:MagicStorage:AnyDiamond] [i/s3:Topaz] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/StorageAccess]
+			'''
+		Help11:
+			'''
+			クラフトアクセスに置くクラフトステーションの数を減らすための多くの機能の1つとして、マジックストレージはバイオームグローブを提供します。このアイテムは雪原バイオーム、エクトミスト、焚き火、水、溶岩、ハチミツ、不浄/真紅の供犠台のレシピを可能にする。インベントリにこのグローブを入れておけば、焚き火のそばにいなくてもマシュマロを焼くことができる!
+			レシピ: [rg/s5:MagicStorage:AnyTombstone] [i:MagicStorage/SnowBiomeEmulator] [i/s5:WaterBucket] [i/s5:LavaBucket] [i/s5:HoneyBucket] [rg/s3:MagicStorage:AnyCampfire] [rg:MagicStorage:AnyDemonAltar] @ hand = [i:MagicStorage/BiomeGlobe]
+			'''
+		Help12:
+			'''
+			世界中の他の場所にあるストレージにアクセスできるようにしたいことがありますが、ストレージをコネクターで接続しなければならないのは面倒ですし、コストもかかります。解決策は?リモートアクセスを作成し、[i:MagicStorage/Locator] または [i:MagicStorage/LocatorDisk] でストレージハートにリンクします
+			レシピ:
+			[i:MagicStorage/StorageComponent] [rg/s3:MagicStorage:AnyDiamond] [i/s3:Ruby] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/RemoteAccess]
+			[i/s10:MeteoriteBar] [i/s2:Amber] @ [rg:MagicStorage:AnyPreHmAnvil] = [i:MagicStorage/Locator]
+			[i/s25:MartianConduitPlating] [i/s2:LunarBar] @ [i:LunarCraftingStation] = [i:MagicStorage/LocatorDisk]
+			'''
+		Help13: 遠隔アクセスにストレージコンポーネントを取り付けても、メインのストレージシステムにアクセスすることができる。ストレージハートから離れた場所にクラフティングアクセスを持つ場合に非常に便利だ
+		Help14: ストレージディアクティベーターは、 [i:MagicStorage/StorageUnit]を無効にします。無効にされた [i:MagicStorage/StorageUnit] はアイテムを保存することができなくなり、すぐに接続されている [i:MagicStorage/StorageUnit] タイルにアイテムを移動しようとします。アイテムを移動できない場合、アイテムは無効化された [i:MagicStorage/StorageUnit] に残ります
+		Help15:
+			'''
+			ユーザーの利便性のために、マジックストレージは配置可能な不浄の供犠台と真紅の供犠台のレシピを追加する。採掘しても鉱石は手に入らないが、クラフトステーションとして使用できる
+			レシピ:
+			[i/s10:DemoniteBar] [i/s15:ShadowScale] @ [i:MagicStorage/DemonAltar] = [i:MagicStorage/DemonAltar]
+			[i/s10:CrimtaneBar] [i/s15:TissueSample] @ [i:MagicStorage/CrimsonAltar] = [i:MagicStorage/CrimsonAltar]
+			'''
+		Help16:
+			'''
+			クラフティングアクセスに置くクラフトステーションの数を減らすための機能の1つとして、マジックストレージはいくつかの合体したクラフティングステーションを提供しています。各合体したクラフティングステーションはマテリアルクラフティングステーションのプロパティを継承します。
+			レシピ:
+			[rg:MagicStorage:AnyWorkBench] [i:Furnace] [rg:MagicStorage:AnyPreHmAnvil] [rg:MagicStorage:AnyBottle] [rg:MagicStorage:AnySink] [i:Sawmill] [i:Loom] [rg:MagicStorage:AnyTable] @ hand = [i:MagicStorage/CombinedStations1Item]
+			[i:MagicStorage/CombinedStations1Item] [i:Hellforge] [i:AlchemyTable] [rg:MagicStorage:AnyCookingPot] [i:TinkerersWorkshop] [i:DyeVat] [i:HeavyWorkBench] [i:Keg] [i:TeaKettle] @ hand = [i:MagicStorage/CombinedStations2Item]
+			[i:MagicStorage/CombinedStations2Item] [i:ImbuingStation] [rg:MagicStorage:AnyHmAnvil] [rg:MagicStorage:AnyHmFurnace] [rg:MagicStorage:AnyBookcase] [i:CrystalBall] [i:BlendOMatic] @ hand = [i:MagicStorage/CombinedStations3Item]
+			'''
+		Help17:
+			'''
+			クラフティングアクセスに置くクラフトステーションの数を減らすための機能の1つとして、マジックストレージはいくつかの合体したクラフティングステーションを提供しています。各合体したクラフティングステーションはマテリアルクラフティングステーションのプロパティを継承します
+			レシピ:
+			[i:BoneWelder] [i:GlassKiln] [i:HoneyDispenser] [i:IceMachine] [i:LivingLoom] [i:SkyMill] [i:Solidifier] @ hand = [i:MagicStorage/CombinedFurnitureStations1Item]"
+			[i:MagicStorage/CombinedFurnitureStations1Item] [i:MeatGrinder] [i:LesionStation] [i:FleshCloningVaat] [i:SteampunkBoiler] [i:LihzahrdFurnace] @ hand = [i:MagicStorage/CombinedFurnitureStations2Item]
+			[i:MagicStorage/CombinedStations3Item] [i:MagicStorage/CombinedFurnitureStations2Item] [i:Autohammer] [i:LunarCraftingStation] [i/s10:LavaBucket] [i/s10:HoneyBucket] @ hand = [i:MagicStorage/CombinedStations4Item]
+			'''
+		Help18: ムーンロードは、驚異的なパワーを持つ宝石、レディアントジュエルを守っている。この宝石を使えば、無制限にアクセスできる携帯遠隔アクセスを作ることができる!
+		Help19: "[i:MagicStorage/EnvironmentAccess] は非常に奇妙なコンポーネントだ。噂によると、マジックストレージのストレージシステムを外部から改ざんすることができるが、その内部構造を使えるのはMOD開発者だけだという"
+		Help20:
+			'''
+			[i:MagicStorage/RemoteAccess] はとても便利だが、外出先からストレージにアクセスしたい場合もある
+			そのためには、携帯遠隔ストレージアクセスを作成する
+			[i:MagicStorage/Locator] [rg/s20:Wood] [rg/s15:IronBar] [rg/s10:MagicStorage:AnyDemoniteBar] [rg/s3:MagicStorage:AnyDiamond] [i/s3:Ruby] @ [rg:MagicStorage:AnyPreHmAnvil] = [i:MagicStorage/PortableAccessPreHM]
+			[i:MagicStorage/Locator] [rg/s20:Wood] [rg/s15:IronBar] [rg/s10:MagicStorage:AnyDemoniteBar] [rg/s3:MagicStorage:AnyDiamond] [i/s3:Sapphire] @ [rg:MagicStorage:AnyPreHmAnvil] = [i:MagicStorage/PortableCraftingAccessPreHM]
+			'''
+		Help20_Mechs:
+			'''
+			{$Mods.MagicStorage.Dialogue.Golem.Help20}
+			[i:MagicStorage/PortableAccessPreHM] [i/s20:Pearlwood] [rg/s15:MagicStorage:AnyMythrilBar] [i/s10:ChlorophyteBar] @ [rg:MagicStorage:AnyHmAnvil] = [i:MagicStorage/PortableAccessHM]
+			[i:MagicStorage/PortableCraftingAccessPreHM] [i/s20:Pearlwood] [rg/s15:MagicStorage:AnyMythrilBar] [i/s10:ChlorophyteBar] @ [rg:MagicStorage:AnyHmAnvil] = [i:MagicStorage/PortableCraftingAccessHM]
+			'''
+		Help20_Moon:
+			'''
+			{$Mods.MagicStorage.Dialogue.Golem.Help20_Mechs}
+			[i:MagicStorage/PortableAccessHM] [i/s15:MartianConduitPlating] [i/s8:LunarBar] [i:MagicStorage/RadiantJewel] @ [i:LunarCraftingStation] = [i:MagicStorage/PortableAccess]
+			[i:MagicStorage/PortableCraftingAccessHM] [i/s20:MartianConduitPlating] [i/s15:LunarBar] @ [i:LunarCraftingStation] = [i:MagicStorage/PortableCraftingAccess]
+			'''
+		Help21:
+			'''
+			また、ストレージユニットを右クリックし、次のティアにアップグレードすることもできます
+			[i:MagicStorage/StorageUnit] + [i:MagicStorage/UpgradeDemonite] -> [i:MagicStorage/StorageUnitDemonite]    [i:MagicStorage/StorageUnit] + [i:MagicStorage/UpgradeCrimtane] -> [i:MagicStorage/StorageUnitCrimtane]
+			[i:MagicStorage/StorageUnitDemonite] + [i:MagicStorage/UpgradeHellstone] -> [i:MagicStorage/StorageUnitHellstone]    [i:MagicStorage/StorageUnitCrimtane] + [i:MagicStorage/UpgradeHellstone] -> [i:MagicStorage/StorageUnitHellstone]
+			[i:MagicStorage/StorageUnitHellstone] + [i:MagicStorage/UpgradeHallowed] -> [i:MagicStorage/StorageUnitHallowed]    [i:MagicStorage/StorageUnitHallowed] + [i:MagicStorage/UpgradeBlueChlorophyte] -> [i:MagicStorage/StorageUnitBlueChlorophyte]
+			[i:MagicStorage/StorageUnitBlueChlorophyte] + [i:MagicStorage/UpgradeLuminite] -> [i:MagicStorage/StorageUnitLuminite]    [i:MagicStorage/StorageUnitLuminite] + [i:MagicStorage/UpgradeTerra] -> [i:MagicStorage/StorageUnitTerra]
+			'''
+	}
+
+	ChatOptions: {
+		Golem: {
+			NextHelp: 次
+			PrevHelp: 前
+		}
+	}
+}
+
+Active: 稼働中
+
+Inactive: 稼働していない
+
+PortableAccessUnlocated: 探知機がストレージハートに設定されていません
+
+PortableAccessMissing: ストレージハートがありません!
+
+PortableAccessOutOfRange: 探知機が接続先のストレージシステムに接続できませんでした
+
+PortableAccessNoPylons: 接続されたストレージシステムの近くにパイロンがありませんでした
+
+PortableCraftingUnlocated: 探知機がどのクラフティングアクセスにも設定されていない
+
+PortableCraftingMissing: クラフティングアクセスがありません!
+
+RemoteAccessSuccess: 成功!
+
+RemoteAccessHasLocator: このアクセスにはすでに探知機が付いています。リセットするには設置し直してください
+
+RemoteAccessUnlocated: 探知機が目的地に設定されていません
+
+StorageUnitActivated: ストレージユニットが有効化されました
+
+StorageUnitDeactivated: ストレージユニットが無効化されました
+
+FilterAllMods: 全てのMod
+
+Capacity: "{0} / {1} アイテム"
+
+LocatorSet: 探知機のセットに成功しました: X={0}, Y={1}
+
+StorageAccessFail: ストレージハートタイルエンティティをロードできませんでした!
+
+StorageAccessFailAlt: このアクセスはストレージハートに接続されていません!
+
+StorageAccessFailLoad: ストレージハート領域が読み込まれていません!もう一度お試しください
+
+TestItemSuffix: " !リスポーン中!"
+
+SetTo: セットしました: X={0}, Y={1}
+
+SnowBiomeBlock: 雪原バイオームブロック
+
+DepositAll: すべて預ける
+
+CraftingStations: クラフティングステーション
+
+CraftTooltip: 右クリックでクラフト
+
+CraftTooltipOld: 左クリックでクラフト (ctrlで最大数)
+
+Crafting: {
+	Plus1: +1
+	Plus10: +10
+	Plus100: +100
+	Minus1: "-1"
+	Minus10: "-10"
+	Minus100: "-100"
+	MaxStack: 最大スタック
+	Reset: リセット
+	Amount: クラフト: {0}
+}
+
+Search: 検索
+
+SearchName: 名前で検索
+
+SearchMod: Modで検索
+
+SortWaiting: ロード中...
+
+SearchTips: {
+	SearchName: Search Name
+	SearchMod: @ModName Search Name
+	SearchTooltip: "#Search Tooltip"
+	SearchModAndTooltip: @ModName #Search Tooltip
+	TipModAndTooltip: "[c/ffff00:@ModName] to search by mod, [c/ffff00:#Search Tooltip] to search by tooltip (can be combined in that order)"
+	TipTooltipOnly: "[c/ffff00:#Search Tooltip] to search by tooltip"
+}
+
+Recipes: レシピ
+
+RecipeAvailable: 有効なレシピを表示
+
+RecipeAll: 知っているレシピを全て表示
+
+RecipeBlacklist: 隠れたレシピを表示 (ctrl+クリックで隠れたレシピを表示/非表示)
+
+SelectedRecipe: 選択されたレシピ
+
+Ingredients: 材料
+
+StoredItems: 保存された材料
+
+ShowOnlyFavorited: お気に入りのみ
+
+ViewHistory: クリックでレシピ履歴を表示
+
+ClearHistory: クリア
+
+PrevHistory: レシピ履歴 前
+
+NextHistory: レシピ履歴 次
+
+PanelTooSmol:
+	'''
+	マジックストレージ UIを開くことができません。 理由 パネルの高さが短すぎて、UI要素が適切に表示されなかった
+	設定でUIスケールを小さくするか、ビデオ設定でゲームの解像度を大きくしてください
+	'''
+
+Warnings: {
+	StorageDefaultToAllItems: ストレージにアイテムがあるにもかかわらず、アイテムが表示されない  デフォルトは すべて フィルター モードです
+	StorageDefaultToAllMods: ストレージにアイテムがあるにもかかわらず、アイテムが表示されない  デフォルトは {$Mods.MagicStorage.FilterAllMods} modフィルターです
+	CraftingNoBlacklist: ブラックリストに登録されたレシピがあるのに表示されない。 レシピのブラックリストを無視する
+	CraftingDefaultToAllMods: 他のMODのレシピがあるのに、レシピが表示されない デフォルトは {$Mods.MagicStorage.FilterAllMods} modフィルターです
+	DeleteItemsFailed: 削除操作は原因不明で失敗しました。 再度お試しいただくか、必要に応じて手動で削除してください
+	DeleteDataFailed: 削除操作は原因不明で失敗しました。 一部のアイテムには、ロードされていないMODデータが残っている可能性があります
+}
+
+RecipeHidden: アイテム "{0}" のレシピがブラックリストに登録されました
+
+RecipeRevealed: アイテム "{0}" のレシピがホワイトリストに登録されました
+
+RecipeConditions: {
+	EctoMistOverride: "{$Conditions.InGraveyard} / {$Mods.MagicStorage.Items.CombinedStations4Item.DisplayName}"
+	CookedMarshmallowCondition: クラフトインターフェイスのバイオームグローブ
+}
+
+DepositTooltip: クイックスタック - クリック, すべて預ける - ctrl+クリック, 補充 - 右クリック
+
+DepositTooltipAlt: クイックスタック - ctrl+クリック, すべて預ける - クリック, 補充 - 右クリック
+
+StorageGUI: {
+	ForceRefreshButton: 強制 UI リフレッシュ
+	CompactCoinsButton: コインをまとめる
+	DestroyUnloadedButton: アンロードされているModアイテムを削除
+	DestroyUnloadedDataButton: アンロードされているModデータを削除
+	DepositPiggyBank: 豚の貯金箱のアイテムを預ける
+	DepositSafe: 金庫のアイテムを預ける
+	DepositForge: ディフェンダーの炉のアイテムを預ける
+	DepositVault: 虚空の金庫のアイテムを預ける 
+	InitShowcaseButton: ショーケースを初期化
+	ResetShowcaseButton: ショーケースアイテムをリセット
+	ClearItemsButton: 全アイテムをクリアする
+	SellDuplicatesHeader: 重複しているものを売却する
+	SellDuplicatesButton: 売却
+
+	SellDuplicatesMenu: {
+		NoPrefix: 接頭辞のついていない重複しているアイテムを売る
+		KeepMostValue: 最も高い価格を維持
+		KeepLeastValue: 最も安く抑える
+	}
+}
+
+HoverText: {
+	Reset: パネルの位置とサイズをリセットする
+}
+
+EnvironmentGUI: {
+	EntryDisabledDefault: このモジュールは現在無効になっている
+	NoModules:
+		'''
+		環境シミュレータモジュールは検出されませんでした
+		ここに表示されるようにするには、他のModが追加する必要がある
+		'''
+}
+
+FilteringOption: {
+	All: {
+		Tooltip: すべてでフィルタ
+	}
+
+	Weapons: {
+		Tooltip: 武器でフィルタ
+	}
+
+	Tools: {
+		Tooltip: 道具でフィルタ
+	}
+
+	Equips: {
+		Tooltip: 装備でフィルタ
+	}
+
+	WeaponsMelee: {
+		Tooltip: 近接武器でフィルタ
+	}
+
+	WeaponsRanged: {
+		Tooltip: 遠距離武器でフィルタ
+	}
+
+	WeaponsMagic: {
+		Tooltip: 魔法武器でフィルタ
+	}
+
+	WeaponsSummon: {
+		Tooltip: 召喚武器でフィルタ
+	}
+
+	WeaponsThrown: {
+		Tooltip: 投擲武器でフィルタ
+	}
+
+	Ammo: {
+		Tooltip: 弾薬でフィルタ
+	}
+
+	Armor: {
+		Tooltip: 鎧でフィルタ
+	}
+
+	Vanity: {
+		Tooltip: バニティアイテムでフィルタ
+	}
+
+	Potions: {
+		Tooltip: ポーションでフィルタ
+	}
+
+	Tiles: {
+		Tooltip: 設置物でフィルタ
+	}
+
+	Misc: {
+		Tooltip: その他でフィルタ
+	}
+
+	Recent: {
+		Tooltip: 最近追加されたアイテムでフィルタ
+	}
+
+	ArmorAndEquips: {
+		Tooltip: 鎧と装備でフィルタ
+	}
+
+	WeaponsOther: {
+		Tooltip: その他の武器でフィルタ
+	}
+
+	Unstackables: {
+		Tooltip: スタックしないものでフィルタ
+	}
+
+	Stackables: {
+		Tooltip: スタックするものでフィルタ
+	}
+
+	NotFullyResearched: {
+		Tooltip: 未リサーチのアイテムでフィルタ
+	}
+
+	FullyResearched: {
+		Tooltip: リサーチ済みのアイテムでフィルタ
+	}
+
+	Materials: {
+		Tooltip: 材料でフィルタ
+	}
+}
+
+SortingOption: {
+	Default: {
+		Tooltip: デフォルトのソート
+	}
+
+	ID: {
+		Tooltip: IDでソート
+	}
+
+	Name: {
+		Tooltip: 名前でソート
+	}
+
+	Value: {
+		Tooltip: 値でソート
+	}
+
+	Dps: {
+		Tooltip: DPSでソート
+	}
+
+	QuantityAbsolute: {
+		Tooltip: 合計数量でソート
+	}
+
+	QuantityRatio: {
+		Tooltip: スタック数でソート
+	}
+
+	Damage: {
+		Tooltip: ダメージでソート
+	}
+}
+
+ButtonConfigGear: 設定パネルを開く
+
+UIPages: {
+	Sorting: 整理
+	Filtering: フィルタ
+	Crafting: クラフト
+	Storage: ストレージ
+	Controls: 管理
+	Modules: モジュール
+	History: 履歴
+}
+
+Config: {
+	BetaLabel: Magic Storage BETA Config
+
+	Headers: {
+		Storage: "[i:MagicStorage/StorageHeart]  Storage GUI Config"
+		Crafting: "[i:MagicStorage/CraftingAccess]  Crafting GUI Config"
+		StorageAndCrafting: "[i:MagicStorage/StorageHeart] [i:MagicStorage/CraftingAccess]  Storage and Crafting GUIs Config"
+		General: General Configs
+	}
+
+	PrintTextToChat: {
+		Label: Print logging information to ingame chat
+		Tooltip:
+			'''
+			Enable to print logging information to the ingame chat.
+			Logging information will be printed to your client.log and server.log files regardless.
+			'''
+	}
+
+	ShowDebugPylonRangeAreas: {
+		Label: Portable Access Range Debug
+		Tooltip:
+			'''
+			Enable to show the valid ranges for a Portable Remote Access while the player is holding it.
+			For accesses with infinite range, nothing is displayed.
+			'''
+	}
+}
+
+Keybinds: {
+	PrintItemData: {
+		DisplayName: Print Item Data
+	}
+}
+
+Configs: {
+	MagicStorageConfig: {
+		DisplayName: Magic Storage Config
+
+		quickStackDepositMode: {
+			Label: "[i:Chest]  Quick stack deposit mode"
+			Tooltip: Enable to quick stack with control(ctrl) pressed, disable to quick stack with control(ctrl) released
+		}
+
+		useConfigFilter: {
+			Label: "[i:MagicStorage/Config_RecipeFilterAvailable] [i:MagicStorage/Config_RecipeFilterAll]  Use default filter"
+			Tooltip: Enable to use the filter below, disable to remember last filter selected in game(filter is still used on first open after mod load)
+		}
+
+		showAllRecipes: {
+			Label: "[i:MagicStorage/Config_RecipeFilterAvailable] [i:MagicStorage/Config_RecipeFilterAll]  Default recipe filter"
+			Tooltip: Enable to default to all recipes, disable to default to available recipes
+		}
+
+		useOldCraftMenu: {
+			Label: "[i:WorkBench]  Use old Craft buttons"
+			Tooltip: Enable to use the older UI for crafting in the Crafting GUI
+		}
+
+		recipeBlacklist: {
+			Label: Recipe Whitelist/Blacklist
+			Tooltip: Enable to allow whitelisting and blacklisting recipes in the Crafting GUI
+		}
+
+		clearHistory: {
+			Label: "[i:Book]  Clear recipe history"
+			Tooltip: Enable to clear the recipe history in the Crafting GUI when opening it
+		}
+
+		recursionCraftingDepth: {
+			Label: Recipe Recursion Depth
+			Tooltip:
+				'''
+				How deep the recursion goes for crafting recipes in the Crafting UI.
+				Set to 0 to disable this feature.
+				Set to -1 for infinite depth
+				'''
+		}
+
+		glowNewItems: {
+			Label: "[i:MagicStorage/Config_GlowItemGlowing] [i:MagicStorage/Config_GlowItemNotGlowing]  Display new items/recipes"
+			Tooltip: Enable to use the filter below, disable to remember last filter selected in game(filter is still used on first open after mod load)
+		}
+
+		clearSearchText: {
+			Label: Clear search text
+			Tooltip: Enable to clear the search text when opening the UI
+		}
+
+		searchBarRefreshOnKey: {
+			Label: Search Bar Refreshes on Key Press
+			Tooltip: Enable to make the search bar in the Storage and Crafting GUIs refresh the GUI on every key pressed, disable to make the refresh only happen when the search bar is deselected
+		}
+
+		uiFavorites: {
+			Label: "[i:FallenStar]  Favorites Filter Button"
+			Tooltip: Enable to allow favoriting items/recipes in the Crafting GUI
+		}
+
+		extraFilterIcons: {
+			Label: "[i:Cog]  Display extra sorting icons"
+			Tooltip: Enable to have the extra sorting options available in the Legacy button layout
+		}
+
+		buttonLayout: {
+			Label: Sorting/Filtering Button Layout
+			Tooltip:
+				'''
+				Legacy:
+				  Layout from v0.5.6.5 and previous versions.
+				  The Sorting and Filtering pages are disabled.
+				Paged:
+				  Sorting and filtering options moved to the Sorting and Filtering pages.
+				Configurable:
+				  Select which sorting and filtering options from the Sorting and Filtering pages appear in the main UI page.
+				Legacy + Configurable:
+				  Layout from v0.5.6.5 and previous versions if "Display extra sorting icons" was disabled.
+				  An additional gear icon is added which, when clicked, opens a panel containing all of the other options.
+				  The Sorting and Filtering pages are disabled.
+				Legacy + Paged:
+				  Layout from v0.5.6.5 and previous versions if "Display extra sorting icons" was disabled.
+				  Additional icons are in the Sorting and Filtering pages.
+				Dropdown:
+				  Two dropdown menus are added to the main UI page for selecting the desired sorting and filtering option.
+				  The Sorting and Filtering pages are disabled.
+				'''
+		}
+
+		itemDataDebug: {
+			Label: "[i:IronPickaxe]  Item debug information"
+			Tooltip: Enable to make items in the Storage GUI display whether they have GlobalItem data and allow the "Print Item Data" keybinding to print data
+		}
+
+		canMovePanels: {
+			Label: UI Panel Movement
+			Tooltip: Disable to prevent moving and resizing the UI panels
+		}
+
+		automatonRemembers: {
+			Label: Automaton remembers last help tip
+			Tooltip: The Automaton will remember which help tip it last displayed to the user and display that help tip when interacted with.
+		}
+	}
+
+	ButtonConfigurationMode: {
+		Tooltip: ""
+
+		Legacy: {
+			Label: Legacy
+		}
+
+		ModernPaged: {
+			Label: Paged
+		}
+
+		ModernConfigurable: {
+			Label: Configurable
+		}
+
+		LegacyWithGear: {
+			Label: Legacy + Configurable
+		}
+
+		LegacyBasicWithPaged: {
+			Label: Legacy + Paged
+		}
+
+		ModernDropdown: {
+			Label: Dropdown
+		}
+	}
+
+	MagicStorageServerConfig: {
+		DisplayName: Magic Storage Server Config
+
+		allowAutomatonToMoveIn: {
+			Label: Automaton Housing
+			Tooltip: Enable to allow the Automaton to be able to move into housing
+		}
+
+		auditLog: {
+			Label: Server Audit Log
+			Tooltip: Enable to make client interactions with any storage system be reported to an audit log
+		}
+	}
+
+	MagicStorageBetaConfig: {
+		DisplayName: "{$Mods.MagicStorage.Config.BetaLabel}"
+	}
+}
+

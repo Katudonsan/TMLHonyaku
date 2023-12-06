@@ -1,0 +1,929 @@
+CommonItemtooltip: {
+	BaseXP: 適用される基礎経験値: {0}
+	RuneUse:
+		'''
+		使用するには、ホットバーで希望の武器を選択し、ルーンを右クリックする
+		成功すると、ルーンは消費される
+		'''
+	OrbUse:
+		'''
+		使用するには、ホットバーで希望の武器を選択し、オーブを右クリックする
+		成功すると、オーブは消費さる
+		このオーブを使用するには、武器がすでに経験値を獲得している必要がある
+		'''
+	BaseXPHint: 基礎経験値とは、レベル0からレベル1に到達するのに必要な経験値のことで、この数値は他のすべてのレベルに到達するのに必要な経験値を計算するのに使われる
+	EtherealRune: どのレアリティの武器でもXPを獲得し、レベルアップできるようにする
+	XPOrb: 武器に即座にXPを与える
+	WithdrawOrb: 武器からXPを即座に差し引く
+	DormantOrb:
+		'''
+		経験値オーブにクラフトできる
+		経験値オーブは武器に即座にXPを与えるために使用される
+		'''
+	LvlStat: レベル: {0}
+	PlayerLvlStat: プレイヤーレベル: {0}
+	XPStat: XP: {0} ({1} で次のレベル)
+	PlayerXPStat: プレイヤー経験値: {0} ({1} で次のレベル)
+	XPStat100: 経験値: {0}
+	PlayerXPStat100: プレイヤー経験値: {0}
+	DmgStat: ダメージ増加: {0}
+	BaseXPStat: 基礎経験値: {0}
+	NoLeveling:
+		'''
+		現在、武器はXPを獲得できず、レベルアップもできません
+		経験値のルーンを入手してレベリングを始めましょう
+		'''
+	ShiftView: SHIFTを押して使用可能なルーンを表示
+	ViewRunes:
+		'''
+		使用可能なルーン:
+		{0} またはそれ以上
+		いずれかのエーテル経験値ルーン
+		プリズム経験値ルーン
+		機械的経験値ルーン
+		経験値ルーン
+		不安定な経験値ルーン
+		'''
+	TargetGear: 選択している武器: {0}
+	WeaponLevelUp: "{2} はレベルアップした! ({0} > {1})"
+	WeaponLevelUpDef: 武器がレベルアップ! ({0} > {1})
+	WeaponMaxOut: "{2} は最大になった! ({0} > {1})"
+	WeaponmaxOutDef: 武器が最大になった! ({0} > {1})
+	WeaponLevelUpPopup: 武器がレベルアップ!
+	WeaponMaxOutPopup: 武器が最大になった!
+	PlayerLevelUp: あなたはレベルアップした! ({0} > {1})
+	PlayerMaxOut: あなたのレベルは最大になった! ({0} > {1})
+	PlayerLevelUpPopup: あなたはレベルアップした!
+	PlayerMaxOutPopup: あなたのレベルは最大になった!
+	Maxed: 最大
+	EX: EX
+	Gem: " 宝石"
+}
+
+Items: {
+	BlueRune: {
+		DisplayName: 青色のエーテル経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			このルーンは、そこそこ強力な序盤戦、イーター／脳以前の武器に最適である
+			'''
+	}
+
+	CyanRune: {
+		DisplayName: 水色のエーテル経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			このルーンは、特に強いプランテラやゴーレム以降の武器、または特に弱い狂信者以降の武器に使用するのが最適である
+			'''
+	}
+
+	GreenRune: {
+		DisplayName: 緑色のエーテル経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			このルーンはハードモード中盤の武器に最適である
+			'''
+	}
+
+	LightPurpleRune: {
+		DisplayName: 薄紫色のエーテル経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			このルーンは、最も強いハードモード初期の武器、または特に弱いメカボス以降の武器に使用するのがベストである
+			'''
+	}
+
+	LightRedRune: {
+		DisplayName: 薄赤色のエーテル経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			このルーンはハードモードの初期、メカボス以前の武器に最適である
+			'''
+	}
+
+	LimeRune: {
+		DisplayName: 黄緑色のエーテル経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			このルーンはハードモードの初期、メカボス以降の武器に最適である
+			'''
+	}
+
+	OrangeRune: {
+		DisplayName: 橙色のエーテル経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			このルーンはハードモード前の後期の武器に最適である
+			'''
+	}
+
+	PinkRune: {
+		DisplayName: 桃色のエーテル経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			このルーンは、メカボスを最低1体倒した後に手に入る武器など、ハードモード初期の強力な武器のほとんどに使用するのが最適である
+			'''
+	}
+
+	PurpleRune: {
+		DisplayName: 紫色のエーテル経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			このルーンは、他のMODのムーンロード以降の武器のほとんどに使用するのがベストである
+			'''
+	}
+
+	RedRune: {
+		DisplayName: 赤色のエーテル経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			このルーンは、ほとんどの狂信者以降の武器に使用するのが最適である
+			'''
+	}
+
+	WhiteRune: {
+		DisplayName: 白色のエーテル経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			このルーンは、ほとんどの序盤の武器、特に弱い武器に最適である
+			'''
+	}
+
+	YellowRune: {
+		DisplayName: 黄色のエーテル経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			このルーンは、ほとんどのプランテラ以降の武器に使用するのが最適である
+			'''
+	}
+
+	AbsorbingWithdrawl: {
+		DisplayName: 吸収回収オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.WithdrawOrb}
+			{$CommonItemtooltip.OrbUse}
+			大量のXPを差し引く
+			'''
+	}
+
+	AbyssalWithdrawl: {
+		DisplayName: 深淵の回収オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.WithdrawOrb}
+			{$CommonItemtooltip.OrbUse}
+			巨大な量のXPを差し引く
+			'''
+	}
+
+	BigDormant: {
+		DisplayName: 大休止経験値オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.DormantOrb}
+			'この大きさのオーブはとても希少だ'
+			'''
+	}
+
+	Dormant: {
+		DisplayName: 休止経験値オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.DormantOrb}
+			'このおおきさのオーブは珍しい'
+			'''
+	}
+
+	DullXP: {
+		DisplayName: 鈍感経験値オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.XPOrb}
+			{$CommonItemtooltip.OrbUse}
+			微量のXPを与える
+			'''
+	}
+
+	HugeDormant: {
+		DisplayName: 巨大休止経験値オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.DormantOrb}
+			'この大きさのオーブは極めて希少だ'
+			'''
+	}
+
+	MysticXP: {
+		DisplayName: 神秘経験値オーブ
+		Tooltip:
+			'''
+			武器のレベルを1つ上げる
+			{$CommonItemtooltip.OrbUse}
+			'''
+	}
+
+	PowerfulXP: {
+		DisplayName: 強力経験値オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.XPOrb}
+			{$CommonItemtooltip.OrbUse}
+			大量の経験値を得る
+			'''
+	}
+
+	RestrainedWithdrawl: {
+		DisplayName: 抑制吸収オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.WithdrawOrb}
+			{$CommonItemtooltip.OrbUse}
+			少量のXPを差し引く
+			'''
+	}
+
+	ShallowWithdrawl: {
+		DisplayName: 浅薄吸収オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.WithdrawOrb}
+			{$CommonItemtooltip.OrbUse}
+			微量のXPを差し引く
+			'''
+	}
+
+	ShinyDormant: {
+		DisplayName: 光る休止経験値オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.DormantOrb}
+			'この特別な種類のオーブは超レアだ'
+			'''
+	}
+
+	SmallDormant: {
+		DisplayName: 小休止経験値オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.DormantOrb}
+			'この大きさのオーブはある程度一般的だ'
+			'''
+	}
+
+	SuperchargedXP: {
+		DisplayName: 過給経験値オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.XPOrb}
+			{$CommonItemtooltip.OrbUse}
+			巨大な量の経験値を得る
+			'''
+	}
+
+	TinyDormant: {
+		DisplayName: 微休止経験値オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.DormantOrb}
+			'このサイズのオーブは一般的だ'
+			'''
+	}
+
+	VolatileWithdrawl: {
+		DisplayName: 揮発性吸収オーブ
+		Tooltip:
+			'''
+			武器のレベルを1つ下げる
+			{$CommonItemtooltip.OrbUse}
+			'''
+	}
+
+	WeakXP: {
+		DisplayName: 弱経験値オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.XPOrb}
+			{$CommonItemtooltip.OrbUse}
+			微量の経験値を得る
+			'''
+	}
+
+	WithdrawlOrb: {
+		DisplayName: 吸収オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.WithdrawOrb}
+			{$CommonItemtooltip.OrbUse}
+			中量の経験値を差し引く
+			'''
+	}
+
+	Xp: {
+		DisplayName:経験値オーブ
+		Tooltip:
+			'''
+			{$CommonItemtooltip.XPOrb}
+			{$CommonItemtooltip.OrbUse}
+			中量の経験値を得る
+			'''
+	}
+
+	BlankRune: {
+		DisplayName: 空のルーン
+		Tooltip:
+			'''
+			武器の経験値獲得とレベルアップを無効にする
+			武器のレベリングを無効にしても、その武器の獲得経験値は消去されない
+			無効にした武器は、経験値を獲得しレベルアップする能力を、互換性のある経験値ルーンによって復活させることができる
+			無効にした武器は、使用したルーンが最初に有効化したものと異なっていても、再度有効化することができる
+			再有効化された武器は、初期状態ではそのレベルが誤って計算されることに注意してください。これはXPを獲得すると修正される
+			'''
+	}
+
+	DormantEtherealRune: {
+		DisplayName: 休止エーテル経験値ルーン
+		Tooltip:
+			'''
+			エーテル経験値ルーンにクラフトできます
+			通常の経験値のルーンとは異なり、すべてのエーテル経験値ルーンは余分な素材を必要とせず、どの武器にも使用できる
+			レア度が変更された武器にはルーンを使用する
+			'ゲームバランスを重視するのであれば、これらの使用は控えめに、慎重に!'
+			'''
+	}
+
+	DormantRune: {
+		DisplayName: 休止経験値ルーン
+		Tooltip:
+			'''
+			経験値ルーンのクラフトに使用
+			経験値のルーンは、武器が経験値を獲得し、レベルアップするために使用されます
+			'''
+	}
+
+	MechanicalRune: {
+		DisplayName: 機械的経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			このルーンは、武器に適用される基本経験値を設定で変更できるという点でユニークである
+			このルーンが適用される基礎経験値を変更すると、すでに適用されているすべての武器にも影響することに注意してください
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	OverclockedRune: {
+		DisplayName: オーバークロック経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			このルーンは、ムーンロード以降の非常に強力な武器や、他のMODの終盤の武器に使用するのがベストである
+			'''
+	}
+
+	PrismRune: {
+		DisplayName: プリズム経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			このルーンは、武器に適用される基本経験値が武器のレアリティに依存するという点でユニークである
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	UnstableRune: {
+		DisplayName: 不安定な経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			このルーンは、武器に適用される基本経験値がその計算されたDPSに基づいているという点でユニークである
+			DPSの計算が不正確になる可能性が高いので、このルーンの扱いには注意が必要だ!
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	BasicRune: {
+		DisplayName: 基本経験値ルーン
+		Tooltip:
+			'''
+			レアリティが白色以下の武器が経験値を獲得し、レベルアップできるようになる
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	EerieRune: {
+		DisplayName: 異常経験値ルーン
+		Tooltip:
+			'''
+			レアリティが黄色以下の武器が経験値を獲得し、レベルアップできるようになる
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	EnhancedRune: {
+		DisplayName: 強化経験値ルーン
+		Tooltip:
+			'''
+			レアリティがブ青色以下の武器が経験値を獲得し、レベルアップできるようになる
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	HolyRune: {
+		DisplayName: 聖なる経験値ルーン
+		Tooltip:
+			'''
+			レアリティが桃色以下の武器が経験値を獲得し、レベルアップできるようになる
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	InfernalRune: {
+		DisplayName: 地獄の経験値ルーン
+		Tooltip:
+			'''
+			レアリティが橙色以下の武器が経験値を獲得し、レベルアップできるようになる
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	InfusedRune: {
+		DisplayName: 注入経験値ルーン
+		Tooltip:
+			'''
+			レアリティが薄紫色以下の武器が経験値を獲得し、レベルアップできるようになる
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	MoonRune: {
+		DisplayName: 月の経験値ルーン
+		Tooltip:
+			'''
+			レアリティが赤色以下の武器が経験値を獲得し、レベルアップできるようになる。
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	PhantasmalRune: {
+		DisplayName: 幻影の経験値ルーン
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	TaintedRune: {
+		DisplayName: 汚染経験値ルーン
+		Tooltip:
+			'''
+			レアリティが緑色以下の武器が経験値を獲得し、レベルアップできるようになる
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	TwilightRune: {
+		DisplayName: 黄昏の経験値ルーン
+		Tooltip:
+			'''
+			レアリティが薄赤色以下の武器が経験値を獲得し、レベルアップできるようになる
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	VerdantRune: {
+		DisplayName: 未熟な経験値ルーン
+		Tooltip:
+			'''
+			レアリティが黄緑色以下の武器が経験値を獲得し、レベルアップできるようになる
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	XenoRune: {
+		DisplayName: 宇宙経験値ルーン
+		Tooltip:
+			'''
+			レアリティが青緑色以下の武器が経験値を獲得し、レベルアップできるようになる
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	ReflectionRune: {
+		DisplayName: 反射のルーン
+		Tooltip:
+			'''
+			'内なる可能性を解き明かす、起源不明の謎のアーティファクト'
+			武器にレベルアップ能力を与えるには、石と宝石で鍛えた「休眠経験値ルーン」を探す
+			自分のレベルと経験を表示する
+			プレースホルダー (消さないで)
+			'''
+	}
+
+	EffortRune: {
+		DisplayName: 努力のルーン
+		Tooltip:
+			'''
+			装備時、機動力が低下し、追加ダメージを受ける
+			その代わり、武器は攻撃時に経験値を追加で獲得できる
+			自分のレベルと経験を表示する；
+			プレースホルダー (消さないで)
+			'''
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: Main Config
+
+		Headers: {
+			HeaderDMG: "[i:674] Damage Leveling [i:674]"
+			HeaderXP: "[i:BSWLmod/PrismRune] XP Rates [i:BSWLmod/PrismRune]"
+			HeaderCaps: "[i:BSWLmod/OverclockedRune] Stat Caps [i:BSWLmod/OverclockedRune]"
+			HeaderText: "[i:171] Text Displays [i:171]"
+			HeaderEtc: "[i:BSWLmod/ShinyDormant] Etc. [i:BSWLmod/ShinyDormant]"
+		}
+
+		dmgMultiplier: {
+			Label: "[i:BSWLmod/UnstableRune] Damage Boost Multiplier"
+			Tooltip:
+				'''
+				Adjusts how potent the damage boost from a weapon's level is.
+				By default, this boost exponentially scales up to x3 by level 100.
+				This multiplier is applied using the following formula: ((base damage boost - 1) * multiplier) + 1.
+				Setting this config lower will reduce the damage boost from leveling up, and setting it higher will increase the boost.
+				Set this to 0 to completley disable damage boosts from weapon level.
+				'''
+		}
+
+		playerDamage: {
+			Label: "[i:2349] Damage Boost Multiplier (Player Leveling)"
+			Tooltip:
+				'''
+				Adjusts how potent the damage boost from a player's level is.
+				By default, this boost exponentially scales up to x1.4 by level 100, starting at level 10.
+				This multiplier is applied using the following formula: ((base damage boost - 1) * multiplier) + 1.
+				Setting this config lower will reduce the damage boost from leveling up, and setting it higher will increase the boost.
+				Set this to 0 to completley disable damage boosts from player level.
+				'''
+		}
+
+		xpGain: {
+			Label: "[i:BSWLmod/BasicRune] Weapons gain XP"
+			Tooltip:
+				'''
+				Toggles if weapons can gain XP by inflicting damage.
+				Damage dealt to most enemies by a weapon will grant the weapon XP. Weapons will eventually level up as they gain XP.
+				Note that even with this setting on, you will need to enable individual weapons' ability to gain XP with Experience Runes in-game.
+				When set to false, all weapons will stop gaining XP until this config is turned back on.
+				'''
+		}
+
+		playerXP: {
+			Label: "[i:267] Player Leveling"
+			Tooltip:
+				'''
+				Toggles if players can gain XP by inflicting damage.
+				Unlike weapons, players' XP gains are always equal to damage dealt, and players' ability to gain XP is dependent soley on this setting.
+				Furthermore, player leveling is far less customizable and the XP needed to reach level 100 FAR exceeds what you'll gain in an average playthrough
+				For reference, you can expect to end up around level 45-50 (2.8-5.1 million XP) after beating the Moon Lord. 
+				Level 100 requires a whopping 10 billion XP. Do not expect to ever reach this by conventional means...
+				When set to false, all players will stop gaining XP until this config is turned back on.
+				'''
+		}
+
+		xpMultiplier: {
+			Label: "[i:BSWLmod/EnhancedRune] XP Multiplier"
+			Tooltip:
+				'''
+				Adjusts the amount of XP all weapons gain.
+				For reference, a weapon with a base XP of 1000 needs 600K XP for level 100; an Expert mode playthrough yields very roughly ~3+ million XP up to Moon Lord.
+				Hence, it takes many hours to train a weapon to level 100.
+				This is a long time, and is this way so that a weapon will gradually level up as you progress, assuming steady weapon usage.
+				Setting this config higher will allow weapons to level up faster, and setting it lower will make weapons level up slower.
+				'''
+		}
+
+		bossXP: {
+			Label: "[i:43] Boss XP Multiplier"
+			Tooltip:
+				'''
+				Adjusts the amount of XP all weapons gain when a boss or mini-boss is active.
+				Bosses grant less XP than common enemies by default in order to make power-leveling less effective.
+				Setting this config lower will farther reduce XP when bosses are present, and setting it higher will causes a boss's presence to grant more XP than normal.
+				'''
+		}
+
+		wormXP: {
+			Label: "[i:556] Worm XP Multiplier"
+			Tooltip:
+				'''
+				Adjusts the amount of XP all weapons gain when attacking a worm.
+				By default, worms grant less XP than normal since their HP is generally high due to their multi-segmented nature.
+				Setting this config lower will farther reduce XP from worms, and setting it higher will make worms grant closer to the normal amount of XP.
+				'''
+		}
+
+		orbMultiplier: {
+			Label: "[i:BSWLmod/SuperchargedXP]経験値オーブ Multiplier"
+			Tooltip:
+				'''
+				Adjusts the amount of XP all weapons gain/lose when using経験値オーブs.
+				Experience Orbs are items that are rarely dropped, and can be crafted into usable forms which instantly grant or deduct XP to/from a weapon.
+				For reference, by default it takes about 60 of the strongest tier of Orb, or 6000 of the weakest tier of Orb, to reach level 100 from level 0.
+				Setting this config lower will reduce XP gains/losses from Orbs, and setting it higher will increase XP gains/losses from Orbs.
+				Note that this config doesn't impact the potency of Mystic経験値オーブs or Volatile Withdrawl Orbs, which instead are level based gains/reductions.
+				'''
+		}
+
+		effortMultiplier: {
+			Label: "[i:BSWLmod/EffortRune] Effort Rune Multiplier"
+			Tooltip:
+				'''
+				Adjusts the potency of the bonus multiplier to all weapon XP gains from the Effort Rune.
+				By default, the Effort Rune - when equipped - will apply a random x1.1 to x1.25 multiplier to weapon XP gains from attacking enemies
+				This config will scale the bonus of that multiplier (Ex: Setting this to x1.5 will result in a x1.15 to x1.375 bonus)
+				Setting this config lower will reduce the Effort Rune's bonus, and setting it higher will increase the bonus
+				'''
+		}
+
+		customBaseXP: {
+			Label: "[i:BSWLmod/MechanicalRune] Custom Base XP"
+			Tooltip:
+				'''
+				Adjusts the Base XP given to weapons by Conduit Experience Runes.
+				Base XP is the XP required to reach level 1 from level 0, a number which is in turn used to calculate the required XP to reach all other levels.
+				For reference:
+				White rairty corresponds to a Base XP of 1000.
+				Light Red rarity corresponds to a Base XP of 10000.
+				Yellow rarity corresponds to a Base XP of 55000.
+				Red rarity corresponds to a Base XP of 100000.
+				The highest possible Base XP is 3250000.
+				Well-balanced, long-term leveling can typically be achieved by setting Base XP to ~10-20 times the DPS of your weapon(s).
+				When/if testing DPS, make sure to use progression-appropriate equipment for the best results.
+				'''
+		}
+
+		levelCap: {
+			Label: "[i:BSWLmod/MysticXP] Level Cap"
+			Tooltip:
+				'''
+				Adjusts the maximum level weapons can achieve.
+				A weapon's level is dependent on its XP, changing this value won't lower weapon XP. However, it WILL lower the weapons' damage boosts.
+				Weapons with enough XP will simpily return to the highest level possible upon raising this value.
+				Note that level will never display as 'EX' at max level if the cap is set below 100.
+				Also note that a weapon's level will only update after inflicting damage, and XP to the next level may appear buggy (Negative numbers) before the level is refreshed.
+				'''
+		}
+
+		xpCap: {
+			Label: "[i:BSWLmod/OverclockedRune] XP Cap"
+			Tooltip:
+				'''
+				Adjusts the maximum amount of XP weapons can have.
+				Weapons with XP equal to or over the cap will stop earning more XP.
+				If the a weapon's XP exceeds the cap upon lowering the XP cap, its XP (and thus, level) will NOT change.
+				Note that XP will never display as 'MAX' at or above the max XP if the cap is below 2 billion (The hardcoded XP cap).
+				'''
+		}
+
+		dmgCap: {
+			Label: "[i:2349] Base Damage Boost Cap"
+			Tooltip:
+				'''
+				Adjusts the maximum damage boost that weapons can gain from leveling up.
+				This damage boost is dependent on level, changing this value won't lower weapon level.
+				Weapons that are high-leveled enough will simpily regain the highest damage boost possible upon raising this value.
+				This value is affected by the damage boost multiplier (Ex: A cap of x1.5 becomes x3 if the damage boost multiplier is x2).
+				Changing this value will NOT change the rate at which levels increase damage (Ex: x1.4 damage is ALWAYS achived at lvl 31, regardless of the cap).
+				Note that the damage boost will never display as 'MAX' if the cap is set below 2.5.
+				'''
+		}
+
+		coloredDisplays: {
+			Label: "[i:2870] Color text displays"
+			Tooltip:
+				'''
+				Toggles if most text displays should be colored or not.
+				Most text coloring is dynamic and based on the value of the displayed stat.
+				When set to false, text displays will remain a plain white color, like most other stats.
+				'''
+		}
+
+		showBaseXP: {
+			Label: "[i:BSWLmod/BasicRune] Base XP Display"
+			Tooltip:
+				'''
+				Toggles a display for the Base XP of weapons
+				Base XP is the XP required to reach level 1 from level 0, a number which is in turn used to calculate the required XP to reach all other levels.
+				This display can help with comparing how fast different weapons level up
+				When set to true, Base XP will be displayed below XP (Or damage boost, if it is displayed).
+				'''
+		}
+
+		showDMG: {
+			Label: "[i:2349] Damage Boost Display"
+			Tooltip:
+				'''
+				Toggles a display for the damage boost conffered by a weapon's level.
+				When set to true, the boost will be displayed below XP as a multiplier, rounded to 2 decimal places (Ex: 'Damage Boost: x1.78').
+				Note that this setting will have no effect if damage boosts are disabled (vi.a setting Damage Boost Multiplier to x0).
+				Also applies to the player stat displays of the Reflection Rune.
+				'''
+		}
+
+		showLvl100: {
+			Label: "[i:BSWLmod/MysticXP] Numerical max level display"
+			Tooltip:
+				'''
+				Toggles the display for maximum level (100).
+				When set to true, level 100 is displayed as 'Level: 100'.
+				When set to false (default), level 100 is displayed as 'Level: EX'.
+				Also applies to the player stat displays of the Reflection Rune.
+				'''
+		}
+
+		showMaxXP: {
+			Label: "[i:BSWLmod/OverclockedRune] Numerical max XP display"
+			Tooltip:
+				'''
+				Toggles the display for maximum XP (2 Billion. XP is capped here to avoid the 32 bit integer limit).
+				When set to true, max XP is displayed as 'XP: 2000000000'.
+				When set to false (default), max XP is displayed as 'XP: MAX'.
+				Also applies to the player stat displays of the Reflection Rune.
+				'''
+		}
+
+		showMaxDMG: {
+			Label: "[i:1338] Numerical max damage display"
+			Tooltip:
+				'''
+				Toggles the display for maximum damage boost, at lvl 100.
+				When set to false, the damage boost is instead displayed as 'Damage Boost: MAX'.
+				'''
+		}
+
+		showDisabledLeveling: {
+			Label: "[i:3617] Tooltip feeback for disabled leveling"
+			Tooltip:
+				'''
+				Toggles the display of a tooltip placed on weapons which can't level up yet.
+				When set to false, this tooltip will not appear.
+				'''
+		}
+
+		detailedDisabledLeveling: {
+			Label: "[i:903] Detailed feeback for disabled leveling"
+			Tooltip:
+				'''
+				Toggles if the feedback display for weapons which can't level up yet is or isn't more detailed.
+				When set to true, the tooltip will become longer and can state what Experience Runes will work.
+				'''
+		}
+
+		dropOrbs: {
+			Label: "[i:BSWLmod/Dormant] Drop経験値オーブs"
+			Tooltip:
+				'''
+				Toggles if enemies can drop経験値オーブs.
+				Experience Orbs are items that are rarely dropped, and can be crafted into usable forms which instantly grant or deduct XP to/from a weapon.
+				When set to false,経験値オーブs will stop dropping.
+				'''
+		}
+
+		lvlUpSound: {
+			Label: "[i:890] Sound feedback upon leveling up"
+			Tooltip:
+				'''
+				Toggles if a sound plays when a weapon levels up, as audio feedback.
+				Player level-ups also trigger feedback, if Player Leveling is enabled.
+				When set to false, level-ups won't have audio feedback.
+				'''
+		}
+
+		lvlUpText: {
+			Label: "[i:3617] Text feedback upon leveling up"
+			Tooltip:
+				'''
+				Toggles if a notification appears in the chat and above the player when a weapon levels up, as feedback.
+				Player level-ups also trigger feedback, if Player Leveling is enabled.
+				When set to false, level-ups won't be announced.
+				'''
+		}
+
+		augmentCrossmod: {
+			Label: "[i:398] Allow Weapon Augments cross-mod overhaul"
+			Tooltip:
+				'''
+				Toggles cross-mod features when the mod Weapon Augments is enabled.
+				When set to true and Weapon Augments is loaded, a weapon's level will contribute a smaller damage boost than normal.
+				In return, levels 25, 50, 75, and 100 will each grant an extra Augment slot to the weapon for a max of 5 at lvl 100.
+				Note that Weapon Augment's setting for Augment limit doesn't stack with this; the higher of the two values is used.
+				'''
+		}
+
+		xpDust: {
+			Label: "[i:1348] XP Dust"
+			Tooltip:
+				'''
+				Adjusts the quantity and scale of dust spawned from gaining XP by attacking enemies
+				This is purely a visual effect and can be adjusted with no impact on gameplay
+				Setting this config lower will result in less dust of smaller size; this can be helpful if you experience performance issues
+				Setting this config to 0 will prevent XP-related dust from spawning entirely
+				'''
+		}
+
+		eventXP: {
+			Label: "[i:361] Event XP Multiplier"
+			Tooltip:
+				'''
+				Adjusts the amount of XP all weapons gain when an event is active.
+				Events reduce XP by default in order to make power-leveling less effective.
+				Partially stacks with the Boss XP Multiplier if a boss/miniboss is present during an event;
+				This is done by adding the mutlipliers together (as decimals) and then dividing by 3 (as opposed to 2 for an average).
+				Note: An extra x0.5 multiplier is applied during the Old One's Army event.
+				Also, this multiplier is only 75% effective on the Lunar Events (More XP overall).
+				Setting this config lower will farther reduce XP during events, and setting it higher will grant closer to the normal amount of XP.
+				'''
+		}
+	}
+}
