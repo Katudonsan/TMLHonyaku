@@ -1,0 +1,47 @@
+Items: {
+	StickGun: {
+		DisplayName: 木製ピストル
+		Tooltip: ""
+	}
+
+	WandOfPlanting: {
+		DisplayName: 木の杖
+		Tooltip: ""
+	}
+
+	WoodenStick: {
+		DisplayName: 木の棒
+		Tooltip: ""
+	}
+
+	GrassWhip: {
+		Tooltip: ""
+		DisplayName: 草の鞭
+	}
+
+	WoodenDagger: {
+		DisplayName: 木のナイフ
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	WoodenStickSwingProjectile: {
+		DisplayName: Wooden Stick Swing Projectile
+	}
+
+	GrassWhipProjectile: {
+		DisplayName: Grass Whip Projectile
+	}
+
+	WoodenDaggerProj: {
+		DisplayName: Wooden Dagger Proj
+	}
+
+	Rogue: {
+		WoodenDaggerProj: {
+			DisplayName: Wooden Dagger Proj
+		}
+	}
+}
+

@@ -1,0 +1,1128 @@
+ItemDescriptions: {
+	DreamWeaversHelmet: 最大ライフが60増加
+	DreamWeaversHood: 最大ライフが100増加
+	DreamWeaversTabard: 受けるダメージが20%減少
+	DreamWeaversTreads:
+		'''
+		詠唱速度が20%増加
+		最大ライフが80増加
+		'''
+	TideTurnerBreastplate:
+		'''
+		受けるダメージが10％減少
+		着用者のヘルスが低いほど、防御力とダメージ軽減率が増加する。
+		最大100の防御力と60%のダメージ軽減
+		'''
+	TideTurnerGreaves: 近接攻撃と投擲速度が20%増加
+	TideTurnerHelmet:
+		'''
+		装備者のヘルスが低いほど近接攻撃スピードが上昇する
+		近接攻撃速度が最大200%増加する
+		'''
+	TideTurnersGaze: 投擲ダメージが50増加
+	MasterArbalestHood: 遠距離ダメージは100まで防御力を無視する
+	MasterMarksmansScouter: 発射速度12%向上
+	AssassinsGuard: 射撃ダメージが20増加
+	AssassinsWalkers: 発射速度20％向上
+	MagmaSeersMask:
+		'''
+		鞭のスピードが40%増加
+		召喚ダメージが30増加
+		'''
+	PyromancerCowl: マナ使用量を40%減少
+	PyromancerLeggings:
+		'''
+		詠唱速度が30%増加
+		セントリーの最大数が1増加する
+		'''
+	PyromancerTabard:
+		'''
+		鞭の射程距離が75%増加
+		ミニオンの最大数が2増加する
+		'''
+	InspiratorsHelmet: 演奏速度が25%向上
+	RhapsodistChestWoofer: 旋律ダメージは250まで防御力を無視する
+	RhapsodistBoots: エンパワーメントの範囲が2倍になる
+	SoloistHat: インスピレーションの最大値が8増加
+	ChampionBomberStaff:
+		'''
+		命中した敵を繰り返し攻撃する魔法のバースターミサイルを発射する
+		「爆撃は必ずしも破壊を意味しない」
+		'''
+	ChampionSwiftBlade:
+		'''
+		50%のダメージを与える強力な衝撃波を放つ
+		3回目と4回目の攻撃ごとに剣の幻影を召喚する
+		'''
+	GraniteCrossbow:
+		'''
+		3発ごとに御影石の矢を3本放ち、敵をオーバーフローさせる。
+		あふれた敵はダメージが5%増加する
+		'''
+	IllumiteBarrage:
+		'''
+		6回目の攻撃ごとに、近くの敵を攻撃するポータルを召喚する
+		命中した敵は照らされ、ダメージが10%増加する
+		'''
+	IllumiteBlade:
+		'''
+		二刀流のイルミナイトブレード
+		近くの照らされたターゲットにイルミネーションビームを放つ
+		命中した敵は照らされ、ダメージが10%増加する
+		'''
+	IllumiteBlaster:
+		'''
+		6回目の攻撃ごとに、近くの敵を攻撃するポータルを召喚する
+		命中した敵は照らされ、ダメージが10%増加する
+		'''
+	IllumiteShotbow:
+		'''
+		6回目の攻撃ごとに、近くの敵を攻撃するポータルを召喚する
+		命中した敵は照らされ、ダメージが10%増加する
+		'''
+	IllumiteSpear:
+		'''
+		3回目の攻撃ごとに、槍の幻影を射出する
+		イメージは近くの敵に光線を放つ
+		命中した敵は光に照らされ、ダメージが10%増加する
+		'''
+	IllumiteScythe:
+		'''
+		近くの敵に光の斬撃で攻撃する
+		当たった敵は照らされ、ダメージが10%増加する
+		'''
+	CobaltPopper: 使用中、時間経過とともに防御力が上昇
+	PalladiumSubmachineGun: 使用している間、時間の経過とともにライフの再生が増加する
+	MythrilPelter: 使用中は最終的に攻撃速度が2倍になるる
+	OrichalcumPelter: 使用中、時間経過とともに攻撃速度が徐々に増加する
+	AdamantiteCarbine: 使用中、時間経過とともにクリティカル確率が増加する
+	TitaniumRifle: 使用している間、アーマーの貫通力が増加する
+	PyroclastStaff:
+		'''
+		1～5個の火山弾を発射する。
+		火山弾は着弾時に分裂する。
+		'''
+	Obliterator:
+		'''
+		左クリックで非貫通のレーザービームを発射する
+		右クリックで、近くのターゲットに向かって弾丸を発射し、60%のダメージを与える
+		レーザーでボールを撃つと、近くの敵に向かってバウンドし、500%のダメージを与える
+		'''
+	OmegaBlaster:
+		'''
+		３点バーストのエネルギーを放つ
+		武器をフルチャージすると、800%のダメージを与える強力なエネルギービームを発射する
+		エネルギーブラストでダメージを与えるとメーターが溜まる
+		メーターが満タンになると、右クリックで1100%のダメージを与える強力なビーム・サーベルを放つ
+		ビームサーベル使用後、10秒間はエネルギーゲージが溜まらない
+		この武器はマナを消費しない
+		「最強の守護者」
+		'''
+	HitScanner:
+		'''
+		この銃から発射されたマスケット銃の弾は即時着弾になり、防御力50を無視する
+		マスケット銃の弾は短時間タイルを通過する
+		'''
+	ParticleWhip:
+		'''
+		加速された粒子ビームを発射し、敵の間でバウンドさせる
+		バウンドすると、粒子ビームが稲妻状に変化する
+		「加速粒子ビームを放ち、敵の間をバウンドさせる
+		バウンドすると、粒子ビームが稲妻状に変化する
+		「そんなにムチっぽくない...」
+		'''
+	LodeStoneBow:
+		'''
+		ヒットした敵は受けるダメージが10増える
+		3回目の攻撃ごとに、磁力を帯びたペイロードが発射される
+		'''
+	LodeStoneQuickDraw:
+		'''
+		ヒットした敵は受けるダメージが10増える
+		3回目の攻撃ごとに、磁力を帯びたペイロードが発射される
+		'''
+	ValadiumBow:
+		'''
+		ダメージは異次元エネルギーで敵を吹き飛ばす
+		3回目の攻撃ごとに、最も近くにいる光に呪われた敵を虚空の光で打ちのめす
+		'''
+	ValadiumFoeBlaster:
+		'''
+		ダメージは異次元エネルギーで敵を吹き飛ばす
+		3回目の攻撃ごとに、最も近くにいる光に呪われた敵を虚空の光で打ちのめす
+		'''
+	ValadiumSpear:
+		'''
+		ダメージは異次元のエネルギーで敵を吹き飛ばす
+		ダメージは敵を素早く切り裂く閃光を生み出す
+		'''
+	SoulRender:
+		'''
+		3回目と4回目の攻撃ごとに鎌を回転させ、40%のダメージを与える魂の刃を放つ
+		魂の刃は、攻撃速度が速いほどダメージが増加する
+		'''
+	FleshSkewer:
+		'''
+		攻撃はライフを奪うことがあるが、その代わり自分のライフが一定時間自然回復しなくなる
+		クリティカルは必ずライフを回復し、自然回復も阻害しなくなる
+		'''
+	ToothOfTheConsumer:
+		'''
+		ライフを奪うダガーを2本振り回す
+		攻撃はライフを奪うことがあるが、その代わり自分のライフが一定時間自然回復しなくなる
+		クリティカルは必ずライフを回復し、自然回復も阻害しなくなる
+		右クリックで血を放つ
+		'''
+	DragonTooth:
+		'''
+		4回目の攻撃ごとに呪いの炎を放つ
+		クリティカルで呪われた地獄の輪ができる
+		'''
+	DragonTalon: 攻撃は槍の先端に呪いの地獄のブレスを放つ
+	PrimesFury:
+		'''
+		4回目の攻撃ごとに強力なビームを放ち、3倍のダメージを与える。
+		右クリックで半減ダメージを与える連続攻撃
+		「俺の家にはチェーンソーの剣があるんだ」
+		'''
+	TitanSword:
+		'''
+		2本の巨人のような剣を振り回す
+		クリティカルで追加ダメージ
+		'''
+	TerrariumBomber:
+		'''
+		ゆっくりと追尾するクロマティックミサイルを発射
+		クロマティックミサイルは敵に当たると3つに分裂する
+		25%の確率で弾薬を消費しない
+		'''
+	TerrariumPulseRifle:
+		'''
+		4連射できる
+		適切な弾薬をパルス光線に変換し、弾丸のヒット効果を引き継ぐ
+		15%の確率で弾薬を消費しない
+		'''
+	TerrariumSaber:
+		'''
+		2本のテラリウムサーベルを振り回す
+		ヒット時に追尾エネルギーを放出
+		'''
+	DoomSayersCoin:
+		'''
+		フェーズ2で 「終末の明晰夢」が付与され、解除するまでボスにダメージを与えられない
+		 「終末の明晰夢」を解除したい場合は、生存した状態で紫色の丸の中に飛び込もう
+		この紫色の丸は矢印で表示される
+		「終末の明晰夢」が解除されると、20秒間のDPSチェックが開始される
+		「終末の明晰夢」のタイマーが切れると即死する
+		再戦時、ドリームイーターは永久にダメージを受け続ける
+		ドリームイーターを一度でも倒したことがある場合、このアイテムを右クリックすると直接召喚することができる
+		さらに、このアイテムを右クリックしたときにプライモーディアルズが生きていた場合、デスポーンする
+		'''
+}
+
+NPCRenames: {
+	Beholder: コズニックスのしもべ
+	FallenBeholder: フォールンビホルダー、コズニックス
+	FallenBeholder2: 超越者コズニックス
+	Lich: 冒涜者の使徒リッチ
+	LichHeadless: 死の使徒リッチ
+	ForgottenOne: 忘却の貝殻
+	ForgottenOneCracked: 忘れられた者
+	ForgottenOneReleased: 潮の老神アビシオン
+	DreamEater: 滅びゆく現実、ラグナロク
+}
+
+InfernumIntros: {
+	Aquaius:
+		'''
+		Endless Tide
+		Aquaius
+		'''
+	BoreanStrider:
+		'''
+		Cold Blooded Arachnid
+		Borean Strider
+		'''
+	BuriedChampion:
+		'''
+		Ancient Warrior
+		Buried Champion
+		'''
+	DreamEater:
+		'''
+		Dying Reality
+		The Ragnarok
+		'''
+	FallenBeholder:
+		'''
+		Transcendant Beholder
+		Coznix
+		'''
+	ForgottenOne:
+		'''
+		Old God of Tides
+		Abyssion
+		'''
+	GraniteEnergyStorm:
+		'''
+		Unstable Landmass
+		Granite Energy Storm
+		'''
+	Lich:
+		'''
+		Life Defiler's Apostle
+		The Lich
+		'''
+	QueenJellyfish:
+		'''
+		Regal Sea Mutant
+		Queen Jellyfish
+		'''
+	Omnicide:
+		'''
+		Life Defiler
+		Omnicide
+		'''
+	SlagFury:
+		'''
+		Primordial Flame
+		Slag Fury
+		'''
+	StarScouter:
+		'''
+		Cosmic Voyager
+		Star Scouter
+		'''
+	TheGrandThunderBird:
+		'''
+		Feral Scavenger
+		The Grand Thunder Bird
+		'''
+	Viscount:
+		'''
+		Duke of the Caves
+		Viscount
+		'''
+}
+
+Projectiles: {
+	AbyssalApparition: {
+		DisplayName: Abyssal Apparition
+	}
+
+	AquaiusBubble: {
+		DisplayName: Bubble
+	}
+
+	AquaiusPunchAttack: {
+		DisplayName: Hands of Tide
+	}
+
+	AquaiusWhirlpool: {
+		DisplayName: Relentless Whirlpool
+	}
+
+	BeamSaber: {
+		DisplayName: Beam Saber
+	}
+
+	BeholderBlade: {
+		DisplayName: Will of Coznix
+	}
+
+	BiteyBaby: {
+		DisplayName: Bitey Baby
+	}
+
+	BlackHole: {
+		DisplayName: Black Hole
+	}
+
+	ChampionBomber: {
+		DisplayName: Magical Burst
+	}
+
+	ChampionBomberF: {
+		DisplayName: Magical Burst
+	}
+
+	ChampionShield: {
+		DisplayName: Champion's Rebuttal
+	}
+
+	ChampionSlash: {
+		DisplayName: Champion's Swift Blade
+	}
+
+	ChampionSlice: {
+		DisplayName: Buried Shock
+	}
+
+	ChampionSliceF: {
+		DisplayName: Buried Shock
+	}
+
+	ChampionsSwiftBlade: {
+		DisplayName: Champion's Swift Blade
+	}
+
+	ChampionsSwiftBladeClone: {
+		DisplayName: Champion's Swift Blade
+	}
+
+	ChampionWarHorn: {
+		DisplayName: Champion's War Horn
+	}
+
+	DancingJellyfish: {
+		DisplayName: Dancing Jellyfish
+	}
+
+	Darkness: {
+		DisplayName: Darkness
+	}
+
+	DeathRain: {
+		DisplayName: Death Rain
+	}
+
+	DragonTooth: {
+		DisplayName: Dragon Tooth
+	}
+
+	DyingReality: {
+		DisplayName: Dying Reality
+	}
+
+	EightNote: {
+		DisplayName: "{$ProjectileName.EightNote}"
+	}
+
+	EnergySurge: {
+		DisplayName: Energy Surge
+	}
+
+	EradicationBeam: {
+		DisplayName: Eradication Beam
+	}
+
+	EradicationBeamF: {
+		DisplayName: Eradication Beam
+	}
+
+	EradicationRay: {
+		DisplayName: Eradication Ray
+	}
+
+	EraserLaser: {
+		DisplayName: Eraser Laser
+	}
+
+	ExtinctionRay: {
+		DisplayName: Extinction Ray
+	}
+
+	FalseBeholder: {
+		DisplayName: False Beholder
+	}
+
+	FalseSun: {
+		DisplayName: False Sun
+	}
+
+	FlareSlash: {
+		DisplayName: Flare Slash
+	}
+
+	Flash: {
+		DisplayName: Flash
+	}
+
+	GrandThunder: {
+		DisplayName: Grand Thunder
+	}
+
+	GrandThunderF: {
+		DisplayName: Grand Thunder
+	}
+
+	GraniteCharge: {
+		DisplayName: Granite Charge
+	}
+
+	HitScan: {
+		DisplayName: Hit-Scan
+	}
+
+	HitScanner: {
+		DisplayName: Hit Scanner
+	}
+
+	HitScannerTelegraph: {
+		DisplayName: Hit Scanner
+	}
+
+	IllumiteBlade: {
+		DisplayName: Illumite Blade
+	}
+
+	IllumitePortal: {
+		DisplayName: Illumite Portal
+	}
+
+	ImpendingDread: {
+		DisplayName: Impending Dread
+	}
+
+	ImpendingDreadF: {
+		DisplayName: Impending Dread
+	}
+
+	InfernalRay: {
+		DisplayName: Infernal Ray
+	}
+
+	InfernalRayTelegraph: {
+		DisplayName: Infernal Ray
+	}
+
+	JammingJellyfish: {
+		DisplayName: Jamming Jellyfish
+	}
+
+	JellyfishJam: {
+		DisplayName: Jamming Jellyfish
+	}
+
+	LichLantern: {
+		DisplayName: Volatile Lantern
+	}
+
+	LichWhip: {
+		DisplayName: Instrument of Torment
+	}
+
+	LodeStoneClaymore: {
+		DisplayName: Lodestone Claymore
+	}
+
+	Loudener: {
+		DisplayName: Loudener
+	}
+
+	LucidNuke: {
+		DisplayName: Lucid Energy
+	}
+
+	LucidRay: {
+		DisplayName: Lucid Energy
+	}
+
+	LucidRayTelegraph: {
+		DisplayName: Lucid Energy
+	}
+
+	Mjolnir: {
+		DisplayName: Legendary Lightning
+	}
+
+	NightmareClaw: {
+		DisplayName: Nightmare Claw
+	}
+
+	NightmareSlash: {
+		DisplayName: Nightmare Claw
+	}
+
+	Obliterator: {
+		DisplayName: Obliterator
+	}
+
+	ObliteratorRay: {
+		DisplayName: Obliterator
+	}
+
+	OmegaRay: {
+		DisplayName: Omega Ray
+	}
+
+	OmniBoom: {
+		DisplayName: Nuclear Explosion
+	}
+
+	OmniBurst: {
+		DisplayName: Nuclear Explosion
+	}
+
+	OmniSlash: {
+		DisplayName: Death Slash
+	}
+
+	OmnicidePunchAttack: {
+		DisplayName: Fist of Havoc
+	}
+
+	Oneirophobia: {
+		DisplayName: Oneirophobia
+	}
+
+	OneirophobiaBlade: {
+		DisplayName: Lucid Edge
+	}
+
+	OneirophobiaBolt: {
+		DisplayName: Lucid Missile
+	}
+
+	OneirophobiaLaser: {
+		DisplayName: Lucid Ray
+	}
+
+	OneirophobiaMinion: {
+		DisplayName: Lucid Instrument
+	}
+
+	OneirophobiaNuke: {
+		DisplayName: Lucid Blast
+	}
+
+	OneirophobiaSlice: {
+		DisplayName: Lucid Slash
+	}
+
+	Paylode: {
+		DisplayName: Magnetic Payload
+	}
+
+	PrimesFury: {
+		DisplayName: Prime's Fury
+	}
+
+	QuarterNote: {
+		DisplayName: "{$ProjectileName.QuarterNote}"
+	}
+
+	SevenSeasDevastatorWhirlpool: {
+		DisplayName: Seven Seas' Devastator
+	}
+
+	ShellxophoneHealing: {
+		DisplayName: Tidal Restoration
+	}
+
+	ShellxophoneRipple: {
+		DisplayName: Aquatic Ripple
+	}
+
+	ShellxophoneStrike: {
+		DisplayName: Abyssal Strike
+	}
+
+	SoulBleed: {
+		DisplayName: Soul Bleed
+	}
+
+	SoulRender: {
+		DisplayName: Soul Render
+	}
+
+	StableRealityRift: {
+		DisplayName: Stable Reality Rift
+	}
+
+	StarCore: {
+		DisplayName: Star Core
+	}
+
+	StellarTune: {
+		DisplayName: "{$ProjectileName.SparkleGuitar}"
+	}
+
+	Stuff: {
+		DisplayName: Stuff
+	}
+
+	TerrariumPulseRay: {
+		DisplayName: Terrarium Pulse Ray
+	}
+
+	TerrariumSaber: {
+		DisplayName: Terrarium Saber
+	}
+
+	TideDagger: {
+		DisplayName: Aqua Rainstorm
+	}
+
+	TiedEightNote: {
+		DisplayName: "{$ProjectileName.TiedEightNote}"
+	}
+
+	TitanSword: {
+		DisplayName: Titan Sword
+	}
+
+	ToothOfTheConsumer: {
+		DisplayName: Tooth of The Consumer
+	}
+
+	ValadiumRay: {
+		DisplayName: Void Ray
+	}
+
+	ValadiumSlash: {
+		DisplayName: Void Slash
+	}
+
+	ValadiumSlicer: {
+		DisplayName: Valadium Slicer
+	}
+
+	VaporizingFlames: {
+		DisplayName: Vaporizing Flames
+	}
+
+	VaporizingFreeze: {
+		DisplayName: Vaporizing Freeze
+	}
+
+	VaporizingPoison: {
+		DisplayName: Vaporizing Poison
+	}
+
+	VisualShockwave: {
+		DisplayName: Shockwave
+	}
+
+	Void: {
+		DisplayName: the void
+	}
+
+	VoidEye: {
+		DisplayName: Eye of Coznix
+	}
+
+	VoidEyeF: {
+		DisplayName: Will of Coznix
+	}
+
+	ZephyrFeather: {
+		DisplayName: Zephyr's Feather
+	}
+
+	ZephyrsRuin: {
+		DisplayName: Zephyr's Ruin
+	}
+}
+
+Items: {
+	BeholderBlade: {
+		DisplayName: コズニックスの意志
+		Tooltip:
+			'''
+			3回目と4回目の攻撃は殲滅力のある深淵の刃を放つ
+			クリティカルで敵に深淵の泡を発生させる
+			深淵の泡は目を召喚し、敵に50%のダメージを与える
+			一度に発動できる深淵の泡は1つのみ
+			'''
+	}
+
+	ChampionWarHorn: {
+		DisplayName: 英雄の角笛
+		Tooltip:
+			'''
+			追尾するウォーエコーを放つ
+			「チャージ！」
+			'''
+	}
+
+	ConcussiveInstrument: {
+		DisplayName: 震える道具
+		Tooltip:
+			'''
+			打楽器の攻撃で敵を5秒間スタンさせる
+			「ただのハンマー？」
+			'''
+	}
+
+	ExecutionersContract: {
+		DisplayName: 死刑執行人の契約
+		Tooltip:
+			'''
+			鎌は投射物の命中時にソウルエッセンスを与える
+			「魂をよこせ」
+			'''
+	}
+
+	FanDonations: {
+		DisplayName: ファンからの寄付
+		Tooltip:
+			'''
+			すべての楽器攻撃はヒット時に爆発し、爆発の大きさは変化し、クリティカル・ダメージは50%減少する
+			貫通する弦楽器の攻撃はヒットするたびに速度が上昇し、ダメージが減少しなくなる
+			特定の弦楽器の攻撃で、タイルが衝突したときに効果が発動するものは、ヒットしたときにも発動する
+			打楽器の攻撃は敵を5秒間気絶させる
+			電子楽器は2回撃つが、2回目のダメージが50%減少する
+			インスピレーションの最大値が5増加
+			「残念ながらあまり売れていないが、それでも誰かが応援してくれている...」
+			'''
+	}
+
+	ImpulseAmplifier: {
+		DisplayName: インパルスアンプ
+		Tooltip:
+			'''
+			電子楽器が2発撃てるようになるが、2発目のダメージは50％少なくなる
+			「ロケットの発射速度は速くなりません！」
+			'''
+	}
+
+	JellyfishJam: {
+		DisplayName: クラゲのジャムセッション
+		Tooltip: 貫通するクラゲを発射する
+	}
+
+	LichWhip: {
+		DisplayName: 拷問道具
+		Tooltip:
+			'''
+			魂の炎で鍛えられた三本の鞭
+			ヒットした敵は魂が出血する
+			出血した魂は、プレイヤーを癒す
+			「死後の世界でも魂を苦しめ続けるための道具」
+			'''
+	}
+
+	Loudener: {
+		DisplayName: 拡声器
+		Tooltip:
+			'''
+			管楽器と金管楽器の攻撃はヒット時に爆発する
+			爆発の大きさは演奏する楽器によって異なる。
+			爆発のクリティカルダメージは50%減少
+			「お前はサイレンサー、俺はラウドナーだ！」
+			'''
+	}
+
+	LunateCharm: {
+		DisplayName: 三日月のお守り
+		Tooltip: ヒーラーアーマーによる非神聖ダメージペナルティを無効化する
+	}
+
+	Oneirophobia: {
+		DisplayName: オネイロフォビア
+		Tooltip:
+			'''
+			様々な形に変化する幻影を作り出す
+			最初の2回の攻撃で、武器は剣に変形する
+			一振り目は激しい衝撃波を、二振り目は3つの衝撃波を発生させる
+			3回目の攻撃で、武器の刃が、前方に投げ出される
+			その後、武器は鎌に変形する
+			4回目の攻撃では、武器が回転し、追尾するボルトを放つ
+			5回目の攻撃では、武器が魔法の杖に変化する
+			バウンドするエネルギーを放ち、しばらくすると爆発する
+			6回目の攻撃で、武器は自動照準付きのレーザー銃に変形する
+			収納時にはミニオンに変身し、敵を攻撃する
+			「悪夢の理不尽な恐怖の現れ」
+			'''
+	}
+
+	RedCresent: {
+		DisplayName: レッドクレセント
+		Tooltip:
+			'''
+			敵に当たると自分に戻ってくるコウモリを放つ
+			コウモリは、与えたダメージの3分の1だけ血液を吸い上げる
+			<right>で他のプレイヤーを回復するコウモリを放つ
+			ブラッドサイフォンを15ポイント消費する
+			コウモリはライフを<healAmount>回復する
+			ブラッドサイフォン: <bloodSiphon>
+			「コウモリの素晴らしいバラード」
+			'''
+	}
+
+	MagicalHarp: {
+		DisplayName: "{$ItemName.MagicalHarp}"
+		Tooltip: ""
+	}
+
+	PickShapedPebble: {
+		DisplayName: ギターピックの形をした小石
+		Tooltip:
+			'''
+			タイルにぶつかったときにエフェクトが発動する特定の弦楽器の攻撃は、ヒット時にも発動する
+			「これぞロックだ！」
+			'''
+	}
+
+	PocketEnergyStorm: {
+		DisplayName: 小型エナジーストーム
+		Tooltip:
+			'''
+			対象をオーバーフローさせる不安定なエネルギーボールを発射する
+			溢れた敵はダメージが5%増加する。
+			<left>を押したままボールを溜めると、ボールが軌道を描く
+			<right>を離すとすべてのボールをカーソルの方向に発射する
+			エネルギーボールは一度に20個までしか持てない
+			体力は消耗しない
+			「ブルーボールの新しい意味」
+			'''
+	}
+
+	RepurposedStarCaller: {
+		DisplayName: 再利用されたスターコーラー
+		Tooltip:
+			'''
+			共に戦うスタースカウターのエレメンタルコアを召喚する
+			パイロコアは対象を焼き、バイオコアは毒を、クライオコアは凍傷を与える
+			「呼びかけに応じた。命令を。」
+			'''
+	}
+
+	SealedContract: {
+		DisplayName: 封印された契約
+		Tooltip:
+			'''
+			最大ライフが60増加
+			回復魔法のライフが5増加
+			ヒーラーの鎌が投擲物に当たった場合、ソウルエッセンスを与える
+			ヒーラーアーマーによる非神聖ダメージペナルティを無効化する
+			「契約成立だ！」
+			'''
+	}
+
+	Shellxophone: {
+		DisplayName: 深海の放浪冒険旅行記
+		Tooltip:
+			'''
+			追尾する深淵の一撃を伴う跳ね返る波紋を放つ
+			<right>は10インスピレーションを消費して味方を回復する追尾するしずくを発射する
+			味方が持つユニークなエンパワーメントのレベルに応じて回復量が増加する
+			「水底に潜む者たちを呼び集め、最高のシンフォニーを奏でよう」
+			'''
+	}
+
+	StellarTune: {
+		DisplayName: "{$ItemName.SparkleGuitar}"
+		Tooltip: "{$ItemTooltip.SparkleGuitar}"
+	}
+
+	ZephyrsRuin: {
+		DisplayName: ゼファーの破滅
+		Tooltip:
+			'''
+			クリティカルで敵を打ちのめす
+			体力を消耗しない
+			'''
+	}
+}
+
+Buffs: {
+	TerminalLucidity: {
+		DisplayName: 終末の明晰夢
+		Description:
+			'''
+			-Boss Mechanic-
+			このデバフが発動している間、ドリームイーターにダメージを与えることはできない
+			タイマーが切れると死亡する
+			安定した現実の裂け目に触れるとDPSチェックを開始し、タイマーをリセットすることができる
+			安定した現実の裂け目は明るい紫色のポータル
+			「運命が待っている...」
+			'''
+	}
+
+	SoulBleed: {
+		DisplayName: 魂の出血
+		Description: 魂が散り散りになっていく...
+	}
+
+	StarCalled: {
+		DisplayName: スター・コール
+		Description: 彼らはあなたの信号を受信した
+	}
+
+	LucidRetaliation: {
+		DisplayName: 明晰なる報復
+		Description:
+			'''
+			-Boss Mechanic-
+			このバフが発動している間、ドリームイーターはダメージを受けることがある
+			不安定な現実の裂け目による攻撃を受けると、このバフは早期に解除される
+			不安定な現実の裂け目の攻撃は黒い亀裂
+			無限に飛行ができる
+			「運命の到来」
+			'''
+	}
+}
+
+Configs: {
+	ReworkConfig: {
+		DisplayName: ビジュアル設定
+
+		flash: {
+			Label: 点滅の強さ
+			Tooltip: フラッシュの明暗
+		}
+
+		overlay: {
+			Label: オーバーレイ強度
+			Tooltip: スクリーンオーバーレイの透明度
+		}
+
+		seizures: {
+			Label: 光線過敏症の警告
+			Tooltip: ワールドに参加する際、光過敏症の警告が表示される。
+		}
+
+		bossRenames: {
+			Label: ボスの名前変更
+			Tooltip: このMODで追加されたボスの名前の変更を有効にする。
+		}
+	}
+
+	CompatConfig: {
+		DisplayName: 他MOD互換性設定
+
+		healthScale: {
+			Label: ボス体力倍率
+			Tooltip: トリウムのボスの体力をこの数値だけ増加させる。
+		}
+
+		damageScale: {
+			Label: ダメージ倍率
+			Tooltip: トリウムのボスの攻撃ダメージをこの数値だけ増加させる。
+		}
+
+		speedScale: {
+			Label: スピード倍率
+			Tooltip:
+				'''
+				トリウムのボスの移動速度が2倍になる。
+				ボスの移動速度は2倍に制限される。
+				インフェルナムでは1.35倍が推奨される。
+				'''
+		}
+
+		extraItems: {
+			Label: 追加アイテム内容
+			Tooltip:
+				'''
+				(オプション)
+				このMODとは関係のないアイテムを追加する
+				'''
+		}
+
+		masterDrops: {
+			Label: マスターモードドロップ
+			Tooltip:
+				'''
+				(おすすめ！）
+				トリウムのボスは、マスターモード、リベンジモード、エタニティモードで専用の武器をドロップする。
+				'''
+		}
+
+		masterDropsAreNonExclusive: {
+			Label: マスタードロップをエキスパートでもドロップ
+			Tooltip:
+				'''
+				エキスパートモードでマスターモード専用武器がドロップ。
+				マスターでプレイするのが嫌な場合や、他のMODがマスターモードを壊してしまう場合にお勧め。
+				(例：エタニティモードやインフェルナムモードなどマスターモードにすると不具合が生じるような場合に）
+				'''
+		}
+
+		itemReworks: {
+			Label: トリウムのアイテムのリワーク
+			Tooltip:
+				'''
+				(おすすめ！）
+				Thorium MODのいくつかのアイテムをより良いものに作り直す。
+				'''
+		}
+
+		postDoGRag: {
+			Label: 「Calamity」または「Fargo's Souls」のプライモーディアルズ
+			Tooltip:
+				'''
+				(おすすめ）
+				プリモーディアルのプログレッションがDoGより後になる
+				Fargo's SoulsではEridanusの前になる。
+				両方が有効な場合、その中間になる。
+				'''
+		}
+
+		vanillaBard: {
+			Label: ステラチューンとマジカルハープを吟遊詩人武器にする。
+			Tooltip: ステラチューンとマジカルハープが弦楽器になり、エンパワーメントを与えるようになる。
+		}
+
+		DoD: {
+			Label: 夢の破壊者（ジョーク設定）
+			Tooltip:
+				'''
+				Devourer of GodsとDream Eaterのオリジナル攻撃を与える。
+				バランスが取れているかどうかは不明。
+				'''
+		}
+
+		thorlamityBR: {
+			Label: Calamity Modのボスラッシュにトリウムボスを追加
+			Tooltip: トリウムボスをCalamity Modのボスラッシュでスポーンするようにする。
+		}
+	}
+
+	ReworkTogglesConfig: {
+		DisplayName: ボスリワーク設定
+
+		bird: {
+			Label: "[i:ThoriumMod/TheGrandThunderBirdMask]Grand Thunder Bird"
+			Tooltip: グランドサンダーバードのリワーク
+		}
+
+		jelly: {
+			Label: "[i:ThoriumMod/QueenJellyfishMask]Queen Jellyfish"
+			Tooltip: 女王クラゲのリワーク
+		}
+
+		bat: {
+			Label: "[i:ThoriumMod/ViscountMask]Viscount"
+			Tooltip: ヴァイカウントのリワーク
+		}
+
+		champ: {
+			Label: "[i:ThoriumMod/BuriedChampionMask]Buried Champion"
+			Tooltip: 埋もれた英雄のリワーク
+		}
+
+		ges: {
+			Label: "[i:ThoriumMod/GraniteEnergyStormMask]Granite Energy Storm"
+			Tooltip: グラニットエナジーストームのリワーク
+		}
+
+		scout: {
+			Label: "[i:ThoriumMod/StarScouterMask]Star Scouter"
+			Tooltip: スタースカウターのリワーク
+		}
+
+		coznix: {
+			Label: "[i:ThoriumMod/FallenBeholderMask]Coznix"
+			Tooltip: フォールンビホルダーのリワーク
+		}
+
+		lich: {
+			Label: "[i:ThoriumMod/LichMask]Lich"
+			Tooltip: リッチのリワーク
+		}
+
+		abyssion: {
+			Label: "[i:ThoriumMod/ForgottenOneMask]Abyssion"
+			Tooltip: 忘れ去られた者のリワーク
+		}
+
+		rag: {
+			Label: "[i:ThoriumMod/TheOmegaCore]Ragnarök"
+			Tooltip: プライモーディアルとドリームイーターのリワーク
+		}
+	}
+}
+

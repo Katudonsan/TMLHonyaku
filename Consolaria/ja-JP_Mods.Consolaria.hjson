@@ -1,0 +1,1864 @@
+Others: {
+	NPCTitle: "{0} {1}"
+}
+
+Biomes: {
+	RabbitInvasionBiome: {
+		DisplayName: Rabbit Invasion
+		TownNPCDialogueName: the Rabbit Invasion Biome
+	}
+}
+
+Buffs: {
+	Android: {
+		DisplayName: ペットのアンドロイド
+		Description: ピーッピーッ
+	}
+
+	Bat: {
+		DisplayName: ペットのコウモリ
+		Description: 血を求めている
+	}
+
+	Cupid: {
+		DisplayName: ペットのキューピッド
+		Description: 愛を愛している
+	}
+
+	Drone: {
+		DisplayName: ペットのドローン
+		Description: ドローンがあなたの後をついてくる
+	}
+
+	Drunk: {
+		DisplayName: 泥酔状態
+		Description:
+			'''
+			受けるダメージが50%減少
+			受けるダメージが50%減少
+			'''
+	}
+
+	EasterBunny: {
+		DisplayName: イースターのウサギ
+		Description: イースターバニーがあなたのために戦う
+	}
+
+	Elfa: {
+		DisplayName: ペットのエルファ
+		Description: トクベツなエルフだ！
+	}
+
+	EyeOfEternity: {
+		DisplayName: 永遠の瞳
+		Description: 永遠の眼があなたのために戦う
+	}
+
+	FruitfulPlate: {
+		DisplayName: 実り豊かなプレート
+		Description: メインディッシュはあなた
+	}
+
+	GoldenCarrotDebuff: {
+		DisplayName: 黄金のニンジンの呪い
+		Description:
+			'''
+			金色のニンジンが食べられなくなる
+			防御力が少し低下
+			「ニンジンは金だって言っただろ！！！」
+			'''
+	}
+
+	GoldenTurtle: {
+		DisplayName: ペットの金の亀
+		Description: レアな亀
+	}
+
+	GuineaPig: {
+		DisplayName: ペットのモルモット
+		Description: ただひたすら愛らしい
+	}
+
+	Leprechaun: {
+		DisplayName: ペットのレプラコーン・オフィフ
+		Description: コインがいっぱい
+	}
+
+	LilMarco: {
+		DisplayName: リル・マルコ
+		Description: 悪そのものがあなたの後を追っている
+	}
+
+	MythicalWyvernling: {
+		DisplayName: 神話のワイバーンリング
+		Description: 神話に登場するワイバーンがあなたを追っている
+	}
+
+	PetTurkey: {
+		DisplayName: ペットのターキー
+		Description: 大きくて肉厚の七面鳥
+	}
+
+	Slime: {
+		DisplayName: ペットのスライム
+		Description: 本物のスライムボール
+	}
+
+	SmallLepus: {
+		DisplayName: 赤ちゃんレパス
+		Description: 卵はまだ産めないんだ...まだね！
+	}
+
+	Stunned: {
+		DisplayName: 茫然自失
+		Description: 愛に痺れている
+	}
+
+	Tiphia: {
+		DisplayName: ペットのティフィア
+		Description: 刺されないように
+	}
+
+	WeirdTurkey: {
+		DisplayName: ヘンテコな七面鳥
+		Description: 変な七面鳥があなたのために戦う
+	}
+
+	Werewolf: {
+		DisplayName: ペットのウェアウルフ
+		Description: 人間の最良の友
+	}
+
+	Zombie: {
+		DisplayName: ペットのゾンビ
+		Description: 脳が足りないようだ
+	}
+
+	Fortuned: {
+		DisplayName: 幸運
+		Description: あなたはかなり幸運だと感じている
+	}
+
+	Worm: {
+		DisplayName: ペットのワーム
+		Description:魚のためではない
+	}
+
+	OldLady: {
+		DisplayName: ペットの老婦人
+		Description: 見た目で判断してはいけない
+	}
+}
+
+Items: {
+	SparklyWings: {
+		DisplayName: キラキラの翼
+		Tooltip: 空を飛ぶことができ、落下速度が低下
+	}
+
+	ValentineRing: {
+		DisplayName: バレンタインの指輪
+		Tooltip: ""
+	}
+
+	AncientPhantasmalHeadgear: {
+		DisplayName: 古代の幻影のヘッドギア
+		Tooltip:
+			'''
+			最大マナが50増加
+			魔法ダメージ10%増加
+			魔法クリティカル確率10%増加
+			'''
+	}
+
+	AncientPhantasmalRobe: {
+		DisplayName: 古代の幻影のローブ
+		Tooltip:
+			'''
+			最大マナを70%増加
+			魔法ダメージ15%増加
+			'''
+	}
+
+	AncientPhantasmalSubligar: {
+		DisplayName: 古代の幻影のサブリガ
+		Tooltip:
+			'''
+			最大マナが30%増加
+			魔法ダメージ5%増加
+			移動速度12%増加
+			'''
+	}
+
+	PhantasmalHeadgear: {
+		DisplayName: 幻影のヘッドギア
+		Tooltip:
+			'''
+			最大マナが50増加
+			魔法ダメージ10%増加
+			魔法クリティカル確率10%増加
+			'''
+		SetBonus: 近くの敵からマナを吸い取る
+	}
+
+	PhantasmalRobe: {
+		DisplayName: 幻影のローブ
+		Tooltip:
+			'''
+			最大マナを70%増加
+			魔法ダメージ15%増加
+			'''
+	}
+
+	PhantasmalSubligar: {
+		DisplayName: 幻影のサブリガ
+		Tooltip:
+			'''
+			最大マナが30%増加
+			魔法ダメージ5%増加
+			移動速度12%増加
+			'''
+	}
+
+	AncientDragonBreastplate: {
+		DisplayName: 古代のドラゴンプレート
+		Tooltip:
+			'''
+			近接攻撃ダメージ10%増加
+			近接クリティカル確率10%増加
+			近接攻撃速度が15%増加
+			'''
+	}
+
+	AncientDragonGreaves: {
+		DisplayName: 古代のドラゴングリーブ
+		Tooltip:
+			'''
+			近接攻撃ダメージ5%増加
+			近接クリティカル確率5%増加
+			移動速度20%増加
+			'''
+	}
+
+	AncientDragonMask: {
+		DisplayName: 古代のドラゴンマスク
+		Tooltip:
+			'''
+			近接攻撃ダメージ15%増加
+			近接攻撃速度が15%増加
+			'''
+	}
+
+	DragonBreastplate: {
+		DisplayName: ドラゴンプレート
+		Tooltip:
+			'''
+			近接攻撃ダメージ10%増加
+			近接クリティカル確率10%増加
+			近接攻撃速度が15%増加
+			'''
+	}
+
+	DragonGreaves: {
+		DisplayName: ドラゴングリーブ
+		Tooltip:
+			'''
+			近接攻撃ダメージ5%増加
+			近接クリティカル確率5%増加
+			移動速度20%増加
+			'''
+	}
+
+	DragonMask: {
+		DisplayName: ドラゴンマスク
+		Tooltip:
+			'''
+			近接攻撃ダメージ15%増加
+			近接攻撃速度が15%増加
+			'''
+		SetBonus: ダメージを受けた後、炎を発生させる
+	}
+
+	OstaraBoots: {
+		DisplayName: オスタラのブーツ
+		Tooltip: 最大5回のバニーホップが可能
+	}
+
+	OstaraHat: {
+		DisplayName: オスタラの帽子
+		Tooltip: 移動速度7％アップ
+		SetBonus: 落下ダメージを無効化
+	}
+
+	OstaraJacket: {
+		DisplayName: オスタラのジャケット
+		Tooltip: 移動速度7％アップ
+	}
+
+	AncientTitanHelmet: {
+		DisplayName: 古代のチタンヘルム
+		Tooltip:
+			'''
+			射撃ダメージ10%増加
+			範囲攻撃のクリティカル確率が10%増加
+			25%の確率で弾薬を消費しない
+			'''
+	}
+
+	AncientTitanLeggings: {
+		DisplayName: 古代のチタンレギンス
+		Tooltip:
+			'''
+			射撃ダメージ10%増加
+			移動速度が18%増加
+			15%の確率で弾薬を消費しない
+			'''
+	}
+
+	AncientTitanMail: {
+		DisplayName: 古代のチタンプレート
+		Tooltip:
+			'''
+			射撃ダメージ15%増加
+			範囲攻撃のクリティカル確率が10%増加
+			20%の確率で弾薬を消費しない
+			'''
+	}
+
+	TitanHelmet: {
+		DisplayName: チタンヘルメット
+		Tooltip:
+			'''
+			射撃ダメージ10%増加
+			範囲攻撃のクリティカル確率が10%増加
+			25%の確率で弾薬を消費しない
+			'''
+		SetBonus: 射撃武器を使用すると、反動で爆風が発生する
+	}
+
+	TitanLeggings: {
+		DisplayName: チタンレギンス
+		Tooltip:
+			'''
+			射撃ダメージ10%増加
+			移動速度が18%増加
+			15%の確率で弾薬を消費しない
+			'''
+	}
+
+	TitanMail: {
+		DisplayName: チタンプレート
+		Tooltip:
+			'''
+			射撃ダメージ15%増加
+			範囲攻撃のクリティカル確率が10%増加
+			20%の確率で弾薬を消費しない
+			'''
+	}
+
+	AncientWarlockHood: {
+		DisplayName: 古代のウォーロックフード
+		Tooltip:
+			'''
+			自分のミニオンの最大数を1増やす
+			召喚ダメージが20%増加する
+			'''
+	}
+
+	AncientWarlockLeggings: {
+		DisplayName: 古代のウォーロックレギンス
+		Tooltip:
+			'''
+			自分のミニオンの最大数を1増やす
+			召喚ダメージが20%増加する
+			移動速度15%増加
+			'''
+	}
+
+	AncientWarlockRobe: {
+		DisplayName: 古代のウォーロックローブ
+		Tooltip:
+			'''
+			自分のミニオンの最大数を1増やす
+			召喚ダメージが20%増加する
+			'''
+	}
+
+	WarlockHood: {
+		DisplayName: ウォーロックフード
+		Tooltip:
+			'''
+			自分のミニオンの最大数を1増やす
+			召喚ダメージが20%増加する
+			'''
+		SetBonus: ミニオンが敵を倒すとプレイヤーを回復する
+	}
+
+	WarlockLeggings: {
+		DisplayName: ウォーロックレギンス
+		Tooltip:
+			'''
+			自分のミニオンの最大数を1増やす
+			召喚ダメージが20%増加する
+			移動速度15%増加
+			'''
+	}
+
+	WarlockRobe: {
+		DisplayName: ウォーロックローブ
+		Tooltip:
+			'''
+			自分のミニオンの最大数を1増やす
+			召喚ダメージが20%増加する%
+			'''
+	}
+
+	AlbinoAntlionBanner: {
+		DisplayName: アルビノアントリオンのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Albino Antlion"
+	}
+
+	AlbinoChargerBanner: {
+		DisplayName: アルビノチャージャーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Albino Charger"
+	}
+
+	ArchDemonBanner: {
+		DisplayName: アークデーモンのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Arch Demon"
+	}
+
+	ArchWyvernBanner: {
+		DisplayName: アークワイバーンのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Arch Wyvern"
+	}
+
+	DisasterBunnyBanner: {
+		DisplayName: わざわいのウサギのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Diseaster Bunny"
+	}
+
+	DragonHornetBanner: {
+		DisplayName: ドラゴンホーネットのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Dragon Hornet"
+	}
+
+	DragonSkullBanner: {
+		DisplayName: ドラゴンスカルのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Dragon Skull"
+	}
+
+	DragonSnatcherBanner: {
+		DisplayName: ドラゴンスナッチャーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Dragon Snatcher"
+	}
+
+	FleshAxeBanner: {
+		DisplayName: フレッシュアックスのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Flesh Axe"
+	}
+
+	FleshMummyBanner: {
+		DisplayName: フレッシュマミーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Flesh Mummy"
+	}
+
+	FleshSlimeBanner: {
+		DisplayName: フレッシュスライムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Flesh Slime"
+	}
+
+	MythicalWyvernBanner: {
+		DisplayName: 神話のワイバーンのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Mythical Wyvern"
+	}
+
+	MythicalWyvern: {
+		DisplayName: 神話のワイバーンの凧
+		Tooltip: ""
+	}
+
+	OrcaBanner: {
+		DisplayName: シャチ
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Orca"
+	}
+
+	ShadowHammerBanner: {
+		DisplayName: シャドウハンマー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Shadow Hammer"
+	}
+
+	ShadowMummyBanner: {
+		DisplayName: シャドウマミー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Shadow Mummy"
+	}
+
+	ShadowSlimeBanner: {
+		DisplayName: シャドウスライム
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Shadow Slime"
+	}
+
+	SpectralElementalBanner: {
+		DisplayName: ゴーストエレメンタル
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Spectral Elemental"
+	}
+
+	SpectralGastropodBanner: {
+		DisplayName: スペクトロポッド
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Spectropod"
+	}
+
+	SpectralMummyBanner: {
+		DisplayName: ゴーストマミー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Spectral Mummy"
+	}
+
+	VampireMinerBanner: {
+		DisplayName: ヴァンパイアマイナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Vampire Miner"
+	}
+
+	LepusBag: {
+		DisplayName: トレジャーバッグ (レパス)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	LepusMask: {
+		DisplayName: ウサギのマスク
+		Tooltip: ""
+	}
+
+	LepusMusicBox: {
+		DisplayName: Music Box (Lepus)
+		Tooltip: ""
+	}
+
+	LepusRelic: {
+		DisplayName: レパスのレリック
+		Tooltip: ""
+	}
+
+	LepusTrophy: {
+		DisplayName: レパスのトロフィー
+		Tooltip: ""
+	}
+
+	OstarasGift: {
+		DisplayName: オスタラからの贈り物
+		Tooltip:
+			'''
+			敵が死亡すると、確率でチョコレートの卵を残す
+			卵は割るとライフハートとマナスターを落とす
+			'''
+	}
+
+	RabbitFoot: {
+		DisplayName: ウサギの足
+		Tooltip:
+			'''
+			レプスの赤ちゃんを召喚
+			「幸運は幻想だが、ウサギは幻想ではない！」
+			'''
+	}
+
+	CursedFang: {
+		DisplayName: 狂った牙
+		Tooltip:
+			'''
+			マルコを召喚する
+			「君は今、僕の友達だ」
+			'''
+	}
+
+	EerieOcramMusicBox: {
+		DisplayName: Music Box (Eerie Ocram)
+		Tooltip: ""
+	}
+
+	OcramBag: {
+		DisplayName: トレジャーバッグ（オクラム）
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	OcramMask: {
+		DisplayName: オクラムマスク
+		Tooltip: ""
+	}
+
+	OcramMusicBox: {
+		DisplayName: Music Box (Ocram)
+		Tooltip: ""
+	}
+
+	OcramRelic: {
+		DisplayName: オクラムのレリック
+		Tooltip: ""
+	}
+
+	OcramTrophy: {
+		DisplayName: オクラムトロフィー
+		Tooltip: ""
+	}
+
+	ShadowboundExoskeleton: {
+		DisplayName: 影縛の外骨格
+		Tooltip:
+			'''
+			{0} 近接ダメージ
+			 {1} をダブルタップでロケットジャンプができるようになる
+			'''
+	}
+
+	FruitfulPlate: {
+		DisplayName: 実り豊かなプレート
+		Tooltip: 騎乗可能なプレートを召喚
+	}
+
+	HornoPlenty: {
+		DisplayName: ごちそうの角笛
+		Tooltip: お祝い用の果実でいっぱい
+	}
+
+	TurkorBag: {
+		DisplayName: トレジャーバッグ（おんしらずタルコル）
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	TurkorMask: {
+		DisplayName: おんしらずタルコルのマスク
+		Tooltip: ""
+	}
+
+	TurkorMusicBox: {
+		DisplayName: Music Box (Turkor the Ungrateful)
+		Tooltip: ""
+	}
+
+	TurkorRelic: {
+		DisplayName: おんしらずタルコルのレリック
+		Tooltip: ""
+	}
+
+	TurkorTrophy: {
+		DisplayName: おんしらずタルコルのトロフィー
+		Tooltip: ""
+	}
+
+	HolyHandgrenade: {
+		DisplayName: 聖なる手榴弾
+		Tooltip:
+			'''
+			ほとんどのブロックを破壊する大爆発（現在バグがあります）
+			「選ばれし武器」
+			'''
+	}
+
+	HolyHandgrenade2: {
+		DisplayName: 聖なる手榴弾Ⅱ
+		Tooltip:
+			'''
+			ほとんどのブロックを破壊する大爆発（現在バグがあります）
+			「神に選ばれし武器」
+			'''
+	}
+
+	RedEnvelope: {
+		DisplayName: 赤い封筒
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	SoulOfBlightInABottle: {
+		DisplayName: 穢れのソウル入りの瓶
+		Tooltip: ""
+	}
+
+	Squib: {
+		DisplayName: ファイアークラッカー
+		Tooltip: ""
+	}
+
+	Wiesnbrau: {
+		DisplayName: ヴァイスブロイ
+		Tooltip: 被ダメージを減少させるが、与えるダメージも減少させる。
+	}
+
+	Wishbone: {
+		DisplayName: ウィッシュボーン
+		Tooltip: 季節のイベントを1日有効にする
+	}
+
+	RainbowPiece: {
+		DisplayName: 虹のかけら
+		Tooltip: 金のツボを作るのに使う
+	}
+
+	SoulofBlight: {
+		DisplayName: 穢れのソウル
+		Tooltip: "「穢れたマモノの エッセンス」"
+	}
+
+	WhiteThread: {
+		DisplayName: 白い糸
+		Tooltip: ""
+	}
+
+	GoldenCarrot: {
+		DisplayName: 金のニンジン
+		Tooltip:
+			'''
+			全ステータスの中程度の向上
+			全てのバフ時間を15秒増加
+			「黄金の人参がなぜここに！？」
+			'''
+	}
+
+	Beeswax: {
+		DisplayName: ミツロウ
+		Tooltip: ペットのチフィアを呼び出す
+	}
+
+	Brain: {
+		DisplayName: のうみそ
+		Tooltip: ペットのゾンビを呼び出す
+	}
+
+	BrokenHeart: {
+		DisplayName: こわれたハート
+		Tooltip: ペットのキューピッドを呼び出し、周りを照らす
+	}
+
+	Cabbage: {
+		DisplayName: キャベツ
+		Tooltip: ペットのモルモットを呼び出す
+	}
+
+	GoldenLantern: {
+		DisplayName: 金の灯籠
+		Tooltip: 神話に登場するワイバーンを呼び出し、周りを照らす
+	}
+
+	GoldenSeaweed: {
+		DisplayName: 黄金の海藻
+	Tooltip: 黄金の亀を呼び出す
+	}
+
+	HolidayBauble: {
+		DisplayName: ホリデーの飾り
+		Tooltip: ペットのエルファを呼び出す
+	}
+
+	MysteriousPackage: {
+		DisplayName: 謎のパッケージ
+		Tooltip: ペットのドローンを呼び出す
+	}
+
+	PetriDish: {
+		DisplayName: ペトリざら
+		Tooltip: ペットのスライムを呼び出す
+	}
+
+	PotOfGold: {
+		DisplayName: ポット・オー・ゴールド
+		Tooltip: ペットのレプラコーン・オフィーフを呼び出す
+	}
+
+	ShinyBlackSlab: {
+		DisplayName: 平たい機械
+		Tooltip: ペットのアンドロイドを呼び出す
+	}
+
+	TurkeyFeather: {
+		DisplayName: ターキーのはね
+		Tooltip: ペットのターキーを呼び出す
+	}
+
+	VialOfBlood: {
+		DisplayName: 血液入りのビン
+		Tooltip: ペットのコウモリを呼び出す
+	}
+
+	WolfFang: {
+		DisplayName: オオカミのキバ
+		Tooltip: ペットのウェアウルフを呼び出す
+	}
+
+	CursedStuffing: {
+		DisplayName: のろわれたターキー
+		Tooltip: おんしらずタルコルを召喚する
+	}
+
+	SuspiciousLookingEgg: {
+		DisplayName: あやしいタマゴ
+		Tooltip: レパスを召喚する
+	}
+
+	SuspiciousLookingSkull: {
+		DisplayName: あやしいドクロ
+		Tooltip: オクラムを召喚する
+	}
+
+	AlpineHat: {
+		DisplayName: アルパインハット
+		Tooltip: ""
+	}
+
+	AncientHerosHat: {
+		DisplayName: 古代の勇者の帽子
+		Tooltip: ""
+	}
+
+	AncientHerosPants: {
+		DisplayName: 古代の勇者のズボン
+		Tooltip: ""
+	}
+
+	AncientHerosShirt: {
+		DisplayName: 古代の勇者の服
+		Tooltip: ""
+	}
+
+	AncientPlumbersHat: {
+		DisplayName: 古代の配管工の帽子
+		Tooltip: ""
+	}
+
+	AncientPlumbersPants: {
+		DisplayName: 古代の配管工のズボン
+		Tooltip: ""
+	}
+
+	AncientPlumbersShirt: {
+		DisplayName: 古代の配管工の服
+		Tooltip: ""
+	}
+
+	ArchDemonMask: {
+		DisplayName: アークデーモンマスク
+		Tooltip: ""
+	}
+
+	ArchWyvernMask: {
+		DisplayName: アークワイバーンマスク
+		Tooltip: ""
+	}
+
+	DirndlBlouse: {
+		DisplayName: ディアンドルブラウス
+		Tooltip: ""
+	}
+
+	DirndlSkirt: {
+		DisplayName: ディアンドルスカート
+		Tooltip: ""
+	}
+
+	FabulousDress: {
+		DisplayName: 素敵なドレス
+		Tooltip: ""
+	}
+
+	FabulousRibbon: {
+		DisplayName: 素敵なリボン
+		Tooltip: "飛行とゆっくりとした落下を可能にする"
+	}
+
+	FabulousSlippers: {
+		DisplayName: 素敵なスリッパ
+		Tooltip: ""
+	}
+
+	FestiveTopHat: {
+		DisplayName: お祝いのトップハット
+		Tooltip: "「お祝いの季節に勝るものはないからね！」"
+	}
+
+	GeorgesHat: {
+		DisplayName: ジョージの帽子
+		Tooltip: "'Oh myyy!'"
+	}
+
+	GeorgesTuxedoPants: {
+		DisplayName: ジョージのタキシードズボン
+		Tooltip: "'Oh myyy!'"
+	}
+
+	GeorgesTuxedoShirt: {
+		DisplayName: ジョージのタキシードセット
+		Tooltip: "'Oh myyy!'"
+	}
+
+	HornedGodBoots: {
+		DisplayName: ツノガミのブーツ
+		Tooltip: "「いにしえの時代の 遺物」"
+	}
+
+	HornedGodMask: {
+		DisplayName: ツノガミのマスク
+		Tooltip: "「いにしえの時代の 遺物」"
+	}
+
+	HornedGodRobe: {
+		DisplayName: ツノガミのローブ
+		Tooltip: "「いにしえの時代の 遺物」"
+	}
+
+	Lederhosen: {
+		DisplayName: 革のパンツ
+		Tooltip: ""
+	}
+
+	Lederweste: {
+		DisplayName: 革のベスト
+		Tooltip: ""
+	}
+
+	MonokumaBody: {
+		DisplayName: モノクマボディ
+		Tooltip: ""
+	}
+
+	MonokumaHead: {
+		DisplayName: モノクマヘッド
+		Tooltip: ""
+	}
+
+	MonokumaLegs: {
+		DisplayName: モノクマレッグ
+		Tooltip: ""
+	}
+
+	MonomiBody: {
+		DisplayName: モノミボディ
+		Tooltip: ""
+	}
+
+	MonomiHead: {
+		DisplayName: モノミヘッド
+		Tooltip: ""
+	}
+
+	MonomiLegs: {
+		DisplayName: モノミレッグ
+		Tooltip: ""
+	}
+
+	MythicalLionMask: {
+		DisplayName: 神話のライオンマスク
+		Tooltip: ""
+	}
+
+	MythicalRobe: {
+		DisplayName: 神話のローブ
+		Tooltip: ""
+	}
+
+	ShirenHat: {
+		DisplayName: 三度笠
+		Tooltip: ""
+	}
+
+	ShirenPants: {
+		DisplayName: 風来人の腰当
+		Tooltip: ""
+	}
+
+	ShirenShirt: {
+		DisplayName: 風来人の服
+		Tooltip: ""
+	}
+
+	TorosBody: {
+		DisplayName: トロのからだ
+		Tooltip: ""
+	}
+
+	TorosHead: {
+		DisplayName: トロのあたま
+		Tooltip: ""
+	}
+
+	TorosLegs: {
+		DisplayName: トロのあし
+		Tooltip: ""
+	}
+
+	HeartArrow: {
+		DisplayName: ハートの矢
+		Tooltip:
+			'''
+			敵を麻痺させることがある
+			伝説の矢
+			'''
+	}
+
+	SpectralArrow: {
+		DisplayName: ゴーストアロー
+		Tooltip: タイルや敵を貫通するが、すぐに消滅する
+	}
+
+	VulcanBolt: {
+		DisplayName: バルカンボルト
+		Tooltip: ""
+	}
+
+	FeatherStorm: {
+		DisplayName: フェザーストーム
+		Tooltip: 空から羽を落とす
+	}
+
+	OcramsEye: {
+		DisplayName: オクラムの目
+		Tooltip: ""
+	}
+
+	RomanCandle: {
+		DisplayName:ローマンキャンドル
+		Tooltip: "「花火だ！」"
+	}
+
+	AlbinoMandible: {
+		DisplayName: アルビノアントリオンの下顎
+		Tooltip: "「驚くほど空気抵抗が少ない...」"
+	}
+
+	GreatDrumstick: {
+		DisplayName: 素晴らしい下もも肉
+		Tooltip:
+			'''
+			敵を油で覆う
+			油まみれの敵に火をつけると追加ダメージを与える
+			「大きなフライドポテトは好きだが、七面鳥のフライは嫌いだ」
+
+			'''
+	}
+
+	Tizona: {
+		DisplayName: ティソナ
+		Tooltip: ""
+	}
+
+	Tonbogiri: {
+		DisplayName: トンボギリ
+		Tooltip: "「ニッポンに伝わる伝説のヤリ」"
+	}
+
+	DragonBreath: {
+		DisplayName: ドラゴンブレス
+		Tooltip: ""
+	}
+
+	EggCannon: {
+		DisplayName: エッグキャノン
+		Tooltip: "「ゴブリンを倒すには卵を壊そう」"
+	}
+
+	Sharanga: {
+		DisplayName: シャランガ
+		Tooltip: 「矢をゴーストアローに変える」
+	}
+
+	SpicySauce: {
+		DisplayName: ピリ辛ソース
+		Tooltip:
+			'''
+			敵を油で覆う
+			オイルを塗った敵に火をつけて追加ダメージ
+			'''
+	}
+
+	VolcanicRepeater: {
+		DisplayName: バルカンリピーター
+		Tooltip: 矢をバルカンボルトに変える
+	}
+
+	EternityStaff: {
+		DisplayName: エタニティスタッフ
+		Tooltip: あなたのために戦う永遠の目を召喚する
+	}
+
+	TurkeyStuff: {
+		DisplayName: ターキーの杖
+		Tooltip: 変な七面鳥を召喚し、あなたのために戦わせる
+	}
+
+	GuaPiMao: {
+		DisplayName: Gua Pi Mao
+		Tooltip: ""
+	}
+
+	MythicalDogMask: {
+		DisplayName: 神話の犬のマスク
+		Tooltip: ""
+	}
+
+	MythicalDogPants: {
+		DisplayName: 神話の犬のズボン
+		Tooltip: ""
+	}
+
+	MythicalDogShirt: {
+		DisplayName: 神話の犬のシャツ
+		Tooltip: ""
+	}
+
+	TangSuitPants: {
+		DisplayName: Tang Suit Pants
+		Tooltip: ""
+	}
+
+	TangSuitShirt: {
+		DisplayName: Tang Suit Shirt
+		Tooltip: ""
+	}
+
+	TangYuanHat: {
+		DisplayName: Tang Yuan Hat
+		Tooltip: ""
+	}
+
+	TangYuanPants: {
+		DisplayName: Tang Yuan Pants
+		Tooltip: ""
+	}
+
+	TangYuanShirt: {
+		DisplayName: Tang Yuan Shirt
+		Tooltip: ""
+	}
+
+	McMoneypantsInvitation: {
+		DisplayName: 金色に輝く招待状
+		Tooltip: 裕福な人のために作られたように見える
+	}
+
+	SuspiciousLookingApple: {
+		DisplayName: あやしいリンゴ
+		Tooltip: ペットのワームを呼び出す
+	}
+
+	OldWalkingStick: {
+		DisplayName: 古い杖
+		Tooltip: ペットの老婆を召喚
+	}
+
+	WormTombstoneItem: {
+		DisplayName: 奇妙な墓石
+		Tooltip: ミミズみたいな墓石だろ？
+	}
+
+	Topper505: {
+		DisplayName: 505Gamesの飾り
+		Tooltip: "{0}"
+	}
+
+	StarTopper4: {
+		DisplayName: 4つの星飾り
+		Tooltip: "{0}"
+	}
+
+	PrestigiousTopHat: {
+		DisplayName: プレステージトップハット
+		Tooltip: Smells like a fresh bill!
+	}
+
+	ExampleKite: {
+		DisplayName: Example Kite
+		Tooltip: ""
+	}
+
+	CandiedFruit: {
+		DisplayName: フルーツの砂糖漬け
+		Tooltip: ""
+	}
+
+	MythicalWyvernKite: {
+		DisplayName: 神話のワイバーンの凧
+		Tooltip: ""
+	}
+
+	OktoberLocks: {
+		Tooltip: ""
+		DisplayName: オクトーバーロック
+	}
+
+	PurpleThread: {
+		Tooltip: ""
+		DisplayName: 紫の糸
+	}
+}
+
+NPCs: {
+	AlbinoAntlion: {
+		DisplayName: アルビノアントニオン
+		Bestiary: 稀な突然変異を持つアリオンの仲間は、おそらく甲殻が日光に弱いことを補うためか、さらに攻撃的である。
+	}
+
+	AlbinoCharger: {
+		DisplayName: アルビノチャージャー
+		Bestiary: まれに突然変異を起こし、色彩を失い、群れの仲間よりも凶暴になる個体もいる。
+	}
+
+	ArchDemon: {
+		DisplayName: アークデーモン
+		Bestiary: 強力な悪魔は、体が枯れ果てた抜け殻になるまで長生きする。
+	}
+
+	ArchWyvernHead: {
+		DisplayName: アークワイバーン
+		Bestiary: 伝説によれば、ワイバーンは火を噴くことができる。しかし、そのような力を得るほど長生きできる個体はほとんどいない。
+	}
+
+	ArchWyvernBody1: {
+		DisplayName: アークワイバーン
+	}
+
+	ArchWyvernBody2: {
+		DisplayName: アークワイバーン
+	}
+
+	ArchWyvernBody3: {
+		DisplayName: アークワイバーン
+	}
+
+	ArchWyvernLegs: {
+		DisplayName: アークワイバーン
+	}
+
+	ArchWyvernTail: {
+		DisplayName: アークワイバーン
+	}
+
+	BigEgg: {
+		DisplayName: レパスのタマゴ
+	}
+
+	ChocolateEgg: {
+		DisplayName: チョコレートエッグ
+	}
+
+	DisasterBunny: {
+		DisplayName: わざわいのウサギ
+		Bestiary: 狂暴なウサギの禍々しい産みの親で、虫のような目をしたこの生き物は、出くわしたものすべてに噛みつく。
+	}
+
+	Lepus: {
+		DisplayName: レパス
+		Bestiary: このウサギはカラフルな卵で繁殖する。春になると世界中にばらまかれ、愚か者が拾うことになる。
+
+		BossChecklistIntegration: {
+			SpawnInfo: 昼間に [i:Consolaria/SuspiciousLookingEgg] を使う。
+			DespawnMessage: レパスは去っていった！
+		}
+	}
+
+	SmallEgg: {
+		DisplayName: レパス
+	}
+
+	Ocram: {
+		DisplayName: オクラム
+		Bestiary: この忘れ去られた疫病神は、かつては強力な闇の皇帝だったが、今は地表の住人すべてに復讐しようとしている。
+
+		BossChecklistIntegration: {
+			SpawnInfo: 夜に [i:Consolaria/SuspiciousLookingSkull] を使う。
+			DespawnMessage: オクラムは影に消えていった！
+		}
+	}
+
+	ServantofOcram: {
+		DisplayName: オクラムのしもべ
+		Bestiary: オクラムから現れた邪悪なクリーチャーは、どんな手段を使っても主人を守るために現れた。
+	}
+
+	TurkorNeck: {
+		DisplayName: ターコールネック
+	}
+
+	TurkortheUngrateful: {
+		DisplayName: おんしらずタルコル
+		Bestiary: 純粋な腹いせから存在するこの怪物は、感謝祭の七面鳥を口にする勇気のある者に対して毎年復讐を続けている。
+
+		BossChecklistIntegration: {
+			EntryName: おんしらずタルコル
+			SpawnInfo: ペットの七面鳥を召喚した後、 [i:Consolaria/CursedStuffing] を使用する。
+			DespawnMessage: おんしらずタルコルがディナープレートから逃げていった！
+		}
+	}
+
+	TurkortheUngratefulHead: {
+		DisplayName: おんしらずタルコルの頭
+	}
+
+	DragonHornet: {
+		DisplayName: ドラゴンホーネット
+		Bestiary: 一般的なスズメバチの親戚であるこの昆虫は、敵を追い払うために変わった外見を発達させた。それでも十分でない場合は、毒針が仕事をするはずだ。
+	}
+
+	DragonSkull: {
+		DisplayName: ドラゴンスカル
+		Bestiary: 死霊術の呪文によって再加工された古代のドラゴンの頭部は、生者を捕食し、その呪いを犠牲者に分け与える。
+	}
+
+	DragonSnatcher: {
+		DisplayName: ドラゴンスナッチャー
+		Bestiary: この種のスナッチャーは、餌食になったホーネットの針を、より大きな標的を狩るために再利用することを学んだ。
+	}
+
+	FleshAxe: {
+		DisplayName: フレッシュアックス
+		Bestiary: クリムゾンの武器は、自らの意思で動き回り、敵を切り刻む。
+	}
+
+	FleshMummy: {
+		DisplayName: フレッシュマミー
+		Bestiary: 外の力によって砂が変質し、砂漠で眠らされた者たちが、善であれ悪であれ、今度は傷つけ殺すために立ち上がる。
+	}
+
+	FleshSlime: {
+		DisplayName: フレッシュスライム
+		Bestiary: クリムゾンの力に染まったスライムたちは、不純物を撒き散らすことができる。
+	}
+
+	GiantAlbinoCharger: {
+		DisplayName: ジャイアントアルビノチャージャー
+		Bestiary: まれに突然変異を起こし、色彩を失い、群れの仲間よりも凶暴になる個体もいる。
+	}
+
+	MythicalWyvernHead: {
+		DisplayName: 神話のワイバーン
+		Bestiary: 伝説の存在であるワイバーンは、1年のうち特定の時期にしか姿を現さない。
+	}
+
+	MythicalWyvernBody: {
+		DisplayName: 神話のワイバーン
+
+	}
+
+	MythicalWyvernBody2: {
+		DisplayName: 神話のワイバーン
+	}
+
+	MythicalWyvernBody3: {
+		DisplayName: 神話のワイバーン
+	}
+
+	MythicalWyvernLegs: {
+		DisplayName: 神話のワイバーン
+	}
+
+	MythicalWyvernTail: {
+		DisplayName: 神話のワイバーン
+	}
+
+	Orca: {
+		DisplayName: シャチ
+		Bestiary: 海にはクジラがいないため、この白黒の捕食者たちは、あなたを含め、何でも狩るのだ！
+	}
+
+	ShadowHammer: {
+		DisplayName: シャドウハンマー
+		Bestiary: 堕落の純粋な憎悪によって魔法をかけられたこの武器は、呼吸するものすべてを粉砕しようと暴れまわる。
+	}
+
+	ShadowMummy: {
+		DisplayName: シャドウマミー
+		Bestiary: 外の力によって砂が変質し、砂漠で眠らされた者たちが、善であれ悪であれ、今度は傷つけ殺すために立ち上がる。
+	}
+
+	ShadowSlime: {
+		DisplayName: シャドウスライム
+		Bestiary: 腐敗の力に染まったスライムは、不純物を撒き散らすことができる。
+	}
+
+	SpectralElemental: {
+		DisplayName: ゴーストエレメンタル
+		Bestiary: 時には放たれた光の精霊がカオス・エレメンタルをより強力な存在へと変貌させ、爆発的なスペクタル・ルーンを設置しながら物質界を自在に出入りする能力を与えることもあった。
+	}
+
+	SpectralGastropod: {
+		DisplayName: スペクトロポッド
+		Bestiary: かつては普通の腹足類だったが、光の精霊に取り憑かれたこのスライムは、濃縮された光エネルギーの球を吐き出すことができる。
+	}
+
+	SpectralMummy: {
+		DisplayName: ゴーストマミー
+		Bestiary: このミイラたちの溢れ出る光エネルギーは、ボロボロになった体を非常に不安定なものにしていた。
+	}
+
+	VampireMiner: {
+		DisplayName: ヴァンパイアマイナー
+		Bestiary: 何人かの採掘者は、亡くなる前に吸血コウモリに噛まれていた...。今、彼らの腐った亡骸が血を求めている。
+	}
+
+	McMoneypants: {
+		DisplayName: Mc リッチパンツ
+		Bestiary: 派手でカリスマ的なマック・マネー・パンツは、誰の生活も楽にしてくれる立派な男爵だ...。対価を払えば！
+		AlreadyInvested1: 金はいくらあっても足りないが、今日のところはもうお前に飽きたよ。
+		AlreadyInvested2: 悪いが、俺のポケットはすでにいっぱいさ。
+		AlreadyInvested3: 今日の運は使い切ったな。
+		AlreadyInvested4: 欲張りすぎるなよ。あのギリシャの奴みたいになりたくなければな。
+		PlayerHasNoMoney1: 残念だが、信用取引はしないんだ。もうちょっと…うーん…金持ちになってから来てくれ。
+		PlayerHasNoMoney2: 俺は慈善事業をやってるわけじゃないんだよ…
+		PlayerHasNoMoney3: 金を見せてから話そうじゃないか。
+		PlayerHasNoMoney4: バウチャーで払えるわけないだろう。
+		FirstTimeInvested1: フェラガモゴールド！
+		FirstTimeInvested2: 取引成立だ。お前の運も上がるぞ！
+		FirstTimeInvested3: 今日はお前のラッキーデーだな。
+		FirstTimeInvested4: 素晴らしい投資だ！お前は運がいい。
+		WhenInvested1: 時間は金だ。また明日来て、もっと使いな！
+		WhenInvested2: 安心しろ、これはポンジスキームじゃない。
+		WhenInvested3: 資産を増やしている途中だ…
+		WhenInvested4: 何度言えばわかる？返金はしないぞ！
+		WhenInvested5: 俺のペンはどこだ？まさか契約書にサインした後に盗んだんじゃないだろうな？
+		WhenInvested6: 取引できて嬉しいぜ！また明日、取引を更新しよう。
+		WhenInvested7: 最後に言っておくが、インフレについて質問するのはもうやめてくれ！
+		WhenInvested8: 買い上げだ！いや、売り払え！…ああ、お前か。
+		Quote1: 正直言って、俺の考えにペニー1枚じゃ安すぎるぜ。
+		Quote2: 昨日見たモンスターの数だけニッケルがあれば、さらに金持ちになって、少しは怖くなくなったかもな。
+		Quote3: あの忌々しいスライムどもが、俺のコインを飲み込もうとするんだよ！
+		Quote4: 金が世界を回してるっていうけど、この場所はだいぶ貧しいな。さあ、変えてやろうぜ！
+		Quote5: まるで金の機械になった気分だ！
+		Quote6: 金の何が好きかって？俺がたくさん持っていることさ！
+		Quote7: 一つだけ約束しよう。俺は成功した案件で評価されることは期待しない。むしろ失敗した案件で評価してくれ。なぜならほとんど失敗していないからさ。
+		Quote8: あの希少な土ブロックの価値が上がったら、俺は億万長者だ！
+		Quote9: 俺のアドバイス？そのひどい銃でコインを撃つのはやめておけ。
+		Quote10: ビットコインだって？なぜ俺がコインに負ける必要がある？
+
+		TownNPCMood: {
+			Content: 俺は満足だ。
+			NoHome: 家がないのは嫌だな。
+			FarFromHome: 家から遠すぎるのはちょっとな。
+			LoveSpace: こんなに広いスペースがあるのは最高だ。
+			DislikeCrowded: 混雑しているのは気に入らないな。
+			HateCrowded: この混雑ぶりは本当に嫌だ。
+			LikeNPC_Princess: 俺は{NPCName}が好きだ。
+			Princess_LovesNPC: " {NPCName}、お前はいい奴だ。"
+		}
+	}
+}
+
+Projectiles: {
+	Stomp: {
+		DisplayName: Lepus Stomp
+	}
+
+	ArchFlames: {
+		DisplayName: Arch Flames
+	}
+
+	ArchScythe: {
+		DisplayName: Arch Scythe
+	}
+
+	FireTrail: {
+		DisplayName: Fire Trail
+	}
+
+	OcramLaser1: {
+		DisplayName: Ocram Laser
+	}
+
+	OcramLaser2: {
+		DisplayName: Ocram Laser
+	}
+
+	OcramScythe: {
+		DisplayName: Supreme Demon Scythe
+	}
+
+	OcramSkull: {
+		DisplayName: Dread Skull
+	}
+
+	SpectralBomb: {
+		DisplayName: Spectral Bomb
+	}
+
+	SpectrallBall: {
+		DisplayName: Spectrall Ball
+	}
+
+	TurkorFeather: {
+		DisplayName: Turkor's Feather
+	}
+
+	TurkorKnife: {
+		DisplayName: Turkor's Knife
+	}
+
+	AlbinoMandible: {
+		DisplayName: Albino Mandible
+	}
+
+	DreadSkull: {
+		DisplayName: Dread Skull
+	}
+
+	EasterBunny: {
+		DisplayName: Easter Bunny
+	}
+
+	EasterEgg: {
+		DisplayName: Easter Egg
+	}
+
+	EternalLaser: {
+		DisplayName: Eternal Laser
+	}
+
+	EternalScythe: {
+		DisplayName: Eternal Scythe
+	}
+
+	EyeOfEternity: {
+		DisplayName: Eye of Eternity
+	}
+
+	HeartArrow: {
+		DisplayName: Heart Arrow
+	}
+
+	HolyHandgrenade: {
+		DisplayName: Holy Hand Grenade
+	}
+
+	HolyHandgrenade2: {
+		DisplayName: Holy Hand Grenade II
+	}
+
+	ManaDrain: {
+		DisplayName: Mana Drain
+	}
+
+	OcramEyeGlow: {
+		DisplayName: Ocram Eye Glow
+	}
+
+	OcramEyeLaser: {
+		DisplayName: Ocram Eye Laser
+	}
+
+	AndroidGuy: {
+		DisplayName: Android Guy
+	}
+
+	Bat: {
+		DisplayName: Bat
+	}
+
+	Cupid: {
+		DisplayName: Cupid
+	}
+
+	Drone: {
+		DisplayName: Drone
+	}
+
+	Elfa: {
+		DisplayName: Elfa
+	}
+
+	GoldenTurtle: {
+		DisplayName: Golden Turtle
+	}
+
+	GuineaPig: {
+		DisplayName: Guinea Pig
+	}
+
+	Leprechaun: {
+		DisplayName: Leprechaun
+	}
+
+	LilMarco: {
+		DisplayName: Lil Marco
+	}
+
+	MythicalWyvernling: {
+		DisplayName: Mythical Wyvernling
+	}
+
+	PetTurkey: {
+		DisplayName: Turkey
+	}
+
+	Slime: {
+		DisplayName: Slime
+	}
+
+	SmallLepus: {
+		DisplayName: Baby Lepus
+	}
+
+	Tiphia: {
+		DisplayName: Tiphia
+	}
+
+	Werewolf: {
+		DisplayName: Werewolf
+	}
+
+	Zombie: {
+		DisplayName: Zombie
+	}
+
+	RomanFlame: {
+		DisplayName: Roman Flame
+	}
+
+	RomanFlameFinal: {
+		DisplayName: Roman Flame Final
+	}
+
+	RomanFlameMid: {
+		DisplayName: Roman Flame Mid
+	}
+
+	ShadowflameBreath: {
+		DisplayName: Shadowflame Breath
+	}
+
+	ShadowflameBurst: {
+		DisplayName: Shadowflame Burst
+	}
+
+	SharpFeather: {
+		DisplayName: Sharp Feather
+	}
+
+	SpectralArrow: {
+		DisplayName: Spectral Arrow
+	}
+
+	SpectralSpirit: {
+		DisplayName: Spectral Spirit
+	}
+
+	SpicyExplosion: {
+		DisplayName: Spicy Explosion
+	}
+
+	SpicySauce: {
+		DisplayName: Spicy Sauce
+	}
+
+	Squib: {
+		DisplayName: Fiery Cracker
+	}
+
+	TitanBlast: {
+		DisplayName: Titan Blast
+	}
+
+	TonbogiriSpear: {
+		DisplayName: Tonbogiri
+	}
+
+	TurkeyHead: {
+		DisplayName: Weird Turkey
+	}
+
+	VulcanBlast: {
+		DisplayName: Vulcan Blast
+	}
+
+	VulcanBolt: {
+		DisplayName: Vulcan Bolt
+	}
+
+	"Lepus Stomp": {
+		DisplayName: Lepus Stomp
+	}
+
+	"": {
+		DisplayName: ""
+	}
+
+	TizonaProjectile: {
+		DisplayName: Tizona
+	}
+
+	TizonaShoot: {
+		DisplayName: Tizona
+	}
+
+	Worm: {
+		DisplayName: Worm
+	}
+
+	OldLady: {
+		DisplayName: Old Lady
+	}
+
+	WormTombstone: {
+		DisplayName: Strange Looking Tombstone
+	}
+
+	McMoneypantsAttackProjectile: {
+		DisplayName: Mc Moneypants Attack Projectile
+	}
+
+	Explosion: {
+		DisplayName: Explosion
+	}
+
+	ExampleKiteProjectile: {
+		DisplayName: Example Kite Projectile
+	}
+
+	MythicalWyvernProjectile: {
+		DisplayName: Mythical Wyvern Projectile
+	}
+
+	MythicalWyvernKiteProjectile: {
+		DisplayName: Mythical Wyvern Kite Projectile
+	}
+}
+
+Tiles: {
+	EerieOcramMusicBox: {
+		MapEntry: Music Box
+	}
+
+	LepusMusicBox: {
+		MapEntry: Music Box
+	}
+
+	OcramMusicBox: {
+		MapEntry: Music Box
+	}
+
+	SanctumLantern: {
+		MapEntry: Carriage Lantern
+	}
+
+	SoulOfBlightInABottleTile: {
+		MapEntry: Soul of Blight in a Bottle
+	}
+
+	TurkorMusicBox: {
+		MapEntry: Music Box
+	}
+
+	WormTombstoneTile: {
+		MapEntry: Tombstone
+	}
+}
+
+Conditions: {
+	SellingDuringThanksgiving: Mods.Consolaria.Conditions.SellingDuringThanksgiving
+	SellingDuringOktoberfest: Mods.Consolaria.Conditions.SellingDuringOktoberfest
+	SellingDuringValentineDay: Mods.Consolaria.Conditions.SellingDuringValentineDay
+	SellingIfMale: Mods.Consolaria.Conditions.SellingIfMale
+	SellingWhenWoman: Mods.Consolaria.Conditions.SellingWhenWoman
+}
+
+Configs: {
+	ConsolariaConfig: {
+		DisplayName: 設定
+
+		Headers: {
+			SeasonalEvents: 季節のイベント
+			Miscellaneous: その他
+		}
+
+		easterEnabled: {
+			Label: システムの日付で季節のコンテンツを制限する（イースター）
+			Tooltip:
+				'''
+				有効にすると、イースター期間中のみ、関連するアイテムや敵が出現します。
+				4月1日～4月30日
+				'''
+		}
+
+		thanksgivingEnabled: {
+			Label: システム日付による季節コンテンツの制限（感謝祭）
+			Tooltip:
+				'''
+				有効にすると、感謝祭期間中のみ、関連するアイテムや敵が出現します。
+				11月1日～11月30日
+				'''
+		}
+
+		smallEventsEnabled: {
+			Label: 季節のコンテンツをシステムの日付で制限する（その他のイベント）
+			Tooltip: 有効な場合、該当するアイテムや敵は、該当する休日中、またはウィッシュボーン使用時のみ出現する。
+		}
+
+		vanillaBossMusicEnabled: {
+			Label: コンソラリアのボスのためのバニラ・ミュージック
+			Tooltip: 有効にすると、カスタムサウンドトラックは、コンソール版で元々使用されていたテーマに置き換えられる。
+		}
+
+		tizonaZenithIntegrationEnabled: {
+			Label: TizonaのZenithへの統合
+			Tooltip: 有効にすると、ZenithのクラフトレシピにTizonaが追加される。
+		}
+
+		oktoberLocksEnabled: {
+			Label: Oktober Locks vanity item
+			Tooltip: 有効にすると、オクトーバーフェスト期間中、Clothierでオクトーバーロックを購入できるようになる。
+		}
+
+		mythicalWyvernKiteVanillaDropruleEnabled: {
+			Label: 神話のワイバーンの凧のバニラ・ドロップルール
+			Tooltip: 有効化した場合、神話のワイバーンの凧は風の強い日の間、赤い封筒からではなく神話のワイバーンから4%の確率でドロップするようになる。
+		}
+
+		heartbeatariaIntegrationEnabled: {
+			Label: Heartbeataria Modの統合
+			Tooltip: 有効にすると、Heartbeataria Mod専用アイテムをRed Envelopeから入手できる。
+		}
+
+		originalAncientHeroSetRecipeEnabled: {
+			Label: オリジナルの古代の勇者セットのクラフトレシピ
+			Tooltip: 有効にすると、古代英雄のセットは、煌めきの代わりに織機で絹糸と紫糸を使って作ることができる。
+		}
+
+		genderRestrictShopEnabled: {
+			Label: ジョージのセットとファビュラスのセットをプレイヤーの性別で制限する
+			Tooltip:
+				'''
+				有効にすると、ブラッドムーンの間、プレイヤーの性別が特定の場合のみ、関連するセットがクロティエのショップに出現します。
+				男性 - ジョージのセット
+				女性 - ファビュラスセット
+				'''
+		}
+	}
+}
+
+Achievements: {
+	KillLepus: {
+		Name: ウサギの絶望
+		Description: イースター最大のトラブルメーカー、レパスを倒せ。
+	}
+
+	KillTurkor: {
+		Name: ケンタッキーフライドターキー
+		Description: 燃え盛る感謝祭の怪物、おんしらずタルコルを倒せ。
+	}
+
+	KillOcram: {
+		Name: 獣の聖書
+		Description: 星のない空に取り憑いた呪われた悪魔、オクラムを倒せ。
+	}
+}
+
+Emotes: {
+	McMoneyPantsEmote: {
+		Command: mcmoneypants
+	}
+
+	TurkorEmote: {
+		Command: turkor
+	}
+
+	OcramEmote: {
+		Command: ocram
+	}
+
+	LepusEmote: {
+		Command: lepus
+	}
+}
+

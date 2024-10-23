@@ -1,21 +1,32 @@
-steamid, name, displayname, translator, version, note
-2599842771, AlchemistNPCLite, AlchemistNPC Lite, hazamax405, ,
-2658783282, ApacchiisClassesMod2, Apacchii's Classes: Reborn, hazamax405, ,
-2773928114, BetterExtractinator, Better Extractinator, , ,
-3018208290, BSWLmod, Block's Leveling Mod, hazamax405, ,
-2669644269, BossChecklist, Boss Checklist, , ,
-2816694149, BossCursor, Boss Cursor, , ,
-2824688072, CalamityMod, Calamity Mod, hazamax405, ,
-2563784437, CheatSheet, Cheat Sheet, , ,
-2567580488, FargoEnemyModifiers, Fargo's Enemy Modifiers, , ,
-2570931073, Fargowiltas, Fargo's Mutant Mod, , ,
-2828041071, imkSushisMod, imkSushi's Mod, hazamax405, ,
-2837407674, LansUnlimitedBuffSlots, Lan's Unlimited Buff Slots, , ,
-2831752947, miningcracks_take_on_luiafk, LuiAFK Reborn, , ,
-2563309347, MagicStorage, Magic Storage, hazamax405, ,
-2621278406, MoreZenith, MoreZenithItems, , ,
-2797518634, ImproveGame, Quality of Terraria, hazamax405, ,
-2619954303, RecipeBrowser, Recipe Browser, , ,
-2562997415, ShorterRespawn, Shorter Respawn Time, , ,
-2839001756, UnofficialCalamityWhips, Unofficial Calamity Whips,hazamax405 , ,
-2563851005, WMITF, Which Mod Is This From? (WMITF), , ,
+steamid,name,display name,main translator,version,note
+2599842771,AlchemistNPCLite,AlchemistNPC Lite,hazamax405,,
+2658783282,ApacchiisClassesMod2,Apacchii's Classes: Reborn,hazamax405,,
+2773928114,BetterExtractinator,Better Extractinator,,,
+3018208290,BSWLmod,Block's Leveling Mod,hazamax405,,
+2669644269,BossChecklist,Boss Checklist,,,
+2816694149,BossCursor,Boss Cursor,,,
+2824688072,CalamityMod,Calamity Mod,hazamax405,,
+2563784437,CheatSheet,Cheat Sheet,,,
+2567580488,FargoEnemyModifiers,Fargo's Enemy Modifiers,,,
+2570931073,Fargowiltas,Fargo's Mutant Mod,,,
+2828041071,imkSushisMod,imkSushi's Mod,hazamax405,,
+2837407674,LansUnlimitedBuffSlots,Lan's Unlimited Buff Slots,,,
+2831752947,miningcracks_take_on_luiafk,LuiAFK Reborn,,,
+2563309347,MagicStorage,Magic Storage,hazamax405,,
+2621278406,MoreZenith,MoreZenithItems,,,
+2797518634,ImproveGame,Quality of Terraria,hazamax405,,
+2619954303,RecipeBrowser,Recipe Browser,,,
+2562997415,ShorterRespawn,Shorter Respawn Time,,,
+2839001756,UnofficialCalamityWhips,Unofficial Calamity Whips,hazamax405 ,,
+2563851005,WMITF,Which Mod Is This From? (WMITF),,,
+2909886416,ThoriumMod,Thorium Mod,Hurugitune,1.7.1.6,ブロック以外は全て翻訳済み。ほとんど推敲済み。
+3114886209,RagnarokMod,Ragnarok,Hurugitune,1.4.2.1,全て翻訳済み。ほとんど推敲済み。
+3070717963,ThoriumRework,Thorium Bosses Reworked,Hurugitune,0.9.4,全て翻訳済み。ほとんど推敲済み。
+3015412343,InfernumMode,Calamity Mod Infernum Mode,Hurugitune,2.0.1.14,バフ以外はほぼ全て翻訳済み。ほとんど推敲済み。
+3142064272,CalamityBardHealer,Unofficial Calamity Bard & Healer,Hurugitune,0.9.1,全て翻訳済み。ほとんど推敲済み。
+2864849706,CampingMod,Camping,Hurugitune,3.0.2,全て翻訳済み。推敲済み。
+2864843929,Consolaria,Consolaria,Hurugitune,2.1.1,全て翻訳済み。ほとんど推敲済み。一部重大なバグがあるアイテムがあったので注意書きを追加。修正され次第削除。
+2838015851,CatalystMod,Catalyst Mod,Hurugitune,1.1.2.3,全て翻訳済み。ほとんど推敲済み。
+3273327692,StartingClassWeapons,Starting Class Weapons,Hurugitune,0.1.6,全て翻訳済み。推敲済み。
+3281805198,LowHealthEffects,Low Health Effects,Hurugitune,1.0.4,全て翻訳済み。推敲途中。
+2979448082,SummonsUI,Summoner UI (Latest Stable Release),Hurugitune,1.3.2,全て翻訳済み。推敲途中。
