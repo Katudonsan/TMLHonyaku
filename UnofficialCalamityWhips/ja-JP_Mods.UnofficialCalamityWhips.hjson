@@ -1,0 +1,623 @@
+# hazamax405様より
+
+Config: {
+	ItemHeader: Config
+
+	WhipDamageModifier: {
+		Label: 鞭ダメージ倍率
+		Tooltip: このMODに含まれるすべての鞭のダメージを、選択した数値で修正する。これはMODのバフやナーフに使用する
+	}
+}
+
+Items: {
+	WulfrumChain: {
+		Tooltip:
+			'''
+			あなたのミニオンは、敵を集中攻撃する
+			薄っぺらいけど、仕方ない
+			'''
+		DisplayName: ウルフラムチェイン
+	}
+
+	StaticScourge: {
+		Tooltip:
+			'''
+			射程が短く、電光石火の速さの鞭
+			敵に静電気を与え、ミニオンが放電して火花を散らす
+			'''
+		DisplayName: スタティックスカージ
+	}
+
+	FungalFlailItem: {
+		Tooltip:
+			'''
+			4召喚タグダメージ
+			ミニオンのヒット時にホーミングキノコを召喚し、自分を回復する
+			食べられません
+			'''
+		DisplayName: 菌類のフレイル
+	}
+
+	SkySplitterItem: {
+		Tooltip:
+			'''
+			5召喚タグダメージ
+			鞭に飛行時間回復能力を与える
+			羽のように軽い
+			'''
+		DisplayName: スカイスプリッター
+	}
+
+	CongeledDuoWhip: {
+		Tooltip:
+			'''
+			10召喚タグダメージ
+			左クリックで2本のぬるぬるした鞭を同じ方向に放つ
+			右クリックでチャージし、2本のぬるぬるした鞭を反対方向に放つ
+			'''
+		DisplayName:凝結したデュオウィップ
+	}
+
+	SulphuricScourge: {
+		Tooltip: ミニオンが空気中に有毒な雲を放出する
+		DisplayName: サルファリックスカージ
+	}
+
+	DaedalusWhipItem: {
+		Tooltip:
+			'''
+			11召喚タグダメージ
+			氷片に分裂する浮遊雪玉をタグに召喚する
+			クライオジェンのパワーが染み込んでいる
+			'''
+		DisplayName: デッダラスウィップ
+	}
+
+	PrismBreak: {
+		Tooltip:
+			'''
+			ミニオンがクリスタルの榴弾を放つ
+			-コミュニティデザインアイテム-
+			'reldandle'によってデザインされました
+			'''
+		DisplayName: プリズムブレイク
+	}
+
+	BrimstoneLash: {
+		Tooltip:
+			'''
+			ブリムストーンの炎を与える
+			ミニオンがヒットすると、ブリムストーンの爆発を起こす
+			ゲヘナの炎の中でのたうち回る
+			'''
+		DisplayName: ラッシュ・オブ・ラングィッシュ
+	}
+
+	StellarWindItem: {
+		Tooltip:
+			'''
+			アストラル感染を与える
+			ミニオンがヒットするとアストラルの星を降らせる
+			'''
+		DisplayName: ステラーウィンド
+	}
+
+	SandstoneReigns: {
+		Tooltip:
+			'''
+			ミニオンは凶暴なサンドシャークを召喚し、タッグを組ませる
+			今日見たことを知らせよう
+			'''
+		DisplayName: 忘れ去られたプレデター
+	}
+
+	RightousDawn: {
+		Tooltip:
+			'''
+			ミニオンのヒット時に星屑イカを放つ
+			月に向かって撃てば、星の間に着地する
+			'''
+		DisplayName: スタースクラッパー
+	}
+
+	ResonateStriker: {
+		Tooltip: ヒットするたびに純粋な共鳴を与え、移動速度と近接攻撃速度を増加させる
+		DisplayName: レゾナントストライカー
+	}
+
+	RighteousDawnTwo: {
+		Tooltip:
+			'''
+			聖なる炎を与える
+			ターゲットの近くにいると、自分のミニオンが回復と、より大きな耐性を付与する
+			真の王は兵を率いて戦いに赴く
+			'''
+		DisplayName: ライチェスダウン
+	}
+
+	UnrelentingTorment: {
+		Tooltip:
+			'''
+			恐ろしい爪を放つ
+			あなたのミニオンは、あの世から実体のない爪を呼び寄せるだろう
+			'''
+		DisplayName: 容赦ないトーメント
+	}
+
+	SlimySling: {
+		Tooltip: 鞭の射程距離が8%増加
+		DisplayName: ネバネバしたフィンガー
+	}
+
+	GelatinousGlove: {
+		Tooltip:
+			'''
+			近接攻撃と鞭の速度が12%増加
+			近接武器と鞭のオートスイングを有効にする
+			鞭の射程距離が15%増加
+			ボス以外の敵の動きを遅くする
+			鞭がヒットした後、バーストスピードを与える
+			'''
+		DisplayName: ウォーングリップ
+	}
+
+	CrystalLodestone: {
+		Tooltip: 鞭が爆発する岩を放つ
+		DisplayName: フォビドゥンリメイン
+	}
+
+	FossilizedAmber: {
+		Tooltip: 鞭がヒットした後、防御力が8上がる
+		DisplayName: 化石化した琥珀
+	}
+
+	CrystalOfResilience: {
+		Tooltip:
+			'''
+			鞭が爆発する岩を放つ
+			鞭がヒットした後、防御力が8上がる
+			採掘速度20％アップ、ダメージ5％軽減、地下や地下世界での防御力+10
+			'''
+		DisplayName: 結晶化した天然磁石
+	}
+
+	Centauri: {
+		Tooltip:
+			'''
+			50召喚タグダメージ
+			惑星を投げることができる
+			最も近いが、遥か彼方...
+			'''
+		DisplayName: プロキシマ・ケンタウリ
+	}
+
+	FlinxFurMitten: {
+		Tooltip:
+			'''
+			近接攻撃と鞭の速度が12%増加
+			近接武器と鞭のオートスイングを有効にする
+			混乱に耐性のない敵の動きを遅くする
+			鞭の射程距離が8%増加
+			'''
+		DisplayName: フリンクスファーミトン
+	}
+
+	RingOfAlacrity: {
+		Tooltip: 鞭がヒットした後、移動速度が10%増加する
+		DisplayName: 敏速の指輪
+	}
+
+	SuspiciousLeafExtract: {
+		Tooltip: 鞭がヒットした後、周回する葉の輪を生み出す
+		DisplayName: サスピシャスリーフエクストラクト
+	}
+
+	BoulderItem: {
+		Tooltip: 鞭が岩を打ち出す
+		DisplayName: ストーンラブル
+	}
+
+	BlossomsBlessingItem: {
+		Tooltip:
+			'''
+			鞭がヒットした後、花の祝福を与える
+			25％の確率で胞子を放つ
+			30召喚タグダメージ
+			召喚獣は攻撃された敵を狙う
+			'''
+		DisplayName: 花の祝福
+	}
+
+	CoralCrusherItem: {
+		Tooltip:
+			'''
+			ミニオンが珊瑚のかけらを召喚する
+			6召喚タグダメージ
+			召喚獣は攻撃された敵を狙う
+			'''
+		DisplayName: サンゴクラッシャー
+	}
+
+	DevourersMaw: {
+		Tooltip:
+			'''
+			ヒット時に Devourer's Hunger を注入し、攻撃すればするほどパワーを与える
+			ゴッドスレイヤーインフェルノを与える
+			-コミュニティデザインアイテム-
+			'MothEggs, Paige, and KumaTerra'によってデザインされました
+			'''
+		DisplayName: デバウアーズ・マウ
+	}
+
+	SirensSerenityItem: {
+		Tooltip:
+			'''
+			リヴァイアサンとアナヒタの友情が、あなたとあなたのミニオンを奮い立たせる
+			18召喚タグダメージ
+			召喚獣は攻撃された敵を狙う
+			あなたのミニオンは時折オーブを落とし、拾うと回復とバフを付与する
+			-コミュニティデザインアイテム-
+			'CharlieTheFatCat'によってデザインされました
+			'''
+		DisplayName: サイレンズ・セレニティ
+	}
+
+	DivineHeadpat: {
+		Tooltip: パット・パット
+		DisplayName: 神聖なヘッドパット
+	}
+
+	BuffOrb: {
+		DisplayName: バフオーブ
+		Tooltip: ""
+	}
+
+	HealingOrb: {
+		DisplayName: 回復オーブ
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	PureResonance: {
+		DisplayName: ピュアレゾナンス
+		Description: 近接攻撃と移動速度が増加
+	}
+
+	SkyBuff: {
+		DisplayName: エアリアル
+		Description: 飛行時間が増加
+	}
+
+	StarlightTouch: {
+		DisplayName: スターライトタッチ
+		Description: 防御力が20増加し、ライフリジェネが増加する
+	}
+
+	RighteousBlessing: {
+		DisplayName: 正義の祝福
+		Description: 防御力が30増加し、ライフリジェネが増加する
+	}
+
+	StonesEndurance: {
+		DisplayName: 制御された石化
+		Description: ダメージ軽減10%
+	}
+
+	Alacrity: {
+		DisplayName: 敏速
+		Description: 移動速度10%増加
+	}
+
+	BlossomsBlessingBuff: {
+		DisplayName: 開花の祝福
+		Description: 防御力、ライフリジェネ、移動速度が増加する
+	}
+
+	DevourersHunger: {
+		DisplayName: デバウアーの飢え
+		Description: デバウアーズ・マウで攻撃すればするほど、防御力と召喚ダメージが増加する
+	}
+
+	HealingMelody: {
+		DisplayName: 回復のメロディ
+		Description: 防御力とライフリジェネが増加する
+	}
+
+	BitterCold: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.BitterCold
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.BitterCold
+	}
+
+	BrimstoneTagDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.BrimstoneTagDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.BrimstoneTagDebuff
+	}
+
+	DaedalusWhipDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.DaedalusWhipDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.DaedalusWhipDebuff
+	}
+
+	PrismTagDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.PrismTagDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.PrismTagDebuff
+	}
+
+	SandstoneTagDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.SandstoneTagDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.SandstoneTagDebuff
+	}
+
+	SirensSerenityDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.SirensSerenityDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.SirensSerenityDebuff
+	}
+
+	StarScraperDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.StarScraperDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.StarScraperDebuff
+	}
+
+	StellarWindDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.StellarWindDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.StellarWindDebuff
+	}
+
+	SulphuricTagDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.SulphuricTagDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.SulphuricTagDebuff
+	}
+
+	BlossomsBlessingDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.BlossomsBlessingDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.BlossomsBlessingDebuff
+	}
+
+	CentauriDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.CentauriDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.CentauriDebuff
+	}
+
+	DevourerTagDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.DevourerTagDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.DevourerTagDebuff
+	}
+
+	ResonateTagDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.ResonateTagDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.ResonateTagDebuff
+	}
+
+	RighteousTagDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.RighteousTagDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.RighteousTagDebuff
+	}
+
+	TormentTagDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.TormentTagDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.TormentTagDebuff
+	}
+
+	CongeledTagDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.CongeledTagDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.CongeledTagDebuff
+	}
+
+	CoralCrusherDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.CoralCrusherDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.CoralCrusherDebuff
+	}
+
+	FungalFlailDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.FungalFlailDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.FungalFlailDebuff
+	}
+
+	SkySplitterDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.SkySplitterDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.SkySplitterDebuff
+	}
+
+	StaticTagDebuff: {
+		DisplayName: Mods.UnofficialCalamityWhips.BuffName.StaticTagDebuff
+		Description: Mods.UnofficialCalamityWhips.BuffDescription.StaticTagDebuff
+	}
+}
+
+Projectiles: {
+	BoulderProj: {
+		DisplayName: Boulder
+	}
+
+	BoulderProj1: {
+		DisplayName: Boulder
+	}
+
+	BoulderProj2: {
+		DisplayName: Boulder
+	}
+
+	OrbitLeaf: {
+		DisplayName: Leaf
+	}
+
+	BrimstoneLashProjectile: {
+		DisplayName: Brimstone Lash
+	}
+
+	DaedalusWhipProj: {
+		DisplayName: Daedalus Whip
+	}
+
+	IceShard: {
+		DisplayName: Ice Shard
+	}
+
+	SnowBall: {
+		DisplayName: Snowball
+	}
+
+	PrismBreakProjectile: {
+		DisplayName: Prism Break
+	}
+
+	SandstoneReignsProjectile: {
+		DisplayName: Sandstone Reigns
+	}
+
+	SandstoneShark: {
+		DisplayName: Sandstone Shark
+	}
+
+	SirensSerenityProj: {
+		DisplayName: Sirens Serenity
+	}
+
+	StardustSquid: {
+		DisplayName: Stardust Squid
+	}
+
+	StarScraperProj: {
+		DisplayName: Star Scraper
+	}
+
+	StarScrapperDisjoint: {
+		DisplayName: Star Scrapper Scythe
+	}
+
+	StellarWindProj: {
+		DisplayName: Stellar Wind
+	}
+
+	SulphuricScourgeProjectile: {
+		DisplayName: Sulphuric Scourge
+	}
+
+	BlossomsBlessingProj: {
+		DisplayName: Blossoms Blessing
+	}
+
+	CentauriProj: {
+		DisplayName: Centauri
+	}
+
+	jupiter: {
+		DisplayName: Jupiter
+	}
+
+	Mercury: {
+		DisplayName: Mercury
+	}
+
+	Neptune: {
+		DisplayName: Neptune
+	}
+
+	Saturn: {
+		DisplayName: Saturn
+	}
+
+	Uranus: {
+		DisplayName: Uranus
+	}
+
+	Venus: {
+		DisplayName: Venus
+	}
+
+	DevourersMawProjectile: {
+		DisplayName: Devourers Maw
+	}
+
+	ResonateStrikerProjectile: {
+		DisplayName: Resonate Striker
+	}
+
+	RighteousDawnProjectile: {
+		DisplayName: Righteous Dawn
+	}
+
+	GhastlyHandProjectile: {
+		DisplayName: Ghastly Hand
+	}
+
+	UnrelentingTormentProjectile: {
+		DisplayName: Unrelenting Torment
+	}
+
+	CongeledCorruptProjectile: {
+		DisplayName: Congeled Corrupt
+	}
+
+	CongeledCrimsonProjectile: {
+		DisplayName: Congeled Crimson
+	}
+
+	SludgeJudgeProj: {
+		DisplayName: Sludge Judge
+	}
+
+	SludgeJudgeProj1: {
+		DisplayName: Sludge Judge
+	}
+
+	CoralCrusherProj: {
+		DisplayName: Coral Crusher
+	}
+
+	CoralProj: {
+		DisplayName: Coral Crusher
+	}
+
+	CoralProj2: {
+		DisplayName: Coral Crusher
+	}
+
+	FungalFlailProj: {
+		DisplayName: Fungal Flail
+	}
+
+	SkySplitterProj: {
+		DisplayName: Sky Splitter
+	}
+
+	StaticScourgeProjectile: {
+		DisplayName: Static Scourge
+	}
+
+	WulfrumChainProjectile: {
+		DisplayName: Wulfrum Chain
+	}
+}
+
+Configs: {
+	UnofficialCalamityWhipsConfig: {
+		DisplayName: Unofficial Calamity Whips Config
+
+		Headers: {
+			Config: Config Header
+		}
+
+		WhipDamageModifier: {
+			Label: Whip Damage Modifer
+			Tooltip: Modifies the damage of every whip in this mod by the chosen number. Use this to buff or nerf the mod as you see fit
+		}
+
+		AddArmorStats: {
+			Label: Add Whip Stats to Calamity Armors
+			Tooltip: Adds extra whip stats to some calamity armors while enabled, to make whips more viable
+		}
+
+		AllowTagStacking: {
+			Label: Enable Tag Debuff Stacking
+			Tooltip: Allows whips in this mod to stack their tag effects. If set to false, all previous tag effects will be removed on applying a new one
+		}
+
+		CatalystDisclaimer: {
+			Label: Catalyst Disclaimer
+			Tooltip: Disable this to remove the disclaimer advertising the Catalyst Mod
+		}
+	}
+}
+

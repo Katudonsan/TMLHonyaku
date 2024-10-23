@@ -1,26 +1,19 @@
 # TMLHonyaku
-<p>tMLのhjsonファイルの翻訳置き場</p>
-<p></p>
-<p>このModを使わせていただいて翻訳する予定です。</p>
-<p></p>
-<p>https://steamcommunity.com/sharedfiles/filedetails/?id=2986383249</p>
-<p></p>
-<p>翻訳方法の解説</p>
-<p></p>
-<p>https://eva828game.hatenablog.com/entry/tmodloader/external-localizer</p>
-<p></p>
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2864004486"><p>変換データの元データリンク</p></a>
-<p>eve828さんが配布されており、ここで再配布されているテラリアの日本語化変換データのライセンスは「CC BY-NC-SA 4.0（表示 - 非営利 - 継承 4.0 国際）」を継承します</p>
-<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja"><p>https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja</p></a>
-<p>ここの日本語化したデータのライセンスは現在選定中です（直接のデータ再配布よりリンクを貼っていただけるとサポートしやすいです…あとは誤訳などあればIssuesなどで指摘いただけるとありがたいです…）</p>
-<p>現在の対応Mod（対応完了順）</p>
-<p>※その時その時で最新バージョンの翻訳を心がけていますが、バージョン違いでの翻訳ミスやエラーが起きている場合はご一報ください</p>
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2562997415"><p>ShorterRespawn</p></a>
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2837407674"><p>Lan's Unlimited Buff Slots</p></a>
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2816694149"><p>BossCursor</p></a>
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2563784437"><p>Cheat Sheet</p></a>
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2563851005"><p>Which Mod Is This From?</p></a>
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2619954303"><p>Recipe Browser</p></a>
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2669644269"><p>Boss Checklist</p></a>
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2567580488"><p>Fargo's Enemy Modifiers</p></a>
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2773928114"><p>Better Extractinator</p></a>
+[tModLoader](https://github.com/tModLoader/tModLoader)に読み込ませるhjsonファイルの翻訳置き場
+
+[External Localizer](https://steamcommunity.com/sharedfiles/filedetails/?id=2986383249)に読み込ませることでテラリアのModを日本語化できます。
+
+
+翻訳方法の解説は[ここ](https://eva828game.hatenablog.com/entry/tmodloader/external-localizer)を参考にしてください。
+
+
+terrariaの翻訳は[synctam様による翻訳](https://synctam.blogspot.com/2017/05/terraria_20.html)をもとにしています。
+したがって、[Terraria/ja-JP.hjson](https://github.com/External-Localizer/TMLHonyaku/blob/main/Terraria/ja-JP.hjson)は「[CC BY-NC-SA 4.0（表示 - 非営利 - 継承 4.0 国際）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)」を継承します。
+その他の日本語化したデータのライセンスは現在選定中です。
+
+現在の対応Modは[TranslatedMods.csv](https://github.com/External-Localizer/TMLHonyaku/blob/main/TranslatedMods.csv)にまとめています。
+
+## PRするときのお願い
+- フォルダ名はModの内部名にしてください。(`Mods.XXX.Items...`のうちXXXの部分)
+- 新規翻訳を追加するときは[TranslatedMods.csv](https://github.com/External-Localizer/TMLHonyaku/blob/main/TranslatedMods.csv)に、情報を追加してください。
+- なるべく`ja-JP_Mods.XXX.hjson`のようにファイル名にMod名が含まれるようにしてください。External Localizerによるファイルの読み込み効率が上がります。
