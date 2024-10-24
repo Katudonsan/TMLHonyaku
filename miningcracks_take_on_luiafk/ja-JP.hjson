@@ -907,7 +907,7 @@ Items: {
 
 	UnlimitedBloodyTear: {
         	DisplayName: 無限の血の涙
-        	Tooltip
+        	Tooltip:
                 	'''
 					ブラッドムーンを呼び出す
 					「なんと恐ろしい呪われた夜」
