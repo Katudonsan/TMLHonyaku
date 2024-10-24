@@ -274,14 +274,14 @@ RecipeGroups: {
 	CommonFish: 普通の魚
 	CaughtNPC: 捕まえたタウンNPC
 	ArmoredBonesBanner: アーマードスケルトン系のバナー
-	FoodT2: Plenty Satisfying Food
-	FoodT3: Exquisitively Stuffing Food
+	FoodT2: 満足のいく食事
+	FoodT3: この上ない食事
 	GemRobe: Gem Robe
 }
 
 UI: {
 	StatButton: Stat Sheet
-	SearchText: Search...
+	SearchText: ここで検索...
 	MeleeDamage: Melee Damage: {0}%
 	MeleeCritical: Melee Critical: {0}%
 	MeleeSpeed: Melee Speed: {0}%
@@ -776,7 +776,7 @@ Items: {
 			'''
 			無限に使える
 			オムニステーションの効果を使用するために、あなたが立っているプラットフォームをアップグレードする。
-			プラットフォームは作らない！
+			注：プラットフォームは付属しません！
 			'''
 	}
 
@@ -811,7 +811,7 @@ Items: {
 			デバッグ項目
 			すべてを調査する
 			'''
-		ResearchText: researched {0} items
+		ResearchText: 調査済みアイテム： {0} 個
 	}
 
 	MapViewer: {
@@ -822,10 +822,10 @@ Items: {
 	ModeToggle: {
 		DisplayName: 世界のトークン
 		Tooltip: 使用すると難易度を変更する
-		Journey: Journey mode is now enabled!
-		Normal: Normal mode is now enabled!
-		Expert: Expert mode is now enabled!
-		Master: Master mode is now enabled!
+		Journey: ジャーニーモードが有効になった！
+		Normal: ノーマルモードが有効になった！
+		Expert: エキスパートモードが有効になった！
+		Master: マスターモードが有効になった！
 	}
 
 	PortableSundial: {
@@ -1017,11 +1017,11 @@ Items: {
 	}
 
 	PartyInvite: {
-		DisplayName: Party Invite
+		DisplayName: パーティーの招待状
 		Tooltip:
 			'''
-			Starts a Party!
-			Needs at least 5 town NPCs to use
+			パーティの時間だ！
+			使用するには5人以上のNPCが居住していることが条件です
 			'''
 	}
 
@@ -1928,8 +1928,8 @@ Items: {
 	}
 
 	MutantToilet: {
-		DisplayName: Mutant Toilet
-		Tooltip: Don't.
+		DisplayName: ミュータントのトイレ
+		Tooltip: 「やめてくれ。」
 	}
 
 	EchPainting: {
@@ -2328,7 +2328,7 @@ Items: {
 
 	TownBunny: {
 		DisplayName: タウンバニー
-		Tooltip: うさぎの鳴き声
+		Tooltip: （うさぎの鳴き声）
 	}
 
 	SemiBridgifier: {
@@ -2423,8 +2423,8 @@ Items: {
 	}
 
 	KohaCrystal: {
-		DisplayName: Koha Crystal
-		Tooltip: Decreases the amount of Mana Crystals you have by 1
+		DisplayName: コハ・クリスタル
+		Tooltip: 自分の最大マナをマナクリスタル1個分減らす。
 	}
 
 	BigSuckPotion: {
@@ -2792,10 +2792,10 @@ NPCs: {
 			SpawnCondition: なんでもいいのでボスを倒す
 		}
 
-		CycleShop: Cycle Shop
-		PreHM: Pre Hardmode
-		HM: Hardmode
-		PostML: Post Moon Lord
+		CycleShop: 商品切り替え
+		PreHM: ハードモード突入前
+		HM: ハードモード
+		PostML: ムーンロード討伐後
 	}
 
 	Squirrel: {
