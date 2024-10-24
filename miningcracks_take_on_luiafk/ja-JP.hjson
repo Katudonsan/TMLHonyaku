@@ -592,8 +592,8 @@ Items: {
 
 
 	UnlimitedPoisonDarts: {
-        	DisplayName: Unlimited Poison Darts
-        	Tooltip: Never run out of Poison Darts.
+        	DisplayName: 無限の毒ダーツ
+        	Tooltip: 尽きることのない毒のダーツ
 	}
 
 
@@ -907,7 +907,11 @@ Items: {
 
 	UnlimitedBloodyTear: {
         	DisplayName: 無限の血の涙
-        	Tooltip: ブラッドムーンを呼び出す「なんと恐ろしい呪われた夜」
+        	Tooltip
+                	'''
+					ブラッドムーンを呼び出す
+					「なんと恐ろしい呪われた夜」
+                	'''
 	}
 
 
@@ -948,13 +952,12 @@ Items: {
 
 
 	FastFall: {
-        	DisplayName: マジで重すぎる石（Really Heavy Boulder）
+        	DisplayName: マジで重すぎる石
         	Tooltip:
                 	'''
                 	とても重いので通常よりも早く落下する
                 	お気に入りで稼働
-            	It's so heavy it makes you fall faster than normal.
-                	Favorite for it to work.
+            		重いから、普通より早く転ぶんだ。
                 	'''
 	}
 
@@ -1833,7 +1836,7 @@ Items: {
                 	'''
                 	そんなアイテムで大丈夫か？
                 	敵のスポーンが大幅に増加
-                	Use the settings hotkey to toggle the effect.
+                	ホットキーで有効／無効を切り替えます。
                 	'''
 	}
 
@@ -1870,9 +1873,9 @@ Items: {
         	DisplayName: 戦闘の巻物
         	Tooltip:
                 	'''
-                	All the combat buffs.
-                	Armor debuff from tipsy only active while holding a melee weapon.
-                	Use the Settings hotkey to toggle Inferno's visual effect.
+                	すべての戦闘バフ。
+                	ほろ酔いによるアーマーデバフは近接武器を持っている時のみ有効。
+                	獄炎の視覚効果を切り替えるにはホットキーを使用する。
                 	'''
 	}
 
@@ -1881,8 +1884,8 @@ Items: {
         	DisplayName: 損傷の巻物
         	Tooltip:
                 	'''
-                	Damage, crit, extra minion, knockback, and thorns.
-                	Use the Settings hotkey to toggle Inferno's visual effect.
+                	ダメージ、クリティカル、追加ミニオン、ノックバック、棘。
+                	獄炎の視覚効果を切り替えるには設定ホットキーを使用する。
                 	'''
 	}
 
@@ -1891,15 +1894,15 @@ Items: {
         	DisplayName: 危険な巻物
         	Tooltip:
                 	'''
-                	Don't be caught off guard.
-                	Use the Settings UI to toggle the effects.
+                	油断は禁物。
+                	設定UIを使って効果を切り替えましょう。
                 	'''
 	}
 
 
 	UnlimitedDefense: {
         	DisplayName: 防御の巻物
-        	Tooltip: More HP, damage reduction, and heart range.
+        	Tooltip: HP、ダメージ軽減、ハートの範囲が増える。
 	}
 
 
@@ -1911,10 +1914,10 @@ Items: {
                 	ほろ酔いによる防御デバフは近接武器を持っている時のみ有効。
                 	使用するとランダムな場所へテレポートする
                 	マップ上のフレンドをクリックするとフレンドの元へテレポートする
-                	ホットキーを設定してリコール。
-               	リコールするとスポーン地点にテレポート。
-               	リコールバックは、最後にRecallを使った場所にテレポートします。
-                	ホットキーを設定して特定のバフや効果を切り替える
+                	ホットキーを使用してリコール。
+               	    リコールするとスポーン地点にテレポート。
+               	    リコールバックを行うと、最後にリコールを使った場所にテレポートします。
+                	ホットキーで特定のバフや効果を切り替える
                 	'''
 	}
 
@@ -1940,8 +1943,8 @@ Items: {
         	Tooltip:
                 	'''
                 	全ての空島を探してこい
-                	No need to worry about falling to your death.
-                	Use the settings hotkey to toggle Featherfall and Gravity Control.
+                	落下して死ぬ心配はありません。
+                	ホットキーを使って、フェザーフォールとグラビティ・コントロールを切り替えられます。
                 	'''
 	}
 
@@ -1951,7 +1954,7 @@ Items: {
         	Tooltip:
                 	'''
                 	全ての鉱石をこの手に
-                	Use the Settings UI to toggle spelunker effect.
+                	スペランカーの効果を切り替えるには、設定UIを使用する。
                 	'''
 	}
 
@@ -2006,10 +2009,10 @@ Items: {
         	DisplayName: 旅行の巻物
         	Tooltip:
                 	'''
-            	どこでもいっしょ
+            		どこでもいっしょ
                 	もう友達から離れることはない…あなたに友達がいれば、の話ですが。
-             	ホットキーを設定してリコール。
-               	リコールするとスポーン地点にテレポート。
+             		ホットキーを設定してリコール。
+               		リコールするとスポーン地点にテレポート。
                 	リコールバックは、最後にRecallを使った場所にテレポートします。
                 	'''
 	}
