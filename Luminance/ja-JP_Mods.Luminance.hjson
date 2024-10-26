@@ -1,0 +1,16 @@
+Configs: {
+	Config: {
+		DisplayName: コンフィグ
+
+		MaxParticles: {
+			Label: 最大パーティクル数
+			Tooltip: 同時に存在できる最大パーティクル数を変更できます
+		}
+
+		ScreenshakeModifier: {
+			Label: 画面シェイクの補正値
+			Tooltip: 画面シェイクの激しさを変更します。画面シェイクを完全に無効化したい場合は0を設定してください。
+		}
+	}
+}
+
