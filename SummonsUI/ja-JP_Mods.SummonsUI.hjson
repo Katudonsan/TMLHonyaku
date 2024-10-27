@@ -1,0 +1,119 @@
+Configs: {
+	SummonsUIConfig: {
+		DisplayName: 召喚UI設定
+
+		UIStyle: {
+			Label: UIスタイル
+			Tooltip: HP/マナバーと同じスタイルに設定する。
+		}
+
+		AutoOffset: {
+			Label: 自動オフセットを有効にする
+			Tooltip: ファンシー/クラシックUIスタイルの自動オフセットを有効にする。UIを再配置する際、ミニオン/エントリースロットを自動的に再配置させたくない場合は無効にする。
+		}
+
+		AutoOffset2: {
+			Label: ライフオフセットの有効化
+			Tooltip: 有効な場合、最大ライフが200以下のときにUIのy位置をオフセットする。
+		}
+
+		ShowUI: {
+			Label: 召喚士のUIを表示する
+			Tooltip: オフにするとUIが非表示になる。キーバインドで切り替えることができる。
+		}
+
+		SummonsUIAltLayer: {
+			Label: UIレイヤー
+			Tooltip: UIが描画されるレイヤーを変更する。
+		}
+
+		MaxDisplayLength: {
+			Label: ミニオンの最大表示数
+			Tooltip: UIの数をこのスロット数に制限する。
+		}
+
+		XOffset: {
+			Label: ミニオンスロットX位置
+			Tooltip: UIをこのピクセル数だけ移動させる。
+		}
+
+		YOffset: {
+			Label: ミニオンスロットY位置
+			Tooltip: UIをこのピクセル数だけ移動させる。
+		}
+
+		DisplaySentries: {
+			Label: ディスプレイセントリースロット
+			Tooltip: ""
+		}
+
+		MaxDisplayLength2: {
+			Label: セントリーの最大表示数
+			Tooltip: UIのサイズをこのスロット数に制限する
+		}
+
+		XOffset2: {
+			Label: セントリースロットX位置
+			Tooltip: UIをこのピクセル数だけ移動させる。
+		}
+
+		YOffset2: {
+			Label: セントリースロットY位置
+			Tooltip: UIをこのピクセル数だけ移動させる。
+		}
+
+		Headers: {
+			GeneralOptions: 一般オプション
+			MinionSlotOptions: ミニオンスロットのオプション
+			SentrySlotOptions: セントリースロットのオプション
+		}
+
+		SummonsUILayer: {
+			Label: UIレイヤー
+			Tooltip: UIが描画されるレイヤーを変更する
+		}
+	}
+}
+
+Keybinds: {
+	"Nudge Sentry UI Right": {
+		DisplayName: セントリーUIを右に動かす
+	}
+
+	"Nudge Sentry UI Left": {
+		DisplayName: セントリーUIを左に動かす
+	}
+
+	"Nudge Sentry UI Down": {
+		DisplayName: セントリーUIを下に動かす
+	}
+
+	"Nudge Sentry UI Up": {
+		DisplayName: セントリーUIを上に動かす
+	}
+
+	"Nudge Minion UI Right": {
+		DisplayName: ミニオンUIを右に動かす
+	}
+
+	"Nudge Minion UI Left": {
+		DisplayName: ミニオンUIを左に動かす
+	}
+
+	"Nudge Minion UI Down": {
+		DisplayName: ミニオンUIを下に動かす
+	}
+
+	"Nudge Minion UI Up": {
+		DisplayName: ミニオンUIを上に動かす
+	}
+
+	"Toggle Summoner UI Layer": {
+		DisplayName: サモナーUIのレイヤー切り替え
+	}
+
+	"Toggle Summoner UI Visibilty": {
+		DisplayName: サモナーUIの表示/非表示を切り替える
+	}
+}
+

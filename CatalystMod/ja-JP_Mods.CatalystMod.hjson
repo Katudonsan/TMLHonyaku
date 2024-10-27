@@ -1,0 +1,1632 @@
+Common: {
+	UnboundKey: "'Unbound Key'"
+	BoundKey: "'{0}'"
+	Infinite: Mods.CatalystMod.Common.Infinite
+	InfiniteSign: Mods.CatalystMod.Common.InfiniteSign
+}
+
+Items: {
+	Lore: {
+		LoreAstrageldon: {
+			Lore:
+				'''
+				そのような存在は理解を超えたものだ。ドラエドンはかつて、アストラルに汚染された大地の調査からこの異常なパワーについて報告したことがある。
+				しかし、彼の才覚をもってしても、あの宇宙のゼラチンの特徴を完全に把握することはできなかった。
+				彼は、その実体がより強力な感染菌株に汚染されていることを突き止めた。
+				その密度は計り知れず、理性をはるかに超えていた。しかし、その奇妙な粘性はどんな説明も無視した。
+				もし本当にゼラチン状なら、理想的な宿主に違いない。
+				その飢えは尽きることがないだろう。制御不能で不屈。自然の摂理の完成だ。
+				貪欲なスライムゴッドは、そのような可能性を考えただけで羨ましがるだろう。
+				それが根絶された今、はるか彼方にどんな大きな脅威が待ち受けているのか、人はただ思いを巡らすしかない。
+				'''
+			DisplayName: アストラゲルドン
+		}
+	}
+
+	AstrageldonBag: {
+		DisplayName: トレジャーポッド ({$Mods.CatalystMod.NPCs.Astrageldon.DisplayName})
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	AstrageldonMask: {
+		DisplayName: アストラゲルドンのマスク
+		Tooltip: ""
+	}
+
+	InterstellarCorruptionDye: {
+		DisplayName: 恒星間腐敗染料
+		Tooltip: ""
+	}
+
+	AstrageldonPhase1MusicBox: {
+		DisplayName: Music Box (Astrageldon - Phase 1)
+		Tooltip: Plays 'Cosmic Disgust' by DM DOKURO
+	}
+
+	AstrageldonPhase2MusicBox: {
+		DisplayName: Music Box (Astrageldon - Phase 2)
+		Tooltip: Plays 'Galactic Destruction' by Heart Plus Up!
+	}
+
+	AstrageldonTitleMusicBox: {
+		DisplayName: Music Box (Astrageldon Title)
+		Tooltip: Plays 'Heaven's Hell-Sent Gift' by DM DOKURO
+	}
+
+	MetanovaOre: {
+		DisplayName: メタノヴァ鉱石
+		Tooltip: ""
+	}
+
+	MetanovaBar: {
+		DisplayName: メタノヴァのインゴット
+		Tooltip: 圧縮された宇宙
+	}
+
+	LoreAstrageldon: {
+		DisplayName: "{$Mods.CatalystMod.NPCs.Astrageldon.DisplayName}"
+		Tooltip:
+			'''
+			[c/e3af40:高みからの囁きが耳元で踊っている…]
+			[c/bebebe:より近くで聴くには「左シフト」を押す]
+			'''
+	}
+
+	AstralCommunicator: {
+		DisplayName: アストラル・コミュニケーター
+		Tooltip:
+			'''
+			アストラルに汚染された大地でアストラゲルドンを召喚する
+			[c/870808:アストラゲルドン未討伐の状態でムーンロードを倒すと、このアイテムは機能しなくなる]
+			{$Mods.CatalystMod.Tooltips.NotConsumable}
+			'''
+	}
+
+	IntergelacticHeadMelee: {
+		DisplayName:星間の兜
+		Tooltip:
+			'''
+			ダメージとクリティカル確率が22%増加
+			近接攻撃と移動速度が10%増加
+			被ダメージを15%軽減する
+			'''
+	}
+
+	IntergelacticHeadRanged: {
+		DisplayName: 星間のバイザー
+		Tooltip:
+			'''
+			遠距離ダメージとクリティカル確率を14%増加
+			被ダメージを12%軽減する
+			'''
+	}
+
+	IntergelacticHeadMagic: {
+		DisplayName: 星間のマスク
+		Tooltip:
+			'''
+			マナの最大値が100増加
+			魔法ダメージとクリティカル確率が15%増加
+			被ダメージを12%軽減する
+			'''
+	}
+
+	IntergelacticHeadSummon: {
+		DisplayName: 星間の角付き兜
+		Tooltip:
+			'''
+			ミニオンの最大数を1増やす
+			被ダメージを12%軽減する
+			'''
+	}
+
+	IntergelacticHeadRogue: {
+		DisplayName: 星間のヘッドギア
+		Tooltip:
+			'''
+			ローグのダメージとクリティカル確率が22%増加する
+			被ダメージを12%軽減する
+			'''
+	}
+
+	IntergelacticBreastplate: {
+		DisplayName: 星間の鎧
+		Tooltip: アストラル感染と複数の防御力低下デバフに対する耐性を与える
+	}
+
+	IntergelacticGreaves: {
+		DisplayName: 星間のグレイヴ
+		Tooltip:
+			'''
+			移動速度が20％向上
+			ジャンプ速度と落下耐性が増加
+			'''
+	}
+
+	AstralsEnd: {
+		DisplayName: 星界の終わり
+		Tooltip: 異次元の小惑星とその破片を呼び出す
+	}
+
+	Astragelgun: {
+		DisplayName: アストラゲルガン
+		Tooltip:
+			'''
+			接触すると爆発する超新星爆弾を撃つ
+			右クリックで200%ダメージのプラズマボールを発射する
+			{$Mods.CatalystMod.Tooltips.Flamethrower}
+			75%の確率で球を消費しない
+			'''
+	}
+
+	InterstellarVolution: {
+		DisplayName: インターステラー・ヴォリューション 
+		Tooltip:
+			'''
+			ホーミングする星を投げる
+			ステルスストライクは星からレーザーを発射させる
+			'''
+	}
+
+	ExaltedHorizon: {
+		DisplayName: エグザルト・ホライズン
+		Tooltip:
+			'''
+			敵に星の腐敗を蓄積させる追尾するランスを投げる
+			5回ヒットすると激しく爆発し、極大ダメージを与える
+			'''
+	}
+
+	AstralpodStaff: {
+		DisplayName: アストラルポッド・スタッフ
+		Tooltip: レーザーとデスレイを放つアストラルポッドを召喚する
+	}
+
+	ScytheoftheAbandonedGod: {
+		DisplayName: 見捨てられた神の大鎌
+		Tooltip:
+			'''
+			追尾する弾ををいくつか召喚し、雷を放つ
+			右クリックでカーソルに向かって発射する
+			{$Mods.CatalystMod.Tooltips.FlawlessDrop}
+			'''
+	}
+
+	AstralLash: {
+		DisplayName: アストラル・ラッシュ
+		Tooltip:
+			'''
+			リーチ： 40.000タイル
+			発射速度: 50.00
+			リールバック速度：72.00
+			引き戻し速度: 16.00
+			フックの位置までテレポートする
+			フックとの間に邪魔なブロックがあっても無視される
+			'''
+	}
+
+	AstrageldonTrophy: {
+		DisplayName: アストラゲルドンのトロフィー
+		Tooltip: ""
+	}
+
+	InfluxCluster: {
+		DisplayName: インフラックス・クラスター
+		Tooltip: (crazy)
+	}
+
+	AstraJelly: {
+		DisplayName: アストラ・ゼリー
+		Tooltip: マナの最大値とマナの回復量を増加させる
+	}
+
+	Lean: {
+		DisplayName: アストラ・コーラ
+		Tooltip:
+			'''
+			最大マナとパワーの増加
+			マナの自然回復が大幅に増加
+			「銀河級の炭酸を体感せよ！」
+			'''
+	}
+
+	AstralTransmogrifier: {
+		DisplayName: アストラル・トランスモグリファイアー
+		Tooltip:
+			'''
+			特殊なクラフトに使用
+			静かな精製器や固形化機としても使用可能
+			'''
+	}
+
+	Astrogel: {
+		DisplayName: アストロゲル
+		Tooltip: 乗っている状態でのジャンプの高さが大幅にアップ
+	}
+
+	MetanovaRealBrick: {
+		DisplayName: メタノヴァブロック
+		Tooltip: ""
+	}
+
+	MetanovaBrick: {
+		DisplayName: メタノヴァ・ピラー
+		Tooltip: ""
+	}
+
+	NovaMonolith: {
+		DisplayName: 新星のモノリス
+		Tooltip: "「全宇宙のわずかな力を振るう」"
+	}
+
+	IntergelacticBathtub: {
+		DisplayName: 銀河の浴槽
+		Tooltip: ""
+	}
+
+	IntergelacticBed: {
+		DisplayName: 銀河のベッド
+		Tooltip: ""
+	}
+
+	IntergelacticBookshelf: {
+		DisplayName: 銀河の本棚
+		Tooltip: ""
+	}
+
+	IntergelacticCandelabra: {
+		DisplayName: 銀河の燭台
+		Tooltip: ""
+	}
+
+	IntergelacticCandle: {
+		DisplayName: 銀河のろうそく
+		Tooltip: ""
+	}
+
+	IntergelacticChair: {
+		DisplayName: 銀河のイス
+		Tooltip: ""
+	}
+
+	IntergelacticChandelier: {
+		DisplayName: 銀河のシャンデリア
+		Tooltip: ""
+	}
+
+	IntergelacticClock: {
+		DisplayName: 銀河の時計
+		Tooltip: ""
+	}
+
+	IntergelacticLamp: {
+		DisplayName: 銀河のランプ
+		Tooltip: ""
+	}
+
+	IntergelacticLantern: {
+		DisplayName: 銀河のランタン
+		Tooltip: ""
+	}
+
+	IntergelacticPiano: {
+		DisplayName: 銀河のピアノ
+		Tooltip: ""
+	}
+
+	IntergelacticSink: {
+		DisplayName: 銀河のシンク
+		Tooltip: ""
+	}
+
+	IntergelacticSofa: {
+		DisplayName: 銀河のソファ
+		Tooltip: ""
+	}
+
+	IntergelacticTable: {
+		DisplayName: 銀河のテーブル
+		Tooltip: ""
+	}
+
+	IntergelacticToilet: {
+		DisplayName: 銀河のトイレ
+		Tooltip: ""
+	}
+
+	IntergelacticWorkbench: {
+		DisplayName: 銀河の作業台
+		Tooltip: ""
+	}
+
+	IntergelacticChest: {
+		DisplayName: 銀河の宝箱
+		Tooltip: ""
+	}
+
+	IntergelacticDoor: {
+		DisplayName: 銀河のドア
+		Tooltip: ""
+	}
+
+	IntergelacticDresser: {
+		DisplayName: 銀河のドレッサー
+		Tooltip: ""
+	}
+
+	IntergelacticPlatform: {
+		DisplayName: 銀河の足場
+		Tooltip: ""
+	}
+
+	AscendedAstralSlimeBanner: {
+		DisplayName: "{$Mods.CatalystMod.NPCs.AscendedAstralSlime.DisplayName} バナー"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.CatalystMod.NPCs.AscendedAstralSlime.DisplayName}"
+	}
+
+	MetanovaSlimeBanner: {
+		DisplayName: "{$Mods.CatalystMod.NPCs.MetanovaSlime.DisplayName} バナー"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.CatalystMod.NPCs.MetanovaSlime.DisplayName}"
+	}
+
+	DivineJello: {
+		DisplayName: 神聖なゼリー
+		Tooltip:
+			'''
+			スライムの神を召喚する
+			「神にふさわしいデザートだ！」
+			'''
+	}
+
+	AstrageldonRelic: {
+		DisplayName: アストラゲルドンのレリック
+		Tooltip: ""
+	}
+
+	BreathofGlacies: {
+		DisplayName: ブレス・オブ・グレイシーズ
+		Tooltip:
+			'''
+			5発目ごとにルーンサークルを発射する
+			ルーンサークルは氷の破片を発射し、50％のダメージを与える
+			{$Mods.CatalystMod.Tooltips.Flamethrower}
+			50%の確率で弾を消費しない
+			'''
+	}
+
+	DesertScorcher: {
+		DisplayName: デザート・スコーチャー
+		Tooltip:
+			'''
+			熱湯を噴射する
+			敵の防御力を5無視する
+			{$Mods.CatalystMod.Tooltips.Flamethrower}
+			40%の確率で弾を消費しない
+			'''
+	}
+
+	Ichorthrower: {
+		DisplayName: イコル・スローワー
+		Tooltip:
+			'''
+			ジェルを発火させ、燃える瘴気に変える
+			この瘴気は凝結して塊状になることがある
+			{$Mods.CatalystMod.Tooltips.Flamethrower}
+			40%の確率で弾を消費しない
+			'''
+	}
+
+	Plasmilegion: {
+		DisplayName: プラズマレギオン
+		Tooltip:
+			'''
+			ジェルをプラズマに変換
+			左クリックで強力なエネルギービームを発射
+			右クリックで火球を発射
+			{$Mods.CatalystMod.Tooltips.Flamethrower}
+			40%の確率で弾を消費しない
+			'''
+	}
+
+	Repentance: {
+		DisplayName: リペンタンス
+		Tooltip:
+			'''
+			炎を噴射し、火球を召喚する
+			{$Mods.CatalystMod.Tooltips.Flamethrower}
+			70%の確率で弾を消費しない
+			'''
+	}
+
+	RookOfVengeance: {
+		DisplayName: ルーク・オブ・アナーキー
+		Tooltip:
+			'''
+			命中時に十字方向に分裂する火の玉を放つ
+			{$Mods.CatalystMod.Tooltips.Flamethrower}
+			70%の確率で弾を消費しない
+			'''
+	}
+
+	StaticInferno: {
+		DisplayName: ボルテック・ファイヤーストーム
+		Tooltip:
+			'''
+			プラズマのオーブを3つ放つ
+			{$Mods.CatalystMod.Tooltips.Flamethrower}
+			50%の確率で弾を消費しない
+			'''
+	}
+
+	AstralNeutron: {
+		DisplayName: アストラル・ニュートロン
+		Tooltip: "'静かだ…'"
+	}
+
+	CongeledDuoWhip: {
+		DisplayName: 凝固したムチ
+		Tooltip:
+			'''
+			{$Mods.CatalystMod.Tooltips.WhipTooltip}
+			5%召喚ダメージ
+			左クリックで両方のムチを前に放つ
+			右クリックで片方のムチを前に、もう片方のムチを後ろに放つ
+			'''
+	}
+
+	PrismBreak: {
+		DisplayName: プリズム・ブレイク
+		Tooltip:
+			'''
+			{$Mods.CatalystMod.Tooltips.WhipTooltip}
+			ヒット時にミニオンが追尾するクリスタルを放つ
+			'''
+	}
+
+	ResonantStriker: {
+		DisplayName: レゾナント・ストライカー
+		Tooltip:
+			'''
+			{$Mods.CatalystMod.Tooltips.WhipTooltip}
+			ヒット時に電の追尾するオーブを放つ
+			ヒット時に自分のミニオンがボス以外の敵をスタンさせる
+			'''
+	}
+
+	UnderBite: {
+		DisplayName: アンダーバイト
+		Tooltip:
+			'''
+			{$Mods.CatalystMod.Tooltips.WhipTooltip}
+			酸性の毒と6%の召喚ダメージを与えるドクロを放つ
+			'''
+	}
+
+	UnrelentingTorment: {
+		DisplayName: 厳然たる責め具
+		Tooltip:
+			'''
+			{$Mods.CatalystMod.Tooltips.WhipTooltip}
+			異界の爪を放ち、敵を切り裂く
+			'''
+	}
+
+	BlossomsBlessing: {
+		DisplayName: 花たちの祝福
+		Tooltip:
+			'''
+			{$Mods.CatalystMod.Tooltips.WhipTooltip}
+			風に乗って花を運ぶ
+			一番大きな花びらに触れると、再生、損傷、棘への祝福を受ける
+			「咲いて、咲いて、枯れて、萎んでいく。」
+			'''
+	}
+
+	Catharsis: {
+		DisplayName: 浄化
+		Tooltip:
+			'''
+			{$Mods.CatalystMod.Tooltips.WhipTooltip}
+			鞭を振るには体力を消費する
+			敵を攻撃するとブラッドチャージが貯まる。チャージは最大20個まで貯めることができる
+			右クリックでチャージが発動し、一時的に武器がパワーアップし、失われた体力が回復する
+			[c/c61b40:「清らかな光は見放され、痛みに飲み込まれる]
+			[c/c61b40:　影を消し去る存在としてこの世界に戻ってきた」]
+			'''
+	}
+
+	SandstoneReigns: {
+		DisplayName: 砂岩の手綱
+		Tooltip:
+			'''
+			{$Mods.CatalystMod.Tooltips.WhipTooltip}
+			小型の砂鮫を召喚し、敵に食らいつく
+			'Ökenhaj!'
+			'''
+	}
+
+	CoralCrusher: {
+		DisplayName: コーラル・クラッシャー
+		Tooltip:
+			'''
+			{$Mods.CatalystMod.Tooltips.WhipTooltip}
+			先端を敵に当てると、珊瑚の破片が埋め込まれる
+			ミニオンが攻撃すると珊瑚の破片が砕け、動きが止まり、6％の召喚ダメージが発動する
+			'''
+	}
+
+	WulfrumSatchelCharge: {
+		DisplayName: ウルフラムの梱包爆薬
+		Tooltip:
+			'''
+			ステルス攻撃でブロックを破壊する大爆発を起こす
+			「巻き込まれてけがをする恐れあり」
+			'''
+	}
+
+	WulfrumFlashlight: {
+		DisplayName: ウルフラムの懐中電灯
+		Tooltip:
+			'''
+			「新しいアップデートへの道を照らす」
+			左クリックで懐中電灯をオンにし、ダブルクリックでインベントリ内のさまざまなレンズを切り替える
+			'''
+	}
+
+	AmethystFlashlightLens: {
+		DisplayName: アメジストの懐中電灯レンズ
+		Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+	}
+
+	TopazFlashlightLens: {
+		DisplayName: トパーズの懐中電灯レンズ
+		Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+	}
+
+	SapphireFlashlightLens: {
+		DisplayName: サファイアの懐中電灯レンズ
+		Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+	}
+
+	EmeraldFlashlightLens: {
+		DisplayName: エメラルドの懐中電灯レンズ
+		Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+	}
+
+	RubyFlashlightLens: {
+		DisplayName: ルビーの懐中電灯レンズ
+		Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+	}
+
+	DiamondFlashlightLens: {
+		DisplayName: ダイアモンドの懐中電灯レンズ
+		Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+	}
+
+	AmberFlashlightLens: {
+		DisplayName: アンバーの懐中電灯レンズ
+		Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+	}
+
+	TeamFlashlightLens: {
+		DisplayName: チーム専用の懐中電灯レンズ
+		Tooltip:
+			'''
+			{$Mods.CatalystMod.Tooltips.LensTooltip}
+			色は選択したチームによって変化する
+			'''
+	}
+
+
+	Astrageldon1MusicBox: {
+		DisplayName: Mods.CatalystMod.ItemName.Astrageldon1MusicBox
+	}
+
+	Astrageldon2MusicBox: {
+		DisplayName: Mods.CatalystMod.ItemName.Astrageldon2MusicBox
+	}
+
+	KnowledgeAstrageldon: {
+		DisplayName: Mods.CatalystMod.ItemName.KnowledgeAstrageldon
+		Tooltip: Mods.CatalystMod.ItemTooltip.KnowledgeAstrageldon
+	}
+
+	IntergelacticHardhat: {
+		DisplayName: Mods.CatalystMod.ItemName.IntergelacticHardhat
+		Tooltip: Mods.CatalystMod.ItemTooltip.IntergelacticHardhat
+	}
+
+	IntergelacticVisor: {
+		DisplayName: Mods.CatalystMod.ItemName.IntergelacticVisor
+		Tooltip: Mods.CatalystMod.ItemTooltip.IntergelacticVisor
+	}
+
+	IntergelacticMask: {
+		DisplayName: Mods.CatalystMod.ItemName.IntergelacticMask
+		Tooltip: Mods.CatalystMod.ItemTooltip.IntergelacticMask
+	}
+
+	IntergelacticHornedHelmet: {
+		DisplayName: Mods.CatalystMod.ItemName.IntergelacticHornedHelmet
+	}
+
+	IntergelacticHeadgear: {
+		DisplayName: Mods.CatalystMod.ItemName.IntergelacticHeadgear
+		Tooltip: Mods.CatalystMod.ItemTooltip.IntergelacticHeadgear
+	}
+
+	AstragelHook: {
+		DisplayName: Mods.CatalystMod.ItemName.AstragelHook
+		Tooltip: Mods.CatalystMod.ItemTooltip.AstragelHook
+	}
+
+	AstrageldonMenuMusicBox: {
+		DisplayName: Mods.CatalystMod.ItemName.AstrageldonMenuMusicBox
+	}
+
+	WulfrumMineBanner: {
+		DisplayName: "{$Mods.CatalystMod.NPCs.WulfrumMine.DisplayName} Banner"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.CatalystMod.NPCs.WulfrumMine.DisplayName}"
+	}
+
+	WulfrumSlimeBanner: {
+		DisplayName: "{$Mods.CatalystMod.NPCs.WulfrumSlime.DisplayName} Banner"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.CatalystMod.NPCs.WulfrumSlime.DisplayName}"
+	}
+}
+
+ItemTooltip: {
+	Extra: {
+		HideofAstrumDeus: 星界の疫病デバフに対する50%の耐性
+	}
+}
+
+ItemTooltipExtra0: {
+	AstralCommunicator: 右クリックで第一段階のアストラゲルドンを召喚する
+}
+
+ItemTooltipExtra1: {
+	AstralCommunicator: コアは月の神の死から放出されたエネルギーによって破壊された…
+}
+
+ArmorSetBonus: {
+	IntergelacticAll:
+		'''
+		小惑星の2つのリングに囲まれ、そのダメージは体力に比例する
+		Press {0} to make the asteroids more transparent
+		'''
+	IntergelacticMelee:
+		'''
+		4つのリングに囲まれた小惑星のダメージは体力に比例する
+		ノックバックと複数の移動デバフに対する耐性を得る
+		星界の疫病に対する耐性があり、攻撃によってそのデバフを付与できるようになる
+		'''
+	IntergelacticRanged:
+		'''
+		遠距離武器は30%のダメージで星を召喚する
+		星界の疫病に対する耐性があり、攻撃によってそのデバフを付与できるようになる
+		'''
+	IntergelacticMagic:
+		'''
+		魔法がクリティカルになると、命中した敵から星がはじけ飛ぶ
+		マナ使用量が20%減少
+		ポーションから得られるマナを100増加
+		星界の疫病に対する耐性があり、攻撃によってそのデバフを付与できるようになる
+		'''
+	IntergelacticSummon:
+		'''
+		ミニオンの最大数を3増加させる
+		ミニオンは6%の確率でクリティカルを発生させる
+		ミニオンが小惑星を敵に発射する
+		星界の疫病に対する耐性があり、攻撃によってそのデバフを付与できるようになる
+		'''
+	IntergelacticRogue:
+		'''
+		最大+120ステルス
+		ステルスストライクは小惑星を敵に放つ
+		星界の疫病に対する耐性があり、攻撃によってそのデバフを付与できるようになる
+		'''
+}
+
+Projectiles: {
+	IntergelacticMinionOrbitingRocks: {
+		DisplayName: Asteroid Barrier
+	}
+
+	AsteroidBusterProj: {
+		DisplayName: Asteroid Buster
+	}
+
+	AsteroidBusterExplosion: {
+		DisplayName: Asteroid Buster
+	}
+
+	NebulaSpear: {
+		DisplayName: Hyperspace Lance
+	}
+
+	Astralpod: {
+		DisplayName: Astralpod
+	}
+
+	AstralpodBullet: {
+		DisplayName: Cosmic Radiation
+	}
+
+	PlayerNebula: {
+		DisplayName: Nebula Assault
+	}
+
+	AstrageldonStar: {
+		DisplayName: Blighted Star
+	}
+
+	AstrageldonStar2: {
+		DisplayName: Blighted Star
+	}
+
+	AstrageldonStar3: {
+		DisplayName: Blighted Star
+	}
+
+	AstrageldonStar4: {
+		DisplayName: Blighted Star
+	}
+
+	AstraRock: {
+		DisplayName: Blighted Stone
+	}
+
+	HostileAsteroid: {
+		DisplayName: Blighted Asteroid
+	}
+
+	NebulaResidue: {
+		DisplayName: Blighted Residue
+	}
+
+	NebulaResidueHB: {
+		DisplayName: Blighted Residue
+	}
+
+	SlimerSpear: {
+		DisplayName: Nova Lance
+	}
+
+	SpiralLaser: {
+		DisplayName: Blighted Vortex
+	}
+
+	StarLaser: {
+		DisplayName: Blighted Flare
+	}
+
+	AstraBlade: {
+		DisplayName: Blighted Obelisk
+	}
+
+	AstrageldonLaser: {
+		DisplayName: Blighted Beam
+	}
+
+	AstrageldonFlamethrower: {
+		DisplayName: Blighted Flames
+	}
+
+	BreathofGlaciesFlamethrower: {
+		DisplayName: Glacial Flames
+	}
+
+	DesertScorcherDrop: {
+		DisplayName: Scorching Shot
+	}
+
+	IchorthrowerFlame: {
+		DisplayName: Ignited Ichor
+	}
+
+	IchorthrowerBubbleM: {
+		DisplayName: Ichorthrower Bubble
+	}
+
+	IchorthrowerBubbleS: {
+		DisplayName: Ichorthrower Bubble
+	}
+
+	NovaBeam: {
+		DisplayName: Nova Beam
+	}
+
+	NovaFlame: {
+		DisplayName: Nova Flame
+	}
+
+	NovaGlobe: {
+		DisplayName: Nova Globe
+	}
+
+	PlasmilegionFireball: {
+		DisplayName: Plasma Blast
+	}
+
+	PlasmilegionFlamethrower: {
+		DisplayName: Plasmilegion
+	}
+
+	PlasmilegionCalamityLaser: {
+		DisplayName: Plasmilegion Beam
+	}
+
+	RepentanceFlamethrower: {
+		DisplayName: Repentance
+	}
+
+	RepentanceForwardFireball: {
+		DisplayName: Repentance
+	}
+
+	RepentanceCircle: {
+		DisplayName: Repentance
+	}
+
+	RookOfVengeanceMFireball: {
+		DisplayName: Rook of Anarchy
+	}
+
+	RookOfVengeanceMFireballSpin: {
+		DisplayName: Rook of Anarchy
+	}
+
+	RookOfVengeanceMFireballBlast: {
+		DisplayName: Rook of Anarchy
+	}
+
+	CuteSandstoneShark: {
+		DisplayName: Ökenhaj
+	}
+
+	BlossomDriftingLeaf: {
+		DisplayName: Drifting Blossom
+	}
+
+	BlossomBuffLeaf: {
+		DisplayName: Blessed Blossom
+	}
+
+	BlossomsBlessingProjectile: {
+		DisplayName: Blossom's Blessing
+	}
+
+	CatharsisProjectile: {
+		DisplayName: Catharsis
+	}
+
+	HighCatharsis: {
+		DisplayName: Catharsis
+	}
+
+	CoralCrusherProjectile: {
+		DisplayName: Coral Crusher
+	}
+
+	CoralCrusherShard: {
+		DisplayName: Coral Crusher
+	}
+
+	CongeledCrimsonProjectile: {
+		DisplayName: Congealed Duo-Whip
+	}
+
+	CongeledCorruptProjectile: {
+		DisplayName: Congealed Duo-Whip
+	}
+
+	PrismBreakProjectile: {
+		DisplayName: Prism Break
+	}
+
+	ResonantStrikerProjectile: {
+		DisplayName: Resonant Striker
+	}
+
+	SandstoneReignsProjectile: {
+		DisplayName: Sandstone Reins
+	}
+
+	SharkSandSplash: {
+		DisplayName: Shark Sploosh
+	}
+
+	UnderbiteProjectile: {
+		DisplayName: Underbite
+	}
+
+	UnderbiteSkull: {
+		DisplayName: Underbite Skull
+	}
+
+	UnrelentingTormentProjectile: {
+		DisplayName: Unrelenting Torment
+	}
+
+	UnrelentingTormentHands: {
+		DisplayName: Torturous Hand
+	}
+
+	UnrelentingTormentSoul: {
+		DisplayName: Undying Soul
+	}
+
+	ElectricStomp: {
+		DisplayName: Electric Stomp
+	}
+
+	AsteroidBuster: {
+		DisplayName: Mods.CatalystMod.ProjectileName.AsteroidBuster
+	}
+
+	AstrageldonSpawner: {
+		DisplayName: Astrageldon Spawner
+	}
+
+	NebulaSphere: {
+		DisplayName: Hypernova Smog
+	}
+
+	WulfrumMineExplosion: {
+		DisplayName: Wulfrum Explosion
+	}
+
+	IntergelacticLaser: {
+		DisplayName: Intergelactic Laser
+	}
+
+	IntergelacticStar: {
+		DisplayName: Intergelactic Star
+	}
+
+	NebulaHitbox: {
+		DisplayName: Nebula Hitbox
+	}
+
+	AsteroidBusterProjS: {
+		DisplayName: Asteroid Buster Proj S
+	}
+
+	AstrageldonPet: {
+		DisplayName: Astrageldon Pet
+	}
+
+	AstragelgunFlamethrower: {
+		DisplayName: Astragelgun Flamethrower
+	}
+
+	AstragelgunProj: {
+		DisplayName: Astragelgun Proj
+	}
+
+	BreathofGlaciesIceShards: {
+		DisplayName: Ice Shard
+	}
+
+	BreathofGlaciesProj: {
+		DisplayName: Breathof Glacies Proj
+	}
+
+	BreathofGlaciesRunes: {
+		DisplayName: Breathof Glacies Runes
+	}
+
+	DesertScorcherEnemySplash: {
+		DisplayName: Desert Scorcher Enemy Splash
+	}
+
+	DesertScorcherProj: {
+		DisplayName: Desert Scorcher Proj
+	}
+
+	DesertScorcherSpray: {
+		DisplayName: Desert Scorcher Spray
+	}
+
+	DesertScorcherTileSplash: {
+		DisplayName: Desert Scorcher Tile Splash
+	}
+
+	IchorthrowerProj: {
+		DisplayName: Ichorthrower Proj
+	}
+
+	IchorthrowerSplashM: {
+		DisplayName: Ichorthrower Splash M
+	}
+
+	IchorthrowerSplashS: {
+		DisplayName: Ichorthrower Splash S
+	}
+
+	PlasmilegionProj: {
+		DisplayName: Plasmilegion Proj
+	}
+
+	RepentanceProj: {
+		DisplayName: Repentance Proj
+	}
+
+	RookOfVengeanceProj: {
+		DisplayName: Rook Of Vengeance Proj
+	}
+
+	StaticInfernoFlamethrower: {
+		DisplayName: Static Inferno Flamethrower
+	}
+
+	StaticInfernoFlamethrowerOrb: {
+		DisplayName: Static Inferno Flamethrower Orb
+	}
+
+	StaticInfernoProj: {
+		DisplayName: Static Inferno Proj
+	}
+
+	MiniStar: {
+		DisplayName: Mini Star
+	}
+
+	StarSpawner: {
+		DisplayName: Star Spawner
+	}
+
+	AstralRocksRogueShot: {
+		DisplayName: Astral Rocks Rogue Shot
+	}
+
+	InterstellarVolutionProj: {
+		DisplayName: Interstellar Volution Proj
+	}
+
+	InterstellarVolutionSlimer: {
+		DisplayName: Interstellar Volution Slimer
+	}
+
+	InterstellarVolutionSlimerBullet: {
+		DisplayName: Interstellar Volution Slimer Bullet
+	}
+
+	WulfrumMineExplosionNobreak: {
+		DisplayName: Wulfrum Explosion
+	}
+
+	WulfrumSatchelChargeProj: {
+		DisplayName: Wulfrum Satchel Charge Proj
+	}
+
+	AstralpodLaser: {
+		DisplayName: Quasar Ray
+	}
+
+	AstralpodMinion: {
+		DisplayName: Astralpod Minion
+	}
+
+	IntergelacticMinionRockShot: {
+		DisplayName: Intergelactic Minion Rock Shot
+	}
+
+	CatharsisSpawner: {
+		DisplayName: Catharsis Spawner
+	}
+
+	CatharsisSplash: {
+		DisplayName: Catharsis Splash
+	}
+
+	HighCatharsisDown: {
+		DisplayName: High Catharsis Down
+	}
+
+	HighCatharsisUp: {
+		DisplayName: High Catharsis Up
+	}
+
+	DevouringBlackhole: {
+		DisplayName: Devouring Blackhole
+	}
+
+	DuoWhipSpawner: {
+		DisplayName: Duo Whip Spawner
+	}
+
+	PrismBreakHoming: {
+		DisplayName: PrismBreakHoming
+	}
+
+	PrismBreakShard: {
+		DisplayName: PrismBreakShard
+	}
+
+	ResonantStrikerOrb: {
+		DisplayName: Resonant Striker Orb
+	}
+
+	SerpentsTongueProjectile: {
+		DisplayName: Serpents Tongue Projectile
+	}
+
+	UnrelentingTormentSpawner: {
+		DisplayName: Unrelenting Torment Spawner
+	}
+
+	AstralRocksProj: {
+		DisplayName: Astral Rocks Proj
+	}
+
+	FlashlightConeFriendly: {
+		DisplayName: Flashlight Cone Friendly
+	}
+
+	FlashlightProj: {
+		DisplayName: Flashlight Proj
+	}
+
+	GelSpray: {
+		DisplayName: Gel Spray
+	}
+
+	GoozmaBall: {
+		DisplayName: Goozma Ball
+	}
+
+	AstralLashProj: {
+		DisplayName: Astral Lash Proj
+	}
+
+	ScytheoftheAbandonedGod: {
+		DisplayName: Scytheofthe Abandoned God
+	}
+
+	ScytheoftheAbandonedGodShot: {
+		DisplayName: Scytheofthe Abandoned God Shot
+	}
+}
+
+AuricTeslaPlusSet: {
+	Melee:
+		'''
+		近接装備の星間、ブラッドフレア、ゴッドスレイヤーの効果を併せ持つ
+		Press {0} to make the asteroids more transparent
+		敵に狙われやすくなる
+		すべての投射物は敵に命中すると、ヒーリング効果のあるオーリックオーブを生成する
+		'''
+	Ranged:
+		'''
+		遠隔装備の星間、ブラッドフレア、ゴッドスレイヤーの効果を併せ持つ
+		Press {0} to make the asteroids more transparent
+		すべての投射物は敵に命中すると、ヒーリング効果のあるオーリックオーブを生成する
+		'''
+	Magic:
+		'''
+		魔法装備の星間、ブラッドフレア、ゴッドスレイヤーの効果を併せ持つ
+		Press {0} to make the asteroids more transparent
+		すべての投射物は敵に命中すると、ヒーリング効果のあるオーリックオーブを生成する
+		最大移動速度と加速度が5%増加
+		'''
+	Summoner:
+		'''
+		召喚装備の星間、ブラッドフレア、ゴッドスレイヤーの効果を併せ持つ
+		Press {0} to make the asteroids more transparent.
+		すべての投射物は敵に命中すると、ヒーリング効果のあるオーリックオーブを生成する
+		最大移動速度と加速度が5%増加
+		最大ミニオン数+6、ミニオンダメージ75%増加
+		'''
+	Rogue:
+		'''
+		ローグ装備の星間、ブラッドフレア、ゴッドスレイヤーの効果を併せ持つ
+		Press {0} to make the asteroids more transparent
+		すべての投射物は敵に命中すると、ヒーリング効果のあるオーリックオーブを生成する
+		ローグのステルス性能は、攻撃していない時は高く、移動している時は低くなる
+		ステルスが最大になると、ステルスストライクを行うことができるようになる
+		ローグのステルスは攻撃時のみ減少し、移動中は減少しない
+		ローグのステルスが高いほど、ローグのダメージ、クリティカル、移動速度が高くなる
+		'''
+}
+
+ItemTooltipExtra: {
+	InfluxCluster:
+		'''
+		 {0} キーを押すと、一定時間カーソルに向かってダッシュする
+		ダッシュしている間、ダメージを受けない
+		{1} 秒のクールダウン
+		'''
+}
+
+Cooldowns: {
+	InfluxDash: Influx Cluster Cooldown
+}
+
+Tiles: {
+	AstralTransmogrifier: {
+		MapEntry: Astral Transmogrifier
+	}
+
+	IntergelacticChest: {
+		MapEntry: Chest
+		ContainerName: Intergelactic Chest
+	}
+
+	IntergelacticDoor: {
+		MapEntry: Door
+	}
+
+	IntergelacticDresser: {
+		MapEntry: Dresser
+		ContainerName: Intergelactic Dresser
+	}
+
+	BossTrophy: {
+		MapEntry: Trophy
+	}
+
+	EnemyBanners: {
+		MapEntry: Banner
+	}
+
+	AstralNeutronPlaced: {
+		MapEntry: Painting
+	}
+
+	IntergelacticBathtub: {
+		MapEntry: Bathtub
+	}
+
+	IntergelacticBed: {
+		MapEntry: Bed
+	}
+
+	IntergelacticBookshelf: {
+		MapEntry: Bookshelf
+	}
+
+	IntergelacticCandelabra: {
+		MapEntry: Candelabra
+	}
+
+	IntergelacticCandle: {
+		MapEntry: Candle
+	}
+
+	IntergelacticChair: {
+		MapEntry: Chair
+	}
+
+	IntergelacticChandelier: {
+		MapEntry: Chandelier
+	}
+
+	IntergelacticClock: {
+		MapEntry: Grandfather Clock
+	}
+
+	IntergelacticLamp: {
+		MapEntry: Lamp
+	}
+
+	IntergelacticLantern: {
+		MapEntry: Lantern
+	}
+
+	IntergelacticPiano: {
+		MapEntry: Piano
+	}
+
+	IntergelacticSink: {
+		MapEntry: Sink
+	}
+
+	IntergelacticSofa: {
+		MapEntry: Sofa
+	}
+
+	IntergelacticTable: {
+		MapEntry: Table
+	}
+
+	IntergelacticToilet: {
+		MapEntry: Toilet
+	}
+
+	IntergelacticWorkbench: {
+		MapEntry: Work Bench
+	}
+
+	MetanovaOre: {
+		MapEntry: Metanova Ore
+	}
+
+	IntergelacticDoorOpen: {
+		MapEntry: Door
+	}
+}
+
+Buffs: {
+	AstrogelJumpBoost: {
+		DisplayName: アストロゲル
+		Description: ジャンプの高さが大幅に増加
+	}
+
+	AstrageldonRocksSetbonus: {
+		DisplayName: 小惑星の加護
+		Description: 小惑星があなたを守る
+	}
+
+	AstralJellyBuff: {
+		DisplayName: アストラジェル
+		Description: マナの最大値とマナ回復量が増加
+	}
+
+	ZeroGravity: {
+		DisplayName: 無重力
+		Description: 飛行時間が無限になる
+	}
+
+	AstralpodBuff: {
+		DisplayName: アストラルポッド
+		Description: アストラルポッドがあなたを守る
+	}
+
+	AstralBlight: {
+		DisplayName: 星界の疫病
+		Description: あなたの肉体は煮えたぎっている
+	}
+
+	InterstellarCorruption: {
+		DisplayName: 星間の腐敗
+		Description:
+			'''
+			空間を曲げるエネルギーがあなたを取り囲む
+			カオス状態になると効果は終了する
+			'''
+	}
+
+	AstrageldonPetBuff: {
+		DisplayName: スライムの神
+		Description: 彼はすべてを焼き尽くすだろう
+	}
+
+	BlessedBlossoms: {
+		DisplayName: 祝福された花
+		Description: 力強い棘と再生に祝福されている
+	}
+
+	ReverberatingParalysis: {
+		DisplayName: 残響する麻痺
+		Description: 感電している！
+	}
+
+	DefaultTag: {
+		DisplayName: Tagged
+		Description: Tagged by a whip
+	}
+
+	CatharsisBuff: {
+		DisplayName: 燃え盛る血
+		Description: 血には血を…
+	}
+
+	CatharsisBuff2: {
+		DisplayName: 血の支配
+		Description: 血と力と…
+	}
+}
+
+CommonTooltip: {
+	HeatProtect: Provides heat protection in Death Mode
+	ColdProtect: Provides cold protection in Death Mode
+	HeatandColdProtect: Provides heat and cold protection in Death Mode
+}
+
+Tooltips: {
+	FlawlessDrop: - Flawless Drop -
+	NotConsumable: 消耗品ではない
+	ClentaminatorSolution: クレンタミネーターで使用される
+	WhipTooltip: 攻撃を当てた敵にミニオンが集中攻撃する
+	Flamethrower: ジェルを消費する
+	LensTooltip: 懐中電灯の色を変える
+	LegendaryChallengeDrop: Mods.CatalystMod.Tooltips.LegendaryChallengeDrop
+}
+
+Announcement: {
+	AstrageldonLocked:
+		'''
+		アストラルコミュニケーターのコアが砕け散った...
+		アストラルの特異点が天空に散っていく...
+		'''
+	AstralTreasures: アストラルの洞窟の財宝が明らかになった！
+	HasAwakened: "{0} has awoken!"
+	AstrageldonKilledImproperly: 稀なバグが発生しました...ボスを再召喚し倒しましょう！
+	Bug: カタリスト開発チームへのバグ報告をお忘れなく！
+}
+
+WorldGen: {
+	AstralSpread: アストラルの汚染が拡大している...
+	AstralTreasures: メタノヴァ鉱石の祝福を受けた！
+}
+
+ClientConfig: {
+	Name: 設定
+	VisualsHeader: 視覚エフェクト
+	MiscHeader: Misc
+	SulphurousSeaCustomBG: カスタム硫黄海の背景
+	SulphurousSeaCustomBGTooltip: 硫黄海バイオームのカスタム背景を用意するかどうか
+	TextSparkles: テキストの輝き
+	TextSparklesTooltip:
+		'''
+		一部のアイテム名にエフェクトをかけるかどうかを設定します。
+		有効にするとテキストが読みにくくなる場合があります。
+		'''
+	CatharsisBarX: 浄化メーターX座標
+	CatharsisBarY: 浄化メーターY座標
+	CatharsisXTooltip: ブラッドチャージメーターのX位置。
+	CatharsisYTooltip: ブラッドチャージメーターのY位置。
+	discordRichPresence: Mods.CatalystMod.ClientConfig.discordRichPresence
+	discordRichPresenceTooltip: Mods.CatalystMod.ClientConfig.discordRichPresenceTooltip
+	ExtraFlashyExpertText: Mods.CatalystMod.ClientConfig.ExtraFlashyExpertText
+	ExtraFlashyExpertTextTooltip: Mods.CatalystMod.ClientConfig.ExtraFlashyExpertTextTooltip
+	TextSparklesLabel: "[i:3459] Text Sparkles"
+	SulphurousSeaCustomBGLabel: "[i:6738] Custom Sulphurous Sea Background"
+	CatharsisBarXLabel: "[i:7637] Catharsis Meter X Position"
+	CatharsisBarYLabel: "[i:7637] Catharsis Meter Y Position"
+}
+
+TitleIcon: {
+	Astrageldon: {
+		1: Astrageldon is unfightable
+		3: Astrageldon is fightable
+		4: Astrageldon is defeated
+	}
+}
+
+Bestiary: {
+	Astrageldon: 神のような力を宿した異次元のスライム。禍々しいアストラルに力を与えられ、宿主の宇宙全体を吸収するまでに成長した。
+	NovaSlime: アストラゲルドンの小さな破片。ノヴァ・スライムは膨大なエネルギーを秘めているが、安定した状態を保つには質量が足りない。
+	NovaSlimer: この高密度のオーブには、次元を貫く刃がついている。高速で発射されると、現実の布に穴を開ける。
+	AscendedAstralSlime: 別の宇宙から放出された純粋なエネルギーから形成されたゼラチン。その核となるのは、共鳴するオーブを持つ異質な石の塊だ。
+	MetanovaSlime: アストラゲルドンの破壊によって、アストラルの洞窟に光り輝く異質な石が注入された。スライムたちはこの石の小さな破片と融合し、操縦性と耐久性を兼ね備えた装甲板を作り出した。
+	WulfrumSlime: 敵に接近されると、これらのマシンはゲルを放出し、成長させてエネルギー・シールドを作る。ゲルの高い伝導性と冷却特性により、この「スライム」はシールド・ジェネレーターを安全な場所に保管しておくのに最適な選択となる。
+	WulfrumMine: 完成前に放棄されたウルフラム鉱山は、もともとウルフラム建設物の他のすべての機能を果たすように設計されていた。大爆発を起こし、その半径に入ったものを蒸発させることだけが目的だった。
+}
+
+NPCs: {
+	Astrageldon: {
+		DisplayName: アストラゲルドン
+
+		BossChecklistIntegration: {
+			SpawnInfo: アストラルに汚染された地帯で [i:CatalystMod/AstralCommunicator] を使うとスポーンする。
+			DespawnMessage: "[c/db5ed2:多元宇宙の恐怖が再びその消費を始める。]"
+		}
+	}
+
+	NovaSlime: {
+		DisplayName: ノヴァスライム
+	}
+
+	NovaSlimer: {
+		DisplayName: ノヴァスライマー
+	}
+
+	WulfrumSlime: {
+		DisplayName: ウルフラムスライム
+	}
+
+	WulfrumMine: {
+		DisplayName: ウルフラムの地雷
+	}
+
+	AscendedAstralSlime: {
+		DisplayName: アセンデッド・アストラル・スライム
+	}
+
+	MetanovaSlime: {
+		DisplayName: メタノヴァ・スライム
+	}
+
+	MetanovaSlimeRocks: {
+		DisplayName: メタノヴァ・スライム
+	}
+
+	ArmoredAstralSlime: {
+		DisplayName: アーマード・アストラル・スライム
+	}
+
+	AstrageldonSlimer: {
+		DisplayName: アストラゲルドン・スライマー
+	}
+
+	AstrageldonSlime: {
+		DisplayName: アストラゲルドンスライム
+	}
+}
+
+DropCondition: {
+	Flawless: Dropped when defeated flawlessly
+}
+
+DeathMessage: {
+	InterstellarCorruption: " は宇宙に飲まれてしまった。"
+	CatharsisDeath: " は悲しみに打ちひしがれた。"
+}
+
+AstrageldonMainMenu: Astrageldon Style
+
+AstrageldonAntiCheat:
+	'''
+	あなたがアストラゲルドンを召喚した方法は意図されたものではありません。
+	ボスや戦利品に関するバランスの問題は報告しないでください。
+	この戦闘におけるノーヒットは、ボスが正規の方法で召喚されたことが証明されない限り無効になります。
+	'''
+
+Keybinds: {
+	InfluxCluster: CatalystMod: Influx Cluster
+	ToggleVisibility: CatalystMod: Toggle Intergelactic Setbonus Visibility
+
+	"Influx Cluster": {
+		DisplayName: Influx  Cluster
+	}
+
+	"Toggle Intergelactic Setbonus Visibility": {
+		DisplayName: Toggle  Intergelactic  Setbonus  Visibility
+	}
+}
+
++ItemTooltip: {
+	IntergelacticHornedHelmet: Mods.CatalystMod.+ItemTooltip.IntergelacticHornedHelmet
+}
+
+Error: {
+	BossChecklist: Mods.CatalystMod.Error.BossChecklist
+	DiscordRichPresence: Mods.CatalystMod.Error.DiscordRichPresence
+	Mysterious: Mods.CatalystMod.Error.Mysterious
+	ReportBugs: Mods.CatalystMod.Error.ReportBugs
+}
+
+Biomes: {
+	AstrageldonBiome: {
+		DisplayName: アストラルゲルドン
+		TownNPCDialogueName: the Astrageldon Biome
+	}
+}
+
+Configs: {
+	CatalystClientConfig: {
+		DisplayName: "{$Mods.CatalystMod.ClientConfig.Name}"
+
+		textSparkles: {
+			Label: "{$Mods.CatalystMod.ClientConfig.TextSparklesLabel}"
+			Tooltip: "{$Mods.CatalystMod.ClientConfig.TextSparklesTooltip}"
+		}
+
+		CatharsisBarX: {
+			Label: "{$Mods.CatalystMod.ClientConfig.CatharsisBarX}"
+			Tooltip: "{$Mods.CatalystMod.ClientConfig.CatharsisXTooltip}"
+		}
+
+		CatharsisBarY: {
+			Label: "{$Mods.CatalystMod.ClientConfig.CatharsisBarY}"
+			Tooltip: "{$Mods.CatalystMod.ClientConfig.CatharsisYTooltip}"
+		}
+	}
+}
+
+MusicDisplay: {
+	SongNames: {
+		AstrageldonTitle: Heaven's Hell-Sent Gift
+		AstrageldonPhase1: Cosmic Disgust
+		AstrageldonPhase2: Galactic Destruction
+	}
+
+	Authors: {
+		DMDOKURO: by DM DOKURO
+		HeartPlusUp: by Heart Plus Up!
+	}
+}
+

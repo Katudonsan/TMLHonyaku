@@ -1,0 +1,3113 @@
+Mods: {
+	miningcracks_take_on_luiafk: {
+Conditions: {
+	Master: Luiafk: マスターモード限定
+	Expert: Luiafk: エキスパートモード以上限定
+}
+
+
+NPCs: {
+	Deeps: {
+        	DisplayName: 改良型ダミー
+
+
+        	TownNPCMood: {
+                	Content: ...
+                	NoHome: ...
+                	FarFromHome: ...
+                	LoveSpace: ...
+                	DislikeCrowded: ...
+                	HateCrowded: ...
+                	LikeNPC_Princess: ...
+                	Princess_LovesNPC: ...
+        	}
+	}
+
+
+	MobileMerchant: {
+        	DisplayName: 携帯型商人
+
+
+        	TownNPCMood: {
+                	Content: わあ、お話できて嬉しいな。＾＾
+                	NoHome: 家を持ちたいというこの衝動が理解できない。私はただの動かない飛行商人なのに...。
+                	FarFromHome: え？いや、家はいらないわ。
+                	LoveSpace: There is so much room for me and some friends, thank you ^^
+                	DislikeCrowded: パーティーでもやってるの？ちょっと人が多すぎよ。
+                	HateCrowded: There is way too many people around here, please make them go away.
+                	LikeNPC_Princess: I like {NPCName}.
+                	Princess_LovesNPC: わたしは {NPCName} が好きね
+        	}
+
+
+        	Chat: いそいで、ここには長くいられないの...
+	}
+
+
+	SkeletonMerchant: {
+        	DisplayName: 骸骨の商人
+
+
+        	TownNPCMood: {
+                	Content: Thanks for not killing me yet, greatly appreciated ^^
+                	NoHome: I'd like to have a home, too, you know :(
+                	LoveSpace: This much space around me is perfect for practicing my Yo-Yo's and throwing bones... Without hitting the eye of someone.
+                	FarFromHome: Would you care to help me find my way back home? You know, as a skeleton I can't see where I'm going...
+                	DislikeCrowded: Big party here? There's a lot of people...
+                	HateCrowded: Wow, there are too much people around me... I hate that
+                	LikeBiome: Also, I like the forest, it's different from down there. I can take fresh air for once!
+                	LoveBiome: Also, I really love the undergrounds. Makes me feel like home!
+                	DislikeBiome: Also, one question : WHY AM I HERE?!
+                	HateBiome: Its kind of hard to mod while being attacked by monsters in {BiomeName}.
+                	LikeNPC: I talked to {NPCName}, he is a cool person!
+                	LoveNPC: Talked to {NPCName}... He loves to blow stuff, I do too, we were meant to be together!
+                	HateNPC: Mmmh, my fellow adventurer, there's a girl named {NPCName} who wants to purify me... I don't like that, she wants to experiment things on me... HELP!
+                	LikeNPC_Princess: I like {NPCName}.
+                	Princess_LovesNPC: I like {NPCName}.
+        	}
+
+
+        	Census: {
+                	SpawnCondition: スケルトンを５０体以上倒す
+        	}
+	}
+
+
+	TravellingMerchant: {
+        	DisplayName: 行商人
+
+
+        	TownNPCMood: {
+                	Content: Hey! Are you searching for goods today?
+                	NoHome: I'd like to have a home, too, you know :(
+                	LoveSpace: Aaah, lot of space! Now, I can think about my buisiness!
+                	FarFromHome: Help! I can't find my way back home. Please, guide me back.
+                	DislikeCrowded: Seems like there are a little too much customers here, huh?
+                	HateCrowded: Well, I have a limited stock... I can't support all of you guys, give me space...
+                	LikeBiome: Yea, desert is cool. Love the scenery here and... Oh, a customer!
+                	LoveBiome: Aaah, the Forest... Relax and peaceful place to live, as well of lots of customers!
+                	HateBiome: Also, I have a question... What do you want me to do here... Seriously, it's just too dangerous and nobody will buy my stuff. I just hate this place.
+                	LikeNPC: "{NPCName} has a good merchant soul. I like that!"
+                	LoveNPC: Oh, there's {NPCName}... Oh no, am I blushing again?
+                	HateNPC: Please, can I just live without {NPCName} near me? He's stealing my life savings...
+                	LikeNPC_Princess: I like {NPCName}.
+                	Princess_LovesNPC: I like {NPCName}.
+        	}
+
+
+        	Census: {
+                	SpawnCondition: ５０ゴールド以上を所持する
+        	}
+	}
+}
+
+
+Buffs: {
+	DrillMountBuff: {
+        	DisplayName: レーザードリルマウント
+        	Description: Careful you don't destroy everything.
+	}
+}
+
+
+Items: {
+	FasterMining: {
+        	DisplayName: 高速採掘器
+        	Tooltip: 採掘速度が３５％加速する
+	}
+
+
+	SuperToolTime: {
+        	DisplayName: ホームインプルーブメント
+        	Tooltip:
+                	'''
+                	ツール、ペイント、タイル、壁のスピードが大幅にアップ。
+               	自動ペイント。
+               	手の届く範囲が大幅に拡大。
+                	'''
+	}
+
+
+	ToolTime: {
+        	DisplayName: ツールタイム
+        	Tooltip:
+                	'''
+                	ツール、ペイント、タイル、壁のスピードが大幅にアップ。
+               	手の届く範囲が大幅に拡大。
+                	'''
+	}
+
+
+	UnlimitedManaAccessory: {
+        	DisplayName: 小さな無限のマナ
+        	Tooltip:
+                	'''
+                	無限のマナ
+                	魔法ダメージが30%減少
+                	'''
+	}
+
+
+	UnlimitedManaAccessory1: {
+        	DisplayName: 中くらいの無限のマナ
+        	Tooltip:
+                	'''
+                	無限のマナ
+                	魔法ダメージが20%減少
+                	'''
+	}
+
+
+	UnlimitedManaAccessory2: {
+        	DisplayName: 無限のマナ
+        	Tooltip:
+                	'''
+                	無限のマナ.
+                	魔法ダメージが10%減少
+                	'''
+	}
+
+
+	UnlimitedManaAccessory3: {
+        	DisplayName: 素晴らしい無限のマナ
+        	Tooltip: 無限のマナ
+	}
+
+
+	UnlimitedManaAccessory4: {
+        	DisplayName: 高度な無限のマナ
+        	Tooltip:
+                	'''
+                	無限のマナ
+                	魔法ダメージが5%増加
+                	魔法クリティカル率が5%増加.
+                	'''
+	}
+
+
+	UnlimitedManaAccessory5: {
+        	DisplayName: 究極の無限マナ
+        	Tooltip:
+                	'''
+                	無限のマナ
+                	魔法ダメージが10%増加
+                	魔法クリティカル率が10%増加
+                	'''
+	}
+
+
+	UnlimitedBoneArrows: {
+        	DisplayName: 無限骨矢筒
+        	Tooltip: 尽きることのない骨の矢
+	}
+
+
+	UnlimitedChlorophyteArrows: {
+        	DisplayName: 無限クロロファイト矢筒
+        	Tooltip: 尽きることのないクロロファイトの矢
+	}
+
+
+	UnlimitedCursedArrows: {
+        	DisplayName: 無限呪われた矢筒
+        	Tooltip: 尽きることのない呪われた矢
+	}
+
+
+	UnlimitedFlamingArrows: {
+        	DisplayName: 無限の火のついた矢筒
+        	Tooltip: 尽きることのない火のついた矢
+	}
+
+
+	UnlimitedFrostburnArrows: {
+        	DisplayName: 無限の吹雪の矢筒
+        	Tooltip: 尽きることのない吹雪の矢
+	}
+
+
+	UnlimitedHellfireArrows: {
+        	DisplayName: 無限ヘルファイア矢筒
+        	Tooltip: 尽きることのないヘルファイアの矢
+	}
+
+
+	UnlimitedHolyArrows: {
+        	DisplayName: 無限の聖なる矢
+        	Tooltip: 尽きることのない聖なる矢
+	}
+
+
+	UnlimitedIchorArrows: {
+        	DisplayName: 無限のイコルの矢
+        	Tooltip: 尽きることのないイコルの矢
+	}
+
+
+	UnlimitedJesterArrows: {
+        	DisplayName: 無限の道化師の矢
+        	Tooltip: 尽きることのない道化師の矢
+	}
+
+
+	UnlimitedLuminiteArrows: {
+        	DisplayName: 無限のルミナイトの矢
+        	Tooltip: 尽きることのないルミナイトの矢
+	}
+
+
+	UnlimitedUnholyArrows: {
+        	DisplayName: 無限の不浄な矢
+        	Tooltip: 尽きることのない不浄な矢
+	}
+
+
+	UnlimitedVenomArrows: {
+        	DisplayName: 無限の猛毒の矢
+        	Tooltip: 尽きることのない猛毒の矢
+	}
+
+
+	UnlimitedWoodenArrows: {
+        	DisplayName: 無限の木の矢
+        	Tooltip: 尽きることのない木の矢
+	}
+
+
+	UnlimitedShimmerArrows: {
+        	DisplayName: 無限のシマーの矢
+        	Tooltip: 尽きることのないシマーの矢
+	}
+
+
+	ArenaBuilder: {
+        	DisplayName: アリーナの足場製造機
+        	Tooltip:
+                	'''
+                	幅200ブロックのプラットフォームを構築する
+                	右クリックでオプションを選択でき、足場などを選択できる
+                	インベントリにアスファルトの足場があれば自動的に使用する
+                	キャンプファイアーを選択すると、キャンプファイアーも設置する
+                	また、ハチミツ配置用のバブルブロックも配置される
+                	ライトを選択すると、足場の終点まで照らしてくれる
+                	ブロックを破壊しない
+                	'''
+	}
+
+
+	FishingBiomeBuilder: {
+        	DisplayName: 釣り堀用バイオーム製造機
+        	Tooltip:
+                	'''
+                	釣りをするためのバイオームを作る
+                	右クリックでオプションを選択
+                	黒曜石を選択するとタイルの後ろにジャングルかきのこの壁ができます
+                	Select wood/stone material for outer barrier.
+                	Toggle the light to choose whether you want it lit or not.
+                	Pearlstone/Hallow Ice only usable in Hardmode.
+                	'''
+	}
+
+
+	FishingBuilder: {
+        	DisplayName: プール製造機
+        	Tooltip:
+                	'''
+                	Use to build a fishing pool or place/remove liquid.
+                	Right-click to choose options.
+                	Works like the Ultimate Liquid Manipulator when Fishing Pool Builder is off.
+                	With Fishing Pool Builder on using it will create a fishing pool with your chosen liquid.
+                	Pool will be empty if you choose the sponge (no platforms or outer tiles).
+                	With obsidian on a back wall will be placed (sponge included).
+                	'''
+	}
+
+
+	GroundFiller: {
+        	DisplayName: ダート・ロッド 2.0
+        	Tooltip:
+                	'''
+                	Right-click to change modes.
+                	Mode 1: Levels and fills the ground beneath you, 300 wide, 50 deep.
+                	Mode 2: Also clears 50 tiles up.
+                	Mode 3: Also works on Dungeon, Temple, and Underground Desert, leaving background wall.
+                	Modded tiles will be replaced with vanilla tiles.
+                	'''
+	}
+
+
+	Hellevator: {
+        	DisplayName: 自動ヘルベーター製造機
+        	Tooltip:
+                	'''
+                	Builds a hellevator.
+                	Right-click to choose options.
+                	Will be lit up all the way down if you have the light on.
+                	Will only place rope if you have one of the Unlimited Rope items in your inventory.
+                	Click where you want the top right hellevator wall.
+                	Will stop if it hits the Temple.
+                	'''
+	}
+
+
+	PrisonBuilder: {
+        	DisplayName: 監獄製造機
+        	Tooltip:
+                	'''
+                	Builds an NPC prison.
+                	Right-click to choose options.
+                	Will be lit up if the light is on (will count as a house either way).
+                	Click where you want the bottom right block.
+                	'''
+	}
+
+
+	SkyPlatformBuilder: {
+        	DisplayName: 空架橋ビルダー
+        	Tooltip:
+                	'''
+                	Builds a platform the length of the map.
+                	Right-click to choose options.
+                	Will be lit up all the way along if you have the light on.
+                	Won't destroy tiles.
+                	Will automatically use Asphalt Platforms if you have them in your inventory.
+                	'''
+	}
+
+
+	SubAndSky: {
+        	DisplayName: トロッコの足場ビルダー
+        	Tooltip:
+                	'''
+                	Right-click to choose options.
+                	Will be lit up all the way along if you have the light on.
+                	Platform material can be Obsidian (takes priority), or the woods.
+                	If you have Unlimited Asphalt Platforms in your inventory, these will be placed instead.
+                	Choosing Obsidian will make the Minecart lay without walls/floor.
+                	Placing platforms will destroy tiles.
+                	Click where you want the Minecart Track or the Platform to be
+                	Will go through the temple if Golem is dead.
+                	'''
+	}
+
+
+	SubwayBuilder: {
+        	DisplayName: Subway Builder
+        	Tooltip:
+                	'''
+                	Builds a subway.
+                	Right-click to choose options.
+                	Will be lit up all the way along if you have the light on.
+                	Click where you want the Minecart Track to be.
+                	Will go through the temple if Golem is dead.
+                	'''
+	}
+
+
+	InstantMoonLord: {
+        	DisplayName: ムーンロードの呼び出し
+        	Tooltip: Skips Impending Doom.
+	}
+
+
+	NoAltarGolem: {
+        	DisplayName: ゴーレムの呼び出し
+        	Tooltip:
+                	'''
+                	ゴーレムをリザードの祭壇を使わずに召喚する
+                	既にゴーレムを倒していないと使えない
+                	'''
+	}
+
+
+	NoFishDuke: {
+        	DisplayName: デューク・フィッシュロンの呼び出し
+        	Tooltip: 釣りをせずにデューク・フィッシュロンを召喚する
+	}
+
+
+	WallSummon: {
+        	DisplayName: 血塗れのガイドのブードゥー人形
+        	Tooltip:
+                	'''
+                	ガイドを犠牲にせずに、ウォールオブフレッシュを召喚する
+                	既にウォールオブフレッシュを倒していないと使えない
+                	'''
+	}
+
+
+	MultiPurposeSponge: {
+        	DisplayName: 多目的スポンジ
+        	Tooltip:
+                	'''
+                	すべての液体を取り除く。
+               	水、溶岩、蜂蜜に効く。
+                	'''
+	}
+
+
+	UltimateBucket: {
+        	DisplayName: 究極の液体マニピュレータ
+        	Tooltip:
+                	'''
+                	尽きることのない液体
+                	設置する液体を
+                	右クリックで切り替える
+                	'''
+	}
+
+
+	UnlimitedChumBucket: {
+        	DisplayName: 底なしの撒き餌のバケツ
+        	Tooltip: プランクトンはこのラグジュアリーを夢見ている。
+	}
+
+
+	UnlimitedHoney: {
+        	DisplayName: 底なしの蜂蜜入りバケツ
+        	Tooltip: 尽きることのない蜂蜜入りバケツ
+	}
+
+
+	UnlimitedLava: {
+        	DisplayName: 底なしの溶岩入りバケツ
+        	Tooltip: 尽きることのない溶岩入りバケツ
+	}
+
+
+	UnlimitedWater: {
+         	DisplayName: 底なしの水入りバケツ
+        	Tooltip: 尽きることのない水入りバケツ
+	}
+
+
+	UnlimitedChlorophyteBullets: {
+        	DisplayName: 無限のクロロファイト弾ポーチ
+        	Tooltip: 尽きることのないクロロファイトの弾丸
+	}
+
+
+	UnlimitedCrystalBullets: {
+        	DisplayName: 無限の水晶弾ポーチ
+        	Tooltip: 尽きることのない水晶の弾丸
+	}
+
+
+	UnlimitedCursedBullets: {
+        	DisplayName: 無限の呪われた弾ポーチ
+        	Tooltip: 尽きることのない呪われた弾丸
+	}
+
+
+	UnlimitedExplodingBullets: {
+        	DisplayName: 無限の爆裂弾ポーチ
+        	Tooltip: 尽きることのない爆裂弾丸
+
+
+	}
+
+
+	UnlimitedGoldenBullets: {
+        	DisplayName:無限の黄金弾ポーチ
+        	Tooltip: 尽きることのない黄金の弾丸
+	}
+
+
+	UnlimitedHighVelocityBullets: {
+        	DisplayName: 無限の高速弾ポーチ
+        	Tooltip: 尽きることのない高速の弾丸
+	}
+
+
+	UnlimitedIchorBullets: {
+        	DisplayName: 無限のイコル弾ポーチ
+        	Tooltip: 尽きることのないイコルの弾丸
+	}
+
+
+	UnlimitedLuminiteBullets: {
+        	DisplayName: 無限のルミナイト弾ポーチ
+        	Tooltip: 尽きることのないルミナイトの弾丸
+	}
+
+
+	UnlimitedMeteoriteBullets: {
+        	DisplayName: 無限のメテオライト弾ポーチ
+        	Tooltip: 尽きることのないメテオライトの弾丸
+	}
+
+
+	UnlimitedMusketBalls: {
+        	DisplayName: 無限のマスケット弾ポーチ
+        	Tooltip: 尽きることのないマスケットの弾丸
+	}
+
+
+	UnlimitedNanoBullets: {
+        	DisplayName: 無限の極小弾ポーチ
+        	Tooltip: 尽きることのない極小の弾丸
+	}
+
+
+	UnlimitedPartyBullets: {
+        	DisplayName: 無限のパーティ弾ポーチ
+        	Tooltip: 尽きることのないパーティの弾丸
+	}
+
+
+	UnlimitedSilverBullets: {
+        	DisplayName: 無限の銀弾ポーチ
+        	Tooltip: 尽きることのない銀の弾丸
+	}
+
+
+	UnlimitedTungstenBullets: {
+        	DisplayName: 無限のタングステン弾ポーチ
+        	Tooltip: 尽きることのないタングステンの弾丸
+	}
+
+
+	UnlimitedVenomBullets: {
+        	DisplayName: 無限の猛毒弾ポーチ
+        	Tooltip: 尽きることのない猛毒の弾丸
+	}
+
+
+	UnlimitedCrystalDarts: {
+        	DisplayName: 無限の水晶ダーツ
+        	Tooltip: 尽きることのない水晶のダーツ
+	}
+
+
+	UnlimitedCursedDarts: {
+        	DisplayName: 無限の呪われたダーツ
+        	Tooltip: 尽きることのない呪われたダーツ
+	}
+
+
+	UnlimitedIchorDarts: {
+        	DisplayName: 無限のイコルダーツ
+        	Tooltip: 尽きることのないイコルのダーツ
+	}
+
+
+	UnlimitedPoisonDarts: {
+        	DisplayName: 無限の毒ダーツ
+        	Tooltip: 尽きることのない毒のダーツ
+	}
+
+
+	LootMagnet: {
+        	DisplayName: Loot Magnet
+        	Tooltip:
+                	'''
+                	Loot everything.
+                	Sometimes, items can't be picked up; This is a terraria issue, not LuiAFK side !
+                	'''
+	}
+
+
+	MagicEssence: {
+        	DisplayName: Magic Essence
+        	Tooltip:
+                	'''
+                	Imbued with magical power.
+                	Smells a little like cheese.
+                	'''
+	}
+
+
+	ManaEssence: {
+        	DisplayName: Mana Essence
+        	Tooltip:
+                	'''
+                	Imbued with magical power.
+                	Smells a little like fish.
+                	'''
+	}
+
+
+	EventsEnabler: {
+        	DisplayName: Event Enabler
+        	Tooltip:
+                	'''
+                	Right-click me to use
+                	Use to toggle every event
+                	'''
+	}
+
+
+	HalloweenEnable: {
+        	DisplayName: Happy Halloween
+        	Tooltip:
+                	'''
+                	Halloween is active while this is in your inventory.
+                	When removing it from your inventory it will take until morning to return to normal.
+                	'''
+	}
+
+
+	HalloweenXmasEnable: {
+        	DisplayName: Happy Holidays
+        	Tooltip:
+                	'''
+                	Christmas is active while this is in your inventory.
+                	Halloween is active while this is in your inventory.
+                	When removing it from your inventory it will take until morning to return to normal.
+                	'''
+	}
+
+
+	RainEnable: {
+        	DisplayName: Rain Charm
+        	Tooltip: Enables or disables rain.
+	}
+
+
+	SandstormEnable: {
+        	DisplayName: Sand Charm
+        	Tooltip: Enables or disables sandstorms.
+	}
+
+
+	XMasEnable: {
+        	DisplayName: Happy Christmas
+        	Tooltip:
+                	'''
+                	Christmas is active while this is in your inventory.
+                	When removing it from your inventory it will take until morning to return to normal.
+                	'''
+	}
+
+
+	UnlimitedBomb: {
+        	DisplayName: 無限の爆弾
+        	Tooltip: 尽きることのない爆弾
+	}
+
+
+	UnlimitedBombFish: {
+        	DisplayName: 無限の爆弾魚
+        	Tooltip: 尽きることのない爆弾魚
+	}
+
+
+	UnlimitedBouncyBomb: {
+        	DisplayName: 無限の弾む爆弾
+        	Tooltip: 尽きることのない弾む爆弾
+	}
+
+
+	UnlimitedBouncyDynamite: {
+        	DisplayName: 無限の弾むダイナマイト
+        	Tooltip: 尽きることのない弾むダイナマイト
+	}
+
+
+	UnlimitedDynamite: {
+        	DisplayName: 無限のダイナマイト
+        	Tooltip:尽きることのないダイナマイト
+	}
+
+
+	UnlimitedStickyBomb: {
+        	DisplayName: 無限の粘着爆弾
+        	Tooltip: 尽きることのない粘着爆弾
+	}
+
+
+	UnlimitedStickyDynamite: {
+        	DisplayName: 無限の粘着ダイナマイト
+        	Tooltip: 尽きることのない粘着ダイナマイト
+	}
+
+
+	UnlimitedChumCaster: {
+        	DisplayName: Unlimited Unlimited Chum Caster
+        	Tooltip:
+                	'''
+                	餌を必要としない
+                	釣り糸を切られることはない
+                	'''
+	}
+
+
+	UnlimitedFiberglassFishingPole: {
+        	DisplayName: 無限のグラスファイバーの釣り竿
+        	Tooltip:
+                	'''
+                	餌を必要としない
+                	釣り糸を切られることはない
+                	'''
+	}
+
+
+	UnlimitedFisherofSouls: {
+        	DisplayName: 無限のフィッシャー・オブ・ソウル
+        	Tooltip: 餌を必要としない
+	}
+
+
+	UnlimitedFleshCatcher: {
+        	DisplayName: 無限の肉の釣り竿
+        	Tooltip: 餌を必要としない
+	}
+
+
+	UnlimitedGoldenFishingRod: {
+        	DisplayName: 無限の黄金の釣り竿
+        	Tooltip:
+                	'''
+                	餌を必要としない
+                	釣り糸を切られることはない
+                	'''
+	}
+
+
+	UnlimitedHotlineFishingHook: {
+        	DisplayName: 無限の燃える釣り竿
+        	Tooltip:
+                	'''
+                	餌を必要としない
+            	溶岩で釣りができる
+            	釣り糸を切られることはない
+                	'''
+	}
+
+
+	UnlimitedMechanicsRod: {
+        	DisplayName: 無限のメカニックの釣り竿
+        	Tooltip:
+                	'''
+                	餌を必要としない
+            	釣り糸を切られることはない
+                	'''
+	}
+
+
+	UnlimitedReinforcedFishingPole: {
+        	DisplayName: 無限の強化釣り竿
+        	Tooltip: 餌を必要としない
+	}
+
+
+	UnlimitedScarabFishingRod: {
+        	DisplayName: 無限のスカラベの釣り竿
+        	Tooltip:
+                	'''
+                	餌を必要としない
+            	釣り糸を切られることはない
+                	'''
+	}
+
+
+	UnlimitedSittingDucksFishingPole: {
+        	DisplayName: 無限のいいカモの釣り竿
+        	Tooltip:
+                	'''
+                	餌を必要としない
+            	釣り糸を切られることはない
+                	'''
+	}
+
+
+	UnlimitedWoodFishingPole: {
+        	DisplayName: 無限の木の釣り竿
+        	Tooltip: 餌を必要としない
+	}
+
+
+	UnlimitedBouncyGlowstick: {
+        	DisplayName: 無限の弾む蛍光棒
+        	Tooltip: 尽きることのない弾む蛍光棒
+	}
+
+
+	UnlimitedGlowstick: {
+        	DisplayName: 無限の蛍光棒
+        	Tooltip: 尽きることのない蛍光棒
+	}
+
+
+	UnlimitedSpelunkerGlowstick: {
+        	DisplayName: 無限の探検家の蛍光棒
+        	Tooltip: 尽きることのない探検家の蛍光棒
+	}
+
+
+	UnlimitedStickyGlowstick: {
+        	DisplayName: 無限の粘着蛍光棒
+        	Tooltip: 尽きることのない粘着蛍光棒
+	}
+
+
+	BloodMoonEnable: {
+        	DisplayName:血濡れたブードゥー人形
+        	Tooltip: ブラッドムーンを切り替え
+	}
+
+
+	FrostLegionEnable: {
+        	DisplayName: 無限フロスト軍団
+        	Tooltip:
+                	'''
+                	フロストレギオンの侵攻を開始させる
+                	フロストレギオンは即座に到着する
+                	'''
+	}
+
+
+	FrostMoonEnable: {
+        	DisplayName: 無限フロストムーン
+        	Tooltip: フロストムーンを始める
+	}
+
+
+	GoblinArmyEnable: {
+        	DisplayName: 無限ゴブリン軍団
+        	Tooltip:
+                	'''
+                	ゴブリン軍団の侵攻を開始させる
+                	ゴブリン軍団は即座に到着する
+                	'''
+	}
+
+
+	MartianMadnessEnable: {
+        	DisplayName: 無限火星人
+        	Tooltip:
+                	'''
+                	火星人の侵攻を始める
+                	ゴーレムを撃破している必要がある
+                	'''
+	}
+
+
+	PirateEnable: {
+        	DisplayName: 無限海賊
+        	Tooltip:
+                	'''
+                	海賊の侵略が始まる.
+                	海賊は即座に到着する
+                	'''
+	}
+
+
+	PumpkinMoonEnable: {
+        	DisplayName: 無限パンプキンムーン
+        	Tooltip: パンプキンムーンイベントを起こす
+	}
+
+
+	SolarEclipseEnable: {
+        	DisplayName: 無限日蝕
+        	Tooltip: 日蝕を起こす
+	}
+
+
+	UnlimitedBloodyTear: {
+        	DisplayName: 無限の血の涙
+        	Tooltip:
+                	'''
+					ブラッドムーンを呼び出す
+					「なんと恐ろしい呪われた夜」
+                	'''
+	}
+
+
+	PlanteraLocator: {
+        	DisplayName: プランテラ検知器
+        	Tooltip:
+                	'''
+                	プランテラのつぼみを探す
+             	自分よりも下方を探す
+                	'''
+	}
+
+
+	TempleLocator: {
+        	DisplayName: リザード検知器
+        	Tooltip:
+                	'''
+                	ジャングル寺院を探す
+                	自分よりも下方を探す
+                	'''
+	}
+
+
+	DeepsSummon: {
+        	DisplayName: 改良型かかし
+        	Tooltip:
+                	'''
+                	自分のDPSをテストするためにダミーを召喚する。
+               	再度使用するとアクティブなダミーは全てデスポーンする。
+               	ホーミングすることができ、ミニオンに狙われる。
+               	ボスが生きているとデスポーンする。
+               	右クリックで通常の無敵フレームを切り替えられる。
+               	ヒットボックスの大きさは一定。
+               	ヒットボックスの描画を切り替えるには /luiafk dummy を使う。
+               	ダミーの防御力を変更するには /luiafk dummy の後に数字を入力する。
+                	'''
+	}
+
+
+	FastFall: {
+        	DisplayName: マジで重すぎる石
+        	Tooltip:
+                	'''
+                	とても重いので通常よりも早く落下する
+                	お気に入りで稼働
+            		重いから、普通より早く転ぶんだ。
+                	'''
+	}
+
+
+	LightSwitch: {
+        	DisplayName: Light Switch
+        	Tooltip:
+                	'''
+                	Switches the light off on all "House Enablers".
+                	"House Enabler (No Light)" are unaffected.
+                	'''
+	}
+
+
+	TimeChanger: {
+        	DisplayName: 時間変更機
+        	Tooltip: もう待つ必要はない
+	}
+
+
+    	UnlimitedAle: {
+        	DisplayName: 無限のエール
+        	Tooltip: 尽きることのないエール
+    	}
+
+
+    	UnlimitedBlueFlares: {
+        	DisplayName: '''無限照明弾（青）'''
+        	Tooltip: 尽きることのない青色の照明弾
+    	}
+
+
+	UnlimitedBones: {
+        	DisplayName: 無限の骨
+        	Tooltip: 尽きることのない骨
+	}
+
+
+	UnlimitedCandyCorn: {
+        	DisplayName: 無限のキャンディーコーン
+        	Tooltip: Never run out of Candy Corn.
+	}
+
+
+	UnlimitedCopperCoin: {
+        	DisplayName: 無限のカッパーコイン
+        	Tooltip:
+                	'''
+                	尽きることのないカッパーコイン
+                	お金ではなく弾丸として数えられます！
+                	弾薬スロットに配置可能
+                	'''
+	}
+
+
+	UnlimitedExplosiveJackOLantern: {
+        	DisplayName: 無限のジャック・オー・ランタン爆弾
+        	Tooltip: 尽きることのないジャック・オー・ランタン爆弾
+	}
+
+
+	UnlimitedFallenStars: {
+        	DisplayName: 無限流れ星
+        	Tooltip: 尽きることのない流れ星
+	}
+
+
+	UnlimitedFlares: {
+        	DisplayName: 無限照明弾
+        	Tooltip: 尽きることのない照明弾
+	}
+
+
+	UnlimitedGel: {
+        	DisplayName: 無限ジェル
+        	Tooltip: 尽きることのないジェル
+	}
+
+
+	UnlimitedGoldCoin: {
+        	DisplayName: 無限のゴールドコイン
+        	Tooltip:
+                	'''
+                	尽きることのないゴールドコイン
+                	お金ではなく弾丸として数えられます！
+                	弾薬スロットに配置可能
+                	'''
+	}
+
+
+	UnlimitedNails: {
+        	DisplayName: 無限爪
+        	Tooltip: 尽きることのない爪
+	}
+
+
+	UnlimitedPlatinumCoin: {
+        	DisplayName: 無限のプラチナコイン
+        	Tooltip:
+                	'''
+                	尽きることのないプラチナコイン
+                	お金ではなく弾丸として数えられます！
+                	弾薬スロットに配置可能
+                	'''
+	}
+
+
+	UnlimitedSand: {
+        	DisplayName: 無限砂
+        	Tooltip:
+                	'''
+                	尽きることのない砂
+            	弾丸としてのみ使用可能
+                	'''
+	}
+
+
+	UnlimitedSeeds: {
+        	DisplayName: 無限種
+        	Tooltip: 尽きることのない種
+	}
+
+
+	UnlimitedSilverCoin: {
+        	DisplayName: 無限のシルバーコイン
+        	Tooltip:
+                	'''
+                	尽きることのないシルバーコイン
+                	お金ではなく弾丸として数えられます！
+                	弾薬スロットに配置可能
+                	'''
+	}
+
+
+	UnlimitedSnowballs: {
+        	DisplayName: 無限雪玉
+        	Tooltip: 尽きることのない雪玉
+	}
+
+
+	UnlimitedStakes: {
+        	DisplayName: 無限杭
+        	Tooltip: 尽きることのない杭
+	}
+
+
+	UnlimitedStyngerBolts: {
+        	DisplayName: Unlimited Stynger Bolts
+        	Tooltip: Never run out of Stynger Bolts.
+	}
+
+
+	AllInOneChest: {
+        	DisplayName: Mobile All-in-One Chest and Merchant
+        	Tooltip:
+                	'''
+                	Summons a floating Piggy Bank, Safe, Void Vault, and Defender's Forge.
+                	Summons a Fairy that will buy and sell goods.
+                	Smart cursor disabled while using banks.
+                	'''
+	}
+
+
+	DefendersForge: {
+        	DisplayName: 携帯式ディフェンダーの炉
+        	Tooltip:
+                	'''
+                	浮遊するディフェンダーの炉を召喚する
+             	使用中はスマートカーソルが無効になります
+                	Smart cursor disabled while using bank.
+                	'''
+	}
+
+
+	MobileMerchant: {
+        	DisplayName: 妖精商人
+        	Tooltip: 商品を売買する妖精を召喚する。
+	}
+
+
+	MoneyCollector: {
+        	DisplayName: 全自動貯金装置
+        	Tooltip:
+                	'''
+               	拾ったコインを自動的に貯金箱に入れます。
+                	貯金箱に十分なスペースがない場合は何もしません。
+                	コインスロットに入れることができます。
+                	'''
+	}
+
+
+	PiggyBank: {
+        	DisplayName: 携帯式ブタの貯金箱
+        	Tooltip:
+                	'''
+                	Summons a floating Piggy Bank.
+                	Smart cursor disabled while using bank.
+                	'''
+	}
+
+
+	PiggySafe: {
+        	DisplayName: Mobile PiggySafe Merchant
+        	Tooltip:
+                	'''
+                	Summons a floating Piggy Bank and Safe.
+                	Summons a Fairy that will buy and sell goods.
+                	Smart cursor disabled while using banks.
+                	'''
+	}
+
+
+	Safe: {
+        	DisplayName: 携帯式金庫
+        	Tooltip:
+                	'''
+                	Summons a floating Safe.
+                	Smart cursor disabled while using bank.
+                	'''
+	}
+
+
+	AsphaltPlatform: {
+        	DisplayName: 無限のアスファルトの足場
+        	Tooltip: 超速走行を可能にする.
+	}
+
+
+	BambooHarvester: {
+        	DisplayName: Bamboo Harvester
+        	Tooltip:
+                	'''
+                	When placed will collect nearby Bamboo.
+                	Will collect Bamboo within 50 tiles each direction.
+                	'''
+	}
+
+
+	CactusHarvester: {
+        	DisplayName: Cactus Harvester
+        	Tooltip:
+                	'''
+                	When placed will collect nearby cactus.
+                	Will collect cactus within 50 tiles each direction.
+                	'''
+	}
+
+
+	CrystalHarvester: {
+        	DisplayName: Crystal Harvester
+        	Tooltip:
+                	'''
+                	When placed will collect nearby Crystals and Gelatin Crystals.
+                	Will collect Crystals within 50 tiles each direction.
+                	'''
+	}
+
+
+	EnemyHarvester: {
+        	DisplayName: Enemy Harvester
+        	Tooltip:
+                	'''
+                	When placed will collect Enemy-Drops depending on a found Biome.
+                	Will consider the Biome of the tiles placed on, so if
+                	you place it on 2 blocks of pearlstone it will recognize
+                	it as being in the Hallow Biome.
+                	Will not collect money or droppable Food.
+                	No modded enemies/enemy-drops for now.
+                	'''
+	}
+
+
+	FishHarvester: {
+        	DisplayName: Fish Harvester
+        	Tooltip:
+                	'''
+                	When placed will fish in nearby water.
+                	Requires Unlimited Rod or Normal Rod + Bait.
+                	Certain items can be placed in the chest for higher quality fish.
+                	Catches will be based on the chests location (biomes).
+                	Place upto 10 tiles above water.
+                	Biome range is 30 tiles in each direction.
+                	'''
+	}
+
+
+	GemCornHarvester: {
+        	DisplayName: Gemcorn Tree Harvester
+        	Tooltip:
+                	'''
+                	When placed will collect nearby gemcorn trees.
+                	Will collect gemcorn trees within 50 tiles each direction.
+                	Will not collect gemcorn saplings.
+                	'''
+	}
+
+
+	FishingNet: {
+        	DisplayName: 漁網
+        	Tooltip: ""
+	}
+
+
+	HarvesterParts: {
+        	DisplayName: Harvester Parts
+        	Tooltip: ""
+	}
+
+
+	Piping: {
+        	DisplayName: Piping
+        	Tooltip: ""
+	}
+
+
+	PlantHarvester: {
+        	DisplayName: Plant Harvester
+        	Tooltip:
+                	'''
+                	When placed will collect and replant nearby plants.
+                	Will collect plants blooming within 50 tiles each direction.
+                	Will replant anything harvested.
+                	No seeds will be collected.
+                	'''
+	}
+
+
+	TreeHarvester: {
+        	DisplayName: Tree Harvester
+        	Tooltip:
+                	'''
+                	When placed will collect and replant nearby trees.
+                	Will collect wood within 50 tiles each direction.
+                	Will replant anything harvested.
+                	No acorns will be collected.
+                	Stone/Gemcorn Trees will not be harvested.
+                	'''
+	}
+
+
+	CorruptionAltar: {
+        	DisplayName: 悪魔の祭壇
+        	Tooltip:
+                	'''
+                	Places a Demon Altar for crafting.
+                	Non consumable
+                	'''
+	}
+
+
+	CrimsonAltar: {
+        	DisplayName: 真紅の祭壇
+        	Tooltip:
+                	'''
+                	Places a Crimson Altar for crafting.
+                	Non consumable
+                	'''
+	}
+
+
+	HouseTile: {
+        	DisplayName: Unlimited House Enabler
+        	Tooltip:
+                	'''
+                	Invisible tile.
+                	Counts as a door, chair, table, and light source.
+                	Right-click to choose whether it will be lit up (will counts as a house either way).
+                	'''
+	}
+
+
+	UnlimitedBlueStreamer: {
+        	DisplayName: 無限青ストリーマー
+        	Tooltip: Never run out of Blue Streamers.
+	}
+
+
+	UnlimitedChain: {
+        	DisplayName: 無限鎖
+        	Tooltip: 尽きることのない鎖
+	}
+
+
+	UnlimitedGreenStreamer: {
+        	DisplayName: 無限緑ストリーマー
+        	Tooltip: Never run out of Green Streamers.
+	}
+
+
+	UnlimitedPinkStreamer: {
+        	DisplayName: 無限桃ストリーマー
+        	Tooltip: Never run out of Pink Streamers.
+	}
+
+
+	UnlimitedRope: {
+        	DisplayName: 無限縄
+        	Tooltip: Never run out of Rope.
+	}
+
+
+	UnlimitedRopeCoil: {
+        	DisplayName: 無限投げ縄
+        	Tooltip: Never run out of Rope Coils.
+	}
+
+
+	UnlimitedSilkRope: {
+        	DisplayName: 無限シルク縄
+        	Tooltip: Never run out of Silk Rope.
+	}
+
+
+	UnlimitedSilkRopeCoil: {
+        	DisplayName: 無限シルク投げ縄
+        	Tooltip: Never run out of Silk Rope Coils.
+	}
+
+
+	UnlimitedVineRope: {
+        	DisplayName: 無限蔦縄
+        	Tooltip: Never run out of Vine Rope.
+	}
+
+
+	UnlimitedVineRopeCoil: {
+        	DisplayName: 無限蔦投げ縄
+        	Tooltip: Never run out of Vine Rope Coils.
+	}
+
+
+	UnlimitedWebRope: {
+        	DisplayName: 無限蜘蛛糸縄
+        	Tooltip: Never run out of Web Rope.
+	}
+
+
+	UnlimitedWebRopeCoil: {
+        	DisplayName: 無限蜘蛛糸投げ縄
+        	Tooltip: Never run out of Web Rope Coils.
+	}
+
+
+	UnlimitedBastStatue: {
+        	DisplayName: 黄金のバステト像
+        	Tooltip: 防御力を５追加
+	}
+
+
+	UnlimitedCampfire: {
+        	DisplayName: 黄金のキャンプファイア像
+        	Tooltip: Life regen increased.
+	}
+
+
+	UnlimitedHeartLantern: {
+        	DisplayName: 黄金のハートランタン像
+        	Tooltip: Life regen increased.
+	}
+
+
+	UnlimitedHoneyBuff: {
+        	DisplayName: 黄金の蜂蜜像
+        	Tooltip: Life regen increased.
+	}
+
+
+	UnlimitedStarinaBottle: {
+        	DisplayName: 黄金の流れ星瓶像
+        	Tooltip: Mana regen increased.
+	}
+
+
+	UnlimitedPeaceCandle: {
+        	DisplayName: 平和の魂
+        	Tooltip: Nice and quiet.
+	}
+
+
+	UnlimitedWaterCandle: {
+        	DisplayName: 水の魂
+        	Tooltip: Increased spawns.
+	}
+
+
+	UnlimitedAmmoReservation: {
+        	DisplayName: 弾薬節約の力
+        	Tooltip: Save some ammo.
+	}
+
+
+	UnlimitedArchery: {
+        	DisplayName: 弓の力
+        	Tooltip: Shoot fast and hard.
+	}
+
+
+	UnlimitedBattle: {
+        	DisplayName: 戦いの力
+        	Tooltip: Increased Spawns.
+	}
+
+
+	UnlimitedBuilder: {
+        	DisplayName: 建築の力
+        	Tooltip: Gotta build those NPC prisons faster.
+	}
+
+
+	UnlimitedCalming: {
+        	DisplayName: 平穏の力
+        	Tooltip: Nice and quiet.
+	}
+
+
+	UnlimitedCrates: {
+        	DisplayName: 箱の力
+        	Tooltip:
+                	'''
+                	Fish up all the crates you'll ever need.
+                	Use the settings hotkey to toggle the effect.
+                	'''
+	}
+
+
+	UnlimitedDangersense: {
+        	DisplayName: 危険探知の力
+        	Tooltip:
+                	'''
+                	Don't be surprised.
+                	Use the Settings UI to toggle the effect.
+                	'''
+	}
+
+
+	UnlimitedEndurance: {
+        	DisplayName: 防御の力
+        	Tooltip: Reduces damage taken.
+	}
+
+
+	UnlimitedFeatherfall: {
+        	DisplayName: 落下制御の力
+        	Tooltip:
+                	'''
+                	Never fall to your death again.
+                	Use the settings hotkey to toggle the effect.
+                	'''
+	}
+
+
+	UnlimitedFishingPotion: {
+        	DisplayName: 釣りの力
+        	Tooltip: Increased fishing skill.
+	}
+
+
+	UnlimitedFlipper: {
+        	DisplayName: 足ヒレの力
+        	Tooltip: Allows swimming.
+	}
+
+
+	UnlimitedGenderChange: {
+        	DisplayName: 性転換の力
+        	Tooltip:
+                	'''
+                	Use to change gender.
+                	It's 2023 bro, be what you want.
+                	'''
+	}
+
+
+	UnlimitedGills: {
+        	DisplayName: エラ呼吸の力
+        	Tooltip: Never drown again.
+	}
+
+
+	UnlimitedGnome: {
+        	DisplayName: 黄金のノーム像
+        	Tooltip: You got Gnomed.
+	}
+
+
+	UnlimitedGravitation: {
+        	DisplayName: 重力の力
+        	Tooltip:
+                	'''
+                	Go find all those floating islands.
+                	Use the settings hotkey to toggle the effect.
+                	'''
+	}
+
+
+	UnlimitedHeartreach: {
+        	DisplayName: ハート取得の力
+        	Tooltip: Increased heart pickup range.
+	}
+
+
+	UnlimitedHunter: {
+        	DisplayName: 狩人の力
+        	Tooltip:
+                	'''
+                	Spot the enemy before they spot you.
+                	Use the Settings UI to toggle the effect.
+                	'''
+	}
+
+
+	UnlimitedIchor: {
+        	DisplayName: イコルの力
+        	Tooltip: Your attacks inflict ichor.
+	}
+
+
+	UnlimitedInferno: {
+        	DisplayName: 獄炎の力
+        	Tooltip:
+                	'''
+                	Sets nearby enemies on fire.
+                	Use the Settings hotkey to toggle the visual effect.
+                	'''
+	}
+
+
+	UnlimitedInvisibility: {
+        	DisplayName: 透明化の力
+        	Tooltip:
+                	'''
+                	'Cause it's useful for Truffle farming, apparently.
+                	Use the settings hotkey to toggle the effect.
+                	'''
+	}
+
+
+	UnlimitedIronskin: {
+        	DisplayName: 鉄肌の力
+        	Tooltip: So much armor.
+	}
+
+
+	UnlimitedLadybug: {
+        	DisplayName: 天道虫の力
+        	Tooltip:
+                	'''
+                	You feel the luck buzzing in your hands.
+                	No critter!
+                	'''
+	}
+
+
+	UnlimitedLifeforce: {
+        	DisplayName: 体力増強の力
+        	Tooltip: More health.
+	}
+
+
+	UnlimitedLove: {
+        	DisplayName: 愛の力
+        	Tooltip: Throw at some to make them fall in love.
+	}
+
+
+	UnlimitedLuck: {
+        	DisplayName: 四つ葉のクローバーr
+        	Tooltip: Cause you deserve to be Lucky
+	}
+
+
+	UnlimitedMagicPower: {
+        	DisplayName: 魔法力の花
+        	Tooltip: Increased magic damage.
+	}
+
+
+	UnlimitedManaRegeneration: {
+        	DisplayName: マナ回復の花
+        	Tooltip: Increased mana regen.
+	}
+
+
+	UnlimitedMining: {
+        	DisplayName: 採掘の力
+        	Tooltip: Increased mining speed.
+	}
+
+
+	UnlimitedNightOwl: {
+        	DisplayName: 暗視の力
+        	Tooltip: See in the dark.
+	}
+
+
+	UnlimitedObsidianSkin: {
+        	DisplayName: 黒曜石肌の力
+        	Tooltip: Go get all that hellstone.
+	}
+
+
+	UnlimitedRage: {
+        	DisplayName: 激怒の力
+        	Tooltip: Crit chance increased.
+	}
+
+
+	UnlimitedRecall: {
+        	DisplayName: 帰還の力
+        	Tooltip:
+                	'''
+                	Teleports you home.
+                	Set hotkeys in controls to use.
+                	Recall teleports you to your spawn point.
+                	'''
+	}
+
+
+	UnlimitedRegeneration: {
+        	DisplayName: 再生の力
+        	Tooltip: So much regen.
+	}
+
+
+	UnlimitedShine: {
+        	DisplayName: 輝きの力
+        	Tooltip: You give off light.
+	}
+
+
+	UnlimitedSonar: {
+        	DisplayName: 魚群探知の力
+        	Tooltip: You somehow sense what you're about to reel in.
+	}
+
+
+	UnlimitedSpelunker: {
+        	DisplayName: 探検家の力
+        	Tooltip:
+                	'''
+                	See the treasures around you.
+                	Use the Settings UI to toggle the effect.
+                	'''
+	}
+
+
+	UnlimitedStink: {
+        	DisplayName: 悪臭の力
+        	Tooltip: Throw at someone to make them smell terrible.
+	}
+
+
+	UnlimitedSummoning: {
+        	DisplayName: 召喚の力
+        	Tooltip: Have an extra friend around.
+	}
+
+
+	UnlimitedSwiftness: {
+        	DisplayName: 俊足の力
+        	Tooltip: So fast, wow.
+	}
+
+
+	UnlimitedTeleportation: {
+        	DisplayName: 転移の力
+        	Tooltip: Teleports you to a random location.
+	}
+
+
+	UnlimitedThorns: {
+        	DisplayName: トゲの力
+        	Tooltip: Enemies hurt themselves.
+	}
+
+
+	UnlimitedTipsy: {
+        	DisplayName: 酔いどれパワー
+        	Tooltip: Increased damage, less defense.
+	}
+
+
+	UnlimitedTitan: {
+        	DisplayName: 巨人の力
+        	Tooltip: Increased knockback.
+	}
+
+
+	UnlimitedWarmth: {
+        	DisplayName: あったかい力
+        	Tooltip: Reduced damage from cold sources.
+	}
+
+
+	UnlimitedWaterWalking: {
+        	DisplayName: 水上歩行の力
+        	Tooltip: Now you don't need to bother building that platform for Wall of Flesh.
+	}
+
+
+	UnlimitedWellFed: {
+        	DisplayName: とても十分な食事の力
+        	Tooltip:
+                	'''
+                	So much food.
+                	Major improvements inbound.
+                	'''
+	}
+
+
+	UnlimitedWellFed2: {
+        	DisplayName: 十分な食事の力
+        	Tooltip:
+                	'''
+                	So much food.
+                	Medium improvements inbound.
+                	'''
+	}
+
+
+	UnlimitedWellFed3: {
+        	DisplayName: やや十分な食事の力
+        	Tooltip:
+                	'''
+                	So much food.
+                	Minor improvements inbound.
+                	'''
+	}
+
+
+	UnlimitedWormhole: {
+        	DisplayName: ワームホールの力
+        	Tooltip: もしあなたに友達がいるのなら、そこに何度でもテレポートできる
+	}
+
+
+	UnlimitedWrath: {
+        	DisplayName: 憤怒の力
+        	Tooltip: ダメージを増加させる
+	}
+
+
+	UnlimitedAmmoBox: {
+        	DisplayName: 改良された弾薬箱
+        	Tooltip: 弾薬を節約する
+	}
+
+
+	UnlimitedBewitchingTable: {
+        	DisplayName: 改良された魔術の机
+        	Tooltip: Have an extra friend around.
+	}
+
+
+	UnlimitedCrystalBall: {
+        	DisplayName: 改良された水晶玉
+        	Tooltip: Some magic buffs.
+	}
+
+
+	UnlimitedSharpeningStation: {
+        	DisplayName: 改良された砥ぎ機
+        	Tooltip: 近接武器が敵の防御をより貫通するようになる
+	}
+
+
+	UnlimitedSliceCake: {
+        	DisplayName: 改良された一切れのケーキ
+        	Tooltip: 「がっつり食べて。他の人のも。何もかも。」
+	}
+
+
+	UltimateBattler: {
+        	DisplayName: 戦いのちからあぁぁぁぁぁぁぁぁあ！
+        	Tooltip:
+                	'''
+                	そんなアイテムで大丈夫か？
+                	敵のスポーンが大幅に増加
+                	ホットキーで有効／無効を切り替えます。
+                	'''
+	}
+
+
+	UltimatePeaceful: {
+        	DisplayName: 平和のちからあぁぁぁぁぁぁぁぁあ！
+        	Tooltip:
+                	'''
+                	 とても静かだ。
+                	敵のスポーンが大幅に減少
+                	'''
+	}
+
+
+	UnlimitedArena: {
+        	DisplayName: 闘技場の巻物
+        	Tooltip: マナ／ライフ回復・防御力が上昇
+	}
+
+
+	UnlimitedBasics: {
+        	DisplayName: 基本的バフの巻物
+        	Tooltip: 食料と回復と鉄壁それにスピード
+	}
+
+
+	UnlimitedBattler: {
+        	DisplayName: 闘士の巻物
+        	Tooltip: 敵のスポーンが大幅に増加
+	}
+
+
+	UnlimitedCombat: {
+        	DisplayName: 戦闘の巻物
+        	Tooltip:
+                	'''
+                	すべての戦闘バフ。
+                	ほろ酔いによるアーマーデバフは近接武器を持っている時のみ有効。
+                	獄炎の視覚効果を切り替えるにはホットキーを使用する。
+                	'''
+	}
+
+
+	UnlimitedDamage: {
+        	DisplayName: 損傷の巻物
+        	Tooltip:
+                	'''
+                	ダメージ、クリティカル、追加ミニオン、ノックバック、棘。
+                	獄炎の視覚効果を切り替えるには設定ホットキーを使用する。
+                	'''
+	}
+
+
+	UnlimitedDanger: {
+        	DisplayName: 危険な巻物
+        	Tooltip:
+                	'''
+                	油断は禁物。
+                	設定UIを使って効果を切り替えましょう。
+                	'''
+	}
+
+
+	UnlimitedDefense: {
+        	DisplayName: 防御の巻物
+        	Tooltip: HP、ダメージ軽減、ハートの範囲が増える。
+	}
+
+
+	UnlimitedEverything: {
+        	DisplayName: 無限バフの百科事典
+        	Tooltip:
+                	'''
+                	ほぼ全てを網羅している。
+                	ほろ酔いによる防御デバフは近接武器を持っている時のみ有効。
+                	使用するとランダムな場所へテレポートする
+                	マップ上のフレンドをクリックするとフレンドの元へテレポートする
+                	ホットキーを使用してリコール。
+               	    リコールするとスポーン地点にテレポート。
+               	    リコールバックを行うと、最後にリコールを使った場所にテレポートします。
+                	ホットキーで特定のバフや効果を切り替える
+                	'''
+	}
+
+
+	UnlimitedExplorer: {
+        	DisplayName: 旅人の巻物
+        	Tooltip:
+                	'''
+                	より簡単に移動できるようになる
+                	UIを使って特定のエフェクトを切り替えられる。
+                	'''
+	}
+
+
+	UnlimitedFishing: {
+        	DisplayName: 釣りの巻物
+        	Tooltip: 必要な魚は全て捕まえる
+	}
+
+
+	UnlimitedFlight: {
+        	DisplayName: 飛行の巻物
+        	Tooltip:
+                	'''
+                	全ての空島を探してこい
+                	落下して死ぬ心配はありません。
+                	ホットキーを使って、フェザーフォールとグラビティ・コントロールを切り替えられます。
+                	'''
+	}
+
+
+	UnlimitedGathering: {
+        	DisplayName: 採掘の巻物
+        	Tooltip:
+                	'''
+                	全ての鉱石をこの手に
+                	スペランカーの効果を切り替えるには、設定UIを使用する。
+                	'''
+	}
+
+
+	UnlimitedLucky: {
+        	DisplayName: 幸運の巻物
+        	Tooltip:
+                	'''
+                	永遠の幸せ
+                	松明はあなたの存在に注目しない
+                	'''
+	}
+
+
+	UnlimitedMagic: {
+        	DisplayName: 魔法の巻物
+        	Tooltip: 攻撃力とマナ自然回復
+	}
+
+
+	UnlimitedMelee: {
+        	DisplayName: 近接の巻物
+        	Tooltip:霊液とほろ酔い
+	}
+
+
+	UnlimitedPeaceful: {
+        	DisplayName: 平和の巻物
+        	Tooltip: とても静かだ。
+	}
+
+
+	UnlimitedRange: {
+        	DisplayName: 遠隔の巻物
+        	Tooltip: 弾薬節約と弓使い
+	}
+
+
+	UnlimitedStation: {
+        	DisplayName: 装置の巻物
+        	Tooltip: 5つの装置のバフ
+	}
+
+
+	UnlimitedSwimming: {
+        	DisplayName: 泳者の巻物
+        	Tooltip: 水を愛している
+	}
+
+
+	UnlimitedTravel: {
+        	DisplayName: 旅行の巻物
+        	Tooltip:
+                	'''
+            		どこでもいっしょ
+                	もう友達から離れることはない…あなたに友達がいれば、の話ですが。
+             		ホットキーを設定してリコール。
+               		リコールするとスポーン地点にテレポート。
+                	リコールバックは、最後にRecallを使った場所にテレポートします。
+                	'''
+	}
+
+
+	UnlimitedRocketIIIs: {
+        	DisplayName: ロケットⅢの箱
+        	Tooltip: Never run out of Rocket IIIs.
+	}
+
+
+	UnlimitedRocketIIs: {
+        	DisplayName: Box of Rocket II
+        	Tooltip: Never run out of Rocket IIs.
+	}
+
+
+	UnlimitedRocketIs: {
+        	DisplayName: Box of Rocket I
+        	Tooltip: Never run out of Rocket Is.
+	}
+
+
+	UnlimitedRocketIVs: {
+        	DisplayName: Box of Rocket IV
+        	Tooltip: Never run out of Rocket IVs.
+	}
+
+
+	UnlimitedClusterRocketIIs: {
+        	DisplayName: Box of Cluster Rocket II
+        	Tooltip: Never run out of Cluster Rocket IIs.
+	}
+
+
+	UnlimitedClusterRocketIs: {
+        	DisplayName: Box of Cluster Rocket I
+        	Tooltip: Never run out of Cluster Rocket Is.
+	}
+
+
+	UnlimitedDryRockets: {
+        	DisplayName: Box of Dry Rockets
+        	Tooltip: Never run out of Dry Rockets.
+	}
+
+
+	UnlimitedHoneyRockets: {
+        	DisplayName: Box of Honey Rockets
+        	Tooltip: Never run out of Honey Rockets.
+	}
+
+
+	UnlimitedLavaRockets: {
+        	DisplayName: Box of Lava Rockets
+        	Tooltip: Never run out of Lava Rockets.
+	}
+
+
+	UnlimitedMiniNukeIIs: {
+        	DisplayName: Box of Mini Nuke IIs
+        	Tooltip: Never run out of Mini Nuke IIs.
+	}
+
+
+	UnlimitedMiniNukeIs: {
+        	DisplayName: Box of Mini Nuke Is
+        	Tooltip: Never run out of Mini Nuke Is.
+	}
+
+
+	UnlimitedWetRockets: {
+        	DisplayName: Box of Wet Rockets
+        	Tooltip: Never run out of Wet Rockets.
+	}
+
+
+	DarkGreenSolution: {
+        	DisplayName: Dark Green Solution
+        	Tooltip:
+                	'''
+                	Used by the Clentaminator.
+                	Spreads the Jungle..
+                	Sold by the Steampunker in the jungle
+                	'''
+	}
+
+
+	UnlimitedBlueSolution: {
+        	DisplayName: Unlimited Blue Solution
+        	Tooltip: Never run out of Blue Solution.
+	}
+
+
+	UnlimitedDarkBlueSolution: {
+        	DisplayName: Unlimited Dark Blue Solution
+        	Tooltip: Never run out of Dark Blue Solution.
+	}
+
+
+	UnlimitedDarkGreenSolution: {
+        	DisplayName: Unlimited Dark Green Solution
+        	Tooltip:
+                	'''
+                	Never run out of Dark Green Solution.
+                	Spreads the Jungle.
+                	'''
+	}
+
+
+	UnlimitedGreenSolution: {
+        	DisplayName: Unlimited Green Solution
+        	Tooltip: Never run out of Green Solution.
+	}
+
+
+	UnlimitedMultiSolution: {
+        	DisplayName: Unlimited Multi Solution
+        	Tooltip:
+                	'''
+                	Change biomes however you want.
+                	Right-click to choose biome.
+                	Works like normal solution if used with Clentaminator.
+                	Green Solution will be used if Hell/Cloud Solution are chosen.
+                	Can also be used as an item.
+                	Click a tile to select it as the corner of a rectangle.
+                	Once you've selected 2 points right-click and click the convert button.
+                	The area inside of those 2 points will then be converted.
+                	Mushroom biome and new biomes will convert the same tiles as Jungle solution.
+                	All biomes will convert Jungle/Mushroom/Cloud/Hell/Snow.
+                	'''
+	}
+
+
+	UnlimitedPurpleSolution: {
+        	DisplayName: Unlimited Purple Solution
+        	Tooltip: Never run out of Purple Solution.
+	}
+
+
+	UnlimitedRedSolution: {
+        	DisplayName: Unlimited Red Solution
+        	Tooltip: Never run out of Red Solution.
+	}
+
+
+	UnlimitedBrownSolution: {
+        	DisplayName: Unlimited Brown Solution
+        	Tooltip: Never run out of Brown Solution.
+	}
+
+
+	UnlimitedWhiteSolution: {
+        	DisplayName: Unlimited White Solution
+        	Tooltip: Never run out of White Solution.
+	}
+
+
+	UnlimitedYellowSolution: {
+        	DisplayName: Unlimited Yellow Solution
+        	Tooltip: Never run out of Yellow Solution.
+	}
+
+
+	UnlimitedBeenade: {
+        	DisplayName: Unlimited Beenades
+        	Tooltip: Never run out of Beenades.
+	}
+
+
+	UnlimitedBoneJavelin: {
+        	DisplayName: Unlimited Bone Javelin
+        	Tooltip: Never run out of Bone Javelins.
+	}
+
+
+	UnlimitedBoneThrowingKnife: {
+        	DisplayName: Unlimited Bone Throwing Knives
+        	Tooltip: Never run out of Bone Throwing Knives.
+	}
+
+
+	UnlimitedBouncyGrenade: {
+        	DisplayName: Unlimited Bouncy Grenades
+        	Tooltip: Never run out of Bouncy Grenades.
+	}
+
+
+	UnlimitedFrostDaggerfish: {
+        	DisplayName: Unlimited Frost Daggerfish
+        	Tooltip: Never run out of Frost Daggerfish.
+	}
+
+
+	UnlimitedGrenade: {
+        	DisplayName: Unlimited Grenades
+        	Tooltip: Never run out of Grenades.
+	}
+
+
+	UnlimitedHappyGrenade: {
+        	DisplayName: Unlimited Happy Grenades
+        	Tooltip: Never run out of Happy Grenades.
+	}
+
+
+	UnlimitedJavelin: {
+        	DisplayName: Unlimited Javelins
+        	Tooltip: Never run out of Javelins.
+	}
+
+
+	UnlimitedMerchantKiller: {
+        	DisplayName: Unlimited Merchant Killer
+        	Tooltip: "'Cause they never asked if they could move in."
+	}
+
+
+	UnlimitedMolotovCocktail: {
+        	DisplayName: Unlimited Molotov Cocktails
+        	Tooltip: Never run out of Molotov Cocktails.
+	}
+
+
+	UnlimitedPoisonKnife: {
+        	DisplayName: Unlimited Poison Knives
+        	Tooltip: Never run out of Poison Knives.
+	}
+
+
+	UnlimitedRottenEgg: {
+        	DisplayName: Unlimited Rotten Eggs
+        	Tooltip: Never run out of Rotten Eggs.
+	}
+
+
+	UnlimitedShuriken: {
+        	DisplayName: Unlimited Shuriken
+        	Tooltip: Never run out of Shuriken.
+	}
+
+
+	UnlimitedSpikyBall: {
+        	DisplayName: Unlimited Spiky Balls
+        	Tooltip: Never run out of Spiky Balls.
+	}
+
+
+	UnlimitedStarAnise: {
+        	DisplayName: Unlimited Star Anises
+        	Tooltip: Never run out of Star Anises.
+	}
+
+
+	UnlimitedStickyGrenade: {
+        	DisplayName: Unlimited Sticky Grenades
+        	Tooltip: Never run out of Sticky Grenades.
+	}
+
+
+	UnlimitedThrowingKnife: {
+        	DisplayName: Unlimited Throwing Knives
+        	Tooltip: Never run out of Throwing Knives.
+	}
+
+
+	ActuationRod: {
+        	DisplayName: Improved Actuation Rod
+        	Tooltip:
+                	'''
+                	Reverses actuation state of blocks.
+                	Works without an actuator on the tile.
+                	Click and drag like the Grand Design.
+                	'''
+	}
+
+
+	BuildingRod: {
+        	DisplayName: Hoiktuation Rod
+        	Tooltip:
+                	'''
+                	Right-click to choose options.
+                	Select block style and actuation state, reverse actuation takes priority over Active/Inactive.
+                	Choose a gap between blocks placed/actuated for easy hoik building.
+                	Will place the block in your bottom right inventory slot if used where there are no tiles.
+                	Any tiles already there, or placed from inventory will be changed according to chosen settings.
+                	Click and drag like the Grand Design.
+                	'''
+	}
+
+
+	ComboRod: {
+        	DisplayName: Combo Rod
+        	Tooltip:
+                	'''
+                	Has the features of the:
+                	All-in-One Paint Tool
+                	Hoiktuation Rod
+                	Wall Rod
+                	Unlimited Grand Design
+                	Ultimate Liquid Manipulator
+                	All now have unlimited range.
+                	Bucket mode now uses box placement when smart-cursor is disabled
+                	Tile mode can place grass (on dirt/mud), moss (on stone),
+                	hive (need hive), bone blocks (need bones/unlimited bones),
+                	living wood/leaf (need wood), living mahogany wood/leaf (need rich mahogany).
+                	'''
+	}
+
+
+	DrillMount: {
+        	DisplayName: Improved Drill Mount
+        	Tooltip: ":shrug:"
+	}
+
+
+	PaintTool: {
+        	DisplayName: All-in-One Paint Tool
+        	Tooltip:
+                	'''
+                	Right-click to choose paint color and mode.
+                	With smart cursor disabled you'll be able to paint by selecting a box.
+                	Doesn't consume paint.
+                	Insanely fast speed.
+                	'''
+	}
+
+
+	UnlimitedGrandDesign: {
+        	DisplayName: Infinite Grand Design
+        	Tooltip: Never run out of Wire or Actuators again.
+	}
+
+
+	WallRod: {
+        	DisplayName: Wall Rod
+        	Tooltip:
+                	'''
+                	Places the wall that is in your second to last inventory slot.
+                	Bottom row, second from the right.
+                	Disable smart-cursor to use.
+                	Box placement like Paint Tool.
+                	'''
+	}
+
+
+	UnlimitedBlueTorches: {
+        	DisplayName: Unlimited Blue Torches
+        	Tooltip: Never run out of Blue Torches.
+	}
+
+
+	UnlimitedBoneTorches: {
+        	DisplayName: Unlimited Bone Torches
+        	Tooltip: Never run out of Bone Torches.
+	}
+
+
+	UnlimitedCoralTorches: {
+        	DisplayName: Unlimited Coral Torches
+        	Tooltip: Never run out of Coral Torches.
+	}
+
+
+	UnlimitedCorruptTorches: {
+        	DisplayName: Unlimited Corrupt Torches
+        	Tooltip: Never run out of Corrupt Torches.
+	}
+
+
+	UnlimitedCrimsonTorches: {
+        	DisplayName: Unlimited Crimson Torches
+        	Tooltip: Never run out of Crimson Torches.
+	}
+
+
+	UnlimitedCursedTorches: {
+        	DisplayName: Unlimited Cursed Torches
+        	Tooltip: Never run out of Cursed Torches.
+	}
+
+
+	UnlimitedDemonTorches: {
+        	DisplayName: Unlimited Demon Torches
+        	Tooltip: Never run out of Demon Torches.
+	}
+
+
+	UnlimitedDesertTorches: {
+        	DisplayName: Unlimited Desert Torches
+        	Tooltip: Never run out of Desert Torches.
+	}
+
+
+	UnlimitedGreenTorches: {
+        	DisplayName: Unlimited Green Torches
+        	Tooltip: Never run out of Green Torches.
+	}
+
+
+	UnlimitedHallowedTorches: {
+        	DisplayName: Unlimited Hallowed Torches
+        	Tooltip: Never run out of Hallowed Torches.
+	}
+
+
+	UnlimitedIceTorches: {
+        	DisplayName: Unlimited Ice Torches
+        	Tooltip: Never run out of Ice Torches.
+	}
+
+
+	UnlimitedIchorTorches: {
+        	DisplayName: Unlimited Ichor Torches
+        	Tooltip: Never run out of Ichor Torches.
+	}
+
+
+	UnlimitedJungleTorches: {
+        	DisplayName: Unlimited Jungle Torches
+        	Tooltip: Never run out of Jungle Torches.
+	}
+
+
+	UnlimitedOrangeTorches: {
+        	DisplayName: Unlimited Orange Torches
+        	Tooltip: Never run out of Orange Torches.
+	}
+
+
+	UnlimitedPinkTorches: {
+        	DisplayName: Unlimited Pink Torches
+        	Tooltip: Never run out of Pink Torches.
+	}
+
+
+	UnlimitedPurpleTorches: {
+        	DisplayName: Unlimited Purple Torches
+        	Tooltip: Never run out of Purple Torches.
+	}
+
+
+	UnlimitedRainbowTorches: {
+        	DisplayName: Unlimited Rainbow Torches
+        	Tooltip: Never run out of Rainbow Torches.
+	}
+
+
+	UnlimitedRedTorches: {
+        	DisplayName: Unlimited Red Torches
+        	Tooltip: Never run out of Red Torches.
+	}
+
+
+	UnlimitedTorches: {
+        	DisplayName: Unlimited Torches
+        	Tooltip: Never run out of Torches.
+	}
+
+
+	UnlimitedUltrabrightTorches: {
+        	DisplayName: Unlimited Ultrabright Torches
+        	Tooltip: Never run out of Ultrabright Torches.
+	}
+
+
+	UnlimitedWhiteTorches: {
+        	DisplayName: Unlimited White Torches
+        	Tooltip: Never run out of White Torches.
+	}
+
+
+	UnlimitedYellowTorches: {
+        	DisplayName: Unlimited Yellow Torches
+        	Tooltip: Never run out of Yellow Torches.
+	}
+
+
+	TestItem: {
+        	DisplayName: Test Item
+        	Tooltip:
+                	'''
+                	Item for testing stuff.
+                	May do nothing.
+                	May do cool stuff.
+                	May break your game.
+                	May break your computer.
+                	I wouldn't use this if I were you.
+                	'''
+	}
+
+
+	UnlimitedDirtBombs: {
+        	DisplayName: Unlimited Dirt Bombs
+        	Tooltip: Never run out of Dirt Bombs.
+	}
+
+
+	UnlimitedDryBombs: {
+        	DisplayName: Unlimited Dry Bombs
+        	Tooltip: Never run out of Dry Bombs.
+	}
+
+
+	UnlimitedHoneyBombs: {
+        	DisplayName: Unlimited Honey Bombs
+        	Tooltip: Never run out of Honey Bombs.
+	}
+
+
+	UnlimitedLavaBombs: {
+        	DisplayName: Unlimited Lava Bombs
+        	Tooltip: Never run out of Lava Bombs.
+	}
+
+
+	UnlimitedScarabBombs: {
+        	DisplayName: Unlimited Scarab Bombs
+        	Tooltip: Never run out of Scarab Bombs
+	}
+
+
+	UnlimitedStickyDirtBombs: {
+        	DisplayName: Unlimited Sticky Dirt Bombs
+        	Tooltip: Never run out of Sticky Dirt Bombs.
+	}
+
+
+	UnlimitedWetBombs: {
+        	DisplayName: Unlimited Wet Bombs
+        	Tooltip: Never run out of Wet Bombs.
+	}
+
+
+	UnlimitedFairyGlowsticks: {
+        	DisplayName: Unlimited Fairy Glowsticks
+        	Tooltip: Never run out of Fairy Glowsticks.
+	}
+
+
+	GoldenStand: {
+        	DisplayName: Golden Stand
+        	Tooltip: Uses to make normal items more POWAAAAHFUL!
+	}
+
+
+	Paper: {
+        	DisplayName: Paper
+        	Tooltip: A newer version of the paper, much more solid!
+	}
+
+
+	ScrollCrafter: {
+        	DisplayName: Scrolls Crafter
+        	Tooltip: A table to create powerful scrolls
+	}
+
+
+	UnlimitedReturn: {
+        	DisplayName: Unlimited Return
+        	Tooltip: Return to the place you used the recall hotkey
+	}
+
+
+	Windy: {
+        	DisplayName: Wind charm
+        	Tooltip: This might help you find lucky creatures *wink*
+	}
+
+
+	UnlimitedWarTable: {
+        	DisplayName: Unlimited War Table
+        	Tooltip: Have an extra sentry friend
+	}
+
+
+	UnlimitedAetherTorches: {
+        	DisplayName: Unlimited Aether Torches
+        	Tooltip: Never run out of Aether Torches
+	}
+
+
+	UnlimitedMushroomTorches: {
+        	DisplayName: Unlimited Mushroom Torches
+        	Tooltip: Never run out of Mushroom Torches
+	}
+
+
+	UnlimitedSunflower: {
+        	DisplayName: Sunflower Power
+        	Tooltip: You're happy !
+	}
+
+
+	UnlimitedCursedFlares: {
+        	DisplayName: Unlimited Cursed Flares
+        	Tooltip: Never run out of Cursed Flares
+	}
+
+
+	UnlimitedRainbowFlares: {
+        	DisplayName: Unlimited Rainbow Flares
+        	Tooltip: Never run out of Rainbow Flares
+	}
+
+
+	UnlimitedShimmerFlares: {
+        	DisplayName: Unlimited Shimmer Flares
+        	Tooltip: Never run out of Shimmer Flares
+	}
+
+
+	UnlimitedSpelunkerFlares: {
+        	DisplayName: Unlimited Spelunker Flares
+        	Tooltip: Never run out of Spelunker Flares
+	}
+
+
+	UnlimitedBiomeSight: {
+        	DisplayName: Biome Sight Power
+        	Tooltip: You see all the Parasites now.
+	}
+
+
+	ChestsKeyring: {
+        	DisplayName: Chests Keyring
+        	Tooltip: ""
+	}
+
+
+	LiquidManipulator: {
+        	DisplayName: Shimmer Liquid Power
+        	Tooltip: Consume to unlock Shimmer for the Builders.
+	}
+
+
+	BlankLiquidPower: {
+        	DisplayName: Blank Liquid Power
+        	Tooltip:
+                	'''
+                	You are unsure what this is for.
+                	Maybe there is a strange Liquid you can throw it into?
+                	'''
+	}
+}
+
+
+Projectiles: {
+	ActuatorProjectile: {
+        	DisplayName: Actuators
+	}
+
+
+	DefendersForgeProjectile: {
+        	DisplayName: Flying Defender's Forge
+	}
+
+
+	PiggyBankProjectile: {
+        	DisplayName: Flying Piggy Bank
+	}
+
+
+	SafeProjectile: {
+        	DisplayName: Flying Safe
+	}
+
+
+	UnlimitedGrandDesignProjectile: {
+        	DisplayName: Wiring
+	}
+
+
+	UnlimitedMerchantKillerProjectile: {
+        	DisplayName: Boiled Mothron Egg
+	}
+
+
+	TestProjectile: {
+        	DisplayName: TestProjectile
+	}
+
+
+	DarkGreenSolutionProjectile: {
+        	DisplayName: Dark Green Solution Projectile
+	}
+
+
+	BuildingProjectile: {
+        	DisplayName: Building Projectile
+	}
+}
+
+
+Tiles: {
+	BambooHarvesterTile: {
+        	ContainerName: Bamboo Harvester
+        	MapEntry: Bamboo Harvester
+	}
+
+
+	CactusHarvesterTile: {
+        	ContainerName: Cactus Harvester
+        	MapEntry: Cactus Harvester
+	}
+
+
+	CrystalHarvesterTile: {
+        	ContainerName: Crystal Harvester
+        	MapEntry: Crystal Harvester
+	}
+
+
+	EnemyHarvesterTile: {
+        	ContainerName: Enemy Harvester
+        	MapEntry: Enemy Harvester
+	}
+
+
+	FishHarvesterTile: {
+        	ContainerName: Fish Harvester
+        	MapEntry: Fish Harvester
+	}
+
+
+	GemCornHarvesterTile: {
+        	ContainerName: Gemcorn Tree Harvester
+        	MapEntry: Gemcorn Tree Harvester
+	}
+
+
+	PlantHarvesterTile: {
+        	ContainerName: Plant Harvester
+        	MapEntry: Plant Harvester
+	}
+
+
+	TreeHarvesterTile: {
+        	ContainerName: Tree Harvester
+        	MapEntry: Tree Harvester
+	}
+
+
+	TestTile: {
+        	MapEntry: Test Tile
+	}
+
+
+	CorruptionAltar: {
+        	MapEntry: Demon Altar
+	}
+
+
+	CrimsonAltar: {
+        	MapEntry: Crimson Altar
+	}
+
+
+	HouseEnabler: {
+        	MapEntry: House Enabler
+	}
+
+
+	HouseEnablerDark: {
+        	MapEntry: House Enabler (No Light)
+	}
+
+
+	AsphaltPlatform: {
+        	MapEntry: Asphalt Platform
+	}
+
+
+	ScrollCrafter: {
+        	MapEntry: Scrolls Crafter
+	}
+}
+
+
+Keybinds: {
+	"Luiafk Recall": {
+        	DisplayName: 帰還
+	}
+
+
+	"Luiafk Recall Back": {
+        	DisplayName: 元の地点に戻る
+	}
+
+
+	"Luiafk Buffs": {
+        	DisplayName: バフ
+	}
+
+
+	"Luiafk Buff Settings": {
+        	DisplayName: ポーション効果の切り替え
+	}
+}
+
+
+Configs: {
+	LuiAFKConfig: {
+        	DisplayName: LuiAFK Config Server
+
+
+        	Headers: {
+                	Harvester: Harvester Config
+                	Potions: Potions & Buffs Configs
+                	Accessories: Accessories Option
+                	NPC: NPCs Options
+                	Tools: Tools & Mics options
+                	Fishing: Fishing rods Bobbers
+                	Ammo: Ammo Options
+        	}
+
+
+        	harvesterAvailability: {
+                	Label: Harvesters
+                	Tooltip:
+                        	'''
+                        	At what difficulty Harvesters are available.
+                        	Options are : Disabled, Normal+, Expert+ and Master+
+                        	Default is Expert+
+                        	'''
+        	}
+
+
+        	potionsEnable: {
+                	Label: Unlimited Potions
+                	Tooltip:
+                        	'''
+                        	If Unlimited Potions are enabled or not.
+                        	Will not trigger buffs if the Item is in inventory.
+                        	Will not trigger vanilla buffs if they are a stack of 30+.
+                        	Default is true
+                        	'''
+        	}
+
+
+        	vanillaPotionsEnable: {
+                	Label: Vanilla Potion Auto-Apply
+                	Tooltip:
+                        	'''
+                        	If Vanilla Potions are Auto-Applied if they are a Stack of 30+.
+                        	Options are : Disabled, Always and 1 Unlimited Potion Present.
+                        	Default value is 1 Unlimited Potion Present
+                        	'''
+        	}
+
+
+        	PaperAmountForScrollCrafting: {
+                	Label: Paper amount for crafting
+                	Tooltip:
+                        	'''
+                        	The number of paper required for the scroll crafting.
+                        	0 disable the paper needed for craft.
+                        	Default value is 5.
+                        	'''
+        	}
+
+
+        	ultimateBattlerTimer: {
+                	Label: Ultimate Battler Timer
+                	Tooltip:
+                        	'''
+                        	If Ultimate Battler Buff has a Timer of 5 seconds before the Buff is activated, before the Buff is deactivated or if the timer is disabled.
+                        	Options are : Disabled, Before Enable and After Enable
+                        	Default is Before Enable
+                        	'''
+        	}
+
+
+        	manaEnable: {
+                	Label: Unlimited Mana [i:{0}] [i:{1}] [i:{2}] [i:{3}] [i:{4}] [i:{5}]
+                	Tooltip:
+                        	'''
+                        	If Unlimited Mana are enabled or not.
+                        	Will not trigger buffs if the Item is in inventory.
+                        	Default is true
+                        	'''
+        	}
+
+
+        	superTools: {
+                	Label: Super Tools [i:{0}] [i:{1}] [i:{2}]
+                	Tooltip:
+                        	'''
+                        	If the Dig Faster, Tool time and Home Improvement are enabled or not.
+                        	Will not trigger buffs if the Item is in inventory.
+                        	Default is true
+                        	'''
+        	}
+
+
+        	boneEnable: {
+                	Label: Spawn Bone Merchant Town NPC
+                	Tooltip:
+                        	'''
+                        	If the Bone Merchant is able to spawn or not.
+                        	Will not remove already spawned Bone Merchant Town NPC.
+                        	Default is true
+                        	'''
+        	}
+
+
+        	merchantEnable: {
+                	Label: Spawn Travelling Merchant Town NPC
+                	Tooltip:
+                        	'''
+                        	If the Travelling Merchant Town NPC is able to spawn or not.
+                        	Will not remove already spawned Travelling Merchant Town NPC.
+                        	Default is true
+                        	'''
+        	}
+
+
+        	builderEnable: {
+                	Label: Auto-Builders [i:{0}]
+                	Tooltip:
+                        	'''
+                        	If any Builder-Item/Tool is able to be obtained and used.
+                        	Default is true
+                        	'''
+        	}
+
+
+        	worldRemoverEnable: {
+                	Label: Improved Drill Mount [i:{0}]
+                	Tooltip:
+                        	'''
+                        	If Improved Drill Mount is able to be obtained and used.
+                        	Default is true
+                        	'''
+        	}
+
+
+        	moneyEnable: {
+                	Label: Money Collector [i:{0}]
+                	Tooltip:
+                        	'''
+                        	If Money Collector is able to be obtained and used.
+                        	Default is true
+                        	'''
+        	}
+
+
+        	killerEnable: {
+                	Label: Unlimited Merchant Killer [i:{0}]
+                	Tooltip:
+                        	'''
+                        	If Unlimited Merchant Killer is able to be obtained and used.
+                        	Default is true
+                        	'''
+        	}
+
+
+        	magnetEnable: {
+                	Label: Loot Magnet [i:{0}]
+                	Tooltip:
+                        	'''
+                        	If Loot Magnet is able to be obtained and used.
+                        	Default is true
+                        	'''
+        	}
+
+
+        	neededQuests: {
+                	Label: Extra Fishing Bobbers
+                	Tooltip:
+                        	'''
+                        	How many Angler quests are needed per extra bobber.
+                        	0 disable this option.
+                        	Value can go in between 0 to 100.
+                        	Default is 5 quests
+                        	'''
+        	}
+
+
+        	rangerAmmo: {
+                	Label: Unlimited Ammo Ranged Weapons
+                	Tooltip:
+                        	'''
+                        	How much Ranged Ammo you need for not consuming the item.
+                        	0 disable this option.
+                        	Values can go in between 0 to 10000.
+                        	Default is 3996
+                        	'''
+        	}
+
+
+        	thrownAmmo: {
+                	Label: Unlimited Ammo Thrown Weapons
+                	Tooltip:
+                        	'''
+                        	How much Thrown Ammo you need for not consuming the item.
+                        	0 disable this option.
+                        	Values can go in between 0 to 10000.
+                        	Default is 999
+                        	'''
+        	}
+	}
+
+
+	SettingsConfigClient: {
+        	DisplayName: LuiAFK クライアントコンフィグ
+
+
+        	Headers: {
+                	Different_Enabling/Disabling_Options: Different Enabling / Disabling Options
+        	}
+
+
+        	certainPotionsEnable: {
+                	Label: Certain Unlimited Potion
+                	Tooltip:
+                        	'''
+                        	If Certain Unlimited Potion is enabled or not.
+                        	Will not trigger buffs if the Item is in inventory.
+                        	Currently has no effect at all!!!!
+                        	'''
+        	}
+	}
+}
+
+
+LuiafkRecipes: {
+	WellFed1: 何か少量の食べ物
+	WellFed2: 何か適量の食べ物
+	WellFed3: 何か大量の食べ物
+	AnyBait: 釣り餌
+	TwentyBait: 釣りパワー２０％以上の釣り餌
+	ThirtyBait: 釣りパワー３０％以上の釣り餌
+	FiftyBait: 釣りパワー５０％の釣り餌
+	Chairs: イスならなんでも
+	Doors: ドアならなんでも
+	Tables: テーブルならなんでも
+	LightSource: 光源であればなんでも
+	ChestsLocalized: チェストであればなんでも
+	Axes: ５５％以上の斧パワーを持つ斧
+	Gems: 宝石ならなんでも
+	Buckets:
+        	'''
+       		究極の液体マニピュレータまたはプール製造機
+        	クラフトでは消費されない
+        	'''
+	UltimateBuckets:
+        	'''
+        	究極の液体マニピュレータ
+        	クラフトでは消費されない
+        	'''
+	Regrowth:
+        	'''
+        	再成長の杖またはプラント・ハーベスター
+        	クラフトでは消費されない
+        	'''
+	AdamTitanBar: アダマンタイトインゴット　か　チタンインゴット
+	CopperTinBar: 銅のインゴット　か　錫のインゴット
+	PlatGoldBar: プラチナインゴット　か　金のインゴット
+	IceSnowBlock: 氷　か　雪
+	LifeCrystal: ライフクリスタル　か　ハートランタン
+	FallenStar: 流れ星　か　流れ星入りの瓶
+	Torches: 松明ならなんでも
+	Streamer: ストリーマーのどれか
+	WebSilkRope: 蜘蛛糸のロープ　か　シルクのロープ
+	RopeVine: ロープ　か　蔦のロープ
+	Tipsy: エールか酒
+	EvilFlask: イコルのフラスコ　か　呪われた炎のフラスコ
+	Extractinator: 水雪ブロック　か　沈泥ブロック　もしくは　砂漠の化石
+	EvilMushroom: きけんなキノコ　か　じゃあくなキノコ
+	EvilPowder: 真紅の粉　か　不浄な粉
+	GoldWatch: 金の時計　か　プラチナの時計
+	SandBlock: 砂であればなんでも
+	EvilBar: クリムタンインゴットもしくはデモナイトインゴット
+	EvilOre: クリムタン鉱石もしくはデモナイト鉱石
+	EvilOreMat: シャドウスケイルか組織サンプル
+	EvilStoneBlock: クリムストーンまたはエボンストーン
+	DungeonBrick: どれかのダンジョンレンガ
+	LunarPick: フラグメントピッケル４種類のうちどれか
+	LunarHamaxe: フラグメントハンマーアックス４種類のうちどれか
+}
+
+
+FishingRod: {
+	RequireBait: 要求する餌
+	Bait: 餌
+	Power: パワー
+	Quests1: 釣りクエストを{0}回クリアするごとに釣り糸が1本追加される。
+}
+
+
+UnlimitedLucky: {
+	NoTorchLuck: 松明の神はあなたの存在に注意を払わない
+	TorchLuck: 松明の神はあなたに祝福を与えている
+}
+    	}
+}
+

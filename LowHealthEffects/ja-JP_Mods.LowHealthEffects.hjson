@@ -1,0 +1,86 @@
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		Headers: {
+			GeneralHeader: 一般
+			VisualFXHeader: 視覚効果
+			AudioHeader: オーディオ
+		}
+
+		DistortionStrength: {
+			Label: 歪みの強さ
+			Tooltip: 歪み効果の強さ
+		}
+
+		PulsatingStrength: {
+			Label: 心音の強さ
+			Tooltip: 心音効果の強さ
+		}
+
+		VignetteStrength: {
+			Label: ビネットの強さ
+			Tooltip: 画面端の色の強さ
+		}
+
+		VignetteColor: {
+			Label: ビネットカラー
+			Tooltip: 画面端の色
+		}
+
+		OnDamagePercent: {
+			Label: 被ダメージ効果
+			Tooltip:
+				'''
+				ダメージを受けると、スパイク効果が発生する。
+				このようなスパイクの強さは、受けたダメージに応じて変化する、
+				最大HPのパーセンテージを超えるとスパイクの強さは最大になる。
+				'''
+		}
+
+		HeartbeatVolume: {
+			Label: 心臓の鼓動の音量
+			Tooltip: 心臓の鼓動の効果音の音量
+		}
+
+		RingingVolume: {
+			Label: 被ダメージ効果音の音量
+			Tooltip: 大ダメージを受けた後に鳴る効果音の音量
+		}
+
+		MuffleStrength: {
+			Label: 消音強度
+			Tooltip: 低ヘルス時の消音の強さ
+		}
+
+		HeartbeatPulse: {
+			Label: 心臓の鼓動のビジュアルエフェクト
+			Tooltip:
+				'''
+				有効にすると、ビジュアルエフェクトは心臓の鼓動のように脈打つようになる。
+				無効にするとエフェクトは正弦波のように振動する。
+				'''
+		}
+
+		BossOnly: {
+			Label: ボスでのみ有効
+			Tooltip: 有効にすると、ボス戦でのみ低ヘルス効果が有効になる
+		}
+
+		IgnoreBossMusic: {
+			Label: ボスBGMはエフェクトを無効化する
+			Tooltip: 有効にすると、ボスBGMにはオーディオエフェクトが適用されない。
+		}
+
+		PassivePercents: {
+			Label: エフェクト開始設定
+			Tooltip:
+				'''
+				低ヘルスの効果が始まる最大HPのパーセンテージをコントロールする。
+				HPが緑のバーを上回ると効果は発生しない。赤のバーを下回ると効果が最大になる。
+				赤のバーを下回ると最大値に達する。
+				'''
+		}
+	}
+}
+
