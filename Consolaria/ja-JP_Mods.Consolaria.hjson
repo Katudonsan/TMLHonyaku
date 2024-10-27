@@ -479,42 +479,42 @@ Items: {
 	}
 
 	OrcaBanner: {
-		DisplayName: シャチ
+		DisplayName: シャチのバナー
 		Tooltip: "{$CommonItemTooltip.BannerBonus}Orca"
 	}
 
 	ShadowHammerBanner: {
-		DisplayName: シャドウハンマー
+		DisplayName: シャドウハンマーのバナー
 		Tooltip: "{$CommonItemTooltip.BannerBonus}Shadow Hammer"
 	}
 
 	ShadowMummyBanner: {
-		DisplayName: シャドウマミー
+		DisplayName: シャドウマミーのバナー
 		Tooltip: "{$CommonItemTooltip.BannerBonus}Shadow Mummy"
 	}
 
 	ShadowSlimeBanner: {
-		DisplayName: シャドウスライム
+		DisplayName: シャドウスライムのバナー
 		Tooltip: "{$CommonItemTooltip.BannerBonus}Shadow Slime"
 	}
 
 	SpectralElementalBanner: {
-		DisplayName: ゴーストエレメンタル
+		DisplayName: ゴーストエレメンタルのバナー
 		Tooltip: "{$CommonItemTooltip.BannerBonus}Spectral Elemental"
 	}
 
 	SpectralGastropodBanner: {
-		DisplayName: スペクトロポッド
+		DisplayName: スペクトロポッドのバナー
 		Tooltip: "{$CommonItemTooltip.BannerBonus}Spectropod"
 	}
 
 	SpectralMummyBanner: {
-		DisplayName: ゴーストマミー
+		DisplayName: ゴーストマミーのバナー
 		Tooltip: "{$CommonItemTooltip.BannerBonus}Spectral Mummy"
 	}
 
 	VampireMinerBanner: {
-		DisplayName: ヴァンパイアマイナー
+		DisplayName: ヴァンパイアマイナーのバナー
 		Tooltip: "{$CommonItemTooltip.BannerBonus}Vampire Miner"
 	}
 
