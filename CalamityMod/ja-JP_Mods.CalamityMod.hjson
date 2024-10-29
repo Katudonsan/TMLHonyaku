@@ -242,7 +242,7 @@ Events: {
 GameTips: {
 	SunkenSeaTip: 砂漠の奥深く、没落した王国の廃墟と化した郊外がある。
 	ArsenalLabTip: 地表の地下には、古くて放棄された研究所が点在している。
-	PlanetoidTip: プラネトイドは宇宙に存在する！
+	PlanetoidTip: 小惑星は宇宙に存在する！
 	AbyssTip: 深淵は硫黄の海の地下深くにある。探検する際は、適切な潜水具を用意したほうがいい。
 	BanditTip: 盗賊は貧しい人からは盗まない。彼らに会いたければ、彼らの気を引くために大金が必要だ。
 	RefundTip: 修理屋の工作台でたくさん鍛え直しているのなら、盗賊を訪ねてみるのもいいかもしれない。
@@ -5744,12 +5744,12 @@ Items: {
 		}
 
 		VernalSoil: {
-			DisplayName: 春の栄養土
+			DisplayName: 春の土壌
 			Tooltip: ""
 		}
 
 		Voidstone: {
-			DisplayName: ボイドストーン
+			DisplayName: ヴォイドストーン
 			Tooltip: ""
 		}
 
@@ -15489,7 +15489,7 @@ Items: {
 			Tooltip:
 				'''
 				コードブレーカーに組み込むことができる
-				プラネトイドの回路図を解読できるようにする
+				小惑星の回路図を解読できるようにする
 				解読すると、新しいレシピを学ぶことができる
 				'''
 		}
@@ -15575,37 +15575,37 @@ Items: {
 		}
 
 		CyanSeekingMechanism: {
-			DisplayName: 青緑色の探知機械
+			DisplayName: 青緑色の探知機
 			Tooltip: 砂漠地下にある研究室に向かって飛んでいく
 		}
 
 		GreenSeekingMechanism: {
-			DisplayName: 緑色の探知機械
+			DisplayName: 緑色の探知機
 			Tooltip: ジャングルの研究室に向かって飛んでいく
 		}
 
 		LabSeekingMechanism: {
-			DisplayName: 研究所探知機械
+			DisplayName: 研究所探知機
 			Tooltip: ドラエドン研究所のパワーコアの場所を特定することができる
 		}
 
 		OnyxSeekingMechanism: {
-			DisplayName: オニキスの探知機械
+			DisplayName: オニキスの探知機
 			Tooltip: 洞窟の研究室に向かって飛んでいく
 		}
 
 		RedSeekingMechanism: {
-			DisplayName: 赤色の探知機械
+			DisplayName: 赤色の探知機
 			Tooltip: 地底世界の研究室に向かって飛んでいく
 		}
 
 		WhiteSeekingMechanism: {
-			DisplayName: 白色の探知機械
+			DisplayName: 白色の探知機
 			Tooltip: 雪原洞窟の研究室に向かって飛んでいく
 		}
 
 		YellowSeekingMechanism: {
-			DisplayName: 黄色の探知機械
+			DisplayName: 黄色の探知機
 			Tooltip: 空の研究室に向かって飛んでいく
 		}
 
@@ -15647,7 +15647,7 @@ Items: {
 		}
 
 		EncryptedSchematicPlanetoid: {
-			DisplayName: 暗号化された回路図 (プラネトイド)
+			DisplayName: 暗号化された回路図 (小惑星)
 			Tooltip: 復号化には、基本的な復号化コンピュータを備えたコードブレーカーが必要
 			Content:
 				'''
@@ -28593,16 +28593,16 @@ Misc: {
 		AnyWings: いずれかの翼
 	}
 
-	WikiStatus1: "[i:Book] [c/EE4939:Fandom wikiはCalamityによってサポートされていません] [i:Book]"
+	WikiStatus1: "[i:Book] [c/EE4939:Fandom wikiは非公式のサイトです] [i:Book]"
 	WikiStatus2: "[i:Book] [c/EE4939:CalamityMOD公式ウィキをご覧ください ][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [i:Book]"
 	MusicModReminder: "[i:MusicBoxMartians] [c/71DFF5:私たちのサウンドトラックを体験するには、Calamity Music Modも忘れずにインストールしてください！] [i:MusicBoxMartians]"
 	Tier1ArsenalRecipeCondition: 沈没海近くの研究所から復号化された回路図を読む
-	Tier2ArsenalRecipeCondition: 空に浮かぶ大きなプラネトイドにある研究所の回路図を解読する
+	Tier2ArsenalRecipeCondition: 空に浮かぶ小惑星にある研究所の回路図を解読する
 	Tier3ArsenalRecipeCondition: ジャングルの奥深くにある研究室の回路図を解読する
 	Tier4ArsenalRecipeCondition: 地底世界の果てにある研究所の回路図を解読する
 	Tier5ArsenalRecipeCondition: 凍てつく洞窟の奥深くにある研究室の回路図を解読する
 	SunkenSeaSchematicRecipeCondition: 沈没海の近くにある研究所の回路図を、少なくとも1回はインベントリに入れる
-	PlanetoidSchematicRecipeCondition: 大きなプラネトイドの中にある研究所の回路図を、少なくとも1回はインベントリに入れる
+	PlanetoidSchematicRecipeCondition: 小惑星の中にある研究所の回路図を、少なくとも1回はインベントリに入れる
 	JungleSchematicRecipeCondition: ジャングルの奥深くにある研究室の回路図を、少なくとも1回はインベントリに入れる
 	UnderworldSchematicRecipeCondition: 地底世界の果てにある研究所の回路図を、少なくとも1回はインベントリに入れる
 	IceSchematicRecipeCondition: 凍てつく洞窟の奥深くにある研究室の回路図を、少なくとも1回はインベントリに入れる
@@ -28681,7 +28681,7 @@ Tiles: {
 	}
 
 	CodebreakerTile: {
-		MapEntry: ザ・コードブレイカー
+		MapEntry: コードブレイカー
 	}
 
 	AerialiteOre: {
