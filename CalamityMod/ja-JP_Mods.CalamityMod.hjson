@@ -9841,21 +9841,6 @@ Items: {
 					'''
 			}
 
-			HarvestStaff: {
-				DisplayName: 収穫の杖
-				Tooltip: 燃えるカボチャを放つ
-			}
-
-			LiliesOfFinality: {
-				DisplayName: 終焉の花
-				Tooltip:
-					'''
-					召喚にはミニオンスロットを2つ消費する
-					一度しか召喚できない
-					「起きて...」
-					'''
-			}
-
 			HeliumFlash: {
 				DisplayName: ヘリウムフラッシュ
 				Tooltip:
@@ -15327,7 +15312,7 @@ Items: {
 			}
 			
 						HarvestStaff: {
-				DisplayName: かぼちゃの杖
+				DisplayName: カボチャの杖
 				Tooltip: 
 					'''
 					カボチャ畑を召喚する
