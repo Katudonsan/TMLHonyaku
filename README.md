@@ -1,10 +1,10 @@
 # TMLHonyaku
-[tModLoader](https://github.com/tModLoader/tModLoader)に読み込ませるhjsonファイルの翻訳置き場
+[tModLoader](https://github.com/tModLoader/tModLoader)で使用できるhjsonファイルの翻訳置き場
 
-[External Localizer](https://steamcommunity.com/sharedfiles/filedetails/?id=2986383249)に読み込ませることでテラリアのModを日本語化できます。
+[External Localizer](https://steamcommunity.com/sharedfiles/filedetails/?id=2986383249)を使って読み込ませるとテラリアのModを日本語化できます。
 
 
-翻訳方法の解説は[ここ](https://eva828game.hatenablog.com/entry/tmodloader/external-localizer)を参考にしてください。
+翻訳方法の解説は[tModLoader wiki](https://github.com/tModLoader/tModLoader/wiki/Localization)や[ブログ](https://eva828game.hatenablog.com/entry/tmodloader/external-localizer)を参考にしてください。
 
 
 terrariaの翻訳は[synctam様による翻訳](https://synctam.blogspot.com/2017/05/terraria_20.html)をもとにしています。
