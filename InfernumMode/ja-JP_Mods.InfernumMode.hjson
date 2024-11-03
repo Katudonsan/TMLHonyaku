@@ -1860,15 +1860,15 @@ NPCs: {
 	}
 
 	CalamitasShadowClone: {
-		DisplayName: Forgotten Shadow of Calamitas
+		DisplayName: 忘れられたカラミタスの影
 	}
 
 	CataclysmShadow: {
-		DisplayName: Forgotten Shadow of Cataclysm
+		DisplayName: 忘れられたカタクリズムの影
 	}
 
 	CatastropheShadow: {
-		DisplayName: Forgotten Shadow of Catastrophe
+		DisplayName: 忘れ去られたカタストロフィの影
 	}
 }
 
