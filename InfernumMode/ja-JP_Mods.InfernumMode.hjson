@@ -4525,7 +4525,7 @@ Projectiles: {
 
 Status: {
 	AchievementCompletionText: 実績解除！
-	InfernumDisallowedInWeirdDifficulties: マスターモードはMasterやFor the Worthy等の特殊シードでは機能しません。
+	InfernumDisallowedInWeirdDifficulties: インフェルナムモードはマスターモードやFor the Worthy等の特殊シードでは機能しません。
 	EternityModeWarning: エタニティモードのボスのAIの変更がインフェルナムによって上書きされます。
 	CyberneticImmortalityEnabled: 不死が有効になりました。
 	CyberneticImmortalityDisabled: 不死が無効になりました。
