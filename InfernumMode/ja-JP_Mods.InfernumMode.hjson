@@ -2051,7 +2051,7 @@ PetDialog: {
 	ProvidenceTip1: アイツの攻撃サイクルは音楽と連動してるかも...？
 	ProvidenceTip2: 常に攻撃し続ける必要はないよ！緩急が大事！
 	ProvidenceExplosionTip: あの火球は溶岩と当たると爆発するみたい！気をつけて！
-	ProvidenceFinalPhaseTip:  プロヴィデンスが何かを準備してるよ！気をつけて！
+	ProvidenceFinalPhaseTip: プロヴィデンスが何かを準備してるよ！気をつけて！
 	QueenBeeTip1: あのハチミツはよく跳ねるね！急いで動きすぎると、無茶苦茶になっちゃう！
 	QueenBeeTip2: ジャマなスズメバチをまず片付けるのが最優先だよ！
 	QueenBeeTip3: 毒は本当に体に悪いよね。胃石とか、毒を防げるもの、持ってない？ 
@@ -4537,8 +4537,8 @@ Status: {
 	AquaticScourgeFinalPhaseAcid: 地下から酸の洪水が押し寄せてくる！
 	CalShadowBrothersSummon: 立ち上がれ、兄弟たちよ...
 	CalShadowFinalPhase: まだ始まったばかりだ！
-	CalShadowFinalHexWarning: まだ…終わってない...！私の呪いが...貴様の体を蝕むことになる...
-	CalShadowFinalHexSurprise: ああ…
+	CalShadowFinalHexWarning: まだ...終わってない...！私の呪いが...貴様の体を蝕むことになる...
+	CalShadowFinalHexSurprise: ああ...
 	TwinsForcefieldSummonSpazmatism: SPA-MK4:防御機構は突破されました。 開始プロセス：FFLD-17ECF9
 	TwinsForcefieldSummonRetinazer: RET-MK7: 防御機構は突破されました。 開始プロセス：FFLD-17ECF9
 	TwinsFinalPhaseSpazmatism: SPA-MK4: セカンダリユニットのエラー検出　燃料過剰燃焼中
