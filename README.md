@@ -1,4 +1,6 @@
 # TMLHonyaku
+<a target="_blank" href="https://discord.gg/ch2DVxf2jY"><img src="https://dcbadge.limes.pink/api/server/ch2DVxf2jY?style=flat" alt="" /></a>
+
 [tModLoader](https://github.com/tModLoader/tModLoader)で使用できるhjsonファイルの翻訳置き場
 
 [External Localizer](https://steamcommunity.com/sharedfiles/filedetails/?id=2986383249)を使って読み込ませるとテラリアのModを日本語化できます。
