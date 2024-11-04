@@ -1,0 +1,5345 @@
+NPCs: {
+	# April fools!
+	Meldosaurus.DisplayName: メルドサウルス
+	Jharim: {
+		DisplayName: ジャングルの暴君
+		TownNPCMood: {
+			Content: ヒャックヒャックヒャック、世界は万事OKなのネ。
+			NoHome: 頼むヨ、家をおくれ。野生で生きると暴力的な衝動に駆られるのネ。
+			LoveSpace: ジャリムはシアワセなのネ！今すぐオメーが頭を垂れてくれるだけで、もっとシアワセになるのネ～！
+			FarFromHome: オメーに命じる、この偉大なるジャリム様をさっさと家に連れていくのネ～！
+			DislikeCrowded: 農民ドモがヒュッヒュッと騒いでるせいで、ワレの考えが何も聞こえないのネ…
+			LikeBiome: アァ、{BiomeName}…ここに戻ってこられて嬉しいネ！
+			LoveBiome: キノコの匂いを嗅ぐのが大好きなのネ～！
+			DislikeBiome: ぶるぁああああああああ！ここから出すネ～！
+			HateBiome: 海はずっとワレに向かって叫んでくるから、存在そのものが軽蔑モノなのよネ！
+			LikeNPC: ワレはずっと海賊になりたかったのよネ、そんで{NPCName}はいい指導者ネ！
+			LoveNPC: "{NPCName}はワレのママを思い出させるネ～…大好きなのネ、ママ…"
+			DislikeNPC: "{NPCName}め、お前みたいな卑劣な生き物にジャリムは絶対に税金を払わないのネ。"
+			HateNPC: オッ…イヤイヤ…チョッ…あの魔女をワレから遠ざけてくれよネ？
+			LikeNPC_Princess: "ジャリムは{NPCName}をジャリム国の価値ある同盟者だと判断したのネ。"
+			Princess_LovesNPC: "{NPCName}は本当にマヌケなのネ。"
+			HateCrowded: ちょっと混みすぎじゃないかネ？
+		}
+		Chat: {
+			homeless1: ヒャックヒャックヒャック。ごきげんよう、ワレは偉大なるジャングルの暴君、ジャリムであるゾ。ワレのためにデッカいケモノを倒してくれるヤツを探すために来たのネ。
+			homeless2: あの袋の中はあんまり快適じゃなかったのネ。中にいたハエを食べちゃったと思うのネ。
+			homeless3: ヒャックヒャックヒャック、ワレは偉大なるジャングルの暴君として、偉大じゃないジャングルの暴君を倒したいオメーの手伝いをするのネ…何もしないことによってネ！
+			LunarTower: あの柱はブキミだネ…そしてあの柱の友達が落とす黒いブヨブヨ！あれには…特に火が付いてるヤツには触りたくないのネ。だからそんなもんで作った燃える武器でワレを撃ったりしないでよネ。
+			CirrusDress: イヤだイヤだイヤだ、あの星は二度とゴメンなのネ！イヤだイヤだイヤダ！
+			FAP: ヒュッヒュッヒュ…あの紫オンナがワレの酒を盗んでったのネ。
+			WITCH: あの呪われた魔女をワレから遠ざけるのネ
+			SEAHOE1: アミダスはまだ生きてたのネ、あのバカな魔女に焼かれたもんだと思ってたのネ
+			SEAHOE2: アミダスはまだ生きてたのネ、シュプリなんとかカラミこんとかに焼かれたもんだと思ってたのネ
+			Draedon: ドレエエエイイイドオオオン！オメーが何やったかは知ってるのネ！
+			THELORDE: 裏切りモノ！
+			Yharon: ヒャックヒャックヒャック、ワガ忠実なる友ヤロンよ、攻撃をやめるのネ！ …アイツ、ワレのことが分からないみたいネ。
+			GetBossDowned1: 今こそ、彼と対峙する時だ。
+			GetBossDowned2: 世界の神…奴はお前と対峙するつもりだ。
+			WaterElementalMinion: オホー、サカナのお嬢さん、教えてよネ！ワレのフィッシュタコスはどこかナ？
+			eclipse1: ヒャックヒャックヒャック、なんでこんなに暗いのかネ？
+			eclipse2: ウーム、分かってるヨ！あの蛾と殴り合うに行くかネ！蛾とは今まで何度も殴り合ったことがあるのネ！
+			bossrush1: 空が崩れて落ちていくのネ～！また終わりなのネ！
+			bossrush2: 蛾が…アイツらがワレを破壊して存在を消し去るのネ アアアアアアッ
+			AcidRainActive1: ゲロゲーロ
+			AcidRainActive2: 今ちょっと酔ってる気がするのネ。ヒャックップヒャクップ。毒性の酸を飲むのはやめたほうがいいのかもネ…
+			PartyIsUp1: ヒャックヒャックヒャックヒャックヒャックヒャックヒャックヒャックヒャックヒャックヒャックヒャックヒャックヒャックヒャックヒャックヒャックヒャックヒャックヒャック
+			PartyIsUp2: パーティータアアアアイイイム ヒャックヒャック。
+			Day1: ヒャックヒャックヒャック、偉大なるジャリム様はオメーにサカナを獲ってくるように命じるのネ！ …やりたくないってどういう意味ネ？
+			Day2: ヤリムは嘘つきなのネ、ワレのみがジャングルの暴君なのネ！
+			Day3: ヒヤツクヒヤツク。なんでこんな綴りになるのネ？
+			Day4: 若い頃、ハチを1分間拷問して、体に釘を打ち込んだことがあるのネ。楽しかったし、チューユーブでいっぱい再生されたのネ。
+			Night1: 暗いのネ。
+			Night2: ヒャックヒャックヒャック、夜になると、浜辺で暗殺されかけたことを思い出すのネ！
+			Night3: ワレの犬ころはどこに行ったのかネ？
+			bloodMoon1: 逃げるのネ。
+			bloodMoon2: 呪われた…赤い月…そんなことよりワレのタマゴはどこかネ？おいでおいで。
+			bloodMoon3: アアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアア
+			0: GAHUGIEGJIWEGUIEUWG
+		}
+		ChatButtons0: ショップ
+		ChatButtons1: "ショップ"
+		ChatButtons2: ショップ切り替え
+		ChatButtons3: 召喚
+		ButtonClicked1: 我を目覚めさせたな…その代償を払うときだ…
+		ButtonClicked2: まだその時ではないのネ。アイツは至高なる魔女と忌まわしい機械の両方が沈黙した後にだけ現れるだろうネ。
+		EdgyTalk1: グラァガガ オメー ナンデ ソンナコト シタネ！
+		EdgyTalk2: タスケテタスケテ、目覚メルノネ
+		EdgyTalk3: オルルクドルルルクドルルルクドルルルクド
+		Bestiary: 間抜けなバカ
+		Census.SpawnCondition: 秘密だ！
+	}
+	Fogbound.DisplayName: ハイパー・ウルトラ・オメガ・ゴッドフォグバウンドEX: 地獄エディション
+	# Critters
+	AstJR.DisplayName: アストラジェリースライム
+	Blightolemur.DisplayName: ブレアムール
+	Blinker.DisplayName: ブリンカー
+	CrystalFly.DisplayName: 冒涜されし蝶
+	Eyedol.DisplayName: アイドル
+	GAstJR.DisplayName: 金色のアストラジェリースライム
+	GodSlayerSlug.DisplayName: 神殺しのナメクジ
+	GoldenIsopod.DisplayName: 金色のオオグソクムシ
+	GoldEyedol.DisplayName: 金色のアイドル
+	GoldViolemur.DisplayName: 金色のヴィオレムール
+	Isopod.DisplayName: シンカイオオグソクムシ
+	NeuroFly.DisplayName: シンケイバエ
+	NukeFly.DisplayName: ジョウキバエ
+	Orthobab.DisplayName: チョッカクガイの幼生
+	OrthoceraApparition.DisplayName: チョッカクガイ?
+	PerfoGrub.DisplayName: パーフォレーターの幼虫
+	PlagueFrog.DisplayName: 疫病ガエル
+	ProvFly.DisplayName: 冒涜されし蝶
+	SandTurtle.DisplayName: スナリクガメ
+	Swearshroom.DisplayName: ノノシリダケ
+	Vaporofly.DisplayName: ジョウキバエ
+	Violemur.DisplayName: ヴィオレムール
+	Xerocodile.DisplayName: 目覚めしゼロコダイル
+	XerocodileSwim.DisplayName: 目覚めしゼロコダイル
+	# Town NPCs
+	JellyPriestBound.DisplayName: 縛られたクラゲの司祭
+	JellyPriestNPC: {
+		DisplayName: クラゲの司祭
+		TownNPCMood: {
+			Content: ここ祠を作るには良い場所ですね。
+			NoHome: 私には礼拝ができる場所が必要なのです！
+			LoveSpace: これだけ広い空間があれば、いろいろ建てられちゃいます！
+			FarFromHome: 家に連れて行ってはくれませんか？私の体のどこかが壊れてしまうかもしれないので。
+			DislikeCrowded: ここは人が多すぎてちょっと不安です。誰かが私の彫像を壊してしまうかもしれません。
+			HateCrowded: 誰もがここに集まっていて、これじゃあ何を建てても壊れちゃいます！
+			LoveBiome: "{BiomeName}はなかなかいい場所です。ここから温かな存在感を感じるのです…女神様がここにいるのかも…"
+			LikeBiome: "ここは平和なところです。{BiomeName}に建物を建てれば問題ナシです！"
+			DislikeBiome: ここは暑すぎますし、女神様もこんなところには来ないと思います。
+			HateBiome: こんな恐ろしい生き物がうろついているようなところでは、何も建てられません！
+			LikeNPC: "{NPCName}様と私は芸術性を共有しています。あのお方は素敵な感性を持っています！"
+			DislikeNPC: "{NPCName}様の放火癖は恐ろしいです。そのうち私の工房を吹き飛ばされるんじゃないかと思うと不安なんです！"
+			LikeNPC_Princess: "{NPCName}様は素敵な装飾を持っています。あのお方のスタイル、好きです。"
+			Princess_LovesNPC: "{NPCName}様は私と似た役割を持っているようで、素敵な飾り付けを販売しています。あのお方に競争相手がいないといいのですが！"
+			LoveNPC: I love {NPCName}.
+			HateNPC: I hate {NPCName}.
+		}
+		Chat: {
+			0: あぁゼロック様！彼女が！はやく準備を終わらせないといけませんね！
+			00: 準備万端！ついにあのお方が！アナヒタ様が現れました！
+			bossed: その恐ろしい怪物は一体なんなんですか！？
+			Kuti0: …実はそれ、結構かわいいんですよね。
+			Kuti1: あら、あなたが連れてる浮いてるソレ、可愛いですね！子供の頃住んでた素敵な家を思い出しちゃいました。懐かしいです。
+			homeless1: あのツルから解放されたのはいいんですが、私には落ち着いて彫刻ができる場所が必要なんです。
+			homeless2: こんにちは、陸の生き物さん！海が多くの者にとっての美しい支配地だった古の時代の神様たちを探すために、この古い海からやってきました！その神様たちがいそうな場所について、なにか心当たりはありませんか？
+			FAP1: あの「お姫様」に装飾品に見せていたとき、すごく近くに寄ってきたときはちょっと居心地が悪かったです。彼女の言い方からして、私のことを食べようとしてるんじゃないかと思うんです…！
+			FAP2: 以前、シーラスさんが私の胸像の頭を通りすがりにもいでいったんですよ！
+			WITCH1: あの魔女は…私にいい思い出を残してはくれませんでした…
+			WITCH2: 硫黄の魔女が地下世界の首都を破壊したことは聞きました？大惨事でした…建物がたくさん壊されたんですよ！
+			SEAHOE1: 言い伝えで聞いていた偉大な海の王を見つけたんでしたっけ…ハマグリの中から見つかるだなんて、ちょっと情けないですね。
+			SEAHOE2: アミディアス様は私が探している神様について何か知っていると思います？あの老馬はたくさんのことを知っているようですし。
+			leviathan1: おお！私の探している女神様の居場所が分かったんですね？それについて色々教えて下さい。すぐにでも捧げ物や記念碑を作る作業に取り掛かりたいんです！
+			leviathan2: なぜか、女神様の気配が薄れている気がするのです。彼女に悪いことが起きていないといいのですが。
+			scal: まったく、あなたの冒険のおかげで、私はたくさん在庫を集めることができましたよ！
+			WaterElementalMinion: 偉大な水の精霊と仲良くなったんですか？すごいですね。
+			SirenHeart: ああっ！私の店にようこそいらっしゃいました！あなたのために準備してたんですよ！
+			CirrusDress: 素敵なドレスですね！似たようななものを作ろうとした人を知っているんですが、その方は時間がかかりすぎて諦めてしまったんですよ。
+			OceanSpirit: あら、そのちっちゃい子、かわいいですね。私が探している女神様を思い出しちゃいました。
+			babywaterclone: そのちっちゃい子からは私が探している女神様に似た気配を感じるのですが、ちょっと違うんですよね。
+			eclipse1: 外はなんだか不気味な様子ですね。私の質素な家にいたらどうでしょう。
+			eclipse2: ふむ、あの生き物たちが持ってる布切れで何か作れるかもしれませんね。
+			PartyIsUp1: パーティーは楽しいですね！いつか、私の求める女神様の目に留まるようなパーティーを作るお手伝いができれば、と思っています。
+			PartyIsUp2: 今日はお祝い事が多いですね。私の飾りつけで盛り上げられたらいいのですが！
+			Day1: この場所はなんだか悲しげです。私が飾りつけて素敵な場所にしてあげましょうか？
+			Day2: もう言いましたよね、あの臭い海に戻ってあなたのための材料を取りに行くつもりはないですよ。 …あなたがお金を持っているなら別ですけどね。
+			Day3: タダであなたの家を飾り付けてもいいのですが、捧げ物を買うためにコインが必要なんです。分かりますよね？
+			Day4: このエプロンと道具をどこで手に入れたか、ですか？これらは全部私がすみかの周りにあったものから作ったんですよ！十分な情熱があれば、自然とこんなことができるようになるんです。
+			Night1: 夜は暗くて見えづらいですが、私は色とりどりの光で暗闇を照らせる装飾品も持っていますよ！
+			Night2: 実は夜のほうがやる気が出るんですよね。月を見ていると、誰かを思い出すんです…
+			Night3: 私が求めている女神様も、私と同じ月を見ているのでしょうか。
+			bloodMoon1: 今夜は仕事をする気にはなれません。
+			bloodMoon2: あぁあなた、家具をちょっと見ていてくれませんか？なぜか暴れ出しているようなので。
+			bloodMoon3: こんなに空が赤くて不気味だと、私の飾り付けのほとんどは台無しですね…
+			bloodMoon4: 私の彫像から離れて！
+		}
+		ChatButtons1: ブロック
+		ChatButtons2: ゲーム後半のブロック
+		ChatButtons3: その他
+		ChatButtons4: 植物
+		ChatButtons5: ブロック
+		ChatButtons0: ショップ切り替え
+		Bestiary: 奇妙な進化を遂げたクラゲ。彼女の建築趣味は、水の精霊への献身との相乗効果を生み出している。
+		Census.SpawnCondition: 酸性雨ティア1をクリアしたあと、硫黄の海にて見つける
+	}
+	OracleNPC: {
+		DisplayName: 予言者
+		TownNPCMood: {
+			Content: 結構くつろげてるよ。
+			NoHome: 家がないんじゃ、ウチの仲間たちの世話もできないよ！
+			LoveSpace: ここはTUBが走り回るのに十分なスペースがあって最高だね！
+			FarFromHome: こんなに家から離れてると、TUBも落ち着かないみたいだね。
+			DislikeCrowded: こんなに人がいるとちょっと居心地が悪いね。ウチの仲間たちも窮屈そうだ。。
+			HateCrowded: ここの人らはみんなTUBを怖がらせてる！
+			LikeBiome: "{BiomeName}はウチと小さな仲間たちが落ち着くのにいい場所だね。"
+			DislikeBiome: "{BiomeName}はウチの小さな仲間たちにとってあまり適してないね。"
+			HateBiome: この辺のモンスターどもが心配だなぁ。TUBが安全だとは思えない。
+			LikeNPC: "{NPCName}は結構イケてるね。彼女とTUBはいい友達になれそうだ。"
+			DislikeNPC: "{NPCName}はひどいヤツだよ。小さな生き物たちを楽しみで狩るなんて、ヒドすぎる！"
+			LikeNPC_Princess: "{NPCName}はいい雰囲気を持ってるね。動物たちにも人気みたいだし。"
+			Princess_LovesNPC: "{NPCName}ののんびりした感じが好きだね。彼女のTUBもかわいい！"
+			LoveBiome: I love {BiomeName}.
+			LoveNPC: I love {NPCName}.
+			HateNPC: I hate {NPCName}.
+		}
+		Chat: {
+			homeless1: 分かってるって、ウチの小さな仲間たち全員ぶんの家を作るのは無理だよね。でもさ、ウチのための１軒くらいならいけるよね？
+			homeless2: ウチはキミの冒険の手伝いはできないかもしれないけど、信じてよ！ウチの子たち、とっても可愛いんだよ！
+			miscEquips1: "わぁ…"
+			miscEquips11: の連れてる仲間、大好きだな！ちゃんと世話してよね？
+			miscEquips2: キミの連れてる仲間、最高に可愛いね！ちゃんと世話するんだよ、わかった？
+			miscEquips3: キミの仲間がTUBみたいにならなくてよかったね。
+			miscEquips4: キミの安全のためにもさ、仲間をしまっといたほうがいいかもよ。
+			astro1: 昨日さ、この宇宙空間を覗いてみたら大きなロボットが見えたんだ。中から何か粘液が漏れているみたいだった… 宇宙ネバネバ的な何かで押し出せないかな。
+			astro2: あのさ、もし水の精霊みたいなのを探してるなら、暴力に頼らずに釣りに行った方がいいかもしれないよ。
+			Bumblefuck: あそこの鳥どもにはたくさんの仲間がいるみたいだ！助けてあげられるかもよ！
+			WITCH: カラミタスのことを怖がる人もいるだろうけどさ、実際そんなに悪い人じゃないと思うんだよね。コウモリとかデスムカデとか、可愛い仲間をたくさん連れてるしさ。
+			CirrusDress: あのさ、酒まみれの布切れなんかより、もっとおしゃれな服を着たほうがいいんじゃない？ウチは気にしないけどさ。
+			Wizard1: はヘンな服着たじいさんに見えるかもしれないけど、あの人の魔法は本物だよ。
+			Wizard2: "なあなあ、"
+			Wizard22: に話しかけてきてくれないか？あの人が喜びそうな仲間がいるんだ！
+			expertMode1: 知ってるかい、己の限界に挑む人にしかついてこない仲間もいるんだ。エキスパートにしかついてこないとも言えるね。
+			expertMode2: キミはこの冒険でたくさんの仲間を見つけたけど、エキスパートはもっとたくさんの仲間を見つけられるって聞いたよ！
+			eclipse1: ウチの友達があのモンスターどもみたいにバカにならなくてよかった！
+			eclipse2: "ねえ"
+			eclipse22: "、ウチの子供たちがいつもより攻撃的になったりしても、傷つけたりしないでほしいんだ。"
+			eclipse3: なあなあ、ウチとウチの仲間たちを守ってくれるよな？約束してくれる？
+			eclipse4: ウチの友達がこんな変な日におかしくならなくてホントよかった。
+			PartyIsUp1: ウチのかわいい仲間たちは今日を楽しんでるよ！キミも一匹手に入れて素晴らしい日を過ごそうよ！
+			PartyIsUp2: 今日は新しい仲間を手に入れるには最高の日だよ！絶対手に入れたほうがいい！
+			ninja: 手裏剣をスライムに向かって投げつけたことはある？何度もやってるとキミに懐くって聞いたんだけど。
+			Day1: よう！ウチのかわいいペット、一匹買いたくはないかい？
+			Day2: キミはスゴいことを為す運命にあるんだよ。今すぐに行動に移して、仲間たちに家を作ってやりなよ。
+			Day3: ウチの小さなTUBはどうやってご飯を食べるかだって？ そうだね…知ったら後悔する思うよ。
+			Day4: 千里眼があるとさ、困ってるペットを探し出せるし、そんな子にお家を見つけてあげることもできるんだよ。
+			Day44: 、今日は何が見つかった？
+			Day5: 待ってたよ。ちょうどいい時間だ。あのかわいい子たちについて話し合おうよ！
+			Night1: 星たちがキミを見てるよ。アイツらを失望させないようにね。
+			Night2: 外が暗くて陰気だねェ。ウチの仲間を買って、気分をアゲないかい？
+			Night3: ウチのかわいい仲間を手に入れるのに遅すぎることなんてないよ。今すぐにでもどうかな！
+			Night4: こんな暗い時には仲間が必要なんじゃない？
+			Next: 次はキミだよ。
+			bloodMoon1: この子たちのどれかを手に入れたほうがいいよ、さもないとね…
+			bloodMoon2: ウチの相棒TUBがこんな状況だからこそキミにできること、知りたくはないだろうね。
+			bloodMoon3: ウチとウチの子たちの間に入らないほうがいいよ。
+			bloodMoon4: "なあ"
+			bloodMoon44: "、今夜は隠れてたほうがいいよ。"
+			bloodMoon5: 今夜は逃げたほうがいいよ。TUBがキミを探してる。簡単にはいかないよ。
+			bloodMoon6: 生きるのが好きならさ、そろそろ隠れたほうがいいよ。
+		}
+		ChatButtons: 占い
+		ButtonClicked1: ウチの占いでTUBがこんなの見つけてきたよ！
+		ButtonClicked2: 悪いね、占いは1日1回だけなんだ！
+		Bestiary: 小さな生き物を集めることに情熱を注ぐ超能力者。彼女自身の神秘的な力で作り出したモチモチとした生き物を連れている。
+		Census.SpawnCondition: ペット、またはライトペットを装備する
+	}
+	OracleNPCPet_Pet.DisplayName: TUB
+	NuggetNugget: {
+		# Town NPCs
+		DisplayName: ナゲット
+		NuggetSpawn: "{1}の灰から{0}が誕生した！"
+		Canspawn: ライセンスはナゲット配達サービスへとテレポートした…
+		Nospace: "{0}に再誕するための十分なスペースがない！"
+		Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+	}
+	DracoNugget: {
+		DisplayName: ドラコナゲット
+		Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+	}
+	FollyNugget: {
+		DisplayName: モフモフナゲット
+		Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+	}
+	GODNugget: {
+		DisplayName: フェニックスナゲット
+		Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+	}
+	MammothNugget: {
+		DisplayName: ミニマンモスナゲット
+		Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+	}
+	ShadowNugget: {
+		DisplayName: シャドウナゲット
+		Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+	}
+	MeldwyrmBody.DisplayName: メルドワーム
+	MeldwyrmHead.DisplayName: メルドワーム
+	MeldwyrmTail.DisplayName: メルドワーム
+	MeldWyrmBody.DisplayName: メルドワームの胴体
+	MeldWyrmHead.DisplayName: メルドワームの頭
+	MeldWyrmTail.DisplayName: メルドワームの尻尾
+	NinjaSlime: {
+		DisplayName: ニンジャスライム
+		Census.SpawnCondition: 不明
+	}
+	AstroSlime: {
+		DisplayName: アストラジェリースライム
+		Census.SpawnCondition: 不明
+	}
+	Tarr: {
+		DisplayName: タァル
+		Census.SpawnCondition: グーズマを倒す(CalamityHunt導入時) / スライムの神にタウンスライムを食べさせる(CalamityHunt非導入時)
+	}
+}
+Bestiary: {
+	GoldenIsopod: 金色のオオグソクムシのようなきらめく生き物は、真っ暗な場所でも見つかるものだ。
+	GoldEyedol: 特別に作られた偶像で、霊に取り憑かれている。この構造物はかつて首都の支配者が使用していた。
+	GoldViolemur: 珍しい小動物の一種。金色のヴィオレムールは、他のヴィオレムールのリーダーだと言われている。
+	Orthobab: 殻に覆われし者の新たな子孫。見かけは不格好だが、こういった生き物がいつか恐ろしいものに成長するのかもしれない。
+	ProvFly: 燃え盛る女神の力の半分を持つ蝶。
+	PerfoGrub: 小さなイモムシのような寄生虫で、高い防御力を持つパーフォレーターの悪しき子孫。コイツらを生かしておくのは危険だ！
+	Xerocodile: ブラッドムーンの間にのみ現れる古代の爬虫類。それ以外の間に地上に出てくるにはあまりにも弱く、日光に晒されるのすら危険。
+	Vaporofly: 古代の昆虫採集者。
+	Eyedol: 首都の全盛期、一部の人々は女神を家で崇拝するために小さな像を作っていた。首都が破壊されたとき、これらの小さな像の一部は魔法の力で命を得た。
+	OrthoceraApparition: いつか訪れる黙示録の前触れ。その警告を軽視してはいけない。
+	AstJR: 異星からやってきた知覚力を持つスライム。他のスライムと違って攻撃能力を持たない。
+	GAstJR: 異星からやってきた知覚力を持つスライム。他のスライムと違って攻撃能力を持たない。
+	Blightolemur: ヴィオレムールとはまた違った光スペクトルを持つ生き物。ブレアムールはその尻尾の模様を使って獲物を引き寄せながら、アストラルブライトの中で穏やかに遊ぶ。
+	PlagueFrog: 科学者によって解き放たれた疫病によって、不運にも敵意を持つ生き物だけでなく、カエルのような穏やかな生き物もその影響を受けた。
+	Violemur: 異星のウイルスの影響を受けた、好奇心旺盛な小さな哺乳類。ヴィオレムールは他の感染した他の生命体とは違い、ある程度の自我を保ち続けている。
+	Swearshroom: 大きなカニの胞子は、宿主を倒されたことをよく思っていない。この邪悪なキノコは精神病的な傾向にあるが、完全に無害。
+	SandTurtle: 放射性の水によって活性化された恐ろしい生き物。
+	Blinker: アストラルブライトの独特の環境に適応したトゥインクラー。そこの住人にとって、彼らは人気の食べ物だ。
+	CrystalFly: 燃え盛る女神の力の半分を持つ蝶。
+	Isopod: 深淵の底にすみかをつくる温厚な腐肉食性の生き物。彼らは深淵の他の生き物の犠牲者を片付けることで知られている。
+	GodSlayerSlug: 宇宙ワームの紫色の姿を模倣するこの小さな虫は、大気圏上層をのんびりとさまよう。
+	NeuroFly: ハイブマインドの手助けをする多くの生物の一種。宿主とは物理的につながっていなくても、彼らは精神的なつながりを持っている。その唯一の目的はウィルスを広めることだ。
+	Fogbound: 死神の魂、我々はそれをフォグバウンドと呼ぶ。論理的には、神がオーリックの魂を得ると2つの魂を持つと推測できるが、それは事実ではない。むしろ、魂は2つの合計よりも大きな何かに融合する。
+	Meldosaurus: 神々の残骸によって穢れた進化を遂げた生物。他の宇宙生物からの受け入れを求めているが、成功していない。
+	MeldwyrmHead: エイリアン恐竜の内部に潜んでいた寄生ワーム。同様の生物がピラーの内部を掘り抜いている可能性が高い。
+}
+
+Items: {
+	AmogusItem: {
+		# April fools!
+		DisplayName: ポーラス通信機
+		# April fools!
+		Tooltip:
+			'''
+			雲層の宇宙飛行士を召喚する
+			入手不可能
+			このアイテムを不正に入手すると、悲惨な結果を招く可能性があります
+			エイリアン恐竜が嫌い
+			'''
+	}
+	ShadesBane: {
+		DisplayName: シェイドベイン
+		Tooltip:
+			'''
+			純粋な近接攻撃のヒット時に敵から呪いの火の玉が噴出する
+			右クリックでランダムな方向へ火の玉とオニキスダーツを放つ
+			「イカした剣 #2940358304」
+			'''
+	}
+	Nyanthrop: {
+		DisplayName: ニャンスロップ
+		Tooltip: ランダムな方向へと台風を放つ
+	}
+	KnowledgeMeldosaurus: {
+		DisplayName: メルドサウルス
+		Tooltip:
+			'''
+			メルドサウルス…
+			腐敗の意志から生まれた恐ろしい生物。誰もがその存在意義や目的を知らない…
+			ふん！彼がいなくなってよかった！！！彼が私の中にいたときはかゆかったのネ！
+			'''
+	}
+	MeldosaurusMask: {
+		DisplayName: メルドサウルスのマスク
+		Tooltip: ""
+	}
+	MeldosaurusTrophy: {
+		DisplayName: メルドサウルスのトロフィー
+		Tooltip: ""
+	}
+	MeldosaurusMusicBox: {
+		DisplayName: オルゴール（メルドサウルス）
+		Tooltip: ""
+	}
+	MeldosaurusBag: {
+		DisplayName: トレジャーバッグ
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+	JharimHead: {
+		DisplayName: ジャングルの暴君ジャリムの生首
+		Tooltip:
+			'''
+			ジャングルの暴君を召喚する
+			エイプリルフール以外では機能しない
+			'''
+	}
+	FogG: {
+		DisplayName: 浄化された霧
+		Tooltip:
+			'''
+			フォグバウンドを召喚する
+			「:Why:」
+			'''
+	}
+	AstJRItem: {
+		# Critters
+		DisplayName: アストラジェリースライム
+		Tooltip: ""
+	}
+	BlightolemurItem: {
+		DisplayName: ブレアムール
+		Tooltip: ""
+	}
+	BlinkerItem: {
+		DisplayName: ブリンカー
+		Tooltip: ""
+	}
+	CrystalFlyItem: {
+		DisplayName: 冒涜されし蝶
+		Tooltip: ""
+	}
+	EyedolItem: {
+		DisplayName: アイドル
+		Tooltip: ""
+	}
+	GAstJRItem: {
+		DisplayName: 金色のアストラジェリースライム
+		Tooltip: ""
+	}
+	GodSlayerSlugItem: {
+		DisplayName: 神殺しのナメクジ
+		Tooltip: ""
+	}
+	GoldenIsopodItem: {
+		DisplayName: 金色のオオグソクムシ
+		Tooltip: ""
+	}
+	GoldEyedolItem: {
+		DisplayName: 金色のアイドル
+		Tooltip: ""
+	}
+	GoldViolemurItem: {
+		DisplayName: 金色のヴィオレムール
+		Tooltip: ""
+	}
+	IsopodItem: {
+		DisplayName: シンカイオオグソクムシ
+		Tooltip: ""
+	}
+	VaporoflyItem: {
+		DisplayName: ジョウキバエ
+		Tooltip: ""
+	}
+	NeuroFlyItem: {
+		DisplayName: シンケイバエ
+		Tooltip: ""
+	}
+	OrthobabItem: {
+		DisplayName: チョッカクガイの幼生
+		Tooltip: ""
+	}
+	PerfoGrubItem: {
+		DisplayName: パーフォレーターの幼虫
+		Tooltip: ""
+	}
+	PlagueFrogItem: {
+		DisplayName: 疫病ガエル
+		Tooltip: ""
+	}
+	ProvFlyItem: {
+		DisplayName: 冒涜されし蝶
+		Tooltip: ""
+	}
+	SandTurtleItem: {
+		DisplayName: スナリクガメ
+		Tooltip: ""
+	}
+	SwearshroomItem: {
+		DisplayName: ノノシリダケ
+		Tooltip: ""
+	}
+	ViolemurItem: {
+		DisplayName: ヴィオレムール
+		Tooltip: ""
+	}
+	XerocodileItem: {
+		DisplayName: 目覚めしゼロコダイル
+		Tooltip: ""
+	}
+	BlightedAstralDye: {
+		# Dyes
+		DisplayName: 染料（イーサリアム）
+		# Dyes
+		Tooltip: 入手不可能
+	}
+	BlighedAstralPinkDye: {
+		DisplayName: 染料（アストラルブライトパープル）
+		Tooltip: ""
+	}
+	BlighedAstralYellowDye: {
+		DisplayName: 染料（アストラルブライトイエロー）
+		Tooltip: ""
+	}
+	DraedonHologramDye: {
+		DisplayName: 染料（ドレイドンホログラム）
+		Tooltip: ""
+	}
+	BackpackServer: {
+		# Backs
+		DisplayName: 背負いサーバー
+		# Backs
+		Tooltip: "「ドレイドンがあなたを見ている」"
+	}
+	PrismShell: {
+		DisplayName: プリズムの甲羅
+		Tooltip: "「見るからにシャープ」"
+	}
+	# Balloons
+	ApolloBallonSmall.DisplayName: アポロの風船
+	ArtemisBalloonSmall: {
+		DisplayName: アルテミスの風船
+		Tooltip: "「月からの知識」"
+	}
+	ApolloBalloon: {
+		DisplayName: XS フウセン-03
+		Tooltip: "「ヒューストン…」"
+	}
+	ArtemisBalloon: {
+		DisplayName: XS フウセン-01
+		Tooltip: "「狩りはかつてないほど簡単になった」"
+	}
+	AuricBalloon: {
+		DisplayName: オーリック風船
+		Tooltip: "「これのために他の風船を入手しなかった君はラッキーだ。」"
+	}
+	BoB2: {
+		DisplayName: 水棲風船の束
+		Tooltip:
+			'''
+			パーティーガールならこれをくくることができる
+			「なんで誰もそこに現れなかったんだろう？」
+			'''
+	}
+	BoxBalloon: {
+		DisplayName: 四角い風船
+		Tooltip:
+			'''
+			パーティーガールならこれをくくることができる
+			「四角い気分」
+			'''
+	}
+	ChaosBalloon: {
+		DisplayName: フグの風船
+		Tooltip:
+			'''
+			パーティーガールならこれをくくることができる
+			「もうすぐ爆発するかも…」
+			'''
+	}
+	ExoTwinsBalloon: {
+		DisplayName: XS フウセンの束
+		Tooltip: "「にっこり」"
+	}
+	FoilAtlantis: {
+		DisplayName: アトランティスの風船
+		Tooltip: "「魔法のハルバードのレプリカ風船」"
+	}
+	FoilSpoon: {
+		DisplayName: スプーンの風船
+		Tooltip: "「スプーン」"
+	}
+	Mirballoon: {
+		DisplayName: ゲンエイクラゲの風船
+		Tooltip:
+			'''
+			パーティーガールならこれをくくることができる
+			「尖ったものに近づけないこと！」
+			'''
+	}
+	OldMirage: {
+		DisplayName: 古代のゲンエイクラゲの風船
+		Tooltip:
+			'''
+			「海に近づけないこと」
+			「風船は有害な汚染物質だ」
+			'''
+	}
+	ProfanedBalloon: {
+		DisplayName: 冒涜されし風船
+		Tooltip: "「プロヴィデンスを応援しよう」"
+	}
+	ShuttleBalloon: {
+		DisplayName: シャトルの風船
+		Tooltip: "「市場価値のある火星人」"
+	}
+	SignusBalloon: {
+		DisplayName: コズミックランタンの風船
+		Tooltip: "「エクトプラズムに近づけないこと」"
+	}
+	SkullBalloon: {
+		DisplayName: ガイコツの風船
+		Tooltip: "「中にまだ脳が残っているようだ」"
+	}
+	WulfrumBalloon: {
+		DisplayName: ウルフラムジャイロの風船
+		Tooltip: "「傾き制御中！」"
+	}
+	SigCape: {
+		DisplayName: シグナスのマント
+		Tooltip: 影に溶け込み、身を隠せ
+	}
+	YharimCape: {
+		DisplayName: 暴君のマント
+		Tooltip: 本物ではないが、それでも気品と優雅さがある
+	}
+	YharimCapeBaby: {
+		DisplayName: オーリックマント
+		Tooltip: "「全然本物じゃない。子どものオモチャみたい」"
+	}
+	DraedonHelmet: {
+		# Hats
+		DisplayName: アーセナルソルジャーのヘルメット
+		# Hats
+		Tooltip:
+			'''
+			所持しているアイテムのダメージタイプによって見た目が変わる
+			現在不安定
+			'''
+	}
+	Aestheticrown: {
+		DisplayName: エステクレスト
+		Tooltip: ビテキちゃん
+	}
+	AncientAuricTeslaHelm: {
+		DisplayName: 古代のオーリックテスラの兜
+		Tooltip: 磨かれた古代の鎧
+	}
+	AncientPerennialFlower: {
+		DisplayName: 古代の多年生チューリップ
+		Tooltip: "「私はカワイイ女の子！」"
+	}
+	AstrachnidCranium: {
+		DisplayName: アストラクニドの頭蓋骨
+		Tooltip: ""
+	}
+	AstrumDeusMask: {
+		DisplayName: ブライトデウスのマスク
+		Tooltip: "「消えた星が再び輝く」"
+	}
+	AureicFedora: {
+		DisplayName: アウレウスのフェドラ
+		Tooltip: "「人に向けて傾けるべからず」"
+	}
+	BanditHat: {
+		DisplayName: 盗賊の帽子
+		Tooltip: ""
+	}
+	BelladonnaHat: {
+		DisplayName: ベラドンナの精霊の帽子
+		Tooltip: 毒があるけどオシャレ
+	}
+	BigWorm: {
+		DisplayName: パーフォレーター（大）のマスク
+		Tooltip: "「鉛の導き」"
+	}
+	BirbHat: {
+		DisplayName: フォリーの帽子
+		Tooltip: 奴らを支配する帽子
+	}
+	BloodyMaryHat: {
+		DisplayName: ブラッディマリーの帽子
+		Tooltip: エレガントさを感じる
+	}
+	CalaCirclet: {
+		DisplayName: 災厄のサークレット
+		Tooltip: 呪われてる？
+	}
+	ClamMask: {
+		DisplayName: クラミタスの帽子
+		Tooltip: "タイプミスだよな？"
+	}
+	CoralMask: {
+		DisplayName: げっぷサンゴのマスク
+		Tooltip: "塩漬け脳みそフル回転"
+	}
+	CosmicCone: {
+		DisplayName: コズミックコーン
+		Tooltip: 天を突き抜けるほどに尖った帽子
+	}
+	Cryocap: {
+		DisplayName: クライオキャップ
+		Tooltip: 頭冷やしてくる！
+	}
+	CultistHood: {
+		DisplayName: 反逆のフード
+		Tooltip: ""
+	}
+	DemonshadeHood: {
+		DisplayName: 古代のデーモンシェイドの兜
+		Tooltip: ""
+	}
+	DevilfishMask1: {
+		DisplayName: ねじれたデビルフィッシュのマスク
+		Tooltip: エッジが効いている
+	}
+	DevilfishMask2: {
+		DisplayName: とがったデビルフィッシュのマスク
+		Tooltip: すごくエッジが効いている
+	}
+	DevilfishMask3: {
+		DisplayName: 暴かれたデビルフィッシュのマスク
+		Tooltip: 傷口に塩
+	}
+	DummyMask: {
+		DisplayName: ダミーのマスク
+		Tooltip: ここにあるダミー人形は君だけ
+	}
+	EarthenHelmet: {
+		DisplayName: 大地の兜
+		Tooltip: ""
+	}
+	EidoMask: {
+		DisplayName: エイドロリストのマスク
+		Tooltip: ""
+	}
+	FallenPaladinsHelmet: {
+		DisplayName: "堕ちた聖騎士の兜 "
+		Tooltip: ""
+	}
+	FlakHeadCrab: {
+		DisplayName: フラックヘッドクラブ
+		Tooltip: 寄生されている気がする
+	}
+	GammaHelmet: {
+		DisplayName: ガンマスラッジ
+		Tooltip: 私が放射能だ！
+	}
+	GruelingMask: {
+		DisplayName: 過酷なマスク
+		Tooltip: ヤギャアアッ
+	}
+	MaulerMask: {
+		DisplayName: マウラーのマスク
+		Tooltip: 80年代から顔を傷つけてきた
+	}
+	MidWorm: {
+		DisplayName: パーフォレーター（中）のマスク
+		Tooltip: "てっぺん目指して這い進む！"
+	}
+	OlTrashtooth: {
+		DisplayName: 古びたトラッシュトゥース
+		Tooltip: ""
+	}
+	OmegaBlue: {
+		DisplayName: 古代のオメガブルーの兜
+		Tooltip: お前みたいなワームなんて眼中にないぜ！
+	}
+	OracleBeanie: {
+		DisplayName: 予言者のニット帽
+		Tooltip: ""
+	}
+	PerennialFlower: {
+		DisplayName: 多年生チューリップ
+		Tooltip: "「私はカワイイ女の子？」"
+	}
+	PolterMask: {
+		DisplayName: 奇妙なポルターガストのマスク
+		Tooltip: ""
+	}
+	ProfanedCultistMask: {
+		DisplayName: 冒涜されし信者のマスク
+		Tooltip: ""
+	}
+	ScornEaterMask: {
+		DisplayName: スコーンイーターのマスク
+		Tooltip: 炎は激しく燃え上がる
+	}
+	SeaCrown: {
+		DisplayName: 海の女帝の王冠
+		Tooltip: 身につけると王族になった気分
+	}
+	SlimeGodMask: {
+		DisplayName: スライムの神のコアのマスク
+		Tooltip: ""
+	}
+	SmallWorm: {
+		DisplayName: パーフォレーター（小）のマスク
+		Tooltip: "「群れの中で一番ワームなやつ」"
+	}
+	SpectralstormHat: {
+		DisplayName: スペクトラルストームの帽子
+		Tooltip: "「これまで提案された中で最もバカなアイデア」"
+	}
+	SquidHat: {
+		DisplayName: イカの帽子
+		Tooltip: ブキは別売り
+	}
+	StonePile: {
+		DisplayName: 石柱
+		Tooltip: "「頭が強くないと被れない」"
+	}
+	TerminalMask: {
+		DisplayName: 終着点の仮面
+		Tooltip:
+			'''
+			この忘却されし神の目を通して、
+			流血と混乱の中、あなたは新たな視点を得た
+			'''
+	}
+	TrueCosmicCone: {
+		DisplayName: 真・コズミックコーン
+		Tooltip: "「次元すら突き抜けられるほどに尖った宇宙的にデカい帽子」 "
+	}
+	UnloadedHelm: {
+		DisplayName: アンロードヘルム
+		Tooltip: まだ臭い
+	}
+	DraedonLeggings: {
+		# Legs
+		DisplayName: アーセナルソルジャーのレギンス
+		# Legs
+		Tooltip:
+			'''
+			現在不安定
+			まぁ、そうだな、他の部位のような機能はこれにはない。
+			だが、これ無しで他の部位を使うわけにもいかないだろう？
+			'''
+	}
+	AstrachnidTentacles: {
+		DisplayName: アストラクニドの脚
+		Tooltip: ""
+	}
+	BrimmySpirit: {
+		DisplayName: ブリムストーンの炎
+		Tooltip: ""
+	}
+	CultistLegs: {
+		DisplayName: 反逆のズボン
+		Tooltip: ""
+	}
+	DemonshadePants: {
+		DisplayName: 古代のデーモンシェイドのすね当て
+		Tooltip: ""
+	}
+	DraedonLegs: {
+		DisplayName: ドレイドンレッグ
+		Tooltip: ""
+	}
+	EarthenLeggings: {
+		DisplayName: 大地のすね当て
+		Tooltip: ""
+	}
+	FallenPaladinsGreaves: {
+		DisplayName: "堕ちた聖騎士のすね当て "
+		Tooltip: ""
+	}
+	PolterStockings: {
+		DisplayName: 奇妙なポルターガストのストッキング
+		Tooltip: ""
+	}
+	SignusNether: {
+		DisplayName: 冥界の精神
+		Tooltip: ダークな下半身
+	}
+	TerrorLegs: {
+		DisplayName: テラーの脚
+		Tooltip: "「ピクピク動いてる」"
+	}
+	AstBandana: {
+		# Scarves
+		DisplayName: アストラルバンダナ
+		# Scarves
+		Tooltip: "「宇宙世紀のファッション！」"
+	}
+	BloodwormScarf: {
+		DisplayName: ブラッドワームのスカーフ
+		Tooltip: 血みどろな生物が君の首に穴を空けようとしているぞ！
+	}
+	CosmicWormScarf: {
+		DisplayName: コズミックワームスカーフ
+		Tooltip: "「時空を超えたファッション！」"
+	}
+	DesertMedallion: {
+		DisplayName: お手頃価格のデザートメダリオン
+		Tooltip: もう一個の方は呪われてて装備できないので
+	}
+	PermaScarf: {
+		DisplayName: パーマフロストのスカーフ
+		Tooltip: 冷静になろう
+	}
+	ProviCrystal: {
+		DisplayName: アンホーリーチャーム
+		Tooltip: 冒涜されし女神から贈られた希少な宝物
+	}
+	RapturedWormScarf: {
+		DisplayName: ラプチャードワームスカーフ
+		Tooltip: 現実を捻じ曲げるほどにスタイリッシュ！
+	}
+	SignusEmblem: {
+		DisplayName: シグナスの紋章
+		Tooltip: 深淵の力を宿す
+	}
+	StormBandana: {
+		DisplayName: ストームバンダナ
+		Tooltip: "「シビれるファッション！」"
+	}
+	UniversalWormScarf: {
+		DisplayName: ユニバーサルワームスカーフ
+		Tooltip: "「現実を捻じ曲げなくたって万物は喰らえる」"
+	}
+	YharonShackle: {
+		DisplayName: ヤロンの足枷
+		Tooltip: ギリギリ入るな…
+	}
+	AureusShield: {
+		# Shields
+		DisplayName: アウレウスの大盾
+		# Shields
+		Tooltip: 意外と小さい
+	}
+	EarthShield: {
+		DisplayName: アースエレメンタルの大盾
+		Tooltip: "「頑丈そうに見えるが、実は柔らかい石で出来ているぞ！」"
+	}
+	Invishield: {
+		DisplayName: 補償
+		Tooltip: 売却可能
+	}
+	TrilobiteShield: {
+		DisplayName: トリロバックラー
+		Tooltip: "「古すぎて役に立たない古代の盾」"
+	}
+	AresChestplate: {
+		# Shirts
+		DisplayName: XFチェストプレート
+		# Shirts
+		Tooltip:
+			'''
+			4つのおもちゃの武器を周囲に展開する
+			「全然似てないってどういう意味？！」
+			'''
+	}
+	DraedonChestplate: {
+		DisplayName: アーセナルソルジャーのチェストプレート
+		Tooltip:
+			'''
+			所持しているアイテムのダメージタイプによって見た目が変わる
+			現在不安定
+			'''
+	}
+	AstrachnidThorax: {
+		DisplayName: アストラクニドの胴体
+		Tooltip: ""
+	}
+	BelladonnaCloak: {
+		DisplayName: ベラドンナの精霊のマント
+		Tooltip: 全部天然モノの最新ファッション
+	}
+	BloodyMaryDress: {
+		DisplayName: ブラッディマリーのドレス
+		Tooltip: ""
+	}
+	BrimmyBody: {
+		DisplayName: ブリムストーンエレメンタルのスーツ
+		Tooltip: ""
+	}
+	Cryocoat: {
+		DisplayName: クライオコート
+		Tooltip: ""
+	}
+	CultistRobe: {
+		DisplayName: 反逆のローブ
+		Tooltip: ""
+	}
+	DemonshadeRobe: {
+		DisplayName: 古代のデーモンシェイドの胸当て
+		Tooltip: ""
+	}
+	DraedonBody: {
+		DisplayName: ドレイドンボディ
+		Tooltip: ""
+	}
+	EarthenBreastplate: {
+		DisplayName: 大地の胸当て
+		Tooltip: ""
+	}
+	FallenPaladinsPlateMail: {
+		DisplayName: 堕ちた聖騎士の重鎧
+		Tooltip: ""
+	}
+	PerennialDress: {
+		DisplayName: 多年生ドレス
+		Tooltip: 花が咲く
+	}
+	Polterskirt: {
+		DisplayName: 奇妙なポルターガストのドレス
+		Tooltip: ""
+	}
+	ProfanedCultistRobes: {
+		DisplayName: 冒涜されし信者のローブ
+		Tooltip: ""
+	}
+	ReaperSharkArms: {
+		DisplayName: リーパーシャークの腕
+		Tooltip: ジム通いがこんなに簡単だったとはな！
+	}
+	BurningEye: {
+		# Transformations
+		DisplayName: 燃える眼
+		# Transformations
+		Tooltip: 装備者をブリムストーンの炎で包み込む
+	}
+	CloudWaistbelt: {
+		DisplayName: ヴァルキリーの服
+		Tooltip: 装備者を雲で包む
+	}
+	ProtoRing: {
+		DisplayName: プロトタイプリング
+		Tooltip: 装備者を小さなロボに変身させる
+	}
+	SandyBangles: {
+		DisplayName: サンドバングル
+		Tooltip: 装備者を砂で包む
+	}
+	Signus: {
+		DisplayName: 黄昏のチャーム
+		Tooltip:
+			'''
+			装備者を冥界の精霊に変身させる
+			「虚空とともに」
+			'''
+	}
+	AeroWings: {
+		# Wings
+		DisplayName: エアロウィング
+		# Wings
+		Tooltip:
+			'''
+			「風の強い日だ」
+			水平速度 1
+			加速倍率: 1
+			飛行可能時間: 32 
+			'''
+	}
+	FollyWings: {
+		DisplayName: フォリーの翼
+		Tooltip:
+			'''
+			「鷲のように飛ぶ」
+			水平速度 9
+			加速倍率: 2.5
+			飛行可能時間: 210 
+			'''
+	}
+	GodspeedBoosters: {
+		DisplayName: 神速のブースター
+		Tooltip:
+			'''
+			「信心深い推進力！」
+			水平速度 9
+			加速倍率: 2.7
+			飛行可能時間: 200 
+			'''
+	}
+	JunglePhoenixWings: {
+		DisplayName: チキンの翼
+		Tooltip:
+			'''
+			「できたてホヤホヤ」
+			水平速度 11.5
+			加速倍率: 2.9
+			飛行可能時間: 140 
+			'''
+	}
+	LeviWings: {
+		DisplayName: リヴァイアサンのヒレの翼
+		Tooltip:
+			'''
+			「ピチピチと宙返り」
+			水平速度 6.75
+			加速倍率: 1.4
+			飛行可能時間: 120 
+			'''
+	}
+	OldVoidWings: {
+		DisplayName: 虚空化された翼
+		Tooltip:
+			'''
+			「文字通り闇から得たもの」
+			水平速度 9
+			加速倍率: 2.5
+			飛行可能時間: 250 
+			'''
+	}
+	OldWings: {
+		DisplayName: オールドデュークの翼
+		Tooltip:
+			'''
+			「毒々しい推進力！」
+			水平速度 9.5
+			加速倍率: 2.7
+			飛行可能時間: 190 
+			'''
+	}
+	PlaguePack: {
+		DisplayName: ベルゼブブースター
+		Tooltip:
+			'''
+			「そして彼らはなぜハチが飛び立てるのかを疑問に思った」
+			水平速度 7.8
+			加速倍率: 1.9
+			飛行可能時間: 170 
+			'''
+	}
+	PlaugeWings: {
+		DisplayName: プレイグブリンガーの翼
+		Tooltip:
+			'''
+			「ナノマシンは含まれておりません」
+			水平速度 7.75
+			加速倍率: 1.5
+			飛行可能時間: 150 
+			'''
+	}
+	ScryllianWings: {
+		DisplayName: スキュリアンの翼
+		Tooltip:
+			'''
+			「上昇ッ！」
+			水平速度 6.5
+			加速倍率: 1
+			飛行可能時間: 60 
+			'''
+	}
+	TerminalWings: {
+		DisplayName: 終着点の翼
+		Tooltip:
+			'''
+			死と破壊を経て新たな高みへと到達する
+			この混乱の蝶の翼で
+			水平速度 1
+			加速倍率: 1
+			飛行可能時間: 60 
+			'''
+	}
+	VoidWings: {
+		DisplayName: 虚空の翼
+		Tooltip:
+			'''
+			「闇に身を任せよう」
+			水平速度 9
+			加速倍率: 2.5
+			飛行可能時間: 230 
+			'''
+	}
+	WulfrumHelipack: {
+		DisplayName: ウルフラムヘリパック
+		Tooltip:
+			'''
+			欠陥だらけ
+			水平速度 0.8
+			加速倍率: 0.8
+			飛行可能時間: 0.6 
+			'''
+	}
+	MawHook: {
+		# Hooks
+		DisplayName: クラグマウの脊椎フック
+		# Hooks
+		Tooltip:
+			'''
+			「先史時代のひっぱり！」
+			リーチ: 31
+			発射速度: 18
+			引っ張り速度: 17 
+			'''
+	}
+	MawTeeth.DisplayName: マウのアゴ
+	PolterHook: {
+		DisplayName: ガーストリィチェイン
+		Tooltip:
+			'''
+			「永遠に苦しむ魂たちにお前を引きずらせてやるぜ！」
+			リーチ: 46
+			発射速度: 16
+			引っ張り速度: 20 
+			'''
+	}
+	PhantomHook.DisplayName: ファントムフック
+	ProfanedEnergyHook: {
+		DisplayName: 冒涜されしフック
+		Tooltip:
+			'''
+			「聖なる鎖なんてクソくらえだ」
+			リーチ: 37
+			発射速度: 16
+			引っ張り速度: 30 
+			'''
+	}
+	ProfanedHook.DisplayName: 冒涜されしフック
+	RavaHook: {
+		DisplayName: ラヴェジャーのツメ
+		Tooltip:
+			'''
+			「君の目をえぐり取ってやる」
+			リーチ: 43
+			発射速度: 18
+			引っ張り速度: 20 
+			'''
+	}
+	RavaClaw.DisplayName: ラヴェジャーのツメ
+	ScavaHook: {
+		DisplayName: 古代のスカベンジャーのツメ
+		Tooltip:
+			'''
+			「古風に君の目をえぐり取ってやる」
+			リーチ: 50
+			発射速度: 19
+			引っ張り速度: 25 
+			'''
+	}
+	ScavaClaw.DisplayName: スカベンジャーのツメ
+	XMLightningHook: {
+		DisplayName: XM-ライトニングフック
+		Tooltip:
+			'''
+			「稲妻のごとき速さで伸びる！」
+			カオス状態になっている間は使えない
+			リーチ: 60
+			発射速度: 62
+			引っ張り速度: 35 
+			'''
+	}
+	THanosHook.DisplayName: タナトスフック
+	ExodiumMoon: {
+		# Misc
+		DisplayName: エグゾディウムの衛星
+		# Misc
+		Tooltip: 世界は廻る
+	}
+	AntarcticEssence: {
+		# Light Pets
+		DisplayName: ポーラーエッセンス
+		# Light Pets
+		Tooltip:
+			'''
+			入手不可能
+			今のところは用途なし
+			'''
+	}
+	AstralBinoculars: {
+		DisplayName: アストラル望遠鏡
+		# 深淵をそれなりの光で照らす
+		Tooltip:
+			'''
+			観光ツアーを召喚する
+			「遠くに何かが見える」
+			深淵をそれなりの光で照らす 
+			'''
+	}
+	ConstructionRemote: {
+		DisplayName: 建設リモコン
+		Tooltip:
+			'''
+			あたりを照らす小さな採掘機を召喚する
+			注意: リペアユニットとペアリングすると過充電を起こします！
+			'''
+	}
+	CoreofVanity: {
+		DisplayName: 虚栄のコア
+		Tooltip:
+			'''
+			ペットのヒートスピリットとサンスケーターを召喚する
+			「冷たいやつは休憩中」
+			深淵を大きな光で照らす
+			'''
+	}
+	CosmicBubble: {
+		DisplayName: コズミックバブル
+		Tooltip:
+			'''
+			冒険の手助けをしてくれるコズミックアシスタントを召喚する
+			「Enredenの開発者ペット。彼なしではこのMODは存在し得なかった」
+			深淵を巨大な光で照らす
+			'''
+	}
+	DarksunSigil: {
+		DisplayName: 闇の太陽のシジル
+		Tooltip:
+			'''
+			闇の太陽の精霊を召喚する
+			深淵を巨大な光で照らす 
+			'''
+	}
+	DivineFly: {
+		DisplayName: 聖なるハエ
+		Tooltip:
+			'''
+			偉大なる存在を召喚する
+			「アセンション」
+			深淵を大きな光で照らす 
+			'''
+	}
+	EssenceofDisorder: {
+		DisplayName: 混乱のエッセンス
+		Tooltip:
+			'''
+			あたりを照らす2匹のヒートスピリットを召喚する
+			「共に燃えよう」
+			深淵をそれなりの光で照らす
+			'''
+	}
+	EssenceofYeet: {
+		DisplayName: ぶん投げのエッセンス
+		Tooltip:
+			'''
+			小さなサンスケーターを召喚する
+			「サンフィッシュのギャング」
+			深淵を小さな光で照らす 
+			'''
+	}
+	HolyTorch: {
+		DisplayName: 神聖なたいまつ
+		Tooltip:
+			'''
+			やかましい妖精を引き寄せる
+			深淵を大きな光で照らす 
+			'''
+	}
+	PhantominaJar: {
+		DisplayName: 瓶詰めのファントム
+		Tooltip:
+			'''
+			あたりを照らすファントムスピリットを召喚する
+			「それについては考えないでくれ」
+			深淵を大きな光で照らす 
+			'''
+	}
+	ProfanedHeart: {
+		DisplayName: 冒涜されし心
+		Tooltip:
+			'''
+			ミニプロヴィデンスとその守護者を召喚する
+			「純粋なる怒りのみがそこにはある」
+			深淵を大きな光で照らす 
+			'''
+	}
+	SunBun: {
+		DisplayName: 太陽のパン
+		Tooltip:
+			'''
+			太陽のウサギを召喚する
+			ウサギのスポーン率がほんの少しだけ上昇する
+			「何よりもパンが大事」
+			深淵を大きな光で照らす
+			'''
+	}
+	SuperstitiousJewel: {
+		DisplayName: 迷信の宝石
+		Tooltip:
+			'''
+			冗談みたいな明るさで光る元素の精霊、2つの吸熱ルーン、2匹のファントムサメを召喚する
+			「ガラスのように見えるが、込められた魔法は本物」
+			深淵を冗談みたいな光で照らす
+			'''
+	}
+	WulfrumTransmitter: {
+		DisplayName: ウルフラム送信機
+		Tooltip:
+			'''
+			試作型のウルフラムアンプリファイアーを召喚する
+			「ダイアルアップ音がうるさい」
+			深淵を小さな光で照らす 
+			'''
+	}
+	AuricCarKey: {
+		# Mounts
+		DisplayName: オーリックカーの鍵
+		# Mounts
+		Tooltip:
+			'''
+			乗ることができるオーリックテスラを召喚する
+			ボスが近くにいるとヘルスとダメージがすごく減少する
+			「ヤリムカー」
+			'''
+	}
+	BloodstoneCarriageItem: {
+		DisplayName: ブラッドストーンの招待状
+		Tooltip:
+			'''
+			乗ることができるブラッドフレアキャリッジを召喚する
+			ボスが近くにいるとヘルスとダメージが減少する
+			「死者で作られた乗り物で楽しい散歩を！」
+			'''
+	}
+	CrackedFossil: {
+		DisplayName: カニの化石
+		Tooltip:
+			'''
+			乗ることができる花虫類を召喚する
+			ボスが近くにいるとヘルスとダメージが減少する 
+			「動いてる…」
+			'''
+	}
+	FloatyCarpetItem: {
+		DisplayName: 浮いてるじゅうたん
+		Tooltip:
+			'''
+			乗ることができる浮いてるじゅうたんを召喚する
+			「本物の浮遊生物から作られた浮遊じゅうたん！」
+			'''
+	}
+	GodRiderItem: {
+		DisplayName: ゴッドライダーキット
+		Tooltip:
+			'''
+			乗ることができるゴッドライダー・ホバーバイクを召喚する
+			ボスが近くにいるとヘルスとダメージが減少する 
+			「瞬く間に何マイルも喰らい尽くす」
+			'''
+	}
+	HadarianTail: {
+		DisplayName: ハダリアンの卵
+		Tooltip:
+			'''
+			乗ることができるハダリアンを召喚する
+			ボスが近くにいるとヘルスとダメージが減少する 
+			'''
+	}
+	InfectedController: {
+		DisplayName: 病気のジョイスティック
+		Tooltip:
+			'''
+			乗ることができるプレイグブリンガーを召喚する
+			ボスが近くにいるとヘルスとダメージがすごく減少する
+			「8ビットの羽音を鳴らしている」
+			'''
+	}
+	LeviathanEgg: {
+		DisplayName: リヴァイアサンの卵
+		Tooltip:
+			'''
+			乗ることができる若いリヴァイアサンを召喚する
+			ボスが近くにいるとヘルスとダメージが減少する 
+			'''
+	}
+	PopUpShop: {
+		DisplayName: ポップアップショップ
+		Tooltip:
+			'''
+			乗ることができるモーシュを召喚する
+			コインスロット内のカッパーコインを5秒ごとに消費し、超音速になる
+			カッパーコインがコインスロット内にない場合、モーシュは動けなくなる
+			'''
+	}
+	ProfanedBattery: {
+		DisplayName: 聖なるクリスタルコア
+		Tooltip: 冒涜されし守護者のエネルギーが込められたコア
+	}
+	ProfanedCycleItem: {
+		DisplayName: 冒涜されしバイク
+		Tooltip:
+			'''
+			乗ることができる冒涜されしバイクを召喚する
+			ボスが近くにいるとヘルスとダメージが劇的に減少する 
+			「スタイリッシュに移動したいときに」
+			'''
+	}
+	ProfanedFrame: {
+		DisplayName: 冒涜されしフレーム
+		Tooltip: 何かしらの古代のパーツ
+	}
+	ProfanedWheels: {
+		DisplayName: ホットウィール
+		Tooltip: "「純粋なる冒涜されし力で作られたタイヤ」"
+	}
+	RadJuice: {
+		DisplayName: 放射性カートン
+		Tooltip:
+			'''
+			乗ることができるニュークリアテラーを召喚する
+			ボスが近くにいるとヘルスとダメージが減少する 
+			「多分飲まないほうがいい」
+			'''
+	}
+	ShadowShedding: {
+		DisplayName: 影の抜け殻
+		Tooltip:
+			'''
+			乗ることができるハイブマインドを召喚する
+			ボスが近くにいるとヘルスとダメージが減少する 
+			「感染！」
+			'''
+	}
+	SilvaJeepItem: {
+		DisplayName: シルヴィアンジープの鍵
+		Tooltip:
+			'''
+			乗ることができるシルヴィアンジープを召喚する
+			ボスが近くにいるとヘルスとダメージがすごく減少する
+			「サファリに行こう」
+			'''
+	}
+	WulfrumKeys: {
+		DisplayName: ウルフラムの鍵
+		Tooltip:
+			'''
+			乗ることができるウルフラムタンクを召喚する
+			ボスが近くにいるとヘルスとダメージが減少する 
+			「なぜか操作方法がわかる…」
+			'''
+	}
+	YharonsAnklet: {
+		DisplayName: 焦熱のメッセージ本
+		Tooltip:
+			'''
+			乗ることができる小さなヤロンを召喚する
+			「主よ、私は…」
+			'''
+	}
+	AlarmClock: {
+		# Pandemonium Box
+		DisplayName: 目覚まし時計
+		# Pandemonium Box
+		Tooltip: 旅のための予備部品
+	}
+	NurseryBell: {
+		DisplayName: 保育園のベル
+		Tooltip: 私達のおともだち…
+	}
+	DustChime: {
+		DisplayName: ほこりのチャイム
+		Tooltip: 進捗の風！
+	}
+	BestInstrument: {
+		DisplayName: ベストな楽器
+		Tooltip: 旅の一部
+	}
+	HarbingerOfWork: {
+		DisplayName: 労働の前兆
+		Tooltip: ロボットの愛のようだ！
+	}
+	MaladyBells: {
+		DisplayName: 病のベル
+		Tooltip: 新たな始まり！
+	}
+	SpiritDinerBell: {
+		DisplayName: デッドリンガー
+		Tooltip: 半分まで来た
+	}
+	AltarBell: {
+		DisplayName: 祭壇のベル
+		Tooltip: 天の神々が君の手のひらに収まる
+	}
+	TubRune: {
+		DisplayName: T.U.B.のルーン
+		Tooltip: 世界を変えよう…
+	}
+	VaselineBell: {
+		DisplayName: ヴァセリンのベル
+		Tooltip: "「一斉に生き返ったぞ！これは再誕だ！」"
+	}
+	WormBell: {
+		DisplayName: スリザーチャーム
+		Tooltip:
+			'''
+			「鐘の音が鳴るのか？
+			地獄については言及しないって？」
+			'''
+	}
+	ScratchedGong: {
+		DisplayName: 傷ついたゴング
+		Tooltip:
+			'''
+			「あなたの忍耐は称賛に値する
+			すぐに報われるだろう…」
+			'''
+	}
+	PandemoniumBox: {
+		DisplayName: パンデモニウムの箱
+		Tooltip:
+			'''
+			旅の終わり、そして頂点
+			これまで出会った全てのペットを召喚する
+			「そして、私だけが去ることができたらと願っている」
+			'''
+	}
+	NuggetLicense: {
+		# Town pets
+		DisplayName: ナゲットライセンス
+		# Town pets
+		Tooltip: ナゲットを町の住人に加える
+	}
+	AnahitaPlushThrowable: {
+		# Plushies
+		DisplayName: 投げられるアナヒタのぬいぐるみ
+		# Plushies
+		Tooltip: 投げられる
+	}
+	ApolloPlushThrowable: {
+		DisplayName: 投げられるアポロのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	AquaticScourgePlushThrowable: {
+		DisplayName: 投げられるアクアティックスカージのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	AresPlushThrowable: {
+		DisplayName: 投げられるアレスのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	ArtemisPlushThrowable: {
+		DisplayName: 投げられるアルテミスのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	AstrageldonPlushThrowable: {
+		DisplayName: 投げられるアストラゲルドンのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	AstrumAureusPlushThrowable: {
+		DisplayName: 投げられるアストラムアウレウスのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	AstrumDeusPlushThrowable: {
+		DisplayName: 投げられるアストラムデウスのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	BrimstoneElementalPlushThrowable: {
+		DisplayName: 投げられるブリムストーンエレメンタルのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	BumblefuckPlushThrowable: {
+		DisplayName: 投げられるドラゴンフォリーのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	CalaFumoYeetable: {
+		DisplayName: 投げられるカラミタスのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	CeaselessVoidPlushThrowable: {
+		DisplayName: 投げられるシースレスヴォイドのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	ClonePlushThrowable: {
+		DisplayName: 投げられるカラミタスクローンのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	CrabulonPlushThrowable: {
+		DisplayName: 投げられるクラブロンのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	CryogenPlushThrowable: {
+		DisplayName: 投げられるクライオジェンのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	DesertScourgePlushThrowable: {
+		DisplayName: 投げられるデザートスカージのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	DevourerofGodsPlushThrowable: {
+		DisplayName: 投げられるデバウラーオブゴッドのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	DraedonPlushThrowable: {
+		DisplayName: 投げられるドレイドンのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	GiantClamPlushThrowable: {
+		DisplayName: 投げられるジャイアントハマグリのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	HiveMindPlushThrowable: {
+		DisplayName: 投げられるハイブマインドのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	JaredPlushThrowable: {
+		DisplayName: 投げられる原初のワームのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	LeviathanPlushThrowable: {
+		DisplayName: 投げられるリヴァイアサンのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	MaulerPlushThrowable: {
+		DisplayName: 投げられるマウラーのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	MirePlushThrowable: {
+		DisplayName: 投げられる盾付きクラグマウのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	NuclearTerrorPlushThrowable: {
+		DisplayName: 投げられるニュークリアテラーのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	OldDukePlushThrowable: {
+		DisplayName: 投げられるオールドデュークのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	PerforatorPlushThrowable: {
+		DisplayName: 投げられるパーフォレーターのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	PlaguebringerGoliathPlushThrowable: {
+		DisplayName: 投げられるプレイグブリンガーゴリアテのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	PolterghastPlushThrowable: {
+		DisplayName: 投げられるポルターガストのぬいぐるみ 
+		Tooltip: 投げられる
+	}
+	ProfanedGuardianPlushThrowable: {
+		DisplayName: 投げられるプロファンドガーディアンのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	ProvidencePlushThrowable: {
+		DisplayName: 投げられるプロヴィデンスのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	RavagerPlushThrowable: {
+		DisplayName: 投げられるラヴェジャーのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	SandSharkPlushThrowable: {
+		DisplayName: 投げられるグレートサンドシャークのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	SignusPlushThrowable: {
+		DisplayName: 投げられるシグナスのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	SlimeGodPlushThrowable: {
+		DisplayName: 投げられるスライムゴッドのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	StormWeaverPlushThrowable: {
+		DisplayName: 投げられるストームウィーバーのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	ThanatosPlushThrowable: {
+		DisplayName: 投げられるタナトスのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	YharonPlushThrowable: {
+		DisplayName: 投げられるヤロンのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	BubbleMachine: {
+		# Tiles
+		DisplayName: 発泡性バブラー
+		# Tiles
+		Tooltip: "「かっこい～！」"
+	}
+	MeldBlockItem.DisplayName: メルドブロック
+	WulfrumPlating: {
+		DisplayName: ウルフラムレンガ
+		Tooltip: ""
+	}
+	ThanatosPlating: {
+		DisplayName: XM-05 アーマープレート
+		Tooltip: ""
+	}
+	ThanatosPlatingVent: {
+		DisplayName: XM-05 アーマープレート（排気口）
+		Tooltip: ""
+	}
+	MeldosaurusRelic: {
+		DisplayName: メルドサウルスのレリック
+		Tooltip: ""
+	}
+	BleachBallItem: {
+		DisplayName: ブリーチボールビーチボール
+		Tooltip: 気をつけて、破裂するかも
+	}
+	ChaoticPuffball: {
+		DisplayName: カオスフグボール
+		Tooltip: "「爆発したりしないよな…」"
+	}
+	BlightedAstralPinkDye: {
+		DisplayName: 染料（アストラルブライトピンク）
+		Tooltip: ""
+	}
+	BlightedAstralYellowDye: {
+		DisplayName: 染料（アストラルブライトイエロー）
+		Tooltip: ""
+	}
+	ApolloBalloonSmall: {
+		DisplayName: アポロの風船
+		Tooltip: "「狩りはかつてないほど簡単になった」」"
+	}
+	Eidcape: {
+		DisplayName: エイドロリストのマント
+		Tooltip: この異形の布の織り目から、深淵のささやきが聞こえる…
+	}
+	Birbhat: {
+		DisplayName: フォリーの帽子
+		Tooltip: "奴らを支配する帽子"
+	}
+	Calacirclet: {
+		DisplayName: 災厄のサークレット
+		Tooltip: "「呪われてる？」"
+	}
+	ShroomiteVisage: {
+		DisplayName: シュルーマイトのビサージュ
+		Tooltip: ""
+	}
+	Permascarf: {
+		DisplayName: パーマフロストのスカーフ
+		Tooltip: 冷静になろう
+	}
+	Polterhook: {
+		DisplayName: ポルターフック
+		Tooltip: ""
+	}
+	MysteryPainting: {
+		DisplayName: 謎の絵画
+		Tooltip: <right>でランダムな絵画をゲット
+	}
+	NuclearFumes: {
+		DisplayName: ニュークリアスモーク
+		Tooltip: "「吸い込まないように」"
+	}
+	OldCassette: {
+		DisplayName: 古いカセット
+		Tooltip:
+			'''
+			このアイテムをお気に入りすることで、プレイヤーに残像が付く
+			「90年代のイカしたアニメのエピソードが収録されている」
+			'''
+	}
+	AcidLamp: {
+		DisplayName: 酸のランプ
+		Tooltip:
+			'''
+			サルファラススケーターニンフを召喚する
+			「中に卵が入ってるみたいだ」
+			'''
+	}
+	AerialiteBubble: {
+		DisplayName: エアライトの泡
+		Tooltip:
+			'''
+			エアロスライムのコンビを召喚する
+			「明るいジェルで覆われた奇妙な球体」
+			'''
+	}
+	ArmoredScrap: {
+		DisplayName: アーマーの残骸
+		Tooltip:
+			'''
+			小さなステイシスプローブを召喚する
+			「回収はできないけど、プローブの友達が寄ってくる！」
+			'''
+	}
+	AstraEGGeldon: {
+		DisplayName: アストラエッグルドン
+		Tooltip:
+			'''
+			災厄の融合体を召喚する
+			「どうやって生まれたかは聞かないでくれよな」
+			'''
+	}
+	AstralInfectedIcosahedron: {
+		DisplayName: アストラル二十面体
+		Tooltip:
+			'''
+			アウレオファージを召喚する
+			「イニシアチブを振るんだ！」
+			'''
+	}
+	AuricBottle: {
+		DisplayName: オーリックボトル
+		Tooltip: 神々しいイカを召喚する
+	}
+	BambooStick: {
+		DisplayName: 変な竹の棒
+		Tooltip:
+			'''
+			レッサーパンダのペットを召喚する
+			「その香りが特有の動物を引き寄せる」
+			'''
+	}
+	BleuBlob: {
+		DisplayName: ブルーブヨブヨ
+		Tooltip: クールな青い仲間たちを召喚する
+	}
+	BrimberryItem: {
+		DisplayName: ブリムストーンベリー
+		Tooltip:
+			'''
+			古代のフルーツを召喚する
+			「しばしばブリムストーンの女神への供物として使われる」
+			'''
+	}
+	BubbledFin: {
+		DisplayName: 泡に入ったヒレ
+		Tooltip:
+			'''
+			スマウラーを召喚する
+			「どうやって中に入ったんだ？」
+			'''
+	}
+	BubbleGum: {
+		DisplayName: バブルガム
+		Tooltip: 神聖な存在を召喚する
+	}
+	CalamitousSoulArtifact: {
+		DisplayName: 災厄の魂のアーティファクト
+		Tooltip:
+			'''
+			エントロピー
+			慈悲深いデスムカデを召喚する
+			[c/C61B40:終わりなき苦痛の中で這い回ること数十年]
+			[c/C61B40:宙を舞う墓はついに真の友を見つけたのだ]
+			'''
+	}
+	CanofWyrms: {
+		DisplayName: ワームの缶
+		Tooltip:
+			'''
+			エイドロン・ミニワームを召喚する
+			「深海が上の世界の残骸に適用したのは驚くべきことだ」
+			'''
+	}
+	CharredChopper: {
+		DisplayName: 焦げた包丁
+		Tooltip:
+			'''
+			スコリアの煙を吸い込んだ、硫黄フィッシュロンの生首を召喚する
+			「1000度の熱を帯びた燃えるナイフだ！」
+			'''
+	}
+	ClamHermitMedallion: {
+		DisplayName: ハマグリ隠者のメダリオン
+		Tooltip:
+			'''
+			ハマグリの隠者を召喚する
+			「これを持つと手が湿ったような感じがする」
+			'''
+	}
+	ClawShroom: {
+		DisplayName: ツメキノコ
+		Tooltip:
+			'''
+			小さなクラブロンを召喚する
+			「チョキチョキ！」
+			'''
+	}
+	CoolShades: {
+		DisplayName: クールなグラサン
+		Tooltip:
+			'''
+			小さなクライオジェンを召喚する
+			「ヤベぇ」
+			'''
+	}
+	CooperShortsword: {
+		DisplayName: シャレた短剣
+		Tooltip:
+			'''
+			変わった形の小さなクライオジェンを召喚する
+			「クールな力を解き放て」
+			'''
+	}
+	CorrodedCleaver: {
+		DisplayName: 腐食した包丁
+		Tooltip:
+			'''
+			硫黄フィッシュロンの生首を召喚する
+			「スライス＆ダイス」
+			'''
+	}
+	CosmicRapture: {
+		DisplayName: コズミックラプチャー
+		Tooltip: デバウラーオブコスモスを召喚する
+	}
+	Cube: {
+		DisplayName: キューブ
+		Tooltip:
+			'''
+			キューブを召喚する
+			病んだ星の神をけがれさせる
+			「キューブの王を称えよ」
+			'''
+	}
+	CursedLockpick: {
+		DisplayName: 呪われたロックピック
+		Tooltip:
+			'''
+			サビたミミックを召喚する
+			「サビサビでカチカチ」
+			'''
+	}
+	DecayingFishtail: {
+		DisplayName: 腐った魚の尾
+		Tooltip:
+			'''
+			ペットのナマズを召喚する…？
+			「ここまで腐ったものを欲しがるのは、不浄のバケモノくらいだよ」
+			'''
+	}
+	DeepseaLantern: {
+		DisplayName: 深海のランタン
+		Tooltip:
+			'''
+			計り知れないウナギを召喚する
+			「餌を探している生き物を呼び寄せるかも」
+			'''
+	}
+	DespairMask: {
+		DisplayName: 絶望のマスク
+		Tooltip:
+			'''
+			悲しげな石を召喚する
+			「憂鬱なにおいがする」
+			'''
+	}
+	DocilePheromones: {
+		DisplayName: 穏やかなフェロモン
+		Tooltip:
+			'''
+			小さなドラコニックスウォーマーを召喚する
+			「レモネキスと少しのコショウを添えて」
+			'''
+	}
+	DoggoCollar: {
+		DisplayName: 犬ころの首輪
+		Tooltip: ペットのチワワを召喚する
+	}
+	DriedLocket: {
+		DisplayName: 干からびたロケット
+		Tooltip:
+			'''
+			デザートペストを召喚する
+			「中でワームがうごめいている」
+			'''
+	}
+	DustyBadge: {
+		DisplayName: ホコリっぽいバッジ
+		Tooltip:
+			'''
+			グレートサンドシャークのひ孫を召喚する
+			「芯までからっぽだ」
+			'''
+	}
+	Eggstone: {
+		DisplayName: エッグストーン
+		Tooltip:
+			'''
+			ボールドールの赤ちゃんが生まれる
+			「待てよ、これ生きてんのか？！」
+			'''
+	}
+	CloudCandy: {
+		DisplayName: 雲のキャンディ
+		Tooltip:
+			'''
+			小さなクラウドエレメンタルを召喚する
+			「エレメンタルお気に入りのお菓子！」
+			'''
+	}
+	MiniatureElementalHeart: {
+		DisplayName: ミニエレメンタルハート
+		Tooltip:
+			'''
+			全てのミニエレメンタルたちを召喚する
+			「幼稚園の先生になった気分だ…」
+			'''
+	}
+	RareBrimtulip: {
+		DisplayName: 珍しいブリムチューリップ
+		Tooltip:
+			'''
+			レアブリムリングを召喚する
+			「エレメンタルお気に入りのお花！」
+			'''
+	}
+	SmallSandPail: {
+		DisplayName: 小さな砂のランプ
+		Tooltip:
+			'''
+			ミニサンドエレメンタルを召喚する
+			「エレメンタルお気に入りのオモチャ！」
+			'''
+	}
+	SmallSandPlushie: {
+		DisplayName: 小さな砂のぬいぐるみ
+		Tooltip:
+			'''
+			ミニレアサンドエレメンタルを召喚する
+			「エレメンタルお気に入りのオモチャ！」
+			'''
+	}
+	StrangeMusicNote: {
+		DisplayName: 変わった音符
+		Tooltip:
+			'''
+			魅力的なセイレーンの子供を召喚する
+			「エレメンタルお気に入りの音！」
+			'''
+	}
+	ExoGemstone: {
+		DisplayName: エグゾジェム
+		Tooltip: ミニ・エグゾ・アンサンブルを召喚する
+	}
+	GeminiMarkImplants: {
+		DisplayName: ジェミニインプラント
+		Tooltip:
+			'''
+			高度な監視艦の小さなレプリカを召喚する
+			「22ビジョン」
+			'''
+	}
+	GunmetalRemote: {
+		DisplayName: ダークガンメタルリモコン
+		Tooltip:
+			'''
+			ハイテクディガーの小さくてフレンドリーなバージョンを召喚する
+			「さノス」
+			'''
+	}
+	OminousCore: {
+		DisplayName: 不吉なコア
+		Tooltip:
+			'''
+			邪悪な怪物のオモチャのバージョンを召喚する
+			「腐敗のメカニズムが意外とフレンドリーな煙を放つ」
+			'''
+	}
+	ExtraFluffyFeather: {
+		DisplayName: 超モフモフの羽
+		Tooltip:
+			'''
+			小さなとりさんを召喚する
+			「絶滅寸前の種が寄ってくる」
+			'''
+	}
+	ExtraFluffyFeatherClump: {
+		DisplayName: 超モフモフの羽のかたまり
+		Tooltip:
+			'''
+			あなたが死んじゃうくらい恐ろしい獣を召喚する
+			「ISEJFDOIJNJSNFDGUISDBJNGSDJG」
+			'''
+	}
+	Finality: {
+		DisplayName: 終着性
+		Tooltip:
+			'''
+			ペットの石を召喚する
+        	その石は真の創造物の殻に過ぎなかった
+        	創造主の最初の、お気に入りの娯楽
+			'''
+	}
+	FlareRune: {
+		DisplayName: フレアルーン
+		Tooltip:
+			'''
+			冒涜的な宇宙のエネルギーを注がれ、次元的上昇を果たした冒涜されし守護者、アヴァロンを召喚する
+			「ウォウ」
+			'''
+	}
+	FROM: {
+		DisplayName: カエル専用メモリ
+		Tooltip:
+			'''
+			仮想プライベートエンティティを召喚する
+			「シリアルコードもある…？」
+			'''
+	}
+	Geminga: {
+		DisplayName: ゲミンガ
+		Tooltip:
+			'''
+			11体の小さな神々の群れを召喚する
+			「高密度の星」
+			'''
+	}
+	GodSlayerDoll: {
+		DisplayName: 神殺しの人形
+		Tooltip:
+			'''
+			小さな宇宙の暗殺者、ステイシスプローブ、そして暗黒エネルギーを召喚する
+			「センチネルたちはきっと新しいリーダーのことを分かってくれる」
+			'''
+	}
+	HauntedPebble: {
+		DisplayName: Haunted Pebble
+		Tooltip:
+			'''
+			ファントムデブリの幼虫を召喚する
+			「こっわ～い」
+			'''
+	}
+	HeartoftheSharks: {
+		DisplayName: サメの心
+		Tooltip:
+			'''
+			サメトリオを召喚する
+			「サメウィークの始まりだ！」
+			'''
+	}
+	InkyArtifact: {
+		DisplayName: イカスミのアーティファクト
+		Tooltip:
+			'''
+			オメガブルーの信者のコンビを召喚する
+			「オメガバージョンが半額！！」
+			'''
+	}
+	InkyPollution: {
+		DisplayName: イカスミ汚染
+		Tooltip:
+			'''
+			イカの赤ちゃんを召喚する
+			「俺達が環境に対してやってること、恥じたほうがいいぜ」
+			'''
+	}
+	IonizedJellyCrystal: {
+		DisplayName: イオン化されたジェリークリスタル
+		Tooltip:
+			'''
+			スライム進化の頂点を召喚する
+			「不定形の神、グーズマの悲劇を聞いたことはあるか？おそらくないだろう。これはあの暴君が君には語らない物語だ。
+			これはオーバーシアーたちの伝説だ。グーズマは全てのスライムの究極の進化であり、その力は他の全てのスライムを構成する細胞に影響を与えられるほどに強力だった。
+			その力で、世界のバイオームに対する親和性を持つスライムの神を創り出すことすら可能だった。
+			世界のエネルギーは、一部の人々が不自然だと考える多くの力への道だ。
+			そしてグーズマは凄まじく強い力を得た。その力を失うことを唯一恐れ、そしてそれは現実となった。
+			不幸なことに、グーズマの力は時間的異常を引き起こすほど強大になった。
+			その時間的異常は、この世界を超えた力ですら、原因そのものを消し去ることでしか解決できなかった。つまり、グーズマは最初から存在しないことになった。
+			皮肉にも、グーズマを神にした強大な力こそが、その終焉の原因となったのだ。」
+			'''
+	}
+	MeatyWormTumor: {
+		DisplayName: ミートワームの腫瘍
+		Tooltip:
+			'''
+			パーフォレーターが棲み着いている小さな肉の塊を召喚する
+			「結ばれたワームがいるかも」
+			'''
+	}
+	MirrorMatter: {
+		DisplayName: ミラーマター
+		Tooltip:
+			'''
+			小さな闇のエネルギーのかけらを召喚する
+			「鏡を割ると良くないことが起こると言われている」
+			'''
+	}
+	MoistLocket: {
+		DisplayName: 湿ったロケット
+		Tooltip:
+			'''
+			小さなアクアティックペストを召喚する
+			「中でワームがうごめいている」
+			'''
+	}
+	NuggetinaBiscuit: {
+		DisplayName: ナゲットビスケット
+		Tooltip:
+			'''
+			ジャングルナゲットを召喚する
+			「ジャングルナゲットが抗えない魅力的なおやつ！」
+			'''
+	}
+	PlaguebringerPowerCell: {
+		DisplayName: 補償アイテム
+		Tooltip: 良い価格で売れる
+	}
+	PristineExcalibur: {
+		DisplayName: 補償アイテム
+		Tooltip: 良い価格で売れる
+	}
+	ProfanedChewToy: {
+		DisplayName: 冒涜されし玩具
+		Tooltip:
+			'''
+			邪悪な革新的野郎を召喚する
+			「ほこりっぽい」
+			'''
+	}
+	PurifiedFog: {
+		DisplayName: 浄化された霧
+		Tooltip:
+			'''
+			冥府の怪物を召喚する
+			「アイツを縛っとけ」
+			'''
+	}
+	ReaperoidPills: {
+		DisplayName: リーパロイドの錠剤
+		Tooltip:
+			'''
+			歩く死神を召喚する
+			「これがアイツらのムキムキさの秘訣か…」
+			'''
+	}
+	RepurposedMonitor: {
+		DisplayName: 再利用されたモニター
+		Tooltip: 故障したリペアボット召喚する
+	}
+	RottenHotdog: {
+		DisplayName: 腐ったホットドッグ
+		Tooltip:
+			'''
+			ピットブルの子犬を召喚する
+			レアな敵が近くにいると吠える
+			「おいしい…」
+			'''
+	}
+	RottenKey: {
+		DisplayName: 腐った鍵
+		Tooltip:
+			'''
+			ハイブマインドの一部を召喚する
+			「微生物の集団をなだめる鍵」
+			'''
+	}
+	RottingCalamitousArtifact: {
+		DisplayName: 腐りゆく災厄のアーティファクト
+		Tooltip:
+			'''
+			ペットのセパルチャーリングを召喚する
+			「墓場が昇る」
+			'''
+	}
+	RoverSpindle: {
+		DisplayName: ローバースピンドル
+		Tooltip:
+			'''
+			怪しげなウルフラムのロボットを召喚する
+			「ぶっきらぼう」
+			'''
+	}
+	RuinedBandage: {
+		DisplayName: 破れた包帯
+		Tooltip:
+			'''
+			ユーロスを召喚する
+			「パンチ、スマッシュ、そんで手を折る」
+			'''
+	}
+	AmberGeode: {
+		DisplayName: コハクのジオード
+		Tooltip:
+			'''
+			アンバースカットラーを召喚する
+			「スカットラーが入っていてもおかしくない」
+			'''
+	}
+	AmethystGeode: {
+		DisplayName: アメジストのジオード
+		Tooltip:
+			'''
+			アメジストスカットラーを召喚する
+			「スカットラーが入っているかもしれない」
+			'''
+	}
+	BejeweledSpike: {
+		DisplayName: 宝石だらけのトゲ
+		Tooltip:
+			'''
+			レインボースカットラーを召喚する
+			「すべてのフレーバーを1つにブレンド」
+			'''
+	}
+	CrystalGeode: {
+		DisplayName: クリスタルのジオード
+		Tooltip:
+			'''
+			クリスタルスカットラーを召喚する
+			「スカットラーが入っているかも」
+			'''
+	}
+	DiamondGeode: {
+		DisplayName: ダイヤモンドのジオード
+		Tooltip:
+			'''
+			ダイヤモンドスカットラーを召喚する
+			「スカットラーが入れる」
+			'''
+	}
+	EmeraldGeode: {
+		DisplayName: エメラルドのジオード
+		Tooltip:
+			'''
+			エメラルドスカットラーを召喚する
+			「スカットラーが入っているべきだ」
+			'''
+	}
+	RubyGeode: {
+		DisplayName: ルビーのジオード
+		Tooltip:
+			'''
+			ルビースカットラーを召喚する
+			「スカットラーが入っている可能性がある」
+			'''
+	}
+	SapphireGeode: {
+		DisplayName: サファイアのジオード
+		Tooltip:
+			'''
+			サファイアスカットラーを召喚する
+			「スカットラーが入る余裕がある」
+			'''
+	}
+	TopazGeode: {
+		DisplayName: トパーズのジオード
+		Tooltip:
+			'''
+			トパーズスカットラーを召喚する
+			「スカットラーが入っている可能性が高い」
+			'''
+	}
+	ShadowCloth: {
+		DisplayName: 影の布
+		Tooltip: あなたの背後に潜む暗殺者を召喚する
+	}
+	Sirember: {
+		DisplayName: "セイレンバー"
+		Tooltip:
+			'''
+			ウォーターエレメンタルの憤怒を召喚する
+			「だからよ、忘れるんじゃねえぞ…」
+			'''
+	}
+	SkullCluster: {
+		DisplayName: ガイコツの塊
+		Tooltip:
+			'''
+			小さな屍肉のゴーレムを召喚する
+			「目が光っている頭蓋骨が2つ、山から飛び出している」
+			'''
+	}
+	SlightlyMoistbutalsoSlightlyDryLocket: {
+		DisplayName: 少し湿ってて少し乾いてるロケット
+		Tooltip:
+			'''
+			少し湿ったペストを召喚する
+			「中でワームがうごめいている」
+			'''
+	}
+	SlimeDeitysSoul: {
+		DisplayName: スライムの神の魂
+		Tooltip:
+			'''
+			小さなスライムの神と、その周囲を回る守護者を召喚する
+			「腐敗に飢えている」
+			'''
+	}
+	SmolEldritchHoodie: {
+		DisplayName: ちっちゃい異形のフード
+		Tooltip:
+			'''
+			フードを被ったエイドロリストを召喚する
+			「赤ちゃんのはじめてのフード」
+			'''
+	}
+	SoulShard: {
+		DisplayName: 魂のかけら
+		Tooltip:
+			'''
+			エイドロンワームを召喚する
+			「深淵の狂気があなたの血肉を通して反響する」
+			'''
+	}
+	SpaceJunk: {
+		DisplayName: 宇宙のガラクタ
+		Tooltip: 忘れられしアストラル隕石スライムを召喚する
+	}
+	StormMedal: {
+		DisplayName: ストームメダル
+		Tooltip:
+			'''
+			若いストームウィーバーを召喚する
+			「頭か、それともワームか」
+			'''
+	}
+	SunDriedShrimp: {
+		DisplayName: 天日干しエビ
+		Tooltip:
+			'''
+			小さな病気がちのドラゴンを召喚する
+			「ナイドリオンの好物であるカリカリなおやつ」
+			'''
+	}
+	SuspiciousLookingChineseCrown: {
+		DisplayName: 怪しげな中国の冠
+		Tooltip:
+			'''
+			純化した怒りを持つ宇宙の子供を召喚する
+			「彼女が来る」
+			'''
+	}
+	SuspiciousLookingGBC: {
+		DisplayName: 怪しいGBC
+		Tooltip:
+			'''
+			ゴミ山から救出された廃棄ルンバを召喚する
+			「これが何を意味するのか…」
+			'''
+	}
+	TheDragonball: {
+		DisplayName: ドラゴンのボール
+		Tooltip:
+			'''
+			球状のドラゴンフォリーを召喚する
+			ドラゴンクローンの失敗作のアイデンティティを崩壊させる
+			「うげっ」
+			'''
+	}
+	TheSeaKingsCoin: {
+		DisplayName: 海王のコイン
+		Tooltip:
+			'''
+			アクアティックペストとデザートペストを召喚する
+			「害虫の力で祝福されている」
+			'''
+	}
+	ToyScythe: {
+		DisplayName: おもちゃの鎌
+		Tooltip:
+			'''
+			小さなポルターちゃんを召喚する
+			「いたずら好きな魂のもの」
+			'''
+	}
+	TundraBall: {
+		DisplayName: ツンドラボール
+		Tooltip:
+			'''
+			すごく怒っている子犬を召喚する
+			「激怒した犬をなだめられる力を持つと言われるおもちゃ」
+			'''
+	}
+	UglyTentacle: {
+		DisplayName: 不格好な職種
+		Tooltip:
+			'''
+			T.U.Bを召喚する
+			「デブ」
+			'''
+	}
+	WulfrumController: {
+		DisplayName: ウルフラムコントロールパネル
+		Tooltip: メカ軍団の制御が可能になる
+	}
+	ZygoteinaBucket: {
+		DisplayName: 胚入りバケツ
+		Tooltip: 古代の恐ろしい胎児を召喚する
+	}
+	HypnosPlushThrowable: {
+		DisplayName: 投げられるヒュプノスのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	MirePlushThrowableP1: {
+		DisplayName: 投げられるクラグマウのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	MirePlushThrowableP2: {
+		DisplayName: 投げられるスライム状のクラグマウのぬいぐるみ
+		Tooltip: 投げられる
+	}
+	PutridShroom: {
+		DisplayName: アロマキノコ
+		Tooltip:
+			'''
+			巨大なキノコガニを消極的にするが、倒されたときに激怒する
+			小さいキノコガニが移動中でも頭の上から降りなくなる
+			「チーズの香り…？」
+			'''
+	}
+	SparrowMeat: {
+		DisplayName: ツバメの肉
+		Tooltip: ピンク色の布がちょっと入っている
+	}
+	Termipebbles: {
+		DisplayName: 終着の小石
+		Tooltip:
+			'''
+			終着点系のアイテムを作るのに使用する
+			「食べるべからず」
+			'''
+	}
+	AstralMusicBox: {
+		DisplayName: オルゴール（アストラルブライト）
+		Tooltip: ""
+	}
+	AuricTrashCan: {
+		DisplayName: オーリックのゴミ箱
+		Tooltip: "「自分の人生がコントロールできなくなってしまった」"
+	}
+	TiedBoB2: {
+		DisplayName: くくられた水棲風船の束
+		Tooltip: ""
+	}
+	TiedBoxBalloon: {
+		DisplayName: くくられた四角い風船
+		Tooltip: ""
+	}
+	TiedChaosBalloon: {
+		DisplayName: くくられたフグの風船
+		Tooltip: ""
+	}
+	TiedMirageBalloon: {
+		DisplayName: くくられたゲンエイクラゲの風船
+		Tooltip: ""
+	}
+	AstragellySlimeBanner: {
+		DisplayName: アストラジェリースライムのバナー
+		Tooltip: ""
+	}
+	BleamurBanner: {
+		DisplayName: ブレアムールのバナー
+		Tooltip: ""
+	}
+	CalamitasBanner: {
+		DisplayName: 呪われた旗
+		Tooltip: ""
+	}
+	EyedolBanner: {
+		DisplayName: アイドルのバナー
+		Tooltip: ""
+	}
+	GodSlayerSlugBanner: {
+		DisplayName: 神殺しのナメクジのバナー
+		Tooltip: ""
+	}
+	IsopodBanner: {
+		DisplayName: シンカイオオグソクムシのバナー
+		Tooltip: ""
+	}
+	SandTurtleBanner: {
+		DisplayName: スナリクガメのバナー
+		Tooltip: ""
+	}
+	VeilBanner: {
+		DisplayName: ベールのバナー
+		Tooltip: 日光を遮るのに最適！
+	}
+	ViolemurBanner: {
+		DisplayName: ヴィオレムールのバナー
+		Tooltip: ""
+	}
+	XerocodileBanner: {
+		DisplayName: ゼロコダイルのバナー
+		Tooltip: ""
+	}
+	AstralClay: {
+		DisplayName: アストラルブライトの粘土
+		Tooltip: ""
+	}
+	AstralDirt: {
+		DisplayName: アストラルブライトの土
+		Tooltip: ""
+	}
+	AstralHardenedSand: {
+		DisplayName: アストラルブライトの硬化した砂
+		Tooltip: ""
+	}
+	AstralIce: {
+		DisplayName: アストラルブライトの氷
+		Tooltip: ""
+	}
+	AstralSand: {
+		DisplayName: アストラルブライトの砂
+		Tooltip: ""
+	}
+	AstralSandstone: {
+		DisplayName: アストラルブライトの砂岩
+		Tooltip: ""
+	}
+	AstralSnow: {
+		DisplayName: アストラルブライトの雪
+		Tooltip: ""
+	}
+	AstralTreeWood: {
+		DisplayName: ゼノモノリス
+		Tooltip: ""
+	}
+	Xenostone: {
+		DisplayName: ゼノストーン
+		Tooltip: ""
+	}
+	AstralBrick: {
+		DisplayName: アストラルブライトのレンガ
+		Tooltip: ""
+	}
+	AstralGrass: {
+		DisplayName: アストラルブライトの草の種
+		Tooltip: アストラルブライトの土に草を植える
+	}
+	AstralPearlBlock: {
+		DisplayName: アストラルパールのブロック
+		Tooltip: ""
+	}
+	AstralPlating: {
+		DisplayName: アストラルプレーティング
+		Tooltip: ""
+	}
+	AuricBrick: {
+		DisplayName: オーリックのレンガ
+		Tooltip: ""
+	}
+	AzufreSludge: {
+		DisplayName: アズフレのヘドロ
+		Tooltip: ""
+	}
+	BlightedEggBlock: {
+		DisplayName: アストラルブライトの卵のブロック
+		Tooltip: ""
+	}
+	Bloodstone: {
+		DisplayName: 補償アイテム
+		Tooltip: 売却可能
+	}
+	BloodstoneBrick: {
+		DisplayName: ブラッドストーンのレンガ
+		Tooltip: ""
+	}
+	ChiseledBloodstone: {
+		DisplayName: 模様入りのブラッドストーン
+		Tooltip: ブラッドストーンの家具を作るのに使う
+	}
+	EidolicSlab: {
+		DisplayName: 異形の平石
+		Tooltip: ""
+	}
+	FrostflakeBrick: {
+		DisplayName: 雪の結晶のレンガ
+		Tooltip: ""
+	}
+	HallowedBrick: {
+		DisplayName: 聖鉄のレンガ
+		Tooltip: ""
+	}
+	MeldBlock: {
+		DisplayName: メルドブロック
+		Tooltip: ""
+	}
+	Necrostone: {
+		DisplayName: ネクロストーン
+		Tooltip: ""
+	}
+	PhantowaxBlock: {
+		DisplayName: ファントワックス
+		Tooltip: ""
+	}
+	PlagueHiveWand: {
+		DisplayName: プレイグハイブワンド
+		Tooltip: 感染した巣を設置する
+	}
+	PolishedAstralMonolith: {
+		DisplayName: 磨かれたアストラルモノリス
+		Tooltip: ""
+	}
+	PolishedXenomonolith: {
+		DisplayName: 磨かれたゼノモノリス
+		Tooltip: ""
+	}
+	ShadowBrick: {
+		DisplayName: 影のレンガ
+		Tooltip: ""
+	}
+	AgedBlueprint: {
+		DisplayName: 古びた設計図
+		Tooltip: 配布禁止？
+	}
+	AstrumAureusLog: {
+		DisplayName: アストラムアウレウスの設計図
+		Tooltip: 配布禁止
+	}
+	BumblebirbLog: {
+		DisplayName: "[凍結済み]ヤロンクローン計画の設計図"
+		Tooltip: 配布禁止
+	}
+	CalamitasLog: {
+		DisplayName: カラミタスクローン計画の設計図
+		Tooltip: 配布禁止
+	}
+	DestroyerLog: {
+		DisplayName: デストロイヤーの設計図
+		Tooltip: 配布禁止
+	}
+	DogLog: {
+		DisplayName: コズミライト装甲の設計図
+		Tooltip: 配布禁止
+	}
+	MurasamaLog: {
+		DisplayName: ムラサマの設計図
+		Tooltip: 配布禁止
+	}
+	OrthoceraLog: {
+		DisplayName: チョッカクガイ亡命計画
+		Tooltip: 広めてください
+	}
+	PlagueLog: {
+		DisplayName: プレイグの設計図
+		Tooltip: 配布禁止
+	}
+	PrimeLog: {
+		DisplayName: スケルトロンプライムの設計図
+		Tooltip: 配布禁止
+	}
+	SamLog: {
+		DisplayName: ムラサマの設計図EX
+		Tooltip: 配布禁止
+	}
+	TwinsLog: {
+		DisplayName: ツインズの設計図
+		Tooltip: 配布禁止
+	}
+	YharmorLog: {
+		DisplayName: オーリックの鎧の設計図
+		Tooltip: 配布禁止
+	}
+	BoiMachine: {
+		DisplayName: バインディング・オブ・アナヒタの筐体
+		Tooltip:
+			'''
+			未完成、超不安定
+			ローグライクゲーム
+			'''
+	}
+	BrimstoneHeart: {
+		DisplayName: ぶら下がったブリムストーンの心臓
+		Tooltip: プラス・アップ
+	}
+	AstJar: {
+		DisplayName: アストラルジェリーの瓶
+		Tooltip: ""
+	}
+	BleamurPerch: {
+		DisplayName: ブレアムールの止まり木
+		Tooltip: ""
+	}
+	BlinkerInABottle: {
+		DisplayName: ブリンカー入りの瓶
+		Tooltip: ""
+	}
+	CrystalFlyJar: {
+		DisplayName: クリスタルの蝶入りの瓶
+		Tooltip: ""
+	}
+	EyedolTerrarium: {
+		DisplayName: アイドルのケージ
+		Tooltip: ""
+	}
+	GAstJar: {
+		DisplayName: 金色のアストラジェリーの瓶
+		Tooltip: ""
+	}
+	GoldenIsopodTerrarium: {
+		DisplayName: テラリウム（金色のオオグソクムシ）
+		Tooltip: ""
+	}
+	GoldEyedolTerrarium: {
+		DisplayName: テラリウム（金色のアイドル）
+		Tooltip: ""
+	}
+	GoldViolemurMonolith: {
+		DisplayName: テラリウム（金色のヴィオレムール）
+		Tooltip: ""
+	}
+	IsopodTerrarium: {
+		DisplayName: テラリウム（オオグソクムシ）
+		Tooltip: ""
+	}
+	NukeJar: {
+		DisplayName: ジョウキバエの入りの瓶
+		Tooltip: ""
+	}
+	OrthoJar: {
+		DisplayName: チョッカクガイ入りの瓶
+		Tooltip: ""
+	}
+	PlagueFrogTerrarium: {
+		DisplayName: テラリウム（疫病ガエル）
+		Tooltip: ""
+	}
+	ProvFlyJar: {
+		DisplayName: 燃える蝶入りの瓶
+		Tooltip: ""
+	}
+	SandTurtleCage: {
+		DisplayName: テラリウム（スナリクガメ）
+		Tooltip: ""
+	}
+	SlugTerrarium: {
+		DisplayName: テラリウム（神殺しのナメクジ）
+		Tooltip: ""
+	}
+	SwearshroomCage: {
+		DisplayName: テラリウム（ノノシリダケ）
+		Tooltip: ""
+	}
+	ViolemurMonolith: {
+		DisplayName: ヴィオレムールの止まり木
+		Tooltip: ""
+	}
+	XerocodileCage: {
+		DisplayName: テラリウム（ゼロコダイル）
+		Tooltip: ""
+	}
+	CalamityLamp: {
+		DisplayName: ブリムストーンの灯火
+		Tooltip: 何か邪悪なものを錬成している
+	}
+	CosmiliteChairEX: {
+		DisplayName: コズミライトモノブロックチェア
+		Tooltip: ""
+	}
+	DecommissionedDaedalusGolem: {
+		DisplayName: 退役済みダイダロスゴーレム
+		Tooltip: "「4.3%…」"
+	}
+	DemonShield: {
+		DisplayName: 悪魔のラムシールド
+		Tooltip: "「装備するには大きすぎる」"
+	}
+	DisrepairUnit: {
+		DisplayName: 壊れたリペアユニット
+		Tooltip: "「あんた頭が病気だぜ」"
+	}
+	Evolution: {
+		DisplayName: エヴォリューションのオモチャ
+		Tooltip: "「オーブについて熟考中」"
+	}
+	AgedRustGamingTable: {
+		DisplayName: 古びたゲーミングテーブル
+		Tooltip: ゲぇむ すターと！
+	}
+	RustGamingTable: {
+		DisplayName: ラボゲーミングテーブル
+		Tooltip: ゲーム スタート！
+	}
+	RustGamingTable2: {
+		DisplayName: ラボゲーミングテーブル2
+		Tooltip: "「技術的にはスピンオフ」"
+	}
+	OldAstralBathtubItem: {
+		DisplayName: ゼノモノリスのバスタブ
+		Tooltip: ""
+	}
+	OldAstralBedItem: {
+		DisplayName: ゼノモノリスのベッド
+		Tooltip: ""
+	}
+	OldAstralBookshelfItem: {
+		DisplayName: ゼノモノリスの本棚
+		Tooltip: ""
+	}
+	OldAstralCandelabraItem: {
+		DisplayName: ゼノモノリスの燭台
+		Tooltip: ""
+	}
+	OldAstralCandleItem: {
+		DisplayName: ゼノモノリスの蝋燭
+		Tooltip: ""
+	}
+	OldAstralChairItem: {
+		DisplayName: ゼノモノリスのイス
+		Tooltip: ""
+	}
+	OldAstralChandelierItem: {
+		DisplayName: ゼノモノリスのシャンデリア
+		Tooltip: ""
+	}
+	OldAstralChestItem: {
+		DisplayName: ゼノモノリスのチェスト
+		Tooltip: ""
+	}
+	OldAstralClockItem: {
+		DisplayName: ゼノモノリスの柱時計
+		Tooltip: ""
+	}
+	OldAstralDoorItem: {
+		DisplayName: ゼノモノリスのドア
+		Tooltip: ""
+	}
+	OldAstralDresserItem: {
+		DisplayName: ゼノモノリスのドレッサー
+		Tooltip: ""
+	}
+	OldAstralLampItem: {
+		DisplayName: ゼノモノリスのランプ
+		Tooltip: ""
+	}
+	OldAstralLanternItem: {
+		DisplayName: ゼノモノリスのランタン
+		Tooltip: ""
+	}
+	OldAstralPianoItem: {
+		DisplayName: ゼノモノリスのパイプオルガン
+		Tooltip: ""
+	}
+	OldAstralSinkItem: {
+		DisplayName: ゼノモノリスのシンク
+		Tooltip: ""
+	}
+	OldAstralSofaItem: {
+		DisplayName: ゼノモノリスのベンチ
+		Tooltip: ""
+	}
+	OldAstralTableItem: {
+		DisplayName: ゼノモノリスのテーブル
+		Tooltip: ""
+	}
+	OldAstralWorkbenchItem: {
+		DisplayName: ゼノモノリスの作業台
+		Tooltip: ""
+	}
+	AuricBathtubItem: {
+		DisplayName: オーリックのバスタブ
+		Tooltip: ""
+	}
+	AuricBedItem: {
+		DisplayName: オーリックのベッド
+		Tooltip: ""
+	}
+	AuricBookshelfItem: {
+		DisplayName: オーリックの本棚
+		Tooltip: ""
+	}
+	AuricCandelabraItem: {
+		DisplayName: オーリックの燭台
+		Tooltip: ""
+	}
+	AuricCandleItem: {
+		DisplayName: オーリックの蝋燭
+		Tooltip: ""
+	}
+	AuricChairItem: {
+		DisplayName: オーリックのイス
+		Tooltip: ""
+	}
+	AuricChandelierItem: {
+		DisplayName: オーリックのシャンデリア
+		Tooltip: ""
+	}
+	AuricChestItem: {
+		DisplayName: オーリックのチェスト
+		Tooltip: ""
+	}
+	AuricClockItem: {
+		DisplayName: オーリックの柱時計
+		Tooltip: ""
+	}
+	AuricDoorItem: {
+		DisplayName: オーリックのドア
+		Tooltip: ""
+	}
+	AuricDresserItem: {
+		DisplayName: オーリックのドレッサー
+		Tooltip: ""
+	}
+	AuricLampItem: {
+		DisplayName: オーリックのランプ
+		Tooltip: ""
+	}
+	AuricLanternItem: {
+		DisplayName: オーリックのランタン
+		Tooltip: ""
+	}
+	AuricManufacturer: {
+		DisplayName: オーリックメーカー
+		Tooltip: 特別なクラフトに使用する
+	}
+	AuricPianoItem: {
+		DisplayName: オーリックのピアノ
+		Tooltip: ""
+	}
+	AuricPlatformItem: {
+		DisplayName: 模様入りのオーリックの足場
+		Tooltip: ""
+	}
+	AuricSinkItem: {
+		DisplayName: オーリックのシンク
+		Tooltip: ""
+	}
+	AuricSofaItem: {
+		DisplayName: オーリックのソファ
+		Tooltip: ""
+	}
+	AuricTableItem: {
+		DisplayName: オーリックのテーブル
+		Tooltip: ""
+	}
+	AuricWorkbenchItem: {
+		DisplayName: オーリックの作業台
+		Tooltip: ""
+	}
+	BloodstoneBathtubItem: {
+		DisplayName: ブラッドストーンのバスタブ
+		Tooltip: ""
+	}
+	BloodstoneBedItem: {
+		DisplayName: ブラッドストーンのベッド
+		Tooltip: ""
+	}
+	BloodstoneBookshelfItem: {
+		DisplayName: ブラッドストーンの本棚
+		Tooltip: ""
+	}
+	BloodstoneCandelabraItem: {
+		DisplayName: ブラッドストーンの燭台
+		Tooltip: ""
+	}
+	BloodstoneCandleItem: {
+		DisplayName: ブラッドストーンの蝋燭
+		Tooltip: ""
+	}
+	BloodstoneChairItem: {
+		DisplayName: ブラッドストーンのイス
+		Tooltip: ""
+	}
+	BloodstoneChandelierItem: {
+		DisplayName: ブラッドストーンのシャンデリア
+		Tooltip: ""
+	}
+	BloodstoneChestItem: {
+		DisplayName: ブラッドストーンのチェスト
+		Tooltip: ""
+	}
+	BloodstoneClockItem: {
+		DisplayName: ブラッドストーンの柱時計
+		Tooltip: ""
+	}
+	BloodstoneDoorItem: {
+		DisplayName: ブラッドストーンのドア
+		Tooltip: ""
+	}
+	BloodstoneDresserItem: {
+		DisplayName: ブラッドストーンのドレッサー
+		Tooltip: ""
+	}
+	BloodstoneLampItem: {
+		DisplayName: ブラッドストーンのランプ
+		Tooltip: ""
+	}
+	BloodstoneLanternItem: {
+		DisplayName: ブラッドストーンのランタン
+		Tooltip: ""
+	}
+	BloodstonePianoItem: {
+		DisplayName: ブラッドストーンのピアノ
+		Tooltip: ""
+	}
+	BloodstonePlatformItem: {
+		DisplayName: 模様入りのブラッドストーンの足場
+		Tooltip: ""
+	}
+	BloodstoneSinkItem: {
+		DisplayName: ブラッドストーンのシンク
+		Tooltip: ""
+	}
+	BloodstoneSofaItem: {
+		DisplayName: ブラッドストーンのソファ
+		Tooltip: ""
+	}
+	BloodstoneTableItem: {
+		DisplayName: ブラッドストーンのテーブル
+		Tooltip: ""
+	}
+	BloodstoneWorkbenchItem: {
+		DisplayName: ブラッドストーンの作業台
+		Tooltip: ""
+	}
+	NecroticTorch: {
+		DisplayName: 死霊術のたいまつ
+		Tooltip: ""
+	}
+	Ravamper: {
+		DisplayName: 死霊術のキャンプファイア
+		Tooltip: 太陽万歳！
+	}
+	PhantowaxBathtubItem: {
+		DisplayName: ファントワックスのバスタブ
+		Tooltip: ""
+	}
+	PhantowaxBedItem: {
+		DisplayName: ファントワックスのベッド
+		Tooltip: ""
+	}
+	PhantowaxBookshelfItem: {
+		DisplayName: ファントワックスの本棚
+		Tooltip: ""
+	}
+	PhantowaxCandelabraItem: {
+		DisplayName: ファントワックスの燭台
+		Tooltip: ""
+	}
+	PhantowaxCandleItem: {
+		DisplayName: ファントワックスの蝋燭
+		Tooltip: ""
+	}
+	PhantowaxChairItem: {
+		DisplayName: ファントワックスのイス
+		Tooltip: ""
+	}
+	PhantowaxChandelierItem: {
+		DisplayName: ファントワックスのシャンデリア
+		Tooltip: ""
+	}
+	PhantowaxChestItem: {
+		DisplayName: ファントワックスのチェスト
+		Tooltip: ""
+	}
+	PhantowaxClockItem: {
+		DisplayName: ファントワックスの柱時計
+		Tooltip: ""
+	}
+	PhantowaxDoorItem: {
+		DisplayName: ファントワックスのドア
+		Tooltip: ""
+	}
+	PhantowaxDresserItem: {
+		DisplayName: ファントワックスのドレッサー
+		Tooltip: ""
+	}
+	PhantowaxLampItem: {
+		DisplayName: ファントワックスのランプ
+		Tooltip: ""
+	}
+	PhantowaxLanternItem: {
+		DisplayName: ファントワックスのランタン
+		Tooltip: ""
+	}
+	PhantowaxPianoItem: {
+		DisplayName: ファントワックスのピアノ
+		Tooltip: ""
+	}
+	PhantowaxPlatformItem: {
+		DisplayName: ファントワックスの足場
+		Tooltip: ""
+	}
+	PhantowaxSinkItem: {
+		DisplayName: ファントワックスのシンク
+		Tooltip: ""
+	}
+	PhantowaxSofaItem: {
+		DisplayName: ファントワックスのソファ
+		Tooltip: ""
+	}
+	PhantowaxTableItem: {
+		DisplayName: ファントワックスのテーブル
+		Tooltip: ""
+	}
+	PhantowaxWorkbenchItem: {
+		DisplayName: ファントワックスの作業台
+		Tooltip: ""
+	}
+	WulfrumGlobe: {
+		DisplayName: ウルフラムの地球儀
+		Tooltip: クルクルクル
+	}
+	HeartoftheCommunity: {
+		DisplayName: コミュニティハート
+		Tooltip: 私の最高傑作。大切に扱ってね
+	}
+	Help: {
+		DisplayName: 詰んだチョッカクガイ
+		Tooltip:
+			'''
+			緑のキノコを与えられる
+			「たすけて」
+			'''
+	}
+	Hesfine: {
+		DisplayName: チョッカクガイのジャグジー
+		Tooltip: "「:Grab:」"
+	}
+	InactivePowerFactory: {
+		DisplayName: 補償アイテム
+		Tooltip: 売却可能
+	}
+	JunkArt: {
+		DisplayName: 再構築された粒子加速器
+		Tooltip: "「古い設計図から組み立てられた。中の花は五年経っても鮮やかに成長している」"
+	}
+	MireAquarium: {
+		DisplayName: マイアの水槽
+		Tooltip: "「脱走しないことを祈ろう…」"
+	}
+	AquaticMonolith: {
+		DisplayName: 小さなリヴァイアサンの生首
+		Tooltip: なんでこんなの欲しがるの
+	}
+	AuroraMonolith: {
+		DisplayName: 凍てつく構造物
+		Tooltip: "「][[]][][][][[]」"
+	}
+	CalamitousMonolith: {
+		DisplayName: 災厄の儀式の祭壇
+		Tooltip: 日が楽しげに踊っている
+	}
+	DimensionalMonolith: {
+		DisplayName: 次元のオベリスク
+		Tooltip: 何かのシグナルを送ろうとしているが、成功していない
+	}
+	ExoMonolith: {
+		DisplayName: ガンメタルメカニズム
+		Tooltip: ""
+	}
+	InfernalMonolith: {
+		DisplayName: 地獄の祭壇
+		Tooltip: 炎が意味もなく燃えている
+	}
+	PlagueMonolith: {
+		DisplayName: プレイグ透析装置
+		Tooltip: ""
+	}
+	UnholyMonolith: {
+		DisplayName: 冒涜されし噴水
+		Tooltip: "「いや、水の色は変わらないよ」"
+	}
+	MoulderingAltarItem: {
+		DisplayName: 朽ちた祭壇
+		Tooltip: デーモンアルターとして扱われる
+	}
+	AccidentalAbominationn: {
+		DisplayName: 不慮の融合
+		Tooltip: "「Maple」"
+	}
+	BlazingConflict: {
+		DisplayName: 燃え盛る対立
+		Tooltip:
+			'''
+			「炎 VS 炎」
+			「Yharex」
+			'''
+	}
+	CalamiteaTime: {
+		DisplayName: カラミ・ティータイム
+		Tooltip: 原作「caligulas」、リペイント「Maple」
+	}
+	CalamityFriends: {
+		DisplayName: 小さな相棒
+		Tooltip:
+			'''
+			「トモダチ！」
+			「Mochi」
+			'''
+	}
+	CalamityPaint: {
+		DisplayName: いにしえの災厄
+		Tooltip: "「Blockaroz」"
+	}
+	CalamityPaintRetold: {
+		DisplayName: 災厄
+		Tooltip: "「IbanPlay」"
+	}
+	CirrusBooze: {
+		DisplayName: 素晴らしき聖杯
+		Tooltip:
+			'''
+			「実に素晴らしい聖杯だね」
+			「TimerFun」
+			'''
+	}
+	Clam: {
+		DisplayName: オハヨー！
+		Tooltip: "「Yharex」"
+	}
+	CosmicTerror: {
+		DisplayName: 宇宙の恐怖
+		Tooltip: "「Giacomo」"
+	}
+	DarkMagic: {
+		DisplayName: 黒魔術
+		Tooltip: "「Maple」"
+	}
+	DraedonPopcorn: {
+		DisplayName: メカゲーマー
+		Tooltip: "「Maple」"
+	}
+	Duality: {
+		DisplayName: 二元性
+		Tooltip: "「Maple」"
+	}
+	Espelho: {
+		DisplayName: 鏡
+		Tooltip: "「Triangle」"
+	}
+	EyeofXeroc: {
+		DisplayName: ゼロクの目
+		Tooltip: "「PokerFace」"
+	}
+	Frozen: {
+		DisplayName: フローズン
+		Tooltip: "「Maple」"
+	}
+	GallusYharus: {
+		DisplayName: ガルス・ヤルス
+		Tooltip:
+			'''
+			「素晴らしい女性であり、守護者でもあるあなたに心からの感謝を」
+			「Willow」
+			'''
+	}
+	LostSouls: {
+		DisplayName: 迷える魂
+		Tooltip:
+			'''
+			「迷い、恐れる」
+			「Maple」
+			'''
+	}
+	ModIconPainting: {
+		DisplayName: カラミティ・ヴァニティ
+		Tooltip: "「IbanPlayとEnamoured」"
+	}
+	NotLikeHome: {
+		DisplayName: 家じゃない
+		Tooltip:
+			'''
+			「トモダチ！」
+			'Maple'
+			'''
+	}
+	OldModIconPainting: {
+		DisplayName: 旧カラミティ・ヴァニティ
+		Tooltip:
+			'''
+			「古ッ！！！」
+			「Yharex」
+			'''
+	}
+	OldUCMMPainting: {
+		DisplayName: 旧非公式カラミティMODミュージック
+		Tooltip:
+			'''
+			「ヴィンテージな音」
+			「Heart Plus Up!」
+			'''
+	}
+	Plague22: {
+		DisplayName: "22"
+		Tooltip:
+			'''
+			「呪いの番号」
+			「Willow」
+			'''
+	}
+	RogueExtractor: {
+		DisplayName: ローグ・エクストラクター
+		Tooltip:
+			'''
+			「Maple」
+			'''
+	}
+	Scourgy: {
+		DisplayName: スカージー
+		Tooltip: "「Maple」"
+	}
+	Signut: {
+		DisplayName: シグナッツ
+		Tooltip:
+			'''
+			「悪く思うなよ、長いあいだ氷の中にいると精神に悪影響が出るんだ」
+			「Yharex」
+			'''
+	}
+	SleepingGiant: {
+		DisplayName: 眠る巨獣
+		Tooltip: "「Maple」"
+	}
+	Snouts: {
+		DisplayName: 鼻先
+		Tooltip: "「Maple」"
+	}
+	SundayAfternoon: {
+		DisplayName: カラミティ世界の日曜日の午後
+		Tooltip: "「Maple」"
+	}
+	SwearingShroom: {
+		DisplayName: 怒れるキノコ
+		Tooltip: "「Maple」"
+	}
+	TheGreatSandworm: {
+		DisplayName: 巨大なサンドワーム
+		Tooltip: "「Maple」"
+	}
+	TheYhar: {
+		DisplayName: ":THE_YHAR:"
+		Tooltip: "「アイツは悪いことをしたけど、すごいカッコいいってのは認めざるを得ないな」"
+	}
+	UCMMPainting: {
+		DisplayName: 非公式カラミティMODミュージック
+		Tooltip:
+			'''
+			「音の世界」
+			「IbanPlay」
+			'''
+	}
+	UnholyTrip: {
+		DisplayName: 不浄な旅行
+		Tooltip: "「Triangle」"
+	}
+	VVanities: {
+		DisplayName: VはヴァニティのV!
+		Tooltip:
+			'''
+			「V!」
+			「Willow」
+			'''
+	}
+	WilliamPainting: {
+		DisplayName: カラミティ・ヴァニティ（代替）
+		Tooltip: "「Giacomo」"
+	}
+	WormHeaven: {
+		DisplayName: 天国のワーム
+		Tooltip:
+			'''
+			「いつかは…」
+			「Maple」
+			'''
+	}
+	Yharlamitas: {
+		DisplayName: 災厄の瞬間
+		Tooltip: 待てよ…
+	}
+	PlagueDialysis: {
+		DisplayName: スウォーマー保存培養器
+		Tooltip: "「永遠に封印されている」"
+	}
+	AcidGun: {
+		DisplayName: 酸性テープディスペンサー
+		Tooltip: 硫黄性のツルを無限に配置できる
+	}
+	Anemone: {
+		DisplayName: イソギンチャクの鉢植え
+		Tooltip: ""
+	}
+	AstralOldPurple: {
+		DisplayName: 紫色のゼノモノリスの鉢植え
+		Tooltip: ""
+	}
+	AstralOldYellow: {
+		DisplayName: 黄色のゼノモノリスの鉢植え
+		Tooltip: ""
+	}
+	BelchingCoral: {
+		DisplayName: 硫黄性サンゴ
+		Tooltip: "「素手で触ってはいけない」"
+	}
+	BloodstoneRoses: {
+		DisplayName: ブラッドストーンのバラ
+		Tooltip: ""
+	}
+	BotanicPot: {
+		DisplayName: ボタニック盆栽
+		Tooltip: ""
+	}
+	BrainCoral: {
+		DisplayName: ノウサンゴの鉢植え
+		Tooltip: ""
+	}
+	EidolonTree: {
+		DisplayName: 異形の木
+		Tooltip: ""
+	}
+	FanCoral: {
+		DisplayName: ウチワサンゴの鉢植え
+		Tooltip: ""
+	}
+	FleshThing: {
+		DisplayName: 生きた草
+		Tooltip: 真紅の地で生まれ、ドレイドンが世話をしている奇妙な肉質の物質
+	}
+	HolyStudedBonsai: {
+		DisplayName: 聖なる飾り盆栽
+		Tooltip: ""
+	}
+	MonolithPot: {
+		DisplayName: アストラルモノリスの鉢植え
+		Tooltip: ""
+	}
+	NetherTree: {
+		DisplayName: ねじれた冥界の苗木
+		Tooltip: 凶暴
+	}
+	NetherTreeBig: {
+		DisplayName: ねじれた冥界の木
+		Tooltip: 猛烈
+	}
+	OddMushroomPot: {
+		DisplayName: 奇妙なキノコの鉢植え
+		Tooltip: 自分のキノコを育てられる！…嘘だよ。
+	}
+	PottedDecapoditaSprout: {
+		DisplayName: デカポディタの鉢植え
+		Tooltip: キノコをどうぞ
+	}
+	SSCoral: {
+		DisplayName: 沈んだサンゴの鉢植え
+		Tooltip: ""
+	}
+	SulphurousCactus: {
+		DisplayName: 硫黄サボテンの鉢植え
+		Tooltip: ""
+	}
+	SulphurousPlanter: {
+		DisplayName: 酸性ツルのプランター
+		Tooltip: どうやって立っているのやら
+	}
+	TableCoral: {
+		DisplayName: テーブルサンゴの鉢植え
+		Tooltip: ""
+	}
+    AnahitaPlush: {
+        DisplayName: アナヒタのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    ApolloPlush: {
+        DisplayName: アポロのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    AquaticScourgePlush: {
+        DisplayName: アクアティックスカージのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    AresPlush: {
+        DisplayName: アレスのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    ArtemisPlush: {
+        DisplayName: アルテミスのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    AstrageldonPlush: {
+        DisplayName: アストラゲルドンのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    AstrumAureusPlush: {
+        DisplayName: アストラムアウレウスのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    AstrumDeusPlush: {
+        DisplayName: アストラムデウスのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    BrimstoneElementalPlush: {
+        DisplayName: ブリムストーンエレメンタルのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    BumblefuckPlush: {
+        DisplayName: ドラゴンフォリーのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    CalamitasFumo: {
+        DisplayName: カラミタスのぬいぐるみ
+        Tooltip: 
+			'''
+			「取り扱い注意な闇のアーティファクト」
+			マスター限定ドロップ
+			'''
+    },
+    CeaselessVoidPlush: {
+        DisplayName: シースレスヴォイドのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    ClonePlush: {
+        DisplayName: カラミタスクローンのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    CrabulonPlush: {
+        DisplayName: クラブロンのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    CryogenPlush: {
+        DisplayName: クライオジェンのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    DesertScourgePlush: {
+        DisplayName: デザートスカージのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    DevourerofGodsPlush: {
+        DisplayName: デバウラーオブゴッドのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    DraedonPlush: {
+        DisplayName: ドレイドンのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    GiantClamPlush: {
+        DisplayName: ジャイアントハマグリのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    HiveMindPlush: {
+        DisplayName: ハイブマインドのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    HypnosPlush: {
+        DisplayName: ヒュプノスのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    JaredPlush: {
+        DisplayName: 原初のワームのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    LeviathanPlush: {
+        DisplayName: リヴァイアサンのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    MaulerPlush: {
+        DisplayName: マウラーのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+	}
+    MirePlushP1: {
+        DisplayName: クラグマウのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    MirePlushP2: {
+        DisplayName: スライム状のクラグマウのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    NuclearTerrorPlush: {
+        DisplayName: ニュークリアテラーのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    OldDukePlush: {
+        DisplayName: オールドデュークのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    PerforatorPlush: {
+        DisplayName: パーフォレーターのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    PlaguebringerGoliathPlush: {
+        DisplayName: プレイグブリンガーゴリアテのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    PolterghastPlush: {
+        DisplayName: ポルターガストのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    ProfanedGuardianPlush: {
+        DisplayName: プロファンドガーディアンのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+    }
+    ProvidencePlush: {
+        DisplayName: プロヴィデンスのぬいぐるみ
+        Tooltip: マスター限定ドロップ
+	}
+	RavagerPlush: {
+		DisplayName: ラヴェジャーのぬいぐるみ
+		Tooltip: マスター限定ドロップ
+	}
+	SandSharkPlush: {
+		DisplayName: グレートサンドシャークのぬいぐるみ
+		Tooltip: マスター限定ドロップ
+	}
+	SignusPlush: {
+		DisplayName: シグナスのぬいぐるみ
+		Tooltip: マスター限定ドロップ
+	}
+	SlimeGodPlush: {
+		DisplayName: スライムの神のぬいぐるみ
+		Tooltip: マスター限定ドロップ
+	}
+	StormWeaverPlush: {
+		DisplayName: ストームウィーバーのぬいぐるみ
+		Tooltip: マスター限定ドロップ
+	}
+	ThanatosPlush: {
+		DisplayName: タナトスのぬいぐるみ
+		Tooltip: マスター限定ドロップ
+	}
+	YharonPlush: {
+		DisplayName: ヤロンのぬいぐるみ
+		Tooltip: マスター限定ドロップ
+	}
+	PongMachine: {
+		DisplayName: ポンの筐体
+		Tooltip:
+			'''
+			未完成、超不安定
+			ポンのゲーム
+			'''
+	}
+	RespirationShrine: {
+		DisplayName: 呼吸の祠
+		Tooltip:
+			'''
+			一定の範囲内なら、深淵の中でも呼吸ができるようになる。深淵に拠点が作りたいあなたに。
+			無効化すると一瞬で溺れてしまうだろう
+			「ほとんどチート」
+			'''
+	}
+	Ribrod: {
+		DisplayName: 補償アイテム
+		Tooltip: 売却可能
+	}
+	RoxFake: {
+		DisplayName: 補償アイテム
+		Tooltip: 売却可能
+	}
+	SailfishTrophy: {
+		DisplayName: バショウカジキのトロフィー
+		Tooltip:
+			'''
+			「もし壁に掛けられてるのが
+			あなた自身だったらどう思う？」
+			'''
+	}
+	SchematicDisplay: {
+		DisplayName: 設計図ディスプレイ
+		Tooltip:
+			'''
+			文章を表示する
+			<right>で他の文章を表示する
+			'''
+	}
+	Se: {
+		DisplayName: エントロピーチューブマン
+		Tooltip:
+			'''
+			膨らむと、暴れまわるセパルチャーの風船になる
+			「混沌を受け入れよ」
+			'''
+	}
+	StarstruckSynthesizer: {
+		DisplayName: 星に魅せられたシンセサイザー
+		Tooltip: 特別なクラフトに使用する
+	}
+	C: {
+		DisplayName: 災厄の像
+		Tooltip: 物語の始まり
+	}
+	EyedolStatue: {
+		DisplayName: アイドルの石像
+		Tooltip: ""
+	}
+	IsopodStatue: {
+		DisplayName: シンカイオオグソクムシの石像
+		Tooltip: ""
+	}
+	Knight: {
+		DisplayName: 大地の騎士の石像
+		Tooltip: "「トーナメントでは違法」"
+	}
+	NukeFlyStatue: {
+		DisplayName: ジョウキバエの石像
+		Tooltip: ""
+	}
+	PlagueFrogStatue: {
+		DisplayName: 疫病ガエルの石像
+		Tooltip: ""
+	}
+	Provibust: {
+		DisplayName: 冒涜されし偶像
+		Tooltip: "「あなたのためなら死ねます、主よ」"
+	}
+	ShrineoftheTides: {
+		DisplayName: 潮流の祠
+		Tooltip: 水の精霊への捧げ物
+	}
+	ViolemurStatue: {
+		DisplayName: ヴィオレムールの石像
+		Tooltip: ""
+	}
+	SulphurColumn: {
+		DisplayName: 補償アイテム
+		Tooltip: 売却可能
+	}
+	SulphurGeyser: {
+		DisplayName: 蒸気間欠泉
+		Tooltip:
+			'''
+			<right>でバリエーションを切り替える
+			「危険！注意してください！」
+			'''
+	}
+	SulphuricTank: {
+		DisplayName: 硫黄タンク
+		Tooltip: ZZZX93
+	}
+	SunkenLamp: {
+		DisplayName: 沈んだランプ
+		Tooltip: トリッピー
+	}
+	TerminusShrine: {
+		DisplayName: 終着の祠
+		Tooltip: 終末のアーティファクトを収めるために作られた祭壇
+	}
+	TerminusShrine2: {
+		DisplayName: 終着の祠レベル2
+		Tooltip: 終末のアーティファクトを収めた祭壇
+	}
+	TerminusShrine3: {
+		DisplayName: 終着の祠レベル3
+		Tooltip: おしまい。
+	}
+	Tesla: {
+		DisplayName: ストームコイル
+		Tooltip: ビビビ
+	}
+	VisceralAltarItem: {
+		DisplayName: 臓物の祭壇
+		Tooltip: クリムゾンアルターとして扱われる
+	}
+	VoidPortal: {
+		DisplayName: 虚空のポータル
+		Tooltip: 虚空が呼んでいる…
+	}
+	YellowSeaFountain: {
+		DisplayName: 黄色の海の噴水
+		Tooltip: ""
+	}
+	AstralDirtWall: {
+		DisplayName: アストラルブライトの土の壁
+		Tooltip: ""
+	}
+	AstralGrassWall: {
+		DisplayName: アストラルブライトの草の壁
+		Tooltip: ""
+	}
+	AstralHardenedSandWall: {
+		DisplayName: アストラルブライトの硬化した砂の壁
+		Tooltip: ""
+	}
+	AstralIceWall: {
+		DisplayName: アストラルブライトの氷の壁
+		Tooltip: ""
+	}
+	AstralSandstoneWall: {
+		DisplayName: アストラルブライトの砂岩の壁
+		Tooltip: ""
+	}
+	XenomonolithWall: {
+		DisplayName: ゼノモノリスの壁
+		Tooltip: ""
+	}
+	XenostoneWall: {
+		DisplayName: ゼノストーンの壁
+		Tooltip: ""
+	}
+	AstralBrickWall: {
+		DisplayName: アストラルブライトのレンガの壁
+		Tooltip: ""
+	}
+	AstralPearlWall: {
+		DisplayName: アストラルパールの壁
+		Tooltip: ""
+	}
+	AstralPlatingWall: {
+		DisplayName: アストラルプレートの壁
+		Tooltip: ""
+	}
+	AuricBrickWall: {
+		DisplayName: オーリックのレンガの壁
+		Tooltip: ""
+	}
+	BlightedEggWall: {
+		DisplayName: アストラルブライトの卵の壁
+		Tooltip: ""
+	}
+	BloodstoneBrickWall: {
+		DisplayName: ブラッドストーンのレンガの壁
+		Tooltip: ""
+	}
+	BloodstoneWall: {
+		DisplayName: ブラッドストーンの壁
+		Tooltip: ""
+	}
+	ChiseledBloodstoneBrickWall: {
+		DisplayName: 模様入りのブラッドストーンのレンガの壁
+		Tooltip: ""
+	}
+	EidolicSlabWall: {
+		DisplayName: 異形の平石の壁
+		Tooltip: ""
+	}
+	FrostflakeWall: {
+		DisplayName: 雪の結晶のレンガの壁
+		Tooltip: ""
+	}
+	HallowedBrickWall: {
+		DisplayName: 聖鉄のレンガの壁
+		Tooltip: ""
+	}
+	MossyGravelWall: {
+		DisplayName: 補償アイテム
+		Tooltip: 売却可能
+	}
+	NecrostoneWall: {
+		DisplayName: ネクロストーンの壁
+		Tooltip: ""
+	}
+	PhantowaxWall: {
+		DisplayName: ファントワックスの壁
+		Tooltip: ""
+	}
+	PlagueHiveWall: {
+		DisplayName: 感染した巣の壁
+		Tooltip: ""
+	}
+	PolishedAstralMonolithWall: {
+		DisplayName: 磨かれたアストラルモノリスの壁
+		Tooltip: ""
+	}
+	PolishedXenomonolithWall: {
+		DisplayName: 磨かれたゼノモノリスの壁
+		Tooltip: ""
+	}
+	ShadowBrickWall: {
+		DisplayName: 影のレンガの壁
+		Tooltip: ""
+	}
+	WulfrumPanelWall: {
+		DisplayName: ウルフラムパネルの壁
+		Tooltip: ""
+	}
+	XenoSolution: {
+		DisplayName: 環境変更液（アストラルブライト）
+		Tooltip:
+			'''
+			環境変更銃の弾
+			土地をアストラルブライトにする
+			'''
+	}
+	YellowSolution: {
+		DisplayName: 補償アイテム
+		Tooltip: 売却可能
+	}
+	KnowledgeFogbound: {
+		DisplayName: フォグバウンドの知識
+		Tooltip: ""
+	}
+	SulphuricDye: {
+		DisplayName: 染料（硫黄）
+		Tooltip: ""
+	}
+	TyrantFeed: {
+		DisplayName: Tyrant Feed
+		Tooltip: Potassium
+	}
+	GoozmaPlush: {
+		Tooltip: ""
+		DisplayName: グーズマのぬいぐるみ
+	}
+	GoozmaPlushThrowable: {
+		Tooltip: 投げられる
+		DisplayName: 投げられるグーズマのぬいぐるみ
+	}
+	Aeroplate: {
+		DisplayName: エアロプレート
+		Tooltip: ""
+	}
+	AeroplateWall: {
+		DisplayName: エアロプレートの壁
+		Tooltip: ""
+	}
+	ProvidenceAltar: {
+		DisplayName: 冒涜されし女神のコアホルダー
+		Tooltip: 冒涜されし女神のコアを保持している
+	}
+	PolterCable: {
+		DisplayName: ポルターケーブル
+		Tooltip: ""
+	}
+	PolterRemote: {
+		DisplayName: ポルターリモート
+		Tooltip: ""
+	}
+	PolterDrawOrderer: {
+		DisplayName: ポルタードローオーダラー
+		Tooltip: ""
+	}
+	PolterRemoteChainer: {
+		DisplayName: ポルターリモートチェイン
+		Tooltip: ""
+	}
+	Booger: {
+		DisplayName: グランドマーキスブロック
+		Tooltip: "「ハナクソ」"
+	}
+	FriendExtinguisher: {
+		DisplayName: 友達消化器
+		Tooltip: ファニー・ザ・フレイムを切り替える
+	}
+	TestDye: {
+		DisplayName: Test Dye
+		Tooltip: ""
+	}
+}
+Projectiles: {
+	# Meldosaurus stuff
+	EntropicVomet.DisplayName: Entropic Vomet
+	TomeoFates.DisplayName: Tome of Fates
+	GodsFire.DisplayName: God's Fire
+	ShardofAntumbra.DisplayName: Shard of Antumbra
+	MeldosaurusClone.DisplayName: Meldosaurus Shade
+	Amogus.DisplayName: Amogus
+	FogboundFist.DisplayName: Fogbound Fist
+	EntropicVomit.DisplayName: Entropic Vomit
+	NyanthropProjectile.DisplayName: Nyanthrop Projectile
+	GaussArm.DisplayName: Nuke arm
+	LaserArm.DisplayName: Laser arm
+	PlasmaArm.DisplayName: Plasma arm
+	TeslaArm.DisplayName: Tesla arm
+	MawTeeth.DisplayName: Maw Teeth
+	Phantomhook.DisplayName: Phantomhook
+	ProfanedHook.DisplayName: Profaned Hook
+	RavaClaw.DisplayName: Rava Claw
+	ScavaClaw.DisplayName: Scava Claw
+	THanosHook.DisplayName: T Hanos Hook
+	OracleNPCPet_Pet.DisplayName: Oracle N P C Pet_ Pet
+	AstralSandBall.DisplayName: Blighted Atral Sand Ball
+	AstralSolutionProj.DisplayName: Xeno Spray
+	BleachBallThrown.DisplayName: Bleach Ball Thrown
+	AcidRound.DisplayName: Terror Bullet
+	Anahita.DisplayName: Anahita
+	AnahitaTear.DisplayName: Anahita
+	Atlantis.DisplayName: Atlantis
+	BoiRock.DisplayName: Rock
+	BoiUI.DisplayName: Boi UI
+	Brimhita.DisplayName: Brimnahita
+	ElderBerry.DisplayName: Elderberry
+	Mire.DisplayName: Mire
+	RoomTransition.DisplayName: Room Transition
+	Spider.DisplayName: Spider
+	Terror.DisplayName: Terror
+	ChaoticPuffballThrown.DisplayName: Chaotic Puffball Thrown
+	InkShot.DisplayName: Ink Shot
+	OracleNPC_8Ball.DisplayName: Oracle's Magic 8 Ball
+	OracleNPC_Cards.DisplayName: Oracle Card
+	AeroBaby.DisplayName: Aero Baby
+	AeroSlimePet.DisplayName: Aero Slime
+	Androomba.DisplayName: Androomba
+	Angrypup.DisplayName: Angry Pupper
+	AquaPet.DisplayName: Aquatic Pest
+	AstPhage.DisplayName: Aureophage
+	Avalon.DisplayName: Avalon
+	BabyCnidrion.DisplayName: Sneeze Dragon
+	BabyHage.DisplayName: Hage
+	BabyMonster.DisplayName: Baby Monster
+	BabySquid.DisplayName: Lil' Squid
+	Blockaroz.DisplayName: Bl0ckar0z
+	BoldLizard.DisplayName: Rocc Lizard
+	BrimberryPet.DisplayName: Brimberry
+	BuffReaper.DisplayName: Buff lil man
+	BugDoge.DisplayName: Bugdoge
+	Buppy.DisplayName: Buppy
+	CalamityBABY.DisplayName: Calamity BABY
+	Catfish.DisplayName: Catfish
+	ClamHermit.DisplayName: Clam Hermit
+	CoolBlueSignut.DisplayName: Cool Blue Signut
+	CoolBlueSlime.DisplayName: Cool Blue Slime God
+	Crimulan.DisplayName: Crimulan Slime Demigod
+	Cryokid.DisplayName: Cryokid
+	DesertPet.DisplayName: Desert Pest
+	DeusPet.DisplayName: Astrum Demus
+	DeusPetSmall.DisplayName: Astrum Demus
+	DogBody.DisplayName: Devourer of Gods (real)
+	DogHead.DisplayName: Devourer of Gods (real)
+	DogTail.DisplayName: Devourer of Gods (real)
+	Dragonball.DisplayName: BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALL EXPLOSION
+	Dstone.DisplayName: Unhappy Stone
+	Ebonian.DisplayName: Ebonian Slime Demigod
+	BabyWaterClone.DisplayName: Water Gal
+	CloudMini.DisplayName: Cloudy
+	RareBrimling.DisplayName: Rare Brimling
+	RaresandMini.DisplayName: Dustgirl
+	Sandmini.DisplayName: dustgirl
+	Euros.DisplayName: Chibii Euros
+	EWyrm.DisplayName: EWyrm
+	AresBody.DisplayName: Toy Ares
+	ThanatosPet.DisplayName: Toy Thanatos
+	TwinsPet.DisplayName: Toy Twins
+	FathomEelBody.DisplayName: Fathom Eel
+	FathomEelHead.DisplayName: Fathom Eel
+	FathomEelTail.DisplayName: Fathom Eel
+	Fistuloid.DisplayName: Perfistuloid
+	FogPet.DisplayName: Fogbound
+	FollyPet.DisplayName: Bumblefolly
+	George.DisplayName: George
+	GhastlyZygote.DisplayName: Ghastly Zygote
+	GoozmaPet.DisplayName: Goozma
+	GrandPet.DisplayName: Great Grandson Shark
+	Headoge.DisplayName: Headoge
+	Hiveling.DisplayName: Hiveling
+	Hoodieidolist.DisplayName: Shydolist
+	JaredBody.DisplayName: Jared Body
+	JaredHead.DisplayName: Jared Head
+	JaredTail.DisplayName: Jared
+	Junko.DisplayName: Lil Junko
+	DarksunSpirit_Fish.DisplayName: Darksun Fish
+	DarksunSpiritSkull_1.DisplayName: Darksun Skull
+	DarksunSpiritSkull_2.DisplayName: Darksun Small Skull
+	DiggerPet.DisplayName: Miniature Digger
+	Enredpet.DisplayName: Cosmic Assistant
+	Godrge.DisplayName: Nuclear George
+	HeatBaby.DisplayName: Baby Cinder Spirit
+	HeatPet.DisplayName: Cinder Spirit
+	Lightshield.DisplayName: Arctic Shield
+	Minimpious.DisplayName: Minimpious
+	PhantomSpirit.DisplayName: Phantom Spirit
+	ProGuard1.DisplayName: Small Potato
+	ProGuard2.DisplayName: Nice Small Potato
+	ProGuard3.DisplayName: Angry Small Potato
+	ProviPet.DisplayName: large Potato
+	SeerL.DisplayName: Small Sightseer
+	SeerM.DisplayName: Mini Sightseer
+	SeerS.DisplayName: Micro Sightseer
+	Skeetyeet.DisplayName: Sunfish
+	SolarBunny.DisplayName: Solar Bunny
+	Bishop.DisplayName: Dark Sun Elemental
+	EndoRune.DisplayName: Endo Runes
+	SpookShark.DisplayName: Phantoshark
+	SpookSmall.DisplayName: Phantofish
+	LumpyBase.DisplayName: Lumpy
+	MechaGeorge.DisplayName: Mecha George
+	MiniBumble.DisplayName: Mini Bumble
+	MiniCryo.DisplayName: Chill Dude
+	MiniCryoCalless.DisplayName: Chill Dude
+	MiniDoge.DisplayName: Mini Bumbledoge
+	MoistScourgeBody.DisplayName: Desert Pest
+	MoistScourgeHead.DisplayName: Desert Pest
+	MoistScourgePet.DisplayName: Dune Pest
+	MoistScourgeTail.DisplayName: Desert Pest
+	NuclearfuryshronPet.DisplayName: Dukapitated Pet
+	Nugget.DisplayName: THE NUGGET
+	PBGmini.DisplayName: Poor Sick Bee
+	PhantomPet.DisplayName: Phantom Larva
+	Pillager.DisplayName: Province Pilferer
+	PolterChan.DisplayName: Polter-Chan
+	Puppo.DisplayName: Chihuahua Puppo
+	RedPanda.DisplayName: Red Panda
+	RepairBot.DisplayName: Repair Bot
+	RoverSpindlePet.DisplayName: RoverdriveZ
+	RustyMimic.DisplayName: Rusty Mimic
+	ScoriaDuke.DisplayName: Scoria Duke
+	AmberPet.DisplayName: Amber Scuttler
+	AmethystPet.DisplayName: Amethyst Scuttler
+	BejeweledScuttler.DisplayName: Bejeweled Scuttler
+	CrystalPet.DisplayName: Crystal Scuttler
+	DiamondPet.DisplayName: Diamond Scuttler
+	EmeraldPet.DisplayName: Emerald Scuttler
+	RubyPet.DisplayName: Ruby Scuttler
+	SapphirePet.DisplayName: Sapphire Scuttler
+	TopazPet.DisplayName: Topaz Scuttler
+	SepulcherBody1Neo.DisplayName: Sepulcher Body
+	SepulcherHeadNeo.DisplayName: Sepulcher
+	SepulcherTailNeo.DisplayName: Sepulcher
+	Sepulchling.DisplayName: Rotting Sepulchling
+	SignusMini.DisplayName: Mini Signus
+	Sirember.DisplayName: Giant Decapitated Floating Siren Head
+	SiremberSpook.DisplayName: Giant Decapitated Floating Siren Head
+	SkaterPet.DisplayName: Skater Nymph
+	SlimeDemi.DisplayName: Slime Demi
+	Smauler.DisplayName: Smauler
+	SmolCrab.DisplayName: Smol Crab
+	SSignus.DisplayName: Mini Signus
+	StarJelly.DisplayName: Star Jelly
+	StasisArmored.DisplayName: Stasis Drone
+	StasisNaked.DisplayName: Stasis Drone
+	SVoid.DisplayName: Void Orb
+	SWeeb.DisplayName: Stasis Drone
+	SWPet.DisplayName: Lil Weaver
+	TerminalRock.DisplayName: Xeroc's Xerock
+	TUB.DisplayName: TUB
+	UngodlySerpent.DisplayName: Sneaker Dude
+	VoidOrb.DisplayName: Void Orb
+	WraithsExcalibur.DisplayName: Wraith's Excalibur
+	WulfrumDrone.DisplayName: Wulfrum Drone
+	WulfrumHover.DisplayName: Wulfrum Hovercraft
+	WulfrumOrb.DisplayName: Wulfrom Gyrothing
+	WulfrumPylon.DisplayName: Wulfrum Pylon
+	WulfrumRover.DisplayName: Wulfrom Rover
+	YharimSquid.DisplayName: Yharim Squid
+	AnahitaPlush.DisplayName: Anahita Plush
+	ApolloPlush.DisplayName: Apollo Plush
+	AquaticScourgePlush.DisplayName: Aquatic Scourge Plush
+	AresPlush.DisplayName: Ares Plush
+	ArtemisPlush.DisplayName: Artemis Plush
+	AstrageldonPlush.DisplayName: Astrageldon Plush
+	AstrumAureusPlush.DisplayName: Astrum Aureus Plush
+	AstrumDeusPlush.DisplayName: Astrum Deus Plush
+	BrimstoneElementalPlush.DisplayName: Brimstone Elemental Plush
+	BumblefuckPlush.DisplayName: Bumblefuck Plush
+	CalaFumo.DisplayName: Cala Fumo
+	CalaFumoSpeen.DisplayName: Cala Fumo Speen
+	CeaselessVoidPlush.DisplayName: Ceaseless Void Plush
+	ClonePlush.DisplayName: Clone Plush
+	CrabulonPlush.DisplayName: Crabulon Plush
+	CryogenPlush.DisplayName: Cryogen Plush
+	DesertScourgePlush.DisplayName: Desert Scourge Plush
+	DevourerofGodsPlush.DisplayName: Devourerof Gods Plush
+	DraedonPlush.DisplayName: Draedon Plush
+	GiantClamPlush.DisplayName: Giant Clam Plush
+	HiveMindPlush.DisplayName: Hive Mind Plush
+	HypnosPlush.DisplayName: Hypnos Plush
+	ItsReal.DisplayName: Its Real
+	ItsRealAlt.DisplayName: Its Real Alt
+	JaredPlush.DisplayName: Jared Plush
+	LeviathanPlush.DisplayName: Leviathan Plush
+	MaulerPlush.DisplayName: Mauler Plush
+	MirePlushP1.DisplayName: Mire Plush P1
+	MirePlushP2.DisplayName: Mire Plush P2
+	NuclearTerrorPlush.DisplayName: Nuclear Terror Plush
+	OldDukePlush.DisplayName: Old Duke Plush
+	PerforatorPlush.DisplayName: Perforator Plush
+	PlaguebringerGoliathPlush.DisplayName: Plaguebringer Goliath Plush
+	PolterghastPlush.DisplayName: Polterghast Plush
+	ProfanedGuardianPlush.DisplayName: Profaned Guardian Plush
+	ProvidencePlush.DisplayName: Providence Plush
+	RavagerPlush.DisplayName: Ravager Plush
+	SandSharkPlush.DisplayName: Sand Shark Plush
+	SignusPlush.DisplayName: Signus Plush
+	SlimeGodPlush.DisplayName: Slime God Plush
+	StormWeaverPlush.DisplayName: Storm Weaver Plush
+	ThanatosPlush.DisplayName: Thanatos Plush
+	YharonPlush.DisplayName: Yharon Plush
+	CrabSlider.DisplayName: Crabulon Slider
+	DSSlider.DisplayName: Desert Scourge Slider
+	HiveSlider.DisplayName: Hive Mind Slider
+	PerfSlider.DisplayName: Perforator Slider
+	PlayerSlider.DisplayName: Pong Slider
+	PongBall.DisplayName: Pong Ball
+	PongUI.DisplayName: Pong UI
+	SGSlider.DisplayName: Slime God Slider
+	FogLaser.DisplayName: Fog Laser
+	JharimLaser.DisplayName: Jharim Laser
+	JharimKiller.DisplayName: Jharim Killer
+	Ranged.GodsFire.DisplayName: Gods Fire
+	Magic.JharimKiller.DisplayName: Jharim Killer
+	GoozmaPlush.DisplayName: Goozma Plush
+	OmegaCultistCandle.DisplayName: Omega Cultist
+	OmegaCultistTrident.DisplayName: Omega Cultist
+	ArtemisBalloonProj.DisplayName: Artemis Balloon Proj
+	ApolloBalloonProj.DisplayName: Apollo Balloon Proj
+	ScalPet.DisplayName: Scal Pet
+}
+Tiles: {
+	# Meldosaurus stuff
+	MeldosaurusMusicBoxPlaced.MapEntry: Music Box
+	MeldosaurusTrophyPlaced.MapEntry: Meldosaurus Trophy
+	AstralPalmSapling.MapEntry: アストラルブライトのPalm Sapling
+	AstralSapling.MapEntry: アストラルブライトのSapling
+	SnowAstralSapling.MapEntry: アストラルブライトのSapling
+	TiedBoB2Placed.MapEntry: Tied Water Balloons
+	TiedBoxBalloonPlaced.MapEntry: Tied Box Balloon
+	TiedChaosBalloonPlaced.MapEntry: Tied Chaos Balloon
+	TiedMirageBalloonPlaced.MapEntry: Tied Mirage Balloon
+	AstragellySlimeBannerPlaced.MapEntry: Astragelly Slime Banner
+	BleamurBannerPlaced.MapEntry: Bleamur Banner
+	CalamitasBannerPlaced.MapEntry: Acursed Banner
+	EyedolBannerPlaced.MapEntry: Eyedol Banner
+	GodSlayerSlugBannerPlaced.MapEntry: God Slayer Slug Banner
+	IsopodBannerPlaced.MapEntry: Abyssal Isopod Banner
+	SandTurtleBannerPlaced.MapEntry: Sand Turtle Banner
+	VeilBannerPlaced.MapEntry: Veil Banner
+	ViolemurBannerPlaced.MapEntry: Violemur Banner
+	XerocodileBannerPlaced.MapEntry: Xerocodile Banner
+	AgedLogPlaced.MapEntry: Aged Blueprint
+	AstrumAureusBlueprintPlaced.MapEntry: Astrum Aureus Blueprint
+	BumblebirbBlueprintPlaced.MapEntry: Yharon Cloning Project Blueprint
+	CalamitasBlueprintPlaced.MapEntry: Calamitas Blueprint
+	DestroyerBlueprintPlaced.MapEntry: Destroyer Blueprint
+	DogBlueprintPlaced.MapEntry: Cosmilite Plating Blueprint
+	MurasamaBlueprintPlaced.MapEntry: Murasama Blueprint
+	OrthoceraBlueprintPlaced.MapEntry: Orthocera Exile Plan
+	PlagueBlueprintPlaced.MapEntry: Plague Blueprint
+	PrimeBlueprintPlaced.MapEntry: Skeletron Prime Blueprint
+	SamBlueprintPlaced.MapEntry: Murasama Blueprint EX
+	TwinsBlueprintPlaced.MapEntry: Twins Blueprint
+	YharmorBlueprintPlaced.MapEntry: オーリックのArmor Blueprint
+	AstJarPlaced.MapEntry: Astrageldon in a Jar
+	BleamurPerchPlaced.MapEntry: Bleamur Perch
+	BlinkerInABottlePlaced.MapEntry: Blinker in a Bottle
+	GAstJarPlaced.MapEntry: Cooler Astrageldon in a Jar
+	GoldViolemurMonolithPlaced.MapEntry: Gold Violemur Perch
+	NukeJarPlaced.MapEntry: Nuclear Fly in a Jar
+	OrthoJarPlaced.MapEntry: Orthocera in a Jar
+	ViolemurMonolithPlaced.MapEntry: Violemur Perch
+	CalamitasCofferPlaced.MapEntry: Treasure Coffer
+	CeremonialUrnPlaced.MapEntry: Ceremonial Urn
+	DraedonQuoteonQuoteBagPlaced.MapEntry: Draedon Box
+	AgedRustGamingTablePlaced.MapEntry: Aged Lab Gaming Table
+	RustGamingTablePlaced.MapEntry: Lab Gaming Table
+	RustGamingTablePlaced2.MapEntry: Lab Gaming Table 2
+	OldAstralBathtub.MapEntry: ゼノモノリスのバスタブ
+	OldAstralBed.MapEntry: ゼノモノリスのベッド
+	OldAstralBookshelf.MapEntry: ゼノモノリスの本棚
+	OldAstralCandelabra.MapEntry: ゼノモノリスの燭台
+	OldAstralCandle.MapEntry: ゼノモノリスの蝋燭
+	OldAstralChair.MapEntry: ゼノモノリスのイス
+	OldAstralChandelier.MapEntry: ゼノモノリスのシャンデリア
+	OldAstralChest: {
+		MapEntry: ゼノモノリスのチェスト
+		ContainerName: ゼノモノリスのチェスト
+	}
+	OldAstralClock.MapEntry: Mods.CalValEX.MapObject.OldAstralClock
+	OldAstralDoorClosed.MapEntry: ゼノモノリスのドア
+	OldAstralDoorOpen.MapEntry: ゼノモノリスのドア
+	OldAstralDresser: {
+		MapEntry: ゼノモノリスのドレッサー
+		ContainerName: ゼノモノリスのドレッサー
+	}
+	OldAstralLamp.MapEntry: ゼノモノリスのランプ
+	OldAstralLantern.MapEntry: ゼノモノリスのランタン
+	OldAstralPiano.MapEntry: ゼノモノリスのパイプオルガン
+	OldAstralSink.MapEntry: ゼノモノリスのシンク
+	OldAstralSofa.MapEntry: ゼノモノリスのベンチ
+	OldAstralTable.MapEntry: ゼノモノリスのテーブル
+	OldAstralWorkbench.MapEntry: ゼノモノリスの作業台
+	AuricBathtub.MapEntry: オーリックのバスタブ
+	AuricBed.MapEntry: オーリックのベッド
+	AuricBookshelf.MapEntry: オーリックの本棚
+	AuricCandelabra.MapEntry: オーリックの燭台
+	AuricCandle.MapEntry: オーリックの蝋燭
+	AuricChair.MapEntry: オーリックのイス
+	AuricChandelier.MapEntry: オーリックのシャンデリア
+	AuricChest: {
+		MapEntry: オーリックのチェスト
+		ContainerName: オーリックのチェスト
+	}
+	AuricClock.MapEntry: Mods.CalValEX.MapObject.AuricClock
+	AuricDoorClosed.MapEntry: オーリックのドア
+	AuricDoorOpen.MapEntry: オーリックのドア
+	AuricDresser: {
+		MapEntry: オーリックのドレッサー
+		ContainerName: オーリックのドレッサー
+	}
+	AuricLamp.MapEntry: オーリックのランプ
+	AuricLantern.MapEntry: オーリックのランタン
+	AuricManufacturerPlaced.MapEntry: オーリックメーカー
+	AuricPiano.MapEntry: オーリックのピアノ
+	AuricSink.MapEntry: オーリックのシンク
+	AuricSofa.MapEntry: オーリックのソファ
+	AuricTable.MapEntry: オーリックのテーブル
+	AuricWorkbench.MapEntry: オーリックの作業台
+	BloodstoneBathtub.MapEntry: ブラッドストーンのバスタブ
+	BloodstoneBed.MapEntry: ブラッドストーンのベッド
+	BloodstoneBookshelf.MapEntry: ブラッドストーンの本棚
+	BloodstoneCandelabra.MapEntry: ブラッドストーンの燭台
+	BloodstoneCandle.MapEntry: ブラッドストーンの蝋燭
+	BloodstoneChair.MapEntry: ブラッドストーンのイス
+	BloodstoneChandelier.MapEntry: ブラッドストーンのシャンデリア
+	BloodstoneChest: {
+		MapEntry: ブラッドストーンのチェスト
+		ContainerName: ブラッドストーンのチェスト
+	}
+	BloodstoneClock.MapEntry: Mods.CalValEX.MapObject.BloodstoneClock
+	BloodstoneDoorClosed.MapEntry: ブラッドストーンのドア
+	BloodstoneDoorOpen.MapEntry: ブラッドストーンのドア
+	BloodstoneDresser: {
+		MapEntry: ブラッドストーンのドレッサー
+		ContainerName: ブラッドストーンのドレッサー
+	}
+	BloodstoneLamp.MapEntry: ブラッドストーンのランプ
+	BloodstoneLantern.MapEntry: ブラッドストーンのランタン
+	BloodstonePiano.MapEntry: ブラッドストーンのピアノ
+	BloodstoneSink.MapEntry: ブラッドストーンのシンク
+	BloodstoneSofa.MapEntry: ブラッドストーンのソファ
+	BloodstoneTable.MapEntry: ブラッドストーンのテーブル
+	BloodstoneWorkbench.MapEntry: ブラッドストーンの作業台
+	NecroticTorchPlaced.MapEntry: Torch
+	RavamperPlaced.MapEntry: Necrotic Bonfire
+	PhantowaxBathtub.MapEntry: ファントワックスのバスタブ
+	PhantowaxBed.MapEntry: ファントワックスのベッド
+	PhantowaxBookshelf.MapEntry: ファントワックスの本棚
+	PhantowaxCandelabra.MapEntry: ファントワックスの燭台
+	PhantowaxCandle.MapEntry: ファントワックスの蝋燭
+	PhantowaxChair.MapEntry: ファントワックスのイス
+	PhantowaxChandelier.MapEntry: ファントワックスのシャンデリア
+	PhantowaxChest: {
+		MapEntry: ファントワックスのチェスト
+		ContainerName: ファントワックスのチェスト
+	}
+	PhantowaxClock.MapEntry: Mods.CalValEX.MapObject.PhantowaxClock
+	PhantowaxDoorClosed.MapEntry: ファントワックスのドア
+	PhantowaxDoorOpen.MapEntry: ファントワックスのドア
+	PhantowaxDresser: {
+		MapEntry: ファントワックスのドレッサー
+		ContainerName: ファントワックスのドレッサー
+	}
+	PhantowaxLamp.MapEntry: ファントワックスのランプ
+	PhantowaxLantern.MapEntry: ファントワックスのランタン
+	PhantowaxPiano.MapEntry: ファントワックスのピアノ
+	PhantowaxSink.MapEntry: ファントワックスのシンク
+	PhantowaxSofa.MapEntry: ファントワックスのソファ
+	PhantowaxTable.MapEntry: ファントワックスのテーブル
+	PhantowaxWorkbench.MapEntry: ファントワックスの作業台
+	WulfrumBathtub.MapEntry: Wulfrum Bathtub
+	WulfrumBed.MapEntry: Wulfrum Bed
+	WulfrumBookshelf.MapEntry: Wulfrum Bookcase
+	WulfrumCandelabra.MapEntry: Wulfrum Candelabra
+	WulfrumCandle.MapEntry: Wulfrum Candle
+	WulfrumChair.MapEntry: Wulfrum Chair
+	WulfrumChandelier.MapEntry: Wulfrum Chandelier
+	WulfrumChest: {
+		MapEntry: Wulfrum Chest
+		ContainerName: Wulfrum Chest
+	}
+	WulfrumClock.MapEntry: Mods.CalValEX.MapObject.WulfrumClock
+	WulfrumDresser: {
+		MapEntry: Wulfrum Dresser
+		ContainerName: Wulfrum Dresser
+	}
+	WulfrumLabstation.MapEntry: Wulfrum Work Bench
+	WulfrumLamp.MapEntry: Wulfrum Lamp
+	WulfrumLantern.MapEntry: Wulfrum Lantern
+	WulfrumPiano.MapEntry: Wulfrum Piano
+	WulfrumSink.MapEntry: Wulfrum Sink
+	WulfrumSofa.MapEntry: Wulfrum Sofa
+	WulfrumTable.MapEntry: Wulfrum Table
+	WulfrumToilet.MapEntry: Wulfrum Toilet
+	WulfrumWorkbench.MapEntry: Wulfrum Work Bench
+	AstralMusicBoxPlaced.MapEntry: Music Box
+	AuricTrashCanPlaced: {
+		MapEntry: オーリックのゴミ箱
+		ContainerName: オーリックのゴミ箱
+	}
+	BoiMachinePlaced.MapEntry: Boi Machine
+	BrimstoneHeartPlaced.MapEntry: Hanging Heart
+	BubbleMachinePlaced.MapEntry: Glub glub
+	CalamityLampPlaced.MapEntry: Calamity Torch
+	CosmiliteChairEXPlaced.MapEntry: Cosmlite Chair EX
+	DecommissionedDaedalusGolemPlaced.MapEntry: Decommissioned Daedalus Golem
+	DemonShieldPlaced.MapEntry: Wall accessory.,,
+	DisrepairUnitPlaced.MapEntry: Charletron's dead...
+	EvolutionPlaced.MapEntry: Evolution
+	HeartoftheCommunityPlaced.MapEntry: Heart of the Community
+	Helplaced.MapEntry: Help me
+	HesfinePlaced.MapEntry: I'm still not fine
+	JunkArtPlaced.MapEntry: Reconstructed Particle Accelerator
+	MireAquariumPlaced.MapEntry: Mire Aquarium
+	MoulderingAltarPlaced.MapEntry: Mouldering Altar
+	PlagueDialysisPlaced.MapEntry: Bumbletube
+	PongMachinePlaced.MapEntry: Pong Machine
+	RespirationShrinePlaced.MapEntry: Respiration Shrine
+	RoxFakePlaced.MapEntry: Fake Roxcalibur
+	SailfishTrophyPlaced.MapEntry: Sailfish Trophy
+	SchematicDisplayPlaced.MapEntry: Schematic Display
+	StarstruckSynthesizerPlaced.MapEntry: Starstruck Synthesizer
+	SulphuricTankPlaced.MapEntry: Irradiated Tank
+	SunkenLampPlaced.MapEntry: Sunken Lamp
+	TerminusShrineLevel2Placed.MapEntry: 終着の祠
+	TerminusShrineLevel3Placed.MapEntry: 終着の祠
+	TerminusShrinePlaced.MapEntry: 終着の祠
+	TeslaPlaced.MapEntry: Weaver Coil
+	VisceralAltarPlaced.MapEntry: 臓物の祭壇
+	VoidPortalPlaced.MapEntry: Void Portal
+	YellowSeaFountainPlaced.MapEntry: Yellow Sea Fountain
+	AccidentalAbominationnPlaced.MapEntry: Accidental Abominationn
+	BlazingConflictPlaced.MapEntry: Blazing Conflict
+	CalamiteaTimePlaced.MapEntry: Calamitea Time
+	CalamityFriendsPlaced.MapEntry: Friends!
+	CalamityPaintPlaced.MapEntry: Calamity Paint
+	CalamityPaintRetoldPlaced.MapEntry: Calamity Paint
+	CirrusBoozePlaced.MapEntry: FineChalice
+	ClamPlaced.MapEntry: Gyate Gyate
+	CosmicTerrorPlaced.MapEntry: Cosmic Terror
+	DarkMagicPlaced.MapEntry: Dark Magic
+	DraedonPopcornPlaced.MapEntry: Gamers don't die... THEY RESPAWN!!!
+	DualityPlaced.MapEntry: Duality
+	EspelhoPlaced.MapEntry: Espelho
+	EyeofXerocPlaced.MapEntry: The Eye of Xeroc
+	FrozenPlaced.MapEntry: Frozen
+	GallusYharusPlaced.MapEntry: Gallus Yharus
+	LostSoulsPlaced.MapEntry: Lost Souls
+	ModIconPaintingPlaced.MapEntry: Calamity's Vanities
+	NotLikeHomePlaced.MapEntry: Not like home...
+	OldModIconPaintingPlaced.MapEntry: Calamity's Vanities... but OLD!
+	OldUCMMPlaced.MapEntry: Unofficial Calamity Mod Music... but OLD!
+	Plague22Placed.MapEntry: "22"
+	RogueExtractorPlaced.MapEntry: Rogue Extractor
+	ScourgyPlaced.MapEntry: Scourgy
+	SignutPlaced.MapEntry: Signut
+	SleepingGiantPlaced.MapEntry: Sleeping Giant
+	SnoutsPlaced.MapEntry: Snouts
+	SundayAfternoonCalPlaced.MapEntry: A Sunday Afternoon in the World of Calamity.
+	SwearingShroomPlaced.MapEntry: Swearshroom
+	TheGreatSandwormPlaced.MapEntry: The Great Sandworm
+	TheYharPlaced.MapEntry: ":THE_YHAR:"
+	UCMMPlaced.MapEntry: Unofficial Calamity Mod Music
+	UnholyTripPlaced.MapEntry: Unholy Trip
+	VVanitiesPlaced.MapEntry: V for Vanities!
+	WilliamPaintingPlaced.MapEntry: Calamity's Vanities
+	WormHeavenPlaced.MapEntry: Worm Heaven
+	YharlamitasPlaced.MapEntry: Fear
+	AnemonePlaced.MapEntry: Potted Anemone
+	AstralOldPurplePlaced.MapEntry: Purple Xenomonolith
+	AstralOldYellowPlaced.MapEntry: Yellow Xenomonolith
+	BelchingCoralPlaced.MapEntry: Sulphuric Coral
+	BloodstoneRosesPlaced.MapEntry: ブラッドストーンのバラ
+	BotanicPotPlaced.MapEntry: Botanic Bonsai
+	BrainCoralPlaced.MapEntry: Potted Brain Coral
+	BrimPlantPlaced.MapEntry: Brimberry Plant
+	DecapoditaSproutPlaced.MapEntry: Potted Decapodita Sprout
+	FanCoralPlaced.MapEntry: Potted Fan Coral
+	FleshThingPlaced.MapEntry: Weird flesh thing
+	HolyStudedBonsaiPlaced.MapEntry: Holy Studded Bonsai
+	MonolithPotPlaced.MapEntry: Potted Astral Monolith
+	NetherTreeBigPlaced.MapEntry: Nether Willow
+	NetherTreePlaced.MapEntry: Twisting Nether Sapling
+	OddMushromPotPlaced.MapEntry: Fungus
+	SSCoralPlaced.MapEntry: Potted Sunken Coral
+	SulphurousCactusPlaced.MapEntry: Potted Sulphurous Cactus
+	SulphurousPlanterPlaced.MapEntry: Acid Vine Planter
+	TableCoralPlaced.MapEntry: Potted Table Coral
+	AnahitaPlushPlaced.MapEntry: Anahita Plush
+	ApolloPlushPlaced.MapEntry: Apollo Plush
+	AquaticScourgePlushPlaced.MapEntry: Aquatic Scourge Plush
+	AresPlushPlaced.MapEntry: Ares Plush
+	ArtemisPlushPlaced.MapEntry: Artemis Plush
+	AstrageldonPlushPlaced.MapEntry: Astrageldon Plush
+	AstrumAureusPlushPlaced.MapEntry: Astrum Aureus Plush
+	AstrumDeusPlushPlaced.MapEntry: Astrum Deus Plush
+	BrimstoneElementalPlushPlaced.MapEntry: Brimstone Elemental Plush
+	BumblefuckPlushPlaced.MapEntry: Dragonfolly Plush
+	CalaFumoPlaced.MapEntry: Calamitas Fumo
+	CeaselessVoidPlushPlaced.MapEntry: Ceaseless Void Plush
+	ClamPlushPlaced.MapEntry: Giant Clam Plush
+	ClonePlushPlaced.MapEntry: Calamitas Clone Plush
+	CrabulonPlushPlaced.MapEntry: Crabulon Plush
+	CryogenPlushPlaced.MapEntry: Cryogen Plush
+	DesertScourgePlushPlaced.MapEntry: Desert Scourge Plush
+	DevourerofGodsPlushPlaced.MapEntry: Devourer of Gods Plush
+	DraedonPlushPlaced.MapEntry: Draedon Plush
+	HiveMindPlushPlaced.MapEntry: Hive Mind Plush
+	HypnosPlushPlaced.MapEntry: Hypnos Plush
+	JaredPlushPlaced.MapEntry: Eidolon Wyrm Plush
+	LeviathanPlushPlaced.MapEntry: Leviathan Plush
+	MaulerPlushPlaced.MapEntry: Mauler Plush
+	MirePlushPlacedP1.MapEntry: Cragmaw Mire Plush
+	MirePlushPlacedP2.MapEntry: Cragmaw Mire Plush
+	NuclearTerrorPlushPlaced.MapEntry: Nuclear Terror Plush
+	OldDukePlushPlaced.MapEntry: Old Duke Plush
+	PerforatorPlushPlaced.MapEntry: Perforator Plush
+	PlaguebringerGoliathPlushPlaced.MapEntry: Plaguebringer Goliath Plush
+	PolterghastPlushPlaced.MapEntry: Polterghast Plush
+	ProfanedGuardianPlushPlaced.MapEntry: Profaned Guardian Plush
+	ProvidencePlushPlaced.MapEntry: Providence Plush
+	RavagerPlushPlaced.MapEntry: Ravager Plush
+	SandSharkPlushPlaced.MapEntry: Great Sand Shark Plush
+	SignusPlushPlaced.MapEntry: Signus Plush
+	SlimeGodPlushPlaced.MapEntry: Slime God Plush
+	StormWeaverPlushPlaced.MapEntry: Storm Weaver Plush
+	ThanatosPlushPlaced.MapEntry: Thanatos Plush
+	YharonPlushPlaced.MapEntry: Yharon Plush
+	CPlaced.MapEntry: Calamity
+	EyedolStatuePlaced.MapEntry: Eyedol Statue
+	IsopodStatuePlaced.MapEntry: Isopod Statue
+	KnightPlaced.MapEntry: Earthen Knight Statue
+	NukeFlyStatuePlaced.MapEntry: Vaporofly Statue
+	PlagueFrogStatuePlaced.MapEntry: Plagued Frog Statue
+	ProfanedIdolPlaced.MapEntry: Profaned Idol
+	ShrineoftheTidesPlaced.MapEntry: Shrine of the Tides
+	ViolemurStatuePlaced.MapEntry: Violemur Statue
+	TyrantFeedPlaced.MapEntry: Tyrant Feed Placed
+	GoozmaPlushPlaced.MapEntry: Goozma Plush Placed
+	ProvidenceAltarPlaced.MapEntry: Providence Altar Placed
+	PolterCablePlaced.MapEntry: Polter Cable Placed
+}
+Buffs: {
+	AmogusBuff: {
+		# When the april is fooled
+		DisplayName: Stratus Astronaut
+		# April fools
+		Description: amogus
+	}
+	DarksunSpiritBuff: {
+		# Light pets
+		DisplayName: Darksun Spirits
+		# Light pets
+		Description: The Darksun Spirits have decided to follow you!
+	}
+	EnredBuff: {
+		DisplayName: Cosmic Assistant
+		Description: He's here to help!
+	}
+	DiggerBuff: {
+		DisplayName: Rebuilt Digger
+		Description: Summons a piece of digging machinery to light your way
+	}
+	GodrgeBuff: {
+		DisplayName: Godrge
+		Description: Pathetic.
+	}
+	HeatBuff: {
+		DisplayName: Chaos Skulls
+		Description: Here to judge you for your sins... not really
+	}
+	ImpBuff: {
+		DisplayName: Minimpious
+		Description: Hey!
+	}
+	PhantomBuff: {
+		DisplayName: Freed Phantom Spirit
+		Description: Finally free, but still follows you!
+	}
+	ProBuff: {
+		DisplayName: The Profaned Armada
+		Description: Providence and her army shines holy light through the dark
+	}
+	PylonBuff: {
+		DisplayName: Proto-Amplifier
+		Description: Supercharges other proto-bots
+	}
+	SeerBuff: {
+		DisplayName: Sightseeing Tour
+		Description: Seeing the world together
+	}
+	SolarBunBuff: {
+		DisplayName: Sun Bun
+		Description: Bask under thy divine light
+	}
+	SupJewelBuff: {
+		DisplayName: Superstitious Jewel
+		Description: Pure is impure
+	}
+	VanityCoreBuff: {
+		DisplayName: Core of Vanity
+		Description: Everyone gets along!
+	}
+	YeetBuff: {
+		DisplayName: Litfish
+		Description: A baby sunskater will follow you now.
+	}
+	AnthozoanBuff: {
+		# Mounts
+		DisplayName: Cambrian Crustacean
+		# Mounts
+		Description: This one won't throw rocks at you
+	}
+	AuricTeslaBuff: {
+		DisplayName: オーリックのTesla
+		Description:
+			'''
+			Yharim Car
+			Yharim Car
+			'''
+	}
+	BikeBuff: {
+		DisplayName: Profaned Cycle
+		Description: For when you really need to get somewhere, in style.
+	}
+	BloodstoneCarriageBuff: {
+		DisplayName: ブラッドストーンのCarriage
+		Description: You could even call it a mi-
+	}
+	FloatyBuff: {
+		DisplayName: Floaty Rug
+		Description: Warning: flight not included.
+	}
+	GodRiderBuff: {
+		DisplayName: God Rider
+		Description: Ridin' the dimensional tides
+	}
+	HadarianBuff: {
+		DisplayName: Hadarian Fledgling
+		Description: SCREEEE
+	}
+	HiveVuff: {
+		DisplayName: Conglomeration Mind
+		Description: I swear it's not what you think
+	}
+	LeviathanMountBuff: {
+		DisplayName: Leviathan Guppy
+		Description: Better catch a fish
+	}
+	NuclearHorrorBuff: {
+		DisplayName: Nuclear Horror
+		Description: Why its helping you is beyond you
+	}
+	PBGMountBuff: {
+		DisplayName: Plague Rider
+		Description: Ya gotta beelieve in yourself
+	}
+	SilvaJeepBuff: {
+		DisplayName: Silvian Jeep
+		Description: Beep beep I'm a jeep
+	}
+	TractorMount: {
+		DisplayName: Wulfrum Tank
+		Description: Move forward soldier!
+	}
+	YharonMountBuff: {
+		DisplayName: Yharite
+		Description: He's finally here!
+	}
+	cloudbuff: {
+		# Elementals
+		DisplayName: Smol Cloud
+		# Elementals
+		Description: She can't protect you, but she's doing her best
+	}
+	minihotebuff: {
+		DisplayName: Childish Heart
+		Description: Its like you're running a day-care or something
+	}
+	MoistBuff: {
+		DisplayName: Vibrant Siren Child
+		Description: She can't defend you, but she's doing her best
+	}
+	rarebrimlingbuff: {
+		DisplayName: Rare Brimling
+		Description: She can't protect you, but she's doing her best
+	}
+	RareSsandBuff: {
+		DisplayName: Small Sand Elemental
+		Description: She can't heal you, but she's doing her best
+	}
+	SsandBuff: {
+		DisplayName: Tiny Sand Elemental
+		Description: She can't protect you, but she's doing her best
+	}
+	AresBuff: {
+		# Exos
+		DisplayName: Toy XF-Ares
+		# Exos
+		Description: He appears
+	}
+	ExoMayhemBuff: {
+		DisplayName: Toy Exo Mechs
+		Description: Perfected entertainment providers
+	}
+	ThanatosBuff: {
+		DisplayName: Toy XM-Thanatos
+		Description: T(oy t) han(at)os
+	}
+	TwinsBuff: {
+		DisplayName: Toy XS-Apollo and Artemis
+		Description: Here they are
+	}
+	AmberBuff: {
+		# Scuttlers
+		DisplayName: Amber Scuttler
+		# Scuttlers
+		Description: Still won't let go of its gem
+	}
+	AmethystBuff: {
+		DisplayName: Amethyst Scuttler
+		Description: Still won't let go of its gem
+	}
+	BejeweledBuff: {
+		DisplayName: Bejeweled Scuttler
+		Description: Still won't let go of its gems
+	}
+	CrystalBuff: {
+		DisplayName: Crystal Scuttler
+		Description: Still won't let go of its crystal
+	}
+	DiamondBuff: {
+		DisplayName: Diamond Scuttler
+		Description: Still won't let go of its gem
+	}
+	EmeraldBuff: {
+		DisplayName: Emerald Scuttler
+		Description: Still won't let go of its gem
+	}
+	RubyBuff: {
+		DisplayName: Ruby Scuttler
+		Description: Still won't let go of its gem
+	}
+	SapphireBuff: {
+		DisplayName: Sapphire Scuttler
+		Description: Still won't let go of its gem
+	}
+	TopazBuff: {
+		DisplayName: Topaz Scuttler
+		Description: Still won't let go of its gem
+	}
+	AeroBuff: {
+		# Pets
+		DisplayName: Aero Slimes
+		# Pets
+		Description: We glide together
+	}
+	AndroombaBuff: {
+		DisplayName: Androomba
+		Description: Nyoooom!
+	}
+	AquaBuff: {
+		DisplayName: Aquatic Pest
+		Description: Blaaaargh!
+	}
+	AvalonBuff: {
+		DisplayName: Ascended Profaned Guardian
+		Description: Because blue fire is cooler looking
+	}
+	BabySquidBuff: {
+		DisplayName: Lil' Squiddo
+		Description: ^-^
+	}
+	BeeBuff: {
+		DisplayName: Reprogrammed Plaguebringer
+		Description: BEEp. Boop. Buzz.
+	}
+	BlockarozBuff: {
+		DisplayName: A Cube
+		Description: I take this as a declaration
+	}
+	BuppyBuff: {
+		DisplayName: Buppy
+		Description: Will you throw that ball?
+	}
+	BrimberryBuff: {
+		DisplayName: Brimstone Berry
+		Description: It’s a long way up from hell…
+	}
+	CalamityBABYBuff: {
+		DisplayName: God's Presence
+		Description: The BABY of a omnipotent GOD accompany you... Just don't get hit
+	}
+	CatfishBuff: {
+		DisplayName: Fishcat
+		Description: What? Its a Catfish, what are you talking about?
+	}
+	ChilledOut: {
+		DisplayName: Cool Dude
+		Description: A really cool dude will follow you around
+	}
+	ckidbuff: {
+		DisplayName: Chilled Out 2
+		Description: Cryokid boogaloo
+	}
+	ClamHermitBuff: {
+		DisplayName: Clam Hermit
+		Description: An odd lil' fellow
+	}
+	CnidBuff: {
+		DisplayName: Little Cnidrion
+		Description: The poor thing could really use a tissue...
+	}
+	CoolBlueBuff: {
+		DisplayName: Cool Blue Dudes
+		Description: Some very coul bleu doods
+	}
+	CrabBuff: {
+		DisplayName: Fungal Crab
+		Description: They're a pretty Fun-Gi
+	}
+	DebrisPet: {
+		DisplayName: Phantom Buggo
+		Description: Listen here you lil
+	}
+	DEBuff: {
+		DisplayName: Dark Aura
+		Description: An aura of pure nothingness floats near you
+	}
+	DesertBuff: {
+		DisplayName: Desert Pest
+		Description: Blaaaargh
+	}
+	DeusBuff: {
+		DisplayName: Astrum Demus
+		Description: Wormheck
+	}
+	DogBuff: {
+		DisplayName: The Devourer of Gods
+		Description: All of this is canon
+	}
+	Doggobuff: {
+		DisplayName: Upset Pupper
+		Description: Like, the fifth best dog in calamity
+	}
+	EggBuff: {
+		DisplayName: Orphaned Egg
+		Description: It... thinks you're it's mother...
+	}
+	EurosBuff: {
+		DisplayName: Chibii Euros
+		Description: Chibii Euros is following you, cautiously
+	}
+	Excalibuff: {
+		DisplayName: Claidheamh Soluis
+		Description: You can't expect to wield supreme power just because some tart threw a sword at you
+	}
+	FathomEelBuff: {
+		DisplayName: Fathom Eel
+		Description: A crawling shape intrude!
+	}
+	FistuloidBuff: {
+		DisplayName: Fleshtuloid
+		Description: Gross
+	}
+	FogBuff: {
+		DisplayName: Fogbound
+		Description: Augh
+	}
+	FollyBuff: {
+		DisplayName: Dracoswarmer
+		Description: A derivative of a derivative of a derivative of a derivative
+	}
+	GeorgeBuff: {
+		DisplayName: George
+		Description: George
+	}
+	GoozmaBuff: {
+		DisplayName: Goozma
+		Description: The last trace of that which has been erased from time itself...
+	}
+	GrandBuff: {
+		DisplayName: Great Grandson Shark
+		Description: Heir to the apex throne
+	}
+	HivelingBuff: {
+		DisplayName: Cluster Mind
+		Description: A small pack of microorganisms are following you
+	}
+	HoodiedolistBuff: {
+		DisplayName: Hoodiedolist
+		Description: The cloak is his home
+	}
+	JaredBuff: {
+		DisplayName: Eidolon Wyrm
+		Description: Up from the depths
+	}
+	JellyBuff: {
+		DisplayName: Astral Gelatin
+		Description: A relic of a long forgotten past
+	}
+	JunkoBuff: {
+		DisplayName: Junsi
+		Description: Pure Fury
+	}
+	LumpyBuff: {
+		DisplayName: Lumpy
+		Description: Lumpy
+	}
+	MechaGeorgeBuff: {
+		DisplayName: G30RG3
+		Description: ...KDlt7S1U9x8
+	}
+	MiniBumbleBuff: {
+		DisplayName: Mini Birb
+		Description: Tweet
+	}
+	MiniDogeBuff: {
+		DisplayName: Murderswarm
+		Description: The Bombles follow your every move
+	}
+	MoistScourgeBuff: {
+		DisplayName: Dune Pest
+		Description: Blerch
+	}
+	NuclearFuryshronBuff: {
+		DisplayName: Dukapitated
+		Description: One of many...
+	}
+	NuggetBuff: {
+		DisplayName: The Jungle Nugget
+		Description: Rawr!
+	}
+	OmegaSquidBuff: {
+		DisplayName: Omega Cultists
+		Description: Your own little devotes
+	}
+	OrbBuff: {
+		DisplayName: The Dragonball
+		Description: Vibrating at intense speeds
+	}
+	PhageBuff: {
+		DisplayName: Space Sick
+		Description: You have been infected by the fledgling Aureophage!
+	}
+	PillagerBuff: {
+		DisplayName: Province Pilferer
+		Description: It's time to shred and thrash!
+	}
+	PolterBuff: {
+		DisplayName: Polter-Chan
+		Description: Poooolteeer chaaaaaaaaaaannnn
+	}
+	PuppoBuff: {
+		DisplayName: Chihuahua Puppo
+		Description: He's a good boy
+	}
+	ReaperBuff: {
+		DisplayName: Buff Man
+		Description: You could say this is a... buff buff
+	}
+	RedPandaBuff: {
+		DisplayName: Tara
+		Description: Tara, the Tarafying panda is following you
+	}
+	Rembuff: {
+		DisplayName: Giant Decapitated Floating Siren Head
+		Description: Awaiting arrival since 2018!
+	}
+	RepurposedMonitorBuff: {
+		DisplayName: Charletron
+		Description: Incompatible yet irreplacible
+	}
+	RoverSpindleBuff: {
+		DisplayName: Wulfrum Rover
+		Description: Brilliance irreplaceable...
+	}
+	RustyBuff: {
+		DisplayName: Rusty Mimic
+		Description: Good thing there aren't bigger ones
+	}
+	SadStoneBuff: {
+		DisplayName: Sad Rock
+		Description: ":("
+	}
+	ScorchingFuryshronBuff: {
+		DisplayName: Scorching Dukapitated
+		Description: Don't do Scoria kids
+	}
+	ScourgeBuff: {
+		DisplayName: Twin Pests
+		Description: Blaaaargh^2
+	}
+	SentiPet: {
+		DisplayName: The Sentinels
+		Description: The Cosmic Terrors watch over you
+	}
+	SepulcherBuff: {
+		DisplayName: Fallen Sepulchling
+		Description:
+			'''
+			A dark construct composed of the long deceased souls of the innocent...
+			Cute
+			'''
+	}
+	SepulcherBuffNeo: {
+		DisplayName: Sepulchling
+		Description: THIS ONE is benevolent
+	}
+	ShartBuff: {
+		DisplayName: The Sharks
+		Description: No they can't play hockey
+	}
+	SigBuff: {
+		DisplayName: Cloak and Dagger
+		Description: The Ethereal Assassin will watch your back... probably
+	}
+	SkaterBuff: {
+		DisplayName: Sulphurous Skater Nymph
+		Description: Feed it acidic bubbles for it to grow stronger!
+	}
+	SlimeBuff: {
+		DisplayName: Slime Demigods
+		Description: Heirs to the throne
+	}
+	SmaulerBuff: {
+		DisplayName: Smauler
+		Description: Chow~
+	}
+	StasisArmoredBuff: {
+		DisplayName: Armored Stasis Drone
+		Description: Why do I exist
+	}
+	StasisNakedBuff: {
+		DisplayName: Naked Stasis Drone
+		Description: Put some clothes on
+	}
+	SWPetBuff: {
+		DisplayName: Lil' Weaver
+		Description: '''"Guess they aren't extinct after all" '''
+	}
+	TerminalRockBuff: {
+		DisplayName: Xeroc's Pet Rock
+		Description: '''"This does put a smile on my face..." '''
+	}
+	TUBBUFF: {
+		DisplayName: T.U.B
+		Description: A tentacle monster is following you
+	}
+	UngodlyBuff: {
+		DisplayName: Ungodly Dude
+		Description: On his way to eat your socks
+	}
+	WulfrumArmy: {
+		DisplayName: Wulfrum Army
+		Description: Cling clang and bang
+	}
+	WyrmBuff: {
+		DisplayName: Eidolon Inchwyrm
+		Description: Ew, its all slimey...
+	}
+	YharimSquidBuff: {
+		DisplayName: オーリックのSquiddo
+		Description: He's gone so far in life
+	}
+	ZygoteBuff: {
+		DisplayName: Ghastly Zygote
+		Description: He might be a bit problematic...
+	}
+	ClassicBrimmyBuff: {
+		# Transformations
+		DisplayName: Brimstone Elemental Transformation
+		# Transformations
+		Description: Yes, you can touch Water
+	}
+	CloudTransformationBuff: {
+		DisplayName: Cloud Elemental Transformation
+		Description: Feelin' Cloudy
+	}
+	ProtoRingBuff: {
+		DisplayName: Proto-Andromeda
+		Description: Still working out the kinks
+	}
+	SandTransformationBuff: {
+		DisplayName: Sand Elemental Transformation
+		Description: heh.
+	}
+	SignutTransformationBuff: {
+		DisplayName: Ethereal Assassin
+		Description: Never been more edgy
+	}
+	AlarmClockBuff: {
+		# Pandemonium Box
+		DisplayName: Alarm Clock
+		# Pandemonium Box
+		Description: Careful, they might short circuit
+	}
+	AlterBellBuff.DisplayName: Altar Bell
+	BestInstrumentBuff: {
+		DisplayName: Best Instrument
+		Description: Fragments of your journey, keep them safe
+	}
+	DustChimeBuff: {
+		DisplayName: Dust Chime
+		Description: The adventure begins!
+	}
+	HarbingerOfWorkBuff: {
+		DisplayName: Harbinger Of Work
+		Description:
+			'''
+			Their passion overheats
+			Their system's on repeat
+			'''
+	}
+	MaladyBellsBuff: {
+		DisplayName: Malady Bells
+		Description: Your journey is not over, they will look after you
+	}
+	NurseryBellsBuff: {
+		DisplayName: Nursery Bells
+		Description: A terrarian's best friends!
+	}
+	ScratchedGongBuff: {
+		DisplayName: Scratched Gong
+		Description: Your magnum opera nears completion
+	}
+	SpiritDinerBuff: {
+		DisplayName: Spirit Diner Bell
+		Description: They'll help in your quest
+	}
+	TubRuneBuff: {
+		DisplayName: T.U.B. Rune
+		Description: ...Our final message
+	}
+	VaselineBuff: {
+		DisplayName: Vaseline Bell
+		Description: The sunrays shine and follow
+	}
+	WormBellBuff: {
+		DisplayName: Slither Charm
+		Description: Snaking around
+	}
+	PandoraBuff: {
+		DisplayName: Pandemonium Box
+		Description:
+			'''
+			Running too late
+			Running out of time 
+			'''
+	}
+	AltarBellBuff: {
+		DisplayName: Altar Bell
+		Description: The stars will guide your path
+	}
+	NurseryBellBuff: {
+		DisplayName: Nursery Bell
+		Description: Ring-a-ling
+	}
+	MorshuBuff: {
+		DisplayName: Morshu
+		Description: Rope coil? Gel? Bombs? You want it? It's yours my friend, as long as you have a giant ruby...
+	}
+}
+Biomes: {
+	AstralBlight: {
+		DisplayName: Astral Blight
+		TownNPCDialogueName: the Astral Blight
+	}
+}
+Conditions.Acid: fuck you
+Configs: {
+	CalValEXConfig: {
+		DisplayName: Config
+		DisableVanityDrops: {
+			Label: Disable All Drops
+			Tooltip: Disables all of the mod's direct drops
+		}
+		ConfigBossBlocks: {
+			Label: Disable Boss Block Drops
+			Tooltip: Makes it so that bosses and their bags no longer drop blocks
+		}
+		FatDog: {
+			Label: True Size
+			Tooltip: Makes a certain pet a lot larger when true
+		}
+		SupCombo: {
+			Label: Superstitious Spirit Parade
+			Tooltip: Allows the Superstitious Jewel to summon the 11 ingredient pets used to craft it
+		}
+		DragonballName: {
+			Label: Disable Dragonball Easter Egg
+			Tooltip: Disables the easter egg caused by the Dragonball pet
+		}
+		Polterskin: {
+			Label: Disable Toy Scythe Skins
+			Tooltip: Makes it so that the Toy Scythe's pet always uses its default skin
+		}
+		Pitbul: {
+			Label: Disable Pitbull Barking
+			Tooltip: Makes it so that the Pitbull pet doesn't bark at rare enemies
+		}
+		Headers.NPCs: NPCs
+		TownNPC: {
+			Label: Disable Town NPCs
+			Tooltip: Prevents the Oracle and Jelly Priestess from spawning
+		}
+		IsopodBait: {
+			Label: Disable Isopod Bait Scaling
+			Tooltip: Makes it so that Abyssal Isopods have max bait power at all times
+		}
+		CritterSpawns: {
+			Label: Disable Critter Spawns
+			Tooltip: Makes it so that all Calamity's Vanities critters no longer spawn naturally
+		}
+		GroundMountLol: {
+			Label: Disable Mount Nerf
+			Tooltip: Disables the stat cripple which ground mounts give
+		}
+		DiscordRichPresence: {
+			Label: Discord Rich Presence ([c/ffa11:Requires DRP Mod!])
+			Tooltip:
+				'''
+				Whether or not to initialize the Discord Rich Presence addons for the Discord Rich Presence mod by Purplefin Neptuna.
+				Requires that mod to be active in order to do anything.
+				'''
+		}
+		OwnerOnly: {
+			Label: Enable Server Owner Exclusive Config Access
+			Tooltip:
+				'''
+				Recommended for Host & Play or hosting server on same machine you play on.
+				If not enabled, all users can make changes to the config
+				'''
+		}
+		HerosPerm: {
+			Label: Enable Hero's Mod Config Changes via Permission System
+			Tooltip:
+				'''
+				For those that use Heros Mod in multiplayer.
+				If not enabled, all users can make changes to the config
+				'''
+		}
+	}
+}
+Config: {
+	Drops: ドロップ
+	Pets: ペット
+	OtherHeader: その他
+	HeroHeader: コンフィグアクセス
+}
+
