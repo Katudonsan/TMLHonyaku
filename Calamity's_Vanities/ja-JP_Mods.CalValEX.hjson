@@ -5257,8 +5257,8 @@ Buffs: {
 }
 Biomes: {
 	AstralBlight: {
-		DisplayName: Astral Blight
-		TownNPCDialogueName: the Astral Blight
+		DisplayName: アストラルブライト
+		TownNPCDialogueName: アストラルブライト
 	}
 }
 Conditions.Acid: fuck you
