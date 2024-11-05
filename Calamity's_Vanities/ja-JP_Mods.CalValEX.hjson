@@ -1210,7 +1210,7 @@ Items: {
 	THanosHook.DisplayName: タナトスフック
 	ExodiumMoon: {
 		# Misc
-		DisplayName: エグゾディウムの衛星
+		DisplayName: エクソディウムの衛星
 		# Misc
 		Tooltip: 世界は廻る
 	}
@@ -2076,8 +2076,8 @@ Items: {
 			'''
 	}
 	ExoGemstone: {
-		DisplayName: エグゾジェム
-		Tooltip: ミニ・エグゾ・アンサンブルを召喚する
+		DisplayName: エクソジェム
+		Tooltip: ミニ・エクソ・アンサンブルを召喚する
 	}
 	GeminiMarkImplants: {
 		DisplayName: ジェミニインプラント
@@ -4115,7 +4115,7 @@ Items: {
 			'''
 	}
 	ExodygenPlush: {
-		DisplayName: エグゾダイジェンのぬいぐるみ
+		DisplayName: エクソダイジェンのぬいぐるみ
 		Tooltip: 右クリックで投げる！
 	}
 	ExotrexiaPlush: {
