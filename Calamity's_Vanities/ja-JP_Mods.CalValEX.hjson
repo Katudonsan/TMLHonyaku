@@ -33,7 +33,7 @@ NPCs: {
 			SEAHOE2: アミダスはまだ生きてたのネ、シュプリなんとかカラミこんとかに焼かれたもんだと思ってたのネ
 			Draedon: ドレエエエイイイドオオオン！オメーが何やったかは知ってるのネ！
 			THELORDE: 裏切りモノ！
-			Yharon: ヒャックヒャックヒャック、ワガ忠実なる友ヤロンよ、攻撃をやめるのネ！ …アイツ、ワレのことが分からないみたいネ。
+			Yharon: ヒャックヒャックヒャック、ワガ忠実なる友ヤーロンよ、攻撃をやめるのネ！ …アイツ、ワレのことが分からないみたいネ。
 			GetBossDowned1: 今こそ、彼と対峙する時だ。
 			GetBossDowned2: 世界の神…奴はお前と対峙するつもりだ。
 			WaterElementalMinion: オホー、サカナのお嬢さん、教えてよネ！ワレのフィッシュタコスはどこかナ？
@@ -885,7 +885,7 @@ Items: {
 		Tooltip: "「現実を捻じ曲げなくたって万物は喰らえる」"
 	}
 	YharonShackle: {
-		DisplayName: ヤロンの足枷
+		DisplayName: ヤーロンの足枷
 		Tooltip: ギリギリ入るな…
 	}
 	AureusShield: {
@@ -1490,7 +1490,7 @@ Items: {
 		DisplayName: 焦熱のメッセージ本
 		Tooltip:
 			'''
-			乗ることができる小さなヤロンを召喚する
+			乗ることができる小さなヤーロンを召喚する
 			「主よ、私は…」
 			'''
 	}
@@ -1569,157 +1569,157 @@ Items: {
 	}
 	AnahitaPlushThrowable: {
 		# Plushies
-		DisplayName: 投げられるアナヒタのぬいぐるみ
+		DisplayName: Compensation
 		# Plushies
-		Tooltip: 投げられる
+		Tooltip: 古いアイテム
 	}
 	ApolloPlushThrowable: {
-		DisplayName: 投げられるアポロのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	AquaticScourgePlushThrowable: {
-		DisplayName: 投げられるアクアティックスカージのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	AresPlushThrowable: {
-		DisplayName: 投げられるアレスのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	ArtemisPlushThrowable: {
-		DisplayName: 投げられるアルテミスのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	AstrageldonPlushThrowable: {
-		DisplayName: 投げられるアストラゲルドンのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	AstrumAureusPlushThrowable: {
-		DisplayName: 投げられるアストラムアウレウスのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	AstrumDeusPlushThrowable: {
-		DisplayName: 投げられるアストラムデウスのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	BrimstoneElementalPlushThrowable: {
-		DisplayName: 投げられるブリムストーンエレメンタルのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	BumblefuckPlushThrowable: {
-		DisplayName: 投げられるドラゴンフォリーのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	CalaFumoYeetable: {
-		DisplayName: 投げられるカラミタスのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	CeaselessVoidPlushThrowable: {
-		DisplayName: 投げられるシースレスヴォイドのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	ClonePlushThrowable: {
-		DisplayName: 投げられるカラミタスクローンのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	CrabulonPlushThrowable: {
-		DisplayName: 投げられるクラブロンのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	CryogenPlushThrowable: {
-		DisplayName: 投げられるクライオジェンのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	DesertScourgePlushThrowable: {
-		DisplayName: 投げられるデザートスカージのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	DevourerofGodsPlushThrowable: {
-		DisplayName: 投げられるデバウラーオブゴッドのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	DraedonPlushThrowable: {
-		DisplayName: 投げられるドレイドンのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	GiantClamPlushThrowable: {
-		DisplayName: 投げられるジャイアントハマグリのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	HiveMindPlushThrowable: {
-		DisplayName: 投げられるハイブマインドのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	JaredPlushThrowable: {
-		DisplayName: 投げられる原初のワームのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	LeviathanPlushThrowable: {
-		DisplayName: 投げられるリヴァイアサンのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	MaulerPlushThrowable: {
-		DisplayName: 投げられるマウラーのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	MirePlushThrowable: {
-		DisplayName: 投げられる盾付きクラグマウのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	NuclearTerrorPlushThrowable: {
-		DisplayName: 投げられるニュークリアテラーのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	OldDukePlushThrowable: {
-		DisplayName: 投げられるオールドデュークのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	PerforatorPlushThrowable: {
-		DisplayName: 投げられるパーフォレーターのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	PlaguebringerGoliathPlushThrowable: {
-		DisplayName: 投げられるプレイグブリンガーゴリアテのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	PolterghastPlushThrowable: {
-		DisplayName: 投げられるポルターガストのぬいぐるみ 
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	ProfanedGuardianPlushThrowable: {
-		DisplayName: 投げられるプロファンドガーディアンのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	ProvidencePlushThrowable: {
-		DisplayName: 投げられるプロヴィデンスのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	RavagerPlushThrowable: {
-		DisplayName: 投げられるラヴェジャーのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	SandSharkPlushThrowable: {
-		DisplayName: 投げられるグレートサンドシャークのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	SignusPlushThrowable: {
-		DisplayName: 投げられるシグナスのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	SlimeGodPlushThrowable: {
-		DisplayName: 投げられるスライムゴッドのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	StormWeaverPlushThrowable: {
-		DisplayName: 投げられるストームウィーバーのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	ThanatosPlushThrowable: {
-		DisplayName: 投げられるタナトスのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	YharonPlushThrowable: {
-		DisplayName: 投げられるヤロンのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: Compensation
+		Tooltip: 古いアイテム
 	}
 	BubbleMachine: {
 		# Tiles
@@ -1770,7 +1770,7 @@ Items: {
 	}
 	Birbhat: {
 		DisplayName: フォリーの帽子
-		Tooltip: "奴らを支配する帽子"
+		Tooltip: "「奴らを支配する帽子」"
 	}
 	Calacirclet: {
 		DisplayName: 災厄のサークレット
@@ -2345,7 +2345,7 @@ Items: {
 		Tooltip:
 			'''
 			クリスタルスカットラーを召喚する
-			「スカットラーが入っているかも」
+			「スカットラーが入っていたりして」
 			'''
 	}
 	DiamondGeode: {
@@ -2526,16 +2526,16 @@ Items: {
 		Tooltip: 古代の恐ろしい胎児を召喚する
 	}
 	HypnosPlushThrowable: {
-		DisplayName: 投げられるヒュプノスのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: 補償アイテム
+		Tooltip: 古いアイテム
 	}
 	MirePlushThrowableP1: {
-		DisplayName: 投げられるクラグマウのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: 補償アイテム
+		Tooltip: 古いアイテム
 	}
 	MirePlushThrowableP2: {
-		DisplayName: 投げられるスライム状のクラグマウのぬいぐるみ
-		Tooltip: 投げられる
+		DisplayName: 補償アイテム
+		Tooltip: 古いアイテム
 	}
 	PutridShroom: {
 		DisplayName: アロマキノコ
@@ -2747,7 +2747,7 @@ Items: {
 		Tooltip: 配布禁止
 	}
 	BumblebirbLog: {
-		DisplayName: "[凍結済み]ヤロンクローン計画の設計図"
+		DisplayName: "[凍結済み]ヤーロンクローン計画の設計図"
 		Tooltip: 配布禁止
 	}
 	CalamitasLog: {
@@ -3403,7 +3403,7 @@ Items: {
 			'''
 	}
 	OldUCMMPainting: {
-		DisplayName: 旧非公式カラミティMODミュージック
+		DisplayName: 旧バニラ・カラミティMODミュージック
 		Tooltip:
 			'''
 			「ヴィンテージな音」
@@ -3462,7 +3462,7 @@ Items: {
 		Tooltip: "「アイツは悪いことをしたけど、すごいカッコいいってのは認めざるを得ないな」"
 	}
 	UCMMPainting: {
-		DisplayName: 非公式カラミティMODミュージック
+		DisplayName: バニラ・カラミティMODミュージック
 		Tooltip:
 			'''
 			「音の世界」
@@ -3587,167 +3587,171 @@ Items: {
 	}
     AnahitaPlush: {
         DisplayName: アナヒタのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     ApolloPlush: {
         DisplayName: アポロのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     AquaticScourgePlush: {
         DisplayName: アクアティックスカージのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     AresPlush: {
         DisplayName: アレスのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     ArtemisPlush: {
         DisplayName: アルテミスのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     AstrageldonPlush: {
         DisplayName: アストラゲルドンのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     AstrumAureusPlush: {
         DisplayName: アストラムアウレウスのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     AstrumDeusPlush: {
         DisplayName: アストラムデウスのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     BrimstoneElementalPlush: {
         DisplayName: ブリムストーンエレメンタルのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     BumblefuckPlush: {
         DisplayName: ドラゴンフォリーのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
-    CalamitasFumo: {
+    CalamitasPlush: {
         DisplayName: カラミタスのぬいぐるみ
         Tooltip: 
 			'''
 			「取り扱い注意な闇のアーティファクト」
-			マスター限定ドロップ
+			右クリックで投げる！
 			'''
     },
+	CalamitasFumo: {
+		DisplayName: 補償アイテム
+		Tooltip: 古いアイテム
+	}
     CeaselessVoidPlush: {
         DisplayName: シースレスヴォイドのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     ClonePlush: {
         DisplayName: カラミタスクローンのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     CrabulonPlush: {
         DisplayName: クラブロンのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     CryogenPlush: {
         DisplayName: クライオジェンのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     DesertScourgePlush: {
         DisplayName: デザートスカージのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     DevourerofGodsPlush: {
         DisplayName: デバウラーオブゴッドのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     DraedonPlush: {
         DisplayName: ドレイドンのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     GiantClamPlush: {
         DisplayName: ジャイアントハマグリのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     HiveMindPlush: {
         DisplayName: ハイブマインドのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     HypnosPlush: {
         DisplayName: ヒュプノスのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     JaredPlush: {
         DisplayName: 原初のワームのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     LeviathanPlush: {
         DisplayName: リヴァイアサンのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     MaulerPlush: {
         DisplayName: マウラーのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
 	}
     MirePlushP1: {
         DisplayName: クラグマウのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     MirePlushP2: {
         DisplayName: スライム状のクラグマウのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     NuclearTerrorPlush: {
         DisplayName: ニュークリアテラーのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     OldDukePlush: {
         DisplayName: オールドデュークのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     PerforatorPlush: {
         DisplayName: パーフォレーターのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     PlaguebringerGoliathPlush: {
         DisplayName: プレイグブリンガーゴリアテのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     PolterghastPlush: {
         DisplayName: ポルターガストのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     ProfanedGuardianPlush: {
         DisplayName: プロファンドガーディアンのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
     }
     ProvidencePlush: {
         DisplayName: プロヴィデンスのぬいぐるみ
-        Tooltip: マスター限定ドロップ
+        Tooltip: 右クリックで投げる！
 	}
 	RavagerPlush: {
 		DisplayName: ラヴェジャーのぬいぐるみ
-		Tooltip: マスター限定ドロップ
+		Tooltip: 右クリックで投げる！
 	}
 	SandSharkPlush: {
 		DisplayName: グレートサンドシャークのぬいぐるみ
-		Tooltip: マスター限定ドロップ
+		Tooltip: 右クリックで投げる！
 	}
 	SignusPlush: {
 		DisplayName: シグナスのぬいぐるみ
-		Tooltip: マスター限定ドロップ
+		Tooltip: 右クリックで投げる！
 	}
 	SlimeGodPlush: {
 		DisplayName: スライムの神のぬいぐるみ
-		Tooltip: マスター限定ドロップ
+		Tooltip: 右クリックで投げる！
 	}
 	StormWeaverPlush: {
 		DisplayName: ストームウィーバーのぬいぐるみ
-		Tooltip: マスター限定ドロップ
+		Tooltip: 右クリックで投げる！
 	}
 	ThanatosPlush: {
 		DisplayName: タナトスのぬいぐるみ
-		Tooltip: マスター限定ドロップ
+		Tooltip: 右クリックで投げる！
 	}
 	YharonPlush: {
-		DisplayName: ヤロンのぬいぐるみ
-		Tooltip: マスター限定ドロップ
+		DisplayName: ヤーロンのぬいぐるみ
+		Tooltip: 右クリックで投げる！
 	}
 	PongMachine: {
 		DisplayName: ポンの筐体
@@ -4011,16 +4015,16 @@ Items: {
 		Tooltip: ""
 	}
 	TyrantFeed: {
-		DisplayName: Tyrant Feed
-		Tooltip: Potassium
+		DisplayName: 暴君フィード
+		Tooltip: カリウム
 	}
 	GoozmaPlush: {
 		Tooltip: ""
 		DisplayName: グーズマのぬいぐるみ
 	}
 	GoozmaPlushThrowable: {
-		Tooltip: 投げられる
-		DisplayName: 投げられるグーズマのぬいぐるみ
+		Tooltip: 古いアイテム
+		DisplayName: 補償アイテム
 	}
 	Aeroplate: {
 		DisplayName: エアロプレート
@@ -4060,6 +4064,86 @@ Items: {
 	}
 	TestDye: {
 		DisplayName: Test Dye
+		Tooltip: ""
+	}
+	MireP1Plush: {
+		DisplayName: 盾付きクラグマウのぬいぐるみ
+		Tooltip: 右クリックで投げる！
+	}
+	MireP2Plush: {
+		DisplayName: スライムなクラグマウのぬいぐるみ
+		Tooltip: 右クリックで投げる！
+	}
+		ShadowPlush: {
+		DisplayName: 忘れ去られしカラミタスの影のぬいぐるみ
+		Tooltip: 右クリックで投げる！
+	}
+	BereftVassalPlush: {
+		DisplayName: 遺された臣下、アルガスのぬいぐるみ
+		Tooltip: 右クリックで投げる！
+	}
+	Ohio: {
+		DisplayName: オハイオ
+		Tooltip: "「Chroma」"
+	}
+	DraedonCart: {
+		DisplayName: ドレイドンカート
+		Tooltip: "「ドレイドンの最高の発明」"
+	}
+	LeviathanEXPlush: {
+		DisplayName: リヴァイアサンのぬいぐるみEX
+		Tooltip:
+			'''
+			シマーで縮ませられる
+			右クリックで投げる！
+			'''
+	}
+	YharonEXPlush: {
+		DisplayName: ヤーロンのぬいぐるみEX
+		Tooltip:
+			'''
+			シマーで縮ませられる
+			右クリックで投げる！
+			'''
+	}
+	DevourerofGodsEXPlush: {
+		DisplayName: デバウアー・オブ・ゴッドのぬいぐるみEX
+		Tooltip:
+			'''
+			シマーで縮ませられる
+			右クリックで投げる！
+			'''
+	}
+	ExodygenPlush: {
+		DisplayName: エグゾダイジェンのぬいぐるみ
+		Tooltip: 右クリックで投げる！
+	}
+	ExotrexiaPlush: {
+		DisplayName: エクストレクシアのぬいぐるみ
+		Tooltip: 右クリックで投げる！
+	}
+	AstigmageddonPlush: {
+		DisplayName: アスティグマゲドンのぬいぐるみ
+		Tooltip: 右クリックで投げる！
+	}
+	CataractacombPlush: {
+		DisplayName: カタラクタコムのぬいぐるみ
+		Tooltip: 右クリックで投げる！
+	}
+	ConjunctivirusPlush: {
+		DisplayName: コンジャンクティヴィルスのぬいぐるみ
+		Tooltip: 右クリックで投げる！
+	}
+	PolyphemalusPlush: {
+		DisplayName: ポリフェマルスのぬいぐるみ
+		Tooltip: 右クリックで投げる！
+	}
+	YhogoStick: {
+		DisplayName: 神を求めるもののホッピング
+		Tooltip: "「ヤリムは間違いなく君を憎むだろう」"
+	}
+	AstralUndergroundMusicBox: {
+		DisplayName: オルゴール（アストラル地下）
 		Tooltip: ""
 	}
 }
