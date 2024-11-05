@@ -411,7 +411,7 @@ Items: {
             剣のエネルギーがフルチャージされている時に[KEY1]を押すと刃が射出され、
             刃が飛んでいる時に左クリックをすると居合斬りを繰り出すことができる
             居合斬りが敵に命中すると必殺技ゲージが1溜まる
-            [KEY2]を押して必殺技ゲージを1消費し、下降斬りを繰り出す
+            [KEY2]を押すと必殺技ゲージを1消費し、下降斬りを繰り出す
             必殺技ゲージが最大の10の時に、
             居合斬りが敵に命中すると必殺技が発動する
             legend_Text
@@ -3820,7 +3820,7 @@ TextContent: {
             '''
         Murasama_TextDictionary_Content_14:
             '''
-            よくやった、新兵。この世界の異形どもは完全に根絶された...
+            よくやった、友よ。この世界の異形どもは完全に根絶された...
             私たちによって... なぜ泣いている？
             混乱からか？罪悪感からか？見よ、我らの旅は頂点に達した。
             かつてこの世界を支配した暴君すら我らの敵ではない。
@@ -3828,11 +3828,11 @@ TextContent: {
             '''
 		Murasama_No_legend_Content_1: 竜が倒れた後にIDロックが解除される
         Murasama_No_legend_Content_2: 新兵よ、お前の実力を認めよう。さあ、異形どもを切り刻みに行こう
-        Murasama_No_legend_Content_3: "[c/fff08c:旅の距離と共に強くなる]"
+        Murasama_No_legend_Content_3: "[c/fff08c:長い旅路が、さらなる強さを与える]"
         Murasama_No_legend_Content_4: "[c/00707d:伝説の輝きは薄れた...]"
         SHPC_No_legend_Content_1: "[c/fff08c:竜の討伐後に解放]"
         SHPC_No_legend_Content_2: "[c/fff08c:伝説の武器の帰還！ :)]"
-        SHPC_No_legend_Content_3: "[c/fff08c:旅の距離と共に強くなる]"
+        SHPC_No_legend_Content_3: "[c/fff08c:長い旅路が、さらなる強さを与える]"
         SHPC_No_legend_Content_4: "[c/00707d:伝説の輝きは薄れた...]"
         SHPC_TextDictionary_Content_0:
             '''
