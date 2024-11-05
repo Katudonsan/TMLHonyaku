@@ -5329,7 +5329,6 @@ Configs: {
 		}
 		HerosPerm: {
 			Label: 権限システムを介してHero's Modの設定変更を有効にする
-			Enable Hero's Mod Config Changes via Permission System
 			Tooltip:
 				'''
 				マルチプレイヤーで Hero's Mod を使用する人向け。
