@@ -96,9 +96,9 @@ NPCs: {
 	Xerocodile.DisplayName: 目覚めしゼロコダイル
 	XerocodileSwim.DisplayName: 目覚めしゼロコダイル
 	# Town NPCs
-	JellyPriestBound.DisplayName: 縛られたクラゲの司祭
+	JellyPriestBound.DisplayName: 縛られたクラゲの女司祭
 	JellyPriestNPC: {
-		DisplayName: クラゲの司祭
+		DisplayName: クラゲの女司祭
 		TownNPCMood: {
 			Content: ここ祠を作るには良い場所ですね。
 			NoHome: 私には礼拝ができる場所が必要なのです！
@@ -5264,74 +5264,77 @@ Biomes: {
 Conditions.Acid: fuck you
 Configs: {
 	CalValEXConfig: {
-		DisplayName: Config
+		DisplayName: 設定
 		DisableVanityDrops: {
-			Label: Disable All Drops
-			Tooltip: Disables all of the mod's direct drops
+			Label: 直接ドロップ無効化
+			Tooltip: MODの直接ドロップを全て無効化する
 		}
 		ConfigBossBlocks: {
-			Label: Disable Boss Block Drops
-			Tooltip: Makes it so that bosses and their bags no longer drop blocks
+			Label: ボスのブロックドロップを無効化Disable Boss Block Drops
+			Tooltip: ボスとそのバッグからブロックがドロップされなくなる
 		}
 		FatDog: {
-			Label: True Size
-			Tooltip: Makes a certain pet a lot larger when true
+			Label: ホントのサイズ
+			Tooltip: オンにすると、一部のペットがすごく巨大になる
 		}
 		SupCombo: {
-			Label: Superstitious Spirit Parade
-			Tooltip: Allows the Superstitious Jewel to summon the 11 ingredient pets used to craft it
+			Label: 迷信の精霊パレード
+			Tooltip: 迷信の宝石が、材料となった11個のアイテムに含まれるペットを全て召喚するようになる
 		}
 		DragonballName: {
-			Label: Disable Dragonball Easter Egg
-			Tooltip: Disables the easter egg caused by the Dragonball pet
+			Label: ドラゴンのボールのイースターエッグを無効化
+			Tooltip: ドラゴンのボールによって発生するイースターエッグを無効化する
 		}
 		Polterskin: {
-			Label: Disable Toy Scythe Skins
-			Tooltip: Makes it so that the Toy Scythe's pet always uses its default skin
+			Label: おもちゃの鎌のスキンを無効化
+			Tooltip: おもちゃの鎌のペットが、常にデフォルトの見た目になる
 		}
 		Pitbul: {
-			Label: Disable Pitbull Barking
-			Tooltip: Makes it so that the Pitbull pet doesn't bark at rare enemies
+			Label: ピットブルの吠えを無効化
+			Tooltip: ピットブルがレアな敵に向かって吠えなくなる
 		}
 		Headers.NPCs: NPCs
 		TownNPC: {
-			Label: Disable Town NPCs
-			Tooltip: Prevents the Oracle and Jelly Priestess from spawning
+			Label: タウンNPCを無効化
+			Tooltip: オラクルとクラゲの女司祭がスポーンしなくなる
 		}
 		IsopodBait: {
-			Label: Disable Isopod Bait Scaling
-			Tooltip: Makes it so that Abyssal Isopods have max bait power at all times
+			Label: オオグソクムシの餌パワースケーリング無効化
+			Tooltip: オンにすると、オオグソクムシは常に最大の餌パワーを持つようになる
 		}
 		CritterSpawns: {
-			Label: Disable Critter Spawns
-			Tooltip: Makes it so that all Calamity's Vanities critters no longer spawn naturally
+			Label: 生き物スポーン無効化
+			Tooltip: オンにすると、Calamity's Vanitiesの生き物は自然にスポーンしなくなる
 		}
 		GroundMountLol: {
-			Label: Disable Mount Nerf
-			Tooltip: Disables the stat cripple which ground mounts give
+			Label: 騎乗アイテムのナーフ無効化
+			Disable Mount Nerf
+			Tooltip: 地上マウントが与えるステータス低下を無効化する
 		}
 		DiscordRichPresence: {
-			Label: Discord Rich Presence ([c/ffa11:Requires DRP Mod!])
+			Label: Discord Rich Presence ([c/ffa11:DRP Modが必要です！])
 			Tooltip:
 				'''
-				Whether or not to initialize the Discord Rich Presence addons for the Discord Rich Presence mod by Purplefin Neptuna.
-				Requires that mod to be active in order to do anything.
+				Purplefin Neptuna による Discord Rich Presence Modの Discord Rich Presence アドオンを初期化するかどうか。
+				何かを行うには、そのモッドがアクティブである必要があります
 				'''
 		}
 		OwnerOnly: {
 			Label: Enable Server Owner Exclusive Config Access
 			Tooltip:
 				'''
-				Recommended for Host & Play or hosting server on same machine you play on.
-				If not enabled, all users can make changes to the config
+				サーバーをホストしつつのプレイ、またはプレイしているマシンと
+				同じマシン上にあるホスティングサーバーを使うなら推奨。
+				オンにしない場合は、全てのユーザーが設定を変更できる
 				'''
 		}
 		HerosPerm: {
-			Label: Enable Hero's Mod Config Changes via Permission System
+			Label: 権限システムを介してHero's Modの設定変更を有効にする
+			Enable Hero's Mod Config Changes via Permission System
 			Tooltip:
 				'''
-				For those that use Heros Mod in multiplayer.
-				If not enabled, all users can make changes to the config
+				マルチプレイヤーで Hero's Mod を使用する人向け。
+				オンにしない場合は、全てのユーザーが設定を変更できる
 				'''
 		}
 	}
