@@ -5315,7 +5315,7 @@ Configs: {
 			Tooltip:
 				'''
 				Purplefin Neptuna による Discord Rich Presence Modの Discord Rich Presence アドオンを初期化するかどうか。
-				何かを行うには、そのモッドがアクティブである必要があります
+				何かを行うには、そのModがアクティブである必要がある
 				'''
 		}
 		OwnerOnly: {
