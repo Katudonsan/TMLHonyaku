@@ -1,9 +1,9 @@
 Announcements: {
 	WorldEngineChange: ワールドの難易度が {0} に変更されました。
-	LodestoneWarning1: あなたの世界は {$Tiles.LodeStone.MapEntry} の祝福を受けた!
-	LodestoneWarning2: あなたの世界は大量の {$Tiles.LodeStone.MapEntry} の祝福を受けた!
-	ValadiumWarning1: あなたの世界は {$Tiles.ValadiumChunk.MapEntry} の祝福を受けた!
-	ValadiumWarning2: あなたの世界は大量の {$Tiles.ValadiumChunk.MapEntry} の祝福を受けた!
+	LodestoneWarning1: " {$Tiles.LodeStone.MapEntry} の祝福を受けた！"
+	LodestoneWarning2: "大量の {$Tiles.LodeStone.MapEntry} の祝福を受けた！"
+	ValadiumWarning1: " {$Tiles.ValadiumChunk.MapEntry} の祝福を受けた！"
+	ValadiumWarning2: 大量の {$Tiles.ValadiumChunk.MapEntry} の祝福を受けた！
 	LichWarning: 強力な魂の解放により、{$Bestiary_Biomes.Graveyard} で何かが目覚めた...
 	GraniteMarbleWarning: 御影石と大理石の洞窟が震えている...
 	IllumiteWarning: プランテラの発光エネルギーが地球を明るく照らす...
@@ -21,8 +21,8 @@ Announcements: {
 	BuriedChampionAppear: " {$NPCs.BuriedChampion.DisplayName} が脱走した！"
 	GraniteEnergyStormAppear: The {$NPCs.GraniteEnergyStorm.DisplayName} が解き放たれた！
 	DiverFree: 誰かがあの忌まわしい水棲生物から解放された！
-	ThePrimordialsStart: テラリアの大地が震える...
-	DreamEaterAppear: 現実の境界が崩れ始めている!
+	ThePrimordialsStart: テラリアの大地が震えている...
+	DreamEaterAppear: 現実の境界が崩れ始めている！
 	DreamEaterDefeat: 現実は静けさを取り戻した...。
 }
 
@@ -8363,7 +8363,7 @@ Items: {
 			'''
 			「この武器を、あらゆる困難に打ち勝った証とせよ」
 			伝説のミョルニルの電気イメージを素早く投げる
-			右クリックで電気シールドを生成
+			右クリックで電気シールドを生成する
 			'''
 	}
 
@@ -9256,7 +9256,7 @@ Items: {
 		Tooltip:
 			'''
 			味方を守るバブルを放つ
-			バブルに守られた味方は1回の攻撃で0ダメージを受ける
+			バブルに守られた味方は1度だけ攻撃を無効化する
 			'''
 	}
 
@@ -9962,11 +9962,12 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	}
 
 	LustrousBaton: {
-		DisplayName: 光沢のあるバトン
+		DisplayName: 光輝の杖
 		Tooltip:
 			'''
-			クリスタルのバトンを素早く回転させます
-			すべてのスピンの最初のヒットは、クリスタルの広がりを解放します
+			クリスタルの杖を素早く回転させる
+			敵に攻撃が命中すると、「ソウルエッセンス」を2つ獲得する
+			1回転中、最初にヒットした時のみ、拡散するクリスタルを放つ
 			'''
 	}
 
@@ -12169,7 +12170,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	SoulofPlight: {
 		DisplayName: 絶望のソウル
-		Tooltip: "「呪われた生き物の本質」"
+		Tooltip: "「呪われた生き物のエッセンス」"
 	}
 
 	SpiritDroplet: {
@@ -17611,7 +17612,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		DisplayName: リフトティーラー
 		Tooltip:
 			'''
-			敵を吸い込んだ後、ヴォイド・エネルギーとなって激しく爆発する
+			敵を吸い込んだ後、ヴォイドエネルギーとなって激しく爆発する
 			この武器を使いすぎると消耗し、ダメージが大幅に減少する
 			敵を倒すと消耗が回復する
 			'''
@@ -17686,7 +17687,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	}
 
 	ShadowTippedJavelin: {
-		DisplayName: 影の刃の槍
+		DisplayName: 影刃の槍
 		Tooltip: ３回ヒットするたびに、敵が影の炎で焼かれる
 	}
 
@@ -18000,11 +18001,11 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		Tooltip:
 			'''
 			「小さくても、この鳥は信じられないほどパワフルだ...」
-			上方向に使用すると鳥にグラップすることができる
-			鳥にグラップした場合は一時的に落下を遅くする
+			上方向に使用すると鳥に掴まることができる
+			鳥に掴まった場合は一時的に落下を遅くする
 			落下をさらに減速させるには↑を、減速を解除するには↓を押す
-			地面に着く前にグラップできるのは一体のみ
-			空中へのグラップルに使用した場合、追加ジャンプと飛行時間はリセットされない
+			地面に着く前に掴まれるのは一体のみ
+			鳥に掴まった場合、追加ジャンプと飛行時間はリセットされない
 			'''
 	}
 
@@ -18167,17 +18168,17 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	GodKiller: {
 		DisplayName: 神殺しの光線銃
-		Tooltip: 防御力を無視する原子光線を発射
+		Tooltip: 防御力を無視する原子光線を発射する
 	}
 
 	GrimPedestal: {
 		DisplayName: 死神の台座
-		Tooltip: デーモンアルターと同じ機能
+		Tooltip: デーモンアルターと同じ機能を持つ
 	}
 
 	GrimPedestalCrimson: {
 		DisplayName: 死神の台座
-		Tooltip: デーモンアルターと同じ機能
+		Tooltip: デーモンアルターと同じ機能を持つ
 	}
 
 	IcyGaze: {
@@ -18358,7 +18359,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		DisplayName: 両生類の卵
 		Tooltip:
 			'''
-			カエルに変身
+			カエルに変身する
 			変身すると体が小さくなり、驚くほど高くジャンプできるようになる
 			変身中は従来のアイテムは使えない
 			'''
@@ -18368,7 +18369,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		DisplayName: 鞘翅目の記念品
 		Tooltip:
 			'''
-			カブトムシに変身
+			カブトムシに変身する
 			変身すると体が小さくなり、短時間飛ぶことができる
 			変身中は従来のアイテムは使用できない
 			'''
@@ -18378,7 +18379,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		DisplayName: サイバネティックスフィア
 		Tooltip:
 			'''
-			ロボットボールに変身
+			ロボットボールに変身する
 			変身すると体が小さくなり、壁や天井にしがみつくことができる
 			変身中は従来のアイテムは使用できない
 			'''
@@ -18398,7 +18399,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		DisplayName: 黄金の鱗
 		Tooltip:
 			'''
-			金魚に変身
+			金魚に変身する
 			変身すると体が小さくなり、自由に泳げるようになる
 			変身中は従来のアイテムは使えない
 			'''
@@ -18408,7 +18409,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		DisplayName: マグマのお守り
 		Tooltip:
 			'''
-			クマムシに変身
+			クマムシに変身する
 			変身すると体が小さくなり、熱に弱くなる
 			変身中は従来のアイテムを使用できない
 			'''
@@ -18418,7 +18419,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		DisplayName: 不吉などんぐり
 		Tooltip:
 			'''
-			リスに変身
+			リスに変身する
 			変身すると、1ブロックの高さの隙間を通り抜けることができる
 			変身中は従来のアイテムを使用できない
 			'''
@@ -18783,7 +18784,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		Tooltip:
 			'''
 			弾丸を鈍化させる貫通ボルトに変える
-			撃てば撃つほどスピードアップ
+			撃てば撃つほどスピードアップする
 			'''
 	}
 
@@ -18801,7 +18802,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		Tooltip:
 			'''
 			飛行可能なコウモリに変身する
-			変身すると体が小さくなり、ほとんどのコウモリの敵に免疫ができる
+			変身すると体が小さくなり、ほとんどのコウモリの敵に耐性ができる
 			変身中は従来のアイテムを使用できない
 			'''
 	}
@@ -18840,7 +18841,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		Tooltip:
 			'''
 			テスト用
-			パワーを与えると「アグロ・ダミー」を産む
+			パワーを与えると「アグロ・ダミー」を生成する
 			'''
 	}
 
@@ -18870,7 +18871,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			「想像を絶するものが、最終的に死を経験するという希望を胸に、すべての現実を横断する」
 			滅びゆく現実の力を最大限に解き放つ
 			防御力のある敵に対して与えるダメージが増加する
-			8ショットごとに、プリズムリアリティエネルギーがカーソルに向かって発射される
+			8ショットごとに、エネルギーがカーソルに向かって発射される
 			敵を倒すとその場で爆発する
 			ダメージを与えると、ライフが最大50%シールドされる
 			ダメージを与えると、与えたダメージの1%分回復する
@@ -19080,7 +19081,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	RemovedItems: {
 		Tooltip:
 			'''
-			「遥か昔の時代の遺産」。
+			「遥か昔の時代の遺産」
 			このアイテムはもうゲーム内に存在しません。他のMODで何らかの形で使用されている場合は、他のMODの開発者に連絡してください。
 			'''
 
@@ -19124,7 +19125,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	TrackPlayers: {
 		Common: {
 			DisplayName: "{0} トラックプレイヤー"
-			Tooltip: 個人のエンパワーメントレベルを {0} から {1} 増加させる
+			Tooltip: プレイヤーのエンパワーメントレベルを {0} から {1} 増加させる
 		}
 
 		MusicPlayerDamage: {
@@ -19569,7 +19570,7 @@ NPCs: {
 
 	CorpseWeed: {
 		DisplayName: コープスウィード
-		BestiaryFlavorText: コープスブルームの生きた根は、宿主と同じくらい危険である。もしかしたらそれ以上かもしれない！
+		BestiaryFlavorText: コープスブルームの生きた根っこは、宿主と同じくらい危険である。もしかしたらそれ以上かもしれない！
 	}
 
 	BloomMahoganyEnt: {
@@ -19703,7 +19704,7 @@ NPCs: {
 			SpawnCondition: " [c/4dffb8:{$NPCs.PatchWerk.DisplayName}] を倒す"
 		}
 
-		Button2: Enemy Repellent ({^0:80 Silver;1 Gold})
+		Button2: 忌避剤を買う ({^0:80 Silver;1 Gold})
 	}
 
 	BlueHag: {
@@ -19718,7 +19719,7 @@ NPCs: {
 
 	GreenHag: {
 		DisplayName: ハグ
-		BestiaryFlavorText: 若さと引き換えに地球の支配を手に入れようとした愚かな魔女だ。君を殺そうとしているところを見ると、その交渉がうまくいかなかったのは明らかだ。
+		BestiaryFlavorText: 若さと引き換えに地球の支配権を手に入れようとした愚かな魔女だ。君を殺そうとしているところを見ると、その交渉がうまくいかなかったのは明らかだ。
 	}
 
 	RedHag: {
@@ -19770,12 +19771,12 @@ NPCs: {
 	}
 
 	AbyssalAngler2: {
-		DisplayName: アビサル・アングラー
+		DisplayName: アビサルアングラー
 		BestiaryFlavorText: 明るい光は魚の注意を引くことができるが、人間の注意を引くものは何だろう？そう、コインだ！
 	}
 
 	AbyssalSpawn: {
-		DisplayName: アビサル・スポーン
+		DisplayName: アビサルスポーン
 		BestiaryFlavorText: 忘れられた者から生まれ、世界の淡水を冒涜し、汚染する貪欲な魚たち。
 	}
 
@@ -19806,7 +19807,7 @@ NPCs: {
 
 	Blowfish: {
 		DisplayName: フグ
-		BestiaryFlavorText: コイツを吹き飛ばさないでくれ、彼らは倒されたときに君に仕返しをするだろう！
+		BestiaryFlavorText: コイツをイジめないでやってくれ、きっと君に仕返しをするだろう！
 	}
 
 	BlueLobster: {
@@ -19901,7 +19902,7 @@ NPCs: {
 
 	SubmergedMimic: {
 		DisplayName: 深海のミミック
-		BestiaryFlavorText: 大海の奥深くに迷い込んだミミックは、不吉な性質を帯びる。普通のチェストに特殊な鍵を入れることで生み出すこともできる。
+		BestiaryFlavorText: 大海の奥深くに迷い込んだミミックは、邪悪な性質を帯びる。普通のチェストに特殊な鍵を入れることでも生み出すことができる。
 	}
 
 	VampireSquid: {
@@ -20163,7 +20164,7 @@ NPCs: {
 
 	HellBringerMimic: {
 		DisplayName: 地獄のミミック
-		BestiaryFlavorText: 呪われた魂に包まれたミミックは驚異的なパワーを得る。普通のチェストに特殊な鍵を入れることで生み出すこともできる。
+		BestiaryFlavorText: 呪われた魂に包まれたミミックは驚異的なパワーを得る。普通のチェストに特殊な鍵を入れることでも生み出すことができる。
 	}
 
 	HoppingSpider: {
@@ -20172,8 +20173,8 @@ NPCs: {
 	}
 
 	HorrificCharger: {
-		DisplayName: おぞましいチャージャー
-		BestiaryFlavorText: 急加速を得意とする小型の腐敗ハンターは、獲物になりそうなものを見つけた瞬間、無謀にも突進する。
+		DisplayName: ホーリフィックチャージャー
+		BestiaryFlavorText: 急加速を得意とするこの小型のモンスターは、獲物になりそうなものを見つけた瞬間、無謀にも突進する。
 	}
 
 	IllusionGlass: {
@@ -20271,12 +20272,12 @@ NPCs: {
 
 	MudMan: {
 		DisplayName: 泥人間
-		BestiaryFlavorText: ジャングルの泥の中から生まれた初歩的な生命体であり、自分の身を護ることができる程度にしか賢くない。
+		BestiaryFlavorText: ジャングルの泥の中から生まれた単純な生命体であり、自分の身を護ることができる程度にしか賢くない。
 	}
 
 	MyceliumMimic: {
 		DisplayName: キノコのミミック
-		BestiaryFlavorText: 光るキノコの栄養を得たミミックは、高い能力を持っている。普通のチェストに特殊な鍵を入れることで生み出すこともできる。
+		BestiaryFlavorText: 光るキノコの栄養を得たミミックは、高い能力を持っている。普通のチェストに特殊な鍵を入れることでも生み出すことができる。
 	}
 
 	Myna: {
@@ -20443,7 +20444,7 @@ NPCs: {
 	}
 
 	SnowFlinxMatriarch: {
-		DisplayName: スノー・フリンクス家長
+		DisplayName: スノーフリンクスのリーダー
 		BestiaryFlavorText: 奇妙な生き物の奇妙なリーダー。彼らは毛皮の中に様々な物と共に子供を閉じ込める傾向がある。奇妙だ。
 	}
 
@@ -28025,7 +28026,7 @@ Configs: {
 		}
 
 		ShowHealStreak: {
-			Label: ヒールストリークの表示
+			Label: ヒーリングストリークの表示
 			Tooltip: ヒーリングストリークの表示を切り替える。
 		}
 
