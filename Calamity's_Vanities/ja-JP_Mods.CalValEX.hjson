@@ -242,27 +242,27 @@ NPCs: {
 		NuggetSpawn: "{1}の灰から{0}が誕生した！"
 		Canspawn: ライセンスはナゲット配達サービスへとテレポートした…
 		Nospace: "{0}に再誕するための十分なスペースがない！"
-		Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+		Census.SpawnCondition: オラクルから[i:CalValEX/NuggetLicense]を買って使用する
 	}
 	DracoNugget: {
 		DisplayName: ドラコナゲット
-		Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+		Census.SpawnCondition: オラクルから[i:CalValEX/NuggetLicense]を買って使用する
 	}
 	FollyNugget: {
 		DisplayName: モフモフナゲット
-		Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+		Census.SpawnCondition: オラクルから[i:CalValEX/NuggetLicense]を買って使用する
 	}
 	GODNugget: {
 		DisplayName: フェニックスナゲット
-		Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+		Census.SpawnCondition: オラクルから[i:CalValEX/NuggetLicense]を買って使用する
 	}
 	MammothNugget: {
 		DisplayName: ミニマンモスナゲット
-		Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+		Census.SpawnCondition: オラクルから[i:CalValEX/NuggetLicense]を買って使用する
 	}
 	ShadowNugget: {
 		DisplayName: シャドウナゲット
-		Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+		Census.SpawnCondition: オラクルから[i:CalValEX/NuggetLicense]を買って使用する
 	}
 	MeldwyrmBody.DisplayName: メルドワーム
 	MeldwyrmHead.DisplayName: メルドワーム
