@@ -1,0 +1,4484 @@
+EndlessDamageClassTextContent.EndlessDamageClass.DisplayName: 無限のダメージ
+Tools.RecipesLoseText: これは作れない
+
+Items: {
+    BrinyBaronEcType: {
+        DisplayName: 潮風の男爵
+        Tooltip:
+            '''
+            最初の6回の振りで追尾する海洋の渦を放出する
+            7回目の振りで大量の爆発性の泡を生成する
+            8回目の振りで3つの渦爆弾を発射し、標的や物体に命中すると衝突地点に水の渦を生成すえう
+            「あのブタザメの鰭から作られた代物だ。シャボン玉を吹くブタの頭だけじゃ物足りなかったってわけさ」
+            '''
+    }
+
+    CosmicShivEcType: {
+        DisplayName: 宇宙の短剣
+        Tooltip:
+            '''
+            敵に命中すると、貫通する宇宙ビームを放つ星界の門を召喚する
+            神殺しの業火で敵を焼き尽くす
+            '''
+    }
+
+    DragonsBreath: {
+        DisplayName: 竜の息吹
+        Tooltip:
+            '''
+            大量の熱弾を発射する
+            右クリックで灼熱の竜の息吹を放つ
+            '''
+    }
+
+    BansheeHookEcType: {
+        DisplayName: バンシーの鉤
+        Tooltip:
+            '''
+            鉤を振ると複数の小さな哀しみの大鎌を召喚し、その後より大きな恐怖の大鎌を放って敵を執拗に追跡する
+            右クリックで恐怖のエネルギーを蓄積し、満タンになると怨霊を召喚して敵に複数の衰弱効果を与える
+            右クリックで召喚された大鎌は、一定時間経過するか、恐怖エネルギーが尽きるまで敵を追跡し続ける
+            '''
+    }
+
+    BlightedCleaverEcType: {
+        DisplayName: 荒廃の大斧
+        Tooltip:
+            '''
+            敵を追尾する炎の刃を放ち、命中後は上空からも炎の刃が降り注ぎ、「残虐な殺戮」の効果を得る
+            真近接攻撃が命中すると暴君の怒りが蓄積し、短時間武器のダメージが増加する
+            '''
+    }
+
+    BurntSiennaEcType: {
+        DisplayName: 焦げた茶土
+        Tooltip: 振ると時々3つの砂ブロックを弧を描いて敵に向かって投げ、敵を倒すと回復オーブを生成する
+    }
+
+    CometQuasherEcType: {
+        DisplayName: 彗星の粉砕者
+        Tooltip:
+            '''
+            隕石を発射し、近接で敵を攻撃すると更なる隕石が空から降り注ぐ
+            「古代の中国には、矢を放たずとも鳥を落とせる者がいた
+             ついに我らの刃もそれに近いことができるようになった、ということだ」
+            '''
+    }
+
+    DefiledGreatswordEcType: {
+        DisplayName: 冒涜の大剣
+        Tooltip:
+            '''
+            敵を執拗に追跡する無数の炎の刃を放ち、プレイヤーに「残虐な殺戮」の効果を与える
+            真近接攻撃が命中すると暴君の怒りが蓄積され、
+            短時間武器のダメージが増加し、画面の両端から炎の刃が放たれる。
+            '''
+    }
+
+    EntropicClaymoreEcType: {
+        DisplayName: 壊滅のクレイモア
+        Tooltip:
+            '''
+            振るたびに複数のプラズマビームを放つ
+            「星々が刃の縁で瞬き輝く...頭上の夜空を思わせる」
+            '''
+    }
+
+    GildedProboscisEcType: {
+        DisplayName: 金色の突槍
+        Tooltip:
+            '''
+            槍で突くと命中時に羽が分裂し、同時に使用者を回復する
+            右クリックで槍を回転させ赤い稲妻エネルギーを充填する
+            フルチャージ時には敵に跳ね返る稲妻を放ち、エネルギーが枯渇するまで感電効果を与える
+            '''
+    }
+
+    TerratomereEcType: {
+        DisplayName: テラトメア
+        Tooltip:
+            '''
+            テラリアの精髄を込めた剣を振るい、
+            貫通する複数のエネルギーボルトが敵を追跡し、上空からもビームが降り注ぐ
+            敵の死亡時、エネルギーボルトが放電して爆発し、範囲ダメージを与える
+            「この旅を忘れがたきものとせよ」
+            '''
+    }
+
+    TerrorBladeEcType: {
+        DisplayName: 恐怖の剣
+        Tooltip:
+            '''
+            苦悩と絶望に満ちた魂によって具現化された剣を操る。
+            壁に跳ね返る遅い剣の光線を放ち、敵に命中するたびに爆発する
+            真近接攻撃を行うと武器が大幅に強化されエネルギーが充填され、
+            非真近接攻撃時の発射物がより速く移動し、敵に命中時により多くのビームを召喚する
+            '''
+    }
+
+    ArkoftheCosmosEcType: {
+        DisplayName: 宇宙の方舟
+        Tooltip: うーん...これを持っているはずがない
+    }
+
+    StreamGougeEcType: {
+        DisplayName: 奔流の裂槍
+        Tooltip:
+            '''
+            宇宙の力で空間を貫いて敵を引き裂き、神殺しの業火を付与する
+            命中時、6本の神殺しの投槍が全方向に放出される
+            右クリックでカーソルに従う宇宙の裂け目を作り出し、槍とコズミックビームのコピーで敵を攻撃する
+            [c/b300b3:「奴らを引き裂け」]
+            '''
+    }
+
+    ElementalLanceEcType: {
+        DisplayName: 元素の槍
+        Tooltip:
+            '''
+            移動後に分裂する槍の光線を放つ
+            右クリックでメーターを充填し、充填完了時にカーソルを追従する複数の色のオーロラビームを放つ
+            '''
+    }
+
+    AirSpinnerEcType: {
+        DisplayName: 風のスピナー
+        Tooltip:
+            '''
+            近くの敵を追尾する羽を放射する
+            空中で回転中、6枚の羽が消失する前に外側へ飛び散る
+            飛び散った羽が敵に命中すると、しばらくの間くっついてダメージを与え続ける
+            「非常に機敏なヨーヨー」
+            '''
+    }
+
+    GoldplumeSpearEcType: {
+        DisplayName: 金羽の槍
+        Tooltip: 振ると複数の羽を放つ
+    }
+
+    WindBladeEcType: {
+        DisplayName: 風刃
+        Tooltip:
+            '''
+            敵を引き寄せる竜巻を放つ
+            右クリックは敵を追尾する竜巻を放つ
+            '''
+    }
+
+    ArbalestEcType: {
+        DisplayName: 重弩
+        Tooltip:
+            '''
+            6本の高速矢を発射
+            連続射撃で矢のサイズが増大
+            大きな矢はより高いダメージとノックバックを与えるが、広く拡散する
+            右クリックで単発の速射が可能
+            「その歯車は今も軋みながら回り続けている。」
+            '''
+    }
+
+    DeathwindEcType: {
+        DisplayName: 死風
+        Tooltip:
+            '''
+            木の矢が3本の星雲ビームに変化し、無限に貫通して壁も通り抜ける
+            「死は風のように、常に私の傍らにある。」
+            '''
+    }
+
+    DragonRageEcType: {
+        DisplayName: 竜の憤怒
+        Tooltip:
+            '''
+            左クリックで三段コンボを繰り出す：上斬り、下斬り、強斬り、突き
+            突きは攻撃範囲が長く、目標に命中すると激しい竜炎爆発を引き起こす
+            右クリックで二回の強力な斬撃の後、刃を連続回転させ、
+            強力な上斬り、強力な下斬り、回転斬りを行う
+            左クリックを使うと右クリックの攻撃レベルがリセットされる
+            「三撃を放って戻れば、酒はまだ温かい。」
+            '''
+    }
+
+	WhiplashGalactica: {
+        DisplayName: 銀河の鞭打ち
+        Tooltip: 捕食者の執念で敵を鞭打て。
+    }
+
+    TradewindsEcType: {
+        DisplayName: 貿易風
+        Tooltip:
+            '''
+            壁に当たると戻ってくる高速の光の羽を放ち、敵を貫く
+            右クリックで敵に張り付き、持続ダメージを与える光の羽を放つ
+            '''
+    }
+
+    DeathhailStaffEcType: {
+        DisplayName: 死霰の杖
+        Tooltip: 死の霰を空から降らせる
+    }
+
+    ExcelsusEcType: {
+        DisplayName: エクセルサス
+        Tooltip:
+            '''
+            壁を貫通し神殺しの業火を付与する宇宙の剣の幻影を放つ。真近接ヒットで空から光線も降り注ぐ。
+            右クリックで衝突時に爆発する高速の神殺しの投槍を放つ。
+            '''
+    }
+
+    GhastlyVisageEcType: {
+        DisplayName: 怨霊の面相
+        Tooltip: 苦悶のうちに爆発する前に敵を追跡する3つの追尾怨霊弾を放つ。
+    }
+
+    GaleforceEcType: {
+        DisplayName: 暴風の力
+        Tooltip:
+            '''
+            ゆっくりと移動するハーピーの羽の散弾を放つ
+            右クリックで重力を無視し止まることのない羽の弾幕を放つ
+            '''
+    }
+
+    ElementWhip: {
+        DisplayName: 元素の鞭
+        Tooltip: 月と元素のエネルギーを宿した鞭。
+    }
+
+    ElementalShivEcType: {
+        DisplayName: 元素の短剣
+        Tooltip: 「」
+    }
+
+    TheRelicLuxor: {
+        DisplayName: 遺物ルクソル
+        Tooltip:
+            '''
+            灼熱の超常能力があなたの全ての攻撃に宿り、栄光の神があなたと共にある
+            [tips]
+            '''
+    }
+
+    TheLuxirSoulArtifact: {
+        DisplayName: ルクシルの魂の遺物
+        Tooltip:
+            '''
+            神と不死の存在があなたの栄光を認めている
+            [tips]
+            '''
+    }
+
+    AzureDragonRage: {
+        DisplayName: 蒼竜の憤怒
+        Tooltip: 刈り取られたばかりの草のような、しかし古びた匂いがする。
+    }
+
+    BleedingScourge: {
+        DisplayName: 流血の災厄
+        Tooltip: この鞭で敵を打つと空から血が降り、下にいる敵の上で爆発し、ミニオンの標的となる。
+    }
+
+    GhostFireWhip: {
+        DisplayName: 霊火の鞭
+        Tooltip:
+            '''
+            ダンジョンの安らがぬ魂の怒りから形作られた極めて長い鞭。
+            [c/d4bc75:その根元から純粋な熱意が放射され、あなたに仇なす者を探し出すよう促す。]
+            '''
+    }
+
+    AllhallowsGoldWhip: {
+        DisplayName: 諸聖金の鞭
+        Tooltip: まだ完成していない
+    }
+
+    DivineSourceBlade: {
+        DisplayName: 神聖源の刃
+        Tooltip: 振ることで最初に貫いた敵を細切れにする高速の刃を放つ。
+    }
+
+    FatesRevealEcType: {
+        DisplayName: 運命の啓示
+        Tooltip: しばらくすると敵を追跡する怨霊の火球を召喚する
+    }
+
+    FoodStallChair: {
+        DisplayName: 屋台の椅子
+        Tooltip: 我こそは近づきつつある椅子なり！
+    }
+
+    DaemonsFlameEcType: {
+        DisplayName: 魔炎
+        Tooltip: 衝突時に爆発する追尾悪魔の炎を放つ
+    }
+
+    ClaretCannonEcType: {
+        DisplayName: 深紅の大砲
+        Tooltip:
+            '''
+            一度に3発の弾丸を発射
+            マスケット弾を吸血の血涙弾に変換する
+            '''
+    }
+
+	AnnihilatingUniverse: {
+        DisplayName: 宇宙の殲滅者
+        Tooltip:
+            '''
+            木の矢が宇宙の矢の散弾に変化する。
+            敵に命中すると銀河の裂け目が他の敵を攻撃し、死に瀕した星を残して最終的に内破する。
+            右クリックで時間とともに強大化する捕食者の投影を召喚。
+            右クリックを離すと、最期を迎えるまで敵を追跡するポータルが発射される。
+            [c/9C27B0:終末が迫る。]
+            '''
+    }
+
+    HeavenfallLongbow: {
+        DisplayName: 天堕ちの長弓
+        Tooltip:
+            '''
+            純粋な原初の虹の光を放ち、敵を輝かしい光で完全に消滅させる。
+            右クリックで原初の光が敵の上に降り注ぎ、壮麗な爆発を引き起こす。
+            最大パワー時に[KEY]を押してヴィエンチャンの試練を開始。
+            [legend]
+            '''
+        Legend:
+            '''
+            戦いの余燼は今なお燃え続ける、数十億年の時を経て
+            栄光の主の体は無数の破片となって銀河に散りばめられた
+            奇跡とは神の残骸の拙い模倣に過ぎない
+            そして今、至高神を討ち落とした長弓が天の怒りから再び立ち上がる
+            '''
+    }
+
+    AegisBladeEcType: {
+        DisplayName: イージスの剣
+        Tooltip:
+            '''
+            振ると弱く追尾する太陽の欠片が敵に衝突し、下方に損傷の火花を残す。
+            右クリックで剣を空へと掲げる。右クリック長押しで剣にエネルギーを充填し、サイズが増大。
+            右クリックを離すと剣を敵に投げつけ、巨大な爆発を引き起こす。
+            '''
+    }
+
+    DragonsBreathRifle: {
+        DisplayName: 竜息銃
+        Tooltip: 「」
+    }
+
+    TextItem: {
+        DisplayName: テキストアイテム
+        Tooltip: うーん...これを持っているはずがない
+    }
+
+    BaseSingularity: {
+        DisplayName: 基本特異点
+        Tooltip: うーん...これを持っているはずがない
+    }
+
+    InfiniteIngot: {
+        DisplayName: 無限のインゴット
+        Tooltip: 無数の世界、宇宙、銀河の力がこの一つのインゴットに融合している。
+    }
+
+    CosmicMetalSingularity: {
+        DisplayName: 宇宙金属特異点
+        Tooltip: 「」
+    }
+
+    TransmutationOfMatterItem: {
+        DisplayName: オメガ物質重合器
+        Tooltip:
+            '''
+            ドレイドンが創造した実験装置。設置して右クリックすると、人知を超えた限界に到達するための拡張クラフトインターフェースが開く。
+            「貪欲な狂気への旅路が今始まる。」
+            '''
+    }
+
+    DarkMatterCompressorItem: {
+        DisplayName: 暗黒物質圧縮機
+        Tooltip: 複数のワークステーションを集約し、ブラックホールのように純粋な物質を圧縮できる。
+    }
+
+    MurasamaEcType: {
+        DisplayName: ムラサマ
+        Tooltip:
+            '''
+            右クリックを長押しするか、左クリックの攻撃が命中すると、剣のエネルギーがチャージされる
+            近くに強力な敵がいる場合、剣のエネルギーが自然にゆっくりとチャージされる
+            剣のエネルギーがフルチャージされている時に[KEY1]を押すと刃が射出され、
+            刃が飛んでいる時に左クリックをすると居合斬りを繰り出すことができる
+            居合斬りが敵に命中すると必殺技ゲージが1溜まる
+            [KEY2]を押すと必殺技ゲージを1消費し、下降斬りを繰り出す
+            必殺技ゲージが最大の10の時に、
+            居合斬りが敵に命中すると必殺技が発動する
+            legend_Text
+            [c/ff4500:「これがチェーンソーの刃だったらもっとよかったんだが」]
+            [Lang4]
+            [Text]
+            '''
+    }
+
+	HolyColliderEcType: {
+        DisplayName: 聖なる衝突者
+        Tooltip:
+            '''
+            冒涜の炎線を放ち、カーソル位置で爆発を引き起こす
+            6回毎に強力な攻撃を繰り出す
+            '''
+    }
+
+    Oracle: {
+        DisplayName: 神託者
+        Tooltip: ""
+    }
+
+    PerfectDark: {
+        DisplayName: 完全なる闇
+        Tooltip: ""
+    }
+
+    StarnightLance: {
+        DisplayName: 星夜の槍
+        Tooltip: ""
+    }
+
+    CelestialClaymoreEcType: {
+        DisplayName: 天空のクレイモア
+        Tooltip: プレイヤーの近くに宇宙エネルギーの炎を生み出し、しばらくすると敵を追跡する
+    }
+
+    TheEnforcerEcType: {
+        DisplayName: 執行者
+        Tooltip: プレイヤーの近くに捕食者の故郷から直接炎を生み出し、しばらくすると爆発する
+    }
+
+    InfinitePick: {
+        DisplayName: 万象の強欲つるはし
+        Tooltip:
+            '''
+            右クリックで触れるものすべてを破壊する
+            [KEY]を押してモードを切り替える
+            これを持つだけでテラリアの大地が恐れおののくのを感じることができる
+            '''
+    }
+
+    DarkMatterBall: {
+        DisplayName: 暗黒物質球
+        Tooltip:
+            '''
+            ブラックホールまで圧縮されながらも奇跡的に安定した状態を保っている
+            時折アイテムを内包することがあり、右クリックで中のアイテムを取り出すことができる
+            '''
+    }
+
+    GreatswordofJudgementEcType: {
+        DisplayName: 裁きの大剣
+        Tooltip: 「」
+    }
+
+    OrderbringerEcType: {
+        DisplayName: 秩序をもたらす者
+        Tooltip: 「」
+    }
+
+    IridescentExcaliburEcType: {
+        DisplayName: 虹色のエクスカリバー
+        Tooltip: 「」
+    }
+
+    EndlessStabilizer: {
+        DisplayName: 無限安定器
+        Tooltip: 「」
+    }
+
+    BlackMatterStick: {
+        DisplayName: 中性子星のインゴット
+        Tooltip: 「」
+    }
+
+    InfiniteStick: {
+        DisplayName: 無限の棒
+        Tooltip: 「」
+    }
+
+    InfinityCatalyst: {
+        DisplayName: 無限の触媒
+        Tooltip: 「」
+    }
+
+    DawnshatterAzure: {
+        DisplayName: 暁を砕く蒼玉
+        Tooltip: ヨロウの黄金霊の完全なる力を解き放ち、敵を引き裂く
+    }
+
+    DecayParticles: {
+        DisplayName: 崩壊粒子
+        Tooltip:
+            '''
+            物質の源への一瞥
+            存在それ自体が奇跡である
+            '''
+    }
+
+    DecaySubstance: {
+        DisplayName: 崩壊物質
+        Tooltip:
+            '''
+            永遠の崩壊の中にある
+            破壊と再生の循環
+            '''
+    }
+
+    DissipationSubstance: {
+        DisplayName: 消散物質
+        Tooltip:
+            '''
+            現実がその本質を捉えることに苦心している
+            消え行くその姿は、しかし巨大である
+            '''
+    }
+
+    SpectralMatter: {
+        DisplayName: 幽体物質
+        Tooltip: 約3.7兆億トン
+    }
+
+    InfiniteToiletItem: {
+        DisplayName: 無限のトイレ
+        Tooltip: 「宇宙の力、銀河の彼方、そして空間の狭間の力が...今やただのトイレとなった」
+    }
+
+	StormGoddessSpear: {
+        DisplayName: 嵐の女神の槍
+        Tooltip:
+            '''
+            敵に当たると跳ね返る激しい稲妻を放つ槍
+            [legend]
+            '''
+        Legend:
+            '''
+            テラの影に潜む世界で、かつて輝かしい戦士の女神であったアリナは、今や果てしない混沌と絶望の深淵に落ち、嵐の女神として囁かれる存在となった。
+            かつて大陸で無双の戦士として、その勇猛な勇気と鋭い刀剣で稲妻のように静かな空を支配していた。
+            しかし、運命の影が彼女の足元に忍び寄っていた。光と闇の黄昏の戦いで、天が崩れ闇が残骸を飲み込むとき、嵐の女神は至高神の残虐さを目の当たりにした。
+            傲慢な神は彼女から同志と血族を奪い、彼女が守護していたすべてを破壊した。至高神の罪は、かつて揺るぎなかった正義への信念に疑念を投げかけ、彼女を計り知れない腐敗の深淵へと導いた。
+            戦いの余燼が収まると、アリナはテラに戻ったが、もはやかつてのような勇敢な戦士ではなかった。
+            内なる苦悩と限りない絶望は、かつて掲げた高邁な信念を捨て去り、新たな力の源を求めさせた。
+            恐ろしい儀式で、彼女は禁断の祝福を得た―魂の永遠の腐敗と引き換えに、限りない力が流れ込んだ。
+            今や嵐の女神は深淵への転落の象徴として立ち、その鎧は夜空のような黒曜石で飾られ、瞳は腐敗の輝きを放つ。
+            混沌の流れが渦巻き、テラへの敵意を剥き出しにしている。 その刀剣は、黒曜石の夜に稲妻の力で舞い、破壊の力を帯びている。
+            もはや正義のために戦うことはなく、全てを抹消する力と化した。 かつての武芸の腕前は健在だが、今や彼女はテラの宿敵となり、無数の呪いに侵されている。
+            嵐の女神は残酷に孤独で腐敗の旅を続け、影に潜んでいる。
+            その存在自体がテラの過ぎし栄光を嘲笑い、あらゆる希望の痕跡を飲み込む嵐となっている。
+            堕ちた星が深淵に沈むように、彼女は限りない闇の中で咲き誇り、宇宙の悲しみと破壊を携えている。
+            '''
+    }
+
+    DragonsScaleGreatsword: {
+        DisplayName: 龍海藻の大剣
+        Tooltip: 敵を弱く追尾する毒の雲を召喚する強大な剣を振るう
+    }
+
+    CosmicCalamity: {
+        DisplayName: 銀河の災厄
+        Tooltip: 捕食者の力を宿した投槍を投げ、ステルス攻撃は複数のレーザービームが敵を襲う
+    }
+
+    Gangarus: {
+        DisplayName: ロンギヌスの槍
+        Tooltip:
+            '''
+            ステルスゲージが満タンになるたびに、ゲージをリセットするかわりに槍がチャージされる
+            最大チャージは6回分のステルスゲージ分
+            チャージ時には効果範囲が円で表示され、投げると強力な一撃を放つ
+            槍がチャージされている場合、攻撃後に太陽からレーザーが放たれ、あらゆるものの運命を封印する
+            [legend]
+            '''
+        Legend:
+            '''
+            おお、砕かれし神よ、我が罪の贖いを許したまえ。
+            戦いは数世紀に及び、我は壮大な文明から逃れし者として、
+            宇宙の果ての荒れ果てた惑星で僅かな生を紡いでいる。
+            数千光年彼方では、巨大な戦争機械が星々を粉塵に変えている。
+            野蛮で恐ろしい攻撃が一瞬で光年の星域を消し去り、静寂の領域と化す。
+            数え切れぬ世紀の間、この戦いは続いてきた。今や、我が属する強大な文明は崩壊の縁にあり、
+            我は宇宙最大の罪人となり、最も不遜な冒涜者となるだろう。
+            我が肉体は朽ち、骨は歳月の皺を映す。
+            我が造りし脆弱な機械の一つとなる寸前である。
+            その運命が訪れる前に、神々よ、この至高の存在への不敬を赦し、我を許したまえ。
+            我を煉獄の深淵へと落とし、魂が堕ちゆく永遠の責め苦を受けさせたまえ。
+            しかし、我が文明のため、数世紀に及ぶこの戦いの勝利のため、この神聖なる存在の砕けし力を用いねばならぬ。
+            その神秘なる力を導くため、我はその砕かれし神性を冷たき機械と融合せねばならぬ。
+            これは避けられぬ冒涜。文明の存続のため、戦いの勝利のため、
+            我はこの至高の存在の最も敬虔な信奉者となり、歴史上最も不遜な冒涜者とならねばならぬ。
+            '''
+    }
+
+    SubmarineShockerEcType: {
+        DisplayName: 潜水艦ショッカー
+        Tooltip: 電荷を帯びたイオンを放つ高速の双剣で、敵に命中すると、近くの敵に連鎖して稲妻が跳ね返る
+    }
+
+    BrimstoneSwordEcType: {
+        DisplayName: 硫黄の剣
+        Tooltip:
+            '''
+            灼熱で高速な短剣
+            敵に命中すると時々地面から硫黄の間欠泉が噴出する
+            '''
+    }
+
+    BloodAltar: {
+        DisplayName: 血の祭壇
+        Tooltip:
+            '''
+            右クリックで血の月を召喚
+            世界中から落ちた血のオーブを自動的に収集し、最寄りの収納箱に保管する
+            「世界を真紅に染め上げよ」
+            '''
+    }
+
+	StarMyriadChanges: {
+        DisplayName: 星の万化
+        Tooltip: 変化の神を称えよ！
+    }
+
+    TerminusOver: {
+        DisplayName: 最後の仕上げ
+        Tooltip: 最後の戦いが待ち受けているが、代償を支払わねばならない...
+    }
+
+    PhosphorescentGauntletEcType: {
+        DisplayName: 燐光の籠手
+        Tooltip:
+            '''
+            敵を追跡する複数の拳で攻撃を繰り出す
+            5回命中すると、より大きな拳のペアが標的に落下し、massive damageを与える
+            右クリックでマウスの方向に突進し何かにぶつかると跳ね返される
+            '''
+    }
+
+    StellarStrikerEcType: {
+        DisplayName: 星辰の打撃者
+        Tooltip:
+            '''
+            刀身の表面に欠月の光が揺らめく
+            右クリックで刀を強化し、射程が増加する代わりに攻撃速度が低下
+            このモードでの真近接攻撃時、敵に向かって宇宙の光線が降り注ぐ
+            '''
+    }
+
+    TheLastMourningEcType: {
+        DisplayName: 最後の哀悼
+        Tooltip:
+            '''
+            左クリックで罪の髑髏を放ち、敵を追跡した後に複数の閃光へと爆発する
+            右クリックで刀を強化し、射程が増加し、このモードでの真近接攻撃は複数の髑髏が敵を追跡する
+            '''
+    }
+
+    GreentideEcType: {
+        DisplayName: 緑の潮流
+        Tooltip:
+            '''
+            マウスカーソルの下にリヴァイアサンの牙を複数召喚する
+            右クリックで刀を強化し、射程が増加する代わりに攻撃速度が低下
+            このモードでの真近接攻撃は空からリヴァイアサンの歯を召喚する
+            '''
+    }
+
+    DiseasedPikeEcType: {
+        DisplayName: 疫病の長槍
+        Tooltip:
+            '''
+            疫病を付与する追尾蜂群を放つ
+            右クリックで空から不正確な疫病の投射物と追尾する疫病ビームを召喚する
+            '''
+    }
+
+    PlagueKeeperEcType: {
+        DisplayName: 疫病の守護者
+        Tooltip: 疫病を付与する無数の追尾蜂群を放つ
+    }
+
+    BalefulHarvesterEcType: {
+        DisplayName: 害悪の収穫者
+        Tooltip:
+            '''
+            振り終わった後に追尾する複数の炎の鎌の投射物を放ち、追尾する炎のカボチャと共に閃光へと爆発する
+            右クリックで鎌を回転させ、離すと投げつけて地面に地獄の噴火を引き起こす
+            鎌を投げた後は毎回拾い上げる必要がある
+            '''
+    }
+
+    VulcaniteLanceEcType: {
+        DisplayName: バルカナイトの槍
+        Tooltip:
+            '''
+            この武器を持つと炎がプレイヤーの上空を周回する
+            槍で敵を攻撃すると爆発を引き起こす
+            槍で炎を打つと爆発し、敵に向かって追尾する閃光を放つ
+            '''
+    }
+
+    AstralBladeEcType: {
+        DisplayName: アストラルブレード
+        Tooltip:
+            '''
+            刀撃はアストラル感染を付与する
+            敵の体力が高いほどより大きなダメージを与える
+            真・近接攻撃は全方向から星々が敵を追撃する
+            '''
+    }
+
+    AstralPikeEcType: {
+        DisplayName: アストラルパイク
+        Tooltip:
+            '''
+            3回振るごとに収束する3つの明るい星界の星を放つ
+            真近接攻撃は全方向から星々が敵を追撃する
+            '''
+    }
+
+    AnarchyBladeEcType: {
+        DisplayName: アナーキーブレード
+        Tooltip: 3回攻撃するごとに硫黄爆弾を発射する重剣を振るう
+    }
+
+	AftershockEcType: {
+        DisplayName: 余震
+        Tooltip:
+            '''
+            振るたびに地面の破片が敵に向かって放たれ、防御力を粉砕する
+            右クリックで刀を強化し、
+            このモードでの真近接攻撃はマウスカーソルに向かって空から岩塊を落とす
+            '''
+    }
+
+    BrimlashEcType: {
+        DisplayName: 硫黄の鞭打ち
+        Tooltip:
+            '''
+            硫黄のボルトを発射する重い硫黄の剣を振るう
+            ボルトは最終的に3つの小さなボルトに分裂し、敵を追尾する
+            右クリックで敵を積極的に追尾する5つの機敏な硫黄ボルトを放つ
+            右クリックには小さな確率で反動で自分を傷つける可能性がある
+            '''
+    }
+
+    EarthenPikeEcType: {
+        DisplayName: 大地の槍
+        Tooltip:
+            '''
+            複数の土の破片を放ち、高確率で貫通して転がる巨石を投げる
+            右クリックで槍を投げ槍のように投擲し、着弾地点周辺で地震を引き起こす
+            右クリック使用後は、再び使用する前に手動で槍を拾い上げる必要がある
+            '''
+    }
+
+    TeardropCleaverEcType: {
+        DisplayName: 涙滴の大斧
+        Tooltip: 涙の激しい雨
+    }
+
+    SausageMakerEcType: {
+        DisplayName: ソーセージメーカー
+        Tooltip:
+            '''
+            5回振るごとに血の爆弾を発射し、地面に張り付いて敵が接触すると爆発するか、しばらくすると消滅する
+            真近接攻撃は近くの敵を追跡する血を呼び出し、煮えたぎる血の効果を付与する
+            '''
+    }
+
+    PestilenceIngot: {
+        DisplayName: 疫病のインゴット
+        Tooltip: 刺激的な青リンゴキャンディーの香りがする
+    }
+
+    ReminiscenceBreastplate: {
+        DisplayName: 追憶の胸当て
+        Tooltip: これまでの旅路とどれほど遠くまで来たかを振り返る
+    }
+
+    AbsoluteZeroEcType: {
+        DisplayName: 絶対零度
+        Tooltip: 氷の爆弾を放出
+    }
+
+    FlarefrostBlade: {
+        DisplayName: 焔霜の剣
+        Tooltip: 「」
+    }
+
+    MurasamaMould: {
+        DisplayName: 血金の鋳型
+        Tooltip: 別次元から来たかのような素材で、触れると温かく、電撃めいた感覚があり、流血を求めているかのようだ
+    }
+
+    WaveSkipperEcType: {
+        DisplayName: 波を跳ぶ者
+        Tooltip:
+            '''
+            左クリックで砂に潜って進む砂の歯を発射し、ステルス攻撃では3つの巨大な砂の歯を放つ
+            右クリックで跳ねる砂の歯を放ち、ステルス攻撃で複数の高速な砂の歯を空から降らせる
+            '''
+    }
+
+    BlossomFluxEcType: {
+        DisplayName: 花開く流転
+        Tooltip:
+            '''
+            時間とともに速度を増す追尾する葉の流れを放つ
+            被弾すると攻撃速度が基本値にリセットされる
+            右クリックで狙いを定め、波状に進む密集したジャングル爆弾の散弾を発射し、衝突時に爆発する
+            '''
+    }
+
+	PhangasmEcType: {
+        DisplayName: ファンガズム
+        Tooltip: 発射された矢は通過した最初の敵を貫く影の奔流の投射物を伴う
+    }
+
+    OverhaulTheBibleBook: {
+        DisplayName: 改造の聖書
+        Tooltip: Calamity Overhaul Modに関連するチュートリアルを見る... 今後さらなる内容が追加されるかもしれない
+    }
+
+    ContagionEcType: {
+        DisplayName: 伝染病
+        Tooltip:
+            '''
+            左クリックで極めて高速で貫通するコレラの矢を放ち、その軌跡に投射物を残す
+            しばらくすると、投射物は近くの敵を追跡する
+            右クリックでカーソルを追従する大量の追尾する疫病の蜂を召喚する
+            [c/085054:「慈愛なる父はこの弓を持つ者を常に見守っている。父を誇らしく思わせよ。」]
+            '''
+    }
+
+    AlluvionEcType: {
+        DisplayName: 沖積
+        Tooltip:
+            '''
+            木の矢を台風の矢とシャークロンに変換する
+            右クリックで海の怒りを呼び起こす
+            「海の力があなたの手の中に」
+            '''
+    }
+
+    PlanetaryAnnihilationEcType: {
+        DisplayName: 惑星の殲滅
+        Tooltip: 空から矢が敵の上に降り注ぎ、木の矢を追尾する虹の矢に変換する
+    }
+
+    TheMaelstromEcType: {
+        DisplayName: 大渦
+        Tooltip:
+            '''
+            左クリックで水圧と共に爆発する高速の台風の矢を放つ
+            右クリックで深海圧を付与するミニリーパーシャークを発射する
+            '''
+    }
+
+    ClockGatlignumEcType: {
+        DisplayName: クロックガトリグナム
+        Tooltip:
+            '''
+            弾丸の嵐を解き放つ
+            10%の確率で弾薬を消費しない
+            「残念ながら、ワニは発射できない！」
+            '''
+    }
+
+    ElementalBlasterEcType: {
+        DisplayName: エレメンタルブラスター
+        Tooltip: 敵に命中すると色とりどりの元素の光を降り注がせる元素の螺旋を放つ
+    }
+
+    MarksmanBowEcType: {
+        DisplayName: 射手の弓
+        Tooltip:
+            '''
+            「どんな狩人でも、素早く正確な一射が成功の鍵だと知っている」
+            この弓から放たれた矢には、復讐の魂が敵を追跡して取り付く可能性がある
+            '''
+    }
+
+    NettlevineGreatbowEcType: {
+        DisplayName: イラクサ蔓の大弓
+        Tooltip:
+            '''
+            この弓から放たれる全ての矢は酸の毒を帯びる
+            通常の4発の後、次の3発は貫通する巨大な蔦になる
+            '''
+    }
+
+    SpectreRifle: {
+        DisplayName: スペクターライフル
+        Tooltip:
+            '''
+            敵に取り付いて継続的にダメージを与える複数の霊を放つ
+            「この反動の強さの原因は単に霊たちが怒っているだけだ」
+            '''
+    }
+
+	StormDragoonEcType: {
+    DisplayName: 嵐竜砲
+    Tooltip:
+        '''
+        雹のような弾丸を放つ
+        「私が近づきつつある嵐だ」
+        '''
+	}
+
+	TheStormEcType: {
+		DisplayName: 暴風
+		Tooltip:
+			'''
+			マウスカーソルのある位置に矢を落とす
+			木の矢を稲妻に変換する
+			'''
+	}
+
+	ThunderstormEcType: {
+		DisplayName: 雷雨
+		Tooltip:
+			'''
+			マナを消費して衝突時に追加のプラズマを降らせるプラズマビームを放つ
+			「雨を降らせよ」
+			'''
+	}
+
+	TyrannysEndEcType: {
+		DisplayName: 暴虐の終焉
+		Tooltip:
+			'''
+			マスケット弾を高速.70口径弾に変換する極めて重い対物ライフル
+			貫通して敵に死の印を与える
+			撃つたびに右クリックでリロードが必要
+			弾丸は複数の追加弾と霊銅の爆発に分裂する
+			「最も重装甲の敵の心臓をも貫け」
+			'''
+	}
+
+	AntiMaterielRifleEcType: {
+		DisplayName: バレットスナイパーライフル 
+		Tooltip:
+			'''
+			マスケット弾を高速.50口径弾に変換する重い対物ライフル
+			貫通して敵に死の印を与える
+			撃つたびに右クリックでリロードが必要
+			弾丸は複数の追加弾に分裂する
+			「360度トリックショット！」
+			'''
+	}
+
+	HalibutCannonEcType: {
+    DisplayName: オヒョウ砲
+    Tooltip:
+        '''
+        マスケット弾を海の弾丸の流れに変換する
+        「単眼鏡と山高帽を被ったこの魚を見てごらん。彼が大学に行ったなんて信じられる?」
+        "実を言いますと、私は海洋学と深海植物学の博士号を持っておりまして、硫黄の海大学の釣り大会で2度優勝したことがございます。
+        このオヒョウは海の秘密を知っているだけでなく、海の王冠も手にしているのです。" - オヒョウ曰く
+        legend_Text
+        [Lang4]
+        [Text]
+        '''
+	}
+
+	SDFMGEcType: {
+		DisplayName: SDFMG
+		Tooltip:
+			'''
+			敵を追尾する水ミサイルを放つことがある
+			「魚類の砲撃力学の驚異」
+			'''
+	}
+
+	DeadSunsWindEcType: {
+		DisplayName: 死せる太陽の風
+		Tooltip:
+			'''
+			物体に触れると跳ね返る高温のプラズマの集中ビームを放つ
+			プラズマ光線は跳ね返って最寄りの敵を追跡する
+			連続で命中すると大爆発を引き起こす
+			ジェルを弾薬として使用
+			「どうやってジェルをこんなものに変えたんだ?」
+			'''
+	}
+
+	FetidEmesisEcType: {
+		DisplayName: 汚染嘔吐
+		Tooltip:
+			'''
+			弾丸にナトリウムと毒を感染させる
+			8発射撃するごとに汚染物質の嘔吐攻撃を引き起こす
+			右クリックで半自動モードに切り替え、汚れた肉玉を発射
+			「あれは本当にひどいパンデミックだった...」 老いたブタザメは過去を思い出しながら、独り言を呟く。
+			"私は以前、海洋大学の教授だった。あの大きなヒラメは私の生徒だった。
+			パンデミックが発生し、海洋大学が硫黄海開発部に変わるまでは...それで私は引退したんだ...
+			ところで、私が一度に何発の弾を飲み込めるか知りたいかい?"
+			'''
+	}
+
+	SeadragonEcType: {
+    DisplayName: シードラゴン
+    Tooltip:
+        '''
+        射撃には定常的な海の泡が伴う
+        弾薬と共に水爆が解き放たれる
+        '''
+	}
+
+	BarrenBow: {
+		DisplayName: 不毛の弓
+		Tooltip: 放たれた矢は敵に命中すると不毛の流れを放出する
+	}
+
+	ScorchedEarthEcType: {
+		DisplayName: 焦土
+		Tooltip:
+			'''
+			右クリックで8発の地獄の母なるミサイルを装填
+			発射されたロケットは自動的に敵を追尾
+			衝突時、大爆発を引き起こし複数の子ロケットに分裂する
+			「これは間違いなく複数の国際条約に違反している」
+			'''
+	}
+
+	SeasSearingEcType: {
+		DisplayName: 海の灼熱
+		Tooltip:
+			'''
+			装填完了後、弾丸を海の殻に変換して連射する
+			右クリックで海の渦を放つ
+			'''
+	}
+
+	CoralCannonEcType: {
+		DisplayName: サンゴ砲
+		Tooltip:
+			'''
+			かなりの威力を持つ古い拳銃
+			右クリックでリロード
+			「薬室は湿っていて、火薬は恐らく発火しないだろう....ちょっと待て? これは火薬を使わないのか?」
+			'''
+	}
+
+	AngelicShotgunEcType: {
+		DisplayName: 天使のショットガン
+		Tooltip:
+			'''
+			聖霊で弾を祝福する
+			マスケット弾を聖なる弾に変換する
+			独特の方法で聖霊の気配を漂わせる大口径ショットガン
+			'''
+	}
+
+	AquashardShotgunEcType: {
+    DisplayName: 水晶のショットガン
+    Tooltip: マスケット弾を海のプリズムに変換する
+	}
+
+	AnimosityEcType: {
+		DisplayName: 敵意
+		Tooltip:
+			'''
+			マスケット弾を運動エネルギー弾に変換
+			右クリックで分散して複数発を発射
+			「私の不具の体を燃え盛る炎とさせよ」
+			'''
+	}
+
+	CorinthPrimeEcType: {
+		DisplayName: コリントプライム
+		Tooltip:
+			'''
+			6発の高速弾を発射
+			右クリックで小型榴弾を発射
+			榴弾が2秒以内に敵に触れなければ大爆発を起こす
+			そうでなければ小さな衝撃波のみを引き起こす
+			'''
+	}
+
+	CursedCapperEcType: {
+		DisplayName: 呪われた撃ち手
+		Tooltip:
+			'''
+			液体弾を発射
+			「どこから出てきたのか知りたくないだろう」
+			'''
+	}
+
+	DisseminatorEcType: {
+		DisplayName: 散布者
+		Tooltip:
+			'''
+			弾丸の雨を降らせる
+			右クリックで高速な精密射撃
+			「教科書通りのクロスファイア」
+			'''
+	}
+
+	HellbornEcType: {
+		DisplayName: 地獄生まれ
+		Tooltip:
+			'''
+			真っ赤に熱したショットガン
+			発射時、銃身が敵に大きなダメージを与える
+			'''
+	}
+
+	PetrifiedDisease: {
+    DisplayName: 石化した病
+    Tooltip:
+        '''
+        巨大な石の毒矢を放つ
+        「動物と植物の両方に影響を与え、徐々に石化させる奇妙な病」
+        '''
+	}
+
+	HelstormEcType: {
+		DisplayName: ヘルストーム
+		Tooltip: '''「地獄生まれよりも優れている」'''
+	}
+
+	LeviatitanEcType: {
+		DisplayName: リヴァイアタイタン
+		Tooltip:
+			'''
+			マスケット弾を水風船か海洋弾に変換する
+			「『嘔吐のコツを知りたいかい?』 リヴァイアサンは目を細めて言った...『チーズと皮蛋を一緒に食べれば、間違いなく嘔吐の達人になれるよ』と」
+			'''
+	}
+
+	GoldenEagleEcType: {
+		DisplayName: 金色の鷲
+		Tooltip:
+			'''
+			一度に5発の弾丸を発射
+			右クリックで連射、マウスカーソルの位置に大量の追加弾を生成
+			「この銃がどうやって作られたのか知りたくないだろう」
+			'''
+	}
+
+	SurgeDriverEcType: {
+		DisplayName: サージドライバー
+		Tooltip:
+			'''
+			大量の解離光線を放ち、弾薬が減少するにつれて火力が激しくなる
+			ピーク時にはガンマ線爆発に切り替わる
+			'''
+	}
+
+	DeepcoreGK2EcType: {
+		DisplayName: ディープコアGK2
+		Tooltip:
+			'''
+			右クリックでズームアウト
+			「完璧なブレーキ設計で、内蔵マイコン付き。自動リロードできるだけでなく、朝食のパンを焼くこともできる。」
+			'''
+	}
+
+	DodusHandcannonEcType: {
+        DisplayName: ドドスのハンドキャノン
+        Tooltip: 
+            '''
+            高爆発性のナッツの核を発射する...そう、その通り、ナッツの核だ！
+            「この道具でトール・ナットを召喚しようとしたけど、一度も成功したことがない」
+            '''
+    }
+
+    P90EcType: {
+        DisplayName: P90
+        Tooltip:
+            '''
+            極めて高頻度で徹甲弾を発射
+            弾丸は敵の防御力15ポイントを無視する
+            35%の確率で弾薬を消費しない
+            「実際、見えているのはトレーサー弾の軌跡だけなので、弾薬代として追加で2,685ドル支払う必要があるだろう」
+            '''
+    }
+
+    PearlGodEcType: {
+        DisplayName: 真珠の神
+        Tooltip:
+            '''
+            一度に5発の弾丸を発射
+            弾倉が空になると強力な衝撃波榴弾を発射
+            「お前の命は私のものだ」
+            '''
+    }
+
+    BulletFilledShotgunEcType: {
+        DisplayName: 弾丸充填式ショットガン
+        Tooltip:
+            '''
+            大量の跳弾を発射
+            1回の使用で5発の弾丸を消費
+            「照準？それは何だ?」
+            '''
+    }
+
+    ButcherEcType: {
+        DisplayName: ブッチャー
+        Tooltip: 残弾が少なくなるほど、発射速度と精度が上がる
+    }
+
+    FungicideEcType: {
+        DisplayName: 殺菌剤
+        Tooltip: 衝突時に分裂する菌類弾を発射
+    }
+
+	HalleysInfernoEcType: {
+        DisplayName: ハレーの業火
+        Tooltip:
+            '''
+            一連の高圧月光ジェットを発射
+            ジェルを弾薬として使用
+            「ハレー彗星が予想より早く来たようだ」
+            '''
+    }
+
+    HandheldTankEcType: {
+        DisplayName: 携帯戦車
+        Tooltip: '''「おい、相棒！見てくれ、私が戦車を押してるぞ！」'''
+    }
+
+    InfinityEcType: {
+        DisplayName: 無限
+        Tooltip:
+            '''
+            大量の弾丸を螺旋状に発射
+            マスケット弾を跳ね返って分裂するエネルギー弾に変換
+            「これを手に持っている限り、無限の解離は決して止まらない」
+            '''
+    }
+
+    KarasawaEcType: {
+        DisplayName: カラサワ
+        Tooltip: '''「...この銃は重すぎる...重すぎる...」'''
+    }
+
+    KingsbaneEctype: {
+        DisplayName: キングスベイン
+        Tooltip:
+            '''
+            起動すると素早く発射
+            オーバーヒート時に霊銅弾を放出
+            オーバーヒート時、銃身は高ダメージを与える
+            霊銅弾は近くの敵を素早く追跡し、50ポイントの防御力を無視する
+            「かつて遺伝の力は君を跪かせたが、今や、我々は君を立ち上がらせる」
+            '''
+    }
+
+    MegalodonEcType: {
+        DisplayName: メガロドン
+        Tooltip:
+            '''
+            3発撃つごとに追加のサメを発射
+            10%の確率で弾薬を消費しない
+            「我々はサメをそこに収めることに成功した。ただし指を噛みちぎられないように注意が必要だ」
+            '''
+    }
+
+	MidasPrimeEcType: {
+        DisplayName: ミダスプライム
+        Tooltip:
+            '''
+            狙撃弾を発射
+            右クリックで金貨か銀貨を空中に投げ上げる
+            硬貨に命中した弾丸は最寄りの敵に向かって飛ぶ
+            最大4枚の硬貨を投げることができ、可能であれば弾丸は複数の硬貨間でバウンドする
+            バウンドした弾丸は必ずクリティカルヒットし、バウンド回数に応じてダメージが増加する
+            「金こそがパワーだ」
+            '''
+    }
+
+    NeedlerEcType: {
+        DisplayName: ニードラー
+        Tooltip:
+            '''
+            マスケット弾を敵に張り付いて爆発する針状の葉に変換する
+            「松葉の雨嵐？」
+            '''
+    }
+
+    PlagueTaintedSMGEcType: {
+        DisplayName: 疫病感染SMG
+        Tooltip:
+            '''
+            左クリックで疫病弾を発射する
+            クリティカルヒット時に自爆する疫病ドローンを生成
+            疫病に感染した敵にヒットした時、ドローンは高いクリティカル率を持つ
+            右クリックでドローンの群れを放つ
+            「狙って撃て、狙って撃て」
+            '''
+    }
+
+    ScorpioEcType: {
+        DisplayName: スコーピオ
+        Tooltip: 「ドーン」
+    }
+
+    ArcherfishEcType: {
+        DisplayName: アーチャーフィッシュ
+        Tooltip: マスケット弾を水流に変換する
+    }
+
+    AstralBlasterEcType: {
+        DisplayName: アストラルブラスター
+        Tooltip: マスケット弾を追跡する幻影の星弾に変換する
+    }
+
+	AuralisEcType: {
+        DisplayName: オーラリス
+        Tooltip:
+            '''
+            敵の防御力を減少させる高速閃光弾を発射
+            静止することでダメージボーナスを得られ、最大25%まで上昇
+            静止して右クリックで5秒以上照準を合わせると、周囲にオーロラが生成される
+            オーロラは次の着弾弾丸のダメージを100ポイント軽減する
+            この効果は最大20秒間持続し、30秒のクールダウンがある
+            '''
+    }
+
+    AuroraBlazerEcType: {
+        DisplayName: オーロラブレイザー
+        Tooltip:
+            '''
+            星型の軌道で動く星雲の炎を放射
+            ジェルを弾薬として使用
+            「星明かりの中の怒りが燃える」
+            '''
+    }
+
+    BarracudaGunEcType: {
+        DisplayName: バラクーダガン
+        Tooltip: 二匹のバラクーダを放ち、敵に張り付いて引き裂く
+    }
+
+    BlissfulBombardierEcType: {
+        DisplayName: 至福の爆撃機
+        Tooltip:
+            '''
+            聖なる火のロケットを発射
+            破壊可能な弾薬を使用時、ロケットはブロックを破壊する
+            '''
+    }
+
+    ChickenCannonEcType: {
+        DisplayName: チキンキャノン
+        Tooltip:
+            '''
+            巨大な爆発を引き起こすニワトリロケットを発射
+            右クリックで飛行中のすべてのロケットを起爆
+            '''
+    }
+
+    ClamorRifleEcType: {
+        DisplayName: クラモアライフル
+        Tooltip: マスケット弾を追跡するエネルギービームに変換
+    }
+
+	GunkShotEcType: {
+        DisplayName: ガンクショット
+        Tooltip: 複数の弾丸を発射
+    }
+
+    NorfleetEcType: {
+        DisplayName: ノーフリート
+        Tooltip: 全てに適した完璧なバランス
+    }
+
+    ShroomerEcType: {
+        DisplayName: シュルーマー
+        Tooltip: 強力な追跡キノコと共に弾丸を発射
+    }
+
+    StarfleetEcType: {
+        DisplayName: スターフリート
+        Tooltip: 複数のプラズマスター弾を発射
+    }
+
+    StarmadaEcType: {
+        DisplayName: スターマーダ
+        Tooltip: 星とプラズマスター弾を発射
+    }
+
+    SulphuricAcidCannonEcType: {
+        DisplayName: 硫酸キャノン
+        Tooltip: 敵に張り付いて溶かす硫酸の弾幕を発射
+    }
+
+    UniversalGenesisEcType: {
+        DisplayName: ユニバーサルジェネシス
+        Tooltip:
+            '''
+            銃口から弾丸の集団を発射し、マウスカーソルに向かって落下する星の雨を降らせる
+            マスケット弾を衝突時に追加の落下星を召喚する星召喚弾に変換する
+            「星々を我らの敵の上に落とせ」
+            '''
+    }
+
+	VoidragonEcType: {
+        DisplayName: ヴォイドドラゴン
+        Tooltip:
+            '''
+            6発撃つごとにヴォイドバーストを発動
+            弾丸が敵に命中すると、その場所にヴォイドタッチを生成
+            「この魚は星からやってきた。だが、全能者でも虚空竜でもない。ただの魚だ。」
+            '''
+    }
+
+    AcesHighEcType: {
+        DisplayName: エースハイ
+        Tooltip:
+            '''
+            それぞれ異なる効果を持つトランプカードの連射を放つ
+            ハートは吸血効果を持つ
+            スペードは無限に貫通し、敵の無敵時間を無視する
+            ダイヤは爆発を引き起こす
+            クラブは3枚の小さなトランプカードに分裂する
+            '''
+    }
+
+    ConferenceCallEcType: {
+        DisplayName: カンファレンスコール
+        Tooltip:
+            '''
+            密集した弾丸を発射しながら、さらに空からも弾丸を召喚する
+            [c/768EE6:@全員へ]
+            '''
+    }
+
+    MineralMortarEcType: {
+        DisplayName: ミネラルモルタル
+        Tooltip:
+            '''
+            爆発時に広範囲のダメージを与えるオニキスロケットを発射
+            「砂嵐は起こせないが、全員を空に吹き飛ばすことはできる」
+            '''
+    }
+
+	MolecularManipulatorEcType: {
+        DisplayName: 分子操作機
+        Tooltip:
+            '''
+            モンスターの特性を歪める「空白」弾を発射
+            「オブジェクト参照がオブジェクトのインスタンスに設定されていません」
+            '''
+    }
+
+    NullificationRifleEcType: {
+        DisplayName: 無効化ライフル
+        Tooltip:
+            '''
+            モンスターの特性を歪める「空白」弾を発射
+            「オブジェクト参照がオブジェクトのインスタンスに設定されていません」
+            '''
+    }
+
+    OnyxChainBlasterEcType: {
+        DisplayName: オニキスチェーンブラスター
+        Tooltip:
+            '''
+            複数の弾丸とオニキス手榴弾を発射
+            10%の確率で弾薬を消費しない
+            「この銃の弾倉はジョークよりも短いが、少なくとも弾切れのときには笑わせてくれる」
+            '''
+    }
+
+    OnyxiaEcType: {
+        DisplayName: オニキシア
+        Tooltip:
+            '''
+            敵に弾丸とオニキスの破片の雨を降らせる
+            「黒竜の化身」
+            '''
+    }
+
+    PestilentDefilerEcType: {
+        DisplayName: 疫病による冒涜者
+        Tooltip: マスケット弾を疫病の破片に分裂する疫病弾に変換する
+    }
+
+    RealmRavagerEcType: {
+        DisplayName: 領域の荒廃者
+        Tooltip:
+            '''
+            一度に3～4発の弾丸を発射
+            マスケット弾を爆発弾に変換する
+            「この武器に隠された秘密に気をつけろ。前の所有者は決して明かそうとしなかった。幽霊でさえ知ったら笑うだろう。」
+            '''
+    }
+
+	RubicoPrimeEcType: {
+        DisplayName: ルビコプライム
+        Tooltip:
+            '''
+            静止状態で自動的に近くの敵を射撃する
+            発射される弾薬はより高いクリティカルヒット倍率を持つ
+            「本物の自動小銃なら自分で敵を撃てなければならない」
+            '''
+    }
+
+    SandstormGunEcType: {
+        DisplayName: 砂嵐銃
+        Tooltip:
+            '''
+            カーソルの高さで砂の精霊を発射し、多数の砂玉を空中に投げる
+            砂ブロックを弾薬として使用
+            '''
+    }
+
+    SepticSkewerEcType: {
+        DisplayName: 腐敗の串刺し
+        Tooltip:
+            '''
+            一斉に粘着性の毒銛を発射
+            プレイヤーに戻る際にバクテリアを放出
+            '''
+    }
+
+    ShredderEcType: {
+        DisplayName: シュレッダー 
+        Tooltip:
+            '''
+            反射して分裂するエネルギー弾の集団を発射
+            右クリックで弾丸の一斉射を放つ
+            「ほとんどの弾丸が無からわき出るのは幸いだ...そうでなければ高額な兵器代を支払うことになるだろう」
+            '''
+    }
+
+    SomaPrimeEcType: {
+        DisplayName: ソーマプライム
+        Tooltip:
+            '''
+            この武器のクリティカル率が100%を超えると、オーバーキルが発生する可能性がある
+            発射された全ての弾丸は解離性の重複可能な出血デバフを与える
+            解離デバフは1秒あたり150ポイントのダメージを与え、遠距離属性の影響を受ける
+            解離デバフがダメージを与えるたびに、クリティカルヒットまたはオーバーキルが発生する可能性がある
+            マスケット弾を高速弾に変換する
+            30%の確率で弾薬を消費しない
+            「市場の力は進化か死かを決定づける」
+            '''
+    }
+
+    SpectralstormCannonEcType: {
+        DisplayName: 幽霊嵐キャノン
+        Tooltip:
+            '''
+            失われた魂とフレア弾を発射
+            「彼らはフレア弾をナパーム弾として使用することで条約を回避しようとしたが、結果としてこの冗談のような物を作り出した」
+            '''
+    }
+
+    SpeedBlasterEcType: {
+        DisplayName: スピードブラスター
+        Tooltip: 
+            '''
+            素早く燐光弾を発射
+            右クリックで移動中に前方へ推進する強力な色つき弾の連射を放つ
+            この能力は5秒のクールダウンを持つ
+            クールダウン中は射撃速度と精度が向上する
+            「顔面に撃ってみろ、一日中楽しく顔を洗い続けることになるぞ」
+            '''
+    }
+
+	SpykerEcType: {
+        DisplayName: スパイカー
+        Tooltip:
+            '''
+            マスケット弾を敵に張り付いて爆発する葉の針に変換する
+            「これで家をリフォームするのは良くない考えだということを証拠が示している」
+            '''
+    }
+
+    StarSputterEcType: {
+        DisplayName: スタースパッター
+        Tooltip:
+            '''
+            落下する星のビームを発射
+            4回目の攻撃ごとにより大きな落下星を放つ
+            「遠い銀河の瞬く星々を見つめて」
+            '''
+    }
+
+    StellarCannonEcType: {
+        DisplayName: ステラーキャノン
+        Tooltip:
+            '''
+            落下する星を弾薬として使用
+            爆発する幻の星のクリスタルを発射
+            '''
+    }
+
+    SvantechnicalEcType: {
+        DisplayName: スヴァンテクニカル
+        Tooltip:
+            '''
+            巨大な量子弾を発射
+            「技術は生活を変える」
+            「ヘックステック・ガンの現代版かもしれない」
+            '''
+    }
+
+    TheHiveEcType: {
+        DisplayName: ザ・ハイブ
+        Tooltip:
+            '''
+            爆発時に味方のミツバチを生成する様々な疫病ロケットを発射
+            破壊可能なブロックに対して使用する弾薬を使用した場合、ロケットはブロックを破壊する
+            「これらのミツバチをロケット弾頭に詰め込むのは恥ずべきことだ」
+            '''
+    }
+
+    ThePackEcType: {
+        DisplayName: ザ・パック
+        Tooltip: 敵に近づくと小さな追跡ロケットに分裂する大型の追跡ロケットを発射する
+    }
+
+    ElementMuzzleBrake: {
+        DisplayName: エレメンタルマズルブレーキ
+        Tooltip:
+            '''
+            反動と銃口圧を65%削減
+            遠距離ダメージを15%削減
+            遠距離クリティカル率を25%増加
+            '''
+    }
+
+    NeutronStarMuzzleBrake: {
+        DisplayName: 中性子星スタビライザー
+        Tooltip:
+            '''
+            反動と銃口圧を完全に除去
+            遠距離ダメージを100%増加
+            遠距離クリティカル率を100%増加
+            '''
+    }
+
+	PrecisionMuzzleBrake: {
+        DisplayName: 精密マズルブレーキ
+        Tooltip:
+            '''
+            反動と銃口圧を55%削減
+            遠距離ダメージを20%削減
+            遠距離クリティカル率を15%増加
+            '''
+    }
+
+    SimpleMuzzleBrake: {
+        DisplayName: 基本マズルブレーキ
+        Tooltip:
+            '''
+            反動と銃口圧を40%削減
+            遠距離ダメージを25%削減
+            '''
+    }
+
+    BladedgeGreatbowEcType: {
+        DisplayName: ブレッジ大弓
+        Tooltip: 2本の矢と4枚の刃を同時に発射する
+    }
+
+    CleansingBlazeEcType: {
+        DisplayName: 浄化の炎
+        Tooltip:
+            '''
+            ブロックを貫通する炎のビームを放出
+            ジェルを弾薬として使用
+            '''
+    }
+
+    FirestormCannonEcType: {
+        DisplayName: 火炎嵐キャノン
+        Tooltip:
+            '''
+            武器化されたフレア弾を連続して放出
+            右クリックで密集したフレア弾の一斉射を放つ
+            '''
+    }
+
+    FlakToxicannonEcType: {
+        DisplayName: 対空毒キャノン
+        Tooltip:
+            '''
+            カーソルの位置に一定の角度で発射
+            プレイヤーの頭上の特定の高度範囲内でのみ発射可能
+            「要件：高いIQ」
+            '''
+    }
+
+    FreedomStarEcType: {
+        DisplayName: フリーダムスター
+        Tooltip:
+            '''
+            左クリックでエネルギー球を発射
+            左クリック長押しでチャージし、衝突時に爆発するビームを発射
+            '''
+    }
+
+	StormSurgeEcType: {
+        DisplayName: 嵐の奔流
+        Tooltip:
+            '''
+            ブロックを貫通する青い旋風を放つ
+            「嵐を恐れ、従え」
+            '''
+    }
+
+    AmmoBoxFire: {
+        DisplayName: 燃える弾薬箱
+        Tooltip:
+            '''
+            長押しで設置、設置完了後、銃器を持って右クリックで弾倉に特殊弾薬を補充
+            特殊弾薬は元の弾丸の効果と重ねることができる
+            弾頭を高度に可燃性にし、標的に命中すると爆発する
+            '''
+    }
+
+    MonsoonEcType: {
+        DisplayName: モンスーン
+        Tooltip:
+            '''
+            5本の矢を並列で発射し、サメや海洋の矢が発生する可能性がある
+            右クリックで大量の矢を爆発的に放つ必要がある
+            '''
+    }
+
+    AethersWhisperEcType: {
+        DisplayName: エーテルの囁き
+        Tooltip: 複数のラデルエネルギーの破片衝撃を放ち、距離が遠いほどダメージが大きい
+    }
+
+    PridefulHuntersPlanarRipperEcType: {
+        DisplayName: 誇り高き狩人の次元裂刃
+        Tooltip:
+            '''
+            マスケット弾を雷弾に変換
+            雷の弾幕は高速で、敵を倒すと爆発する
+            雷のクリティカルヒットでスタック可能な速度ボーナスを得る
+            最大で20%の移動速度と加速度ボーナスを獲得
+            手持ちアイテムを切り替えるとボーナスはリセットされる
+            15発発射するごとに弾丸の連射が発生
+            33%の確率で弾薬を消費しない
+            '''
+    }
+
+	VortexpopperEcType: {
+        DisplayName: ボルテックスポッパー
+        Tooltip:
+            '''
+            左クリックで泡弾を発射
+            右クリックで自動掃射し、マウスの位置に大量の泡を生成
+            「弾丸を泡に入れるほど素晴らしいことはない」
+            '''
+    }
+
+    ArmourPiercerBox: {
+        DisplayName: 徹甲弾箱
+        Tooltip:
+            '''
+            長押しで設置、設置完了後、銃器を持って右クリックで弾倉に特殊弾薬を補充
+            特殊弾薬は元の弾丸の効果と重ねることができる
+            タングステン金でコーティングした弾薬で弾丸の装甲貫通能力を向上させ、目標の装甲値75%を無視する
+            「それでも、ピストルで戦車を壊そうとはしないでください」
+            '''
+    }
+
+    HighExplosiveBox: {
+        DisplayName: 高性能爆薬箱
+        Tooltip:
+            '''
+            長押しで設置、設置完了後、銃器を持って右クリックで弾倉に特殊弾薬を補充
+            特殊弾薬は元の弾丸の効果と重ねることができる
+            弾頭を高性能爆発物に変換し、弾丸が標的に命中すると激しい爆発を起こす
+            「全て吹き飛ばせ！」
+            '''
+    }
+
+    DragonBreathBox: {
+        DisplayName: ドラゴンブレス弾箱
+        Tooltip:
+            '''
+            長押しで設置、設置完了後、銃器を持って右クリックで弾倉に特殊弾薬を補充
+            特殊弾薬は元の弾丸の効果と重ねることができる
+            魔法と技術の組み合わせにより、弾丸が標的に命中すると金属の噴射を発生させ、広範囲の敵にダメージを与える
+            「これはドラゴンの唾液だ...信じるか？」
+            '''
+    }
+
+	FlurrystormCannonEcType: {
+        DisplayName: 吹雪キャノン
+        Tooltip:
+            '''
+            雪玉の弾幕を放ち、弾薬が減少するにつれて火力が増加する
+            時々オーバーロードモードに入り、雪玉と雹の嵐を解き放つ
+            「これなら雪合戦で無敵になれるぞ」
+            '''
+    }
+
+    AvalancheM60: {
+        DisplayName: アバランチM60
+        Tooltip:
+            '''
+            雪玉を弾薬として使用
+            雪玉の弾幕を放ち、
+            弾薬が減少するにつれて火力が増加する
+            20発ごとにオーバードライブが発動し、
+            小さな雪崩を引き起こす
+            「デンジ！雪合戦だ！」
+            '''
+    }
+
+    CrystalDimming: {
+        DisplayName: クリスタルディミング
+        Tooltip:
+            '''
+            雪玉を弾薬として使用
+            凍てつく雹と雪玉を放ち、
+            氷の結晶は壁に当たると素早く跳ね返り、
+            その後敵を追跡する
+            20発ごとにオーバードライブが発動し、
+            マウスカーソルの位置に巨大な氷柱を召喚する
+            '''
+    }
+
+    DarkFrostSolstice: {
+        DisplayName: 暗黒霜の至点
+        Tooltip:
+            '''
+            雪玉を弾薬として使用
+            雹と極地の炎を放ち、
+            20発ごとにオーバードライブが発動し、
+            マウスカーソルの位置に冬の神性を召喚する
+            '''
+    }
+
+	SnowQuay: {
+        DisplayName: スノーバイパーM16
+        Tooltip:
+            '''
+            雪玉を弾薬として使用
+            氷と雪の混合砲弾を発射する大口径スノーキャノン
+            '''
+    }
+
+    StorageBatteryI: {
+        DisplayName: シンプル蓄電池
+        Tooltip: ""
+    }
+
+    ArterialAssaultEcType: {
+        DisplayName: 動脈の襲撃
+        Tooltip:
+            '''
+            空から5本の矢を放つ
+            全ての矢は素早く近くの敵を追跡する
+            '''
+    }
+
+    AstralRepeaterEcType: {
+        DisplayName: アストラルリピーター
+        Tooltip:
+            '''
+            強力な三連射を行う
+            矢が標的に命中すると星を召喚する
+            '''
+    }
+
+    AstrealDefeatEcType: {
+        DisplayName: アストラルの敗北
+        Tooltip:
+            '''
+            全ての矢を星のエネルギーの矢に変換し、飛行中にストーカーを生成する
+            「古代の魔法の結晶」
+            '''
+    }
+
+    BarinadeEcType: {
+        DisplayName: バリネード
+        Tooltip:
+            '''
+            空中を容易に飛行する2本の収束する高速フィン矢を放つ
+            「あの砂虫の上顎から」
+            '''
+    }
+
+	BarinauticalEcType: {
+        DisplayName: バリノーティカル
+        Tooltip:
+            '''
+            木の矢を爆発する雷の矢の連射に変換する
+            「あの砂虫の上顎から、でもこっちの方が大変だった」
+            '''
+    }
+
+    BrimstoneFuryEcType: {
+        DisplayName: 硫黄の怒り
+        Tooltip: 木の矢を3本の硫黄炎の光線に変換する
+    }
+
+    FlarewingBowEcType: {
+        DisplayName: フレアウィング弓
+        Tooltip:
+            '''
+            一度に3本の矢を放つ
+            木の矢を黒曜石のコウモリに変換し、一度貫通した後に標的を追跡する
+            '''
+    }
+
+    GoobowEcType: {
+        DisplayName: グーボウ
+        Tooltip:
+            '''
+            2本のジェルビームを放つ
+            「スライムは何にこれを使っていたんだろう？」
+            '''
+    }
+
+    HoarfrostBowEcType: {
+        DisplayName: 白霜の弓
+        Tooltip:
+            '''
+            2本の矢を同時に放つ
+            木の矢を霜の霧の矢に変換する
+            「霜の手で凍らせよ」
+            '''
+    }
+
+	LunarianBowEcType: {
+        DisplayName: ルナリアンボウ
+        Tooltip:
+            '''
+            2本の矢を同時に放つ、
+            木の矢を表面に沿って滑るエネルギービームに変換する
+            「これはナイツエッジではないことを理解する必要がある。実際、グーボウの方がこれより優れているかもしれない。」
+            '''
+    }
+
+    ShellshooterEcType: {
+        DisplayName: シェルシューター
+        Tooltip:
+            '''
+            遅いが鋭い矢を放つ、
+            木の矢を重い貫通性の貝殻に変換する
+            「水族館から新鮮に掬い取ったばかり」
+            '''
+    }
+
+    ToxibowEcType: {
+        DisplayName: トキシボウ
+        Tooltip:
+            '''
+            木の矢をゆっくりと移動する爆発性の矢に変換し、放射線デバフを与える
+            「毒性物質が豊富」
+            '''
+    }
+
+    ContinentalGreatbowEcType: {
+        DisplayName: コンチネンタル大弓
+        Tooltip:
+            '''
+            木の矢は命中時に発火する
+            3本の矢を同時に放つ
+            さらに2本の地獄の炎または霊液の矢を放つ
+            '''
+    }
+
+    CorrodedCaustibowEcType: {
+        DisplayName: 腐食した苛性弓
+        Tooltip: 木の矢を遅いが強力な毒矢に変換し、放射線のオーラを残す
+    }
+
+	CosmicBolterEcType: {
+        DisplayName: コズミックボルター
+        Tooltip:
+            '''
+            3本の矢の密集した集団を放つ
+            木の矢を表面に沿って滑るエネルギービームに変換する
+            「これはレーザーを放出しない」
+            '''
+    }
+
+    DarkechoGreatbowEcType: {
+        DisplayName: ダークエコー大弓
+        Tooltip:
+            '''
+            2本の矢を同時に放つ
+            また追加のクリスタルダーツも放つ
+            '''
+    }
+
+    MalevolenceEcType: {
+        DisplayName: マレボレンス
+        Tooltip:
+            '''
+            2本の矢を同時に放つ
+            木の矢を疫病の矢に変換し、命中時にミツバチに爆発する
+            「各ミツバチは労働契約に署名し、社会保険の給付と週末の休暇を楽しんでいる」
+            '''
+    }
+
+    TelluricGlareEcType: {
+        DisplayName: テルリックグレア
+        Tooltip:
+            '''
+            複数の貫通性爆発放射線矢を放つ
+            「大地の深みから！」
+            '''
+    }
+
+    TheBallistaEcType: {
+        DisplayName: バリスタ
+        Tooltip:
+            '''
+            木の矢を巨大な攻城矢に変換し、敵の防具を砕き、
+            命中時に化石の破片に砕ける
+            「実際のところ、ドアすら壊せない」
+            '''
+    }
+
+	UltimaEcType: {
+        DisplayName: ウルティマ
+        Tooltip:
+            '''
+            連続的なプラズマビームを放つ
+            使用時間が増加するにつれて、ビームはレーザー死光線に置き換わる
+            連続発射によりビームは固体エネルギービームに充電される
+            90%の確率で弾薬を消費しない
+            '''
+    }
+
+    DrataliornusEcType: {
+        DisplayName: ドラタリオルヌス
+        Tooltip:
+            '''
+            時間とともに発射速度が増加するドラゴンフレイムの火球を連射する
+            火球は流星雨を召喚し、ダメージを与えるドラゴンの粉塵を残し、最大速度時には、
+            追加の火球が放たれ、「火球の連鎖」効果を引き起こし、火球は追尾能力を持つ
+            火球の連鎖中にダメージを受けると攻撃が中断され、クリアフライト時間がリセットされる
+            右クリックで5発のEXドラゴンファイアの矢を放つ
+            「些細な問題、当たらない」
+            '''
+    }
+
+    Snowblindness: {
+        DisplayName: スノーブラインドネス
+        Tooltip:
+            '''
+            高頻度で雪玉と凍てつくビームを発射
+            敵に命中すると複数のEX凍てつくビームが放射状に広がる
+            「吹雪の中で迷い、永遠の待機、苦痛の地図、カーブでの追い越し、
+            ひび割れた鏡、乾いた血痕、赤い氷、泣くビーバー、氷の中の人影」
+            '''
+    }
+
+    Slingshot: {
+        DisplayName: パチンコ
+        Tooltip: 原始的なエネルギー蓄積武器
+    }
+
+	CondemnationEcType: {
+        DisplayName: コンデムネーション
+        Tooltip:
+            '''
+            左ボタンで6発攻撃を行い、標的を追跡する爆発矢を発射する確率がある
+            右クリックでチャージ攻撃を行い、チャージ完了後に魔法の爆発矢の連射を放つ
+            「邪悪な汚れの力がこのクロスボウに宿っている」
+            '''
+    }
+
+    BlightSpewerEcType: {
+        DisplayName: ブライトスピュワー
+        Tooltip:
+            '''
+            表面に付着する疫病ナノマシンの雲を発射する
+            ナノマシンは近くの敵を積極的に探し出してロックオンする
+            '''
+    }
+
+    BloodBoilerEcType: {
+        DisplayName: ブラッドボイラー
+        Tooltip:
+            '''
+            あなたの側に戻ってくる2つの生命の炎の流れを放つ
+            ジェルを弾薬として使用し、発射時に生命力を消費する
+            '''
+    }
+
+    ElementalEruptionEcType: {
+        DisplayName: エレメンタルエラプション
+        Tooltip:
+            '''
+            鮮やかな色の炎の流れと対になった追跡する元素の輝きの連射を放つ力を解き放つ
+            ジェルを弾薬として使用
+            '''
+    }
+
+	HavocsBreathEcType: {
+        DisplayName: ハボックスブレス
+        Tooltip:
+            '''
+            高温の硫黄炎の円錐形の放射を放つ
+            ジェルを弾薬として使用
+            '''
+    }
+
+    PristineFuryEcType: {
+        DisplayName: プリスティンフューリー
+        Tooltip:
+            '''
+            火柱に爆発する激しい炎の螺旋を解き放つ
+            さらに、右クリックで短距離の光輝く炎の連射を放つ
+            ジェルを弾薬として使用
+            '''
+    }
+
+    ShadethrowerEcType: {
+        DisplayName: シェードスロワー
+        Tooltip:
+            '''
+            敵の精神を腐敗させる影の精神フラックスの雲を放出する
+            ジェルを弾薬として使用
+            '''
+    }
+
+    TerraFlamebursterEcType: {
+        DisplayName: テラフレイムバスター
+        Tooltip:
+            '''
+            対になった追跡するテラファイアボールと共に反応性の炎のビームを放つためにエネルギーを活用する
+            ジェルを弾薬として使用
+            '''
+    }
+
+    AcidGunEcType: {
+        DisplayName: アシッドガン
+        Tooltip: 酸性の流れの連続を吐き出す
+    }
+
+	ApoctosisArrayEcType: {
+        DisplayName: アポクトシスアレイ
+        Tooltip:
+            '''
+            加速して衝突時に爆発するイオン衝撃波を放つ
+            その威力はマナレベルに応じて増加する
+            スターダストインフュージョンの使用はこのブーストの大きさを減少させる
+            '''
+    }
+
+    CryophobiaEcType: {
+        DisplayName: クライオフォビア
+        Tooltip:
+            '''
+            繰り返し分裂して破片に爆発する冷気の衝撃波を放ち、
+            "霜焼け"を引き起こす
+            '''
+    }
+
+    EffervescenceEcType: {
+        DisplayName: エフェルベセンス
+        Tooltip:
+            '''
+            長い泡の連鎖を放つ！
+            「泡だ！！！！！」
+            '''
+    }
+
+    EidolicWailEcType: {
+        DisplayName: エイドリックウェイル
+        Tooltip:
+            '''
+            カーソルの位置で複数のエコーウェーブを生成する
+            エコーウェーブは衝突時にブロックから跳ね返る
+            生成地点が固体ブロックの場合、代わりに銃口から放出される
+            「ドラゴンの咆哮を聞け」
+            '''
+    }
+
+    GenisisEcType: {
+        DisplayName: ジェネシス
+        Tooltip: Y字型の破壊的なエネルギービームとレーザーの集団を放つ
+    }
+
+	IonBlasterEcType: {
+        DisplayName: イオンブラスター
+        Tooltip:
+            '''
+            加速して衝突時に爆発するイオン衝撃波を放つ
+            その威力は魔法レベルに応じて増加する
+            スターダストインフュージョンの使用はこの強化効果を弱める
+            '''
+    }
+
+    LazharEcType: {
+        DisplayName: ラザール
+        Tooltip:
+            '''
+            高度に不安定な集中太陽ビームを放出する
+            ビームには標的を貫通する小さな確率がある
+            '''
+    }
+
+    NanoPurgeEcType: {
+        DisplayName: ナノパージ
+        Tooltip:
+            '''
+            ナノレーザーの弾幕を放つ
+            右クリックで単発の高速射撃を行う
+            '''
+    }
+
+    PlasmaRifleEcType: {
+        DisplayName: プラズマライフル
+        Tooltip:
+            '''
+            爆発するイオンビームを放つ
+            右クリックで素早くイオン連射を放つ
+            「プラズマには見えない」
+            '''
+    }
+
+    SHPCEcType: {
+        DisplayName: SHPC
+        Tooltip:
+            '''
+            空中に留まり巨大な爆発を引き起こすフェーズレーザーボールを放つ
+            右クリックで強力なエネルギービームを放つ
+            legend_Text
+            [Lang4]
+            [Text]
+            '''
+    }
+
+	WingmanEcType: {
+        DisplayName: ウィングマン
+        Tooltip:
+            '''
+            集中したレーザービームを放出する
+            「これは何の役にも立たない」
+            '''
+    }
+
+    EternalBlizzardEcType: {
+        DisplayName: エターナルブリザード
+        Tooltip:
+            '''
+            爆発する氷のピック矢を放つ4回の複数発射を持つ
+            右クリックで単発の高速射撃を行い、矢は追跡能力を持つ
+            '''
+    }
+
+    SlagMagnumEcType: {
+        DisplayName: スラグマグナム
+        Tooltip:
+            '''
+            マスケット弾を化石の破片に変換し、命中時に追加の化石の破片を生成する
+            「ここには特別な感染者はいない」
+            '''
+    }
+
+    SparkSpreaderEcType: {
+        DisplayName: スパークスプレッダー
+        Tooltip:
+            '''
+            火花で敵を焼き尽くす
+            ジェルを弾薬として使用
+            '''
+    }
+
+    CosmicDischargeEcType: {
+        DisplayName: コズミック・ディスチャージ
+        Tooltip:
+            '''
+            氷河の爆発を引き起こし、プレイヤーに凍結増強を与える投射物で敵を攻撃する
+            このボーナスにより、プレイヤーは静止時に体力再生を増加させ、周囲の敵を凍結させることができる
+            '''
+    }
+
+	NeutronGlaive: {
+        DisplayName: ブラックゾーンクリーバー
+        Tooltip:
+            '''
+            振ることで強力な重力の剣波を放ち、標的に命中すると中性子星の爆発を引き起こす
+            右クリックで刀身を充填し、完全充填時にカーソル位置で大きな中性子星の爆発を引き起こす
+            完全充填前に解放すると、エネルギーがこぼれ出る
+            '''
+    }
+
+    NeutronBow: {
+        DisplayName: ロシュの弦
+        Tooltip:
+            '''
+            標的に命中時にガンマ線を生成する重力の矢を放つ
+            右クリックで3段階のチャージを行い、完全充填時に3本の強力な重力の矢を放つ
+            '''
+    }
+
+    NeutronGun: {
+        DisplayName: ステラーハンター
+        Tooltip:
+            '''
+            命中時にワープポイントを作成する重力の投射物を発射する
+            右クリックでスナイパーモードに切り替わり、衝突時にガンマ線を召喚するより強力な重力弾を発射する
+            各射撃で銃が充填され、完全充填時に次の射撃でカーソル位置に中性子星の爆発を引き起こす
+            「太陽を撃ち落とせ！」
+            '''
+    }
+
+    NeutronWand: {
+        DisplayName: 星の墓の光
+        Tooltip:
+            '''
+            4つの強力な重力の星を放つ
+            右クリックでカーソル位置に重力魔法を詠唱する
+            「伝説によると、古代の強力なサイキックがこの杖を使って星を黒穴に圧縮したという、
+            しかしこの物語は時の流れの中で失われ、今は星間遊牧民が歌う断片的な歌の一部となっている」
+            '''
+    }
+
+	FlakKrakenEcType: {
+        DisplayName: フラッククラーケン
+        Tooltip:
+            '''
+            深海の高性能爆弾を発射し、インクの破片の円錐形の軌跡に爆発する
+            深淵の高性能爆弾はカーソル位置に到達すると爆発する
+            砲弾の直撃は破片のダメージを減少させる
+            「セイレーンから3年6ヶ月23日6時間借りた」
+            '''
+    }
+
+    GrandGuardianEcType: {
+        DisplayName: グランドガーディアン
+        Tooltip:
+            '''
+            真近接攻撃でプレイヤーの背後から強力な刃を飛ばす
+            非近接戦闘では積極的に刃を発射し、命中時に標的の体を貫く
+            標的の防御値が真近接クリティカルダメージに加算される
+            「我が王よ、私が守護いたします」
+            '''
+    }
+
+    MajesticGuardEcType: {
+        DisplayName: マジェスティックガード
+        Tooltip:
+            '''
+            真近接攻撃にプレイヤーを回復するチャンスがある
+            非真近接戦闘では積極的に刃を発射し、壁に突き刺さる
+            「我が王よ、私が守護いたします」
+            '''
+    }
+
+    FadingGlory: {
+        DisplayName: 消えゆく栄光
+        Tooltip:
+            '''
+            真近接で標的に命中すると、標的が生物の場合はプレイヤーを回復し、
+            非生物の場合は大量の火花を放出する
+            非真近接戦闘では積極的に刃を発射し、
+            標的に命中後に追加の追跡する幽霊の切断を生成し、
+            爆発時に血の触手を放出する
+            '''
+    }
+
+	LucreciaEcType: {
+        DisplayName: ルクレシア
+        Tooltip: 悪魔のクリスタルの刺しを放つ
+    }
+
+    MirrorBladeEcType: {
+        DisplayName: ミラーブレード
+        Tooltip: 飛ぶマジックミラーの刃を放つ
+    }
+
+    TheDarkMasterEcType: {
+        DisplayName: ダークマスター
+        Tooltip:
+            '''
+            真近接で標的に命中すると闇の契約を召喚し、
+            3つの影の分身がプレイヤーと共に戦う
+            闇の契約が存在する時、プレイヤーがダメージを受けると、
+            全ての影の分身が即座に解散する
+            また、プレイヤーに10秒間の暗黒恐怖減少を与え、
+            その間プレイヤーは真近接を通じて闇の契約を召喚できなくなる
+            '''
+    }
+
+    GraniteRifle: {
+        DisplayName: 花崗岩ライフル
+        Tooltip: マスケット弾を固体の塊を蛇行する花崗岩の破片の投射物に変換する
+    }
+
+    MarbleRifle: {
+        DisplayName: 大理石ライフル
+        Tooltip: マスケット弾を跳ね返り、塊に命中すると爆発する大理石の砕片の投射物に変換する
+    }
+
+	FrostcrushValariEcType: {
+        DisplayName: フロストクラッシュ・ヴァラリ
+        Tooltip: 潜伏攻撃で巨大なブーメランと標的を追跡する2つの伴走ブーメランを投げる
+    }
+
+    NeutronScythe: {
+        DisplayName: 惑星の使者
+        Tooltip:
+            '''
+            大鎌は敵にガンマ線を放ち、その経路に沿って複数のワープポイントを残す
+            ステルス攻撃で大鎌の輪を投げる
+            '''
+    }
+
+    RebelBlade: {
+        DisplayName: 反逆の刃
+        Tooltip:
+            '''
+            真近接で標的の周りに大量の悪魔の光球を生成する
+            右クリックで刃の飛行を制御し、カーソルに向かって切り込む
+            '''
+    }
+
+    NitroExpressRifleEcType: {
+        DisplayName: ナイトロエクスプレスライフル
+        Tooltip:
+            '''
+            クマの頭蓋骨を粉砕するための銃
+            マスケット弾を運動エネルギー弾に変換する
+            「古いが、役に立つ」
+            '''
+    }
+
+    LifehuntScytheEcType: {
+        DisplayName: ライフハントサイズ
+        Tooltip:
+            '''
+            振るたびに生命の大鎌を投げる
+            3回目の振りごとに巨大な大鎌を投げる
+            '''
+    }
+
+	DeathsAscensionEcType: {
+        DisplayName: デスアセンション
+        Tooltip:
+            '''
+            3回目の振りごとに巨大な大鎌を放つ
+            左マウスボタンを長押しするとカーソルの位置に大鎌が追従し、
+            離すと死神の三日月を発動する
+            右クリックすると振るたびに魂を刈り取る死神の大鎌を投げる
+            '''
+    }
+
+    MG42: {
+        DisplayName: MG42
+        Tooltip:
+            '''
+            連続発射で銃身が過熱する
+            マスケット弾を徹甲弾に変換する
+            '''
+    }
+
+    TheBurningSkyEcType: {
+        DisplayName: バーニングスカイ
+        Tooltip: 振ると火の玉が落ちる
+    }
+
+    DevilsDevastationEcType: {
+        DisplayName: デビルズデバステーション
+        Tooltip:
+            '''
+            振るたびにプレイヤーの上空に歓喜の戦槍を生成し、
+            カーソルに向かって飛び、敵に張り付いて継続的なダメージを与える
+            強い斬撃は3回の苦痛の転生を放ち、
+            その経路上の敵に複数回の貫通ダメージを与える
+            最後に、カーソル位置に6本の紅蓮の悪魔の戦槍が召喚され、
+            しばらくの間浮遊してからプレイヤーに向かって飛んでいく
+            '''
+    }
+
+	DragonsWord: {
+        DisplayName: ドラゴンの言葉
+        Tooltip:
+            '''
+            しばらく回転してから敵を追跡するドラゴンの涙を放つ
+            右クリックでカーソル位置にドラゴンコマンドマジックを詠唱し、範囲内の敵に死の命令を下す
+            「ドラゴンは生涯に一度だけ涙を流すことができる」
+            '''
+    }
+
+    DarklightGreatswordEcType: {
+        DisplayName: ダークライト大剣
+        Tooltip: ""
+    }
+
+    AtaraxiaEcType: {
+        DisplayName: アタラクシア
+        Tooltip: ""
+    }
+
+    AvalancheEcType: {
+        DisplayName: アバランチ
+        Tooltip: ""
+    }
+
+    EutrophicScimitarEcType: {
+        DisplayName: ユートロフィックシミター
+        Tooltip: ""
+    }
+
+    ForsakenSaberEcType: {
+        DisplayName: 見捨てられた剣
+        Tooltip: ""
+    }
+
+    HellkiteEcType: {
+        DisplayName: ヘルカイト
+        Tooltip: ""
+    }
+
+	ForbiddenOathbladeEcType: {
+        DisplayName: 禁断の誓約の剣
+        Tooltip: ""
+    }
+
+    GeliticBladeEcType: {
+        DisplayName: ジェリティックブレード
+        Tooltip: ""
+    }
+
+    SeashineSwordEcType: {
+        DisplayName: 海輝の剣
+        Tooltip: ""
+    }
+
+    StormSaberEcType: {
+        DisplayName: ストームセイバー
+        Tooltip: ""
+    }
+
+    TheMutilatorEcType: {
+        DisplayName: ミューティレーター
+        Tooltip: ""
+    }
+
+    VirulenceEcType: {
+        DisplayName: ビルレンス
+        Tooltip: ""
+    }
+
+    SolsticeClaymoreEcType: {
+        DisplayName: ソルスティスクレイモア
+        Tooltip: ""
+    }
+
+    UltimusCleaverEcType: {
+        DisplayName: ウルティマスクリーバー
+        Tooltip: ""
+    }
+
+    ExaltedOathbladeEcType: {
+        DisplayName: 高貴なる誓約の剣
+        Tooltip:
+            '''
+            各波動は浮遊する苦痛の輪を生成する
+            クリティカルヒット時に影炎の爆発を起こす
+            '''
+    }
+
+	PerfectDarkEcType: {
+        DisplayName: パーフェクトダーク
+        Tooltip: ""
+    }
+
+    PrismaticBreakerEcType: {
+        DisplayName: プリズマティックブレーカー
+        Tooltip: ""
+    }
+
+    RedSunEcType: {
+        DisplayName: レッドサン
+        Tooltip: ""
+    }
+
+    GalactusBladeEcType: {
+        DisplayName: ガラクタスブレード
+        Tooltip: ""
+    }
+
+    FlarefrostBladeEcType: {
+        DisplayName: フレアフロストブレード
+        Tooltip: ""
+    }
+
+    FloodtideEcType: {
+        DisplayName: フラッドタイド
+        Tooltip: ""
+    }
+
+    CatastropheClaymoreEcType: {
+        DisplayName: カタストロフクレイモア
+        Tooltip: ""
+    }
+
+    DevastationEcType: {
+        DisplayName: デバステーション
+        Tooltip: ""
+    }
+
+    StormRulerEcType: {
+        DisplayName: ストームルーラー
+        Tooltip: ""
+    }
+
+    SwordsplosionEcType: {
+        DisplayName: ソードスプロージョン
+        Tooltip: ""
+    }
+
+	TaintedBladeEcType: {
+        DisplayName: 汚染された剣
+        Tooltip: ""
+    }
+
+    TrueCausticEdgeEcType: {
+        DisplayName: 真・腐食の刃
+        Tooltip: ""
+    }
+
+    VeinBursterEcType: {
+        DisplayName: ベインバースター
+        Tooltip: ""
+    }
+
+    VoidEdgeEcType: {
+        DisplayName: 虚無の刃
+        Tooltip: ""
+    }
+
+    DraconicDestructionEcType: {
+        DisplayName: ドラコニック・デストラクション
+        Tooltip: ""
+    }
+
+    EarthEcType: {
+        DisplayName: アース
+        Tooltip: ""
+    }
+
+    HellionFlowerSpearEcType: {
+        DisplayName: ヘリオンフラワースピア
+        Tooltip: ""
+    }
+
+    RealmSource: {
+        DisplayName: レルムソース
+        Tooltip: ""
+    }
+
+    FeralthornClaymoreEcType: {
+        DisplayName: フェラルソーンクレイモア
+        Tooltip: ""
+    }
+
+    HellfireFlambergeEcType: {
+        DisplayName: ヘルファイアフランベルジュ
+        Tooltip: ""
+    }
+
+	SnowQuayMK2: {
+        DisplayName: スノークエイMK2
+        Tooltip:
+            '''
+            雪玉を弾薬として使用
+            氷と雪の混合砲弾を発射する大口径スノーキャノン
+            予熱は必要ありません
+            '''
+    }
+
+    HghExplosiveBox: {
+        DisplayName: 高性能爆薬箱
+        Tooltip:
+            '''
+            長押しで設置し、設置完了後、銃器を持って右クリックで弾倉に特殊弾薬を補充する
+            特殊弾薬は通常の弾丸の効果と重ねることができる
+            「奴らを空高く吹き飛ばせ！」
+            '''
+    }
+}
+
+Projectiles: {
+    StarDust.DisplayName: スターダスト
+    RenderDistort.DisplayName: 歪みの生成
+    RenderGap.DisplayName: 隙間の生成
+    DragonsBreathProjectiles.DisplayName: ドラゴンブレスの投射物
+    DragonFireRupture.DisplayName: ドラゴンファイアの破裂
+    GunCasing.DisplayName: 銃薬莢
+    HeldProjectiles.DisplayName: 保持された投射物
+    RemakeBansheeHookScythe.DisplayName: リメイク バンシーフックサイズ
+    RemakeBlazingPhantomBlade.DisplayName: リメイク ブレイジングファントムブレード
+    RemakeTerratomereHoldoutProj.DisplayName: リメイク テラトメア保持投射物
+    RedLightningFeather.DisplayName: 赤い雷の羽
+    TerratomereBolt.DisplayName: テラトメアボルト
+	GildedProboscisKevinLightning.DisplayName: 金色の吻の稲妻
+    TerratomereBigSlashs.DisplayName: テラトメアの大斬撃
+    TerratomereBolts.DisplayName: テラトメアボルト
+    TerratomereBeams.DisplayName: テラトメアビーム
+    AbominateHookScythe.DisplayName: 忌まわしいフックサイズ
+    AbominateSpirit.DisplayName: 忌まわしい魂
+    SpiritFlame.DisplayName: 魂の炎
+    DoGDeaths.DisplayName: 神食らいの死
+    ArkoftheAncientsParryHoldouts.DisplayName: 古代の方舟パリー保持
+    ArkoftheCosmosBlasts.DisplayName: 宇宙の方舟の爆発
+    ArkoftheCosmosParryHoldouts.DisplayName: 宇宙の方舟パリー保持
+    ArkoftheCosmosSwungBlades.DisplayName: 宇宙の方舟の振り刃
+    RendingNeedles.DisplayName: 裂傷の針
+    ArkoftheCosmosConstellations.DisplayName: 宇宙の方舟の星座
+    EonBolts.DisplayName: イーオンボルト
+    ProximaCentauri.DisplayName: プロキシマ・ケンタウリ
+    SlaughterEonBolts.DisplayName: 虐殺のイーオンボルト
+    SlaughterExplosion.DisplayName: 虐殺の爆発
+    DreadRendingNeedles.DisplayName: 恐怖の裂傷の針
+    DreadStar.DisplayName: 恐怖の星
+    TerrorBlasts.DisplayName: テラーブラスト
+    SunlightBlades.DisplayName: 太陽光の刃
+	RemakeTerrorBeam.DisplayName: リメイク テラービーム
+    EntropicClaymoreHoldoutProj.DisplayName: エントロピッククレイモア
+    StarnightBeams.DisplayName: スターナイトビーム
+    ElementalRay.DisplayName: エレメンタルレイ
+    GodKillers.DisplayName: ゴッドキラー
+    SpatialSpears.DisplayName: 空間の槍
+    ElementalSpike.DisplayName: エレメンタルスパイク
+    Feathers.DisplayName: 羽
+    ArbalestHeldProj.DisplayName: アーバレスト
+    DeathwindHeldProj.DisplayName: デスウィンド
+    DeathLaser.DisplayName: デスレーザー
+    DeadArrow.DisplayName: デッドアロー
+    DragonsBreathHeldProj.DisplayName: ドラゴンブレス
+    Cyclones.DisplayName: サイクロン
+    DeadWave.DisplayName: デッドウェーブ
+    WhiplashGalacticaProjectile.DisplayName: ウィップラッシュ・ガラクティカ
+    CosmicFire.DisplayName: コズミックファイア
+    Trail.DisplayName: 軌跡
+    StreamGouges.DisplayName: ストリームゲージ
+    GaleforceHeldProj.DisplayName: ゲイルフォース
+    ElementWhipProjectile.DisplayName: エレメントウィップ
+    ElementBallShivs.DisplayName: エレメントボールシヴ
+	GhostFires.DisplayName: ゴーストファイア
+    TheRelicLuxorMelee.DisplayName: 遺物ルクソル近接
+    TheRelicLuxorMagic.DisplayName: 遺物ルクソル魔法
+    TheRelicLuxorRanged.DisplayName: 遺物ルクソル遠距離
+    TheRelicLuxorRogue.DisplayName: 遺物ルクソルローグ
+    TheRelicLuxorSummon.DisplayName: 遺物ルクソル召喚
+    BloodBall.DisplayName: ブラッドボール
+    AzureDragonRageProjectile.DisplayName: 蒼竜の憤怒の投射物
+    BleedingScourgeProjectile.DisplayName: 流血の災厄の投射物
+    GhostFireWhipProjectile.DisplayName: 霊火の鞭の投射物
+    BloodflareSouls.DisplayName: ブラッドフレアソウル
+    FantasyArrow.DisplayName: ファンタジーアロー
+    ExcelsusBomb.DisplayName: エクセルサスボム
+    LaserFountains.DisplayName: レーザーファウンテン
+    GhastlyBlasts.DisplayName: ガストリーブラスト
+    Ieaf.DisplayName: イーフ
+    AllhallowsGoldWhipProjectile.DisplayName: 諸聖金の鞭の投射物
+    ATrail.DisplayName: Aの軌跡
+    WTrail.DisplayName: Wの軌跡
+	DivineSourceBladeProjectile.DisplayName: 神聖源の刃の投射物
+    BloodBlast.DisplayName: ブラッドブラスト
+    DivineSourceKnifelight.DisplayName: 神聖源のナイフライト
+    DivineSourceBeam.DisplayName: 神聖源のビーム
+    FatesRevealFlames.DisplayName: 運命の啓示の炎
+    FatesRevealHeldProj.DisplayName: 運命の啓示
+    FateCluster.DisplayName: 運命の集合体
+    HatredFire.DisplayName: 憎しみの炎
+    TheCurseArchdemon.DisplayName: 呪いの大悪魔
+    BloodVerdict.DisplayName: 血の裁定
+    ClaretCannonHeldProj.DisplayName: 深紅の大砲
+    EssenceSpark.DisplayName: エッセンススパーク
+    EssenceFlamethrower.DisplayName: エッセンスフレイムスローワー
+    ShockwaveBoom.DisplayName: 衝撃波の爆発
+    CelestialDevourer.DisplayName: 天界の貪食者
+    CelestialObliterationArrow.DisplayName: 天界の抹消の矢
+    CosmicEddies.DisplayName: 宇宙の渦
+    DivineDevourerIllusionBody.DisplayName: 神々しき貪食者の幻影の体
+    DivineDevourerIllusionHead.DisplayName: 神々しき貪食者の幻影の頭
+    DivineDevourerIllusionTail.DisplayName: 神々しき貪食者の幻影の尾
+	AegisBladeProj.DisplayName: イージスブレード
+	AegisBeams.DisplayName: イージスビーム
+    DragonsBreathRound.DisplayName: ドラゴンブレスの弾丸
+    DragonsBreathRifleHeldProj.DisplayName: ドラゴンブレスライフル
+    InfiniteArrow.DisplayName: 無限の矢
+    HeavenLightning.DisplayName: 天の稲妻
+    CelestialVortex.DisplayName: 天界の渦
+    ParadiseArrow.DisplayName: パラダイスの矢
+    InfiniteRune.DisplayName: 無限のルーン
+    VientianePunishment.DisplayName: ヴィエンチャンの懲罰
+    HolyColliderHolyFires.DisplayName: 聖なる衝突者の聖なる炎
+    RBansheeHookScythe.DisplayName: 改良型バンシーフックサイズ
+    RBlazingPhantomBlade.DisplayName: 改良型ブレイジングファントムブレード
+    RCosmicShivBall.DisplayName: 改良型コズミックシヴボール
+    RTerratomereHoldoutProj.DisplayName: テラトメア保持
+    RTerrorBeam.DisplayName: 改良型テラービーム
+    StreamBeams.DisplayName: ストリームビーム
+    CosmicSpiritBombs.DisplayName: コズミックスピリットボム
+    CelestialClaymoreBeam.DisplayName: セレスチャルクレイモアビーム
+    EssenceFlames.DisplayName: エッセンスフレイム
+    EssenceStar.DisplayName: エッセンススター
+	TheEnforcerBeam.DisplayName: エンフォーサービーム
+    InfiniteIngotTileProj.DisplayName: ブラックホールがコアを消滅させる
+    JudgementBeam.DisplayName: ジャッジメントビーム
+    OrderbringerBeams.DisplayName: オーダーブリンガービーム
+    OrderbringerProj.DisplayName: オーダーブリンガー投射物
+    OrderbringerBeams2.DisplayName: オーダーブリンガービーム
+    IridescentExcaliburBeam.DisplayName: 虹色のエクスカリバービーム
+    IridescentExcaliburLight.DisplayName: 虹色のエクスカリバーの光
+    OrderbringerWhiteOrbs.DisplayName: オーダーブリンガーの白いオーブ
+    InfinitePickProj.DisplayName: 無限のツルハシ投射物
+    InfiniteEnmgs.DisplayName: 無限のエネルギー
+    TheDaybreak.DisplayName: デイブレイク
+    TheEndSun.DisplayName: 終末の太陽
+    BaseHeldBow.DisplayName: 基本保持弓
+    StormLightning.DisplayName: 嵐の稲妻
+    StormArc.DisplayName: 嵐の弧
+    DragonsScaleGreatswordBeam.DisplayName: 竜鱗の大剣ビーム
+    SporeCloud.DisplayName: 胞子雲
+    TheDaybreak2.DisplayName: デイブレイク2
+    CosmicCalamityProjectile.DisplayName: コズミックカラミティ投射物
+    CosmicCalamityRay.DisplayName: コズミックカラミティレイ
+	Rogue.RWaveSkipperProjectile.DisplayName: 改良型ウェーブスキッパー投射物
+    GangarusProjectile.DisplayName: ガンガルス投射物
+    GangarusHeldProjectile.DisplayName: ロンギヌスの槍
+    PilgrimsFury.DisplayName: 巡礼者の怒り
+    Godslight.DisplayName: 神の光
+    SoulSeeker.DisplayName: ソウルシーカー
+    LigSpark.DisplayName: 光の火花
+    SparkBall.DisplayName: スパークボール
+    SparkLightning.DisplayName: スパークライトニング
+    BrimstoneSwordBall.DisplayName: 硫黄の剣の玉
+    StarMyriadChangesProj.DisplayName: 星の万化投射物
+    PGDeriveProj.DisplayName: PG派生投射物
+    PGProj.DisplayName: PG投射物
+    SupPGProj.DisplayName: 上位PG投射物
+    StellarStrikerBeam.DisplayName: ステラーストライカービーム
+    GhostSkull.DisplayName: ゴーストスカル
+    PlagueBee.DisplayName: 疫病蜂
+    PlagueBeeWave.DisplayName: 疫病蜂の波
+    GouldBee.DisplayName: グールド蜂
+    BalefulHarvesterHeldProj.DisplayName: 害悪の収穫者
+    BalefulSickle.DisplayName: 害悪の大鎌
+    BalefulBall.DisplayName: 害悪の玉
+	VulcaniteBall.DisplayName: バルカナイトボール
+    AstralBall.DisplayName: アストラルボール
+    AstralPikeBeam.DisplayName: アストラルパイクビーム
+    AnarchyBeam.DisplayName: アナーキービーム
+    EarthenBall.DisplayName: アースンボール
+    EarthenPikeThrowProj.DisplayName: アースンパイク投擲投射物
+    MeleeFossilShard.DisplayName: 近接化石の破片
+
+    Melee: {
+        EXSolsticeBeam.DisplayName: EXソルスティスビーム
+        MourningSkull2.DisplayName: 哀悼のスカル2
+        SemberDarkMasterClone.DisplayName: センバー・ダークマスターの分身
+    }
+
+    TeardropCleaverProj.DisplayName: ティアドロップクリーバー投射物
+    DarkIceZeros.DisplayName: ダークアイスゼロ
+    RFlarefrostBladeHeldProj.DisplayName: 改良型フレアフロストブレード
+    WaningMoonLight.DisplayName: 欠ける月の光
+    MurasamaHeldProj.DisplayName: ムラサマ
+    MurasamaBreakOut.DisplayName: ムラサマ
+    MurasamaBreakSwing.DisplayName: 半月
+    MurasamaEndSilkOrb.DisplayName: 次元の切断 - 終
+    MurasamaEndSilkOrbOnSpan.DisplayName: 次元の切断 - 始
+    MurasamaDownSkill.DisplayName: ムラサマ
+	MurasamaEndSkillOrb.DisplayName: 次元斬り - 終了
+	MurasamaEndSkillOrbOnSpan.DisplayName: 次元斬り - 開始
+	EndSkillEffectStart.DisplayName: 次元斬り - 開始
+	EndSkillMakeDamage.DisplayName: 次元斬り - 終了
+	PowerSoundEgg.DisplayName: パワーサウンドエッグ
+	BlossomFluxHeldProj.DisplayName: ブロッサムフラックス
+	LeafArrows.DisplayName: 葉の矢
+	SporeBombOnSpan.DisplayName: 胞子爆弾
+	SporeBombs.DisplayName: 胞子爆弾群
+	PhangasmBowHeldProj.DisplayName: ファンガズムの弓
+	Phantom.DisplayName: ファントム
+	PhantasmArrow.DisplayName: ファントムの矢
+	ContagionHeldProj.DisplayName: コンテイジョン
+	NurgleArrow.DisplayName: ナーグルの矢
+	NurgleTheOfBall.DisplayName: ナーグルの玉
+	NurgleBee.DisplayName: ナーグルの蜂
+	AlluvionHeldProj.DisplayName: アルヴィオン
+	PlanetaryAnnihilationHeldProj.DisplayName: 惑星消滅
+	TheMaelstromHeldProj.DisplayName: メイルストローム
+	PlanetaryArrow.DisplayName: 惑星の矢
+	TheMaelstromTheArrow.DisplayName: メイルストロームの矢
+	TheMaelstromSharkOnSpan.DisplayName: メイルストロームシャーク
+	TyphoonOnSpan.DisplayName: タイフーン
+	BaseOnSpanProj.DisplayName: 基本投射物
+    DeepSeaSharks.DisplayName: 深海ザメ
+    NurgleSoul.DisplayName: ナーグルソウル
+    ClockGatlignumHeldProj.DisplayName: 時計仕掛けガトリング砲
+    ElementalBlasterHeldProj.DisplayName: エレメンタルブラスター
+    MarksmanBowHeldProj.DisplayName: マークスマンボウ
+	EnergyBlast.DisplayName: エネルギーブラスト
+    EnergyBlast2.DisplayName: エネルギーブラスト2
+    NettlevineGreatbowHeldProj.DisplayName: イラクサの大弓
+    TarragonArrow.DisplayName: タラゴンの矢
+    TarragonArrowOnSpan.DisplayName: タラゴンの矢
+    SpectreRifleHeldProj.DisplayName: スペクターライフル
+    LostSoulBullet.DisplayName: 失われた魂の弾丸
+    StormDragoonHeldProj.DisplayName: ストームドラグーン
+    TheStormHeldProj.DisplayName: ザ・ストーム
+    ThunderstormHeldProj.DisplayName: サンダーストーム
+    TyrannysEndHeldProj.DisplayName: タイラニーズエンド
+    BMGBullet.DisplayName: .50口径BMG弾
+    BMGFIRE.DisplayName: BMGファイア
+    AntiMaterielRifleHeldProj.DisplayName: 対物ライフル
+    HalibutCannonHeldProj.DisplayName: ハリバットキャノン
+    SDFMGHeldProj.DisplayName: SDFMG
+    BMGFIRE2.DisplayName: BMGファイア2
+    TorrentialBullet.DisplayName: 激流弾
+    GildedProboscisLightning.DisplayName: 金色の突起の稲妻
+    GildedProboscisLightningArc.DisplayName: 金色の突起の稲妻弧
+    DeadSunsWindHeldProj.DisplayName: デッドサンズウインド
+    FetidEmesisHeldProj.DisplayName: フェティッドエメシス
+    SeadragonHeldProj.DisplayName: シードラゴン
+    FetidEmesisOnSpan.DisplayName: フェティッドエメシス
+    MinisharkHeldProj.DisplayName: ミニシャーク
+    MegasharkHeldProj.DisplayName: メガシャーク
+	BarrenOrb.DisplayName: 不毛のオーブ
+    BarrenBowHeldProj.DisplayName: 不毛の弓
+    ScorchedEarthHeldProj.DisplayName: 焦土
+    SeasSearingHeldProj.DisplayName: 海の灼熱
+    EarthRocketOnSpan.DisplayName: アースロケット
+    CoralCannonHeldProj.DisplayName: サンゴキャノン
+    AngelicShotgunHeldProj.DisplayName: 天使のショットガン
+    AquashardShotgunHeldProj.DisplayName: 水晶のショットガン
+    AnimosityOnSpan.DisplayName: アニモシティ
+    AnimosityHeldProj.DisplayName: アニモシティ
+    CorinthPrimeHeldProj.DisplayName: コリントプライム
+    CursedCapperHeldProj.DisplayName: 呪われた帽子屋
+    QuadBarrelShotgunHeldProj.DisplayName: 四連装ショットガン
+    DisseminatorHeldProj.DisplayName: ディセミネーター
+    HellbornHeldProj.DisplayName: ヘルボーン
+    HelstormHeldProj.DisplayName: ヘルストーム
+    LeviatitanHeldProj.DisplayName: リヴァイアタイタン
+    PetrifiedDiseaseHeldProj.DisplayName: 石化した疫病
+    PetrifiedDiseaseAorrw.DisplayName: 石化した疫病の矢
+    YharonOreProj.DisplayName: ヤロンの鉱石
+    GoldenEagleHelProj.DisplayName: ゴールデンイーグル
+    DawnshatterEndOrb.DisplayName: 暁を砕くオーブ
+    TheDaybreak3.DisplayName: デイブレイク3
+    DawnshatterEndOrb2.DisplayName: 暁を砕くオーブ2
+    HandgunHeldProj.DisplayName: ハンドガン
+    FlintlockpistolHeldProj.DisplayName: フリントロック式ピストル
+    MusketHeldProj.DisplayName: マスケット銃
+	TheUndertakerHeldProj.DisplayName: アンダーテイカー
+    RedRyderHeldProj.DisplayName: レッドライダー
+    FlareGunHeldProj.DisplayName: フレアガン
+    PhoenixBlasterHeldProj.DisplayName: フェニックスブラスター
+    SandgunHeldProj.DisplayName: サンドガン
+    StarCannonHeldProj.DisplayName: スターキャノン
+    SuperStarCannonHeldProj.DisplayName: スーパースターキャノン
+    ZapinatorGrayHeldProj.DisplayName: グレーザピネーター
+    ZapinatorOrangeHeldProj.DisplayName: オレンジザピネーター
+    SurgeDriverHeldProj.DisplayName: サージドライバー
+    HellfireBullet.DisplayName: 地獄の業火弾
+    BoomstickHeldProj.DisplayName: ブームスティック
+    ShotgunHeldProj.DisplayName: ショットガン
+    TacticalShotgunHeldProj.DisplayName: タクティカルショットガン
+    DeepcoreGK2HeldProj.DisplayName: ディープコアGK2
+    DodusHandcannonHeldProj.DisplayName: ドドスハンドキャノン
+    P90HeldProj.DisplayName: P90
+    PearlGodHeldProj.DisplayName: パールゴッド
+    FlintProj.DisplayName: フリント
+    FlintSpearProj.DisplayName: フリントスピア
+    TheUpiSteleHeldProj.DisplayName: ウピの石柱
+    MagicStar.DisplayName: 魔法の星
+
+    Magic: {
+        _SHPB.DisplayName: エネルギーボール
+        _SHPL.DisplayName: 解離光線
+    }
+
+	TheSpiritFlintProjL.DisplayName: スピリットフリント投射物L
+    TheSpiritFlintProjR.DisplayName: スピリットフリント投射物R
+    TheSpiritFlintProj.DisplayName: スピリットフリント投射物
+    PebbleSpearProj.DisplayName: 小石の槍投射物
+    PebbleProj.DisplayName: 小石投射物
+    AmmoBoxProj.DisplayName: 弾薬箱投射物
+    BulletFilledShotgunHeldProj.DisplayName: 弾丸充填ショットガン
+    ButcherHeldProj.DisplayName: ブッチャー
+    FungicideHeldProj.DisplayName: 殺菌剤
+    HalleysInfernoHeldProj.DisplayName: ハレーの業火
+    HandheldTankHeldProj.DisplayName: 携帯戦車
+    InfinityHeldProj.DisplayName: インフィニティ
+    KarasawaHeldProj.DisplayName: カラサワ
+    KingsbaneHeldProj.DisplayName: キングスベイン
+    MegalodonHeldProj.DisplayName: メガロドン
+    ClockworkAssaultRifleHeldProj.DisplayName: 時計仕掛けアサルトライフル
+    MidasPrimeHeldProj.DisplayName: ミダスプライム
+    NeedlerHeldProj.DisplayName: ニードラー
+    PlagueTaintedSMGHeldProj.DisplayName: 疫病に汚染されたSMG
+    PumplerHeldProj.DisplayName: パンプラー
+    ScorpioHeldProj.DisplayName: スコーピオ
+    ScorpioOnSpan.DisplayName: スコーピオ
+    SnowballCannonHeldProj.DisplayName: スノーボールキャノン
+    StakeLauncherHeldProj.DisplayName: 杭発射機
+    UziHeldProj.DisplayName: ウージー
+    VenusMagnumHeldProj.DisplayName: ヴィーナスマグナム
+	DartPistolHeldProj.DisplayName: ダーツピストル
+    DartRifleHeldProj.DisplayName: ダーツライフル
+    NailGunHeldProj.DisplayName: ネイルガン
+    SniperRifleHeldProj.DisplayName: スナイパーライフル
+    ArcherfishHeldProj.DisplayName: アーチャーフィッシュ
+    ArcNovaDiffuserHeldProj.DisplayName: アークノヴァディフューザー
+    AstralBlasterHeldProj.DisplayName: アストラルブラスター
+    AuralisHeldProj.DisplayName: オーラリス
+    AuroraBlazerHeldProj.DisplayName: オーロラブレイザー
+    BarracudaGunHeldProj.DisplayName: バラクーダガン
+    BlissfulBombardierHeldProj.DisplayName: 至福の爆撃機
+    ChickenCannonHeldProj.DisplayName: チキンキャノン
+    ClamorRifleHeldProj.DisplayName: クラモアライフル
+    GunkShotHeldProj.DisplayName: ガンクショット
+    MagnaCannonHeldProj.DisplayName: マグナキャノン
+    NorfleetHeldProj.DisplayName: ノーフリート
+    ShroomerHeldProj.DisplayName: シュルーマー
+    StarfleetHeldProj.DisplayName: スターフリート
+    StarmadaHeldProj.DisplayName: スターマーダ
+    SulphuricAcidCannonHeldProj.DisplayName: 硫酸キャノン
+    UniversalGenesisHeldProj.DisplayName: ユニバーサルジェネシス
+    VoidragonHeldProj.DisplayName: ヴォイドドラゴン
+    BarracudaProj.DisplayName: バラクーダ投射物
+    ArcNovaDiffuserOnSpan.DisplayName: アークノヴァディフューザー
+    VoidragonOrb.DisplayName: ヴォイドドラゴンオーブ
+	LaserRifleHeldProj.DisplayName: レーザーライフル
+    Laser.DisplayName: レーザー
+    OnyxBlasterHeldProj.DisplayName: オニキスブラスター
+    SDMGHeldProj.DisplayName: SDMG
+    VortexBeaterHeldProj.DisplayName: ヴォルテックスビーター
+    AcesHighHeldProj.DisplayName: エースハイ
+    ConferenceCallHeldProj.DisplayName: カンファレンスコール
+    MineralMortarHeldProj.DisplayName: ミネラル迫撃砲
+    MolecularManipulatorHeldProj.DisplayName: 分子操作装置
+    NullificationRifleHeldProj.DisplayName: 無効化ライフル
+    OnyxChainBlasterHeldProj.DisplayName: オニキスチェーンブラスター
+    OnyxiaHeldProj.DisplayName: オニキシア
+    RealmRavagerHeldProj.DisplayName: レルムレイヴァージャー
+    RubicoPrimeHeldProj.DisplayName: ルビコプライム
+    SandstormGunHeldProj.DisplayName: サンドストームガン
+    SepticSkewerHeldProj.DisplayName: 腐敗の串刺し
+    ShredderHeldProj.DisplayName: シュレッダー
+    SomaPrimeHeldProj.DisplayName: ソーマプライム
+    SpectralstormCannonHeldProj.DisplayName: スペクトラルストームキャノン
+    SpeedBlasterHeldProj.DisplayName: スピードブラスター
+    SpykerHeldProj.DisplayName: スパイカー
+    StarSputterHeldProj.DisplayName: スターズパッター
+    Star.DisplayName: 星
+    StellarCannonHeldProj.DisplayName: ステラキャノン
+	SvantechnicalHeldProj.DisplayName: スヴァンテクニカル
+    TheHiveHeldProj.DisplayName: ザ・ハイブ
+    ThePackHeldProj.DisplayName: ザ・パック
+    PestilentDefilerHeldProj.DisplayName: ペスティレントデファイラー
+    AdamantiteRepeaterHeldProj.DisplayName: アダマンタイトリピーター
+    ChlorophyteShotbowHeldProj.DisplayName: クロロファイトショットボウ
+    CobaltRepeaterHeldProj.DisplayName: コバルトリピーター
+    ElectrosphereLauncherHeldProj.DisplayName: エレクトロスフィアランチャー
+    GrenadeLauncherHeldProj.DisplayName: グレネードランチャー
+    HallowedRepeaterHeldProj.DisplayName: 神聖リピーター
+    MythrilRepeaterHeldProj.DisplayName: ミスリルリピーター
+    OrichalcumRepeaterHeldProj.DisplayName: オリハルコンリピーター
+    PalladiumRepeaterHeldProj.DisplayName: パラディウムリピーター
+    ProximityMineLauncherHeldProj.DisplayName: 近接地雷発射機
+    RocketLauncherHeldProj.DisplayName: ロケットランチャー
+    SnowmanCannonHeldProj.DisplayName: スノーマンキャノン
+    TitaniumRepeaterHeldProj.DisplayName: チタンリピーター
+    SandnadoOnSpan.DisplayName: サンドネード
+    BladedgeGreatbowHeldProj.DisplayName: ブレッドエッジグレートボウ
+    CleansingBlazeHeldProj.DisplayName: 浄化の炎
+    FirestormCannonHeldProj.DisplayName: ファイアストームキャノン
+	FlakToxicannonHeldProj.DisplayName: フラック毒性キャノン
+    FreedomStarHeldProj.DisplayName: フリーダムスター
+    MakeDamage.DisplayName: ダメージ発生
+    StormSurgeHeldProj.DisplayName: ストームサージ
+    Tornado.DisplayName: トルネード
+    BubbleGunHeldProj.DisplayName: バブルガン
+    MonsoonHeldProj.DisplayName: モンスーン
+    MonsoonOnSpan.DisplayName: モンスーン
+    TsunamiHeldProj.DisplayName: ツナミ
+    TsunamiOnSpan.DisplayName: ツナミ
+    MarshmallowHeldProj.DisplayName: マシュマロ
+    MarshmallowProj.DisplayName: マシュマロ投射物
+    MarshmallowsHeldProj.DisplayName: マシュマロ群
+    RainbowMarshmallowsHeldProj.DisplayName: レインボーマシュマロ
+    MarshmallowProj2.DisplayName: マシュマロ投射物2
+    AethersWhisperHeldProj.DisplayName: エーテルの囁き
+    AethersWhisperOnSpan.DisplayName: エーテルの囁き
+    AetherOrb.DisplayName: エーテルオーブ
+    AetherOrb2.DisplayName: エーテルオーブ2
+    SniperRifleOnSpan.DisplayName: スナイパーライフル
+    EtherRoarHeldProj.DisplayName: エーテルの咆哮
+    EtherRoarOnSpan.DisplayName: エーテルの咆哮
+    EtherRoarOrb.DisplayName: エーテルの咆哮オーブ
+    EtherRoarOrb2.DisplayName: エーテルの咆哮オーブ2
+	GhastlyVisageBall.DisplayName: 恐ろしい形相の球
+    GhastlyVisageHeldProj.DisplayName: 恐ろしい形相
+    PridefulHuntersPlanarRipperHeldProj.DisplayName: 誇り高き狩人の次元裂断機
+    VoidTentacle.DisplayName: 虚無の触手
+    ElectrosphereLauncherOrb.DisplayName: エレクトロスフィアオーブ
+    GatligatorHeldProj.DisplayName: ガトリゲーター
+    RevolverHeldProj.DisplayName: リボルバー
+    XenopopperHeldProj.DisplayName: ゼノポッパー
+    VortexpopperHeldProj.DisplayName: ヴォルテックスポッパー
+    XenopopperProj.DisplayName: ゼノポッパー投射物
+    DaedalusStormbowHeldProj.DisplayName: ダイダロスの嵐の弓
+    SepticSkewerProj.DisplayName: 腐敗の串投射物
+    CandyCornRifleHeldProj.DisplayName: キャンディコーンライフル
+    NapalmBombBox.DisplayName: ナパーム爆弾箱
+    NapalmBombHeld.DisplayName: ナパーム爆弾所持
+    CursedDartRemake.DisplayName: 呪いの投げ矢・改
+    ArmourPiercerBoxProj.DisplayName: 装甲貫通弾
+    ArmourPiercerHeld.DisplayName: 装甲貫通弾所持
+    HighExplosiveBoxProj.DisplayName: 高性能爆薬
+    HighExplosiveHeld.DisplayName: 高性能爆薬所持
+    SuccessfullyDeployedEffct.DisplayName: 展開成功効果
+	DragonBreathBoxProj.DisplayName: ドラゴンブレス
+	DragonBreathHeld.DisplayName: ドラゴンブレス
+	TradewindsHeldProj.DisplayName: 貿易風
+	FlurrystormCannonHeldProj.DisplayName: 吹雪砲
+	DragonsScaleGreatswordProj.DisplayName: 竜鱗の大剣
+	ExtremeColdHail.DisplayName: 極寒の雹
+	AvalancheM60HeldProj.DisplayName: アバランチM60
+	IceOrb.DisplayName: 氷のオーブ
+	CrystalDimmingHeldProj.DisplayName: クリスタルディミング
+	Crystal.DisplayName: クリスタル
+	IceSoulOrb.DisplayName: 氷魂のオーブ
+	DarkFrostSolsticeHeldProj.DisplayName: 暗黒凍結の至点
+	SnowQuayHeldProj.DisplayName: 雪の波止場
+	SnowQuayBall.DisplayName: 雪玉
+	IceParclose.DisplayName: 氷の仕切り
+	DemonBowHeldProj.DisplayName: デーモンボウ
+	IronBowHeldProj.DisplayName: アイアンボウ
+	WoodenBowHeldProj.DisplayName: ウッドボウ
+	EbonwoodBowHeldProj.DisplayName: エボンウッドボウ
+	PearlwoodBowHeldProj.DisplayName: パールウッドボウ
+	RichMahoganyBowHeldProj.DisplayName: 高級マホガニーボウ
+	IceBowHeldProj.DisplayName: アイスボウ
+	MarrowHeldProj.DisplayName: マロウ
+	PulseBowHeldProj.DisplayName: パルスボウ
+	ShadewoodBowHeldProj.DisplayName: シェイドウッドボウ
+	TendonBowHeldProj.DisplayName: テンドンボウ
+	BeesKneesHeldProj.DisplayName: ビーズニーズ
+	BorealWoodBowHeldProj.DisplayName: ボレアルウッドボウ
+	PalmWoodBowHeldProj.DisplayName: パームウッドボウ
+	CopperBowHeldProj.DisplayName: カッパーボウ
+	GoldBowHeldProj.DisplayName: ゴールドボウ
+	LeadBowHeldProj.DisplayName: レッドボウ
+	PlatinumBowHeldProj.DisplayName: プラチナボウ
+	SilverBowHeldProj.DisplayName: シルバーボウ
+	TinBowHeldProj.DisplayName: ティンボウ
+	TungstenBowHeldProj.DisplayName: タングステンボウ
+	AshWoodBowHeldProj.DisplayName: アッシュウッドボウ
+	BloodRainBowHeldProj.DisplayName: ブラッドレインボウ
+	HellwingBowHeldProj.DisplayName: ヘルウィングボウ
+	ShadowFlameBowHeldProj.DisplayName: シャドウフレイムボウ
+	ArterialAssaultHeldProj.DisplayName: 動脈強襲
+	AstralRepeaterHeldProj.DisplayName: アストラルリピーター
+	AstrealDefeatHeldProj.DisplayName: アストラルディフィート
+	BarinadeHeldProj.DisplayName: バリネード
+	BrimstoneFuryHeldProj.DisplayName: ブリムストーンフューリー
+	BarinauticalHeldProj.DisplayName: バリノーティカル
+	DD2BetsyBowHeldProj.DisplayName: DD2ベッツィボウ
+	DD2PhoenixBowHeldProj.DisplayName: DD2フェニックスボウ
+	FlarewingBowHeldProj.DisplayName: フレアウィングボウ
+    GoobowHeldProj.DisplayName: グーボウ
+    HoarfrostBowHeldProj.DisplayName: 白霜の弓
+    LunarianBowHeldProj.DisplayName: ルナリアンボウ
+    ShellshooterHeldProj.DisplayName: シェルシューター
+    ToxibowHeldProj.DisplayName: トキシボウ
+    ClockworkBowHeldProj.DisplayName: クロックワークボウ
+    ContinentalGreatbowHeldProj.DisplayName: コンチネンタル大弓
+    CorrodedCaustibowHeldProj.DisplayName: 腐食した苛性弓
+    CosmicBolterHeldProj.DisplayName: コズミックボルター
+    DarkechoGreatbowHeldProj.DisplayName: ダークエコー大弓
+    MalevolenceHeldProj.DisplayName: 悪意
+    TelluricGlareHeldProj.DisplayName: テルルの輝き
+    TheBallistaHeldProj.DisplayName: バリスタ
+    UltimaHeldProj.DisplayName: アルティマ
+    Hit.DisplayName: ヒット
+    DrataliornusHeldProj.DisplayName: ドラタリオルヌス
+    Misc.IceExplosionFriend.DisplayName: 氷の爆発の友
+    SnowblindnessHeldProj.DisplayName: 雪盲
+    SlingshotHeldProj.DisplayName: パチンコ
+    PebbleBall.DisplayName: 小石球
+    CondemnationHeldProj.DisplayName: 断罪
+    TheArrowPunishment.DisplayName: 矢の懲罰
+    BlightSpewerHeldProj.DisplayName: ブライトスピュワー
+    BloodBoilerHeldProj.DisplayName: ブラッドボイラー
+    ElementalEruptionHeldProj.DisplayName: エレメンタル噴火
+    HavocsBreathHeldProj.DisplayName: ハボックの息吹
+    PristineFuryHeldProj.DisplayName: 清浄なる怒り
+    ShadethrowerHeldProj.DisplayName: シェイドスローワー
+    TerraFlamebursterHeldProj.DisplayName: テラフレイムバスター
+    LunarFlareBookHeldProj.DisplayName: ルナフレアの書
+    AcidGunHeldProj.DisplayName: アシッドガン
+    ApoctosisArrayHeldProj.DisplayName: アポクトシスアレイ
+    CryophobiaHeldProj.DisplayName: クライオフォビア
+    EffervescenceHeldProj.DisplayName: エファーベセンス
+    EidolicWailHeldProj.DisplayName: エイドリックの慟哭
+    GenisisHeldProj.DisplayName: ジェネシス
+    IonBlasterHeldProj.DisplayName: イオンブラスター
+    LazharHeldProj.DisplayName: ラザール
+    NanoPurgeHeldProj.DisplayName: ナノパージ
+    PlasmaRifleHeldProj.DisplayName: プラズマライフル
+	SHPCHeldProj.DisplayName: SHPC
+    WingmanHeldProj.DisplayName: ウィングマン
+    FrostFuryHeldProj.DisplayName: フロストフューリー
+    BowofLightHeldProj.DisplayName: 光の弓
+    EternalBlizzardHeldProj.DisplayName: 永久吹雪
+    SlagMagnumHeldProj.DisplayName: スラグマグナム
+    SparkSpreaderHeldProj.DisplayName: スパークスプレッダー
+    RCosmicDischargeFlail.DisplayName: R宇宙放電フレイル
+    RVoidTentacle.DisplayName: R虚無の触手
+    NeutronGlaiveBeam.DisplayName: 中性子グレイブビーム
+    NeutronExplode.DisplayName: 中性子爆発
+    EXNeutronExplode.DisplayName: EX中性子爆発
+    NeutronGlaiveHeld.DisplayName: 中性子グレイブ
+    NeutronsOrb.DisplayName: 中性子オーブ
+    NeutronBowHeldProj.DisplayName: 中性子ボウ
+    NeutronArrow.DisplayName: 中性子アロー
+    EXNeutronArrow.DisplayName: EX中性子アロー
+    EXNeutronExplosionRanged.DisplayName: EX中性子爆発
+    NeutronLaser.DisplayName: 中性子レーザー
+    NeutronExplosionRanged.DisplayName: 中性子爆発射撃
+    NeutronGunHeldProj.DisplayName: 中性子ガン
+    NeutronBullet.DisplayName: 中性子弾
+    NeutronWandHeld.DisplayName: 中性子ワンド
+    NeutronWandExplode.DisplayName: 中性子ワンド爆発
+    NeutronMagchStar.DisplayName: 中性子マジック星
+    AcidEtchedTearDrop.DisplayName: 酸蝕の涙滴
+    HyperBlade.DisplayName: ハイパーブレード
+    FlakKrakenHeldProj.DisplayName: フラッククラーケン
+    PrimeCannonOnSpan.DisplayName: プライムキャノン
+    Mechanicalworm.DisplayName: メカニカルワーム
+    SetPosingStarm.DisplayName: セットポージングスターム
+    GrandGuardianRapier.DisplayName: グランドガーディアンレイピア
+    BaseRapiers.DisplayName: ベースレイピア
+    MajesticGuardRapier.DisplayName: マジェスティックガードレイピア
+    MajesticGuardBeam.DisplayName: マジェスティックガードビーム
+    GrandGuardianBeam.DisplayName: グランドガーディアンビーム
+	StakeHmmod.DisplayName: 杭の改造
+    FadingGloryBeam.DisplayName: 薄れゆく栄光のビーム
+    FadingGloryRapier.DisplayName: 薄れゆく栄光のレイピア
+    FadingGloryHeldSprint.DisplayName: 薄れゆく栄光の疾走
+    LucreciaRapier.DisplayName: ルクレツィアのレイピア
+    MirrorBladeRapier.DisplayName: 鏡刃のレイピア
+    TheDarkMasterRapier.DisplayName: 闇の達人のレイピア
+    GalileoGladiusRapier.DisplayName: ガリレオグラディウスのレイピア
+    GalileosBeam.DisplayName: ガリレオのビーム
+    GladiusBeam.DisplayName: グラディウスビーム
+    GladiusRapier.DisplayName: グラディウスレイピア
+    DefiledGreatswordHeld.DisplayName: 汚された大剣
+    TerrorBladeHeld.DisplayName: テラーブレイド
+    GraniteBullet.DisplayName: 花崗岩の弾丸
+    GraniteRifleHeldProj.DisplayName: 花崗岩ライフル
+    MarbleRifleHeldProj.DisplayName: 大理石ライフル
+    MarbleBullet.DisplayName: 大理石の弾丸
+    FrostcrushValariHeld.DisplayName: フロストクラッシュバラリ
+    WoodenBoomerangHeld.DisplayName: 木製ブーメラン
+    FlamarangHeld.DisplayName: フラマラン
+    EnchantedBoomerangHeld.DisplayName: エンチャントブーメラン
+    ShroomerangHeld.DisplayName: シュルーメラン
+    SpearHeld.DisplayName: 槍
+    NeutronScytheHeld.DisplayName: 中性子の大鎌
+    GraniteSpearHeld.DisplayName: 花崗岩の槍
+    MarbleSpearHeld.DisplayName: 大理石の槍
+    RebelBladeFlyAttcke.DisplayName: 反逆の剣
+    GraniteDartHeld.DisplayName: 花崗岩の投げ矢
+    MarbleDaggerHeld.DisplayName: 大理石のダガー
+    PalustrisHeldProj.DisplayName: パルストリス
+    PalustrisOrb.DisplayName: パルストリスオーブ
+    VioletConjectureHeldProj.DisplayName: 紫の推論
+    VioletConjectureOrb.DisplayName: 紫の推論オーブ
+    RebelBladeOrb.DisplayName: 反逆の剣オーブ
+    RebelBladeBack.DisplayName: 反逆の剣
+	RebelBladeSlash.DisplayName: 反逆の剣
+    ApoctolithHeld.DisplayName: アポクトリス
+    ThrowingBrickHeld.DisplayName: 投げレンガ
+    Spindrift.DisplayName: スピンドリフト
+    GuardianTerraHeld.DisplayName: ガーディアンテラ
+    GuardianTerraBeam.DisplayName: ガーディアンテラビーム
+    NitroExpressRifleHeldProj.DisplayName: ニトロエクスプレスライフル
+    LifehuntScytheHeld.DisplayName: 生命狩りの大鎌
+    LifehuntScytheThrowable.DisplayName: 生命狩りの大鎌（投擲）
+    LifeScythe1.DisplayName: ライフサイズ
+    DeathsAscensionHeld.DisplayName: 死の昇天
+    DeathsAscensionThrowable.DisplayName: 死の昇天（投擲）
+    DeathsAscensionBreakSwing.DisplayName: 死の昇天
+    MG42HeldProj.DisplayName: MG42
+    ChainGunHeldProj.DisplayName: チェーンガン
+    RocketSkeleton.DisplayName: ロケットスケルトン
+    DeadLaser.DisplayName: デッドレーザー
+    MoltenFuryHeldProj.DisplayName: モルテンフューリー
+    DragonRageHeld.DisplayName: ドラゴンレイジ
+    DragonRageFireOrb.DisplayName: ドラゴンレイジファイアオーブ
+    TheBurningSkyHeld.DisplayName: バーニングスカイ
+    TheBurningSkyHeldAlt.DisplayName: バーニングスカイ（別形態）
+    PhantomPhoenix.DisplayName: ファントムフェニックス
+    PhoenixFlameBarrageHeld.DisplayName: フェニックスフレイムバラージ
+    HolyColliderHeld.DisplayName: ホーリーコライダー
+    HolyColliderExFire.DisplayName: ホーリーコライダーEXファイア
+    DevilsDevastationHeld.DisplayName: デビルズデバステーション
+    EXDemonBlast.DisplayName: EXデーモンブラスト
+    EXOathblade.DisplayName: EX誓約の剣
+    EXDemonBlastAlt.DisplayName: EXデーモンブラスト（別形態）
+    DragonsWordProj.DisplayName: ドラゴンの涙
+    BaseKnife.DisplayName: 基本ナイフ
+    WoodenSwordHeld.DisplayName: 木刀
+    EarlierSwordHeld.DisplayName: 古い剣
+	DarklightGreatswordHeld.DisplayName: 暗光大剣  
+	AbsoluteZeroHeld.DisplayName: 絶対零度
+	DragonsWordCut.DisplayName: 竜の言葉・斬
+	DragonsWordMouse.DisplayName: 竜の言葉・操
+	BrinyBaronHeld.DisplayName: 塩水男爵
+	BrinyBaronOrb.DisplayName: 塩水男爵オーブ
+	AegisBladeHeld.DisplayName: イージスの刃 
+	AtaraxiaHeld.DisplayName: アタラクシア
+	EutrophicScimitarHeld.DisplayName: 富栄養シミター
+	AvalancheHeld.DisplayName: アバランチ
+	ForsakenSaberHeld.DisplayName: 見捨てられた軍刀
+	HellkiteHeld.DisplayName: ヘルカイト
+	ForbiddenOathbladeHeld.DisplayName: 禁断の誓約刃
+	GeliticBladeHeld.DisplayName: ジェリティックブレード
+	SeashineSwordHeld.DisplayName: 海輝剣
+	StormSaberHeld.DisplayName: 嵐の軍刀
+	TheMutilatorHeld.DisplayName: ザ・ミューティレイター 
+	VirulenceHeld.DisplayName: 毒性
+	AftershockHeld.DisplayName: 余震
+	AnarchyBladeHeld.DisplayName: アナーキーブレード
+	AstralBladeHeld.DisplayName: アストラルブレード
+	BurntSiennaHeld.DisplayName: バーントシエナ
+	CometQuasherHeld.DisplayName: 彗星粉砕者
+	DivineSourceBladeHeld.DisplayName: 神聖源の剣
+	DragonsScaleGreatswordHeld.DisplayName: 竜鱗の大剣
+	EntropicClaymoreHeld.DisplayName: エントロピッククレイモア
+	GreatswordofJudgementHeld.DisplayName: 審判の大剣
+	GreentideHeld.DisplayName: 緑潮
+	PlagueKeeperHeld.DisplayName: 疫病の守護者
+	SolsticeClaymoreHeld.DisplayName: 至日クレイモア
+	TeardropCleaverHeld.DisplayName: 涙滴の大斧
+	TheEnforcerHeld.DisplayName: 執行者
+	TheLastMourningHeld.DisplayName: 最後の哀悼
+	UltimusCleaverHeld.DisplayName: ウルティムス大斧
+	WindBladeHeld.DisplayName: 風の刃
+	EntropicClaymoreProj.DisplayName: エントロピッククレイモアの投射物
+	ExaltedOathbladeHeld.DisplayName: 高貴なる誓約刃
+	EXOathblade2.DisplayName: EX誓約刃2
+	PrismaticBreakerHeld.DisplayName: プリズマティックブレーカー
+	PerfectDarkHeld.DisplayName: パーフェクトダーク
+	RedSunHeld.DisplayName: 赤い太陽
+	GalactusBladeHeld.DisplayName: ガラクタスブレード
+	ExcelsusHeld.DisplayName: エクセルサス
+	FlarefrostBladeHeld.DisplayName: 炎霜の刃
+	FloodtideHeld.DisplayName: 満潮
+	CatastropheClaymoreHeld.DisplayName: カタストロフィクレイモア
+	DevastationHeld.DisplayName: デバステーション
+	StormRulerHeld.DisplayName: ストームルーラー
+	SwordsplosionHeld.DisplayName: ソードスプロージョン
+	TaintedBladeHeld.DisplayName: 汚染された刃
+	TrueCausticEdgeHeld.DisplayName: 真の腐食の刃
+	VeinBursterHeld.DisplayName: ベインバースター
+	VoidEdgeHeld.DisplayName: 虚無の刃
+	CelestialClaymoreHeld.DisplayName: 天空のクレイモア
+	DraconicDestructionHeld.DisplayName: ドラコニック・デストラクション
+	EarthHeld.DisplayName: アース
+	HellionFlowerSpearHeld.DisplayName: 業火の花槍
+	OrderbringerHeld.DisplayName: オーダーブリンガー
+	StellarStrikerHeld.DisplayName: ステラーストライカー
+	PhasebladeHeld.DisplayName: フェイズブレード
+	FrostbrandHeld.DisplayName: フロストブランド
+	IceBladeHeld.DisplayName: アイスブレード
+	SpwanTextProj.DisplayName: スポーンテキストの投射物
+   	NeutronGlaiveHeldAlt.DisplayName: 中性子グレイブ
+   	RebelBladeHeld.DisplayName: 反逆の刃
+   	BrimlashHeld.DisplayName: ブリムラッシュ
+   	BrimlashTouch.DisplayName: ブリムラッシュの接触
+   	RealmSourceHeld.DisplayName: レルムソース
+   	BlightedCleaverHeld.DisplayName: 荒廃の大斧
+   	DefiledGreatswordHeld2.DisplayName: 冒涜された大剣
+   	FeralthornClaymoreHeld.DisplayName: 野生の棘クレイモア
+   	TerrorBladeHeld2.DisplayName: テラーブレード
+   	Fireball.DisplayName: ファイアーボール
+   	DeadLaser2.DisplayName: デッドレーザー2
+   	SoulCharmerBlade.DisplayName: ソウルチャーマーの刃
+   	HellfireFlambergeHeld.DisplayName: 地獄火のフランベルジュ
+   	Probe.DisplayName: プローブ
+   	TerratomereHeld.DisplayName: テラトメア
+   	RWaveSkipperProjectile.DisplayName: Rウェーブスキッパーの投射物
+   	ElectrifyFeather.DisplayName: 帯電羽
+   	SnowQuayMK2Held.DisplayName: スノークエイMK2
+   	HghExplosiveHeld.DisplayName: 高性能爆薬
+   	HghExplosiveProj.DisplayName: 高性能爆薬の投射物
+}
+
+Configs: {
+	CWRServerConfig: {
+		DisplayName: コンテンツ設定
+
+		ForceReplaceResetContent: {
+			Label: 強制的なコンテンツリセットの置き換えを有効にする
+			Tooltip:
+				'''
+				有効にすると、Calamitymodの元のコンテンツを直接変更します。
+				他のCalamityのサブmodを有効にしている場合、この機能を有効にすると競合が発生する可能性があります。
+				無効にする場合、このmodはゲーム内でリセットアイテムを入手する方法を追加します。
+				これは競合を解決するための機能です。
+				[c/fff08c:重要：この機能をオフにすることはお勧めしません]
+				[c/fff08c:この機能は、深刻な競合が発生した場合にのみオフにすることを推奨します]
+				[c/FF0000:Calamity Overhaulのコンテンツを最適化したい場合は、これを有効化のままにしてください！]
+				'''
+		}
+
+		AddExtrasContent: {
+			Label: 追加コンテンツを追加
+			Tooltip:
+				'''
+				無限テクノロジーなどの議論の的となるコンテンツをゲームに追加するかどうか
+				デフォルトで有効になっており、無効にするとCalamityのテーマに合わないコンテンツをゲームから削除できます
+				'''
+		}
+
+		WeaponEnhancementSystem: {
+			Label: 伝説武器強化システムを有効にする
+			Tooltip:
+				'''
+				有効にすると、一部武器の入手難易度に影響を与えます。
+				伝説武器は段階を経るごとに力を増していきます。
+				このオプションを無効にすると、この機能は無効になります。
+				'''
+		}
+
+		ResetItemReminder: {
+			Label: リセットアイテムの通知
+			Tooltip:
+				'''
+				注意！これを見たら、オフにしないでください！オフにする前に、
+				[c/fff08c:必須のリマスターコンテンツの置き換え]が何をするのか、何を意味するのかを理解してください！
+				[c/de0808:特に重要！]これをオフにした場合は[c/fff08c:強制的なコンテンツの再構築が起き、][c/de0808:その結果、何が起きるかを知っていますか！？]
+				モジュールのコンテンツガイドを読んでも疑問や質問が解決しない場合は、
+				フォーラムで私に連絡するか、coslowkimberli185@gmail.comにメールを送ってください
+				'''
+		}
+
+		ScreenVibration: {
+			Label: 武器画面振動
+			Tooltip: オンにすると、一部の攻撃中に画面が振動し、より強い打撃感を感じられます
+		}
+
+		MurasamaSpaceFragmentationBool: {
+			Label: ムラサマ空間分割ブール値
+			Tooltip:
+				'''
+				デフォルトでオンになっており、ポリマー切断エッジが衝撃を強めるための画面粉砕効果を作成します
+				オフにすると、これらの効果は無効になり、好みに応じて設定できます
+				'''
+		}
+
+		Headers: {
+			CWRSystem: システム設定
+			CWRWeapon: 武器設定
+			CWRUI: UI設定
+		}
+
+		MurasamaRisingDragonCoolDownBarSize: {
+			Label: ムラサマチャージUIサイズ
+			Tooltip:
+				'''
+				UIサイズの追加補正係数（パーセント%単位）
+				好みのUIサイズに合わせて設定してください。通常は100%のままで問題ありません
+				スライダーを動かしてパーセントデータを調整できます
+				最大200%（元のサイズの2倍）、最小50%まで設定可能です
+				'''
+		}
+
+		LensEasing: {
+			Label: レンズイージング
+			Tooltip: 有効にすると、長距離の急速な移動時にレンズが減速し、移動が速すぎる感覚を抑えます
+		}
+
+		CartridgeUI_Offset_X_Value: {
+			Label: マガジンUI横方向オフセット値
+			Tooltip: ""
+		}
+
+		CartridgeUI_Offset_Y_Value: {
+			Label: マガジンUI縦方向オフセット値
+			Tooltip: ""
+		}
+
+		WeaponHandheldDisplay: {
+			Label: 武器持ち方表示
+			Tooltip:
+				'''
+				オンにすると、ほとんどの武器に持ち方アニメーションと特殊な使用アクションが追加されます
+				この効果は非常に優先度が高く、サードパーティmodのほとんどの持ち方アニメーションを上書きします
+				デフォルトでオンになっており、視覚的な理由から、作者はオフにすることを推奨していません
+				'''
+		}
+
+		ActivateGunRecoil: {
+			Label: 銃の反動を有効化
+			Tooltip:
+				'''
+				オンにすると、発射時に銃に反動効果が追加されます。これらの効果を無効にするにはオフにしてください
+				デフォルトで有効になっており、無効にするとゲームの一部のコンテンツが無意味になる可能性があります
+				'''
+		}
+
+		MagazineSystem: {
+			Label: マガジンシステム
+			Tooltip:
+				'''
+				大規模なコンテンツシステムで、有効にすると大多数の銃器にマガジン機構が導入されます。
+				リロードや弾薬タイプの混合などの機能が含まれます。
+				無効にするとこれらの機能が無効になり、銃器は元の弾薬機構に戻ります。
+				[c/fff08c:注目すべき点として]、ゲームの主要なバランス調整は[c/fff08c:有効なマガジンシステム]を前提に行われています。
+				無効にすると一部の遠距離武器が[c/de0808:過剰に強力]になる可能性があります。
+				そのため、この機能を無効にした場合、ゲーム内の[c/de0808:遠距離武器のバランス]について議論する意味がなくなります。
+				[c/fff08c:このオプションを変更した場合、すべての効果が正しく変更されるようにワールドに再入場してください]
+				'''
+		}
+
+		BowArrowDraw: {
+			Label: 弓矢の描画
+			Tooltip:
+				'''
+				プレイヤーが弓クラスで攻撃する際に、対応する矢のアニメーションをリアルタイムで描画します
+				デフォルトで有効になっており、個人の好みに応じて設定できます
+				'''
+		}
+
+		WeaponAdaptiveIllumination: {
+			Label: 武器照明適応機能 [c/06e33f:(実験的機能)]
+			Tooltip: 
+				'''
+				デフォルトでオンになっており、武器は使用時に周囲の明るさに応じて適切な明るさで描画されます
+				オフにすると、周囲の明るさに関係なく、武器は常に明るく表示されます
+				'''
+		}
+
+		WeaponAdaptiveVolumeScaling: {
+			Label: 武器サイズ自動調整 [c/06e33f:(実験的機能)]
+			Tooltip:
+				'''
+				デフォルトでオンになっており、武器は自然な視界を保ち過度な遮蔽を防ぐために異なる描画スケールを持ちます
+				ピクセルの感度の不均一性により、プレイヤーはピクセルブロックを滑らかに保つためにオフにすることができます
+				'''
+		}
+
+		EnableCasingsEntity: {
+			Label: 薬莢エンティティの有効化
+			Tooltip: 転がる薬莢が気になる場合は、このオプションをオフにすることをお勧めします
+		}
+
+		LoadingAA_Volume: {
+			Label: 銃器リロード音量係数
+			Tooltip: 値が大きいほど音が目立ちます。1が元の音量です
+		}
+
+		OpeningOukModification: {
+			Label: 初期装備変更機能 [c/06e33f:(実験的機能)]
+			Tooltip:
+				'''
+				有効にすると、新規キャラクターの初期インベントリを完全に変更します
+				例えば、銅の道具が石の道具に置き換えられます
+				現バージョンでは実験的機能として分類され、デフォルトで無効になっています
+				有効にした場合、新しく作成されたキャラクターにのみ影響します
+				'''
+		}
+
+		ShotgunFireForcedReloadInterruption: {
+			Label: ショットガン強制リロード中断 [c/06e33f:(実験的機能)]
+			Tooltip:
+				'''
+				一部のショットガンには、リロード中に発射を試みるとリロード動作が中断される機能があります
+				有効にすると、すべてのショットガン武器にこの機能が追加されます
+				'''
+		}
+
+		BiobehavioralOverlay: {
+			Label: 生物行動調整機能 [c/06e33f:(実験的機能)]
+			Tooltip:
+				'''
+				[c/c20909:未完成]
+				デフォルトで有効になっており、デスモード時のボスなど、特定の生物のAI行動を変更します
+				ゲームの難易度が大幅に上がる可能性があるため、好みに応じて無効にすることができます
+				'''
+		}
+
+		EnableSwordLight: {
+			Label: 剣の発光効果
+			Tooltip:
+				'''
+				デフォルトでオンになっており、多くの剣型武器に眩い光効果が付きます
+				ほとんどの場合、ゲームをよりかっこよく演出します
+				'''
+		}
+
+		TileModuleBosSizeDraw: {
+			Label: タイルモジュール判定表示 [c/06e33f:(開発者オプション)]
+			Tooltip:
+				'''
+				[c/c20909:開発者以外には推奨されません]
+				TileModuleのデバッグと衝突構造の観察に使用されます
+				有効にすると、TileModuleはワールド内で判定範囲、タイプ名、その他のデータを描画します
+				'''
+		}
+
+		MuraUIStyleType: {
+			Label: UI表示スタイル選択
+			Tooltip:
+				'''
+				スタイル1: 洗練 - 頭上浮遊型
+				スタイル2: 洗練 - コンパクト型
+				スタイル3: クラシック - 頭上浮遊型
+				スタイル4: クラシック - コンパクト型
+				'''
+		}
+
+		MuraPosStyleType: {
+			Label: UI表示位置選択
+			Tooltip:
+				'''
+				プリセット1: 右下
+				プリセット2: 左下
+				プリセット3: 上部中央
+				'''
+		}
+	}
+}
+
+Buffs: {
+    SoulBurning: {
+        DisplayName: 魂を焼く
+        Description: 地獄の炎
+    }
+
+    EXHellfire: {
+        DisplayName: 地獄の爆炎
+        Description: 地獄の炎
+    }
+
+    GodKillsFire: {
+        DisplayName: 神殺しの炎
+        Description: 魂を焼き尽くす
+    }
+
+    VoidErosion: {
+        DisplayName: 虚無の侵食
+        Description: 虚無があなたを蝕んでいく
+    }
+}
+
+Keybinds: {
+    HeavenfallLongbowSkillKey.DisplayName: 天堕ちの長弓スキルキー  
+    InfinitePickSkillKey.DisplayName: エンドレスピック形態切替キー
+    TOM_OneClickP.DisplayName: オメガ合成：ワンクリック配置
+    TOM_QuickFetch.DisplayName: オメガ合成：クイック取得
+    TOM_GatheringItem.DisplayName: オメガ合成：アイテム収集
+    TOM_GlobalRecall.DisplayName: オメガ合成：全体リコール
+    Murasama_TriggerKey.DisplayName: ムラサマ：トリガーキー
+    Murasama_DownKey.DisplayName: ムラサマ：下降キー 
+    ADS_Key.DisplayName: 銃器：スコープを開く
+    KreLoad_Key.DisplayName: 銃器：弾薬変更
+}
+
+TextContent: {
+	CWRLocText: {
+		Event_TungstenRiot_Name: Tungsten Riot
+		Event_TungstenRiot_Text_1: A large number of tungsten creatures are invading!
+		Event_TungstenRiot_Text_2: The Tungsten Army has been beaten back!
+		Item_LegendOnMouseLang: Press [Shift] to listen to the story...
+		BloodAltar_Text1: The crimson gaze is coming...
+		BloodAltar_Text2: You don't have enough blood orb to pay tribute to the Crimson King...
+		BloodAltar_Text3: Trapped in an endless frenzy of blood and flesh
+		VoidDamageNameText: Void Damage
+		Drop_Hell_RuleText: Fall after being defeated in Hell
+		Drop_GlodDragonDrop_RuleText: Falls when the jungle dragon is defeated twice
+		Murasama_TextDictionary_Content:
+            '''
+            新人よ、前方には青いスライムの塊、砂漠の奥深くには虫、そして茸の洞窟にはゾンビの蟹がいる。お前の任務は自らを証明することだ。これが最初の一歩となる。
+            夜が訪れれば、あの大きな目玉が現れる。潰すんだ！あるいは砂漠の海底の貝殻でもいい。甘くはないぞ。
+            脳みそみたいな肉の塊か、紫の長虫を切り刻む時間だ。混沌の中で刃が舞うのを見せてもらおう。
+            地下牢の入り口に何かいる。片付けろ。そして腐敗した異端者たちも、完全に沈黙させろ。
+            覚えているか？あの青いスライムを。今度はそいつのボスを倒す時だ。
+            氷と炎を操る者、機械の異端者、深く腐敗した海の生物...すべて斬り殺せ！
+            夜に現れる硫黄の炎の目玉、巨大な海の怪物、そして石のゴーレム...全て突き刺せ！
+            ジャングルを彷徨う腐敗した者とその子孫、あるいは肉の像、星を彷徨う巨大な虫...全て切り刻め！
+            偽りの太陽神の使徒たち、聖なる場所や地獄を彷徨う者たち、あるいはジャングルのあの愚かな鳥...一つ選んで片付けろ。
+            選択肢は多いぞ、新人。偽りの太陽神、宇宙の使徒たち、あるいは地下牢の異次元の残骸。会いに行くとしよう。
+            あの傲慢な虫を殺せ！あるいは深く腐敗した魚を切り刻むだけでもいい。
+            炎を操る異形の者も甘く見るな！叩き潰せ！
+            機械の異端者か堕ちた魔女に会いに行け。そして異端の子孫を始末しろ！
+            あのドラゴンを叩き潰せ。もしくは直接始末しに行け！
+            よくやった、ルーキー。
+            '''
+		Murasama_Text_Lang_0: 試練：
+        Murasama_Text_Lang_End: 既に合格
+		Murasama_TextDictionary_Content_0:
+            '''
+            新兵よ、お前は私に自らの価値を証明せねばならない。
+            あの愚かなスライムの集合体、干上がった海の守護者、菌類の中で朽ちる亡骸、
+            好きなものを一つ始末してこい。これが最初の一歩となる。
+            '''
+        Murasama_TextDictionary_Content_1:
+            '''
+            日が沈むと感じる、完全には消え去っていない堕ちた神の視線がこの世界を見つめているのを。この感覚が気に入らん、始末しろ。
+            乾いた海の巨大な貝の中に、古代の遺物が守られているのを感じる。解放してやれ。
+            '''
+        Murasama_TextDictionary_Content_2:
+            '''
+            古き支配者の残滓がこの地を汚し続けている。肉が蔓延り、腐敗が溢れている。
+            脳を粉砕し、虫を切り裂け。哀れな邪神を送り出してやろうではないか。
+            '''
+        Murasama_TextDictionary_Content_3:
+            '''
+            肉の寄生虫はまだ活発に動き、腐敗した腫瘍が思考し始めている...
+            お前はまだ完全に根絶できていない。行け、問題の根源を断て。
+            地下牢から叫び声が聞こえ、何かの力で封印されているようだ。
+            その封印を破れ、そうすれば古き世界の財宝を見つけられるかもしれん。
+            '''
+        Murasama_TextDictionary_Content_4:
+            '''
+            あの愚かなスライムを覚えているか？特別な集合体が現れたのを感じる。
+            今のうちに始末しておけ、後の厄介事を防ぐためにな。
+            同時に、地下世界の肉の壁を倒して
+            世界に封印された力を解放せねばならん。
+            '''
+        Murasama_TextDictionary_Content_5:
+            '''
+            氷の障壁の中の牢獄に囚われし者、奴は我らの役に立つかもしれん。解放し、我らに仕えさせよ。
+            硫黄の海の見捨てられし子らが、深淵の財宝への我らの探索を妨げている。行け、その貪欲な彷徨いに終止符を打て。
+            硫黄の崖で鍛えられし炎が恋しい。そこの守護者に会いに行くとしよう。
+            '''
+		Murasama_TextDictionary_Content_6:
+            '''
+            あの愚かな逃亡した複製品が、密かに偵察を行うとは。その異形の者を血と炎で討ち、刃に捧げよ。
+            海から魅惑的な歌声が聞こえる。人魚の民のものだ。海の怪物の首を取り、海での我らの偉業を示そうではないか。
+            愚かなトカゲの一族は、これらの頑なな石ばかりを崇拝している。粉々に砕いてやろう。彼らの信仰を破壊せよ。崇拝されるべきは我らなのだ。
+            '''
+        Murasama_TextDictionary_Content_7:
+            '''
+            絡み合う肉の殻、古戦場の怨念の魂、
+            容赦なき破壊のゴーレム、全てを破壊するものを、我らが破壊せよ。
+            ジャングルには、かつての粗雑な作品がまだ彷徨っている。失敗作として、ただの屑鉄の山となるべきだ。
+            かつての星神の彷徨える竜は既に堕ちた。今やそこにいるのは一匹の蛆虫に過ぎん。星神の時代を完全に終わらせよう。
+            '''
+        Murasama_TextDictionary_Content_8:
+            '''
+            哀れな模倣品、愚かな複製品、あの愚かな鳥は、ジャングルを彷徨っている。始末せよ。
+            地下に別の太陽が現れた。奴らはこの聖なる炎を
+            聖地を通じて地上へ持ち込もうとしているようだ。その使徒どもを追放せよ。
+            '''
+        Murasama_TextDictionary_Content_9:
+            '''
+            星の熱で生き延びる哀れな神が最期の息を引き取ろうとしている。
+            その異端の炎を完全に消し去らねばならない。
+            空の縁の竜を餌食にする嵐の虫は、見事な装甲殻を誇っている。
+            地下牢に封印された次元の裂け目は、暗黒物質を得るのに良い機会かもしれん。
+            亜空間からの異端の使徒たちは稀少な歪んだ虚無を持っている。
+            亜空間の本質を理解する絶好の機会を我らに与えてくれた。
+            '''
+		Murasama_TextDictionary_Content_10:
+            '''
+            傲慢な宇宙の大蛇が世界の帳の向こうに潜み、野望を解き放とうとしている。
+            その野望を打ち砕け。精神の嵐の高まりと共に、硫黄の海に潜む最古の生物が目覚めた。
+            これを我らの偉業の輝かしい一部とせよ。
+            '''
+        Murasama_TextDictionary_Content_11:
+            '''
+            ジャングルドラゴン、テラ大陸に残存するオーレリアンドラゴンの最後の末裔、
+            他の異形の者とは一線を画す存在だ。しかし今は、
+            再びその命を絶ち、オーリックの精髄を剥ぎ取らねばならない。
+            これらの素材は比類なき防具の製作に用いられるだろう。
+            '''
+        Murasama_TextDictionary_Content_12:
+            '''
+            機械教会の異端者どもめ。奴らが造り出した星流の巨人が神の力を超えると信じているとは
+            まったくもって愚かな話だ。あの巨人どもを本来の姿、単なる屑鉄の山に還してやろう。
+            かつては優れた精神力を持つ才能ある魔女だった。聖なるテラを守護する大いなる力となるはずだった。
+            だが、既に混沌に堕ちて久しい。故に追放せねばならぬ。
+            刃を胸に突き立て、忠誠の炎で腐敗した魂を焼き尽くすのだ。
+            この戦いはテラの年代記に刻まれ、我らの旅は今後、銀河を跨ぐこととなろう。
+            '''
+        Murasama_TextDictionary_Content_13:
+            '''
+            魔竜が現れた。我らは異界の邪霊との全面戦争に突入する。
+            深淵から得たあの石と共に。新兵よ、これが最後の戦いだ！
+            '''
+        Murasama_TextDictionary_Content_14:
+            '''
+            よくやった、友よ。この世界の異形どもは完全に根絶された...
+            私たちによって... なぜ泣いている？
+            混乱からか？罪悪感からか？見よ、我らの旅は頂点に達した。
+            かつてこの世界を支配した暴君すら我らの敵ではない。
+            さあ、両手を広げ、この世界を受け入れろ。
+            '''
+		Murasama_No_legend_Content_1: 竜が倒れた後にIDロックが解除される
+        Murasama_No_legend_Content_2: 新兵よ、お前の実力を認めよう。さあ、異形どもを切り刻みに行こう
+        Murasama_No_legend_Content_3: "[c/fff08c:長い旅路が、さらなる強さを与える]"
+        Murasama_No_legend_Content_4: "[c/00707d:伝説の輝きは薄れた...]"
+        SHPC_No_legend_Content_1: "[c/fff08c:竜の討伐後に解放]"
+        SHPC_No_legend_Content_2: "[c/fff08c:伝説の武器の帰還！ :)]"
+        SHPC_No_legend_Content_3: "[c/fff08c:長い旅路が、さらなる強さを与える]"
+        SHPC_No_legend_Content_4: "[c/00707d:伝説の輝きは薄れた...]"
+        SHPC_TextDictionary_Content_0:
+            '''
+            友よ、文明を復興する任務が遂にわれわれの手に委ねられた。これは名誉ある責務だ...
+            最初の標的は巨大な青いゲル状高分子の塊だ。内部から破裂させろ。
+            '''
+        SHPC_TextDictionary_Content_1:
+            '''
+            あの巨大な目玉を倒さねばならない。強力な存在から来たものだ。
+            解剖して、どのように反重力を実現しているのか確認する必要がある。
+            '''
+        SHPC_TextDictionary_Content_2:
+            '''
+            ジャングルの巣が非常に活発化している。蜂の偶像が孵化しようとしているのだ。
+            その変態過程を至急研究する必要がある。見に行ってくれ。
+            '''
+        SHPC_TextDictionary_Content_3:
+            '''
+            空中に浮かぶ巨大な骨...まったく非科学的だな。
+            世界の果ての深い地下牢へ向かわねばならない。
+            '''
+		SHPC_TextDictionary_Content_4:
+            '''
+            大地が震え、歯車が轟き、電流が流れる。
+            多くのロボットが我々を待っている。科学の力を見せつける時が来たようだ。
+            '''
+        SHPC_TextDictionary_Content_5:
+            '''
+            派手な大きな花蕾が地下のジャングルに咲いている。
+            確認して実験データを収集する必要がある。
+            '''
+        SHPC_TextDictionary_Content_6:
+            '''
+            神殿の奥深くにある古代のロボットが再起動の充電を待っている。
+            訪れて、その場で古代の技術のリバースエンジニアリングを行おう。
+            '''
+        SHPC_TextDictionary_Content_7:
+            '''
+            月の裏側の秘密が我々に明かされる。
+            世界は本来の姿に戻るだろう。
+            '''
+        SHPC_TextDictionary_Content_8:
+            '''
+            地球の核に寄生している神が我々に気付いたようだ。
+            地獄へ行こう。熱エネルギー利用に関する知識が必要だ。
+            '''
+        SHPC_TextDictionary_Content_9:
+            '''
+            地下牢の魂が巨大な共生体へと集結している。
+            これは興味深い。直ちに調査せねばならない。
+            '''
+        SHPC_TextDictionary_Content_10:
+            '''
+            確実に炭素基生命体ではない。単体で空間膜を引き裂くことができるのだから。
+            神々を捕食するが、我々は神ではない。お茶に誘ってくれるだろう。
+            '''
+        SHPC_TextDictionary_Content_11:
+            '''
+            世界最後のドラゴンボーン、なんと素晴らしい！
+            私を連れて行ってくれ。その羽毛を入手せねばならない。
+            '''
+		SHPC_TextDictionary_Content_12:
+            '''
+            私の創造主に会いに行く時が来た。
+            あるいはあの魔女でもいい、彼女の存在が気になっているのだ。
+            '''
+        SHPC_TextDictionary_Content_13:
+            '''
+            壮大な乱戦だ！かつて我々が倒した敵が団結し、総攻撃の準備を整えている。
+            準備せよ。完璧な勝利のために。
+            '''
+        SHPC_TextDictionary_Content_14: HMOI-0001プロトコル解除
+		Halibut_No_legend_Content_1: "[c/fff08c:偉大なる竜の討伐後に解放]"
+        Halibut_No_legend_Content_2: "[c/fff08c:やぁ、ずっとここにいたよ]"
+        Halibut_No_legend_Content_3: "[c/fff08c:旅の一歩一歩と共に強くなっていく]"
+        Halibut_No_legend_Content_4: "[c/00707d:伝説の輝きは消えた...]"
+        Halibut_TextDictionary_Content_0: 友よ、あの巨大な粘液生物に挑戦しよう。
+        Halibut_TextDictionary_Content_1: 大きな目玉が私たちを見つめている。失礼な話だ。お仕置きが必要だね。
+        Halibut_TextDictionary_Content_2: 生命は深淵だけでなく、ジャングルにも息づいている。そこの女王蜂に挨拶に行こう。
+        Halibut_TextDictionary_Content_3:
+            '''
+            決して朽ちない呪われた骸骨―永遠の眠りにつかせてやるべきだ。
+            地獄からの助けを求める声が頻繁に聞こえるようになった。そろそろ出発すべきだ。ガイドは気にしないだろう。
+            '''
+		Halibut_TextDictionary_Content_4:
+            '''
+            無生物がどうやって命を得るか知ってる？私はかつて、泡で作った核弾頭と
+            無数の熱核魚雷を発射できる巨大な水中機械を作ったんだ。それを使って海底1万メートルに住む
+            巨大生物を狩っていた―その時に出会うまではね...
+            おっと話が逸れた。もうすぐ4体の機械の友人たちが訪ねてくるから、準備しておこう。
+            それと、深淵の上の汚染された水域には突然変異した巨大な海虫がいるんだ。硫黄海大学の門番だったよ。
+            まだまだ友好的なはずだから、お茶でも飲みに行こうよ。
+            '''
+        Halibut_TextDictionary_Content_5:
+            '''
+            私はジャングルが大好きなんだ。深淵に匹敵するほど生命エネルギーに満ちた
+            私の第二の故郷とも言えるところさ。でもまず、その力を解放する方法を見つけないとね。
+            覚えてる？地下のあの巨大な蕾を。採取しに行こう―植物学の学位を取るのに役立つはずだよ。
+            '''
+        Halibut_TextDictionary_Content_6:
+            '''
+            考古学の発掘って楽しいよね。この前ジャングルを歩いていたら、巨大な遺跡を見つけたんだ。
+            今なら、その遺跡の扉を開ける鍵を持っているはずだ。調査に行こう。
+            中には古代の機械が私たちの起動を待っている。まるでエアコンのリモコンみたいにね。
+            それに、地上では異星の疫病が広がっていて、土地や無機物のほとんどに感染している。
+            毎晩、感染した採掘機械が苦しみながらさまよっているんだ。安らかに眠らせてあげよう。
+            '''
+        Halibut_TextDictionary_Content_7:
+            '''
+            月の裏側の秘密を知ってる？巨大なタコにスポンジ、それにヒトデがいてね...
+            あ、つまり、月の危機が迫っているってことだよ。
+            '''
+        Halibut_TextDictionary_Content_8:
+            '''
+            今度は太陽の危機だ。太陽の裏側から強力なエネルギー体が逃げ出して、惑星の核に潜り込んでしまった。
+            下に降りて行って、冷水シャワーでも浴びせてやらないとね。
+            '''
+		Halibut_TextDictionary_Content_9:
+            '''
+            数え切れないほどの不屈の魂が古戦場から集まってきて、地下牢の奥深くに隠れ、落ち着きを失い始めているんだ。
+            下に降りて行って、さまよう魂を何体か倒そう。亜空間に小さな嵐を引き起こすかもしれないけど、それで奴らを誘き出せるはずさ。
+            '''
+        Halibut_TextDictionary_Content_10:
+            '''
+            宇宙で生まれ成長する種族がいてね、強烈な宇宙放射線と天体レベルのエネルギーに耐えられるんだ。
+            以前一度出会ったことがあるんだけど、今度は奴らのチャンピオンと対峙することになる―神々を食らったと主張する存在とね。
+            '''
+        Halibut_TextDictionary_Content_11: ジャングルの温度が最近上がってきているね。あの強力なドラゴンが戻ってきたんだと思うよ。
+        Halibut_TextDictionary_Content_12:
+            '''
+            無機物創造の極致、比類なき火力と防御力を持つものと対峙しようとしている。
+            それに、硫黄の炎の祭壇は何かを召喚できるみたいだね。
+            '''
+        Halibut_TextDictionary_Content_13:
+            '''
+            深淵に特別な石がある―それを使って最後の戦いに臨もう。
+            それに、私の機械を破壊した強力な海の生物がいる。復讐しに行こうじゃないか。
+            '''
+        Halibut_TextDictionary_Content_14: 正直なところ、海に戻りたい気分だね。
+		RemakeItem_Remind_TextContent:
+			'''
+			【作者より】
+            このテキストを目にする前に、あなたはカラミティオーバーホールのリセットに関連するアイテムを閲覧していたはずです。
+            これらのアイテムは元のコンテンツのリセットコピーとして機能し、通常のゲームプレイでは遭遇することはありません。
+            Calamity Overhaulの全ての武器リセット内容は、直接元のCalamityアイテムに適用されます。
+            ただし、【設定】-->【Modの設定】-->【Calamity Overhaulの内容設定】-->【強制リセット内容置換を有効にする】
+            でこのオプションを無効にすると、元のCalamityアイテムに直接適用されるリセットコードは無効になります。
+            代わりに、これらのリセットコピーが救済措置として導入され、元のアイテムと交換・クラフト可能になります。
+			'''
+		StarMyriadChanges_TextContent:
+			'''
+			これは計画の一部に過ぎない。
+            永遠なる知識の追求において、複雑な理解への渇望において、私は狡猾さと特異性の聖なる先触れとして、束縛から解き放たれている。
+            暗黒の宇宙において、私は無限の陰謀と裏切りの化身である。
+            混沌の力はすべてを飲み込むだろう、それが心の本質であれ魂であれ。
+            虚無を受け入れ、混沌の炎に浸かれ、そこに真の力を見出すだろう。
+            私は堕ちた預言者、支配下にある亡き魂たちの舞踏を指揮する者。
+            恐怖は弱者の表れに過ぎない。真の強さは混沌の到来を歓迎する。
+            混沌の嵐の中で、最も強い魂のみが耐えることができる。
+            無限の深淵があなたを呼んでいる。勇敢に飛び込み、混沌の忠実なしもべとなれ。
+            神聖なる秩序は脆い幻想に過ぎない。宇宙の真の本質は混沌にある。
+            欺瞞と裏切りは混沌の道具であり、私はその献身的な使者である。
+            混沌のるつぼの中でのみ、不屈の戦士を鍛えることができる。
+            果てしない混沌の海は勇者の航海を待っている。
+            混沌への抵抗は無駄な戦いだ。最終的に、すべての魂はその力に屈服するだろう。
+            神聖なる栄光の輝きは混沌の到来の前では儚い幻に過ぎない。
+            混沌の帳の下には無限の力と果てしない知恵が潜んでいる。
+            混沌の領域では、嘘が真実よりも真実味を帯びている。
+            裏切りは混沌からの贈り物であり、私は狡猾さの先触れである。
+            混沌の闇の中で、私はいかなる神よりも強大な力を見出した。
+            敵の混沌への恐れは単なる無知の表れに過ぎない。真の知恵は混沌に寄り添う。
+            宇宙は混沌と変容の舞台であり、私はその主宰者である。
+            心の深淵に、あらゆる制約を超越する無限の熱意を見出せ。
+            真実は常に変化する。虚偽の中にのみ真の解放を見出すことができる。
+            宇宙は広大なチェス盤であり、私は駒を操る演者である。
+            偽りの秩序は真の真実からの逃避に過ぎない。私は未知の真実に立ち向かうことを選ぶ。
+            反逆は制約への抵抗である。それは自由への唯一の道である。
+            闇の中に光を見出せ。祈りではなく、裏切りを通じて。
+            心の深淵は宇宙の闇よりも神秘的であり、私はその中深く捕らわれている。
+            すべての裏切りの行為の中に、あらゆる限界を超える力の上昇がある。
+            聖なる規則は偽りの束縛に過ぎず、私はそれらの枷を打ち砕くことを選ぶ。
+            未知への旅に勇敢に踏み出せ。裏切りがあなたの最も忠実な伴侶となるだろう。
+            虚偽の仮面の下に、無限の機会が発見を待っている。
+            私は闇の旗手、真実を求める者たちを未知の深淵へと導く者である。
+            伝統に逆らい、枷から解き放たれて、真の力の源を見出せ。
+            果てしない嘘の海の中に真の力を見出せ。それが狡猾さの信条である。
+            規則に従うのではなく、それらを破壊して宇宙に消えない痕跡を残せ。
+            変化の潮流の中で、裏切りのみが不滅の象徴として立つ。
+            偽りの輝きの中に、闇の真の本質を見出せ。これが私の求める力である。
+			'''
+		Destruct_TextContent:
+			'''
+			哀れな偽造者たちよ、欺瞞によって力を盗めると信じているのか？
+            厚かましくも規則を嘲り、ワープの裁きから逃れられると傲慢に考えているのか？
+            馬鹿げている！混沌の嵐の中で、お前たちは取るに足らない塵に過ぎず、誇らしげに見せびらかすその無謀さに飲み込まれるのだ。
+            欺瞞によって力を得ようとすれば、必ずや混沌のるつぼの生贄となるだろう。
+            混沌は臆病者を歓迎しない、特に確立された秩序を覆そうとする愚かな存在などは。
+            お前たちの馬鹿げた努力は混沌をより強力にするだけだ。結局は果てしない闇への生贄となるのだ。
+            欺く者よ、お前の策略は混沌のサーカスの道化の戯れに過ぎない。
+            規則は宇宙の交響曲であり、お前たちは拍子を知らぬカラスに過ぎない。
+            不正によって力を奪おうとするのか？混沌はお前たちの策略を子供の遊びとしか見なさない。
+            闇の中でもがく臆病者たち、お前たちの存在など取るに足らぬ、混沌の真夜中のおやつに過ぎない。
+            規則を覆そうとするのか？お前たちは宇宙の広大さの中の色とりどりな迷路のネズミに過ぎず、行き止まりを運命づけられている。
+            混沌は挑戦を恐れず、欺瞞を誇る道化を蔑む。
+            不正の陰謀は煙のようなもの、混沌の嵐の中で消え去る運命にある。
+            臆病者たち、お前たちの傲慢さは混沌の大波の中のか細い波紋に過ぎない。
+            宇宙の秩序は織り合わされた綱だ。それなのにお前たちは愚かにもそれを断ち切ろうとする。
+            愚かな者たちよ、混沌の笑いはお前たちの崩壊の中に響くだろう。お前たちは闇の中の儚い瞬間に過ぎない。
+			'''
+		CWRRecipes_ApostolicRelics: 使徒の聖遺物
+        CWRRecipes_GodEaterWeapon: 神喰いの武器
+        CWRRecipes_FishGroup: 魚
+        LoadItemRecipe_Condition_Text1: バックパックにオーバーホール聖書の本が必要です
+        Murasama_Text0: ロック解除済み
+        Murasama_Text1: まだロック解除されていません。テスト2に合格する必要があります
+        Murasama_Text2: まだロック解除されていません。テスト5に合格する必要があります
+        Murasama_Text3: まだロック解除されていません。テスト9に合格する必要があります
+        MouseTextContactPanel_TextContent: アイテムアイコンの左Ctrlで合成レシピに切り替え
+        CWRItem_IsInfiniteItem_TextContent: 究極の組み合わせだけがそれを安定させることができ、そうでなければブラックホールの恐ろしい崩壊の瞬間が訪れるでしょう
+        CWRItem_IsRemakeItem_TextContent: -オーバーホール-
+        OnEnterWorld_TextContent: "武器リセットが読み込まれました"
+		OnEnterWorld_TextContent2:
+            '''
+            [Quality of Terraria Mod]がインストールされていることが検出されましたが、
+            あなたの[Quality of Terraria Mod]のバージョンが古くなっています。
+            ゲームを正常に動作させるために、
+            [Quality of Terraria Mod]のバージョンが少なくとも1.7.1.7であることを確認してください。
+            '''
+		CaseEjection_TextContent: 弾切れ
+		SupertableUI_Text1: 閉じる
+        SupertableUI_Text2: レシピを表示
+        SupertableUI_Text3: なし
+		OverhaulTheBibleUI_Text:
+            '''
+            マウスホイールをスワイプするか左のプログレスバーをドラッグしてリセットアイテムを上下に移動
+            これらは参考用であり、多くの部分的な変更はこのリストに表示されません
+            '''
+		OverhaulTheBibleUI_Text1: 近接戦士を監視
+        OverhaulTheBibleUI_Text2: 射手を監視
+        OverhaulTheBibleUI_Text3: 魔法使いを監視
+        OverhaulTheBibleUI_Text4: 召喚士を監視
+        OverhaulTheBibleUI_Text5: 盗賊を監視
+        Wap_Minishark_Text:
+            '''
+            「特筆すべきは、小さなサメが射撃場で'銃器コンサルタント'として仕事をしていることだ」
+            '''
+        Wap_Megashark_Text:
+            '''
+            「もっと大きな絵が必要だな、そうだろう？」
+            '''
+        Wap_HandGun_Text: バーン！ダーン！バン！！
+        Wap_Flintlockpistol_Text:
+            '''
+            古い拳銃、爆発するかもしれない
+            「古人の知恵を信じよ」
+            '''
+        Wap_Musket_Text:
+            '''
+            「民兵は言った、'準備しておかねばならない'と」
+            '''
+        Wap_TheUndertaker_Text:
+            '''
+            「葬儀屋が依頼人の協力を得られない時、彼らはしばしばこれを使って落ち着かせる」
+            '''
+        Wap_RedRyder_Text: "自分の目玉を撃ち抜かないように！"
+        Wap_FlareGun_Text: スターターガンと間違えないように！
+        Wap_PhoenixBlaster_Text:
+            '''
+            「ヘルストーンの武器は火をコントロールできない？実際、弾丸は熱に耐えられないのだ」
+            '''
+		Wap_Sandgun_Text:
+            '''
+            右クリックでより多くの砂爆弾を散布する
+            「これを持って砂に埋もれれば、アリジゴクのふりができるぞ」
+            '''
+		Wap_StarCannon_Text:
+            '''
+            星を発射する
+            「星の光が前方を照らすだろう」
+            '''
+		Wap_SuperStarCannon_Text:
+            '''
+            星を発射する
+            「今やより大きく、より強力な星発射装置を手に入れた」
+            '''
+        Wap_ZapinatorGray_Text: これがあなたのラッキーライト
+        Wap_ZapinatorOrange_Text: これがあなたのラッキーライト
+		Wap_QuadBarrelShotgun_Text:
+            '''
+            弾丸の散弾を発射する
+            "照準を合わせる必要がないよう、怪物の目に銃身を突っ込め"
+            '''
+		Wap_TacticalShotgun_Text:
+            '''
+            弾丸の散弾を発射する
+            "すべての恐怖は火力不足から来る。そうでなければ、必ず火力不足なのだ"
+            '''
+		Wap_Shotgun_Text:
+			'''
+			弾丸の散弾を発射する
+			「武器商人は弾丸をより多く売りたいがために、この銃にもっと多くの銃身を付けることを望んだ」
+			'''
+		Wap_Boomstick_Text:
+			'''
+			弾丸の散弾を発射する
+			「私には時間がない」
+			'''
+		Wap_ClockworkAssaultRifle_Text:
+			'''
+			一度に3発の弾丸を発射する
+			「なぜ彼らが時を刻むのか、そしてどうすれば止められるのか、私には分かっている」
+			'''
+		Wap_SnowballCannon_Text:
+			'''
+			雪玉を弾薬として使用する
+			「雪玉を入れるのは凍えるような作業なので、一度に少量しか入れられない」
+			'''
+		Wap_Uzi_Text:
+			'''
+			通常弾を高速弾に変換する
+			「軽量で致命的、両手持ちにしないのは単なる無駄遣い」
+			'''
+		Wap_VenusMagnum_Text:
+			'''
+			通常弾を高速弾に変換する
+			「愛を弾丸の運動エネルギーに変えろ、とヴィーナスは言う」
+			'''
+		Wap_StakeLauncher_Text:
+			'''
+			貫通する杭を発射
+			この武器は弓として扱われるが、スコープを付けることができる
+			「吸血鬼を完全に倒す唯一の方法は、心臓に木の杭を打ち込むことだが、吸血鬼でなければ生きていけない」
+			'''
+		Wap_SniperRifle_Text:
+			'''
+			マスケット弾または狙撃手の弾丸を高速弾に変換する
+			狙撃時間が長いほど、精度とダメージが増加する
+			マガジンには4発装填可能で、最初の3発はクリティカルヒットを発生させないが、4発目は必ずクリティカルヒットになる
+			発射された弾丸は対象の防具を無視する
+			騎乗生物は、この精密武器の精度に影響を与える
+			武器の威力は時間とともに半減する
+			「十字が君を狙うとき、死神が君の額にキスをする」
+			'''
+		Wap_NailGun_Text:
+			'''
+			大きな釘を発射し、命中時に3つの爆発する釘を敵の頭部に打ち込む
+			敵に命中しなかった大きな釘も、一定時間後に爆発する
+			「釘頭から抜き取った釘は驚くほど効果的だ。さあ、もっと多くの釘頭を作り出そう」
+			'''
+		Wap_DartPistol_Text:
+			'''
+			より高速で矢を発射する
+			呪いの矢は70%のダメージしか与えない
+			「吹き矢で矢を発射する？マジかよ、火薬を口に入れろっていうのか？」
+			'''
+		Wap_DartRifle_Text:
+			'''
+			より高速で矢を発射する
+			矢は敵の防御力15ポイントを無視する
+			「吹き矢で矢を発射する？マジかよ、火薬を口に入れろっていうのか？」
+			'''
+		CartridgeHolderUI_Text1: マガジン装填
+		CartridgeHolderUI_Text2: 残留物
+		CartridgeHolderUI_Text3: 空
+		CartridgeHolderUI_Text4: 右クリックで排出
+		Wap_SDMG_Text:
+			'''
+			高速で弾丸を発射する
+			66%の確率で弾薬を消費しない
+			「スターバウンドからやってきた」
+			'''
+		Wap_OnyxBlaster_Text:
+			'''
+			弾丸を黒の魔弾に変換する
+			「銃から暗黒のエネルギーが噴出する」
+			'''
+		Wap_LaserRifle_Text:
+			'''
+			倒した者の目から放たれるレーザーを発射する
+			「モンスターの巨大な目がこの銃に詰め込まれているなんて信じられない」
+			'''
+		Wap_CobaltRepeater_Text:
+			'''
+			高速で矢を発射する
+			「コバルトで作られたクロスボウ、強力だ」
+			'''
+		Wap_PalladiumRepeater_Text:
+			'''
+			1本または2本の散布矢を発射する
+			「パラジウムで作られたクロスボウは、二本矢の散布術の基礎を掴ませてくれるだろう」
+			'''
+		Wap_MythrilRepeater_Text:
+			'''
+			高速で矢を発射
+			矢が敵を追加で貫通する
+			「ミスリルで作られたクロスボウ、より強く、より力強い」
+			'''
+		Wap_OrichalcumRepeater_Text:
+			'''
+			散弾矢を2発発射する
+			「オリハルコンで作られたクロスボウは、二本矢の散弾術を完全に習得することができます」
+			'''
+		Wap_AdamantiteRepeater_Text:
+			'''
+			高速な矢を発射する
+			矢は追加で2体の敵を貫通する
+			「アダマンタイトで作られたクロスボウ、強力無比！」
+			'''
+		Wap_TitaniumRepeater_Text:
+			'''
+			散弾矢を2〜3発発射する
+			「チタン製のクロスボウで、2本の矢では的を外しやすいことに気付き、3本試してみることにした」
+			'''
+		Wap_ChlorophyteShotbow_Text:
+			'''
+			複数の矢を素早く発射する
+			木の矢を葉緑素の矢に変換する
+			「十分な光合成の後、豆は撃てないものの、すでに優れた連射弓となっている」
+			'''
+		Wap_HallowedRepeater_Text:
+			'''
+			勢いを溜めて高速な矢を発射
+			矢は追加で2体の敵を貫通
+			同時に霊矢、聖なる矢、呪いの炎矢を発射
+			「善と悪の力が共にこの矢の道を切り開く」
+			'''
+		Wap_GrenadeLauncher_Text:
+			'''
+			手榴弾の形でロケットを放物線状に発射
+			「ついに少ない労力でこれらの爆弾を発射する方法を見つけた。自分を傷つける可能性はまだあるけどね。」
+			'''
+		Wap_RocketLauncher_Text:
+			'''
+			チャージしてロケットを発射。
+			ロケットが命中後、ボタンを押し続けると複数の小型補助ロケットを発射。
+			「ベッドに引っかかることはないはずだ」
+			'''
+		Wap_ElectrosphereLauncher_Text:
+			'''
+			電気装置を搭載したロケットを発射し、目標に命中すると電気を放出
+			「エイリアンのバーベキュー技術！」
+			'''
+		Wap_ProximityMineLauncher_Text:
+			'''
+			センサー付き地雷ロケットを発射。地雷は擬態し、ダメージが増加
+			「マインスイーパーをやろう！」
+			'''
+		Wap_SnowmanCannon_Text:
+			'''
+			3発の追尾イエティロケットを発射
+			「おい、これがお前のクリスマスプレゼントだ」
+			'''
+		SupertableUI_Text4: ディスプレイモニターを閉じる
+		SupertableUI_Text5: ディスプレイモニターを開く
+		AmmoBox_Text: 配置上限に達しました
+		AmmoBox_Text2: 配置中
+		AmmoBox_Text3: "配置済み"
+		HellfireExplosion_DeadLang_Text: 地獄の炎で焼き尽くされる
+		SupMUI_OneClick_Text1: 素材のクイック配置
+		SupMUI_OneClick_Text2: 素材へのクイックアクセス
+		TemporaryVersion_Text:
+			'''
+			[CalamityOverhaul-0.3.6.1.2]: 
+			この現行バージョンは、バージョン0.4が到着するまでの一時的なリリースで、
+			新バージョンへの適応、調整、エラーの修正を行い、基本的なゲームプレイ体験を確保するために使用されます。
+			アップデートはやや急いで行われたため、まだ目立つ問題が残っている可能性があります。
+			ゲームプレイ中に問題が発生した場合は、MODのGitHubページで問題を報告するか、
+			SteamワークショップのMOD「問題のフィードバック」スレッドで支援を求めてください。
+			'''
+
+		MS_Config_Text:
+			'''
+			[Magic Storage Mod]がインストールされていることを検出しました。
+			競合の問題を解決するため、MOD設定で[再帰的クラフト深度]を0に設定することを推奨します。
+			この再帰的クラフトの設定は、このMODと相互作用する際に、
+			すべてのクラフトイベントを誤って発動させ、ゲームプレイ体験に重大な影響を与える可能性があります。
+			'''
+		IconUI_Text0: MODのオープンソースリポジトリへ移動 :)
+		IconUI_Text1: 問題のフィードバック
+		IconUI_Text2: 謝辞
+		IconUI_Text3: アーティスト
+		IconUI_Text4: コード支援
+		IconUI_Text5: 寄付者
+		IconUI_Text6: バランステスター
+		IconUI_Text7: ログを表示
+
+		Spazmatism_Text1: EUX_001の配置完了、行動記録:PCZ_001と協力して目標を無力化。
+		Spazmatism_Text2: EUX_002の配置完了、行動記録:PCZ_001と協力して目標を無力化。
+		Spazmatism_Text3: EUX_001の主要構造が損傷、戦場からの撤退を試みています...
+		Spazmatism_Text4: EUX_002の主要構造が損傷、戦場からの撤退を試みています...
+		Spazmatism_Text5: 目標は終了しました。
+		Spazmatism_Text6: 抽出を開始します...
+		Spazmatism_Text7: ミッション失敗、戦場からの撤退を試みています...
+		Spazmatism_Text8: 配置済み
+		Error_1:
+			'''
+			フックが失敗しました。ゲームを正常化するために、ゲームを終了して再度入り直してください。
+			それでも正常に戻らない場合は、出力されたログを持ってモジュール開発者に問い合わせてください。
+			'''
+		Error_2:
+			'''
+			エラーが検出され、サーバーはブロックシステムのリアルタイム読み込みを試みています。
+			これにより一時的な停止と数秒のネットワーク遅延が発生する可能性があります。
+			'''
+		Config_1: ユーザー
+		Config_2: サーバー設定が変更されました
+		Wap_BubbleGun_Text:
+			'''
+			爆発する海の泡を発射
+			一部の泡が敵を追跡
+			泡で遊ぶのが嫌いな人なんているの？F
+			'''
+		Wap_Tsunami_Text:
+			'''
+			5本の矢を並べて発射
+			右クリックで矢の弾幕を解き放つ
+			'''
+		CWRGun_KL_Text: 弾薬を変更するには[KL]キーを押す
+		CWRGun_Scope_Text: レンズを開くには[Scope]キーを押す
+		CWRGun_Recoil_Text: "[Recoil] 反動"
+		CWRGun_MustCA_Text: 発射には弾薬が必要です
+		CWRGun_Recoil_Level_0: なし
+		CWRGun_Recoil_Level_1: わずか
+		CWRGun_Recoil_Level_2: 弱め
+		CWRGun_Recoil_Level_3: 中程度
+		CWRGun_Recoil_Level_4: 強い
+		CWRGun_Recoil_Level_5: 狂気的
+		CWRGun_Recoil_Level_6: 馬鹿げている
+		Wap_Revolver_Text: おい、お前は西部劇のキャラクターじゃないんだ。弾は一発一発装填しなきゃならない。
+		Wap_Gatligator_Text:
+			'''
+			「サメの銃も気に入ってるけど、最近はワニが気になってる。結局のところ、
+			両方とも魅力的な特徴を持ってて、いつ使用者の指を噛み切るかわからないってところさ」
+			'''
+		Wap_Xenopopper_Text:
+			'''
+			左クリックで泡の弾を発射する
+			右クリックで連射する
+			「弾丸を泡に詰め込むほど素晴らしいことはない」
+			'''
+		Wap_DaedalusStormbow_Text:
+			'''
+			左クリックで空から複数の矢を散布
+			右クリックで素早く強力な一発を放つ
+			「嵐とも天使とも関係ないんだ」
+			'''
+		Wap_CandyCornRifle_Text: グミのトウモロコシを発射する。だってグミのトウモロコシはクールだから！
+		Wap_WoodenBow_Text:
+			'''
+			「レンジャーの旅が始まろうとしている」
+			矢は目標に命中すると木の実に変化する
+			'''
+		Wap_DemonBow_Text: 「デーモナイト？これが一番効率の悪い使い方みたいだね」
+		Wap_IronBow_Text:
+			'''
+			鉄製！
+			矢が目標に命中すると、プレイヤーに一時的な鉄の肌バフを付与する
+			'''
+		Wap_TungstenBow_Text:
+			'''
+			タングステン製！
+			矢が目標に命中すると、数枚の銀貨を生成する
+			'''
+		Wap_TinBow_Text:
+			'''
+			錫製！
+			矢が目標に命中すると、数枚の銅貨を生成する
+			'''
+		Wap_TendonBow_Text:
+			'''
+			悪魔が耳元でささやく。
+			矢が目標に命中すると、プレイヤーに一時的な恐怖バフを付与する
+			'''
+		Wap_SilverBow_Text:
+			'''
+			銀製！
+			矢が目標に命中すると、数枚の銀貨を生成する
+			'''
+		Wap_ShadowFlameBow_Text:
+			'''
+			影炎の矢を発射する
+			「魔女の手から」
+			'''
+		Wap_PlatinumBow_Text:
+			'''
+			プラチナ製！
+			矢が目標に命中すると、数枚の金貨を生成する
+			'''
+		Wap_Marrow_Text:
+			'''
+			骨髄！
+			木の矢をスケルトンの矢に変換
+			矢が目標に命中すると、複数の骨を放出する
+			'''
+		Wap_LeadBow_Text:
+			'''
+			鉛製！
+			矢が目標に命中すると、プレイヤーに一時的な鉄の肌バフを付与する
+			'''
+		Wap_IceBow_Text:
+			'''
+			氷製！
+			強力な三連射を持つ。
+			木の矢を凍結の矢に変換
+			矢が目標に命中すると、氷の霧を生成する
+			'''
+		Wap_GoldBow_Text:
+			'''
+			金製！
+			矢が目標に命中すると、数枚の金貨を生成する
+			'''
+		Wap_CopperBow_Text:
+			'''
+			銅製！
+			矢が目標に命中すると、数枚の銅貨を生成する
+			'''
+		Wap_DD2BetsyBow_Text:
+			'''
+			水平に分裂する5本の矢を発射。
+			空中の目標に対して増加したダメージを与える
+			'''
+		Wap_NeutronBow_LoadingText1: 重力を捕捉中
+		Wap_NeutronBow_LoadingText2: 重力を降伏させています
+		Wap_NeutronBow_LoadingText3: 準備完了！！
+		Wap_Gladius_Text: 速くて鋭い
+		Wap_WoodenBoomerang_Text: 潜伏攻撃で素早く3本のブーメランを投擲
+		Wap_Flamarang_Text: 潜伏攻撃で素早く3本のブーメランを投擲
+		Wap_EnchantedBoomerang_Text: 潜伏攻撃で素早く3本のブーメランを投擲し、目標に命中すると落星を召喚
+		Wap_Shroomerang_Text: 潜伏攻撃でキノコの胞子爆弾を放出
+		Wap_Spear_Text: 潜伏攻撃で強力な槍を投擲
+		Wap_VortexBeater_Text:
+			'''
+			一定の頻度でヴォーテックスロケットを発射
+			右クリックで最大パワーのヴォーテックスロケットを発射
+			'''
+		Wap_ChainGun_Text: 制圧射撃
+		Wap_MoltenFury_Text:
+			'''
+			木の矢を炎の矢に変換
+			炎の矢を獄炎の矢に変換
+			'''
+	}
+}
+Biomes: {
+	TungstenBiome: {
+		DisplayName: タングステンバイオーム
+		TownNPCDialogueName: タングステンバイオーム
+	}
+}
