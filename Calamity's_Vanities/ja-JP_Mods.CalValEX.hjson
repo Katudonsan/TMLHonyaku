@@ -5308,7 +5308,6 @@ Configs: {
 		}
 		GroundMountLol: {
 			Label: 騎乗アイテムのナーフ無効化
-			Disable Mount Nerf
 			Tooltip: 地上マウントが与えるステータス低下を無効化する
 		}
 		DiscordRichPresence: {
