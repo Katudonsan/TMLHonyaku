@@ -3827,11 +3827,11 @@ TextContent: {
             '''
 		Murasama_No_legend_Content_1: 竜が倒れた後にIDロックが解除される
         Murasama_No_legend_Content_2: 新兵よ、お前の実力を認めよう。さあ、異形どもを切り刻みに行こう
-        Murasama_No_legend_Content_3: "[c/fff08c:旅の距離と共に強くなる]"
+        Murasama_No_legend_Content_3: "[c/fff08c:長い旅路が、さらなる強さを与える]"
         Murasama_No_legend_Content_4: "[c/00707d:伝説の輝きは薄れた...]"
         SHPC_No_legend_Content_1: "[c/fff08c:竜の討伐後に解放]"
         SHPC_No_legend_Content_2: "[c/fff08c:伝説の武器の帰還！ :)]"
-        SHPC_No_legend_Content_3: "[c/fff08c:旅の距離と共に強くなる]"
+        SHPC_No_legend_Content_3: "[c/fff08c:長い旅路が、さらなる強さを与える]"
         SHPC_No_legend_Content_4: "[c/00707d:伝説の輝きは薄れた...]"
         SHPC_TextDictionary_Content_0:
             '''
