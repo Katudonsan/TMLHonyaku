@@ -952,7 +952,7 @@ Items: {
 			'''
 			マスケット弾を高速.70口径弾に変換する極めて重い対物ライフル
 			ヒットした敵に死の印を与える
-			射撃後は右クリックでコッキングをする必要がある
+			射撃するたびにコッキング動作が入る
 			弾丸は複数の弾と霊銅の爆発に分裂する
 			「どんな重装甲でも貫ける」
 			'''
@@ -4340,26 +4340,26 @@ TextContent: {
 		Config_2: サーバー設定が変更されました
 		Wap_BubbleGun_Text:
 			'''
-			爆発する海の泡を発射
-			一部の泡が敵を追跡
+			爆発する海の泡を発射する
+			一部の泡が敵を追尾する
 			泡で遊ぶのが嫌いな人なんているの？F
 			'''
 		Wap_Tsunami_Text:
 			'''
-			5本の矢を並べて発射
-			右クリックで矢の弾幕を解き放つ
+			5本の矢を発射する
+			右クリックで矢の弾幕を放つ
 			'''
 		CWRGun_KL_Text: 弾薬を変更するには[KL]キーを押す
-		CWRGun_Scope_Text: レンズを開くには[Scope]キーを押す
-		CWRGun_Recoil_Text: "[Recoil] 反動"
-		CWRGun_MustCA_Text: 発射には弾薬が必要です
+		CWRGun_Scope_Text: スコープを使用するには[Scope]キーを押す
+		CWRGun_Recoil_Text: "反動：[Recoil]"
+		CWRGun_MustCA_Text: 使用するには弾薬が必要
 		CWRGun_Recoil_Level_0: なし
-		CWRGun_Recoil_Level_1: わずか
-		CWRGun_Recoil_Level_2: 弱め
+		CWRGun_Recoil_Level_1: ごくわずか
+		CWRGun_Recoil_Level_2: 弱い
 		CWRGun_Recoil_Level_3: 中程度
 		CWRGun_Recoil_Level_4: 強い
-		CWRGun_Recoil_Level_5: 狂気的
-		CWRGun_Recoil_Level_6: 馬鹿げている
+		CWRGun_Recoil_Level_5: 非常に強い
+		CWRGun_Recoil_Level_6: 極めて強い
 		Wap_Revolver_Text: おい、お前は西部劇のキャラクターじゃないんだ。弾は一発一発装填しなきゃならない。
 		Wap_Gatligator_Text:
 			'''
