@@ -10,7 +10,7 @@ ItemDescriptions: {
 	TideTurnerBreastplate:
 		'''
 		受けるダメージが10％減少
-		着用者のヘルスが低いほど、防御力とダメージ軽減率が増加する。
+		装備者のヘルスが低いほど、防御力とダメージ軽減率が増加する。
 		最大100の防御力と60%のダメージ軽減
 		'''
 	TideTurnerGreaves: 近接攻撃と投擲速度が20%増加
@@ -222,7 +222,7 @@ ItemDescriptions: {
 
 NPCRenames: {
 	Beholder: コズニックスのしもべ
-	FallenBeholder: フォールンビホルダー、コズニックス
+	FallenBeholder: 堕落した監視者、コズニックス
 	FallenBeholder2: 超越者コズニックス
 	Lich: 冒涜者の使徒リッチ
 	LichHeadless: 死の使徒リッチ
@@ -1044,7 +1044,7 @@ Configs: {
 			Label: 「Calamity」または「Fargo's Souls」のプライモーディアルズ
 			Tooltip:
 				'''
-				(おすすめ）
+				(おすすめ！）
 				プリモーディアルのプログレッションがDoGより後になる
 				Fargo's SoulsではEridanusの前になる。
 				両方が有効な場合、その中間になる。
