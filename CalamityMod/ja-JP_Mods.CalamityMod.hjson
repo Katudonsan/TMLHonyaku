@@ -12661,7 +12661,7 @@ Items: {
 				DisplayName: フォトビセレーター
 				Tooltip:
 					'''
-					あらゆるものを崩壊させるエクゾビームを発射する
+					あらゆるものを崩壊させるエクソビームを発射する
 					<right> を押すと追尾するフレアを発射し、敵を焼却する
 					90%の確率で弾薬を消費しない
 					'''
@@ -27869,7 +27869,7 @@ Status: {
 		SandSharkText2: 巨大な捕食者が近づいてくる！
 		PlagueBossText: 疫病核ミサイルの一斉攻撃を準備中、発射態勢に入る！
 		PlagueBossText2: ミサイル発射！ターゲティングルーチンを開始！
-		DeusAltarRejectNightText: 星の神はあなたの捧げものを拒絶した。儀式は夜しか行えないようだ...
+		DeusAltarRejectNightText: 星の神は捧げものを拒絶した。儀式は夜しか行えないようだ...
 		ProfanedBossText: 聖なる炎が翼を焼き尽くす...
 		GhostBossText2: 老朽化したダンジョンに慟哭がこだまする...
 		GhostBossText3: 大昔に死んだ囚人たちが、熱狂的な復讐を試みる...
@@ -27911,12 +27911,12 @@ Status: {
 		DraedonEndText6: さて、あなたは暴君のもとへ向かおうとしているようですが、私はそれに手を貸すことはできません。
 		DraedonEndText7: 腹いせではありませんよ。私はその戦いを観察していたいとすら思っていますからね。
 		DraedonEndText8: しかし、あなたは以前にも成し遂げた。いずれ方法も見つかるでしょう。
-		DraedonEndText9: あなたの勝利を認めます。しかし、私は自分の機械に戻らなければいけません。
+		DraedonEndText9: あなたの勝利を認めます。しかし、私はそろそろ戻らなければいけません。
 		DraedonEndKillAttemptText: ...まったく、無意味なことだ...
 		DraedonMechdusaBeginText: ...死
-		DraedonMechdusaEndText1: 待て、何?どうやって...
+		DraedonMechdusaEndText1: 待て、何？どうやって...
 		DraedonMechdusaEndText2: いや....
-		SCalSummonText: 地獄を楽しんでいるのか？
+		SCalSummonText: 地獄を楽しんでいるか？
 		SCalStartText: お前は生きていてはいけない存在だ...
 		SCalBH2Text: 少し前に辛うじて私のコピー...贋作を倒したばかりだろう。あんなもの、失敗作と言ってもいいんじゃないか？
 		SCalBH3Text: お前は強大な力を手に入れたが、それを振るうのは自分のためだけだ。
