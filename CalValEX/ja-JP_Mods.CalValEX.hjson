@@ -1141,7 +1141,7 @@ Items: {
 	}
 	MawHook: {
 		# Hooks
-		DisplayName: クラグマウの脊椎フック
+		DisplayName: クラグモーの脊椎フック
 		# Hooks
 		Tooltip:
 			'''
@@ -3690,11 +3690,11 @@ Items: {
         Tooltip: 右クリックで投げる！
 	}
     MirePlushP1: {
-        DisplayName: クラグマウのぬいぐるみ
+        DisplayName: クラグモーのぬいぐるみ
         Tooltip: 右クリックで投げる！
     }
     MirePlushP2: {
-        DisplayName: スライム状のクラグマウのぬいぐるみ
+        DisplayName: スライム状のクラグモーのぬいぐるみ
         Tooltip: 右クリックで投げる！
     }
     NuclearTerrorPlush: {
@@ -4067,11 +4067,11 @@ Items: {
 		Tooltip: ""
 	}
 	MireP1Plush: {
-		DisplayName: 盾付きクラグマウのぬいぐるみ
+		DisplayName: 盾付きクラグモーのぬいぐるみ
 		Tooltip: 右クリックで投げる！
 	}
 	MireP2Plush: {
-		DisplayName: スライムなクラグマウのぬいぐるみ
+		DisplayName: スライムなクラグモーのぬいぐるみ
 		Tooltip: 右クリックで投げる！
 	}
 		ShadowPlush: {
