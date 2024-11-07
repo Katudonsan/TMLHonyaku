@@ -96,7 +96,7 @@ Achievements: {
 			Description:
 				'''
 				魔女の罪は完全に償われることはない...
-				[c/777777:地底世界で忘れられたカラミタスの影を倒す]
+				[c/777777:地底世界で忘れ去られしカラミタスの影を倒す]
 				'''
 		}
 
@@ -150,7 +150,7 @@ Achievements: {
 			Description:
 				'''
 				彼らの涙は雨粒と混ざり合い、 叶わなかったことを嘆く。
-				[c/777777:エクゾメックとカラミタスを倒し、雨の中、スポーン地点の近くで槍を見つける]
+				[c/777777:エクソメックとカラミタスを倒し、雨の中、スポーン地点の近くで槍を見つける]
 				'''
 		}
 
@@ -326,7 +326,7 @@ DifficultyUI: {
 		'''
 	ExpandedDescription:
 		'''
-		 [c/B32E81:多くの主要な敵はこれまでとは異なり、より挑戦的なAIを持つだろう。]
+		 [c/B32E81:多くのボスはこれまでとは異なり、より攻撃的になる。]
 		 [c/B32E81:アドレナリンはチャージにかなり時間がかかる。]
 		 [c/FF0055:適応せよ。]
 		'''
@@ -841,15 +841,15 @@ Items: {
 	}
 
 	EyeofDesolation: {
-		SummoningText: 夜間に使用すると {0} を召喚する。
+		SummoningText: 夜間に使用すると {0} を召喚する
 	}
 
 	ProfanedCore: {
-		SummoningText: 地底世界の右端にある冒涜された神殿の祭壇で使用すると、プロヴィデンスを召喚する。
+		SummoningText: 地底世界の右端にある冒涜された神殿の祭壇で使用すると、プロヴィデンスを召喚する
 	}
 
 	RuneofKos: {
-		DeveloperText: シースレスヴォイドはダンジョンの奥底でしか戦えない。
+		DeveloperText: シースレスヴォイドはダンジョンの奥底でしか戦えない
 	}
 
 	SandstormsCore: {
@@ -860,9 +860,9 @@ Items: {
 	LihzahrdPowerCell: {
 		SummoningText:
 			'''
-			トカゲ族の祭壇で使用するとゴーレムを召喚する。
-			祭壇の周囲に長方形のアリーナを召喚する。
-			祭壇が神殿の中にある場合、アリーナ内のブロックは壊れる。
+			トカゲ族の祭壇で使用するとゴーレムを召喚する
+			祭壇の周囲に長方形のアリーナを召喚する
+			祭壇が神殿の中にある場合、アリーナ内のブロックは壊れる
 			'''
 	}
 
@@ -986,7 +986,7 @@ Items: {
 	}
 
 	DisenchantedTablet: {
-		DisplayName: 幻惑の石板
+		DisplayName: 幻惑の石版
 		Tooltip:
 			'''
 			複雑に絡み合った記憶のネットワークが封印されている
@@ -1054,8 +1054,8 @@ Items: {
 	}
 
 	TabletPedestal: {
-		DisplayName: タブレット用台座
-		Tooltip: 特定の幻惑された石版をエンチャントすることができる
+		DisplayName: 石版の台座
+		Tooltip: 幻惑された石版をエンチャントすることができる
 	}
 
 	AEWRelic: {
@@ -1138,7 +1138,7 @@ Items: {
 		Tooltip: GetsChanged
 		PersonalMessage:
 			'''
-			純粋な反応速度のスキルこそ、培うべき最も価値のあるものであったりする。
+			純粋な反応速度こそ、培うべき最も価値のあるものであったりする。
 			あなたの旅は終局を迎えつつある。あなたの決意は、ここまでかけがえのないものであることを証明してきた。
 			それが最後の試練を乗り越える道しるべとなりますように。
 			'''
@@ -1156,7 +1156,7 @@ Items: {
 				'''
 			DownedCalamitasMessage:
 				'''
-				見事な仕事ぶりだ。あなたは主要な障害をすべて打ち倒した。
+				見事な仕事ぶりだ。あなたは強敵をすべて打ち倒した。
 				この達成を誇りに思いなさい。なぜなら、あなたは以前よりも成長しているのだから。
 				'''
 		}
@@ -1276,7 +1276,7 @@ Items: {
 		PersonalMessage:
 			'''
 			自分の死んだ数に誇りを持て！
-			死ねば死ぬほど勉強になる。頑張れ！
+			今まで失敗してきたことは決して無駄ではない、頑張れ！
 			'''
 	}
 
@@ -1297,7 +1297,7 @@ Items: {
 		PersonalMessage: {
 			DefaultMessage:
 				'''
-				ムーンロードを倒した後の最初の大きなハードル。あなたが彼女に勝利したことは、決して小さな偉業ではなかった。
+				ムーンロードを倒した後の最初の大きな壁。あなたが彼女に勝利したことは、決して小さな偉業ではなかった。
 				新たな挑戦のために、夜の間にもう一度彼女と戦うことを考えてみてはどうだろうか？
 				'''
 			HasBeatenInfernumNightProvBeforeDayMessage:
@@ -1350,7 +1350,7 @@ Items: {
 	}
 
 	SupremeCalamitasRelic: {
-		DisplayName: 至高の魔女、カラミタスのレリック
+		DisplayName: 至高の魔女カラミタスのレリック
 		Tooltip: GetsChanged
 
 		PersonalMessage: {
@@ -1361,7 +1361,7 @@ Items: {
 				'''
 			DownedExoMechsMessage:
 				'''
-				見事な仕事ぶりだ。あなたは主要な障害をすべて打ち倒した。
+				見事な仕事ぶりだ。あなたは強敵をすべて打ち倒した。
 				この達成を誇りに思いなさい。なぜなら、あなたは以前よりも成長しているのだから。
 				'''
 		}
@@ -1510,9 +1510,9 @@ Items: {
 			'''
 		TooltipEffect:
 			'''
-			LMBを押すとゲートまでテレポート
-			LMBを押しながら {0} を押すとゲートが自分の位置にセットされる
-			LMBを押しながら {1} を押すとゲートが解除される
+			左クリックでゲートまでテレポート
+			左クリックをしながら {0} を押すとゲートが自分の位置にセットされる
+			左クリックをしながら {1} を押すとゲートが削除される
 			'''
 	}
 
@@ -1561,7 +1561,7 @@ Items: {
 			'''
 			左クリックで空から卵がカーソルに向かって降ってくる
 			右クリックで、防御力が100増加し、ダメージが50％減少する卵に包まれる
-			卵は3回攻撃を受けると壊れ、再び卵を作るには再チャージする必要がある
+			卵は3回攻撃を受けると壊れ、再び卵を生成するには再チャージする必要がある
 			[c/f0ad56:「この武器は、弱者を護る役目を担う者だけが振るうことができる」]
 			'''
 	}
@@ -1860,15 +1860,15 @@ NPCs: {
 	}
 
 	CalamitasShadowClone: {
-		DisplayName: 忘れられたカラミタスの影
+		DisplayName: 忘れ去られしカラミタスの影
 	}
 
 	CataclysmShadow: {
-		DisplayName: 忘れられたカタクリズムの影
+		DisplayName: 忘れ去られしカタクリズムの影
 	}
 
 	CatastropheShadow: {
-		DisplayName: 忘れ去られたカタストロフィの影
+		DisplayName: 忘れ去られしカタストロフィの影
 	}
 }
 
@@ -2054,7 +2054,7 @@ PetDialog: {
 	ProvidenceFinalPhaseTip: プロヴィデンスが何かを準備してるよ！気をつけて！
 	QueenBeeTip1: あのハチミツはよく跳ねるね！急いで動きすぎると、無茶苦茶になっちゃう！
 	QueenBeeTip2: ジャマなスズメバチをまず片付けるのが最優先だよ！
-	QueenBeeTip3: 毒は本当に体に悪いよね。胃石とか、毒を防げるもの、持ってない？ 
+	QueenBeeTip3: 毒は本当にメンドくさいよね。胃石とか、毒を防げるもの、持ってない？ 
 	QueenBeeJokeTip1: 信じられないよ、まさかの展開だね！
 	QueenBeeJokeTip2: うわっ、マジで痛そ〜...
 	QueenSlimeTip1: 逃げられないと感じたら、動かない方がいいよ！動きすぎないほうが逆に助かるかもね！
@@ -2069,10 +2069,10 @@ PetDialog: {
 	SkeletronTip2: スケルトロンが火球を連射してきても慌てないで！冷静にジャンプすれば大丈夫！
 	SkeletronTip3: 追尾するガイコツは旋回するのに時間がかかるから、あまり遠くまで走らずにその場で対応した方がいいかも！
 	SkeletronJokeTip1: だぁぁぁれがやられたぁぁぁぁぁ！！
-	SlimeGodTip1: 結構おバカっぽそうだね。キミが高くジャンプすれば、彼らも高く跳んでくれるかも？
-	SlimeGodTip2: 圧倒された？彼の動きを真似してみたら、うまくいくかもね！
+	SlimeGodTip1: 結構おバカっぽそうだね。キミが高くジャンプすれば、アイツらも高く跳んでくれるかも？
+	SlimeGodTip2: 苦戦してるの？アイツらの動きを真似してみたら、うまくいくかもね！
 	StormWeaverTip1: 雲の猛攻はちょいと危険かも！集中して！あのストームスカージは召喚に専念しているだけで、キミに突っ込むつもりはないみたい！
-	SCalJokeTip1: 魔女の帽子、欲しい？彼女とおそろいも楽しいかもね…
+	SCalJokeTip1: 魔女の帽子、欲しい？あのコとおそろいも楽しいかもね…
 	SCalTip1: クロスボウを取り出したら近づいてね、どこを狙ってるかわかるよ！
 	SCalSkullTip: たくさんのドクロがあるけど、キミを直接狙っているわけじゃないみたい！
 	SCalDesperationTip: 地獄が解き放たれても、回避に集中して！
@@ -2090,7 +2090,7 @@ PetDialog: {
 	YharonSpeedTip: ヤーロンがダッシュを始めるタイミングを覚えておいて！油断してると不意を突かれるよ！
 	YharonFlashbangTip: 閃光に惑わされないで！炎がどこにあるかしっかり目を凝らして！
 	YharonCarpetBombTip: アイツが爆撃してきそうな時はアリーナの端にいた方がいいよ。その方が避けやすい！
-	YharonJokeTip1: もし私がキミより先に死んだら、キミは続けていけるだろうけど…って、え？キミ、死んじゃったの！？ウソでしょ、いいところだったのに！
+	YharonJokeTip1: もし私がキミより先に死んだとしても、キミは生きていけるだろうけど…って、え？死んじゃったの！？ウソでしょ、いいところだったのに！
 }
 
 Projectiles: {
@@ -4569,21 +4569,21 @@ Status: {
 	ExoMechDesperationThanatos2: THANATOS-05:  !MAXIMUM OVERDRIVE CHARGE! 相互破壊プロトコルを準備中
 	DraedonDefeat1: 興味深い、実に興味深い。
 	DraedonDefeat2: 私の作品が破壊されるとは、完敗です。
-	DraedonDefeat2HyperplaneMatrix: あなたは素晴らしい被験者だ。
+	DraedonDefeat2HyperplaneMatrix: あなたは素晴らしい被験者です。
 	DraedonDefeat3: この結果は予想外でした。
-	DraedonDefeat3HyperplaneMatrix: 君の戦闘から得たデータは貴重なものです。
+	DraedonDefeat3HyperplaneMatrix: あなたとの戦闘から得たデータは貴重なものです。
 	DraedonDefeat4: …もしかしたら、お礼を差し上げられるかもしれません。
 	DraedonDefeat4HyperplaneMatrix: …内省をお許しください。考えをまとめなければなりません。
 	DraedonDefeat5: あなたが私の理性を超えていると推論するのは、間違ってはないでしょう。
 	DraedonDefeat6: 今は…
-	DraedonDefeat6HyperplaneMatrix: 私の最も有用な創造物だ。きっと使い道が見つかるでしょう。
+	DraedonDefeat6HyperplaneMatrix: 私の最も有用な創造物です。きっと使い道が見つかるでしょう。
 	DraedonDefeat7: さて、あなたは暴君のもとへ向かおうとしているようですが、私はそれに手を貸すことはできません。
 	DraedonDefeat7HyperplaneMatrix: 賢く使いなさい。
 	DraedonDefeat8: 腹いせではありませんよ。私はその戦いを観察していたいとすら思っていますからね。
-	DraedonDefeat9: そろそろ私は自分の機械に戻らなければならない。もう一度私の作品と戦いたいのなら、コードブレイカーを使うといいでしょう。
+	DraedonDefeat9: さて、そろそろ私は戻ります。もう一度私の作品と戦いたいのなら、コードブレイカーから連絡を。
 	DraedonDefeat10: それでは、お別れです。
 	SCalCongratulations: …おめでとう。
-	MultiplayerWarning: InfernumMode: マルチプレイヤーはサポートされていません。MPのバグを報告しないでください。
+	MultiplayerWarning: InfernumMode: Infernum Modeはシングルプレイ向けのModです。マルチプレイヤーのバグを報告しないでください。
 
 	Death: {
 		RedElectrified: " {0} は赤い稲妻に耐えることができなかった。"
