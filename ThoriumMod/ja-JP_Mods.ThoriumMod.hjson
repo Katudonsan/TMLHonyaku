@@ -53,7 +53,7 @@ GameTips: {
 	ThoriumModTip2: Thorium Mod: 気泡があると、しばらくの間水中で呼吸することができる。さらに{$Items.BubbleMagnet.DisplayName}を使うと、気泡を引き寄せることができる。
 	ThoriumModTip3: Thorium Mod: ハードモードの{$Biomes.DepthsBiome.DisplayName}ではクリスタルウェーブが生えることがある！
 	ThoriumModTip4: Thorium Mod: 血の部屋は地下のどこかにある。その祭壇に5つの穢れた欠片を捧げると何かが起こるらしいが、何が起きても責任は取らない...
-	ThoriumModTip5: Thorium Mod: テクニックスクロールを使うには、まず装備し、十分なテクニックポイントを得た状態で'{$Keybinds.ThrowingTechnique.DisplayName}'キーを押す！
+	ThoriumModTip5: Thorium Mod: テクニッククロールを使うには、まず装備し、十分なテクニックポイントを得た状態で'{$Keybinds.ThrowingTechnique.DisplayName}'キーを押す！
 	ThoriumModTip6: Thorium Mod: ヒーラーは、自分が死んでしまっては味方を助けることはできない！
 	ThoriumModTip7: Thorium Mod: インスピレーションの最大値は、インスピレーションフラグメントで高めることができる。
 	ThoriumModTip8: Thorium Mod: あるタイプの吟遊詩人の楽器は、最高の演奏をするにはリズムに合わせて演奏する必要がある。
@@ -65,25 +65,25 @@ GameTips: {
 	ThoriumModTip14: Thorium Mod: "{$NPCs.TheGrandThunderBird.DisplayName}は、鉄、アントリオンの下顎、流れ星を見つけると挑戦できるようになる。"
 	ThoriumModTip15: Thorium Mod: "{$Items.JellyfishResonator.DisplayName}はあらゆる種類のクラゲを引き寄せる！"
 	ThoriumModTip16: Thorium Mod: ヴァイカウントを洞窟に誘い込むためには、一握りの穢れた欠片を用意しておくこと。
-	ThoriumModTip17: Thorium Mod: ダンジョンの呪いが解ければ、御影石の洞窟に新たな住人が増える。不安定なエネルギーに注意しよう...
-	ThoriumModTip18: Thorium Mod: ダンジョンの呪いが解ければ、大理石の洞窟に新しい住人が増える。怪しい岩がないか、目を光らせよう...
+	ThoriumModTip17: Thorium Mod: ダンジョンの呪いを解くと、御影石の洞窟に新たな住人が増える。不安定なエネルギーに注意しよう...
+	ThoriumModTip18: Thorium Mod: ダンジョンの呪いを解くと、大理石の洞窟に新しい住人が増える。怪しい岩がないか、目を光らせよう...
 	ThoriumModTip19: Thorium Mod: エイリアンの技術を使うことで、地球外の宇宙船と接触できるかもしれない..
 	ThoriumModTip20: Thorium Mod: 古代の精霊が放たれると、ツンドラから時折謎の声が聞こえるようになるらしい。
 	ThoriumModTip21: Thorium Mod: 奇妙な異世界の生物が{$Bestiary_Biomes.TheUnderworld}を闊歩しており、通常の目には見えない。その真の姿を明らかにするには{$Items.VoidLens.DisplayName}が必要だ。
 	ThoriumModTip22: Thorium Mod: 死体のような{$NPCs.Lich.DisplayName}は、その呪われた地で呼び起こすと、あなたの魂を要求してくる。
-	ThoriumModTip23: Thorium Mod: 深い海の底には、得体のしれない存在がたくさんいる。もし彼らの邪魔したら、何が出てくるか誰にもわからない...。
+	ThoriumModTip23: Thorium Mod: 深い海の底には、得体のしれない存在がたくさんいる。もし彼らの邪魔したら、何が出てくるか誰にもわからない...
 	ThoriumModTip24: Thorium Mod: 最悪の事態に十分備えたら、夜に{$Items.DoomSayersCoin.DisplayName}を使って終焉に抗おう。
 	ThoriumModTip25: Thorium Mod: 血塗られた夜には、何か厄介なものがあなたを捕まえに来るに違いない。
 	ThoriumModTip26: Thorium Mod: もし{$Bestiary_Biomes.UndergroundJungle}で異臭がしたら、危険な{$NPCs.CorpseBloom.DisplayName}が近くにいる可能性がある。
-	ThoriumModTip27: Thorium Mod: "{$Bestiary_Biomes.TheDungeon}は神秘的な遺物で溢れているが、鏡のように無害なものにも危険が潜んでいることがある。"
+	ThoriumModTip27: Thorium Mod: "{$Bestiary_Biomes.TheDungeon}は神秘的な遺物で溢れているが、一見無害に見えるものにも危険が潜んでいることがある。"
 	ThoriumModTip28: Thorium Mod: "{$NPCs.Cobbler.DisplayName}は靴の販売と靴磨きの両方を行う。必要があれば、彼に尋ねてみるといいだろう。"
-	ThoriumModTip29: Thorium Mod: 少額の報酬で、{$NPCs.DesertAcolyte.DisplayName}が砂漠の地を荒れさせる。
-	ThoriumModTip30: Thorium Mod: キングスライムを倒すと、その高級な美味しそうなジェルで{$NPCs.Cook.DisplayName}がやってくるかもしれない。
+	ThoriumModTip29: Thorium Mod: 少しお金を払うと、{$NPCs.DesertAcolyte.DisplayName}が砂漠の地を荒れさせる。
+	ThoriumModTip30: Thorium Mod: キングスライムを倒すと、その高級で美味しそうなジェルで{$NPCs.Cook.DisplayName}がやってくるかもしれない。
 	ThoriumModTip31: Thorium Mod: この{$NPCs.ConfusedZombie.DisplayName} はとても奇妙かもしれないが、様々なクリーチャーに対する忌避剤の効果はかなり高い。
 	ThoriumModTip32: Thorium Mod: ちょっと特別な道具が必要？鍛冶屋{$NPCs.Blacksmith.DisplayName}を訪ねてみよう！
 	ThoriumModTip33: Thorium Mod: クトゥルフの眼を狩ることに成功すると、{$NPCs.Tracker.DisplayName}がモンスター討伐の契約を持ちかけてくる。
 	ThoriumModTip34: Thorium Mod: "{$NPCs.Diverman.DisplayName} は海のために生きている...そのせいで突然変異したクラゲに丸呑みにされてしまったが..."
-	ThoriumModTip35: Thorium Mod: ちょっとしたガーデニングに興味がある？{$NPCs.Druid.DisplayName}が喜んでハーブの種を売ってくれるぞ。
+	ThoriumModTip35: Thorium Mod: ちょっとしたガーデニングに興味がある？{$NPCs.Druid.DisplayName}がハーブの種を売ってくれるぞ。
 	ThoriumModTip36: Thorium Mod: "{$NPCs.Spiritualist.DisplayName}は何よりも調和を望む。古代の戦士の霊を鎮めれば、あなたを助けてくれるはずだ。"
 	ThoriumModTip37: Thorium Mod: お金を払えば、追放された悪魔である{$NPCs.WeaponMaster.DisplayName}を雇い、戦闘を手伝ってもらうことができる。
 }
@@ -27764,8 +27764,8 @@ Common: {
 	}
 
 	TreasureBag: トレジャーバッグ ({0})
-	ThePrimordials: The Primordials
-	MusicBox: Music Box ({0})
+	ThePrimordials: プライモーディアルズ
+	MusicBox: オルゴール ({0})
 }
 
 DeathText: {
