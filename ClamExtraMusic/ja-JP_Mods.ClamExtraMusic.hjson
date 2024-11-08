@@ -1,0 +1,128 @@
+Configs: {
+	PriorityConfig: {
+		DisplayName: BGM優先度設定
+
+		BossPriority: {
+			Label: ボスBGM優先度
+			Tooltip:
+				'''
+				この設定は、このModのボスBGMの上書きの優先度を決定します。
+				最も低い値の時はBGMの上書きしないようにし、高い値の場合、最優先で上書きするようにします。
+				'''
+		}
+
+		EventPriority: {
+			Label: イベントBGM優先度
+			Tooltip:
+				'''
+				この設定は、このModのイベントBGM(吹雪)の上書きの優先度を決定します。
+				最も低い値の時はBGMの上書きを適用しないようにし、高い値の場合、最優先で上書きするようにします。
+				'''
+		}
+
+		BiomePriority: {
+			Label: バイオームBGM優先度
+			Tooltip:
+				'''
+				この設定は、このModのイベントBGM(隕石)の上書きの優先度を決定します。
+				最も低い値の時はBGMの上書きを適用しないようにし、高い値の場合、最優先で上書きするようにします。
+				'''
+		}
+
+		OverrideCultist: {
+			Label: 狂信者のBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverrideBrainOfCthulhu: {
+			Label: クトゥルフの脳のBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverrideSkeletron: {
+			Label: スケルトロンのBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverrideEaterOfWorlds: {
+			Label: イーターオブワールドのBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverrideGolem: {
+			Label: ゴーレムのBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverridePlantera: {
+			Label: プランテラのBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverrideKingSlime: {
+			Label: キングスライムのBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverrideDukeFishon: {
+			Label: デュークフィッシュロンのBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverrideEyeOfCthulhu: {
+			Label: クトゥルフの目のBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverrideMoonLord: {
+			Label: ムーンロードのBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverrideMechs: {
+			Label: メカボスのBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverrideQueenBee: {
+			Label: 女王蜂のBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverrideWallOfFlesh: {
+			Label: ウォールオブフレッシュのBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverrideBlizzard: {
+			Label: 吹雪のBGMを置き換えますか？
+			Tooltip: ""
+		}
+
+		OverrideMeteor: {
+			Label: 隕石のBGMを置き換えますか？
+			Tooltip: ""
+		}
+	}
+
+	MusicPriority: {
+		Tooltip: ""
+
+		DoNotPlay: {
+			Label: 再生しない
+		}
+
+		OverrideBiomes: {
+			Label: バイオームBGMを上書き
+		}
+
+		OverrideEvents: {
+			Label: イベントBGMを上書き
+		}
+
+		OverrideBosses: {
+			Label: ボスBGMを上書き
+		}
+	}
+}
+

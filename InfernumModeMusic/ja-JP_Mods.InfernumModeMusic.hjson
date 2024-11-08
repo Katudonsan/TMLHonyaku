@@ -1,0 +1,145 @@
+Projectiles: {
+	SoulDrivenHeadphonesProj: {
+		DisplayName: ソウルドリブンのヘッドホン
+	}
+}
+
+Items: {
+	SoulDrivenHeadphones: {
+		DisplayName: ソウルドリブンのヘッドホン
+		Tooltip:
+			'''
+			討伐済みのボスのカスタムInfernum音楽を選んで再生でき、特別なボスバトルテーマの切り替えが可能
+			持っていると、わずかに神秘的な存在を感じられ、楽器が情熱的に演奏される音も聞こえてくる...
+			'''
+	}
+}
+
+Configs: {
+	InfernumMusicConfig: {
+		DisplayName: Config
+
+		OverrideCalTheme: {
+			Label: カラミタス戦BGMを上書き
+			Tooltip: カラミタスのBGMをInfernumのBGMで上書きするかどうかを設定します。無効にすると、「Stained Brutal Calamity」が再生されます（Calamityの音楽Modが有効の場合）
+		}
+	}
+}
+
+MusicDisplay: {
+	AdultEidolonWyrm: {
+		DisplayName: Vocitus Terminus
+		Author: by PinpinNeon
+	}
+
+	BrainOfCthulhu: {
+		DisplayName: Intellect of the Crimson
+		Author: by PinpinNeon
+	}
+
+	Calamitas: {
+		DisplayName: Scars of Calamity
+		Author:by PinpinNeon
+	}
+
+	LunaticCultist: {
+		DisplayName: Eidolic Ancestry
+		Author: by PinpinNeon
+	}
+
+	DukeFishron: {
+		DisplayName: Razorblade Monsoon
+		Author: by PinpinNeon
+	}
+
+	EaterOfWorlds: {
+		DisplayName: Maw of the Corruption
+		Author: by PinpinNeon
+	}
+
+	EmpressOfLight: {
+		DisplayName: Shining Kaleidoscope ~ Prismatic Radiance
+		Author: by PinpinNeon
+	}
+
+	EyeOfCthulhu: {
+		DisplayName: Seer of the Night
+		Author: by PinpinNeon
+	}
+
+	Golem: {
+		DisplayName: Icon of the Sun
+		Author: by PinpinNeon
+	}
+
+	KingSlime: {
+		DisplayName: Gelatinous Dynasty
+		Author: by PinpinNeon
+	}
+
+	MechBosses: {
+		DisplayName: Inferior Fabrications
+		Author: by PinpinNeon
+	}
+
+	Minibosses: {
+		DisplayName: Misanthropic Encounters
+		Author: by PinpinNeon
+	}
+
+	MoonLord: {
+		DisplayName: The End Of An Olden Era
+		Author: by PinpinNeon
+	}
+
+	Plantera: {
+		DisplayName: Floral Animosity
+		Author: by PinpinNeon
+	}
+
+	QueenBee: {
+		DisplayName: Royal Retaliation
+		Author: by PinpinNeon
+	}
+
+	QueenSlime: {
+		DisplayName: Crowned Before One's End
+		Author: by PinpinNeon
+	}
+
+	Skeletron: {
+		DisplayName: Warden of the Damned
+		Author: by PinpinNeon
+	}
+
+	WallOfFlesh: {
+		DisplayName: One's Ending, Another's Beginning
+		Author: by PinpinNeon
+	}
+
+	Draedon: {
+		DisplayName: Their Fabricator
+		Author: by PinpinNeon
+	}
+
+	ExoMechBosses: {
+		DisplayName: Catastrophic Fabrications
+		Author: by PinpinNeon
+	}
+
+	ZenithFabrications: {
+		DisplayName: Zenith Fabrications
+		Author: by PinpinNeon
+	}
+
+	TitleScreen: {
+		DisplayName: Sky After Rain
+		Author: by PinpinNeon
+	}
+
+	StormBeforeDawn: {
+		DisplayName: Storm Before Dawn
+		Author: by PinpinNeon
+	}
+}
+
