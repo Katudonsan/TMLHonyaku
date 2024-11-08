@@ -39,17 +39,17 @@ Items: {
 	}
 
 	AstrageldonPhase1MusicBox: {
-		DisplayName: オルゴール(アストラルゲルドン - フェーズ 1)
+		DisplayName: オルゴール(アストラゲルドン - フェーズ 1)
 		Tooltip: DM DOKURO制作の「Cosmic Disgust」を再生する
 	}
 
 	AstrageldonPhase2MusicBox: {
-		DisplayName: オルゴール(アストラルゲルドン - フェーズ 2)
+		DisplayName: オルゴール(アストラゲルドン - フェーズ 2)
 		Tooltip: Heart Plus Up!制作の「Galactic Destruction」を再生する
 	}
 
 	AstrageldonTitleMusicBox: {
-		DisplayName: オルゴール(アストラルゲルドン タイトル画面)
+		DisplayName: オルゴール(アストラゲルドン タイトル画面)
 		Tooltip: DM DOKURO制作の「Heaven's Hell-Sent Gift」
 	}
 
@@ -1480,9 +1480,9 @@ ClientConfig: {
 
 TitleIcon: {
 	Astrageldon: {
-		1: アストラルゲルドンとはもう戦えない
-		3: アストラルゲルドンと戦える
-		4: アストラルゲルドンは撃破済み
+		1: アストラゲルドンとはもう戦えない
+		3: アストラゲルドンと戦える
+		4: アストラゲルドンは撃破済み
 	}
 }
 
@@ -1591,7 +1591,7 @@ Error: {
 
 Biomes: {
 	AstrageldonBiome: {
-		DisplayName: アストラルゲルドン
+		DisplayName: アストラゲルドン
 		TownNPCDialogueName: the Astrageldon Biome
 	}
 }
