@@ -1,0 +1,424 @@
+Configs: {
+	MusicConfig: {
+		DisplayName: BGM設定
+		MusicTogglesHeader: BGM切り替え
+		ConditionChangesHeader: コンディション変更
+
+		WorkshopThemes: {
+			Label: "[i:UnCalamityModMusic/WorkshopTier1MusicBox] ワークショップのテーマ"
+			Tooltip:
+				'''
+				特定の作業台の近くで再生されるワークショップのテーマを切り替えます。
+				街のテーマを無効にしたい場合は、別のNo Town Music modを使うか、影の蝋燭を使ってください。
+				'''
+		}
+
+		HardmodeInterlude: {
+			Label: "[i:UnCalamityModMusic/HardmodeInterludeMusicBox] ハードモード突入時BGM"
+			Tooltip:
+				'''
+				ハードモードに突入した時に流れるBGMを切り替えます。
+				クレジットを無効にしたい場合は別のNo In-game Credits MODを使用してください。
+				'''
+		}
+
+		AbyssLayer3Alt: {
+			Label: "[i:UnCalamityModMusic/AbyssLayer3AltMusicBox] 深淵3層の追加楽曲"
+			Tooltip: 深淵3層のBGMを代替のものに切り替えます。
+		}
+
+		PrioritizeInfernumMusic: {
+			Label: "[i:WallOfFleshGoatMountItem] インフェルナムのBGMを優先する"
+			Tooltip:
+				'''
+				InfernumのBGMをVCMMのBGMより優先するかどうかを切り替えます。
+				このオプションはInfernum Mode Music MODが有効の時にだけ効果があります。
+				このオプションはCalamityボスには影響しません。
+				'''
+		}
+
+		OverrideAnahitasLure: {
+			Label: "[i:UnCalamityModMusic/OceanDayMusicBox] アナヒタの歌を上書きする"
+			Tooltip: アナヒタの歌声が海のBGMを上書きするかどうかを切り替えます。
+		}
+	}
+
+	OtherConfig: {
+		DisplayName: その他の設定
+		AmbienceTogglesHeader: 環境BGMの切り替え
+		OtherChangesHeader: その他の変更
+
+		AmbienceFrequency: {
+			Label: "[i:Bunny] 環境音の頻度"
+			Tooltip:
+				'''
+				環境音が通常のBGMに置き換わる頻度を0%から100%で調整します。
+				100%の場合、ボスおよびイベントを除くすべてのBGMが無効になります。
+				'''
+		}
+
+		DisableBeeHiveAmbience: {
+			Label: "[i:BeeWax] 蜂の巣の環境音を無効にする"
+			Tooltip: 蜂の巣の環境音を切り替えます。
+		}
+
+		DisableSpiderCaveAmbience: {
+			Label: "[i:SpiderFang] クモの洞窟の環境音を無効にする"
+			Tooltip: クモの洞窟の環境音を切り替えます。
+		}
+
+		MusicBoxRecipes: {
+			Label: "[i:HeavyWorkBench] オルゴールのレシピ"
+			Tooltip: 重作業台から作れる全てのオルゴールのレシピを切り替えます。
+		}
+
+		MusicBoxResprite: {
+			Label: "[i:MusicBox] 未録音のオルゴールの見た目を切り替える"
+			Tooltip: 録音されていないオルゴールの見た目を変更します。
+		}
+	}
+}
+
+Items: {
+	AbyssLayer3AltMusicBox: {
+		DisplayName: オルゴール (深淵 - 3層 代替)
+		Tooltip: Heart Plus Up!制作の「R'lyehian Depths」を再生する
+	}
+
+	BloodMoonDeathMusicBox: {
+		DisplayName: オルゴール (ブラッドムーン - デスモード)
+		Tooltip: Thriplerex制作の「Sanguine Eclipse」を再生する
+	}
+
+	BloodMoonMusicBox: {
+		DisplayName: オルゴール (ブラッドムーン)
+		Tooltip: Thriplerex制作の「Congealing Shadows」を再生する
+	}
+
+	BrainofCthulhuMusicBox: {
+		DisplayName: オルゴール (クトゥルフの脳)
+		Tooltip: Heart Plus Up! と SkippyZii制作の「Madness Incarnate」を再生する
+	}
+
+	CavernsMusicBox: {
+		DisplayName: オルゴール (洞窟)
+		Tooltip: Heart Plus Up!制作の「Nearing the Inferno」を再生する
+	}
+
+	CorruptionMusicBox: {
+		DisplayName: オルゴール (不浄の大地)
+		Tooltip: Heart Plus Up!制作の「Writhing Shadows」を再生する
+	}
+
+	CorruptionUndergroundMusicBox: {
+		DisplayName: Music Box (不浄の大地 - 地下)
+		Tooltip: Heart Plus Up!制作の「Between the Shadows」を再生する
+	}
+
+	CrimsonMusicBox: {
+		DisplayName: オルゴール (真紅の大地)
+		Tooltip: SkippyZii制作の「Clotted Lands」を再生する
+	}
+
+	CrimsonUndergroundMusicBox: {
+		DisplayName: オルゴール (真紅の大地 - 地下)
+		Tooltip: SkippyZii制作の「Inside the Beast」を再生する
+	}
+
+	DesertMusicBox: {
+		DisplayName: オルゴール (砂漠)
+		Tooltip: Heart Plus Up!制作の「Scorched to Dust」を再生する
+	}
+
+	DungeonMusicBox: {
+		DisplayName: オルゴール (ダンジョン)
+		Tooltip: Heart Plus Up!制作の「Chambers of the Tyrant」を再生する
+	}
+
+	EaterofWorldsMusicBox: {
+		DisplayName: オルゴール (イーターオブワールド)
+		Tooltip: Heart Plus Up!制作の「Menace of the Chasms」を再生する
+	}
+
+	EyeofCthulhuMusicBox: {
+		DisplayName: オルゴール (クトゥルフの目)
+		Tooltip: Heart Plus Up! と novaGnomes制作の「Bloodshot Barrage」を再生する
+	}
+
+	FalseEpilogueMusicBox: {
+		DisplayName: オルゴール (ムーンロード - 撃破)
+		Tooltip: Heart Plus Up!制作の「The Memory of a Cruel World」を再生する
+	}
+
+	ForestDayAfternoonMusicBox: {
+		DisplayName: オルゴール (森 - 午後)
+		Tooltip: Heart Plus Up!制作の「A Legend's Strife (Lament)」を再生する
+	}
+
+	ForestDayDawnMusicBox: {
+		DisplayName: オルゴール (森 - 夜明け)
+		Tooltip: Heart Plus Up!制作の「A Legend's Strife (Acceptance)」を再生する
+	}
+
+	ForestDayEveningMusicBox: {
+		DisplayName: オルゴール (森 - 夕方)
+		Tooltip: Heart Plus Up!制作の「A Legend's Strife (Grief)」を再生する
+	}
+
+	ForestDayMorningMusicBox: {
+		DisplayName: オルゴール (森 - 朝)
+		Tooltip: Heart Plus Up!制作の「A Legend's Strife (Epiphany)」を再生する
+	}
+
+	ForestNightMusicBox: {
+		DisplayName: オルゴール (森 - 夜)
+		Tooltip: Heart Plus Up!制作の「Laze of the Sky」を再生する
+	}
+
+	GeodesMusicBox: {
+		DisplayName: オルゴール (ジオード)
+		Tooltip: Heart Plus Up!制作の「Amidst the Minerals」を再生する
+	}
+
+	GlowingMushroomFieldsMusicBox: {
+		DisplayName: オルゴール (キノコ群生地)
+		Tooltip: Heart Plus Up!制作の「Psychedelic Depths」を再生する
+	}
+
+	HardmodeInterludeMusicBox: {
+		DisplayName: オルゴール (ハードモード突入)
+		Tooltip: Salvati制作の「The Resurrection of a Cruel World」を再生する
+	}
+
+	KingSlimeMusicBox: {
+		DisplayName: オルゴール (キングスライム)
+		Tooltip: Heart Plus Up!制作の「Gelatinous Monarch」を再生する
+	}
+
+	LanternFestivalMusicBox: {
+		DisplayName: オルゴール (ランタンフェスティバル)
+		Tooltip: Heart Plus Up!制作の「Serenity」を再生する
+	}
+
+	MeteoriteMusicBox: {
+		DisplayName: オルゴール (隕石)
+		Tooltip: Heart Plus Up!制作の「The Abomination's Omen」を再生する
+	}
+
+	MoonLordMusicBox: {
+		DisplayName: オルゴール (ムーンロード)
+		Tooltip:
+			'''
+			psykomatic制作の「Virtuous Radiance」を再生する
+			このオルゴールには仮の楽曲が収録されています
+			'''
+	}
+
+	OceanDayMusicBox: {
+		DisplayName: オルゴール (海 - 昼)
+		Tooltip: Heart Plus Up!制作の「shoreline」を再生する
+	}
+
+	OceanNightMusicBox: {
+		DisplayName: オルゴール (海 - 夜)
+		Tooltip: Heart Plus Up!制作の「serene tides」を再生する
+	}
+
+	OceanRainMusicBox: {
+		DisplayName: オルゴール (海 - 雨)
+		Tooltip: Heart Plus Up!制作の「waves」を再生する
+	}
+
+	RainLegacyMusicBox: {
+		DisplayName: オルゴール (雨 - 旧バージョン)
+		Tooltip: Heart Plus Up!制作の「Grey Sky」を再生する
+	}
+
+	RainMusicBox: {
+		DisplayName: オルゴール (雨)
+		Tooltip: Heart Plus Up!制作の「downpour」を再生する
+	}
+
+	SkeletronMusicBox: {
+		DisplayName: オルゴール (スケルトロン)
+		Tooltip: Heart Plus Up!制作の「Wrath From the Crypt」を再生する
+	}
+
+	SlimeRainMusicBox: {
+		DisplayName: オルゴール (スライムの雨)
+		Tooltip: Heart Plus Up!制作の「Gelatin Showers」を再生する
+	}
+
+	SpaceMusicBox: {
+		DisplayName: オルゴール (宇宙)
+		Tooltip: Heart Plus Up!制作の「Starry Ascent」を再生する
+	}
+
+	TorchGodMusicBox: {
+		DisplayName: オルゴール (たいまつの神)
+		Tooltip: Heart Plus Up!制作の「Trial by Fire」を再生する
+	}
+
+	TorchGodRevengeanceMusicBox: {
+		DisplayName: オルゴール (たいまつの神 - リヴェンジェンス)
+		Tooltip: Heart Plus Up!制作の「Trial by Fire」のバリエーションを再生する
+	}
+
+	TownDayMusicBox: {
+		DisplayName: オルゴール (街 - 昼)
+		Tooltip: Heart Plus Up!制作の「Haven in the Sunlight」を再生する
+	}
+
+	TownNightMusicBox: {
+		DisplayName: オルゴール (街 - 夜)
+		Tooltip: Heart Plus Up!制作の「Moonlit Haven」を再生する
+	}
+
+	TownPartyMusicBox: {
+		DisplayName: オルゴール (街 - パーティー)
+		Tooltip: Heart Plus Up!制作の「Celebration Haven」を再生する
+	}
+
+	TownRainMusicBox: {
+		DisplayName: オルゴール (街 - 雨)
+		Tooltip: Heart Plus Up!制作の「Haven in Overcast」を再生する
+	}
+
+	TundraMusicBox: {
+		DisplayName: オルゴール (雪原)
+		Tooltip: Heart Plus Up!制作の「Frozen Over」を再生する
+	}
+
+	TundraUndergroundMusicBox: {
+		DisplayName: オルゴール (雪原 - 地下)
+		Tooltip: Heart Plus Up!制作の「Inside the Glaciers」を再生する
+	}
+
+	UndergroundMusicBox: {
+		DisplayName: オルゴール (地下)
+		Tooltip: Heart Plus Up!制作の「Under the Earth」を再生する
+	}
+
+	UnderworldMusicBox: {
+		DisplayName: オルゴール (地底世界)
+		Tooltip: Heart Plus Up!制作の「Descent Into Hell's Fury」を再生する
+	}
+
+	WallofFleshMusicBox: {
+		DisplayName: オルゴール (ウォールオブフレッシュ)
+		Tooltip: Heart Plus Up!制作の「Flesh of the Underworld」を再生する
+	}
+
+	WorkshopTier1MusicBox: {
+		DisplayName: オルゴール (ワークショップ - ティア1)
+		Tooltip: Heart Plus Up!制作の「Metal, Wood, and Fire」を再生する
+	}
+
+	WorkshopTier2MusicBox: {
+		DisplayName: オルゴール (ワークショップ - ティア2)
+		Tooltip: Heart Plus Up!制作の「The Sky and the Depths」を再生する
+	}
+
+	WorkshopTier3MusicBox: {
+		DisplayName: オルゴール (ワークショップ - ティア3)
+		Tooltip: Heart Plus Up!制作の「Mythic Metals and Enchanted Fires」を再生する
+	}
+
+	WorkshopTier4MusicBox: {
+		DisplayName: オルゴール (ワークショップ - ティア4)
+		Tooltip: Heart Plus Up!制作の「Fruits of Your Labor」を再生する
+	}
+
+	WorkshopTier5MusicBox: {
+		DisplayName: オルゴール (ワークショップ - ティア5)
+		Tooltip: Heart Plus Up!制作の「False Gods and Ancient Elements」を再生する
+	}
+
+	WorkshopTier6MusicBox: {
+		DisplayName: オルゴール (ワークショップ - ティア6)
+		Tooltip: Heart Plus Up!制作の「Master's Forge」を再生する
+	}
+}
+
+Menus: {
+	ResurrectionMenu: Resurrection Style
+	MemoryMenu: Memory Style
+}
+
+ModSupport: {
+	MusicDisplay: {
+		SongNames: {
+			AbyssLayer3Alt: R'lyehian Depths
+			Space: Starry Ascent
+			Underworld: Descent Into Hell's Fury
+			Meteorite: The Abomination's Omen
+			WorkshopTier6: Master's Forge
+			WorkshopTier5: False Gods and Ancient Elements
+			WorkshopTier4: Fruits of Your Labor
+			WorkshopTier3: Mythic Metals and Enchanted Fires
+			WorkshopTier2: The Sky and the Depths
+			WorkshopTier1: Metal, Wood, and Fire
+			TownNight: Moonlit Haven
+			TownNight_Noiseless: Moonlit Haven
+			TownDay: Haven in the Sunlight
+			Dungeon: Chambers of the Tyrant
+			GlowingMushroomFields: Psychedelic Depths
+			Corruption: Writhing Shadows
+			CorruptionUnderground: Between the Shadows
+			Crimson: Clotted Lands
+			CrimsonUnderground: Inside the Beast
+			Geodes: Amidst the Minerals
+			Tundra: Frozen Over
+			TundraUnderground: Inside the Glaciers
+			Caverns: Nearing the Inferno
+			Underground: Under the Earth
+			OceanNight: serene tides
+			OceanDay: shoreline
+			Desert: Scorched to Dust
+			ForestNight: Laze of the Sky
+			ForestDayEvening: A Legend's Strife (Grief)
+			ForestDayAfternoon: A Legend's Strife (Lament)
+			ForestDayMorning: A Legend's Strife (Epiphany)
+			ForestDayDawn: A Legend's Strife (Acceptance)
+			MoonLord: Virtuous Radiance
+			WallofFlesh: Fated Insurrection
+			Skeletron: Wrath From the Crypt
+			BrainofCthulhu: Madness Incarnate
+			EaterofWorlds: Menace of the Chasms
+			EyeofCthulhu: Bloodshot Barrage
+			KingSlime: Gelatinous Monarch
+			TorchGod: Trial by Fire
+			TorchGodRevengeance: Trial by Fire
+			BloodMoon: Congealing Shadows
+			BloodMoonDeath: Sanguine Eclipse
+			SlimeRain: Gelatin Showers
+			OceanRain: waves
+			TownRain: Haven in Overcast
+			Rain: downpour
+			TownParty: Celebration Haven
+			LanternFestival: Serenity
+			HardmodeInterlude: The Resurrection of a Cruel World
+			FalseEpilogue: The Memory of a Cruel World
+			RainLegacy: Grey Sky
+		}
+
+		Authors: {
+			HeartPlusUp: by Heart Plus Up!
+			HeartPlusUpFeature1: by Heart Plus Up! and novaGnomes
+			HeartPlusUpFeature2: by Heart Plus Up! and SkippyZii
+			HeartPlusUpFeature3: by Heart Plus Up! and Universe
+			Salvati: by Salvati
+			SkippyZii: by SkippyZii
+			Thriplerex: by Thriplerex
+			Universe: by Universe
+			psykomatic: by psykomatic
+		}
+	}
+}
+
+Recipes: {
+	EvilPowder: Evil Powder
+	SillyTiedBalloon: Silly Tied Balloon
+	NameMismatchError: このレシピのアイテムと他のMODのアイテムに内部名の不一致があります。このアイテムのレシピは無効化されました。
+}
+
