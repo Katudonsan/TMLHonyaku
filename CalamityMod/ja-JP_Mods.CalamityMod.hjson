@@ -5578,7 +5578,7 @@ Items: {
 			Tooltip: CDMusic制作の「Signal Received」を再生する
 		}
 
-DraedonTalkMusicBox: {
+		DraedonTalkMusicBox: {
 			DisplayName: オルゴール(コードブレイカー)
 			Tooltip: CDMusic制作の「Signal Received」再生する
 		}
