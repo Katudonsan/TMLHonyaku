@@ -10,7 +10,7 @@ Items: {
 		LoreAstrageldon: {
 			Lore:
 				'''
-				そのような存在は理解を超えたものだ。ドラエドンはかつて、アストラルに汚染された大地の調査からこの異常なパワーについて報告したことがある。
+				そのような存在は理解を超えたものだ。ドレイドンはかつて、アストラルに汚染された大地の調査からこの異常なパワーについて報告したことがある。
 				しかし、彼の才覚をもってしても、あの宇宙のゼラチンの特徴を完全に把握することはできなかった。
 				彼は、その実体がより強力な感染菌株に汚染されていることを突き止めた。
 				その密度は計り知れず、理性をはるかに超えていた。しかし、その奇妙な粘性はどんな説明も無視した。
@@ -39,18 +39,18 @@ Items: {
 	}
 
 	AstrageldonPhase1MusicBox: {
-		DisplayName: Music Box (Astrageldon - Phase 1)
-		Tooltip: Plays 'Cosmic Disgust' by DM DOKURO
+		DisplayName: オルゴール(アストラルゲルドン - フェーズ 1)
+		Tooltip: DM DOKURO制作の「Cosmic Disgust」を再生する
 	}
 
 	AstrageldonPhase2MusicBox: {
-		DisplayName: Music Box (Astrageldon - Phase 2)
-		Tooltip: Plays 'Galactic Destruction' by Heart Plus Up!
+		DisplayName: オルゴール(アストラルゲルドン - フェーズ 2)
+		Tooltip: Heart Plus Up!制作の「Galactic Destruction」を再生する
 	}
 
 	AstrageldonTitleMusicBox: {
-		DisplayName: Music Box (Astrageldon Title)
-		Tooltip: Plays 'Heaven's Hell-Sent Gift' by DM DOKURO
+		DisplayName: オルゴール(アストラルゲルドン タイトル画面)
+		Tooltip: DM DOKURO制作の「Heaven's Hell-Sent Gift」
 	}
 
 	MetanovaOre: {
@@ -459,7 +459,7 @@ Items: {
 	}
 
 	AstralNeutron: {
-		DisplayName: アストラル・ニュートロン
+		DisplayName: アストラルニュートロン
 		Tooltip: "'静かだ…'"
 	}
 
@@ -475,7 +475,7 @@ Items: {
 	}
 
 	PrismBreak: {
-		DisplayName: プリズム・ブレイク
+		DisplayName: プリズムブレイク
 		Tooltip:
 			'''
 			{$Mods.CatalystMod.Tooltips.WhipTooltip}
@@ -523,7 +523,7 @@ Items: {
 	}
 
 	Catharsis: {
-		DisplayName: 浄化
+		DisplayName: 浄化の鞭
 		Tooltip:
 			'''
 			{$Mods.CatalystMod.Tooltips.WhipTooltip}
@@ -541,12 +541,12 @@ Items: {
 			'''
 			{$Mods.CatalystMod.Tooltips.WhipTooltip}
 			小型の砂鮫を召喚し、敵に食らいつく
-			'Ökenhaj!'
+			「Ökenhaj!」
 			'''
 	}
 
 	CoralCrusher: {
-		DisplayName: コーラル・クラッシャー
+		DisplayName: コーラルクラッシャー
 		Tooltip:
 			'''
 			{$Mods.CatalystMod.Tooltips.WhipTooltip}
@@ -686,18 +686,18 @@ ItemTooltipExtra0: {
 }
 
 ItemTooltipExtra1: {
-	AstralCommunicator: コアは月の神の死から放出されたエネルギーによって破壊された…
+	AstralCommunicator: コアはムーンロードの死から放出されたエネルギーによって破壊された…
 }
 
 ArmorSetBonus: {
 	IntergelacticAll:
 		'''
-		小惑星の2つのリングに囲まれ、そのダメージは体力に比例する
-		Press {0} to make the asteroids more transparent
+		2つの小惑星に囲まれ、そのダメージは体力に比例する
+		" {0} を押すと小惑星がより透明になる"
 		'''
 	IntergelacticMelee:
 		'''
-		4つのリングに囲まれた小惑星のダメージは体力に比例する
+		4つの小惑星に囲まれ、ダメージは体力に比例する
 		ノックバックと複数の移動デバフに対する耐性を得る
 		星界の疫病に対する耐性があり、攻撃によってそのデバフを付与できるようになる
 		'''
@@ -1194,27 +1194,27 @@ AuricTeslaPlusSet: {
 	Melee:
 		'''
 		近接装備の星間、ブラッドフレア、ゴッドスレイヤーの効果を併せ持つ
-		Press {0} to make the asteroids more transparent
+		" {0} を押すと小惑星がより透明になる"
 		敵に狙われやすくなる
 		すべての投射物は敵に命中すると、ヒーリング効果のあるオーリックオーブを生成する
 		'''
 	Ranged:
 		'''
 		遠隔装備の星間、ブラッドフレア、ゴッドスレイヤーの効果を併せ持つ
-		Press {0} to make the asteroids more transparent
+		" {0} を押すと小惑星がより透明になる"
 		すべての投射物は敵に命中すると、ヒーリング効果のあるオーリックオーブを生成する
 		'''
 	Magic:
 		'''
 		魔法装備の星間、ブラッドフレア、ゴッドスレイヤーの効果を併せ持つ
-		Press {0} to make the asteroids more transparent
+		" {0} を押すと小惑星がより透明になる"
 		すべての投射物は敵に命中すると、ヒーリング効果のあるオーリックオーブを生成する
 		最大移動速度と加速度が5%増加
 		'''
 	Summoner:
 		'''
 		召喚装備の星間、ブラッドフレア、ゴッドスレイヤーの効果を併せ持つ
-		Press {0} to make the asteroids more transparent.
+		" {0} を押すと小惑星がより透明になる".
 		すべての投射物は敵に命中すると、ヒーリング効果のあるオーリックオーブを生成する
 		最大移動速度と加速度が5%増加
 		最大ミニオン数+6、ミニオンダメージ75%増加
@@ -1222,7 +1222,7 @@ AuricTeslaPlusSet: {
 	Rogue:
 		'''
 		ローグ装備の星間、ブラッドフレア、ゴッドスレイヤーの効果を併せ持つ
-		Press {0} to make the asteroids more transparent
+		" {0} を押すと小惑星がより透明になる"
 		すべての投射物は敵に命中すると、ヒーリング効果のあるオーリックオーブを生成する
 		ローグのステルス性能は、攻撃していない時は高く、移動している時は低くなる
 		ステルスが最大になると、ステルスストライクを行うことができるようになる
@@ -1442,7 +1442,7 @@ Announcement: {
 		アストラルの特異点が天空に散っていく...
 		'''
 	AstralTreasures: アストラルの洞窟の財宝が明らかになった！
-	HasAwakened: "{0} has awoken!"
+	HasAwakened: "{0} が目覚めた！"
 	AstrageldonKilledImproperly: 稀なバグが発生しました...ボスを再召喚し倒しましょう！
 	Bug: カタリスト開発チームへのバグ報告をお忘れなく！
 }
@@ -1480,9 +1480,9 @@ ClientConfig: {
 
 TitleIcon: {
 	Astrageldon: {
-		1: Astrageldon is unfightable
-		3: Astrageldon is fightable
-		4: Astrageldon is defeated
+		1: アストラルゲルドンとはもう戦えない
+		3: アストラルゲルドンと戦える
+		4: アストラルゲルドンは撃破済み
 	}
 }
 
@@ -1523,23 +1523,23 @@ NPCs: {
 	}
 
 	AscendedAstralSlime: {
-		DisplayName: アセンデッド・アストラル・スライム
+		DisplayName: アセンデッドアストラルスライム
 	}
 
 	MetanovaSlime: {
-		DisplayName: メタノヴァ・スライム
+		DisplayName: メタノヴァスライム
 	}
 
 	MetanovaSlimeRocks: {
-		DisplayName: メタノヴァ・スライム
+		DisplayName: メタノヴァスライム
 	}
 
 	ArmoredAstralSlime: {
-		DisplayName: アーマード・アストラル・スライム
+		DisplayName: アーマード・アストラルスライム
 	}
 
 	AstrageldonSlimer: {
-		DisplayName: アストラゲルドン・スライマー
+		DisplayName: アストラゲルドンスライマー
 	}
 
 	AstrageldonSlime: {
