@@ -1,0 +1,81 @@
+Keybinds: {
+	OpenPiggyBank.DisplayName: "[i:87] 豚の貯金箱を開く"
+	OpenSafe.DisplayName: "[i:346] 金庫を開く"
+	OpenDefendersForge.DisplayName: "[i:3813] ディフェンダーの炉を開く"
+	OpenVoidBag.DisplayName: "[i:4131] 虚空のバッグを開く"
+}
+
+Configs: {
+	Config: {
+		DisplayName: 設定 [i:87]
+		Headers.Position: 位置 [i:393]
+
+		Horizontal: {
+			Label: 横ボタン
+			Tooltip: ""
+		}
+
+		XPosition: {
+			Label: 横位置
+			Tooltip: ""
+		}
+
+		YPosition: {
+			Label: 縦位置
+			Tooltip: ""
+		}
+
+		DraggingEnabled: {
+			Tooltip:
+				'''
+				中ボタンを押すとボタンをドラッグでき、もう一度押すとドラッグを停止します
+				ドラッグ中に左ボタンを押すと横ボタンモードが切り替わり、
+				右ボタンを押すと「事前オフセット設定」が切り替わります
+				'''
+			Label: ドラッグ許可
+		}
+
+		QuickstackEnabled: {
+			Label: クイックスタック有効
+			Tooltip: ボタンをシフトクリックすると、その銀行にクイックスタックされます
+		}
+
+		QuickstackNearby: {
+			Tooltip: 近くのチェストへのクイックスタックは、すべての銀行にもクイックスタックされます
+			Label: 近くのチェストへのクイックスタック有効
+		}
+
+		Chester: {
+			Label: チェスター
+			Tooltip: 豚の貯金箱のアイコンは、装備するとチェスター(アイボーン)に置き換わる
+		}
+
+		PreDrawOffset: {
+			Label: 事前オフセット設定
+			Tooltip: 原点は最初のボタンではなく最後のボタンです
+		}
+
+		AlwaysVisible: {
+			Tooltip: ボタンは、銀行がインベントリや虚空のバッグにない場合や近くに置かれていない場合でも表示されます
+			Label: ボタン常に表示
+		}
+	}
+}
+
+Tooltips: {
+	PiggyBank: "{$ItemName.PiggyBank}"
+	Chester: "{$BuffName.ChesterPet}"
+	Safe: "{$ItemName.Safe}"
+	DefendersForge: "{$ItemName.DefendersForge}"
+	VoidBag: "{$ItemName.VoidVault}"
+	VoidBagOpen:
+		'''
+		{$ItemName.VoidLens}
+		[c/888888:右クリックで閉じる]
+		'''
+	VoidBagClosed:
+		'''
+		{$ItemName.ClosedVoidBag}
+		[c/888888:右クリックで開く]
+		'''
+}

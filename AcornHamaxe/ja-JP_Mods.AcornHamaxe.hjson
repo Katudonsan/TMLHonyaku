@@ -1,0 +1,11 @@
+Items: {
+	RegrowthHamaxe: {
+		DisplayName: 成長のハンマーアックス斧
+		Tooltip:
+			'''
+			土に草を生やす
+			植物を多めに収集できる
+			木を伐採するときにドングリを植える
+			'''
+	}
+}

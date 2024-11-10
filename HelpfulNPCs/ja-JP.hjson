@@ -1,0 +1,204 @@
+Mods: {
+	HelpfulNPCs: {
+		Items: {
+			FishCrate: {
+				DisplayName: 魚の箱
+				Tooltip: 右クリックで現在のクエストの魚を受け取る
+			}
+
+			DazzlingFlower: {
+				DisplayName: 目を引く花
+				Tooltip: 環境活動家が引っ越せるようにインベントリに入れておく
+			}
+
+			GlimmeringStone: {
+				DisplayName: きらめく石
+				Tooltip: 鉱夫が引っ越せるようにインベントリに入れておく
+			}
+
+			GlisteningGel: {
+				DisplayName: きらめくジェル
+				Tooltip: 狩人が引っ越せるようにインベントリに入れておく
+			}
+
+			RadiantFish: {
+				DisplayName: 輝く魚
+				Tooltip: 漁師が引っ越せるようにインベントリに入れておく
+			}
+		}
+
+		NPCs: {
+			EnvironmentalistNPC: {
+				DisplayName: 環境活動家
+
+				TownNPCMood: {
+					Content: 自然を楽しんでいるよ。
+					NoHome: 自然が大好きだけど、やっぱり避難所も必要だ。
+					LoveSpace: ここには僕の植物のために十分なスペースがある。
+					FarFromHome: 研究を続けるために家に帰らなければならない。
+					DislikeCrowded: ここでは研究に集中できない。
+					HateCrowded: 人々が僕の植物にぶつかってばかりだ！
+					LikeBiome: 僕は{BiomeName}が好きだ。いつも心が落ち着く。
+					DislikeBiome: "{BiomeName}にはほとんど植物がない。"
+					LikeNPC: "{NPCName}は僕の自然への情熱を理解している。"
+					LoveNPC: "{NPCName}は自然そのものだ！"
+					DislikeNPC: "{NPCName}は環境よりも利益を優先している！"
+					HateNPC: "{NPCName}は僕が守ろうとするものをすべて壊してしまう！"
+					LikeNPC_Princess: "{NPCName}はいつも僕の努力を励ましてくれる。"
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/EnvironmentalistNPC}"
+				}
+
+				Census.SpawnCondition: インベントリに{$Items.DazzlingFlower.DisplayName} [i:HelpfulNPCs/DazzlingFlower]を所持
+			}
+
+			FishermanNPC: {
+				DisplayName: 漁師
+
+				TownNPCMood: {
+					Content: *居眠り*
+					NoHome: 釣りをする場所が必要だ！
+					LoveSpace: ここが大好きだ。釣竿と俺だけの場所。
+					FarFromHome: 釣りに戻らないと。
+					DislikeCrowded: 釣りをしていると、人々がぶつかってくるんだ。
+					HateCrowded: 釣り糸を投げるスペースが足りない！
+					LikeBiome: 海にはたくさんの魚がいる！
+					DislikeBiome: "{BiomeName}には魚がいない！"
+					LikeNPC: "{NPCName}は俺の良き友だ。"
+					LoveNPC: "{NPCName}は本当に良いヤツだ。"
+					DislikeNPC: "{NPCName}が俺の釣竿をアップグレードしようとしたら、爆発してしまった。"
+					LikeNPC_Princess: 釣りをしている間、{NPCName}が一緒にいるのは気にならない。
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/FishermanNPC}"
+				}
+
+				Census.SpawnCondition: インベントリに{$Items.RadiantFish.DisplayName} [i:HelpfulNPCs/RadiantFish]を所持
+			}
+
+			HunterNPC: {
+				DisplayName: 狩人
+
+				TownNPCMood: {
+					Content: リラックスしてるよ。
+					NoHome: 装備を置く場所が必要だ。
+					LoveSpace: ここでの平穏な時間が好きだ。
+					FarFromHome: 家から遠く離れすぎてしまった。
+					DislikeCrowded: ここでは集中できない。
+					HateCrowded: 人々が私のものを倒し続ける！
+					LikeBiome: "{BiomeName}の冷気が好きだ。"
+					DislikeBiome: "{BiomeName}用の装備がない。"
+					LikeNPC: "{NPCName}の毒はとても役立つ。"
+					LoveNPC: "{NPCName}とは昔からの付き合いだ。"
+					DislikeNPC: "{NPCName}はうるさすぎる。"
+					LikeNPC_Princess: "{NPCName}はいつも私が集中できるように距離を置いてくれる。"
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/HunterNPC}"
+				}
+
+				Census.SpawnCondition: インベントリに{$Items.GlisteningGel.DisplayName} [i:HelpfulNPCs/GlisteningGel]を所持
+			}
+
+			MinerNPC: {
+				DisplayName: 鉱夫
+
+				TownNPCMood: {
+					Content: 懐かしい気分になるな。
+					NoHome: どこで休めばいいんだ？
+					LoveSpace: 道具を置く場所がたくさんある。
+					FarFromHome: どうやら掘りすぎたようだ。
+					DislikeCrowded: 人とぶつかってばかりだ。
+					HateCrowded: 混みすぎて、出ることもできない！
+					LikeBiome: ここには採掘できる鉱石がたくさんある。
+					DislikeBiome: ここでどうやって採掘しろっていうんだ？
+					LikeNPC: "{NPCName}はちょっと変わってるが、便利な道具を作ってくれる。"
+					LoveNPC: "{NPCName}と一緒に楽しい時間を過ごしている！"
+					DislikeNPC: "{NPCName}が髭を整えようとしてくる。"
+					LikeNPC_Princess: "{NPCName}は長い採掘作業の後に掃除を手伝ってくれるんだ。"
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/MinerNPC}"
+				}
+
+				Census.SpawnCondition: インベントリに{$Items.GlimmeringStone.DisplayName} [i:HelpfulNPCs/GlimmeringStone]を所持
+			}
+
+			Chester.DisplayName: チェスター
+		}
+
+		Bestiary: {
+			EnvironmentalistNPC: 環境保護者は自然を愛しています。彼は植物や動物を保護のために売っています。悪用なんてしないよね？
+			FishermanNPC: 漁師は一日中釣りをして過ごします。彼と釣り人との関係は不明です。
+			HunterNPC: 狩人はすべてのモンスターに恐怖を与えます。そうです、彼の名前は「ハンター」です。
+			MinerNPC: 鉱夫はほとんどの時間を地中深くで過ごします。なぜか彼は採掘が好きなのです。
+		}
+
+		NPCNames: {
+			EnvironmentalistNPC: {
+				Name1: グレゴリー
+				Name2: メンダル
+				Name3: テオフラストス
+				Name4: フック
+			}
+
+			FishermanNPC: {
+				Name1: アーネスト
+				Name2: トーマス
+				Name3: マイケル
+				Name4: カート
+			}
+
+			HunterNPC.Name1: ハンター
+
+			MinerNPC: {
+				Name1: ゴールド
+				Name2: ジョン
+				Name3: エドワード
+				Name4: トーマス
+			}
+		}
+
+		Dialogue: {
+			EnvironmentalistNPC: {
+				StandardDialogue1: ちょっと！僕の植物を踏まないでくれ！
+				StandardDialogue2: 魔法の豆の木なんて存在しないよ。
+				StandardDialogue3: テラリアの小動物に関する研究はほぼ完了だ。
+				StandardDialogue4: 植物を育てるには努力と献身が必要なんだ。
+				ChatOption1: 植物
+				ChatOption2: 生き物
+			}
+
+			FishermanNPC: {
+				StandardDialogue1: 魚を一匹与えれば、そいつは一日食べられる。釣りを教えれば、ゲームの進行を壊すことになる。
+				StandardDialogue2: *いびき*
+				StandardDialogue3: なんで時々ゴミを釣り上げるんだ？誰が水に物を投げてるんだ？
+				StandardDialogue4: 昔は木の箱にもチタニウムが入ってたもんだ！
+				ChatOption1: 魚
+				ChatOption2: エサ
+			}
+
+			HunterNPC: {
+				StandardDialogue1: 静かにしてくれ、集中が必要なんだ。
+				StandardDialogue2: …
+				StandardDialogue3: そう、私は狩人のハンターだ。
+				StandardDialogue4: 君を狩っていないことを喜ぶべきだよ。
+				ChatOption1: モンスタードロップ
+				ChatOption2: ソウル/エッセンス
+				ChatOption3: 弾薬
+				ChatOption4: ショップを変更する
+			}
+
+			MinerNPC: {
+				StandardDialogue1: 地上に戻ってから飲むビールは最高だ！
+				StandardDialogue2: この輝く宝石や鉱石の使い道がないんだが、買い取ってくれないか？
+				StandardDialogue3: Y座標11で採掘しちゃいけないってどういうことだ？
+				StandardDialogue4: ダイヤモンド？専門家ではないが、あれで剣は作れないと思うぞ。
+				ChatOption1: 貴重品
+				ChatOption2: ブロック
+			}
+		}
+
+		Conditions.DownedSkeletronOrQueenBee: Mods.HelpfulNPCs.Conditions.DownedSkeletronOrQueenBee
+	}
+}
+
+TownNPCMood_Princess: {
+	LoveNPC_HelpfulNPCs/EnvironmentalistNPC: "{NPCName}は自然の保護に本当に熱心だ！"
+	LoveNPC_HelpfulNPCs/FishermanNPC: "{NPCName}は一緒に釣りを楽しんでくれる！"
+	LoveNPC_HelpfulNPCs/HunterNPC: "{NPCName}はみんなをモンスターから守るために全力を尽くしている！"
+	LoveNPC_HelpfulNPCs/MinerNPC: "{NPCName}は資源を集めるために一生懸命働いている！"
+}

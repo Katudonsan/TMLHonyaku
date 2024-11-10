@@ -1,0 +1,420 @@
+Configs: {
+	WorldConfig: {
+		MoreSpiders: {
+			Tooltip: ""
+			Label: "[i:952] 追加のクモの住処"
+		}
+
+		HugeTemple: {
+			Tooltip: ""
+			Label: "[i:1153] 巨大なジャングル寺院"
+		}
+
+		OceanSpawn: {
+			Tooltip: ""
+			Label: "[i:324] 海のスポーン地点"
+		}
+
+		PyramidEntrance: {
+			Tooltip: ""
+			Label: "[i:848] ピラミッドの地下砂漠への入口を保証"
+		}
+
+		BigHives: {
+			Tooltip: ""
+			Label: "[i:5066] 大きな蜂の巣"
+		}
+
+		LivingTrees: {
+			Tooltip: ""
+			Label: "[i:832] より多くの地上の巨大樹"
+		}
+
+		OceanCaves: {
+			Tooltip: ""
+			Label: "[i:275] 海の洞窟を保証"
+		}
+
+		InvertedHell: {
+			Tooltip: ""
+			Label: "[i:207] 逆さまの地底世界"
+		}
+
+		BothOres: {
+			Tooltip: ""
+			Label: "[i:12][i:699] 両方の鉱石をスポーンさせる"
+		}
+
+		BothEvils: {
+			Tooltip: ""
+			Label: "[i:68][i:1330] 両方の汚染バイオーム"
+		}
+
+		DisplayName: 両方の世界のベストな設定
+		Header0: 倍率
+		Header1: Drunk シード
+		Header2: Celebration シード
+		Header3: For the Worthy シード
+
+		MarbleMultiplier: {
+			Label: "[i:3157] 大理石の洞窟の倍率"
+			Tooltip: ""
+		}
+
+		GraniteMultiplier: {
+			Label: "[i:3086] 御影石の洞窟の倍率"
+			Tooltip: ""
+		}
+
+		MarbleGraniteSwapped: {
+			Label: "[i:3157][i:3086] 大理石と御影石の交換"
+			Tooltip: ""
+		}
+
+		GlowingMushroomMultiplier: {
+			Label: "[i:183] キノコ群生地の倍率"
+			Tooltip: ""
+		}
+
+		LarvaMultiplier: {
+			Label: "[i:1133] 蜂の巣の倍率"
+			Tooltip: ""
+		}
+
+		LifeCrystalMultiplier: {
+			Label: "[i:29] ライフクリスタルの倍率"
+			Tooltip: ""
+		}
+
+		StatueMultiplier: {
+			Label: "[i:52] 像の倍率"
+			Tooltip: ""
+		}
+
+		ChestMultiplier: {
+			Label: "[i:306] 宝箱の倍率"
+			Tooltip: ""
+		}
+
+		SpiderMultiplier: {
+			Label: "[i:952] クモの住処の倍率"
+			Tooltip: ""
+		}
+
+		PotMultiplier: {
+			Label: "[i:345] 壺の倍率"
+			Tooltip: ""
+		}
+
+		TrapMultiplier: {
+			Label: "[i:539] トラップの倍率"
+			Tooltip: ""
+		}
+
+		DungeonMultiplier: {
+			Label: "[i:134] ダンジョンの切り替え"
+			Tooltip: ""
+		}
+
+		CaveMultiplier: {
+			Label: "[i:4761] 洞窟の倍率"
+			Tooltip: ""
+		}
+
+		GemMultiplier: {
+			Label: "[i:182] 宝石の倍率"
+			Tooltip: ""
+		}
+
+		AltarMultiplier: {
+			Label: "[i:86] アルターの倍率"
+			Tooltip: ""
+		}
+
+		HiveMultiplier: {
+			Label: "[i:1126] 蜂の巣の倍率"
+			Tooltip: ""
+		}
+
+		DungeonToggle: {
+			Label: "[i:134] ダンジョンの切り替え"
+			Tooltip: ""
+		}
+
+		FloatingIslandMultiplier: {
+			Label: "[i:838] 浮遊島の倍率"
+			Tooltip: ""
+		}
+
+		OreMultiplier: {
+			Label: "[i:13] 鉱石の倍率"
+			Tooltip: ""
+		}
+
+		LakeMultiplier: {
+			Label: "[i:3086] 湖の倍率"
+			Tooltip: ""
+		}
+
+		HeaderToggles:切り替え
+
+		UnderworldToggle: {
+			Label: "[i:318] 地底世界の切り替え"
+			Tooltip: ""
+		}
+
+		EvilToggle: {
+			Label: "[i:86][i:1329] 世界の汚染の切り替え"
+			Tooltip: ""
+		}
+
+		DesertToggle: {
+			Label: "[i:276] 砂漠の切り替え"
+			Tooltip: ""
+		}
+
+		JungleToggle: {
+			Label: "[i:208] ジャングルの切り替え"
+			Tooltip: ""
+		}
+
+		IceToggle: {
+			Label: "[i:2358] 雪原の切り替え"
+			Tooltip: ""
+		}
+
+		ShimmerMultiplier: {
+			Label: "[i:5357] エーテルの倍率"
+			Tooltip: ""
+		}
+
+		OceanToggle: {
+			Label: "[i:2625] 海の切り替え"
+			Tooltip: ""
+		}
+
+		MushroomToggle: {
+			Label: "[i:183] キノコ群生地の切り替え"
+			Tooltip: ""
+		}
+
+		TreeMultiplier: {
+			Label: "[i:4765] 木の倍率"
+			Tooltip: ""
+		}
+
+		LivingTreeMultiplier: {
+			Label: "[i:832] 巨大樹の倍率"
+			Tooltip: ""
+		}
+
+		HeaderExtras: Extras
+
+		SecondDungeon: {
+			Label: "[i:1169] 2つのダンジョン"
+			Tooltip: ""
+		}
+
+		AllLava: {
+			Label: "[i:4820] すべての液体を溶岩に置き換える"
+			Tooltip: ""
+		}
+
+		AllWater: {
+			Label: "[i:3031] すべての液体を水に置き換える"
+			Tooltip: ""
+		}
+
+		AllHoney: {
+			Label: "[i:5302] すべての液体を蜂蜜に置き換える"
+			Tooltip: ""
+		}
+
+		AllShimmer: {
+			Label: "[i:5364] すべての液体をシマーに置き換える"
+			Tooltip: ""
+		}
+
+		LiquidSwap: {
+			Label: "[i:3031][i:4820][i:5302][i:5364] 液体をランダムに入れ替える"
+			Tooltip: ""
+		}
+
+		CavesToggle: {
+			Label: "[i:315] 洞窟の切り替え"
+			Tooltip: ""
+		}
+
+		EarlyHardMode: {
+			Label: "[i:3335] ハードモードで開始"
+			Tooltip: ""
+		}
+
+		UndergroundDungeon: {
+			Label: "[i:1274] 地下ダンジョン"
+			Tooltip: ""
+		}
+
+		RainbowCabins: {
+			Label: "[i:662] 虹色の宝部屋"
+			Tooltip: ""
+		}
+
+		ExtraShimmer: {
+			Label: "[i:5340] 追加のシマープール"
+			Tooltip: ""
+		}
+
+		HeaderConstant: Constant シード
+
+		SurfaceSpiders: {
+			Label: "[i:2607] 地上のクモの洞窟"
+			Tooltip: ""
+		}
+
+		SurfaceMarble: {
+			Label: "[i:3157] 地上の大理石の洞窟"
+			Tooltip: ""
+		}
+
+		WavyCaves: {
+			Label: "[i:4524] 波状の洞窟"
+			Tooltip: ""
+		}
+
+		PaintEverything: {
+			Label: "[i:1073] すべてを塗る"
+			Tooltip: ""
+		}
+
+		HeaderTraps: No Traps シード
+
+		NoTraps: {
+			Label: '''[i:5384] トラップ"なし" '''
+			Tooltip: ""
+		}
+
+		HeaderRemix: Remix シード
+
+		EvilSurface: {
+			Label: "[i:59][i:2171] 邪悪な地上"
+			Tooltip: ""
+		}
+
+		SurfaceTemple: {
+			Label: "[i:1153] 地上の寺院"
+			Tooltip: ""
+		}
+
+		UnderworldSpawn: {
+			Label: "[i:207] 地底世界のスポーン地点"
+			Tooltip: ""
+		}
+
+		MushroomLayer: {
+			Label: "[i:183] キノコ層"
+			Tooltip: ""
+		}
+
+		AetherToggle: {
+			Label: "[i:5340] エーテルの切り替え"
+			Tooltip: ""
+		}
+
+		SurfaceMushroom: {
+			Label: "[i:183] 地上のキノコバイオーム"
+			Tooltip: ""
+		}
+
+		AetherIsland: {
+			Label: "[i:5340] エーテルの浮遊島"
+			Tooltip: ""
+		}
+
+		MinecartMultiplier: {
+			Label: "[i:2340] トロッコレールの倍率"
+			Tooltip: ""
+		}
+
+		SecondShimmer: {
+			Label: "[i:5340] 2つのシマー"
+			Tooltip: ""
+		}
+
+		MicroMultiplier: {
+			Label: "[i:2340][i:989] マイクロバイオームの倍率"
+			Tooltip: ""
+		}
+
+		HardModeOreMulti: {
+			Label: "[i:364] ハードモードの鉱石"
+			Tooltip: ""
+		}
+
+		HeaderPost: No Evil Spread Header
+
+		NoEvilSpread: {
+			Label: "[i:66] 汚染の拡大なし"
+			Tooltip: ""
+		}
+
+		RemixUnderworld: {
+			Label: "[i:207] 地底世界のリミックス"
+			Tooltip: ""
+		}
+
+		RandomSpawn: {
+			Label: "[i:267] ランダムなスポーン地点"
+			Tooltip: ""
+		}
+
+		MahoganyTrees: {
+			Label: "[i:3360] どこにでもマホガニーの木"
+			Tooltip: ""
+		}
+
+		spawnLocation: {
+			Label: "[i:267] スポーン地点"
+			Tooltip: ""
+		}
+
+		liquidReplace: {
+			Label: "[i:3031][i:4820][i:5302][i:5364] すべての液体を置き換える"
+			Tooltip: ""
+		}
+
+		startingNPC: {
+			Label: "[i:267] 開始時のNPC"
+			Tooltip: ""
+		}
+	}
+
+	SpawnLocation: {
+		Tooltip: ""
+		Normal.Label: ノーマル
+		Ocean.Label: 海
+		Underworld.Label: 地底世界
+		Random.Label: ランダム
+	}
+
+	LiquidReplace: {
+		Tooltip: ""
+		None.Label: なし
+		Water.Label: 水
+		Lava.Label: 溶岩
+		Honey.Label: 蜂蜜
+		Shimmer.Label: シマー
+		Random.Label: ランダム
+	}
+
+	StartingNPC: {
+		Tooltip: ""
+		Guide.Label: ガイド
+		PartyGirl.Label: パーティガール
+		Merchant.Label: 商人
+		Demolitionist.Label: 爆破技師
+		PartyGroup.Label: パーティグループ
+		TaxCollector.Label: 収税吏
+		Angler.Label: 釣り人
+	}
+}

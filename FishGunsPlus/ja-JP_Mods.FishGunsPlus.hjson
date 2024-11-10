@@ -1,0 +1,480 @@
+Items: {
+CrystalPelter: {
+	DisplayName: クリスタルペルター
+		Tooltip:
+		'''
+		55%の確率で弾薬を消費しない
+		マスケットの弾丸をクリスタル弾に変換する
+		'''
+}
+
+FleshRipper: {
+	DisplayName: フレッシュリッパー
+		Tooltip:
+		'''
+		55%の確率で弾薬を消費しない
+		マスケットの弾丸を霊液の弾丸に変換する
+		'''
+}
+
+Goldy: {
+	DisplayName: ゴールディ
+		Tooltip:
+		'''
+		40%の確率で弾薬を消費しない
+		偉大さへの第一歩！
+		'''
+}
+
+Luminous: {
+	DisplayName: ルミナス
+		Tooltip:
+		'''
+		60%の確率で弾薬を消費しない
+		天を貫け！
+		'''
+}
+
+SandShredder: {
+	DisplayName: サンドシュレッダー
+		Tooltip:
+		'''
+		55%の確率で弾薬を消費しない
+		ここに砂のブロックはない…
+		'''
+}
+
+ScabSplitter: {
+	DisplayName: スキャブスプリッター
+		Tooltip:
+		'''
+		55%の確率で弾薬を消費しない
+		マスケットの弾丸を呪炎の弾丸に変換する
+		'''
+}
+
+SuperheatedMegashark: {
+	DisplayName: スーパーヒーティドメガシャーク
+		Tooltip:
+		'''
+		55%の確率で弾薬を消費しない
+		マスケットの弾丸を爆発弾に変換する
+		'''
+}
+
+TheDreadnaut: {
+	DisplayName: ザ・ドレッドノート
+		Tooltip:
+		'''
+		50%の確率で弾薬を消費しない
+		マスケットの弾丸を血に変換する
+		銅の匂いがする…
+		'''
+}
+
+BlastingShark: {
+	DisplayName: ブラストシャーク
+		Tooltip: なんてこった、エビだ！
+}
+
+VileSpitter: {
+	DisplayName: バイルスピッター
+		Tooltip: うわ、ふにゃふにゃ
+}
+
+Genesis: {
+	DisplayName: ジェネシス
+		Tooltip:
+		'''
+		55%の確率で弾薬を消費しない
+		この中にサメが何匹いるんだ？！
+		'''
+}
+
+ThePerforator: {
+	DisplayName: ザ・パーフォレーター
+		Tooltip: 血が腕を伝って流れ落ちる
+}
+
+StingerFlinger: {
+	DisplayName: スティンガーフリンガー
+		Tooltip:
+		'''
+		33%の確率で弾薬を消費しない
+		マスケットの弾丸をスティンガーに変換する
+		'''
+}
+
+Voyager: {
+	DisplayName: ボイジャー
+		Tooltip:
+		'''
+		60%の確率で弾薬を消費しない
+		クジラのように楽しんでるかい？！
+		'''
+}
+
+BoneRattler: {
+	DisplayName: ボーンラトラー
+		Tooltip: あぁ、腕に巻きついてくる
+}
+
+FlarefinThrower: {
+	DisplayName: フレアフィンスロワー
+		Tooltip:
+		'''
+		70%の確率でジェルを消費しない
+		火傷に気をつけて！
+		'''
+}
+
+TheArapaima: {
+	DisplayName: ザ・アラパイマ
+		Tooltip:
+		'''
+		10%の確率で弾薬を消費しない
+		マスケットの弾丸を高速弾に変換する
+		'''
+}
+
+Leviathan: {
+	DisplayName: リヴァイアサン
+		Tooltip:
+		'''
+		70%の確率でジェルを消費しない
+		彼らはこの火力に備えていない！
+		'''
+}
+
+Bobshot: {
+	DisplayName: ボブショット
+		Tooltip:
+		'''
+		マスケットの弾丸をバウンシーボビン弾に変換する
+		ボビンしながら進む
+		'''
+}
+
+BigBlue: {
+	DisplayName: ビッグブルー
+		Tooltip:
+		'''
+		マスケットの弾丸を高速弾に変換する
+		右クリックでズームアウト
+		'''
+}
+
+ThePan: {
+	DisplayName: ザ・パン
+		Tooltip: マスケットの弾丸をバブル弾に変換する
+}
+
+GoldySupreme: {
+	DisplayName: ゴールディスプリーム
+		Tooltip: すべての人が苦しむことになるだろう！
+}
+
+StormSpreader: {
+	DisplayName: ストームスプレッダー
+		Tooltip: 33%の確率でボルテックスロケットの散弾を発射する
+}
+
+RhokhFhihsh: {
+	DisplayName: ロークフィシュ
+		Tooltip: 50%の確率でヒートレイバーストを発射する
+}
+
+Ribbongun: {
+	DisplayName: リボンガン
+		Tooltip:
+		'''
+		50%の確率で弾薬を消費しない
+		精度は低いが実用的
+		'''
+}
+
+RobinRifle: {
+	DisplayName: ロビンライフル
+		Tooltip:
+		'''
+		マスケットの弾丸を高速弾に変換する
+		右クリックでズームアウト
+		'''
+}
+
+MutantNightfish: {
+	DisplayName: ミュータントナイトフィッシュ
+		Tooltip:
+		'''
+		50%の確率で弾薬を消費しない
+		かすかに音を立てている
+		'''
+}
+
+LightMachineshark: {
+	DisplayName: ライトマシンシャーク
+		Tooltip: 55%の確率で弾薬を消費しない
+}
+
+TrueMutantNightfish: {
+	DisplayName: 真・ミュータントナイトフィッシュ
+		Tooltip: 50%の確率で弾薬を消費しない
+}
+
+TrueLightMachineshark: {
+	DisplayName: 真・ライトマシンシャーク
+		Tooltip:
+		'''
+		55%の確率で弾薬を消費しない
+		光らせろ！
+		'''
+}
+
+Gaia: {
+	DisplayName: ガイア
+		Tooltip:
+		'''
+		50%の確率で弾薬を消費しない
+		大地の力に満ち溢れている！
+		'''
+}
+
+PrismachineGun: {
+	DisplayName: プリズマシンガン
+		Tooltip:
+		'''
+		55%の確率で弾薬を消費しない
+		25%の確率でクリスタル弾を発射する
+		'''
+}
+
+DukeChainron: {
+	DisplayName: デュークチェインロン
+		Tooltip:
+		'''
+		55%の確率で弾薬を消費しない
+		ベーコンの香りがする
+		'''
+}
+
+DoubleBarrelCod: {
+	DisplayName: ダブルバレルコッド
+		Tooltip: フロッグを撃つのに最適！
+}
+
+MiniSharkron: {
+	DisplayName: ミニシャークロン
+		Tooltip: 55%の確率で弾薬を消費しない
+}
+
+WokeChainron: {
+	DisplayName: ウォークチェインロン
+		Tooltip:
+		'''
+		55%の確率で弾薬を消費しない
+		カリカリのベーコンの香りがする
+		'''
+}
+
+ButterflyRifle: {
+	DisplayName: バタフライライフル
+		Tooltip: 弾丸と一緒にバブルを発射する
+}
+
+Shasta: {
+	DisplayName: シャスタ
+		Tooltip: ピュー！
+}
+
+Toxicrap: {
+	DisplayName: トキシックラップ
+		Tooltip: 毒のバブルを噴射する
+}
+
+FishboneBullet: {
+	DisplayName: フィッシュボーン弾
+		Tooltip: 3つの骨に分裂する
+}
+
+GnoseHelmet: {
+	DisplayName: グノーシスヘルメット
+		Tooltip: グノーシスの変装にぴったり！一体どうやって手に入れたんだ？
+}
+
+GnoseClaws: {
+	DisplayName: グノーシスのツメ
+		Tooltip: グノーシスの変装にぴったり！一体どうやって手に入れたんだ？
+}
+
+SpectreBullet: {
+	DisplayName: スペクター弾
+		Tooltip: 2体のロストソウルに分裂する
+}
+
+Spectra: {
+	DisplayName: スペクトル
+		Tooltip:
+		'''
+		55%の確率で弾薬を消費しない
+		マスケットの弾丸をスペクター弾に変換する
+		'''
+}
+
+Crapshot: {
+	DisplayName: クラップショット
+		Tooltip: ビューン！ロック弾だ！
+}
+
+BassRifle: {
+	DisplayName: バスライフル
+		Tooltip: 誰しも最初はどこかから始まる
+}
+
+ShroomBullet: {
+	DisplayName: シュルーム弾
+		Tooltip: タイルに衝突するとキノコに分裂する
+}
+
+Tentazooka: {
+	DisplayName: テンタズーカ
+		Tooltip: テンタミサイル？そんなの聞いたことないよ！
+}
+
+YellowFrogfish: {
+	DisplayName: イエローフロッグフィッシュ
+		Tooltip:
+		'''
+		グレネードランチャーの変異体
+		遅いが強力な威力を持つ  
+		自爆には気をつけて！
+		'''
+}
+
+RedFrogfish: {
+	DisplayName: レッドフロッグフィッシュ
+		Tooltip:
+		'''
+		ロケットランチャーの変異体
+		遅いが強力な威力を持つ  
+		自爆には気をつけて！
+		'''
+}
+
+IronCrateLauncher: {
+	DisplayName: アイロンクレートランチャー
+		Tooltip: 鉄の箱を発射する
+}
+
+WoodenCrateLauncher: {
+	DisplayName: ウッデンクレートランチャー
+		Tooltip: 木箱を発射する
+}
+
+GoldenCrateLauncher: {
+	DisplayName: ゴールデンクレートランチャー
+		Tooltip: 黄金の箱を発射する
+}
+
+PearlwoodCrateLauncher: {
+	DisplayName: パールウッドクレートランチャー
+		Tooltip: パールウッドの木箱を発射する
+}
+
+MythrilCrateLauncher: {
+	DisplayName: ミスリルクレートランチャー
+		Tooltip: ミスリルの箱を発射する
+}
+
+TitaniumCrateLauncher: {
+	DisplayName: チタニウムクレートランチャー
+		Tooltip: チタンの箱を発射する
+}
+
+Crater: {
+	DisplayName: クレーター
+		Tooltip:
+		'''
+		セレスティアルのクレートを発射する  
+		撃つには最高の日だ！
+		'''
+}
+
+Bubbler: {
+	DisplayName: バブラー
+		Tooltip: あふれ出ている！
+}
+
+FCIBurn: {
+	DisplayName: F.C.I.バーン
+		Tooltip:
+		'''
+		70%の確率でジェルを消費しない
+		吹雪で燃やしてやれ！
+		'''
+}
+
+Spitfire: {
+	DisplayName: スピットファイア
+		Tooltip:
+		'''
+		70%の確率でジェルを消費しない
+		この炎は水中でも機能する！
+		'''
+}
+
+Goober: {
+	DisplayName: グーバー
+		Tooltip:
+		'''
+		マスケットの弾丸を緑のレーザーに変える
+		焼き魚の匂いがする
+		'''
+}
+
+Doober: {
+	DisplayName: ドゥーバー
+		Tooltip:
+		'''
+		40%の確率で弾薬を消費しない
+		マスケットの弾丸をメテオショットに変える
+		温かい感じがする
+		'''
+}
+
+BrokenFish: {
+	DisplayName: 化石化した英雄クジラ
+		Tooltip: ""
+}
+
+GoldenBlaze: {
+	DisplayName: ゴールデンブレイズ
+		Tooltip:
+		'''
+70%の確率でジェルを消費しない
+Through the Fire and Piss!
+		'''
+}
+
+Immolator: {
+	DisplayName: イモレイター
+		Tooltip:
+		'''
+		70%の確率でジェルを消費しない
+		火とアルコールを通して！
+		'''
+}
+
+Shadowflame: {
+	DisplayName: シャドウフレイム
+		Tooltip: 呪われている感じがする
+}
+
+Maelstrom: {
+	DisplayName: メイルストロム
+		Tooltip:
+		'''
+		70%の確率でジェルを消費しない
+		一つのデバフでは足りなかったから
+		'''
+}
+}

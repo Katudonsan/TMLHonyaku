@@ -1,0 +1,40 @@
+Configs: {
+	MaxLuckConfig: {
+		DisplayName: Max Luck Config
+
+		LuckValue: {
+			Label: 運の値
+			Tooltip: ""
+		}
+
+		LuckValueFloat: {
+			Label: 運に加算、0と1の間の数値
+			Tooltip: 例えば、5.3の運が欲しい場合など
+		}
+
+		negativeLuck: {
+			Label: この設定をオンにすると、運を負の値に設定できます
+			Tooltip: ""
+		}
+
+		AddOrSet: {
+			Label: 運を加算するか（オン）、直接設定するか（オフ）を選択します
+			Tooltip: 基本的に、通常の運に影響を与えるものは引き続き影響を与えます
+		}
+	}
+}
+
+Items: {
+	Butcher: {
+		DisplayName: 運命の幻覚
+		Tooltip:
+			'''
+			[c/FF1919:誇大妄想が不運な者たちの怒りとなって凝結した。]
+			[c/FF1919:これはすべての叶わぬ運命の夢の総和である。]
+			[c/FF1919:天を裂き、払われるべきものを勝ち取れ。]
+
+			左クリックで全ての敵を倒す
+			右クリックで敵、弾丸、ドロップアイテムを削除
+			'''
+	}
+}

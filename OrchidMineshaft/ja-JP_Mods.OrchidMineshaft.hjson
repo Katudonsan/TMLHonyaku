@@ -1,0 +1,77 @@
+Tiles: {
+	MineshaftCrate.MapEntry: 坑道の箱
+	MineshaftHookTile.MapEntry: 坑道フック
+	MineshaftPickaxeTile.MapEntry: 坑道のつるはし
+	MineshaftToolboxTile.MapEntry: 坑道のツールボックス
+	MinersLockboxTile.MapEntry: 鉱夫のロックボックス
+	MineshaftMusicBoxTile.MapEntry: オルゴール (坑道)
+}
+
+Buffs: {
+	HauntedCandle: {
+		DisplayName: 呪われたキャンドル
+		Description: 少し頼りない
+	}
+
+	ToolSetBuff: {
+		DisplayName: 鉱夫の滅亡
+		Description: トラップのダメージは軽減されない
+	}
+}
+
+Items: {
+	FragileWood: {
+		DisplayName: 壊れやすい木
+		Tooltip: 踏むと壊れる
+	}
+
+	HauntedCandle: {
+		DisplayName: 呪われたキャンドル
+		Tooltip: 道を照らす不思議なキャンドルを召喚する
+	}
+
+	MinersLockbox: {
+		DisplayName: 鉱夫のロックボックス
+		Tooltip: ""
+	}
+
+	MineshaftHook: {
+		DisplayName: 坑道フック
+		Tooltip: 上方向にしか発射できない
+	}
+
+	MiniatureTools: {
+		DisplayName: ミニチュアツール
+		Tooltip:
+			'''
+			少量の光を与える
+    		クールダウン中トラップダメージを減少させる
+			'''
+	}
+
+	MineshaftPickaxe: {
+		DisplayName: 坑道のつるはし
+		Tooltip: メテオライトを採掘できる
+	}
+
+	MineshaftMusicBox: {
+		DisplayName: オルゴール (坑道)
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	MineshaftHookProjectile.DisplayName: 脱出ロープ
+	HauntedCandle.DisplayName: 呪われたキャンドル
+}
+
+Configs: {
+	OrchidMineshaftConfig: {
+		DisplayName: Orchid Mineshaft Config
+
+		MineshaftMusic: {
+			Label: 坑道の音楽を有効にする
+			Tooltip: 坑道の音楽を再生できるようにする
+		}
+	}
+}

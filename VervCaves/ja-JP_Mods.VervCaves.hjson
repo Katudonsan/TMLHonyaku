@@ -1,0 +1,113 @@
+Items: {
+	GravityTrapItem: {
+		DisplayName: 重力トラップ
+		Tooltip: ""
+	}
+
+	PressureTrapItem: {
+		DisplayName: 圧力トラップ
+		Tooltip: ""
+	}
+
+	MushroomRing: {
+		DisplayName: キノコリング
+		Tooltip:
+			'''
+			倒した敵が回復オーブを放出
+			クールダウン 10秒
+			'''
+	}
+
+	MarbleStiletto: {
+		DisplayName: 大理石の小剣
+		Tooltip: 攻撃は周囲の敵に一定の3のボーナスダメージを与える
+	}
+
+	GraniteEmblem: {
+		DisplayName: 御影石のエンブレム
+		Tooltip: HPが90%以上の敵に対してダメージが75%増加する
+	}
+
+	ShimmerTrapItem: {
+		DisplayName: シマートラップ
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	GravityBuff: {
+		DisplayName: グラビティ
+		Description: 上に落ちていく。それとも下に落ちていくのか？
+	}
+}
+
+Projectiles: {
+	GravityPulse.DisplayName: Gravity Pulse
+	Pressure.DisplayName: Pressure
+	MushroomRingProjectile.DisplayName: Mushroom Heal
+	MarbleStilettoProjectile.DisplayName: Marble Stiletto Projectile
+	ShimmerSpray.DisplayName: Shimmer Spray
+}
+
+Configs: {
+	VervCavesConfig: {
+		DisplayName: Verv Caves Config
+
+		Headers: {
+			Rifts: リフト
+			Chasms: 深い裂け目
+			Large: 大坑道
+			Pressure: 圧力トラップ
+			Gravity: 重力トラップ
+			Traps: 過剰な数のトラップ
+			NoData: Modデータなし
+			Platforms: 足場
+			Shimmer: シマートラップ
+		}
+
+		Rift: {
+			Label: リフトの数を調整
+			Tooltip: 設定した値 %
+		}
+
+		Chasm: {
+			Label: 深い裂け目の数を調整
+			Tooltip: 設定した値 %
+		}
+
+		Large: {
+			Label: 坑道の数を調整
+			Tooltip: 設定した値 %
+		}
+
+		Pressure: {
+			Label: 圧力トラップの数を調整
+			Tooltip: 設定した値 %
+		}
+
+		Gravity: {
+			Label: 重力トラップの数を調整
+			Tooltip: 設定した値 %
+		}
+
+		Traps: {
+			Label: ワールドに過剰な数のトラップを配置
+			Tooltip: 警告済みです
+		}
+
+		NoData: {
+			Label: トラップやチェストの戦利品なし
+			Tooltip: このMODのトラップとチェストの戦利品を生成プロセスから削除し、ワールド作成後にMODをアンロードできるようにします。
+		}
+
+		Platforms: {
+			Label: 足場の数を調整
+			Tooltip: 設定した値 %
+		}
+
+		Shimmer: {
+			Label: シマートラップの数を調整
+			Tooltip: 設定した値 %
+		}
+	}
+}
