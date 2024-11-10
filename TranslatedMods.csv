@@ -1,4 +1,4 @@
-steamid,name,display name,main translator,version,note
+steam_id,internal_name,display_name,lead_translator ,version,note
 2599842771,AlchemistNPCLite,AlchemistNPC Lite,hazamax405,,
 2658783282,ApacchiisClassesMod2,Apacchii's Classes: Reborn,hazamax405,,
 2773928114,BetterExtractinator,Better Extractinator,katudonsan,,
