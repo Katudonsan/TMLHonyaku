@@ -1,4 +1,4 @@
-steam_id,internal_name,display_name,lead_translator ,version,note
+steam_id,internal_name,display_name,lead_translator,version,note
 2599842771,AlchemistNPCLite,AlchemistNPC Lite,hazamax405,,
 2658783282,ApacchiisClassesMod2,Apacchii's Classes: Reborn,hazamax405,,
 2773928114,BetterExtractinator,Better Extractinator,katudonsan,,
@@ -17,7 +17,7 @@ steam_id,internal_name,display_name,lead_translator ,version,note
 2797518634,ImproveGame,Quality of Terraria,hazamax405,,
 2619954303,RecipeBrowser,Recipe Browser,sysnote8,,
 2562997415,ShorterRespawn,Shorter Respawn Time,katudonsan,,
-2839001756,UnofficialCalamityWhips,Unofficial Calamity Whips,"hazamax405 ",,
+2839001756,UnofficialCalamityWhips,Unofficial Calamity Whips,hazamax405,,
 2563851005,WMITF,Which Mod Is This From? (WMITF),katudonsan,,
 2909886416,ThoriumMod,Thorium Mod,Hurugitune,1.7.1.6,ブロック以外は全て翻訳済み。ほとんど推敲済み。
 3114886209,RagnarokMod,Ragnarok,Hurugitune,1.4.2.1,全て翻訳済み。ほとんど推敲済み。
