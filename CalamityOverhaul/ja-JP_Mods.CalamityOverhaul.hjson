@@ -294,7 +294,7 @@ Items: {
     }
 
     DivineSourceBlade: {
-        DisplayName: 神聖源の刃
+        DisplayName: 神聖なる刃
         Tooltip: 最初に貫いた敵を細切れにする高速の刃を放つ
     }
 
@@ -574,7 +574,7 @@ Items: {
     }
 
     DragonsScaleGreatsword: {
-        DisplayName: 龍海藻の大剣
+        DisplayName: 龍藻の大剣
         Tooltip: 敵を追尾する毒の雲を放つ
     }
 
@@ -838,8 +838,8 @@ Items: {
     }
 
     OverhaulTheBibleBook: {
-        DisplayName: 改造の聖書
-        Tooltip: Calamity Overhaul Modに関連するチュートリアルを見る... 今後さらなる内容が追加されるかもしれない
+        DisplayName: 改造の書
+        Tooltip: Calamity Overhaul Modに関連するチュートリアルを見る... 今後さらなる内容が追加されるかもしれない....
     }
 
     ContagionEcType: {
@@ -1213,9 +1213,9 @@ Items: {
         DisplayName: 弾丸充填式ショットガン
         Tooltip:
             '''
-            大量の跳弾を発射
+            跳弾する散弾を発射
             1回の使用で5発の弾丸を消費
-            「照準？それは何だ?」
+            「エイム？なにそれ？」
             '''
     }
 
@@ -1729,7 +1729,7 @@ Items: {
     }
 
     AmmoBoxFire: {
-        DisplayName: 燃える弾薬箱
+        DisplayName: 炸裂弾専用箱
         Tooltip:
             '''
             長押しで設置できる
@@ -1848,7 +1848,7 @@ Items: {
     }
 
     DarkFrostSolstice: {
-        DisplayName: 暗黒霜の至点
+        DisplayName: ダークフロストキャノン
         Tooltip:
             '''
             雪玉を弾薬として使用する
@@ -4044,7 +4044,7 @@ TextContent: {
 		CWRRecipes_ApostolicRelics: 使徒の聖遺物
         CWRRecipes_GodEaterWeapon: 神喰いの武器
         CWRRecipes_FishGroup: 魚
-        LoadItemRecipe_Condition_Text1: バックパックにオーバーホール聖書の本が必要です
+        LoadItemRecipe_Condition_Text1: バックパックに改造の書が必要です
         Murasama_Text0: ロック解除済み
         Murasama_Text1: まだロック解除されていません。テスト2に合格する必要があります
         Murasama_Text2: まだロック解除されていません。テスト5に合格する必要があります
@@ -4066,14 +4066,14 @@ TextContent: {
         SupertableUI_Text3: なし
 		OverhaulTheBibleUI_Text:
             '''
-            マウスホイールをスワイプするか左のプログレスバーをドラッグしてリセットアイテムを上下に移動
-            これらは参考用であり、多くの部分的な変更はこのリストに表示されません
+            マウスホイールをスワイプするか左のバーをドラッグしてページを上下に移動させることができる
+            一部の武器はこのリストに表示されません
             '''
-		OverhaulTheBibleUI_Text1: 近接戦士を監視
-        OverhaulTheBibleUI_Text2: 射手を監視
-        OverhaulTheBibleUI_Text3: 魔法使いを監視
-        OverhaulTheBibleUI_Text4: 召喚士を監視
-        OverhaulTheBibleUI_Text5: 盗賊を監視
+		OverhaulTheBibleUI_Text1: 近接武器を表示
+        OverhaulTheBibleUI_Text2: 遠隔武器を表示
+        OverhaulTheBibleUI_Text3: 魔法を表示
+        OverhaulTheBibleUI_Text4: 召喚武器を表示
+        OverhaulTheBibleUI_Text5: ローグ武器を表示
         Wap_Minishark_Text:
             '''
             「特筆すべきは、小さなサメが射撃場で'銃器コンサルタント'として仕事をしていることだ」
@@ -4082,7 +4082,7 @@ TextContent: {
             '''
             「もっと大きな絵が必要だな、そうだろう？」
             '''
-        Wap_HandGun_Text: バーン！ダーン！バン！！
+        Wap_HandGun_Text: 「バーン！ダーン！バン！！」
         Wap_Flintlockpistol_Text:
             '''
             古い拳銃、爆発するかもしれない
@@ -4090,22 +4090,22 @@ TextContent: {
             '''
         Wap_Musket_Text:
             '''
-            「民兵は言った、'準備しておかねばならない'と」
+            「民兵は言った、...準備しておかねばならないと」
             '''
         Wap_TheUndertaker_Text:
             '''
             「葬儀屋が依頼人の協力を得られない時、彼らはしばしばこれを使って落ち着かせる」
             '''
         Wap_RedRyder_Text: "自分の目玉を撃ち抜かないように！"
-        Wap_FlareGun_Text: スターターガンと間違えないように！
+        Wap_FlareGun_Text: 「スターターガンと間違えないように！」
         Wap_PhoenixBlaster_Text:
             '''
-            「ヘルストーンの武器は火をコントロールできない？実際、弾丸は熱に耐えられないのだ」
+            「ヘルストーンの武器は火をコントロールできないだって？当たり前だろ、弾丸は熱に耐えられないんだ」
             '''
 		Wap_Sandgun_Text:
             '''
-            右クリックでより多くの砂爆弾を散布する
-            「これを持って砂に埋もれれば、アリジゴクのふりができるぞ」
+            右クリックでより多くの砂爆弾を発射する
+            「これを持って砂に埋もれれば、アリジゴクごっこができるぞ」
             '''
 		Wap_StarCannon_Text:
             '''
@@ -4121,28 +4121,28 @@ TextContent: {
         Wap_ZapinatorOrange_Text: これがあなたのラッキーライト
 		Wap_QuadBarrelShotgun_Text:
             '''
-            弾丸の散弾を発射する
-            "照準を合わせる必要がないよう、怪物の目に銃身を突っ込め"
+            散弾を発射する
+            「至近距離なら、照準を合わせる必要もない」
             '''
 		Wap_TacticalShotgun_Text:
             '''
-            弾丸の散弾を発射する
-            "すべての恐怖は火力不足から来る。そうでなければ、必ず火力不足なのだ"
+            散弾を発射する
+            「すべての恐怖は火力不足が原因だ」
             '''
 		Wap_Shotgun_Text:
 			'''
-			弾丸の散弾を発射する
-			「武器商人は弾丸をより多く売りたいがために、この銃にもっと多くの銃身を付けることを望んだ」
+			散弾を発射する
+			「武器商人は弾丸をより多く売りたいがために、この銃に多くの銃身を取り付けたらしい...」
 			'''
 		Wap_Boomstick_Text:
 			'''
-			弾丸の散弾を発射する
+			散弾を発射する
 			「私には時間がない」
 			'''
 		Wap_ClockworkAssaultRifle_Text:
 			'''
-			一度に3発の弾丸を発射する
-			「なぜ彼らが時を刻むのか、そしてどうすれば止められるのか、私には分かっている」
+			3点バーストで射撃する
+			「なぜ時を刻むのか、そしてどうすれば止められるのか、私には分かる」
 			'''
 		Wap_SnowballCannon_Text:
 			'''
@@ -4152,7 +4152,7 @@ TextContent: {
 		Wap_Uzi_Text:
 			'''
 			通常弾を高速弾に変換する
-			「軽量で致命的、両手持ちにしないのは単なる無駄遣い」
+			「両手持ちにしない理由？弾がもったいないからさ」
 			'''
 		Wap_VenusMagnum_Text:
 			'''
@@ -4167,11 +4167,11 @@ TextContent: {
 			'''
 		Wap_SniperRifle_Text:
 			'''
-			マスケット弾または狙撃手の弾丸を高速弾に変換する
-			狙撃時間が長いほど、精度とダメージが増加する
+			マスケット弾またはスナイパーの弾を高速弾に変換する
+			チャージが長いほど、精度とダメージが増加する
 			マガジンには4発装填可能で、最初の3発はクリティカルヒットを発生させないが、4発目は必ずクリティカルヒットになる
-			発射された弾丸は対象の防具を無視する
-			騎乗生物は、この精密武器の精度に影響を与える
+			発射された弾丸は防具力を無視する
+			マウントは、この精密武器の精度に影響を与える
 			武器の威力は時間とともに半減する
 			「十字が君を狙うとき、死神が君の額にキスをする」
 			'''
@@ -4220,29 +4220,29 @@ TextContent: {
 			'''
 		Wap_PalladiumRepeater_Text:
 			'''
-			1本または2本の散布矢を発射する
-			「パラジウムで作られたクロスボウは、二本矢の散布術の基礎を掴ませてくれるだろう」
+			1本または2本の矢を発射する
+			「パラジウムで作られたクロスボウは、射撃のコツを掴ませてくれるだろう」
 			'''
 		Wap_MythrilRepeater_Text:
 			'''
 			高速で矢を発射
-			矢が敵を追加で貫通する
+			矢が敵を貫通する
 			「ミスリルで作られたクロスボウ、より強く、より力強い」
 			'''
 		Wap_OrichalcumRepeater_Text:
 			'''
-			散弾矢を2発発射する
-			「オリハルコンで作られたクロスボウは、二本矢の散弾術を完全に習得することができます」
+			矢を2発発射する
+			「オリハルコンで作られたクロスボウは、射撃のコツを完全に習得することができます」
 			'''
 		Wap_AdamantiteRepeater_Text:
 			'''
-			高速な矢を発射する
+			高速矢を発射する
 			矢は追加で2体の敵を貫通する
-			「アダマンタイトで作られたクロスボウ、強力無比！」
+			「アダマンタイトで作られたクロスボウ、最強だ！」
 			'''
 		Wap_TitaniumRepeater_Text:
 			'''
-			散弾矢を2〜3発発射する
+			矢を2〜3発発射する
 			「チタン製のクロスボウで、2本の矢では的を外しやすいことに気付き、3本試してみることにした」
 			'''
 		Wap_ChlorophyteShotbow_Text:
@@ -4253,35 +4253,36 @@ TextContent: {
 			'''
 		Wap_HallowedRepeater_Text:
 			'''
-			勢いを溜めて高速な矢を発射
-			矢は追加で2体の敵を貫通
-			同時に霊矢、聖なる矢、呪いの炎矢を発射
+			高速の矢を発射
+			矢は2体の敵を貫通する
+			同時に霊矢、聖なる矢、呪いの炎矢を発射する
 			「善と悪の力が共にこの矢の道を切り開く」
 			'''
 		Wap_GrenadeLauncher_Text:
 			'''
-			手榴弾の形でロケットを放物線状に発射
-			「ついに少ない労力でこれらの爆弾を発射する方法を見つけた。自分を傷つける可能性はまだあるけどね。」
+			榴弾を放物線状に発射する
+			「ついに少ない労力でこれらの爆弾を発射する方法を見つけた。自分を傷つける危険性はまだ残ったままだが...」
 			'''
 		Wap_RocketLauncher_Text:
 			'''
-			チャージしてロケットを発射。
-			ロケットが命中後、ボタンを押し続けると複数の小型補助ロケットを発射。
+			チャージしてロケットを発射する
+			ロケットが命中後、ボタンを押し続けると複数の小型補助ロケットを発射する
 			「ベッドに引っかかることはないはずだ」
 			'''
 		Wap_ElectrosphereLauncher_Text:
 			'''
-			電気装置を搭載したロケットを発射し、目標に命中すると電気を放出
+			電気装置を搭載したロケットを発射し、目標に命中すると電気を放出する
 			「エイリアンのバーベキュー技術！」
 			'''
 		Wap_ProximityMineLauncher_Text:
 			'''
-			センサー付き地雷ロケットを発射。地雷は擬態し、ダメージが増加
+			センサー付き地雷ロケットを発射する
+			地雷は擬態し、ダメージが増加する
 			「マインスイーパーをやろう！」
 			'''
 		Wap_SnowmanCannon_Text:
 			'''
-			3発の追尾するイエティロケットを発射
+			3発の追尾するイエティロケットを発射する
 			「おい、これがお前のクリスマスプレゼントだ」
 			'''
 		SupertableUI_Text4: ディスプレイモニターを閉じる
@@ -4306,12 +4307,11 @@ TextContent: {
 			'''
 			[Magic Storage Mod]がインストールされていることを検出しました。
 			競合の問題を解決するため、MOD設定で[再帰的クラフト深度]を0に設定することを推奨します。
-			この再帰的クラフトの設定は、このMODと相互作用する際に、
-			すべてのクラフトイベントを誤って発動させ、ゲームプレイ体験に重大な影響を与える可能性があります。
+			この設定は、すべてのクラフトイベントを誤って発動させ、ゲームプレイに重大な影響を与える可能性があります。
 			'''
 		IconUI_Text0: MODのオープンソースリポジトリへ移動 :)
-		IconUI_Text1: 問題のフィードバック
-		IconUI_Text2: 謝辞
+		IconUI_Text1: フィードバック
+		IconUI_Text2: クレジット
 		IconUI_Text3: アーティスト
 		IconUI_Text4: コード支援
 		IconUI_Text5: 寄付者
@@ -4329,7 +4329,7 @@ TextContent: {
 		Error_1:
 			'''
 			フックが失敗しました。ゲームを正常化するために、ゲームを終了して再度入り直してください。
-			それでも正常に戻らない場合は、出力されたログを持ってモジュール開発者に問い合わせてください。
+			それでも正常に戻らない場合は、ログをモジュール開発者に見せてください。
 			'''
 		Error_2:
 			'''
@@ -4360,7 +4360,7 @@ TextContent: {
 		CWRGun_Recoil_Level_4: 強い
 		CWRGun_Recoil_Level_5: 非常に強い
 		CWRGun_Recoil_Level_6: 極めて強い
-		Wap_Revolver_Text: おい、お前は西部劇のキャラクターじゃないんだ。弾は一発一発装填しなきゃならない。
+		Wap_Revolver_Text: 「お前は西部劇のキャラクターじゃないんだ。弾は一発一発装填しなきゃならない。」
 		Wap_Gatligator_Text:
 			'''
 			「サメの銃も気に入ってるけど、最近はワニが気になってる。結局のところ、
@@ -4374,7 +4374,7 @@ TextContent: {
 			'''
 		Wap_DaedalusStormbow_Text:
 			'''
-			左クリックで空から複数の矢を散布
+			左クリックで空から複数の矢を放つ
 			右クリックで素早く強力な一発を放つ
 			「嵐とも天使とも関係ないんだ」
 			'''
@@ -4384,11 +4384,11 @@ TextContent: {
 			「レンジャーの旅が始まろうとしている」
 			矢は目標に命中すると木の実に変化する
 			'''
-		Wap_DemonBow_Text: 「デーモナイト？これが一番効率の悪い使い方みたいだね」
+		Wap_DemonBow_Text: 「デモナイト？これが一番効率の悪い使い方みたいだね」
 		Wap_IronBow_Text:
 			'''
 			鉄製！
-			矢が目標に命中すると、プレイヤーに一時的な鉄の肌バフを付与する
+			矢が敵に命中すると、プレイヤーに一時的な「鉄の肌」バフを付与する
 			'''
 		Wap_TungstenBow_Text:
 			'''
@@ -4402,7 +4402,7 @@ TextContent: {
 			'''
 		Wap_TendonBow_Text:
 			'''
-			悪魔が耳元でささやく。
+			悪魔が耳元でささやく...
 			矢が目標に命中すると、プレイヤーに一時的な恐怖バフを付与する
 			'''
 		Wap_SilverBow_Text:
@@ -4434,7 +4434,7 @@ TextContent: {
 		Wap_IceBow_Text:
 			'''
 			氷製！
-			強力な三連射を持つ。
+			矢を3連射する
 			木の矢を凍結の矢に変換する
 			矢が目標に命中すると、氷の霧を生成する
 			'''
@@ -4450,21 +4450,21 @@ TextContent: {
 			'''
 		Wap_DD2BetsyBow_Text:
 			'''
-			水平に分裂する5本の矢を発射。
-			空中の目標に対して増加したダメージを与える
+			水平に分裂する5本の矢を発射する
+			空中の敵にヒットするとダメージが増加する
 			'''
 		Wap_NeutronBow_LoadingText1: 重力を捕捉中
-		Wap_NeutronBow_LoadingText2: 重力を降伏させています
+		Wap_NeutronBow_LoadingText2: 重力を支配しています
 		Wap_NeutronBow_LoadingText3: 準備完了！！
 		Wap_Gladius_Text: 速くて鋭い
-		Wap_WoodenBoomerang_Text: 潜伏攻撃で素早く3本のブーメランを投擲
-		Wap_Flamarang_Text: 潜伏攻撃で素早く3本のブーメランを投擲
-		Wap_EnchantedBoomerang_Text: 潜伏攻撃で素早く3本のブーメランを投擲し、目標に命中すると落星を召喚
-		Wap_Shroomerang_Text: 潜伏攻撃でキノコの胞子爆弾を放出
-		Wap_Spear_Text: 潜伏攻撃で強力な槍を投擲
+		Wap_WoodenBoomerang_Text: ステルス攻撃攻撃で素早く3本のブーメランを投擲する
+		Wap_Flamarang_Text: ステルス攻撃で素早く3本のブーメランを投擲する
+		Wap_EnchantedBoomerang_Text: 潜伏攻撃で素早く3本のブーメランを投擲し、目標に命中すると落星を召喚する
+		Wap_Shroomerang_Text: ステルス攻撃でキノコの胞子爆弾を放出する
+		Wap_Spear_Text: ステルス攻撃で強力な槍を投擲する
 		Wap_VortexBeater_Text:
 			'''
-			一定の頻度でヴォーテックスロケットを発射
+			ヴォーテックスロケットを発射することがある
 			右クリックで最大パワーのヴォーテックスロケットを発射
 			'''
 		Wap_ChainGun_Text: 制圧射撃
