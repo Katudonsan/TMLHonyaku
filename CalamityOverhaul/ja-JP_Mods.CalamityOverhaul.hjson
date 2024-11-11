@@ -2408,8 +2408,8 @@ Items: {
     }
 
     GraniteRifle: {
-        DisplayName: 花崗岩製のライフル
-        Tooltip: マスケット弾を花崗岩の破片に変換する
+        DisplayName: 御影石製のライフル
+        Tooltip: マスケット弾を御影石の破片に変換する
     }
 
     MarbleRifle: {
@@ -4384,7 +4384,7 @@ TextContent: {
 			「レンジャーの旅が始まろうとしている」
 			矢は目標に命中すると木の実に変化する
 			'''
-		Wap_DemonBow_Text: 「デモナイト？これが一番効率の悪い使い方みたいだね」
+		Wap_DemonBow_Text: 「デモナイトの無駄遣い」
 		Wap_IronBow_Text:
 			'''
 			鉄製！
