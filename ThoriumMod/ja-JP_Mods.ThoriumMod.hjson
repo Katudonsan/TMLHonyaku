@@ -1309,7 +1309,7 @@ Buffs: {
 
 	ShambleBallDebuff: {
 		DisplayName: 拘束中
-		Description: 足枷をつけられてしまった！
+		Description: 鉄球をつけられてしまった！
 	}
 
 	SheathBuff: {
@@ -1796,7 +1796,7 @@ Empowerments: {
 
 	EmpowermentProlongation: {
 		DisplayName: エンパワーメント延長
-		Tooltip: +{0} {^0:second;seconds}
+		Tooltip: エンパワーメント +{0} {^0:秒;秒}延長
 	}
 
 	FlatDamage: {
@@ -1816,7 +1816,7 @@ Empowerments: {
 
 	JumpHeight: {
 		DisplayName: ジャンプ高度
-		Tooltip: ジャンプ高度+{0} {^0:block;blocks}  
+		Tooltip: ジャンプ高度+{0} {^0:block;ブロック}  
 	}
 
 	LifeRegeneration: {
@@ -3851,38 +3851,38 @@ Items: {
 
 	AmberRing: {
 		DisplayName: 琥珀の指輪
-		Tooltip: 召喚ダメージを {0} 増加させる。
+		Tooltip: 召喚ダメージを {0} 増加させる
 	}
 
 	AmethystRing: {
 		DisplayName: アメジストの指輪
-		Tooltip: アーマーの貫通力を {0} 増加させる。
+		Tooltip: アーマーの貫通力を {0} 増加させる
 	}
 
 	AquamarineRing: {
 		DisplayName: アクアマリンの指輪
-		Tooltip: 神聖ダメージを {0} 増加させる。
+		Tooltip: 神聖ダメージを {0} 増加させる
 	}
 
 	ArtificersFocus: {
 		DisplayName: 名匠の首飾り
 		Tooltip:
 			'''
-			"{$Keybinds.AccessoryAbility.DisplayName}'キーを押し続けると、名匠の気力をチャージする。"
-			1秒ごとに次のダメージが20増加し、最大100まで増加する。
+			{$Keybinds.AccessoryAbility.DisplayName}キーを押し続けると、名匠の気力をチャージする
+			1秒ごとに次のダメージが20増加し、最大100まで増加する
 			'''
 	}
 
 	ArtificersRocketeers: {
 		DisplayName: 名匠のロケットブーツ
-		Tooltip: 名匠の気力を消費して、素早い飛行を可能にする。
+		Tooltip: 名匠の気力を消費して、素早い飛行を可能にする
 	}
 
 	ArtificersShield: {
 		DisplayName: 名匠の盾
 		Tooltip:
 			'''
-			被弾時に受けるノックバック量を減少させる。
+			被弾時に受けるノックバック量を減少させる
 			名匠の気力20ごとに防御力2増加
 			ダメージを受けると名匠の気力を20消耗する
 			'''
@@ -6662,8 +6662,8 @@ Items: {
 	}
 
 	JetstreamSheath: {
-		DisplayName: ジェットストリームシース
-		Tooltip: 剣の一撃は、{1} {^1:second;seconds} 間保持し使用しない場合、近くの敵に対して  {0}  の斬撃を放つ
+		DisplayName: 烈流の鞘
+		Tooltip: 剣を持っている時に{1} {^1:second;秒} 間攻撃しないとステルスが付与され、次に攻撃した時に {0}の追加攻撃を行う"
 	}
 
 	JewellersWallGrip: {
@@ -10137,7 +10137,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	}
 
 	PaganGrasp: {
-		DisplayName: 異教徒の掌握
+		DisplayName: 異教徒の杖
 		Tooltip:
 			'''
 			不吉な魔法が影となって噴出する
@@ -11515,7 +11515,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	}
 
 	LeatherSheath: {
-		DisplayName: 革のシース
+		DisplayName: 革の鞘
 	}
 
 	LeechingSheath: {
@@ -11554,7 +11554,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	TitanSlayerSheath: {
 		DisplayName: 巨人殺しの鞘
-		Tooltip: 剣の攻撃は、 {1} {^1:second;seconds} 使用されなかった場合、 {0} %のダメージをボスに与える
+		Tooltip: 剣を持っている時に {1} {^1:second;秒} 間攻撃しないとステルスが付与され、次に攻撃した時に {0} %の追加ダメージをボスに与える
 	}
 
 	WrithingSheath: {
@@ -16802,7 +16802,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		Tooltip:
 			'''
 			召喚ダメージ{0}%増加
-			セントリーたちは永遠に持続し、 {2} {^2:minute;minutes} に最大 {1} ％のダメージを獲得する
+			セントリーたちは永遠に持続し、 {2} {^2:minute;分} で最大 {1} ％のダメージを獲得する
 			'''
 	}
 
@@ -19152,7 +19152,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			DisplayName: "{0} ミュージックプレイヤー"
 			Tooltip:
 				'''
-				エンパワーメントの持続時間を {0} {^0:second;seconds} 延長する
+				エンパワーメントの持続時間を {0} {^0:second;秒} 延長する
 				"{1} のエンパワーメントレベルを {2} 増加させる"
 				'''
 		}
@@ -19943,7 +19943,7 @@ NPCs: {
 			SpawnCondition: Defeat [c/4dffb8:{$NPCs.TheGrandThunderBird.DisplayName}]
 		}
 
-		Button2: Sandstorm ({^0:80 Silver;1 Gold})
+		Button2: 砂嵐を起こす ({^0:80 Silver;1 Gold})
 	}
 
 	DissonanceSeer: {
@@ -27758,7 +27758,7 @@ Common: {
 			EatWhileFull: 満腹の状態では {$NPCs.Cook.DisplayName} の料理を食べることはできない
 		}
 
-		Sheath: 剣の攻撃は、 {1} {^1:second;seconds}使用されなかった場合、 {0}% のダメージを与える
+		Sheath: 剣を持っている時、 {1} {^1:second;秒}間攻撃しないとステルスが付与され、次に攻撃した時に {0}% の追加ダメージを与える
 	}
 
 	TreasureBag: トレジャーバッグ ({0})
@@ -27780,9 +27780,9 @@ DeathText: {
 }
 
 ThrowerTechniques: {
-	DisplayName: 術の巻物: {0}
-	TooltipBase: " '{$Keybinds.ThrowingTechnique.DisplayName}' を押す: {0} "
-	CostTooltip: " {0} {^0:technique point;technique points} コスト"
+	DisplayName: 術の巻物：{0}
+	TooltipBase: " '{$Keybinds.ThrowingTechnique.DisplayName}' を押すと、{0} "
+	CostTooltip: " {0} {^0:technique point;テクニカルポイント} コスト"
 	UseToEnable: 使用時にアクティブな技をセット｜投擲ダメージを与えてポイントを貯める
 	UseToDisable: 有効｜もう一度使うと無効｜投擲ダメージでポイント増加
 
@@ -27837,7 +27837,7 @@ ThrowerTechniques: {
 		DisplayName: ラストスタンド
 		Description:
 			'''
-			致命的なダメージを受けると自動的に発動し、{0} {^0:second;seconds}の無敵時間を付与する
+			致命的なダメージを受けると自動的に発動し、{0} {^0:second;秒}の無敵時間を付与する
 			無敵時間中、{1}%の投擲速度とダメージボーナスを得るが、効果時間終了時に死亡する
 			'''
 	}
