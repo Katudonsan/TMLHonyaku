@@ -3347,6 +3347,11 @@ Items: {
 			DisplayName: アストラルの間欠泉
 			Tooltip: ""
 		}
+		
+		BrimstoneLavaFountainItem: {
+			DisplayName: ブリムストーンの火山口
+			Tooltip: ""
+		}
 
 		SulphurousFountainItem: {
 			DisplayName: 硫黄水の間欠泉
@@ -3366,6 +3371,51 @@ Items: {
 		LanternCenter: {
 			DisplayName: ランタンセンター
 			Tooltip: お祝いのランタンで夜空を照らす
+		}
+
+		AstralProjector: {
+			DisplayName: 星界のプロジェクター
+			Tooltip: "「星界感染の影響をわずかに制御する」"
+		}
+
+		BlueDistortedMonolith: {
+			DisplayName: 歪んだ青のモノリス
+			Tooltip: "「現実の構造に局所的な亀裂を生じさせる」"
+		}
+
+		BossRushMonolith: {
+			DisplayName: ボスラッシュモノリス
+			Tooltip: "「終焉をもたらす」"
+		}
+
+		DeepSeaAnchor: {
+			DisplayName: 深海の錨
+			Tooltip: "「塩気を帯びた重い空気で周りを湿らせる」"
+		}
+
+		DraconicIncense: {
+			DisplayName: 竜炎の香
+			Tooltip: "「竜の炎で空気を燃え上がらせる」"
+		}
+
+		ExoObelisk: {
+			DisplayName: エクソのオベリスク
+			Tooltip: "「エクソエネルギーで大気を活性化させる」"
+		}
+
+		FrigidMonolith: {
+			DisplayName: 凍ったモノリス
+			Tooltip: "「冷たいオーロラで空を魔法にかける」"
+		}
+
+		PlagueHumidifier: {
+			DisplayName: 汚染された加湿器
+			Tooltip: "「空気中に軽い疫病を広める」"
+		}
+
+		PurpleDistortedMonolith: {
+			DisplayName: 歪んだ紫のモノリス
+			Tooltip: "「現実の構造に局所的な亀裂を生じさせる」"
 		}
 
 		NavyPrismTorch: {
@@ -9985,6 +10035,11 @@ Items: {
 				Tooltip: ナノレーザーの弾幕を放つ
 			}
 
+			NebulousCataclysm: {
+				DisplayName: 星雲の杖
+				Tooltip: "「 星雲の魔導士の真の力が、あなたの手に…」"
+			}
+
 			NightsRay: {
 				DisplayName: ナイトレイ
 				Tooltip:
@@ -10202,6 +10257,28 @@ Items: {
 			TearsofHeaven: {
 				DisplayName: ティアーズ・オブ・ヘブン
 				Tooltip: ゆっくりと動き、追尾する天の光を放つ
+			}
+
+			Teslastaff: {
+				DisplayName: Teslastaff
+				Tooltip:
+					'''
+					正確な雷のビームを発射する
+					この武器を使用している時、旋回速度が遅くなる
+					同じ敵に連続して当てるたびにダメージが増加する
+					ダメージは10%ずつ増加し、最大500%まで増加する
+					このダメージは敵への攻撃が途切れると急速に減少する
+					'''
+			}
+
+			TheCauldron: {
+				DisplayName: 灼熱の壺
+				Tooltip:
+					'''
+					爆発すると複数の石に砕ける岩石を発射する
+					溶岩の中または地底世界にいる間は、マナ消費が80%減少する
+					「信じられないかもしれないが、最初の使い手はわずか数センチメートルの大きさだった！」
+					'''
 			}
 
 			Photosynthesis: {
@@ -10601,6 +10678,11 @@ Items: {
 				Tooltip: 攻撃がヒットすると敵に槍が突き刺さり、しばらくすると爆発する
 			}
 
+			BotanicPiercer: {
+				DisplayName: Botanic Piercer
+				Tooltip: Fires a botanic energy beam
+			}
+
 			Brimlance: {
 				DisplayName: ブリムランス
 				Tooltip: 敵に命中した際にブリムストーンの爆発を起こす
@@ -10640,6 +10722,15 @@ Items: {
 					セカンダリ: [ATT2]
 					'''
 				DefaultFunction:「 何とも共鳴していない...」
+			}
+
+			BurningRevelation: {
+				DisplayName: 聖焔のヨーヨー
+				Tooltip:
+					'''
+					ヒット時に聖なる爆発を発生させる
+					非常に機敏なヨーヨー
+					'''
 			}
 
 			BurntSienna: {
@@ -11094,9 +11185,9 @@ Items: {
 				TooltipGFB: 「DoG戦で有効な武器になるかもしれない...」
 			}
 
-			LifefruitScythe: {
+			LifehuntScythe: {
 				DisplayName: 生命狩りの鎌
-				Tooltip: Heals you on hit and shoots an energy scythe
+				Tooltip: ヒット時に回復し、追加の鎌を放つ
 			}
 
 			LionHeart: {
@@ -11359,6 +11450,16 @@ Items: {
 					'''
 			}
 
+			Respiteblock: {
+				DisplayName: レスパイトブロック
+				Tooltip:
+					'''
+					緑と紫の血をまき散らす、きらめく白いチェーンソー
+					刃で敵を攻撃すると回復する
+					[c/0e8401:「危険であることはそこまで悪いことでもない」']
+					'''
+			}
+
 			Riptide: {
 				DisplayName: リプタイド
 				Tooltip: 螺旋状の水流を噴射する
@@ -11374,6 +11475,16 @@ Items: {
 					「剣が抜けなかったからって、岩ごと持ってくるヤツがあるか！」
 					'''
 				LockedInfo: 地獄の肉のような壁が、この武器の力を縛っている
+			}
+
+			SaharaSlicers: {
+				DisplayName: サハラスライサー
+				Tooltip:
+					'''
+					二刀のダガーで攻撃する
+					ダガーで敵を攻撃すると、ヒットごとに最大10発の投げナイフを2発ずつ得る
+					<right> を押すと集めたナイフを敵に投げつけることができる
+					'''
 			}
 
 			SausageMaker: {
@@ -11636,6 +11747,17 @@ Items: {
 					'''
 			}
 
+			TheOracle: {
+				DisplayName: オラクル
+				Tooltip:
+					'''
+					ヨーヨーの周りにチャージ赤い雷のオーラを展開する
+					攻撃が当たると充電され、最大になるとオーリックオーブを発射する
+					非常に機敏なヨーヨー
+					「過去、現在、未来、そしてあなたの避けられぬ死を見つめよ」
+					'''
+			}
+
 			TitanArm: {
 				DisplayName: 巨人の腕
 				Tooltip:
@@ -11751,6 +11873,15 @@ Items: {
 			Virulence: {
 				DisplayName: ヴィルレンス
 				Tooltip: 疫病の煙を発射する
+			}
+
+			VoidEdge: {
+				DisplayName: 深淵の刃
+				Tooltip:
+					'''
+					深淵の魂を放つ
+					刃での攻撃で、さらに追加の魂を地下から呼び出す
+					'''
 			}
 
 			VulcaniteLance: {
@@ -11876,6 +12007,15 @@ Items: {
 				Tooltip: マスケット銃の弾を水流に変える
 			}
 
+			Arietes41: {
+				DisplayName: Arietes 41
+				Tooltip:
+					'''
+					ライフスティールと電気を帯びた弾丸を交互に発射する
+					電気を帯びた弾丸は命中時に小さな衝撃波を発生させ、追加ダメージを与える
+					'''
+			}
+
 			ArterialAssault: {
 				DisplayName: アーテリアルアサルト
 				Tooltip:
@@ -11890,7 +12030,7 @@ Items: {
 				Tooltip: マスケット銃の弾を追尾するアストラル弾に変換する
 			}
 
-			AstralRepeater: {
+			AstralBow: {
 				DisplayName: アストラルボウ
 				Tooltip: 3本の矢を放つ
 			}
@@ -11905,7 +12045,7 @@ Items: {
 				Tooltip:
 					'''
 					敵の防御力を低下させる高速の光弾を発射する
-					<right> を押してズームアウト
+					<right> を押してスコープを使用
 					静止すると、ダメージボーナスが最大25%増加する
 					スコープ能力使用中に5秒以上静止すると、オーロラが召喚される
 					オーロラは次に命中する発射物のダメージを100減少させる
@@ -12535,6 +12675,18 @@ Items: {
 					'''
 			}
 
+			Kingsbane: {
+				DisplayName: キングスベイン
+				Tooltip:
+					'''
+					高速で弾丸を発射する
+					発射を止めるとオーリック弾の一斉射撃を行う
+					オーリック弾は敵に追尾し、50ポイントの防御を無視する
+					使用中は常に弾薬を消費する
+					90%の確率で弾薬を消費しない
+					'''
+			}
+
 			Minigun: {
 				DisplayName: ミニガン
 				Tooltip: 80%の確率で弾薬を消費しない
@@ -12572,12 +12724,22 @@ Items: {
 					'''
 			}
 
-			Norfleet: {
-				DisplayName: ノーフリート
-				Tooltip: 「全てを放つ！」
+			NitroExpressRifle: {
+				DisplayName: ニトロエクスプレスライフル
+				Tooltip: "[c/88354B:「反動が強すぎて肩が外れそうだ…」]"
 			}
 
-			NullificationRifle: {
+			Norfleet: {
+				DisplayName: ノーフリート
+				Tooltip:
+					'''
+					不規則なエネルギーの塊を発射する
+					3回発射すると、リロードのためにエネルギーを充電する必要がある
+					[c/FF9900:「なんでも吹き飛ばす！ 」]
+					'''
+			}
+
+			NullificationPistol: {
 				DisplayName: ヌルフィケーションピストル
 				Tooltip:
 					'''
@@ -13098,6 +13260,16 @@ Items: {
 			Vortexpopper: {
 				DisplayName: ボルテックスポッパー
 				Tooltip: 弾丸に弾ける泡をあちこちに発射
+			}
+
+			WildfireBloom: {
+				DisplayName: ワイルドファイアブルーム
+				Tooltip:
+					'''
+					チャージするとエネルギーを帯びた炎と追尾する炎を放つ
+					弾薬としてジェルを使用する
+					50%の確率で弾薬を消費しない
+					'''
 			}
 
 			WulfrumBlunderbuss: {
@@ -17044,7 +17216,7 @@ Items: {
 		}
 
 		InfectedArmorPlating: {
-			DisplayName: 感染した装甲板
+			DisplayName: 汚染された装甲板
 			Tooltip: ""
 		}
 
@@ -17095,6 +17267,11 @@ Items: {
 		MysteriousCircuitry: {
 			DisplayName: 神秘的な電気回路
 			Tooltip: ""
+		}
+		
+		Necroplasm: {
+			DisplayName: ネクロプラズム
+			Tooltip: 「恐ろしい悪意が渦巻き、煮えたぎっている」
 		}
 
 		NightmareFuel: {
@@ -17167,8 +17344,8 @@ Items: {
 			Tooltip: 「遮光性のある布」
 		}
 
-		Stardust: {
-			DisplayName: 星屑
+		StarblightSoot: {
+			DisplayName: 星痕の煤
 			Tooltip: ""
 		}
 
@@ -17198,7 +17375,7 @@ Items: {
 		}
 
 		TwistingNether: {
-			DisplayName: ねじれるネザー
+			DisplayName: ねじれたネザー
 			Tooltip: ""
 		}
 
