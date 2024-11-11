@@ -10260,7 +10260,7 @@ Items: {
 			}
 
 			Teslastaff: {
-				DisplayName: Teslastaff
+				DisplayName: テスラスタッフ
 				Tooltip:
 					'''
 					正確な雷のビームを発射する
