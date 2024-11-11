@@ -10679,8 +10679,8 @@ Items: {
 			}
 
 			BotanicPiercer: {
-				DisplayName: Botanic Piercer
-				Tooltip: Fires a botanic energy beam
+				DisplayName: ボタニックピアサー
+				Tooltip: 植物のエネルギービームを発射する
 			}
 
 			Brimlance: {
@@ -11456,7 +11456,7 @@ Items: {
 					'''
 					緑と紫の血をまき散らす、きらめく白いチェーンソー
 					刃で敵を攻撃すると回復する
-					[c/0e8401:「危険であることはそこまで悪いことでもない」']
+					[c/0e8401:「危険であることはそこまで悪いことでもない」]
 					'''
 			}
 
