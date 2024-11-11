@@ -13427,11 +13427,11 @@ Items: {
 					'''
 			}
 
-			DustsftormInABottle: {
+			DuststormInABottle: {
 				DisplayName: 瓶詰めの砂嵐
 				Tooltip:
 					'''
-					爆発する砂煙を投げる
+					拡散する砂煙を発生させる
 					ステルス攻撃は、より強力な砂煙を生成する
 					'''
 			}
