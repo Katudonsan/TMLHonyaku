@@ -168,28 +168,28 @@ TownNPCMood: {
 
 Buffs: {
 	BattleComb: {
-		DisplayName: 戦いのコンビネーション
-		Description: 鉄壁＋リストア＋耐久＋生命強化＋怒り＋激怒
+		DisplayName: 戦いの複合ポーション
+		Description: 鉄壁、リストア、耐久、生命強化、怒り、激怒のポーションの効果を併せ持つ
 	}
 
 	Blurring: {
-		DisplayName: ぼやけ
-		Description: 敵はあなたをはっきりと見ることができない (聖なる守りを10秒間得る 30秒のクールダウン)
+		DisplayName: 残像
+		Description: 敵はあなたを捉えることができない...
 	}
 
 	BuilderComb: {
-		DisplayName: 建築家のコンビネーション
-		Description: 建築＋冷静＋掘削
+		DisplayName: 建築家の複合ポーション
+		Description: 建築、冷静、掘削のポーションの効果を併せ持つ
 	}
 
 	CalamityComb: {
-		DisplayName: カラミティのコンビネーション
-		Description: Combination of Photosynthesis, Fabsol's Vodka, Soaring and Bounding's buffs
+		DisplayName: Calamityの複合ポーション
+		Description: ファブソルのウォッカと光合成、飛翔、弾性のポーションの効果を併せ持つ
 	}
 
 	Corrosion: {
 		DisplayName: 腐食
-		Description: あなたの肉体が溶けていく!
+		Description: 肉体が溶けていく...
 	}
 
 	DiscordBuff: {
@@ -197,9 +197,8 @@ Buffs: {
 		Description:
 			'''
 			ホットキーでカーソル位置までテレポートする
-			テレポート後1秒間プレイヤーを歪ませる
-			カオス状態の間、大ダメージを与える
-			カオス状態の時間が10秒延長される
+			テレポート後、プレイヤーを10秒間カオス状態にする
+			カオス状態中に再使用すると、大ダメージを受ける
 			'''
 	}
 
@@ -209,116 +208,115 @@ Buffs: {
 	}
 
 	ExplorerComb: {
-		DisplayName: 探検家のコンビネーション
+		DisplayName: 探検家の複合ポーション
 		Description:
 			'''
-			探検家＋危険察知＋狩人＋掘削＋暗視＋輝き
-			また、ギル、フリッパー、水中歩行ポーションの効果も与える
+			探検家、危険察知、狩人、掘削、暗視、輝き、エラ、水中歩行ポーションと足ヒレの効果を併せ持つ
 			'''
 	}
 
 	FishingComb: {
-		DisplayName: 釣り師のコンビネーション
-		Description: 箱＋探知＋釣り＋自然治癒＋茨＋鉄壁＋冷静＋獄炎
+		DisplayName: 釣り師の複合ポーション
+		Description: 箱、探知、釣り、自然治癒、茨、鉄壁、冷静、獄炎のポーションの効果を併せ持つ
 	}
 
 	Fortitude: {
 		DisplayName: 不屈
-		Description: ノックバックしない
+		Description: ノックバック耐性を得る
 	}
 
 	GreaterDangersense: {
-		DisplayName: より深い危険察知
+		DisplayName: 上級危険察知
 		Description: 敵の発射物を光らせる
 	}
 
 	LongInvincible: {
-		DisplayName: 長い透明化
-		Description: 透明な時間を増やす
+		DisplayName: 上級透明化
+		Description: 透明になれる
 	}
 
 	MageComb: {
-		DisplayName: 魔術師のコンビネーション
-		Description: 魔法力＋マナ自然回復＋怒り＋激怒
+		DisplayName: 魔術師の複合ポーション
+		Description: 魔法力、マナ自然回復、怒り、激怒のポーションの効果を併せ持つ
 	}
 
 	NinjaSkill: {
 		DisplayName: 忍者
-		Description: あなたは本物の忍者だ
+		Description: 本物の忍者になったような気分だ...
 	}
 
 	RangerComb: {
-		DisplayName: 射手のコンビネーション
-		Description: 弾丸節約＋弓使い＋怒り＋激怒ｘ
+		DisplayName: 射手の複合ポーション
+		Description: 弾丸節約、弓使い、怒り、激怒のポーションの効果を併せ持つ
 	}
 
 	StationUltimaBuff: {
-		DisplayName: ステーションウルトラ
-		Description: 全ステーションの効果を同時に付与
+		DisplayName: 最強のワークベンチ
+		Description: 全ての作業台の効果を得る
 	}
 
 	SummonerComb: {
-		DisplayName: 召喚師のコンビネーション
-		Description: 召喚＋魔術の力＋闘争
+		DisplayName: 召喚師の複合ポーション
+		Description: 召喚、魔術の力、闘争のポーションの効果を併せ持つ
 	}
 
 	Sunshine: {
 		DisplayName: 太陽光
-		Description: あなたはミニチュアの太陽のような光を生み出している
+		Description: 太陽のような光を生み出している
 	}
 
 	TankComb: {
-		DisplayName: タンクのコンビネーション (Modアイテム)
-		Description: 鉄壁＋自然回復＋生命強化＋耐久＋黒曜石の肌＋茨＋巨人の肌＋無敵
+		DisplayName: タンクの複合ポーション (Mod)
+		Description: 鉄壁、自然回復、生命強化、耐久、黒曜石の肌、茨、巨人の肌、無敵のポーションの効果を併せ持つ
 	}
 
 	TitanSkin: {
 		DisplayName: 巨人の肌
-		Description: 重いデバフ耐性を持っている
+		Description: 高いデバフ耐性
 	}
 
 	TrapsBuff: {
 		DisplayName: 罠バフ
-		Description: トラップがパワーアップ
+		Description: トラップが強化される
 	}
 
 	TrueDiscordBuff: {
-		DisplayName: 真ディスコード
+		DisplayName: トゥルーディスコード
 		Description:
 			'''
 			ホットキーでカーソル位置までテレポートする
-			ロッド・オブ・ディスコードと全く同じ動きをする
+			ロッド・オブ・ディスコードと全く同じ動作をする
 			'''
 	}
 
 	UniversalComb: {
-		DisplayName: 万能のコンビネーション
-		Description: タンク、射手、魔術師、召喚師の4つのコンビネーションポーションの効果
+		DisplayName: 万能の複合ポーション
+		Description: タンク、射手、魔術師、召喚師の複合ポーションの効果を併せ持つ
 	}
 
 	VanTankComb: {
-		DisplayName: タンクのコンビネーション (バニラ)
-		Description: 鉄壁＋自然回復＋生命強化＋耐久＋黒曜石の肌＋茨
+		DisplayName: タンクの複合ポーション (バニラ)
+		Description: 鉄壁、自然回復、生命強化、耐久、黒曜石の肌、茨のポーションの効果を併せ持つ
 	}
 
 	ThoriumComb: {
-		DisplayName: Thorium Comb
-		Description: Combination of Assassin, Blood, Frenzy, Glowing, Holy, Creativity, Earworm, Inspiration Reach and Hydrataion potions
+		DisplayName: Thoriumの複合ポーション
+		Description: 暗殺者、血、怒り、光る、聖なる、創造性、イヤーワーム、ひらめき、水分補給のポーションの効果を併せ持つ
 	}
 }
 
 Items: {
 	BattleCombination: {
-		DisplayName: 戦いのコンビネーション
-		Tooltip: 戦闘に必要なバフを付与する (鉄壁＋リストア＋耐久＋生命強化＋怒り＋激怒)
+		DisplayName: 戦いの複合ポーション
+		Tooltip: 戦闘に必要なバフを得る(鉄壁、リストア、耐久、生命強化、怒り、激怒)
 	}
 
 	BeachTeleporterPotion: {
-		DisplayName: ビーチテレポートポーション
+		DisplayName: 海岸転送ポーション
 		Tooltip:
 			'''
-			ビーチへテレポート
-			使用するマウスボタンに依存
+			海岸へテレポート
+			どちら側の海岸になるかは、押したマウスボタンによって決まる
 			'''
 	}
 
@@ -326,28 +324,29 @@ Items: {
 		DisplayName: 妖しいポーション
 		Tooltip:
 			'''
-			妖しいバフを得る (召喚数を増やす)
-			カラミティのバフポーションではありません
+			召喚数を増やす妖しいバフを得る
+			Calamityのバフポーションではない
 			'''
 	}
 
 	BlurringPotion: {
-		DisplayName: ぼかしポーション
+		DisplayName: 残像のポーション
 		Tooltip:
 			'''
-			ぼかしバフを得る (30秒のCDの後、10秒間シャドウ・ドッジが発動する)
-			カラミティのバフポーションではありません
+			残像バフを得る
+			10秒間シャドウ・ドッジが発動するが、30秒のクールダウンがある
+			Calamityのバフポーションではない
 			'''
 	}
 
 	BuilderCombination: {
 		DisplayName: 建築家のポーション
-		Tooltip: 建築に必要なバフを得る (建築＋冷静＋掘削)
+		Tooltip: 建築に必要なバフを得る (建築、冷静、掘削)
 	}
 
 	CalamityCombination: {
-		DisplayName: カラミティのコンビネーション
-		Tooltip: カラミティModのバフを得る (Photosynthesis, Fabsol's Vodka, Soaring and Bounding)
+		DisplayName: Calamityの複合ポーション
+		Tooltip: Calamity Modのバフを得る (ファブソルのウォッカと光合成、飛翔、弾性のポーション)
 	}
 
 	DiscordPotion: {
@@ -355,20 +354,19 @@ Items: {
 		Tooltip:
 			'''
 			ホットキーでカーソル位置までテレポートする
-			テレポート後1秒間プレイヤーを歪ませる
-			カオス状態の間、大ダメージを与える
-			カオス状態の時間が10秒に増加
-			カラミティのバフポーションではありません
+			テレポート後、プレイヤーを10秒間カオス状態にする
+			カオス状態中にテレポートすると、大ダメージを受ける
+			Calamityのバフポーションではない
 			'''
 	}
 
 	Dopamine: {
 		DisplayName: ドーパミン
-		Tooltip: 幸せな気持ちになります
+		Tooltip: 幸せな気持ちでいっぱいだ...
 	}
 
 	DungeonTeleportationPotion: {
-		DisplayName: ダンジョンテレポートポーション
+		DisplayName: ダンジョン転送ポーション
 		Tooltip: ダンジョンの入口にテレポートする
 	}
 
@@ -378,18 +376,18 @@ Items: {
 			'''
 			採掘範囲を1ブロックから3x3に拡大
 			バフを右クリックすると、採掘範囲が1x1と3x3の間で変更される
-			カラミティのバフポーションではありません
+			Calamityのバフポーションではない
 			'''
 	}
 
 	ExplorerCombination: {
-		DisplayName: 探検家のコンビネーション
-		Tooltip: 探検に必要なバフを得る (探検家＋危険察知＋狩人＋掘削＋暗視＋輝き)
+		DisplayName: 探検家の複合ポーション
+		Tooltip: 探検に必要なバフを得る (探検家、危険察知、狩人、掘削、暗視、輝き)
 	}
 
 	FishingCombination: {
-		DisplayName: 釣り師のコンビネーション
-		Tooltip: 箱＋探知＋釣り＋自然治癒＋茨＋鉄壁＋冷静＋獄炎
+		DisplayName: 釣り師の複合ポーション
+		Tooltip: 釣りに必要なバフを得る(箱、探知、釣り、自然治癒、茨、鉄壁、冷静、獄炎)
 	}
 
 	FortitudePotion: {
@@ -397,15 +395,16 @@ Items: {
 		Tooltip:
 			'''
 			ノックバックしなくなる
-			カラミティのバフポーションではありません
+			Calamityのバフポーションではない
 			'''
 	}
 
 	GreaterDangersensePotion: {
-		DisplayName: より深い危険察知のポーション
+		DisplayName: 上級危険察知のポーション
 		Tooltip:
 			'''
-			より深い危険察知のバフを得る (敵の発射物を光らせる)
+			より強力な危険察知のバフを得る
+			敵の発射物を光らせる
 			この効果は全プレイヤーに適用される
 			'''
 	}
@@ -415,23 +414,23 @@ Items: {
 		Tooltip:
 			'''
 			ダメージを受けた後の無敵時間が長くなる
-			カラミティのバフポーションではありません
+			Calamityのバフポーションではない
 			'''
 	}
 
 	JungleTeleporterPotion: {
-		DisplayName: ジャングルテレポートポーションｈ
+		DisplayName: ジャングル転送ポーション
 		Tooltip:
 			'''
-			ジャングルにてレポートします
-			左クリックでジャングルの植物にテレポート
-			右クリックでリビング・マホガニーの葉にテレポート
+			ジャングルにテレポートする
+			左クリックでジャングルの木にテレポート
+			右クリックでリビングマホガニーの葉にテレポート
 			'''
 	}
 
 	MageCombination: {
-		DisplayName: 魔術師のコンビネーション
-		Tooltip: 魔術師に必要なバフを得る (魔法力＋マナ自然回復＋怒り＋激怒)
+		DisplayName: 魔術師の複合ポーション
+		Tooltip: 魔術師に必要なバフを得る (魔法力、マナ自然回復、怒り、激怒)
 	}
 
 	AlchemistCharmTier1: {
@@ -439,7 +438,7 @@ Items: {
 		Tooltip:
 			'''
 			これがインベントリにある間は、低確率でポーションを消費しない
-			錬金術師、醸造屋、若い醸造屋 は10%割引
+			錬金術師、醸造屋、若い醸造屋のショップで10%割引してもらえる
 			バフの持続時間が10%長くなる
 			'''
 	}
@@ -450,7 +449,7 @@ Items: {
 			'''
 			これがインベントリにある間は、中程度の確率でポーションを消費しない
 			豚の貯金箱のポーションをクイックバフで使えるようになる
-			錬金術師、醸造屋、若い醸造屋 は25%割引
+			錬金術師、醸造屋、若い醸造屋のショップで25%割引してもらえる
 			バフの持続時間が25%長くなる
 			'''
 	}
@@ -461,7 +460,7 @@ Items: {
 			'''
 			これがインベントリにある間は、高い確率でポーションを消費しない
 			豚の貯金箱のポーションをクイックバフで使えるようになる
-			錬金術師、醸造屋、若い醸造屋 は35%割引
+			錬金術師、醸造屋、若い醸造屋のショップで35%割引してもらえる
 			バフの持続時間が35%長くなる
 			'''
 	}
@@ -472,8 +471,8 @@ Items: {
 			'''
 			これがインベントリにある間は、非常に高い確率でポーションを消費しない
 			豚の貯金箱のポーションをクイックバフで使えるようになる
-			錬金術師、醸造屋、若い醸造屋 は50%割引
-			至高のカラミタスを倒したあとはポーションが消費されなくなる
+			錬金術師、醸造屋、若い醸造屋のショップで50%割引してもらえる
+			カラミタスを倒したあとはポーションが消費されなくなる
 			バフの持続時間が50%長くなる
 			'''
 	}
@@ -486,11 +485,11 @@ Items: {
 			フルスクリーンの地図上で右クリックしてテレポートする
 			ボスが生きている場合は機能しない
 			使用後に壊れる
-			"ああ、紺碧の正義、深紅の愛、
-			運命に埋もれた者の名において、
-			私は光に誓いを立てる、
-			私たちは、そのような
-			私たちの前に立ちはだかる、愛の力!"
+			「ああ、紺碧の正義、深紅の愛、
+			　運命に埋もれた者の名において、
+			　私は光に誓いを立てる、
+			　私たちは、そのような
+			　私たちの前に立ちはだかる、愛の力！」
 			'''
 	}
 
@@ -502,11 +501,11 @@ Items: {
 			フルスクリーンの地図上で右クリックしてテレポートする
 			ボスが生きている場合は機能しない
 			使用後も壊れない
-			"ああ、紺碧の正義、深紅の愛、
-			運命に埋もれた者の名において、
-			私は光に誓いを立てる、
-			私たちは、そのような
-			私たちの前に立ちはだかる、愛の力!"
+			「ああ、紺碧の正義、深紅の愛、
+			　運命に埋もれた者の名において、
+			　私は光に誓いを立てる、
+			　私たちは、そのような
+			　私たちの前に立ちはだかる、愛の力!」
 			'''
 	}
 
@@ -524,13 +523,13 @@ Items: {
 		DisplayName: 幸運のチャーム
 		Tooltip:
 			'''
-			これがインベントリにある間は、より良いリフォージが得られる可能性が高くなる
+			これがインベントリにある間は、より良いコンディションが得られる可能性が高くなる
 			アクセサリーには影響しない
 			'''
 	}
 
 	LuckCharmT2: {
-		DisplayName: とんでもない幸運のチャーム
+		DisplayName: すごい幸運のチャーム
 		Tooltip:
 			'''
 			これがインベントリにある間は、より良いリフォージが得られる可能性が高くなる
@@ -539,12 +538,8 @@ Items: {
 	}
 
 	MorePotionsCombination: {
-		DisplayName: より多くのポーションコンビネーション
-		Tooltip:
-			'''
-			もっと多くのポーションからバフを得る *potions
-			Droughts, Enchanced Regeneration, Courage, Soulbinding, Diamond Skin, Dusk, Dawn, Swift Hands, Speed
-			'''
+		DisplayName: たくさんの複合ポーション
+		Tooltip:色々なポーションからバフを得る
 	}
 
 	NatureBlessingPotion: {
@@ -553,12 +548,12 @@ Items: {
 	}
 
 	NinjaPotion: {
-		DisplayName: 忍者ポーション
+		DisplayName: 忍びのポーション
 		Tooltip:
 			'''
 			ダメージとクリティカル確率が5%増加
-			攻撃を回避する確率があり、壁をよじ登ることができる
-			カラミティのバフポーションではありません
+			攻撃を回避することがあり、壁をよじ登ることができる
+			Calamityのバフポーションではない
 			'''
 	}
 
@@ -572,11 +567,11 @@ Items: {
 	}
 
 	OceanTeleporterPotion: {
-		DisplayName: 海テレポートポーション
+		DisplayName: 海転送ポーション
 		Tooltip:
 			'''
 			海へテレポート（左端または右端のサンゴ礁付近）
-			使用するマウスボタンに依存
+			どちら側の海になるかは、押したマウスボタンによって決まる
 			もしサンゴ礁が存在しなければ、どこにもテレポートしない
 			'''
 	}
@@ -585,19 +580,19 @@ Items: {
 		DisplayName: 完璧なディスコードポーション
 		Tooltip:
 			'''
-			[c/00FF00:ユニークな探検家のポーション]
-			ホットキーでカーソル位置までテレポートする
-			ロッド・オブ・ディスコードと全く同じ動きをする
-			カラミティのバフポーションではありません
+			[c/00FF00:「ユニークな探検家のポーション」]
+			カーソル位置にテレポートする
+			ロッド・オブ・ディスコードと全く同じ動作をする
+			Calamityのバフポーションではない
 			'''
 	}
 
 	HMCraftPound: {
-		DisplayName: 素晴らしいクラフティングパウンド
+		DisplayName: 素晴らしい作業台
 		Tooltip:
 			'''
-			これでベストを尽くせる
-			クラフトステーションとして設置可能
+			「これでベストを尽くせる」
+			様々な作業台の効果を併せ持つ
 			'''
 	}
 
@@ -605,9 +600,8 @@ Items: {
 		DisplayName: マテリアトランスミューテーター
 		Tooltip:
 			'''
-			多くのクラフトステーションと同じ機能を1つに集約
-			すべてのクラフトステーションを含む
-			水/蜂蜜/溶岩の供給源としても機能
+			多くの作業台の効果を1つに集約
+			水/蜂蜜/溶岩の供給源としても機能する
 			'''
 	}
 
@@ -615,33 +609,33 @@ Items: {
 		DisplayName: シンプルなクラフト通貨
 		Tooltip:
 			'''
-			大工仕事の達人に見える
-			クラフトステーションとして設置可能
+			「大工仕事にピッタリかも」
+			様々な作業台の効果を併せ持つ
 			'''
 	}
 
 	SpecCraftPoint: {
-		DisplayName: 特別なクラフティングポイント
+		DisplayName: 特別な作業台
 		Tooltip:
 			'''
-			あなたはどんな素材でも何でもできることを証明した
-			クラフトステーションとして設置可能
+			「あなたはどんな素材でも何でもできることを証明した」
+			様々な作業台の効果を併せ持つ
 			'''
 	}
 
 	RangerCombination: {
-		DisplayName: 射手のコンビネーション
-		Tooltip: 射手に必要なバフを得る (弾丸節約＋弓使い＋怒り＋激怒)
+		DisplayName: 射手の複合ポーション
+		Tooltip: 射手に必要なバフを得る (弾丸節約、弓使い、怒り、激怒)
 	}
 
 	SpiritCombination: {
-		DisplayName: スピリットのコンビネーション
+		DisplayName: スピリットの複合ポーション
 		Tooltip: Grants most buffs from Spirit Mod potions (Runescribe, Soulguard, Spirit, Starburn, Steadfast and Toxin)
 	}
 
 	SummonerCombination: {
-		DisplayName: 召喚師のコンビネーション
-		Tooltip: 召喚士に必要なバフを得る (召喚＋魔術の力＋闘争)
+		DisplayName: 召喚師の複合ポーション
+		Tooltip: 召喚士に必要なバフを得る (召喚、魔術の力、闘争)
 	}
 
 	AlchemistHorcrux: {
@@ -692,37 +686,33 @@ Items: {
 		DisplayName: 太陽光ポーション
 		Tooltip:
 			'''
-			光の半径を大幅に拡大
-			カラミティのバフアイテムではありません
+			光を大幅に拡大する
+			Calamityのバフアイテムではない
 			'''
 	}
 
 	TankCombination: {
-		DisplayName: タンクのコンビネーション (Modアイテム)
-		Tooltip: タンクに必要なバフを得る (鉄壁＋自然回復＋生命強化＋耐久＋黒曜石の肌＋茨＋巨人の肌＋無敵)
+		DisplayName: タンクの複合ポーション (Modアイテム)
+		Tooltip: タンクに必要なバフを得る (鉄壁、自然回復、生命強化、耐久、黒曜石の肌、茨、巨人の肌、無敵)
 	}
 
 	TempleTeleportationPotion: {
-		DisplayName: 寺院テレポートポーション
-		Tooltip: 寺院にテレポートする
+		DisplayName: 寺院転送ポーション
+		Tooltip: リザードの祭壇にテレポートする
 	}
 
 	ThoriumCombination: {
-		DisplayName: Thorium Combination
-		Tooltip:
-			'''
-			Grants most buffs from Thorium Mod potions
-			Assassin, Blood, Frenzy, Creativity, Earworm, Inspirational Reach, Glowing, Holy, Hydration
-			'''
+		DisplayName: Thoriumの複合ポーション
+		Tooltip:Thorium Modのバフを得る (暗殺者、血、怒り、光る、聖なる、創造性、イヤーワーム、ひらめき、水分補給のポーションの効果)
 	}
 
 	TitanSkinPotion: {
-		DisplayName: 巨人の肌ポーション
+		DisplayName: 巨人の肌のポーション
 		Tooltip:
 			'''
-			いくつかのデバフを無効化するバフを得る (On Fire!, Frostburn, Cursed Flame, Chilled, Frozen, Ichor)
-			Cursed Flame と Ichor の無効化は、ツインズを倒した後にのみ機能する
-			カラミティのバフアイテムではありません
+			いくつかのデバフを無効化するバフを得る (燃えている！、凍傷、呪いの炎、凍え、凍結、イコル)
+			呪いの炎とイコルの無効化は、ツインズを倒した後にのみ機能する
+			Calamityのバフアイテムではない
 			'''
 	}
 
@@ -735,36 +725,36 @@ Items: {
 		DisplayName: 究極のケーキ
 		Tooltip:
 			'''
-			ほぼ全ステーションの特殊効果を同時付与
+			ほぼ全てのバフ効果のある家具の特殊効果を同時付与する
 			焚き火+ハートのランタン+バステトの石像+砥石+弾薬箱+水晶玉+切り分けたケーキ+魔術のテーブル
-			想像を絶する魔法によって、消費されることはない
-			カラミティのバフアイテムではありません
+			消費されない
+			Calamityのバフアイテムではない
 			'''
 	}
 
 	UnderworldTeleportationPotion: {
-		DisplayName: 地下世界テレポートポーション
+		DisplayName: 地底世界転送ポーション
 		Tooltip:
 			'''
 			地下世界の黒曜石の塔の左端または右端へテレポートする
-			使用するマウスボタンに依存
-			その前に黒曜石の肌ポーションを飲むといいだろう
+			どちら側になるかは、押したマウスボタンによって決まる
+			使用する前に黒曜石の肌ポーションを飲んで、非常事態に備えよう
 			'''
 	}
 
 	UniversalCombination: {
-		DisplayName: 万能のコンビネーション
-		Tooltip: タンク、射手、魔術師、召喚師の4つのコンビネーションポーションの効果
+		DisplayName: 万能の複合ポーション
+		Tooltip: タンク、射手、魔術師、召喚師の複合ポーションの効果を併せ持つ
 	}
 
 	VanTankCombination: {
-		DisplayName: タンクのコンビネーション (バニラ)
-		Tooltip: タンクに必要なバフを得る (鉄壁＋自然回復＋生命強化＋耐久＋黒曜石の肌＋茨)
+		DisplayName: タンクの複合ポーション (バニラ)
+		Tooltip: タンクに必要なバフを得る (鉄壁、自然回復、生命強化、耐久、黒曜石の肌、茨)
 	}
 
 	MateriaTransmutatorMK2: {
-		DisplayName: マテリアトランスミューテーター MK 2
-		Tooltip: ほとんどのクラフトステーションと同じように動作します。ドラエドンの鍛冶場も含まれます
+		DisplayName: マテリアトランスミューテーターMK-2
+		Tooltip: ほとんどの作業台の効果を併せ持ち、これにはドラエドンの鍛冶場も含まれる
 	}
 }
 
@@ -1284,9 +1274,9 @@ Shen: Shen Doragon Treasure Cache
 
 ShenGrips: Shen Doragon Grips Treasure Bag
 
-PlantsShop: Plants shop
+PlantsShop: 植物ショップ
 
-GetCharm: Get Charm
+GetCharm: チャームをもらう
 
 Edward: Edward
 
@@ -1410,29 +1400,29 @@ A21: Have you heard 'bout that FuryForged guy? I taught him all he knows!
 
 A22: I was once hired by a certain company to build a supermassive hi-tech, hi-security installation. Lemme tell ya its my magnum opus in terms of security and containment.
 
-AS1: 1st shop (Filler Blocks)
+AS1: 1st shop (基本ブロック)
 
-AS2: 2nd shop (Building Blocks)
+AS2: 2nd shop (建築ブロック)
 
-AS3: 3rd shop (Basic Furniture)
+AS3: 3rd shop (基本的な家具)
 
-AS4: 4th shop (Advanced Furniture)
+AS4: 4th shop (高度な家具)
 
-AS5: 5th shop (Torches)
+AS5: 5th shop (たいまつ)
 
-AS6: 6th shop (Candles)
+AS6: 6th shop (蝋燭)
 
-AS7: 7th shop (Lamps)
+AS7: 7th shop (ランプ)
 
-AS8: 8th shop (Lanterns)
+AS8: 8th shop (ランタン)
 
-AS9: 9th shop (Chandeliers)
+AS9: 9th shop (シャンデリア)
 
-AS10: 10th shop (Candelabras)
+AS10: 10th shop (燭台)
 
-ShopsChanger: Shops Changer
+ShopsChanger: ショップ切り替え
 
-ShopB1: 1st shop (Vanilla)
+ShopB1: 1st shop (バニラ)
 
 ShopB2: 2nd shop (Mod/Calamity)
 
@@ -1494,7 +1484,7 @@ EntryB18: " is just as calm as I am, but then I remember "
 
 EntryB19: I once traveled far away from Terraria to learn more about Alchemy. In my travels I met a ''scientist of magic'' called Azanor. He showed me the secrets of something called ''thaumaturgy''.
 
-ArenaShop: Arena Shop
+ArenaShop: バトルアリーナショップ
 
 Carl: Carl
 
@@ -1536,7 +1526,7 @@ Shop4: 4th shop
 
 Shop5: 5th shop
 
-ShopChanger: Shop Changer
+ShopChanger: ショップ切り替え
 
 Beethoven: Beethoven
 
@@ -1596,17 +1586,17 @@ EntryM21: Is there a name for the fear of being spied by a cake?
 
 EntryM22: You are hurting my ears! Turn it down!
 
-BossDropsShop: Boss Drops & Materials Shop
+BossDropsShop: ボスドロップ & 素材ショップ
 
-BossDropsModsShop: Modded Boss Drops & Materials Shop
+BossDropsModsShop: Mod用ボスドロップ & 素材ショップ
 
-VanillaTreasureBagsShop: Vanilla Treasure Bags Shop
+VanillaTreasureBagsShop: バニラトレジャーバッグショップ
 
-ModdedTreasureBagsShop: Modded Treasure Bags Shop
+ModdedTreasureBagsShop: Mod用トレジャーバッグショップ
 
-ModdedTreasureBagsShop2: Modded Treasure Bags Shop #2
+ModdedTreasureBagsShop2: Mod用トレジャーバッグショップ #2
 
-ModdedTreasureBagsShop3: Modded Treasure Bags Shop #3
+ModdedTreasureBagsShop3: Mod用トレジャーバッグショップ #3
 
 Angela: Angela
 
@@ -1688,9 +1678,9 @@ Alexander: Alexander
 
 Peter: Peter
 
-TinkererButton1: Movement/Misc
+TinkererButton1: 移動系/その他
 
-TinkererButton2: Combat
+TinkererButton2: 戦闘系
 
 EntryT1: Do you need something special? Just say if so...
 
@@ -1760,117 +1750,116 @@ Tiles: {
 
 Keybinds: {
 	"Discord Buff Teleportation": {
-		DisplayName: Discord  Buff  Teleportation
+		DisplayName: ディスコードバフテレポート
 	}
 }
 
 Configs: {
 	ModConfiguration: {
 		ShopChangeDelay: {
-			Tooltip: Delay before shop can be changed after opening interface. 10 frames by default
-			Label: Shop Change Delay
+			Tooltip: インターフェースを開いた後にショップを変更できるまでの遅延。デフォルトは10フレーム。
+			Label: ショップ変更の遅延
 		}
 
 		DesertFossilPrice: {
-			Tooltip: 1000 is 10 silver price by default
-			Label: Desert Fossil Price
+			Tooltip: デフォルトは1000で価格は10シルバー。
+			Label: 砂漠の化石の価格
 		}
 
 		SiltSlushPrice: {
-			Tooltip: 700 is 7 silver price by default
-			Label: Silt/Slush blocks Price
+			Tooltip: デフォルトは700で価格は7シルバー。
+			Label: 水雪/砂利ブロックの価格
 		}
 
 		WormholePrice: {
-			Tooltip: 1000 is 10 silver price by default
-			Label: Wormhole Potion Price
+			Tooltip: デフォルトは1000で価格は10シルバー。
+			Label: ワームホールポーションの価格
 		}
 
 		RecallPrice: {
-			Tooltip: 1000 is 10 silver price by default
-			Label: Recall Potion Price
+			Tooltip: デフォルトは1000で価格は10シルバー。
+			Label: 帰還のポーションの価格
 		}
 
 		StarPrice: {
-			Tooltip: 1000 is 10 silver price by default
-			Label: Fallen Stars Price
+			Tooltip: デフォルトは1000で価格は10シルバー。
+			Label: 流れ星の価格
 		}
 
 		PotsPriceMulti: {
-			Tooltip: Multiplies potions price by X. 1 by default
-			Label: Potions price multiplier
+			Tooltip: ポーションの価格をX倍にする。デフォルトは1。
+			Label: ポーション価格倍率
 		}
 
 		CatchNPC: {
-			Tooltip: True to make mod's town NPCs catcheable. True by default
-			Label: Catcheable mod's NPCs toggle
+			Tooltip: ModのタウンNPCを捕獲可能にするか。デフォルトはTrue。
+			Label: ModのNPC捕獲切り替え
 		}
 
 		RevPrices: {
-			Tooltip: True to make potions prices bigger. True by default
-			Label: Revengeance mode prices scaling
+			Tooltip: ポーションの価格を高くする。デフォルトはTrue。
+			Label: リベンジェンスモード価格スケーリング
 		}
 
 		DisabledLocatorNpcs: {
-			Tooltip: Arrows won't point to these NPCs
-			Label: Disabled NPCs for Lifeform Analyzer Locator
+			Tooltip: 矢印がこれらのNPCを指さないようにする。
+			Label: ライフフォームアナライザーの無効NPC
 		}
 
 		LocatorRange: {
-			Tooltip: Max distance the pointer will track. 4000 by default
-			Label: Lifeform Analyzer Pointing Range
+			Tooltip: ポインターが追跡する最大距離。デフォルトは4000。
+			Label: ライフフォームアナライザーの指示範囲
 		}
 
 		LifeformAnalyzer: {
-			Tooltip: Enable or disable laser pointing of Lifeform Analyzer (ticks each second). True by default
-			Label: Lifeform Analyzer laser pointing
+			Tooltip: ライフフォームアナライザーのレーザー指示を有効/無効にする（毎秒ティック）。デフォルトはTrue。
+			Label: ライフフォームアナライザーのレーザー指示
 		}
 
 		TinkererSpawn: {
-			Tooltip: True to enable Tinkerer NPC spawn, false to disable. True by default
-			Label: Tinkerer Spawn toggle
+			Tooltip: 修理屋のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Label: 修理屋スポーン切り替え
 		}
 
 		MusicianSpawn: {
-			Tooltip: True to enable Musician NPC spawn, false to disable. True by default
-			Label: Musician Spawn toggle
+			Tooltip: 音楽家のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Label: 音楽家スポーン切り替え
 		}
 
 		OperatorSpawn: {
-			Tooltip: True to enable Operator NPC spawn, false to disable. True by default
-			Label: Operator Spawn toggle
+			Tooltip: オペレーターのスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Label: オペレータースポーン切り替え
 		}
 
 		ArchitectSpawn: {
-			Tooltip: True to enable Architect NPC spawn, false to disable. True by default
-			Label: Architect Spawn toggle
+			Tooltip: 建築家のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Label: 建築家スポーン切り替え
 		}
 
 		YoungBrewerSpawn: {
-			Tooltip: True to enable Young Brewer NPC spawn, false to disable. True by default
-			Label: Young Brewer Spawn toggle
+			Tooltip: 若い醸造家のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Label: 若い醸造家スポーン切り替え
 		}
 
 		JewelerSpawn: {
-			Tooltip: True to enable Jeweler NPC spawn, false to disable. True by default
-			Label: Jeweler Spawn toggle
+			Tooltip: 宝石屋のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Label: 宝石屋スポーン切り替え
 		}
 
 		BrewerSpawn: {
-			Tooltip: True to enable Brewer NPC spawn, false to disable. True by default
-			Label: Brewer Spawn toggle
+			Tooltip: 醸造家のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Label: 醸造家スポーン切り替え
 		}
 
 		AlchemistSpawn: {
-			Tooltip: True to enable Alchemist NPC spawn, false to disable. True by default
-			Label: Alchemist Spawn toggle
+			Tooltip: 錬金術師のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Label: 錬金術師スポーン切り替え
 		}
 
-		DisplayName: Mod Configuration
-
+		DisplayName: Mod設定
 		LifeformAnalyzerAlt: {
-			Label: Lifeform Analyzer locator alt texture
-			Tooltip: Use alternative texture for Lifeform Analyzer locator. False by default
+			Label: ライフフォームアナライザーの代替テクスチャ
+			Tooltip: ライフフォームアナライザーの代替テクスチャを使用する。デフォルトはFalse。
 		}
 	}
 }
