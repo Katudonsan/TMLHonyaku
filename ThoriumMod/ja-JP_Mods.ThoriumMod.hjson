@@ -16,10 +16,10 @@ Announcements: {
 	SpiderWarning: クモたちが怒りにざわめいている...
 	BoreanStriderAppear: 8本足のモンスターがツンドラをうろついている...
 	PatchWerkDefeat: 恐ろしい {$NPCs.PatchWerk.DisplayName} がバラバラに...
-	CorpseBloomDefeat: つかみどころのない {$NPCs.CorpseBloom.DisplayName} が枯れていく...。
+	CorpseBloomDefeat: 奇妙な {$NPCs.CorpseBloom.DisplayName} が枯れていく...。
 	IllusionistDefeat: 謎めいた {$NPCs.Illusionist.DisplayName} が粉々に砕け散る...
 	BuriedChampionAppear: " {$NPCs.BuriedChampion.DisplayName} が脱走した！"
-	GraniteEnergyStormAppear: The {$NPCs.GraniteEnergyStorm.DisplayName} が解き放たれた！
+	GraniteEnergyStormAppear: " {$NPCs.GraniteEnergyStorm.DisplayName} が解き放たれた！"
 	DiverFree: 誰かがあの忌まわしい水棲生物から解放された！
 	ThePrimordialsStart: テラリアの大地が震えている...
 	DreamEaterAppear: 現実の境界が崩れ始めている！
@@ -53,7 +53,7 @@ GameTips: {
 	ThoriumModTip2: Thorium Mod: 気泡があると、しばらくの間水中で呼吸することができる。さらに{$Items.BubbleMagnet.DisplayName}を使うと、気泡を引き寄せることができる。
 	ThoriumModTip3: Thorium Mod: ハードモードの{$Biomes.DepthsBiome.DisplayName}ではクリスタルウェーブが生えることがある！
 	ThoriumModTip4: Thorium Mod: 血の部屋は地下のどこかにある。その祭壇に5つの穢れた欠片を捧げると何かが起こるらしいが、何が起きても責任は取らない...
-	ThoriumModTip5: Thorium Mod: テクニッククロールを使うには、まず装備し、十分なテクニックポイントを得た状態で'{$Keybinds.ThrowingTechnique.DisplayName}'キーを押す！
+	ThoriumModTip5: Thorium Mod: 術の巻物を使うには、まず装備し、十分なテクニカルポイントを得た状態で'{$Keybinds.ThrowingTechnique.DisplayName}'キーを押す！
 	ThoriumModTip6: Thorium Mod: ヒーラーは、自分が死んでしまっては味方を助けることはできない！
 	ThoriumModTip7: Thorium Mod: インスピレーションの最大値は、インスピレーションフラグメントで高めることができる。
 	ThoriumModTip8: Thorium Mod: あるタイプの吟遊詩人の楽器は、最高の演奏をするにはリズムに合わせて演奏する必要がある。
@@ -246,11 +246,11 @@ Buffs: {
 
 	BlightFever: {
 		DisplayName: 疫病
-		Description: オムニサイドはこの存在の魂を奪った...
+		Description: オムニサイドに魂を奪われた...
 	}
 
 	BloodHarvest: {
-		DisplayName: 血の収穫
+		DisplayName: ブラッドハーヴェスト
 		Description: 現在、ブラッドチャージを維持することはできない
 	}
 
@@ -280,7 +280,7 @@ Buffs: {
 	}
 
 	ChaosState: {
-		DisplayName: カオス状態：テレポーテーション
+		DisplayName: カオス状態：テレポート
 		Description: テレポートからまだ回復していない
 	}
 
@@ -421,7 +421,7 @@ Buffs: {
 
 	FungalGrowth: {
 		DisplayName: キノコまみれ
-		Description: このターゲットはキノコまみれだ
+		Description: キノコまみれだ
 	}
 
 	GhastlyCarapaceBuff: {
@@ -751,7 +751,7 @@ Buffs: {
 
 	HydrationBuff: {
 		DisplayName: 水分補給
-		Description: 体力とテクニックポイントの回復が早くなる
+		Description: 体力とテクニカルポイントの回復が早くなる
 	}
 
 	IlluminatedNPC: {
@@ -1309,7 +1309,7 @@ Buffs: {
 
 	ShambleBallDebuff: {
 		DisplayName: 拘束中
-		Description: 足枷をつけられてしまった！
+		Description: 鉄球をつけられてしまった！
 	}
 
 	SheathBuff: {
@@ -1554,7 +1554,7 @@ Buffs: {
 
 	StormHatchlingStaffBuff: {
 		DisplayName: 雛
-		Description: この雛はあなたを母親だと思っているらしい
+		Description: この雛に母親だと思われている...
 	}
 
 	TabooWandBuff: {
@@ -1796,7 +1796,7 @@ Empowerments: {
 
 	EmpowermentProlongation: {
 		DisplayName: エンパワーメント延長
-		Tooltip: +{0} {^0:second;seconds}
+		Tooltip: エンパワーメント +{0} {^0:秒;秒}延長
 	}
 
 	FlatDamage: {
@@ -1816,7 +1816,7 @@ Empowerments: {
 
 	JumpHeight: {
 		DisplayName: ジャンプ高度
-		Tooltip: ジャンプ高度+{0} {^0:block;blocks}  
+		Tooltip: ジャンプ高度+{0} {^0:block;ブロック}  
 	}
 
 	LifeRegeneration: {
@@ -3851,38 +3851,38 @@ Items: {
 
 	AmberRing: {
 		DisplayName: 琥珀の指輪
-		Tooltip: 召喚ダメージを {0} 増加させる。
+		Tooltip: 召喚ダメージを {0} 増加させる
 	}
 
 	AmethystRing: {
 		DisplayName: アメジストの指輪
-		Tooltip: アーマーの貫通力を {0} 増加させる。
+		Tooltip: アーマーの貫通力を {0} 増加させる
 	}
 
 	AquamarineRing: {
 		DisplayName: アクアマリンの指輪
-		Tooltip: 神聖ダメージを {0} 増加させる。
+		Tooltip: 神聖ダメージを {0} 増加させる
 	}
 
 	ArtificersFocus: {
 		DisplayName: 名匠の首飾り
 		Tooltip:
 			'''
-			"{$Keybinds.AccessoryAbility.DisplayName}'キーを押し続けると、名匠の気力をチャージする。"
-			1秒ごとに次のダメージが20増加し、最大100まで増加する。
+			{$Keybinds.AccessoryAbility.DisplayName}キーを押し続けると、名匠の気力をチャージする
+			1秒ごとに次のダメージが20増加し、最大100まで増加する
 			'''
 	}
 
 	ArtificersRocketeers: {
 		DisplayName: 名匠のロケットブーツ
-		Tooltip: 名匠の気力を消費して、素早い飛行を可能にする。
+		Tooltip: 名匠の気力を消費して、素早い飛行を可能にする
 	}
 
 	ArtificersShield: {
 		DisplayName: 名匠の盾
 		Tooltip:
 			'''
-			被弾時に受けるノックバック量を減少させる。
+			被弾時に受けるノックバック量を減少させる
 			名匠の気力20ごとに防御力2増加
 			ダメージを受けると名匠の気力を20消耗する
 			'''
@@ -5506,160 +5506,160 @@ Items: {
 	}
 
 	BlockyMask: {
-		DisplayName: ブロッキーマスク
+		DisplayName: Blockyのマスク
 	}
 
 	BlockyPants: {
-		DisplayName: ブロッキーパンツ
+		DisplayName: Blockyのパンツ
 	}
 
 	BlockyShirt: {
-		DisplayName: ブロッキーシャツ
+		DisplayName: Blockyのシャツ
 	}
 
 	BrutalChestguard: {
-		DisplayName: ブルータルチェストガード
+		DisplayName: Brutallamaの胸当て
 	}
 
 	BrutalGreaves: {
-		DisplayName: ブルータルグリーブス
+		DisplayName: Brutallamaの足甲
 	}
 
 	BrutalMask: {
-		DisplayName: ブルータルマスク
+		DisplayName: Brutallamaのマスク
 	}
 
 	CataclysmicsGarb: {
-		DisplayName: カタクリスティックの衣装
+		DisplayName: Cataclysmicsの衣装
 	}
 
 	CataclysmicsHollowMask: {
-		DisplayName: カタクリホロウのマスク
+		DisplayName: Cataclysmics Hollowのマスク
 	}
 
 	ChunkyGreaves: {
-		DisplayName: Chunky Greaves
+		DisplayName: Chunkyの足甲
 	}
 
 	ChunkyHelmet: {
-		DisplayName: Chunky Helmet
+		DisplayName: Chunkyの兜
 	}
 
 	ChunkyMail: {
-		DisplayName: Chunky Mail
+		DisplayName: Chunkyの鎧
 	}
 
 	DannyLamentLeggings: {
-		DisplayName: Danny's Lament Leggings
+		DisplayName: Danny's Lamentのレギンス
 	}
 
 	DannyLamentMask: {
-		DisplayName: Danny's Lament Mask
+		DisplayName: Danny's Lamentのマスク
 	}
 
 	DannyLamentSuit: {
-		DisplayName: Danny's Lament Suit
+		DisplayName: Danny's Lamentのスーツ
 	}
 
 	DeluxeHalcandranBow: {
-		DisplayName: Deluxe Halcandran Bow
+		DisplayName: Deluxe Halcandranの衣装
 	}
 
 	DeluxeHalcandranHat: {
-		DisplayName: Deluxe Halcandran Hat
+		DisplayName: Deluxe Halcandranの帽子
 	}
 
 	GhastlyGarment: {
-		DisplayName: Ghastly Garment
+		DisplayName: Ghastlyの衣装
 	}
 
 	GhastlyHood: {
-		DisplayName: Ghastly Hood
+		DisplayName: Ghastlyのフード
 	}
 
 	GhastlyLeggings: {
-		DisplayName: Ghastly Leggings
+		DisplayName: Ghastlyのレギンス
 	}
 
 	GrandThoriumBreastPlate: {
-		DisplayName: Grand Thorium Breastplate
+		DisplayName: Grand Thoriumの胸当て
 	}
 
 	GrandThoriumGreaves: {
-		DisplayName: Grand Thorium Greaves
+		DisplayName: Grand Thoriumの足甲
 	}
 
 	GrandThoriumHelmet: {
-		DisplayName: Grand Thorium Helmet
+		DisplayName: Grand Thoriumの兜
 	}
 
 	HalcandranHood: {
-		DisplayName: Halcandran Hood
+		DisplayName: Halcandranのフード
 	}
 
 	HalcandranPants: {
-		DisplayName: Halcandran Pants
+		DisplayName: Halcandranのパンツ
 	}
 
 	HalcandranTabard: {
-		DisplayName: Halcandran Tabard
+		DisplayName: Halcandranのタバード
 	}
 
 	MrUniverseMask: {
-		DisplayName: Mr. Universe's Mask
+		DisplayName: Mr. Universeのマスク
 	}
 
 	MrUniversePants: {
-		DisplayName: Mr. Universe's Pants
+		DisplayName: Mr. Universeのパンツ
 	}
 
 	MrUniverseSuit: {
-		DisplayName: Mr. Universe's Suit
+		DisplayName: Mr. Universeのスーツ
 	}
 
 	PhonicWings: {
-		DisplayName: Phonic Wings
+		DisplayName: 音響の翼
 	}
 
 	ShinobiGi: {
-		DisplayName: Shinobi Gi
+		DisplayName: 忍び装束
 	}
 
 	ShinobiMask: {
-		DisplayName: Shinobi Mask
+		DisplayName: 忍び頭巾
 	}
 
 	ShinobiTreads: {
-		DisplayName: Shinobi Treads
+		DisplayName: 忍び袴
 	}
 
 	SpheromancerMask: {
-		DisplayName: Spheromancer Mask
+		DisplayName: Spheromancerのマスク
 	}
 
 	SpheromancerPants: {
-		DisplayName: Spheromancer Pants
+		DisplayName: Spheromancerのパンツ
 	}
 
 	SpheromancerSuit: {
-		DisplayName: Spheromancer Suit
+		DisplayName: Spheromancerのスーツ
 	}
 
 	WildAntlers: {
-		DisplayName: Wild Antlers
+		DisplayName: ワイルドなツノ
 	}
 
 	WildLoincloth: {
-		DisplayName: Wild Loincloth
+		DisplayName: ワイルドな布
 	}
 
 	WildRobe: {
-		DisplayName: Wild Robe
+		DisplayName: ワイルドなローブ
 	}
 
 	AbyssalWhistle: {
-		DisplayName: Abyssal Whistle
-		Tooltip: Summons an abyssal bunny to follow you around
+		DisplayName: 奈落の呼び笛
+		Tooltip: 深淵のウサギを召喚し、後をついてくる
 	}
 
 	AbyssWalkerBoots: {
@@ -6272,12 +6272,12 @@ Items: {
 	}
 
 	FlanPlatter: {
-		DisplayName: 大皿
+		DisplayName: デカプリン
 		Tooltip:
 			'''
-			カーソルの位置に空の大皿を召喚する
-			2秒ごとに大皿が成長し、治癒力が増加する
-			大皿は消費されても再生する
+			カーソルの位置に何も載っていない大皿を召喚する
+			2秒ごとにデザートが豪華になり、治癒力が増加する
+			デザートは消費されても再生成される
 			'''
 	}
 
@@ -6662,8 +6662,8 @@ Items: {
 	}
 
 	JetstreamSheath: {
-		DisplayName: ジェットストリームシース
-		Tooltip: 剣の一撃は、{1} {^1:second;seconds} 間保持し使用しない場合、近くの敵に対して  {0}  の斬撃を放つ
+		DisplayName: 烈流の鞘
+		Tooltip: 剣を持っている時に{1} {^1:second;秒} 間攻撃しないとステルスが付与され、次に攻撃した時に {0}の追加攻撃を行う"
 	}
 
 	JewellersWallGrip: {
@@ -8239,7 +8239,7 @@ Items: {
 			「海の怒りを解き放て」
 			投げダメージ40%増加
 			50%の確率で投げアイテムを消費しない
-			最大テクニックポイントが2増加
+			最大テクニカルポイントが2増加
 			投擲ダメージが一時的に敵が受けるダメージが10%増加する
 			1秒ごとに浮遊するグロビュールを生成
 			すべてのグロビュールは直近の攻撃がクリティカルではなかった場合、次の攻撃をクリティカルにする
@@ -8368,7 +8368,7 @@ Items: {
 	}
 
 	AssassinsGuard: {
-		DisplayName: アサシンズ・ガード
+		DisplayName: 暗殺者の鎧
 		Tooltip:
 			'''
 			射撃ダメージ16%増加
@@ -8379,7 +8379,7 @@ Items: {
 	}
 
 	AssassinsWalkers: {
-		DisplayName: アサシンズ・ウォーカー
+		DisplayName: 暗殺者の足甲
 		Tooltip:
 			'''
 			射撃ダメージ15%増加
@@ -8394,26 +8394,24 @@ Items: {
 	}
 
 	MasterArbalestHood: {
-		DisplayName: マスターアーバレストフード
+		DisplayName: 熟練弩兵のフード
 		Tooltip:
 			'''
 			「投擲の嵐で空を黒く染める」
 			矢のダメージが12%増加
-			スペシャリストの射撃ダメージ12%増加
-			これはランチャーやダーツガンなど、矢や弾丸を撃たないものである
-			矢のクリティカルは死の矢となり、跳弾する
-			射撃ダメージは命中した敵にイコルを付与する
+			クリティカルヒットすると矢が死の矢となり、跳弾するようになる
+			射撃が命中した敵にイコルを付与する
 			'''
 	}
 
 	MasterMarksmansScouter: {
-		DisplayName: マスターマークスマンスカウター
+		DisplayName: 熟練斥候兵の兜
 		Tooltip:
 			'''
 			「火薬は弱者を淘汰する」
 			矢と弾丸のダメージが24%増加
-			最も近い敵がスカウトされ、受けるダメージが10%増加する
-			射撃ダメージが敵に呪いの炎を付与する
+			最も近い敵がマークされ、受けるダメージが10%増加する
+			射撃が命中した敵に呪いの炎を付与する
 			'''
 	}
 
@@ -8441,7 +8439,7 @@ Items: {
 		Tooltip:
 			'''
 			「お前は死ぬことになる...」
-			死そのものを燃料とする追尾するミサイルを発射する
+			死そのものを燃料とするミサイルを発射する
 			{$CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
@@ -8451,8 +8449,8 @@ Items: {
 		Tooltip:
 			'''
 			「生きるに値しない者に怒りをぶちまけろ...」
-			弾薬にジェルを使用
-			苛烈なウィルムのブレスを放つ
+			弾薬にジェルを使用する
+			呪われたドラゴンブレスを放つ
 			{$CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
@@ -8841,7 +8839,7 @@ Items: {
 		DisplayName: 肉の体
 		Tooltip:
 			'''
-			「体に共生的に結びついている」
+			「肉体に結びついている」
 			ダメージ5%増加
 			ライフ再生2%増加
 			'''
@@ -8876,7 +8874,7 @@ Items: {
 		DisplayName: 肉の足
 		Tooltip:
 			'''
-			「体に共生的に結びついている」
+			「肉体に結びついている」
 			移動速度6％アップ
 			'''
 	}
@@ -8890,7 +8888,7 @@ Items: {
 		DisplayName: 肉のマスク
 		Tooltip:
 			'''
-			「体に共生的に結びついている」
+			「肉体に結びついている」
 			移動速度6％アップ
 			'''
 	}
@@ -8925,7 +8923,7 @@ Items: {
 	}
 
 	UnfathomableFlesh: {
-		DisplayName: 計り知れない肉
+		DisplayName: 不気味な肉
 		Tooltip: "「体をくねらせながら、しがみつこうとしてくる」"
 	}
 
@@ -8945,8 +8943,8 @@ Items: {
 	}
 
 	GeodeGatherer: {
-		DisplayName: ジオード収集家
-		Tooltip: 水中からジオードを釣り上げることがある
+		DisplayName: ジオードキャッチャー
+		Tooltip: ジオードを釣り上げることがある
 	}
 
 	GeodeGreaves: {
@@ -8984,7 +8982,7 @@ Items: {
 		Tooltip:
 			'''
 			木の矢を御影石の矢に変え、敵に溢れ出るエネルギーを与える
-			溢れた敵は被ダメージが5%増加
+			溢れた敵は被ダメージが5%増加する
 			'''
 	}
 
@@ -10139,7 +10137,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	}
 
 	PaganGrasp: {
-		DisplayName: 異教徒の掌握
+		DisplayName: 異教徒の杖
 		Tooltip:
 			'''
 			不吉な魔法が影となって噴出する
@@ -11002,7 +11000,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			「死を受け入れろ...」
 			投擲ダメージ10%増加
 			33%の確率で投げたアイテムを消費しない
-			最大テクニックポイントが2増加
+			最大テクニカルポイントが2増加
 			'''
 	}
 
@@ -11517,7 +11515,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	}
 
 	LeatherSheath: {
-		DisplayName: 革のシース
+		DisplayName: 革の鞘
 	}
 
 	LeechingSheath: {
@@ -11556,7 +11554,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	TitanSlayerSheath: {
 		DisplayName: 巨人殺しの鞘
-		Tooltip: 剣の攻撃は、 {1} {^1:second;seconds} 使用されなかった場合、 {0} %のダメージをボスに与える
+		Tooltip: 剣を持っている時に {1} {^1:second;秒} 間攻撃しないとステルスが付与され、次に攻撃した時に {0} %の追加ダメージをボスに与える
 	}
 
 	WrithingSheath: {
@@ -15617,122 +15615,122 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	}
 
 	ValadiumBathtub: {
-		DisplayName: バラジウムのBathtub
+		DisplayName: バラジウムの Bathtub
 		Tooltip: ""
 	}
 
 	ValadiumBed: {
-		DisplayName: バラジウムのBed
+		DisplayName: バラジウムの Bed
 		Tooltip: ""
 	}
 
 	ValadiumBookcase: {
-		DisplayName: バラジウムのBookcase
+		DisplayName: バラジウムの Bookcase
 		Tooltip: ""
 	}
 
 	ValadiumCandelabra: {
-		DisplayName: バラジウムのCandelabra
+		DisplayName: バラジウムの Candelabra
 		Tooltip: ""
 	}
 
 	ValadiumCandle: {
-		DisplayName: バラジウムのCandle
+		DisplayName: バラジウムの Candle
 		Tooltip: ""
 	}
 
 	ValadiumChair: {
-		DisplayName: バラジウムのChair
+		DisplayName: バラジウムの Chair
 		Tooltip: ""
 	}
 
 	ValadiumChandelier: {
-		DisplayName: バラジウムのChandelier
+		DisplayName: バラジウムの Chandelier
 		Tooltip: ""
 	}
 
 	ValadiumChest: {
-		DisplayName: バラジウムのChest
+		DisplayName: バラジウムの Chest
 		Tooltip: ""
 	}
 
 	ValadiumChest_Trapped: {
-		DisplayName: Trapped バラジウムのChest
+		DisplayName: Trapped バラジウムの Chest
 		Tooltip: ""
 	}
 
 	ValadiumClock: {
-		DisplayName: バラジウムのClock
+		DisplayName: バラジウムの Clock
 		Tooltip: ""
 	}
 
 	ValadiumCup: {
-		DisplayName: バラジウムのCup
+		DisplayName: バラジウムの Cup
 		Tooltip: ""
 	}
 
 	ValadiumDoor: {
-		DisplayName: バラジウムのDoor
+		DisplayName: バラジウムの Door
 		Tooltip: ""
 	}
 
 	ValadiumDresser: {
-		DisplayName: バラジウムのDresser
+		DisplayName: バラジウムの Dresser
 		Tooltip: ""
 	}
 
 	ValadiumLamp: {
-		DisplayName: バラジウムのLamp
+		DisplayName: バラジウムの Lamp
 		Tooltip: ""
 	}
 
 	ValadiumLantern: {
-		DisplayName: バラジウムのLantern
+		DisplayName: バラジウムの Lantern
 		Tooltip: ""
 	}
 
 	ValadiumPiano: {
-		DisplayName: バラジウムのPiano
+		DisplayName: バラジウムの Piano
 		Tooltip: ""
 	}
 
 	ValadiumPlatform: {
-		DisplayName: バラジウムのPlatform
+		DisplayName: バラジウムの Platform
 		Tooltip: ""
 	}
 
 	ValadiumPlating: {
-		DisplayName: バラジウムのPlating
+		DisplayName: バラジウムの Plating
 		Tooltip: ""
 	}
 
 	ValadiumPlatingWall: {
-		DisplayName: バラジウムのPlating Wall
+		DisplayName: バラジウムの Plating Wall
 		Tooltip: ""
 	}
 
 	ValadiumSink: {
-		DisplayName: バラジウムのSink
+		DisplayName: バラジウムの Sink
 		Tooltip: ""
 	}
 
 	ValadiumSofa: {
-		DisplayName: バラジウムのSofa
+		DisplayName: バラジウムの Sofa
 		Tooltip: ""
 	}
 
 	ValadiumTable: {
-		DisplayName: バラジウムのTable
+		DisplayName: バラジウムの Table
 		Tooltip: ""
 	}
 
 	ValadiumToilet: {
-		DisplayName: バラジウムのToilet
+		DisplayName: バラジウムの Toilet
 		Tooltip: ""
 	}
 
 	ValadiumWorkbench: {
-		DisplayName: バラジウムのWork Bench
+		DisplayName: バラジウムの Work Bench
 		Tooltip: ""
 	}
 
@@ -16804,7 +16802,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		Tooltip:
 			'''
 			召喚ダメージ{0}%増加
-			セントリーたちは永遠に持続し、 {2} {^2:minute;minutes} に最大 {1} ％のダメージを獲得する
+			セントリーたちは永遠に持続し、 {2} {^2:minute;分} で最大 {1} ％のダメージを獲得する
 			'''
 	}
 
@@ -16893,7 +16891,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			「すべてはあなたの力の前に倒れる...」
 			最大ライフが10増加＆ライフ・リジェネが1増加
 			ダメージが10%増加
-			暗闇での視力が向上
+			暗闇での視力が向上する
 			'''
 	}
 
@@ -16923,7 +16921,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			飛行、超高速移動、氷上での機動性増加
 			移動速度12%増加
 			水、蜂蜜、溶岩の上を歩けるようになる
-			火炎ブロックと溶岩に対する免疫
+			火炎ブロックと溶岩に対する耐性を付与する
 			'''
 	}
 
@@ -16936,7 +16934,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		DisplayName: テラリウムのナイフ
 		Tooltip:
 			'''
-			元素を注入したエネルギー・ナイフを無限に投げる
+			元素を注入したナイフを無限に投げる
 			この武器を使いすぎると消耗し、ダメージが大幅に減少する
 			敵を倒すと消耗が回復する
 			'''
@@ -17208,7 +17206,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	BugenkaiShuriken: {
 		DisplayName: 遮光手裏剣
-		Tooltip: ダメージを受けると、敵が短時間衰弱させる
+		Tooltip: 攻撃がヒットした敵を短時間衰弱させる
 	}
 
 	CactusNeedle: {
@@ -17222,15 +17220,15 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	}
 
 	CaptainsPoniard: {
-		DisplayName: キャプテンの短剣
-		Tooltip: 自分の近くにいる敵を打つと、投擲速度が短時間上がる
+		DisplayName: 船長の短剣
+		Tooltip: 自分の近くにいる敵を攻撃すると、投擲速度が短時間上がる
 	}
 
 	Carnwennan: {
 		DisplayName: カルンウェナン
 		Tooltip:
 			'''
-			伝説の短剣のイメージを3つ投げる
+			伝説の短剣の幻影を3つ投げる
 			この武器を使いすぎると消耗し、ダメージが大幅に減少する
 			敵を倒すと消耗が回復する
 			'''
@@ -17307,7 +17305,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	}
 
 	DeadEyePatch: {
-		DisplayName: デッドマンズパッチ
+		DisplayName: 殺し屋の眼帯
 		Tooltip:
 			'''
 			クリティカルヒットを受けた対象に印をつける
@@ -17392,7 +17390,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			'''
 			8%の確率で投擲ダメージが増加
 			33%の確率で投げたアイテムを消費しない
-			テクニックポイントの最大値が1増加する
+			テクニカルポイントの最大値が1増加する
 			'''
 	}
 
@@ -17410,13 +17408,13 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		Tooltip:
 			'''
 			有害なペストガスを放つ
-			ペストガスは他の混合物と反応し、異なる揮発効果を発動させることができる
+			ペストガスは他の混合物と反応し、異なる効果を発動させることができる
 			'''
 	}
 
 	HydrationPotion: {
 		DisplayName: スポーツドリンク
-		Tooltip: 体力とテクニックポイントの回復速度が増加する
+		Tooltip: 体力とテクニカルポイントの回復速度が増加する
 	}
 
 	IronTomahawk: {
@@ -17455,7 +17453,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			'''
 			地面に落ちているアイテムの収集範囲が広がる
 			投擲アイテムを拾うと33%の確率で重複し、投擲速度が増加する
-			この効果は非戦闘時に半秒に1度だけ発動する
+			この効果は非戦闘時のみ発動する
 			'''
 	}
 
@@ -17590,7 +17588,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			「どんなひどい調合物を作っているんだろう？」
 			12%の確率で投擲ダメージが増加
 			33%の確率で投げたアイテムを消費しない
-			最大テクニックポイントが1増加
+			最大テクニカルポイントが1増加
 			'''
 	}
 
@@ -17666,7 +17664,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			「影に潜み、敵を討て」
 			投擲ダメージ20%増加
 			33%の確率で投げたアイテムを消費しない
-			最大テクニックポイントが2増加
+			最大テクニカルポイントが2増加
 			'''
 	}
 
@@ -17715,7 +17713,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		Tooltip:
 			'''
 			超高速で走ることができる
-			移動中、テクニックポイントの発生が25%速くなる
+			移動中、テクニカルポイントの発生が25%速くなる
 			'''
 	}
 
@@ -17765,12 +17763,12 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	}
 
 	TechniqueBlankScroll: {
-		DisplayName: ブランクテクニックスクロール
+		DisplayName: 無地の巻物
 		Tooltip:
 			'''
 			固有技アビリティのクラフトに使用する
-			技発動後、投擲ダメージを与ると技ポイントがチャージされる
-			ダメージを与え続けないとテクニックポイントは時間経過とともに減少する
+			技発動後、投擲ダメージを与えるとテクニカルポイントがチャージされる
+			ダメージを与え続けないとテクニカルポイントは時間経過とともに減少する
 			発動中の技のアビリティを使用するには '{$Keybinds.ThrowingTechnique.DisplayName}' キーを押す
 			'''
 	}
@@ -17918,7 +17916,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			'''
 			25%の確率で投擲ダメージが増加
 			33%の確率で投げたアイテムを消費しない
-			最大テクニックポイントが2増加
+			最大テクニカルポイントが2増加
 			'''
 	}
 
@@ -18337,7 +18335,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	TrackersSkinningBlade: {
 		DisplayName: トラッカーのハンティングナイフ
-		Tooltip: ヒット時に敵の持っているコインの2%を落とさせる
+		Tooltip: ヒット時に敵が落とすコインの2%を追加でドロップさせる
 	}
 
 	VanquisherMedal: {
@@ -19154,7 +19152,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			DisplayName: "{0} ミュージックプレイヤー"
 			Tooltip:
 				'''
-				エンパワーメントの持続時間を {0} {^0:second;seconds} 延長する
+				エンパワーメントの持続時間を {0} {^0:second;秒} 延長する
 				"{1} のエンパワーメントレベルを {2} 増加させる"
 				'''
 		}
@@ -19945,7 +19943,7 @@ NPCs: {
 			SpawnCondition: Defeat [c/4dffb8:{$NPCs.TheGrandThunderBird.DisplayName}]
 		}
 
-		Button2: Sandstorm ({^0:80 Silver;1 Gold})
+		Button2: 砂嵐を起こす ({^0:80 Silver;1 Gold})
 	}
 
 	DissonanceSeer: {
@@ -27745,7 +27743,7 @@ Common: {
 
 	Tooltips: {
 		TheBlackItem: ダメージを与えるとスタックさせ、50スタックで大ダメージを与える
-		DevItem: "'トリウム開発者になりすまそう！'"
+		DevItem: "'Thorium開発者になりすまそう！'"
 		ShoulderGuardianLimit: 一度に召喚できるショルダー・ガーディアンは1人のみ
 		BannerPlacement: 旗を1本地面に立てる
 		BigInstrument:
@@ -27760,7 +27758,7 @@ Common: {
 			EatWhileFull: 満腹の状態では {$NPCs.Cook.DisplayName} の料理を食べることはできない
 		}
 
-		Sheath: 剣の攻撃は、 {1} {^1:second;seconds}使用されなかった場合、 {0}% のダメージを与える
+		Sheath: 剣を持っている時、 {1} {^1:second;秒}間攻撃しないとステルスが付与され、次に攻撃した時に {0}% の追加ダメージを与える
 	}
 
 	TreasureBag: トレジャーバッグ ({0})
@@ -27782,9 +27780,9 @@ DeathText: {
 }
 
 ThrowerTechniques: {
-	DisplayName: テクニック: {0}
-	TooltipBase: " '{$Keybinds.ThrowingTechnique.DisplayName}' を押す: {0} "
-	CostTooltip: " {0} {^0:technique point;technique points} コスト"
+	DisplayName: 術の巻物：{0}
+	TooltipBase: " '{$Keybinds.ThrowingTechnique.DisplayName}' を押すと、{0} "
+	CostTooltip: " {0} {^0:technique point;テクニカルポイント} コスト"
 	UseToEnable: 使用時にアクティブな技をセット｜投擲ダメージを与えてポイントを貯める
 	UseToDisable: 有効｜もう一度使うと無効｜投擲ダメージでポイント増加
 
@@ -27812,7 +27810,7 @@ ThrowerTechniques: {
 		Description:
 			'''
 			毒牙を吐き出し、ダメージを受けた敵を毒状態にする
-			毒や毒に侵された敵はクリティカル確率が上がる
+			毒状態の敵に対するクリティカル発生率が上昇する
 			'''
 	}
 
@@ -27820,7 +27818,7 @@ ThrowerTechniques: {
 		DisplayName: デコイ
 		Description:
 			'''
-			囮は近くの敵の注意を引く
+			囮を生成し、近くの敵の注意を引く
 			「騙されたな！」
 			'''
 	}
@@ -27831,7 +27829,7 @@ ThrowerTechniques: {
 	}
 
 	HiddenBlade: {
-		DisplayName: 隠し刃
+		DisplayName: アサシンブレード
 		Description: カーソルに向かってダメージを与える隠し刃を放つ
 	}
 
@@ -27839,8 +27837,8 @@ ThrowerTechniques: {
 		DisplayName: ラストスタンド
 		Description:
 			'''
-			致命的なダメージを受けると自動的に発動し、{0} {^0:second;seconds}の無敵時間を付与する
-			無敵時間中、{1}%の投擲速度とダメージを得るが、効果時間終了時に死亡する
+			致命的なダメージを受けると自動的に発動し、{0} {^0:second;秒}の無敵時間を付与する
+			無敵時間中、{1}%の投擲速度とダメージボーナスを得るが、効果時間終了時に死亡する
 			'''
 	}
 
@@ -27848,8 +27846,8 @@ ThrowerTechniques: {
 		DisplayName: メテオストンプ
 		Description:
 			'''
-			下方に突撃し、敵にダメージを与える
-			ブロックに着地する際に使用すると、落下ダメージを防ぐことができる
+			下方向に突撃し、敵にダメージを与える
+			着地する間際に使用すると、落下ダメージを無効化することができる
 			'''
 	}
 
@@ -28041,18 +28039,18 @@ Configs: {
 		}
 
 		TechniquePointOpacity: {
-			Label: テクニックポイントの不透明度
+			Label: テクニカルポイントの不透明度
 			Tooltip: ""
 		}
 
 		ShowFullEmpowermentTooltip: {
 			Label: フル・エンパワーメントのツールチップを表示
-			Tooltip: これは "{$Empowerments.ItemTopTooltipHoldShift}" ツールチップの代わりに完全なツールチップを表示するかどうかを切り替えます。
+			Tooltip: これは "{$Empowerments.ItemTopTooltipHoldShift}" ツールチップの代わりに完全なツールチップを表示するかどうかを切り替える。
 		}
 
 		ShowEmpowermentOrbsInTooltip: {
 			Label: ツールチップにエンパワーメントオーブを表示する
-			Tooltip: ツールチップにエンパワーメントと一緒にオーブのアイコンを表示するかどうかを切り替えます。
+			Tooltip: ツールチップにエンパワーメントと一緒にオーブのアイコンを表示するかどうかを切り替える。
 		}
 	}
 
@@ -28114,12 +28112,12 @@ Configs: {
 
 	Common: {
 		Tooltips: {
-			Vanity: 通常のゲームプレイで '{0}' が入手可能かどうかを切り替えます。
-			Weapon: 通常のゲームプレイで '{0}' が入手可能かどうかを切り替えます。
-			WeaponNoThe: 通常のゲームプレイで '{0}' が入手可能かどうかを切り替えます。
-			Accessory: 通常のゲームプレイで '{0}' が入手可能かどうかを切り替えます。
-			AccessoryNoThe: 通常のゲームプレイで '{0}' が入手可能かどうかを切り替えます。
-			Other: 通常のゲームプレイで '{0}' が入手可能かどうかを切り替えます。
+			Vanity: 通常のゲームプレイで '{0}' が入手可能かどうかを切り替える。
+			Weapon: 通常のゲームプレイで '{0}' が入手可能かどうかを切り替える。
+			WeaponNoThe: 通常のゲームプレイで '{0}' が入手可能かどうかを切り替える。
+			Accessory: 通常のゲームプレイで '{0}' が入手可能かどうかを切り替える。
+			AccessoryNoThe: 通常のゲームプレイで '{0}' が入手可能かどうかを切り替える。
+			Other: 通常のゲームプレイで '{0}' が入手可能かどうかを切り替える。
 		}
 
 		Labels: {

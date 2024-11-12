@@ -1,0 +1,786 @@
+Tile: ブロック
+
+Tiles: ブロック
+
+Wall: 壁
+
+Walls: 壁
+
+Item: アイテム
+
+Chain: 連続-
+
+Keybind: {
+	None: キーバインドが設定されていません。OreExcavatorを使用するにはコントロール設定で設定してください！
+	Enabled: 掘削が有効になりました
+	Disabled: 掘削が無効になりました
+	Excavate: 掘削中...
+	Whitelist: 選択中のブロック/壁/アイテムをホワイトリストに追加
+	UnWhitelist: ブロック/壁/アイテムをホワイトリストから除外
+	MainActionWarning:
+		'''
+		こんにちは！{0}です！
+		採掘キーを掘削に使用しているのが検出されました。ワールドを保護するため、一括掘削以外のサポート機能（連続置き換えなど）を無効にしました！
+		代わりに、掘削には右 {1} を使用することをお勧めします！ぜひ試してみてください！
+
+		この機能は、別のキーに変更した後、クライアント設定でいつでも再有効化できます。
+		'''
+	NoBind:
+		'''
+		[{0}] - v{1}
+		キーバインドが設定されていないようです！
+		キーバインドが設定されていないとMODが機能しないので、バグを報告する前に設定してください。
+		MODのキーバインドは「設定 > コントロール > MODコントロール（下部） > {0}: {$Mods.OreExcavator.KeyBinds.Excavate} 」にあります。
+		'''
+}
+
+Network: {
+	Added: "{0} が '{1}' を個人のホワイトリストに追加しました"
+	Removed: "{0} が '{1}' を個人のホワイトリストから削除しました"
+}
+
+UI: {
+	Tooltips: {
+		HoldToExcavate: 「{0}」を押し続けて掘削！
+		HoldToPaint: 「{0}」を押し続けて連続ペイント！
+		HoldToPlace: 「{0}」を押し続けて連続配置！
+		HoldToPlant: 「{0}」を押し続けて連続で植える！
+		HoldToHarvest: 「{0}」を押し続けて連続収穫！
+		HoldToSwap: 「{0}」を押し続けて連続置き換え！
+		PressToWhitelist: 「{0}」を押してアイテムをホワイトリストに追加！
+		Blacklisted: このアイテムはサーバーホストによってブラックリストに登録されています
+	}
+
+	Mode: {
+		Excavating: 掘削
+		Painting: ペイント
+		Placing: 設置
+		Planting: 植え
+		Replacing: 置き換え
+	}
+}
+
+Whitelisting: {
+	NoPlace: 「{0}」 は設置できるアイテムではありません。ホワイトリストに追加しようとしていますが、よろしいですか？
+	Nothing: 追加、削除できません！ブロック、壁、またはアイテムにカーソルを合わせて再試行してください。
+	AddOff: 「{0}」 を追加しますが、ホワイトリストが無効化されています。
+	RemoveOff: 「{0}」 を削除しますが、ホワイトリストが無効化されています。
+	Added: Added 「{0}」をホワイトリストに追加しました。
+	Ignore: "、このセッションではブラックリストを無視します。"
+	Removed: 「{0}」をホワイトリストから削除しました。
+	Contains: 「{0}」は既にホワイトリストに登録されています。
+	Missing: 「{0}」はホワイトリストに登録されていません。
+	Blacklisted: 「{0}」はサーバーホストによってブラックリストに登録されているため変更を拒否しました。
+	Override: シングルプレイのワールドでは、キーを2回押すと {0} のブラックリストを無視できます
+	ContactHost: サーバーホストに 「{0}」をブラックリストから削除するよう依頼してください。
+}
+
+Logging: {
+	Halted: 掘削が停止しました
+
+	Warnings: {
+		NoKey: "{$Mods.OreExcavator.Logging.Halted}: 掘削用のキーが設定されていません。"
+		PositionMismatch: "{$Mods.OreExcavator.Logging.Halted}: カーソルとサーバー位置が一致していません。プレイヤーがカーソルを速く動かしすぎています。"
+		WhitelistFailed: "{$Mods.OreExcavator.Logging.Halted}: ブラックリストまたはホワイトリストのチェックに失敗しました。"
+		TilePending: "{$Mods.OreExcavator.Logging.Halted}: 位置データを処理中です！"
+
+		Server: {
+			DisabledExcavations: "{$Mods.OreExcavator.Logging.Halted}: ホストがブロックの掘削機能を無効にしています。"
+			DisabledHammer: "{$Mods.OreExcavator.Logging.Halted}: ホストが壁の掘削機能を無効にしています。"
+			DisabledSwap: "{$Mods.OreExcavator.Logging.Halted}:  ホストが連続置き換え機能を無効にしています。"
+			DisabledPlanting: "{$Mods.OreExcavator.Logging.Halted}: ホストが連続で植える機能を無効にしています。"
+			DisabledPainting: "{$Mods.OreExcavator.Logging.Halted}: ホストが連続ペイント機能を無効にしています。"
+		}
+
+		Client: {
+			DisabledExcavations: "{$Mods.OreExcavator.Logging.Halted}: ブロックの掘削機能が無効になっています。"
+			DisabledPlacing: "{$Mods.OreExcavator.Logging.Halted}:  連続配置機能が無効になっています。"
+			DisabledAlternatives: "{$Mods.OreExcavator.Logging.Halted}: 連続置き換え機能が無効になっています。"
+			RejectSwapUnwhitelisted:
+				'''
+				「{0}」 の連続置き換えを拒否しました。ホワイトリストに登録されていません。
+				インベントリ内のアイテムにカーソルを合わせて 「{1}」 を押し、連続置き換えを再度実行してください！
+				'''
+			RejectSwapBlacklisted: 「{0}」 の連続置き換えを拒否しました。サーバーホストによってブラックリストに登録されています。
+		}
+
+		TypeInvalid: "{$Mods.OreExcavator.Logging.Halted}: アクションの種類が無効です。"
+		Blocked: "{$Mods.OreExcavator.Logging.Halted}: : 他のブロックによってアクションがブロックされました。"
+		Unaltered: "{$Mods.OreExcavator.Logging.Halted}: バニラ機能/アクションにより位置が変更されませんでした。"
+		DoesNotExist: "{$Mods.OreExcavator.Logging.Halted}: 位置が存在しません。"
+		NoPaint: "{$Mods.OreExcavator.Logging.Halted}: プレイヤーのインベントリにペイントがありません。"
+		BadOperation: "{$Mods.OreExcavator.Logging.Halted}: 無効な操作が試行されました。未定義の動作です。"
+		Unachored: "{$Mods.OreExcavator.Logging.Halted}: 位置が固定されておらず、拡張先がありません。"
+	}
+}
+
+Config: {
+	Common: {
+		Properties: プロパティ
+		Blocks: ブロック
+		Walls: 壁
+		Items: アイテム
+		IconBuffer: " ："
+		HeaderBuffer: " -"
+		WorkInProgress:
+			'''
+
+
+			 製作中!!
+			'''
+
+		Performance: {
+			Prefix: "\n\n"
+			NoImpact: "{$Mods.OreExcavator.Config.Common.Performance.Prefix} パフォーマンスに影響はありません"
+			SmallImpact: "{$Mods.OreExcavator.Config.Common.Performance.Prefix} 有効にするとパフォーマンスにわずかに影響します"
+			CanImpact: "{$Mods.OreExcavator.Config.Common.Performance.Prefix} 極端な値はパフォーマンスに悪影響を与える可能性があります"
+			DisableImproves: "{$Mods.OreExcavator.Config.Common.Performance.Prefix} 無効にするとパフォーマンスが向上する可能性があります"
+			EnableImproves: "{$Mods.OreExcavator.Config.Common.Performance.Prefix} 有効にするとパフォーマンスが向上する可能性があります"
+		}
+
+		Changes: {
+			Remote: 変更を受け付けました（理由：リモートホストからの変更要求）
+			NotHost: 変更が拒否されました（理由：あなたはホストではありません）
+		}
+	}
+
+	Server: {
+		Headers: {
+			Header: ワールド設定
+			Properties: "{$Mods.OreExcavator.Config.Server.Headers.Header}{$Mods.OreExcavator.Config.Common.HeaderBuffer} プロパティ"
+			Tiles: "{$Mods.OreExcavator.Config.Server.Headers.Header}{$Mods.OreExcavator.Config.Common.HeaderBuffer} {$Mods.OreExcavator.Tiles}"
+			Walls: "{$Mods.OreExcavator.Config.Server.Headers.Header}{$Mods.OreExcavator.Config.Common.HeaderBuffer} {$Mods.OreExcavator.Walls}"
+			Items: "{$Mods.OreExcavator.Config.Server.Headers.Header}{$Mods.OreExcavator.Config.Common.HeaderBuffer} {$Mods.OreExcavator.Swapping}"
+		}
+
+		ShowWelcome: {
+			Label: "[i/p0:4792]{$Mods.OreExcavator.Config.Common.IconBuffer} 起動時メッセージの表示"
+			Description:
+				'''
+				無効にすると、すべてのウェルカムメッセージが強制的に非表示になります。
+				アップデートが来てもこの機能が自動で再度有効になることはありません。
+				'''
+		}
+
+		RecursionLimit: {
+			Label: "[i/p0:18]{$Mods.OreExcavator.Config.Common.IconBuffer} 上限の変更"
+			Description:
+				'''
+				すべてのクライアントに対して、1回の掘削で変更可能な
+				最大ブロック数を設定します！
+				クライアントとサーバーの小さいほうの上限が
+				各クライアントで使用されます。
+				0に設定するとmodを無効化し、最大に設定すると
+				プレイヤーが独自の上限を決められるようになります。 {$Mods.OreExcavator.Config.Common.Performance.CanImpact}!
+				'''
+		}
+
+		AllowDiagonals: {
+			Label: "[i/p0:2799]{$Mods.OreExcavator.Config.Common.IconBuffer} 対角線の検索を許可"
+			Description:
+				'''
+				有効にすると、プレイヤーは検索時に
+				ソースの対角線上の一致も確認できます。 {$Mods.OreExcavator.Config.Common.Performance.DisableImproves}!
+				'''
+		}
+
+		ChainSeeding: {
+			Label: "[i/p0:62]{$Mods.OreExcavator.Config.Common.IconBuffer} 連続で植える機能を許可"
+			Description:
+				'''
+				有効にすると、プレイヤーは種を連続して植えることができます。
+				苗木にはまだ対応していませんが、草には対応しています。{$Mods.OreExcavator.Config.Common.Performance.SmallImpact}!
+				'''
+		}
+
+		ChainPainting: {
+			Label: "[i/p0:1071]{$Mods.OreExcavator.Config.Common.IconBuffer} 連続ペイント機能を許可"
+			Description:
+				'''
+				有効にすると、プレイヤーは広範囲のペイントが可能になります。
+				通常通りペイントを消費し、ペイントスプレーは無視されます。 {$Mods.OreExcavator.Config.Common.Performance.SmallImpact}!
+				'''
+		}
+
+		ChainPlacing: {
+			Label: "[i/p0:2340]{$Mods.OreExcavator.Config.Common.IconBuffer} 連続設置機能を許可"
+			Description:
+				'''
+				有効にすると、プレイヤーはブロックなどを連続して配置できます。
+				アイテムは通常通り消費され、ロープ、レール、プランター、足場などに対応しています。 {$Mods.OreExcavator.Config.Common.Performance.SmallImpact}!
+				'''
+		}
+
+		AllowQuickWhitelisting: {
+			Label: "[i/p0:3186]{$Mods.OreExcavator.Config.Common.IconBuffer} クイックホワイトリストキーを許可"
+			Description:
+				'''
+有効にすると、ホワイトリストキーを使って
+				ブロック/壁/アイテムをホワイトリストに追加/削除できます。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		ManaConsumption: {
+			Label: "[i/p0:109]{$Mods.OreExcavator.Config.Common.IconBuffer} 掘削マナ倍率"
+			Description:
+				'''
+				0以上の値を設定すると、行った操作に応じたマナが消費されます（量、強さに比例）。
+				1が通常のバランスで、0.5にするとマナコストが無料になります。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		OreMultiplier: {
+			Label: "[i/p0:11]{$Mods.OreExcavator.Config.Common.IconBuffer} 鉱石倍率"
+			Description:
+				'''
+				掘削によって得られる鉱石の量を増加させます。
+				これはOreとして指定されたmodの鉱石のみに適用され、通常のブロックには影響しません。 {$Mods.OreExcavator.Config.Common.Performance.DisableImproves}.
+				'''
+		}
+
+		TeleportLoot: {
+			Label: "[i/p0:5010]{$Mods.OreExcavator.Config.Common.IconBuffer} アイテムをプレイヤーにテレポート"
+			Description:
+				'''
+				有効にすると、掘削で得たドロップが実行したプレイヤーの元に転送されます。
+
+				マルチプレイヤーサーバーでの使用は推奨されていません！ {$Mods.OreExcavator.Config.Common.Performance.DisableImproves}!
+				'''
+		}
+
+		SafeItems: {
+			Label: "[i/p0:193]{$Mods.OreExcavator.Config.Common.IconBuffer} アイテムを無敵化"
+			Description:
+				'''
+				有効にすると、アイテムが
+				溶岩などに触れても消えなくなります。 {$Mods.OreExcavator.Config.Common.Performance.EnableImproves}, 
+				 ただし、これは不正行為と見なされる可能性があります… {$Mods.OreExcavator.Config.Common.WorkInProgress}
+				'''
+		}
+
+		CreativeMode: {
+			Label: "[i/p0:36]{$Mods.OreExcavator.Config.Common.IconBuffer} クリエイティブモード"
+			Description:
+				'''
+				有効にすると、アイテムはドロップせず、消費もされず、 採掘力も無視されます。 {$Mods.OreExcavator.Config.Common.Performance.EnableImproves}, 
+				 ただし、これは不正行為と見なされる可能性があります… {$Mods.OreExcavator.Config.Common.WorkInProgress}
+				'''
+		}
+
+		AggressiveModCompatibility: {
+			Label: "[i/p0:3000]{$Mods.OreExcavator.Config.Common.IconBuffer} mod互換性を使用"
+			Description:
+				'''
+				有効にすると、Modで追加されたブロック、ツール、壁、アイテムを
+				適切に対応するための追加チェックが強制的に実行されます。 {$Mods.OreExcavator.Config.Common.Performance.EnableImproves}, しかし、動作が不安定になる場合があります！ {$Mods.OreExcavator.Config.Common.WorkInProgress}
+				'''
+		}
+
+		AllowPickaxing: {
+			Label: "[i/p0:3509]{$Mods.OreExcavator.Config.Common.IconBuffer} ピッケルによる採掘を許可"
+			Description:
+				'''
+				有効にすると、適切なピッケル使用時に掘削アルゴリズムがブロックに適用されます。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		TileBlacklistToggled: {
+			Label: "[i/p0:3497]{$Mods.OreExcavator.Config.Common.IconBuffer} タイルのブラックリストを有効化"
+			Description:
+				'''
+				有効にすると、プレイヤーに対してタイルのブラックリストを適用します。
+				無効にすると、プレイヤーが自由にホワイトリスト制御を行えます {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		TileBlacklist: {
+			Label: "[i/p0:2697]{$Mods.OreExcavator.Config.Common.IconBuffer} ブロックのブラックリスト"
+			Description:
+				'''
+				このリストを設定すると、連続掘削できないブロックを手動で設定することができます。
+				 そのブロックを追加するMODごとに設定できます。プレイヤーのホワイトリストが優先されます。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		AllowHammering: {
+			Label: "[i/p0:196]{$Mods.OreExcavator.Config.Common.IconBuffer} ハンマーによる採掘を許可"
+			Description:
+				'''
+				有効にすると、適切なハンマー使用時に掘削アルゴリズムが壁に適用されます。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		WallBlacklistToggled: {
+			Label: "[i/p0:654]{$Mods.OreExcavator.Config.Common.IconBuffer} 壁のブラックリストを有効化"
+			Description:
+				'''
+				有効にすると、プレイヤーに対して壁のブラックリストを適用します。
+				無効にすると、プレイヤーが自由にホワイトリスト制御を行えます。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		WallBlacklist: {
+			Label: "[i/p0:2698]{$Mods.OreExcavator.Config.Common.IconBuffer} 壁のブラックリスト"
+			Description:
+				'''
+				このリストを設定すると、連続掘削できない壁を手動で設定することができます。
+				 その壁を追加するMODごとに設定できます。プレイヤーのホワイトリストが優先されます。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		AllowReplace: {
+			Label: "[i/p0:9]{$Mods.OreExcavator.Config.Common.IconBuffer} ブロック置き換えによる採掘を許可"
+			Description:
+				'''
+				有効にすると、ブロック/壁の置き換え時に掘削アルゴリズムが適用されます。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		ItemBlacklistToggled: {
+			Label: "[i/p0:619]{$Mods.OreExcavator.Config.Common.IconBuffer} アイテムのブラックリストを有効化"
+			Description:
+				'''
+				有効にすると、プレイヤーに対してアイテムのブラックリストを適用します。
+				無効にすると、プレイヤーが自由にホワイトリスト制御を行えます。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		ItemBlacklist: {
+			Label: "[i/p0:236]{$Mods.OreExcavator.Config.Common.IconBuffer} アイテムのブラックリスト"
+			Description:
+				'''
+				プレイヤーのホワイトリストへの登録が禁止されるアイテムを制御します。設定の意味が分からない場合は変更しないでください。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+	}
+
+	Client: {
+		Headers: {
+			Header: プレイヤー設定
+			UI: "{$Mods.OreExcavator.Config.Client.Headers.Header}{$Mods.OreExcavator.Config.Common.HeaderBuffer} UI"
+			Core: "{$Mods.OreExcavator.Config.Client.Headers.Header}{$Mods.OreExcavator.Config.Common.HeaderBuffer} コア"
+			Tiles: "{$Mods.OreExcavator.Config.Client.Headers.Header}{$Mods.OreExcavator.Config.Common.HeaderBuffer} {$Mods.OreExcavator.Tiles}"
+			Walls: "{$Mods.OreExcavator.Config.Client.Headers.Header}{$Mods.OreExcavator.Config.Common.HeaderBuffer} {$Mods.OreExcavator.Walls}"
+			Items: "{$Mods.OreExcavator.Config.Client.Headers.Header}{$Mods.OreExcavator.Config.Common.HeaderBuffer} {$Mods.OreExcavator.UI.Mode.Replacing}"
+			Controls: "{$Mods.OreExcavator.Config.Client.Headers.Header}{$Mods.OreExcavator.Config.Common.HeaderBuffer} コントロール"
+		}
+
+		ShowWelcome: {
+			Label: "[i/p0:4792]{$Mods.OreExcavator.Config.Common.IconBuffer} スタートアップメッセージを表示"
+			Description:
+				'''
+				この設定を無効にすると、現在のバージョンのウェルカムメッセージが非表示になります。
+				新しいバージョンがリリースされるとこの機能は再び有効になります。
+				'''
+		}
+
+		ShowCursorTooltips: {
+			Label: "[i/p0:5075]{$Mods.OreExcavator.Config.Common.IconBuffer} 掘削ツールチップを表示"
+			Description:
+				'''
+				この設定を無効にすると、掘削キーを押しながらでもツールチップが表示されなくなります。
+				バグを報告する前に、この設定を有効にしてください！
+				'''
+		}
+
+		ShowItemTooltips: {
+			Label: "[i/p0:267]{$Mods.OreExcavator.Config.Common.IconBuffer} アイテムツールチップを表示"
+			Description:
+				'''
+				この設定を無効にすると、アイテムや壁、ブロックに対するコンテキストツールチップが表示されなくなります。
+				バグを報告する前に、この設定を有効にしてください！
+				'''
+		}
+
+		ReducedEffects: {
+			Label: "[i/p0:150]{$Mods.OreExcavator.Config.Common.IconBuffer} エフェクトを軽減"
+			Description:
+				'''
+				ラグが発生していますか？
+				この設定を無効にすると、Modがグラフィックパフォーマンスを向上させるために軽量化モードで動作します。
+				見た目のみの変化があります。
+				'''
+		}
+
+		RefillMana: {
+			Label: "[i/p0:555]{$Mods.OreExcavator.Config.Common.IconBuffer} 掘削時にマナポーションを自動使用"
+			Description:
+				'''
+				ワールドで掘削マナ倍率が設定されている時、マナが不足したときにマナポーションを自動的に使用します。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		DoDebugStuff: {
+			Label: "[i/p0:37]{$Mods.OreExcavator.Config.Common.IconBuffer} デバッグログを表示"
+			Description:
+				'''
+				デバッグログの表示を切り替えます。
+				Modに関するバグを報告する前に、この設定を有効にしてください！
+				'''
+		}
+
+		RecursionLimit: {
+			Label: "[i/p0:18]{$Mods.OreExcavator.Config.Common.IconBuffer} ブロック修正の制限"
+			Description:
+				'''
+				一度の掘削で修正できる最大ブロック数を設定します。
+				大きな数値はパフォーマンスに悪影響を及ぼします！
+				'''
+		}
+
+		DoDiagonals: {
+			Label: "[i/p0:2799]{$Mods.OreExcavator.Config.Common.IconBuffer} 対角方向の探索を行う"
+			Description:
+				'''
+				この設定を有効にすると、掘削アルゴリズムが対角方向のブロックも探索します。
+				この設定を無効にするとパフォーマンスが向上します！
+				'''
+		}
+
+		RecursionDelay: {
+			Label: "[i/p0:3099]{$Mods.OreExcavator.Config.Common.IconBuffer} ブロック破壊の遅延"
+			Description:
+				'''
+				破壊の遅延(ms)を設定します。
+				高い値に設定するとパフォーマンスが向上する場合があります！
+				'''
+		}
+
+		InititalChecks: {
+			Label: "[i/p0:321]{$Mods.OreExcavator.Config.Common.IconBuffer} ホワイトリストチェックを行う"
+			Description:
+				'''
+				この設定を有効にすると、右クリックでの掘削開始前にホワイトリストとブラックリストがチェックされます。 {$Mods.OreExcavator.Config.Common.Performance.SmallImpact}, ですが、安定した動作が得られる可能性があります！
+				'''
+		}
+
+		TileWhitelistAll: {
+			Label: "[i/p0:3509]{$Mods.OreExcavator.Config.Common.IconBuffer} すべてのブロックをホワイトリストに追加"
+			Description: この設定を有効にすると、すべてのブロックがデフォルトでホワイトリストに追加されます。 {$Mods.OreExcavator.Config.Common.Performance.EnableImproves}!
+		}
+
+		TileWhitelist: {
+			Label: "[i/p0:2695]{$Mods.OreExcavator.Config.Common.IconBuffer} ブロックのホワイトリスト"
+			Description:
+				'''
+				このリストを設定すると、連続掘削可能なブロックを手動で指定できます。所有するModごとに設定ができ、ホストのブラックリストにも従います。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		WallWhitelistAll: {
+			Label: "[i/p0:196]{$Mods.OreExcavator.Config.Common.IconBuffer} すべての壁のホワイトリスト"
+			Description: この設定を有効にすると、すべての壁がデフォルトでホワイトリストに追加されます。 {$Mods.OreExcavator.Config.Common.Performance.EnableImproves}!
+		}
+
+		WallWhitelist: {
+			Label: "[i/p0:2696]{$Mods.OreExcavator.Config.Common.IconBuffer} 壁のホワイトリスト"
+			Description:
+				'''
+				このリストを設定して、連続掘削可能な壁を手動で指定できます。
+				Modごとに設定ができ、ホストのブラックリストにも従います。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		ItemWhitelistAll: {
+			Label: "[i/p0:9]{$Mods.OreExcavator.Config.Common.IconBuffer} すべてのアイテムをホワイトリストに追加"
+			Description: この設定を有効にすると、すべてのアイテムがデフォルトでホワイトリストに追加されます。{$Mods.OreExcavator.Config.Common.Performance.EnableImproves}!
+		}
+
+		ItemWhitelist: {
+			Label: "[i/p0:38]{$Mods.OreExcavator.Config.Common.IconBuffer} アイテムのホワイトリスト"
+			Description:
+				'''
+				このリストを設定して、連続置き換え可能なアイテムを手動で指定できます。
+				Modごとに設定ができ、ホストのブラックリストにも従います。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		ToggleExcavations: {
+			Label: "[i/p0:513]{$Mods.OreExcavator.Config.Common.IconBuffer} 掘削の切り替えキー"
+			Description:
+				'''
+				この設定を有効にすると、キーで掘削の有効状態を切り替えることができるようになります。 {$Mods.OreExcavator.Config.Common.Performance.NoImpact}!
+				'''
+		}
+
+		ReleaseCancelsExcavations: {
+			Label: "[i/p0:166]{$Mods.OreExcavator.Config.Common.IconBuffer} 掘削キャンセル"
+			Description:
+				'''
+				掘削中にキーボタンを放すと、連続掘削を即座にキャンセルします。
+
+				 マルチプレイヤーサーバーでの使用は推奨されていません！ {$Mods.OreExcavator.Config.Common.Performance.NoImpact}.
+				'''
+		}
+
+		DoSpecials: {
+			Label: "[i/p0:3230]{$Mods.OreExcavator.Config.Common.IconBuffer} 代替機能を有効化"
+			Description:
+				'''
+				有効にすると、クライアントは特別な一括掘削以外のサポート機能のアクションを許可します。
+				これらの機能を使用しない場合や、Mouse1に掘削をバインドしている場合は無効にしてください。
+				パフォーマンスに中程度の影響を与えます！
+				'''
+		}
+
+		Keybind: {
+			Label: "[g:25]{$Mods.OreExcavator.Config.Common.IconBuffer} キーバインドを探していますか？"
+			Description:
+				'''
+				キーバインドはバニラのコントロール設定で設定してください。
+				これは混乱したユーザーの案内のためのものです。
+				'''
+		}
+
+		ModVersions: {
+			Label: "[g:3095]{$Mods.OreExcavator.Config.Common.IconBuffer} Mod接続バージョン"
+			Description:
+				'''
+				Modのコンテンツの最新バージョンを示します。
+				新しい鉱石などを再チェックするために内部的に使用されます。
+
+				任意のModまたは全てのModの再同期を強制したい場合は削除してください。
+				'''
+		}
+	}
+}
+
+Keybinds: {
+	Excavate: {
+		DisplayName: 掘削
+	}
+
+	Whitelist: {
+		DisplayName: ホワイトリスト
+	}
+
+	UnWhitelist: {
+		DisplayName: ホワイトリスト解除
+	}
+}
+
+Configs: {
+	OreExcavatorConfig_Client: {
+		DisplayName: プレイヤー設定
+
+		showWelcome080: {
+			Label: "{$Mods.OreExcavator.Config.Client.ShowWelcome.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.ShowWelcome.Description}"
+		}
+
+		showCursorTooltips: {
+			Label: "{$Mods.OreExcavator.Config.Client.ShowCursorTooltips.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.ShowCursorTooltips.Description}"
+		}
+
+		showItemTooltips: {
+			Label: "{$Mods.OreExcavator.Config.Client.ShowItemTooltips.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.ShowItemTooltips.Description}"
+		}
+
+		reducedEffects: {
+			Label: "{$Mods.OreExcavator.Config.Client.ReducedEffects.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.ReducedEffects.Description}"
+		}
+
+		refillMana: {
+			Label: "{$Mods.OreExcavator.Config.Client.RefillMana.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.RefillMana.Description}"
+		}
+
+		doDebugStuff: {
+			Label: "{$Mods.OreExcavator.Config.Client.DoDebugStuff.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.DoDebugStuff.Description}"
+		}
+
+		recursionLimit: {
+			Label: "{$Mods.OreExcavator.Config.Client.RecursionLimit.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.RecursionLimit.Description}"
+		}
+
+		doDiagonals: {
+			Label: "{$Mods.OreExcavator.Config.Client.DoDiagonals.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.DoDiagonals.Description}"
+		}
+
+		recursionDelay: {
+			Label: "{$Mods.OreExcavator.Config.Client.RecursionDelay.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.RecursionDelay.Description}"
+		}
+
+		inititalChecks: {
+			Label: "{$Mods.OreExcavator.Config.Client.InititalChecks.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.InititalChecks.Description}"
+		}
+
+		toggleExcavations: {
+			Label: "{$Mods.OreExcavator.Config.Client.ToggleExcavations.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.ToggleExcavations.Description}"
+		}
+
+		releaseCancelsExcavations: {
+			Label: "{$Mods.OreExcavator.Config.Client.ReleaseCancelsExcavations.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.ReleaseCancelsExcavations.Description}"
+		}
+
+		doSpecials: {
+			Label: "{$Mods.OreExcavator.Config.Client.DoSpecials.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.DoSpecials.Description}"
+		}
+
+		tileWhitelistAll: {
+			Label: "{$Mods.OreExcavator.Config.Client.TileWhitelistAll.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.TileWhitelistAll.Description}"
+		}
+
+		tileWhitelist: {
+			Label: "{$Mods.OreExcavator.Config.Client.TileWhitelist.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.TileWhitelist.Description}"
+		}
+
+		wallWhitelistAll: {
+			Label: "{$Mods.OreExcavator.Config.Client.WallWhitelistAll.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.WallWhitelistAll.Description}"
+		}
+
+		wallWhitelist: {
+			Label: "{$Mods.OreExcavator.Config.Client.WallWhitelist.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.WallWhitelist.Description}"
+		}
+
+		itemWhitelistAll: {
+			Label: "{$Mods.OreExcavator.Config.Client.ItemWhitelistAll.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.ItemWhitelistAll.Description}"
+		}
+
+		itemWhitelist: {
+			Label: "{$Mods.OreExcavator.Config.Client.ItemWhitelist.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.ItemWhitelist.Description}"
+		}
+
+		modVersions: {
+			Label: mod Versions
+			Tooltip: ""
+		}
+
+		keybind: {
+			Label: "{$Mods.OreExcavator.Config.Client.Keybind.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Client.Keybind.Description}"
+		}
+	}
+
+	OreExcavatorConfig_Server: {
+		DisplayName: "{$Mods.OreExcavator.Config.Server.Headers.Header}"
+
+		showWelcome: {
+			Label: "{$Mods.OreExcavator.Config.Server.ShowWelcome.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.ShowWelcome.Description}"
+		}
+
+		recursionLimit: {
+			Label: "{$Mods.OreExcavator.Config.Server.RecursionLimit.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.RecursionLimit.Description}"
+		}
+
+		allowDiagonals: {
+			Label: "{$Mods.OreExcavator.Config.Server.AllowDiagonals.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.AllowDiagonals.Description}"
+		}
+
+		chainPlacing: {
+			Label: "{$Mods.OreExcavator.Config.Server.ChainPlacing.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.ChainPlacing.Description}"
+		}
+
+		chainSeeding: {
+			Label: "{$Mods.OreExcavator.Config.Server.ChainSeeding.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.ChainSeeding.Description}"
+		}
+
+		chainPainting: {
+			Label: "{$Mods.OreExcavator.Config.Server.ChainPainting.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.ChainPainting.Description}"
+		}
+
+		allowQuickWhitelisting: {
+			Label: "{$Mods.OreExcavator.Config.Server.AllowQuickWhitelisting.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.AllowQuickWhitelisting.Description}"
+		}
+
+		manaConsumption: {
+			Label: "{$Mods.OreExcavator.Config.Server.ManaConsumption.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.ManaConsumption.Description}"
+		}
+
+		oreMultiplier: {
+			Label: "{$Mods.OreExcavator.Config.Server.OreMultiplier.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.OreMultiplier.Description}"
+		}
+
+		teleportLoot: {
+			Label: "{$Mods.OreExcavator.Config.Server.TeleportLoot.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.TeleportLoot.Description}"
+		}
+
+		safeItems: {
+			Label: "{$Mods.OreExcavator.Config.Server.SafeItems.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.SafeItems.Description}"
+		}
+
+		creativeMode: {
+			Label: "{$Mods.OreExcavator.Config.Server.CreativeMode.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.CreativeMode.Description}"
+		}
+
+		aggressiveModCompatibility: {
+			Label: "{$Mods.OreExcavator.Config.Server.AggressiveModCompatibility.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.AggressiveModCompatibility.Description}"
+		}
+
+		allowPickaxing: {
+			Label: "{$Mods.OreExcavator.Config.Server.AllowPickaxing.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.AllowPickaxing.Description}"
+		}
+
+		tileBlacklistToggled: {
+			Label: "{$Mods.OreExcavator.Config.Server.TileBlacklistToggled.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.TileBlacklistToggled.Description}"
+		}
+
+		tileBlacklist: {
+			Label: "{$Mods.OreExcavator.Config.Server.TileBlacklist.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.TileBlacklist.Description}"
+		}
+
+		allowHammering: {
+			Label: "{$Mods.OreExcavator.Config.Server.AllowHammering.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.AllowHammering.Description}"
+		}
+
+		wallBlacklistToggled: {
+			Label: "{$Mods.OreExcavator.Config.Server.WallBlacklistToggled.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.WallBlacklistToggled.Description}"
+		}
+
+		wallBlacklist: {
+			Label: "{$Mods.OreExcavator.Config.Server.WallBlacklist.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.WallBlacklist.Description}"
+		}
+
+		allowReplace: {
+			Label: "{$Mods.OreExcavator.Config.Server.AllowReplace.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.AllowReplace.Description}"
+		}
+
+		itemBlacklistToggled: {
+			Label: "{$Mods.OreExcavator.Config.Server.ItemBlacklistToggled.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.ItemBlacklistToggled.Description}"
+		}
+
+		itemBlacklist: {
+			Label: "{$Mods.OreExcavator.Config.Server.ItemBlacklist.Label}"
+			Tooltip: "{$Mods.OreExcavator.Config.Server.ItemBlacklist.Description}"
+		}
+	}
+}
+
