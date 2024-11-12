@@ -6339,11 +6339,11 @@ Items: {
 		}
 
 		HallowPointRound: {
-			DisplayName: Hallow-Point Round
+			DisplayName: ハローポイント弾
 			Tooltip:
 				'''
-				Gallant light deals 6 bonus damage on hit
-				This effect does not occur if the bullets are converted by special guns
+				勇ましい光によって、ヒット時に6の追加ダメージを与える
+				この効果は、弾丸が特殊な銃によって変換されている場合は発生しない
 				'''
 		}
 
