@@ -769,7 +769,7 @@ Items: {
 		}
 
 		BloodstainedGlove: {
-			DisplayName: 血で汚れたグローブ
+			DisplayName: 血だらけのグローブ
 			Tooltip: ステルス攻撃の装甲貫通力は+8され、HPを2回復する
 		}
 
@@ -820,6 +820,20 @@ Items: {
 				炎に触れた敵は大ダメージを受け、弱体化の呪いを受ける
 				衣装スロットに装備することで、ダメージを与えずにカーソルを変更できる
 				これらの変更はレインボーカーソルと連動している
+				'''
+		}
+
+		ChaliceOfTheBloodGod: {
+			DisplayName: 血の神の聖杯
+			Tooltip:
+				'''
+				最大HPが25%増加
+				+2 HP/sのライフ再生と、回復ポーションのクールダウンが25%短縮
+				5以上のダメージを受けると、そのダメージが時間経過での出血ダメージに変換される
+				この出血はライフ再生には影響しない
+				回復ポーションを飲むと、残りの出血ダメージの最大50%を回復する
+				このアクセサリーを装備解除すると、出血中の残りのダメージが即座に発生する
+				「一滴の血のために、すべてを...」
 				'''
 		}
 
@@ -2469,12 +2483,17 @@ Items: {
 			DisplayName: 放棄されたウルフラムのヘルメット
 			Tooltip:
 				'''
-				古いモデルの ウルフラムの鎧に似た、擦り切れて錆びた兜
-				持ち主を ウルフラムロボットに変身させる
+				古いモデルのウルフラムの鎧に似た、擦り切れて錆びた兜
+				持ち主をウルフラムロボットに変身させる
 				通常のヘルメットとしてヘルメットスロットに装着することも可能
 				[c/83B87E:「この薄っぺらい鎧は、スカベンジャーや略奪者がよく着ていたものだ]
 				[c/83B87E:　その汎用性と一般的な性質から、貿易の通貨として使われるようになった」]
 				'''
+		}
+
+		CrystalHeartVodka: {
+			DisplayName: クリスタルハートウォッカ
+			Tooltip: "「ストロベリークリームリキュール（とエストロゲン）の味がする」"
 		}
 
 		CocosFeather: {
@@ -6284,6 +6303,16 @@ Items: {
 				'''
 		}
 
+		CinderArrow: {
+			DisplayName: 灰燼の矢
+			Tooltip: 爆発する矢で、ヒットすると炎の破片が飛び散る
+		}
+
+		DryadsTear: {
+			DisplayName: ドライアドの涙
+			Tooltip: 何かにぶつかると自然の破片に分裂する
+		}
+
 		ElysianArrow: {
 			DisplayName: エリュシオンの矢
 			Tooltip: 空から流星を召喚する
@@ -6309,9 +6338,28 @@ Items: {
 				'''
 		}
 
+		HallowPointRound: {
+			DisplayName: Hallow-Point Round
+			Tooltip:
+				'''
+				Gallant light deals 6 bonus damage on hit
+				This effect does not occur if the bullets are converted by special guns
+				'''
+		}
+
 		HolyFireBullet: {
 			DisplayName: 聖なる炎の弾丸
 			Tooltip: 爆発する聖なる弾丸
+		}
+
+		HailstormBullet: {
+			DisplayName: ヘイルストームの弾
+			Tooltip:
+				'''
+				「強力な氷の魔法が込められた弾丸」
+				発射後、急速に減速する
+				クリティカルヒット時に追加ダメージを与え、敵を凍結させる
+				'''
 		}
 
 		HyperiusBullet: {
@@ -6370,6 +6418,15 @@ Items: {
 				'''
 		}
 
+		SproutingArrow: {
+			DisplayName: スプラウティングアロー
+			Tooltip:
+				'''
+				二つの矢に分裂するエネルギーの矢
+				これらの矢は8ポイントの防御力を無視する
+				'''
+		}
+
 		SuperballBullet: {
 			DisplayName: スーパーボールの弾丸
 			Tooltip: とんでもないスピードでバウンドする
@@ -6394,12 +6451,13 @@ Items: {
 				'''
 		}
 
-		VeriumBullet: {
-			DisplayName: ヴェリウムの弾丸
+		VeriumBolt: {
+			DisplayName: ヴェリウムの矢
 			Tooltip:
 				'''
-				「逃げ場はない！」
-				敵を攻撃した後、帰ってくる
+				ヒットした敵にマークをつけ、しばらくしてから追加ダメージを与える
+				このダメージは敵に当たった矢の数に応じてスタックする
+				「逃げられないぞ！」
 				'''
 		}
 	}
@@ -15959,8 +16017,13 @@ Items: {
 			Tooltip: ""
 		}
 
+		NecroplasmicDye: {
+			DisplayName: ネクロプラズムの染料
+			Tooltip: ""
+		}
+
 		NightmareDye: {
-			DisplayName: ナイトメアの染料
+			DisplayName: 悪夢の染料
 			Tooltip: ""
 		}
 
@@ -16040,6 +16103,11 @@ Items: {
 			Tooltip: 後をついていくるアストロファージを召喚する
 		}
 
+		MonolithCrate: {
+			DisplayName: モノリスのクレート
+			Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		}
+
 		ProcyonidPrawn: {
 			DisplayName: プロシオニドプラウン
 			Tooltip: ""
@@ -16111,6 +16179,11 @@ Items: {
 			Tooltip: <right> を押してエッセンスを取り出す
 		}
 
+		SlagCrate: {
+			DisplayName: 岩山のクレート
+			Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		}
+
 		Shadowfish: {
 			DisplayName: シャドウフィッシュ
 			Tooltip: 「闇が広がる」
@@ -16119,6 +16192,11 @@ Items: {
 		Slurpfish: {
 			DisplayName: スラップフィッシュ
 			QuestDescription: 地獄の底にあるって言われてる古代遺跡の魚が欲しいんだけど、流石に危険すぎてさ...というわけで、キミが行ってきて！
+		}
+
+		EutrophicCrate: {
+			DisplayName: ユートロフィッククレート
+			Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 		}
 
 		EutrophicSandfish: {
@@ -16222,6 +16300,11 @@ Items: {
 		Gorecodile: {
 			DisplayName: ゴアコダイル
 			Tooltip: <right> を押して血のオーブを取り出す
+		}
+
+		HydrothermalCrate: {
+			DisplayName: 熱水のクレート
+			Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 		}
 
 		Spadefish: {
