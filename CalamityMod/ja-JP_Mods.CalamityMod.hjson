@@ -28542,17 +28542,17 @@ UI: {
 	}
 
 	Exhumed: {
-		DisplayName: 禁忌の力
+		DisplayName: 禁忌の
 		Description: アイテムを大幅に強化する。
 	}
 
 	Indignant: {
-		DisplayName: 憤怒
+		DisplayName: 憤怒の
 		Description: アイテム使用時に自身に害を与える悪魔を召喚するが、倒されると回復アイテムを落とす。
 	}
 
 	Aflame: {
-		DisplayName: 獄炎
+		DisplayName: 獄炎の
 		Description:
 			'''
 			攻撃がヒットすると、至高の魔女の力で敵を炎上させ
@@ -28562,7 +28562,7 @@ UI: {
 	}
 
 	Oblatory: {
-		DisplayName: 献身
+		DisplayName: 献身の
 		Description: 
 			'''
 			マナ消費を減少させ、ダメージを大幅に増加させるが
@@ -28571,7 +28571,7 @@ UI: {
 	}
 
 	Resentful: {
-		DisplayName: 憤怒
+		DisplayName: 憤怒の
 		Description: 
 			'''
 			ヒットした対象との距離に応じて攻撃のダメージが
@@ -28581,7 +28581,7 @@ UI: {
 	}
 
 	Bloodthirsty: {
-		DisplayName: 血飢
+		DisplayName: 血飢の
 		Description: 
 			'''
 			ヒットした対象との距離に応じて攻撃のダメージが
@@ -28591,7 +28591,7 @@ UI: {
 	}
 
 	Ephemeral: {
-		DisplayName: 儚きもの
+		DisplayName: 儚き
 		Description:
 			'''
 			このアイテムのダメージが使用により減少する。
@@ -28601,7 +28601,7 @@ UI: {
 	}
 
 	Hellbound: {
-		DisplayName: 地獄の従者
+		DisplayName: 地獄の従者の
 		Description:
 			'''
 			ミニオンは40秒のタイマーが切れると爆発し、
@@ -28611,7 +28611,7 @@ UI: {
 	}
 
 	Tainted: {
-		DisplayName: 汚染
+		DisplayName: 穢された
 		Description: 
 			'''
 			このアイテムの発射能力を削除する代わりに、
@@ -28621,7 +28621,7 @@ UI: {
 	}
 
 	Traitorous: {
-		DisplayName: 裏切り
+		DisplayName: 裏切りの
 		Description: 
 			'''
 			マナが25％未満の時にこのアイテムを使用すると、
@@ -28631,7 +28631,7 @@ UI: {
 	}
 
 	Withering: {
-		DisplayName: 凋落
+		DisplayName: 凋落の
 		Description:
 			'''
 			被ダメージ時、これまでに与えたダメージに応じた
@@ -28643,7 +28643,7 @@ UI: {
 	}
 
 	Persecuted: {
-		DisplayName: 迫害
+		DisplayName: 迫害された
 		Description:
 			'''
 			攻撃されるか、時間経過により
@@ -28655,7 +28655,7 @@ UI: {
 	}
 
 	Lecherous: {
-		DisplayName: 魅惑
+		DisplayName: 魅惑の
 		Description: 
 			'''
 			自分とマウスカーソルの間に、追尾武器を妨害する
