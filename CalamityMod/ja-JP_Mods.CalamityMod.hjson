@@ -4128,6 +4128,66 @@ Items: {
 			Tooltip: ""
 		}
 
+		ActivatedAuricPanel: {
+			DisplayName: 起動したオーリックパネル
+			Tooltip: ""
+		}
+
+		AuricAbsorber: {
+			DisplayName: オーリック吸収器
+			Tooltip: ""
+		}
+
+		AuricConsole: {
+			DisplayName: オーリックコンソール
+			Tooltip: ""
+		}
+
+		AuricDisplay: {
+			DisplayName: オーリックディスプレイ
+			Tooltip: ""
+		}
+
+		AuricPanel: {
+			DisplayName: オーリックパネル
+			Tooltip: ""
+		}
+
+		AuricPlatform: {
+			DisplayName: オーリックの足場
+			Tooltip: ""
+		}
+
+		AuricReinforcedCrate: {
+			DisplayName: オーリック強化クレート
+			Tooltip: ""
+		}
+
+		AuricRepulserPanel: {
+			DisplayName: オーリック反発パネル
+			Tooltip: 接触したプレイヤーを反発させる
+		}
+
+		AuricScreen: {
+			DisplayName: オーリックスクリーン
+			Tooltip: ""
+		}
+
+		AuricServer: {
+			DisplayName: オーリックサーバー
+			Tooltip: ""
+		}
+
+		AuricTerminal: {
+			DisplayName: オーリック端末
+			Tooltip: ""
+		}
+
+		ExoAuricPanel: {
+			DisplayName: エクソ・オーリックパネル
+			Tooltip: ""
+		}
+
 		BotanicBathtub: {
 			DisplayName: ボタニックの浴槽
 			Tooltip: ""
@@ -16207,6 +16267,11 @@ Items: {
 		GreenwaveLoach: {
 			DisplayName: グリーンウェーブローチ
 			Tooltip: 「市場で珍重される絶滅危惧種の魚」
+		}
+
+		PrismCrate: {
+			DisplayName: プリズムクレート
+			Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 		}
 
 		PrismaticGuppy: {
@@ -28477,138 +28542,353 @@ UI: {
 	}
 
 	Exhumed: {
-		DisplayName: Exhumed
-		Description: Transforms this item into something significantly stronger.
+		DisplayName: 禁忌の力
+		Description: アイテムを大幅に強化する。
 	}
 
 	Indignant: {
-		DisplayName: Indignant
-		Description: Summons demons that harm you but drop healing items on death on item usage.
+		DisplayName: 憤怒
+		Description: アイテム使用時に自身に害を与える悪魔を召喚するが、倒されると回復アイテムを落とす。
 	}
 
 	Aflame: {
-		DisplayName: Aflame
-		Description: Ignites enemies with the Supreme Witch's power on hit but also causes the user to take damage over time when holding this item.
+		DisplayName: 獄炎
+		Description:
+			'''
+			攻撃がヒットすると、至高の魔女の力で敵を炎上させ
+			るが、このアイテムを持っていると持続ダメージを受
+			ける。
+			'''
 	}
 
 	Oblatory: {
-		DisplayName: Oblatory
-		Description: Reduces mana cost and greatly increases damage but sometimes causes this item to use your life.
+		DisplayName: 献身
+		Description: 
+			'''
+			マナ消費を減少させ、ダメージを大幅に増加させるが
+			時々ライフを消費することがある。
+			'''
 	}
 
 	Resentful: {
-		DisplayName: Resentful
-		Description: Makes the damage of projectiles vary based on how far the hit target is from you. The farther, the more damage, and vice versa.
+		DisplayName: 憤怒
+		Description: 
+			'''
+			ヒットした対象との距離に応じて攻撃のダメージが
+			変動する。
+			遠いほどダメージが増加し、近いほど減少する。
+			'''
 	}
 
 	Bloodthirsty: {
-		DisplayName: Bloodthirsty
-		Description: Makes the damage of projectiles vary based on how far the hit target is from you. The closer, the more damage, and vice versa.
+		DisplayName: 血飢
+		Description: 
+			'''
+			ヒットした対象との距離に応じて攻撃のダメージが
+			変動する。
+			近いほどダメージが増加し、遠いほど減少する。
+			'''
 	}
 
 	Ephemeral: {
-		DisplayName: Ephemeral
+		DisplayName: 儚きもの
 		Description:
 			'''
-			Causes the damage output of this item to discharge from exhaustive use.
-			Its damage returns naturally when not being used. It starts off with more damage than it normally would have.
+			このアイテムのダメージが使用により減少する。
+			使用しないとダメージが回復し、通常よりも高い
+			ダメージになる。
 			'''
 	}
 
 	Hellbound: {
-		DisplayName: Hellbound
+		DisplayName: 地獄の従者
 		Description:
 			'''
-			Causes minions to be created with a 40 second timer.
-			Once it runs out, they explode violently. Minions do more damage the longer they live and idly explode as well.
+			ミニオンは40秒のタイマーが切れると爆発し、
+			ミニオンが長く生きるほどダメージが増加する。
+			何もしていない状態でも爆発する。
 			'''
 	}
 
 	Tainted: {
-		DisplayName: Tainted
-		Description: Removes projectile shooting capabilities of this item. In exchange, two skeletal arms are released on use that slice at the mouse position.
+		DisplayName: 汚染
+		Description: 
+			'''
+			このアイテムの発射能力を削除する代わりに、
+			使用時にマウスカーソルに攻撃を行う2本の
+			骨の腕を召喚する。
+			'''
 	}
 
 	Traitorous: {
-		DisplayName: Traitorous
-		Description: Using this item below 25% mana instantly consumes your remaining mana, unleashing a monster that harms both you and enemies.
+		DisplayName: 裏切り
+		Description: 
+			'''
+			マナが25％未満の時にこのアイテムを使用すると、
+			残りのマナをすべて消費し、自身と敵に害を与える
+			怪物を解き放つ。
+			'''
 	}
 
 	Withering: {
-		DisplayName: Withering
+		DisplayName: 凋落
 		Description:
 			'''
-			When hurt, you heal a percentage of the damage taken based on how much accumulated damage you did overall beforehand, up to 100%.
-			After this, you gain a damage boost while holding this item but also take exponential damage over time the longer you hold it.
+			被ダメージ時、これまでに与えたダメージに応じた
+			割合で回復する（最大100％）。
+			その後、このアイテムを持っている間は
+			ダメージブーストを得るが、
+			代わりに自身もダメージを受ける。
 			'''
 	}
 
 	Persecuted: {
-		DisplayName: Persecuted
+		DisplayName: 迫害
 		Description:
 			'''
-			When attacked, or over time, demon portals appear near you.
-			If sufficiently damaged they are friendly; otherwise they attack you. They become angered if a portal is damaged.
+			攻撃されるか、時間経過により
+			自分の近くに悪魔のポータルが現れる。
+			十分なダメージを与えると味方になるが、
+			ダメージが不足していたり、ポータルにダメージを
+			与えると敵対する。
 			'''
 	}
 
 	Lecherous: {
-		DisplayName: Lecherous
-		Description: Spawns a resilient brimstone monster that stays between you and your mouse that interferes with your homing weapons. It releases a bunch of hearts on death.
+		DisplayName: 魅惑
+		Description: 
+			'''
+			自分とマウスカーソルの間に、追尾武器を妨害する
+			ブリムストーンの怪物を召喚する。
+			死亡時に大量のハートを放出する。
+			'''
 	}
 
-	Disenchant: Disenchant
-	EvilIslandCorrupt: Adding a putrid floating island
-	EvilIslandCrimson: Adding a grotesque floating island
-	BetterDungeon: Building a better dungeon
-	BetterJungleTemple: Building a bigger jungle temple
-	JungleTempleAltar: Placing the Lihzahrd altar
-	GiantBeehive: Building a giant beehive
-	MechanicShed: Placing mechanic shed
-	VernalPass: Blessing a flourishing jungle grove
-	SunkenSea: Partially flooding an overblown desert
-	GemAdjustment: Sensibly shuffling gem depth
-	DungeonArchive: Entombing occult literature
-	SulphurSea: Polluting one of the oceans
-	BrimstoneCrags: Incinerating Azafure
-	HiddenShrines: Hiding forbidden shrines
-	CrimsonShrine: Slaying a vengeful god
-	CorruptShrine: Rotting a god's grave
-	DesertShrine: Burrowing an artifact from Osiris
-	GraniteShrine: Crystallizing a deep blue geode
-	IceShrine: Hiding a beast tamer's igloo
-	MarbleShrine: Recovering a piece of the Parthenon
-	MushroomShrine: Planting a mushroom rich of hyphae
-	SurfaceShrine: Assembling a shinobi hideout
-	Aerialite: Hiding wyvern's gold in plain sight
-	DraedonLabs: Rust and Dust
-	HellLab: Forging with the fires of hell
-	SunkenLab: Studying marine biology
-	IceLab: Prototyping quantum supercooling
-	PlagueLab: Developing abhorrent bioweaponry
-	CavernLab: Strip mining for minerals
-	DraedonWorkshop: Abandoned engineering projects
-	DraedonFacility: Other minor research projects
-	Abyss: Disposing of Silva's remains
-	SulphurSea2: Irradiating one of the oceans
-	Roxcalibur: I wanna rock
+	Disenchant: 解呪
+	EvilIslandCorrupt: 腐敗した浮島を生成中
+	EvilIslandCrimson: グロい浮島を生成中
+	AstralChest: 星の宝箱を配置中
+	BetterJungleTemple: より大きなジャングル寺院を建築中
+	JungleTempleAltar: 祭壇を配置中
+	GiantBeehive: 巨大な蜂の巣を作成中
+	MechanicShed: メカニックの小屋を配置中
+	VernalPass: ジャングルの森を祝福中
+	SunkenSea: 砂漠の一部を水没中
+	GemAdjustment: 宝石を再配置中
+	DungeonArchive: 秘術の文献を埋葬中
+	SulphurSea: 片方の海を汚染中
+	BrimstoneCrags: アザフレを焼却中
+	HiddenShrines: 禁断の祠を隠し中
+	CrimsonShrine: 復讐の神を討伐中
+	CorruptShrine: 神の墓を腐敗中
+	DesertShrine: オシリスの遺物を発掘中
+	GraniteShrine: 青いジオードを結晶化中
+	IceShrine: 獣使いのイグルーを隠し中
+	MarbleShrine: パルテノンの一部を回収中
+	MushroomShrine: 栄養たっぷりのキノコを配置中
+	SurfaceShrine: 忍者の隠れ家を作成中
+	Aerialite: 飛竜の黄金を目立たない場所に隠し中
+	DraedonLabs: 錆と塵を配置中
+	HellLab: 地獄の炎で鍛造中
+	SunkenLab: 海洋生物学の研究中
+	IceLab: 量子超冷却機の試作中
+	PlagueLab: 忌まわしい生物兵器を開発中
+	CavernLab: 鉱物採掘中
+	DraedonWorkshop: 工学プロジェクトを放棄中
+	DraedonFacility: その他の小規模研究プロジェクトを放棄中
+	Abyss: シルヴァの遺骸を処分中
+	SulphurSea2: 海の一つを放射能汚染中
+	Roxcalibur: 岩は　ドこダ
 }
 
 Vanilla: {
-	BuffDescription: {
-		Banner: 以下に対するダメージと防御力が増加する:
-		BeetleMight: 近接ダメージとスピードがそれぞれ {0} %と {1} %増加する
-		ChaosState: ロッド・オブ・ディスコードのテレポートが無効
-		LeafCrystal: 近くの敵に強力なライフパルスを放つ
-		WarmthExtra: Grants immunity to Chilled, Frozen and Glacial State
-		WeaponImbueConfetti: All attacks cause confetti to appear
-		WeaponImbueCursedFlames: Melee, Whip, and Rogue attacks inflict enemies with cursed flames
-		WeaponImbueFire: Melee, Whip, and Rogue attacks set enemies on fire
-		WeaponImbueGold: Melee, Whip, and Rogue attacks make enemies drop more gold
-		WeaponImbueIchor: Melee, Whip, and Rogue attacks decrease enemies defense
-		WeaponImbueNanites: Melee, Whip, and Rogue attacks confuse enemies
-		WeaponImbuePoison: Melee, Whip, and Rogue attacks poison enemies
-		WeaponImbueVenom: Melee, Whip, and Rogue attacks inflict acid venom on your targets
+	Armor: {
+		SetBonus: {
+			Adamantite: {
+				$parentVal:
+					'''
+					現在のダメージ軽減率の半分がクリティカル率に加算される
+					連続してダメージを与え続けると、防御力が徐々に上昇し、最大で{0}まで増加する
+					ダメージを与えないと、このボーナスは徐々に減少する
+					この追加された防御力は、アーマーブレイクによって打ち消される
+					'''
+
+					'''
+				Melee: 近接速度が15%増加し、移動速度が20%増加
+			}
+
+			Chlorophyte:
+				'''
+				リーフクリスタルを召喚し、{0}秒ごとに生命の波動を放つ
+				波動は範囲内の敵に基本ダメージ{1}を与える
+				波動はチーム全員に{2}の体力増加を付与する
+				波動で回復したプレイヤーは{3}秒が経過するまで他の波動による回復ができなくなる
+				体力増加とダメージは、最も強いクラスに基づいて変動する
+				'''
+
+			Cobalt: {
+				$parentVal:
+					'''
+					最大速度と加速度が{0}%増加する
+					現在の移動速度に応じてダメージとクリティカル率が上昇し、最大で{0}%になる
+					'''
+				Melee: 近接ダメージが10%増加
+			}
+
+			Copper: すべてのダメージが2増加
+
+			Crimson:
+				'''
+				自然な体力回復速度が大幅に増加
+				ダメージを受けない時間が長いほど体力回復速度がさらに増加
+				静止すると体力回復速度が大幅に増加
+				'''
+			Eskimo:
+				'''
+				すべての冷気系デバフダメージが1.25倍に増加
+				冷気を持つ敵から受ける接触ダメージが減少する
+				凍え、凍結、凍傷に対する耐性を付与
+				'''
+			Frost:
+				'''
+				近接および遠距離攻撃が凍傷を付与
+				{0}%のダメージ増加、対象が遠いほど効果が増加する
+				近距離では近接ダメージ、遠距離では遠距離ダメージ
+				'''
+			Gladiator:
+				'''
+				+3防御力
+				最大ステルス+60
+				ローグダメージが5%増加し、弾速が10%増加
+				'''
+			Gold:
+				'''
+				すべての敵が2%の確率で1ゴールドを、ボスを撃破すると3ゴールドをドロップする
+				所持しているコインによってクリティカル率が増加し、10ゴールドごとに1%、最大9%まで増加する
+
+				'''
+			Iron:
+				'''
+				ダメージ軽減が6%増加
+				+1 HP/sの体力回復
+				'''
+			Jungle: マナ消費が10%減少
+			Lead:
+				'''
+				ダメージ軽減が4%増加
+				+0.5 HP/sの体力回復
+				ノックバック耐性を付与
+				'''
+			Meteor: すべての魔法銃のマナ消費が33%減少
+			Mining: 鉱石の採掘時にボーナスが発生することがある
+			Molten:
+				'''
+				近接ダメージが7%増加
+				真近接ダメージが10%増加
+				燃えているブロックと、溶岩に対して一時的に耐性を得る
+				'''
+			MonkTier2:
+				'''
+				近接速度、クリティカル率、ダメージがそれぞれ10%増加
+				ミニオンダメージが15%増加
+				'''
+			Mythril:
+				'''
+				敵にヒットすると追尾するミスリルの光が放たれる
+				光が発生した後、{0}フレームの遅延があり、その後別の光が出現する
+				'''
+			Nebula:
+				'''
+				ピンクのダメージブースターが1スタックごとに7.5%のダメージ増加を得る
+				オレンジのライフブースターが1スタックごとに+2 HP/sの回復を得る
+				ブルーのマナブースターが1スタックごとに+5 MP/sの回復を得る
+				'''
+			Necro:
+				'''
+				致命的なダメージを一時的に回避することが可能
+				死までの時間を最大で{0}秒遅らせることができる
+				'''
+			Obsidian:
+				'''
+				ムチの射程が50%増加、速度が35%増加
+				ミニオンダメージが15%増加
+				燃えているブロックに対する耐性と、溶岩に一時的に耐性を得る
+				'''
+			Palladium:
+				'''
+				敵を攻撃した後に+2 HP/sの体力回復を得る
+				この回復は負の回復効果を無視する
+				'''
+			PlatinumChainmail: クリティカル率が3%増加
+			Platinum:
+				'''
+				追加の防御10ごとにダメージとクリティカル率が1%増加
+				プラチナアーマー自体の20防御はこの効果には影響しない
+				ボーナスダメージとクリティカル率は40の追加防御で上限に達する
+				'''
+			Silver:
+				'''
+				+0.5 HP/sの体力回復
+				20以上のダメージを受けた2秒後に体力を10回復
+				再度ダメージを受けるとタイマーがリセットされ、回復が遅れる
+				'''
+			Tin: 防御貫通が5増加
+			Tungsten:
+				'''
+				現在の武器のノックバックの100%分だけクリティカル率が増加
+				この効果は最大で10%のクリティカル率を得る
+				ノックバックが33%増加し、上記のボーナスもこれに含まれる
+				現在のボーナス: {1}%のクリティカル率
+				'''
+			MagicHat: 最大マナが40増加
+			Wizard: 魔法のクリティカル率が4%増加
+			CrystalAssassin:
+				'''
+				ダッシュが可能になる
+				ダメージとクリティカル率が10%増加
+				'''
+			SquireTier2:
+				'''
+				体力回復を増加
+				ミニオンダメージが15%増加、近接クリティカル率が10%増加
+				'''
+			HuntressTier2: ミニオンおよび遠距離ダメージが10%増加
+			ApprenticeTier2: ミニオンダメージが5%増加、魔法クリティカル率が15%増加
+			MonkTier3:
+				'''
+				近接ダメージ、クリティカル率、速度がそれぞれ10%増加
+				ミニオンダメージが30%増加
+				'''
+			SquireTier3:
+				'''
+				大幅に体力回復が増加
+				ミニオンダメージと近接クリティカル率が10%増加
+				'''
+			HuntressTier3: ミニオンおよび遠距離ダメージが10%増加
+			ApprenticeTier3: ミニオンダメージが10%増加、魔法クリティカル率が15%増加
+			SpectreHealing:
+				'''
+				魔法の攻撃が敵を追尾するエネルギー弾を生成
+				エネルギー弾は攻撃の70%のダメージを与える
+				'''
+		}
+	}
+
+BuffDescription: {
+		Banner: 以下の対象に対してダメージと防御力が増加する：
+		BeetleMight: 近接ダメージと速度がそれぞれ{0}%と{1}%増加
+		ChaosState: ロッドオブディスコードによるテレポートが無効化される
+		LeafCrystal: 近くの敵に対して強力な生命の波動を放つ
+		WarmthExtra: 寒気、凍結、氷結状態の効果時間が短縮する
+		WeaponImbueConfetti: すべての攻撃で紙吹雪が出現する
+		WeaponImbueCursedFlames: 近接、ムチ、およびローグの攻撃が敵に呪われた炎を付与する
+		WeaponImbueFire: 近接、ムチ、およびローグの攻撃が敵を炎上させる
+		WeaponImbueGold: 近接、ムチ、およびローグの攻撃で敵がより多くのゴールドを落とす
+		WeaponImbueIchor: 近接、ムチ、およびローグの攻撃で敵の防御力を低下させる
+		WeaponImbueNanites: 近接、ムチ、およびローグの攻撃で敵を混乱させる
+		WeaponImbuePoison: 近接、ムチ、およびローグの攻撃で敵に毒を付与する
+		WeaponImbueVenom: 近接、ムチ、およびローグの攻撃で敵に酸毒を付与する
+
 	}
 
 	AnglerChat: {
