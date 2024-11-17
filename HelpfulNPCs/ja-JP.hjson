@@ -34,17 +34,17 @@ Mods: {
 				TownNPCMood: {
 					Content: 自然を楽しんでいるよ。
 					NoHome: 自然が大好きだけど、やっぱり避難所も必要だ。
-					LoveSpace: ここには僕の植物のために十分なスペースがある。
+					LoveSpace: ここには私の植物のために十分なスペースがある。
 					FarFromHome: 研究を続けるために家に帰らなければならない。
 					DislikeCrowded: ここでは研究に集中できない。
-					HateCrowded: 人々が僕の植物にぶつかってばかりだ！
-					LikeBiome: 僕は{BiomeName}が好きだ。いつも心が落ち着く。
+					HateCrowded: 人々が私の植物にぶつかってばかりだ！
+					LikeBiome: 私は{BiomeName}が好きだ。いつも心が落ち着く。
 					DislikeBiome: "{BiomeName}にはほとんど植物がない。"
-					LikeNPC: "{NPCName}は僕の自然への情熱を理解している。"
+					LikeNPC: "{NPCName}は私の自然への情熱を理解している。"
 					LoveNPC: "{NPCName}は自然そのものだ！"
 					DislikeNPC: "{NPCName}は環境よりも利益を優先している！"
-					HateNPC: "{NPCName}は僕が守ろうとするものをすべて壊してしまう！"
-					LikeNPC_Princess: "{NPCName}はいつも僕の努力を励ましてくれる。"
+					HateNPC: "{NPCName}は私が守ろうとするものをすべて壊してしまう！"
+					LikeNPC_Princess: "{NPCName}はいつも私の努力を励ましてくれる。"
 					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/EnvironmentalistNPC}"
 				}
 
@@ -154,7 +154,7 @@ Mods: {
 
 		Dialogue: {
 			EnvironmentalistNPC: {
-				StandardDialogue1: ちょっと！僕の植物を踏まないでくれ！
+				StandardDialogue1: ちょっと！私の植物を踏まないでくれ！
 				StandardDialogue2: 魔法の豆の木なんて存在しないよ。
 				StandardDialogue3: テラリアの小動物に関する研究はほぼ完了だ。
 				StandardDialogue4: 植物を育てるには努力と献身が必要なんだ。

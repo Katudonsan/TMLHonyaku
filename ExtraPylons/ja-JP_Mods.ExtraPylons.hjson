@@ -1,0 +1,539 @@
+Conditions: {
+	CanSellChlorophytePylon: 地下のジャングルで
+	CanSellCloudPylon: クトゥルフの目撃破後、空または浮遊島付近で
+	CanSellCoralPylon: ビーチで
+	CanSellCorruptionPylon: 不浄で
+	CanSellCrimsonPylon: 真紅で
+	CanSellDungeonPylon: ダンジョン付近で
+	FullMoon: 満月
+	NotFullMoon: 満月以外
+	CanSellGranitePylon: 御影石の洞窟付近で
+	CanSellGravePylon: 墓場で
+	CanSellHoneyPylon: ジャングルで
+	CanSellIcePylon: 地下の雪原で
+	CanSellLivingPylon: 巨大樹付近で
+	CanSellLivingMahoganyPylon: 巨大マホガニー付近で
+	CanSellMarblePylon: 大理石の洞窟付近で
+	CanSellOasisPylon: オアシス付近で
+	CanSellSpacePylon: 宇宙で
+	CanSellSpiderPylon: クモの住処付近で
+	CanSellTemplePylon: ジャングル寺院付近で
+	CanSellUnderworldPylon: 地下世界で
+	CanSellSandstonePylon: 地下の砂漠で
+}
+
+MapObject: {
+	ChlorophytePylon: クロロファイトのパイロン
+	CloudPylon: 雲のパイロン
+	CoralPylon: サンゴのパイロン
+	DungeonPylon: ダンジョンのパイロン
+	GemPylon: 宝石のパイロン
+	GlowingMossPylon: 光るコケのパイロン
+	GranitePylon: 御影石のパイロン
+	GravePylon: 墓のパイロン
+	HoneyPylon: 蜂蜜のパイロン
+	IcePylon: 氷のパイロン
+	LivingPylon: 巨大樹のパイロン
+	LivingMahoganyPylon: 巨大マホガニーのパイロン
+	MarblePylon: 大理石のパイロン
+	OasisPylon: オアシスのパイロン
+	SpacePylon: 宇宙のパイロン
+	SpiderPylon: クモのパイロン
+	TemplePylon: 寺院のパイロン
+	UnderworldPylon: 地下世界のパイロン
+	VoidPylon: ヴォイドのパイロン
+	PylonActivator: パイロンアクティベーター
+	CrimsonPylon: 真紅のパイロン
+	CorruptionPylon: 不浄のパイロン
+	SandstonePylon: 砂岩のパイロン
+	CelestialPylon: 天体のパイロン
+}
+
+ItemTooltip: {
+	CloudPylon: 雨の中で使うと風邪をひくかも
+	CrimsonPylon: 使用は自己責任で
+	CorruptionPylon: 使用は自己責任で
+	HoneyPylon: なぜこのクリスタルはこんなにベタベタしているんだ？
+}
+
+ItemName: {
+	CloudPylon: 雲のパイロン
+	DungeonPylon: ダンジョンのパイロン
+	GranitePylon: 御影石のパイロン
+	MarblePylon: 大理石のパイロン
+	SpacePylon: 宇宙のパイロン
+	SpiderPylon: クモのパイロン
+	TemplePylon: 寺院のパイロン
+	UnderworldPylon: 地下世界のパイロン
+	HoneyPylon: 蜂蜜のパイロン
+	CoralPylon: サンゴのパイロン
+	GemPylon: 宝石のパイロン
+	IcePylon: 氷のパイロン
+	ChlorophytePylon: クロロファイトのパイロン
+	GravePylon: 墓のパイロン
+	OasisPylon: オアシスのパイロン
+	GlowingMossPylon: 光るコケのパイロン
+	VoidMatter: ヴォイドプロジェクター
+	VoidPylon: ヴォイドのパイロン
+	PylonActivator: パイロンアクティベーター
+	CrimsonPylon: 真紅のパイロン
+	CorruptionPylon: 不浄のパイロン
+	LivingPylon: 巨大樹のパイロン
+	LivingMahoganyPylon: 巨大マホガニーのパイロン
+	SandstonePylon: 砂岩のパイロン
+	CelestialPylon: 天体のパイロン
+}
+
+PylonErrorText: {
+	NotInBiome: このパイロンは正しいバイオームに設置されていません
+	ComingSoon: 近日公開
+	NPCReq: "─ 近くに何人のNPCが必要？ ─"
+	EnvReq: "─ パイロンの機能に必要な環境 ─"
+	HowObtain: "─ パイロンの入手方法は？ ─"
+}
+
+Descriptions: {
+	ForestPylon: 自然が好き？緑色が好き？新鮮な空気が好き？この森のパイロンにはそれがすべてあるよ
+	SnowPylon: あまり頻繁には使わない方がいいよ、風邪をひくかもしれないから
+	DesertPylon: 一度使うとポケットに砂がいっぱいになるよ
+	CavernPylon: 地下に浮かぶ岩？
+	OceanPylon: 海の音が聞こえる？
+	JunglePylon: 成長しすぎないように気をつけて、そうしないともう二度と見つからなくなるかもしれない
+	HallowPylon: このパイロンはテラリアで最もカラフルなバイオームのものだろうね！
+	MushroomPylon: キノコのシチューが好き？
+	UniversalPylon: このパイロンを手に入れるのは難しいかもしれないけど、きっとそれだけの価値があるよ
+	ChlorophytePylon: 緑色の岩？
+	CloudPylon: そんなに高くまで上るのは危険だと言われているよ
+	DungeonPylon: スケルトロンが後ろから見ているよ
+	GranitePylon: ここはどうしてこんなに暗いんだ？
+	MarblePylon: おそらく宇宙で最も豪華な石の一つだね
+	SpacePylon: 宇宙には空気があるのかな？
+	SpiderPylon: クモの巣に絡まらないように、そうしないとクモに捕まっちゃうよ
+	TemplePylon: リザードが好き？そこにはたくさんいるよ
+	UnderworldPylon: 熱い！熱い！熱い！火を消して！
+	HoneyPylon: ハチミツに絡まらないように！
+	CoralPylon: あれ、ヒトデが見える？
+	GemPylon: ぴかぴか！
+	IcePylon: スケート靴を持って行こう、外は滑りやすいよ！
+	GravePylon: 骨を怖がる？
+	OasisPylon: 砂漠に命を吹き込もう
+	GlowingMossPylon: これは暗いところで光るのかな？
+	VoidPylon: このパイロンはユニバーサルパイロンと同じように機能するけど、ひとつ欠点があるんだ。一度使うと、もう無くなってしまうんだ
+	PylonActivator:
+		'''
+		どんなパイロンの近くに置いても、そのパイロンにはNPCが近くにいなくても動作するようになるよ。
+		満月の時、旅商人から売られているよ。
+		'''
+	LivingPylon: 生き物たちは、このパイロンが放つエネルギーの近くにいるのが好きだよ
+	LivingMahoganyPylon: この小さな木が乾かないように気をつけて！
+	CrimsonPylon: 闇の力に導かれよう
+	CorruptionPylon: 闇の力に導かれよう
+	SandstonePylon: 少しほこりっぽい
+	CelestialPylon: 自分の道を選ぼう
+}
+
+EnvDescriptions: {
+	ForestPylon: 森林に設置する必要がある
+	SnowPylon: 雪原に設置する必要がある
+	DesertPylon: 砂漠に設置する必要がある
+	CavernPylon: 地下層以下に設置する必要がある
+	OceanPylon: 海の近くに設置する必要がある
+	JunglePylon: ジャングルに設置する必要がある
+	HallowPylon: 聖域に設置する必要がある
+	MushroomPylon: キノコ群生地に設置する必要がある
+	UniversalPylon: このパイロンはどこでも、どんな条件でも機能する
+	ChlorophytePylon: 地下ジャングルに設置する必要がある
+	CloudPylon: 浮遊島の近くに設置する必要がある
+	CoralPylon: 海の近くに設置する必要がある
+	CorruptionPylon: 不浄の地に設置する必要がある
+	CrimsonPylon: 真紅の地に設置する必要がある
+	DungeonPylon: ダンジョンの近くに設置する必要がある
+	GemPylon: 宝石鉱脈の近くに設置する必要がある
+	GlowingMossPylon: 光るコケの近くに設置する必要がある
+	GranitePylon: 御影石の洞窟に設置する必要がある
+	GravePylon: 墓地に設置する必要がある
+	HoneyPylon: 蜂の巣の近くに設置する必要がある
+	IcePylon: 地下の雪原に設置する必要がある
+	LivingPylon: 巨大樹の近くに設置する必要がある
+	LivingMahoganyPylon: 巨大マホガニーの近くに設置する必要がある
+	MarblePylon: 大理石の洞窟に設置する必要がある
+	OasisPylon: 砂漠のオアシスの近くに設置する必要がある
+	SpacePylon: 宇宙に設置する必要がある
+	SpiderPylon: クモの住処の近くに設置する必要がある
+	TemplePylon: ジャングル寺院の近くに設置する必要がある
+	UnderworldPylon: 地下世界に設置する必要がある
+	SandstonePylon: 地下砂漠に設置する必要がある
+	CelestialPylon: モノリスの近くに設置する必要がある
+}
+
+ObtainDescriptions: {
+	ForestPylon: 森林で幸福度が高いNPCから購入
+	SnowPylon: 雪原で幸福度が高いNPCから購入
+	DesertPylon: 砂漠で幸福度が高いNPCから購入
+	CavernPylon: 地下で幸福度が高いNPCから購入
+	OceanPylon: 海で幸福度が高いNPCから購入
+	JunglePylon: ジャングルで幸福度が高いNPCから購入
+	HallowPylon: 聖域で幸福度が高いNPCから購入
+	MushroomPylon: キノコ群生地で幸福度が高いNPCから購入
+	UniversalPylon: 動物図鑑を完成させた後、幸福度が高いNPCから購入
+	ChlorophytePylon: ウォールオブフレッシュを倒した後、地下ジャングルで幸福度が高いNPCから購入
+	CloudPylon: 浮遊島で幸福度が高いNPCから購入
+	DungeonPylon: ダンジョン近くで幸福度が高いNPCから購入
+	GranitePylon: 御影石の洞窟近くで幸福度が高いNPCから購入
+	MarblePylon: 御影石の洞窟でNPCから購入
+	SpacePylon: 宇宙でNPCから購入
+	SpiderPylon: クモの住処近くで幸福度が高いNPCから購入
+	TemplePylon: メカニカルボスを倒した後、ジャングル寺院近くで幸福度が高いNPCから購入
+	UnderworldPylon: 地下世界で満月時、またはBoCやEoWを倒した後にNPCから購入
+	HoneyPylon: ジャングルで骸骨の商人から、満月以外の日に購入
+	CoralPylon: 海の近くで幸福度が高いNPCから購入
+	GemPylon: 満月時に骸骨の商人から購入
+	IcePylon: 地下の雪原で幸福度が高いNPCから購入
+	GravePylon: 墓地で幸福度が高いNPCから購入
+	OasisPylon: 砂漠のオアシスで幸福度が高いNPCから購入
+	GlowingMossPylon: 満月以外の日に骸骨の商人から購入
+	LivingPylon: 巨大樹の近くで幸福度が高いNPCから購入
+	LivingMahoganyPylon: 巨大マホガニーの近くでNPCから購入
+	CrimsonPylon: クトゥルフの目を倒した後、真紅の地で染料商人から購入
+	CorruptionPylon: クトゥルフの目を倒した後、不浄の地で染料商人から購入
+	SandstonePylon: 地下砂漠で幸福度が高いNPCから購入
+	CelestialPylon: 古代のマニピュレータでルミナイトのインゴットから作成
+}
+
+Tiles: {
+	ModPylon.MapEntry: Modのパイロン
+	PylonActivator.MapEntry: パイロンアクティベーター
+	ChlorophytePylon.MapEntry: クロロファイトのパイロン
+	CloudPylon.MapEntry: 雲のパイロン
+	CoralPylon.MapEntry: サンゴのパイロン
+	CorruptionPylon.MapEntry: 不浄のパイロン
+	CrimsonPylon.MapEntry: 真紅のパイロン
+	DungeonPylon.MapEntry: ダンジョンのパイロン
+	GemPylon.MapEntry: 宝石のパイロン
+	GlowingMossPylon.MapEntry: 光るコケのパイロン
+	GranitePylon.MapEntry: 御影石のパイロン
+	GravePylon.MapEntry: 墓のパイロン
+	HoneyPylon.MapEntry: 蜂蜜のパイロン
+	IcePylon.MapEntry: 氷のパイロン
+	LivingPylon.MapEntry: 巨大樹のパイロン
+	LivingMahoganyPylon.MapEntry: 巨大マホガニーのパイロン
+	MarblePylon.MapEntry: 大理石のパイロン
+	OasisPylon.MapEntry: オアシスのパイロン
+	SpacePylon.MapEntry: 宇宙のパイロン
+	SpiderPylon.MapEntry: クモのパイロン
+	TemplePylon.MapEntry: 寺院のパイロン
+	UnderworldPylon.MapEntry: 地下世界のパイロン
+	VoidPylon.MapEntry: ヴォイドのパイロン
+	SandstonePylon.MapEntry: 砂岩のパイロン
+	CelestialPylon.MapEntry: 天体のパイロン
+}
+
+Buffs: {
+	HordeDebuff: {
+		DisplayName: ホードデバフ
+		Description: ホード!!!
+	}
+
+	UsedEvilPylonDebuff: {
+		DisplayName: 邪悪なパイロン使用デバフ
+		Description: もう一度使わないで
+	}
+}
+
+Items: {
+	PylonActivator: {
+		DisplayName: パイロンアクティベーター
+		Tooltip: ""
+	}
+
+	VoidMatter: {
+		DisplayName: ボイドマター
+		Tooltip: ""
+	}
+
+	Pyloneria: {
+		DisplayName: パイロネリア
+		Tooltip: ""
+	}
+
+	ChlorophytePylon: {
+		DisplayName: クロロファイトのパイロン
+		Tooltip: ""
+	}
+
+	CloudPylon: {
+		DisplayName: 雲のパイロン
+		Tooltip: ""
+	}
+
+	CoralPylon: {
+		DisplayName: サンゴのパイロン
+		Tooltip: ""
+	}
+
+	CorruptionPylon: {
+		DisplayName: 不浄のパイロン
+		Tooltip: ""
+	}
+
+	CrimsonPylon: {
+		DisplayName: 真紅のパイロン
+		Tooltip: ""
+	}
+
+	DungeonPylon: {
+		DisplayName: ダンジョンのパイロン
+		Tooltip: ""
+	}
+
+	GemPylon: {
+		DisplayName: 宝石のパイロン
+		Tooltip: ""
+	}
+
+	GlowingMossPylon: {
+		DisplayName: 光るコケのパイロン
+		Tooltip: ""
+	}
+
+	GranitePylon: {
+		DisplayName: 御影石のパイロン
+		Tooltip: ""
+	}
+
+	GravePylon: {
+		DisplayName: 墓のパイロン
+		Tooltip: ""
+	}
+
+	HoneyPylon: {
+		DisplayName: 蜂蜜のパイロン
+		Tooltip: ""
+	}
+
+	IcePylon: {
+		DisplayName: 氷のパイロン
+		Tooltip: ""
+	}
+
+	LivingPylon: {
+		DisplayName: 巨大樹のパイロン
+		Tooltip: ""
+	}
+
+	LivingMahoganyPylon: {
+		DisplayName: 巨大マホガニーのパイロン
+		Tooltip: ""
+	}
+
+	MarblePylon: {
+		DisplayName: 大理石のパイロン
+		Tooltip: ""
+	}
+
+	OasisPylon: {
+		DisplayName: オアシスのパイロン
+		Tooltip: ""
+	}
+
+	SpacePylon: {
+		DisplayName: 宇宙のパイロン
+		Tooltip: ""
+	}
+
+	SpiderPylon: {
+		DisplayName: クモのパイロン
+		Tooltip: ""
+	}
+
+	TemplePylon: {
+		DisplayName: 寺院のパイロン
+		Tooltip: ""
+	}
+
+	UnderworldPylon: {
+		DisplayName: 地下世界のパイロン
+		Tooltip: ""
+	}
+
+	SandstonePylon: {
+		DisplayName: 砂岩のパイロン
+		Tooltip: ""
+	}
+
+	CelestialPylon: {
+		Tooltip: ""
+		DisplayName: 天体のパイロン
+	}
+}
+
+Configs: {
+	ConfigPylonAmount: {
+		DisplayName: How Many Of Each Pylon Can Be In The World
+
+		Activator: {
+			Label: パイロンアクティベーター
+			Tooltip: パイロンアクティベーターを入手、使用可能にするかどうか
+		}
+
+		Void: {
+			Label: ヴォイドのパイロン
+			Tooltip: ヴォイドパイロンを使用可能にするかどうか
+		}
+
+		Forest: {
+			Label: 森のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Desert: {
+			Label: 砂漠のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Snow: {
+			Label: 雪原のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Hallow: {
+			Label: 聖域のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Cavern: {
+			Label: 洞窟のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Ocean: {
+			Label: 海のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Mushroom: {
+			Label: キノコのパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Jungle: {
+			Label: ジャングルのパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Universal: {
+			Label: ユニバーサルパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Chlorophyte: {
+			Label: クロロファイトのパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Cloud: {
+			Label: 雲のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Coral: {
+			Label: サンゴのパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Dungeon: {
+			Label: ダンジョンのパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Gem: {
+			Label: 宝石のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		GlowingMoss: {
+			Label: 光るコケのパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Granite: {
+			Label: 御影石のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Grave: {
+			Label: 墓のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Honey: {
+			Label: 蜂蜜のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Ice: {
+			Label: 氷のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Living: {
+			Label: 巨大樹のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		LivingMahogany: {
+			Label: 巨大マホガニーのパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Marble: {
+			Label: 大理石のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Oasis: {
+			Label: オアシスのパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Space: {
+			Label: 宇宙のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Spider: {
+			Label: クモのパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Temple: {
+			Label: 寺院のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Underworld: {
+			Label: 地下世界のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Crimson: {
+			Label: 真紅のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Corruption: {
+			Label: 不浄のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Sandstone: {
+			Label: 砂岩のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+
+		Celestial: {
+			Label: 天体のパイロン
+			Tooltip: このパイロンをワールドにいくつ配置できるかどうか（0に設定すると入手不可）
+		}
+	}
+}

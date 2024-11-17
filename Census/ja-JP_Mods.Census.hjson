@@ -1,6 +1,6 @@
 Configs: {
 	CensusConfigClient: {
-		DisplayName: Census Config Client
+		DisplayName: Census 設定
 
 		ShowLocatingArrow: {
 			Label: NPCの位置を示す矢印を表示する
@@ -82,5 +82,5 @@ SpawnConditions: {
 	TownSlimeRainbow: "{$ItemName.GelBalloon} [i:GelBalloon]をシマーに落とす"
 	TownSlimeRed: ブラッドムーン中に釣り上げる
 	TownSlimeYellow: ジャングルで魔法使いカエルに{$ItemName.PurificationPowder} [i:PurificationPowder]を使用
-	TownSlimeCopper: スライムに{$ItemName.CopperHelmet} [i:CopperHelmet]か{$ItemName.CopperShortsword} [i:CopperShortsword]に触れさせる
+	TownSlimeCopper: スライムを{$ItemName.CopperHelmet} [i:CopperHelmet]か{$ItemName.CopperShortsword} [i:CopperShortsword]に触れさせる
 }

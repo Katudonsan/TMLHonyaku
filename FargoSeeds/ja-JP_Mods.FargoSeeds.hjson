@@ -112,7 +112,7 @@ Configs: {
 		}
 
 		DungeonMultiplier: {
-			Label: "[i:134] ダンジョンの切り替え"
+			Label: "[i:134] ダンジョンの生成"
 			Tooltip: ""
 		}
 
@@ -137,7 +137,7 @@ Configs: {
 		}
 
 		DungeonToggle: {
-			Label: "[i:134] ダンジョンの切り替え"
+			Label: "[i:134] ダンジョンの生成"
 			Tooltip: ""
 		}
 
@@ -156,30 +156,30 @@ Configs: {
 			Tooltip: ""
 		}
 
-		HeaderToggles:切り替え
+		HeaderToggles: 生成の切り替え
 
 		UnderworldToggle: {
-			Label: "[i:318] 地底世界の切り替え"
+			Label: "[i:318] 地底世界の生成"
 			Tooltip: ""
 		}
 
 		EvilToggle: {
-			Label: "[i:86][i:1329] 世界の汚染の切り替え"
+			Label: "[i:86][i:1329] 世界の汚染の生成"
 			Tooltip: ""
 		}
 
 		DesertToggle: {
-			Label: "[i:276] 砂漠の切り替え"
+			Label: "[i:276] 砂漠の生成"
 			Tooltip: ""
 		}
 
 		JungleToggle: {
-			Label: "[i:208] ジャングルの切り替え"
+			Label: "[i:208] ジャングルの生成"
 			Tooltip: ""
 		}
 
 		IceToggle: {
-			Label: "[i:2358] 雪原の切り替え"
+			Label: "[i:2358] 雪原の生成"
 			Tooltip: ""
 		}
 
@@ -189,12 +189,12 @@ Configs: {
 		}
 
 		OceanToggle: {
-			Label: "[i:2625] 海の切り替え"
+			Label: "[i:2625] 海の生成"
 			Tooltip: ""
 		}
 
 		MushroomToggle: {
-			Label: "[i:183] キノコ群生地の切り替え"
+			Label: "[i:183] キノコ群生地の生成"
 			Tooltip: ""
 		}
 
@@ -241,7 +241,7 @@ Configs: {
 		}
 
 		CavesToggle: {
-			Label: "[i:315] 洞窟の切り替え"
+			Label: "[i:315] 洞窟の生成"
 			Tooltip: ""
 		}
 
@@ -317,7 +317,7 @@ Configs: {
 		}
 
 		AetherToggle: {
-			Label: "[i:5340] エーテルの切り替え"
+			Label: "[i:5340] エーテルの生成"
 			Tooltip: ""
 		}
 
@@ -351,7 +351,7 @@ Configs: {
 			Tooltip: ""
 		}
 
-		HeaderPost: No Evil Spread Header
+		HeaderPost: 汚染の拡大を防止
 
 		NoEvilSpread: {
 			Label: "[i:66] 汚染の拡大なし"

@@ -1,6 +1,6 @@
 Tiles: {
 	MineshaftCrate.MapEntry: 坑道の箱
-	MineshaftHookTile.MapEntry: 坑道フック
+	MineshaftHookTile.MapEntry: 坑道のフック
 	MineshaftPickaxeTile.MapEntry: 坑道のつるはし
 	MineshaftToolboxTile.MapEntry: 坑道のツールボックス
 	MinersLockboxTile.MapEntry: 鉱夫のロックボックス
@@ -36,7 +36,7 @@ Items: {
 	}
 
 	MineshaftHook: {
-		DisplayName: 坑道フック
+		DisplayName: 坑道のフック
 		Tooltip: 上方向にしか発射できない
 	}
 
@@ -45,7 +45,7 @@ Items: {
 		Tooltip:
 			'''
 			少量の光を与える
-    		クールダウン中トラップダメージを減少させる
+			クールダウン中トラップダメージを減少させる
 			'''
 	}
 
@@ -67,7 +67,7 @@ Projectiles: {
 
 Configs: {
 	OrchidMineshaftConfig: {
-		DisplayName: Orchid Mineshaft Config
+		DisplayName: Orchid Mineshaft 設定
 
 		MineshaftMusic: {
 			Label: 坑道の音楽を有効にする

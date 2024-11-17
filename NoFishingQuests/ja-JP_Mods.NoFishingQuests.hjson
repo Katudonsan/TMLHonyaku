@@ -1,0 +1,34 @@
+Currencies.AnglerCoin: 釣り人コイン
+
+Items: {
+	AnglerCoinItem: {
+		DisplayName: 釣り人コイン
+		Tooltip: 釣り人ショップでアイテムを購入するための通貨
+	}
+}
+
+Configs: {
+	Config: {
+		useCustomCurrency: {
+			Label: カスタム通貨を使用
+			Tooltip: 釣り人ショップでカスタム通貨を使用するか、通常のコインを使用するかを切り替えます
+		}
+
+		DisplayName: 設定
+
+		minAnglerCoins: {
+			Label: 最小の釣り人コイン
+			Tooltip: 1回のクエストで獲得する最小の釣り人コインの量
+		}
+
+		maxAnglerCoins: {
+			Label: 最大の釣り人コイン
+			Tooltip: 1回のクエストで獲得する最大の釣り人コインの量
+		}
+
+		goldMultiplier: {
+			Label: ゴールドコインでの価格倍率
+			Tooltip: ゴールドコインでアイテムを購入する際の価格を変更する倍率
+		}
+	}
+}
