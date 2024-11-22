@@ -1,0 +1,53 @@
+Keybinds: {
+	"Swap Offhand.DisplayName": オフハンドを入れ替え
+	"Use Offhand Item.DisplayName": オフハンドアイテムを使用
+}
+
+Configs: {
+	OffHandConfig: {
+		DisplayName: Off hand 設定
+		Label: チャットメッセージ切り替え
+		ChatMessageToggle.Tooltip: ""
+		HUDHeader: UIオフセット（HUD）
+		InventoryHeader: UIオフセット（インベントリ画面）
+		DraggingHeader: スロットドラッグ
+		PriorityListHeader: アイテムの優先順位
+
+		SlotOffsetXHUD: {
+			Label: スロットオフセットX
+			Tooltip: プラスはスロットを右に移動、マイナスは左に移動
+		}
+
+		SlotOffsetYHUD: {
+			Label: スロットオフセットY
+			Tooltip: プラスはスロットを下に移動、マイナスは上に移動
+		}
+
+		SlotOffsetXInventory: {
+			Label: スロットオフセットX
+			Tooltip: プラスはスロットを右に移動、マイナスは左に移動
+		}
+
+		SlotOffsetYInventory: {
+			Label: スロットオフセットY
+			Tooltip: プラスはスロットを下に移動、マイナスは上に移動
+		}
+
+		DraggingEnabled: {
+			Label: スロットドラッグを有効にする
+			Tooltip: マウスでスロットを移動できるようにします
+		}
+
+		PriorityList: {
+			Label: 優先アイテムリスト
+			Tooltip: このリストにアイテムを追加すると、そのアイテムを持っている間に右クリックでオフハンドが有効にならず、左クリック/右クリックがメイン武器で通常通り機能します
+		}
+	}
+}
+
+TextMessages: {
+	ContactDev: "「Off Hand MOD」の開発者にワークショップコメントで詳細を送信してください。"
+	SpawnMessage: オフハンドスロットのキー設定をコントロールで確認してください。このメッセージはMOD設定で手動で無効にできます。
+}
+
+SlotHoverText: オフハンドスロット

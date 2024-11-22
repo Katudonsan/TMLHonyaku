@@ -1,0 +1,81 @@
+Keybinds.ToggleReport.DisplayName: 表示切替
+
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		AllowDragging: {
+			Label: ドラッグの許可
+			Tooltip: チェックリストを画面上でドラッグできるようにします
+		}
+
+		ResetDragCoords: {
+			Label: ドラッグ位置のリセット
+			Tooltip: チェックリストの位置をリセットするにはこれを選択します
+		}
+
+		ShowMultiUseConsumables: {
+			Label: 複数回使用可能な消費アイテムを表示
+			Tooltip: ライフクリスタルのように、回数制限がある消費アイテムを表示します
+		}
+	}
+}
+
+Common.ConcatenateNewline:
+	'''
+	{0}
+	{1}
+	'''
+
+ConsumableType: {
+	player: プレイヤーごとに保存される
+	world: "[c/f26fee:ワールドごとに保存される]"
+}
+
+UI: {
+	Report: {
+		Consumables: 消費アイテム
+		Completed: "{0} コンプリート！"
+	}
+}
+
+Difficulty: {
+	classic: クラシックモード以上
+	expert: "[c/eb9b34:エキスパートモード以上]"
+	master: "[c/0000FF:マスターモード以上]"
+	mod_custom: "[c/00A5FF:{0} - {1} モード以上]"
+}
+
+Acquisition: {
+	LifeCrystal: 地下層およびそれ以下の層で発見
+	LifeFruit: ハードモードの地下ジャングル層およびそれ以下の層で発見
+	ManaCrystal: 流れ星5個からクラフト
+	ArtisanLoaf: 
+	'''
+	骸骨の商人（洞窟層で発見）から、有明月、新月、三日月の月相で販売
+	消費後は販売されない
+	'''
+	TorchGodsFavor: 
+	'''
+	たいまつの神を倒すことで報酬として得られる
+	（地下層以下でプレイヤーの周りに101本のたいまつを置き、投射物をかわして生き延びる）
+	'''
+	VitalCrystal: ライフクリスタルをシマーに投げる
+	AegisFruit: ライフフルーツをシマーに投げる
+	ArcaneCrystal: マナクリスタルをシマーに投げる
+	Ambrosia: 任意のフルーツをシマーに投げる
+	GummyWorm: 金のワームをシマーに投げる（通常のワームの代わりに0.25%の確率で出現）
+	GalaxyPearl: ピンクの真珠をシマーに投げる（牡蠣から1.33%の確率でドロップ）
+	DemonHeart: エキスパートモードでウォールオブフレッシュのトレジャーバッグからドロップ
+	MinecartUpgradeKit: 
+	'''
+	エキスパートモードで
+	ツインズの 機械の部品（車輪）
+	デストロイヤーの 機械の部品（ワゴン）
+	スケルトロンプライムの 機械の部品（バッテリー）
+	を組み合わせる
+	'''
+	AdvCombatTech1: ブラッドムーン中に釣りをする
+	AdvCombatTech2: スペルブックをシマーに投げる（魔法使いから購入）
+	PeddlersSatchel: 旅商人の帽子をシマーに投げる（旅商人が死亡時にドロップ）
+}
