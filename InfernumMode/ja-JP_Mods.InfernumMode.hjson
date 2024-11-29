@@ -1286,7 +1286,7 @@ Items: {
 	}
 
 	ProfanedGuardiansRelic: {
-		DisplayName: 冒涜された守護者たち
+		DisplayName: 冒涜された守護者たちのレリック
 		Tooltip: GetsChanged
 	}
 
