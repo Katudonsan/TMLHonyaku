@@ -10,7 +10,7 @@ Announcements: {
 	HMDepthsWarning: " {$Biomes.DepthsBiome.DisplayName} に新しい生命が芽生えた!"
 	ForgottenOneWarning: " {$Biomes.DepthsBiome.DisplayName} の中で何かが蠢いている..."
 	QueenJellyfishWarning: 海面下で深海の洞窟が泡立ち始めた！
-	ExpertForgottenOne1: 忘れ去られた者の殻が激しく割れている！
+	ExpertForgottenOne1: 忘れられた者の殻が激しく割れている！
 	ExpertForgottenOne2: 忘れられた者が古代の牢獄から解き放たれた！
 	ForgottenOneDefeat: 深海の毒々しい霧が晴れた...
 	SpiderWarning: クモたちが怒りにざわめいている...
@@ -1898,7 +1898,7 @@ Items: {
 	}
 
 	ForgottenOneTrophy: {
-		DisplayName: 忘れ去られた者のトロフィー
+		DisplayName: 忘れられた者のトロフィー
 		Tooltip: ""
 	}
 
@@ -19779,7 +19779,7 @@ NPCs: {
 	}
 
 	ForgottenOne: {
-		DisplayName: 忘れ去られた者
+		DisplayName: 忘れられた者
 		BestiaryFlavorText: 人類が長い間存在を忘れていた生物。何世紀も前の血なまぐさい戦争で、この生物は封印された。
 
 		BossChecklistIntegration: {
