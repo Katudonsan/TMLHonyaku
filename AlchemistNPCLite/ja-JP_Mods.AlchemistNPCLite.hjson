@@ -226,12 +226,12 @@ Buffs: {
 	}
 
 	GreaterDangersense: {
-		DisplayName: 上級危険察知
+		DisplayName: 危険察知（上級）
 		Description: 敵の発射物を光らせる
 	}
 
 	LongInvincible: {
-		DisplayName: 上級透明化
+		DisplayName: 透明化（上級）
 		Description: 透明になれる
 	}
 
@@ -280,7 +280,7 @@ Buffs: {
 		Description: トラップが強化される
 	}
 
-	TrueDiscordBuff: {
+	オンDiscordBuff: {
 		DisplayName: トゥルーディスコード
 		Description:
 			'''
@@ -400,7 +400,7 @@ Items: {
 	}
 
 	GreaterDangersensePotion: {
-		DisplayName: 上級危険察知のポーション
+		DisplayName: 危険察知の高級ポーション
 		Tooltip:
 			'''
 			より強力な危険察知のバフを得る
@@ -1792,12 +1792,12 @@ Configs: {
 		}
 
 		CatchNPC: {
-			Tooltip: ModのタウンNPCを捕獲可能にするか。デフォルトはTrue。
+			Tooltip: ModのタウンNPCを捕獲可能にするか。デフォルトはオン。
 			Label: ModのNPC捕獲切り替え
 		}
 
 		RevPrices: {
-			Tooltip: ポーションの価格を高くする。デフォルトはTrue。
+			Tooltip: ポーションの価格を高くする。デフォルトはオン。
 			Label: リベンジェンスモード価格スケーリング
 		}
 
@@ -1812,54 +1812,54 @@ Configs: {
 		}
 
 		LifeformAnalyzer: {
-			Tooltip: ライフフォームアナライザーのレーザー指示を有効/無効にする（毎秒ティック）。デフォルトはTrue。
+			Tooltip: ライフフォームアナライザーのレーザー指示を有効/無効にする（毎秒ティック）。デフォルトはオン。
 			Label: ライフフォームアナライザーのレーザー指示
 		}
 
 		TinkererSpawn: {
-			Tooltip: 修理屋のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Tooltip: 修理屋のスポーンを有効にする場合はオン、無効にする場合はオフ。デフォルトはオン。
 			Label: 修理屋スポーン切り替え
 		}
 
 		MusicianSpawn: {
-			Tooltip: 音楽家のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Tooltip: 音楽家のスポーンを有効にする場合はオン、無効にする場合はオフ。デフォルトはオン。
 			Label: 音楽家スポーン切り替え
 		}
 
 		OperatorSpawn: {
-			Tooltip: オペレーターのスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Tooltip: オペレーターのスポーンを有効にする場合はオン、無効にする場合はオフ。デフォルトはオン。
 			Label: オペレータースポーン切り替え
 		}
 
 		ArchitectSpawn: {
-			Tooltip: 建築家のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Tooltip: 建築家のスポーンを有効にする場合はオン、無効にする場合はオフ。デフォルトはオン。
 			Label: 建築家スポーン切り替え
 		}
 
 		YoungBrewerSpawn: {
-			Tooltip: 若い醸造家のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Tooltip: 若い醸造家のスポーンを有効にする場合はオン、無効にする場合はオフ。デフォルトはオン。
 			Label: 若い醸造家スポーン切り替え
 		}
 
 		JewelerSpawn: {
-			Tooltip: 宝石屋のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Tooltip: 宝石屋のスポーンを有効にする場合はオン、無効にする場合はオフ。デフォルトはオン。
 			Label: 宝石屋スポーン切り替え
 		}
 
 		BrewerSpawn: {
-			Tooltip: 醸造家のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Tooltip: 醸造家のスポーンを有効にする場合はオン、無効にする場合はオフ。デフォルトはオン。
 			Label: 醸造家スポーン切り替え
 		}
 
 		AlchemistSpawn: {
-			Tooltip: 錬金術師のスポーンを有効にする場合はTrue、無効にする場合はFalse。デフォルトはTrue。
+			Tooltip: 錬金術師のスポーンを有効にする場合はオン、無効にする場合はオフ。デフォルトはオン。
 			Label: 錬金術師スポーン切り替え
 		}
 
 		DisplayName: Mod設定
 		LifeformAnalyzerAlt: {
 			Label: ライフフォームアナライザーの代替テクスチャ
-			Tooltip: ライフフォームアナライザーの代替テクスチャを使用する。デフォルトはFalse。
+			Tooltip: ライフフォームアナライザーの代替テクスチャを使用する。デフォルトはオフ。
 		}
 	}
 }
