@@ -1,0 +1,871 @@
+MainMenu: {
+	Configuration: "設定"
+	DiscordServer: "Discordサーバー"
+	ForumPage: "フォーラムページ"
+	WikiPage: "Overhaul Wiki"
+	Github: "GitHub"
+
+	MusicPack: {
+		Get: "ミュージックパックを入手"
+		Enable: "ミュージックパックを有効化"
+	}
+}
+
+Notifications: {
+	AudioFilteringTestFailure: "警告: TerrariaOverhaulはいくつかのオーディオフィルタリング効果を有効化できませんでした。オーディオドライバーが最新であることを確認してください。"
+}
+
+DifficultyLevels: {
+	Creative: "Journey"
+	Normal: "採掘にはまだ若い"
+	Expert: "たっぷり骨を折られる"
+	Master: "私はクトゥルフの化身"
+	WorldDescriptionCreative: "クリエイティブ / アクセシビリティモード (自分で操作したい人向け)"
+	WorldDescriptionNormal: "敵から受けるダメージが少なく、報酬は同じ (のんびりプレイしたい人向け)"
+	WorldDescriptionExpert: "新しい標準の体験 (公正な挑戦を求める人向け)"
+	WorldDescriptionMaster: "極限の罰と新しい報酬 (真の非情さを求める人向け)"
+}
+
+Seasons: {
+	SelectSeason: "開始する季節を選択:"
+	CalendarCurrentSeason: "現在の季節は{SeasonName}です。"
+	CalendarNextSeasonDays: "{SeasonName}は{NumDays}日後に到来します。"
+	CalendarNextSeasonTomorrow: "明日{SeasonName}が到来します！"
+
+	Spring: {
+		Name: "春"
+	}
+
+	Summer: {
+		Name: "夏"
+	}
+
+	Autumn: {
+		Name: "秋"
+	}
+
+	Winter: {
+		Name: "冬"
+	}
+}
+
+Banners: {
+	BannerBuffDescription: "以下の敵からの戦利品とコインのドロップが2倍になります:"
+	BannerItemDescription: "近くのプレイヤーは以下の敵からの戦利品とコインのドロップが2倍になります:"
+}
+
+ItemOverhauls: {
+	Archery: {
+		HoverShots:
+			'''
+			ジャンプ中に武器をチャージして[[空中でホバー]]
+			[[ホバショット]]を行ってさらに速さを得よう
+			'''
+		ManualCharging:
+			'''
+			右クリックを押し続けて武器を[[手動でチャージ]]
+			いつでも放して[[発射速度とダメージを微調整]]
+			'''
+	}
+
+	Melee: {
+		AirCombatInfo:
+			'''
+			[[空中で敵を攻撃]]して速度を得る、浮遊し続けたり、後退したりする！
+			攻撃中に移動キーを使って速度を調整しよう！
+			'''
+		PowerStrikeInfo: "[[パワーストライク]]を交互使用でチャージしよう！"
+		VelocityBasedDamageInfo:
+			'''
+			[[速ければ速いほど、攻撃は強力！]]
+			攻撃にダッシュを組み合わせ、重力を利用して有利に戦おう！
+			'''
+
+		Broadsword: {
+			KillingBlow: "必殺一撃！"
+			KillingBlowInfo:
+				'''
+				すでに傷ついた敵に[[とどめ]]を決めて、
+				敵を倒すときに[[x{0}]]倍のダメージを与える
+				'''
+		}
+	}
+}
+
+CommonTooltips: {
+	ShowCombatInfo: "[{Key}を押し続けて戦闘情報を表示]"
+	CombatInfo: "[戦闘情報]"
+	RightClickAudioCuesToggle: "アイテムを右クリックして音声の合図を切り替え"
+	RightClickAudioCuesEnabled: "音声の合図が有効になりました"
+	RightClickAudioCuesDisabled: "音声の合図が無効になりました"
+
+	GrapplingHooks: {
+		ClassicPullTip: "フックのキーを押し続けてクラシックな引き寄せを行う"
+	}
+}
+
+DeathText: {
+	Zombified: "{PlayerName}はゾンビになった。"
+	ZombifiedScreenText: "あなたはゾンビになった…"
+	ZombifiedName: "{PlayerName}ゾンビ"
+	Lightning: "{PlayerName}は雷に打たれた。痛い！"
+}
+
+Keybinds: {
+	Dodgeroll: {
+		DisplayName: "回避ロール"
+	}
+}
+
+Tiles: {
+	Calendar: {
+		MapEntry: "{$Mods.TerrariaOverhaul.Items.Calendar.DisplayName}"
+	}
+
+	Gramophone: {
+		MapEntry: "{$Mods.TerrariaOverhaul.Items.Gramophone.DisplayName}"
+	}
+}
+
+Buffs: {
+	CriticalJudgement: {
+		DisplayName: "クリティカルジャッジメント"
+		Description:
+			'''
+			彼らの攻撃は無駄だったことが証明された
+			クリティカルヒットでジャッジメントを解き放て
+			'''
+	}
+
+	HackAndSlash: {
+		DisplayName: "ハックアンドスラッシュ"
+		Description:
+			'''
+			速く動くほど、強く攻撃
+			近接ダメージの倍率: x{Multiplier}
+			'''
+	}
+
+	ManaAbsorption: {
+		DisplayName: "マナ吸収"
+		Description:
+			'''
+			素早く動くことで、周囲からエネルギーを吸収している
+			マナの回復倍率: x{Multiplier}
+			'''
+	}
+}
+
+Items: {
+	BunnyPaw: {
+		DisplayName: "ウサギの足"
+		Tooltip:
+			'''
+			[c/fca9ea:連続したジャンプでバニーホッピングのスピードブーストが増加]
+			[c/fca9ea:バニーホッピングとドッジロールを組み合わせることで、さらに高い倍率が得られる]
+			[c/8a2730:{$Mods.TerrariaOverhaul.CommonTooltips.RightClickAudioCuesToggle}]
+			'''
+	}
+
+	Charcoal: {
+		DisplayName: "木炭"
+		Tooltip: "まだ温かい"
+	}
+
+	Calendar: {
+		DisplayName: "カレンダー"
+		Tooltip:
+			'''
+			次の季節までの日数をカウント
+			設置後に右クリックして使用
+			'''
+	}
+
+	Gramophone: {
+		DisplayName: "蓄音機"
+		Tooltip: "音楽ディスクを再生する"
+	}
+
+	MusicDisc: {
+		DisplayName: "音楽ディスク"
+		Tooltip: "蓄音機で再生可能"
+	}
+
+	Mop: {
+		DisplayName: "モップ"
+		Tooltip: "家を内臓や切り裂かれた目玉からきれいに保つ"
+	}
+
+	StoneAxe: {
+		DisplayName: "石の斧"
+		Tooltip: "木はおそらくこれより強い"
+	}
+
+	StonePickaxe: {
+		DisplayName: "石のつるはし"
+		Tooltip: "汚れに対して優れている！"
+	}
+}
+
+NPCs: {
+	AshSlime: {
+		DisplayName: "灰の塊"
+	}
+
+	AshZombie: {
+		DisplayName: "ウォーキングアッシュ"
+	}
+}
+
+Projectiles: {
+	MopProjectile: {
+		DisplayName: "{$Mods.TerrariaOverhaul.Items.Mop.DisplayName}"
+	}
+}
+
+Configuration: {
+
+HoverForDescriptionTip: "オプションにカーソルを合わせると、その説明が表示されます。"
+
+Accessibility: {
+	DisplayName: "アクセシビリティ"
+	Description: "このオーバーホールには、誰もがより快適にゲームを体験できるようにするためのいくつかの簡単な変更が含まれています。"
+
+	ForceAutoReuse: {
+		DisplayName: "強制的な自動再使用"
+		Description:
+			'''
+			有効にすると、ゲーム内のほぼすべてのアイテムが、使用ボタンを押し続けることで繰り返し使用できるようになる。
+			10人中10人の医師が推奨する手先症候群の予防。
+			'''
+	}
+
+	EnableJumpInputBuffering: {
+		DisplayName: "ジャンプ入力の先行入力を有効化"
+		Description: "着地の少し前にジャンプボタンを押しても、ジャンプができるようにします。"
+	}
+}
+
+Ambience: {
+	DisplayName: "環境音"
+	Description: "このオーバーホールには、ゲームの世界をより没入感のあるものにするための多くの機能が含まれています。"
+
+	EnableAmbientSounds: {
+		DisplayName: "環境音を有効化"
+		Description: "鳥、コオロギ、風、洞窟の音などの環境音のループを切り替えます。"
+	}
+
+	EnablePlayerFootsteps: {
+		DisplayName: "プレイヤーの足音を有効化"
+		Description: "プレイヤーキャラクターの足音の音声を切り替えます。"
+	}
+
+	EnableLowPassFiltering: {
+		DisplayName: "低域通過フィルタを有効化"
+		Description: "音をこもらせるような処理を有効にするかどうかを設定します。"
+	}
+
+	EnableReverb: {
+		DisplayName: "残響音を有効化"
+		Description: "残響音の処理を有効にするかどうかを設定します。"
+	}
+
+	EnableUnderwaterMuffling: {
+		DisplayName: "水中での音のこもり効果を有効化"
+		Description: "有効にすると、水中に入った際に低域通過フィルタを使用して音の周波数範囲が減少します。"
+	}
+}
+
+Aesthetics: {
+	DisplayName: "美学"
+	Description: "このカテゴリには、主にゲームの没入感や美しさを高めることを目的とした機能が含まれていますが、その過程でゲームプレイに影響を与える可能性があります。"
+
+	DestroyStumpsAfterTreeFalls: {
+		DisplayName: "木が倒れた後に切り株を破壊"
+		Description: "有効にすると、木が倒れるアニメーション後に切り株を削除する処理が追加されます。"
+	}
+
+	EnableAimableFlashlights: {
+		DisplayName: "照準合わせ可能な懐中電灯を有効化"
+		Description: "有効にすると、「鉱夫のヘルメット」などの装備からの照明がカーソルに向かって照準を合わせられるようになります。"
+	}
+
+	EnableTreeFallingAnimations: {
+		DisplayName: "木が倒れるアニメーションを有効化"
+		Description: "有効にすると、木が爆発してアイテムになる代わりに、物理的に倒れるようになります。"
+	}
+}
+
+Archery: {
+	DisplayName: "弓"
+
+	EnableArrowFragments: {
+		DisplayName: "矢の破片を有効化"
+		Description: "有効にすると、破壊された矢は小さな破片に分裂します。"
+	}
+
+	EnableBowFiringDelays: {
+		DisplayName: "弓の発射遅延を有効化"
+		Description: "有効にすると、弓の使用がわずかに遅延し、よりユニークなものになります。これはダメージには影響しません。"
+	}
+
+	EnableBowSoundReplacements: {
+		DisplayName: "弓の音の差し替えを有効化"
+		Description: "有効にすると、弓に新しい音の効果が追加されます。"
+	}
+
+	EnableBowChargedShots: {
+		DisplayName: "弓のチャージショットを有効化"
+		Description: "有効にすると、ほとんどの弓が右クリックでチャージできるようになります。"
+	}
+
+	EnableBowChargeHovering: {
+		DisplayName: "弓のチャージホバリングを有効化"
+		Description: "有効にすると、プレイヤーは弓をチャージしてジャンプボタンを押すことで、一時的に空中に浮くことができるようになります。"
+	}
+
+	EnableBowHoverJumps: {
+		DisplayName: "弓のホバージャンプを有効化"
+		Description: "有効にすると、弓はホバーチャージ中に発射するとプレイヤーを打ち上げ、ダブルジャンプのように機能します。"
+	}
+
+	EnableArcheryArrowVisualization: {
+		DisplayName: "弓の矢の視覚化を有効化"
+		Description: "有効にすると、弓やリピーターで矢が発射される前に見えるようになります。"
+	}
+}
+
+Awareness: {
+	DisplayName: "状況認識"
+	Description:
+		'''
+		このオーバーホールは、プレイヤーが自分のキャラクターの状態をより正確に把握できるよう、複数の機能を追加します。
+		これにより、ゲームの没入感も向上します。
+		'''
+
+	LowHealthFilteringIntensity: {
+		DisplayName: "ライフ低下時のフィルタ強度"
+		Description: "ライフが低いときに発生する低域通過フィルタ（音のこもり具合）の強度を調整します。"
+	}
+
+	LowHealthSoundVolume: {
+		DisplayName: "ライフ低下時のサウンド音量"
+		Description: "ライフが低いときに再生されるサウンドの音量を調整します。"
+	}
+
+	LowManaSoundVolume: {
+		DisplayName: "マナ低下時のサウンド音量"
+		Description: "マナが低いときに再生されるサウンドの音量を調整します。"
+	}
+
+	ManaRegenerationSoundVolume: {
+		DisplayName: "マナ回復時の再生サウンド音量"
+		Description: "マナが回復しているときに再生されるサウンドの音量を調整します。"
+	}
+}
+
+Balance: {
+	DisplayName: "バランスと難易度"
+	Description: "このオーバーホールはゲームバランスに複数の変更を加え、ゲームモードを適切な難易度に調整しようとしています。"
+
+	EnableBannerRework: {
+		DisplayName: "バナーの再設計を有効化"
+		Description:
+			'''
+			バナーの再設計は、バナーが敵の体力とダメージを減少させる効果を削除し、代わりに戦利品とコインのドロップを2倍にします。
+			ドロップ確率とドロップ量の両方が影響を受けます。
+			'''
+	}
+
+	EnableDifficultyChanges: {
+		DisplayName: "難易度変更を有効化"
+		Description: "Modによる難易度全体の変更を切り替えます。"
+	}
+
+	EnableDamageRandomizationRemoval: {
+		DisplayName: "ダメージのランダム化解除を有効化"
+		Description: "有効にすると、ゲーム内のすべてのダメージ数値が公平で予測可能になります。"
+	}
+
+	EnableHealthDropsRework: {
+		DisplayName: "ライフドロップの再設計を有効化"
+		Description: ""
+	}
+
+	EnableManaDropsRework: {
+		DisplayName: "マナドロップの再設計を有効化"
+		Description: ""
+	}
+}
+
+BloodAndGore: {
+	DisplayName: "血とゴア"
+	Description:
+		'''
+		このオーバーホールは、ゴア表現に関連する音声、ビジュアル、相互作用を改善し、
+		ゲーム全体の戦闘の満足度を大幅に向上させます。
+		'''
+
+	EnableDecals: {
+		DisplayName: "デカールを有効化"
+		Description: "「タイルについた血痕」とも呼ばれるデカールを切り替えます。"
+	}
+
+	EnableGoreStay: {
+		DisplayName: "ゴアの残留を有効化"
+		Description: "有効にすると、ゴア（具体的には「ギブス」）が10秒経っても消えなくなります。"
+	}
+
+	EnablePlayerCharacterGore: {
+		DisplayName: "プレイヤーキャラクターのゴアを有効化"
+		Description: "有効にすると、プレイヤーキャラクターは死亡時に画面外に肉片を飛ばす代わりに、ダイナミックに生成されたゴアを作成します。"
+	}
+
+	EnableAdvancedParticles: {
+		DisplayName: "高度なパーティクルを有効化"
+		Description: "有効にすると、通常の血や類似のパーティクルがオーバーホールの高度な線形パーティクルに置き換わり、デカールを残すことができるようになります。"
+	}
+
+	EnableGoreAudio: {
+		DisplayName: "ゴア音声を有効化"
+		Description: "ゴアとの相互作用で音を発生させるかどうかを設定します。"
+	}
+
+	EnableGoreGibbing: {
+		DisplayName: "ゴアのギビングを有効化"
+		Description: "ゴアを破壊できるかどうか、また一部が小さな肉片に分かれるかどうかを設定します。"
+	}
+
+	EnableGorePhysics: {
+		DisplayName: "物理的なゴアを有効化"
+		Description: "ゴア（および弾丸の薬莢などの類似したゴミ）が弾んだり、水中に浮いたりするかどうかを設定します。"
+	}
+
+	EnableGoreBleeding: {
+		DisplayName: "ゴアの出血を有効化"
+		Description: "ゴアが空中を飛んでいるときにパーティクルを発生させるかどうかを設定します。"
+	}
+
+	EnableGoreBurning: {
+		DisplayName: "ゴアの燃焼を有効化"
+		Description: "ゴアを燃やすことができるかどうかを設定します。"
+	}
+
+	ParticleMultiplierSafe: {
+		DisplayName: "パーティクル生成率（安全）"
+		Description: "1.0未満に設定すると、通常の（血液のない）パーティクルの量を減少させます。「0.0」に設定すると、完全に無効にできます。"
+	}
+
+	ParticleMultiplierViolent: {
+		DisplayName: "パーティクル生成率（暴力的）"
+		Description: "1.0未満に設定すると、血液のパーティクルの量を減少させます。「0.0」に設定すると、完全に無効にできます。"
+	}
+}
+
+Camera: {
+	DisplayName: "カメラ"
+	Description: "このオーバーホールは、ゲームの見せ方を大幅に改善する多くのカメラ機能を実装しています。"
+
+	CameraSmoothness: {
+		DisplayName: "カメラの滑らかさ"
+		Description:
+			'''
+			カメラの動きにどれだけの減衰を適用するかを設定し、速度の感覚を改善します。
+			この機能を完全に無効にするには、ゼロに設定します。
+			'''
+	}
+
+	LimitCameraUpdateRate: {
+		DisplayName: "カメラの更新レート制限"
+		Description:
+			'''
+			有効にすると、カメラの更新レートが60Hzに固定され、高リフレッシュレートモニターでプレイヤーキャラクターが不安定になるのを防ぎます。
+			現在、この設定はオンにしておくのが最適です。
+			'''
+	}
+
+	ScreenShakeStrength: {
+		DisplayName: "画面の揺れ強度"
+		Description:
+			'''
+			画面揺れ効果の強度を設定します。
+			この機能を完全に無効にするには、ゼロに設定します。
+			'''
+	}
+}
+
+Enemies: {
+	DisplayName: "敵"
+	Description: "このオーバーホールには、敵の行動にいくつかの追加が含まれており、戦うのが少しだけ楽しくなることを目指しています。"
+
+	EnableEnemyLunges: {
+		DisplayName: "敵の突進を有効化"
+		Description: "有効にすると、歩いている敵が近づいてきたときに突進してくることがあります。"
+	}
+}
+
+Guns: {
+	DisplayName: "銃"
+	Description: "このオーバーホールは、ゲーム内の銃のゲームプレイと使用感の向上に重点を置いています。"
+
+	EnableAimingRecoil: {
+		DisplayName: "照準時の反動を有効化（実験的）"
+		Description:
+			'''
+			有効にすると、銃を撃つとプレイヤーのカーソルがずれることがあります。
+			実験的な機能で、デフォルトでは無効です。
+			'''
+	}
+
+	EnableBulletImpactAudio: {
+		DisplayName: "弾丸の衝突音を有効化"
+		Description: "有効にすると、弾丸のような弾が地面に当たった際に新しい音が鳴ります。"
+	}
+
+	EnableGunSoundReplacements: {
+		DisplayName: "銃の音の差し替えを有効化"
+		Description: "有効にすると、オーバーホールで影響を受けたすべての銃に新しい満足感のある音が追加されます。"
+	}
+
+	EnableAlternateGunFiringModes: {
+		DisplayName: "銃の代替発射モードを有効化"
+		Description: "有効にすると、いくつかの銃に新しい代替発射モードが追加されます。"
+	}
+
+	EnableBulletCasings: {
+		DisplayName: "弾薬の薬莢を有効化"
+		Description: "有効にすると、いくつかの武器が対応する弾薬の薬莢を排出します。"
+	}
+
+	EnableMuzzleflashes: {
+		DisplayName: "銃口の閃光を有効化"
+		Description: "有効にすると、銃を発射するときに美しい銃口の閃光が発生します。"
+	}
+
+	EnableMinigunRecoilHovering: {
+		DisplayName: "ミニガンの反動ホバリングを有効化"
+		Description: "有効にすると、ミニガンのような武器で下向きに発射することで、プレイヤーが少し空中に浮くことができます。"
+	}
+
+	EnableStarCannonRecoilHovering: {
+		DisplayName: "スターキャノンの反動ホバリングを有効化"
+		Description: "有効にすると、スターキャノン（および類似の武器）で下向きに発射することで、プレイヤーが少し空中に浮くことができます。"
+	}
+}
+
+Interface: {
+	DisplayName: "インターフェース"
+	Description: "GUIおよびHUDに関連するすべての設定。"
+
+	EnableCrosshair: {
+		DisplayName: "十字線を有効化"
+		Description: "有効にすると、発射型武器を使用中にマウスカーソルが高度なアニメーション付き十字線に置き換わります。"
+	}
+
+	EnableCrosshairAnimations: {
+		DisplayName: "十字線アニメーションを有効化"
+		Description: "十字線が武器の発射やクールダウン時に反応してアニメーションするかどうかを設定します。"
+	}
+}
+
+Magic: {
+	DisplayName: "魔法"
+
+	EnableMagicSoundReplacements: {
+		DisplayName: "魔法の音を置き換える"
+		Description: "一部の魔法武器に新しい効果音を追加するかどうかを設定します。"
+	}
+
+	EnableMagicPowerAttacks: {
+		DisplayName: "魔法のパワーアタックを有効化"
+		Description: "有効にすると、ほとんどの魔法武器が別の使い方でチャージ攻撃を行えるようになります。"
+	}
+
+	EnableManaRegenerationRework: {
+		DisplayName: "マナ回復の再設計を有効化"
+		Description: "有効にすると、マナ回復の仕組みが再設計され、動きながら回復を促進するようにバランスが調整されます。"
+	}
+
+	EnableManaRegenerationIcon: {
+		DisplayName: "マナ回復のアイコンを有効化"
+		Description: 
+		'''
+		魔法武器を装備しているときに「マナ吸収」バフアイコンを表示するかどうかを設定します。
+		このオプションはゲームプレイには影響しません。
+		'''
+	}
+}
+
+Melee: {
+	DisplayName: "近接"
+	Description: "このオーバーホールは、ゲームの近接武器の操作感と流れを完全に再構築し、これまでにないようなハック＆スラッシュが可能になります！"
+
+	EnableMeleeAirCombat: {
+		DisplayName: "空中戦闘を有効化"
+		Description: 
+		'''
+		空中戦闘を有効化します。これにより、空中で敵を攻撃するたびに移動キーを使って任意の方向に加速することができます。
+		敵を足場として使う、飛んでいる敵に連続攻撃、勢いをつけて空中から強力な落下攻撃をしたりできます。
+		'''
+	}
+
+	EnableProjectileSwordManaUsage: {
+		DisplayName: "弾丸を発射する剣のマナ消費を有効化"
+		Description: 
+		'''
+		実験的機能です。
+		有効にすると、弾丸を発射する剣は少しのマナを消費するようになります。
+		魔法使いのマナ回復やマナのドロップルールは引き続き適用されるので、それほど重要ではありません。
+		'''
+	}
+
+	EnableMeleeSwingVelocity: {
+		DisplayName: "スイング速度を有効化"
+		Description: 
+		'''
+		有効にすると、近接武器を振ることでその方向に加速します。
+		移動キーを使用することでさらに調整でき、移動を制御している場合は前に投げ出されることはありません。
+		パワーアタックと組み合わせることでジャンプ力とダメージを大幅に強化できます。
+		'''
+	}
+
+	EnableAxePowerAttacks: {
+		DisplayName: "斧のパワーアタックを有効化"
+		Description: "右クリックで斧によるチャージ攻撃を行えるようにします。"
+	}
+
+	EnableBroadswordPowerAttacks: {
+		DisplayName: "剣のパワーアタックを有効化"
+		Description: "右クリックで剣によるチャージ攻撃を行えるようにします。"
+	}
+
+	EnableHammerPowerAttacks: {
+		DisplayName: "ハンマーのパワーアタックを有効化"
+		Description: "右クリックでハンマーによるチャージ攻撃を行えるようにします。"
+	}
+
+	EnableMeleeKillingBlows: {
+		DisplayName: "近接攻撃でのとどめを有効化"
+		Description: "有効にすると、剣は既にダメージを受けている敵に対して「とどめの一撃」を決めることができ、敵を倒す際にダメージが増加します。"
+	}
+
+	EnableMeleeAttackAiming: {
+		DisplayName: "近接攻撃の照準を有効化"
+		Description: 
+		'''
+		有効にすると、近接武器が照準可能になります。
+		実際にゲームプレイに影響を与えるためには、「近接戦闘の改良衝突判定」オプションを有効にする必要があります。
+		'''
+	}
+
+	EnableImprovedMeleeCollision: {
+		DisplayName: "近接戦闘の改良衝突判定を有効化"
+		Description: 
+		'''
+		有効にすると、近接武器の衝突判定が静的な矩形から円弧型に変更されます。
+		「近接攻撃の照準を有効化」オプションを有効にすることを強く推奨します。
+		'''
+	}
+
+	EnableMeleeVelocityBasedDamage: {
+		DisplayName: "近接攻撃の速度依存ダメージを有効化"
+		Description: "有効にすると、近接攻撃のダメージが移動速度に影響されるようになります。"
+	}
+
+	EnableMeleeVelocityBasedDamageIcon: {
+		DisplayName: "近接攻撃の速度依存ダメージアイコンを有効化"
+		Description: 
+		'''
+		剣を装備しているときに「斬撃」バフアイコンを表示するかどうかを設定します。
+		このオプションはゲームプレイには影響しません。
+		'''
+	}
+
+	EnableAxeSoundReplacements: {
+		DisplayName: "斧の音を置き換える"
+		Description: "斧に新しい効果音を追加するかどうかを設定します。"
+	}
+
+	EnableBroadswordSoundReplacements: {
+		DisplayName: "剣の音を置き換える"
+		Description: "剣に新しい効果音を追加するかどうかを設定します。"
+	}
+
+	EnableHammerSoundReplacements: {
+		DisplayName: "ハンマーの音を置き換える"
+		Description: "ハンマーに新しい効果音を追加するかどうかを設定します。"
+	}
+
+	EnablePickaxeSoundReplacements: {
+		DisplayName: "つるはしの音を置き換える"
+		Description: "つるはしに新しい効果音を追加するかどうかを設定します。"
+	}
+}
+
+Music: {
+	DisplayName: "音楽"
+	Description: 
+	'''
+		このオーバーホールには、ゲームの音楽再生に関するいくつかの改善が含まれています。
+		また、リマスターされたサウンドトラックも用意されています - 左上のボタンをクリックして入手しましょう！
+		'''
+
+	EnableMusicPlaybackPositionPreservation: {
+		DisplayName: "音楽再生位置の保存を有効化"
+		Description: 
+		'''
+		有効にすると、音楽トラックは停止する代わりに一時停止するようになります。
+		これにより、一度訪れたバイオームに戻った際、その音楽が再生されるとき、離れた時点の再生位置から再開されます。
+		ゲームの雰囲気が大幅に向上し、世界を移動している間に音楽のイントロばかり聞くことがなくなります。
+		'''
+	}
+
+	EnableBossDeathMusicStop: {
+		DisplayName: "ボス撃破時の音楽停止を有効化"
+		Description: "有効にすると、ボスが倒された際、一時的に音楽が停止します。劇的な効果のために。"
+	}
+}
+
+Movement: {
+	DisplayName: "移動"
+	Description: "このオーバーホールは、移動に関するほぼすべての要素を大幅に改善し、新たな体験を提供します。"
+
+	EnableAutoJump: {
+		DisplayName: "自動ジャンプを有効化"
+		Description: "有効にすると、スペースキーを押し続けるだけで連続でジャンプできるようになります。"
+	}
+
+	EnableVerticalAccelerationChanges: {
+		DisplayName: "垂直方向の加速度の変更を有効化"
+		Description: "空気抵抗と（ほぼ）無制限の最大落下速度の切り替えを行います。"
+	}
+
+	EnableHorizontalAccelerationChanges: {
+		DisplayName: "水平方向の加速度の変更を有効化"
+		Description: "水平方向の摩擦、最大走行速度、および加速度の変更を切り替えます。"
+	}
+
+	EnableBunnyhopping: {
+		DisplayName: "バニーホッピングを有効化"
+		Description:
+			'''
+			バニーホッピングは、ジャンプするたびにわずかな水平方向の加速を与えます。
+			これをオフにすると、特定のアクセサリーが無効になります。
+			'''
+	}
+
+	EnableClimbing: {
+		DisplayName: "壁登りを有効化"
+		Description: "壁登りにより、上ボタンを押し続けることで新たな高さに到達できます。"
+	}
+
+	EnableGrapplingHookPhysics: {
+		DisplayName: "フックの物理挙動を有効化"
+		Description:
+			'''
+			有効にすると、フックの挙動が変わり、移動キーを使ってフックにぶら下がりながら振り回れるようになります。
+			注: フックボタンを押し続けると、バニラのような引き寄せ動作を実行できます。このため、どちらかを選ぶ必要はなく、両方の挙動を組み合わせることができます。
+			注: この機能はゲーム内のすべてのフックに適用されるわけではありません。また、複数のフックが接続されるとき、マルチフックはバニラ挙動に戻ります。
+			'''
+	}
+
+	EnableWallJumping: {
+		DisplayName: "壁ジャンプを有効化"
+		Description:
+			'''
+			壁ジャンプは、新たな移動メカニックで、タイガークライミングギアまたはスパイクシューズが必要です。
+			これは、背中を壁に当てながら上ボタンを押し、水平移動ボタンを離した状態で実行されます。
+			'''
+	}
+
+	EnableWallFlips: {
+		DisplayName: "壁フリップを有効化"
+		Description:
+			'''
+			壁フリップは、新たな移動メカニックで、アクセサリーは必要ありません。
+			これは、前方にある壁に十分な速度で接触しながら、プレイヤーの向きと逆方向の水平移動を押し続けることで実行されます。
+			'''
+	}
+
+	EnableRollJumps: {
+		DisplayName: "ロールジャンプを有効化"
+		Description: "有効にすると、着地ジャンプ（バニーホッピング）とタイミングの良い回避ロールを組み合わせることで「ロールジャンプ」を実行できるようになります。"
+	}
+
+	EnableDodgerolls: {
+		DisplayName: "回避ロールを有効化"
+		Description:
+			'''
+			有効にすると、割り当てられたボタンを使って回避ロールを実行できるようになります。
+			回避ロールは短時間の無敵状態を与え、多くの移動の機会を提供します。
+			'''
+	}
+
+	EnableDodgerollAudioCues: {
+		DisplayName: "回避ロールの音声合図を有効化"
+		Description: "回避ロールのチャージが補充された、またはチャージがなくなったことを示す音声を切り替えます。"
+	}
+}
+
+Visuals: {
+	DisplayName: "ビジュアル"
+	Description: "このオーバーホールでは、プレイヤーキャラクターの視覚的な外見をいくつか改善し、ゲームがより反応的に感じられるようにします。"
+
+	AlwaysShowAimableWeapons: {
+		DisplayName: "照準可能な武器を常に表示"
+		Description: "「構えたまま」の使用スタイルの武器が発射していないときでも表示されるように切り替えます。"
+	}
+
+	EnableImprovedMeleeAnimations: {
+		DisplayName: "近接攻撃のアニメーションの改善を有効化"
+		Description:
+			'''
+			有効にすると、近接武器の振りアニメーションが、より即時性のある振りに変更され、振る方向が交互になります。
+			これはオンにしておくのが最適で、近接ダメージのタイミングと方向を最もよく再現します。
+			'''
+	}
+
+	EnableMeleeSlashVisualization: {
+		DisplayName: "近接の斬撃の視覚化を有効化"
+		Description:
+			'''
+			有効にすると、近接武器を振るときに円形の斬撃描写が表示されます。
+			これはオンにしておくのが最適で、武器の射程範囲と衝突円弧を最もよく再現します。
+			'''
+	}
+
+	EnablePlayerHeadRotation: {
+		DisplayName: "プレイヤーの頭部回転を有効化"
+		Description: "プレイヤーキャラクターがカーソルを見つめるようになるかどうかを切り替えます。"
+	}
+
+	EnablePlayerTilting: {
+		DisplayName: "プレイヤーの傾きを有効化"
+		Description: "プレイヤーキャラクターが速度に応じてわずかに傾くように切り替えます。これにより、キャラクターがより生き生きと見えます。"
+	}
+
+	EnableEnemyTiltingEffects: {
+		DisplayName: "敵の傾きエフェクトを有効化"
+		Description: "敵のスプライトが速度に応じてわずかに傾くように切り替えます。"
+	}
+
+	EnableVisualWeaponRecoil: {
+		DisplayName: "武器の視覚的反動を有効化"
+		Description: "有効にすると、武器を発射する際に、プレイヤーキャラクターの手の中のスプライトがわずかに回転します。"
+	}
+}
+
+Tweaks: {
+	DisplayName: "微調整"
+	Description: "このカテゴリには、気にすることはほとんどないであろう小さな技術的ユーティリティが含まれています。"
+
+	DisplaySystemCursorWithDisabledUI: {
+		DisplayName: "UIを無効化した際にシステムカーソルを表示"
+		Description:
+			'''
+			有効にすると、F11ホットキーでゲームインターフェースを無効化した際に操作システムのカーソルが有効になります。
+			これはUIなしでゲームプレイ映像を記録する際に便利な小さなユーティリティ変更であり、記録ソフトがOSカーソルのキャプチャを無効にできる場合に役立ちます。
+			'''
+		}
+	}
+}
