@@ -529,7 +529,7 @@ Items: {
 	}
 
 	LuckCharmT2: {
-		DisplayName: すごい幸運のチャーム
+		DisplayName: 豪運のチャーム
 		Tooltip:
 			'''
 			これがインベントリにある間は、より良いリフォージが得られる可能性が高くなる
