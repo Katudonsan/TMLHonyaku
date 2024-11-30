@@ -280,7 +280,7 @@ Buffs: {
 		Description: トラップが強化される
 	}
 
-	オンDiscordBuff: {
+	TrueDiscordBuff: {
 		DisplayName: トゥルーディスコード
 		Description:
 			'''
