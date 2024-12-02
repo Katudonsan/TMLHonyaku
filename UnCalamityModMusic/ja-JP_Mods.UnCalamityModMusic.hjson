@@ -111,7 +111,7 @@ Items: {
 	}
 
 	CorruptionUndergroundMusicBox: {
-		DisplayName: Music Box (不浄の大地 - 地下)
+		DisplayName: オルゴール (不浄の大地 - 地下)
 		Tooltip: Heart Plus Up!制作の「Between the Shadows」を再生する
 	}
 

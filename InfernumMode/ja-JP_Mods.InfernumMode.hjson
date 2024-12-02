@@ -4,7 +4,7 @@ Achievements: {
 		Description:
 			'''
 			失敗が多ければ多いほど、その分学びを多く得られる
-			[c/777777:インフェルナムのボスに殺される]
+			[c/777777:Infernumのボスに殺される]
 			'''
 	}
 
@@ -22,7 +22,7 @@ Achievements: {
 		Description:
 			'''
 			ドレイドンのお気に入りの被験者になる
-			[c/777777:インフェルナムのエクソメックのすべての組み合わせを倒す]
+			[c/777777:Infernumのエクソメックのすべての組み合わせを倒す]
 			'''
 	}
 
@@ -40,7 +40,7 @@ Achievements: {
 		Description:
 			'''
 			切り裂け。すべてが終わるまで。
-			[c/777777:インフェルナムのボスをすべて倒す]
+			[c/777777:Infernumのボスをすべて倒す]
 			'''
 	}
 
@@ -49,7 +49,7 @@ Achievements: {
 		Description:
 			'''
 			世界中のさまざまな小さな脅威を打ち負かせ！
-			[c/777777:インフェルナムのミニボスをすべて倒す]
+			[c/777777:Infernumのミニボスをすべて倒す]
 			'''
 	}
 
@@ -58,7 +58,7 @@ Achievements: {
 		Description:
 			'''
 			メカニカルな3兄弟を一緒にスクラップにしろ！
-			[c/777777:インフェルナムでツインズ、デストロイヤー、スケルトロンプライムを同時に撃破する]
+			[c/777777:Infernumでツインズ、デストロイヤー、スケルトロンプライムを同時に撃破する]
 			'''
 	}
 
@@ -67,7 +67,7 @@ Achievements: {
 		Description:
 			'''
 			星空の下で、冒涜された女神に挑む
-			[c/777777:インフェルナムで、かつ夜にプロヴィデンスを倒す]
+			[c/777777:Infernumで、かつ夜にプロヴィデンスを倒す]
 			'''
 	}
 
@@ -87,7 +87,7 @@ Achievements: {
 			Description:
 				'''
 				温かい…
-				[c/777777:インフェルナムのデューク・フィッシュロンを1分以内に倒す]
+				[c/777777:Infernumのデューク・フィッシュロンを1分以内に倒す]
 				'''
 		}
 
@@ -123,7 +123,7 @@ Achievements: {
 			Description:
 				'''
 				それは犠牲を伴うが、あなたは良い選択だったと思うだろう
-				[c/777777:Brimstone cragsで {0} 秒眠る]
+				[c/777777:硫黄の岩山で {0} 秒眠る]
 				'''
 		}
 
@@ -132,7 +132,7 @@ Achievements: {
 			Description:
 				'''
 				太陽の風、太陽の鐘の音...
-				[c/777777:インフェルナムで、かつ夜にプロヴィデンスを3分半以内に倒す]
+				[c/777777:Infernumで、かつ夜にプロヴィデンスを3分半以内に倒す]
 				'''
 		}
 
@@ -286,7 +286,7 @@ Configs: {
 
 		BossIntroductionAnimationsAreAllowed: {
 			Label: ボス召喚時アニメーション
-			Tooltip: ボス召喚時アニメーションを有効にします。インフェルナムモードが有効な時のみ再生されます。
+			Tooltip: ボス召喚時アニメーションを有効にします。Infernumモードが有効な時のみ再生されます。
 		}
 
 		DisplayTipsInChat: {
@@ -2021,7 +2021,7 @@ PetDialog: {
 	OldDukeFinalPhaseTip: テレポートのタイミングを頭の中で考えておこう、さもないと不意打ちされるよ！
 	OldDukeRealFinalPhaseTip: ただ突っ込むだけじゃダメだし、かわすだけでもダメ…両方同時にやってみて！
 	OldDukeDashTip1: 本当にダッシュを使わなくても大丈夫？
-	OldDukeDashTip2: ダッシュアクセサリーがあったら、すご〜く助かるよ…
+	OldDukeDashTip2: ダッシュアクセサリーがあったら、すご〜く便利かもネ…
 	PBGDroneJailTip: あのドローンたちが檻を作ってる！一つ破壊すれば隙間ができるよ！
 	PBGDroneBuildTip: ジャングル全体が爆発しちゃう前に、ドローンを破壊しよう！
 	PerforatorsTip1: ハイブは大量のイコルをばらまくから、逃げ場所が重要だよ！
@@ -2073,11 +2073,11 @@ PetDialog: {
 	SlimeGodTip2: 苦戦してるの？アイツらの動きを真似してみたら、うまくいくかもね！
 	StormWeaverTip1: 雲の猛攻はちょいと危険かも！集中して！あのストームスカージは召喚に専念しているだけで、キミに突っ込むつもりはないみたい！
 	SCalJokeTip1: 魔女の帽子、欲しい？あのコとおそろいも楽しいかもね…
-	SCalTip1: クロスボウを取り出したら近づいてね、どこを狙ってるかわかるよ！
+	SCalTip1: クロスボウを取り出したら近づいてみて、どこを狙ってるかわかるよ！
 	SCalSkullTip: たくさんのドクロがあるけど、キミを直接狙っているわけじゃないみたい！
 	SCalDesperationTip: 地獄が解き放たれても、回避に集中して！
 	SCalFireSpinTip: 飛び交う弾に圧倒されないで！冷静に対応すれば大丈夫！
-	SCalFireChargeTip: あの爆弾、場所をかなり取るね！余裕を持って誘導しよう！
+	SCalFireChargeTip: あの爆弾、デカすぎない？余裕を持って誘導しよう！
 	TwinsTip1: 回転中の回避が難しい？キミも回転しよう！なんつって！
 	TwinsFinalOptionTip: コイツらは体力を減らすと強化されるよ。どっちかが手強いなら、まずどっちか片方を集中的に攻撃するといいかも！
 	TwinsFinalPhaseTip: 残った方の目玉が全力で襲ってくるよ！油断しないで！
@@ -4525,14 +4525,14 @@ Projectiles: {
 
 Status: {
 	AchievementCompletionText: 実績解除！
-	InfernumDisallowedInWeirdDifficulties: インフェルナムモードはマスターモードやFor the Worthy等の特殊シードでは機能しません。
-	EternityModeWarning: エタニティモードのボスのAIの変更がインフェルナムによって上書きされます。
+	InfernumDisallowedInWeirdDifficulties: InfernumモードはマスターモードやFor the Worthy等の特殊シードでは機能しません。
+	EternityModeWarning: エタニティモードのボスのAIの変更がInfernumによって上書きされます。
 	CyberneticImmortalityEnabled: 不死が有効になりました。
 	CyberneticImmortalityDisabled: 不死が無効になりました。
 	AbyssTeleportAwayDenial: 圧力が強すぎて逃げられない！
 	EggSwordShrineBreakFailure: 卵によって剣が守られている。
 	WayfinderGateNotSet: ゲートが設定されていません！
-	InfernumNeededToEnterColosseum: 闘技場に入るにはインフェルナムモードをオンにしてください！
+	InfernumNeededToEnterColosseum: 闘技場に入るにはInfernumモードをオンにしてください！
 	InfiniteFlight: 無限飛行をオンにしました！
 	AquaticScourgeFinalPhaseAcid: 地下から酸の洪水が押し寄せてくる！
 	CalShadowBrothersSummon: 立ち上がれ、兄弟たちよ...
@@ -4559,7 +4559,7 @@ Status: {
 	YharonFinalPhase: 熱気が押し寄せてくる…
 	PostYharonWyrmHint: 深淵の底で原初の光が揺らめく…
 	DraedonEffortMock1: あなたの力は非常に興味深い。
-	DraedonEffortMock2: 続けろ。私の機械に情報を送り続けてくれ。
+	DraedonEffortMock2: いい調子だ...私の機械に情報を送り続けてください。
 	DraedonAresDesperationBlenderLeaveWarning: あなたは重大な計算ミスを犯した。
 	ExoMechDesperationAres1: ARES-09: コアの温度が急上昇　自己破壊が迫っています
 	ExoMechDesperationAres2: ARES-09: 相互破壊プロトコル「PRECISION GAMMA-BLASTS」準備中
@@ -4612,7 +4612,7 @@ Tiles: {
 }
 
 UI: {
-	NotExpertWarning: "[c/ff00000: インフェルナムモードはエキスパートモードでのみ有効]"
+	NotExpertWarning: "[c/ff00000: Infernumモードはエキスパートモードでのみ有効]"
 	AchievementsHeader: Death Wishes
 	AchievementsLabelText: 次
 	InfernumIconText: Infernum Modeを有効化
@@ -4620,7 +4620,7 @@ UI: {
 	WishesHoverTextButton: Death Wishesを開く
 
 	GuardiansPlaqueUI: {
-		HoverText: Read
+		HoverText: 読む
 		PlaqueText: Three disciples. One mind. One deity. One purpose. Tempered by the holy flames of Providence, an ancient artifact is crystalized, with the sole purpose of initiating the Ritual at the cliff of this Temple.
 		SpecialText: ancient artifact
 	}

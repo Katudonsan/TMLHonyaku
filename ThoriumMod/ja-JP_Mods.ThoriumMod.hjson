@@ -10,7 +10,7 @@ Announcements: {
 	HMDepthsWarning: " {$Biomes.DepthsBiome.DisplayName} に新しい生命が芽生えた!"
 	ForgottenOneWarning: " {$Biomes.DepthsBiome.DisplayName} の中で何かが蠢いている..."
 	QueenJellyfishWarning: 海面下で深海の洞窟が泡立ち始めた！
-	ExpertForgottenOne1: 忘れ去られた者の殻が激しく割れている！
+	ExpertForgottenOne1: 忘れられた者の殻が激しく割れている！
 	ExpertForgottenOne2: 忘れられた者が古代の牢獄から解き放たれた！
 	ForgottenOneDefeat: 深海の毒々しい霧が晴れた...
 	SpiderWarning: クモたちが怒りにざわめいている...
@@ -1898,7 +1898,7 @@ Items: {
 	}
 
 	ForgottenOneTrophy: {
-		DisplayName: 忘れ去られた者のトロフィー
+		DisplayName: 忘れられた者のトロフィー
 		Tooltip: ""
 	}
 
@@ -19779,7 +19779,7 @@ NPCs: {
 	}
 
 	ForgottenOne: {
-		DisplayName: 忘れ去られた者
+		DisplayName: 忘れられた者
 		BestiaryFlavorText: 人類が長い間存在を忘れていた生物。何世紀も前の血なまぐさい戦争で、この生物は封印された。
 
 		BossChecklistIntegration: {
@@ -20443,7 +20443,7 @@ NPCs: {
 
 	SnowFlinxMatriarch: {
 		DisplayName: スノーフリンクスのリーダー
-		BestiaryFlavorText: 奇妙な生き物の奇妙なリーダー。彼らは毛皮の中に様々な物と共に子供を閉じ込める傾向がある。奇妙だ。
+		BestiaryFlavorText: 奇妙な生き物の奇妙なリーダー。彼らは毛皮の中に様々な物と共に子供を閉じ込める傾向がある。なんとも奇妙だ。
 	}
 
 	SnowSinga: {
@@ -20545,7 +20545,7 @@ NPCs: {
 
 		TownNPCMood: {
 			Content: 坊主、あんまり文句を言うこともないさ、そうだろ？
-			NoHome: ちゃんとした家があれば、本腰を入れて仕事に取り掛かって、真の脅威を狩ることができるんだがな
+			NoHome: ちゃんとした家があれば、本腰を入れて仕事に取り掛かって、真の脅威を狩ることができるんだがな。
 			FarFromHome: おい、坊主。無事でやってるか？
 			LoveSpace: この斧を振り回しても、余計な奴に当たる心配がないくらい広々してる。最高だ！
 			DislikeCrowded: だんだん窮屈に感じてきたな...
@@ -28000,7 +28000,7 @@ Configs: {
 
 		toggleBigInstrumentMissNoise: {
 			Label: Big Instrument ミス効果音
-			Tooltip: タイミングを間違えたときに大きな楽器が出すノイズを切り替える。
+			Tooltip: タイミングを間違えたときの効果音を切り替える。
 		}
 
 		InstrumentSoundVolume: {
