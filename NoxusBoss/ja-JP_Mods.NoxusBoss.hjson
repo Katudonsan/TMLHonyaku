@@ -153,11 +153,11 @@ Items: {
 		Lore:
 			'''
 			混沌。
-			その異形の意図と起源は最深の闇に包まれているが、ただ一つ確かなことは─
+			その異形の意図と起源は闇に包まれているが、ただ一つ確かなことは─
 
 			『神でもドラゴンでもないのに、彼らだけが持っているはずの卓越した力を宿している。』
 
-			一体何がこのような特異な状況をもたらし、そのおぞましい力を極限まで引き出したのだろうか？
+			一体何がこのような特異な存在をもたらし、そのおぞましい力を極限まで引き出したのだろうか？
 			それは運命によるものなのか？それとも単なる偶然か？それとも、自然の気まぐれによる終焉の表れなのだろうか？
 			神とドラゴン... それがすべての終わりなのか？ このような特異な存在がテラリアのはるか彼方に潜んでいるのか？
 			これまでに起きた出来事に関しては無限の問いがあるが、解決したことはほとんどない。
@@ -172,601 +172,601 @@ Items: {
 			より近くで聞くには「左シフト」を押す
 			'''
 		Lore: ""
-		Determiner1: a
-		Determiner2: the
-		Verb1: refracts
-		Verb2: transcends
-		Verb3: divines
-		Verb4: foresees
-		Verb5: walks
-		Verb6: blazes
-		Verb7: fuses
-		Verb8: ascends
-		Verb9: traces
-		Verb10: treads
-		Verb11: glimpses
-		Verb12: succumbs
-		Verb13: discovers
-		Verb14: unlocks
-		Verb15: seeks
-		Verb16: triumphs
-		Verb17: navigates
-		Verb18: weaves
-		Verb19: resonates
-		Verb20: experiences
-		Verb21: times
-		Verb22: expands
-		Verb23: enlightens
-		Verb24: unveils
-		Verb25: births
-		Verb26: unifies
-		Verb27: embarks
-		Verb28: finds
-		Verb29: distills
-		Verb30: tests
-		Verb31: unfolds
-		Verb32: flutters
-		Verb33: graces
-		Verb34: wishes
-		Verb35: savors
-		Verb36: evades
-		Verb37: cherishes
-		Verb38: radiates
-		Verb39: perorates
-		Verb40: shines
-		Verb41: burns
-		Verb42: erases
-		Verb43: obliterates
-		Verb44: betrays
-		Verb45: accepts
-		Verb46: excises
-		Verb47: breathes
-		Verb48: projects
-		Verb49: understands
-		Verb50: bathes
-		Verb51: gasps
-		Verb52: eclipses
-		Verb53: illuminates
-		Verb54: beckons
-		Verb55: builds
-		Verb56: creates
-		Verb57: prays
-		Verb58: controls
-		Verb59: grasps
-		Verb60: flies
-		Verb61: melts
-		Verb62: dissolves
-		Verb63: repents
-		Verb64: subjugates
-		Verb65: flows
-		Verb66: decomposes
-		Verb67: energizes
-		Verb68: exempts
-		Verb69: realizes
-		Verb70: dotes
-		Verb71: drifts
-		Verb72: reels
-		Verb73: materializes
-		Verb74: generates
-		Verb75: purifies
-		Verb76: writes
-		Verb77: docks
-		Verb78: declines
-		Verb79: progenates
-		Verb80: remembers
-		Verb81: soars
-		Verb82: faces
-		Verb83: immortalizes
-		Verb84: orbits
-		Verb85: sectarianizes
-		Verb86: coalesces
-		Verb87: heals
-		Verb88: acknowledges
-		Verb89: petrifies
-		Verb90: silences
-		Verb91: freezes
-		Verb92: qualifies
-		Verb93: excels
-		Verb94: contemplates
-		Verb95: cures
-		Verb96: reanimates
-		Verb97: differentiates
-		Verb98: crawls
-		Verb99: devours
-		Verb100: terminates
-		Verb101: dissevers
-		Verb102: elucidates
-		Verb103: states
-		Verb104: mourns
-		Verb105: blossoms
-		Verb106: decays
-		Verb107: accedes
-		Verb108: acquiesces
-		Verb109: sets
-		Verb110: aspires
-		Verb111: haunts
-		Verb112: dwells
-		Verb113: ponders
-		Verb114: rejects
-		Verb115: broods
-		Verb116: collapses
-		Verb117: appears
-		Verb118: weeps
-		Verb119: confesses
-		Verb120: grins
-		Verb121: palpitates
-		Verb122: unforms
-		Verb123: quivers
-		Verb124: kowtows
-		Verb125: flagellates
-		Verb126: grows
-		Verb127: pulses
-		Verb128: deceives
-		Verb129: strikes
-		Verb130: warns
-		Verb131: nods
-		Verb132: ignores
-		Verb133: demeans
-		Verb134: surpasses
-		Verb135: composes
-		Verb136: demolishes
-		Verb137: celebrates
-		Verb138: speaks
-		Verb139: promises
-		Verb140: telegraphs
-		Verb141: performs
-		Verb142: senses
-		Verb143: anticipates
-		Verb144: annuls
-		Verb145: blows
-		Verb146: unfurls
-		Verb147: emerges
-		Verb148: decides
-		Verb149: abolishes
-		Verb150: writhes
-		Adjective1: ineffable
-		Adjective2: effulgent
-		Adjective3: transient
-		Adjective4: wistful
-		Adjective5: blissful
-		Adjective6: eternal
-		Adjective7: twisted
-		Adjective8: omniscient
-		Adjective9: omnipotent
-		Adjective10: benevolent
-		Adjective11: hopeful
-		Adjective12: sublime
-		Adjective13: vigorous
-		Adjective14: demoded
-		Adjective15: dispiteous
-		Adjective16: beautiful
-		Adjective17: gaudy
-		Adjective18: ephemeral
-		Adjective19: refulgent
-		Adjective20: wanton
-		Adjective21: unyielding
-		Adjective22: clandestine
-		Adjective23: wise
-		Adjective24: obdurate
-		Adjective25: insouciant
-		Adjective26: antediluvian
-		Adjective27: sacred
-		Adjective28: labyrinthine
-		Adjective29: enigmatic
-		Adjective30: introspective
-		Adjective31: nimble
-		Adjective32: distilled
-		Adjective33: intoxicating
-		Adjective34: honest
-		Adjective35: happy
-		Adjective36: excellent
-		Adjective37: apotheotic
-		Adjective38: halcyon
-		Adjective39: tranquil
-		Adjective40: peaceful
-		Adjective41: unwieldy
-		Adjective42: murderous
-		Adjective43: whimsical
-		Adjective44: blessed
-		Adjective45: edenic
-		Adjective46: cosmic
-		Adjective47: ancient
-		Adjective48: impressive
-		Adjective49: glorious
-		Adjective50: frigid
-		Adjective51: gilded
-		Adjective52: infallible
-		Adjective53: odd
-		Adjective54: devoted
-		Adjective55: fated
-		Adjective56: unsullied
-		Adjective57: grotesque
-		Adjective58: resplendent
-		Adjective59: infinite
-		Adjective60: stained
-		Adjective61: witty
-		Adjective62: flawed
-		Adjective63: eschatological
-		Adjective64: unholy
-		Adjective65: monosynaptic
-		Adjective66: episodical
-		Adjective67: inalienable
-		Adjective68: penitent
-		Adjective69: flickering
-		Adjective70: rapacious
-		Adjective71: abstract
-		Adjective72: complex
-		Adjective73: mystifying
-		Adjective74: puelline
-		Adjective75: sempiternal
-		Adjective76: zealous
-		Adjective77: ethereal
-		Adjective78: exothermic
-		Adjective79: dazzling
-		Adjective80: Pavlovian
-		Adjective81: enticing
-		Adjective82: resurrected
-		Adjective83: monochromatic
-		Adjective84: sleepy
-		Adjective85: muddled
-		Adjective86: empty
-		Adjective87: faded
-		Adjective88: ecstatic
-		Adjective89: content
-		Adjective90: dreamy
-		Adjective91: poetic
-		Adjective92: knighted
-		Adjective93: defensive
-		Adjective94: worried
-		Adjective95: hallowed
-		Adjective96: cupric
-		Adjective97: supercharged
-		Adjective98: reclusive
-		Adjective99: clever
-		Adjective100: complete
-		Adjective101: elven
-		Adjective102: bucolic
-		Adjective103: aged
-		Adjective104: Xeroc-blessed
-		Adjective105: efficient
-		Adjective106: callous
-		Adjective107: vivid
-		Adjective108: premature
-		Adjective109: brutal
-		Adjective110: intriguing
-		Adjective111: bizarre
-		Adjective112: unforgettable
-		Adjective113: creative
-		Adjective114: foreign
-		Adjective115: beastly
-		Adjective116: treasured
-		Adjective117: lonely
-		Adjective118: unstoppable
-		Adjective119: harmonious
-		Adjective120: hexagonal
-		Adjective121: pre-programmed
-		Adjective122: hijacked
-		Adjective123: opulent
-		Adjective124: technosapient
-		Adjective125: misdirected
-		Adjective126: knowledgeable
-		Adjective127: chivalric
-		Adjective128: eccentric
-		Adjective129: linguistic
-		Adjective130: transcribed
-		Adjective131: inaccurate
-		Adjective132: coterminous
-		Adjective133: farsighted
-		Adjective134: Plutonian
-		Adjective135: violet
-		Adjective136: tinted
-		Adjective137: pagan
-		Adjective138: obscured
-		Adjective139: infamous
-		Adjective140: stalwart
-		Adjective141: remiss
-		Adjective142: bejeweled
-		Adjective143: reverent
-		Adjective144: lurid
-		Adjective145: entombed
-		Adjective146: cloudy
-		Adjective147: Stygian
-		Adjective148: wretched
-		Adjective149: pernicious
-		Adjective150: debonair
-		Adjective151: hunted
-		Adjective152: innocent
-		Adjective153: indignant
-		Adjective154: withered
-		Adjective155: solemn
-		Adjective156: idyllic
-		Adjective157: unexpected
-		Adjective158: slanderous
-		Adjective159: inevitable
-		Adjective160: customary
-		Adjective161: silken
-		Adjective162: blind
-		Adjective163: dismal
-		Adjective164: scintillating
-		Adjective165: apropos
-		Adjective166: unobstructed
-		Adjective167: mirrored
-		Adjective168: willing
-		Adjective169: forceful
-		Adjective170: disturbed
-		Adjective171: symbolic
-		Adjective172: achromatic
-		Adjective173: inspired
-		Adjective174: legendary
-		Adjective175: natural
-		Adjective176: insular
-		Adjective177: impassioned
-		Adjective178: Hellenistic
-		Adjective179: determined
-		Adjective180: visionary
-		Adjective181: unspun
-		Adjective182: elusive
-		Adjective183: dissappointing
-		Adjective184: untested
-		Adjective185: resolute
-		Adjective186: curious
-		Adjective187: eldritch
-		Adjective188: persuasive
-		Adjective189: paralyzing
-		Adjective190: wrathful
-		Adjective191: forsaken
-		Adjective192: betrayed
-		Adjective193: pallid
-		Adjective194: insipid
-		Adjective195: malignant
-		Adjective196: temporary
-		Adjective197: grandiose
-		Adjective198: vilified
-		Adjective199: algebraic
-		Adjective200: eloquent
-		Noun1: cleric
-		Noun2: god
-		Noun3: being
-		Noun4: blade
-		Noun5: trial
-		Noun6: tapestry
-		Noun7: fire
-		Noun8: star
-		Noun9: ion
-		Noun10: painting
-		Noun11: nature
-		Noun12: warrior
-		Noun13: serf
-		Noun14: home
-		Noun15: digit
-		Noun16: logarithm
-		Noun17: season
-		Noun18: apple
-		Noun19: sinner
-		Noun20: word
-		Noun21: thread
-		Noun22: executioner
-		Noun23: blood
-		Noun24: nebula
-		Noun25: light
-		Noun26: cloak
-		Noun27: crown
-		Noun28: antigen
-		Noun29: slime
-		Noun30: agent
-		Noun31: wizard
-		Noun32: castle
-		Noun33: table
-		Noun34: laser
-		Noun35: yttrium
-		Noun36: brimstone
-		Noun37: terrain
-		Noun38: fruit
-		Noun39: mother
-		Noun40: priest
-		Noun41: epiphany
-		Noun42: gate
-		Noun43: interpolant
-		Noun44: wand
-		Noun45: wind
-		Noun46: pond
-		Noun47: hymn
-		Noun48: mist
-		Noun49: fortitude
-		Noun50: glade
-		Noun51: judge
-		Noun52: conquerer
-		Noun53: avarice
-		Noun54: titan
-		Noun55: cinquain
-		Noun56: destiny
-		Noun57: cynosure
-		Noun58: tree
-		Noun59: cell
-		Noun60: entropy
-		Noun61: life
-		Noun62: reaper
-		Noun63: snake
-		Noun64: ark
-		Noun65: covenant
-		Noun66: ankh
-		Noun67: insignia
-		Noun68: bell
-		Noun69: language
-		Noun70: gift
-		Noun71: saffron
-		Noun72: alchemist
-		Noun73: jaunt
-		Noun74: quadrant
-		Noun75: stamen
-		Noun76: iris
-		Noun77: censer
-		Noun78: platinum
-		Noun79: lava
-		Noun80: hand
-		Noun81: corner
-		Noun82: shadow
-		Noun83: calamity
-		Noun84: scrap
-		Noun85: spirit
-		Noun86: scale
-		Noun87: ash
-		Noun88: plasma
-		Noun89: dragon
-		Noun90: matter
-		Noun91: singularity
-		Noun92: world
-		Noun93: fossil
-		Noun94: galaxy
-		Noun95: sunshine
-		Noun96: necromancer
-		Noun97: moratorium
-		Noun98: annal
-		Noun99: time
-		Noun100: circle
-		Noun101: vane
-		Noun102: leaf
-		Noun103: axel
-		Noun104: wind
-		Noun105: eye
-		Noun106: key
-		Noun107: coral
-		Noun108: stardust
-		Noun109: theremin
-		Noun110: pen
-		Noun111: mercury
-		Noun112: obsidian
-		Noun113: portrait
-		Noun114: ambrosia
-		Noun115: tiger
-		Noun116: laiche
-		Noun117: concert
-		Noun118: ritual
-		Noun119: oni
-		Noun120: mantel
-		Noun121: invention
-		Noun122: fly
-		Noun123: astigmatism
-		Noun124: robot
-		Noun125: witch
-		Noun126: sophomore
-		Noun127: nightmare
-		Noun128: glue
-		Noun129: alphabet
-		Noun130: integer
-		Noun131: farm
-		Noun132: extraterrestrial
-		Noun133: inselberg
-		Noun134: train
-		Noun135: alderman
-		Noun136: stork
-		Noun137: moon
-		Noun138: hedge
-		Noun139: sapphire
-		Noun140: commander
-		Noun141: macaw
-		Noun142: brain
-		Noun143: vassal
-		Noun144: glass
-		Noun145: cosine
-		Noun146: satellite
-		Noun147: hunter
-		Noun148: ring
-		Noun149: man
-		Noun150: shell
-		Noun151: progeny
-		Noun152: magnesium
-		Noun153: granite
-		Noun154: empire
-		Noun155: assailant
-		Noun156: aether
-		Noun157: automata
-		Noun158: rainforest
-		Noun159: gatekeeper
-		Noun160: patron
-		Noun161: specialist
-		Noun162: quid
-		Noun163: flagstone
-		Noun164: byte
-		Noun165: lightyear
-		Noun166: affection
-		Noun167: Egyptian
-		Noun168: cannon
-		Noun169: chi
-		Noun170: orator
-		Noun171: frigate
-		Noun172: boffin
-		Noun173: offspring
-		Noun174: beacon
-		Noun175: philosopher
-		Noun176: goth
-		Noun177: attuner
-		Noun178: soldier
-		Noun179: text
-		Noun180: experiment
-		Noun181: realist
-		Noun182: cloth
-		Noun183: explorer
-		Noun184: limerick
-		Noun185: gene
-		Noun186: lamp
-		Noun187: cyanide
-		Noun188: extremist
-		Noun189: maker
-		Noun190: nepenthe
-		Noun191: shore
-		Noun192: flute
-		Noun193: empress
-		Noun194: swizzle
-		Noun195: racer
-		Noun196: vagrant
-		Noun197: caregiver
-		Noun198: despot
-		Noun199: observer
-		Noun200: scientist
-		Noun201: ogscule
-		Preposition1: about
-		Preposition2: above
-		Preposition3: across
-		Preposition4: after
-		Preposition5: against
-		Preposition6: along
-		Preposition7: among
-		Preposition8: around
-		Preposition9: as
-		Preposition10: at
-		Preposition11: before
-		Preposition12: behind
-		Preposition13: below
-		Preposition14: beneath
-		Preposition15: beside
-		Preposition16: betwixt
-		Preposition17: beyond
-		Preposition18: by
-		Preposition19: despite
-		Preposition20: during
-		Preposition21: except
-		Preposition22: for
-		Preposition23: from
-		Preposition24: into
-		Preposition25: like
-		Preposition26: nears
-		Preposition27: of
-		Preposition28: on
-		Preposition29: opposite
-		Preposition30: over
-		Preposition31: since
-		Preposition32: than
-		Preposition33: to
-		Preposition34: toward
-		Preposition35: under
-		Preposition36: until
-		Preposition37: up
-		Preposition38: upon
-		Preposition39: with
-		Preposition40: within
-		Preposition41: without
-		EasterEggSentence: Fr ong bussin
+		Determiner1: 一つの
+		Determiner2: その
+		Verb1: 屈折する
+		Verb2: 超越する
+		Verb3: 占う
+		Verb4: 予見する
+		Verb5: 歩く
+		Verb6: 燃え上がる
+		Verb7: 融合する
+		Verb8: 上昇する
+		Verb9: たどる
+		Verb10: 踏む
+		Verb11: 垣間見る
+		Verb12: 屈する
+		Verb13: 発見する
+		Verb14: 解き明かす
+		Verb15: 探し求める
+		Verb16: 勝利する
+		Verb17: 航行する
+		Verb18: 織り成す
+		Verb19: 共鳴する
+		Verb20: 体験する
+		Verb21: 時を測る
+		Verb22: 拡張する
+		Verb23: 啓発する
+		Verb24: 明かす
+		Verb25: 生み出す
+		Verb26: 統合する
+		Verb27: 旅に出る
+		Verb28: 見つける
+		Verb29: 蒸留する
+		Verb30: 試す
+		Verb31: 展開する
+		Verb32: ひらひら舞う
+		Verb33: 優雅さを与える
+		Verb34: 願う
+		Verb35: 味わう
+		Verb36: 避ける
+		Verb37: 大切にする
+		Verb38: 放射する
+		Verb39: 雄弁に語る
+		Verb40: 輝く
+		Verb41: 燃える
+		Verb42: 消去する
+		Verb43: 壊滅させる
+		Verb44: 裏切る
+		Verb45: 受け入れる
+		Verb46: 切除する
+		Verb47: 息をする
+		Verb48: 投影する
+		Verb49: 理解する
+		Verb50: 浴びる
+		Verb51: 息を呑む
+		Verb52: 食い止める
+		Verb53: 照らす
+		Verb54: 招く
+		Verb55: 築く
+		Verb56: 創造する
+		Verb57: 祈る
+		Verb58: 制御する
+		Verb59: 掴む
+		Verb60: 飛ぶ
+		Verb61: 溶ける
+		Verb62: 溶解する
+		Verb63: 悔い改める
+		Verb64: 征服する
+		Verb65: 流れる
+		Verb66: 分解する
+		Verb67: 活力を与える
+		Verb68: 免除する
+		Verb69: 実現する
+		Verb70: かわいがる
+		Verb71: 漂う
+		Verb72: 揺れる
+		Verb73: 具現化する
+		Verb74: 生み出す
+		Verb75: 浄化する
+		Verb76: 書く
+		Verb77: 停泊する
+		Verb78: 断る
+		Verb79: 子孫を作る
+		Verb80: 思い出す
+		Verb81: 舞い上がる
+		Verb82: 直面する
+		Verb83: 不滅にする
+		Verb84: 周回する
+		Verb85: 派閥化する
+		Verb86: 合体する
+		Verb87: 癒す
+		Verb88: 認める
+		Verb89: 石化する
+		Verb90: 静める
+		Verb91: 凍らせる
+		Verb92: 資格を与える
+		Verb93: 卓越する
+		Verb94: 熟考する
+		Verb95: 治療する
+		Verb96: 再生させる
+		Verb97: 区別する
+		Verb98: 這う
+		Verb99: 貪り食う
+		Verb100: 終わらせる
+		Verb101: 切り離す
+		Verb102: 解明する
+		Verb103: 述べる
+		Verb104: 嘆く
+		Verb105: 開花する
+		Verb106: 腐敗する
+		Verb107: 応じる
+		Verb108: 黙認する
+		Verb109: 設定する
+		Verb110: 目指す
+		Verb111: つきまとう
+		Verb112: 留まる
+		Verb113: 考察する
+		Verb114: 拒絶する
+		Verb115: 思い悩む
+		Verb116: 崩壊する
+		Verb117: 現れる
+		Verb118: 泣く
+		Verb119: 告白する
+		Verb120: にやりと笑う
+		Verb121: 鼓動する
+		Verb122: 形を失う
+		Verb123: 震える
+		Verb124: 平伏する
+		Verb125: 鞭打つ
+		Verb126: 成長する
+		Verb127: 脈打つ
+		Verb128: 欺く
+		Verb129: 打つ
+		Verb130: 警告する
+		Verb131: うなずく
+		Verb132: 無視する
+		Verb133: 侮辱する
+		Verb134: 超える
+		Verb135: 作曲する
+		Verb136: 破壊する
+		Verb137: 祝う
+		Verb138: 話す
+		Verb139: 約束する
+		Verb140: 暗示する
+		Verb141: 実行する
+		Verb142: 感じる
+		Verb143: 予測する
+		Verb144: 取り消す
+		Verb145: 吹き飛ばす
+		Verb146: 開く
+		Verb147: 現れる
+		Verb148: 決める
+		Verb149: 廃止する
+		Verb150: のたうつ
+		Adjective1: 言葉で表せない
+		Adjective2: 輝かしい
+		Adjective3: はかない
+		Adjective4: 物悲しい
+		Adjective5: 至福の
+		Adjective6: 永遠の
+		Adjective7: ねじれた
+		Adjective8: 全知の
+		Adjective9: 全能の
+		Adjective10: 慈悲深い
+		Adjective11: 希望に満ちた
+		Adjective12: 崇高な
+		Adjective13: 活力に満ちた
+		Adjective14: 時代遅れの
+		Adjective15: 情け容赦ない
+		Adjective16: 美しい
+		Adjective17: 派手な
+		Adjective18: 儚い
+		Adjective19: 輝かしい
+		Adjective20: ふしだらな
+		Adjective21: 不屈の
+		Adjective22: 秘密の
+		Adjective23: 賢明な
+		Adjective24: 頑固な
+		Adjective25: 無頓着な
+		Adjective26: 大洪水以前の
+		Adjective27: 神聖な
+		Adjective28: 迷宮のような
+		Adjective29: 謎めいた
+		Adjective30: 内省的な
+		Adjective31: 機敏な
+		Adjective32: 蒸留された
+		Adjective33: 魅惑的な
+		Adjective34: 正直な
+		Adjective35: 幸せな
+		Adjective36: 優れた
+		Adjective37: 神格化された
+		Adjective38: 穏やかな
+		Adjective39: 静かな
+		Adjective40: 平和な
+		Adjective41: 扱いにくい
+		Adjective42: 殺人的な
+		Adjective43: 奇抜な
+		Adjective44: 恵まれた
+		Adjective45: 楽園のような
+		Adjective46: 宇宙的な
+		Adjective47: 古代の
+		Adjective48: 印象的な
+		Adjective49: 栄光ある
+		Adjective50: 凍えるような
+		Adjective51: 金箔の
+		Adjective52: 絶対に正しい
+		Adjective53: 奇妙な
+		Adjective54: 献身的な
+		Adjective55: 運命づけられた
+		Adjective56: 穢れなき
+		Adjective57: グロテスクな
+		Adjective58: 光り輝く
+		Adjective59: 無限の
+		Adjective60: 汚れた
+		Adjective61: 機知に富んだ
+		Adjective62: 欠陥のある
+		Adjective63: 終末論的な
+		Adjective64: 不浄な
+		Adjective65: 単一のシナプスの
+		Adjective66: 断続的な
+		Adjective67: 不可侵の
+		Adjective68: 懺悔した
+		Adjective69: 揺れる
+		Adjective70: 貪欲な
+		Adjective71: 抽象的な
+		Adjective72: 複雑な
+		Adjective73: 神秘的な
+		Adjective74: 少女のような
+		Adjective75: 永遠の
+		Adjective76: 熱狂的な
+		Adjective77: 天上的な
+		Adjective78: 発熱性の
+		Adjective79: 眩い
+		Adjective80: パブロフ的な
+		Adjective81: 魅力的な
+		Adjective82: 復活した
+		Adjective83: 単色の
+		Adjective84: 眠そうな
+		Adjective85: 混乱した
+		Adjective86: 空っぽの
+		Adjective87: 色褪せた
+		Adjective88: 有頂天の
+		Adjective89: 満足した
+		Adjective90: 夢のような
+		Adjective91: 詩的な
+		Adjective92: 騎士叙任の
+		Adjective93: 防御的な
+		Adjective94: 心配そうな
+		Adjective95: 聖なる
+		Adjective96: 銅の
+		Adjective97: 超強力な
+		Adjective98: 隠遁した
+		Adjective99: 賢い
+		Adjective100: 完全な
+		Adjective101: エルフの
+		Adjective102: 牧歌的な
+		Adjective103: 年老いた
+		Adjective104: ゼロックの祝福を受けた
+		Adjective105: 効率的な
+		Adjective106: 冷淡な
+		Adjective107: 鮮やかな
+		Adjective108: 早すぎた
+		Adjective109: 残忍な
+		Adjective110: 興味を引く
+		Adjective111: 奇異な
+		Adjective112: 忘れられない
+		Adjective113: 創造的な
+		Adjective114: 異国の
+		Adjective115: 獣のような
+		Adjective116: 大切にされた
+		Adjective117: 孤独な
+		Adjective118: 止められない
+		Adjective119: 調和した
+		Adjective120: 六角形の
+		Adjective121: プログラム済みの
+		Adjective122: 乗っ取られた
+		Adjective123: 豪華な
+		Adjective124: テクノサピエントの
+		Adjective125: 誤った方向に向けられた
+		Adjective126: 博識な
+		Adjective127: 騎士道的な
+		Adjective128: 偏屈な
+		Adjective129: 言語の
+		Adjective130: 書き写された
+		Adjective131: 不正確な
+		Adjective132: 共存する
+		Adjective133: 先見の明がある
+		Adjective134: 冥王星の
+		Adjective135: 紫の
+		Adjective136: 色合いのある
+		Adjective137: 異教の
+		Adjective138: 隠れた
+		Adjective139: 悪名高い
+		Adjective140: 頑強な
+		Adjective141: 不注意な
+		Adjective142: 宝石で飾られた
+		Adjective143: 敬虔な
+		Adjective144: おぞましい
+		Adjective145: 埋葬された
+		Adjective146: 曇った
+		Adjective147: 冥界の
+		Adjective148: 惨めな
+		Adjective149: 有害な
+		Adjective150: 洗練された
+		Adjective151: 狩られた
+		Adjective152: 無実の
+		Adjective153: 憤慨した
+		Adjective154: 萎れた
+		Adjective155: 厳粛な
+		Adjective156: 牧歌的な
+		Adjective157: 思いがけない
+		Adjective158: 中傷的な
+		Adjective159: 避けられない
+		Adjective160: 慣例的な
+		Adjective161: 絹のような
+		Adjective162: 盲目的な
+		Adjective163: 陰鬱な
+		Adjective164: 輝く
+		Adjective165: 適切な
+		Adjective166: 障害のない
+		Adjective167: 鏡のような
+		Adjective168: 意欲的な
+		Adjective169: 力強い
+		Adjective170: 不安にさせる
+		Adjective171: 象徴的な
+		Adjective172: 無彩色の
+		Adjective173: インスピレーションを受けた
+		Adjective174: 伝説的な
+		Adjective175: 自然の
+		Adjective176: 島国根性の
+		Adjective177: 熱情的な
+		Adjective178: ヘレニズム的な
+		Adjective179: 決意のある
+		Adjective180: 未来を見据えた
+		Adjective181: 紡がれていない
+		Adjective182: 捉えどころのない
+		Adjective183: 期待外れの
+		Adjective184: 試されていない
+		Adjective185: 断固たる
+		Adjective186: 好奇心旺盛な
+		Adjective187: エルドリッチの
+		Adjective188: 説得力のある
+		Adjective189: 麻痺させる
+		Adjective190: 激怒した
+		Adjective191: 見捨てられた
+		Adjective192: 裏切られた
+		Adjective193: 蒼白な
+		Adjective194: 味気ない
+		Adjective195: 悪性の
+		Adjective196: 一時的な
+		Adjective197: 壮大な
+		Adjective198: 悪者扱いされた
+		Adjective199: 代数的な
+		Adjective200: 雄弁な
+		Noun1: 聖職者
+		Noun2: 神
+		Noun3: 存在
+		Noun4: 刃
+		Noun5: 試練
+		Noun6: 織物
+		Noun7: 火
+		Noun8: 星
+		Noun9: イオン
+		Noun10: 絵画
+		Noun11: 自然
+		Noun12: 戦士
+		Noun13: 農奴
+		Noun14: 家
+		Noun15: 数字
+		Noun16: 対数
+		Noun17: 季節
+		Noun18: りんご
+		Noun19: 罪人
+		Noun20: 言葉
+		Noun21: 糸
+		Noun22: 処刑人
+		Noun23: 血
+		Noun24: 星雲
+		Noun25: 光
+		Noun26: マント
+		Noun27: 冠
+		Noun28: 抗原
+		Noun29: スライム
+		Noun30: エージェント
+		Noun31: 魔法使い
+		Noun32: 城
+		Noun33: テーブル
+		Noun34: レーザー
+		Noun35: イットリウム
+		Noun36: 硫黄
+		Noun37: 地形
+		Noun38: 果物
+		Noun39: 母
+		Noun40: 司祭
+		Noun41: 啓示
+		Noun42: 門
+		Noun43: 補間器
+		Noun44: 杖
+		Noun45: 風
+		Noun46: 池
+		Noun47: 賛美歌
+		Noun48: 霧
+		Noun49: 不屈
+		Noun50: 草地
+		Noun51: 裁判官
+		Noun52: 征服者
+		Noun53: 強欲
+		Noun54: 巨人
+		Noun55: 五行詩
+		Noun56: 運命
+		Noun57: 注目の的
+		Noun58: 木
+		Noun59: 細胞
+		Noun60: 終焉
+		Noun61: 命
+		Noun62: 死神
+		Noun63: 蛇
+		Noun64: 箱舟
+		Noun65: 契約
+		Noun66: アンク
+		Noun67: 紋章
+		Noun68: 鈴
+		Noun69: 言語
+		Noun70: 贈り物
+		Noun71: サフラン
+		Noun72: 錬金術師
+		Noun73: 小旅行
+		Noun74: 四分円
+		Noun75: 雄しべ
+		Noun76: アイリス
+		Noun77: 香炉
+		Noun78: 白金
+		Noun79: 溶岩
+		Noun80: 手
+		Noun81: 隅
+		Noun82: 影
+		Noun83: 災厄
+		Noun84: 破片
+		Noun85: 精霊
+		Noun86: 鱗
+		Noun87: 灰
+		Noun88: プラズマ
+		Noun89: 竜
+		Noun90: 物質
+		Noun91: 特異点
+		Noun92: 世界
+		Noun93: 化石
+		Noun94: 銀河
+		Noun95: 陽光
+		Noun96: ネクロマンサー
+		Noun97: 停止期間
+		Noun98: 年代記
+		Noun99: 時間
+		Noun100: 円
+		Noun101: 羽根板
+		Noun102: 葉
+		Noun103: アクスル
+		Noun104: 風
+		Noun105: 目
+		Noun106: 鍵
+		Noun107: サンゴ
+		Noun108: 星屑
+		Noun109: テルミン
+		Noun110: ペン
+		Noun111: 水銀
+		Noun112: 黒曜石
+		Noun113: 肖像画
+		Noun114: アンブロシア
+		Noun115: 虎
+		Noun116: レイチェ
+		Noun117: コンサート
+		Noun118: 儀式
+		Noun119: 鬼
+		Noun120: マントル
+		Noun121: 発明
+		Noun122: ハエ
+		Noun123: 乱視
+		Noun124: ロボット
+		Noun125: 魔女
+		Noun126: 2年生
+		Noun127: 悪夢
+		Noun128: 接着剤
+		Noun129: アルファベット
+		Noun130: 整数
+		Noun131: 農場
+		Noun132: 宇宙人
+		Noun133: 峰丘
+		Noun134: 列車
+		Noun135: 市参事会員
+		Noun136: コウノトリ
+		Noun137: 月
+		Noun138: 垣根
+		Noun139: サファイア
+		Noun140: 司令官
+		Noun141: コンゴウインコ
+		Noun142: 脳
+		Noun143: 家臣
+		Noun144: ガラス
+		Noun145: 余弦
+		Noun146: 衛星
+		Noun147: 狩人
+		Noun148: 指輪
+		Noun149: 人間
+		Noun150: 貝殻
+		Noun151: 子孫
+		Noun152: マグネシウム
+		Noun153: 花崗岩
+		Noun154: 帝国
+		Noun155: 攻撃者
+		Noun156: エーテル
+		Noun157: 自動機械
+		Noun158: 熱帯雨林
+		Noun159: 門番
+		Noun160: 後援者
+		Noun161: 専門家
+		Noun162: クイド
+		Noun163: 敷石
+		Noun164: 毒
+		Noun165: 光年
+		Noun166: 愛情
+		Noun167: エジプト人
+		Noun168: 大砲
+		Noun169: 気
+		Noun170: 演説者
+		Noun171: 軍艦
+		Noun172: 学者
+		Noun173: 子孫
+		Noun174: 灯台
+		Noun175: 哲学者
+		Noun176: ゴス
+		Noun177: 調律者
+		Noun178: 兵士
+		Noun179: テキスト
+		Noun180: 実験
+		Noun181: 現実主義者
+		Noun182: 布
+		Noun183: 探検家
+		Noun184: リメリック
+		Noun185: 遺伝子
+		Noun186: ランプ
+		Noun187: シアン化物
+		Noun188: 過激派
+		Noun189: 製作者
+		Noun190: 忘却薬
+		Noun191: 岸
+		Noun192: フルート
+		Noun193: 女帝
+		Noun194: スウィズル
+		Noun195: レーサー
+		Noun196: 浮浪者
+		Noun197: 世話人
+		Noun198: 専制君主
+		Noun199: 観察者
+		Noun200: 科学者
+		Noun201: オグスクル
+		Preposition1: について
+		Preposition2: の上に
+		Preposition3: を横切って
+		Preposition4: の後に
+		Preposition5: に対して
+		Preposition6: に沿って
+		Preposition7: の間に
+		Preposition8: の周りに
+		Preposition9: として
+		Preposition10: に
+		Preposition11: の前に
+		Preposition12: の後ろに
+		Preposition13: の下に
+		Preposition14: の下に
+		Preposition15: の隣に
+		Preposition16: の間に
+		Preposition17: の向こうに
+		Preposition18: によって
+		Preposition19: にもかかわらず
+		Preposition20: の間に
+		Preposition21: を除いて
+		Preposition22: のために
+		Preposition23: から
+		Preposition24: の中へ
+		Preposition25: のように
+		Preposition26: の近く
+		Preposition27: の
+		Preposition28: の上に
+		Preposition29: の反対に
+		Preposition30: の上に
+		Preposition31: 以来
+		Preposition32: よりも
+		Preposition33: へ
+		Preposition34: に向かって
+		Preposition35: の下に
+		Preposition36: まで
+		Preposition37: の上に
+		Preposition38: の上に
+		Preposition39: と一緒に
+		Preposition40: の中に
+		Preposition41: なしで
+		EasterEggSentence: オング バッシン
 		PhraseStructureRules:
 			'''
 			SENTENCE = SUBJECT PREDICATE OBJECT, SUBJECT PREDICATE
@@ -847,7 +847,7 @@ Items: {
 			'''
 			現在の状態ではボスラッシュをイベントとして受け入れません
 			現状では、(少数のチャレンジが含まれてはいますが)ただの長時間の作業になってしまっています
-			しかし、この点を踏まえて、終点の機能変更により、イベントを楽しんだり、テストに役立てたいと考える方々に
+			しかし、イベントを楽しんだり、テストに役立てたいと考える方々に
 			別の体験方法を提供することが最適だと判断しました
 			'''
 	}
@@ -962,11 +962,11 @@ NPCs: {
 	}
 
 	Aelithrysuwl: {
-		DisplayName: Aelithrysuwl
+		DisplayName: エイリスリスウル
 	}
 
 	Vivajuyfylae: {
-		DisplayName: Vivajuyfylae
+		DisplayName: ヴィヴァジュイフィレイ
 	}
 }
 
@@ -1219,11 +1219,18 @@ Configs: {
 			Tooltip: プレイヤーに設定を見るように指示するテキストオーバーレイを切り替えます。
 			WarningText:
 				'''
-				こんにちは！あなたはきっと「なんだこのテキストは？邪魔だな」と思ったことでしょう。
-				早速本題に入ります。このMODは視覚効果が強く、視覚効果を抑える設定オプションを変更することをオススメします。
+				こんにちは！あなたはきっと
+				「なんだこのテキストは？邪魔だな」
+				と思ったことでしょう。
+				早速本題に入ります。
+				このMODは視覚効果が強く、視覚効果を抑える設定オプションを
+				変更することをオススメします。
 				これを説明する理由は、光過敏症の人たちのためです。
-				このメッセージは、「メッセージの表示」の設定でオフにすることができます。
-				「設定」->「Mod設定」->「Calamity: Wrath of the Gods」->「メイン設定」に移動すると見つかります。
+				このメッセージは、
+				「メッセージの表示」の設定でオフにすることができます。
+				「設定」->「Mod設定」->
+				「Calamity: Wrath of the Gods」->「メイン設定」
+				に移動すると見つかります。
 				'''
 		}
 
@@ -1260,9 +1267,9 @@ Dialog: {
 	FinalBossDefeatNoxusIndicator_SeenNoxus: 暗い気配が渦巻いている...
 	TerminusHintLine1: よくやった。
 	TerminusHintLine2: さあ、終点を探せ。最後の試練が近づいている。
-	NamelessDeityEnterGardenText: Your final test begins.
-	NamelessDeityEndScreenText: You have passed the test.
-	NamelessDeityEndScreenSkipText: Press ESCAPE to skip!
+	NamelessDeityEnterGardenText: 最後の試練を始めよう。
+	NamelessDeityEndScreenText: お前は試練を乗り越えた。
+	NamelessDeityEndScreenSkipText: ESCAPEでスキップ
 	NamelessDeityPlayerDeathText: お前は乗り越えることができなかった。
 	NamelessDeityEndScreenMainMenuTip: お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。
 	NamelessDeityNoxusSprayerTip: やめろ。
@@ -1272,18 +1279,18 @@ Dialog: {
 	PurifierMultiplayerUseAlertText: 浄化装置は{0}によって設置されました。世界は 15 秒後にリセットされます。
 	PurifierEntertainingRantText:
 		'''
-		こんにちは！この白い背景は正常です。ゲームが壊れているわけではありません。
+		こんにちは！この白い背景は正常です。ゲームが壊れているわけでは
+		ありません。
 		バグとして報告しないでくださいね。
 		ちょっとリラックスして、水分補給をしていないなら水でも
 		飲みながらお待ちください。
 		あるいは別のことをしてもいいですよ。お任せします。
 		さて、予想がついているかもしれませんが、今、ワールド生成を一から
 		やり直しているところです。
-		では、このプロセスがなぜこんなに時間がかかるのかについて
-		お話しします。
+		では、このプロセスがなぜこんなに時間がかかるのかについてお話します。
 		まず、Terrariaのワールドは巨大な8401×2401の
 		タイルグリッドで構成されていることを知っていましたか？
-		このサイズは、大型ワールドまで収められるように設定されています。
+		これは、ラージワールドまで収められるように設定されています。
 		このグリッドは、ゲームを起動してから終了するまでメモリ上に
 		存在し続けます。
 		正確に言うと、数十メガバイトのメモリを使用します。
@@ -1292,8 +1299,8 @@ Dialog: {
 		なぜなら、クライアントに全ワールドデータをネットワーク経由で
 		送信するのは大変で、クラッシュの原因になる可能性が
 		非常に高いからです。
-		これが理由で、サーバーがダウンしかけると地図から落ちてしまうこと
-		があります。
+		これが理由で、サーバーがダウンしかけるとマップが
+		抜け落ちてしまうことがあります。
 		これは、あなたがその「チャンク」の境界の外に出てしまったからで、
 		サーバーが他のチャンクを送信できなくなるためです。
 		話をワールド生成に戻します。
@@ -1304,9 +1311,10 @@ Dialog: {
 		さらに、多くのワールド生成ステップは
 		同期的（つまり、一度に1つずつ）に実行されます。
 		複数の処理を同時に行うわけではありません。
-		もちろん、すべてを並行処理するのは難しいです。
-		多くのケースで処理の競合が起きてしまうからです。
-		しかし、ご想像のとおり、可能な限り並列処理を行えば、
+		すべてを並行処理するのは難しいということです。
+		なぜかというと、多くのケースで処理の競合が
+		起きてしまうからです。
+		しかし、できる限り並列処理を行えば、
 		パフォーマンスは大幅に向上するはずです。
 		また、一部の処理はあまり効率的ではありません。
 		たとえば、特定の状況では、「液体の安定化」ステップに数秒かかる
@@ -1324,7 +1332,7 @@ Dialog: {
 		それを何度も何度も繰り返すというものがありました。
 		正直…ムチャクチャです。
 		ともあれ！まだまだ話したいことはありますが、
-		そろそろあなたのワールドがほぼ消去された頃かもしれません。
+		そろそろあなたのワールドがほぼ消去される頃かもしれません。
 		突然中断されたら残念ですし、これくらいにしておきますね！
 		また次回、ワールドリセットが必要になったら
 		このメッセージをお届けします。
@@ -1336,66 +1344,73 @@ Dialog: {
 		'wavedash.ppt'
 		By Lena Raine
 		'''
-	NamelessDeityStairwayText1: Welcome, usurper.
-	NamelessDeityStairwayText2: In solitude, only you behold the heavenly splendor enveloping this realm.
-	NamelessDeityStairwayText3: Your presence here has been ordained, so that you might fathom your destiny.
-	NamelessDeityStairwayText4: The Dark One drifts in your domain. It is incumbent upon you to conquer it.
-	NamelessDeityStairwayText5: Once triumphant, your fate shall interlace with mine once more, and you will be tested.
-	NamelessDeityStairwayText6: Good luck.
-	NamelessDeityStairwayTextFanny1: Welcome, usurpe-
-	NamelessDeityStairwayTextFanny2: Wait, Fanny? What the hell are you doing here?! I thought I disowned you!
-	NamelessDeityStairwayTextFanny3: Uhhhhhhhhhhhhh, no.
-	NamelessDeityStairwayTextFanny4: Anyway, uh, you. Go kill Noxus.
-	NamelessDeityStairwayTextFanny5: We'll... fight in my garden when you're done, I guess?
-	NamelessDeityStairwayTextFanny6: Please don't bring Fanny with you.
-	OgsculeDontAnnoyCalDevsText: This ogscule effect is not added by the base Calamity Mod. Don't annoy their developers about it.
-	RodOfHarmonyRantSubtitle1: Get that Rod of Harmony out of here, I don't ever want to see that ever again!
-	RodOfHarmonyRantSubtitle2: I mean, what was Re-Logic thinking? A rod of discord with no cooldown? Seriously?
-	RodOfHarmonyRantSubtitle3: Post-Moon Lord modding is RUINED...
-	RodOfHarmonyRantSubtitle4: Come on, man.
-	RodOfHarmonyRantSubtitle5: I wanted to create a universe that is fair and square. But the Rod of Harmony ruins EVERYTHING.
-	RodOfHarmonyRantSubtitle6: So no. I'm not letting you use it.
-	RodOfHarmonyRantSubtitle7: You thought you could troll me, and it turns out YOU'RE the one getting trolled.
-	RodOfHarmonyRantSubtitle8: And you know that.
-	RodOfHarmonyRantSubtitle9: Hell, you probably already knew that anyway.
-	RodOfHarmonyRantSubtitle10: You probably looked up the fight on the Internet.
-	RodOfHarmonyRantSubtitle11: You probably KNOW that I'm doing this.
-	RodOfHarmonyRantSubtitle12: I mean, I can't see why you wouldn't expect it, I already smashed the Rage and Adrenaline, of COURSE I'm going to smash the Rod of Harmony!
-	RodOfHarmonyRantSubtitle13: But now, I'm gonna have to smash you.
-	RodOfHarmonyRantSubtitle14: Ooh, that came out wrong...
-	RodOfHarmonyRantSubtitle15: Basically, what it boils down to is: I don't like cheaters.
-	RodOfHarmonyRantSubtitle16: And if you disagree with that, I don't know what you're doing here.
-	RodOfHarmonyRantSubtitle17: And you probably should've never brought that damn item in here.
-	CloudSaveMessage: Turn off cloud save if you want to use the Terminus. It has been a source of freeze bugs with the subworld library.
+	NamelessDeityStairwayText1: ようこそ、簒奪者よ。
+	NamelessDeityStairwayText2: 孤独の中で、ただ貴様だけがこの領域を包む天の輝きを目にすることができる。
+	NamelessDeityStairwayText3: 貴様がここにいることは運命づけられている、だからこそ、貴様の運命を見極めるのだ。
+	NamelessDeityStairwayText4: 闇の者は貴様の世界を漂っている。貴様はそいつを屈従させることができるはずだ。
+	NamelessDeityStairwayText5: 勝利を収めれば、貴様の運命は再び私と交わり、試練の時が訪れる。
+	NamelessDeityStairwayText6: 幸運を祈る。
+	NamelessDeityStairwayTextFanny1: ようこそ、簒奪─
+	NamelessDeityStairwayTextFanny2: ちょ、ファニー？なんでお前がここにいるんだ？！お前とは縁を切ったはずだろ！
+	NamelessDeityStairwayTextFanny3: うーーーーーーーーーん、いや。
+	NamelessDeityStairwayTextFanny4: とりあえず、そこのお前。ノクサスを倒してこい。
+	NamelessDeityStairwayTextFanny5: 終わったら...私の庭で戦ってやるから。
+	NamelessDeityStairwayTextFanny6: あ、待って、ファニーを連れて行かないでくれ。
+	OgsculeDontAnnoyCalDevsText: この効果は Calamity Modの標準機能ではありません。開発者を煩わせないでください。
+	RodOfHarmonyRantSubtitle1: あの「ロッドオブハーモニー」をここから片付けろ！二度と見たくない！
+	RodOfHarmonyRantSubtitle2: Re-Logicは何を考えていたんだ？クールダウンなしの「ロッドオブディスコード」だと？バカじゃないのか？
+	RodOfHarmonyRantSubtitle3: ムーンロード以降のMod開発がめんどくさくなってるんだよ...
+	RodOfHarmonyRantSubtitle4: いい加減にしてくれ。
+	RodOfHarmonyRantSubtitle5: 私は公平な世界を作りたかったんだ。でも「ロッドオブハーモニー」はすべてを台無しにする。
+	RodOfHarmonyRantSubtitle6: だからダメだ。使わせない。
+	RodOfHarmonyRantSubtitle7: 貴様は俺を馬鹿にできると思ってたみたいだが、馬鹿にされてるのは貴様だ。
+	RodOfHarmonyRantSubtitle8: 分かってるのか？
+	RodOfHarmonyRantSubtitle9: というより、もう知っていたよな？
+	RodOfHarmonyRantSubtitle10: たぶん攻略をネットで調べたんだろ？
+	RodOfHarmonyRantSubtitle11: 俺がこうするって分かってたんだろう。
+	RodOfHarmonyRantSubtitle12: レイジとアドレナリンを壊したのに、「ロッドオブハーモニー」を壊さないわけないだろ！
+	RodOfHarmonyRantSubtitle13: 次は貴様を壊さないといけないな。
+	RodOfHarmonyRantSubtitle14: いや、違うな...
+	RodOfHarmonyRantSubtitle15: 要するに、俺はズルをする奴が嫌いなんだ。
+	RodOfHarmonyRantSubtitle16: 気に入らないって？じゃあ、何しにここへ来たんだ？
+	RodOfHarmonyRantSubtitle17: あんな忌々しいアイテムを持ち込むべきじゃなかったんだ。
+	CloudSaveMessage: 「終点」を使用する場合はクラウドセーブをオフにしてください。サブワールドライブラリのフリーズバグの原因となっています。
 }
 
 FannyDialog: {
-	StairwayText1: Stairs?! Where did this come from? Where is everything? Let me see if I can find some information on this...
-	StairwayText2: Video game stairs, seemingly infinite...
-	StairwayText3: Oh! I'm seeing something about a 'BLJ'! Maybe try that?
-	StairwayText4: Wait, that's from a different game...
-	StairwayText5: Well, just keep going up! Surely something will happen eventually...?
-	StairwayTextTop1: Wait, dad?!! Is that you???
-	StairwayTextTop2: You sure that wasn't Evil Fanny?
-	StairwayTextTop3: That's kind of mean, dad...
-	StairwayTextTop4: Noxus? Who's Noxus??? Maybe I should look for information on that sometime...
-	StairwayTextTop5: Oh! I remember when I razed that place! It was fun!
-	StairwayTextTop6: They have no choice!
-	NoxusLoreText1: Wow, buddy! That Noxus fellow sure was powerful! I agree though, he is quite mysterious...
-	NoxusLoreText2: Seriously??? This is just like everything else. Nothing of insight is actually being said!
-	NoxusLoreText3: And why is this "Yharim" guy even trying to relate this to dragons? Is that his SINGULAR purpose in life? To be a lame exposition dump?!
-	NoxusLoreText4: Why doesn't he for once actually show himself and speak directly, huh? Is he that fearful of revealing himself to be the one dimensional character he is?
-	NoxusLoreText5: God, what a headache.
-	RodOfHarmonyBreak: Oh no! Your Rod of Harmony was broken! Be careful, the fight may be a lot more difficult without it!
-	RodOfHarmonyBreakEvil1: HAHAHAHAHAHAHA!!! Would you look at that! That nonsensical pink stick finally has a cooldown! The cooldown is FOREVER! Isn't that cool?!
-	RodOfHarmonyBreakEvil2: Try winning now without your laughable little crutch, you witless, one-trick pony!
-	NamelessDeityGFB1: What a load of gaudy bullshit, this sorry excuse of a fight is.
+	StairwayText1: 階段？！これ、どこから出てきたの？ みんなはどこにいるの？ このことについてもうちょっと情報がほしいね...
+	StairwayText2: ビデオゲームの階段みたいだね。無限に続いているみたい...
+	StairwayText3: あ！「ケツワープ」って裏技、試してみたら？
+	StairwayText4: え、違うゲームの話なの...
+	StairwayText5: まあ、そんなのはいいから、上へ進み続けてみよう！ きっと何かが起こる...はず！
+	StairwayTextTop1: 待って、パパ？！！ あなたなの？？？
+	StairwayTextTop2: それ、悪い方のファニーじゃない？
+	StairwayTextTop3: それはちょっとひどくない？パパ...
+	StairwayTextTop4: ノクサス？ ノクサスって誰？？ そのことについて、調べた方がいいかも...
+	StairwayTextTop5: あ！あの場所を壊したときのこと、覚えてるよ！ 楽しかったな！
+	StairwayTextTop6: 選択権はないよ！
+	NoxusLoreText1: あのノクサスって奴、確かに強かった！でも、よくわかんないヤツだったね。
+	NoxusLoreText2: 本気か？？ こいつも他のと同じだな。適当なことを言うんじゃない！
+	NoxusLoreText3: あと、この「ヤリム」って奴、どうしてドラゴンと関連づけようとしているんだ？ それがヤツの目的か？今のところ、無意味な説明の垂れ流しをしてるだけじゃないか？！
+	NoxusLoreText4: なんで、アイツは一度も姿を直接見せて話さないんだ？ 自分がどれほどテキトーなキャラクターかを知られるのが怖いのか？
+	NoxusLoreText5: 頭が痛い...
+	RodOfHarmonyBreak: あ、ロッドオブハーモニーが壊れた！ 気をつけて、この戦いはそれなしではかなり難しくなるかも！
+	RodOfHarmonyBreakEvil1: ハハハハハ！！！ 見てみろ！ あの意味不明なピンクの棒にやっとクールダウンがついた！ そのクールダウンは永遠だ！ すごくないか？！
+	RodOfHarmonyBreakEvil2: あの愚かな杖なしで勝ってみろよ、この無能な一発屋が！
+	NamelessDeityGFB1: 派手で...クソみたいだ、このくだらない戦いは。
 	NamelessDeityGFB2:
 		'''
-		Dominic should be completely fucking ashamed of himself. First he steals Calamity's Xeroc character and then, like a bumbling, terminal Dunning-Kruger victim implements it in the most lame, monotonous, glitter-bomb way possible. Like, seriously? How many lasers can you hamfistedly squeeze into this?! And what the hell are these graphical effects?! This is a textbook example of making content that dimwitted youtube commenters can turn their brains off to and gawk at because "Haha, pretty bloom and shaders! Looks so unique!"
-		Is your FPS even above 15 right now???
+		ドミニクはアホなことをしやがった。
+		最初にカラミティのゼロックのキャラクターを盗んで、その後、まるでバカみたいに、単調で退屈な、
+		すげえエフェクトいっぱいの爆発するような技を使うボスを実装したんだ。
+		こんなに多くのエフェクトを無理矢理表示させやがって！ 
+		それにこのグラフィック効果は一体なんだ？！ これは、YouTubeのコメントのアホガキが頭を使わずに見て
+		「わーい、きれいなブルームとシェーダー！ とてもユニークに見えるよ！」って言うために作られたコンテンツだ。
+		しかもクソ重い。
+		今15fps以上も出てるか？？？
+
 		'''
-	NamelessDeityGFB3: I have no advice on how to deal with it. Frankly, I'd recommend just turning the game off and doing something actually interesting with your time instead of whatever the fuck this is.
+	NamelessDeityGFB3: どう対処するかって？知らねーよ。正直、こんなゲームに無駄に時間を使うくらいなら、ほかの面白いことをした方がいいと思うぞ。
 }
 
 Colors: {
