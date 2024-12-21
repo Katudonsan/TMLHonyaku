@@ -1,0 +1,1479 @@
+Bestiary: {
+	Aelithrysuwl: フクロウに似ているが、この神秘的な生き物は驚くほど社交的で、木の上で一緒に歌うことを楽しんでいる。その輝く目は、彼らが賢者である可能性を示唆している。
+	Vivajuyfylae: この謎めいた存在のひとつひとつは、生命を与えられたひとつの星のようだ。魅惑的な群れをなして果てしなく飛び回り、時には星座を形成する。
+	EntropicGod: 筆舌に尽くしがたい、底知れぬ存在。
+	NoxusEgg: 純粋な闇の異常な卵。数え切れないほどの長い間、孵化するのをじっと待っていた。
+
+	ItemDropConditions: {
+		FirstTimeExclusive: ドロップは1回のみ。
+	}
+
+	NamelessDeityBoss1: 創造。
+	NamelessDeityBoss2: 輝く光。
+	NamelessDeityBoss3: 天の織りなすもの。
+	NamelessDeityBoss4: 力。
+	NamelessDeityBoss5: 果てしなき。
+	NamelessDeityBoss6: 創造者。
+	NamelessDeityBoss7: 全知全能。
+	NamelessDeityBoss8: 超越。
+	NamelessDeityBoss9: 永遠。
+	NamelessDeityBoss10: 麗しき花。
+	NamelessDeityBoss11: 花のささやき。
+	NamelessDeityBoss12: 美しい宇宙。
+}
+
+Biomes: {
+	EternalGardenBiome: {
+		DisplayName: 永遠の庭園
+		TownNPCDialogueName: 永遠の庭園
+	}
+}
+
+Buffs: {
+	NoxusFumes: {
+		DisplayName: ノクサスの煙霧
+		Description: 宇宙の幻覚があなたを取り囲む...
+	}
+
+	BabyNoxusBuff: {
+		DisplayName: ノクサス
+		Description: 彼はもう立派な大人だ
+	}
+
+	BlackHolePetBuff: {
+		DisplayName: ブラックホール
+		Description: 無限の余弦が背後で蠢いている
+	}
+
+	StarPetBuff: {
+		DisplayName: 星
+		Description: 光があなたを導く
+	}
+}
+
+Items: {
+	Cattail: {
+		DisplayName: ガマ
+		Tooltip: ""
+	}
+
+	CheatPermissionSlip: {
+		DisplayName: チート許可証
+		Tooltip:
+			'''
+			おめでとう！ 今すぐDragonLens modをダウンロードしよう！
+			これはチートじゃない。この書類で許可されているんだ！
+			さあ、ダウンロードして。
+			今すぐ。
+			'''
+	}
+
+	DeificTouch: {
+		DisplayName: 神の手
+		Tooltip: カーソルの後ろに光の次元を表示する
+	}
+
+	DivineMonolith: {
+		DisplayName: 神聖なモノリス
+		Tooltip: 見た目アクセサリとして装備できる
+	}
+
+	DivineWings: {
+		DisplayName: 神聖な翼
+		Tooltip:
+			'''
+			水平速度: 16.67
+			加速度倍率: 3.7
+			崇高な垂直速度
+			飛行時間: ∞
+			「お前は試練を乗り越えた」
+			'''
+	}
+
+	BlackHole: {
+		DisplayName: ブラックホール
+		Tooltip: "「ただのブラックホール」"
+	}
+
+	EntropicDye: {
+		DisplayName: 終焉の染料
+		Tooltip: ""
+	}
+
+	EternalGardenMusicBox: {
+		DisplayName:  オルゴール (永遠の庭園)
+		Tooltip:  ENNWAY!作「Edenic Whispers」を再生する
+	}
+
+	FakeTerminus: {
+		DisplayName: ターミナス
+		BaseTooltip: 防御のため、深淵の底に封じられた途方もなく古い遺物
+		UnopenedTooltip: 眼が閉じている...
+		OpenedTooltip: 眼が開いている...
+		Tooltip:
+			'''
+			Replaced
+			Replaced2
+			'''
+	}
+
+	Genesis: {
+		DisplayName: 創世
+		Tooltip: 神なき胎動、ノクサスを召喚する
+		AlternateTooltip: 右クリックで神なき胎動ノクサス、左クリックで終焉の神ノクサスを召喚
+	}
+
+	GoodApple: {
+		DisplayName: Good Apple
+		Tooltip:
+			'''
+			良いリンゴは、良い木から遠くへ落ちることはない！
+			試練を乗り越えねばならない
+			'''
+		TooltipPostNamelessDeity:
+			'''
+			良いリンゴは、良い木から遠くへ落ちることはない！
+			最大ライフを1増加
+			無制限に使用可能
+			'''
+	}
+
+	GoodAppleResetter: {
+		DisplayName: Good Apple Resetter [デバッグ用]
+		Tooltip: ""
+	}
+
+	LoreNoxus: {
+		DisplayName: ノクサス
+		Tooltip:
+			'''
+			[c/E3AF40:高みからのささやきが耳元で踊っている...]
+			より近くで聞くには「左シフト」を押す
+			'''
+		Lore:
+			'''
+			混沌。
+			その異形の意図と起源は闇に包まれているが、ただ一つ確かなことは─
+
+			『神でもドラゴンでもないのに、彼らだけが持っているはずの卓越した力を宿している。』
+
+			一体何がこのような特異な存在をもたらし、そのおぞましい力を極限まで引き出したのだろうか？
+			それは運命によるものなのか？それとも単なる偶然か？それとも、自然の気まぐれによる終焉の表れなのだろうか？
+			神とドラゴン... それがすべての終わりなのか？ このような特異な存在がテラリアのはるか彼方に潜んでいるのか？
+			これまでに起きた出来事に関しては無限の問いがあるが、解決したことはほとんどない。
+			'''
+	}
+
+	LoreNamelessDeity: {
+		DisplayName: 無名の神
+		Tooltip:
+			'''
+			[c/E3AF40:高みからのささやきが耳元で踊っている...]
+			より近くで聞くには「左シフト」を押す
+			'''
+		Lore: ""
+		Determiner1: 一つの
+		Determiner2: その
+		Verb1: 屈折する
+		Verb2: 超越する
+		Verb3: 占う
+		Verb4: 予見する
+		Verb5: 歩く
+		Verb6: 燃え上がる
+		Verb7: 融合する
+		Verb8: 上昇する
+		Verb9: たどる
+		Verb10: 踏む
+		Verb11: 垣間見る
+		Verb12: 屈する
+		Verb13: 発見する
+		Verb14: 解き明かす
+		Verb15: 探し求める
+		Verb16: 勝利する
+		Verb17: 航行する
+		Verb18: 織り成す
+		Verb19: 共鳴する
+		Verb20: 体験する
+		Verb21: 時を測る
+		Verb22: 拡張する
+		Verb23: 啓発する
+		Verb24: 明かす
+		Verb25: 生み出す
+		Verb26: 統合する
+		Verb27: 旅に出る
+		Verb28: 見つける
+		Verb29: 蒸留する
+		Verb30: 試す
+		Verb31: 展開する
+		Verb32: ひらひら舞う
+		Verb33: 優雅さを与える
+		Verb34: 願う
+		Verb35: 味わう
+		Verb36: 避ける
+		Verb37: 大切にする
+		Verb38: 放射する
+		Verb39: 雄弁に語る
+		Verb40: 輝く
+		Verb41: 燃える
+		Verb42: 消去する
+		Verb43: 壊滅させる
+		Verb44: 裏切る
+		Verb45: 受け入れる
+		Verb46: 切除する
+		Verb47: 息をする
+		Verb48: 投影する
+		Verb49: 理解する
+		Verb50: 浴びる
+		Verb51: 息を呑む
+		Verb52: 食い止める
+		Verb53: 照らす
+		Verb54: 招く
+		Verb55: 築く
+		Verb56: 創造する
+		Verb57: 祈る
+		Verb58: 制御する
+		Verb59: 掴む
+		Verb60: 飛ぶ
+		Verb61: 溶ける
+		Verb62: 溶解する
+		Verb63: 悔い改める
+		Verb64: 征服する
+		Verb65: 流れる
+		Verb66: 分解する
+		Verb67: 活力を与える
+		Verb68: 免除する
+		Verb69: 実現する
+		Verb70: かわいがる
+		Verb71: 漂う
+		Verb72: 揺れる
+		Verb73: 具現化する
+		Verb74: 生み出す
+		Verb75: 浄化する
+		Verb76: 書く
+		Verb77: 停泊する
+		Verb78: 断る
+		Verb79: 子孫を作る
+		Verb80: 思い出す
+		Verb81: 舞い上がる
+		Verb82: 直面する
+		Verb83: 不滅にする
+		Verb84: 周回する
+		Verb85: 派閥化する
+		Verb86: 合体する
+		Verb87: 癒す
+		Verb88: 認める
+		Verb89: 石化する
+		Verb90: 静める
+		Verb91: 凍らせる
+		Verb92: 資格を与える
+		Verb93: 卓越する
+		Verb94: 熟考する
+		Verb95: 治療する
+		Verb96: 再生させる
+		Verb97: 区別する
+		Verb98: 這う
+		Verb99: 貪り食う
+		Verb100: 終わらせる
+		Verb101: 切り離す
+		Verb102: 解明する
+		Verb103: 述べる
+		Verb104: 嘆く
+		Verb105: 開花する
+		Verb106: 腐敗する
+		Verb107: 応じる
+		Verb108: 黙認する
+		Verb109: 設定する
+		Verb110: 目指す
+		Verb111: つきまとう
+		Verb112: 留まる
+		Verb113: 考察する
+		Verb114: 拒絶する
+		Verb115: 思い悩む
+		Verb116: 崩壊する
+		Verb117: 現れる
+		Verb118: 泣く
+		Verb119: 告白する
+		Verb120: にやりと笑う
+		Verb121: 鼓動する
+		Verb122: 形を失う
+		Verb123: 震える
+		Verb124: 平伏する
+		Verb125: 鞭打つ
+		Verb126: 成長する
+		Verb127: 脈打つ
+		Verb128: 欺く
+		Verb129: 打つ
+		Verb130: 警告する
+		Verb131: うなずく
+		Verb132: 無視する
+		Verb133: 侮辱する
+		Verb134: 超える
+		Verb135: 作曲する
+		Verb136: 破壊する
+		Verb137: 祝う
+		Verb138: 話す
+		Verb139: 約束する
+		Verb140: 暗示する
+		Verb141: 実行する
+		Verb142: 感じる
+		Verb143: 予測する
+		Verb144: 取り消す
+		Verb145: 吹き飛ばす
+		Verb146: 開く
+		Verb147: 現れる
+		Verb148: 決める
+		Verb149: 廃止する
+		Verb150: のたうつ
+		Adjective1: 言葉で表せない
+		Adjective2: 輝かしい
+		Adjective3: はかない
+		Adjective4: 物悲しい
+		Adjective5: 至福の
+		Adjective6: 永遠の
+		Adjective7: ねじれた
+		Adjective8: 全知の
+		Adjective9: 全能の
+		Adjective10: 慈悲深い
+		Adjective11: 希望に満ちた
+		Adjective12: 崇高な
+		Adjective13: 活力に満ちた
+		Adjective14: 時代遅れの
+		Adjective15: 情け容赦ない
+		Adjective16: 美しい
+		Adjective17: 派手な
+		Adjective18: 儚い
+		Adjective19: 輝かしい
+		Adjective20: ふしだらな
+		Adjective21: 不屈の
+		Adjective22: 秘密の
+		Adjective23: 賢明な
+		Adjective24: 頑固な
+		Adjective25: 無頓着な
+		Adjective26: 大洪水以前の
+		Adjective27: 神聖な
+		Adjective28: 迷宮のような
+		Adjective29: 謎めいた
+		Adjective30: 内省的な
+		Adjective31: 機敏な
+		Adjective32: 蒸留された
+		Adjective33: 魅惑的な
+		Adjective34: 正直な
+		Adjective35: 幸せな
+		Adjective36: 優れた
+		Adjective37: 神格化された
+		Adjective38: 穏やかな
+		Adjective39: 静かな
+		Adjective40: 平和な
+		Adjective41: 扱いにくい
+		Adjective42: 殺人的な
+		Adjective43: 奇抜な
+		Adjective44: 恵まれた
+		Adjective45: 楽園のような
+		Adjective46: 宇宙的な
+		Adjective47: 古代の
+		Adjective48: 印象的な
+		Adjective49: 栄光ある
+		Adjective50: 凍えるような
+		Adjective51: 金箔の
+		Adjective52: 絶対に正しい
+		Adjective53: 奇妙な
+		Adjective54: 献身的な
+		Adjective55: 運命づけられた
+		Adjective56: 穢れなき
+		Adjective57: グロテスクな
+		Adjective58: 光り輝く
+		Adjective59: 無限の
+		Adjective60: 汚れた
+		Adjective61: 機知に富んだ
+		Adjective62: 欠陥のある
+		Adjective63: 終末論的な
+		Adjective64: 不浄な
+		Adjective65: 単一のシナプスの
+		Adjective66: 断続的な
+		Adjective67: 不可侵の
+		Adjective68: 懺悔した
+		Adjective69: 揺れる
+		Adjective70: 貪欲な
+		Adjective71: 抽象的な
+		Adjective72: 複雑な
+		Adjective73: 神秘的な
+		Adjective74: 少女のような
+		Adjective75: 永遠の
+		Adjective76: 熱狂的な
+		Adjective77: 天上的な
+		Adjective78: 発熱性の
+		Adjective79: 眩い
+		Adjective80: パブロフ的な
+		Adjective81: 魅力的な
+		Adjective82: 復活した
+		Adjective83: 単色の
+		Adjective84: 眠そうな
+		Adjective85: 混乱した
+		Adjective86: 空っぽの
+		Adjective87: 色褪せた
+		Adjective88: 有頂天の
+		Adjective89: 満足した
+		Adjective90: 夢のような
+		Adjective91: 詩的な
+		Adjective92: 騎士叙任の
+		Adjective93: 防御的な
+		Adjective94: 心配そうな
+		Adjective95: 聖なる
+		Adjective96: 銅の
+		Adjective97: 超強力な
+		Adjective98: 隠遁した
+		Adjective99: 賢い
+		Adjective100: 完全な
+		Adjective101: エルフの
+		Adjective102: 牧歌的な
+		Adjective103: 年老いた
+		Adjective104: ゼロックの祝福を受けた
+		Adjective105: 効率的な
+		Adjective106: 冷淡な
+		Adjective107: 鮮やかな
+		Adjective108: 早すぎた
+		Adjective109: 残忍な
+		Adjective110: 興味を引く
+		Adjective111: 奇異な
+		Adjective112: 忘れられない
+		Adjective113: 創造的な
+		Adjective114: 異国の
+		Adjective115: 獣のような
+		Adjective116: 大切にされた
+		Adjective117: 孤独な
+		Adjective118: 止められない
+		Adjective119: 調和した
+		Adjective120: 六角形の
+		Adjective121: プログラム済みの
+		Adjective122: 乗っ取られた
+		Adjective123: 豪華な
+		Adjective124: テクノサピエントの
+		Adjective125: 誤った方向に向けられた
+		Adjective126: 博識な
+		Adjective127: 騎士道的な
+		Adjective128: 偏屈な
+		Adjective129: 言語の
+		Adjective130: 書き写された
+		Adjective131: 不正確な
+		Adjective132: 共存する
+		Adjective133: 先見の明がある
+		Adjective134: 冥王星の
+		Adjective135: 紫の
+		Adjective136: 色合いのある
+		Adjective137: 異教の
+		Adjective138: 隠れた
+		Adjective139: 悪名高い
+		Adjective140: 頑強な
+		Adjective141: 不注意な
+		Adjective142: 宝石で飾られた
+		Adjective143: 敬虔な
+		Adjective144: おぞましい
+		Adjective145: 埋葬された
+		Adjective146: 曇った
+		Adjective147: 冥界の
+		Adjective148: 惨めな
+		Adjective149: 有害な
+		Adjective150: 洗練された
+		Adjective151: 狩られた
+		Adjective152: 無実の
+		Adjective153: 憤慨した
+		Adjective154: 萎れた
+		Adjective155: 厳粛な
+		Adjective156: 牧歌的な
+		Adjective157: 思いがけない
+		Adjective158: 中傷的な
+		Adjective159: 避けられない
+		Adjective160: 慣例的な
+		Adjective161: 絹のような
+		Adjective162: 盲目的な
+		Adjective163: 陰鬱な
+		Adjective164: 輝く
+		Adjective165: 適切な
+		Adjective166: 障害のない
+		Adjective167: 鏡のような
+		Adjective168: 意欲的な
+		Adjective169: 力強い
+		Adjective170: 不安にさせる
+		Adjective171: 象徴的な
+		Adjective172: 無彩色の
+		Adjective173: インスピレーションを受けた
+		Adjective174: 伝説的な
+		Adjective175: 自然の
+		Adjective176: 島国根性の
+		Adjective177: 熱情的な
+		Adjective178: ヘレニズム的な
+		Adjective179: 決意のある
+		Adjective180: 未来を見据えた
+		Adjective181: 紡がれていない
+		Adjective182: 捉えどころのない
+		Adjective183: 期待外れの
+		Adjective184: 試されていない
+		Adjective185: 断固たる
+		Adjective186: 好奇心旺盛な
+		Adjective187: エルドリッチの
+		Adjective188: 説得力のある
+		Adjective189: 麻痺させる
+		Adjective190: 激怒した
+		Adjective191: 見捨てられた
+		Adjective192: 裏切られた
+		Adjective193: 蒼白な
+		Adjective194: 味気ない
+		Adjective195: 悪性の
+		Adjective196: 一時的な
+		Adjective197: 壮大な
+		Adjective198: 悪者扱いされた
+		Adjective199: 代数的な
+		Adjective200: 雄弁な
+		Noun1: 聖職者
+		Noun2: 神
+		Noun3: 存在
+		Noun4: 刃
+		Noun5: 試練
+		Noun6: 織物
+		Noun7: 火
+		Noun8: 星
+		Noun9: イオン
+		Noun10: 絵画
+		Noun11: 自然
+		Noun12: 戦士
+		Noun13: 農奴
+		Noun14: 家
+		Noun15: 数字
+		Noun16: 対数
+		Noun17: 季節
+		Noun18: りんご
+		Noun19: 罪人
+		Noun20: 言葉
+		Noun21: 糸
+		Noun22: 処刑人
+		Noun23: 血
+		Noun24: 星雲
+		Noun25: 光
+		Noun26: マント
+		Noun27: 冠
+		Noun28: 抗原
+		Noun29: スライム
+		Noun30: エージェント
+		Noun31: 魔法使い
+		Noun32: 城
+		Noun33: テーブル
+		Noun34: レーザー
+		Noun35: イットリウム
+		Noun36: 硫黄
+		Noun37: 地形
+		Noun38: 果物
+		Noun39: 母
+		Noun40: 司祭
+		Noun41: 啓示
+		Noun42: 門
+		Noun43: 補間器
+		Noun44: 杖
+		Noun45: 風
+		Noun46: 池
+		Noun47: 賛美歌
+		Noun48: 霧
+		Noun49: 不屈
+		Noun50: 草地
+		Noun51: 裁判官
+		Noun52: 征服者
+		Noun53: 強欲
+		Noun54: 巨人
+		Noun55: 五行詩
+		Noun56: 運命
+		Noun57: 注目の的
+		Noun58: 木
+		Noun59: 細胞
+		Noun60: 終焉
+		Noun61: 命
+		Noun62: 死神
+		Noun63: 蛇
+		Noun64: 箱舟
+		Noun65: 契約
+		Noun66: アンク
+		Noun67: 紋章
+		Noun68: 鈴
+		Noun69: 言語
+		Noun70: 贈り物
+		Noun71: サフラン
+		Noun72: 錬金術師
+		Noun73: 小旅行
+		Noun74: 四分円
+		Noun75: 雄しべ
+		Noun76: アイリス
+		Noun77: 香炉
+		Noun78: 白金
+		Noun79: 溶岩
+		Noun80: 手
+		Noun81: 隅
+		Noun82: 影
+		Noun83: 災厄
+		Noun84: 破片
+		Noun85: 精霊
+		Noun86: 鱗
+		Noun87: 灰
+		Noun88: プラズマ
+		Noun89: 竜
+		Noun90: 物質
+		Noun91: 特異点
+		Noun92: 世界
+		Noun93: 化石
+		Noun94: 銀河
+		Noun95: 陽光
+		Noun96: ネクロマンサー
+		Noun97: 停止期間
+		Noun98: 年代記
+		Noun99: 時間
+		Noun100: 円
+		Noun101: 羽根板
+		Noun102: 葉
+		Noun103: アクスル
+		Noun104: 風
+		Noun105: 目
+		Noun106: 鍵
+		Noun107: サンゴ
+		Noun108: 星屑
+		Noun109: テルミン
+		Noun110: ペン
+		Noun111: 水銀
+		Noun112: 黒曜石
+		Noun113: 肖像画
+		Noun114: アンブロシア
+		Noun115: 虎
+		Noun116: レイチェ
+		Noun117: コンサート
+		Noun118: 儀式
+		Noun119: 鬼
+		Noun120: マントル
+		Noun121: 発明
+		Noun122: ハエ
+		Noun123: 乱視
+		Noun124: ロボット
+		Noun125: 魔女
+		Noun126: 2年生
+		Noun127: 悪夢
+		Noun128: 接着剤
+		Noun129: アルファベット
+		Noun130: 整数
+		Noun131: 農場
+		Noun132: 宇宙人
+		Noun133: 峰丘
+		Noun134: 列車
+		Noun135: 市参事会員
+		Noun136: コウノトリ
+		Noun137: 月
+		Noun138: 垣根
+		Noun139: サファイア
+		Noun140: 司令官
+		Noun141: コンゴウインコ
+		Noun142: 脳
+		Noun143: 家臣
+		Noun144: ガラス
+		Noun145: 余弦
+		Noun146: 衛星
+		Noun147: 狩人
+		Noun148: 指輪
+		Noun149: 人間
+		Noun150: 貝殻
+		Noun151: 子孫
+		Noun152: マグネシウム
+		Noun153: 花崗岩
+		Noun154: 帝国
+		Noun155: 攻撃者
+		Noun156: エーテル
+		Noun157: 自動機械
+		Noun158: 熱帯雨林
+		Noun159: 門番
+		Noun160: 後援者
+		Noun161: 専門家
+		Noun162: クイド
+		Noun163: 敷石
+		Noun164: 毒
+		Noun165: 光年
+		Noun166: 愛情
+		Noun167: エジプト人
+		Noun168: 大砲
+		Noun169: 気
+		Noun170: 演説者
+		Noun171: 軍艦
+		Noun172: 学者
+		Noun173: 子孫
+		Noun174: 灯台
+		Noun175: 哲学者
+		Noun176: ゴス
+		Noun177: 調律者
+		Noun178: 兵士
+		Noun179: テキスト
+		Noun180: 実験
+		Noun181: 現実主義者
+		Noun182: 布
+		Noun183: 探検家
+		Noun184: リメリック
+		Noun185: 遺伝子
+		Noun186: ランプ
+		Noun187: シアン化物
+		Noun188: 過激派
+		Noun189: 製作者
+		Noun190: 忘却薬
+		Noun191: 岸
+		Noun192: フルート
+		Noun193: 女帝
+		Noun194: スウィズル
+		Noun195: レーサー
+		Noun196: 浮浪者
+		Noun197: 世話人
+		Noun198: 専制君主
+		Noun199: 観察者
+		Noun200: 科学者
+		Noun201: オグスクル
+		Preposition1: について
+		Preposition2: の上に
+		Preposition3: を横切って
+		Preposition4: の後に
+		Preposition5: に対して
+		Preposition6: に沿って
+		Preposition7: の間に
+		Preposition8: の周りに
+		Preposition9: として
+		Preposition10: に
+		Preposition11: の前に
+		Preposition12: の後ろに
+		Preposition13: の下に
+		Preposition14: の下に
+		Preposition15: の隣に
+		Preposition16: の間に
+		Preposition17: の向こうに
+		Preposition18: によって
+		Preposition19: にもかかわらず
+		Preposition20: の間に
+		Preposition21: を除いて
+		Preposition22: のために
+		Preposition23: から
+		Preposition24: の中へ
+		Preposition25: のように
+		Preposition26: の近く
+		Preposition27: の
+		Preposition28: の上に
+		Preposition29: の反対に
+		Preposition30: の上に
+		Preposition31: 以来
+		Preposition32: よりも
+		Preposition33: へ
+		Preposition34: に向かって
+		Preposition35: の下に
+		Preposition36: まで
+		Preposition37: の上に
+		Preposition38: の上に
+		Preposition39: と一緒に
+		Preposition40: の中に
+		Preposition41: なしで
+		EasterEggSentence: オング バッシン
+		PhraseStructureRules:
+			'''
+			SENTENCE = SUBJECT PREDICATE OBJECT, SUBJECT PREDICATE
+			SUBJECT = NOUNPHRASE
+			PREDICATE = VERBPHRASE
+			OBJECT = NOUNPHRASE, PREPOSITION NOUNPHRASE
+			NOUNPHRASE = DETERMINER ADJECTIVE NOUN, DETERMINER NOUN
+			VERBPHRASE = VERB PREPOSITION NOUNPHRASE
+			'''
+		IncludeSpacesBetweenWords: True
+	}
+
+	MidnightMonolith: {
+		DisplayName: 真夜中のモノリス
+		Tooltip: 見た目アクセサリーとして装備できる
+	}
+
+	NoxiousEvocator: {
+		DisplayName: 不快な喚起因子
+		Tooltip:宇宙の幻覚があなたの周りに表れる
+	}
+
+	NoxusEclipseCalculator: {
+		DisplayName: ノクサス・エクリプス計算機 [デバッグ用]
+		Tooltip: 今後100日間に起こるノクサス・エクリプスに関する情報を表示する
+		InfoTextPartial: ノクサス・エクリプスは約{0}日後に発生し、{1}に始まり{2}に終了します。部分日食です。
+		InfoTextTotal: ノクサス・エクリプスは約{0}日後に発生し、{1}に始まり{2}に終了します。皆既日食です。
+		InfoTextNoxusWorld: この日食は永遠に続きます。
+	}
+
+	NoxusMask: {
+		DisplayName: ノクサスのマスク
+		Tooltip: ""
+	}
+
+	NoxusRelicItem: {
+		DisplayName: ノクサスのレリック
+		Tooltip: ""
+	}
+
+	NoxusSprayer: {
+		DisplayName: ノクサススプレー
+		Tooltip:
+			'''
+			触れたものすべてを蒸発させる混沌の霧を発射する
+			「下等生物の99.99%を駆除！」
+			'''
+	}
+
+	NoxusTrophy: {
+		DisplayName: ノクサスのトロフィー
+		Tooltip: ""
+	}
+
+	NoxusWorldFogStarter: {
+		DisplayName: Noxus World Fog Starter [デバッグ用]
+		Tooltip: ""
+	}
+
+	NuminousDye: {
+		DisplayName: 神秘的な染料
+		Tooltip: ""
+	}
+
+	OblivionRattle: {
+		DisplayName: 忘却のオモチャ
+		Tooltip: ""
+	}
+
+	Rok: {
+		DisplayName: 石ころ
+		Tooltip: ただの普通の岩
+	}
+
+	Terminal: {
+		DisplayName: 終点
+		Tooltip:
+			'''
+			現在の状態ではボスラッシュをイベントとして受け入れません
+			現状では、(少数のチャレンジが含まれてはいますが)ただの長時間の作業になってしまっています
+			しかし、イベントを楽しんだり、テストに役立てたいと考える方々に
+			別の体験方法を提供することが最適だと判断しました
+			'''
+	}
+
+	ThePurifier: {
+		DisplayName: 浄化
+		Tooltip:
+			'''
+			世界全体を元の状態にリセットします
+			このプロセスには少し時間がかかることがあるため、ゲームがフリーズしても驚かないでください
+			一度投げると、爆弾は15秒後に爆発します
+			もし誤って投げてしまった場合は、メニューの「保存して終了」を押せば爆発を防げます
+			2012
+			'''
+	}
+
+	NamelessDeityMask: {
+		DisplayName: 無名の神のマスク
+		Tooltip: "「あなたの顔は1984年風にされるだろう」"
+	}
+
+	NamelessDeityMusicBox: {
+		DisplayName:  オルゴール (無名の神)
+		Tooltip: Heart Plus Up! & ENNWAY!制作の「Twisted Garden」を再生する
+	}
+
+	NamelessDeityMusicBoxP3: {
+		DisplayName:  オルゴール (無名の神 - 最終フェーズ)
+		Tooltip: Heart Plus Up! & ENNWAY!制作の「REPLACED VIA CODE DONT CHANGE THIS」を再生する 
+	}
+
+	NamelessDeityRelicItem: {
+		DisplayName: 無名の神のレリック
+		Tooltip: ""
+	}
+
+	NamelessDeityTrophy: {
+		DisplayName: 無名の神のトロフィー
+		Tooltip: ワイヤーから信号を受け取ると、目はプレイヤーが近づくまで閉じたままになります
+	}
+
+	Starseed: {
+		DisplayName: 星の種
+		Tooltip: ""
+	}
+
+	StaircaseStarter: {
+		DisplayName: Staircase Starter [デバッグ用]
+		Tooltip: ""
+	}
+
+	Xenqiterthralyensyr: {
+		DisplayName: ゼンキテラスリエンシル
+		Tooltip: 作者の名前は長い時の流れにより失われてしまった...
+	}
+}
+
+NPCs: {
+	NoxusEggCutscene: {
+		DisplayName: ???
+	}
+
+	NoxusEgg: {
+		DisplayName: 神なき胎動、ノクサス
+		DisplayNameSingular: 神なき胎動、ノクサス
+
+		BossChecklistIntegration: {
+			SpawnInfo: " [i:NoxusBoss/Genesis]を使用する"
+			DespawnMessage: "[c/7D5CC4:ノクサスは瞬く間に消え去った...]"
+		}
+	}
+
+	EntropicGod: {
+		DisplayName: 終焉の神ノクサス
+		DisplayNameSingular: 終焉の神ノクサス
+
+		BossChecklistIntegration: {
+			SpawnInfo: " [i:NoxusBoss/Genesis]を使用する"
+			DespawnMessage: "[c/7D5CC4:ノクサスは瞬く間に消え去った...]"
+		}
+
+		InfernumCompatibility: {
+			Title: Noxus.
+		}
+	}
+
+	NamelessDeityBoss: {
+		DisplayName: 無名の神
+		DisplayNameSingular: 無名の神
+		SillyDeathCountSuffix: ", Tormentor of Nohitters"
+
+		BossChecklistIntegration: {
+			SpawnInfo: 眼が開いた後に [i:CalamityMod/Terminus] を使用する
+			DespawnMessage: "[c/FF463D:あなたは試練を乗り越えることができなかった。]"
+		}
+
+		InfernumCompatibility: {
+			Title: ??????????????????????????????????????????????????
+		}
+	}
+
+	DismalSeeker: {
+		DisplayName: ディズマル・シーカー
+	}
+
+	Fogwood: {
+		DisplayName: フォグウッド
+	}
+
+	Mirrorwalker: {
+		DisplayName: ミラーウォーカー
+	}
+
+	Aelithrysuwl: {
+		DisplayName: エイリスリスウル
+	}
+
+	Vivajuyfylae: {
+		DisplayName: ヴィヴァジュイフィレイ
+	}
+}
+
+Projectiles: {
+	ArcingStarburst: {
+		DisplayName: Starburst
+	}
+
+	BabyNoxus: {
+		DisplayName: Baby Noxus
+	}
+
+	BackgroundStar: {
+		DisplayName: Star
+	}
+
+	BlackHole: {
+		DisplayName: Black Hole
+	}
+
+	BlackHolePet: {
+		DisplayName: Black Hole
+	}
+
+	BookConstellation: {
+		DisplayName: Grand Wisdom
+	}
+
+	ClockConstellation: {
+		DisplayName: Chronos' Hand
+	}
+
+	ControlledStar: {
+		DisplayName: Star
+	}
+
+	ConvergingSupernovaEnergy: {
+		DisplayName: Supernova Plasma
+	}
+
+	DarkComet: {
+		DisplayName: Dark Comet
+	}
+
+	DarkFireball: {
+		DisplayName: Dark Fireball
+	}
+
+	DarkPortal: {
+		DisplayName: Dark Portal
+	}
+
+	DarkWave: {
+		DisplayName: Dark Wave
+	}
+
+	DismalSeekerLantern: {
+		DisplayName: Dismal Lantern
+	}
+
+	DistortionField: {
+		DisplayName: Distortion Field
+	}
+
+	ExplodingStar: {
+		DisplayName: Star
+	}
+
+	FallingGalaxy: {
+		DisplayName: Newborn Galaxy
+	}
+
+	FogwoodRoot: {
+		DisplayName: Fogwood Root
+	}
+
+	GodRayVisual: {
+		DisplayName: God Ray Visual
+	}
+
+	GroundStompShock: {
+		DisplayName: Ground Stomp Shock
+	}
+
+	LanternExplosion: {
+		DisplayName: Explosion
+	}
+
+	LightDagger: {
+		DisplayName: Light Dagger
+	}
+
+	LightPortal: {
+		DisplayName: Light Portal
+	}
+
+	LightSlash: {
+		DisplayName: Light Slash
+	}
+
+	LightSlashTelegraph: {
+		DisplayName: Light Slash Telegraph
+	}
+
+	LightWave: {
+		DisplayName: Light Wave
+	}
+
+	NightmareDeathRay: {
+		DisplayName: Nightmare Death Ray
+	}
+
+	NoxSpike: {
+		DisplayName: Nox Spike
+	}
+
+	NoxusExplosion: {
+		DisplayName: Noxus Explosion
+	}
+
+	NoxusGas: {
+		DisplayName: Noxus Gas
+	}
+
+	NoxusSprayerGas: {
+		DisplayName: Noxus Sprayer Gas
+	}
+
+	Quasar: {
+		DisplayName: Quasar
+	}
+
+	RedirectingDarkFlame: {
+		DisplayName: Dark Flame
+	}
+
+	SlowSolarSpark: {
+		DisplayName: Solar Spark
+	}
+
+	Starburst: {
+		DisplayName: Starburst
+	}
+
+	StarPatterenedStarburst: {
+		DisplayName: Starburst
+	}
+
+	StarPet: {
+		DisplayName: Star
+	}
+
+	SunFireball: {
+		DisplayName: Sun Fireball
+	}
+
+	SuperCosmicBeam: {
+		DisplayName: Cosmic Deathray
+	}
+
+	SuperLightBeam: {
+		DisplayName: Light Deathray
+	}
+
+	Supernova: {
+		DisplayName: Supernova
+	}
+
+	SwordConstellation: {
+		DisplayName: Orion's Sword
+	}
+
+	SwordConstellationSlashVisual: {
+		DisplayName: Good Visual Design
+	}
+
+	TelegraphedLightLaserbeam: {
+		DisplayName: Light Deathray
+	}
+
+	TelegraphedPortalLaserbeam: {
+		DisplayName: Cosmic Burst
+	}
+
+	TelegraphedScreenSlice: {
+		DisplayName: Dimensional Slice
+	}
+
+	TelegraphedStarLaserbeam: {
+		DisplayName: Solar Burst
+	}
+
+	ThePurifierProj: {
+		DisplayName: The Purifier
+	}
+
+	TerminusProj: {
+		DisplayName: Terminus
+	}
+
+	VergilScreenSlice: {
+		DisplayName: Judgment Cut
+	}
+
+	WindStreakVisual: {
+		DisplayName: Wind
+	}
+
+	RodOfHarmonyExplosion: {
+		DisplayName: Rod Of Harmony Explosion
+	}
+
+	DarkField: {
+		DisplayName: Dark Field
+	}
+
+	PrimordialStardust: {
+		DisplayName: Primordial Stardust
+	}
+
+	NamelessDeityAfterimage: {
+		DisplayName: Afterimage
+	}
+
+	FallenGoodApple: {
+		DisplayName: Fallen Good Apple
+	}
+}
+
+Tiles: {
+	EternalGardenMusicBoxTile: {
+		MapEntry: Music Box
+	}
+
+	NamelessDeityMusicBoxTile: {
+		MapEntry: Music Box
+	}
+}
+
+NamelessDeityDimensionMainMenu: {
+	DisplayName: Light Dimension
+}
+
+Configs: {
+	NoxusBossConfig: {
+		DisplayName: メイン設定
+
+		DisplayConfigMessage: {
+			Label: メッセージの表示
+			Tooltip: プレイヤーに設定を見るように指示するテキストオーバーレイを切り替えます。
+			WarningText:
+				'''
+				こんにちは！あなたはきっと
+				「なんだこのテキストは？邪魔だな」
+				と思ったことでしょう。
+				早速本題に入ります。
+				このMODは視覚効果が強く、視覚効果を抑える設定オプションを
+				変更することをオススメします。
+				これを説明する理由は、光過敏症の人たちのためです。
+				このメッセージは、
+				「メッセージの表示」の設定でオフにすることができます。
+				「設定」->「Mod設定」->
+				「Calamity: Wrath of the Gods」->「メイン設定」
+				に移動すると見つかります。
+				'''
+		}
+
+		PhotosensitivityMode: {
+			Label: 光過敏症モード
+			Tooltip: 点滅するアニメーション効果を切り替えます。切り替えると関連する設定に影響しますが、必要に応じて手動で変更できます。
+		}
+
+		ScreenShakeIntensity: {
+			Label: Screen 画面の揺れの強さ
+			Tooltip:
+				'''
+				画面の揺れの強度を変更します。 0の場合、このMODによって発生するすべての画面の揺れが無効になります。
+				Calamityの設定で画面の揺れが無効化されている場合、この設定は自動で0に設定されます。
+				'''
+		}
+
+		ScreenShatterEffects: {
+			Label: スクリーンシャッター効果
+			Tooltip: スクリーンシャッター効果を切り替えます。目が疲れる場合は無効にしてください。
+		}
+
+		VisualOverlayIntensity: {
+			Label: ビジュアルオーバーレイの強度
+			Tooltip: ぼかしや色収差などの視覚効果の強度を変更します。
+		}
+	}
+}
+
+Dialog: {
+	PostWoFDefeatNoxusIndicator: 謎の物体が惑星の周りを回り始めた...
+	PostMLNightNoxusIndicator: 暗い存在が近づいてくる...
+	FinalBossDefeatNoxusIndicator: 暗い存在が動き始めている...
+	FinalBossDefeatNoxusIndicator_SeenNoxus: 暗い気配が渦巻いている...
+	TerminusHintLine1: よくやった。
+	TerminusHintLine2: さあ、終点を探せ。最後の試練が近づいている。
+	NamelessDeityEnterGardenText: 最後の試練を始めよう。
+	NamelessDeityEndScreenText: お前は試練を乗り越えた。
+	NamelessDeityEndScreenSkipText: ESCAPEでスキップ
+	NamelessDeityPlayerDeathText: お前は乗り越えることができなかった。
+	NamelessDeityEndScreenMainMenuTip: お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。 お前は最後の試練を乗り越えた。
+	NamelessDeityNoxusSprayerTip: やめろ。
+	NamelessDeityStatusText: お前は最後の試練を乗り越えた。
+	NamelessDeityStatusPercentageText: お前は最後の試練を乗り越えた:
+	CattailText: ガマを設置した！
+	PurifierMultiplayerUseAlertText: 浄化装置は{0}によって設置されました。世界は 15 秒後にリセットされます。
+	PurifierEntertainingRantText:
+		'''
+		こんにちは！この白い背景は正常です。ゲームが壊れているわけでは
+		ありません。
+		バグとして報告しないでくださいね。
+		ちょっとリラックスして、水分補給をしていないなら水でも
+		飲みながらお待ちください。
+		あるいは別のことをしてもいいですよ。お任せします。
+		さて、予想がついているかもしれませんが、今、ワールド生成を一から
+		やり直しているところです。
+		では、このプロセスがなぜこんなに時間がかかるのかについてお話します。
+		まず、Terrariaのワールドは巨大な8401×2401の
+		タイルグリッドで構成されていることを知っていましたか？
+		これは、ラージワールドまで収められるように設定されています。
+		このグリッドは、ゲームを起動してから終了するまでメモリ上に
+		存在し続けます。
+		正確に言うと、数十メガバイトのメモリを使用します。
+		「チャンク化」（グリッドを小さなセクションに分割すること）が
+		一応あるにはあるのですが、これは主にマルチプレイヤー用です。
+		なぜなら、クライアントに全ワールドデータをネットワーク経由で
+		送信するのは大変で、クラッシュの原因になる可能性が
+		非常に高いからです。
+		これが理由で、サーバーがダウンしかけるとマップが
+		抜け落ちてしまうことがあります。
+		これは、あなたがその「チャンク」の境界の外に出てしまったからで、
+		サーバーが他のチャンクを送信できなくなるためです。
+		話をワールド生成に戻します。
+		すべての処理がこのグリッドで行われます。
+		例えばMinecraftのように、ワールド生成をリアルタイムで
+		行うことはできません。
+		すべて一度に処理する必要があるのです。
+		さらに、多くのワールド生成ステップは
+		同期的（つまり、一度に1つずつ）に実行されます。
+		複数の処理を同時に行うわけではありません。
+		すべてを並行処理するのは難しいということです。
+		なぜかというと、多くのケースで処理の競合が
+		起きてしまうからです。
+		しかし、できる限り並列処理を行えば、
+		パフォーマンスは大幅に向上するはずです。
+		また、一部の処理はあまり効率的ではありません。
+		たとえば、特定の状況では、「液体の安定化」ステップに数秒かかる
+		ことがあります。
+		さらに「砂漠生成」ステップは、大量のループ処理を行っています。
+		最初に砂漠全体を横方向に、その後、
+		縦方向に上から下までループします。
+		その後、砂漠全体の「クラスター」を、
+		最後にクラスター内のすべてのタイルを処理します。
+		こうした非効率な生成方法の多くは、バニラゲームではなく、
+		Mod開発者（私も含めて）が原因だと思います。
+		たとえば、昔よくやっていた奇妙な手法として、
+		「再帰」（関数が自分自身を呼び出す処理。説明は少し難しいです）
+		を使って硫黄の海の周辺の水を計算して、
+		それを何度も何度も繰り返すというものがありました。
+		正直…ムチャクチャです。
+		ともあれ！まだまだ話したいことはありますが、
+		そろそろあなたのワールドがほぼ消去される頃かもしれません。
+		突然中断されたら残念ですし、これくらいにしておきますね！
+		また次回、ワールドリセットが必要になったら
+		このメッセージをお届けします。
+		それではまた！
+		'''
+	CelesteMusicCreditText:
+		'''
+		Now Playing:
+		'wavedash.ppt'
+		By Lena Raine
+		'''
+	NamelessDeityStairwayText1: ようこそ、簒奪者よ。
+	NamelessDeityStairwayText2:
+	'''
+	孤独の中で、ただ貴様だけが、
+	この領域を包む天の輝きを目にすることができる。
+	'''
+	NamelessDeityStairwayText3:
+	'''
+	貴様がここに来たことは運命づけられている。
+	だからこそ、貴様の運命を見極めるのだ。
+	'''
+	NamelessDeityStairwayText4:
+	'''
+	闇の者は貴様の世界を漂っている。
+	貴様はそいつを屈従させることができるはずだ。
+	'''
+	NamelessDeityStairwayText5:
+	'''
+	勝利を収めれば、
+	貴様の運命は再び私と交わり、試練の時が訪れる。
+	'''
+	NamelessDeityStairwayText6: 幸運を祈る。
+	NamelessDeityStairwayTextFanny1: ようこそ、簒奪─
+	NamelessDeityStairwayTextFanny2:
+	'''
+	ちょ、ファニー？なんでお前がここに？！
+	お前とは縁を切ったはずだろ！
+	'''
+	NamelessDeityStairwayTextFanny3:
+	'''
+	うーーーーーーーーーん、
+	いや。
+	'''
+	NamelessDeityStairwayTextFanny4:
+	'''
+	とりあえず、そこのお前。
+	ノクサスを倒してこい。
+	'''
+	NamelessDeityStairwayTextFanny5:
+	'''
+	終わったら...
+	私の庭で戦ってやるから。
+	'''
+	NamelessDeityStairwayTextFanny6:
+	'''
+	あ、待って。
+	ファニーを連れて行かないでくれ。
+	'''
+	OgsculeDontAnnoyCalDevsText: この効果はCalamity Modの標準機能ではありません。開発者を煩わせないでください。
+	RodOfHarmonyRantSubtitle1: あの「ロッドオブハーモニー」をここから片付けろ！二度と見たくない！
+	RodOfHarmonyRantSubtitle2: Re-Logicは何を考えていたんだ？クールダウンなしの「ロッドオブディスコード」だと？バカじゃないのか？
+	RodOfHarmonyRantSubtitle3: ムーンロード以降のMod開発がめんどくさくなってるんだよ...
+	RodOfHarmonyRantSubtitle4: いい加減にしてくれ。
+	RodOfHarmonyRantSubtitle5: 私は公平な世界を作りたかったんだ。でも「ロッドオブハーモニー」はすべてを台無しにする。
+	RodOfHarmonyRantSubtitle6: だからダメだ。使わせない。
+	RodOfHarmonyRantSubtitle7: 貴様は俺を馬鹿にできると思ってたみたいだが、馬鹿にされてるのは貴様だ。
+	RodOfHarmonyRantSubtitle8: 分かってるのか？
+	RodOfHarmonyRantSubtitle9: というより、もう知っていたよな？
+	RodOfHarmonyRantSubtitle10: たぶん攻略をネットで調べたんだろ？
+	RodOfHarmonyRantSubtitle11: 俺がこうするって分かってたんだろう。
+	RodOfHarmonyRantSubtitle12: レイジとアドレナリンを壊したのに、「ロッドオブハーモニー」を壊さないわけないだろ！
+	RodOfHarmonyRantSubtitle13: 次は貴様を壊さないといけないな。
+	RodOfHarmonyRantSubtitle14: いや、違うな...
+	RodOfHarmonyRantSubtitle15: 要するに、俺はズルをする奴が嫌いなんだ。
+	RodOfHarmonyRantSubtitle16: 気に入らないって？じゃあ、何しにここへ来たんだ？
+	RodOfHarmonyRantSubtitle17: あんな忌々しいアイテムを持ち込むべきじゃなかったんだ。
+	CloudSaveMessage: 「終点」を使用する場合はクラウドセーブをオフにしてください。サブワールドライブラリのフリーズバグの原因となっています。
+}
+
+FannyDialog: {
+	StairwayText1: 階段？！これ、どこから出てきたの？ みんなはどこにいるの？ このことについてもうちょっと情報がほしいね...
+	StairwayText2: ビデオゲームの階段みたいだね。無限に続いているみたい...
+	StairwayText3: あ！「ケツワープ」って裏技、試してみたら？
+	StairwayText4: え、違うゲームの話なの...
+	StairwayText5: まあ、そんなのはいいから、上へ進み続けてみよう！ きっと何かが起こる...はず！
+	StairwayTextTop1: 待って、パパ？！！ あなたなの？？？
+	StairwayTextTop2: それ、悪い方のファニーじゃない？
+	StairwayTextTop3: それはちょっとひどくない？パパ...
+	StairwayTextTop4: ノクサス？ ノクサスって誰？？ そのことについて、調べた方がいいかも...
+	StairwayTextTop5: あ！あの場所を壊したときのこと、覚えてるよ！ 楽しかったな！
+	StairwayTextTop6: 選択権はないよ！
+	NoxusLoreText1: あのノクサスって奴、確かに強かった！でも、よくわかんないヤツだったね。
+	NoxusLoreText2: 本気か？？ こいつも他のと同じだな。適当なことを言うんじゃない！
+	NoxusLoreText3: あと、この「ヤリム」って奴、どうしてドラゴンと関連づけようとしているんだ？ それがヤツの目的か？今のところ、無意味な説明の垂れ流しをしてるだけじゃないか？！
+	NoxusLoreText4: なんで、アイツは一度も姿を直接見せて話さないんだ？ 自分がどれほどテキトーなキャラクターかを知られるのが怖いのか？
+	NoxusLoreText5: 頭が痛い...
+	RodOfHarmonyBreak: あ、ロッドオブハーモニーが壊れた！ 気をつけて、あの杖なしじゃかなり難しくなるかも！
+	RodOfHarmonyBreakEvil1: ハハハハハ！！！ 見てみろ！ あの意味不明なピンクの棒にやっとクールダウンがついた！ そのクールダウンは永遠だ！ すごくないか？！
+	RodOfHarmonyBreakEvil2: あの愚かな杖なしで勝ってみろよ、この無能な一発屋が！
+	NamelessDeityGFB1: 派手で...クソみたいだ、このくだらない戦いは。
+	NamelessDeityGFB2:
+		'''
+		ドミニクはアホなことをしやがった。
+		最初にカラミティのゼロックのキャラクターを盗んで、その後、まるでバカみたいに、単調で退屈な、
+		すげえエフェクトいっぱいの爆発するような技を使うボスを実装したんだ。
+		こんなに多くのエフェクトを無理矢理表示させやがって！ 
+		それにこのグラフィック効果は一体なんだ？！ これは、YouTubeのコメントのアホガキが頭を使わずに見て
+		「わーい、きれいなブルームとシェーダー！ とてもユニークに見えるよ！」って言うために作られたコンテンツだ。
+		しかもクソ重い。
+		今15fps以上も出てるか？？？
+
+		'''
+	NamelessDeityGFB3: どう対処するかって？知らねーよ。正直、こんなゲームに無駄に時間を使うくらいなら、ほかの面白いことをした方がいいと思うぞ。
+}
+
+Colors: {
+	CattailAnimationTextHex: 6FA024
+	NoxusTextHex: 745CBC
+	PurifierWarningTextHex: F00448
+	VanillaEventTextHex: 32FF82
+	NamelessDeityTextHex: FF3F5D
+}
+
+PlayerDeathMessages: {
+	NamelessDeity1: "{0} は試練に失敗した。"
+	NamelessDeity2: "{0}の原子構造は庭に吸収されるために分解された。"
+	NamelessDeity3: "{0}  は至福の中で神の光に消えた。"
+	NamelessDeity4: "{0} の形はやがて星々と一体となる。"
+	NamelessDeity5: "{0} の魂は庭に残り、その肉体は崩れ去る。"
+	NamelessDeity6: "{0} の目的は達成された。"
+	NamelessDeity7: "{0} は永遠を目撃し、その後消えた。"
+	NamelessDeity8: "{0} の運命は終わった。"
+	NamelessDeity9: "{0} は努力もむなしく死んだ。"
+	NamelessDeity10: "{0} は冷静に光に向かっていった。"
+	NamelessDeity11: "{0} はすべてと一体となった。"
+	NamelessDeity12: "{0} はエーテルに消えた。"
+	NamelessDeity13: "{0} は宇宙の織物に溶け込んだ。"
+	NamelessDeity14: "{0} は死を超越し、星屑となった。"
+	NamelessDeity15: "{0} の旅は庭の神聖な抱擁の中で終わった。"
+	NamelessDeity16: "{0}  は宇宙の交響曲と一体となった。"
+	NamelessDeity17: "{0}  は存在の無限の格子に溶け込んだ。"
+}
+

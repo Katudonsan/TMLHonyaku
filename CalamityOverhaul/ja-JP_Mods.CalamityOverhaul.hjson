@@ -3426,26 +3426,16 @@ Configs: {
 	CWRServerConfig: {
 		DisplayName: コンテンツ設定
 
-		ForceReplaceResetContent: {
-			Label: 強制的なコンテンツリセットの置き換えを有効にする
+		WeaponOverhaul: {
+			Label: 武器オーバーホール
 			Tooltip:
 				'''
-				有効にすると、Calamitymodの元のコンテンツを直接変更します。
-				他のCalamityのサブmodを有効にしている場合、この機能を有効にすると競合が発生する可能性があります。
-				無効にする場合、このmodはゲーム内でリセットアイテムを入手する方法を追加します。
-				これは競合を解決するための機能です。
-				[c/fff08c:重要：この機能をオフにすることはお勧めしません]
-				[c/fff08c:この機能は、深刻な競合が発生した場合にのみオフにすることを推奨します]
-				[c/FF0000:Calamity Overhaulのコンテンツを最適化したい場合は、これを有効化のままにしてください！]
-				'''
-		}
-
-		AddExtrasContent: {
-			Label: 追加コンテンツを追加
-			Tooltip:
-				'''
-				無限テクノロジーなどの議論の的となるコンテンツをゲームに追加するかどうか
-				デフォルトで有効になっており、無効にするとCalamityのテーマに合わないコンテンツをゲームから削除できます
+				有効にすると、Calamity Modのコンテンツを直接変更します。
+				他のCalamityのアドオンModを有効にしている場合、この機能を有効にすることで競合が発生する可能性があります。
+				無効にした場合、このModはゲーム内でリセットアイテムを入手できる方法を追加します。
+				[c/fff08c: 補足：実際のところ、この機能をオフにすることはお勧めしません。]
+				[c/fff08c: 深刻な競合が確認された場合のみ、この機能をオフにすることを推奨します。]
+				[c/FF0000: Calamity Overhaulのコンテンツを最適化したい場合は、この機能をオンにしてください！]
 				'''
 		}
 
@@ -3607,7 +3597,7 @@ Configs: {
 				'''
 		}
 
-		BiobehavioralOverlay: {
+		BiologyOverhaul: {
 			Label: 生物行動調整機能 [c/06e33f:(実験的機能)]
 			Tooltip:
 				'''
@@ -4193,8 +4183,8 @@ TextContent: {
 			矢は敵の防御力15ポイントを無視する
 			「吹き矢で矢を発射する？マジかよ、火薬を口に入れろっていうのか？」
 			'''
-		CartridgeHolderUI_Text1: マガジン装填
-		CartridgeHolderUI_Text2: 残留物
+		CartridgeHolderUI_Text1: マガジン
+		CartridgeHolderUI_Text2: 残弾数
 		CartridgeHolderUI_Text3: 空
 		CartridgeHolderUI_Text4: 右クリックで排出
 		Wap_SDMG_Text:
