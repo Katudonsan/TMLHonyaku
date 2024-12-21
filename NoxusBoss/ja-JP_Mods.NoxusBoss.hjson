@@ -25,7 +25,7 @@ Bestiary: {
 Biomes: {
 	EternalGardenBiome: {
 		DisplayName: 永遠の庭園
-		TownNPCDialogueName: the Eternal Garden Biome
+		TownNPCDialogueName: 永遠の庭園
 	}
 }
 
@@ -1345,18 +1345,54 @@ Dialog: {
 		By Lena Raine
 		'''
 	NamelessDeityStairwayText1: ようこそ、簒奪者よ。
-	NamelessDeityStairwayText2: 孤独の中で、ただ貴様だけがこの領域を包む天の輝きを目にすることができる。
-	NamelessDeityStairwayText3: 貴様がここにいることは運命づけられている、だからこそ、貴様の運命を見極めるのだ。
-	NamelessDeityStairwayText4: 闇の者は貴様の世界を漂っている。貴様はそいつを屈従させることができるはずだ。
-	NamelessDeityStairwayText5: 勝利を収めれば、貴様の運命は再び私と交わり、試練の時が訪れる。
+	NamelessDeityStairwayText2:
+	'''
+	孤独の中で、ただ貴様だけが、
+	この領域を包む天の輝きを目にすることができる。
+	'''
+	NamelessDeityStairwayText3:
+	'''
+	貴様がここに来たことは運命づけられている。
+	だからこそ、貴様の運命を見極めるのだ。
+	'''
+	NamelessDeityStairwayText4:
+	'''
+	闇の者は貴様の世界を漂っている。
+	貴様はそいつを屈従させることができるはずだ。
+	'''
+	NamelessDeityStairwayText5:
+	'''
+	勝利を収めれば、
+	貴様の運命は再び私と交わり、試練の時が訪れる。
+	'''
 	NamelessDeityStairwayText6: 幸運を祈る。
 	NamelessDeityStairwayTextFanny1: ようこそ、簒奪─
-	NamelessDeityStairwayTextFanny2: ちょ、ファニー？なんでお前がここにいるんだ？！お前とは縁を切ったはずだろ！
-	NamelessDeityStairwayTextFanny3: うーーーーーーーーーん、いや。
-	NamelessDeityStairwayTextFanny4: とりあえず、そこのお前。ノクサスを倒してこい。
-	NamelessDeityStairwayTextFanny5: 終わったら...私の庭で戦ってやるから。
-	NamelessDeityStairwayTextFanny6: あ、待って、ファニーを連れて行かないでくれ。
-	OgsculeDontAnnoyCalDevsText: この効果は Calamity Modの標準機能ではありません。開発者を煩わせないでください。
+	NamelessDeityStairwayTextFanny2:
+	'''
+	ちょ、ファニー？なんでお前がここに？！
+	お前とは縁を切ったはずだろ！
+	'''
+	NamelessDeityStairwayTextFanny3:
+	'''
+	うーーーーーーーーーん、
+	いや。
+	'''
+	NamelessDeityStairwayTextFanny4:
+	'''
+	とりあえず、そこのお前。
+	ノクサスを倒してこい。
+	'''
+	NamelessDeityStairwayTextFanny5:
+	'''
+	終わったら...
+	私の庭で戦ってやるから。
+	'''
+	NamelessDeityStairwayTextFanny6:
+	'''
+	あ、待って。
+	ファニーを連れて行かないでくれ。
+	'''
+	OgsculeDontAnnoyCalDevsText: この効果はCalamity Modの標準機能ではありません。開発者を煩わせないでください。
 	RodOfHarmonyRantSubtitle1: あの「ロッドオブハーモニー」をここから片付けろ！二度と見たくない！
 	RodOfHarmonyRantSubtitle2: Re-Logicは何を考えていたんだ？クールダウンなしの「ロッドオブディスコード」だと？バカじゃないのか？
 	RodOfHarmonyRantSubtitle3: ムーンロード以降のMod開発がめんどくさくなってるんだよ...
@@ -1394,7 +1430,7 @@ FannyDialog: {
 	NoxusLoreText3: あと、この「ヤリム」って奴、どうしてドラゴンと関連づけようとしているんだ？ それがヤツの目的か？今のところ、無意味な説明の垂れ流しをしてるだけじゃないか？！
 	NoxusLoreText4: なんで、アイツは一度も姿を直接見せて話さないんだ？ 自分がどれほどテキトーなキャラクターかを知られるのが怖いのか？
 	NoxusLoreText5: 頭が痛い...
-	RodOfHarmonyBreak: あ、ロッドオブハーモニーが壊れた！ 気をつけて、この戦いはそれなしではかなり難しくなるかも！
+	RodOfHarmonyBreak: あ、ロッドオブハーモニーが壊れた！ 気をつけて、あの杖なしじゃかなり難しくなるかも！
 	RodOfHarmonyBreakEvil1: ハハハハハ！！！ 見てみろ！ あの意味不明なピンクの棒にやっとクールダウンがついた！ そのクールダウンは永遠だ！ すごくないか？！
 	RodOfHarmonyBreakEvil2: あの愚かな杖なしで勝ってみろよ、この無能な一発屋が！
 	NamelessDeityGFB1: 派手で...クソみたいだ、このくだらない戦いは。
