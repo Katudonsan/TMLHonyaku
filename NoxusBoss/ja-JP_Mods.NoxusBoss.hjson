@@ -107,7 +107,7 @@ Items: {
 
 	FakeTerminus: {
 		DisplayName: ターミナス
-		BaseTooltip: 防御のため、深淵の底に封じられた途方もなく古い遺物
+		BaseTooltip: 深淵の底に封じられていた途方もなく古い遺物
 		UnopenedTooltip: 眼が閉じている...
 		OpenedTooltip: 眼が開いている...
 		Tooltip:
