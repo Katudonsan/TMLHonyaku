@@ -327,58 +327,58 @@ MessageInfo: {
 
 	SiblingPylonNotNearSiblings: このパイロンが機能するには、兄弟となる別のパイロンが必要です
 	NearbySiblingPylonNotNearSiblings: 近くにいるパイロンが機能するためには、近くに別の兄弟パイロンが必要です
-	NewItemUnlocked: A new item has been unlocked in {0}'s shop!
-	HaveAwoken: "{0} have awoken!"
-	CancelEvent: The invaders have left!
-	CancelPumpkinMoon: The Pumpkin Moon is lowering...
-	CancelFrostMoon: The Frost Moon is lowering...
-	CancelEclipse: A solar eclipse is not happening!
-	CancelBloodMoon: The blood moon is descending...
-	CancelWindyDay: The wind has ended!
-	CancelOOA: The Old One's Army is leaving!
-	CancelSandstorm: The sandstorm has ended!
-	CancelLunarEvent: Celestial creatures are not invading!
-	CancelRain: The rain has ended!
-	StartWindyDay: The wind begins howling.
-	StartSandStorm: A sandstorm has begun.
-	StartLanternNight: Lantern Night rate increased!
-	StopLanternNight: Lantern Night rate restored to default.
-	StartLunarEvent: The Celestial Pillars have awoken!
-	StartRain: Rain clouds cover the sky.
-	AncientSeal: Every boss has awoken!
-	SeveralBossesAwoken: Several bosses have awoken!
-	OverloadBee: A deafening buzz pierces through you!
-	OverloadBetsy: The real Old One's Army is attacking!
-	OverloadBrain: You feel dumb among so many brains!
-	OverloadCultist: Deafening chants fill your ears!
-	OverloadDarkMage: You feel like you're in a library!
-	OverloadDeer: The Constant takes over!
-	OverloadDestroyer: The planet trembles from the core!
-	OverloadEmpress: Bullet heaven is descending!
-	OverloadEye: Countless eyes pierce the veil staring in your direction!
-	OverloadFish: The ocean swells with ferocious pigs!
-	OverloadGolem: Ancient automatons come crashing down!
-	OverloadMoon: The wind whispers of death's approach!
-	OverloadPlant: The jungle beats as one!
-	OverloadPrime: A sickly chill envelops the world!
-	OverloadQueenSlime: Welcome to the truer slime rain!
-	OverloadSkele: A great clammering of bones rises from the dungeon!
-	OverloadSlimeCrown: Welcome to the true slime rain!
-	OverloadTwins: A legion of glowing iris sing a dreadful song!
-	OverloadWall: A fortress of flesh arises from the depths!
-	OverloadWorm: The ground shifts with formulated precision!
-	OverloadFrostMoonStop: The Frost Moon fades away!
-	OverloadFrostMoonStart: The Frost Moon is rising...
-	OverloadFrostMoonWave20: Wave: 20: Everything
-	OverloadPumpkinMoonStop: The Pumpkin Moon fades away!
-	OverloadPumpkinMoonStart: The Pumpkin Moon is rising...
-	OverloadPumpkinMoonWave15: Wave: 15: Everything
-	OverloadGoblinsStop: The goblins have calmed down!
-	OverloadMartiansStop: The martians have calmed down!
-	OverloadPiratesStop: The pirates have calmed down!
+	NewItemUnlocked: 新しい商品が {0}'s の店に入荷された！
+	HaveAwoken: "{0} が目覚めた！"
+	CancelEvent: 襲撃者は去っていった！
+	CancelPumpkinMoon: パンプキンムーンは地平線の彼方に沈んでいく...
+	CancelFrostMoon: フロストムーンは地平線の彼方に沈んでいく...
+	CancelEclipse: 日蝕「あ、ごめん、日蝕はやっぱ無しで」
+	CancelBloodMoon: 血に染まりし月は地平線の彼方にて眠りにつかん...
+	CancelWindyDay: 風神は帰宅した！
+	CancelOOA: オールドワンズアーミーは去っていく！
+	CancelSandstorm: 砂嵐は帰宅した！
+	CancelLunarEvent: 宇宙の侵略者たちはこの世界から直帰した！
+	CancelRain: 雷神は帰宅した！
+	StartWindyDay: 風が吹き始める...
+	StartSandStorm: 砂嵐が吹き荒れる...
+	StartLanternNight: ランタンナイトの発生確率が上がった！
+	StopLanternNight: ランタンナイトの確率は落ち着きを取り戻した。
+	StartLunarEvent: 宇宙の侵略者たちはこの世界に直行した！
+	StartRain: 雨雲が世界を覆う...
+	AncientSeal: 古代の封印は解かれ、今ここにすべてのボスが解き放たれた！
+	SeveralBossesAwoken: 複数のボスが目覚めた！
+	OverloadBee: 耳をつんざくような囂しい羽音があなたの耳を貫く！
+	OverloadBetsy: 本物のオールドワンズアーミーが攻めてくる！
+	OverloadBrain: 多くの脳があなたをバカにしている！
+	OverloadCultist: 集いて重なった邪悪な聖歌があなたの脳を満たす！
+	OverloadDarkMage: あなたはまるで図書館にいるように感じた！
+	OverloadDeer: 一定数の怪物が世界を支配する！
+	OverloadDestroyer: この星の全てが震撼する！
+	OverloadEmpress: 皇后天国の時間だ！
+	OverloadEye: 無数の視線がルールを突き破り、あなたの方を見つめている！
+	OverloadFish: 海は獰猛な豚鮫たちがうねっている！
+	OverloadGolem: 親方！空から古代の兵器たちが！
+	OverloadMoon: 世界が「死」の接近を警告する！
+	OverloadPlant: ジャングルのビートが終結する！
+	OverloadPrime: 至高の寒気が世界の全てを包む！
+	OverloadQueenSlime: ようこそ！「より」真なるスライムレインへ！
+	OverloadSkele: ダンジョンから複数の大きな骨の音が響く！
+	OverloadSlimeCrown: ようこそ！真なるスライムレインへ！
+	OverloadTwins: 光り輝く虹彩たちが恐ろしい合唱を行う！
+	OverloadWall: 地獄から肉の要塞が現れた！
+	OverloadWorm: 世界が移動している！
+	OverloadFrostMoonStop: 悠久のフロストムーンが消えていく！
+	OverloadFrostMoonStart: 悠久のフロストムーンが昇る...
+	OverloadFrostMoonWave20: ウェーブ20だョ！全員集合！
+	OverloadPumpkinMoonStop: 悠久のパンプキンムーンが消えていく！
+	OverloadPumpkinMoonStart: 悠久のパンプキンムーンが昇る...
+	OverloadPumpkinMoonWave15: ウェーブ15: パンプキンムーンの大集合！
+	OverloadGoblinsStop: ゴブリンたちの興奮は収まった！
+	OverloadMartiansStop: 火星人は落ち着きを取り戻した！
+	OverloadPiratesStop: 海賊たちはさすがに落ち着いた！
 	SwarmKilled: Killed: {0}
 	SwarmTotal: Total: {0}
-	SwarmDefeated: The swarm has been defeated!
+	SwarmDefeated: ボスの大群を倒した！
 }
 
 Buffs: {
