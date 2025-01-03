@@ -2475,14 +2475,14 @@ NPCs: {
 		}
 
 		Chat: {
-			Defeat: You really defeated me... not bad. Now do it again without getting hit. Oh, and Copper Shortsword only.
-			MutantShimmer: He turned into a squirrel. Funniest thing I've ever seen.
-			StyxArmor: What nostalgic armor you're wearing... No, it doesn't fit on me anymore. And its battery takes too long to charge.
-			Graveyard: I hope all these graves lying around don't belong to you.
-			Mechanic: Can you please ask {0} to stop touching my laser arm please.
-			Formattable1: Where'd I get my scythe from? {0}
-			Formatter1PHM: Ask me later.
-			Formatter1HM: You'll figure it out.
+			Defeat: これが敗北...悪くない感覚だね。今度は無被弾でもう一度やってくれないか？あ、使うのは銅のショートソードだけにしてくれるとうれしいなぁ...
+			MutantShimmer: 彼はリスに変身したね。今まで見た中で一番面白いよ。
+			StyxArmor: どんな懐かしい鎧を着てるんだ...いや、もう似合わないよ。それは充電に時間がかかりすぎるし。
+			Graveyard: この辺に転がっている墓が全部、キミのものでないことを願うよ。
+			Mechanic: {0}に私のレーザーアームに触るのはやめてほしいって言ってもらえないかな？
+			Formattable1: 鎌はどこで手に入れたんだっけ？ {0}
+			Formatter1PHM: 後で聞いてくれ。
+			Formatter1HM: そのうちわかるよ。
 			Normal1: I have slain one thousand humans! Huh? You're a human? There's so much blood on your hands..
 			Normal2: I have defeated everything in this land... nothing can beat me.
 			Normal3: Have you ever had a weapon stuck to your hand? It's not very handy.
@@ -2505,9 +2505,9 @@ NPCs: {
 			Normal20: I've heard tales of a legendary Diver... Anyway what was that about a giant jellyfish?
 			Normal21: Overloaded events...? Yeah, they're pretty cool.
 			Normal22: It's not like I don't enjoy your company, but can you buy something?
-			Canceled: Hocus pocus, the event is over.
-			CancelCD: I'm not feeling it right now, come back in {0} seconds.
-			NoEvent: I don't think there's an event right now.
+			Canceled: ホーカスポーカス、イベントは終わったよ。
+			CancelCD: 今は気分が乗らないから、{0}秒後にまた来てくれないかな。
+			NoEvent: 今停止可能なイベントはないと思うよ。
 		}
 
 		Census: {
@@ -3230,7 +3230,7 @@ TownNPCMood: {
 		HateBiome: "{BiomeName}が大嫌いだ。"
 		LikeNPC: "{NPCName}は私の妹だよ...。私の方がたくさんイベントを攻略したけど、彼女はいい子だよ。"
 		LikeNPC_Princess: "{NPCName}はいいよね。"
-		LoveNPC: "{NPCName}は私の弟なんだ...。僕の方がボスとは戦ってきたけど、彼は強いよ。"
+		LoveNPC: "{NPCName}は私の弟なんだ...。私の方がボスとは戦ってきたけど、彼は強いよ。"
 		DislikeNPC: "{NPCName}は嫌いだ。"
 		HateNPC: "{NPCName}は戦いの輝きを台無しにするんだ、近寄ってもらっちゃ困るよ。"
 	}
