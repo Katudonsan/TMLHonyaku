@@ -1,29 +1,29 @@
 Bestiary: {
-	TophatSquirrelCritter: This squirrel found itself a dapper hat! What will it do with this newfound power? Probably not much, honestly.
-	GuttedCreeper: Continues to defend the heart of the Crimson even when it's stuffed in someone's pocket. They were bad, but now they're good!
-	RoyalSubject: The growth of these would-be queens has been stunted. The pheromones emitted by their liege have summoned them to her aid.
-	GelatinSubject: Elite guardians of the queen. They erect a magical barrier and give their lives to defend their liege.
-	AbomSaucer: The cockpit is filled with machine parts. Abominationn commands these remote control turrets using a chip in his blaster cannon.
-	LesserFairy: Drawn to the Champion of Life's radiance, these pixies care for nothing but fulfilling its commands.
-	LesserSquirrel: These little critters helped build the Trojan Squirrel. Not aware of the small explosives attached to them.
-	ShadowOrb: Clusters of darkness that focus its power. They keep the curtain of night drawn low in service of their master.
-	ShadowOrbNPC: Clusters of darkness that focus its power. They keep the curtain of night drawn low in service of their master.
-	TrojanSquirrel: Built by squirrels, for squirrels! Made of woods collected from numerous lands. It fits a lot more squirrels than it appears.
-	GuardianOfAncientTreasures: Lurks deep underground, jealously guarding its horde of jewels and precious metals. Its scales are as hard as stone.
-	CursedCoffin: A mindless fusion of over a hundred wicked souls. It feeds on the bodies of lost travellers and adds their spirits to itself.
-	LifeChallenger: The brilliance emitting from its core is soothing but hypnotic. Holds sway over lesser organisms. Its true form cannot be perceived.
-	Silhouette: An elusive being that always travels under cover of a black fog in the night. It feels sensitive when its true form is exposed.
-	FrigidHydrangaea: This draconic beast hibernates in the frozen caverns, only waking when provoked. Should it really be living in the cold?
-	BanishedBaron: Cast out from the hierarchy, it hid while it tried to repair itself. Imperfect work left its strength and speed hindered.
-	MagmaConstruct: Overseer of the planet's core. It has taken over the underworld in the absence of the land's former master. It has no organic parts.
-	TimberChampion: Channeling a Force has granted this wooden contraption fantastic power. But doesn't that squirrel in the cockpit look familiar?
-	TerraChampion: Only the brain of this colossal serpent is still organic. Transformed into enchanted rock and metal, its body is impervious to attack.
-	SpiritChampion: These lost souls regained higher intelligence by absorbing a Force. Not that it's going to stop eating humans any time soon.
-	LifeChampion: Its feathers are said to be blessed relics that ward off nightmares. Has a low opinion of other lifeforms and is very territorial.
-	ShadowChampion: Feeds on the negative emotions of other creatures. Breathing its fog is said to inflict an endless sleep fraught with nightmares.
-	NatureChampion: This creature was driven from its home by a giant plant. Sometimes it thinks about going back, but the cold doesn't bother it anymore.
-	WillChampion: Overflowing with rage. Strikes with great power and withstands attacks through sheer force of anger alone. Just who is this nameless exile?
-	EarthChampion: Merging with a Force has given it a power high. This Champion erupts from the magma and rampages through all who cross its path.
+	TophatSquirrelCritter: このリスはおしゃれな帽子を見つけた！この新しい力で何をするのだろう？正直なことを言えば、大したことはできないだろうが。
+	GuttedCreeper: 真紅の心臓が誰かのポケットに入れられても守り続ける。昔は悪いヤツだったが、今はいいヤツ！
+	RoyalSubject: 女王となるべき者たちの成長が阻害されているのだ。女王が発するフェロモンが、彼女たちを呼び寄せたのだ。
+	GelatinSubject: 女王の近衛守護者。彼らは魔法の障壁を築き、家臣を守るために命を捧げる。
+	AbomSaucer: コックピットは機械部品で埋め尽くされている。アボミネーションはブラスター・キャノンのチップを使い、これらの遠隔操作タレットに命令を下す。
+	LesserFairy: 生命の王者の輝きに引き寄せられた妖精たちは、その命令を果たすこと以外には何も考えない。
+	LesserSquirrel: この小さな生き物はトロイの木馬を作るのに役立った。自らに小型爆薬が付いていることは知らない。
+	ShadowOrb: 力を集中させる闇の塊。彼らは主人に仕えるため、夜の帳を下ろし続ける。
+	ShadowOrbNPC: 力を集中させる闇の塊。彼らは主人に仕えるため、夜の帳を下ろし続ける。
+	TrojanSquirrel: リスのリスによるリスのために作られた木製のロボ！多くの土地から集めた木材で作られている。見た目よりもたくさんのリスが入ります。
+	GuardianOfAncientTreasures: 地中深くに潜み、宝石や貴金属の大群を嫉妬深く守っている。その鱗は石のように硬い。
+	CursedCoffin: 100を超える邪悪な魂が融合した心なき存在。道に迷った旅人の肉体を糧とし、その魂を自らに加える。
+	LifeChallenger: その核から放たれる輝きは、催眠術のように心を落ち着かせる。下等な生物を支配する存在で。その真なる姿を知覚することは誰にもできない。
+	Silhouette: 夜間は常に黒い霧に覆われて移動する、とらえどころのない存在。真の姿を晒すと敏感に反応する。
+	FrigidHydrangaea: この龍がごとき魔獣は凍った洞窟で冬眠し、挑発されたときだけ目を覚ます。本当にこの寒さの中で生きているのだろうか？
+	BanishedBaron: ヒエラルキーからはじき出され、その身を隠しながら自己修復を試みていたが、いまだ修復は不完全なままでその強さとスピードは取り戻せていない。
+	MagmaConstruct: この星の核を監督する者。星の主が不在の間、地下世界を支配している。有機的な部分を持たない。
+	TimberChampion: フォースをチャネリングすることで、この木製の仕掛けに素晴らしい力を与えている。しかし、コックピットにいるリスには見覚えがあるような？
+	TerraChampion: この巨大な蛇は頭脳だけまだ有機物のままである。だがその体は加護を受けた岩と金属に変身し生半可な攻撃を通すことは万に一つもない。
+	SpiritChampion: 失われていた魂は、力を吸収することで高い知性を取り戻した。だが知性を取り戻してもすぐに人間を食べるのをやめるわけではない。
+	LifeChampion: その羽は悪夢を追い払う祝福の遺物だと言われている。他の生命体を下に見ており、プライドが高い。
+	ShadowChampion: 他の生物のネガティブな感情を餌にする。その霧をひとたび吸えば悪夢に魘され、とこしえの眠りに落とされると言われている。
+	NatureChampion: この生物は巨大な植物によって故郷を追われてしまった。時折故郷に戻ろうかとも考えこそするが、もう寒さも苦にならないほどここにも馴染んでしまった。
+	WillChampion: 怒りに満ちている。強烈なパワーで攻撃し、怒りの力だけで攻撃に耐える。この名もなき存在はいったい何者なのか？
+	EarthChampion: フォースと合体することで、高いパワーを得た。この王者はマグマから噴出し、覇道を邪魔するものすべてに暴れまわる。
 	CosmosChampion: This noble warrior once travelled the stars in search of worthy opponents. It settled nearby after encountering a certain mutated trio.
 	DeviBoss: Casts spells of light and love using a living axe made of evil. She must be very lax about death, given she never fights that hard to protect a town.
 	AbomBoss: His blade divides the soul itself. All supernatural phenomena are his domain, but he doesn't use celestial attacks out of respect for Mutant.

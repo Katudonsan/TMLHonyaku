@@ -325,9 +325,9 @@ MessageInfo: {
 		Period: .
 	}
 
-	SiblingPylonNotNearSiblings: このパイロンが機能するには、兄弟となる別のパイロンが必要です
+	SiblingPylonNotNearSiblings: このパイロンが機能するには、別の兄弟パイロンが必要です
 	NearbySiblingPylonNotNearSiblings: 近くにいるパイロンが機能するためには、近くに別の兄弟パイロンが必要です
-	NewItemUnlocked: 新しい商品が {0}'s の店に入荷された！
+	NewItemUnlocked: 新しい商品が {0} の店に入荷された！
 	HaveAwoken: "{0} が目覚めた！"
 	CancelEvent: 襲撃者は去っていった！
 	CancelPumpkinMoon: パンプキンムーンは地平線の彼方に沈んでいく...
