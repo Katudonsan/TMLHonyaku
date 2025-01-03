@@ -24,10 +24,10 @@ Bestiary: {
 	NatureChampion: この生物は巨大な植物によって故郷を追われてしまった。時折故郷に戻ろうかとも考えこそするが、もう寒さも苦にならないほどここにも馴染んでしまった。
 	WillChampion: 怒りに満ちている。強烈なパワーで攻撃し、怒りの力だけで攻撃に耐える。この名もなき存在はいったい何者なのか？
 	EarthChampion: フォースと合体することで、高いパワーを得た。この王者はマグマから噴出し、覇道を邪魔するものすべてに暴れまわる。
-	CosmosChampion: This noble warrior once travelled the stars in search of worthy opponents. It settled nearby after encountering a certain mutated trio.
-	DeviBoss: Casts spells of light and love using a living axe made of evil. She must be very lax about death, given she never fights that hard to protect a town.
-	AbomBoss: His blade divides the soul itself. All supernatural phenomena are his domain, but he doesn't use celestial attacks out of respect for Mutant.
-	MutantBoss: The keeper of eternity. Ultimate power incarnate. Master of all with dominion over every aspect of combat. Perhaps it came from a world beyond that dimensional rift...
+	CosmosChampion: この高貴な戦士はかつて、自らにふさわしい相手を求めて星々を旅した。ところが、ある変異した不思議な3人組に遭遇した後、この近くに引っ越すことを決めた。
+	DeviBoss: 邪悪なものでできた生きた斧を使って光と愛の呪文を唱える。町を守るために必死に戦うことはないことから、彼女は死に対して非常に寛大なのだろう。
+	AbomBoss: 彼の刃は魂そのものを分裂させる。すべての超自然現象が彼の領域だが、ミュータントへの敬意から天空の攻撃は使わない。
+	MutantBoss: 永遠の番人。究極の力の化身。戦闘のあらゆる局面を支配する万能の支配者。おそらくそれは、あの次元の裂け目の向こうの世界からやってきたのだろう......
 }
 
 PetHeader: "[i:2420][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeader}]"
@@ -178,267 +178,267 @@ PetMLConfig: "[i:4810][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMLConfig}]"
 
 Buffs: {
 	TrojanSquirrelMountBuff: {
-		DisplayName: Trojan Squirrel
-		Description: You are riding a squirrel mech
+		DisplayName: トロイのリス
+		Description: あなたはリスのメカに乗っている
 	}
 
 	AccursedSarcophagusBuff: {
-		DisplayName: Accursed Sarcophagus
-		Description: It'll keep its hands off
+		DisplayName: 呪われた石棺
+		Description: 手を出さないままのほうがいい
 	}
 
 	BabyAbomBuff: {
-		DisplayName: Baby Abom
-		Description: Kickflipping on a scythe
+		DisplayName: バブミ…いやアボミ
+		Description: 鎌でキックフリップしている
 	}
 
 	BabySilhouetteBuff: {
-		DisplayName: Baby Silhouette
-		Description: Won't see the light until it's already grown up
+		DisplayName: 赤ちゃんのシルエット
+		Description: 大人になるまで光は見えない
 	}
 
 	BiteSizeBaronBuff: {
-		DisplayName: Bite-size Baron
-		Description: EX form not included
+		DisplayName: 一口サイズのバロン
+		Description: EXフォームは別売りです。
 	}
 
 	ChibiDeviBuff: {
-		DisplayName: Chibi Devi
-		Description: She's interested in 'you'
+		DisplayName: デビアントちゃん
+		Description: 彼女は『あなた』に興味がある
 	}
 
 	MutantSpawnBuff: {
-		DisplayName: Mutant Spawn
-		Description: Mutant Spawn
+		DisplayName: ミュータントの誕生
+		Description: ミュータントの誕生
 	}
 
 	SeekerOfTreasuresBuff: {
-		DisplayName: Seeker of Treasures
-		Description: Give it a few thousand years to grow up
+		DisplayName: 宝の探求者
+		Description: 成長するのに数千年かかる
 	}
 
 	NibbleBuff: {
-		DisplayName: Nibble
-		Description: Just one tiny bite (please)
+		DisplayName: つまみ食い
+		Description: ほんの一口だけです、どうかお願いします
 	}
 
 	MonkBuff: {
-		DisplayName: Meditation
-		Description: Your Monk Dash is ready
+		DisplayName: 瞑想
+		Description: モンクダッシュの準備完了
 	}
 
 	ObsidianLavaWetBuff: {
-		DisplayName: Lava Wet
-		Description: You are dripping lava
+		DisplayName: 溶岩塗れ
+		Description: あなたは溶岩を垂れ流している
 	}
 
 	TitaniumDRBuff: {
-		DisplayName: Titanium Shield
-		Description: You have extra damage resistance and resist most debuffs
+		DisplayName: チタンの防壁
+		Description: 追加のダメージ耐性を与え、ほとんどのデバフに耐える。
 	}
 
 	KingSlimeMinionBuff: {
-		DisplayName: Mini King Slime
-		Description: This Mini King Slime will protect you
+		DisplayName: 一口キングスライム
+		Description: この一口サイズのキングスライムはあなたを守ってくれる（食べられません）
 	}
 
 	DukeFishronBuff: {
-		DisplayName: Duke Fishron
-		Description: Duke Fishron will fight for you
+		DisplayName: デューク・フィッシュロン
+		Description: デューク・フィッシュロンがあなたのために戦ってくれる
 	}
 
 	RoombaPetBuff: {
-		DisplayName: Roomba
-		Description: This Roomba is following you
+		DisplayName: ルンバ
+		Description: ルンバがあなたを追いかけてくれる
 	}
 
 	DoveBuff: {
-		DisplayName: Dove
-		Description: A Dove is following you
+		DisplayName: 鳩
+		Description: 鳩があなたを追いかけてくれる
 	}
 
 	ChibiiRemiiBuff: {
-		DisplayName: Chibii Remii
-		Description: Devil 'Remilia Stretch'
+		DisplayName: チビレミ
+		Description: 悪魔「レミリア・ストレッチ」
 	}
 
 	PrimeMinionBuff: {
-		DisplayName: Mini Prime
-		Description: Skeletron Prime will fight for you
+		DisplayName: ミニプライム
+		Description: スケルトロン・プライムがあなたのために戦ってくれる
 	}
 
 	FishMinionBuff: {
-		DisplayName: Fish
-		Description: This fish will fight for you
+		DisplayName: おサカナ
+		Description: おいしい魚があなたのために戦ってくれる
 	}
 
 	CrimetroidBuff: {
-		DisplayName: Baby Crimetroid
-		Description: The Baby is following you
+		DisplayName: ベビークリメトロイド
+		Description: ベビークリメトロイドがあなたを追いかけてくれる
 	}
 
 	BerserkerInstallBuff: {
-		DisplayName: Berserker Install
-		Description: "'Get them! Berserker!'"
+		DisplayName: バーサーカー
+		Description: "'バーサーカーだ！捕まえろ！'"
 	}
 
 	BerserkerInstallCDBuff: {
-		DisplayName: Berserker Cooldown
-		Description: You cannot go berserk yet
+		DisplayName: バーサーカーのクールダウン
+		Description: 神は言っている、ここでバーサーカーする定めではないと。
 	}
 
 	BetsyDashBuff: {
-		DisplayName: Dash
-		Description: You're moving at high speed!
+		DisplayName: ダッシュ
+		Description: あなたはちょっと速すぎるかもしれない速度で動いている！
 	}
 
 	AbomFangBuff: {
-		DisplayName: Abominable Fang
-		Description: The power of Eternity Mode compels you
+		DisplayName: 忌まわしい牙
+		Description: エタニティモードの力があなたを駆り立てる
 	}
 
 	AbomPresenceBuff: {
-		DisplayName: Abominable Presence
-		Description: Defense, damage reduction, and life regen reduced; Moon Leech effect
+		DisplayName: 忌まわしい存在
+		Description: 防御力、ダメージ軽減、自然回復力が減少。
 	}
 
 	BaronsBurdenBuff: {
-		DisplayName: Baron's Burden
+		DisplayName: バロンの負荷
 		Description:
 			'''
-			Gravity heavily increased outside water
-			Breathe water but cannot breathe air
-			Improved underwater movement
+			水の外では重力が大きくなる。
+			水を吸うが、空気は吸えない
+			水中での動きが向上
 			'''
 	}
 
 	DeviPresenceBuff: {
-		DisplayName: Deviant Presence
-		Description: Friendly NPCs take massively increased damage
+		DisplayName: 逸脱した存在
+		Description: 味方NPCが受けるダメージが大幅に増加
 	}
 
 	GrabbedBuff: {
-		DisplayName: Grabbed
-		Description: Mash movement keys to escape!
+		DisplayName: つかまれてます
+		Description: 移動キーをガチャガチャして脱出する！
 	}
 
 	MutantFangBuff: {
-		DisplayName: Mutant Fang
-		Description: The power of Eternity Mode compels you
+		DisplayName: ミュータントの牙
+		Description: エタニティモードの力があなたを駆り立てる
 	}
 
 	MutantPresenceBuff: {
-		DisplayName: Mutant Presence
-		Description: Defense, damage reduction, and healing reduced; reduced graze radius; some accessory effects disabled
+		DisplayName: 変異した存在
+		Description: 防御力、ダメージ軽減、回復力が減少、かすり傷となる範囲が減少、一部のアクセサリー効果が無効化
 	}
 
 	HellFireBuff: {
-		DisplayName: Hell Fire
+		DisplayName: 地獄の炎
 		Description: Mods.FargowiltasSouls.BuffDescription.HellFireBuff
 	}
 
 	MagicalCleanseCDBuff: {
-		DisplayName: Magical Cleanse Cooldown
-		Description: You cannot cleanse debuffs yet
+		DisplayName: デバフ浄化のクールダウン
+		Description: デバフはまだ浄化できない
 	}
 
 	AbomCooldownBuff: {
-		DisplayName: Abominable Cooldown
-		Description: Cannot endure another attack yet
+		DisplayName: 忌まわしいクールダウン
+		Description: 次の攻撃にはまだ耐えられない
 	}
 
 	AbomRebirthBuff: {
-		DisplayName: Abominable Rebirth
-		Description: You cannot die unless struck
+		DisplayName: 忌まわしい復活
+		Description: 殴られない限り、死ぬことはない
 	}
 
 	AnticoagulationBuff: {
-		DisplayName: Anticoagulation
-		Description: Losing life, shed blood when hurt, enemies will drink it and grow stronger
+		DisplayName: 抗凝固作用
+		Description: 持続ダメージを受け、傷つけば血を流し、敵はそれを飲んで強くなる。
 	}
 
 	AntisocialBuff: {
-		DisplayName: Antisocial
-		Description: You have less friends and whip damage
+		DisplayName: 嫌われ者
+		Description: 友だちが減り、鞭のダメージも減る
 	}
 
 	AtrophiedBuff: {
-		DisplayName: Atrophied
-		Description: Your muscles are deteriorating
+		DisplayName: 萎縮
+		Description: あなたの筋肉が衰えている
 	}
 
 	BerserkedBuff: {
-		DisplayName: Berserked
-		Description: Increased offense, decreased defense, and you cannot control yourself
+		DisplayName: 狂暴化
+		Description: 攻撃関連のステータスが増え、守備関連のステータスが減る、自分をコントロールできなくなる。
 	}
 
 	BloodDrinkerBuff: {
-		DisplayName: Blood Drinker
-		Description: 30% increased damage
+		DisplayName: 血を飲む者
+		Description: 与えるダメージが30%増加する
 	}
 
 	BloodthirstyBuff: {
-		DisplayName: Bloodthirsty
-		Description: Hugely increased enemy spawn rate
+		DisplayName: 血に飢えている
+		Description: 敵のスポーン率が大幅に増加
 	}
 
 	BrainOfConfusionBuff: {
-		DisplayName: Cerebral Mindbreak
-		Description: 30% decreased damage dealt
+		DisplayName: 落ち込んでいる
+		Description: 与えるダメージが30％減少
 	}
 
 	ClippedWingsBuff: {
-		DisplayName: Clipped Wings
-		Description: You cannot fly or use rocket boots
+		DisplayName: 切り取られた翼
+		Description: 翼で飛んだり、ロケットブーツを使用することができない！
 	}
 
 	CrippledBuff: {
-		DisplayName: Crippled
-		Description: You cannot run
+		DisplayName: 病気
+		Description: あなたは走ることができない！
 	}
 
 	CurseoftheMoonBuff: {
-		DisplayName: Curse of the Moon
-		Description: The moon's wrath consumes you
+		DisplayName: 月の呪い
+		Description: 月の怒りがあなたを蝕む
 	}
 
 	DefenselessBuff: {
-		DisplayName: Defenseless
-		Description: Your guard is completely broken
+		DisplayName: 無防備
+		Description: 防御が完全に崩されている
 	}
 
 	FlamesoftheUniverseBuff: {
-		DisplayName: Flames of the Cosmos
-		Description: The heavens themselves have judged you
+		DisplayName: 宇宙の炎
+		Description: 天は自らあなたを裁いた
 	}
 
 	FlippedBuff: {
-		DisplayName: Flipped
-		Description: Your gravity is reversed
+		DisplayName: 重力反転
+		Description: あなたの重力が逆になっている
 	}
 
 	HallowIlluminatedBuff: {
-		DisplayName: Illuminated
+		DisplayName: イルミネーション状態
 		Description:
 			'''
-			Increased brightness and spawn rate
-			Damage taken and dealt increased in bright areas
+			明るさとスポーン率が向上
+			明るい場所で受けるダメージと与えるダメージが増加
 			'''
 	}
 
 	FusedBuff: {
-		DisplayName: Fused
-		Description: You're going out with a bang
+		DisplayName: 火縄
+		Description: あなたはバンと出て行く
 	}
 
 	GodEaterBuff: {
-		DisplayName: God Eater
-		Description: Your soul is cursed by divine wrath
+		DisplayName: 神喰い
+		Description: あなたの魂は怒れる神に呪われている
 	}
 
 	GuiltyBuff: {
-		DisplayName: Guilty
-		Description: Weapons dulled by the guilt of slaying innocent critters
+		DisplayName: 罪悪感
+		Description: 罪のない生き物を殺した罪悪感で攻撃が鈍る
 	}
 
 	HexedBuff: {
