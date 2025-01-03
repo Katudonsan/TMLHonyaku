@@ -1,0 +1,96 @@
+Keybinds: {
+	"Send map data": {
+		DisplayName: マップデータを送信
+	}
+
+	"Request map data": {
+		DisplayName: マップデータを要求
+	}
+
+	"Clear marked positions": {
+		DisplayName: マークした位置を全削除
+	}
+
+	"Mark second position": {
+		DisplayName: 次の位置をマークする
+	}
+
+	"Mark first position": {
+		DisplayName: 最初の位置をマークする
+	}
+}
+
+Configs: {
+	ClientConfig: {
+		DisplayName: ユーザー側設定
+
+		hidenotif: {
+			Label: チャットからのマップデータの送信・要求通知を非表示にする
+			Tooltip: ""
+		}
+	}
+
+	Config: {
+		DisplayName: 設定
+
+		shareInfo: {
+			Label: マップデータ自動同期
+			Tooltip: ""
+		}
+
+		allowdownloads: {
+			Label: プレイヤーが自由にマップデータをダウンロードできるようにする
+			Tooltip: ""
+		}
+
+		allowsending: {
+			Label: プレイヤーが自由にマップデータを送信できるようにする
+			Tooltip: ""
+		}
+
+		waittime: {
+			Label: 全マップ待機間隔 (ミリ秒単位)
+			Tooltip: プレイヤーがマップデータを共有する際に接続が切れたり、ヘッダーエラーが発生する場合は、この値を少し大きくしてください。
+		}
+
+		serverwaittime: {
+			Label: プレイヤーへの共有間隔 (ミリ秒単位)
+			Tooltip: サーバーが次のプレイヤーにマップデータを送信するのにかかる時間。プレイヤーの多いサーバーで、サーバーからの切断が発生している場合は、この値を大きくしてください。
+		}
+
+		seconds: {
+			Label: 共有の再試行までの時間 (秒単位)
+			Tooltip: ""
+		}
+
+		liveshareA: {
+			Label: 常時マップ共有（実験中）
+			Tooltip: 新しく探索されたエリアを自動的に共有する (問題が発生した場合は無効にしてください)
+		}
+
+		sharecooldown: {
+			Label: 送信のクールダウン (分単位)
+			Tooltip: ユーザーが再びマップデータを送信できるようになるまでに経過しなければならない時間
+		}
+
+		requestcooldown: {
+			Label: 要求のクールダウン (分単位)
+			Tooltip: ユーザーが再びマップデータを要求できるようになるまでに経過しなければならない時間
+		}
+	}
+
+	ShareInfo: {
+		Tooltip: ""
+
+		allowed: {
+			Label: 自動同期の有効化
+			Tooltip: ""
+		}
+
+		minutes: {
+			Label: 自動同期のインターバル (分単位)
+			Tooltip: 指定した時間が経過すると、自動的にマップデータを共有します。
+		}
+	}
+}
+

@@ -1,0 +1,42 @@
+Keybinds: {
+	PreviousPlayer: {
+		DisplayName: 前のプレイヤーを観戦する
+	}
+
+	NextPlayer: {
+		DisplayName: 次のプレイヤーを観戦する
+	}
+
+	Stop: {
+		DisplayName: 観戦を停止する
+	}
+}
+
+PlayerDead: 死亡したプレイヤーを観戦することはできない
+
+PlayerDifferentTeam: このプレイヤーはあなたとは別のチームに所属しているため観戦できません
+
+PlayerNotFound: 不明な理由によりご指定のプレイヤーが存在しなくなりました
+
+SpectateBoss: ボスを観戦する
+
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		Headers: {
+			Tweaks: 観戦モードの設定
+		}
+
+		RespawnSpectateOffToggle: {
+			Label: リスポーン時に観戦モードを終了
+			Tooltip: ""
+		}
+
+		SpectateOnDeath: {
+			Label: 死亡時に最も近いプレイヤーを観戦する
+			Tooltip: ""
+		}
+	}
+}
+
