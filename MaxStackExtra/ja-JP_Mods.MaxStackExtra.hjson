@@ -1,0 +1,34 @@
+Configs: {
+	MaxStackExtraConfig: {
+		TileStackValue: {
+			Tooltip: Configure the maximum stack size for tiles
+			Label: Maximum stack for tiles
+		}
+
+		ItemStackValue: {
+			Tooltip: Configure the maximum stack size for items.
+			Label: Maximum stack for items
+		}
+
+		DisplayName: Max Stack Extra Config
+
+		WeaponStackValue: {
+			Label: Maximum stack for weapons
+			Tooltip:
+				'''
+				Configure the maximum stack size for weapons.
+				[c/ff0000:WARNING: May break prefixes and internal item data.]
+				'''
+		}
+
+		EquipStackValue: {
+			Label: Maximum stack for equippables
+			Tooltip: Configure the maximum stack size for armor and accessories.
+		}
+
+		SpecialStackValue: {
+			Label: Maximum stack for special items
+			Tooltip: Configure the maximum stack size for unique items like the portable storage bags or items that require 1 stack to work.
+		}
+	}
+}

@@ -1,0 +1,25 @@
+Configs: {
+	Configuration: {
+		DisplayName: Configuration
+
+		NoTombstones: {
+			Label: No Tombstones
+			Tooltip: ""
+		}
+
+		NoDeathMessage: {
+			Label: No Death Message
+			Tooltip: ""
+		}
+
+		TownNPCTombs: {
+			Label: Town NPC Tombs
+			Tooltip: ""
+		}
+
+		NoTownNPCTombs: {
+			Label: No Town NPC Tombs
+			Tooltip: ""
+		}
+	}
+}
