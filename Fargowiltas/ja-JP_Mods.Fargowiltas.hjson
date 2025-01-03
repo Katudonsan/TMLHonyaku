@@ -2505,7 +2505,7 @@ NPCs: {
 			Normal20: I've heard tales of a legendary Diver... Anyway what was that about a giant jellyfish?
 			Normal21: Overloaded events...? Yeah, they're pretty cool.
 			Normal22: It's not like I don't enjoy your company, but can you buy something?
-			Canceled: ホーカスポーカス、イベントは終わったよ。
+			Canceled: イベントイベント飛んでいけ～！...ほ～ら、イベントが終わったよ！
 			CancelCD: 今は気分が乗らないから、{0}秒後にまた来てくれないかな。
 			NoEvent: 今停止可能なイベントはないと思うよ。
 		}
