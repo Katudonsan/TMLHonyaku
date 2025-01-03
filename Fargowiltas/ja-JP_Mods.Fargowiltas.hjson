@@ -2479,7 +2479,7 @@ NPCs: {
 			MutantShimmer: 彼はリスに変身したね。今まで見た中で一番面白いよ。
 			StyxArmor: どんな懐かしい鎧を着てるんだ...いや、もう似合わないよ。それは充電に時間がかかりすぎるし。
 			Graveyard: この辺に転がっている墓が全部、キミのものでないことを願うよ。
-			Mechanic: {0}に私のレーザーアームに触るのはやめてほしいって言ってもらえないかな？
+			Mechanic: "{0} に私のレーザーアームに触るのはやめてほしいって言ってもらえないかな？"
 			Formattable1: 鎌はどこで手に入れたんだっけ？ {0}
 			Formatter1PHM: 後で聞いてくれ。
 			Formatter1HM: そのうちわかるよ。
@@ -2506,7 +2506,7 @@ NPCs: {
 			Normal21: Overloaded events...? Yeah, they're pretty cool.
 			Normal22: It's not like I don't enjoy your company, but can you buy something?
 			Canceled: イベントイベント飛んでいけ～！...ほ～ら、イベントが終わったよ！
-			CancelCD: 今は気分が乗らないから、{0}秒後にまた来てくれないかな。
+			CancelCD: 今は気分が乗らないから、 {0} 秒後にまた来てくれないかな。
 			NoEvent: 今停止可能なイベントはないと思うよ。
 		}
 
