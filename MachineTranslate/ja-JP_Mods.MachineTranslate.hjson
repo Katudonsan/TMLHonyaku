@@ -1,0 +1,279 @@
+Keybinds: {
+	Translate: {
+		DisplayName: 翻訳を実行
+	}
+
+	OpenWebsite: {
+		DisplayName: 翻訳サイトを開く
+	}
+}
+
+TypeHere: ここに入力
+
+TransResult: 翻訳: {0}
+
+TransTooltip: 翻訳するには {0} を押す
+
+Translating: 翻訳中...
+
+TransFailed: 翻訳に失敗しました。再試行するか、翻訳APIを変更してください。 {0} を押すと再度翻訳できます。
+
+Commands: {
+	TranslateCommand: {
+		Description: 指定されたテキストを翻訳し、クリップボードに追加します。
+		Usage:
+			'''
+			/trans <content>
+			content - 翻訳するテキスト
+			NOTE: 言語名ではなく、言語コードを指定する必要があります。en"、"zh"、"ru "など。
+			'''
+	}
+
+	WebsiteCommand: {
+		Description: 設定で選択した翻訳サイトのページを開きます。
+		Usage: /tweb
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: コンフィグ
+
+		TranslateApi: {
+			Label: 翻訳API
+			Tooltip: エラーが発生した場合は、翻訳APIを変更してみてください。
+		}
+
+		CustomTargetLang: {
+			Label: カスタムターゲット言語
+			Tooltip: "en"、"zh"、"ru "などのファイルコードを入力してください。日本語の場合は"ja"です。
+		}
+
+		Headers: {
+			Google: Google翻訳
+			Bing: Bing翻訳
+			Baidu: Baidu翻訳
+			Caiyun: Caiyun翻訳
+			Proxy: プロキシ設定
+			Common: 一般設定
+			Monitor: 自動検出設定
+		}
+
+		UseMirror: {
+			Label: ミラーサイトの利用
+			Tooltip: Google翻訳の公式サイトにアクセスできない場合は、ミラーサイトを使ってみてください。
+		}
+
+		MirrorUrl: {
+			Label: ミラーサイトのURL
+			Tooltip: ミラーサイトのアドレスを入力してください。
+		}
+
+		GooglePortal: {
+			Label: Google翻訳アクセシビリティ・ソリューション
+			Tooltip: (中国語のみ）ウェブブラウザ用のhuacifanyiプラグインの記事。
+		}
+
+		BingSourceLang: {
+			Label: ソース言語
+			Tooltip: Bing Translate APIは言語の自動検出をサポートしていません。"en"、"zh"、"ru "などのファイルコードを入力してください。
+		}
+
+		BingTranAppId: {
+			Label: アプリID
+			Tooltip: Bing Translate APIのAPIキーを提供する必要があります。Azure Platformで申請できます。
+		}
+
+		BaiduTranAppId: {
+			Label: アプリID
+			Tooltip: Baidu Translate APIのAPIキーを提供する必要があります。百度翻訳プラットフォームで申請できます。
+		}
+
+		BaiduTranSecretKey: {
+			Label: シークレットキー
+			Tooltip: Baidu Translate APIのシークレットキーを提供する必要があります。百度翻訳プラットフォームで申請できます。
+		}
+
+		BaiduPortal: {
+			Label: Baidu翻訳プラットフォーム
+			Tooltip: APIキーはこちらから申請できます。
+		}
+
+		BaiduTutorialPortal: {
+			Label: Baidu翻訳APIアプリケーションチュートリアル
+			Tooltip: (中国語のみ）Webブラウザ用huacifanyiプラグインの記事、百度翻訳APIを適用する方法を教えてくれます。
+		}
+
+		CaiyunTranToken: {
+			Label: アクセストークン
+			Tooltip: ""
+		}
+
+		CaiyunPortal: {
+			Label: Caiyun翻訳プラットフォーム
+			Tooltip: トークンの申請はこちらから。
+		}
+
+		CaiyunTutorialPortal: {
+			Label: Caiyun翻訳APIアプリケーションチュートリアル
+			Tooltip: (中国語のみ）Webブラウザ用huacifanyiプラグインの記事。
+		}
+
+		UseProxy: {
+			Label: プロキシモード
+			Tooltip: ""
+		}
+
+		Ip: {
+			Label: ホストネーム
+			Tooltip: ""
+		}
+
+		Host: {
+			Label: ポートナンバー
+			Tooltip: ""
+		}
+
+		UseCredential: {
+			Label: プロキシ認証
+			Tooltip: ""
+		}
+
+		Username: {
+			Label: ユーザーネーム
+			Tooltip: ""
+		}
+
+		Password: {
+			Label: パスワード
+			Tooltip: ""
+		}
+
+		OpenFile: {
+			Label: コンフィグファイルを開く
+			Tooltip: コンフィギュレーション・オプションは、一度変更された場合のみファイルに表示されます。
+		}
+
+		UsualLangCodePortal: {
+			Label: 一般言語コード
+			Tooltip: ""
+		}
+
+		AllLangCodePortal: {
+			Label: すべての言語コード
+			Tooltip: ""
+		}
+
+		TranslateWebsite: {
+			Label: 翻訳ウェブサイト
+			Tooltip: 特定のキーバインドを押した後、またはコマンドを入力した後に開くウェブサイトです。
+		}
+
+		UseSteamBrowser: {
+			Label: Steamブラウザを使用する
+			Tooltip: デフォルトのブラウザではなく、Steamの内蔵ブラウザを使って翻訳サイトを開きます。
+		}
+
+		AutoTranslateChat: {
+			Label: チャットメッセージを自動翻訳
+			Tooltip: チャットを自動的に翻訳するかどうか、独自のAPIキーを使用している場合は、使用量に注意してください。
+		}
+
+		MonitorText: {
+			Label: 表示テキストの検出
+			Tooltip: マウスがテキスト上にあるかどうかを自動検出します。そうであれば、テキストを翻訳するためにキーバインドを押すことができます。
+		}
+
+		MonitorTooltipDisplay: {
+			Label: 検出されたツールチップの表示
+			Tooltip: テキスト上にマウスカーソルを置いたときに、ツールチップ「翻訳するには[keybind]を押す」を表示します。
+		}
+
+		TranslatedTextTooltip: {
+			Label: 翻訳されたテキストをツールチップに表示する
+			Tooltip: 翻訳されたテキストをツールチップに表示します。MODの競合がある場合はオフにしてみてください。
+		}
+
+		OpenCachedTextFile: {
+			Label: 翻訳キャッシュファイルを開く
+			Tooltip:
+				'''
+				繰り返しのAPIコールを減らすために、すべての翻訳されたテキストが含まれています
+				ファイルを編集して手動で翻訳を修正することもできます。
+				'''
+		}
+	}
+
+	TransApi: {
+		Tooltip: ""
+
+		Bing: {
+			Label: Bing (API Key Required)
+		}
+
+		Google: {
+			Label: Google (Recommended)
+		}
+
+		Baidu: {
+			Label: Baidu (API Key Required)
+		}
+
+		Caiyun: {
+			Label: Caiyun (Token Required)
+		}
+
+		CaiyunNoToken: {
+			Label: Caiyun (No Token Required)
+		}
+
+		Tencent: {
+			Label: Tencent (No Token Required)
+		}
+
+		Volcengine: {
+			Label: Volcengine (No Token Required)
+		}
+	}
+
+	Proxy: {
+		Tooltip: ""
+
+		Default: {
+			Label: Default
+		}
+
+		Http: {
+			Label: HTTP
+		}
+
+		Socks: {
+			Label: SOCKS
+		}
+
+		No: {
+			Label: Don't use
+		}
+	}
+
+	TransWebsite: {
+		Tooltip: ""
+
+		DeepL: {
+			Label: DeepL
+		}
+
+		Bing: {
+			Label: Bing
+		}
+
+		Google: {
+			Label: Google
+		}
+
+		Baidu: {
+			Label: Baidu
+		}
+	}
+}
+
