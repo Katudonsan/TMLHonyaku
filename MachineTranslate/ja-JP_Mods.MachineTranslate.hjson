@@ -46,7 +46,7 @@ Configs: {
 
 		CustomTargetLang: {
 			Label: カスタムターゲット言語
-			Tooltip: "en"、"zh"、"ru "などのファイルコードを入力してください。日本語の場合は"ja"です。
+			Tooltip: 「en」、「zh」、「ru」などのファイルコードを入力してください。日本語の場合は「ja」です。
 		}
 
 		Headers: {
