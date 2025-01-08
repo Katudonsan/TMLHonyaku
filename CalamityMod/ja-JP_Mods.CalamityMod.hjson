@@ -2680,29 +2680,29 @@ Biomes: {
 	Abyss: 深淵
 	AstralInfection: アストラル汚染地帯
 	AstralSnow: アストラルの雪原
-	BrimstoneCrags: 地獄の岩山
+	BrimstoneCrags: 硫黄の岩山
 	SulphurousSea: 硫黄の海
 	SunkenSea: 沈没海
 
 	AstralDesert: {
-		DisplayName: アストラル汚染砂漠
-		TownNPCDialogueName: アストラル汚染砂漠
-		$parentVal: アストラル汚染砂漠
+		DisplayName: Astral Desert Surface
+		TownNPCDialogueName: Astral Desert
+		$parentVal: アストラルの砂漠
 	}
 
 	AstralBiome: {
-		DisplayName: アストラル汚染地帯
-		TownNPCDialogueName: アストラル汚染地帯
+		DisplayName: Astral Infection
+		TownNPCDialogueName: Astral Infection
 	}
 
 	AstralInfectionBiome: {
-		DisplayName: アストラル汚染地帯
-		TownNPCDialogueName: アストラル汚染地帯
+		DisplayName: Astral Infection
+		TownNPCDialogueName: Astral Infection
 	}
 
 	AstralIce: {
-		DisplayName: アストラルに汚染された雪原
-		TownNPCDialogueName: アストラルに汚染された雪原
+		DisplayName: Astral Ice
+		TownNPCDialogueName: Astral Snow
 	}
 
 	AbyssLayer1Biome: {
@@ -2736,8 +2736,8 @@ Biomes: {
 	}
 
 	BrimstoneCragsBiome: {
-		DisplayName: 地獄の岩山
-		TownNPCDialogueName: 地獄の岩山
+		DisplayName: 硫黄の岩山
+		TownNPCDialogueName: 硫黄の岩山
 	}
 
 	SulphurousSeaBiome: {
@@ -2751,13 +2751,13 @@ Biomes: {
 	}
 
 	AstralUnderground: {
-		DisplayName: アストラルに汚染された地下
-		TownNPCDialogueName: アストラルに汚染された地下
+		DisplayName: Astral Underground
+		TownNPCDialogueName: Underground Astral Infection
 	}
 
 	AstralCaveDesert: {
-		DisplayName: アストラルに汚染された地下砂漠
-		TownNPCDialogueName: アストラルに汚染された地下砂漠
+		DisplayName: Astral Cave Desert
+		TownNPCDialogueName: the Astral Cave Desert
 	}
 
 	AbovegroundAstralBiome: {
@@ -2771,17 +2771,17 @@ Biomes: {
 	}
 
 	AbovegroundAstralDesertBiome: {
-		DisplayName: アストラル汚染砂漠
-		TownNPCDialogueName: アストラル汚染砂漠
+		DisplayName: アストラルの砂漠の地上
+		TownNPCDialogueName: アストラルの砂漠
 	}
 
 	AbovegroundAstralSnowBiome: {
-		DisplayName: アストラル汚染雪原
-		TownNPCDialogueName: アストラル汚染雪原
+		DisplayName: アストラルの雪原の地上
+		TownNPCDialogueName: アストラルの雪原
 	}
 
 	UndergroundAstralBiome: {
-		DisplayName: アストラルに汚染された地下
+		DisplayName: アストラルの地下
 		TownNPCDialogueName: アストラル汚染地帯の地下
 	}
 }
@@ -2825,7 +2825,7 @@ BossChecklistIntegration: {
 	}
 
 	BrimstoneElemental: {
-		SpawnInfo: 地獄の岩山かアザフレで [i:CalamityMod/CharredIdol] を使う
+		SpawnInfo: 硫黄の岩山かアザフレで [i:CalamityMod/CharredIdol] を使う
 		DespawnMessage: "[c/DC143C:そのエレメンタルは、アザフレを見守りつづけている...]"
 	}
 
@@ -9250,7 +9250,7 @@ Items: {
 		}
 
 		CragsPylon: {
-			DisplayName: 地獄の岩山のパイロン (Crags Pylon)
+			DisplayName: 硫黄の岩山のパイロン (Crags Pylon)
 			Tooltip:
 				'''
 				別のパイロンにテレポートする
@@ -9973,7 +9973,8 @@ Items: {
 			DisplayName: 不滅の蝋燭 (Resilient Candle)
 			Tooltip:
 				'''
-				配置された状態で右クリックすると、ダメージ軽減率が10%増加し、難易度が上がるほど強化される
+				配置された状態で右クリックすると、ダメージ軽減率が15%増加する
+				(Classicでは60%、Expertでは85%、Masterでは110%)
 				シールスが売っている他の蝋燭のバフとは効果が重複しない
 				「雨だろうが風だろうが、その不滅の炎を消すことはできない」
 				'''
@@ -13151,7 +13152,7 @@ Items: {
 			DisplayName: 赤ワイン (Red Wine)
 			Tooltip:
 				'''
-				15秒間自然回復効果が毎秒0.5減少する
+				HPを100回復する代わりに、15秒間自然回復効果が毎秒0.5減少する
 				同時に3種類以上の酒を飲むと肝臓に悪影響を及ぼすかもしれない
 				[c/B00BA5:「私の好みではないわ、辛すぎるもの」]
 				'''
@@ -13249,7 +13250,7 @@ Items: {
 
 	Fishing: {
 		CaughtInAstral: "'アストラル汚染地帯で釣れる'"
-		CaughtInBrimstoneCrag: "'地獄の岩山で釣れる'"
+		CaughtInBrimstoneCrag: "'硫黄の岩山で釣れる'"
 		CaughtInSunkenSea: "'沈没海で釣れる'"
 
 		AldebaranAlewife: {
@@ -13665,8 +13666,8 @@ Items: {
 			DisplayName: 黒焦げの偶像 (Charred Idol)
 			Tooltip:
 				'''
-				地獄の岩山で使用すると、ブリムストーンエレメンタルを召喚する
-				地獄の岩山の外に出ると発狂する
+				硫黄の岩山で使用すると、ブリムストーンエレメンタルを召喚する
+				硫黄の岩山の外に出ると発狂する
 				消費されない
 				「彼女の視線の下にあるものはすべて、跡形もなく焦土と化すだろう」
 				'''
@@ -22062,14 +22063,14 @@ NPCs: {
 			GolemDefeated2: 深淵は以前にも増して活発になっている。火山性の素材を採掘できるかもしれぬぞ。
 			GolemDefeated3: ジャングルに蔓延する疫病は、通常のものとは明らかに違う。遠目には何の変哲もないように見えるが、よく見ると感染した生物は、光や金属の装甲をまとっていることがわかる。これは...自然のものではない。
 			Hardmode1: 古いアイテムを保存しておくことを勧める。将来、それらを強力な武器に改造できるかもしれぬからな。
-			Hardmode2: 偶像を地獄の岩山に持っていけば、闇の中に潜むものが見えるかもしれぬ。
-			Hardmode3: 地獄の岩山に築かれた都市アザフレは、ヤリムの戦争を最初に支持した場所の一つだった。だが今では廃墟に過ぎぬ...一体そこでは何が起こったのだろうか...
+			Hardmode2: 偶像を硫黄の岩山に持っていけば、闇の中に潜むものが見えるかもしれぬ。
+			Hardmode3: 硫黄の岩山に築かれた都市アザフレは、ヤリムの戦争を最初に支持した場所の一つだった。だが今では廃墟に過ぎぬ...一体そこでは何が起こったのだろうか...
 			Hardmode4: もし自動人形を動かすための魂を集めたなら、再びジャングルへ向かうがよい。そこには強力な敵がおり、それを倒せばジャングルの猛威が解き放たれるであろう。軽んじてはならぬ。
 			Hardmode5: プランテラとゴーレムを倒す際には注意せよ。ジャングルに新たな脅威が解き放たれ、それを鎮める必要があるかもしれぬ。
 			Hardmode6: ジャングルの寺院を探る時には気をつけよ。トカゲ族の偶像、ゴーレムは安易に目覚めさせるべきではない。それは破壊的な力を持っておるぞ。
 			Hardmode7: パーマフロストの名を聞いたことがあるか？彼はかつてヤリムの助言者であったが、ある日忽然と姿を消し、その後カラミタスもヤリムの陣営を離れた。聞くところによると、パーマフロストは彼女にとって父のような存在であったという。もし彼の失踪に彼女が関与しているのであれば、彼はまだ生きておるかもしれぬ...
 			PreHardmode1: 隠された鉱石が眠っているという噂がある。特定のボスを倒すことで、それらを隠している古代の魔法が解けるだろう。
-			PreHardmode2: 地獄の岩山にある都市を聞いたことがあるか？それは地底世界に建設され、深淵の下に存在している。それはかつて世界で最も古く、最大の都市だったが、今では危険しかないようだ。近づかない方が賢明だろう。
+			PreHardmode2: 硫黄の岩山にある都市を聞いたことがあるか？それは地底世界に建設され、深淵の下に存在している。それはかつて世界で最も古く、最大の都市だったが、今では危険しかないようだ。近づかない方が賢明だろう。
 			PreHardmode3: 深淵には、瞬く間に汝を食らう強力な生物が潜んでおる。まずはダンジョンを探索すべきだ。
 			PreHardmode4: 硫黄の海は危険だ。毒の水が汝の皮膚を焼くだろうが、もし耐えることができれば、深淵へ到達できるであろう。そこには強力な武器と多数の危険が待ち受けておる。
 			PreHardmode5: 硫黄の海は千年以上前に形成されたが、ここ数十年で本当に耐え難いものとなった。あの憎きドレイドンが、廃棄物や放棄されたプロジェクトを常にそこに投棄しているせいで、今やかつてないほどに汚れておる。
