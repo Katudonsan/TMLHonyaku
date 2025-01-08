@@ -2841,7 +2841,7 @@ UI: {
 			NoGravity: 重力の影響を受けない
 			NoTileCollide: ブロック衝突を無効化
 			KnockBackResist: ノックバック係数
-			AIStyle: AIスブロック
+			AIStyle: AIスタイル
 		}
 	}
 
