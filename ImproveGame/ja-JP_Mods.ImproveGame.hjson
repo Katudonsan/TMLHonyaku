@@ -1577,7 +1577,7 @@ Tips: {
 	AmmoChain: "[centeritem:ImproveGame/AmmoChainItem]弾薬チェーン: "
 	ShimmerInto: "シマーに入れると: "
 	ShimmerIntoWithStack: "すべての{0}をシマーに入れると: "
-	ShimmerIntoWithCoinLuck: シマーにこれを入れると{0}の運を得る
+	ShimmerIntoWithCoinLuck: シマーにこれを入れると一時的に{0}の運を得る
 	PrefixCount: "リフォージカウント: "
 	AnglerQuest: 釣り人のクエストがリフレッシュされました
 	FromMod: "【{DisplayName}】"
@@ -2189,7 +2189,7 @@ Items: {
 	}
 
 	GlobeBase: {
-		DisplayName: "{0} 探知機 ({0} Locator)"
+		DisplayName: "{0}探知機"
 		Tooltip: "{0} をマップにマークします"
 		AlreadyRevealed: "{0} は既にマークされています"
 		Reveal: "{1} は {0} をマップにマークしました"
