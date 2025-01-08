@@ -1,0 +1,132 @@
+Configs: {
+	CompatConfig: {
+		DisplayName: クライアント設定
+
+		DrawEnabledModListOnMainMenu: {
+			Label: メインメニューに有効なModリストを表示
+			Tooltip: 有効にすると、メインメニューに有効なModのリストが表示されます。
+		}
+
+		EnabledModListShowVersions: {
+			Label: 有効なModリストにバージョンを表示
+			Tooltip: 有効にすると、有効なModリストに各Modのバージョンが表示されます。
+		}
+
+		ShowRecommendedFixes: {
+			Label: 互換性Modを推奨
+			Tooltip: チェッカーが検出した互換性問題を解決するための推奨Modを表示します。
+		}
+
+		ShowModDonationLink: {
+			Label: Modの寄付リンクを表示
+			Tooltip: 有効にすると、Modの寄付リンクが表示されます。
+		}
+
+		DisplayGitHubIssues: {
+			Label: GitHubのIssuesを表示
+			Tooltip:
+				'''
+				検出された互換性問題に関連するGitHubのIssuesをリストアップします。
+				[c/F2A754:Mod開発者向け]
+				'''
+		}
+
+		ListLocalMods: {
+			Label: ローカルModをリスト表示
+			Tooltip:
+				'''
+				ModリストUIにローカルMod（Steamワークショップ以外のMod）の表示を切り替えます。
+				[c/F2A754:Mod開発者向け]
+				'''
+		}
+
+		Headers: {
+			Preferences: 設定
+			DeveloperOptions: 開発者オプション [c/F2A754:(上級者向け)]
+			Checks: 有効なチェック項目
+		}
+
+		CheckMultiplayerCompat: {
+			Label: マルチプレイヤーサポート
+			Tooltip: Modがマルチプレイヤーに対応しているかどうかを確認します。
+		}
+	}
+}
+
+Errors: {
+	Maintenance:
+		'''
+		現在、サーバーはメンテナンス中です！
+		後でもう一度お試しください。
+		'''
+	Unknown:
+		'''
+		サーバーとの通信中にエラーが発生しました！
+		VPNを利用して後でもう一度お試しください。
+		'''
+}
+
+UI: {
+	EnabledMods: "[c/99E550:有効なMod] [c/A49DAE:(互換性チェッカーによって追加)]"
+	MoreMods: ... 他に{0}件 [c/A49DAE:(すべて表示するにはShiftキーを押してください)]"
+	LocalModDescriptor: " [c/A49DAE:(ローカル)]"
+	BackToMainMenuButton: メインメニューに戻る
+	BackToMainMenuTooltip: クリックするとメインメニューに戻ります
+	HelpContributeButton: データの修正に協力する ⛬
+	CompatibilityNoteSmallWidth:
+		'''
+		注意: 互換性情報は目安であり、
+		古いまたは不正確な場合があります。
+		'''
+	CompatibilityNote: 注意: 互換性情報は目安であり、古いまたは不正確な場合があります。
+	Loading: 読み込み中
+	VerifiedMPCompatibleCount: "{0} {^0:Mod;Mod} はマルチプレイヤーに対応済み ✓"
+	MultiplayerCompatibleMods: "[c/FFFFFF:マルチプレイヤー対応Mod]"
+	MPUnstableCount: "{0} {^0:Mod;Mod} はマルチプレイヤーでの動作が不安定です ⚠"
+	ModsUnstableInMultiplayer: "[c/FFFFFF:マルチプレイヤーでの動作が不安定なMod]"
+	MPIncompatibleCount: "{0} {^0:Mod;Mod} がマルチプレイヤーで非対応 ✘"
+	MultiplayerIncompatibleMods: "[c/FFFFFF:マルチプレイヤーで非対応のMod]"
+	PotentialIssuesCount: "{0} 件の潜在的な {^0:問題;問題} ❗"
+	NoIssues: 問題は検出されませんでした！ ✓
+	NoChecksEnabled: チェックが有効になっていません！設定を確認してください
+	CheckingMPSupport: "[c/FFFFFF:確認中] [c/BDB8C4:マルチプレイヤーサポート]"
+	NoDataLocalModsCount: "{0} 件のローカル {^0:Mod;Mod} にデータがありません ❓"
+	LocalMods: "[c/FFFFFF:ローカルMod (ワークショップ以外)]"
+	RecommendedAddons:
+		'''
+
+		  [c/BDB8C4:- 推奨互換性アドオン: 
+		'''
+	RelevantGitHubIssues:
+		'''
+
+		  [c/BDB8C4:- 関連するGitHubの問題: 
+		'''
+	HelpContributeTooltip:
+		'''
+		エラーや不足している情報を見つけましたか？フィードバックにご協力ください！
+		[c/7F8CFF:{0}]
+		'''
+	LeftClickShowTmodFile:
+		'''
+
+		[c/BDB8C4:.tmodファイルを表示するには左クリック]
+		'''
+	RightClickOpenModSourceFolder:
+		'''
+
+		[c/BDB8C4:Modのソースフォルダを開くには右クリック]
+		'''
+	LeftClickOpenWorkshopPage:
+		'''
+
+		[c/BDB8C4:ワークショップページを開くには左クリック]
+		'''
+	DonationTooltip:
+		'''
+		このModを存続させるために支援にご協力ください！
+		[c/BDB8C4:最新のプロジェクトやアップデートはこちらをご覧ください！]
+		[c/BDB8C4:(これらは設定で無効にできます。)]
+		'''
+}
+
