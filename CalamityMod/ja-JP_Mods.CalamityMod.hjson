@@ -2685,24 +2685,24 @@ Biomes: {
 	SunkenSea: 沈没海
 
 	AstralDesert: {
-		DisplayName: Astral Desert Surface
-		TownNPCDialogueName: Astral Desert
-		$parentVal: アストラルの砂漠
+		DisplayName: アストラル汚染砂漠
+		TownNPCDialogueName: アストラル汚染砂漠
+		$parentVal: アストラル汚染砂漠
 	}
 
 	AstralBiome: {
-		DisplayName: Astral Infection
-		TownNPCDialogueName: Astral Infection
+		DisplayName: アストラル汚染地帯
+		TownNPCDialogueName: アストラル汚染地帯
 	}
 
 	AstralInfectionBiome: {
-		DisplayName: Astral Infection
-		TownNPCDialogueName: Astral Infection
+		DisplayName: アストラル汚染地帯
+		TownNPCDialogueName: アストラル汚染地帯
 	}
 
 	AstralIce: {
-		DisplayName: Astral Ice
-		TownNPCDialogueName: Astral Snow
+		DisplayName: アストラルに汚染された雪原
+		TownNPCDialogueName: アストラルに汚染された雪原
 	}
 
 	AbyssLayer1Biome: {
@@ -2751,13 +2751,13 @@ Biomes: {
 	}
 
 	AstralUnderground: {
-		DisplayName: Astral Underground
-		TownNPCDialogueName: Underground Astral Infection
+		DisplayName: アストラルに汚染された地下
+		TownNPCDialogueName: アストラルに汚染された地下
 	}
 
 	AstralCaveDesert: {
-		DisplayName: Astral Cave Desert
-		TownNPCDialogueName: the Astral Cave Desert
+		DisplayName: アストラルに汚染された地下砂漠
+		TownNPCDialogueName: アストラルに汚染された地下砂漠
 	}
 
 	AbovegroundAstralBiome: {
@@ -2771,17 +2771,17 @@ Biomes: {
 	}
 
 	AbovegroundAstralDesertBiome: {
-		DisplayName: アストラルの砂漠の地上
-		TownNPCDialogueName: アストラルの砂漠
+		DisplayName: アストラル汚染砂漠
+		TownNPCDialogueName: アストラル汚染砂漠
 	}
 
 	AbovegroundAstralSnowBiome: {
-		DisplayName: アストラルの雪原の地上
-		TownNPCDialogueName: アストラルの雪原
+		DisplayName: アストラル汚染雪原
+		TownNPCDialogueName: アストラル汚染雪原
 	}
 
 	UndergroundAstralBiome: {
-		DisplayName: アストラルの地下
+		DisplayName: アストラルに汚染された地下
 		TownNPCDialogueName: アストラル汚染地帯の地下
 	}
 }
