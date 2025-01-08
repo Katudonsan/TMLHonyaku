@@ -25,7 +25,7 @@ Commands: {
 			'''
 			/trans <content>
 			content - 翻訳するテキスト
-			NOTE: 言語名ではなく、言語コードを指定する必要があります。en"、"zh"、"ru "など。
+			NOTE: 言語名ではなく、言語コードを指定する必要があります。「en」、「zh」、「ru」など。
 			'''
 	}
 
@@ -45,7 +45,7 @@ Configs: {
 		}
 
 		CustomTargetLang: {
-			Label: カスタムターゲット言語
+			Label: 翻訳先の言語
 			Tooltip: 「en」、「zh」、「ru」などのファイルコードを入力してください。日本語の場合は「ja」です。
 		}
 
