@@ -8264,7 +8264,7 @@ Items: {
 
 	Misc: {
 		AndroombaItem: {
-			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
+			DisplayName: "{$Mods.CalamityMod.NPCs.Androomba.DisplayName} ({$Mods.CalamityMod.NPCs.Androomba.DisplayName})"
 			Tooltip:
 				'''
 				 <right>を押すと、溶液を挿入する
@@ -8273,17 +8273,17 @@ Items: {
 		}
 
 		BabyCannonballJellyfishItem: {
-			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
+			DisplayName: "{$Mods.CalamityMod.NPCs.BabyCannonballJellyfish.DisplayName} ({$Mods.CalamityMod.NPCs.BabyCannonballJellyfish.DisplayName})"
 			Tooltip: ""
 		}
 
 		BabyFlakCrabItem: {
-			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
+			DisplayName: "{$Mods.CalamityMod.NPCs.BabyFlakCrab.DisplayName} ({$Mods.CalamityMod.NPCs.BabyFlakCrab.DisplayName})"
 			Tooltip: ""
 		}
 
 		BabyGhostBellItem: {
-			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
+			DisplayName: "{$Mods.CalamityMod.NPCs.BabyGhostBell.DisplayName} ({$Mods.CalamityMod.NPCs.BabyGhostBell.DisplayName})"
 			Tooltip: ""
 		}
 
@@ -8293,7 +8293,7 @@ Items: {
 		}
 
 		NanodroidItem: {
-			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
+			DisplayName: "{$Mods.CalamityMod.NPCs.Nanodroid.DisplayName} ({$Mods.CalamityMod.NPCs.Nanodroid.DisplayName})"
 			Tooltip: ""
 		}
 
@@ -8308,22 +8308,22 @@ Items: {
 		}
 
 		PiggyItem: {
-			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
+			DisplayName: "{$Mods.CalamityMod.NPCs.Piggy.DisplayName} ({$Mods.CalamityMod.NPCs.Piggy.DisplayName})"
 			Tooltip: ""
 		}
 
 		RepairUnitItem: {
-			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
+			DisplayName: "{$Mods.CalamityMod.NPCs.RepairUnitCritter.DisplayName} ({$Mods.CalamityMod.NPCs.RepairUnitCritter.DisplayName})"
 			Tooltip: ""
 		}
 
 		SeaMinnowItem: {
-			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
+			DisplayName: "{$Mods.CalamityMod.NPCs.SeaMinnow.DisplayName} ({$Mods.CalamityMod.NPCs.SeaMinnow.DisplayName})"
 			Tooltip: ""
 		}
 
 		TwinklerItem: {
-			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
+			DisplayName: "{$Mods.CalamityMod.NPCs.Twinkler.DisplayName} ({$Mods.CalamityMod.NPCs.Twinkler.DisplayName})"
 			Tooltip: ""
 		}
 
