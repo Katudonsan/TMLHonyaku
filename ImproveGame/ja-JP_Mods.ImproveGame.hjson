@@ -154,7 +154,7 @@ ModernConfig: {
 
 	PlayerAbility: {
 		Label: プレイヤーの能力
-		Tooltip: タイル配置範囲の拡張、復活時に体力全快、死亡時のバフ保持、鉱石の一括採掘など、プレイヤー能力を強化します。
+		Tooltip: ブロック配置範囲の拡張、復活時に体力全快、死亡時のバフ保持、鉱石の一括採掘など、プレイヤー能力を強化します。
 	}
 
 	Multiplayer: {
@@ -270,20 +270,20 @@ Configs: {
 		}
 
 		ModifyPlayerPlaceSpeed: {
-			Label: "[centeritem:2214] タイルの配置速度を向上"
+			Label: "[centeritem:2214] ブロックの配置速度を向上"
 			Tooltip: ""
 		}
 
 		ModifyPlayerTileRange: {
-			Label: "[centeritem:2215] タイルの配置範囲を向上"
+			Label: "[centeritem:2215] ブロックの配置範囲を向上"
 			Tooltip: ""
 		}
 
 		TileSpeed_Blacklist: {
-			Label: "[centeritem:1448] タイル配置速度向上のブラックリスト"
+			Label: "[centeritem:1448] ブロック配置速度向上のブラックリスト"
 			Tooltip:
 				'''
-				タイルの名前に以下のテキストが含まれている場合、タイルの配置速度と配置範囲は増加しません
+				ブロックの名前に以下のテキストが含まれている場合、ブロックの配置速度と配置範囲は増加しません
 				大文字と小文字を区別しません
 				'''
 		}
@@ -547,7 +547,7 @@ Configs: {
 		}
 
 		ShareRange: {
-			Label: "[centeritem:WorldGlobe] 共有効果の範囲（タイル単位）"
+			Label: "[centeritem:WorldGlobe] 共有効果の範囲（ブロック単位）"
 			Tooltip:
 				'''
 				この範囲内にいるチームメイトのみが、共有効果を共有します
@@ -858,7 +858,7 @@ Configs: {
 		WandMaterialNoConsume: {
 			Tooltip:
 				'''
-				スタック数が999を超えるタイルや壁は、空間/技術/建築 の杖によって配置された場合、消費されません
+				スタック数が999を超えるブロックや壁は、空間/技術/建築 の杖によって配置された場合、消費されません
 				作業台、テーブル、ベッドなど、スタック数が99を超えるものも消費されません
 				'''
 			Label: "[centeritem:ImproveGame/SpaceWand] 杖の設置物無限化"
@@ -922,12 +922,12 @@ Configs: {
 			Tooltip:
 				'''
 				基本的な鉱脈採掘機能
-				ピッケルで掘るだけで使用可能
-				ブラックリスト/ホワイトリスト機能はなく、調整もできません。
-				細かい調整がしたい場合は、Ore ExcavatorやBasic Automated Miningを使用することを推奨します。
-				これらのMODがロードされている場合、この機能は無効になります。
+				ピッケルで掘るだけで使用可能です
+				ブラックリスト/ホワイトリスト機能はなく、調整もできません
+				細かい調整がしたい場合は、Ore ExcavatorやBasic Automated Miningを使用することを推奨します
+				これらのMODがロードされている場合、この機能は無効になります
 				'''
-			PopupTip: Vein Miningが不要な場合は、QoTの設定から無効化できます。
+			PopupTip: Vein Miningが不要な場合は、QoTの設定から無効化できます
 		}
 
 		DisableVeinMiningPopup: {
@@ -1124,9 +1124,9 @@ Configs: {
 			Tooltip:
 				'''
 				自動ゴミ箱
-				アイテムは、その種類が中にある場合、このゴミ箱に移動されます
-				アイテムを登録できる6つのゴミ箱がある
-				Shift+Ctrl+左クリックでゴミ箱にアイテムを移動
+				アイテムを登録できる6つのゴミ箱が表示されます
+				アイテムは、同じものが中にある場合、このゴミ箱に移動されます
+				Shift+Ctrl+左クリックでゴミ箱にアイテムを移動できます
 				'''
 		}
 
@@ -1353,12 +1353,12 @@ Configs: {
 
 		FTW: {
 			Label: For the Worthy ワールドのみ
-			Tooltip: 「For the Worthy」ワールドでのみ、ポットや揺れる木、Mech Primeが生成する爆弾がタイルを破壊しません
+			Tooltip: 「For the Worthy」ワールドでのみ、ポットや揺れる木、Mech Primeが生成する爆弾がブロックを破壊しません
 		}
 
 		FTWAndExplosives: {
 			Label: すべて
-			Tooltip: 爆弾タイルと自然生成された爆弾がタイルを破壊しません
+			Tooltip: 爆弾と自然生成された爆弾がブロックを破壊しません
 		}
 	}
 
@@ -1604,7 +1604,7 @@ Tips: {
 	PotionBagNone: 空 (0/200)
 	PotionBagAvailable: (無限)
 	PotionBagUnavailable: (有限)
-	PotionBagDisabled: (無効)
+	PotionBagDisabled: (有限)
 	BannerChestCurrent: 保存しているバナー: ({StoredCount}/500):
 	BannerChestCurrentFull: 保存しているバナー: (最大!):
 	BannerChestNone: バナーが入っていません (0/500)
@@ -1710,7 +1710,7 @@ ConstructGUI: {
 
 		ModMissing: {
 			Count: "2"
-			1: この構造体には、アンロードされたMODのタイルや壁が含まれている
+			1: この構造体には、アンロードされたMODのブロックや壁が含まれている
 			2: 配置エラーが発生する可能性がある
 		}
 
@@ -1736,7 +1736,7 @@ ConstructGUI: {
 			Count: "4"
 			1: ベータテスト機能
 			2: このModのSteamワークショップページでバグを報告してください
-			3: Modのタイルや壁のサポートは保証されません
+			3: Modのブロックや壁のサポートは保証されません
 			4: バグとはみなされません
 		}
 
@@ -1760,7 +1760,7 @@ ConstructGUI: {
 				配置モードでは、メインパネルで構造物を選択する必要があります
 				    
 				インベントリや巨大リュックの材料で十分な場合は、左クリックで構造物を配置します
-				タイルの向きが正しくない場合があります
+				ブロックの向きが正しくない場合があります
 				    
 				以下は、構造物の配置の例である: 
 				'''
@@ -1836,13 +1836,13 @@ Architecture: {
 }
 
 PaintWandGUI: {
-	Paintbrush: タイルを塗る
+	Paintbrush: ブロックを塗る
 	PaintRoller: 壁を塗る
 	PaintScraper: ペイントを剥がす
 }
 
 SpaceWandGUI: {
-	PlaceType: タイルの種類
+	PlaceType: ブロックの種類
 	Platform: 足場
 	Soild: 固体ブロック
 	Rope: ロープ
@@ -1949,7 +1949,7 @@ Keybinds: {
 
 Projectiles: {
 	KillProj: {
-		DisplayName: プロジェクタイル削除
+		DisplayName: プロジェクブロック削除
 	}
 
 	WallRobot: {
@@ -2008,11 +2008,11 @@ Items: {
 		DisplayName: 爆破の杖 (Wand of Blasts)
 		Tooltip:
 			'''
-			固定モード： 指定された固定エリアのタイルを破壊する
-			自由モード： 選択したタイルを破壊する
+			固定モード： 指定された固定エリアのブロックを破壊する
+			自由モード： 選択したブロックを破壊する
 			採掘速度に影響されることがある
 			採掘力は、インベントリにある一番高いツルハシの採掘力と同等である
-			マナコストは破壊されたタイルの数に依存する
+			マナコストは破壊されたブロックの数に依存する
 			<right> を押して破壊設定を編集する"
 			<right> を押して選択した範囲をキャンセルする
 			'''
@@ -2023,13 +2023,13 @@ Items: {
 		Tooltip:
 			'''
 			[c/0099ff:右クリックで管理パネルを開く]
-			選択した種類のタイルを指定された範囲に配置する
-			インベントリのタイルを消費する
-			ブロック交換が有効になっている場合、異なる種類のタイルを交換します
-			一度に最大500枚（サーバーでは244枚）のタイルを配置できる
+			選択した種類のブロックを指定された範囲に配置する
+			インベントリのブロックを消費する
+			ブロック交換が有効になっている場合、異なる種類のブロックを交換する
+			一度に最大500枚（サーバーでは244枚）のブロックを配置できる
 			ブロック勾配のタイプをカスタマイズできる
 			<right> を押して選択した範囲をキャンセルする
-			'私はこれらの道具に同情する'
+			「私はこれらの道具に同情する」
 			'''
 	}
 
@@ -2037,13 +2037,12 @@ Items: {
 		DisplayName: 星屑の杖 (Wand of Starblasts)
 		Tooltip:
 			'''
-			固定モード： 指定された固定エリアのタイルを破壊する
-			自由モード： 選択したタイルを破壊する
+			<right> を押すと破壊設定を編集したり、選択した範囲をキャンセルできる
+			固定モード： 指定された固定エリアのブロックを破壊する
+			自由モード： 選択したブロックを破壊する
 			採掘速度に影響されることがある
-			採掘力は、インベントリにある一番高いツルハシの採掘力と同等である
-			マナコストは破壊されたタイルの数に依存する
-			<right> を押して破壊設定を編集する
-			<right> を押して選択した範囲をキャンセルする
+			採掘力は、インベントリにある一番高いツルハシの採掘力と同等になる
+			マナコストは破壊されたブロックの数に依存する
 			'''
 	}
 
@@ -2066,7 +2065,7 @@ Items: {
 			'''
 			カーソルの位置にウォールプレイサーを召喚する
 			部屋を自動的に認識し、インベントリにある壁を自動で配置する
-			認識された部屋は、最大2500タイルの空間を持つことができる
+			認識された部屋は、最大2500ブロックの空間を持つことができる
 			ブロック、プラットフォーム、ドアを境界とみなす
 			各プレイヤーは1つしか召喚できない
 			'''
@@ -2089,8 +2088,8 @@ Items: {
 		Tooltip:
 			'''
 			バフポーションを保管できる鞄
-			<left> を押してポーションを持ったままポーションバッグにポーションを入れる
-			<right> を押してポーションバッグを持ちながらポーションを取り出す
+			<left> を押すとポーションを持ったままポーションバッグにポーションを入れる
+			<right> を押すとポーションバッグを持ちながらポーションを取り出す
 			200スタックのポーションを保存可能
 			'''
 		TooltipByKeybind: Press [c/0099ff:{KeybindName}] to collect potions from portable storages
@@ -2134,8 +2133,8 @@ Items: {
 		Tooltip:
 			'''
 			[c/0099ff:<right> でペイントモードパネルを開く]
-			範囲を選択し、範囲内のタイルのペンキを塗る、剥がす
-			[i:PaintScraper]のように、塗料を落としながらタイルのコケも除去する
+			範囲を選択し、範囲内のブロックのペンキを塗る、剥がす
+			[i:PaintScraper]のように、塗料を落としながらブロックのコケも除去する
 			999スタック以上の塗料は消費されない
 			'''
 	}
@@ -2148,8 +2147,8 @@ Items: {
 			自由に構造物を配置できる
 			記録モード - 選択した構造をファイルとして保存する
 			配置モード - 材料が十分にあると構造物を配置する
-			液体は記録しない
-			ワイヤーはプレビューでは表示されませんが、記録され、配置される
+			液体は記録されない
+			ワイヤーはプレビューでは表示されませんが、記録され、配置されます
 			詳細は右上の 'はじめに' をクリック
 			"[c/AAAAAA:ベータテスト機能、このMODのSteamワークショップページでバグを報告してください]"
 			'''
@@ -2180,9 +2179,8 @@ Items: {
 			[c/cc2200:どうすればいいかわからない場合は、このマニュアルを読んでください:] 
 			チェスト内のアイテムを管理するために使用します
 			配置後、 <right> でチェストパネルを開く
-			マネージャーには、アイテムにアクセスするための [c/0099ff:filter options] いくつか組み込まれています
-			"'{$Mods.ImproveGame.UI.ExtremeStorage.AddChest}' をクリックして、チェストをカテゴリーに追加します"
-			チェストの並べ替えは、チェストの名前の前に付けられた識別子に依存するため、 [c/0088dd:チェスト名は適当に設定しないでください！]
+			"「{$Mods.ImproveGame.UI.ExtremeStorage.AddChest}」をクリックして、チェストをカテゴリーに追加します"
+			チェストの並べ替えは、チェストの名前の前に付けられた識別子に依存するため、 [c/0088dd:チェスト名は後から設定しないでください！]
 			アイテムの並べ替えは手動で行う必要があります
 			"[c/0099ff:Portable Crafting Station] を有効にすると、'{$Mods.ImproveGame.UI.ItemGroup.Furniture}' 配下のアイテムが携帯クラフティングステーションとして表示されます"
 			"[c/0099ff:Infinite Potion]を有効にすると、アイテムから '{$Mods.ImproveGame.UI.ItemGroup.Alchemy}' のポーションの効果を得ることができます"
@@ -2196,7 +2194,7 @@ Items: {
 		AlreadyRevealed: "{0} は既にマークされています"
 		Reveal: "{1} は {0} をマップにマークしました"
 		RevealPlantera: "{0} は {NPCName.Plantera} をマップにマークしました"
-		RevealEnchantedSword: "{0} marked up {$ItemName.EnchantedSword} on the map."
+		RevealEnchantedSword: "{0}は{$ItemName.EnchantedSword} をマップにマークしました"
 		NotFound: "{0} のデータが存在しない場合、ワールド作成時にQoL v1.6.6+が有効になっていない可能性があります。"
 	}
 
@@ -2279,8 +2277,7 @@ Items: {
 			叩かないで；；
 			チャットコマンド:
 			 /dummy info → ダミーのステータスを表示
-			 /help dummy → ダミー使用量を取得
-			(マルチプレイではまだ使えない)
+			 /help dummy → ダミーの使用状況を確認
 			'''
 		CannotUse: マルチプレイには未対応
 	}
@@ -2723,43 +2720,43 @@ UI: {
 		Drunk:
 			'''
 			Drunk world
-			Seeds: 05162020 | 5162020
+			シード値: 05162020 | 5162020
 			'''
 		Bees:
 			'''
 			Not the bees
-			Seeds: not the bees | not the bees! | notthebees
+			シード値: not the bees | not the bees! | notthebees
 			'''
 		Ftw:
 			'''
 			For the worthy
-			Seeds: for the worthy | fortheworthy
+			シード値: for the worthy | fortheworthy
 			'''
 		Anniversary:
 			'''
 			Celebrationmk10
-			Seeds: celebrationmk10 | 05162011 | 5162011 | 05162021 | 5162021
+			シード値: celebrationmk10 | 05162011 | 5162011 | 05162021 | 5162021
 			'''
 		DontStarve:
 			'''
 			The Constant
-			Seeds: constant | theconstant | the constant | eye4aneye | eyeforaneye
+			シード値: constant | theconstant | the constant | eye4aneye | eyeforaneye
 			'''
 		Traps:
 			'''
 			No traps
-			Seeds: no traps | notraps
+			シード値: no traps | notraps
 			備考：ワールド内で切り替えても効果はありません。
 			'''
 		Remix:
 			'''
 			Don't dig up
-			Seeds: don't dig up | dont dig up | dontdigup
+			シード値: don't dig up | dont dig up | dontdigup
 			'''
 		Zenith:
 			'''
 			Get fixed boi
-			Seeds: get fixed boi | getfixedboi
+			シード値: get fixed boi | getfixedboi
 			備考：Get fixed boi は他のすべての隠しシードが有効になっている場合にのみ完了します。
 			'''
 		OpenWiki: <right> でWikiを開きます
@@ -2844,7 +2841,7 @@ UI: {
 			NoGravity: 重力の影響を受けない
 			NoTileCollide: ブロック衝突を無効化
 			KnockBackResist: ノックバック係数
-			AIStyle: AIスタイル
+			AIStyle: AIスブロック
 		}
 	}
 
@@ -2900,7 +2897,7 @@ NPC: {
 	ShowNameOnHover: カーソルをあわせた時にNPC名を表示する
 	Immortal: バニラではTarget Dummyに対してのみ`true`となり、クロロファイトの弾は追尾しない
 	NoGravity: 重力の影響を受けない
-	NoTileCollide: タイルの衝突を無効にする
+	NoTileCollide: ブロックの衝突を無効にする
 	KnockBackResist: ノックバック耐性、0はノックバックを受けない
 	AIStyle: AI Style, Please refer to the WIKI, default -1
 	Dummy_Damage: ダメージ： {S}/秒, {F}/tick
