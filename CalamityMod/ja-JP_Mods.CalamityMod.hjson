@@ -4267,7 +4267,7 @@ Items: {
 				リチャージ中に再び攻撃を受けると、チャージタイマーが0からになる
 				「純潔」
 				'''
-			ShieldAdren: Halves Adrenaline lost on hit if the shield fully absorbs the hit
+			ShieldAdren: シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
 		}
 
 		ProfanedSoulCrystal: {
@@ -4417,7 +4417,7 @@ Items: {
 				シールドの色は、チーム選択に合わせて変更される
 				取り出し機でのスクラップ化が可能
 				'''
-			ShieldAdren: Halves Adrenaline lost on hit if the shield fully absorbs the hit
+			ShieldAdren: シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
 		}
 
 		RuinMedallion: {
@@ -5812,7 +5812,7 @@ Items: {
 					銃火器のダメージが更に10%増加
 					ジャンプ速度20%増加
 					'''
-				ShieldAdren: Halves Adrenaline lost on hit if the shield fully absorbs the hit
+				ShieldAdren: シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
 			}
 
 			LunicCorpsVest: {
@@ -8264,7 +8264,7 @@ Items: {
 
 	Misc: {
 		AndroombaItem: {
-			DisplayName: "{$Mods.CalamityMod.NPCs.Androomba.DisplayName} ({$Mods.CalamityMod.NPCs.Androomba.DisplayName})"
+			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
 			Tooltip:
 				'''
 				 <right>を押すと、溶液を挿入する
@@ -8273,17 +8273,17 @@ Items: {
 		}
 
 		BabyCannonballJellyfishItem: {
-			DisplayName: "{$Mods.CalamityMod.NPCs.BabyCannonballJellyfish.DisplayName} ({$Mods.CalamityMod.NPCs.BabyCannonballJellyfish.DisplayName})"
+			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
 			Tooltip: ""
 		}
 
 		BabyFlakCrabItem: {
-			DisplayName: "{$Mods.CalamityMod.NPCs.BabyFlakCrab.DisplayName} ({$Mods.CalamityMod.NPCs.BabyFlakCrab.DisplayName})"
+			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
 			Tooltip: ""
 		}
 
 		BabyGhostBellItem: {
-			DisplayName: "{$Mods.CalamityMod.NPCs.BabyGhostBell.DisplayName} ({$Mods.CalamityMod.NPCs.BabyGhostBell.DisplayName})"
+			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
 			Tooltip: ""
 		}
 
@@ -8293,7 +8293,7 @@ Items: {
 		}
 
 		NanodroidItem: {
-			DisplayName: "{$Mods.CalamityMod.NPCs.Nanodroid.DisplayName} ({$Mods.CalamityMod.NPCs.Nanodroid.DisplayName})"
+			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
 			Tooltip: ""
 		}
 
@@ -8308,22 +8308,22 @@ Items: {
 		}
 
 		PiggyItem: {
-			DisplayName: "{$Mods.CalamityMod.NPCs.Piggy.DisplayName} ({$Mods.CalamityMod.NPCs.Piggy.DisplayName})"
+			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
 			Tooltip: ""
 		}
 
 		RepairUnitItem: {
-			DisplayName: "{$Mods.CalamityMod.NPCs.RepairUnitCritter.DisplayName} ({$Mods.CalamityMod.NPCs.RepairUnitCritter.DisplayName})"
+			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
 			Tooltip: ""
 		}
 
 		SeaMinnowItem: {
-			DisplayName: "{$Mods.CalamityMod.NPCs.SeaMinnow.DisplayName} ({$Mods.CalamityMod.NPCs.SeaMinnow.DisplayName})"
+			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
 			Tooltip: ""
 		}
 
 		TwinklerItem: {
-			DisplayName: "{$Mods.CalamityMod.NPCs.Twinkler.DisplayName} ({$Mods.CalamityMod.NPCs.Twinkler.DisplayName})"
+			シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
 			Tooltip: ""
 		}
 
@@ -30711,7 +30711,7 @@ UI: {
 		ステルスが最大になると、ステルス攻撃が可能になる
 		ローグのステルスは攻撃時のみ減少し、移動中は減少しない
 		ローグのステルスが高いほど、ローグのダメージとクリティカルが高くなる
-		ステルスゲージの増加量が増えると、ステルスによるダメージボーナスがわずかに減少する
+		ステルスゲージの増加スピードが増えると、ステルスによるダメージボーナスがわずかに減少する
 		これは、ステルス攻撃をより頻繁に使えるようになることで相殺される
 		'''
 	DifficultyStatusText: "{0} は {1}"
