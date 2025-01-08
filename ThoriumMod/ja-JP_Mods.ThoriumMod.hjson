@@ -20621,61 +20621,61 @@ NPCs: {
 
 Prefixes: {
 	Buzzing: {
-		DisplayName: Buzzing
+		DisplayName: うなる
 	}
 
 	Euphonic: {
-		DisplayName: Euphonic
+		DisplayName: 美音の
 	}
 
 	Fabled: {
-		DisplayName: Fabled
+		DisplayName: 伝承の
 	}
 
 	Inspiring: {
-		DisplayName: Inspiring
+		DisplayName: 崇高な
 	}
 
 	Loud: {
-		DisplayName: Loud
+		DisplayName: 大音量の
 	}
 
 	Melodic: {
-		DisplayName: Melodic
+		DisplayName: 調和の取れた
 	}
 
 	Muted: {
-		DisplayName: Muted
+		DisplayName: 聞こえづらい
 	}
 
 	OffKey: {
-		DisplayName: Off-Key
+		DisplayName: 不協和音の
 	}
 
 	Rambling: {
-		DisplayName: Rambling
+		DisplayName: まとまりのない
 	}
 
 	Refined: {
-		DisplayName: Refined
+		DisplayName: 洗練された
 	}
 
 	Supersonic: {
-		DisplayName: Supersonic
+		DisplayName: 超音速の
 	}
 
 	Vibrant: {
-		DisplayName: Vibrant
+		DisplayName: 活気のある
 	}
 
 	Engrossing: {
-		DisplayName: Engrossing
-		Tooltip: +{0} sec empowerment duration
+		DisplayName: 魅惑的な
+		Tooltip: +{0}秒間の強化効果の持続時間
 	}
 
 	Lucrative: {
-		DisplayName: Lucrative
-		Tooltip: +{0}% coins from enemies
+		DisplayName: リッチな
+		Tooltip: 敵から得られるコインが+{0}%
 	}
 }
 
