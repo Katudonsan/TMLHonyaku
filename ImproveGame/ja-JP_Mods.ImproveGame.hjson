@@ -2005,7 +2005,7 @@ NPCs: {
 
 Items: {
 	MagickWand: {
-		DisplayName: 爆破の杖 (Wand of Blasts)
+		DisplayName: 爆破の杖
 		Tooltip:
 			'''
 			固定モード： 指定された固定エリアのブロックを破壊する
@@ -2019,7 +2019,7 @@ Items: {
 	}
 
 	SpaceWand: {
-		DisplayName: 空間の杖 (Wand of Space)
+		DisplayName: 空間の杖
 		Tooltip:
 			'''
 			[c/0099ff:右クリックで管理パネルを開く]
@@ -2034,7 +2034,7 @@ Items: {
 	}
 
 	StarburstWand: {
-		DisplayName: 星屑の杖 (Wand of Starblasts)
+		DisplayName: 星屑の杖
 		Tooltip:
 			'''
 			<right> を押すと破壊設定を編集したり、選択した範囲をキャンセルできる
@@ -2047,7 +2047,7 @@ Items: {
 	}
 
 	CreateWand: {
-		DisplayName: 建築の杖 (Wand of Architecture)
+		DisplayName: 建築の杖
 		Tooltip:
 			'''
 			保管されている材料を使って家を建てる
@@ -2060,7 +2060,7 @@ Items: {
 
 	WallPlace: {
 		PureName: Wand of Technology
-		DisplayName: 技術の杖 (Wand of Technology (Placing))
+		DisplayName: 技術の杖)
 		Tooltip:
 			'''
 			カーソルの位置にウォールプレイサーを召喚する
@@ -2072,7 +2072,7 @@ Items: {
 	}
 
 	LiquidWand: {
-		DisplayName: 液体の杖 (Wand of Liquids)
+		DisplayName: 液体の杖
 		Tooltip:
 			'''
 			液体を吸収、設置できる
@@ -2084,7 +2084,7 @@ Items: {
 	}
 
 	PotionBag: {
-		DisplayName: ポーションカバン (Potion Bag)
+		DisplayName: ポーションカバン
 		Tooltip:
 			'''
 			バフポーションを保管できる鞄
@@ -2096,7 +2096,7 @@ Items: {
 	}
 
 	BannerChest: {
-		DisplayName: バナー箱 (Banner Box)
+		DisplayName: バナー箱
 		Tooltip:
 			'''
 			バナーを保存する
@@ -2108,7 +2108,7 @@ Items: {
 	}
 
 	Autofisher: {
-		DisplayName: 自動釣り機 (Fishing Machine)
+		DisplayName: 自動釣り機
 		Tooltip:
 			'''
 			配置された釣り機を右クリックしてフィッシングパネルを開く
@@ -2129,7 +2129,7 @@ Items: {
 	}
 
 	PaintWand: {
-		DisplayName: ペイントの杖 (Wand of Painting)
+		DisplayName: ペイントの杖
 		Tooltip:
 			'''
 			[c/0099ff:<right> でペイントモードパネルを開く]
@@ -2140,7 +2140,7 @@ Items: {
 	}
 
 	ConstructWand: {
-		DisplayName: 建設の杖 (Wand of Construction)
+		DisplayName: 建設の杖
 		Tooltip:
 			'''
 			[c/0099ff:<right> で建設パネルを開く]
@@ -2155,7 +2155,7 @@ Items: {
 	}
 
 	MoveChest: {
-		DisplayName: 虚空の杖 (Wand of Void)
+		DisplayName: 虚空の杖
 		Tooltip:
 			'''
 			この杖にチェストを収納するために使用する
@@ -2164,7 +2164,7 @@ Items: {
 	}
 
 	CoinOne: {
-		DisplayName: 幸運のコイン (Lucky Coin)
+		DisplayName: 幸運のコイン
 		Tooltip:
 			'''
 			かなりツイてるな！
@@ -2173,7 +2173,7 @@ Items: {
 	}
 
 	ExtremeStorage: {
-		DisplayName: ストレージマネージャー (Storage Manager)
+		DisplayName: ストレージマネージャー
 		Tooltip:
 			'''
 			[c/cc2200:どうすればいいかわからない場合は、このマニュアルを読んでください:] 
@@ -2233,16 +2233,16 @@ Items: {
 			光りながら高く飛んだり低く飛んだりして地形を探索するドローン
 			注意：遠くに行き過ぎると爆発します
 			'''
-		DisplayName: 探索ドローン (Explorer Drone)
+		DisplayName: 探索ドローン
 	}
 
 	DevMark: {
-		DisplayName: 開発者のマーク (Developer's Mark)
+		DisplayName: 開発者のマーク
 		Tooltip: "[c/ff0000:開発者用アイテムです。使用しないでください]"
 	}
 
 	Expelliarmus: {
-		DisplayName: エクスペリアームス! (Expelliarmus!)
+		DisplayName: エクスペリアームス!
 		Tooltip:
 			'''
 			[c/ff0000:デバッグアイテム]
@@ -2271,7 +2271,7 @@ Items: {
 	}
 
 	Dummy: {
-		DisplayName: ダミーのかかし (Scarecrow Dummy)
+		DisplayName: ダミーのかかし
 		Tooltip:
 			'''
 			叩かないで；；
