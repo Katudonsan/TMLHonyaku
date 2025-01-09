@@ -10061,12 +10061,12 @@ Items: {
 		}
 
 		CataclysmTrophy: {
-			DisplayName: カタクリズミックコンストラクトのトロフィー
+			DisplayName: カタクリズムの傀儡のトロフィー
 			Tooltip: ""
 		}
 
 		CatastropheTrophy: {
-			DisplayName: カタストロフィックコンストラクトのトロフィー
+			DisplayName: カタストロフィの傀儡のトロフィー
 			Tooltip: ""
 		}
 
@@ -15533,7 +15533,7 @@ Items: {
 			}
 
 			CatastropheClaymore: {
-				DisplayName: カタストロフィッククレイモア
+				DisplayName: 惨劇の大剣
 				Tooltip: 凍傷、地獄の炎、イコルを与える閃光を放つ
 			}
 
@@ -21143,11 +21143,11 @@ NPCs: {
 	}
 
 	Cataclysm: {
-		DisplayName: カタクリズミック構築物
+		DisplayName: カタクリズムの傀儡
 	}
 
 	Catastrophe: {
-		DisplayName: カタストロフィック構築物
+		DisplayName: カタストロフィの傀儡
 	}
 
 	SoulSeeker: {
@@ -21248,37 +21248,37 @@ NPCs: {
 
 	Apollo: {
 		DisplayName: XS-03 アポロ
-		HekateName: XB-∞ ヘカーテの腐食眼
+		HekateName: XB-∞ ヘカテーの腐蝕の眼
 	}
 
 	AresBody: {
 		DisplayName: XF-09 アレス
-		HekateName: XB-∞ ヘカーテ
+		HekateName: XB-∞ ヘカテー
 	}
 
 	AresGaussNuke: {
-		DisplayName: XF-09 アレスガウス核
-		HekateName: XB-∞ ヘカーテガウス核
+		DisplayName: XF-09 アレス ガウスキャノン
+		HekateName: XB-∞ ヘカテー ガウスキャノン
 	}
 
 	AresLaserCannon: {
-		DisplayName: XF-09 アレスレーザーキャノン
-		HekateName: XB-∞ ヘカーテレーザーキャノン
+		DisplayName: XF-09 アレス レーザーキャノン
+		HekateName: XB-∞ ヘカテー レーザーキャノン
 	}
 
 	AresPlasmaFlamethrower: {
-		DisplayName: XF-09 アレスプラズマキャノン
-		HekateName: XB-∞ ヘカーテプラズマキャノン
+		DisplayName: XF-09 アレス プラズマキャノン
+		HekateName: XB-∞ ヘカテー プラズマキャノン
 	}
 
 	AresTeslaCannon: {
-		DisplayName: XF-09 アレステスラキャノン
-		HekateName: XB-∞ ヘカーテテスラキャノン
+		DisplayName: XF-09 アレス テスラキャノン
+		HekateName: XB-∞ ヘカテー テスラキャノン
 	}
 
 	Artemis: {
 		DisplayName: XS-01 アルテミス
-		HekateName: XB-∞ ヘカーテの燃え上がる眼
+		HekateName: XB-∞ ヘカテーの腐食した眼
 	}
 
 	Draedon: {
@@ -21287,7 +21287,7 @@ NPCs: {
 
 	ThanatosHead: {
 		DisplayName: XM-05 タナトス
-		HekateName: XB-∞ ヘカーテの背骨
+		HekateName: XB-∞ ヘカテーの脊髄
 	}
 
 	GreatSandShark: {
@@ -21501,7 +21501,7 @@ NPCs: {
 	}
 
 	SkeletronPrime2: {
-		DisplayName: Skeletron Prime
+		DisplayName: スケルトロンプライム
 	}
 
 	Stormlion: {
