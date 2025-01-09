@@ -3286,13 +3286,13 @@ Items: {
 	}
 
 	MarchingBandShako: {
-		DisplayName: Marching Band Shako
+		DisplayName: マーチングバンドのシャコー帽
 		Tooltip:
 			'''
-			2% increased symphonic critical strike chance
-			Increases inspiration regeneration rate by 10%
+			旋律ダメージのクリティカル確率が2%増加
+			インスピレーションの再生率が10%増加
 			'''
-		SetBonus: While in combat, a rainbow of damaging symphonic symbols will follow your movement and stun enemies
+		SetBonus: 戦闘中、虹のようなダメージを与えるシンフォニックシンボルがあなたの後を追いかける
 	}
 
 	MarchingBandLeggings: {
@@ -5438,7 +5438,7 @@ Items: {
 			最大マナが60増加
 			水中での呼吸が可能になる
 			'''
-		SetBonus: Every {0} mana spent will dramatically increase your magic damage and casting speed briefly
+		SetBonus: "{0}マナを消費するごとに、魔法ダメージと詠唱速度が増加する"
 	}
 
 	NagaSkinSuit: {
@@ -5538,7 +5538,7 @@ Items: {
 			遠距離攻撃のクリティカル確率が4%増加
 			水中での呼吸が可能になる
 			'''
-		SetBonus: Ranged critical strikes release a splash of foam, slowing nearby enemies
+		SetBonus:遠隔攻撃がクリティカルヒットすると、泡の波が発生し、周囲の敵を遅くする
 	}
 
 	TideHunterChestpiece: {
@@ -6323,7 +6323,7 @@ Items: {
 		DisplayName: 毛皮のマスク
 		Tooltip: 「内なる野生を解き放て」
 		VanityConfigName: Feral-Fur clothes
-		SetBonus: Lookin' good!
+		SetBonus: イカしてるぜ！
 	}
 
 	FeralFurLegs: {
@@ -8008,7 +8008,7 @@ Items: {
 			「神話の鱗から作られた」
 			クリティカル確率7%増加
 			'''
-		SetBonus: Attacks have a chance to unleash an explosion of dragon flames
+		SetBonus: 攻撃をしたときにドラゴンの炎の爆発を引き起こすことがある
 	}
 
 	DragonsAxe: {
@@ -8153,8 +8153,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Your boots vibrate at an unreal frequency, increasing base movement speed significantly
-			While moving, your melee damage and critical strike chance are increased
+			ブーツが異常な周波数で振動し、基礎移動速度が大幅に増加する
+			移動中、近接ダメージとクリティカル率が増加する
 			'''
 	}
 
@@ -8233,7 +8233,7 @@ Items: {
 			マナの最大値が20増加
 			マナの自然回復が少し増加
 			'''
-		SetBonus: "{0}% increased magic damage while above {1}% maximum mana"
+		SetBonus: "{0}%の魔法ダメージ増加は、最大マナが{1}%以上のときに発生する"
 	}
 
 	SilkLeggings: {
@@ -8344,8 +8344,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will envelop you within an impervious bubble
-			While the bubble is active, all damage taken is converted into healing
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、泡に包まれる
+			バブルが有効な間、受けたダメージは回復に変換される
 			'''
 	}
 
@@ -8405,9 +8405,9 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will spend {0} mana and bend the very fabric of reality
-			Enemies will be heavily slowed and take {1}% more damage from all sources
-			Allies will receive greatly increased movement and attack speed
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、{0}マナを消費して現実を屈折させる
+			敵の動きを大幅に遅くし、すべてのダメージを{1}%多く受ける
+			味方は大幅に移動速度と攻撃速度が増加する
 			'''
 	}
 
@@ -8424,8 +8424,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will spend {0} mana and place you within the Dream
-			While in the Dream, healed allies will become briefly invulnerable and be cured of all debuffs
+			'{$Keybinds.ArmorAbility.DisplayName}'キーを押すと、{0}マナを消費して夢の世界に迷い込む
+			夢の中では、回復した味方は一時的に無敵となり、すべてのデバフが解除される
 			'''
 	}
 
@@ -8530,7 +8530,7 @@ Items: {
 			クリティカルヒットすると矢が死の矢となり、跳弾するようになる
 			射撃が命中した敵にイコルを付与する
 			'''
-		SetBonus: Your ranged damage has a {0}% chance to completely duplicate itself and deal {1}% more damage
+		SetBonus: 遠隔攻撃は{0}%の確率で分裂し、{1}%の追加ダメージを与えることがある
 	}
 
 	MasterMarksmansScouter: {
@@ -8544,8 +8544,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Your ranged damage has a {0}% chance to completely eradicate the hit target
-			This effect can only occur on bosses if they are below {1}% maximum life
+			遠隔攻撃がヒットすると{0}%の確率でターゲットを完全に消し去ることがある
+			この効果は、ボスのHPが{1}%未満の場合にのみ発生する
 			'''
 	}
 
@@ -8627,8 +8627,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will overload all nearby allies with every empowerment {0} for {1} {^1:second;seconds}
-			Using this ability requires {2} inspiration and must recharge for {3} {^3:minute;minutes}
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、近くの味方全員にエンパワーメント{0}が{1} {^1:秒;秒}間与えられる
+			この能力を使用するには{2}インスピレーションが必要で、クールダウンには{3} {^3:分;分}かかる
 			'''
 	}
 
@@ -8667,8 +8667,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will grant you endless inspiration, greatly increased symphonic damage and playing speed
-			This effect lasts for {0} {^0:second;seconds} and needs to recharge for {1} {^1:minute;minutes}
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、無限のインスピレーションを得て、旋律ダメージ、そして演奏速度が大幅に増加する
+			この効果は{0} {^0:秒;秒}間持続し、クールダウンには{1} {^1:分;分}かかる
 			'''
 	}
 
@@ -8737,7 +8737,7 @@ Items: {
 			歩哨の最大数が2増加する
 			ミニオンのノックバックが増加する
 			'''
-		SetBonus: All minion damage leaves a lingering burn that deals significant damage over time
+		SetBonus: すべてのミニオンは、敵を燃やし、時間経過で大きなダメージを与えるようになる
 	}
 
 	PrometheanStaff: {
@@ -8760,7 +8760,7 @@ Items: {
 			この効果はボスに対して10倍の効果がある
 			魔法攻撃は敵をSingeとIgniteにする
 			'''
-		SetBonus: Your magic damage will heavily burn and damage all adjacent enemies
+		SetBonus: 魔法ダメージは隣接するすべての敵を燃やし、ダメージを与える
 	}
 
 	PyromancerLeggings: {
@@ -9039,8 +9039,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			While hurt, damaged enemies have a {0}% chance to drop flesh
-			Collected flesh restores life and grants bonus damage
+			ダメージを与えた敵は{0}%の確率で肉を落とす
+			肉はライフを回復し、ボーナスダメージを付与する
 			'''
 	}
 
@@ -9111,7 +9111,7 @@ Items: {
 	GeodeHelmet: {
 		DisplayName: ジオードのヘルメット
 		Tooltip: 鉱石、宝箱、その他の財宝の場所が光って見えるようになる
-		SetBonus: You can now mine entire ore veins at once
+		SetBonus: 鉱脈全体を一度に採掘できるようになる
 	}
 
 	GeodePickaxe: {
@@ -9156,7 +9156,7 @@ Items: {
 	GraniteHelmet: {
 		DisplayName: 御影石の兜
 		Tooltip: 「活力がみなぎる」
-		SetBonus: Immune to intense heat and enemy knockback, but your movement speed is slowed down greatly
+		SetBonus: 激しい熱と敵のノックバックに耐性を得るが、移動速度が大幅に遅くなる
 	}
 
 	GranitePickAxe: {
@@ -9193,13 +9193,13 @@ Items: {
 	}
 
 	Revivify: {
-		DisplayName: Revivify
+		DisplayName: 復活の古代書
 		Tooltip:
 			'''
-			Allows you to revive recently killed players
-			While in your inventory, nearby players that die leave a lingering spirit
-			Channeling over the spirit for {0} {^0:second;seconds} will resurrect them with {1}% life
-			Resurrected players are 'sapped' for {2} {^2:second;seconds} after being revived
+			最近死亡したプレーヤーを復活させることができる
+			インベントリ内にある間、死亡したプレイヤーの近くに霊魂が残る
+			その霊魂に{0} {^0:秒;秒}触れ続けると、{1}%のライフで復活させることができる
+			復活したプレイヤーは復活後{2} {^2:秒間;秒間}デバフが付与される
 			'''
 	}
 
@@ -9299,8 +9299,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			A biotech probe will assist you in healing your allies
-			Heals ally life equal to your bonus healing
+			バイオテクノロジープローブが味方を回復する手助けをする
+			味方のライフをあなたのボーナス回復分だけ回復する
 			'''
 	}
 
@@ -9348,7 +9348,7 @@ Items: {
 			マナ再生が中程度増加
 			回復魔法によるライフ回復量が1増加
 			'''
-		SetBonus: Your healing spells increase the life recovery and life recovery rate of the healed target
+		SetBonus: 回復魔法は回復対象の最大ライフと回復速度を増加させる
 	}
 
 	BloomingLeggings: {
@@ -9434,9 +9434,9 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will summon a large aura around your cursor at the cost of {0} mana
-			Allies touched by the aura gain increased damage, damage reduction, defense, and life recovery
-			Enemies touched by the aura suffer from holy glare and take {1}% more damage from all sources
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、カーソルの周りに大きなオーラを召喚し、{0}マナを消費する
+			オーラに触れた味方はダメージ、ダメージ減少、防御、ライフ回復が増加する
+			オーラに触れた敵は神聖なまばゆい光に照らされ、すべてのダメージを{1}%多く受ける
 			'''
 	}
 
@@ -9701,7 +9701,7 @@ Items: {
 			神聖クリティカル確率2%増加
 			最大マナが10%増加
 			'''
-		SetBonus: Empowers certain radiant attacks with dark energy, causing them to take on dark forms and deal additional effects
+		SetBonus: 特定の神聖攻撃を暗黒の力で強化し、追加効果を与える
 	}
 
 	EbonLeggings: {
@@ -9746,7 +9746,7 @@ Items: {
 			神聖クリティカル確率3%増加
 			ライフ再生率が増加
 			'''
-		SetBonus: Taking damage heals nearby allies equal to {0}% of the damage taken
+		SetBonus: ダメージを受けると、周囲の味方が{0}%のダメージ分回復する
 	}
 
 	FallenPaladinGreaves: {
@@ -9932,8 +9932,8 @@ Items: {
 		Tooltip: 神聖ダメージ16%増加
 		SetBonus:
 			'''
-			Your radiant damage has a {0}% chance to release a blinding flash of light
-			The flash heals nearby allies equal to your bonus healing and confuses enemies
+			神聖ダメージは{0}%の確率で目をくらませる閃光を放つようになる
+			この閃光は周囲の味方をボーナス回復分回復させ、敵を混乱させる
 			'''
 	}
 
@@ -10034,7 +10034,7 @@ Items: {
 			最大マナが40増加
 			回復魔法によるライフ回復量が2増加
 			'''
-		SetBonus: Healing spells will shortly increase the healed player's maximum life by {0}
+		SetBonus: 回復魔法は回復対象の最大ライフを{0}増加させる
 	}
 
 	LifeDisperser: {
@@ -10252,8 +10252,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Every {0} {^0:second;seconds} you generate up to {1} holy crosses
-			When casting healing spells, a cross is used instead of mana
+			神聖な十字架を毎{0} {^0:秒;秒}に最大{1}個生成する
+			回復魔法を使うと、十字架がマナの代わりに使用される
 			'''
 	}
 
@@ -10503,7 +10503,7 @@ Items: {
 			マナコストが7%減少
 			回復魔法によるライフ回復量が1増加
 			'''
-		SetBonus: Healing spells will heal an additional {0} life
+		SetBonus: 回復魔法を使用すると{0}ライフが追加回復する
 	}
 
 	SacredLeggings: {
@@ -10661,7 +10661,7 @@ Items: {
 			最大マナが40増加
 			回復魔法のライフ回復量が1増加
 			'''
-		SetBonus: If an ally is below half health, you will gain increased healing abilities
+		SetBonus: 味方が半分以下のライフの時、回復効果が増加する
 	}
 
 	TemplarsGrace: {
@@ -10846,8 +10846,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Radiant attacks have a chance to generate up to {0} shadow wisps
-			Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will unleash every stored shadow wisp towards your cursor's position
+			神聖攻撃には最大{0}個のシャドウウィスプを生成することがある
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、すべてのシャドウウィスプがカーソルの位置に向かって放たれる
 			'''
 	}
 
@@ -11007,7 +11007,7 @@ Items: {
 	IcyHeadgear: {
 		DisplayName: 氷のヘッドギア
 		Tooltip: ""
-		SetBonus: An icy aura surrounds you, freezing enemies that stay too long within it
+		SetBonus: 冷気のオーラが周囲を包み、長時間いると敵を凍結させる
 	}
 
 	IcyMail: {
@@ -11119,7 +11119,7 @@ Items: {
 			遠距離攻撃ダメージ5%増加
 			遠距離攻撃のクリティカル確率が10%増加
 			'''
-		SetBonus: Your bows, guns, and launchers fire off additional projectiles periodically
+		SetBonus: 弓、銃、ランチャーは定期的に追加の毒ダメージを与えるようになる
 	}
 
 	IllumitePick: {
@@ -11308,8 +11308,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Damage reduction is increased by {0}% for every {1}% of life lost
-			Maximum damage reduction is reached at {2}% while below {1}% life
+			失ったライフ{1}%ごとにダメージ軽減が{0}%増加する
+			最大ダメージ軽減はライフが{1}%未満の時に{2}%になる
 			'''
 	}
 
@@ -11390,7 +11390,7 @@ Items: {
 			マナコストが15%減少
 			最大マナが60%増加
 			'''
-		SetBonus: Your magic damage will freeze enemies for two seconds
+		SetBonus: 魔法ダメージが敵を2秒間凍結させる
 	}
 
 	CryomancersLeggings: {
@@ -11556,8 +11556,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			{0}% of the mana you spend is stored as energy to a maximum of {1}
-			Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will spend energy to restore up to {2} mana and {3} life at a time
+			消費したマナの{0}%をエネルギーとして蓄積（最大{1}まで）
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すことで、エネルギーを消費して最大{2}マナと{3}ライフを同時に回復する
 			'''
 	}
 
@@ -12018,9 +12018,9 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Moving around generates up to {0} static rings, with each one generating life shielding
-			When fully charged, a bubble of energy will protect you from one attack
-			When the bubble blocks an attack, an electrical discharge is released at nearby enemies
+			移動することで最大{0}個の静電リングを生成し、各リングがライフシールドを形成する
+			フルチャージ時、エネルギーバリアが1回の攻撃を防ぐ
+			バリアが攻撃を防ぐと、近くの敵に電撃を放つ
 			'''
 	}
 
@@ -12121,8 +12121,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Become immune after striking an enemy
-			Increases the duration of your symphonic empowerments by {0} {^0:second;seconds}
+			敵を攻撃すると無敵状態になる
+			エンパワーメントの持続時間が{0}{^0:秒;秒}延長される
 			'''
 	}
 
@@ -12136,8 +12136,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Become immune after striking an enemy
-			Healing spells will heal an additional {0} life
+			敵を攻撃すると無敵状態になる
+			回復魔法がさらに{0}ライフを回復する
 			'''
 	}
 
@@ -12660,7 +12660,7 @@ Items: {
 	}
 
 	Executioner: {
-		DisplayName: 死刑執行人
+		DisplayName: 死刑執行人の斧
 		Tooltip:
 			'''
 			連続攻撃はスピードとダメージを増加させる
@@ -16588,7 +16588,7 @@ Items: {
 			「鍛冶屋によって見事に鍛え上げられた一品」
 			クリティカル確率5%増加
 			'''
-		SetBonus: Damage taken reduced by {0}%
+		SetBonus: 被ダメージを{0}%軽減する
 	}
 
 	DurasteelJackhammer: {
@@ -16644,7 +16644,7 @@ Items: {
 	SteelHelmet: {
 		DisplayName: 鋼の兜
 		Tooltip: 「鍛冶職人によって鍛造された」
-		SetBonus: Damage taken reduced by {0}%
+		SetBonus: 被ダメージを{0}%軽減する
 	}
 
 	SteelPickaxe: {
@@ -16675,7 +16675,7 @@ Items: {
 	AstroHelmet: {
 		DisplayName: 宇宙のヘルメット
 		Tooltip: 召喚ダメージが1増加する
-		SetBonus: Minion damage has a chance to unleash a burst of damaging plasma on hit
+		SetBonus: ミニオンの攻撃がヒットすると敵にダメージを与えるプラズマバーストを発生させることがある
 	}
 
 	AstroSuit: {
@@ -16836,8 +16836,8 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			Minion attacks have a {0}% chance to heal you on hit
-			You cannot heal more than {1} life every {2} {^2:second;seconds}
+			ミニオンの攻撃が{0}%の確率で命中時にライフを回復する
+			ただし、{2}{^2:秒;秒}ごとに{1}ライフ以上は回復しない
 			'''
 	}
 
@@ -16880,8 +16880,8 @@ Items: {
 		Tooltip: ミニオンのノックバックが増加する
 		SetBonus:
 			'''
-			Increases your max number of minions by {0}
-			Your living wood sapling's auto attack will home in on enemies
+			召喚可能なミニオンの最大数が{0}増加
+			木の妖精の攻撃が敵を追尾するようになる
 			'''
 	}
 
@@ -17129,49 +17129,49 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			The energies of Terraria will seek to protect you when you're in combat
-			Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will allow you to cycle and select a Class Focus
+			戦闘中、テラリアのエネルギーがプレイヤーを守る
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、クラス特化を切り替え、選択可能
 			'''
 
 		Focus: {
 			Generic: {
-				Name: No Focus
-				Description: "{0}% increased damage"
+				Name: 特化なし
+				Description: ダメージ+{0}%
 			}
 
 			Melee: {
-				Name: Melee Focus
-				Description: "{0}% increased damage reduction"
+				Name: 近接特化
+				Description: ダメージ軽減率+{0}%
 			}
 
 			Ranged: {
-				Name: Ranged Focus
-				Description: "{0}% increased firing speed"
+				Name: 遠隔特化
+				Description: 攻撃速度+{0}%
 			}
 
 			Magic: {
-				Name: Magic Focus
-				Description: Maximum mana increased by {0}
+				Name: 魔法特化
+				Description: 最大マナ+{0}%
 			}
 
 			Summon: {
-				Name: Summon Focus
-				Description: Increases your max number of minions by {0}
+				Name: 召喚特化
+				Description: 召喚可能なミニオンの最大数+{0}
 			}
 
 			Throwing: {
-				Name: Throwing Focus
-				Description: Increases your maximum technique points by {0}
+				Name: 投擲特化
+				Description: 最大テクニックポイント+{0}%
 			}
 
 			Healer: {
-				Name: Radiant Focus
-				Description: Healing spells will heal an additional {0} life
+				Name: 神聖特化
+				Description: 回復量+{0}ライフ
 			}
 
 			Bard: {
-				Name: Symphonic Focus
-				Description: Increases empowerment duration by {0} {^0:second;seconds}
+				Name: 旋律特化
+				Description: エンパワーメント持続時間+{0}{^0:秒;秒}
 			}
 		}
 	}
@@ -17349,7 +17349,7 @@ Items: {
 			「エネルギーを感じる」
 			クリティカル確率2%増加
 			'''
-		SetBonus: Damage done increased by {0}%
+		SetBonus: 与えるダメージが{0}%増加する
 	}
 
 	ThoriumMail: {
@@ -18345,7 +18345,7 @@ Items: {
 			ダメージを受けた後の無敵時間が増加する
 			ノックバックに対する耐性
 			'''
-		SetBonus: Damage done increased by {0}%
+		SetBonus: 与えるダメージが{0}%増加する
 	}
 
 	TitanicBar: {
@@ -18371,7 +18371,7 @@ Items: {
 			弾薬を消費する確率が25%減少する
 			敵の位置が見えるようになる
 			'''
-		SetBonus: Damage done increased by {0}%
+		SetBonus: 与えるダメージが{0}%増加する
 	}
 
 	TitanPax: {
@@ -18771,7 +18771,7 @@ Items: {
 			遠距離攻撃のクリティカル確率が6%増加
 			遠距離攻撃ダメージが5%増加
 			'''
-		SetBonus: Reverse gravity by pressing UP. While reversed, ranged damage is increased by {0}%
+		SetBonus: 上方向キーで重力を反転可能で、反転中は遠隔攻撃のダメージが{0}%増加する
 	}
 
 	ValadiumIngot: {
@@ -18910,7 +18910,7 @@ Items: {
 	BlueKnightHelmet: {
 		DisplayName: 蒼の騎士の兜
 		Tooltip: ""
-		SetBonus: Lookin' good!
+		SetBonus: イカしてるぜ！
 	}
 
 	BombSquadGreaves: {
@@ -18981,7 +18981,7 @@ Items: {
 	GlitteringHelmet: {
 		DisplayName: きらびやかな兜
 		Tooltip: ""
-		SetBonus: Lookin' good!
+		SetBonus: イカしてるぜ！
 	}
 
 	HatFish: {
@@ -19612,8 +19612,8 @@ Items: {
 	}
 
 	FrozenTiara: {
-		Tooltip: タフな雪だるまを召喚する
-		DisplayName: フローズンティアラ
+		Tooltip: Summons a tough snowman to follow you around
+		DisplayName: Frozen Tiara
 	}
 
 	Deadwood: {
@@ -19880,15 +19880,6 @@ Items: {
 			{0}秒間、マナが無限に！
 			詠唱速度+{1}%
 			+短時間の無敵状態
-			'''
-	}
-
-	MarchingBandCap: {
-		DisplayName: マーチングバンド用キャップ
-		Tooltip:
-			'''
-			旋律ダメージのクリティカル確率2%増加
-			インスピレーションの再生率が10%増加
 			'''
 	}
 
