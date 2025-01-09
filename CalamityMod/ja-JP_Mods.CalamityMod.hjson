@@ -1393,7 +1393,7 @@ Buffs: {
 	}
 
 	EntropysVigilBuff: {
-		DisplayName: エントロピーの祈り
+		DisplayName: 終焉の祈り
 		Description: 黒魔術のモンスターたちが共に戦ってくれる
 	}
 
@@ -1458,8 +1458,8 @@ Buffs: {
 	}
 
 	HotE: {
-		DisplayName: エレメンタルを従えし者
-		Description: 全ての エレメンタルが共に戦ってくれる
+		DisplayName: 精霊を従えし者
+		Description: 全てのエレメンタルが共に戦ってくれる
 	}
 
 	HowlTrio: {
@@ -19855,10 +19855,10 @@ Items: {
 			}
 
 			EntropysVigil: {
-				DisplayName: エントロピーの監視者
+				DisplayName: 終焉の監視者
 				Tooltip:
 					'''
-					共に戦うミニ・カラミタスクローンとその兄弟たちを召喚する
+					共に戦う小さいカラミタスクローンとその兄弟たちを召喚する
 					このグループは2つのミニオンスロットを使用する
 					'''
 			}
@@ -21278,7 +21278,7 @@ NPCs: {
 
 	Artemis: {
 		DisplayName: XS-01 アルテミス
-		HekateName: XB-∞ ヘカテーの腐食した眼
+		HekateName: XB-∞ ヘカテーの燃え盛る眼
 	}
 
 	Draedon: {
