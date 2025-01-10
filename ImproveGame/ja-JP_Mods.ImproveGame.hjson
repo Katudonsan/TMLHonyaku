@@ -1576,7 +1576,7 @@ Tips: {
 	AmmoChainDisabled: 弾薬チェーン無効です
 	AmmoChain: "[centeritem:ImproveGame/AmmoChainItem]弾薬チェーン: "
 	ShimmerInto: "シマーに入れると: "
-	ShimmerIntoWithStack: "すべての{0}をシマーに入れると: "
+	ShimmerIntoWithStack: "シマーに{0}個入れると:"
 	ShimmerIntoWithCoinLuck: シマーにこれを入れると一時的に{0}の運を得る
 	PrefixCount: "リフォージカウント: "
 	AnglerQuest: 釣り人のクエストがリフレッシュされました
