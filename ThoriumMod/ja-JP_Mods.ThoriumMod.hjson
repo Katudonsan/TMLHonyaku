@@ -1,7 +1,7 @@
 Announcements: {
 	WorldEngineChange: ワールドの難易度が {0} に変更されました。
 	LodestoneWarning1: " {$Tiles.LodeStone.MapEntry} の祝福を受けた！"
-	LodestoneWarning2: "大量の {$Tiles.LodeStone.MapEntry} の祝福を受けた！"
+	LodestoneWarning2: 大量の {$Tiles.LodeStone.MapEntry} の祝福を受けた！
 	ValadiumWarning1: " {$Tiles.ValadiumChunk.MapEntry} の祝福を受けた！"
 	ValadiumWarning2: 大量の {$Tiles.ValadiumChunk.MapEntry} の祝福を受けた！
 	LichWarning: 強力な魂の解放により、{$Bestiary_Biomes.Graveyard} で何かが目覚めた...
@@ -53,7 +53,7 @@ GameTips: {
 	ThoriumModTip2: Thorium Mod: 気泡があると、しばらくの間水中で呼吸することができる。さらに{$Items.BubbleMagnet.DisplayName}を使うと、気泡を引き寄せることができる。
 	ThoriumModTip3: Thorium Mod: ハードモードの{$Biomes.DepthsBiome.DisplayName}ではクリスタルウェーブが生えることがある！
 	ThoriumModTip4: Thorium Mod: 血の部屋は地下のどこかにある。その祭壇に5つの穢れた欠片を捧げると何かが起こるらしいが、何が起きても責任は取らない...
-	ThoriumModTip5: Thorium Mod: 術の巻物を使うには、まず装備し、十分なテクニカルポイントを得た状態で'{$Keybinds.ThrowingTechnique.DisplayName}'キーを押す！
+	ThoriumModTip5: Thorium Mod: 術の巻物を使うには、まず装備し、十分なテクニカルポイントを得た状態で「{$Keybinds.ThrowingTechnique.DisplayName}」キーを押す！
 	ThoriumModTip6: Thorium Mod: ヒーラーは、自分が死んでしまっては味方を助けることはできない！
 	ThoriumModTip7: Thorium Mod: インスピレーションの最大値は、インスピレーションフラグメントで高めることができる。
 	ThoriumModTip8: Thorium Mod: あるタイプの吟遊詩人の楽器は、最高の演奏をするにはリズムに合わせて演奏する必要がある。
@@ -105,17 +105,17 @@ DamageClasses: {
 Biomes: {
 	DepthsBiome: {
 		DisplayName: 深海の洞窟
-		TownNPCDialogueName: the Aquatic Depths
+		TownNPCDialogueName: 深海の洞窟
 	}
 
 	GraniteBiome: {
 		DisplayName: 御影石の洞窟
-		TownNPCDialogueName: the Granite Biome
+		TownNPCDialogueName: 御影石の洞窟
 	}
 
 	MarbleBiome: {
 		DisplayName: 大理石の洞窟
-		TownNPCDialogueName: the Marble Biome
+		TownNPCDialogueName: 大理石の洞窟
 	}
 }
 
@@ -339,19 +339,9 @@ Buffs: {
 		Description: 投擲ダメージは命中した敵の動きを大きく妨げることがある
 	}
 
-	DepthBreath: {
-		DisplayName: 深海：呼吸
-		Description: 水中で呼吸ができる
-	}
-
-	DepthDamage: {
-		DisplayName: 深海：ダメージ
-		Description: 与えるダメージが10%増加
-	}
-
-	DepthSpeed: {
-		DisplayName: 深海：スピード
-		Description: 移動速度が10%増加
+	DepthDiverAura: {
+		DisplayName: Depth Diver Aura
+		Description: You have received increased damage, speed, and underwater breathing
 	}
 
 	Destabilized: {
@@ -486,7 +476,7 @@ Buffs: {
 
 	CelestialSetAllyBuff: {
 		DisplayName: オーラ：聖なる光
-		Description:攻撃力と防御力が大幅に上昇する
+		Description: 攻撃力と防御力が大幅に上昇する
 	}
 
 	CelestialSetDebuff: {
@@ -651,7 +641,7 @@ Buffs: {
 
 	MarrowScepterBuff: {
 		DisplayName: 骨の鎧
-		Description:ダメージ軽減率が15%増加する
+		Description: ダメージ軽減率が15%増加する
 	}
 
 	Mortality: {
@@ -1696,6 +1686,36 @@ Buffs: {
 		DisplayName: 破滅の大鎌
 		Description: 暗黒の力を授かった...
 	}
+
+	FrozenTiaraBuff: {
+		Description: Does it feel chilly in here...?
+		DisplayName: Frozen Tiara
+	}
+
+	SorcerersDiceDebuff: {
+		DisplayName: "{$Items.SorcerersDice.DisplayName}"
+		Description: The dice are recharging...
+	}
+
+	SorcerersDiceBuff: {
+		DisplayName: "{$Items.SorcerersDice.DisplayName} Boon"
+		Description: Infinite mana and {0}% increased casting speed
+	}
+
+	DepthBreath: {
+		DisplayName: 深海：呼吸
+		Description: 水中で呼吸ができる
+	}
+
+	DepthDamage: {
+		DisplayName: 深海：ダメージ
+		Description: 与えるダメージが10%増加
+	}
+
+	DepthSpeed: {
+		DisplayName: 深海：スピード
+		Description: 移動速度が10%増加
+	}
 }
 
 Conditions: {
@@ -1766,32 +1786,32 @@ DropConditions: {
 Empowerments: {
 	AquaticAbility: {
 		DisplayName: 水中能力
-		Tooltip: 水中呼吸とスピード+{0}% 
+		Tooltip: 水中呼吸とスピード+{0}%
 	}
 
 	AttackSpeed: {
 		DisplayName: 攻撃速度
-		Tooltip: 攻撃速度+{0}% 
+		Tooltip: 攻撃速度+{0}%
 	}
 
 	CriticalStrikeChance: {
 		DisplayName: クリティカル率
-		Tooltip: クリティカル率+{0}% 
+		Tooltip: クリティカル率+{0}%
 	}
 
 	Damage: {
 		DisplayName: ダメージ
-		Tooltip: ダメージ+{0}% 
+		Tooltip: ダメージ+{0}%
 	}
 
 	DamageReduction: {
 		DisplayName: ダメージ軽減
-		Tooltip: ダメージ軽減+{0}% 
+		Tooltip: ダメージ軽減+{0}%
 	}
 
 	Defense: {
 		DisplayName: 防御力
-		Tooltip: 防御力+{0} 
+		Tooltip: 防御力+{0}
 	}
 
 	EmpowermentProlongation: {
@@ -1806,7 +1826,7 @@ Empowerments: {
 
 	FlightTime: {
 		DisplayName: 飛行時間
-		Tooltip: 飛行時間 +{0}% 
+		Tooltip: 飛行時間 +{0}%
 	}
 
 	InvincibilityFrames: {
@@ -1816,7 +1836,7 @@ Empowerments: {
 
 	JumpHeight: {
 		DisplayName: ジャンプ高度
-		Tooltip: ジャンプ高度+{0} {^0:block;ブロック}  
+		Tooltip: ジャンプ高度+{0} {^0:block;ブロック}
 	}
 
 	LifeRegeneration: {
@@ -1826,7 +1846,7 @@ Empowerments: {
 
 	MovementSpeed: {
 		DisplayName: 移動速度
-		Tooltip: 移動速度+{0}% 
+		Tooltip: 移動速度+{0}%
 	}
 
 	NotImplemented: {
@@ -1836,22 +1856,22 @@ Empowerments: {
 
 	ResourceConsumptionChance: {
 		DisplayName: リソース消費無効チャンス
-		Tooltip: リソース消費無効チャンス+{0}% 
+		Tooltip: リソース消費無効チャンス+{0}%
 	}
 
 	ResourceGrabRange: {
 		DisplayName: 回復アイテム回収範囲
-		Tooltip: 回復アイテム回収範囲+{0} 
+		Tooltip: 回復アイテム回収範囲+{0}
 	}
 
 	ResourceMaximum: {
 		DisplayName: マキシマムリソース
-		Tooltip: マキシマムリソース+{0}% 
+		Tooltip: マキシマムリソース+{0}%
 	}
 
 	ResourceRegen: {
 		DisplayName: リソース自然回復
-		Tooltip: リソース自然回復+{0}% 
+		Tooltip: リソース自然回復+{0}%
 	}
 
 	ItemTopTooltip: 演奏でプレーヤーを強化することができる:
@@ -1862,7 +1882,7 @@ Empowerments: {
 InfoDisplays: {
 	HPSInfoDisplay: {
 		DisplayName: 1秒あたりの回復量
-		DisplayValue: "毎秒 {0} 回復する"
+		DisplayValue: 毎秒 {0} 回復する
 	}
 }
 
@@ -1885,7 +1905,7 @@ Items: {
 		DisplayName: 深海の貝殻
 		Tooltip:
 			'''
-			「殻を」キーを押すと、不可解な殻に包まれる
+			「殻を召喚」キーを押すと、不可解な殻に包まれる
 			殻に包まれている間はアイテムやヘルスポーションを使用することができず、ライフの回復量は大幅に減少し、ダメージはほぼ無効化される
 			殻を出ると、被ダメージが増加し、スピード、与ダメージが短時間大幅に減少する
 			殻を出ると、20秒間使用不可になる
@@ -1904,7 +1924,7 @@ Items: {
 
 	MantisShrimpPunch: {
 		DisplayName: シャコエビパンチ
-		Tooltip: "「音速の壁を打ち破れ！」"
+		Tooltip: 「音速の壁を打ち破れ！」
 	}
 
 	OldGodsVision: {
@@ -1957,42 +1977,48 @@ Items: {
 			'''
 
 		SetBonusQuotes: {
-			TheGrandThunderBird: Why show mercy to the weak...?
-			KingSlime: Pawns used in a cosmic game...
-			EyeofCthulhu: One of many vessels...
-			EaterofWorlds: Our influence is wide spread...
-			BrainofCthulhu: None can fathom our machinations...
-			QueenJellyfish: Merely another failed experiment...
-			Viscount: Blood sacrificed to the wrong source...
-			Deerclops: Another creature fueled by insanity...
-			QueenBee: Anything can be corrupted...
-			Skeletron: None the wiser to our goals...
-			GraniteEnergyStorm: All energies will be consumed in due time...
-			BuriedChampion: Such elation from the purging of that one...
-			StarScouter: Their interference makes little difference...
-			WallofFlesh: Yes... Continue on your quest, 'Hero'...
-			FallenBeholder: Pathetic...
-			BoreanStrider: To adapt and overcome is our specialty...
-			QueenSlime: Self proclaimed leaders... Servants all the same...
-			SkeletronPrime: You continue to demonstrate your rage...
-			TheDestroyer: You continue to demonstrate your power...
-			TheTwins: You continue to demonstrate your vision...
-			Lich: How short sighted...
-			Plantera: We too shall grow across the universe...
-			Golem: False idols to a dead god...
-			ForgottenOne: A necessary loss...
-			MartianSaucer: Still they resist...
-			EmpressofLight: That one felled many of us... Wonderful...
-			DukeFishron: We expected more from that one...
-			Cultist: Worship better meant for our cause...
-			MoonLord: We are not the only ones forgotten by time...
-			DreamEater: We have much to think about...
+			TheGrandThunderBird: 弱者に慈悲を与える必要がどこにある...？
+			KingSlime: ただの駒だ、巨大な宇宙のゲームの一部にすぎない...
+			EyeofCthulhu: 数多の器のひとつ...
+			EaterofWorlds: 我々の影響は広範に及んでいる...
+			BrainofCthulhu: 我々の策略を見抜ける者などいない...
+			QueenJellyfish: 単なる失敗作にすぎない...
+			Viscount: その血は、誤った相手に捧げられた...
+			Deerclops: 狂気に駆られたもうひとつの生物...
+			QueenBee: どんなものでも堕落させられる...
+			Skeletron: 我々の目的に気づく者はいない...
+			GraniteEnergyStorm: すべてのエネルギーは、いずれ取り込まれる...
+			BuriedChampion: こんな者が討ち取られたことが、なぜこんなにも喜びをもたらすのか...
+			StarScouter: 奴らの妨害など取るに足らない...
+			WallofFlesh: そうだ...進め、"英雄"よ...
+			FallenBeholder: 哀れなものだ...
+			BoreanStrider: 適応し、乗り越える...我々にしか為しえないことがある...
+			QueenSlime: 偽りの女王...所詮はただの従者にすぎない...
+			SkeletronPrime: お前の怒りを見せつけ続けるのだ...
+			TheDestroyer: お前の力を見せつけ続けるのだ...
+			TheTwins: お前の視界を見せつけ続けるのだ...
+			Lich: なんと愚かな...
+			Plantera: 我々もまた、宇宙を侵食する...
+			Golem: 死した神への偽りの偶像...
+			ForgottenOne: 必要な犠牲だった...
+			MartianSaucer: それでも抗うのか...
+			EmpressofLight: あれは多くの我々を討ち取られてしまった..見事だ...
+			DukeFishron: あれにはもっと期待していたのだが...
+			Cultist: その崇拝は、我々のためにあるべきだ...
+			MoonLord: 時の彼方に忘れ去られたのは、我々だけではない...
+			DreamEater: 考えるべきことが多いな...
 		}
 
 		SetBonusFallbackQuotes: {
-			0: That is not one of ours... Interesting...
-			1: They exist outside the cycle...
+			0: 我々の一員ではないようだな...興味深い...
+			1: 彼らは輪廻の外に存在している...
 		}
+
+		SetBonus:
+			'''
+			時折、深淵のエネルギーで形成された触手を生み出し、近くの敵を攻撃する
+			触手は最大で6本まで生成され、攻撃対象から{0}ライフと{1}マナを吸収する
+			'''
 	}
 
 	WhisperingLeggings: {
@@ -2112,7 +2138,6 @@ Items: {
 		Tooltip: 静止している間、防御力5、ライフ回復2、ノックバック耐性を得る
 	}
 
-
 	GoblinWarSpear: {
 		DisplayName: ゴブリンの戦槍
 		Tooltip: 確率でヒットした敵をえぐり、追加ダメージを与える
@@ -2135,7 +2160,7 @@ Items: {
 
 	Petal: {
 		DisplayName: 花びら
-		Tooltip: "「驚くほど甘い香り」"
+		Tooltip: 「驚くほど甘い香り」
 	}
 
 	RodofFlocking: {
@@ -2163,7 +2188,7 @@ Items: {
 
 	YewWood: {
 		DisplayName: イチイの木
-		Tooltip: "「この不思議な木は、遠い国からやってきた」"
+		Tooltip: 「この不思議な木は、遠い国からやってきた」
 	}
 
 	YewWoodBow: {
@@ -2184,6 +2209,11 @@ Items: {
 	YewWoodHelmet: {
 		DisplayName: イチイ材の兜
 		Tooltip: 発射速度が2.5%増加
+		SetBonus:
+			'''
+			クリティカルでない攻撃を4回行うと、次の射撃攻撃のダメージが{0}%増加する
+			これはクリティカルとしてカウントされる
+			'''
 	}
 
 	YewWoodLeggings: {
@@ -2688,7 +2718,7 @@ Items: {
 
 	BloomWeave: {
 		DisplayName: ブルームウィーブ
-		Tooltip: "「この生地の品質は、これまで見たことのないものだ」"
+		Tooltip: 「この生地の品質は、これまで見たことのないものだ」
 	}
 
 	BoneTrumpet: {
@@ -2786,6 +2816,7 @@ Items: {
 	CriersCap: {
 		DisplayName: クライヤーのキャップ
 		Tooltip: インスピレーションの再生率が4％増加
+		SetBonus: エンパワーメントが{0} {^0:秒;秒}延長される
 	}
 
 	CriersLeggings: {
@@ -2805,6 +2836,14 @@ Items: {
 			旋律ダメージ5%増加
 			旋律ダメージのクリティカル確率が4%増加
 			インスピレーションの再生率が10%増加
+			'''
+		SetBonus:
+			'''
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、4つの状態を切り替えることができる
+			赤 - 自分と周囲の味方にフラットダメージ{0}とダメージ{0}を付与
+			緑 - 自分と周囲の味方に移動速度{0}と飛行時間{0}を付与
+			紫 - 自分と周囲の味方に最大リソース{0}とリソース再生{0}を付与
+			青 - 自分と周囲の味方に防御{0}とダメージ減少{0}を付与
 			'''
 	}
 
@@ -3147,7 +3186,7 @@ Items: {
 
 	JarOMayo: {
 		DisplayName: Jar O' Mayo
-		Tooltip: "「古くからの疑問がようやく解決した」"
+		Tooltip: 「古くからの疑問がようやく解決した」
 	}
 
 	JestersLeggings: {
@@ -3163,6 +3202,7 @@ Items: {
 	JestersMask: {
 		DisplayName: ジェスターのマスク
 		Tooltip: 旋律ダメージのクリティカル確率11%増加
+		SetBonus: 旋律ダメージのクリティカルヒットが頭上にベルを鳴らし、周囲の敵を短時間鈍らせる
 	}
 
 	JestersMask2: {
@@ -3238,15 +3278,21 @@ Items: {
 			旋律ダメージのクリティカル確率が4%増加
 			インスピレーションの再生率が15%増加
 			'''
+		SetBonus:
+			'''
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、音楽を演奏する幽霊の合唱団が召喚される
+			幽霊は楽器で近くの敵を攻撃する
+			'''
 	}
 
-	MarchingBandCap: {
-		DisplayName: マーチングバンド用キャップ
+	MarchingBandShako: {
+		DisplayName: マーチングバンドのシャコー帽
 		Tooltip:
 			'''
-			旋律ダメージのクリティカル確率2%増加
+			旋律ダメージのクリティカル確率が2%増加
 			インスピレーションの再生率が10%増加
 			'''
+		SetBonus: 戦闘中、虹のようなダメージを与えるシンフォニックシンボルがあなたの後を追いかける
 	}
 
 	MarchingBandLeggings: {
@@ -3332,6 +3378,7 @@ Items: {
 			楽器はインスピレーションを必要としなくなり、ミス判定もなくなるが、ダメージを与えなくなる
 			演奏速度ボーナスは、ハンドブックのアクセサリースロットに基づく：
 			'''
+		InstrumentPlaySpeed: Your instruments play {0}% faster
 	}
 
 	MusicNotes: {
@@ -3351,6 +3398,7 @@ Items: {
 			インスピレーションノートがドロップする確率が4%増加
 			インスピレーションの再生率が5%増加
 			'''
+		SetBonus: ドロップしているインスピレーションノートの効果が二倍になり、旋律ダメージが一時的に増加する
 	}
 
 	NoblesJerkin: {
@@ -3403,6 +3451,11 @@ Items: {
 			演奏速度が5%増加
 			旋律ダメージのクリティカル確率が8%増加
 			インスピレーションの再生率が15%増加
+			'''
+		SetBonus:
+			'''
+			旋律ダメージのクリティカルヒットにより、エンパワーメントのレベルがランダムで4になる
+			この効果は{0} {^0:秒;秒}ごとに一度だけ発動する
 			'''
 	}
 
@@ -3539,7 +3592,7 @@ Items: {
 
 	ShootingStarFragment: {
 		DisplayName: 流れ星の破片
-		Tooltip: "「この断片の中から宇宙のシンフォニーが響き渡る」"
+		Tooltip: 「この断片の中から宇宙のシンフォニーが響き渡る」
 	}
 
 	ShootingStarHat: {
@@ -3549,6 +3602,11 @@ Items: {
 			演奏速度が10%増加
 			旋律ダメージのクリティカル確率が6%増加
 			インスピレーションの再生率が20%増加
+			'''
+		SetBonus:
+			'''
+			エンパワーメントの効果時間が{0} {^0:秒;秒}延長される
+			エンパワーメントは、交響楽ダメージを{1}%増加させ、インスピレーション再生を{2}%増加させる
 			'''
 	}
 
@@ -3610,7 +3668,7 @@ Items: {
 	}
 
 	SoundSageLament: {
-		DisplayName:音聖の嘆き
+		DisplayName: 音聖の嘆き
 		Tooltip: 移動するにつれて威力を増す5本のサージを放つ
 	}
 
@@ -3868,7 +3926,7 @@ Items: {
 		DisplayName: 名匠の首飾り
 		Tooltip:
 			'''
-			{$Keybinds.AccessoryAbility.DisplayName}キーを押し続けると、名匠の気力をチャージする
+			「{$Keybinds.AccessoryAbility.DisplayName}」キーを押し続けると、名匠の気力をチャージする
 			1秒ごとに次のダメージが20増加し、最大100まで増加する
 			'''
 	}
@@ -4607,7 +4665,7 @@ Items: {
 
 	ManaBerry: {
 		DisplayName: マナベリー
-		Tooltip: "「筆舌に尽くしがたい甘さ！」"
+		Tooltip: 「筆舌に尽くしがたい甘さ！」
 	}
 
 	ManaDelight: {
@@ -4838,6 +4896,11 @@ Items: {
 			神聖ダメージを1増加
 			ブレスを50%増加
 			'''
+		SetBonus:
+			'''
+			神聖ダメージは{0}ライフシールドまで蓄積され、ライフシールドが減少しなくなる
+			味方を回復すると、ライフシールドがその味方に転送される
+			'''
 	}
 
 	CoralPickaxe: {
@@ -4917,6 +4980,7 @@ Items: {
 			移動速度10%アップ
 			アーマー貫通力が1増加
 			'''
+		SetBonus: あなたの動きを妨げるものはなにもない！ダブルタップでダッシュだ！
 	}
 
 	DarksteelGreaves: {
@@ -4956,7 +5020,7 @@ Items: {
 
 	BrewBlueprint: {
 		DisplayName: 醸造の設計図
-		Tooltip: "「適切な醸造方法に関する複雑なガイド」"
+		Tooltip: 「適切な醸造方法に関する複雑なガイド」
 	}
 
 	DarkMageStaff: {
@@ -5057,6 +5121,7 @@ Items: {
 			「永遠の血が宿っている」
 			ダメージ軽減率10%増加
 			'''
+		SetBonus: 最大ライフが{0}増加する
 	}
 
 	DemonBloodJackhammer: {
@@ -5081,7 +5146,7 @@ Items: {
 
 	DemonBloodShard: {
 		DisplayName: 悪魔の血の破片
-		Tooltip: "「生命の血と闇の複雑な融合体」"
+		Tooltip: 「生命の血と闇の複雑な融合体」
 	}
 
 	DemonBloodSpear: {
@@ -5119,7 +5184,7 @@ Items: {
 
 	AbyssalChitin: {
 		DisplayName: アビサルキチン
-		Tooltip: "「水深よりもさらに深く暗い環境で形成された......」"
+		Tooltip: 「水深よりもさらに深く暗い環境で形成された......」
 	}
 
 	AbyssalCrate: {
@@ -5134,12 +5199,12 @@ Items: {
 
 	Aquaite: {
 		DisplayName: アクアライト
-		Tooltip: "「原初の海の断片」"
+		Tooltip: 「原初の海の断片」
 	}
 
 	AquaiteBar: {
 		DisplayName: アクアライトのインゴット
-		Tooltip: "「結露がインゴットに付着している」"
+		Tooltip: 「結露がインゴットに付着している」
 	}
 
 	AquaiteKnife: {
@@ -5261,11 +5326,12 @@ Items: {
 			クリティカル確率が6%増加
 			自分と近くの味方が水中で呼吸できるようになる
 			'''
+		SetBonus: 自分と周囲の味方は{0}%のダメージ増加、{1}%の移動速度増加、そして水中呼吸ができるようになる
 	}
 
 	DepthScale: {
 		DisplayName: 深海の鱗
-		Tooltip: "「深海に適応するために進化した...」"
+		Tooltip: 「深海に適応するために進化した...」
 	}
 
 	DrenchedDirk: {
@@ -5371,6 +5437,7 @@ Items: {
 			最大マナが60増加
 			水中での呼吸が可能になる
 			'''
+		SetBonus: "{0}マナを消費するごとに、魔法ダメージと詠唱速度が増加する"
 	}
 
 	NagaSkinSuit: {
@@ -5470,6 +5537,7 @@ Items: {
 			遠距離攻撃のクリティカル確率が4%増加
 			水中での呼吸が可能になる
 			'''
+		SetBonus:遠隔攻撃がクリティカルヒットすると、泡の波が発生し、周囲の敵を遅くする
 	}
 
 	TideHunterChestpiece: {
@@ -6005,7 +6073,7 @@ Items: {
 
 	CharonsBeacon: {
 		DisplayName: カロンの道標
-		Tooltip: "「かつて放浪の守護者が持っていた、風化した魔法のランタン」"
+		Tooltip: 「かつて放浪の守護者が持っていた、風化した魔法のランタン」
 	}
 
 	ChiLantern: {
@@ -6171,7 +6239,7 @@ Items: {
 
 	DriedMask: {
 		DisplayName: ドライマスク
-		Tooltip: "「誰かが水を一杯飲みたいって...」"
+		Tooltip: 「誰かが水を一杯飲みたいって...」
 	}
 
 	DrownedDoubloon: {
@@ -6247,18 +6315,19 @@ Items: {
 
 	FeralFurChest: {
 		DisplayName: 毛皮のベスト
-		Tooltip: "「内なる野生を解き放て」"
+		Tooltip: 「内なる野生を解き放て」
 	}
 
 	FeralFurHead: {
 		DisplayName: 毛皮のマスク
-		Tooltip: "「内なる野生を解き放て」"
+		Tooltip: 「内なる野生を解き放て」
 		VanityConfigName: Feral-Fur clothes
+		SetBonus: イカしてるぜ！
 	}
 
 	FeralFurLegs: {
 		DisplayName: 毛皮のズボン
-		Tooltip: "「内なる野生を解き放て」"
+		Tooltip: 「内なる野生を解き放て」
 	}
 
 	FireAxe: {
@@ -6326,7 +6395,7 @@ Items: {
 	}
 
 	FrostburnPouch: {
-		DisplayName:フロストバーン・ポーチ
+		DisplayName: フロストバーン・ポーチ
 		Tooltip:
 			'''
 			「ヨーヨーに直接振りかけると効果的」
@@ -6371,6 +6440,12 @@ Items: {
 			選択した魔法の紋章を空中に描画し、敵の存在によって異なる反応を示す
 			右クリックで紋章の種類を切り替えられる
 			'''
+
+		GeomancersBrushStage: {
+			Fire: 炎
+			Earth: 土
+			Wind: 風
+		}
 	}
 
 	GhastlyCarapace: {
@@ -6767,18 +6842,18 @@ Items: {
 
 	LunaticsHood: {
 		DisplayName: 狂気の崇拝者のフード
-		Tooltip: "「真の狂信者になりきるのにぴったり」"
+		Tooltip: 「真の狂信者になりきるのにぴったり」
 		VanityConfigName: Lunatic clothes
 	}
 
 	LunaticsLeggings: {
 		DisplayName: 狂気の崇拝者のズボン
-		Tooltip: "「真の狂信者になりきるのにぴったり」"
+		Tooltip: 「真の狂信者になりきるのにぴったり」
 	}
 
 	LunaticsRobe: {
 		DisplayName: 狂気の崇拝者のフード
-		Tooltip: "「真の狂信者になりきるのにぴったり」"
+		Tooltip: 「真の狂信者になりきるのにぴったり」
 	}
 
 	ManHacker: {
@@ -6813,6 +6888,15 @@ Items: {
 			呪文書を召喚する
 			右クリックで呪文の種類を切り替え可能
 			'''
+
+		MastersLibramStage: {
+			Water: Water
+			CursedFlame: Cursed Flame
+			Ichor: Ichor
+			Crystal: Crystal
+			Shadow: Shadow
+			Death: Death
+		}
 	}
 
 	MeatShieldsBoots: {
@@ -6886,18 +6970,18 @@ Items: {
 
 	MyrmidonBoots: {
 		DisplayName: ミュルミドンのブーツ
-		Tooltip: "「放浪貴族の装い」"
+		Tooltip: 「放浪貴族の装い」
 	}
 
 	MyrmidonCap: {
 		DisplayName: ミュルミドンの帽子
-		Tooltip: "「放浪貴族の装い」"
+		Tooltip: 「放浪貴族の装い」
 		VanityConfigName: Myrmidon clothes
 	}
 
 	MyrmidonTunic: {
 		DisplayName: ミュルミドンのチュニック
-		Tooltip: "「放浪貴族の装い」"
+		Tooltip: 「放浪貴族の装い」
 	}
 
 	NebulaReflection: {
@@ -7114,7 +7198,7 @@ Items: {
 			'''
 			あまりにも多くの物質を吐き出す
 			自分の周囲に星雲をゆっくりと発生させ、展開すると最大6防御力を付与する
-			' {$Keybinds.AccessoryAbility.DisplayName} 'キーを押すと星雲が崩れて敵を攻撃する星になる
+			「{$Keybinds.AccessoryAbility.DisplayName}」キーを押すと星雲が崩れて敵を攻撃する星になる
 			'''
 	}
 
@@ -7175,23 +7259,23 @@ Items: {
 
 	PurifiersCap: {
 		DisplayName: ピュリファイアーのキャップ
-		Tooltip: "「浄化作業中...」"
+		Tooltip: 「浄化作業中...」
 		VanityConfigName: Purifier's clothes
 	}
 
 	PurifiersCleats: {
 		DisplayName: ピュリファイアーのクリート
-		Tooltip: "「浄化作業中...」"
+		Tooltip: 「浄化作業中...」
 	}
 
 	PurifiersUniform: {
 		DisplayName: ピュリファイアーのユニフォーム
-		Tooltip: "「浄化作業中...」"
+		Tooltip: 「浄化作業中...」
 	}
 
 	PurifiersRing: {
 		DisplayName: ピュリファイアーのリング
-		Tooltip: "「浄化作業中...」"
+		Tooltip: 「浄化作業中...」
 	}
 
 	QuakeGauntlet: {
@@ -7290,6 +7374,13 @@ Items: {
 			敵を攻撃する浮遊トーテムを召喚
 			右クリックで4種類のトーテムの攻撃タイプを切り替え可能
 			'''
+
+		RudeWandStage: {
+			Pulse: パルス
+			Laser: レーザー
+			Buster: バスター
+			Spread: 拡散
+		}
 	}
 
 	Saba: {
@@ -7327,7 +7418,7 @@ Items: {
 	}
 
 	SawbladeCursed: {
-		DisplayName:呪いのノコギリ刃
+		DisplayName: 呪いのノコギリ刃
 		Tooltip:
 			'''
 			{$Items.Sawblade.CommonTooltip}
@@ -7430,7 +7521,7 @@ Items: {
 
 	Skadoosh: {
 		DisplayName: スカドーシュ
-		Tooltip: "「心の平穏を見つけよう...」"
+		Tooltip: 「心の平穏を見つけよう...」
 	}
 
 	SmitingHammer: {
@@ -7451,6 +7542,13 @@ Items: {
 	SnowWhite: {
 		DisplayName: スノーホワイト
 		Tooltip: 右クリックで4種類のエレメンタルを切り替え可能
+
+		SnowWhiteStage: {
+			Normal: 通常
+			Fire: 炎
+			Ice: 氷
+			Electricity: 雷
+		}
 	}
 
 	SoulAnchor: {
@@ -7603,7 +7701,7 @@ Items: {
 	}
 
 	SweetTunic: {
-		DisplayName:スイートチュニック
+		DisplayName: スイートチュニック
 		Tooltip: ""
 	}
 
@@ -7748,6 +7846,12 @@ Items: {
 			右クリックで3つの魔法を切り替え可能
 
 			'''
+
+		UselessStaffStage: {
+			Exorcise: 聖なる魔法
+			Reflect: 反射魔法
+			Drown: 水中魔法
+		}
 	}
 
 	UselessVest: {
@@ -7903,6 +8007,7 @@ Items: {
 			「神話の鱗から作られた」
 			クリティカル確率7%増加
 			'''
+		SetBonus: 攻撃をしたときにドラゴンの炎の爆発を引き起こすことがある
 	}
 
 	DragonsAxe: {
@@ -7961,7 +8066,7 @@ Items: {
 
 	GreenDragonScale: {
 		DisplayName: 緑龍の鱗
-		Tooltip: "「古代のドラゴンの力の断片」"
+		Tooltip: 「古代のドラゴンの力の断片」
 	}
 
 	DreadBlaster: {
@@ -8045,11 +8150,16 @@ Items: {
 			近接クリティカル確率10%増加
 			近接攻撃速度10%増加
 			'''
+		SetBonus:
+			'''
+			ブーツが異常な周波数で振動し、基礎移動速度が大幅に増加する
+			移動中、近接ダメージとクリティカル率が増加する
+			'''
 	}
 
 	DreadSoul: {
 		DisplayName: ドレッドソウル
-		Tooltip: "「この世とあの世の間をつなぐ裂け目」"
+		Tooltip: 「この世とあの世の間をつなぐ裂け目」
 	}
 
 	DreadTearer: {
@@ -8122,6 +8232,7 @@ Items: {
 			マナの最大値が20増加
 			マナの自然回復が少し増加
 			'''
+		SetBonus: "{0}%の魔法ダメージ増加は、最大マナが{1}%以上のときに発生する"
 	}
 
 	SilkLeggings: {
@@ -8165,7 +8276,7 @@ Items: {
 
 	OceanEssence: {
 		DisplayName: 大海のエッセンス
-		Tooltip: "「動き続ける潮のスパーク」"
+		Tooltip: 「動き続ける潮のスパーク」
 	}
 
 	OceansJudgement: {
@@ -8230,6 +8341,11 @@ Items: {
 			5秒毎に浮遊するグロビュールを生成
 			グロビュールごとに防御力が5%増加する
 			'''
+		SetBonus:
+			'''
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、泡に包まれる
+			バブルが有効な間、受けたダメージは回復に変換される
+			'''
 	}
 
 	TideTurnersGaze: {
@@ -8248,7 +8364,7 @@ Items: {
 
 	AquaMask: {
 		DisplayName: アクアイアスのマスク
-		Tooltip: "「ヴィジランスの面影を身にまとう...」"
+		Tooltip: 「ヴィジランスの面影を身にまとう...」
 	}
 
 	DoomSayersCoin: {
@@ -8262,7 +8378,7 @@ Items: {
 
 	DormantHammer: {
 		DisplayName: 不完全なハンマー
-		Tooltip: "「ハンマーの頭の真ん中に空のソケットがある......」"
+		Tooltip: 「ハンマーの頭の真ん中に空のソケットがある......」
 	}
 
 	DreamCatcher: {
@@ -8286,6 +8402,12 @@ Items: {
 			神聖クリティカル確率16%増加
 			最大マナ20%増加
 			'''
+		SetBonus:
+			'''
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、{0}マナを消費して現実を屈折させる
+			敵の動きを大幅に遅くし、すべてのダメージを{1}%多く受ける
+			味方は大幅に移動速度と攻撃速度が増加する
+			'''
 	}
 
 	DreamWeaversHood: {
@@ -8298,6 +8420,11 @@ Items: {
 			マナの自然回復量が大幅に増加
 			最大マナが60増加
 			回復魔法によるライフ回復量が6増加
+			'''
+		SetBonus:
+			'''
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、{0}マナを消費して夢の世界に迷い込む
+			夢の中では、回復した味方は一時的に無敵となり、すべてのデバフが解除される
 			'''
 	}
 
@@ -8390,7 +8517,7 @@ Items: {
 
 	DeathEssence: {
 		DisplayName: 死のエッセンス
-		Tooltip: "「来世のチリ」"
+		Tooltip: 「来世のチリ」
 	}
 
 	MasterArbalestHood: {
@@ -8402,6 +8529,7 @@ Items: {
 			クリティカルヒットすると矢が死の矢となり、跳弾するようになる
 			射撃が命中した敵にイコルを付与する
 			'''
+		SetBonus: 遠隔攻撃は{0}%の確率で分裂し、{1}%の追加ダメージを与えることがある
 	}
 
 	MasterMarksmansScouter: {
@@ -8412,6 +8540,11 @@ Items: {
 			矢と弾丸のダメージが24%増加
 			最も近い敵がマークされ、受けるダメージが10%増加する
 			射撃が命中した敵に呪いの炎を付与する
+			'''
+		SetBonus:
+			'''
+			遠隔攻撃がヒットすると{0}%の確率でターゲットを完全に消し去ることがある
+			この効果は、ボスのHPが{1}%未満の場合にのみ発生する
 			'''
 	}
 
@@ -8457,7 +8590,7 @@ Items: {
 
 	OmniMask: {
 		DisplayName: オムニサイドマスク
-		Tooltip: "「カオスの面影を身にまとえ...」"
+		Tooltip: 「カオスの面影を身にまとえ...」
 	}
 
 	EdgeofImagination: {
@@ -8490,6 +8623,11 @@ Items: {
 			インスピレーションの最大値が5増加
 			ドロップするインスピレーションノートがより強力になる
 			さらに、近くにいるすべての味方にランダムでレベル1のエンパワーメントを与える
+			'''
+		SetBonus:
+			'''
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、近くの味方全員にエンパワーメント{0}が{1} {^1:秒;秒}間与えられる
+			この能力を使用するには{2}インスピレーションが必要で、クールダウンには{3} {^3:分;分}かかる
 			'''
 	}
 
@@ -8525,6 +8663,11 @@ Items: {
 			インスピレーションの再生速度が {2} %増加する
 			管楽器の追尾速度 {3} %増加
 			弦楽器の弾のバウンド時間が追加される
+			'''
+		SetBonus:
+			'''
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、無限のインスピレーションを得て、旋律ダメージ、そして演奏速度が大幅に増加する
+			この効果は{0} {^0:秒;秒}間持続し、クールダウンには{1} {^1:分;分}かかる
 			'''
 	}
 
@@ -8580,7 +8723,7 @@ Items: {
 
 	InfernoEssence: {
 		DisplayName: 地獄のエッセンス
-		Tooltip: "「原初の炎の断片」"
+		Tooltip: 「原初の炎の断片」
 	}
 
 	MagmaSeersMask: {
@@ -8593,6 +8736,7 @@ Items: {
 			歩哨の最大数が2増加する
 			ミニオンのノックバックが増加する
 			'''
+		SetBonus: すべてのミニオンは、敵を燃やし、時間経過で大きなダメージを与えるようになる
 	}
 
 	PrometheanStaff: {
@@ -8615,6 +8759,7 @@ Items: {
 			この効果はボスに対して10倍の効果がある
 			魔法攻撃は敵をSingeとIgniteにする
 			'''
+		SetBonus: 魔法ダメージは隣接するすべての敵を燃やし、ダメージを与える
 	}
 
 	PyromancerLeggings: {
@@ -8641,7 +8786,7 @@ Items: {
 
 	SlagMask: {
 		DisplayName: スラグフューリーのマスク
-		Tooltip: "「侵略の装いをしろ…」"
+		Tooltip: 「侵略の装いをしろ…」
 	}
 
 	TheOmegaCore: {
@@ -8703,7 +8848,7 @@ Items: {
 			'''
 			インスピレーションの再生率が10％増加
 			与えた旋律ダメージが最大1000まで蓄積される
-			" '{$Keybinds.AccessoryAbility.DisplayName}'キーを押すと、近くの味方のダメージが15%増加する"
+			「{$Keybinds.AccessoryAbility.DisplayName}」キーを押すと、近くの味方のダメージが15%増加する
 			この効果の持続時間は、ダメージが100蓄積されるごとに3秒増加する
 			'''
 	}
@@ -8721,7 +8866,7 @@ Items: {
 		DisplayName: ビホルダーのまなざし
 		Tooltip:
 			'''
-			" '{$Keybinds.AccessoryAbility.DisplayName}' キーを押すと、10秒間全ての攻撃がクリティカルヒットになる"
+			「{$Keybinds.AccessoryAbility.DisplayName}」キーを押すと、10秒間全ての攻撃がクリティカルヒットになる
 			そのあと、1分間与えるダメージが10%減少する
 			'''
 	}
@@ -8737,7 +8882,7 @@ Items: {
 
 	FallenBeholderMask: {
 		DisplayName: フォールンビホルダーのマスク
-		Tooltip: "「奈落の底を覗き込む」"
+		Tooltip: 「奈落の底を覗き込む」
 	}
 
 	FallenBeholderTrophy: {
@@ -8891,6 +9036,11 @@ Items: {
 			「肉体に結びついている」
 			移動速度6％アップ
 			'''
+		SetBonus:
+			'''
+			ダメージを与えた敵は{0}%の確率で肉を落とす
+			肉はライフを回復し、ボーナスダメージを付与する
+			'''
 	}
 
 	FleshPickAxe: {
@@ -8924,7 +9074,7 @@ Items: {
 
 	UnfathomableFlesh: {
 		DisplayName: 不気味な肉
-		Tooltip: "「体をくねらせながら、しがみつこうとしてくる」"
+		Tooltip: 「体をくねらせながら、しがみつこうとしてくる」
 	}
 
 	CrystalArrow: {
@@ -8934,7 +9084,7 @@ Items: {
 
 	CrystalGeode: {
 		DisplayName: クリスタルジオード
-		Tooltip: "「暗闇でキラリと光る...」"
+		Tooltip: 「暗闇でキラリと光る...」
 	}
 
 	GeodeChestplate: {
@@ -8960,6 +9110,7 @@ Items: {
 	GeodeHelmet: {
 		DisplayName: ジオードのヘルメット
 		Tooltip: 鉱石、宝箱、その他の財宝の場所が光って見えるようになる
+		SetBonus: 鉱脈全体を一度に採掘できるようになる
 	}
 
 	GeodePickaxe: {
@@ -8969,7 +9120,7 @@ Items: {
 
 	GraniteChestGuard: {
 		DisplayName: 御影石の胸当て
-		Tooltip: "「活力がみなぎる」"
+		Tooltip: 「活力がみなぎる」
 	}
 
 	GraniteControlRod: {
@@ -8988,12 +9139,12 @@ Items: {
 
 	GraniteEnergyCore: {
 		DisplayName: 御影石のコア
-		Tooltip: "「この奇妙なルーン文字が刻まれた核が鉱物に感覚を与えた」"
+		Tooltip: 「この奇妙なルーン文字が刻まれた核が鉱物に感覚を与えた」
 	}
 
 	GraniteGreaves: {
 		DisplayName: 御影石の足甲
-		Tooltip: "「活力がみなぎる」"
+		Tooltip: 「活力がみなぎる」
 	}
 
 	GraniteHamaxe: {
@@ -9003,7 +9154,8 @@ Items: {
 
 	GraniteHelmet: {
 		DisplayName: 御影石の兜
-		Tooltip: "「活力がみなぎる」"
+		Tooltip: 「活力がみなぎる」
+		SetBonus: 激しい熱と敵のノックバックに耐性を得るが、移動速度が大幅に遅くなる
 	}
 
 	GranitePickAxe: {
@@ -9039,14 +9191,14 @@ Items: {
 		Tooltip: 近くの味方の受けるダメージが5%減少する
 	}
 
-	AncientTome: {
+	Revivify: {
 		DisplayName: 復活の古代書
 		Tooltip:
 			'''
 			最近死亡したプレーヤーを復活させることができる
 			インベントリ内にある間、死亡したプレイヤーの近くに霊魂が残る
-			その霊魂に5秒間触れ続けると、10%のライフで復活させることができる
-			復活したプレイヤーは復活後30秒間デバフが付与される
+			その霊魂に{0} {^0:秒;秒}触れ続けると、{1}%のライフで復活させることができる
+			復活したプレイヤーは復活後{2} {^2:秒間;秒間}デバフが付与される
 			'''
 	}
 
@@ -9144,6 +9296,11 @@ Items: {
 			最大マナが20増加
 			回復魔法によるライフ回復量が1増加
 			'''
+		SetBonus:
+			'''
+			バイオテクノロジープローブが味方を回復する手助けをする
+			味方のライフをあなたのボーナス回復分だけ回復する
+			'''
 	}
 
 	BioTechLeggings: {
@@ -9183,7 +9340,6 @@ Items: {
 
 	BloomingCrown: {
 		DisplayName: 開花の冠
-
 		Tooltip:
 			'''
 			非神聖ダメージ10%減少
@@ -9191,6 +9347,7 @@ Items: {
 			マナ再生が中程度増加
 			回復魔法によるライフ回復量が1増加
 			'''
+		SetBonus: 回復魔法は回復対象の最大ライフと回復速度を増加させる
 	}
 
 	BloomingLeggings: {
@@ -9274,6 +9431,12 @@ Items: {
 			最大マナが60増加
 			回復魔法によるライフ回復量が2増加
 			'''
+		SetBonus:
+			'''
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、カーソルの周りに大きなオーラを召喚し、{0}マナを消費する
+			オーラに触れた味方はダメージ、ダメージ減少、防御、ライフ回復が増加する
+			オーラに触れた敵は神聖なまばゆい光に照らされ、すべてのダメージを{1}%多く受ける
+			'''
 	}
 
 	CelestialDye: {
@@ -9283,7 +9446,7 @@ Items: {
 
 	CelestialFragment: {
 		DisplayName: 天空のフラグメント
-		Tooltip: "「この断片の周囲には調和のとれたエネルギーが輝いている」"
+		Tooltip: 「この断片の周囲には調和のとれたエネルギーが輝いている」
 	}
 
 	CelestialLeggings: {
@@ -9424,8 +9587,8 @@ Items: {
 	}
 
 	DarkHeart: {
-		DisplayName: 闇の心		
-Tooltip: 味方のライフが40回復するごとに、ダメージを与える神聖エネルギーを放つ
+		DisplayName: 闇の心
+		Tooltip: 味方のライフが40回復するごとに、ダメージを与える神聖エネルギーを放つ
 	}
 
 	DarkIntent: {
@@ -9537,6 +9700,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			神聖クリティカル確率2%増加
 			最大マナが10%増加
 			'''
+		SetBonus: 特定の神聖攻撃を暗黒の力で強化し、追加効果を与える
 	}
 
 	EbonLeggings: {
@@ -9581,6 +9745,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			神聖クリティカル確率3%増加
 			ライフ再生率が増加
 			'''
+		SetBonus: ダメージを受けると、周囲の味方が{0}%のダメージ分回復する
 	}
 
 	FallenPaladinGreaves: {
@@ -9711,7 +9876,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	HolyKnightsAlloy: {
 		DisplayName: 聖騎士の合金
-		Tooltip: "「静かに、彼らはダンジョンの広間を歩いている...」"
+		Tooltip: 「静かに、彼らはダンジョンの広間を歩いている...」
 	}
 
 	HolyStaff: {
@@ -9764,6 +9929,11 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	IridescentHelmet: {
 		DisplayName: 虹の兜
 		Tooltip: 神聖ダメージ16%増加
+		SetBonus:
+			'''
+			神聖ダメージは{0}%の確率で目をくらませる閃光を放つようになる
+			この閃光は周囲の味方をボーナス回復分回復させ、敵を混乱させる
+			'''
 	}
 
 	IridescentMail: {
@@ -9863,6 +10033,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			最大マナが40増加
 			回復魔法によるライフ回復量が2増加
 			'''
+		SetBonus: 回復魔法は回復対象の最大ライフを{0}増加させる
 	}
 
 	LifeDisperser: {
@@ -9890,7 +10061,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	LifePoweredEnergyCell: {
 		DisplayName: 生命エネルギーの電池
-		Tooltip: "「これらがなければ、壮大な機械の創造物はただの鉄の塊にすぎない...」"
+		Tooltip: 「これらがなければ、壮大な機械の創造物はただの鉄の塊にすぎない...」
 	}
 
 	LifePulseStaff: {
@@ -9983,7 +10154,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		DisplayName: 殉教者の聖杯
 		Tooltip: 回復後、味方に {0} 秒間の無敵時間付与
 		HealAmount: " [c/5aff5a:{0}] の命のために、自分の命を犠牲にして味方を癒す"
-		RespawnTime:  マルチプレイで使用したプレイヤーがボスと交戦していない場合、リスポーン時間が長くなる
+		RespawnTime: マルチプレイで使用したプレイヤーがボスと交戦していない場合、リスポーン時間が長くなる
 	}
 
 	MedicalBag: {
@@ -10077,6 +10248,11 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			マナリジェネレーションがわずかに増加
 			最大マナが5増加
 			回復魔法によるライフ回復量が1増加
+			'''
+		SetBonus:
+			'''
+			神聖な十字架を毎{0} {^0:秒;秒}に最大{1}個生成する
+			回復魔法を使うと、十字架がマナの代わりに使用される
 			'''
 	}
 
@@ -10216,7 +10392,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	PurifiedShards: {
 		DisplayName: 浄化された破片
-		Tooltip: "「すべての悪が清められた」"
+		Tooltip: 「すべての悪が清められた」
 	}
 
 	RasWhisper: {
@@ -10326,6 +10502,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			マナコストが7%減少
 			回復魔法によるライフ回復量が1増加
 			'''
+		SetBonus: 回復魔法を使用すると{0}ライフが追加回復する
 	}
 
 	SacredLeggings: {
@@ -10483,6 +10660,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			最大マナが40増加
 			回復魔法のライフ回復量が1増加
 			'''
+		SetBonus: 味方が半分以下のライフの時、回復効果が増加する
 	}
 
 	TemplarsGrace: {
@@ -10622,7 +10800,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	UnholyShards: {
 		DisplayName: 穢れた破片
-		Tooltip: "「血染めの月の涙」"
+		Tooltip: 「血染めの月の涙」
 	}
 
 	VerdantOrnament: {
@@ -10664,6 +10842,11 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			神聖クリティカル確率12%増加
 			最大マナが20増加
 			回復魔法によるライフ回復量が1増加
+			'''
+		SetBonus:
+			'''
+			神聖攻撃には最大{0}個のシャドウウィスプを生成することがある
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、すべてのシャドウウィスプがカーソルの位置に向かって放たれる
 			'''
 	}
 
@@ -10823,6 +11006,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	IcyHeadgear: {
 		DisplayName: 氷のヘッドギア
 		Tooltip: ""
+		SetBonus: 冷気のオーラが周囲を包み、長時間いると敵を凍結させる
 	}
 
 	IcyMail: {
@@ -10837,7 +11021,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	IcyShard: {
 		DisplayName: 氷の破片
-		Tooltip: "「触ると冷たい」"
+		Tooltip: 「触ると冷たい」
 	}
 
 	IcyTomahawk: {
@@ -10894,7 +11078,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	IllumiteChunk: {
 		DisplayName: イルミネイトの塊
-		Tooltip: "プランテラの敗北は、この奇妙な鉱物を世界に解き放つことになった"
+		Tooltip: 「プランテラの敗北は、この奇妙な鉱物を世界に解き放つことになった」
 	}
 
 	IllumiteDrill: {
@@ -10919,7 +11103,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	IllumiteIngot: {
 		DisplayName: イルミネイトインゴット
-		Tooltip: "「柔らかいピンク色に光り、重さはほとんどない...」"
+		Tooltip: 「柔らかいピンク色に光り、重さはほとんどない...」
 	}
 
 	IllumiteJackhammer: {
@@ -10934,6 +11118,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			遠距離攻撃ダメージ5%増加
 			遠距離攻撃のクリティカル確率が10%増加
 			'''
+		SetBonus: 弓、銃、ランチャーは定期的に追加の毒ダメージを与えるようになる
 	}
 
 	IllumitePick: {
@@ -10980,7 +11165,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	CursedCloth: {
 		DisplayName: 呪われた布
-		Tooltip: "「この布に含まれている闇の力の量は想像を絶する......」"
+		Tooltip: 「この布に含まれている闇の力の量は想像を絶する......」
 	}
 
 	LichCarapace: {
@@ -11006,7 +11191,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	LichMask: {
 		DisplayName: リッチのマスク
-		Tooltip: "「ちょっと怖い」"
+		Tooltip: 「ちょっと怖い」
 	}
 
 	LichTalon: {
@@ -11100,7 +11285,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	LodeStoneChunk: {
 		DisplayName: ロードストーンの塊
-		Tooltip: "「世界の核によって強制される」"
+		Tooltip: 「世界の核によって強制される」
 	}
 
 	LodeStoneClaymore: {
@@ -11120,6 +11305,11 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			4% 近接攻撃ダメージ増加
 			10% 近接攻撃速度が増加
 			'''
+		SetBonus:
+			'''
+			失ったライフ{1}%ごとにダメージ軽減が{0}%増加する
+			最大ダメージ軽減はライフが{1}%未満の時に{2}%になる
+			'''
 	}
 
 	LodeStoneGreatAxe: {
@@ -11134,7 +11324,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	LodeStoneIngot: {
 		DisplayName: ロードストーンのインゴット
-		Tooltip: "「とても頑丈そうだ」"
+		Tooltip: 「とても頑丈そうだ」
 	}
 
 	LodestoneJavelin: {
@@ -11199,6 +11389,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			マナコストが15%減少
 			最大マナが60%増加
 			'''
+		SetBonus: 魔法ダメージが敵を2秒間凍結させる
 	}
 
 	CryomancersLeggings: {
@@ -11242,7 +11433,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	HallowedCharm: {
 		DisplayName: 神聖なチャーム
-		Tooltip: "「心地よい力を感じる」"
+		Tooltip: 「心地よい力を感じる」
 	}
 
 	HallowedStaff: {
@@ -11361,6 +11552,11 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			'''
 			魔法ダメージ5%増加
 			魔法クリティカル確率5%増加
+			'''
+		SetBonus:
+			'''
+			消費したマナの{0}%をエネルギーとして蓄積（最大{1}まで）
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すことで、エネルギーを消費して最大{2}マナと{3}ライフを同時に回復する
 			'''
 	}
 
@@ -11627,17 +11823,17 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	KeyofFungus: {
 		DisplayName: キノコの鍵
-		Tooltip: "「胞子のエッセンスが詰まっている」"
+		Tooltip: 「胞子のエッセンスが詰まっている」
 	}
 
 	KeyofPlight: {
 		DisplayName: 絶望の鍵
-		Tooltip: "「魂のエッセンスが詰まっている」"
+		Tooltip: 「魂のエッセンスが詰まっている」
 	}
 
 	KeyofTides: {
 		DisplayName: 潮の鍵
-		Tooltip: "「大海のエッセンスが詰まっている」"
+		Tooltip: 「大海のエッセンスが詰まっている」
 	}
 
 	MyceliumWhip: {
@@ -11696,7 +11892,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	StrangePlating: {
 		DisplayName: 奇妙なメッキ
-		Tooltip: "「壮大な機械的創造物の一つから剥がれ落ちたもの」"
+		Tooltip: 「壮大な機械的創造物の一つから剥がれ落ちたもの」
 	}
 
 	TheJuggernaut: {
@@ -11783,7 +11979,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	AquamarineStaff: {
 		DisplayName: アクアマリンの杖
-	Tooltip: ""
+		Tooltip: ""
 	}
 
 	BlackTorch: {
@@ -11818,6 +12014,12 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			火星兵器のダメージが12%増加
 			ダメージ軽減率5%増加
 			クリティカル確率が10％増加
+			'''
+		SetBonus:
+			'''
+			移動することで最大{0}個の静電リングを生成し、各リングがライフシールドを形成する
+			フルチャージ時、エネルギーバリアが1回の攻撃を防ぐ
+			バリアが攻撃を防ぐと、近くの敵に電撃を放つ
 			'''
 	}
 
@@ -11868,7 +12070,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	FamilyHeirloom: {
 		DisplayName: 家宝
-		Tooltip: "「この宝石は、あなたの家族に代々受け継がれてきたものです」"
+		Tooltip: 「この宝石は、あなたの家族に代々受け継がれてきたものです」
 	}
 
 	FishEgg: {
@@ -11916,6 +12118,11 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			インスピレーションの再生率が10%増加
 			旋律ダメージと演奏速度が8%増加
 			'''
+		SetBonus:
+			'''
+			敵を攻撃すると無敵状態になる
+			エンパワーメントの持続時間が{0}{^0:秒;秒}延長される
+			'''
 	}
 
 	HallowedCowl: {
@@ -11925,6 +12132,11 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			非神聖ダメージ20%減少
 			神聖ダメージ20%増加
 			マナコストが20%減少し、マナの回復量が増加
+			'''
+		SetBonus:
+			'''
+			敵を攻撃すると無敵状態になる
+			回復魔法がさらに{0}ライフを回復する
 			'''
 	}
 
@@ -11968,7 +12180,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	LifeQuartz: {
 		DisplayName: ライフクォーツ
-		Tooltip: "「心臓の鼓動に合わせて脈打っている...」"
+		Tooltip: 「心臓の鼓動に合わせて脈打っている...」
 	}
 
 	LilGuppy: {
@@ -12075,7 +12287,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	PharaohsBreath: {
 		DisplayName: ファラオの息吹
-		Tooltip: "「砂漠の魔法が詰まった古代のボトル」"
+		Tooltip: 「砂漠の魔法が詰まった古代のボトル」
 	}
 
 	PixelDye: {
@@ -12163,12 +12375,12 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	SolarPebble: {
 		DisplayName: 太陽の玉石
-		Tooltip: "「トカゲ族は太陽への畏敬の念から、これを携帯している」"
+		Tooltip: 「トカゲ族は太陽への畏敬の念から、これを携帯している」
 	}
 
 	SoulofPlight: {
 		DisplayName: 絶望のソウル
-		Tooltip: "「呪われた生き物のエッセンス」"
+		Tooltip: 「呪われた生き物のエッセンス」
 	}
 
 	SpiritDroplet: {
@@ -12300,12 +12512,12 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	BentZombieArm: {
 		DisplayName: 曲がったゾンビの腕
-		Tooltip: "「混乱したゾンビのお気に入りのもの... 彼の左腕らしい」"
+		Tooltip: 「混乱したゾンビのお気に入りのもの... 彼の左腕らしい」
 	}
 
 	BlacksmithApron: {
 		DisplayName: 鍛冶屋のエプロン
-		Tooltip: "「鍛造力が15％アップした！...そうでもないかも」"
+		Tooltip: 「鍛造力が15％アップした！...そうでもないかも」
 	}
 
 	BlisterSack: {
@@ -12339,7 +12551,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	Chum: {
 		DisplayName: チャム
-		Tooltip: "「このチャムはきっとお腹を空かせた海の生き物を惹きつけるだろう」"
+		Tooltip: 「このチャムはきっとお腹を空かせた海の生き物を惹きつけるだろう」
 	}
 
 	CloudyChewToy: {
@@ -12349,12 +12561,12 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	CooksApron: {
 		DisplayName: コックのエプロン
-		Tooltip: "「プロのシェフには敵わない」"
+		Tooltip: 「プロのシェフには敵わない」
 	}
 
 	CooksHat: {
 		DisplayName: コックの帽子
-		Tooltip: "「プロのシェフには敵わない」"
+		Tooltip: 「プロのシェフには敵わない」
 	}
 
 	CrackedBattleHorn: {
@@ -12447,7 +12659,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	}
 
 	Executioner: {
-		DisplayName: 死刑執行人
+		DisplayName: 死刑執行人の斧
 		Tooltip:
 			'''
 			連続攻撃はスピードとダメージを増加させる
@@ -12645,7 +12857,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	PotentExtract: {
 		DisplayName: 強力なエキス
-		Tooltip: "「子供たちよ、ドラッグはやめなさい」"
+		Tooltip: 「子供たちよ、ドラッグはやめなさい」
 	}
 
 	PotionChaser: {
@@ -12699,7 +12911,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	SeveredHand: {
 		DisplayName: 断ち切られた手
-		Tooltip: "「臨機応変に対応しなければならない」"
+		Tooltip: 「臨機応変に対応しなければならない」
 	}
 
 	SmotheringBand: {
@@ -12761,7 +12973,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	StrangeAlienTech: {
 		DisplayName: 奇妙なエイリアンの技術
-		Tooltip: "「複雑すぎて理解できない...」"
+		Tooltip: 「複雑すぎて理解できない...」
 	}
 
 	Talon: {
@@ -12780,7 +12992,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	ThoriumCube: {
 		DisplayName: トリウムキューブ
-		Tooltip: "「このミネラルの塊を頭からかぶって、クールに遊ぼう...」"
+		Tooltip: 「このミネラルの塊を頭からかぶって、クールに遊ぼう...」
 	}
 
 	TommyGun: {
@@ -12804,7 +13016,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	VoidHeart: {
 		DisplayName: 深淵の心臓
-		Tooltip: "「この奇妙な物体は、フォールンビボルダーが生まれた次元からやってきたようだ」"
+		Tooltip: 「この奇妙な物体は、フォールンビボルダーが生まれた次元からやってきたようだ」
 	}
 
 	WhirlpoolSaber: {
@@ -15055,7 +15267,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		Tooltip: ""
 	}
 
-	ScaleBlock: {
+	AquaiteScaleBlock: {
 		DisplayName: Aquaite Scale Block
 		Tooltip: ""
 	}
@@ -15180,7 +15392,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		Tooltip: ""
 	}
 
-	SeaScaleWall: {
+	AquaiteScaleWall: {
 		DisplayName: Aquaite Scale Wall
 		Tooltip: ""
 	}
@@ -15494,17 +15706,17 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		Tooltip: ""
 	}
 
-	ThoriumBrick: {
+	ThoriumBlock: {
 		DisplayName: Thorium Block
 		Tooltip: ""
 	}
 
-	ThoriumBrickBlock: {
+	ThoriumBrickNew: {
 		DisplayName: Thorium Brick
 		Tooltip: ""
 	}
 
-	ThoriumBrickBlockWall: {
+	ThoriumBrickWall: {
 		DisplayName: Thorium Brick Wall
 		Tooltip: ""
 	}
@@ -16005,7 +16217,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	QueenJellyfishMask: {
 		DisplayName: 女王クラゲのマスク
-		Tooltip: "「あのクラゲたちは何も疑わないだろう...」"
+		Tooltip: 「あのクラゲたちは何も疑わないだろう...」
 	}
 
 	QueenJellyfishTrophy: {
@@ -16167,7 +16379,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	Trapper: {
 		DisplayName: トラッパー
-		Tooltip: "「自業自得だ」"
+		Tooltip: 「自業自得だ」
 	}
 
 	Trigun: {
@@ -16242,7 +16454,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	SandstoneIngot: {
 		DisplayName: 砂岩のインゴット
-		Tooltip: "「湿り気がなく、とても暖かい」"
+		Tooltip: 「湿り気がなく、とても暖かい」
 	}
 
 	SandStoneMail: {
@@ -16312,7 +16524,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	StarScouterMask: {
 		DisplayName: スタースカウターマスク
-		Tooltip: "「星を見たい人はいる？」"
+		Tooltip: 「星を見たい人はいる？」
 	}
 
 	StarScouterTrophy: {
@@ -16337,12 +16549,12 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	DurasteelBlade: {
 		DisplayName: デュラスチールブレード
-		Tooltip: "「鍛冶屋によって見事に鍛え上げられた一品」"
+		Tooltip: 「鍛冶屋によって見事に鍛え上げられた一品」
 	}
 
 	DurasteelChainsaw: {
 		DisplayName: デュラスチールチェーンソー
-		Tooltip: "「鍛冶屋によって見事に鍛え上げられた一品」"
+		Tooltip: 「鍛冶屋によって見事に鍛え上げられた一品」
 	}
 
 	DurasteelChestplate: {
@@ -16356,7 +16568,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	DurasteelDrill: {
 		DisplayName: デュラスチールのドリル
-		Tooltip: "「鍛冶屋によって見事に鍛え上げられた一品」"
+		Tooltip: 「鍛冶屋によって見事に鍛え上げられた一品」
 	}
 
 	DurasteelGreaves: {
@@ -16375,21 +16587,22 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			「鍛冶屋によって見事に鍛え上げられた一品」
 			クリティカル確率5%増加
 			'''
+		SetBonus: 被ダメージを{0}%軽減する
 	}
 
 	DurasteelJackhammer: {
 		DisplayName: デュラスチールのジャックハンマー
-		Tooltip: "「鍛冶屋によって見事に鍛え上げられた一品」"
+		Tooltip: 「鍛冶屋によって見事に鍛え上げられた一品」
 	}
 
 	DurasteelRepeater: {
 		DisplayName: デュラスチールのリピーター
-		Tooltip: "「鍛冶屋によって見事に鍛え上げられた一品」"
+		Tooltip: 「鍛冶屋によって見事に鍛え上げられた一品」
 	}
 
 	DurasteelThrowingSpear: {
 		DisplayName: デュラスチールの投げ槍
-		Tooltip: "「鍛冶屋によって見事に鍛え上げられた一品」"
+		Tooltip: 「鍛冶屋によって見事に鍛え上げられた一品」
 	}
 
 	SteelArrow: {
@@ -16399,42 +16612,43 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	SteelAxe: {
 		DisplayName: 鋼の斧
-		Tooltip: "「鍛冶職人によって鍛造された」"
+		Tooltip: 「鍛冶職人によって鍛造された」
 	}
 
 	SteelBlade: {
 		DisplayName: 鋼の剣
-		Tooltip: "「鍛冶職人によって鍛造された」"
+		Tooltip: 「鍛冶職人によって鍛造された」
 	}
 
 	SteelBow: {
 		DisplayName: 鋼の弓
-		Tooltip: "「鍛冶職人によって鍛造された」"
+		Tooltip: 「鍛冶職人によって鍛造された」
 	}
 
 	SteelChestplate: {
 		DisplayName: 鋼の鎧
-		Tooltip: "「鍛冶職人によって鍛造された」"
+		Tooltip: 「鍛冶職人によって鍛造された」
 	}
 
 	SteelGreaves: {
 		DisplayName: 鋼の足甲
-		Tooltip: "「鍛冶職人によって鍛造された」"
+		Tooltip: 「鍛冶職人によって鍛造された」
 	}
 
 	SteelHammer: {
 		DisplayName: 鋼のハンマー
-		Tooltip: "「鍛冶職人によって鍛造された」"
+		Tooltip: 「鍛冶職人によって鍛造された」
 	}
 
 	SteelHelmet: {
 		DisplayName: 鋼の兜
-		Tooltip: "「鍛冶職人によって鍛造された」"
+		Tooltip: 「鍛冶職人によって鍛造された」
+		SetBonus: 被ダメージを{0}%軽減する
 	}
 
 	SteelPickaxe: {
 		DisplayName: 鋼のツルハシ
-		Tooltip: "「鍛冶職人によって鍛造された」"
+		Tooltip: 「鍛冶職人によって鍛造された」
 	}
 
 	SteelThrowingAxe: {
@@ -16460,6 +16674,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	AstroHelmet: {
 		DisplayName: 宇宙のヘルメット
 		Tooltip: 召喚ダメージが1増加する
+		SetBonus: ミニオンの攻撃がヒットすると敵にダメージを与えるプラズマバーストを発生させることがある
 	}
 
 	AstroSuit: {
@@ -16482,7 +16697,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	BioMatter: {
 		DisplayName: バイオ物質
-		Tooltip: "「蠢く葉緑素の塊」"
+		Tooltip: 「蠢く葉緑素の塊」
 	}
 
 	BleedingHeartStaff: {
@@ -16618,6 +16833,11 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			ミニオンの最大数が増加する
 			召喚ダメージ8%増加
 			'''
+		SetBonus:
+			'''
+			ミニオンの攻撃が{0}%の確率で命中時にライフを回復する
+			ただし、{2}{^2:秒;秒}ごとに{1}ライフ以上は回復しない
+			'''
 	}
 
 	LivingLeaf: {
@@ -16634,6 +16854,14 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			右クリックすると複数のアクションを選択できる
 			左クリックで選択したアクションを実行する
 			'''
+
+		FamiliarStage: {
+			Return: 戻る
+			Rally: 集合
+			Target: ターゲット
+			Attack: 攻撃
+			Ability: アビリティ
+		}
 	}
 
 	LivingWoodBoots: {
@@ -16649,6 +16877,11 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	LivingWoodMask: {
 		DisplayName: リビングウッドのマスク
 		Tooltip: ミニオンのノックバックが増加する
+		SetBonus:
+			'''
+			召喚可能なミニオンの最大数が{0}増加
+			木の妖精の攻撃が敵を追尾するようになる
+			'''
 	}
 
 	LivingWoodSap: {
@@ -16742,7 +16975,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 		Tooltip:
 			'''
 			セントリーの最大数を増やす
-			"{$Keybinds.AccessoryAbility.DisplayName} キーを押すと、視界を広げることができる"
+			「{$Keybinds.AccessoryAbility.DisplayName}」キーを押すと、視界を広げることができる」
 			'''
 	}
 
@@ -16853,7 +17086,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	TerrariumCore: {
 		DisplayName: テラリウムのコア
-		Tooltip: "「想像を絶するパワーを秘めている...」"
+		Tooltip: 「想像を絶するパワーを秘めている...」
 	}
 
 	TerrariumDefender: {
@@ -16893,6 +17126,53 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			ダメージが10%増加
 			暗闇での視力が向上する
 			'''
+		SetBonus:
+			'''
+			戦闘中、テラリアのエネルギーがプレイヤーを守る
+			「{$Keybinds.ArmorAbility.DisplayName}」キーを押すと、クラス特化を切り替え、選択可能
+			'''
+
+		Focus: {
+			Generic: {
+				Name: 特化なし
+				Description: ダメージ+{0}%
+			}
+
+			Melee: {
+				Name: 近接特化
+				Description: ダメージ軽減率+{0}%
+			}
+
+			Ranged: {
+				Name: 遠隔特化
+				Description: 攻撃速度+{0}%
+			}
+
+			Magic: {
+				Name: 魔法特化
+				Description: 最大マナ+{0}%
+			}
+
+			Summon: {
+				Name: 召喚特化
+				Description: 召喚可能なミニオンの最大数+{0}
+			}
+
+			Throwing: {
+				Name: 投擲特化
+				Description: 最大テクニックポイント+{0}%
+			}
+
+			Healer: {
+				Name: 神聖特化
+				Description: 回復量+{0}ライフ
+			}
+
+			Bard: {
+				Name: 旋律特化
+				Description: エンパワーメント持続時間+{0}{^0:秒;秒}
+			}
+		}
 	}
 
 	TerrariumHolyScythe: {
@@ -16985,7 +17265,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	ConcentratedThorium: {
 		DisplayName: 高濃度トリウム
-		Tooltip: "「インゴットよりも頑丈」"
+		Tooltip: 「インゴットよりも頑丈」
 	}
 
 	Crietz: {
@@ -17015,7 +17295,6 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	RangedThorHammer: {
 		DisplayName: ソーのハンマー：遠隔
 		Tooltip: インベントリ内で右クリックすると魔法モードに切り替わる
-
 	}
 
 	StrangeCrate: {
@@ -17030,7 +17309,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	ThoriumBar: {
 		DisplayName: トリウムのインゴット
-		Tooltip: "「エネルギーを感じる」"
+		Tooltip: 「エネルギーを感じる」
 	}
 
 	ThoriumBlade: {
@@ -17069,6 +17348,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			「エネルギーを感じる」
 			クリティカル確率2%増加
 			'''
+		SetBonus: 与えるダメージが{0}%増加する
 	}
 
 	ThoriumMail: {
@@ -17082,7 +17362,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	ThoriumOre: {
 		DisplayName: トリウム鉱石
-		Tooltip: "「これは本当に不思議な鉱石だ」"
+		Tooltip: 「これは本当に不思議な鉱石だ」
 	}
 
 	ThoriumPax: {
@@ -17173,7 +17453,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	BenignBalloon: {
 		DisplayName: 質のいい風船の束
-		Tooltip: "「少ししぼんでしまった」"
+		Tooltip: 「少ししぼんでしまった」
 	}
 
 	BloomingShuriken: {
@@ -17236,7 +17516,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	CeruleanMorel: {
 		DisplayName: セルリアンモレル
-		Tooltip: "「古代の精霊がこれらのキノコの蔓延を引き起こした」"
+		Tooltip: 「古代の精霊がこれらのキノコの蔓延を引き起こした」
 	}
 
 	ChlorophyteTomahawk: {
@@ -17301,7 +17581,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	DarkMatter: {
 		DisplayName: ダークマター
-		Tooltip: "「荒れ狂う闇の核」"
+		Tooltip: 「荒れ狂う闇の核」
 	}
 
 	DeadEyePatch: {
@@ -17769,7 +18049,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			固有技アビリティのクラフトに使用する
 			技発動後、投擲ダメージを与えるとテクニカルポイントがチャージされる
 			ダメージを与え続けないとテクニカルポイントは時間経過とともに減少する
-			発動中の技のアビリティを使用するには '{$Keybinds.ThrowingTechnique.DisplayName}' キーを押す
+			発動中の技のアビリティを使用するには 「{$Keybinds.ThrowingTechnique.DisplayName}」キーを押す
 			'''
 	}
 
@@ -17796,7 +18076,6 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	ThrowingGuideVolume2: {
 		DisplayName: 投擲の達人ガイド Vol.2
-
 		Tooltip:
 			'''
 			投擲ダメージ10%増加
@@ -17878,7 +18157,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	WhiteDwarfFragment: {
 		DisplayName: ホワイトドワーフの断片
-		Tooltip: "「眠れる巨人の圧倒的な力がこの破片の中に眠っている」"
+		Tooltip: 「眠れる巨人の圧倒的な力がこの破片の中に眠っている」
 	}
 
 	WhiteDwarfGreaves: {
@@ -18053,7 +18332,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			マナの使用量が15%減少
 			現在のマナが75以下の呪文を唱えると、与えるダメージが増加する
 			'''
-		SetBonus: 与えるダメージが{0}%増加！
+		SetBonus: 与えるダメージが{0}%増加
 	}
 
 	TitanHelmet: {
@@ -18065,11 +18344,12 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			ダメージを受けた後の無敵時間が増加する
 			ノックバックに対する耐性
 			'''
+		SetBonus: 与えるダメージが{0}%増加する
 	}
 
 	TitanicBar: {
 		DisplayName: 巨人のインゴット
-		Tooltip: "「過ぎ去りし日々のエネルギーを秘めている」"
+		Tooltip: 「過ぎ去りし日々のエネルギーを秘めている」
 	}
 
 	TitanJavelin: {
@@ -18090,6 +18370,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			弾薬を消費する確率が25%減少する
 			敵の位置が見えるようになる
 			'''
+		SetBonus: 与えるダメージが{0}%増加する
 	}
 
 	TitanPax: {
@@ -18233,12 +18514,12 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	SuspiciousGoldenKey: {
 		DisplayName: 怪しい黄金の鍵
-		Tooltip: "「チェストの肥やしにしないほうがいい」"
+		Tooltip: 「チェストの肥やしにしないほうがいい」
 	}
 
 	TheAlmightyRecipe: {
 		DisplayName: 全知全能のレシピ
-		Tooltip: "「時間を忘れそうになった...」"
+		Tooltip: 「時間を忘れそうになった...」
 	}
 
 	TheBlackBlade: {
@@ -18459,7 +18740,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	ValadiumChunk: {
 		DisplayName: バラジウムの塊
-		Tooltip: "「別次元の物質」"
+		Tooltip: 「別次元の物質」
 	}
 
 	ValadiumFoeBlaster: {
@@ -18489,11 +18770,12 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			遠距離攻撃のクリティカル確率が6%増加
 			遠距離攻撃ダメージが5%増加
 			'''
+		SetBonus: 上方向キーで重力を反転可能で、反転中は遠隔攻撃のダメージが{0}%増加する
 	}
 
 	ValadiumIngot: {
 		DisplayName: バラジウムのインゴット
-		Tooltip: "「重力のパワーを秘めている」"
+		Tooltip: 「重力のパワーを秘めている」
 	}
 
 	ValadiumPickaxe: {
@@ -18627,6 +18909,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	BlueKnightHelmet: {
 		DisplayName: 蒼の騎士の兜
 		Tooltip: ""
+		SetBonus: イカしてるぜ！
 	}
 
 	BombSquadGreaves: {
@@ -18666,7 +18949,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	FishHat: {
 		DisplayName: 魚の帽子
-		Tooltip: "「女性は私を求め、魚は私を恐れる」"
+		Tooltip: 「女性は私を求め、魚は私を恐れる」
 	}
 
 	GelatinousGreaves: {
@@ -18697,16 +18980,17 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	GlitteringHelmet: {
 		DisplayName: きらびやかな兜
 		Tooltip: ""
+		SetBonus: イカしてるぜ！
 	}
 
 	HatFish: {
 		DisplayName: ハットフィッシュ
-		Tooltip: "「女性は私を求め、魚は私を恐れる」"
+		Tooltip: 「女性は私を求め、魚は私を恐れる」
 	}
 
 	LootLurer: {
 		DisplayName: 略奪者
-		Tooltip: "「やるぞ！」"
+		Tooltip: 「やるぞ！」
 	}
 
 	MeteorMask: {
@@ -18721,12 +19005,12 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	ShadowPants: {
 		DisplayName: 影のパンツ
-		Tooltip: "「脚を光から隠すのに最適」"
+		Tooltip: 「脚を光から隠すのに最適」
 	}
 
 	ShadowShirt: {
 		DisplayName: 影のシャツ
-		Tooltip: "「体を光から隠すのに最適」"
+		Tooltip: 「体を光から隠すのに最適」
 	}
 
 	SnarbolaxCap: {
@@ -18853,13 +19137,13 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 	}
 
 	ArtificersExtractor: {
-		DisplayName:アーティフィサーの抽出機
+		DisplayName: アーティフィサーの抽出機
 		Tooltip: 攻撃はアーティフィサーのエネルギーを補充し、不足しているエネルギーに応じたダメージを与える
 	}
 
 	BasicPickaxe: {
 		DisplayName: 平凡なツルハシ
-		Tooltip: "デバッグ用"
+		Tooltip: デバッグ用
 	}
 
 	DestinyWeaver: {
@@ -18879,7 +19163,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	DreamPotion: {
 		DisplayName: 夢のポーション
-		Tooltip: "テスト目的"
+		Tooltip: テスト目的
 	}
 
 	GodMode: {
@@ -19044,12 +19328,12 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	TheBareGauntlet: {
 		DisplayName: ザ・ガントレット
-		Tooltip: "「何の力も有していないように見える」"
+		Tooltip: 「何の力も有していないように見える」
 	}
 
 	TheGauntlet: {
 		DisplayName: ザ・ガントレット
-		Tooltip: "「生きとし生けるものの半分を根絶やしにしようとする...自分自身を含めて」"
+		Tooltip: 「生きとし生けるものの半分を根絶やしにしようとする...自分自身を含めて」
 	}
 
 	TheTruePenguinWand: {
@@ -19063,7 +19347,7 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 
 	ThoriumPartyHat: {
 		DisplayName: トリウムパーティーハット
-		Tooltip: "「みなさん、いつも応援ありがとうございます！」"
+		Tooltip: 「みなさん、いつも応援ありがとうございます！」
 	}
 
 	ViscountRequirement: {
@@ -19320,6 +19604,319 @@ Tooltip: 味方のライフが40回復するごとに、ダメージを与える
 			地下ジャングルでのみ使用可能
 			'''
 	}
+
+	GrimAstroturf: {
+		DisplayName: Grim Astroturf
+		Tooltip: Can grow dead weeds and grimwood trees
+	}
+
+	FrozenTiara: {
+		Tooltip: タフな雪だるまを召喚する
+		DisplayName: フローズンティアラ
+	}
+
+	Deadwood: {
+		DisplayName: Deadwood
+		Tooltip: ""
+	}
+
+	DeadwoodChest: {
+		DisplayName: Deadwood Chest
+		Tooltip: ""
+	}
+
+	CelestialCup: {
+		DisplayName: Celestial Cup
+		Tooltip: ""
+	}
+
+	DeadwoodBathtub: {
+		DisplayName: Deadwood Bathtub
+		Tooltip: ""
+	}
+
+	DeadwoodBed: {
+		DisplayName: Deadwood Bed
+		Tooltip: ""
+	}
+
+	DeadwoodBookcase: {
+		DisplayName: Deadwood Bookcase
+		Tooltip: ""
+	}
+
+	DeadwoodCandelabra: {
+		DisplayName: Deadwood Candelabra
+		Tooltip: ""
+	}
+
+	DeadwoodCandle: {
+		DisplayName: Deadwood Candle
+		Tooltip: ""
+	}
+
+	DeadwoodChair: {
+		DisplayName: Deadwood Chair
+		Tooltip: ""
+	}
+
+	DeadwoodChandelier: {
+		DisplayName: Deadwood Chandelier
+		Tooltip: ""
+	}
+
+	DeadwoodChest_Trapped: {
+		DisplayName: Deadwood Chest_ Trapped
+		Tooltip: ""
+	}
+
+	DeadwoodClock: {
+		DisplayName: Deadwood Clock
+		Tooltip: ""
+	}
+
+	DeadwoodCup: {
+		DisplayName: Deadwood Cup
+		Tooltip: ""
+	}
+
+	DeadwoodDoor: {
+		DisplayName: Deadwood Door
+		Tooltip: ""
+	}
+
+	DeadwoodDresser: {
+		DisplayName: Deadwood Dresser
+		Tooltip: ""
+	}
+
+	DeadwoodLamp: {
+		DisplayName: Deadwood Lamp
+		Tooltip: ""
+	}
+
+	DeadwoodLantern: {
+		DisplayName: Deadwood Lantern
+		Tooltip: ""
+	}
+
+	DeadwoodPiano: {
+		DisplayName: Deadwood Piano
+		Tooltip: ""
+	}
+
+	DeadwoodPlatform: {
+		DisplayName: Deadwood Platform
+		Tooltip: ""
+	}
+
+	DeadwoodSink: {
+		DisplayName: Deadwood Sink
+		Tooltip: ""
+	}
+
+	DeadwoodSofa: {
+		DisplayName: Deadwood Sofa
+		Tooltip: ""
+	}
+
+	DeadwoodTable: {
+		DisplayName: Deadwood Table
+		Tooltip: ""
+	}
+
+	DeadwoodToilet: {
+		DisplayName: Deadwood Toilet
+		Tooltip: ""
+	}
+
+	DeadwoodWall: {
+		DisplayName: Deadwood Wall
+		Tooltip: ""
+	}
+
+	DeadwoodWorkbench: {
+		DisplayName: Deadwood Workbench
+		Tooltip: ""
+	}
+
+	NebulaCup: {
+		DisplayName: Nebula Cup
+		Tooltip: ""
+	}
+
+	ShootingStarCup: {
+		DisplayName: Shooting Star Cup
+		Tooltip: ""
+	}
+
+	SolarCup: {
+		DisplayName: Solar Cup
+		Tooltip: ""
+	}
+
+	StardustCup: {
+		DisplayName: Stardust Cup
+		Tooltip: ""
+	}
+
+	VortexCup: {
+		DisplayName: Vortex Cup
+		Tooltip: ""
+	}
+
+	WhiteDwarfCup: {
+		DisplayName: White Dwarf Cup
+		Tooltip: ""
+	}
+
+	ClayRoofingWall: {
+		Tooltip: ""
+		DisplayName: Clay Roofing Wall
+	}
+
+	ClayRoofing: {
+		Tooltip: ""
+		DisplayName: Clay Roofing
+	}
+
+	CobaltGong: {
+		DisplayName: コバルトのゴング
+		Tooltip: 大きな銅鑼をゆっくりと鳴らし、近くの敵全員を一時的にスタンさせてダメージを与える
+	}
+
+	PalladiumCowbell: {
+		DisplayName: パラジウムのカウベル
+		Tooltip:
+			'''
+			「ちょうど良い加減」
+			カウベルを素早く叩き、音の火花を周囲に撒き散らす
+			'''
+	}
+
+	BuildingBlock: {
+		DisplayName: Building Block
+		Tooltip: ""
+	}
+
+	SnarkyGun: {
+		SnarkyGunStage: {
+			Basic: 基本
+			Explosive: 爆発
+			Fire: 炎
+			Ice: 氷
+			Homing: 誘導
+		}
+
+		DisplayName: スナッキーガン
+		Tooltip:
+			'''
+			マスケット弾をさまざまな種類の卵に変換する
+			右クリックで卵の種類を切り替える
+			'''
+	}
+
+	Fig: {
+		DisplayName: イチジク
+		Tooltip: 全ステータスがわずかに上昇する
+	}
+
+	Tamarind: {
+		DisplayName: タマリンド
+		Tooltip: 全ステータスがわずかに上昇する
+	}
+
+	AdamantiteKlaxon: {
+		DisplayName: アダマンタイトのクラクション
+		Tooltip: 敵にダメージを与えた後、遅延した音の爆発を放つ
+	}
+
+	TitaniumCimbasso: {
+		DisplayName: チタニウムのチンバッソ
+		Tooltip: ""
+	}
+
+	ValadiumTheremin: {
+		DisplayName: バラジウムのテルミン
+		Tooltip: 上昇するメロディーを奏で、上方にいる敵に追加ダメージを与える
+	}
+
+	LodestoneRadio: {
+		DisplayName: ロードストーンのラジオ
+		Tooltip: 静電気で周囲を包み、敵を引き裂き、押し返す
+	}
+
+	Cello: {
+		DisplayName: チェロ
+		Tooltip:
+			'''
+			「発音は"Ch-hell-o"だ！」
+			長時間持続する炎の音波を放つ
+			'''
+	}
+
+	SorcerersDice: {
+		DisplayName: 魔術師のさいころ
+		Tooltip:
+			'''
+			現在のマナを消費して、6面の魔法のサイコロを振って賭けを行う
+			出た目に応じて異なるマナに関する効果が発生する
+			サイコロは使用後、{0}分間のクールダウンが必要です
+			'''
+		Choice1: (1) {0}秒間のマナ酔い
+		Choice2: (2) {0}秒間のマナ酔い
+		Choice3: (3) 消費したマナが回復した
+		Choice4: (4) マナが完全に回復した！
+		Choice5:
+			'''
+			(5)
+			{0}秒間、マナが無限に！
+			詠唱速度+{1}%
+			'''
+		Choice6:
+			'''
+			(6)
+			{0}秒間、マナが無限に！
+			詠唱速度+{1}%
+			+短時間の無敵状態
+			'''
+	}
+
+	AncientTome: {
+		DisplayName: 復活の古代書
+		Tooltip:
+			'''
+			最近死亡したプレーヤーを復活させることができる
+			インベントリ内にある間、死亡したプレイヤーの近くに霊魂が残る
+			その霊魂に5秒間触れ続けると、10%のライフで復活させることができる
+			復活したプレイヤーは復活後30秒間デバフが付与される
+			'''
+	}
+
+	ScaleBlock: {
+		DisplayName: Aquaite Scale Block
+		Tooltip: ""
+	}
+
+	SeaScaleWall: {
+		DisplayName: Aquaite Scale Wall
+		Tooltip: ""
+	}
+
+	ThoriumBrick: {
+		DisplayName: Thorium Block
+		Tooltip: ""
+	}
+
+	ThoriumBrickBlock: {
+		DisplayName: Thorium Brick
+		Tooltip: ""
+	}
+
+	ThoriumBrickBlockWall: {
+		DisplayName: Thorium Brick Wall
+		Tooltip: ""
+	}
 }
 
 NPCs: {
@@ -19539,7 +20136,7 @@ NPCs: {
 		BestiaryFlavorText: ウジ虫だらけの人の亡骸から形成された恐ろしいクリーチャー。殺してくれと懇願しているようだ。
 
 		BossChecklistIntegration: {
-			SpawnInfo:  ブラッドムーンの間にランダムで出現する。 [i:BloodMoonStarter] を使ってブラッドムーンを開始することができる。また、混乱したゾンビから購入した [i:ThoriumMod/FreshBrain] で召喚できる
+			SpawnInfo: ブラッドムーンの間にランダムで出現する。 [i:BloodMoonStarter] を使ってブラッドムーンを開始することができる。また、混乱したゾンビから購入した [i:ThoriumMod/FreshBrain] で召喚できる
 		}
 	}
 
@@ -19611,7 +20208,6 @@ NPCs: {
 			SpawnInfo: 大理石の洞窟の地下深くで [i:ThoriumMod/AncientBlade] を使うか、 {$NPCs.BizarreRockFormation.DisplayName} を見つけて倒す。
 		}
 	}
-
 
 	FallenChampion2: {
 		DisplayName: 堕落した英雄
@@ -19727,7 +20323,7 @@ NPCs: {
 
 	Cook: {
 		DisplayName: 料理人
-		BestiaryFlavorText: "コックは料理の達人だ。彼はいつも土地の食材を使って新しいレシピを試している。"
+		BestiaryFlavorText: コックは料理の達人だ。彼はいつも土地の食材を使って新しいレシピを試している。
 
 		TownNPCMood: {
 			Content: I'm good, just thinking about my next recipe.
@@ -20072,7 +20668,7 @@ NPCs: {
 
 	GildedLycan: {
 		DisplayName: 金の狼男
-		BestiaryFlavorText: "人狼は銀に弱いと言われているが、まばゆい輝きを放つ獣人たちの存在を考えれば、同じことが金にも当てはまらないことは明らかだ。"
+		BestiaryFlavorText: 人狼は銀に弱いと言われているが、まばゆい輝きを放つ獣人たちの存在を考えれば、同じことが金にも当てはまらないことは明らかだ。
 	}
 
 	GildedSlime: {
@@ -20132,7 +20728,7 @@ NPCs: {
 		BestiaryFlavorText: 御影石の洞窟内のエネルギーサージの制御不能な震源地。スケレトロンの呪いを解くことで刺激される。
 
 		BossChecklistIntegration: {
-			SpawnInfo:" [i:ThoriumMod/UnstableCore] を地下深くの御影石の洞窟の中で使うか、 {$NPCs.UnstableEnergyAnomaly.DisplayName} を見つけて倒す。"
+			SpawnInfo: " [i:ThoriumMod/UnstableCore] を地下深くの御影石の洞窟の中で使うか、 {$NPCs.UnstableEnergyAnomaly.DisplayName} を見つけて倒す。"
 		}
 	}
 
@@ -20562,7 +21158,7 @@ NPCs: {
 		}
 
 		Census: {
-			SpawnCondition:" {$NPCName.EyeofCthulhu} を倒す"
+			SpawnCondition: " {$NPCName.EyeofCthulhu} を倒す"
 		}
 
 		Button: メダルと交換する
@@ -20621,61 +21217,61 @@ NPCs: {
 
 Prefixes: {
 	Buzzing: {
-		DisplayName: Buzzing
+		DisplayName: うなる
 	}
 
 	Euphonic: {
-		DisplayName: Euphonic
+		DisplayName: 美音の
 	}
 
 	Fabled: {
-		DisplayName: Fabled
+		DisplayName: 伝承の
 	}
 
 	Inspiring: {
-		DisplayName: Inspiring
+		DisplayName: 崇高な
 	}
 
 	Loud: {
-		DisplayName: Loud
+		DisplayName: 大音量の
 	}
 
 	Melodic: {
-		DisplayName: Melodic
+		DisplayName: 調和の取れた
 	}
 
 	Muted: {
-		DisplayName: Muted
+		DisplayName: 聞こえづらい
 	}
 
 	OffKey: {
-		DisplayName: Off-Key
+		DisplayName: 不協和音の
 	}
 
 	Rambling: {
-		DisplayName: Rambling
+		DisplayName: まとまりのない
 	}
 
 	Refined: {
-		DisplayName: Refined
+		DisplayName: 洗練された
 	}
 
 	Supersonic: {
-		DisplayName: Supersonic
+		DisplayName: 超音速の
 	}
 
 	Vibrant: {
-		DisplayName: Vibrant
+		DisplayName: 活気のある
 	}
 
 	Engrossing: {
-		DisplayName: Engrossing
-		Tooltip: +{0} sec empowerment duration
+		DisplayName: 魅惑的な
+		Tooltip: +{0}秒間の強化効果の持続時間
 	}
 
 	Lucrative: {
-		DisplayName: Lucrative
-		Tooltip: +{0}% coins from enemies
+		DisplayName: リッチな
+		Tooltip: 敵から得られるコインが+{0}%
 	}
 }
 
@@ -20940,38 +21536,6 @@ Projectiles: {
 		DisplayName: Conch Shell Pro
 	}
 
-	ConductorGhost1: {
-		DisplayName: Conductor Ghost1
-	}
-
-	ConductorGhost2: {
-		DisplayName: Conductor Ghost2
-	}
-
-	ConductorGhost3: {
-		DisplayName: Conductor Ghost3
-	}
-
-	ConductorGhost4: {
-		DisplayName: Conductor Ghost4
-	}
-
-	ConductorGhostPro1: {
-		DisplayName: Conductor Ghost Pro1
-	}
-
-	ConductorGhostPro2: {
-		DisplayName: Conductor Ghost Pro2
-	}
-
-	ConductorGhostPro3: {
-		DisplayName: Conductor Ghost Pro3
-	}
-
-	ConductorGhostPro4: {
-		DisplayName: Conductor Ghost Pro4
-	}
-
 	DidgeridooPro: {
 		DisplayName: Didgeridoo Pro
 	}
@@ -21080,12 +21644,20 @@ Projectiles: {
 		DisplayName: Grand Piano Pro
 	}
 
-	GraniteInspiration: {
-		DisplayName: Granite Inspiration
+	GraniteBoomBoxPro: {
+		DisplayName: "{$Items.GraniteBoomBox.DisplayName}"
 	}
 
-	GraniteInspirationPro: {
-		DisplayName: Granite Inspiration Pro
+	GraniteBoomBoxPro2: {
+		DisplayName: "{$Items.GraniteBoomBox.DisplayName}"
+	}
+
+	LodestoneRadioPro: {
+		DisplayName: "{$Items.LodestoneRadio.DisplayName}"
+	}
+
+	LodestoneRadioPro2: {
+		DisplayName: "{$Items.LodestoneRadio.DisplayName}"
 	}
 
 	GreedfulGurdyPro: {
@@ -23297,8 +23869,8 @@ Projectiles: {
 		DisplayName: Harpy Talon Pro
 	}
 
-	AncientTomePro: {
-		DisplayName: 古代のTome Pro
+	RevivifyPro: {
+		DisplayName: Revivify
 	}
 
 	AnkhPro: {
@@ -23729,12 +24301,8 @@ Projectiles: {
 		DisplayName: Lotus Pro2
 	}
 
-	LowestPro: {
-		DisplayName: Lowest Pro
-	}
-
-	LowestPro2: {
-		DisplayName: Lowest Pro2
+	InnerFlamePro: {
+		DisplayName: Inner Flame
 	}
 
 	LucidityPro: {
@@ -27520,6 +28088,118 @@ Projectiles: {
 	ScytheofUndoingPro5: {
 		DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
 	}
+
+	FrozenTiaraPro: {
+		DisplayName: Frozen Tiara
+	}
+
+	MaestroSetPro1: {
+		DisplayName: Maestro Ghosts
+	}
+
+	MaestroSetPro2: {
+		DisplayName: Maestro Ghosts
+	}
+
+	MaestroSetPro3: {
+		DisplayName: Maestro Ghosts
+	}
+
+	MaestroSetPro4: {
+		DisplayName: Maestro Ghosts
+	}
+
+	MaestroSetPro: {
+		DisplayName: Maestro Ghosts
+	}
+
+	PalladiumCowbellPro: {
+		DisplayName: Palladium Cowbell Pro
+	}
+
+	CobaltGongPro: {
+		DisplayName: Cobalt Gong Pro
+	}
+
+	BagpipePro: {
+		DisplayName: Bagpipe Pro
+	}
+
+	SnarkyGunPro: {
+		DisplayName: Snarky Gun
+	}
+
+	AdamantiteKlaxonPro: {
+		DisplayName: Adamantite Klaxon
+	}
+
+	AdamantiteKlaxonPro2: {
+		DisplayName: Adamantite Klaxon
+	}
+
+	TitaniumCimbassoPro: {
+		DisplayName: Titanium Cimbasso
+	}
+
+	ValadiumThereminPro: {
+		DisplayName: Valadium Theremin
+	}
+
+	CelloPro: {
+		DisplayName: Cello Pro
+	}
+
+	ConductorGhost1: {
+		DisplayName: Conductor Ghost1
+	}
+
+	ConductorGhost2: {
+		DisplayName: Conductor Ghost2
+	}
+
+	ConductorGhost3: {
+		DisplayName: Conductor Ghost3
+	}
+
+	ConductorGhost4: {
+		DisplayName: Conductor Ghost4
+	}
+
+	ConductorGhostPro1: {
+		DisplayName: Conductor Ghost Pro1
+	}
+
+	ConductorGhostPro2: {
+		DisplayName: Conductor Ghost Pro2
+	}
+
+	ConductorGhostPro3: {
+		DisplayName: Conductor Ghost Pro3
+	}
+
+	ConductorGhostPro4: {
+		DisplayName: Conductor Ghost Pro4
+	}
+
+	GraniteInspiration: {
+		DisplayName: Granite Inspiration
+	}
+
+	GraniteInspirationPro: {
+		DisplayName: Granite Inspiration Pro
+	}
+
+	AncientTomePro: {
+		DisplayName: 古代のTome Pro
+	}
+
+	LowestPro: {
+		DisplayName: Lowest Pro
+	}
+
+	LowestPro2: {
+		DisplayName: Lowest Pro2
+	}
 }
 
 Tiles: {
@@ -27602,6 +28282,10 @@ Tiles: {
 	WorldEngineTile: {
 		MapEntry: World Engine
 	}
+
+	FurnitureVanillaCup: {
+		MapEntry: Furniture Vanilla Cup
+	}
 }
 
 Keybinds: {
@@ -27640,9 +28324,9 @@ MonsterContracts: {
 	}
 
 	DangerContract: {
-		Title: ロープワークの習得
-		Description: さてと、お前には簡単なことから始めてもらおうか...。私は地表の奥深くに生息する野生生物たちを探し出した。地下を冒険していると、ザリガニ、サラマンダー、ジャイアント・シェリーという恐ろしい生き物に遭遇することがある。彼らを何匹か倒せば、世界はもっと安全になるし、私も安心して一晩眠れるだろう。
-		Description: 悪くないな、小僧。あいつらが「{$Items.VanquisherMedal.DisplayName}」を落としたことに気づいたかもしれない。それを使えば、俺が持っているアイテムと交換できる。通常、それらは追跡したクリーチャーに関連するものだ。契約を終えたら必ず俺を訪ねてほしい。
+		Title: 新米の仕事
+		Description: さてと、お前には簡単なことから始めてもらおうか...。私は地表の奥深くに生息する野生生物たちを探し出した。地下を冒険していると、ザリガニ、サラマンダー、ジャイアント・シェリーという恐ろしい生き物に遭遇することがある。アイツらを何匹か倒せば、世界はもっと安全になるし、みんなも安心して一晩眠れるだろう。
+		DescriptionCompleted: 悪くないな、小僧。あいつらが「{$Items.VanquisherMedal.DisplayName}」を落としたことに気づいたかもしれない。それを使えば、俺が持っているアイテムと交換できる。通常、それらは追跡したクリーチャーに関連するものだ。契約を終えたら必ず俺を訪ねてほしい。
 	}
 
 	DoctorContract: {
@@ -27726,7 +28410,7 @@ MonsterContracts: {
 	}
 
 	TimContract: {
-		Title:  影を落とす
+		Title: 影を落とす
 		Description: この世界の深層にいる、つかみどころのないダーク・キャスターを探し出すことに成功した。名前は... {$NPCName.Tim} 。彼はかなりの力を秘めているが、1つ致命的な弱点がある。彼は自分の服装にかなり誇りを持っているようで、他の誰よりも優れていると思っている。宝石のローブを着ておびき出すといいかもな。
 	}
 
@@ -27759,6 +28443,13 @@ Common: {
 		}
 
 		Sheath: 剣を持っている時、 {1} {^1:second;秒}間攻撃しないとステルスが付与され、次に攻撃した時に {0}% の追加ダメージを与える
+		InvalidMeleeItemForSheath: この武器は鞘に収めることができない
+
+		Bard: {
+			InstrumentTag: -{0} Instrument-
+			ClassTag: -Bard Class-
+			InspirationCost: "{0}インスピレーションを使用する"
+		}
 	}
 
 	TreasureBag: トレジャーバッグ ({0})
@@ -28145,7 +28836,7 @@ BardInstrumentType: {
 	Electronic: 電子楽器
 }
 
-AccessoryType: { 
+AccessoryType: {
 	Normal: Normal
 	HibernationCharm: Hibernation Charm
 	SoundDevice: Sound Device
@@ -28203,3 +28894,4 @@ MapLayers: {
 		Name: Blood Chamber
 	}
 }
+

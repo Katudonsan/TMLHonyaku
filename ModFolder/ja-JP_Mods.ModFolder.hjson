@@ -1,0 +1,518 @@
+Changelog:
+	'''
+	[c/00ff00:v0.4.0]
+	[c/ff0000:- allow import and export folders via clipboard, the "Import Folder" button is in "More Buttons"]
+	[c/999999:- the mod item is a bit taller, make icon_small not compressed (30px -> 32px)]
+	[c/999999:- fix the rename input field of folder keeps existing when not actually renamed]
+	- "Update Mods" button now gives the tip when no mods need to update
+	[c/ffff00:- When showing all mods, the unloaded mods are also shown]
+	- folders and not loaded mods can also be sorted by last modified
+	[c/ff0000:- add popup infos, in some cases (such as import and export) a popup info would be shown at the bottom right]
+	[c/999999:- fix the big icon somethings not show up when hovering over the icon]
+
+	[c/00ff00:v0.3.2]
+	[c/ff0000:- add an "Update Mods" button (in "More Buttons"), to directly check and update mods]
+	[c/999999:- configure whether to totally reload the folder system when entering again]
+	[c/999999:- seperate the configuration of folder's enable status into a single page]
+
+	[c/00ff00:v0.3.1]
+	[c/999999:- configure whether to delete redundant data]
+	- left click to enter folder system by default rather than right click
+	- for mods that are enabled or in a mod pack, delete button would fade out and give tooltips for not deletable
+	[c/999999:- when showing all mods (not using folder system), the sort button of folders and mods becomes gray rather than just disappears]
+
+	[c/00ff00:v0.3.0.4]
+	[c/999999:- fix filters' wrong behavior on unloaded mods]
+
+	[c/00ff00:v0.3.0.3]
+	[c/999999:- when entering a folder, reset the list position to the top]
+
+	[c/00ff00:v0.3.0.2]
+	[c/999999:- fix the line break issue of Chinese changelog]
+
+	[c/00ff00:v0.3.0.1]
+	- set alias for unloaded mod
+	[c/999999:- download status background would not blink]
+	- Esc now would now prioritize exiting the confirmation pop-up window
+	[c/999999:- fix the order of special alias]
+	[c/ff0000:-] [c/ff6600:t][c/ff9900:h][c/ffcc00:e] [c/ccff00:c][c/99ff00:h][c/66ff00:a][c/33ff00:n][c/00ff00:g][c/00ff33:e][c/00ff66:l][c/00ff99:o][c/00ffcc:g] [c/00ccff:b][c/0099ff:e][c/0066ff:c][c/0033ff:o][c/0000ff:m][c/3300ff:e] [c/9900ff:c][c/cc00ff:o][c/ff00ff:l][c/ff00cc:o][c/ff0099:r][c/ff0066:f][c/ff0033:u][c/ff0000:l]
+
+	[c/00ff00:v0.3.0]
+	[c/ff0000:- resubscribe mods that is deleted but keep in directory]
+	- make Esc behave the same as Back button
+	- disallow enable mods that miss references
+
+	[c/00ff00:v0.2.2.2]
+	[c/ffff00:- add page up and page down support]
+	[c/999999:- fix version upgrade hints to more reliably detect and inform when a mod is preview only]
+
+	[c/00ff00:v0.2.2.1]
+	- mods show alias even when not loaded yet
+
+	[c/00ff00:v0.2.2]
+	[c/ff0000:- mod alias]
+	- icon changed
+	[c/999999:- update status background would not blink]
+	[c/ffff00:- configure whether to show mod version]
+
+	[c/00ff00:v0.2.1.1 & v0.2.1.2]
+	[c/999999:- fix the occasional mistake of folder's enable status]
+
+	[c/00ff00:v0.2.1]
+	[c/ff0000:- folder's enable status (highly configurable)]
+
+	[c/00ff00:v0.2.0.1]
+	[c/999999:- fix the occasional problem when canceling the mod loading]
+
+	[c/00ff00:v0.2.0]
+	- optimize the loading time when entering the interface (load textures and dependencies asynchronously)
+	[c/ff0000:- delete folder when pressing Alt to put the content to the current folder]
+	[c/ff0000:- double click to disable a mod when pressing Shift to disable the redundant dependencies at the same time, and the "Enable & Disable" button also allow to disable redundant dependencies]
+	[c/ff0000:- more buttons: copy all enabled mods to the current folder; disable redundant dependencies]
+	[c/ffff00:- save more frequently (save when changed, configurable)]
+	[c/ffff00:- configure whether need confirm when deleting a folder (unsubscribe all always need to conform)]
+	[c/ffff00:- configure whether to move list when dragging]
+	[c/ffff00:- configure the save path of data]
+	[c/999999:- bugfix: "Enable & Disable" button now handles dependencies]
+
+	[c/00ff00:v0.1.2.1]
+	[c/999999:- fix the misalignment when renaming a folder]
+
+	[c/00ff00:v0.1.2]
+	[c/ffff00:- add a button to show memory estimates]
+	[c/ffff00:- show mod location (workshop / local / modpack), configurable]
+
+	[c/00ff00:v0.1.1]
+	- add changelog
+	[c/ffff00:- configure whether to use leftclick to enter the folder system (default rightclick)]
+	- unloaded mods show display name instead of inner name
+	- resolve the lags when unsubscribing mods
+	[c/999999:- fill the description]
+	[c/999999:- fix the misalignment when there're duplicated mods in the same folder]
+
+	[c/00ff00:v0.1.0]
+	- publish
+	'''
+
+UI: {
+	Buttons: {
+		Mods: {
+			DescriptionToAdd: 右クリックでフォルダシステムを開く。
+			DescriptionWhenLeftClick: 右クリックでオリジナルのUIを開く。
+		}
+
+		CreateFolder: {
+			DisplayName: フォルダを作成
+		}
+
+		AllMods: {
+			DisplayName: 有効化＆無効化
+			Tooltip:
+				'''
+				左クリックでMODを有効、右クリックで無効にします
+				ミドルクリックをすると、Modを以前有効だった状態にリセットします。
+				Modは通常、現在のフォルダから読み込まれます。
+				Altキーを押しながら操作すると、サブフォルダも含めて検索します。
+				Shiftキーを押しながら操作すると、すべてのModが対象になります。
+				Ctrlキーを押しながら操作すると、お気に入りのModを無視せず処理します。
+				ただし、Ctrlキーを押しながら右クリックをすると、通常の右クリックとして扱われ、不要な依存Modが自動的に解除されます。
+				（お気に入りのModはデフォルトで無効化されません）)
+				'''
+		}
+
+		Back: {
+			Tooltip:
+				'''
+				ディレクトリを1つ上の階層に変更します（デフォルト）
+				ルートディレクトリの場合、メインメニューに戻ります。
+				Shiftキーを押すと直接メインメニューに移動します。
+				Ctrlキーを押しながらメインメニューに戻るとModを強制的に再読み込みします。
+				'''
+		}
+
+		ToggleShowButtons: {
+			TooltipOn:
+				'''
+				ボタンを表示します。
+				ミドルクリックでデフォルトにリセットされます。
+				'''
+			TooltipOff:
+				'''
+				ボタンを非表示にします。
+				ミドルクリックでデフォルトにリセットされます。
+				'''
+		}
+
+		More: {
+			DisplayName: 次のページ
+		}
+
+		CopyEnabled: {
+			DisplayName: 有効Modのコピー
+			Tooltip:
+				'''
+				現在のフォルダに有効なModをコピーします（ルートディレクトリまたはすべてのModを表示中は無効）
+				デフォルトでは、すでに有効（読み込まれている）Modのみを含みます。
+				Shiftキーを押しながら操作すると、有効になる予定のModのみを含みます（無効になる予定のModは含まれません）
+				Ctrlキーを押しながら操作すると古い内容を削除します。
+				'''
+		}
+
+		DisableRedundant: {
+			DisplayName: 不要な依存関係の無効化
+			Tooltip:
+				'''
+				不要な依存Mod（依存先が有効になっていないMod）を無効にします
+				デフォルトでは現在のフォルダ内のModを対象とします。
+				Altキーを押しながら操作するとサブフォルダも対象に含めます。
+				Shiftキーを押すとすべてのModが対象になります。
+				Ctrlキーを押すとお気に入りのModも無効化の対象に含めます。
+				左クリックでブロックがあるModを無効化し、右クリックでブロックがあるModを無効化します
+				（依存関係と依存先の両方を持つMod（例: Calamity）は、右クリック時に依存先がない場合に無効化されます）
+				'''
+		}
+
+		Subscribe: {
+			Tooltips: {
+				Downloading: ダウンロード中 {0} / {1}
+				Subscribing: サブスクライブ中...
+				Loading: 読み込み中...
+				Subscribe: サブスクライブ
+			}
+		}
+
+		Delete: {
+			Tooltips: {
+				CantDeleteEnabled: 有効なModは削除できません
+				CantDeleteInModPack: Modパック内のModは削除できません
+			}
+		}
+
+		Update: {
+			DisplayName: Modを更新
+			Tooltip: ""
+			UpdateItemPattern: "{0}: {1} -> {2}"
+			NewItemPattern: "{0}: {1}"
+			SearchingForMods: Modのアップデートデータを検索中...
+			DialogText: 以下のModを更新してもよろしいですか？
+			NoModsToUpdate: 更新できるModがありません。
+		}
+
+		Export: {
+			Tooltip:
+				'''
+				クリップボードにエクスポートします。
+				Shiftキーを押しながら操作すると表示名をエクスポートしません。
+				Ctrlキーを押しながら操作するとエイリアスをエクスポートします。
+				Altキーを押しながら操作するとお気に入り状態をエクスポートします。
+				'''
+		}
+
+		Import: {
+			DisplayName: フォルダをインポート
+			Tooltip:
+				'''
+				クリップボードから現在のフォルダにフォルダをインポートします
+				Shiftキーを押しながら操作すると既存の表示名やエイリアスを置き換えます
+				Altキーを押しながら操作するとお気に入り状態をインポートします
+				'''
+		}
+	}
+
+	SortButtons: {
+		Custom: {
+			Tooltip: カスタム順序
+		}
+
+		ReverseRecently: {
+			Tooltip: 変更が古い順に並べ替え
+		}
+
+		CustomFM: {
+			Tooltip: フォルダとModのカスタム順序
+		}
+
+		FolderFirst: {
+			Tooltip: フォルダを先に表示
+		}
+
+		ModFirst: {
+			Tooltip: Modを先に表示
+		}
+
+		ToBeEnabled: {
+			Tooltip: 有効化予定のModのみ表示
+		}
+
+		ToBeDisabled: {
+			Tooltip: 無効化予定のModのみ表示
+		}
+
+		ToBeToggled: {
+			Tooltip: 切り替え予定のModのみ表示
+		}
+
+		WouldBeEnabled: {
+			Tooltip: 有効になる予定のModのみ表示
+		}
+
+		WouldBeDisabled: {
+			Tooltip: 無効になる予定のModのみ表示
+		}
+
+		FolderSystem: {
+			Tooltip: フォルダシステムを使用
+		}
+
+		AllMods: {
+			Tooltip: すべてのModを表示
+		}
+
+		Loaded: {
+			Tooltip: 読み込み済みのModを表示
+		}
+
+		Unloaded: {
+			Tooltip: 未読み込みのModを表示
+		}
+	}
+
+	NewFolderDefaultName: 新規フォルダ
+	DeleteModItemCofirmTextToAdd:
+		'''
+		Shiftキーを押すとインデックスを削除
+		Ctrlキーを押すとサブスクライブ解除
+		両方押すとModを完全に削除
+		'''
+	DeleteModItemUnloadedComfirmTextToAdd: Modは削除せずインデックスのみを削除
+	DeleteFolderConfirmText:
+		'''
+		フォルダを削除してもよろしいですか？
+		Shiftキーを押すとインデックスを削除します
+ 		Ctrlキーを押すとフォルダ内のすべてのModを購読解除します
+		Altキーを押すとインデックスを削除し、内容を現在のフォルダに移動します
+		'''
+	DeleteFolderDoubleConfirmText: フォルダ内のすべてのModをサブスクライブ解除してもよろしいですか？
+	DeleteFolderUnloadedConfirmText:
+		'''
+		フォルダを削除してもよろしいですか？
+		内容はまだ読み込まれていないため、インデックスのみ削除されます
+		Altキーを押すと内容を現在のフォルダに移動します
+		'''
+
+	ConfigButtons: {
+		OpenFolder: {
+			Tooltip: フォルダを開く...
+		}
+	}
+
+	Rename: 名前変更
+	FolderEnableStatus:
+		'''
+		全Mod: {0}
+		有効: {1}
+		有効化予定: {2}
+		無効化予定: {3}
+		'''
+	CycleImageDisabled:
+		'''
+		[c/999999:現在使用不可]
+		[c/999999:{0}]
+		'''
+	FilteredByLoaded: "{0} 個のModが読み込みフィルタによって絞り込まれました。"
+
+	PopupInfos: {
+		CantSubscribeForMissingPublishId: サブスクライブできません！Mod情報が保存されていません！
+		CantSubscribeWhenDownloading: Modをダウンロード中！
+		CantSubscribeWhenSubscribing: サブスクライブ中です！繰り返しクリックしないでください！
+		CantSubscribeWhenLoading: 読み込み中はサブスクライブできません！完了するまでお待ちください！
+		Exported: フォルダ内容がクリップボードにエクスポートされました！
+		ImportNotAllowedWhenShowingAllMods: 全Modを表示中はインポートできません。フォルダシステムを使用してください！
+		ImportClipboardInvalid: クリップボードの内容が無効です！
+		Imported: フォルダがクリップボードから現在のフォルダにインポートされました！
+		SteamNotAvailable: Steamが利用できません！
+		DownloadModError: Modのダウンロードエラー！詳細はログを確認してください。
+		CantFindModInWorkshop: ワークショップでModが見つかりません: {0} ({1})
+		EnableNotAllowedWhenLoading: 読み込み中はModを有効化できません！
+		DisableNotAllowedWhenLoading: 読み込み中はModを無効化できません！
+		ResetNotAllowedWhenLoading: 読み込み中はModをリセットできません！
+	}
+}
+
+Configs: {
+	CommonConfig: {
+		DisplayName: 設定
+
+		LeftClickToEnterFolderSystem: {
+			Label: フォルダシステムに入るには左クリック
+			Tooltip:
+				'''
+				有効にすると、右クリックで元のModマネージャに入る
+				無効にすると、右クリックでフォルダシステムに入る
+				'''
+		}
+
+		ShowModLocation: {
+			Label: Modの場所を表示
+			Tooltip: ModがSteamワークショップ、ローカル、またはModパックからのものであるかを表示する
+		}
+
+		SaveWhenChanged: {
+			Label: 変更時に保存
+			Tooltip: 無効の場合、データは戻るときのみ保存される
+		}
+
+		AlwaysNeedConfirmWhenDeletingFolder: {
+			Label: フォルダ削除時に常に確認
+			Tooltip:
+				'''
+				無効にすると、ShiftまたはAltを押しながら削除ボタンをクリックするとフォルダのインデックスが直接削除されるが、
+				Ctrlを押すと、すべての購読解除を確認する必要がある
+				'''
+		}
+
+		AutoMoveListWhenDragging: {
+			Label: ドラッグ時にリストを自動移動
+			Tooltip: ""
+		}
+
+		DataSavePath: {
+			Label: データ保存パス
+			Tooltip:
+				'''
+				データは「ModFolderData.json」として指定されたパスに保存される
+				空の場合、データはModフォルダ（tmlがModを配置する場所）に保存される
+				'''
+		}
+
+		ShowModVersion: {
+			Label: Modバージョンを表示
+			Tooltip: ""
+		}
+
+		ShowEnableStatus: {
+			Label: 有効化状態を表示
+			Tooltip: ""
+		}
+
+		RemoveRedundantData: {
+			Label: 重複データを削除
+			Tooltip: 購読されていないか、フォルダシステムに含まれないModのデータを削除
+		}
+
+		TotallyReload: {
+			Label: 完全にリロード
+			Tooltip: フォルダシステムに再度入るときに完全にリロード
+		}
+
+		LogModLoading: {
+			Label: Mod読み込みログ
+			Tooltip: 有効にすると、Modの読み込み時にラグが発生する可能性がある
+		}
+
+		SeeChangelog: {
+			Label: アップデートログを見る
+			Tooltip: ""
+		}
+	}
+
+	SeeChangelogClass: {
+		Tooltip: ""
+
+		ChangelogDisplay: {
+			Label: アップデートログを表示
+			Tooltip: ""
+		}
+	}
+
+	ShowEnableStatusClass: {
+		Tooltip: ""
+
+		Headers: {
+			Background: 背景
+			Text: テキスト
+		}
+
+		ShowBackground: {
+			Label: 背景を表示
+			Tooltip: ""
+		}
+
+		ShowAllAlways: {
+			Label: 常に全てを表示
+			Tooltip: ""
+		}
+
+		ShowAllWhenNotZero: {
+			Label: ゼロでないときにすべて表示
+			Tooltip: ""
+		}
+
+		ShowNone: {
+			Label: 何も表示しない
+			Tooltip: ""
+		}
+
+		AllMods: {
+			Label: すべてのMod
+			Tooltip: ""
+		}
+
+		Enabled: {
+			Label: 有効
+			Tooltip: ""
+		}
+
+		ToEnable: {
+			Label: 有効化予定
+			Tooltip: ""
+		}
+
+		ToDisable: {
+			Label: 無効化予定
+			Tooltip: ""
+		}
+
+		Seperator: {
+			Label: 区切り
+			Tooltip: ""
+		}
+
+		AllModsColor: {
+			Label: すべてのModカラー
+			Tooltip: ""
+		}
+
+		EnabledColor: {
+			Label: 有効カラー
+			Tooltip: ""
+		}
+
+		ToEnableColor: {
+			Label: 有効化予定カラー
+			Tooltip: ""
+		}
+
+		ToDisableColor: {
+			Label: 無効化予定カラー
+			Tooltip: ""
+		}
+	}
+
+	ShowType: {
+		Tooltip: ""
+
+		Never: {
+			Label: 決して表示しない
+		}
+
+		WhenNotZero: {
+			Label: ゼロでない時表示
+		}
+
+		Always: {
+			Label: 常に表示
+		}
+	}
+}
+
