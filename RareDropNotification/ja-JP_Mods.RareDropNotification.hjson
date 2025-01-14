@@ -1,0 +1,56 @@
+RareDrop: "[c/<color>:レアドロ!   =<itemName>=] [i:<item>] [c/<color>:(<chance>%の確率)]"
+ConfigName: 通知のカスタマイズ
+TriggerThreshold: レアドロップの表示 %
+TriggerThresholdTip: メッセージとサウンドエフェクトは、ドロップしたアイテムのドロップ確率がこの値以下の場合にのみ機能します
+TextColor: レアドロップの文字色
+TextColorTip: ""
+CustomSound: サウンドパスのカスタマイズ [c/FF0000:自己責任で使用すること]
+CustomSoundTip:
+	'''
+	ここに希望の効果音のパスを入力すると、レアアイテムがドロップした時に再生されます
+	Modの効果音には、ModName/FileDestination/SoundsNameを使う (DesiredModのGitHubページ、または解凍されたファイルを参照)
+	自分のMODを作成し、使いたいサウンドをインクルードします
+	バニラのサウンドはTerraria/Sounds/SoundsNameを使ってください(https://terraria.wiki.gg/wiki/Sound_IDs(スペースには_を使用)の'File'を参照)
+	このテキストボックスに書くのは難しいので、パスを書いてコピーペーストすることを強く推奨します
+	[c/FF0000:実験的機能： 間違ったパスはエラーの原因になります！ 損失など を使用するのは自己責任でお願いします］
+	'''
+EnableCustom: カスタムサウンドエフェクトを有効にする
+EnableCustomTip:
+	'''
+	これが有効でない場合、カスタムサウンドエフェクトパスは有効になりません
+	そのため、パスを削除せずに切り替えることができます
+	'''
+SoundPitch: 効果音のピッチ
+SoundPitchTip: レアアイテムのドロップ効果音のベースピッチを設定します
+SoundPitchVariation: 効果音のピッチ変化
+SoundPitchVariationTip:
+	'''
+	レアアイテムのドロップ効果音を再生する際に、ピッチを上げ下げできる量を設定します
+	効果音の繰り返しを減らすことができるので、0以上にすることを推奨します
+	'''
+SoundVolume: 効果音ボリューム
+SoundVolumeTip:
+	'''
+	レアアイテムのドロップ効果音の音量を設定します
+	0に設定すると、効果音の実行を完全に停止します
+	'''
+Sound: レアドロップの効果音設定
+Experimental: 実験的設定
+
+Configs: {
+	SoundEffect: {
+		Tooltip: レアアイテムをドロップした時に再生する効果音の選択
+		HypixelSkyblock.Label: Hypixel Skyblock Rare Drop
+		Item35.Label: Vanilla Terraria Bell
+		Item129.Label: Vanilla Terraria Golf Ball sunking in Golf Cup
+		Item150.Label: Vanilla Terraria Mimic Projectile Reflect
+		Zombie15.Label: Vanilla Terraria Mouse Squeak
+	}
+}
+
+CurrentSound: 現在の効果音
+CurrentSoundTip:
+	'''
+	レアアイテムがドロップされた時に流れる効果音
+	カスタム効果音がオンになっている場合は何もしません
+	'''

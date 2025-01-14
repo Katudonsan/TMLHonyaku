@@ -1,0 +1,50 @@
+﻿NoValue: 価値なし
+TrashAllItemsWithNoValue: 価値のないものはすべてゴミ箱へ
+ClickToRemove: クリックして削除
+YouNeedToHoldAltAndClickToClearTheList: リストをクリアするには、altを押しながらクリックする必要があります
+NotEnoughMoneyToReclaimAutoSellItem: 自動売却アイテムを取り戻すためのコインが足りない
+ClickToRemoveFromAutoSellList: クリックして自動売却リストから削除する
+ClickToRemoveFromAutoTrashList: クリックして自動ゴミ箱リストから削除する
+PlaceItemToAddToAutoSellList: 自動売却リストに追加するアイテムを置く
+PlaceItemToAddToAutoTrashList: 自動ゴミ箱リストに追加するアイテムを置く
+EnableAutoSellToAutomaticallySellItemsOnPickup: 自動売却を有効にして、選択時に商品を自動的に売却する
+EnableAutoTrashToAutomaticallyTrashItemsOnPickup: 自動ゴミ箱を有効にして、拾う時に自動的にゴミ箱に捨てる
+AutoSellEnabled: 自動売却が有効： {0} {^0:アイテム}
+AutoTrashEnabled: 自動ゴミ箱が有効： {0} {^0:アイテム}
+AutoSellDisabled: 自動売却が無効
+AutoTrashDisabled: 自動ゴミ箱が無効
+ClickToViewAutoSellList: クリックして自動売却リストを表示
+ClickToViewAutoTrashList: クリックして自動ゴミ箱リストを表示
+HoldAltAndClickToClearAutoSellList: Altを押しながらクリックして自動売却リストを消去する
+HoldAltAndClickToClearAutoTrashList: Altを押しながらクリックして自動ゴミ箱リストを消去する
+RecipeBrowserFilterNotAutoTrashed: Not Auto-Trashed
+
+Configs: {
+	AutoTrashServerConfig: {
+		DisplayName: 「AutoTrash」のサーバー設定
+
+		SellValue: {
+			Tooltip: Customize the sell value of a item, default merchant sell value is 20%, mod's default sell value is ~15%
+			Label: AutoSell % sell value
+		}
+	}
+
+	AutoTrashClientConfig: {
+		DisplayName: 「AutoTrash」のクライアント設定
+
+		SlotPositionX: {
+			Tooltip: Customize the position of the AutoTrash slot measured left to right from the 1st hotbar
+			Label: AutoTrash Slot Icon Position X
+		}
+
+		SlotPositionY: {
+			Tooltip: Customize the position of the AutoTrash slot measured top to bottom from the top hotbar
+			Label: AutoTrash Slot Icon Position Y
+		}
+
+		SellInstead: {
+			Tooltip: Will sell items on pickup instead of trashing them
+			Label: Sell items instead
+		}
+	}
+}
