@@ -10,7 +10,7 @@ MasterControl: {
 
 	PlayerStats: {
 		DisplayName: プレイヤーデータ
-		Description: プレイヤーの様々な統計を見る
+		Description: プレイヤーの様々なステータスを見る
 	}
 
 	Spectating: {
@@ -2170,26 +2170,24 @@ Items: {
 		DisplayName: ストレージマネージャー
 		Tooltip:
 			'''
-			[c/cc2200:どうすればいいかわからない場合は、このマニュアルを読んでください:] 
-			チェスト内のアイテムを管理するために使用します
-			配置後、 <right> でチェストパネルを開く
-			"「{$Mods.ImproveGame.UI.ExtremeStorage.AddChest}」をクリックして、チェストをカテゴリーに追加します"
-			チェストの並べ替えは、チェストの名前の前に付けられた識別子に依存するため、 [c/0088dd:チェスト名は後から設定しないでください！]
-			アイテムの並べ替えは手動で行う必要があります
-			"[c/0099ff:Portable Crafting Station] を有効にすると、'{$Mods.ImproveGame.UI.ItemGroup.Furniture}' 配下のアイテムが携帯クラフティングステーションとして表示されます"
-			"[c/0099ff:Infinite Potion]を有効にすると、アイテムから '{$Mods.ImproveGame.UI.ItemGroup.Alchemy}' のポーションの効果を得ることができます"
-			[c/cc2200:複数のストレージマネージャーをマルチプレイヤーモードで使用すると、帯域幅の消費が増加する場合があります] 
+			[c/cc2200:分からない場合はこのマニュアルをお読みください:]
+			これはチェスト内のアイテムを管理するために使用します。
+			カテゴリを選択し、[i:ImproveGame/AddChestIconDummy] をクリックしてそのカテゴリにチェストを追加します。
+			チェストの並べ替えは、チェスト名の先頭に付けられた識別子によって行われます。[c/0088dd:チェスト名を後から編集しないでください！]
+			家具やポーションはそれぞれのカテゴリに入れ、その他のアイテムは「すべて」のカテゴリに入れてください。
+			[c/0099ff:携帯用クラフティングステーション] や [c/0099ff:無限ポーション] は、対応するカテゴリに保管すると、すべてのプレイヤーが効果を得られます。
+			[c/cc2200:マルチプレイヤーモードで複数のストレージマネージャーを配置すると、送信されるパケットが増加し、ラグの原因になる可能性があります。]
 			'''
 	}
 
 	GlobeBase: {
 		DisplayName: "{0}探知機"
-		Tooltip: "{0} をマップにマークします"
-		AlreadyRevealed: "{0} は既にマークされています"
-		Reveal: "{1} は {0} をマップにマークしました"
-		RevealPlantera: "{0} は {NPCName.Plantera} をマップにマークしました"
-		RevealEnchantedSword: "{0}は{$ItemName.EnchantedSword} をマップにマークしました"
-		NotFound: "{0} のデータが存在しない場合、ワールド作成時にQoL v1.6.6+が有効になっていない可能性があります。"
+		Tooltip: "{0}をマップにマークします"
+		AlreadyRevealed: "{0}は既にマークされています"
+		Reveal: "{1} は {0}をマップにマークしました"
+		RevealPlantera: "{0}は{NPCName.Plantera}をマップにマークしました"
+		RevealEnchantedSword: "{0}は{$ItemName.EnchantedSword}をマップにマークしました"
+		NotFound: "{0}のデータが存在しない場合、ワールド作成時にQoL v1.6.6+が有効になっていない可能性があります。"
 	}
 
 	AetherGlobe: {
@@ -2270,8 +2268,11 @@ Items: {
 			'''
 			叩かないで；；
 			チャットコマンド:
-			 /dummy info → ダミーのステータスを表示
-			 /help dummy → ダミーの使用状況を確認
+			/dummy info → ダミーのステータスを表示
+			/help dummy → ダミーの使い方を確認
+			左クリックでマウスの位置にダミーをスポーン
+			右クリックで選択したダミーを削除
+			ミドルクリックで設定パネルを表示
 			'''
 		CannotUse: マルチプレイには未対応
 	}
@@ -2284,7 +2285,7 @@ Items: {
 			<right> で任意のストレージマネージャーに接続できる
 			'''
 		NotSet: 現在接続されていません。
-		SetTo: "[{0}, {1}] にあるストレージマネージャーに接続中。"
+		SetTo: "[{0}, {1}]にあるストレージマネージャーに接続中。"
 		MissingStorage: ストレージマネージャーが見つかりません。
 		Unlocated: ストレージマネージャーに接続されていません。このアイテムを保持しながら<right>で接続してください。
 	}
@@ -2504,11 +2505,11 @@ UI: {
 	PlayerStats: {
 		Introduction:
 			'''
-			[c/CC88AA:Stat Panel]
-			<left> a category or a stat to toggle its display
-			Hold right click to drag this button
+			[c/CC88AA:ステータスパネル]
+			カテゴリまたはステータスを<left>すると画面に表示させ続けることができます
+			右クリックを押し続けると、このボタンをドラッグできます
 			'''
-		Control: Stat Panel Controller
+		Control: ステータスパネルコントローラー
 		Control: ステータスパネルコントローラー
 		Name: プレイヤーステータス
 		Melee: 近接
