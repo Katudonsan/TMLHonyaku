@@ -17,10 +17,10 @@ steam_id,internal_name,display_name,lead_translator,version,note
 2797518634,ImproveGame,Quality of Terraria,hazamax405,,
 2619954303,RecipeBrowser,Recipe Browser,sysnote8,,
 2562997415,ShorterRespawn,Shorter Respawn Time,katudonsan,,
-2839001756,UnofficialCalamityWhips,Unofficial Calamity Whips,hazamax405,,
+2839001756,UnofficialCalamityWhips,Unofficial Calamity Whips,hazamax405,1.1.6,
 2563851005,WMITF,Which Mod Is This From? (WMITF),katudonsan,,
-2909886416,ThoriumMod,Thorium Mod,Hurugitune,1.7.1.6,ブロック以外は全て翻訳済み。ほとんど推敲済み。
-3114886209,RagnarokMod,Ragnarok,Hurugitune,1.4.2.1,全て翻訳済み。ほとんど推敲済み。
+2909886416,ThoriumMod,Thorium Mod,Hurugitune,1.7.2.0,ブロック以外は全て翻訳済み。ほとんど推敲済み。
+3114886209,RagnarokMod,Ragnarok,Hurugitune,1.4.3.2,全て翻訳済み。ほとんど推敲済み。
 3070717963,ThoriumRework,Thorium Bosses Reworked,Hurugitune,0.9.4,全て翻訳済み。ほとんど推敲済み。
 3015412343,InfernumMode,Calamity Mod Infernum Mode,Hurugitune,2.0.1.14,バフ以外はほぼ全て翻訳済み。ほとんど推敲済み。
 3142064272,CalamityBardHealer,Unofficial Calamity Bard & Healer,Hurugitune,0.9.1,全て翻訳済み。ほとんど推敲済み。
@@ -40,6 +40,11 @@ steam_id,internal_name,display_name,lead_translator,version,note
 3299699015,ModFolder,Mod Folder System,Hurugitune,0.4.0,すべて翻訳済み
 3001536716,MachineTranslate,In-game Translate (Supports both v1.4.4 and v1.4.3),Hurugitune,1.0,すべて翻訳済み
 3378168037,CompatChecker,Compatibility Checker (Beta),Hurugitune,0.1.4.1,すべて翻訳済み
+2861542679,Remnants,Remnants,Hurugitune,1.5.31.2,すべて翻訳済み
+2877696929,WombatQOL,Wombat's General Improvements,Hurugitune,1.3.10.4,すべて翻訳済み
+2566083800,CombinedHealth,Shared Health,Hurugitune,1.3.0,すべて翻訳済み
+3231435221,DtbsNoProjectiles,Dtboss' no friendly projectiles,Hurugitune,1.20,すべて翻訳済み
+2803799129,Pings,Pings,Hurugitune,0.3.0.3,すべて翻訳済み
 2824879484,tsorcRevamp,The Story of Red Cloud,katudonsan,0.15.18.6,現在The Story of Red Cloudブランチで翻訳中
 3222493606,Luminance,Luminance,katudonsan,1.0.6,翻訳完了
 2824688804,CalValEX,Calamity's Vanities,Chuzume,11.1,ほぼ翻訳完了、マップでのタイル名、Projectile名など未翻訳。
