@@ -1,11 +1,9 @@
-# hazamax405様より
-
 Config: {
-	ItemHeader: Config
+	ItemHeader: 設定
 
 	WhipDamageModifier: {
-		Label: 鞭ダメージ倍率
-		Tooltip: このMODに含まれるすべての鞭のダメージを、選択した数値で修正する。これはMODのバフやナーフに使用する
+		Label: ムチダメージ修正値
+		Tooltip: このMod内のすべてのムチのダメージを指定した値で調整します。このModを強化または弱体化するために使用してください。
 	}
 }
 
@@ -13,37 +11,37 @@ Items: {
 	WulfrumChain: {
 		Tooltip:
 			'''
-			あなたのミニオンは、敵を集中攻撃する
-			薄っぺらいけど、仕方ない
+			攻撃を当てた敵にミニオンが集中する
+			「オンボロだが、これを使うしかない...」
 			'''
-		DisplayName: ウルフラムチェイン
+		DisplayName:  ウルフラムの鎖
 	}
 
 	StaticScourge: {
 		Tooltip:
 			'''
-			射程が短く、電光石火の速さの鞭
-			敵に静電気を与え、ミニオンが放電して火花を散らす
+			短いが、稲妻のように速いムチで攻撃する
+			敵に静電気を付与し、召喚獣が攻撃すると火花が発生する
 			'''
-		DisplayName: スタティックスカージ
+		DisplayName: スタティックスコージ
 	}
 
 	FungalFlailItem: {
 		Tooltip:
 			'''
-			4召喚タグダメージ
-			ミニオンのヒット時にホーミングキノコを召喚し、自分を回復する
-			食べられません
+			ミニオンダメージ+4
+			召喚獣が敵を攻撃すると追尾するキノコを召喚し、プレイヤーを回復する
+			※食べられません
 			'''
-		DisplayName: 菌類のフレイル
+		DisplayName: ファンガルフレイル
 	}
 
 	SkySplitterItem: {
 		Tooltip:
 			'''
-			5召喚タグダメージ
-			鞭に飛行時間回復能力を与える
-			羽のように軽い
+			ミニオンダメージ+5
+			このムチで攻撃すると、飛行時間が少し回復する
+			「羽のように軽い！」
 			'''
 		DisplayName: スカイスプリッター
 	}
@@ -51,34 +49,34 @@ Items: {
 	CongeledDuoWhip: {
 		Tooltip:
 			'''
-			10召喚タグダメージ
-			左クリックで2本のぬるぬるした鞭を同じ方向に放つ
-			右クリックでチャージし、2本のぬるぬるした鞭を反対方向に放つ
+			ミニオンダメージ+10
+			左クリックで2本のスライムのムチを同じ方向に放つ
+			右クリックでチャージして2本のスライムのムチを反対方向に放つ
 			'''
-		DisplayName:凝結したデュオウィップ
+		DisplayName: 凝固した双ムチ
 	}
 
 	SulphuricScourge: {
-		Tooltip: ミニオンが空気中に有毒な雲を放出する
-		DisplayName: サルファリックスカージ
+		Tooltip: 召喚獣が有毒な雲を放つようになる
+		DisplayName: サルファリックスコージ
 	}
 
 	DaedalusWhipItem: {
 		Tooltip:
 			'''
-			11召喚タグダメージ
-			氷片に分裂する浮遊雪玉をタグに召喚する
-			クライオジェンのパワーが染み込んでいる
+			ミニオンダメージ+11
+			ミニオンは攻撃した敵の近くに浮遊する雪玉を召喚し、それが氷の破片に分裂する
+			「クライオジェンの力が込められている」
 			'''
-		DisplayName: デッダラスウィップ
+		DisplayName: デイダラスのムチ
 	}
 
 	PrismBreak: {
 		Tooltip:
 			'''
-			ミニオンがクリスタルの榴弾を放つ
-			-コミュニティデザインアイテム-
-			'reldandle'によってデザインされました
+			召喚獣が結晶の破片を一斉に放つようになる
+			-Community Designed Item-
+			デザイン: reldandle
 			'''
 		DisplayName: プリズムブレイク
 	}
@@ -86,18 +84,18 @@ Items: {
 	BrimstoneLash: {
 		Tooltip:
 			'''
-			ブリムストーンの炎を与える
-			ミニオンがヒットすると、ブリムストーンの爆発を起こす
-			ゲヘナの炎の中でのたうち回る
+			硫黄の炎を付与する
+			召喚獣が攻撃すると爆発を発生させる
+			「ゲヘナの炎で苦しむがいい」
 			'''
-		DisplayName: ラッシュ・オブ・ラングィッシュ
+		DisplayName: ラッシュ・オブ・ランギッシュ
 	}
 
 	StellarWindItem: {
 		Tooltip:
 			'''
-			アストラル感染を与える
-			ミニオンがヒットするとアストラルの星を降らせる
+			アストラル感染を付与する  
+			召喚獣が攻撃するとアストラルスターを降らせる  
 			'''
 		DisplayName: ステラーウィンド
 	}
@@ -105,88 +103,86 @@ Items: {
 	SandstoneReigns: {
 		Tooltip:
 			'''
-			ミニオンは凶暴なサンドシャークを召喚し、タッグを組ませる
-			今日見たことを知らせよう
+			召喚獣が凶暴な砂鮫を召喚し、共に戦う
+			「今日お前が見たものをアイツらに教えてやれ」
 			'''
-		DisplayName: 忘れ去られたプレデター
+		DisplayName: 忘却の捕食者
 	}
 
 	RightousDawn: {
 		Tooltip:
 			'''
-			ミニオンのヒット時に星屑イカを放つ
-			月に向かって撃てば、星の間に着地する
+			召喚獣が攻撃時に分裂する星屑のイカを放つようになる
+			「高みを目指せ。たとえ届かなくても、星々の中で輝けるだろう。」
 			'''
-		DisplayName: スタースクラッパー
+		DisplayName: スタークラッパー
 	}
 
 	ResonateStriker: {
-		Tooltip: ヒットするたびに純粋な共鳴を与え、移動速度と近接攻撃速度を増加させる
+		Tooltip: 攻撃するたびに共鳴を付与し、移動速度と近接攻撃速度を増加させる
 		DisplayName: レゾナントストライカー
 	}
 
 	RighteousDawnTwo: {
 		Tooltip:
 			'''
-			聖なる炎を与える
-			ターゲットの近くにいると、自分のミニオンが回復と、より大きな耐性を付与する
-			真の王は兵を率いて戦いに赴く
+			聖なる炎を付与する
+			ターゲットに近いとき、召喚獣がプレイヤーを回復し、耐性を強化する  
+			「真の王は自らの軍を率いて戦場に立つ」
 			'''
-		DisplayName: ライチェスダウン
+		DisplayName: ライチャスドーン
 	}
 
 	UnrelentingTorment: {
 		Tooltip:
 			'''
-			恐ろしい爪を放つ
-			あなたのミニオンは、あの世から実体のない爪を呼び寄せるだろう
+			幽霊の爪による苦痛を解き放つ  
+			召喚獣が異界から爪を呼び出す
 			'''
-		DisplayName: 容赦ないトーメント
+		DisplayName: 執拗なる苦痛
 	}
 
 	SlimySling: {
-		Tooltip: 鞭の射程距離が8%増加
-		DisplayName: ネバネバしたフィンガー
+		Tooltip: ムチの射程が8%増加する
+		DisplayName: スティッキーフィンガーズ
 	}
 
 	GelatinousGlove: {
 		Tooltip:
 			'''
-			近接攻撃と鞭の速度が12%増加
-			近接武器と鞭のオートスイングを有効にする
-			鞭の射程距離が15%増加
-			ボス以外の敵の動きを遅くする
-			鞭がヒットした後、バーストスピードを与える
+			近接攻撃とムチの速度が12%増加し、オートアタック機能を付与する
+			ムチの射程が15%増加する
+			ムチがボス以外の敵を遅くし、攻撃後に自身の速度が一時的に増加する  
 			'''
-		DisplayName: ウォーングリップ
+		DisplayName: 擦り切れたグリップ
 	}
 
 	CrystalLodestone: {
-		Tooltip: 鞭が爆発する岩を放つ
-		DisplayName: フォビドゥンリメイン
+		Tooltip: ムチが爆発する岩を放つようになる
+		DisplayName: 禁じられた遺物
 	}
 
 	FossilizedAmber: {
-		Tooltip: 鞭がヒットした後、防御力が8上がる
-		DisplayName: 化石化した琥珀
+		Tooltip: ムチで攻撃すると、防御力が8増加する
+		DisplayName: 琥珀の化石
 	}
 
 	CrystalOfResilience: {
 		Tooltip:
 			'''
-			鞭が爆発する岩を放つ
-			鞭がヒットした後、防御力が8上がる
-			採掘速度20％アップ、ダメージ5％軽減、地下や地下世界での防御力+10
+			ムチが爆発する岩を放つようになる
+			ムチで攻撃すると、防御力が8増加する
+			地下や地底世界では採掘速度が20%増加、ダメージ軽減が5%増加、防御力が10増加する
 			'''
-		DisplayName: 結晶化した天然磁石
+		DisplayName: 結晶化した磁石鉱
 	}
 
 	Centauri: {
 		Tooltip:
 			'''
-			50召喚タグダメージ
-			惑星を投げることができる
-			最も近いが、遥か彼方...
+			ミニオンダメージ+50
+			惑星を放つようになる
+			「最も近いはずなのに、遥か彼方にある...」
 			'''
 		DisplayName: プロキシマ・ケンタウリ
 	}
@@ -194,77 +190,76 @@ Items: {
 	FlinxFurMitten: {
 		Tooltip:
 			'''
-			近接攻撃と鞭の速度が12%増加
-			近接武器と鞭のオートスイングを有効にする
-			混乱に耐性のない敵の動きを遅くする
-			鞭の射程距離が8%増加
+			近接攻撃とムチの速度が12%増加し、オートアタック機能を付与する
+			混乱耐性のない敵をムチで攻撃すると移動速度が低下する
+			ムチの射程が8%増加する
 			'''
 		DisplayName: フリンクスファーミトン
 	}
 
 	RingOfAlacrity: {
-		Tooltip: 鞭がヒットした後、移動速度が10%増加する
-		DisplayName: 敏速の指輪
+		Tooltip: ムチで攻撃すると、移動速度が10%増加する
+		DisplayName: 敏捷の指輪
 	}
 
 	SuspiciousLeafExtract: {
-		Tooltip: 鞭がヒットした後、周回する葉の輪を生み出す
-		DisplayName: サスピシャスリーフエクストラクト
+		Tooltip: ムチで攻撃すると、周囲に葉の輪を発生させる
+		DisplayName: 不気味な葉の抽出物
 	}
 
 	BoulderItem: {
-		Tooltip: 鞭が岩を打ち出す
-		DisplayName: ストーンラブル
+		Tooltip: ムチが岩を放つようになる
+		DisplayName: 石の瓦礫
 	}
 
 	BlossomsBlessingItem: {
 		Tooltip:
 			'''
-			鞭がヒットした後、花の祝福を与える
-			25％の確率で胞子を放つ
-			30召喚タグダメージ
-			召喚獣は攻撃された敵を狙う
+			ミニオンダメージ+30
+			攻撃時に「開花の祝福」を付与する
+			25%の確率で胞子を放つようになる
+			攻撃を当てた敵にミニオンが集中する
 			'''
-		DisplayName: 花の祝福
+		DisplayName: 開花のムチ
 	}
 
 	CoralCrusherItem: {
 		Tooltip:
 			'''
-			ミニオンが珊瑚のかけらを召喚する
-			6召喚タグダメージ
-			召喚獣は攻撃された敵を狙う
+			ミニオンダメージ+6
+			召喚獣がサンゴの破片を放つようになる
+			攻撃を当てた敵にミニオンが集中する
 			'''
-		DisplayName: サンゴクラッシャー
+		DisplayName: コーラルクラッシャー
 	}
 
 	DevourersMaw: {
 		Tooltip:
 			'''
-			ヒット時に Devourer's Hunger を注入し、攻撃すればするほどパワーを与える
-			ゴッドスレイヤーインフェルノを与える
-			-コミュニティデザインアイテム-
-			'MothEggs, Paige, and KumaTerra'によってデザインされました
+			攻撃時に「捕食者の飢え」を付与し、攻撃するほど力を増加させる
+			神殺しの炎を付与する
+			- Community Designed Item -
+			デザイン: MothEggs, Paige, and KumaTerra
 			'''
-		DisplayName: デバウアーズ・マウ
+		DisplayName: 捕食者の顎
 	}
 
 	SirensSerenityItem: {
 		Tooltip:
 			'''
-			リヴァイアサンとアナヒタの友情が、あなたとあなたのミニオンを奮い立たせる
-			18召喚タグダメージ
-			召喚獣は攻撃された敵を狙う
-			あなたのミニオンは時折オーブを落とし、拾うと回復とバフを付与する
-			-コミュニティデザインアイテム-
-			'CharlieTheFatCat'によってデザインされました
+			リヴァイアサンとアナヒタの絆があなたと召喚獣を鼓舞する
+			ミニオンダメージ+18  
+			攻撃を当てた敵にミニオンが集中する
+			召喚獣が時折オーブを落とし、それを拾うと回復とバフを得られる  
+			- Community Designed Item -  
+			デザイン: CharlieTheFatCat
 			'''
-		DisplayName: サイレンズ・セレニティ
+		DisplayName: サイレンの安寧
 	}
 
 	DivineHeadpat: {
-		Tooltip: パット・パット
-		DisplayName: 神聖なヘッドパット
+		Tooltip: パッパッ
+		DisplayName: 神聖ななでなで
 	}
 
 	BuffOrb: {
@@ -273,55 +268,40 @@ Items: {
 	}
 
 	HealingOrb: {
-		DisplayName: 回復オーブ
+		DisplayName: ヒーリングオーブ
 		Tooltip: ""
 	}
 }
 
 Buffs: {
 	PureResonance: {
-		DisplayName: ピュアレゾナンス
-		Description: 近接攻撃と移動速度が増加
+		DisplayName: 純粋な共鳴
+		Description: 近接攻撃速度と移動速度が上昇する
 	}
 
 	SkyBuff: {
 		DisplayName: エアリアル
-		Description: 飛行時間が増加
+		Description: 飛行時間が増加する
 	}
 
 	StarlightTouch: {
-		DisplayName: スターライトタッチ
+		DisplayName: 星明かり
 		Description: 防御力が20増加し、ライフリジェネが増加する
 	}
 
 	RighteousBlessing: {
-		DisplayName: 正義の祝福
+		DisplayName: 正義の加護
 		Description: 防御力が30増加し、ライフリジェネが増加する
 	}
 
 	StonesEndurance: {
-		DisplayName: 制御された石化
-		Description: ダメージ軽減10%
+		DisplayName: 石の護り
+		Description: ダメージを10%軽減する
 	}
 
 	Alacrity: {
-		DisplayName: 敏速
-		Description: 移動速度10%増加
-	}
-
-	BlossomsBlessingBuff: {
-		DisplayName: 開花の祝福
-		Description: 防御力、ライフリジェネ、移動速度が増加する
-	}
-
-	DevourersHunger: {
-		DisplayName: デバウアーの飢え
-		Description: デバウアーズ・マウで攻撃すればするほど、防御力と召喚ダメージが増加する
-	}
-
-	HealingMelody: {
-		DisplayName: 回復のメロディ
-		Description: 防御力とライフリジェネが増加する
+		DisplayName: 敏捷
+		Description: スピードが10%上昇する
 	}
 
 	BitterCold: {
@@ -593,31 +573,30 @@ Projectiles: {
 
 Configs: {
 	UnofficialCalamityWhipsConfig: {
-		DisplayName: Unofficial Calamity Whips Config
+		DisplayName: Unofficial Calamity Whips設定
 
 		Headers: {
-			Config: Config Header
+			Config: 設定ヘッダー
 		}
 
 		WhipDamageModifier: {
-			Label: Whip Damage Modifer
-			Tooltip: Modifies the damage of every whip in this mod by the chosen number. Use this to buff or nerf the mod as you see fit
+			Label: ムチダメージ修正値
+			Tooltip: このMod内のすべてのムチのダメージを指定した値で調整します。このModを強化または弱体化するために使用してください。
 		}
 
 		AddArmorStats: {
-			Label: Add Whip Stats to Calamity Armors
-			Tooltip: Adds extra whip stats to some calamity armors while enabled, to make whips more viable
+			Label: Calamity防具へのムチステータス追加
+			Tooltip: 有効時、一部のCalamity防具にムチ用の追加ステータスを付与し、ムチの実用性を高めます。
 		}
 
 		AllowTagStacking: {
-			Label: Enable Tag Debuff Stacking
-			Tooltip: Allows whips in this mod to stack their tag effects. If set to false, all previous tag effects will be removed on applying a new one
+			Label: タグ効果の重複を許可
+			Tooltip: このMod内のムチがタグ効果を重複適用できるようにします。無効にすると、新しいタグ効果の適用時に以前の効果がすべて消えます。
 		}
 
 		CatalystDisclaimer: {
-			Label: Catalyst Disclaimer
-			Tooltip: Disable this to remove the disclaimer advertising the Catalyst Mod
+			Label: Catalyst Modの免責事項
+			Tooltip: 無効にすると、Catalyst Modに関する免責事項が削除されます。
 		}
 	}
 }
-
