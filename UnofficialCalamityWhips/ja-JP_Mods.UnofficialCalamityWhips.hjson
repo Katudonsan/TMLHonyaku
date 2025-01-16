@@ -1,8 +1,10 @@
+# hazamax405様より
+
 Config: {
 	ItemHeader: 設定
 
 	WhipDamageModifier: {
-		Label: ムチダメージ修正値
+		Label: ムチダメージ倍率
 		Tooltip: このMod内のすべてのムチのダメージを指定した値で調整します。このModを強化または弱体化するために使用してください。
 	}
 }
@@ -14,7 +16,7 @@ Items: {
 			攻撃を当てた敵にミニオンが集中する
 			「オンボロだが、これを使うしかない...」
 			'''
-		DisplayName:  ウルフラムの鎖
+		DisplayName: ウルフラムの鎖
 	}
 
 	StaticScourge: {
@@ -23,7 +25,7 @@ Items: {
 			短いが、稲妻のように速いムチで攻撃する
 			敵に静電気を付与し、召喚獣が攻撃すると火花が発生する
 			'''
-		DisplayName: スタティックスコージ
+		DisplayName: スタティックスカージ
 	}
 
 	FungalFlailItem: {
@@ -33,7 +35,7 @@ Items: {
 			召喚獣が敵を攻撃すると追尾するキノコを召喚し、プレイヤーを回復する
 			※食べられません
 			'''
-		DisplayName: ファンガルフレイル
+		DisplayName: キノコのフレイル
 	}
 
 	SkySplitterItem: {
@@ -258,8 +260,8 @@ Items: {
 	}
 
 	DivineHeadpat: {
-		Tooltip: パッパッ
-		DisplayName: 神聖ななでなで
+		Tooltip: なでなで
+		DisplayName: 神聖な愛情
 	}
 
 	BuffOrb: {
@@ -576,11 +578,11 @@ Configs: {
 		DisplayName: Unofficial Calamity Whips設定
 
 		Headers: {
-			Config: 設定ヘッダー
+			Config: 設定
 		}
 
 		WhipDamageModifier: {
-			Label: ムチダメージ修正値
+			Label: ムチダメージ倍率
 			Tooltip: このMod内のすべてのムチのダメージを指定した値で調整します。このModを強化または弱体化するために使用してください。
 		}
 
