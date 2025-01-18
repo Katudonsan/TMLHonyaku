@@ -1,0 +1,442 @@
+Items: {
+	concrete: {
+		DisplayName: コンクリートの床材
+		Tooltip: ""
+	}
+
+	concretewall: {
+		DisplayName: コンクリートの壁
+		Tooltip: ""
+	}
+
+	IndustrialPipe: {
+		DisplayName: 工業用パイプ
+		Tooltip: ""
+	}
+
+	electriclight: {
+		DisplayName: 電気ライト
+		Tooltip: ""
+	}
+
+	electriclightfaulty: {
+		DisplayName: 故障した電気ライト
+		Tooltip: ""
+	}
+
+	ExoticGold: {
+		DisplayName: エキゾチックゴールド
+		Tooltip: 通常の金とあまり変わらないが、特別な使い道があるかもしれない...
+	}
+
+	honeybrick: {
+		DisplayName: ハニカムレンガ
+		Tooltip: ""
+	}
+
+	honeybrickwall: {
+		DisplayName: ハニカムレンガの壁
+		Tooltip: ""
+	}
+
+	IndustrialPanel: {
+		DisplayName: 工業用パネル
+		Tooltip: ""
+	}
+
+	IndustrialPlatform: {
+		DisplayName: 工業用足場
+		Tooltip: ""
+	}
+
+	IndustrialWall: {
+		DisplayName: 工業用の壁
+		Tooltip: ""
+	}
+
+	CeremonialCandle: {
+		DisplayName: 儀式用のロウソク
+		Tooltip: 溶けて形が不揃いになったロウソク
+	}
+
+	IndustrialSupport: {
+		DisplayName: 工業用サポート
+		Tooltip: ""
+	}
+
+	DukeFishronArtifact: {
+		DisplayName: デュークフィッシュロンのアーティファクト
+		Tooltip: デュークフィッシュロンの力の一部が込められている...
+	}
+
+	GolemArtifact: {
+		DisplayName: ゴーレムのアーティファクト
+		Tooltip: ゴーレムの力の一部が込められている...
+	}
+
+	KingSlimeArtifact: {
+		DisplayName: キングスライムのアーティファクト
+		Tooltip: キングスライムの力の一部が込められている...
+	}
+
+	MoonLordArtifact: {
+		DisplayName: ムーンロードのアーティファクト
+		Tooltip: ムーンロードの力の一部が込められている...
+	}
+
+	PlanteraArtifact: {
+		DisplayName: プランテラのアーティファクト
+		Tooltip: プランテラの力の一部が込められている...
+	}
+
+	QueenBeeArtifact: {
+		DisplayName: クイーンビーのアーティファクト
+		Tooltip: クイーンビーの力の一部が込められている...
+	}
+
+	SkeletronArtifact: {
+		DisplayName: スケルトロンのアーティファクト
+		Tooltip: スケルトロンの力の一部が込められている...
+	}
+
+	WallOfFleshArtifact: {
+		DisplayName: ウォールオブフレッシュのアーティファクト
+		Tooltip: ウォールオブフレッシュの力の一部が込められている...
+	}
+
+	IndustrialDoor: {
+		DisplayName: 工業用ドア
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	deathlaser: {
+		DisplayName: deathlaser
+	}
+
+	eyelaser: {
+		DisplayName: eyelaser
+	}
+
+	greenlaser: {
+		DisplayName: greenlaser
+	}
+
+	martianlaser: {
+		DisplayName: martianlaser
+	}
+
+	muzzleflash: {
+		DisplayName: muzzleflash
+	}
+
+	nebulalaser: {
+		DisplayName: nebulalaser
+	}
+
+	pinklaser: {
+		DisplayName: pinklaser
+	}
+}
+
+Tiles: {
+	electriclight: {
+		MapEntry: Electric Light
+	}
+
+	electriclightfaulty: {
+		MapEntry: Electric Light
+	}
+
+	ritualcandle: {
+		MapEntry: Candle
+	}
+
+	CeremonialCandle: {
+		MapEntry: Ceremonial Candle
+	}
+}
+
+Configs: {
+	Client: {
+		DisplayName: クライアント設定
+
+		Headers: {
+			Worldgen: ワールド生成
+			Visuals: ビジュアル
+			Lighting: ライティング
+		}
+
+		LeafBushes: {
+			Label: "[i:745] 葉の茂み"
+			Tooltip: 葉の壁が草の種類に関係なく塊として生成されます。
+		}
+
+		WaterClay: {
+			Label: "[i:133] 水の下の粘土"
+			Tooltip:
+				'''
+				粘土がランダムな鉱脈ではなく水域の下に生成され、特定の場所で見つけられるようになります。
+
+				注意: 水草が生成されなくなります。
+				　　Remnantsが有効な場合、この機能と相性が悪いため無効になります。
+				'''
+		}
+
+		DungeonChains: {
+			Label: "[i:85] ダンジョンの鎖"
+			Tooltip:
+				'''
+				吊り下げられた鎖がダンジョンの高い場所に生成されます。
+
+				注意: Remnantsが有効な場合、すでにこの機能が含まれています。
+				'''
+		}
+
+		DungeonStairs: {
+			Label: "[i:1384] ダンジョンの階段"
+			Tooltip:
+				'''
+				斜めの足場が適切な場所に生成されます。
+
+				注意: Remnantsが有効な場合、すでにこの機能が含まれています。
+				'''
+		}
+
+		TempleStairs: {
+			Label: "[i:3906] 寺院の階段"
+			Tooltip:
+				'''
+				斜めの足場が適切な場所に生成されます。
+
+				注意: Remnantsが有効な場合、すでにこの機能が含まれています。
+				'''
+		}
+
+		BulletFlashes: {
+			Label: "[i:164] 弾丸のマズルフラッシュ"
+			Tooltip:
+				'''
+				弾丸の発射に視覚効果を追加し、より魅力的に見えるようにします。
+
+				注意: Terraria Overhaul が有効な場合、すでにこの機能が含まれています。
+				'''
+		}
+
+		LaserFlashes: {
+			Label: "[i:127] レーザーのマズルフラッシュ"
+			Tooltip: レーザーの発射に視覚効果を追加します。
+		}
+
+		BulletCasings: {
+			Label: "[i:1432] 弾丸の薬莢"
+			Tooltip:
+				'''
+				銃が発射されると薬莢を排出し、遠距離戦闘に没入感を加えます。
+
+				注意: Terraria Overhaul が有効の場合、すでにこの機能が含まれています。
+				'''
+		}
+
+		JungleFireflies: {
+			Label: "[i:1992] ジャングルのホタル"
+			Tooltip: 地下ジャングルに飛び回る小さなホタルを追加します。
+		}
+
+		HallowFireflies: {
+			Label: "[i:2004] 聖域のホタル"
+			Tooltip: 地下聖域に飛び回る小さなホタルを追加します。
+		}
+
+		VileWater: {
+			Label: "[i:3210] 汚染された水"
+			Tooltip: 腐敗の水が緑色に変わります。
+		}
+
+		Screenshake: {
+			Label: "[i:2701] スクリーンシェイク"
+			Tooltip:
+				'''
+				爆発が画面揺れを引き起こし、距離とおおよその強さに応じてその強度が変化します。
+
+				注意: Modコンテンツには適用されないため、一貫性がなくなる可能性があります。
+				'''
+		}
+
+		SnowDirtMerge: {
+			Label: "[i:593] 雪と土の結合"
+			Tooltip: 雪ブロック用の未使用の土結合テクスチャを有効にします。
+		}
+
+		GlowingHellstone: {
+			Label: "[i:174] ヘルストーンのエフェクト"
+			Tooltip: ヘルストーン、ヘルストーンレンガ、溶岩の壁が柔らかい赤い輝きを持つようになります
+		}
+
+		GlowingLavaBG: {
+			Label: "[i:4535] 溶岩背景のエフェクト"
+			Tooltip:
+				'''
+				地獄の近くの溶岩背景 (背景が有効な場合) が柔らかい赤い輝きを持つようになります
+
+				注意: サブワールドに影響を与えるため、場合によっては悪影響を及ぼす可能性があります。
+				'''
+		}
+
+		HellCages: {
+			Label: "[i:147] 地獄の檻"
+			Tooltip: 地底世界にスパイク付きの吊り檻が生成されます。
+		}
+
+		DesertRocks: {
+			Label: "[i:3273] 砂漠の柱"
+			Tooltip: 砂漠に砂岩の柱が生成されます。
+		}
+
+		GraniteEnemyGlow: {
+			Label: "[i:3086] 御影石のエネルギー"
+			Tooltip: 御影石の敵が光を放つようになります。
+		}
+
+		SpawnCampsite: {
+			Label: "[i:2434] スポーンのテント"
+			Tooltip: ガイド用の小さなテントがスポーンポイントに生成されます。
+		}
+
+		LushJungle: {
+			Label: "[i:746] 生い茂るジャングル"
+			Tooltip:
+				'''
+				地表ジャングルの露出した泥がすべてジャングル草に置き換わります。
+
+				注意: Remnantsが有効な場合、すでにこの機能が含まれています。
+				'''
+		}
+
+		ChestItemShuffle: {
+			Label: "[i:48] シャッフルされた宝箱"
+			Tooltip: 自然に生成された宝箱の中身がシャッフルされます。
+		}
+
+		RandomOpenDoors: {
+			Label: "[i:25] 放置されたドア"
+			Tooltip: 自然に生成されたドアが時々開いたままになります。
+		}
+	}
+
+	Server: {
+		DisplayName: サーバー設定
+
+		Headers: {
+			Content: コンテンツ
+			Gameplay: ゲームプレイ
+			Crafting: クラフト
+			Drops: ドロップ
+		}
+
+		BossArtifacts: {
+			Label: ボスアーティファクト
+			Tooltip:
+				'''
+				エキスパートモード以上では、ボスがアーティファクトをドロップし、それをクラフトしてボスのドロップ品を作成できます。
+				特定のボスの周回を減らすことができます。
+				アーティファクトはプレイヤーごとに1つずつドロップします。
+
+				おすすめの設定！
+				'''
+		}
+
+		SafeCritters: {
+			Label: "[i:2019] 安全な小動物"
+			Tooltip: 小動物がモンスターからダメージを受けなくなります。
+		}
+
+		SafeBoundNPCs: {
+			Label: "[i:985] 安全な囚われNPC"
+			Tooltip: 囚われたNPCなどがモンスターからダメージを受けなくなります。
+		}
+
+		TilePickup: {
+			Label: "[i:5] 改良された採集"
+			Tooltip:
+				'''
+				ほとんどの植物や棚のアイテムは右クリックで簡単に収集できるようになり、少し便利になります。
+				ハーブをこの方法で収集すると、成長がリセットされるだけで、破壊されることはありません。
+
+				注意: マルチプレイでは動作しません。
+				'''
+		}
+
+		DyeMixing: {
+			Label: "[i:1066] カラーミキシング"
+			Tooltip: 異なる色のペイントや染料を染色槽で混ぜ、新しい色を作成できるようになります。
+		}
+
+		EasyWings: {
+			Label: "[i:785] 簡単な翼"
+			Tooltip: 巨大なハーピーの羽根が削除され、ハーピーの翼のレシピに通常の羽根50枚が使用されます
+		}
+
+		SpectrePaintUpgrade: {
+			Label: "[i:1543] スペクターアップグレード"
+			Tooltip:
+				'''
+				スペクターペイントツールは通常のツールから直接アップグレードできるようになります。
+				これによりレシピが追加されます。
+				'''
+		}
+
+		GlowingMushrooms: {
+			Label: "[i:183] 余分なキノコ"
+			Tooltip:
+				'''
+				光るキノコの敵を倒すと追加のキノコがドロップし、必要な時に入手しやすくなります。
+
+				注意: クラフトにキノコを使用する場合はオンにするのをおすすめします。
+				'''
+		}
+
+		SoulsOfFlight: {
+			Label: "[i:575] ハーピーの魂"
+			Tooltip: ハーピーはハードモード時に倒すと翼のソウルをドロップするようになります。
+		}
+
+		KingSlimeKatana: {
+			Label: "[i:2273] ニンジャのカタナ"
+			Tooltip: キングスライムは倒されるとカタナをドロップするようになります。
+		}
+
+		ExoticGold: {
+			Label: エキゾチックゴールド
+			Tooltip:
+				'''
+				エキゾチックゴールドは新しいアイテムで、以下の特徴があります：
+				- クラフトレシピで砂金と置き換えられます。
+				- 海賊から金の家具の代わりにドロップするようになります。
+				- 金の家具をクラフトするために使用されます。
+				これにより、インベントリの煩雑さを減らすことができます。
+
+				おすすめ設定！
+				'''
+		}
+
+		HoneyDispenser: {
+			Label: "[i:2204] 豊富なハチミツ"
+			Tooltip: 蜂蜜ディスペンサーは蜂蜜の源としてカウントされるようになります。
+		}
+	}
+}
+
+Biomes: {
+	CorruptionWater: {
+		DisplayName: 汚染された水
+		TownNPCDialogueName: 汚染された水
+	}
+
+	Shimmer: {
+		DisplayName: シマー
+		TownNPCDialogueName: シマー
+	}
+}
+

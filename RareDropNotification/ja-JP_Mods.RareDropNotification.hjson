@@ -1,6 +1,6 @@
-RareDrop: "[c/<color>:レアドロ! =<itemName>=] [i:<item>] [c/<color>:(<chance>%の確率)]"
-SuperRareDrop: "[c/<color>:SUPER RARE DROP! <itemName>] [i:<item>] [c/<color>:(<chance>% chance)]"
-SuperRareAnnouncement: "[c/<color>:<name> has found a <itemName>] [i:<item>] [c/<color>:with <chance>% chance!]"
+RareDrop: "[c/<color>:レアドロップ！「<itemName>][i:<item>][c/<color>:」] [c/<color>:(確率：<chance>%)]"
+SuperRareDrop: "[c/<color>:超レアドロップ！「<itemName>][i:<item>][c/<color>:」] [c/<color>:(確率：<chance>%)]"
+SuperRareAnnouncement: "[c/<color>:<name>が<itemName>を見つけました！][i:<item>] [c/<color>:(確率：<chance>%)]"
 Mechanics: 通知のメカニズム
 ConfigName: 通知のカスタマイズ
 TriggerThreshold: レアドロップの通知の閾値 %

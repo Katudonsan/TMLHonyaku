@@ -1,542 +1,511 @@
-Buffs: {
-	AntarcticCreativityBuff: {
-		DisplayName: 南極の創造力
-		Description: +インスピレーションの再生速度＋15％、演奏速度＋10％
+Configs: {
+	OtherConfig: {
+		wip: {
+			Tooltip: ""
+			Label: wip
+		}
+
+		Headers: {
+			Other: その他
+		}
+
+		DisplayName: その他の設定
 	}
 
-	AntarcticReinforcementBuff: {
-		DisplayName: 南極の加護
-		Description: 防御力+8、自分の回復魔法はさらにライフを2回復する
+	BossProgressionConfig: {
+		RuneOfKos: {
+			Tooltip: Rune Of Kos RecipeをDivine GeodesとPrimordials Essencesを必要とするように変更し、Providenceからドロップしないように変更。デフォルトはTrue。
+			Label: プロヴィデンスのスポーン条件変更
+		}
+
+		DoomSayerCoin: {
+			Tooltip: Doom Sayer's CoinをEldritch Shell FragmentsとAshes of Calamityを必要とするように変更。デフォルトはTrue。
+			Label: プライモーディアルズのレシピ変更
+		}
+
+		DeathWhistle: {
+			Tooltip: Death WhistleをCursed Clothを必要とするように変更。デフォルトはTrue。
+			Label: ラヴェジャーのレシピ変更
+		}
+
+		EyeOfDesolation: {
+			Tooltip: Eye of DesolationをVoidseer's Pearlを必要とするように変更。デフォルトはTrue。
+			Label: カラミタスクローンのレシピ変更
+		}
+
+		Seafood: {
+			Tooltip: SeafoodがQueen Jellyを必要とするように変更。デフォルトはTrue。
+			Label: アクアティックスカージのレシピ変更
+		}
+
+		CharredIdol: {
+			Tooltip: Charred IdolがVoidseer's Pearlを必要とするように変更。デフォルトはtrue。
+			Label: ブリムストーンエレメンタルのレシピ変更
+		}
+
+		Lich: {
+			Tooltip: Ancient PhylactoryをカボチャではなくEssence of HavocでなければLichを召喚できないように変更。デフォルトはTrue。
+			Label: リッチの召喚条件変更
+		}
+
+		MechBosses: {
+			Tooltip: Mechanical Eye、Worm、SkullをそれぞれStrange Alien Motherboardを必要とするように変更。デフォルトはTrue
+			Label: メカボスたちのレシピ変更
+		}
+
+		CryoKey: {
+			Tooltip: Cryo KeyがStrider Fangsを使用するように変更。デフォルトはTrue。
+			Label: クライオジェンのレシピ変更
+		}
+
+		StarCaller: {
+			Tooltip: Star CallerがRotten Matter/Blood Samplesを使用するように変更。デフォルトはTrue。
+			Label: スタースカウターのレシピ変更
+		}
+
+		OverloadedSludge: {
+			Tooltip: Overloaded SludgeがEnchanted MarbleとEmpowered Graniteを使うように変更。デフォルトはTrue。
+			Label: スライムゴッドのレシピ変更
+		}
+
+		MarbleGranite: {
+			Tooltip: Ancient BladeとUnstable CoreをRotten Matter/Blood SamplesとDracula Fangsを必要とするように変更。デフォルトはTrue。
+			Label: グラニットエナジーコアと埋もれた英雄のレシピ変更
+		}
+
+		DecapoditaSprout: {
+			Tooltip: Decapodita SproutがPearl Shards、Storm Feather、Queen Jellyを使うように変更。デフォルトはTrue。
+			Label: クラブロンのレシピ変更
+		}
+
+		DesertMedallion: {
+			Tooltip: Desert MedallionがGrand Thunder BirdのStorm Feathersを使用するように変更。デフォルトはTrue。
+			Label: デザートスカージのレシピ変更
+		}
+
+		GrandFlareGun: {
+			Tooltip: Grand Flare GunとStorm Flareを、Vulture FeatherではなくStormlion Mandiblesを必要とするように変更。デフォルトはTrue。
+			Label: グランドサンダーバードのレシピ変更
+		}
+
+		Headers: {
+			BossProgressionChanges: ボス進行変更一覧
+		}
+
+		DisplayName: ボス進行設定
+	}
+}
+
+Projectiles: {
+	ElementalBuff: {
+		DisplayName: Elemental Buff
 	}
 
-	AntarcticExhaustionDebuff: {
-		DisplayName: 南極の消耗
-		Description: もうバフをかけることはできない
+	NightmareFreezerPro3: {
+		DisplayName: Nightmare Freezer Pro3
 	}
 
-	GuardianHealerBeamBuff: {
-		DisplayName: ガーディアン・ヒーラーの祝福
-		Description: 20秒間、ダメージ10%軽減とライフ5回復の追加効果
+	NightmareFreezerPro2: {
+		DisplayName: Nightmare Freezer Pro2
 	}
 
-	UniversalBlessing: {
-		Description: Mods.RagnarokMod.Buffs.UniversalBlessing.Description
-		DisplayName: 普遍的な祝福
+	NightmareFreezerPro: {
+		DisplayName: Nightmare Freezer Pro
 	}
 
-	ElementalScytheCooldown: {
-		DisplayName: エレメンタルサイスのクールダウン
-		Description: Mods.RagnarokMod.Buffs.ElementalScytheCooldown.Description
+	UnbreakableCombatUkulelePro3: {
+		DisplayName: Unbreakable Combat Ukulele Pro3
 	}
 
-	ScytheAirBuff: {
-		DisplayName: エアサイスのバフ
-		Description: Mods.RagnarokMod.Buffs.ScytheAirBuff.Description
+	UnbreakableCombatUkulelePro2: {
+		DisplayName: Unbreakable Combat Ukulele Pro2
 	}
 
-	ScytheBrimstoneBuff: {
-		DisplayName: ブリムストーンサイスのバフ
-		Description: Mods.RagnarokMod.Buffs.ScytheBrimstoneBuff.Description
+	UnbreakableCombatUkulelePro1: {
+		DisplayName: Unbreakable Combat Ukulele Pro1
 	}
 
-	ScytheEarthBuff: {
-		DisplayName: サイスアースのバフ
-		Description: Mods.RagnarokMod.Buffs.ScytheEarthBuff.Description
+	ElementalReaperPro2: {
+		DisplayName: Elemental Reaper Pro2
 	}
 
-	ScytheOasisBuff: {
-		DisplayName: サイスオアシスのバフ
-		Description: Mods.RagnarokMod.Buffs.ScytheOasisBuff.Description
+	ElementalReaperPro: {
+		DisplayName: Elemental Reaper Pro
 	}
 
-	ScytheSandBuff: {
-		DisplayName: サンドサイスのバフ
-		Description: Mods.RagnarokMod.Buffs.ScytheSandBuff.Description
+	ArpeggiatorPro2: {
+		DisplayName: Arpeggiator Pro2
 	}
 
-	ScytheWaterBuff: {
-		DisplayName: ウォーターサイスのバフ
-		Description: Mods.RagnarokMod.Buffs.ScytheWaterBuff.Description
+	ArpeggiatorPro1: {
+		DisplayName: Arpeggiator Pro1
+	}
+
+	PhantasmalEdgeHook: {
+		DisplayName: Phantasmal Edge Hook
+	}
+
+	PhantasmalEdgeBombs: {
+		DisplayName: Phantasmal Edge Bombs
+	}
+
+	PhantasmalEdgePro1: {
+		DisplayName: Phantasmal Edge Pro1
+	}
+
+	GraspofVoidPro2: {
+		DisplayName: Graspof Void Pro2
+	}
+
+	GraspofVoidPro1: {
+		DisplayName: Graspof Void Pro1
+	}
+
+	KorobeinikiPro7: {
+		DisplayName: Korobeiniki Pro7
+	}
+
+	KorobeinikiPro6: {
+		DisplayName: Korobeiniki Pro6
+	}
+
+	KorobeinikiPro5: {
+		DisplayName: Korobeiniki Pro5
+	}
+
+	KorobeinikiPro4: {
+		DisplayName: Korobeiniki Pro4
+	}
+
+	KorobeinikiPro3: {
+		DisplayName: Korobeiniki Pro3
+	}
+
+	KorobeinikiPro2: {
+		DisplayName: Korobeiniki Pro2
+	}
+
+	KorobeinikiPro1: {
+		DisplayName: Korobeiniki Pro1
+	}
+
+	CosmicInjectorPro2: {
+		DisplayName: Cosmic Injector Pro2
+	}
+
+	CosmicInjectorPro1: {
+		DisplayName: Cosmic Injector Pro1
+	}
+
+	VerdurantBloomPro3: {
+		DisplayName: Verdurant Bloom Pro3
+	}
+
+	VerdurantBloomPro2: {
+		DisplayName: Verdurant Bloom Pro2
+	}
+
+	VerdurantBloomPro: {
+		DisplayName: Verdurant Bloom Pro
+	}
+
+	AuricDamruFlareBomb: {
+		DisplayName: Auric Damru Flare Bomb
+	}
+
+	AuricDamruFlareBombBoom: {
+		DisplayName: Auric Damru Flare Bomb Boom
+	}
+
+	AuricDamruShock: {
+		DisplayName: Auric Damru Shock
+	}
+
+	BellBlastBoom: {
+		DisplayName: Bell Blast Boom
+	}
+
+	ProfanedBellBlast: {
+		DisplayName: Profaned Bell Blast
+	}
+
+	ProfaneBellBlast: {
+		DisplayName: Profane Bell Blast
+	}
+
+	BloodOrb: {
+		DisplayName: Blood Orb
+	}
+
+	Splattershot: {
+		DisplayName: Splattershot
+	}
+
+	AstralRipperStarPro: {
+		DisplayName: Astral Ripper Star Pro
+	}
+
+	AstralRipperPro: {
+		DisplayName: Astral Ripper Pro
+	}
+
+	GelScythePro2: {
+		DisplayName: Gel Scythe Pro2
+	}
+
+	GelScythePro1: {
+		DisplayName: Gel Scythe Pro1
+	}
+
+	WapBamBoom: {
+		DisplayName: Wap Bam Boom
+	}
+
+	ExecutionerMark05ThrowPro: {
+		DisplayName: Executioner Mark05 Throw Pro
+	}
+
+	ExecutionerMark05Pro: {
+		DisplayName: Executioner Mark05 Pro
+	}
+
+	FractalOrb: {
+		DisplayName: Fractal Orb
+	}
+
+	ElysianSongPro: {
+		DisplayName: Elysian Song Pro
+	}
+
+	SteampipesPro: {
+		DisplayName: Steampipes Pro
+	}
+
+	NoProj: {
+		DisplayName: No Proj
+	}
+
+	WindSlashPro: {
+		DisplayName: Wind Slash Pro
+	}
+
+	WindReaverPro: {
+		DisplayName: Wind Reaver Pro
+	}
+
+	ScoriaDualscythePro: {
+		DisplayName: Scoria Dualscythe Pro
+	}
+
+	ProfanedScythePro: {
+		DisplayName: Profaned Scythe Pro
+	}
+
+	PrismaPro2: {
+		DisplayName: Prisma Pro2
+	}
+
+	PrismaPro1: {
+		DisplayName: Prisma Pro1
+	}
+
+	MarbleScythePro: {
+		DisplayName: Marble Scythe Pro
+	}
+
+	FractalPro2: {
+		DisplayName: Fractal Pro2
+	}
+
+	FractalPro1: {
+		DisplayName: Fractal Pro1
+	}
+
+	CorrosiveFluxPro: {
+		DisplayName: Corrosive Flux Pro
+	}
+
+	GuardianHealerBeam: {
+		DisplayName: Guardian Healer Beam
+	}
+
+	GuardianHealer: {
+		DisplayName: Guardian Healer
+	}
+
+	TendrilStrike: {
+		DisplayName: Tendril Strike
+	}
+
+	CalamityBellPro2: {
+		DisplayName: Calamity Bell Pro2
+	}
+
+	CalamityBellPro: {
+		DisplayName: Calamity Bell Pro
+	}
+
+	BlazingDrumBeatFireSlash: {
+		DisplayName: Blazing Drum Beat Fire Slash
+	}
+
+	MelterAmpOverride: {
+		DisplayName: Melter Amp Override
 	}
 }
 
 Items: {
-	DrumStick: {
-		DisplayName: ドラムスティック
-		Tooltip: 敵をドラムだと思え！
+	Armor: {
+		PostMoonLord: {
+			SilvaHeadHealer: {
+				Tooltip: ""
+				DisplayName: シルヴァの癒し手の兜
+			}
+		}
 	}
 
-	AerospecBard: {
-		DisplayName: エアロスペックのショベルハット
+	NightmareFreezer: {
 		Tooltip:
 			'''
-			演奏速度とインスピレーションの再生速度が5% 増加
-			強化持続時間+2秒
+			鎌を振り回すと、定期的に冷たいダーツの弾幕を放つ
+			ハロウィンとクリスマスの期間中、どこかで見つかる
+			「ねえ、それで映画を作れるかも！」
 			'''
-		SetBonus:
-			'''
-			1回の攻撃で25以上のダメージを受けると、追尾する羽を放つ
-			より素早く落下できるようになり、落下ダメージを無効化する
-			旋律ダメージが6%増加
-			移動速度が7%増加
-			'''
+		DisplayName: ナイトメア・フリーザー
 	}
 
-	AerospecHealer: {
-		DisplayName: エアロスペックのフード
+	UnbreakableCombatUkulele: {
 		Tooltip:
 			'''
-			非神聖ダメージ20%減少
-			神聖ダメージ20%増加
-			最大マナ+20 
+			左クリックでウクレレを演奏する
+			右クリックでウクレレを投げる
+			「謝罪には不向き」
 			'''
-		SetBonus:
-			'''
-			一撃で25以上のダメージを受けると、追尾する羽を展開して落下させる
-			より素早く落下できるようになり、落下ダメージを無効化する
-			回復魔法はさらに2ライフを回復する
-			移動速度が10%増加
-			'''
+		DisplayName: 壊れにくい戦闘用ウクレレ
 	}
 
-	AuricTeslaFrilledHelmet: {
-		DisplayName: オーリックテスラの飾り髪付きヘルメット
+	MaxEmpowermentTester: {
+		Tooltip: アイテムコードに指定されたレベルですべての強化を付与する :P
+		DisplayName: 最大強化テスター
+	}
+
+	ElementalReaper: {
 		Tooltip:
 			'''
-			旋律ダメージ、クリティカル確率、管楽器の追尾速度が20%増加
-			移動速度5%増加
-			インスピレーションの回復量が30%増加
-			インスピレーションの最大値+15
-			弦楽器のバウンド数+2
+			この鎌を振り回すと、追尾する弾が発生し、元素の炎を付与する
+			右クリックで自分とすべての仲間に10秒間元素の加護を付与する（クールダウン30秒）
+			元素の加護の効果は以下の通り:
+			砂: 攻撃ダメージ +5%
+			水: 攻撃速度 +5%
+			風: 移動速度と飛行時間 +20%
+			地: 防御力 +10
+			硫黄: すべての攻撃に硫黄の炎を付与
+			オアシス: 10秒間で50HPを回復
 			'''
-		SetBonus:
-			'''
-			タラゴン、ブラッドフレア、ゴッドスレイヤー、ラプソディストのアーマー効果を併せ持つ
-			「アーマーアビリティ」キーを押すと、ラプソディストの両方のアーマー・アビリティが発動する
-			'''
+		DisplayName: エレメンタルサイス
 	}
 
-	AuricTeslaHealerHead: {
-		DisplayName: オーリックテスラの輝くヴィザージュ
+	Arpeggiator: {
+		Tooltip: 弾を連射する
+		DisplayName: アルペジエーター
+	}
+
+	GodSlayersReap: {
+		Tooltip: ""
+		DisplayName: 神殺しの大鎌
+	}
+
+	PhantasmalEdge: {
+		Tooltip: ""
+		DisplayName: 亡霊の刃
+	}
+
+	GraspofVoid: {
+		Tooltip: ""
+		DisplayName: グラスポフ・ヴォイド
+	}
+
+	Korobeiniki: {
+		Tooltip: ""
+		DisplayName: コロブチカ
+	}
+
+	CosmicInjector: {
+		Tooltip: ""
+		DisplayName: コズミックインジェクター
+	}
+
+	VerdurantBloom: {
+		Tooltip: ""
+		DisplayName: 緑豊かな花
+	}
+
+	GoldenBatDroppings: {
 		Tooltip:
 			'''
-			神聖ダメージ70%増加、神聖以外のダメージ70%減少
-			神聖ダメージのクリティカル確率が25%増加
-			移動速度が5%増加
-			マナ使用量が25%減少
-			回復魔法によるライフ回復量が11増加
-			最大マナ+100
+			「正気じゃない...イカれてるのか！？」
+			敵からのコイン+30
+			所持コインに応じてダメージ増加（コインスロットのみ）
+			Revengeanceドロップ
 			'''
-		SetBonus:
-			'''
-			タラゴン、ブラッドフレア、シルヴァ、夢織りのアーマー効果を併せ持つ
-			「アーマーアビリティ」キーを押すと、夢織りのアーマーアビリティが2つとも発動する
-			'''
+		DisplayName: ゴールデンバットの糞
 	}
 
-	BlazingDrumBeat: {
-		DisplayName: エンブレム入りのドラムスティック
+	UniversalHeadset: {
+		DisplayName: 汎用ヘッドセット
 		Tooltip:
 			'''
-			2回以上連続で成功させると炎の大斬撃を繰り出す
-			範囲内のすべての敵に聖なる炎を与える
-			'''
-	}
-
-	BloodflareHeadBard: {
-		DisplayName: ブラッドフレアのトゲ付きヘルメット
-		Tooltip:
-			'''
-			旋律ダメージが20%増加し、旋律ダメージのクリティカル確率が12%増加する
-			インスピレーションの再生が+15%増加し、インスピレーションの最大値が+6増加する
-			敵からインスピレーションノートをドロップする確率が+15%増加
-			'''
-		SetBonus:
-			'''
-			旋律ダメージを与えると、敵に灼熱の血が付与される
-			血の欲望が蓄積され、毎秒2ポイント、最大150ポイントまで蓄積される
-			100ポイントに達すると 旋律ダメージとクリティカルヒット確率が20%増加し、移動速度が25%増加する
-			エンパワーメントの効果が3秒間延長され、鼓舞の回復が10%速くなる
-			攻撃を受けると25ポイント失う
-			'''
-	}
-
-	BloodflareHeadHealer: {
-		DisplayName: ブラッドフレアの冷厳なヴィサージュ
-		Tooltip:
-			'''
-			マナ使用量が20%減少
-			非神聖ダメージ70%減少、神聖ダメージ50%増加
-			神聖ダメージのクリティカル確率が20%増加
-			回復魔法のライフ回復量が7増加
-			最大マナ+60
-			'''
-		SetBonus:
-			'''
-			神聖ダメージを与えると、敵に灼熱の血が付与される
-			血の欲望が蓄積され、毎秒2ポイント、最大150ポイントまで蓄積される
-			100ポイントに達すると 神聖ダメージとクリティカルヒット確率が20%増加し、移動速度が20%増加する
-			回復魔法はさらに3ヘルス増加する
-			さらに、与えたダメージのごく一部だけ回復する
-			攻撃を受けると25ポイント失う
-			'''
-	}
-
-	CalamityBell: {
-		DisplayName: 災厄の鐘
-		Tooltip: 命中した敵は2秒間ブリムストーンフレアの効果を受ける
-	}
-
-	DaedalusHeadBard: {
-		DisplayName: ダイダロスのヘッドギア
-		Tooltip:
-			'''
-			旋律ダメージ12%増加、旋律ダメージのクリティカル確率5%増加
-			インスピレーションの最大値+2
-			'''
-		SetBonus:
-			'''
-			インスピレーションの再生速度が+10%増加
-			「アーマーアビリティ」キーを押すと、15秒間、自分と味方に攻撃速度とダメージ強化が付与される
-			また、南極の創造力が付与される
-			バフ中はインスピレーション速度+15%、演奏速度+10%
-			インスピレーションコスト12
-			'''
-	}
-
-	DaedalusHeadHealer: {
-		DisplayName: ダイダロスのヴィザージュ
-		Tooltip:
-			'''
-			マナ使用量が10%減少
-			15%の非神聖ダメージ減少
-			神聖ダメージ15%増加、神聖ダメージのクリティカル確率7%増加
-			最大マナ+40
-			'''
-		SetBonus:
-			'''
-			回復魔法はさらに3ライフを回復する。
-			「アーマーアビリティ」キーを押すとライフを50シールドし、15秒間南極の加護を付与する
-			バフ中は防御力が+8され、回復魔法はさらにライフを2回復する
-			消費マナ100
-			'''
-	}
-
-	GodSlayerHeadBard: {
-		DisplayName: ゴッドスレイヤーのトライコーンヘルム
-		Tooltip:
-			'''
-			旋律ダメージ25%増加、旋律ダメージのクリティカル確率15%増加
-			インスピレーションの自然回復速度が15%増加
-			インスピレーションの最大値が+7される
-			敵からインスピレーションのメモをドロップする確率が+15%増加
-			'''
-		SetBonus: 楽器を持っている間、ランダムなエンパワーメントが適用される
-	}
-
-	SilvaHeadHealer: {
-		DisplayName: シルヴァの花輪付き兜
-		Tooltip:
-			'''
-			マナ使用量が25%減少
-			非神聖ダメージ70%減少、神聖ダメージのクリティカルダメージ55%増加
-			神聖ダメージのクリティカル確率が20%増加
-			回復魔法のライフ回復量が9増加
-			最大マナ+80
-			'''
-		SetBonus:
-			'''
-			回復魔法により、味方のライフ回復量とライフ回復速度が増加する
-			回復された味方の最大ヘルスが50増加する
-			回復やライフシールドの恩恵を受けることがある
-			ヘルスが低いほど発動確率が上がる
-			'''
-	}
-
-	StormFeather: {
-		DisplayName: 嵐の羽
-		Tooltip: グランドサンダーバードの羽のようだ。雷でパチパチと音を立てている。
-	}
-
-	StrangeAlienMotherBoard: {
-		DisplayName: エイリアンの奇妙なマザーボード
-		Tooltip: スタースカウターのマザーボード。このテクノロジーはあなたの理解を超えている。
-	}
-
-	BelchingSaxophoneOverride: {
-		DisplayName: ベリングサックス
-		Tooltip:
-			'''
-			汚れたリード、音符、硫黄の泡を発射する
-			怪しい...
-			'''
-	}
-
-	AnahitasArpeggioOverride: {
-		DisplayName: アナヒタのアルペジオ
-		Tooltip: ゆっくりとした動きのト音記号を発射し敵を混乱させる
-	}
-
-	FaceMelterOverride: {
-		DisplayName: フェイスメルター
-		Tooltip:
-			'''
-			音符を発射する
-			<right>を押すと、マウスに向かって自動で攻撃するアンプを呼び出す
-			「ワオ！ファンタジー万歳！」
-			'''
-	}
-
-	EmpoweredGranite: {
-		DisplayName: 強化された御影石
-		Tooltip: この御影石は、エネルギーストームから力を吸収したらしい
-	}
-
-	EnchantedMarble: {
-		DisplayName: 魔法の大理石
-		Tooltip: 古代の聖なる魔法を宿した特別な大理石
-	}
-
-	StatigelHeadBard: {
-		DisplayName: 精製ジェルの帽子
-		Tooltip:
-			'''
-			旋律ダメージ10%増加
+			旋律ダメージが20%増加
 			旋律ダメージのクリティカル確率が7%増加
-			'''
-		SetBonus:
-			'''
-			一撃100以上のダメージを受けると、一定時間ダメージを受けなくなる
-			追加ジャンプとジャンプ高度が増加する
-			ジャンプ速度12%増加
-			インスピレーションノートドロップ確率+10
-			インスピレーション再生率+5
-			エンパワーメントの効果が2秒延長
+			演奏速度が10％増加
+			インスピレーション再生率が10％増加
+			インスピレーションの最大値が5増加する
+			ユニーク・エンパワーメントを持つごとに移動速度が2％、演奏速度が1％増加する
 			'''
 	}
 
-	StatigelHeadHealer: {
-		DisplayName: 精製ジェルのヘアアクセサリー
+	SigilOfACruelWorld: {
 		Tooltip:
 			'''
-			非神聖ダメージ10%減少
-			神聖ダメージ10%増加
-			神聖ダメージのクリティカル確率7%増加
+			旋律ダメージが15%増加
+			演奏速度が8%増加
+			インスピレーション再生率が8%増加
+			インスピレーションの最大値が3増加
 			'''
-		SetBonus:
-			'''
-			一撃100以上のダメージを受けると、一定時間ダメージを受けなくなる
-			追加ジャンプとジャンプの高さ増加
-			ジャンプ速度が12%増加
-			回復魔法でライフをさらに2回復する
-			最大マナ+20
-			マナ使用量が5%減少
-			'''
+		DisplayName: 残酷な世界の紋章
 	}
 
-	StriderFang: {
-		DisplayName: ストライダーの牙
-		Tooltip: ボリアンストライダーの口から落ちた、氷のような牙
+	EldritchShellFragment: {
+		Tooltip: 古代の神の牢獄から出てきた魔法の破片
+		DisplayName: エルドリッチの殻の破片
 	}
 
-	TarragonCowl: {
-		DisplayName: タラゴンのフード
+	NewLichRequirement: {
+		Tooltip: えっと...あなたは...これを見ちゃいけないんだ。見なかったことにしてくれ。
+		DisplayName: New Lich Requirement
+	}
+
+	AuricDamru: {
 		Tooltip:
 			'''
-			ダメージ軽減5%増加
-			神聖以外のダメージが60%減少
-			神聖ダメージ40%増加、神聖ダメージのクリティカル確率15%増加
-			ボーナス回復量が6増加
-			マナが60増加
-			マナ使用量が15%減少
+			ボンゴを叩き、近くにいるすべての敵にダメージを与える
+			右クリックでフレアボムを発射
+			フレアボムは3秒間、敵にドラゴンファイアを与える
+			(提供：アイオロス）
 			'''
+		DisplayName: オーリックのドラム
 	}
 
-	TarragonShroud: {
-		DisplayName: タラゴンの死装束
+	ProfanedBell: {
 		Tooltip:
 			'''
-			ダメージ軽減率5%増加
-			旋律ダメージが20%増加し、旋律ダメージのクリティカル確率が15%増加する
-			演奏速度が15%増加
-			インスピレーションのリジェネが大幅に増加
-			敵からインスピレーションノートをドロップする確率が+15%増加
-			インスピレーションの最大値が+4される
+			聖なる炎を放つ
+			命中した敵は3秒間聖なる炎に包まれる
 			'''
-	}
-
-	VictideHeadHealer: {
-		DisplayName: ヴィクタイドのフード
-		Tooltip: 神聖ダメージが5％増加し、非神聖ダメージが5％減少
-		SetBonus:
-			'''
-			敵に狙われにくくなる
-			液体に浸かっている間、ライフ回復量が+3され、神聖ダメージが10%増加するが、非神聖ダメージは10%減少する
-			武器使用時、10%の確率で貝殻を投擲する
-			この貝殻は真ダメージを与え、ダメージクラスの恩恵は受けない
-			水中での移動力が増加し、深淵での息切れをわずかに軽減する
-			'''
-	}
-
-	NightfallenHelmet: {
-		DisplayName: 黄昏の兜
-		Tooltip:
-			'''
-			非神聖ダメージ35%減少
-			神聖ダメージが35%増加し、神聖によるクリティカル確率が16%増加する
-			回復魔法によるライフ回復量が1増加
-			最大マナが60増加
-			'''
-	}
-
-	NightfallenBreastplate: {
-		DisplayName: 黄昏の鎧
-		Tooltip:
-			'''
-			45%の非神聖ダメージ減少
-			神聖ダメージ45%増加、神聖ダメージのクリティカル確率12%増加
-			回復魔法のライフ回復量が2増加
-			'''
-	}
-
-	NightfallenGreaves: {
-		DisplayName: 黄昏の足甲
-		Tooltip:
-			'''
-			神聖以外のダメージが35%減少
-			神聖ダメージ35%増加、神聖攻撃のクリティカル確率8%増加
-			マナコストが20%減少
-			回復魔法のライフ回復量が1増加
-			'''
-	}
-
-	VictideHeadBard: {
-		DisplayName: ヴィクタイドのハタネモネ
-		Tooltip: 旋律ダメージ5%増加
-		SetBonus:
-			'''
-			敵に狙われにくくなる
-			液体に浸かっている間、ライフが+3され、旋律ダメージが10%増加する
-			武器使用時、10%の確率で貝殻を投擲する
-			この貝殻は真ダメージを与え、ダメージクラスの恩恵は受けない
-			水中での移動力が増加し、深淵での息切れをわずかに軽減する
-			'''
-	}
-
-	EquivalentExchange: {
-		DisplayName: 均衡の魔導書
-		Tooltip:
-			'''
-			等価交換の法則に従わなければならない
-			支払ったものと同じ価値のものしか得られない
-			'''
-	}
-
-	ProfanedScythe: {
-		Tooltip: 聖なる地獄の大鎌
-		DisplayName: 冒涜された大鎌
-	}
-
-	MarbleScythe: {
-		Tooltip: 魔法の大理石は、鎌の刃に特別な輝きを与える
-		DisplayName: 大理石の鎌
-	}
-
-	ScoriaDualscythe: {
-		Tooltip: 蒸気で動いているため、鎌をより速く回転させることができる
-		DisplayName: スコリアデュアルサイス
-	}
-
-	InspirationEssence: {
-		DisplayName: インスピレーションエッセンス
-	}
-
-	AstralRipper: {
-		DisplayName: アストラルリッパー
-		Tooltip: 星の汚染を利用して、地獄の雨を降らせよう！
-	}
-
-	RadioMic: {
-		DisplayName: ラジオマイク
-		Tooltip:
-			'''
-			遠い昔に死んだ悪魔のマイク
-			このマイクを使って歌うと、ユーザーは近くの敵を攻撃する影のツルを作り出すことができる
-			'''
-	}
-
-	CorrosiveFlux: {
-		DisplayName: 浸食性の溶剤
-		Tooltip: 有毒な泡を3つ発射する
-	}
-
-	WindReaver: {
-		DisplayName: ウィンドリーバー
-		Tooltip: エアロスペックで作られた鎌は、風の刃を放つことがある
-	}
-
-	SquirrelScarf: {
-		DisplayName: リスのマフラー
-		Tooltip: デバッグ用であり、実際のゲームプレイ用ではない。+999セントリースロットを追加する
-	}
-
-	Prisma: {
-		DisplayName: プリズマ
-		Tooltip: 5つのトゲに分裂する聖水のヒトデを発射する
-	}
-
-	Fractal: {
-		DisplayName: フラクタル
-		Tooltip: 連鎖して分裂する聖なる魔法の球を発射する
-	}
-
-	VoidseerPearl: {
-		DisplayName: 虚の捜索者の真珠
-		Tooltip:
-			'''
-			美は見る人の目の中にあるという
-			しかし、彼らは言葉通りの意味で言ったのではないと思うが...
-			'''
-	}
-
-	QueenJelly: {
-		DisplayName: クイーンゼリー
-		Tooltip:
-			'''
-			美味しいクラゲゼリー
-			海で一番おいしいサンドイッチになる
-			HPを50回復する
-			満足感を与える
-			'''
-	}
-
-	Steampipes: {
-		DisplayName: スチームパイプ
-		Tooltip: 蒸気で動くバグパイプ
-	}
-
-	ElysianSong: {
-		DisplayName: エリシオンの歌
-		Tooltip: 天使のトランペットに近いような、遠いような......
-	}
-
-	ExecutionerMark05: {
-		DisplayName: The Executioner: Mark 05
-		Tooltip:
-			'''
-			XM-05タナトスのコアを大鎌に改造したもの
-			最初はゆっくりだが、徐々にスピードが上がる
-			最大速度に達すると、最も近い敵に向かって発射し、大爆発を起こす
-			'''
-	}
-
-	JellySlicer: {
-		DisplayName: ゼリースライサー
-		Tooltip: 弾むスライム弾を発射する
+		DisplayName: 冒涜された鐘
 	}
 
 	Splattercannon: {
-		DisplayName: スプラッターキャノン
 		Tooltip:
 			'''
 			右クリックで薬室に4発追加
@@ -547,413 +516,547 @@ Items: {
 			保持している間、ボーナス回復の効果は50%のみ
 			「BLOOD IS FUEL.」
 			'''
+		DisplayName: スプラッターキャノン
 	}
 
-	ProfanedBell: {
-		DisplayName: 冒涜された鐘
+	JellySlicer: {
+		Tooltip: 弾むスライム弾を発射する
+		DisplayName: ゼリースライサー
+	}
+
+	ExecutionerMark05: {
 		Tooltip:
 			'''
-			聖なる炎を放つ
-			命中した敵は3秒間聖なる炎に包まれる
+			XM-05タナトスのコアを大鎌に改造したもの
+			最初はゆっくりだが、徐々にスピードが上がる
+			最大速度に達すると、最も近い敵に向かって発射し、大爆発を起こす
 			'''
+		DisplayName: The Executioner: Mark 05
 	}
 
-	AuricDamru: {
-		DisplayName: オーリックのドラム
+	ElysianSong: {
+		Tooltip: 「天使のトランペットに近いような、遠いような......」
+		DisplayName: エリシオンの歌
+	}
+
+	Steampipes: {
+		Tooltip: 蒸気で動くバグパイプ
+		DisplayName: スチームパイプ
+	}
+
+	QueenJelly: {
 		Tooltip:
 			'''
-			ボンゴを叩き、近くにいるすべての敵にダメージを与える
-			右クリックでフレアボムを発射
-			フレアボムは3秒間、敵にドラゴンファイアを与える
-			(提供：アイオロス）
+			美味しいクラゲゼリー
+			海で一番おいしいサンドイッチになる
+			HPを50回復する
+			満足感を与える
 			'''
+		DisplayName: クイーンゼリー
 	}
 
-	NewLichRequirement: {
-		DisplayName: New Lich Requirement
-		Tooltip: えっと...あなたは...これを見ちゃいけないんだ。見なかったことにしてくれ。
-	}
-
-	EldritchShellFragment: {
-		DisplayName: エルドリッチの殻の破片
-		Tooltip: 古代の神の牢獄から出てきた魔法の破片
-	}
-
-	SigilOfACruelWorld: {
-		DisplayName: 残酷な世界の紋章
+	VoidseerPearl: {
 		Tooltip:
 			'''
-			旋律ダメージが15%増加
-			演奏速度が8%増加
-			インスピレーション再生率が8%増加
-			インスピレーションの最大値が3増加
+			美は見る人の目の中にあるという
+			しかし、彼らは言葉通りの意味で言ったのではないと思うが...
 			'''
+		DisplayName: 虚の捜索者の真珠
 	}
 
-	UniversalHeadset: {
+	Fractal: {
+		Tooltip: 連鎖して分裂する聖なる魔法の球を発射する
+		DisplayName: フラクタル
+	}
+
+	Prisma: {
+		Tooltip: 5つのトゲに分裂する聖水のヒトデを発射する
+		DisplayName: プリズマ
+	}
+
+	SquirrelScarf: {
+		Tooltip: デバッグ用であり、実際のゲームプレイ用ではありません。+999セントリースロットを追加します。
+		DisplayName: リスのマフラー
+	}
+
+	WindReaver: {
+		Tooltip: エアロスペックで作られた鎌は、風の刃を放つことがある
+		DisplayName: ウィンドリーバー
+	}
+
+	CorrosiveFlux: {
+		Tooltip: 有毒な泡を3つ発射する
+		DisplayName: 浸食性の溶剤
+	}
+
+	RadioMic: {
 		Tooltip:
 			'''
-			旋律ダメージが20%増加
+			遠い昔に死んだ悪魔のマイク
+			このマイクを使って歌うと、ユーザーは近くの敵を攻撃する影のツルを作り出すことができる
+			'''
+		DisplayName: ラジオマイク
+	}
+
+	AstralRipper: {
+		Tooltip: 星の汚染を利用して、地獄の雨を降らせよう！
+		DisplayName: アストラルリッパー
+	}
+
+	InspirationEssence: {
+		DisplayName: インスピレーションエッセンス
+	}
+
+	ScoriaDualscythe: {
+		DisplayName: スコリアデュアルサイス
+		Tooltip: 蒸気で動いているため、鎌をより速く回転させることができる
+	}
+
+	MarbleScythe: {
+		DisplayName: 大理石の鎌
+		Tooltip: 魔法の大理石は、鎌の刃に特別な輝きを与える
+	}
+
+	ProfanedScythe: {
+		DisplayName: 冒涜された大鎌
+		Tooltip: 聖なる地獄の大鎌
+	}
+
+	EquivalentExchange: {
+		Tooltip:
+			'''
+			等価交換の法則に従わなければならない
+			支払ったものと同じ価値のものしか得られない
+			'''
+		DisplayName: 均衡の魔導書
+	}
+
+	VictideHeadBard: {
+		SetBonus:
+			'''
+			敵に狙われにくくなる
+			液体に浸かっている間、ライフが+3され、旋律ダメージが10%増加する
+			武器使用時、10%の確率で貝殻を投擲する
+			この貝殻は真ダメージを与え、ダメージクラスの恩恵は受けない
+			水中での移動力が増加し、深淵での息切れをわずかに軽減する
+			'''
+		Tooltip: 旋律ダメージ5%増加
+		DisplayName: ヴィクタイドのハタネモネ
+	}
+
+	NightfallenGreaves: {
+		Tooltip:
+			'''
+			神聖以外のダメージが35%減少
+			神聖ダメージ35%増加、神聖攻撃のクリティカル確率8%増加
+			マナコストが20%減少
+			回復魔法のライフ回復量が1増加
+			'''
+		DisplayName: 黄昏の足甲
+	}
+
+	NightfallenBreastplate: {
+		Tooltip:
+			'''
+			45%の非神聖ダメージ減少
+			神聖ダメージ45%増加、神聖ダメージのクリティカル確率12%増加
+			回復魔法のライフ回復量が2増加
+			'''
+		DisplayName: 黄昏の鎧
+	}
+
+	NightfallenHelmet: {
+		Tooltip:
+			'''
+			非神聖ダメージ35%減少
+			神聖ダメージが35%増加し、神聖によるクリティカル確率が16%増加する
+			回復魔法によるライフ回復量が1増加
+			最大マナが60増加
+			'''
+		DisplayName: 黄昏の兜
+	}
+
+	VictideHeadHealer: {
+		SetBonus:
+			'''
+			敵に狙われにくくなる
+			液体に浸かっている間、ライフ回復量が+3され、神聖ダメージが10%増加するが、非神聖ダメージは10%減少する
+			武器使用時、10%の確率で貝殻を投擲する
+			この貝殻は真ダメージを与え、ダメージクラスの恩恵は受けない
+			水中での移動力が増加し、深淵での息切れをわずかに軽減する
+			'''
+		Tooltip: 神聖ダメージが5％増加し、非神聖ダメージが5％減少
+		DisplayName: ヴィクタイドのフード
+	}
+
+	TarragonShroud: {
+		Tooltip:
+			'''
+			ダメージ軽減率5%増加
+			旋律ダメージが20%増加し、旋律ダメージのクリティカル確率が15%増加する
+			演奏速度が15%増加
+			インスピレーションのリジェネが大幅に増加
+			敵からインスピレーションノートをドロップする確率が+15%増加
+			インスピレーションの最大値が+4される
+			'''
+		DisplayName: タラゴンの死装束
+	}
+
+	TarragonCowl: {
+		Tooltip:
+			'''
+			ダメージ軽減5%増加
+			神聖以外のダメージが60%減少
+			神聖ダメージ40%増加、神聖ダメージのクリティカル確率15%増加
+			ボーナス回復量が6増加
+			マナが60増加
+			マナ使用量が15%減少
+			'''
+		DisplayName: タラゴンのフード
+	}
+
+	StriderFang: {
+		Tooltip: ボリアンストライダーの口から落ちた、氷のような牙
+		DisplayName: ストライダーの牙
+	}
+
+	StatigelHeadHealer: {
+		SetBonus:
+			'''
+			一撃100以上のダメージを受けると、一定時間ダメージを受けなくなる
+			追加ジャンプとジャンプの高さ増加
+			ジャンプ速度が12%増加
+			回復魔法でライフをさらに2回復する
+			最大マナ+20
+			マナ使用量が5%減少
+			'''
+		Tooltip:
+			'''
+			非神聖ダメージ10%減少
+			神聖ダメージ10%増加
+			神聖ダメージのクリティカル確率7%増加
+			'''
+		DisplayName: 精製ジェルのヘアアクセサリー
+	}
+
+	StatigelHeadBard: {
+		SetBonus:
+			'''
+			一撃100以上のダメージを受けると、一定時間ダメージを受けなくなる
+			追加ジャンプとジャンプ高度が増加する
+			ジャンプ速度12%増加
+			インスピレーションノートドロップ確率+10
+			インスピレーション再生率+5
+			エンパワーメントの効果が2秒延長
+			'''
+		Tooltip:
+			'''
+			旋律ダメージ10%増加
 			旋律ダメージのクリティカル確率が7%増加
-			演奏速度が10％増加
-			インスピレーション再生率が10％増加
-			インスピレーションの最大値が5増加する
-			ユニーク・エンパワーメントを持つごとに移動速度が2％、演奏速度が1％増加する
 			'''
-		DisplayName: 汎用ヘッドセット
+		DisplayName: 精製ジェルの帽子
 	}
 
-	GoldenBatDroppings: {
-		DisplayName: ゴールデンバットの糞
+	EnchantedMarble: {
+		Tooltip: 古代の聖なる魔法を宿した特別な大理石
+		DisplayName: 魔法の大理石
+	}
+
+	EmpoweredGranite: {
+		Tooltip: この御影石は、エネルギーストームから力を吸収したらしい
+		DisplayName: 強化された御影石
+	}
+
+	FaceMelterOverride: {
 		Tooltip:
 			'''
-			「正気じゃない...イカれてるのか！？」
-			敵からのコイン+30
-			所持コインに応じてダメージ増加（コインスロットのみ）
-			リベンジドロップ
+			音符を発射する
+			<right>を押すと、マウスに向かって自動で攻撃するアンプを呼び出す
+			「ワオ！ファンタジー万歳！」
 			'''
+		DisplayName: フェイスメルター
 	}
 
-	VerdurantBloom: {
-		DisplayName: 緑豊かな花
-		Tooltip: ""
+	AnahitasArpeggioOverride: {
+		Tooltip: ゆっくりとした動きのト音記号を発射し敵を混乱させる
+		DisplayName: アナヒタのアルペジオ
 	}
 
-	CosmicInjector: {
-		DisplayName: コズミックインジェクター
-		Tooltip: ""
+	BelchingSaxophoneOverride: {
+		Tooltip:
+			'''
+			汚れたリード、音符、硫黄の泡を発射する
+			「怪しい...」
+			'''
+		DisplayName: ベリングサックス
 	}
 
-	Korobeiniki: {
-		DisplayName: コロブチカ
-		Tooltip: ""
+	StrangeAlienMotherBoard: {
+		Tooltip: 
+			'''
+			スタースカウターのマザーボード
+			驚異的なテクノロジーが詰め込まれている...
+			'''
+		DisplayName: エイリアンの奇妙なマザーボード
 	}
 
-	GraspofVoid: {
-		DisplayName: グラスポフ・ヴォイド
-		Tooltip: ""
+	StormFeather: {
+		Tooltip: グランドサンダーバードの羽のようだ。雷でパチパチと音を立てている。
+		DisplayName: 嵐の羽
 	}
 
-	PhantasmalEdge: {
-		DisplayName: 亡霊の刃
-		Tooltip: ""
+	SilvaHeadHealer: {
+		SetBonus:
+			'''
+			回復魔法により、味方のライフ回復量とライフ回復速度が増加する
+			回復された味方の最大ヘルスが50増加する
+			回復やライフシールドの恩恵を受けることがある
+			ヘルスが低いほど発動確率が上がる
+			'''
+		Tooltip:
+			'''
+			マナ使用量が25%減少
+			非神聖ダメージ70%減少、神聖ダメージのクリティカルダメージ55%増加
+			神聖ダメージのクリティカル確率が20%増加
+			回復魔法のライフ回復量が9増加
+			最大マナ+80
+			'''
+		DisplayName: シルヴァの花輪付き兜
 	}
 
-	GodSlayersReap: {
-		DisplayName: 神殺しの大鎌
-		Tooltip: ""
-	}
-}
-
-Projectiles: {
-	MelterAmpOverride: {
-		DisplayName: Melter Amp Override
-	}
-
-	BlazingDrumBeatFireSlash: {
-		DisplayName: Blazing Drum Beat Fire Slash
+	GodSlayerHeadBard: {
+		SetBonus: 楽器を持っている間、ランダムなエンパワーメントが適用される
+		Tooltip:
+			'''
+			旋律ダメージ25%増加、旋律ダメージのクリティカル確率15%増加
+			インスピレーションの自然回復速度が15%増加
+			インスピレーションの最大値が+7される
+			敵からインスピレーションのメモをドロップする確率が+15%増加
+			'''
+		DisplayName: ゴッドスレイヤーのトライコーンヘルム
 	}
 
-	CalamityBellPro: {
-		DisplayName: Calamity Bell Pro
+	DaedalusHeadHealer: {
+		SetBonus:
+			'''
+			回復魔法はさらに3ライフを回復する。
+			「アーマーアビリティ」キーを押すとライフを50シールドし、15秒間南極の加護を付与する
+			バフ中は防御力が+8され、回復魔法はさらにライフを2回復する
+			消費マナ100
+			'''
+		Tooltip:
+			'''
+			マナ使用量が10%減少
+			15%の非神聖ダメージ減少
+			神聖ダメージ15%増加、神聖ダメージのクリティカル確率7%増加
+			最大マナ+40
+			'''
+		DisplayName: ダイダロスのヴィザージュ
 	}
 
-	CalamityBellPro2: {
-		DisplayName: Calamity Bell Pro2
+	DaedalusHeadBard: {
+		SetBonus:
+			'''
+			インスピレーションの再生速度が+10%増加
+			「アーマーアビリティ」キーを押すと、15秒間、自分と味方に攻撃速度とダメージ強化が付与される
+			また、南極の創造力が付与される
+			バフ中はインスピレーション速度+15%、演奏速度+10%
+			インスピレーションコスト12
+			'''
+		Tooltip:
+			'''
+			旋律ダメージ12%増加、旋律ダメージのクリティカル確率5%増加
+			インスピレーションの最大値+2
+			'''
+		DisplayName: ダイダロスのヘッドギア
 	}
 
-	TendrilStrike: {
-		DisplayName: Tendril Strike
+	CalamityBell: {
+		Tooltip: 命中した敵は2秒間ブリムストーンフレアの効果を受ける
+		DisplayName: 災厄の鐘
 	}
 
-	GuardianHealer: {
-		DisplayName: Guardian Healer
+	BloodflareHeadHealer: {
+		SetBonus:
+			'''
+			神聖ダメージを与えると、敵に灼熱の血が付与される
+			血の欲望が蓄積され、毎秒2ポイント、最大150ポイントまで蓄積される
+			100ポイントに達すると 神聖ダメージとクリティカルヒット確率が20%増加し、移動速度が20%増加する
+			回復魔法はさらに3ヘルス増加する
+			さらに、与えたダメージのごく一部だけ回復する
+			攻撃を受けると25ポイント失う
+			'''
+		Tooltip:
+			'''
+			マナ使用量が20%減少
+			非神聖ダメージ70%減少、神聖ダメージ50%増加
+			神聖ダメージのクリティカル確率が20%増加
+			回復魔法のライフ回復量が7増加
+			最大マナ+60
+			'''
+		DisplayName: ブラッドフレアの冷厳なヴィサージュ
 	}
 
-	GuardianHealerBeam: {
-		DisplayName: Guardian Healer Beam
+	BloodflareHeadBard: {
+		SetBonus:
+			'''
+			旋律ダメージを与えると、敵に灼熱の血が付与される
+			血の欲望が蓄積され、毎秒2ポイント、最大150ポイントまで蓄積される
+			100ポイントに達すると 旋律ダメージとクリティカルヒット確率が20%増加し、移動速度が25%増加する
+			エンパワーメントの効果が3秒間延長され、鼓舞の回復が10%速くなる
+			攻撃を受けると25ポイント失う
+			'''
+		Tooltip:
+			'''
+			旋律ダメージが20%増加し、旋律ダメージのクリティカル確率が12%増加する
+			インスピレーションの再生が+15%増加し、インスピレーションの最大値が+6増加する
+			敵からインスピレーションノートをドロップする確率が+15%増加
+			'''
+		DisplayName: ブラッドフレアのトゲ付きヘルメット
 	}
 
-	CorrosiveFluxPro: {
-		DisplayName: Corrosive Flux Pro
+	BlazingDrumBeat: {
+		Tooltip:
+			'''
+			2回以上連続で成功させると炎の大斬撃を繰り出す
+			範囲内のすべての敵に聖なる炎を与える
+			'''
+		DisplayName: エンブレム入りのドラムスティック
 	}
 
-	FractalPro1: {
-		DisplayName: Fractal Pro1
+	AuricTeslaHealerHead: {
+		SetBonus:
+			'''
+			タラゴン、ブラッドフレア、シルヴァ、夢織りのアーマー効果を併せ持つ
+			「アーマーアビリティ」キーを押すと、夢織りのアーマーアビリティが2つとも発動する
+			'''
+		Tooltip:
+			'''
+			神聖ダメージ70%増加、神聖以外のダメージ70%減少
+			神聖ダメージのクリティカル確率が25%増加
+			移動速度が5%増加
+			マナ使用量が25%減少
+			回復魔法によるライフ回復量が11増加
+			最大マナ+100
+			'''
+		DisplayName: オーリックテスラの輝くヴィザージュ
 	}
 
-	FractalPro2: {
-		DisplayName: Fractal Pro2
+	AuricTeslaFrilledHelmet: {
+		SetBonus:
+			'''
+			タラゴン、ブラッドフレア、ゴッドスレイヤー、ラプソディストのアーマー効果を併せ持つ
+			「アーマーアビリティ」キーを押すと、ラプソディストの両方のアーマーアビリティが発動する
+			'''
+		Tooltip:
+			'''
+			旋律ダメージ、クリティカル確率、管楽器の追尾速度が20%増加
+			移動速度5%増加
+			インスピレーションの回復量が30%増加
+			インスピレーションの最大値+15
+			弦楽器のバウンド数+2
+			'''
+		DisplayName: オーリックテスラの飾り髪付きヘルメット
 	}
 
-	MarbleScythePro: {
-		DisplayName: Marble Scythe Pro
+	AerospecHealer: {
+		SetBonus:
+			'''
+			一撃で25以上のダメージを受けると、追尾する羽を展開して落下させる
+			より素早く落下できるようになり、落下ダメージを無効化する
+			回復魔法はさらに2ライフを回復する
+			移動速度が10%増加
+			'''
+		Tooltip:
+			'''
+			非神聖ダメージ20%減少
+			神聖ダメージ20%増加
+			最大マナ+20 
+			'''
+		DisplayName: エアロスペックのフード
 	}
 
-	PrismaPro1: {
-		DisplayName: Prisma Pro1
+	AerospecBard: {
+		SetBonus:
+			'''
+			1回の攻撃で25以上のダメージを受けると、追尾する羽を放つ
+			より素早く落下できるようになり、落下ダメージを無効化する
+			旋律ダメージが6%増加
+			移動速度が7%増加
+			'''
+		Tooltip:
+			'''
+			演奏速度とインスピレーションの再生速度が5% 増加
+			強化持続時間+2秒
+			'''
+		DisplayName: エアロスペックのショベルハット
 	}
 
-	PrismaPro2: {
-		DisplayName: Prisma Pro2
-	}
-
-	ProfanedScythePro: {
-		DisplayName: Profaned Scythe Pro
-	}
-
-	ScoriaDualscythePro: {
-		DisplayName: Scoria Dualscythe Pro
-	}
-
-	WindReaverPro: {
-		DisplayName: Wind Reaver Pro
-	}
-
-	WindSlashPro: {
-		DisplayName: Wind Slash Pro
-	}
-
-	NoProj: {
-		DisplayName: No Proj
-	}
-
-	SteampipesPro: {
-		DisplayName: Steampipes Pro
-	}
-
-	ElysianSongPro: {
-		DisplayName: Elysian Song Pro
-	}
-
-	FractalOrb: {
-		DisplayName: Fractal Orb
-	}
-
-	ExecutionerMark05Pro: {
-		DisplayName: Executioner Mark05 Pro
-	}
-
-	ExecutionerMark05ThrowPro: {
-		DisplayName: Executioner Mark05 Throw Pro
-	}
-
-	WapBamBoom: {
-		DisplayName: Wap Bam Boom
-	}
-
-	GelScythePro1: {
-		DisplayName: Gel Scythe Pro1
-	}
-
-	GelScythePro2: {
-		DisplayName: Gel Scythe Pro2
-	}
-
-	AstralRipperPro: {
-		DisplayName: Astral Ripper Pro
-	}
-
-	AstralRipperStarPro: {
-		DisplayName: Astral Ripper Star Pro
-	}
-
-	Splattershot: {
-		DisplayName: Splattershot
-	}
-
-	BloodOrb: {
-		DisplayName: Blood Orb
-	}
-
-	ProfaneBellBlast: {
-		DisplayName: Profane Bell Blast
-	}
-
-	ProfanedBellBlast: {
-		DisplayName: Profaned Bell Blast
-	}
-
-	BellBlastBoom: {
-		DisplayName: Bell Blast Boom
-	}
-
-	AuricDamruShock: {
-		DisplayName: Auric Damru Shock
-	}
-
-	AuricDamruFlareBombBoom: {
-		DisplayName: Auric Damru Flare Bomb Boom
-	}
-
-	AuricDamruFlareBomb: {
-		DisplayName: Auric Damru Flare Bomb
-	}
-
-	VerdurantBloomPro: {
-		DisplayName: Verdurant Bloom Pro
-	}
-
-	VerdurantBloomPro2: {
-		DisplayName: Verdurant Bloom Pro2
-	}
-
-	VerdurantBloomPro3: {
-		DisplayName: Verdurant Bloom Pro3
-	}
-
-	CosmicInjectorPro1: {
-		DisplayName: Cosmic Injector Pro1
-	}
-
-	CosmicInjectorPro2: {
-		DisplayName: Cosmic Injector Pro2
-	}
-
-	KorobeinikiPro1: {
-		DisplayName: Korobeiniki Pro1
-	}
-
-	KorobeinikiPro2: {
-		DisplayName: Korobeiniki Pro2
-	}
-
-	KorobeinikiPro3: {
-		DisplayName: Korobeiniki Pro3
-	}
-
-	KorobeinikiPro4: {
-		DisplayName: Korobeiniki Pro4
-	}
-
-	KorobeinikiPro5: {
-		DisplayName: Korobeiniki Pro5
-	}
-
-	KorobeinikiPro6: {
-		DisplayName: Korobeiniki Pro6
-	}
-
-	KorobeinikiPro7: {
-		DisplayName: Korobeiniki Pro7
-	}
-
-	GraspofVoidPro1: {
-		DisplayName: Graspof Void Pro1
-	}
-
-	GraspofVoidPro2: {
-		DisplayName: Graspof Void Pro2
-	}
-
-	PhantasmalEdgePro1: {
-		DisplayName: Phantasmal Edge Pro1
-	}
-
-	PhantasmalEdgeBombs: {
-		DisplayName: Phantasmal Edge Bombs
-	}
-
-	PhantasmalEdgeHook: {
-		DisplayName: Phantasmal Edge Hook
+	DrumStick: {
+		Tooltip: 敵をドラムだと思え！
+		DisplayName: ドラムスティック
 	}
 }
 
-Configs: {
-	BossProgressionConfig: {
-		DisplayName: ボス進行設定
-
-		Headers: {
-			BossProgressionChanges: ボス進行変更一覧
-		}
-
-		GrandFlareGun: {
-			Label: グランドサンダーバードのレシピ変更
-			Tooltip: Grand Flare GunとStorm Flareを、Vulture FeatherではなくStormlion Mandiblesを必要とするように変更。デフォルトはTrue。
-		}
-
-		DesertMedallion: {
-			Label: デザートスカージのレシピ変更
-			Tooltip: Desert MedallionがGrand Thunder BirdのStorm Feathersを使用するように変更。デフォルトはTrue。
-		}
-
-		DecapoditaSprout: {
-			Label: クラブロンのレシピ変更
-			Tooltip: Decapodita SproutがPearl Shards、Storm Feather、Queen Jellyを使うように変更。デフォルトはTrue。
-		}
-
-		MarbleGranite: {
-			Label: グラニットエナジーコアと埋もれた英雄のレシピ変更
-			Tooltip: Ancient BladeとUnstable CoreをRotten Matter/Blood SamplesとDracula Fangsを必要とするように変更。デフォルトはTrue。
-		}
-
-		OverloadedSludge: {
-			Label: スライムゴッドのレシピ変更
-			Tooltip: Overloaded SludgeがEnchanted MarbleとEmpowered Graniteを使うように変更。デフォルトはTrue。
-		}
-
-		StarCaller: {
-			Label: スタースカウターのレシピ変更
-			Tooltip: Star CallerがRotten Matter/Blood Samplesを使用するように変更する。デフォルトはTrue。
-		}
-
-		CryoKey: {
-			Label: クライオジェンのレシピ変更
-			Tooltip: Cryo KeyがStrider Fangsを使用するように変更。デフォルトはTrue。
-		}
-
-		MechBosses: {
-			Label: メカボスたちのレシピ変更
-			Tooltip: 「Mechanical Eye」「Worm」「Skull」をそれぞれ「Strange Alien Motherboard」を必要とするように変更。デフォルトはTrue
-		}
-
-		Lich: {
-			Label: リッチの召喚条件変更
-			Tooltip: Ancient PhylactoryをカボチャではなくEssence of HavocでなければLichを召喚できないように変更。デフォルトはTrue。
-		}
-
-		CharredIdol: {
-			Label: ブリムストーンエレメンタルのレシピ変更
-			Tooltip: Charred IdolがVoidseer's Pearlを必要とするように変更。デフォルトはtrue。
-		}
-
-		Seafood: {
-			Label: アクアティックスカージのレシピ変更
-			Tooltip: SeafoodがQueen Jellyを必要とするように変更。デフォルトはTrue。
-		}
-
-		EyeOfDesolation: {
-			Label: カラミタスクローンのレシピ変更
-			Tooltip: Eye of DesolationをVoidseer's Pearlを必要とするように変更。デフォルトはTrue。
-		}
-
-		DeathWhistle: {
-			Label: ラヴェジャーのレシピ変更
-			Tooltip: Death WhistleをCursed Clothを必要とするように変更。デフォルトはTrue。
-		}
-
-		DoomSayerCoin: {
-			Label: プライモーディアルズのレシピ変更
-			Tooltip: Doom Sayer's CoinをEldritch Shell FragmentsとAshes of Calamityを必要とするように変更。デフォルトはTrue。
-		}
-
-		RuneOfKos: {
-			Label: プロヴィデンスのスポーン条件変更
-			Tooltip: Rune Of Kos RecipeをDivine GeodesとPrimordials Essencesを必要とするように変更し、Providenceからドロップしないようにした。デフォルトはTrue。
-		}
+Buffs: {
+	ScytheWaterBuff: {
+		Description: Mods.RagnarokMod.Buffs.ScytheWaterBuff.Description
+		DisplayName: ウォーターサイスのバフ
 	}
 
-	OtherConfig: {
-		DisplayName: Other Config
+	ScytheSandBuff: {
+		Description: Mods.RagnarokMod.Buffs.ScytheSandBuff.Description
+		DisplayName: サンドサイスのバフ
+	}
 
-		Headers: {
-			Other: Other Header
-		}
+	ScytheOasisBuff: {
+		Description: Mods.RagnarokMod.Buffs.ScytheOasisBuff.Description
+		DisplayName: サイスオアシスのバフ
+	}
 
-		wip: {
-			Label: wip
-			Tooltip: ""
-		}
+	ScytheEarthBuff: {
+		Description: Mods.RagnarokMod.Buffs.ScytheEarthBuff.Description
+		DisplayName: サイスアースのバフ
+	}
+
+	ScytheBrimstoneBuff: {
+		Description: Mods.RagnarokMod.Buffs.ScytheBrimstoneBuff.Description
+		DisplayName: ブリムストーンサイスのバフ
+	}
+
+	ScytheAirBuff: {
+		Description: Mods.RagnarokMod.Buffs.ScytheAirBuff.Description
+		DisplayName: エアサイスのバフ
+	}
+
+	ElementalScytheCooldown: {
+		Description: Mods.RagnarokMod.Buffs.ElementalScytheCooldown.Description
+		DisplayName: エレメンタルサイスのクールダウン
+	}
+
+	UniversalBlessing: {
+		DisplayName: 普遍的な祝福
+		Description: Mods.RagnarokMod.Buffs.UniversalBlessing.Description
+	}
+
+	GuardianHealerBeamBuff: {
+		Description: 20秒間、ダメージ10%軽減とライフ5回復の追加効果
+		DisplayName: 癒し手の守護
+	}
+
+	AntarcticExhaustionDebuff: {
+		Description: もうバフをかけることはできない
+		DisplayName: 南極の消耗
+	}
+
+	AntarcticReinforcementBuff: {
+		Description: 防御力+8、自分の回復魔法はさらにライフを2回復する
+		DisplayName: 南極の加護
+	}
+
+	AntarcticCreativityBuff: {
+		Description: インスピレーションの再生速度＋15％、演奏速度＋10％
+		DisplayName: 南極の創造力
 	}
 }
 

@@ -22,7 +22,7 @@ Achievements: {
 		Description:
 			'''
 			ドレイドンのお気に入りの被験者になる
-			[c/777777:Infernumのエクソメックのすべての組み合わせを倒す]
+			[c/777777:Infernumのエクソメカのすべての組み合わせを倒す]
 			'''
 	}
 
@@ -123,7 +123,7 @@ Achievements: {
 			Description:
 				'''
 				それは犠牲を伴うが、あなたは良い選択だったと思うだろう
-				[c/777777:硫黄の岩山で {0} 秒眠る]
+				[c/777777:地獄の岩山で {0} 秒眠る]
 				'''
 		}
 
@@ -150,7 +150,7 @@ Achievements: {
 			Description:
 				'''
 				彼らの涙は雨粒と混ざり合い、 叶わなかったことを嘆く。
-				[c/777777:エクソメックとカラミタスを倒し、雨の中、スポーン地点の近くで槍を見つける]
+				[c/777777:エクソメカとカラミタスを倒し、雨の中、スポーン地点の近くで槍を見つける]
 				'''
 		}
 
@@ -175,7 +175,7 @@ Achievements: {
 }
 
 Bestiary: {
-	BereftVassal: 用心深い守護者でありながら、かつては目的もなくさまよっていた。王が生き続けていることを知り、生きる意欲を取り戻し始めたようだ。再びあなたと戦うことを楽しみにしている。
+	BereftVassal: 用心深い守護者でありながら、かつては目的もなくさまよっていた。王が生きていることを知り、生きる意欲を取り戻し始めたようだ。再びあなたと戦うことを楽しみにしている。
 	DepthFeeder: アビスという圧倒的に過酷な環境でも、適応した生物はいるかもしれない。
 	Herring: 異常に丈夫なこれらの生物は、なぜか有毒な深淵洞窟の上部で繁栄している。とはいえ、彼らは食物連鎖の最下層にいる。
 	Lionfish: この逞しい魚は自然の生息地ではめったに狩られることはなく、攻撃と防御の両方をその毒棘に頼っている。
@@ -184,12 +184,12 @@ Bestiary: {
 Biomes: {
 	LostColosseumBiome: {
 		DisplayName: 忘れられた闘技場
-		TownNPCDialogueName: the Lost Colosseum Biome
+		TownNPCDialogueName: 忘れられた闘技場
 	}
 
 	ProfanedTempleBiome: {
 		DisplayName: 冒涜された神殿
-		TownNPCDialogueName: the Profaned Temple Biome
+		TownNPCDialogueName: 冒涜された神殿
 	}
 }
 
@@ -321,7 +321,7 @@ DifficultyUI: {
 	Name: Infernum
 	ShortDescription:
 		'''
-		[c/B32E81:デスモードとはまったく異なり、より過酷なものを求める人には、新たな挑戦となる。]
+		[c/B32E81:Deathモードとはまったく異なり、より過酷なものを求める人には、新たな挑戦となる。　　　　　　　　　　　　]
 		[c/B32E81:このモードはMasterやFor the Worthyのシードでは機能しない。]
 		'''
 	ExpandedDescription:
@@ -1276,7 +1276,7 @@ Items: {
 		PersonalMessage:
 			'''
 			自分の死んだ数に誇りを持て！
-			今まで失敗してきたことは決して無駄ではない、頑張れ！
+			今まで失敗してきたことは決して無駄ではないはずだ！
 			'''
 	}
 
@@ -1356,7 +1356,7 @@ Items: {
 		PersonalMessage: {
 			DefaultMessage:
 				'''
-				あなたは驚異的な結果を残した。残された課題はただ一つ
+				あなたは驚異的な結果を残した。残された課題はただ一つ、
 				宇宙のエンジニアに立ち向かえ。
 				'''
 			DownedExoMechsMessage:
@@ -1694,11 +1694,11 @@ Items: {
 
 Keybinds: {
 	"Wayfinder Create Key": {
-		DisplayName: Wayfinder  Create  Key
+		DisplayName: ゲート生成
 	}
 
 	"Wayfinder Destroy Key": {
-		DisplayName: Wayfinder  Destroy  Key
+		DisplayName: ゲート破壊
 	}
 }
 
@@ -1721,7 +1721,7 @@ MusicDisplay: {
 
 NameOverrides: {
 	CalamitasShadowClone: {
-		EntryName: The {0}
+		EntryName: "{0}"
 	}
 
 	GreatSandShark: {
@@ -1878,7 +1878,7 @@ PetDialog: {
 	AsterSummon3: うわ、石版の中、すっごく埃っぽい…
 	AsterSummon4: 俺は特別な小さな存在だから、扱いに気をつけてね。
 	AsterSummon5: ようやく戻った！また大暴れする時間だ！
-	AsterSummon6: ゲーマーは死なないよ、"リスポーン"するんだ。
+	AsterSummon6: ゲーマーは死なないよ、"リスポーン"するからね。
 	AsterSummon7: へっ！
 	AsterPassive1: 今日は素晴らしい日だね。花が咲いてる、小鳥たちもさえずってる...
 	AsterPassive2: 一緒に花を摘みに行かない？
