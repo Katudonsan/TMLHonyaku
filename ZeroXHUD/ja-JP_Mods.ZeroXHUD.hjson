@@ -1,0 +1,159 @@
+Keybinds: {
+	"Toggle HUD": {
+		DisplayName: HUDの表示切り替え
+	}
+}
+
+Configs: {
+	ZeroXModConfig: {
+		DisplayName: Zero X Mod 設定
+
+		ShowCombatPanelByDefault: {
+			Label: 戦闘パネルをデフォルトで表示
+			Tooltip: 有効にすると、ゲーム開始時にHUDが表示されます
+		}
+
+		CombatPanel: {
+			Label: 戦闘パネル
+			Tooltip: 戦闘パネルの設定
+		}
+
+		ShowGameStatusPanel: {
+			Label: ゲームステータスパネルを表示
+			Tooltip: 無効にすると、ゲーム標準の体力・マナHUDが表示されません
+		}
+	}
+
+	CombatPanelConfig: {
+		Tooltip: ""
+
+		Headers: {
+			Position: 位置設定
+			Bars: バー設定
+			Labels: 表示設定
+			Behaviour: 動作設定
+		}
+
+		VerticalOffset: {
+			Label: 垂直方向調整
+			Tooltip: 垂直方向に調整ができます（ピクセル単位）
+		}
+
+		HorizontalOffset: {
+			Label: 水平方向調整
+			Tooltip: 水平方向に調整ができます（ピクセル単位）
+		}
+
+		ShiftWithBuffs: {
+			Label: バフに合わせて位置調整
+			Tooltip: 有効にすると、バフが増えるごとに戦闘パネルが下に移動します
+		}
+
+		HealthBarColor: {
+			Label: HPバーの色
+			Tooltip: ""
+		}
+
+		ManaBarColor: {
+			Label: マナバーの色
+			Tooltip: ""
+		}
+
+		Label1Stat: {
+			Label: 1番目の表示ステータス
+			Tooltip: ""
+		}
+
+		Label2Stat: {
+			Label: 2番目の表示ステータス
+			Tooltip: ""
+		}
+
+		Label3Stat: {
+			Label: 3番目の表示ステータス
+			Tooltip: ""
+		}
+
+		Label4Stat: {
+			Label: 4番目の表示ステータス
+			Tooltip: ""
+		}
+
+		Label5Stat: {
+			Label: 5番目の表示ステータス
+			Tooltip: ""
+		}
+
+		Label6Stat: {
+			Label: 6番目の表示ステータス
+			Tooltip: ""
+		}
+
+		Label7Stat: {
+			Label: 7番目の表示ステータス
+			Tooltip: ""
+		}
+
+		Label8Stat: {
+			Label: 8番目の表示ステータス
+			Tooltip: ""
+		}
+
+		ExcludeLocalPlayer: {
+			Label: 自分を非表示
+			Tooltip: 有効にすると、パーティプレイヤーの一覧に自分が表示されません
+		}
+	}
+
+	LabelStatTypes: {
+		Tooltip: ""
+
+		None: {
+			Label: なし
+		}
+
+		Defense: {
+			Label: 防御力
+		}
+
+		DPS: {
+			Label: 秒間ダメージ（DPS）
+		}
+
+		ArmorPiercing: {
+			Label: 防御貫通
+		}
+
+		Speed: {
+			Label: 移動速度倍率
+		}
+
+		Slow: {
+			Label: 減速倍率
+		}
+
+		MagicDamageMultiplier: {
+			Label: 魔法ダメージ倍率
+		}
+
+		MeleeDamageMultiplier: {
+			Label: 近接ダメージ倍率
+		}
+
+		RangedDamageMultiplier: {
+			Label: 遠距離ダメージ倍率
+		}
+
+		SummonDamageMultiplier: {
+			Label: 召喚ダメージ倍率
+		}
+
+		ThrowingDamageMultiplier: {
+			Label: 投擲ダメージ倍率
+		}
+
+		GenericDamageMultiplier: {
+			Label: 全てのダメージ倍率
+		}
+	}
+}
