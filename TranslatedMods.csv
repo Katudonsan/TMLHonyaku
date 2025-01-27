@@ -41,12 +41,17 @@ steam_id,internal_name,display_name,lead_translator,version,note
 3001536716,MachineTranslate,In-game Translate (Supports both v1.4.4 and v1.4.3),Hurugitune,1.0,すべて翻訳済み
 3378168037,CompatChecker,Compatibility Checker (Beta),Hurugitune,0.1.4.1,すべて翻訳済み
 2861542679,Remnants,Remnants,Hurugitune,1.5.31.2,すべて翻訳済み
+2825008228,ZeroXHUD,ZeroX's Combat HUDs,Hurugitune,0.2.4.2,すべて翻訳済み
+2815010161,SharedMap,Shared World Map,Hurugitune,0.1.4.3,すべて翻訳済み
+2563815443,DialogueTweak,Dialogue Panel Rework,Hurugitune,1.5.9,すべて翻訳済み
 2877696929,WombatQOL,Wombat's General Improvements,Hurugitune,1.3.10.4,すべて翻訳済み
 2566083800,CombinedHealth,Shared Health,Hurugitune,1.3.0,すべて翻訳済み
 3231435221,DtbsNoProjectiles,Dtboss' no friendly projectiles,Hurugitune,1.20,すべて翻訳済み
 2803799129,Pings,Pings,Hurugitune,0.3.0.3,すべて翻訳済み
 2566083800,ChatSource,Chat Source,Hurugitune,1.1.1.2,すべて翻訳済み
 2828370879,ShopExpander,Shop Expander,Hurugitune,1.5.0,すべて翻訳済み
+2614858363,Wireless,Wireless,mori (new),1.6.1,すべて翻訳済み
+2927446524,TestChadsFurni,Chad's Furni Reborn,mori (new),0.2,すべて翻訳済み
 2824879484,tsorcRevamp,The Story of Red Cloud,katudonsan,0.15.18.6,現在The Story of Red Cloudブランチで翻訳中
 3222493606,Luminance,Luminance,katudonsan,1.0.6,翻訳完了
 2824688804,CalValEX,Calamity's Vanities,Chuzume,11.1,ほぼ翻訳完了、マップでのタイル名、Projectile名など未翻訳。
