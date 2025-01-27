@@ -22956,7 +22956,7 @@ Items: {
 		PylonRestriction: 世界に設置されたパイロン1つにつき、設置できる鳥のエサ箱は{0}個までです
 		Hanging: 吊り下げ式
 		Grounded: 地面設置式
-		ConvertTooltip: 右クリックでスタイルを切り替えるか、再クラフトで{0}バリアントに変換可能
+		ConvertTooltip: クラフトで{0}に再作成可能
 		CommonTooltip:
 			'''
 			エサ箱に種や果物を入れると、最終的に鳥を引き寄せることができる
