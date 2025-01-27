@@ -1,0 +1,35 @@
+LinkToItself: トランシーバーはそれ自体にリンクすることはできません
+
+StoredCoords: 座標を保存しました: {0}
+
+SuccessLink: リンクに成功した！
+
+StartLink: リンクを開始...
+
+Items: {
+	WirelessReceiver: {
+		DisplayName: 無線受信機
+		Tooltip: リンクされた無線送信機と無線リモコンからの信号を受信
+	}
+
+	WirelessTransmitter: {
+		DisplayName: 無線送信機
+		Tooltip: リンクされた無線受信機に信号を送信
+	}
+
+	WirelessTransceiver: {
+		DisplayName: 無線トランシーバー
+		Tooltip: リンクされたデバイスからの信号を送受信
+	}
+
+	WirelessRemote: {
+		DisplayName: 無線リモコン
+		Tooltip: リンクされた無線受信機に信号を送信
+	}
+
+	CoordinateConfigurator: {
+		DisplayName: 座標コンフィギュレーター
+		Tooltip: 無線送信機を無線受信機にリンクする
+	}
+}
+
