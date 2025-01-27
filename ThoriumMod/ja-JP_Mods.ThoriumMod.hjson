@@ -363,7 +363,7 @@ ThrowerTechniques: {
 	LastStand: {
 		Description:
 			'''
-			致命的なダメージを受けると自動的に発動し、{0} {^0:second;秒}の無敵時間を付与する
+			致命的なダメージを受けると自動的に発動し、{0}{^0:second;秒}の無敵時間を付与する
 			無敵時間中、{1}%の投擲速度とダメージボーナスを得るが、効果時間終了時に死亡する
 			'''
 		DisplayName: ラストスタンド
@@ -418,22 +418,22 @@ ThrowerTechniques: {
 
 	UseToDisable: 有効｜もう一度使うと無効｜投擲ダメージでポイント増加
 	UseToEnable: 使用時にアクティブな技をセット｜投擲ダメージを与えてポイントを貯める
-	CostTooltip: " {0} {^0:テクニカルポイント;テクニカルポイント} コスト"
-	TooltipBase: " 「投擲テクニック」を押すと、{0} "
+	CostTooltip: "{0}{^0:テクニカルポイント;テクニカルポイント} コスト"
+	TooltipBase: " 「投擲テクニック」を押すと、{0}"
 	DisplayName: 術の巻物：{0}
 }
 
 DeathText: {
-	GravitySurge: "{0} 御影石のエネルギーを抑えきれなかった。"
+	GravitySurge: "{0}御影石のエネルギーを抑えきれなかった。"
 	Liquefied: "{0}は液状化した。"
-	GraveLimb: "{0} は状況を 「把握」できなかった。"
+	GraveLimb: "{0}は状況を 「把握」できなかった。"
 	Destabilized: "{0}は完全に根絶やしにされた。"
-	HungeringBlossom: "{0} は暗闇に飲まれた..."
-	LastStand: "{0} は全力を尽くした..."
-	ShadeMasterMaskSet: "{0} はできる限り長く生きようとした。"
-	AmmutsebaSash: "{0} は闇に飲まれた..."
+	HungeringBlossom: "{0}は暗闇に飲まれた..."
+	LastStand: "{0}は全力を尽くした..."
+	ShadeMasterMaskSet: "{0}はできる限り長く生きようとした。"
+	AmmutsebaSash: "{0}は闇に飲まれた..."
 	TheGauntlet: "{0}は消えていった…"
-	MartyrChalice: "{0} は大義のために自らを犠牲にした。"
+	MartyrChalice: "{0}は大義のために自らを犠牲にした。"
 }
 
 Common: {
@@ -449,11 +449,11 @@ Common: {
 		}
 
 		InvalidMeleeItemForSheath: この武器は鞘に収めることができない
-		Sheath: 剣を持っている時、 {1} {^1:second;秒}間攻撃しないとステルスが付与され、次に攻撃した時に {0}% の追加ダメージを与える
+		Sheath: 剣を持っている時、{1}{^1:second;秒}間攻撃しないとステルスが付与され、次に攻撃した時に{0}% の追加ダメージを与える
 
 		CookFood: {
 			EatWhileFull: 満腹の状態では 料理人 の料理を食べることはできない
-			WillMakeFull: " 料理人 の料理を食べると {0} 満腹になる"
+			WillMakeFull: "料理人の料理を食べると{0}満腹になる"
 			OutOfCombat: 非戦闘時にのみ食べることができる
 		}
 
@@ -464,7 +464,7 @@ Common: {
 			'''
 		BannerPlacement: 旗を1本地面に立てる
 		ShoulderGuardianLimit: 一度に召喚できるショルダー・ガーディアンは1人のみ
-		DevItem: "'Thorium開発者になりすまそう！'"
+		DevItem: "「Thorium開発者になりすまそう！」"
 		TheBlackItem: ダメージを与えるとスタックさせ、50スタックで大ダメージを与える
 	}
 
@@ -8460,7 +8460,7 @@ NPCs: {
 	ForgottenOne: {
 		BossChecklistIntegration: {
 			EntryName: 忘れられた者
-			SpawnInfo: アクアティックハルシネーションが 深海の洞窟 で落とす [i:ThoriumMod/AbyssalShadow] を3個拾う
+			SpawnInfo: アクアティックハルシネーションが深海の洞窟で落とす [i:ThoriumMod/AbyssalShadow] を3個拾う
 		}
 
 		BestiaryFlavorText: 人類が長い間存在を忘れていた生物。何世紀も前の血なまぐさい戦争で、この生物は封印された。
@@ -9367,10 +9367,10 @@ Items: {
 		Common: {
 			Tooltip:
 				'''
-				エンパワーメントの持続時間を {0} {^0:second;秒} 延長する
-				"{1} のエンパワーメントレベルを {2} 増加させる"
+				エンパワーメントの持続時間を{0}{^0:second;秒} 延長する
+				"{1} のエンパワーメントレベルを{2}増加させる"
 				'''
-			DisplayName: "{0} ミュージックプレイヤー"
+			DisplayName: "ミュージックプレイヤー：{0}"
 		}
 	}
 
@@ -9396,8 +9396,8 @@ Items: {
 		}
 
 		Common: {
-			Tooltip: プレイヤーのエンパワーメントレベルを {0} から {1} 増加させる
-			DisplayName: "{0} トラックプレイヤー"
+			Tooltip: プレイヤーのエンパワーメントレベルを{0}から{1}増加させる
+			DisplayName: "トラックプレイヤー：{0}"
 		}
 	}
 
@@ -10072,7 +10072,7 @@ Items: {
 			'''
 			射撃のクリティカル確率が2%増加
 			射撃速度が5%増加
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: バラジウムの胸当て
 	}
@@ -11596,7 +11596,7 @@ Items: {
 	}
 
 	TerrariumPulseRifle: {
-		Tooltip: "{0}% chance to save ammo"
+		Tooltip: "{0}%の確率で弾薬を消費しない"
 		DisplayName: テラリウムのパルスライフル
 	}
 
@@ -11741,7 +11741,7 @@ Items: {
 		Tooltip:
 			'''
 			クロマチックミサイルを素早く発射する
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: テラリウムボンバー
 	}
@@ -11770,7 +11770,7 @@ Items: {
 		Tooltip:
 			'''
 			召喚ダメージ{0}%増加
-			セントリーたちは永遠に持続し、 {2} {^2:minute;分} で最大 {1} ％のダメージを獲得する
+			セントリーたちは永遠に持続し、{2}{^2:minute;分} で最大{1}％のダメージを獲得する
 			'''
 		DisplayName: 蒸気番の時計
 	}
@@ -11787,9 +11787,9 @@ Items: {
 	SpiritTrapperMask: {
 		SetBonus:
 			'''
-			自分のセントリー最大数を {0} 増加させる
+			自分のセントリー最大数を{0}増加させる
 			敵を倒すかボスにダメージを与え続けるとソウルウィスプを生成する
-			 {1} 個生成後、即座に消費され {2} ライフ回復する
+			{1}個生成後、即座に消費され{2}ライフ回復する
 			'''
 		Tooltip: 自分のセントリー最大数を1増加させる
 		DisplayName: 精霊ハンターのマスク
@@ -11798,9 +11798,9 @@ Items: {
 	SpiritTrapperCowl: {
 		SetBonus:
 			'''
-			自分のミニオンの最大数を {0} 増加させる
+			自分のミニオンの最大数を{0}増加させる
 			敵を倒すかボスにダメージを与え続けるとソウルウィスプを生成する
-			 {1} 個生成後、即座に消費され {2} ライフ回復する
+			{1}個生成後、即座に消費され{2}ライフ回復する
 			'''
 		Tooltip: ミニオンの最大数が1増加する
 		DisplayName: 精霊ハンターのフード
@@ -12418,7 +12418,7 @@ Items: {
 			'''
 			「スタンピードを解き放て」
 			3点バースト
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: Trigun
 	}
@@ -12493,7 +12493,7 @@ Items: {
 	}
 
 	MyceliumGattlingGun: {
-		Tooltip: "{0}% chance to save ammo"
+		Tooltip: "{0}%の確率で弾薬を消費しない"
 		DisplayName: シュルーマイトのアサルトライフル
 	}
 
@@ -13159,8 +13159,8 @@ Items: {
 	}
 
 	SoulForge: {
-		Tooltip: Used to smelt most ores and craft specialized equipment
-		DisplayName: Soul Forge
+		Tooltip: 鉱石を精錬し、特殊な装備を作成するために使用できる
+		DisplayName: 霊魂の炉
 	}
 
 	SnowyAstroturf: {
@@ -16418,7 +16418,7 @@ Items: {
 	}
 
 	SpiritDroplet: {
-		Tooltip: "'A small bead of undead animating energy'"
+		Tooltip: 「死者の命を灯す、小さな雫」
 		DisplayName: 魂のしずく
 	}
 
@@ -17734,7 +17734,7 @@ Items: {
 			'''
 			射撃ダメージ10%増加
 			射撃速度が15%増加
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: イルミネイトチェストプレート
 	}
@@ -18227,9 +18227,9 @@ Items: {
 	}
 
 	ShieldDroneBeacon: {
-		ShieldAmountMax: 味方のライフを {0} から {1} までシールドする（上限）
-		ShieldAmount: 味方のライフを {0} から {1}までシールドする
-		ShieldAmountNone: 自分のボーナス回復量に等しいライフを {0} まで護る
+		ShieldAmountMax: 味方のライフを{0}から{1}まで護る（上限）
+		ShieldAmount: 味方のライフを{0}から{1}まで護る
+		ShieldAmountNone: 自分のボーナス回復量に等しいライフを{0}まで護る
 		Tooltip:
 			'''
 			味方を護るシールドドローンを召喚する
@@ -18391,7 +18391,7 @@ Items: {
 		Tooltip:
 			'''
 			味方を癒すエネルギーの火花を放つ
-			自分と味方が戦闘不能の場合、基本回復量の3倍を回復する
+			自分と味方が非戦闘時の場合、基本回復量の3倍を回復する
 			'''
 		DisplayName: リカバリーワンド
 	}
@@ -18552,7 +18552,7 @@ Items: {
 	NoviceClericCowl: {
 		SetBonus:
 			'''
-			神聖な十字架を毎{0} {^0:秒;秒}に最大{1}個生成する
+			神聖な十字架を毎{0}{^0:秒;秒}に最大{1}個生成する
 			回復魔法を使うと、十字架がマナの代わりに使用される
 			'''
 		Tooltip:
@@ -18651,7 +18651,7 @@ Items: {
 	MartyrChalice: {
 		RespawnTime: マルチプレイで使用したプレイヤーがボスと交戦していない場合、リスポーン時間が長くなる
 		HealAmount: " [c/5aff5a:{0}] の命のために、自分の命を犠牲にして味方を癒す"
-		Tooltip: 回復後、味方に {0} 秒間の無敵時間付与
+		Tooltip: 回復後、味方に{0}秒間の無敵時間付与
 		DisplayName: 殉教者の聖杯
 	}
 
@@ -19608,8 +19608,8 @@ Items: {
 			'''
 			最近死亡したプレーヤーを復活させることができる
 			インベントリ内にある間、死亡したプレイヤーの近くに霊魂が残る
-			その霊魂に{0} {^0:秒;秒}触れ続けると、{1}%のライフで復活させることができる
-			復活したプレイヤーは復活後{2} {^2:秒間;秒間}デバフが付与される
+			その霊魂に{0}{^0:秒;秒}触れ続けると、{1}%のライフで復活させることができる
+			復活したプレイヤーは復活後{2}{^2:秒間;秒間}デバフが付与される
 			'''
 		DisplayName: 復活の古代書
 	}
@@ -19865,10 +19865,10 @@ Items: {
 	TomeoftheVoidGazersChariot: {
 		Tooltip:
 			'''
-			'Become the harbinger of the void'
-			Summons a mountable Beholder
+			「虚無の先触れとなれ」
+			ビホルダーを召喚し、騎乗する
 			'''
-		DisplayName: Tome of the Void Gazer's Chariot
+		DisplayName: 虚無を見つめる者の戦車の書
 	}
 
 	PyroclastStaff: {
@@ -20139,15 +20139,15 @@ Items: {
 		SetBonus:
 			'''
 			「アーマーアビリティ」キーを押すと、無限のインスピレーションを得て、旋律ダメージ、そして演奏速度が大幅に増加する
-			この効果は{0} {^0:秒;秒}間持続し、クールダウンには{1} {^1:分;分}かかる
+			この効果は{0}{^0:秒;秒}間持続し、クールダウンには{1}{^1:分;分}かかる
 			'''
 		Tooltip:
 			'''
 			「あなたの才能が誰にも負けないことをすべての人に証明する」
-			 {0} %演奏速度増加
-			旋律ダメージのクリティカル確率 {1} %増加
-			インスピレーションの再生速度が {2} %増加する
-			管楽器の追尾速度 {3} %増加
+			{0}%演奏速度増加
+			旋律ダメージのクリティカル確率{1}%増加
+			インスピレーションの再生速度が{2}%増加する
+			管楽器の追尾速度{3}%増加
 			弦楽器の弾のバウンド時間が追加される
 			'''
 		DisplayName: ソリストの帽子
@@ -20179,7 +20179,7 @@ Items: {
 		SetBonus:
 			'''
 			「アーマーアビリティ」キーを押すと、近くの味方全員にエンパワーメント{0}が{1} {^1:秒;秒}間与えられる
-			この能力を使用するには{2}インスピレーションが必要で、クールダウンには{3} {^3:分;分}かかる
+			この能力を使用するには{2}インスピレーションが必要で、クールダウンには{3}{^3:分;分}かかる
 			'''
 		Tooltip:
 			'''
@@ -20224,7 +20224,7 @@ Items: {
 			「生きるに値しない者に怒りをぶちまけろ...」
 			弾薬にジェルを使用する
 			呪われたドラゴンブレスを放つ
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: ウィルムデシメーター
 	}
@@ -20234,7 +20234,7 @@ Items: {
 			'''
 			「お前は死ぬことになる...」
 			死そのものを燃料とするミサイルを発射する
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: ザ・ジャベリン
 	}
@@ -20891,7 +20891,7 @@ Items: {
 	}
 
 	WishingGlass: {
-		SelectedDestination: 選択された目的地: {0}
+		SelectedDestination: 選択された目的地：{0}
 		Tooltip:
 			'''
 			「見つめる人の願いを感じ取ることができる魔法の鏡」
@@ -21709,7 +21709,8 @@ Items: {
 	OtherworldlyRune: {
 		Tooltip:
 			'''
-			「意味不明な声が響く：Zerath! Milogop! Tz'rok!」
+			「意味不明な声が響く...
+			　Zerath! Milogop! Tz'rok!」
 			黙示録のチャリオットを召喚する
 			'''
 		DisplayName: 異世界のルーン
@@ -22066,7 +22067,7 @@ Items: {
 	}
 
 	JetstreamSheath: {
-		Tooltip: 剣を持っている時に{1} {^1:second;秒} 間攻撃しないとステルスが付与され、次に攻撃した時に {0}の追加攻撃を行う"
+		Tooltip: 剣を持っている時に{1}{^1:second;秒}間攻撃しないとステルスが付与され、次に攻撃した時に{0}の追加攻撃を行う"
 		DisplayName: 烈流の鞘
 	}
 
@@ -22396,7 +22397,7 @@ Items: {
 	GardenersSheath: {
 		Tooltip:
 			'''
-			剣を持っている時、 {1} {^1:second;秒}間攻撃しないとステルスが付与され、次に攻撃した時に {0}% の追加ダメージを与える
+			剣を持っている時、{1}{^1:second;秒}間攻撃しないとステルスが付与され、次に攻撃した時に{0}% の追加ダメージを与える
 			さらに、この攻撃でテレポートし、カーソルにダメージを与える
 			'''
 		DisplayName: 庭師の鞘
@@ -22550,7 +22551,7 @@ Items: {
 	}
 
 	EclipseFang: {
-		Tooltip: この武器で  {0} の敵を倒すと、時間帯が変わるまで武器が大幅にパワーアップする
+		Tooltip: この武器で{0}の敵を倒すと、時間帯が変わるまで武器が大幅にパワーアップする
 		DisplayName: 日食の牙
 	}
 
@@ -22949,19 +22950,19 @@ Items: {
 	}
 
 	BirdFeeder: {
-		TileMouseover: Check back later...
-		SeedTooltipFallback: For use with bird feeders
-		SeedTooltipReplacement: For use with blowpipes and bird feeders
-		PylonRestriction: You can only place {0} Bird Feeders for every Pylon placed in the world (current limit: {1})
-		Hanging: hanging
-		Grounded: grounded
-		ConvertTooltip: Right click to cycle styles or recraft to convert into a {0} variant
+		TileMouseover: 後でもう一度確認してください...
+		SeedTooltipFallback: 鳥のエサ箱で使用するためのもの
+		SeedTooltipReplacement: 吹き矢や鳥のエサ箱で使用するためのもの
+		PylonRestriction: 世界に設置されたパイロン1つにつき、設置できる鳥のエサ箱は{0}個までです
+		Hanging: 吊り下げ式
+		Grounded: 地面設置式
+		ConvertTooltip: 右クリックでスタイルを切り替えるか、再クラフトで{0}バリアントに変換可能
 		CommonTooltip:
 			'''
-			巣箱内に種や果物を置くと、鳥の注意を引く
-			鳥は、巣箱に置いたものに応じて、ランダムな果物やポーションを置いていく
-			インベントリに置いたり、インベントリに入れたりすることで、種を集めることができる
-			表面にのみ設置可能
+			エサ箱に種や果物を入れると、最終的に鳥を引き寄せることができる
+			鳥は、入れたアイテムに応じてランダムな果物やポーションを残していくことがある
+			エサ箱を設置するか、インベントリに持っていると種を収集することができる
+			地表にのみ設置可能
 			'''
 	}
 
@@ -22984,7 +22985,7 @@ Items: {
 			'''
 			射撃中のダメージ軽減率が10%増加
 			射撃中、移動速度が50%減少する
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: カブトムシ・ブラスター
 	}
@@ -23288,7 +23289,7 @@ Items: {
 	}
 
 	SharkStorm: {
-		Tooltip: "{0}% chance to save ammo"
+		Tooltip: "{0}%の確率で弾薬を消費しない"
 		DisplayName: シャークストーム
 	}
 
@@ -23524,8 +23525,8 @@ Items: {
 	CrystalWave: {
 		Tooltip:
 			'''
-			自分の基本移動速度を {0} %増加させる
-			" {1} 回まで使用可能"
+			自分の基本移動速度を{0}%増加させる
+			"{1}回まで使用可能"
 			'''
 		DisplayName: クリスタルウェーブ
 	}
@@ -24129,7 +24130,7 @@ Items: {
 	}
 
 	ManaDelight: {
-		ManaTooltip: 最大マナの {0} %を回復する
+		ManaTooltip: 最大マナの{0}%を回復する
 		Tooltip:
 			'''
 			「一口ごとにエネルギーを味わえる」
@@ -24570,7 +24571,7 @@ Items: {
 	}
 
 	TopazRing: {
-		Tooltip: 投擲ダメージが {0} 増加
+		Tooltip: 投擲ダメージが{0}増加
 		DisplayName: トパーズの指輪
 	}
 
@@ -24586,9 +24587,9 @@ Items: {
 	TheRing: {
 		Tooltip:
 			'''
-			すべてのダメージを {0} 増加
-			アーマーの貫通力が {1} 増加する
-			クリティカル確率を {2} 増加させる
+			すべてのダメージを{0}増加
+			アーマーの貫通力が{1}増加する
+			クリティカル確率を{2}増加させる
 			'''
 		DisplayName: ザ・リング
 	}
@@ -24640,12 +24641,12 @@ Items: {
 	}
 
 	SapphireRing: {
-		Tooltip: 魔法ダメージを {0} 増加させる
+		Tooltip: 魔法ダメージを{0}増加させる
 		DisplayName: サファイアの指輪
 	}
 
 	RubyRing: {
-		Tooltip: 近接ダメージを {0} 増加させる
+		Tooltip: 近接ダメージを{0}増加させる
 		DisplayName: ルビーの指輪
 	}
 
@@ -24659,7 +24660,7 @@ Items: {
 	}
 
 	OpalRing: {
-		Tooltip: 旋律ダメージを {0} 増加させる
+		Tooltip: 旋律ダメージを{0}増加させる
 		DisplayName: オパールの指輪
 	}
 
@@ -24799,7 +24800,7 @@ Items: {
 	}
 
 	EmeraldRing: {
-		Tooltip: 遠距離ダメージが {0} 増加させる
+		Tooltip: 遠距離ダメージが{0}増加させる
 		DisplayName: エメラルドの指輪
 	}
 
@@ -24813,7 +24814,7 @@ Items: {
 	}
 
 	DiamondRing: {
-		Tooltip: クリティカル確率を {0} %増加させる
+		Tooltip: クリティカル確率を{0}%増加させる
 		DisplayName: ダイヤモンドの指輪
 	}
 
@@ -24885,17 +24886,17 @@ Items: {
 	}
 
 	AquamarineRing: {
-		Tooltip: 神聖ダメージを {0} 増加させる
+		Tooltip: 神聖ダメージを{0}増加させる
 		DisplayName: アクアマリンの指輪
 	}
 
 	AmethystRing: {
-		Tooltip: アーマーの貫通力を {0} 増加させる
+		Tooltip: アーマーの貫通力を{0}増加させる
 		DisplayName: アメジストの指輪
 	}
 
 	AmberRing: {
-		Tooltip: 召喚ダメージを {0} 増加させる
+		Tooltip: 召喚ダメージを{0}増加させる
 		DisplayName: 琥珀の指輪
 	}
 
@@ -25492,7 +25493,7 @@ Items: {
 	MarineWineGlass: {
 		Tooltip:
 			'''
-			最大6個の「無害な」ワイングラスを投げつける
+			最大6個の無害なワイングラスを投げつける
 			右クリックで甲高い叫び声を上げ、すべてのワイングラスを粉々にする
 			'''
 		DisplayName: 海洋のワイングラス
@@ -25994,7 +25995,7 @@ Items: {
 	}
 
 	CriersCap: {
-		SetBonus: エンパワーメントが{0} {^0:秒;秒}延長される
+		SetBonus: エンパワーメントが{0}{^0:秒;秒}延長される
 		Tooltip: インスピレーションの再生率が4％増加
 		DisplayName: クライヤーのキャップ
 	}
@@ -26114,7 +26115,7 @@ Items: {
 		Tooltip:
 			'''
 			表面や敵に付着する爆弾を発射する
-			右クリックで {0} のインスピレーションを消費してすべての爆弾を爆発させ、命中した敵にスリップダメージを与える
+			右クリックで{0}のインスピレーションを消費してすべての爆弾を爆発させ、命中した敵にスリップダメージを与える
 
 			'''
 		DisplayName: ファゴット
@@ -26685,7 +26686,7 @@ Items: {
 		Tooltip:
 			'''
 			構えている間、遠距離攻撃がクリティカルヒットすると木の破片を放つ
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: ゴブリンのウォーパイプ
 	}
@@ -26930,7 +26931,7 @@ Items: {
 
 InfoDisplays: {
 	HPSInfoDisplay: {
-		DisplayValue: 毎秒 {0} 回復する
+		DisplayValue: 毎秒{0}回復する
 		DisplayName: 1秒あたりの回復量
 	}
 }
@@ -26971,12 +26972,12 @@ Empowerments: {
 	}
 
 	LifeRegeneration: {
-		Tooltip: +{0} 体力/秒
+		Tooltip: +{0}体力/秒
 		DisplayName: ライフ自然回復
 	}
 
 	JumpHeight: {
-		Tooltip: ジャンプ高度+{0} {^0:block;ブロック}
+		Tooltip: ジャンプ高度+{0}{^0:block;ブロック}
 		DisplayName: ジャンプ高度
 	}
 
@@ -27673,7 +27674,7 @@ Buffs: {
 	}
 
 	GlassShardBuff: {
-		Description: グラスの中でにやにや笑っていたように見えた...
+		Description: 鏡の中に不気味な笑みが映っている...
 		DisplayName: 奇妙な鏡
 	}
 
