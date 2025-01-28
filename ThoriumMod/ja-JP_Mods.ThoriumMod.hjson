@@ -443,7 +443,7 @@ Common: {
 
 	Tooltips: {
 		Bard: {
-			InspirationCost: "コスト：{0}インスピレーション"
+			InspirationCost: "消費：{0}インスピレーション"
 			ClassTag: -Bard Class-
 			InstrumentTag: -{0} Instrument-
 		}
