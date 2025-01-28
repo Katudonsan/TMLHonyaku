@@ -2750,13 +2750,13 @@ Biomes: {
 	}
 
 	AstralUnderground: {
-		DisplayName: アストラルに汚染された地下
-		TownNPCDialogueName: アストラルに汚染された地下
+		DisplayName: アストラル汚染地下
+		TownNPCDialogueName: アストラル汚染地下
 	}
 
 	AstralCaveDesert: {
-		DisplayName: アストラルに汚染された地下砂漠
-		TownNPCDialogueName: アストラルに汚染された地下砂漠
+		DisplayName: アストラル汚染地下砂漠
+		TownNPCDialogueName: アストラル汚染地下砂漠
 	}
 
 	AbovegroundAstralBiome: {
@@ -2780,8 +2780,8 @@ Biomes: {
 	}
 
 	UndergroundAstralBiome: {
-		DisplayName: アストラルに汚染された地下
-		TownNPCDialogueName: アストラル汚染地帯の地下
+		DisplayName: アストラル汚染地下
+		TownNPCDialogueName: アストラル汚染地下
 	}
 }
 
