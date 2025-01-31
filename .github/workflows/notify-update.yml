@@ -1,0 +1,17 @@
+name: Notify Update
+on:
+    push:
+        branches:
+        - main
+
+jobs:
+  call-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Dispatch
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: update-localizations.yml
+          repo: eva828Dev/ExternalLocalizer-Jp-Pack
+          token: "${{ secrets.PAT }}"
+
