@@ -12,6 +12,7 @@ jobs:
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: update-localizations.yml
-          repo: eva828Dev/ExternalLocalizer-Jp-Pack
+          repo: ExternalLocalizer/ExternalLocalizer-Jp-Pack
+          ref: master
           token: "${{ secrets.PAT }}"
 
