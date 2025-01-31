@@ -1,0 +1,71 @@
+Configs: {
+	Configuration: {
+		TextScrolling: {
+			Tooltip: NPCのセリフが文字ごとに表示されるかどうかを決定します。
+			Label: テキストスクロール
+		}
+
+		DisplayName: 設定
+
+		DisplayPreference: {
+			Label: NPCの居住環境の好みを表示
+			Tooltip: NPCのバイオームや他のNPCへの好みを表示します。この機能はこのModで追加された機能です。
+		}
+
+		VanillaUI: {
+			Tooltip:
+				'''
+				ゲーム内でバニラの会話パネルを開けるようにします
+				このModのUIが他のModと互換性がない場合やバグがある場合は、このオプションを有効にしてください。
+				'''
+			Label: バニラUIを使用
+		}
+
+		PortraitDrawStyle: {
+			Label: ポートレートスタイル
+			Tooltip:
+				'''
+				NPCチャットのポートレート描画スタイルを変更します
+				デフォルトのポートレート表示に問題がある場合は、スタイルを変更してみてください。
+				'''
+		}
+
+		ShowSwapButton: {
+			Label: UIスタイル切り替えボタン
+			Tooltip:
+				'''
+				会話パネルの右上に表示されるショートカットで、
+				バニラとModの会話パネルを切り替えることができます。
+				'''
+		}
+	}
+
+	PortraitStyle: {
+		Tooltip: ""
+
+		LiveReaction: {
+			Label: リアルタイム
+		}
+
+		Static: {
+			Label: 静止
+		}
+
+		Bestiary: {
+			Label: 図鑑
+		}
+	}
+}
+
+UISwitch: {
+	ToVanilla: バニラパネルに切り替え
+	ToModded: Modパネルに切り替え
+}
+
+Hate: 嫌い：
+
+Dislike: 苦手：
+
+Like: 好き：
+
+Love: 大好き：

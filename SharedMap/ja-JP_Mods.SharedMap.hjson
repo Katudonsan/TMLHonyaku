@@ -1,0 +1,95 @@
+Configs: {
+	ShareInfo: {
+		minutes: {
+			Tooltip: 指定した分数の間隔で自動的に地図データを共有します
+			Label: 自動共有間隔 (分)
+		}
+
+		allowed: {
+			Tooltip: ""
+			Label: 自動共有を有効にする
+		}
+
+		Tooltip: ""
+	}
+
+	Config: {
+		requestcooldown: {
+			Tooltip: ユーザーが地図データを再度リクエストできるまでに必要な時間
+			Label: リクエストクールダウン (分)
+		}
+
+		sharecooldown: {
+			Tooltip: ユーザーが地図データを再度共有できるまでに必要な時間
+			Label: 共有クールダウン (分)
+		}
+
+		liveshareA: {
+			Tooltip: 新たに探索したエリアを自動的に共有します（問題が発生する場合は無効にしてください）
+			Label: ライブ地図共有 (開発中)
+		}
+
+		seconds: {
+			Tooltip: ""
+			Label: 共有クールダウン (秒)
+		}
+
+		serverwaittime: {
+			Tooltip: サーバーが次のプレイヤーに地図情報を転送するまでに必要な時間です。プレイヤー数が多く、サーバーから切断されやすくなった場合、この値を増やしてください。
+			Label: プレイヤー間の共有遅延 (ミリ秒)
+		}
+
+		waittime: {
+			Tooltip: 地図データ共有中に接続エラーや不正なエラーが発生する場合、この値を増やしてください。
+			Label: 全体マップ待機時間 (ミリ秒)
+		}
+
+		allowsending: {
+			Tooltip: ""
+			Label: プレイヤーが自由に地図データを送信できるようにする
+		}
+
+		allowdownloads: {
+			Tooltip: ""
+			Label: プレイヤーが自由に地図データをダウンロードできるようにする
+		}
+
+		shareInfo: {
+			Tooltip: ""
+			Label: 地図データの自動共有
+		}
+
+		DisplayName: 設定
+	}
+
+	ClientConfig: {
+		hidenotif: {
+			Tooltip: ""
+			Label: 送信とリクエストの通知をチャットから非表示にする
+		}
+
+		DisplayName: クライアント設定
+	}
+}
+
+Keybinds: {
+	"Mark first position": {
+		DisplayName: 最初の位置をマーク
+	}
+
+	"Mark second position": {
+		DisplayName: 2番目の位置をマーク
+	}
+
+	"Clear marked positions": {
+		DisplayName: マークした位置をクリア
+	}
+
+	"Request map data": {
+		DisplayName: 地図データをリクエスト
+	}
+
+	"Send map data": {
+		DisplayName: 地図データを送信
+	}
+}
