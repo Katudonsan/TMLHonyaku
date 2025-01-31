@@ -363,7 +363,7 @@ ThrowerTechniques: {
 	LastStand: {
 		Description:
 			'''
-			致命的なダメージを受けると自動的に発動し、{0} {^0:second;秒}の無敵時間を付与する
+			致命的なダメージを受けると自動的に発動し、{0}{^0:second;秒}の無敵時間を付与する
 			無敵時間中、{1}%の投擲速度とダメージボーナスを得るが、効果時間終了時に死亡する
 			'''
 		DisplayName: ラストスタンド
@@ -418,22 +418,22 @@ ThrowerTechniques: {
 
 	UseToDisable: 有効｜もう一度使うと無効｜投擲ダメージでポイント増加
 	UseToEnable: 使用時にアクティブな技をセット｜投擲ダメージを与えてポイントを貯める
-	CostTooltip: " {0} {^0:テクニカルポイント;テクニカルポイント} コスト"
-	TooltipBase: " 「投擲テクニック」を押すと、{0} "
+	CostTooltip: "{0}{^0:テクニカルポイント;テクニカルポイント} コスト"
+	TooltipBase: " 「投擲テクニック」を押すと、{0}"
 	DisplayName: 術の巻物：{0}
 }
 
 DeathText: {
-	GravitySurge: "{0} 御影石のエネルギーを抑えきれなかった。"
+	GravitySurge: "{0}御影石のエネルギーを抑えきれなかった。"
 	Liquefied: "{0}は液状化した。"
-	GraveLimb: "{0} は状況を 「把握」できなかった。"
+	GraveLimb: "{0}は状況を 「把握」できなかった。"
 	Destabilized: "{0}は完全に根絶やしにされた。"
-	HungeringBlossom: "{0} は暗闇に飲まれた..."
-	LastStand: "{0} は全力を尽くした..."
-	ShadeMasterMaskSet: "{0} はできる限り長く生きようとした。"
-	AmmutsebaSash: "{0} は闇に飲まれた..."
+	HungeringBlossom: "{0}は暗闇に飲まれた..."
+	LastStand: "{0}は全力を尽くした..."
+	ShadeMasterMaskSet: "{0}はできる限り長く生きようとした。"
+	AmmutsebaSash: "{0}は闇に飲まれた..."
 	TheGauntlet: "{0}は消えていった…"
-	MartyrChalice: "{0} は大義のために自らを犠牲にした。"
+	MartyrChalice: "{0}は大義のために自らを犠牲にした。"
 }
 
 Common: {
@@ -443,17 +443,17 @@ Common: {
 
 	Tooltips: {
 		Bard: {
-			InspirationCost: "{0}インスピレーションを使用する"
+			InspirationCost: "消費：{0}インスピレーション"
 			ClassTag: -Bard Class-
 			InstrumentTag: -{0} Instrument-
 		}
 
 		InvalidMeleeItemForSheath: この武器は鞘に収めることができない
-		Sheath: 剣を持っている時、 {1} {^1:second;秒}間攻撃しないとステルスが付与され、次に攻撃した時に {0}% の追加ダメージを与える
+		Sheath: 剣を持っている時、{1}{^1:second;秒}間攻撃しないとステルスが付与され、次に攻撃した時に{0}% の追加ダメージを与える
 
 		CookFood: {
-			EatWhileFull: 満腹の状態では 料理人 の料理を食べることはできない
-			WillMakeFull: " 料理人 の料理を食べると {0} 満腹になる"
+			EatWhileFull: 満腹の状態では料理人の料理を食べることはできない
+			WillMakeFull: "料理人の料理を食べると{0}満腹になる"
 			OutOfCombat: 非戦闘時にのみ食べることができる
 		}
 
@@ -464,7 +464,7 @@ Common: {
 			'''
 		BannerPlacement: 旗を1本地面に立てる
 		ShoulderGuardianLimit: 一度に召喚できるショルダー・ガーディアンは1人のみ
-		DevItem: "'Thorium開発者になりすまそう！'"
+		DevItem: "「Thorium開発者になりすまそう！」"
 		TheBlackItem: ダメージを与えるとスタックさせ、50スタックで大ダメージを与える
 	}
 
@@ -495,12 +495,12 @@ MonsterContracts: {
 	}
 
 	RecluseContract: {
-		Description: さてと、今回はちょっと二重契約になる。町の仲間の多くが重度のクモ恐怖症らしい。 ドクイドグモ クモの洞窟を徘徊しているという噂が浮上しているが、それを引き出すには、厳しい吹雪の時にツンドラを徘徊する「巨大な氷の蜘蛛」の一種を最優先で倒すしかないようだ。氷のクモを倒し、次にドクイドグモを倒すことができれば、この辺りの人々はもっと安心できるはずだ。
+		Description: さてと、今回はちょっと二重契約になる。町の仲間の多くが重度のクモ恐怖症らしい。 ドクイドグモがクモの洞窟を徘徊しているという噂が浮上しているが、そいつを引きずり出すには、厳しい吹雪の時にツンドラを徘徊する「巨大な氷の蜘蛛」の一種を最優先で倒すしかないようだ。氷のクモを倒し、次にドクイドグモを倒すことができれば、この辺りの人々はもっと安心できるはずだ。
 		Title: イッツィー・ビッツィー....じゃない！
 	}
 
 	PirateShipContract: {
-		Description: 海賊の話を聞いたことがあるか？奴らは何マイル先からでもコインの匂いを嗅ぎつける。その様子からすると、お前はかなりの数を持っているようだな。俺なら、いつ来るかわからない襲撃に備えて警戒を怠らない。アイツらのフライング・ダッチマン を1隻壊して、ここを攻撃したことを後悔させてやるんだ。
+		Description: 海賊の話を聞いたことがあるか？奴らは何マイル先からでもコインの匂いを嗅ぎつける。その様子からすると、お前はかなりの数を持っているようだな。俺なら、いつ来るかわからない襲撃に備えて警戒を怠らない。アイツらのフライング・ダッチマンを1隻壊して、ここを攻撃したことを後悔させてやるんだ。
 		Title: 酔っぱらい船乗りの質問
 	}
 
@@ -530,7 +530,7 @@ MonsterContracts: {
 	}
 
 	MinotaurContract: {
-		Description: " ダンジョンはスケルトンやスライムが徘徊しているだけでも十分ひどい環境だが、荒れ狂うミノタウロス 放たれるとさらにややこしくなる。その獣は信じられないほどのスピードで突進してくるから、注意していないとぶつかってしまう。よろめかないようにな。"
+		Description: " ダンジョンはスケルトンやスライムが徘徊しているだけでも十分ひどい環境だが、荒れ狂うミノタウロスが放たれるとさらにややこしくなる。その獣は信じられないほどのスピードで突進してくるから、注意していないとぶつかってしまう。よろめかないようにな。"
 		Title: 迷宮の獣
 	}
 
@@ -545,7 +545,7 @@ MonsterContracts: {
 	}
 
 	HardmodeContract: {
-		Description: 恐ろしい ウォールオブフレッシュ を倒すと解放される。
+		Description: 恐ろしいウォールオブフレッシュを倒すと解放される。
 		Title: つづく...
 	}
 
@@ -560,7 +560,7 @@ MonsterContracts: {
 	}
 
 	DoctorContract: {
-		Description: 多くの冒険者がジャングルに挑んでいるが、戻ってくる者はほとんどいない。私の友人の ドクターボーンズ をかなり前にジャングルに派遣したんだが、帰ってきていない。夜にジャングルの地表を見に行って、彼の痕跡がないか見てきてくれないか？
+		Description: 多くの冒険者がジャングルに挑んでいるが、戻ってくる者はほとんどいない。私の友人のドクターボーンズをかなり前にジャングルに派遣したんだが、帰ってきていない。夜にジャングルの地表を見に行って、彼の痕跡がないか見てきてくれないか？
 		Title: アーク・オブ・ザ・ロストレイダー
 	}
 
@@ -2873,7 +2873,7 @@ Projectiles: {
 	}
 
 	DemosGuidance: {
-		DisplayName: Restorative Lantern
+		DisplayName: Restorativeランタン
 	}
 
 	DavyJonesLockBoxPro: {
@@ -3937,11 +3937,11 @@ Projectiles: {
 	}
 
 	LanternLight: {
-		DisplayName: Lantern Light
+		DisplayName:ランタン Light
 	}
 
 	LanternFlame: {
-		DisplayName: Lantern Flame
+		DisplayName:ランタン Flame
 	}
 
 	KunaiPro: {
@@ -7198,7 +7198,7 @@ Projectiles: {
 	}
 
 	GrandPianoPro: {
-		DisplayName: Grand Piano Pro
+		DisplayName: Grandピアノ Pro
 	}
 
 	GoldBugleHornPro: {
@@ -8460,7 +8460,7 @@ NPCs: {
 	ForgottenOne: {
 		BossChecklistIntegration: {
 			EntryName: 忘れられた者
-			SpawnInfo: アクアティックハルシネーションが 深海の洞窟 で落とす [i:ThoriumMod/AbyssalShadow] を3個拾う
+			SpawnInfo: アクアティックハルシネーションが深海の洞窟で落とす [i:ThoriumMod/AbyssalShadow] を3個拾う
 		}
 
 		BestiaryFlavorText: 人類が長い間存在を忘れていた生物。何世紀も前の血なまぐさい戦争で、この生物は封印された。
@@ -9008,7 +9008,7 @@ Items: {
 
 	BuildingBlock: {
 		Tooltip: ""
-		DisplayName: Building Block
+		DisplayName: 建築ブロック
 	}
 
 	PalladiumCowbell: {
@@ -9026,168 +9026,168 @@ Items: {
 	}
 
 	ClayRoofing: {
-		DisplayName: Clay Roofing
+		DisplayName: 粘土瓦
 		Tooltip: ""
 	}
 
 	ClayRoofingWall: {
-		DisplayName: Clay Roofing Wall
+		DisplayName: 粘土瓦の壁
 		Tooltip: ""
 	}
 
 	WhiteDwarfCup: {
 		Tooltip: ""
-		DisplayName: White Dwarf Cup
+		DisplayName: ホワイトドワーフコップ
 	}
 
 	VortexCup: {
 		Tooltip: ""
-		DisplayName: Vortex Cup
+		DisplayName: ボルテックスコップ
 	}
 
 	StardustCup: {
 		Tooltip: ""
-		DisplayName: Stardust Cup
+		DisplayName: スターダストコップ
 	}
 
 	SolarCup: {
 		Tooltip: ""
-		DisplayName: Solar Cup
+		DisplayName: ソーラーコップ
 	}
 
 	ShootingStarCup: {
 		Tooltip: ""
-		DisplayName: Shooting Star Cup
+		DisplayName: シューティングスターコップ
 	}
 
 	NebulaCup: {
 		Tooltip: ""
-		DisplayName: Nebula Cup
+		DisplayName: ネビュラコップ
 	}
 
 	DeadwoodWorkbench: {
 		Tooltip: ""
-		DisplayName: Deadwood Workbench
+		DisplayName: デッドウッドの作業台
 	}
 
 	DeadwoodWall: {
 		Tooltip: ""
-		DisplayName: Deadwood Wall
+		DisplayName: デッドウッドの壁
 	}
 
 	DeadwoodToilet: {
 		Tooltip: ""
-		DisplayName: Deadwood Toilet
+		DisplayName: デッドウッドのトイレ
 	}
 
 	DeadwoodTable: {
 		Tooltip: ""
-		DisplayName: Deadwood Table
+		DisplayName: デッドウッドのテーブル
 	}
 
 	DeadwoodSofa: {
 		Tooltip: ""
-		DisplayName: Deadwood Sofa
+		DisplayName: デッドウッドのソファ
 	}
 
 	DeadwoodSink: {
 		Tooltip: ""
-		DisplayName: Deadwood Sink
+		DisplayName: デッドウッドのシンク
 	}
 
 	DeadwoodPlatform: {
 		Tooltip: ""
-		DisplayName: Deadwood Platform
+		DisplayName: デッドウッドの足場
 	}
 
 	DeadwoodPiano: {
 		Tooltip: ""
-		DisplayName: Deadwood Piano
+		DisplayName: デッドウッドのピアノ
 	}
 
 	DeadwoodLantern: {
 		Tooltip: ""
-		DisplayName: Deadwood Lantern
+		DisplayName: デッドウッドのランタン
 	}
 
 	DeadwoodLamp: {
 		Tooltip: ""
-		DisplayName: Deadwood Lamp
+		DisplayName: デッドウッドのランプ
 	}
 
 	DeadwoodDresser: {
 		Tooltip: ""
-		DisplayName: Deadwood Dresser
+		DisplayName: デッドウッドのドレッサー
 	}
 
 	DeadwoodDoor: {
 		Tooltip: ""
-		DisplayName: Deadwood Door
+		DisplayName: デッドウッドのドア
 	}
 
 	DeadwoodCup: {
 		Tooltip: ""
-		DisplayName: Deadwood Cup
+		DisplayName: デッドウッドのコップ
 	}
 
 	DeadwoodClock: {
 		Tooltip: ""
-		DisplayName: Deadwood Clock
+		DisplayName: デッドウッドの時計
 	}
 
 	DeadwoodChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Deadwood Chest_ Trapped
+		DisplayName: デッドウッドの宝箱（罠）
 	}
 
 	DeadwoodChandelier: {
 		Tooltip: ""
-		DisplayName: Deadwood Chandelier
+		DisplayName: デッドウッドのシャンデリア
 	}
 
 	DeadwoodChair: {
 		Tooltip: ""
-		DisplayName: Deadwood Chair
+		DisplayName: デッドウッドのイス
 	}
 
 	DeadwoodCandle: {
 		Tooltip: ""
-		DisplayName: Deadwood Candle
+		DisplayName: デッドウッドのロウソク
 	}
 
 	DeadwoodCandelabra: {
 		Tooltip: ""
-		DisplayName: Deadwood Candelabra
+		DisplayName: デッドウッドの燭台
 	}
 
 	DeadwoodBookcase: {
 		Tooltip: ""
-		DisplayName: Deadwood Bookcase
+		DisplayName: デッドウッドの本棚
 	}
 
 	DeadwoodBed: {
 		Tooltip: ""
-		DisplayName: Deadwood Bed
+		DisplayName: デッドウッドのベッド
 	}
 
 	DeadwoodBathtub: {
 		Tooltip: ""
-		DisplayName: Deadwood Bathtub
+		DisplayName: デッドウッドのバスタブ
 	}
 
 	CelestialCup: {
 		Tooltip: ""
-		DisplayName: Celestial Cup
+		DisplayName: セレスタルカップ
 	}
 
 	DeadwoodChest: {
 		Tooltip: ""
-		DisplayName: Deadwood Chest
+		DisplayName: デッドウッドの宝箱
 	}
 
 	Deadwood: {
 		Tooltip: ""
-		DisplayName: Deadwood
+		DisplayName: デッドウッド
 	}
 
 	FrozenTiara: {
@@ -9196,8 +9196,8 @@ Items: {
 	}
 
 	GrimAstroturf: {
-		Tooltip: Can grow dead weeds and grimwood trees
-		DisplayName: Grim Astroturf
+		Tooltip: 枯れた雑草とグリムウッドの木を育てられる
+		DisplayName: 陰鬱な人工芝
 	}
 
 	RottingSpore: {
@@ -9367,10 +9367,10 @@ Items: {
 		Common: {
 			Tooltip:
 				'''
-				エンパワーメントの持続時間を {0} {^0:second;秒} 延長する
-				"{1} のエンパワーメントレベルを {2} 増加させる"
+				エンパワーメントの持続時間を{0}{^0:second;秒} 延長する
+				"{1} のエンパワーメントレベルを{2}増加させる"
 				'''
-			DisplayName: "{0} ミュージックプレイヤー"
+			DisplayName: "ミュージックプレイヤー：{0}"
 		}
 	}
 
@@ -9396,8 +9396,8 @@ Items: {
 		}
 
 		Common: {
-			Tooltip: プレイヤーのエンパワーメントレベルを {0} から {1} 増加させる
-			DisplayName: "{0} トラックプレイヤー"
+			Tooltip: プレイヤーのエンパワーメントレベルを{0}から{1}増加させる
+			DisplayName: "トラックプレイヤー：{0}"
 		}
 	}
 
@@ -10072,7 +10072,7 @@ Items: {
 			'''
 			射撃のクリティカル確率が2%増加
 			射撃速度が5%増加
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: バラジウムの胸当て
 	}
@@ -11408,7 +11408,7 @@ Items: {
 
 	WondrousCrate: {
 		Tooltip: <right>で開く
-		DisplayName: 不思議な木箱
+		DisplayName: 不思議なクレート
 	}
 
 	ThoriumStaff: {
@@ -11596,7 +11596,7 @@ Items: {
 	}
 
 	TerrariumPulseRifle: {
-		Tooltip: "{0}% chance to save ammo"
+		Tooltip: "{0}%の確率で弾薬を消費しない"
 		DisplayName: テラリウムのパルスライフル
 	}
 
@@ -11648,7 +11648,7 @@ Items: {
 			}
 
 			Summon: {
-				Description: 召喚可能なミニオンの最大数+{0}
+				Description: 召喚可能なミニオンの最大数+{0}、召喚以外のダメージが20%減少
 				Name: 召喚特化
 			}
 
@@ -11741,7 +11741,7 @@ Items: {
 		Tooltip:
 			'''
 			クロマチックミサイルを素早く発射する
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: テラリウムボンバー
 	}
@@ -11770,7 +11770,7 @@ Items: {
 		Tooltip:
 			'''
 			召喚ダメージ{0}%増加
-			セントリーたちは永遠に持続し、 {2} {^2:minute;分} で最大 {1} ％のダメージを獲得する
+			セントリーたちは永遠に持続し、{2}{^2:minute;分} で最大{1}％のダメージを獲得する
 			'''
 		DisplayName: 蒸気番の時計
 	}
@@ -11787,9 +11787,9 @@ Items: {
 	SpiritTrapperMask: {
 		SetBonus:
 			'''
-			自分のセントリー最大数を {0} 増加させる
+			自分のセントリー最大数を{0}増加させる
 			敵を倒すかボスにダメージを与え続けるとソウルウィスプを生成する
-			 {1} 個生成後、即座に消費され {2} ライフ回復する
+			{1}個生成後、即座に消費され{2}ライフ回復する
 			'''
 		Tooltip: 自分のセントリー最大数を1増加させる
 		DisplayName: 精霊ハンターのマスク
@@ -11798,9 +11798,9 @@ Items: {
 	SpiritTrapperCowl: {
 		SetBonus:
 			'''
-			自分のミニオンの最大数を {0} 増加させる
+			自分のミニオンの最大数を{0}増加させる
 			敵を倒すかボスにダメージを与え続けるとソウルウィスプを生成する
-			 {1} 個生成後、即座に消費され {2} ライフ回復する
+			{1}個生成後、即座に消費され{2}ライフ回復する
 			'''
 		Tooltip: ミニオンの最大数が1増加する
 		DisplayName: 精霊ハンターのフード
@@ -11924,7 +11924,6 @@ Items: {
 	LivingWoodMask: {
 		SetBonus:
 			'''
-			召喚可能なミニオンの最大数が{0}増加
 			木の妖精の攻撃が敵を追尾するようになる
 			'''
 		Tooltip: ミニオンのノックバックが増加する
@@ -11977,7 +11976,7 @@ Items: {
 			ミニオンの最大数が増加する
 			召喚ダメージ8%増加
 			'''
-		DisplayName: Life Bloom Mask
+		DisplayName: ライフブルームのマスク
 	}
 
 	LifeBloomMail: {
@@ -12418,9 +12417,9 @@ Items: {
 			'''
 			「スタンピードを解き放て」
 			3点バースト
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
-		DisplayName: Trigun
+		DisplayName: トライガン
 	}
 
 	Trapper: {
@@ -12493,7 +12492,7 @@ Items: {
 	}
 
 	MyceliumGattlingGun: {
-		Tooltip: "{0}% chance to save ammo"
+		Tooltip: "{0}%の確率で弾薬を消費しない"
 		DisplayName: シュルーマイトのアサルトライフル
 	}
 
@@ -12621,502 +12620,502 @@ Items: {
 
 	YewWorkbench: {
 		Tooltip: ""
-		DisplayName: イチイ材の Work Bench
+		DisplayName: イチイ材の作業台
 	}
 
 	YewWoodWall: {
 		Tooltip: ""
-		DisplayName: イチイ材の Wall
+		DisplayName: イチイ材の壁
 	}
 
 	YewWoodFence: {
 		Tooltip: ""
-		DisplayName: イチイ材の Fence
+		DisplayName: イチイ材のフェンス
 	}
 
 	YewToilet: {
 		Tooltip: ""
-		DisplayName: イチイ材の Toilet
+		DisplayName: イチイ材のトイレ
 	}
 
 	YewTable: {
 		Tooltip: ""
-		DisplayName: イチイ材の Table
+		DisplayName: イチイ材のテーブル
 	}
 
 	YewSofa: {
 		Tooltip: ""
-		DisplayName: イチイ材の Sofa
+		DisplayName: イチイ材のソファ
 	}
 
 	YewSink: {
 		Tooltip: ""
-		DisplayName: イチイ材の Sink
+		DisplayName: イチイ材のシンク
 	}
 
 	YewPlatform: {
 		Tooltip: ""
-		DisplayName: イチイ材の Platform
+		DisplayName: イチイ材の足場
 	}
 
 	YewPiano: {
 		Tooltip: ""
-		DisplayName: イチイ材の Piano
+		DisplayName: イチイ材のピアノ
 	}
 
 	YewLantern: {
 		Tooltip: ""
-		DisplayName: イチイ材の Lantern
+		DisplayName: イチイ材のランタン
 	}
 
 	YewLamp: {
 		Tooltip: ""
-		DisplayName: イチイ材の Lamp
+		DisplayName: イチイ材のランプ
 	}
 
 	YewDresser: {
 		Tooltip: ""
-		DisplayName: イチイ材の Dresser
+		DisplayName: イチイ材のドレッサー
 	}
 
 	YewDoor: {
 		Tooltip: ""
-		DisplayName: イチイ材の Door
+		DisplayName: イチイ材のドア
 	}
 
 	YewCup: {
 		Tooltip: ""
-		DisplayName: イチイ材の Cup
+		DisplayName: イチイ材のコップ
 	}
 
 	YewClock: {
 		Tooltip: ""
-		DisplayName: イチイ材の Clock
+		DisplayName: イチイ材の時計
 	}
 
 	YewChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped イチイ材の Chest
+		DisplayName: イチイ材の宝箱（罠）
 	}
 
 	YewChest: {
 		Tooltip: ""
-		DisplayName: イチイ材の Chest
+		DisplayName: イチイ材の宝箱
 	}
 
 	YewChandelier: {
 		Tooltip: ""
-		DisplayName: イチイ材の Chandelier
+		DisplayName: イチイ材のシャンデリア
 	}
 
 	YewChair: {
 		Tooltip: ""
-		DisplayName: イチイ材の Chair
+		DisplayName: イチイ材のイス
 	}
 
 	YewCandle: {
 		Tooltip: ""
-		DisplayName: イチイ材の Candle
+		DisplayName: イチイ材のロウソク
 	}
 
 	YewCandelabra: {
 		Tooltip: ""
-		DisplayName: イチイ材の Candelabra
+		DisplayName: イチイ材の燭台
 	}
 
 	YewBookcase: {
 		Tooltip: ""
-		DisplayName: イチイ材の Bookcase
+		DisplayName: イチイ材の本棚
 	}
 
 	YewBed: {
 		Tooltip: ""
-		DisplayName: イチイ材の Bed
+		DisplayName: イチイ材のベッド
 	}
 
 	YewBathtub: {
 		Tooltip: ""
-		DisplayName: イチイ材の Bathtub
+		DisplayName: イチイ材のバスタブ
 	}
 
 	WhiteDwarfWorkbench: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Work Bench
+		DisplayName: ホワイトドワーフの作業台
 	}
 
 	WhiteDwarfToilet: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Toilet
+		DisplayName: ホワイトドワーフのトイレ
 	}
 
 	WhiteDwarfTable: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Table
+		DisplayName: ホワイトドワーフのテーブル
 	}
 
 	WhiteDwarfSofa: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Sofa
+		DisplayName: ホワイトドワーフのソファ
 	}
 
 	WhiteDwarfSink: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Sink
+		DisplayName: ホワイトドワーフのシンク
 	}
 
 	WhiteDwarfPlatform: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Platform
+		DisplayName: ホワイトドワーフの足場
 	}
 
 	WhiteDwarfPiano: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Piano
+		DisplayName: ホワイトドワーフのピアノ
 	}
 
 	WhiteDwarfLantern: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Lantern
+		DisplayName: ホワイトドワーフのランタン
 	}
 
 	WhiteDwarfLamp: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Lamp
+		DisplayName: ホワイトドワーフのランプ
 	}
 
 	WhiteDwarfFragmentBlock: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Fragment Block
+		DisplayName: ホワイトドワーフの断片のブロック
 	}
 
 	WhiteDwarfDresser: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Dresser
+		DisplayName: ホワイトドワーフのドレッサー
 	}
 
 	WhiteDwarfDoor: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Door
+		DisplayName: ホワイトドワーフのドア
 	}
 
 	WhiteDwarfClock: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Clock
+		DisplayName: ホワイトドワーフの時計
 	}
 
 	WhiteDwarfChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped ホワイトドワーフの Chest
+		DisplayName: ホワイトドワーフの宝箱（罠）
 	}
 
 	WhiteDwarfChest: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Chest
+		DisplayName: ホワイトドワーフの宝箱
 	}
 
 	WhiteDwarfChandelier: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Chandelier
+		DisplayName: ホワイトドワーフのシャンデリア
 	}
 
 	WhiteDwarfChair: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Chair
+		DisplayName: ホワイトドワーフのイス
 	}
 
 	WhiteDwarfCandle: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Candle
+		DisplayName: ホワイトドワーフのロウソク
 	}
 
 	WhiteDwarfCandelabra: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Candelabra
+		DisplayName: ホワイトドワーフの燭台
 	}
 
 	WhiteDwarfBrickWall: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Brick Wall
+		DisplayName: ホワイトドワーフレンガの壁
 	}
 
 	WhiteDwarfBrick: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Brick
+		DisplayName: ホワイトドワーフレンガ
 	}
 
 	WhiteDwarfBookcase: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Bookcase
+		DisplayName: ホワイトドワーフの本棚
 	}
 
 	WhiteDwarfBed: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Bed
+		DisplayName: ホワイトドワーフのベッド
 	}
 
 	WhiteDwarfBathtub: {
 		Tooltip: ""
-		DisplayName: ホワイトドワーフの Bathtub
+		DisplayName: ホワイトドワーフのバスタブ
 	}
 
 	ValadiumWorkbench: {
 		Tooltip: ""
-		DisplayName: バラジウムの Work Bench
+		DisplayName: バラジウムの作業台
 	}
 
 	ValadiumToilet: {
 		Tooltip: ""
-		DisplayName: バラジウムの Toilet
+		DisplayName: バラジウムのトイレ
 	}
 
 	ValadiumTable: {
 		Tooltip: ""
-		DisplayName: バラジウムの Table
+		DisplayName: バラジウムのテーブル
 	}
 
 	ValadiumSofa: {
 		Tooltip: ""
-		DisplayName: バラジウムの Sofa
+		DisplayName: バラジウムのソファ
 	}
 
 	ValadiumSink: {
 		Tooltip: ""
-		DisplayName: バラジウムの Sink
+		DisplayName: バラジウムのシンク
 	}
 
 	ValadiumPlatingWall: {
 		Tooltip: ""
-		DisplayName: バラジウムの Plating Wall
+		DisplayName: バラジウムメッキの壁
 	}
 
 	ValadiumPlating: {
 		Tooltip: ""
-		DisplayName: バラジウムの Plating
+		DisplayName: バラジウムメッキ
 	}
 
 	ValadiumPlatform: {
 		Tooltip: ""
-		DisplayName: バラジウムの Platform
+		DisplayName: バラジウムの足場
 	}
 
 	ValadiumPiano: {
 		Tooltip: ""
-		DisplayName: バラジウムの Piano
+		DisplayName: バラジウムのピアノ
 	}
 
 	ValadiumLantern: {
 		Tooltip: ""
-		DisplayName: バラジウムの Lantern
+		DisplayName: バラジウムのランタン
 	}
 
 	ValadiumLamp: {
 		Tooltip: ""
-		DisplayName: バラジウムの Lamp
+		DisplayName: バラジウムのランプ
 	}
 
 	ValadiumDresser: {
 		Tooltip: ""
-		DisplayName: バラジウムの Dresser
+		DisplayName: バラジウムのドレッサー
 	}
 
 	ValadiumDoor: {
 		Tooltip: ""
-		DisplayName: バラジウムの Door
+		DisplayName: バラジウムのドア
 	}
 
 	ValadiumCup: {
 		Tooltip: ""
-		DisplayName: バラジウムの Cup
+		DisplayName: バラジウムのコップ
 	}
 
 	ValadiumClock: {
 		Tooltip: ""
-		DisplayName: バラジウムの Clock
+		DisplayName: バラジウムの時計
 	}
 
 	ValadiumChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped バラジウムの Chest
+		DisplayName: バラジウムの宝箱（罠）
 	}
 
 	ValadiumChest: {
 		Tooltip: ""
-		DisplayName: バラジウムの Chest
+		DisplayName: バラジウムの宝箱
 	}
 
 	ValadiumChandelier: {
 		Tooltip: ""
-		DisplayName: バラジウムの Chandelier
+		DisplayName: バラジウムのシャンデリア
 	}
 
 	ValadiumChair: {
 		Tooltip: ""
-		DisplayName: バラジウムの Chair
+		DisplayName: バラジウムのイス
 	}
 
 	ValadiumCandle: {
 		Tooltip: ""
-		DisplayName: バラジウムの Candle
+		DisplayName: バラジウムのロウソク
 	}
 
 	ValadiumCandelabra: {
 		Tooltip: ""
-		DisplayName: バラジウムの Candelabra
+		DisplayName: バラジウムの燭台
 	}
 
 	ValadiumBookcase: {
 		Tooltip: ""
-		DisplayName: バラジウムの Bookcase
+		DisplayName: バラジウムの本棚
 	}
 
 	ValadiumBed: {
 		Tooltip: ""
-		DisplayName: バラジウムの Bed
+		DisplayName: バラジウムのベッド
 	}
 
 	ValadiumBathtub: {
 		Tooltip: ""
-		DisplayName: バラジウムの Bathtub
+		DisplayName: バラジウムのバスタブ
 	}
 
 	TrueArenaMastersBrazier: {
-		Tooltip: "'Makes you feel like you can take on the universe'"
-		DisplayName: True Arena Master's Brazier
+		Tooltip: "「宇宙でさえも相手にできる気がしてくる...」"
+		DisplayName: 真のアリーナマスターの灯火台
 	}
 
 	TopazMarineBlock: {
 		Tooltip: ""
-		DisplayName: Topaz Marine Block
+		DisplayName: トパーズマリンブロック
 	}
 
 	ThoriumWorkbench: {
 		Tooltip: ""
-		DisplayName: Thorium Work Bench
+		DisplayName: トリウムの作業台
 	}
 
 	ThoriumToilet: {
 		Tooltip: ""
-		DisplayName: Thorium Toilet
+		DisplayName: トリウムのトイレ
 	}
 
 	ThoriumTable: {
 		Tooltip: ""
-		DisplayName: Thorium Table
+		DisplayName: トリウムのテーブル
 	}
 
 	ThoriumSofa: {
 		Tooltip: ""
-		DisplayName: Thorium Sofa
+		DisplayName: トリウムのソファ
 	}
 
 	ThoriumSink: {
 		Tooltip: ""
-		DisplayName: Thorium Sink
+		DisplayName: トリウムのシンク
 	}
 
 	ThoriumPlatform: {
 		Tooltip: ""
-		DisplayName: Thorium Block Platform
+		DisplayName: トリウムブロックの足場
 	}
 
 	ThoriumPiano: {
 		Tooltip: ""
-		DisplayName: Thorium Piano
+		DisplayName: トリウムのピアノ
 	}
 
 	ThoriumLantern: {
 		Tooltip: ""
-		DisplayName: Thorium Lantern
+		DisplayName: トリウムのランタン
 	}
 
 	ThoriumLamp: {
 		Tooltip: ""
-		DisplayName: Thorium Lamp
+		DisplayName: トリウムのランプ
 	}
 
 	ThoriumDresser: {
 		Tooltip: ""
-		DisplayName: Thorium Dresser
+		DisplayName: トリウムのドレッサー
 	}
 
 	ThoriumDoor: {
 		Tooltip: ""
-		DisplayName: Thorium Door
+		DisplayName: トリウムのドア
 	}
 
 	ThoriumCup: {
 		Tooltip: ""
-		DisplayName: Thorium Cup
+		DisplayName: トリウムのコップ
 	}
 
 	ThoriumClock: {
 		Tooltip: ""
-		DisplayName: Thorium Clock
+		DisplayName: トリウムの時計
 	}
 
 	ThoriumChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Thorium Chest
+		DisplayName: トリウムの宝箱（罠）
 	}
 
 	ThoriumChest: {
 		Tooltip: ""
-		DisplayName: Thorium Chest
+		DisplayName: トリウムの宝箱
 	}
 
 	ThoriumChandelier: {
 		Tooltip: ""
-		DisplayName: Thorium Chandelier
+		DisplayName: トリウムのシャンデリア
 	}
 
 	ThoriumChair: {
 		Tooltip: ""
-		DisplayName: Thorium Chair
+		DisplayName: トリウムのイス
 	}
 
 	ThoriumCandle: {
 		Tooltip: ""
-		DisplayName: Thorium Candle
+		DisplayName: トリウムのロウソク
 	}
 
 	ThoriumCandelabra: {
 		Tooltip: ""
-		DisplayName: Thorium Candelabra
+		DisplayName: トリウムの燭台
 	}
 
 	ThoriumBrickWall: {
 		Tooltip: ""
-		DisplayName: Thorium Brick Wall
+		DisplayName: トリウムのレンガの壁
 	}
 
 	ThoriumBrickNew: {
 		Tooltip: ""
-		DisplayName: Thorium Brick
+		DisplayName: トリウムのレンガ
 	}
 
 	ThoriumBlock: {
 		Tooltip: ""
-		DisplayName: Thorium Block
+		DisplayName: トリウムブロック
 	}
 
 	ThoriumBookcase: {
 		Tooltip: ""
-		DisplayName: Thorium Bookcase
+		DisplayName: トリウムの本棚
 	}
 
 	ThoriumBlockWall: {
 		Tooltip: ""
-		DisplayName: Thorium Block Wall
+		DisplayName: トリウムブロックの壁
 	}
 
 	ThoriumBed: {
 		Tooltip: ""
-		DisplayName: Thorium Bed
+		DisplayName: トリウムのベッド
 	}
 
 	ThoriumBathtub: {
 		Tooltip: ""
-		DisplayName: Thorium Bathtub
+		DisplayName: トリウムのバスタブ
 	}
 
 	SunkenPalaceMusicBox: {
@@ -13125,32 +13124,32 @@ Items: {
 
 	SugarCookieWall: {
 		Tooltip: ""
-		DisplayName: Sugar Cookie Block Wall
+		DisplayName: シュガークッキーブロックの壁
 	}
 
 	SugarCookieBlock: {
 		Tooltip: ""
-		DisplayName: Sugar Cookie Block
+		DisplayName: シュガークッキーブロック
 	}
 
 	StrangeDecorativePotion: {
-		Tooltip: Resembles a random Thorium potion when placed
-		DisplayName: Strange Decorative Potion
+		Tooltip: ランダムなThoriumのポーションを設置する
+		DisplayName: 奇妙な装飾用ポーション
 	}
 
 	StaffofOvergrowth: {
-		Tooltip: Creates jungle grass on mud
-		DisplayName: Staff of Overgrowth
+		Tooltip: 泥にジャングル草を生成する
+		DisplayName: 繁茂の杖
 	}
 
 	StaffofMycelium: {
-		Tooltip: Creates glowing mushroom grass on mud
-		DisplayName: Staff of Mycelium
+		Tooltip: 泥に光るキノコ草を生成する
+		DisplayName: 菌糸の杖
 	}
 
 	SpookyAstroturf: {
-		Tooltip: Can grow autumn weeds and spooky trees
-		DisplayName: Spooky Astroturf
+		Tooltip: 秋の雑草や不気味な木を育てることができる
+		DisplayName: 不気味な人工芝
 	}
 
 	SoulofPlightinaBottle: {
@@ -13159,2060 +13158,2060 @@ Items: {
 	}
 
 	SoulForge: {
-		Tooltip: Used to smelt most ores and craft specialized equipment
-		DisplayName: Soul Forge
+		Tooltip: 鉱石を精錬し、特殊な装備を作成するために使用できる
+		DisplayName: 霊魂の炉
 	}
 
 	SnowyAstroturf: {
-		Tooltip: Can grow icy weeds and Snowy trees
-		DisplayName: Snowy Astroturf
+		Tooltip: 氷の雑草や雪の木を育てることができる
+		DisplayName: 雪の人工芝
 	}
 
 	ShootingStarWorkbench: {
 		Tooltip: ""
-		DisplayName: Shooting Star Work Bench
+		DisplayName: 流れ星の作業台
 	}
 
 	ShootingStarToilet: {
 		Tooltip: ""
-		DisplayName: Shooting Star Toilet
+		DisplayName: 流れ星のトイレ
 	}
 
 	ShootingStarTable: {
 		Tooltip: ""
-		DisplayName: Shooting Star Table
+		DisplayName: 流れ星のテーブル
 	}
 
 	ShootingStarSofa: {
 		Tooltip: ""
-		DisplayName: Shooting Star Sofa
+		DisplayName: 流れ星のソファ
 	}
 
 	ShootingStarSink: {
 		Tooltip: ""
-		DisplayName: Shooting Star Sink
+		DisplayName: 流れ星のシンク
 	}
 
 	ShootingStarPlatform: {
 		Tooltip: ""
-		DisplayName: Shooting Star Platform
+		DisplayName: 流れ星の足場
 	}
 
 	ShootingStarPiano: {
 		Tooltip: ""
-		DisplayName: Shooting Star Piano
+		DisplayName: 流れ星のピアノ
 	}
 
 	ShootingStarLantern: {
 		Tooltip: ""
-		DisplayName: Shooting Star Lantern
+		DisplayName: 流れ星のランタン
 	}
 
 	ShootingStarLamp: {
 		Tooltip: ""
-		DisplayName: Shooting Star Lamp
+		DisplayName: 流れ星のランプ
 	}
 
 	ShootingStarFragmentBlock: {
 		Tooltip: ""
-		DisplayName: Shooting Star Fragment Block
+		DisplayName: 流れ星の断片のブロック
 	}
 
 	ShootingStarDresser: {
 		Tooltip: ""
-		DisplayName: Shooting Star Dresser
+		DisplayName: 流れ星のドレッサー
 	}
 
 	ShootingStarDoor: {
 		Tooltip: ""
-		DisplayName: Shooting Star Door
+		DisplayName: 流れ星のドア
 	}
 
 	ShootingStarClock: {
 		Tooltip: ""
-		DisplayName: Shooting Star Clock
+		DisplayName: 流れ星の時計
 	}
 
 	ShootingStarChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Shooting Star Chest
+		DisplayName: 流れ星の宝箱（罠）
 	}
 
 	ShootingStarChest: {
 		Tooltip: ""
-		DisplayName: Shooting Star Chest
+		DisplayName: 流れ星の宝箱
 	}
 
 	ShootingStarChandelier: {
 		Tooltip: ""
-		DisplayName: Shooting Star Chandelier
+		DisplayName: 流れ星のシャンデリア
 	}
 
 	ShootingStarChair: {
 		Tooltip: ""
-		DisplayName: Shooting Star Chair
+		DisplayName: 流れ星のイス
 	}
 
 	ShootingStarCandle: {
 		Tooltip: ""
-		DisplayName: Shooting Star Candle
+		DisplayName: 流れ星のロウソク
 	}
 
 	ShootingStarCandelabra: {
 		Tooltip: ""
-		DisplayName: Shooting Star Candelabra
+		DisplayName: 流れ星の燭台
 	}
 
 	ShootingStarBrickWall: {
 		Tooltip: ""
-		DisplayName: Shooting Star Brick Wall
+		DisplayName: 流れ星のレンガの壁
 	}
 
 	ShootingStarBrick: {
 		Tooltip: ""
-		DisplayName: Shooting Star Brick
+		DisplayName: 流れ星のレンガ
 	}
 
 	ShootingStarBookcase: {
 		Tooltip: ""
-		DisplayName: Shooting Star Bookcase
+		DisplayName: 流れ星の本棚
 	}
 
 	ShootingStarBed: {
 		Tooltip: ""
-		DisplayName: Shooting Star Bed
+		DisplayName: 流れ星のベッド
 	}
 
 	ShootingStarBathtub: {
 		Tooltip: ""
-		DisplayName: Shooting Star Bathtub
+		DisplayName: 流れ星のバスタブ
 	}
 
 	ShadyWorkbench: {
 		Tooltip: ""
-		DisplayName: Shady Work Bench
+		DisplayName: 怪しい作業台
 	}
 
 	ShadyWall: {
 		Tooltip: ""
-		DisplayName: Shady Wall
+		DisplayName: 怪しい壁
 	}
 
 	ShadyToilet: {
 		Tooltip: ""
-		DisplayName: Shady Toilet
+		DisplayName: 怪しいトイレ
 	}
 
 	ShadyTable: {
 		Tooltip: ""
-		DisplayName: Shady Table
+		DisplayName: 怪しいテーブル
 	}
 
 	ShadySofa: {
 		Tooltip: ""
-		DisplayName: Shady Sofa
+		DisplayName: 怪しいソファ
 	}
 
 	ShadySink: {
 		Tooltip: ""
-		DisplayName: Shady Sink
+		DisplayName: 怪しいシンク
 	}
 
 	ShadyPlatform: {
 		Tooltip: ""
-		DisplayName: Shady Platform
+		DisplayName: 怪しい足場
 	}
 
 	ShadyPiano: {
 		Tooltip: ""
-		DisplayName: Shady Piano
+		DisplayName: 怪しいピアノ
 	}
 
 	ShadyLantern: {
 		Tooltip: ""
-		DisplayName: Shady Lantern
+		DisplayName: 怪しいランタン
 	}
 
 	ShadyLamp: {
 		Tooltip: ""
-		DisplayName: Shady Lamp
+		DisplayName: 怪しいランプ
 	}
 
 	ShadyDresser: {
 		Tooltip: ""
-		DisplayName: Shady Dresser
+		DisplayName: 怪しいドレッサー
 	}
 
 	ShadyDoor: {
 		Tooltip: ""
-		DisplayName: Shady Door
+		DisplayName: 怪しいドア
 	}
 
 	ShadyCup: {
 		Tooltip: ""
-		DisplayName: Shady Cup
+		DisplayName: 怪しいコップ
 	}
 
 	ShadyClock: {
 		Tooltip: ""
-		DisplayName: Shady Clock
+		DisplayName: 怪しい時計
 	}
 
 	ShadyChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Shady Chest
+		DisplayName: 怪しい宝箱（罠）
 	}
 
 	ShadyChest: {
 		Tooltip: ""
-		DisplayName: Shady Chest
+		DisplayName: 怪しい宝箱
 	}
 
 	ShadyChandelier: {
 		Tooltip: ""
-		DisplayName: Shady Chandelier
+		DisplayName: 怪しいシャンデリア
 	}
 
 	ShadyChair: {
 		Tooltip: ""
-		DisplayName: Shady Chair
+		DisplayName: 怪しいイス
 	}
 
 	ShadyCandle: {
 		Tooltip: ""
-		DisplayName: Shady Candle
+		DisplayName: 怪しいロウソク
 	}
 
 	ShadyCandelabra: {
 		Tooltip: ""
-		DisplayName: Shady Candelabra
+		DisplayName: 怪しい燭台
 	}
 
 	ShadyBookcase: {
 		Tooltip: ""
-		DisplayName: Shady Bookcase
+		DisplayName: 怪しい本棚
 	}
 
 	ShadyBlock: {
 		Tooltip: ""
-		DisplayName: Shady Block
+		DisplayName: 怪しいブロック
 	}
 
 	ShadyBed: {
 		Tooltip: ""
-		DisplayName: Shady Bed
+		DisplayName: 怪しいベッド
 	}
 
 	ShadyBathtub: {
 		Tooltip: ""
-		DisplayName: Shady Bathtub
+		DisplayName: 怪しいバスタブ
 	}
 
 	AquaiteScaleWall: {
 		Tooltip: ""
-		DisplayName: Aquaite Scale Wall
+		DisplayName: アクアライトスケールの壁
 	}
 
 	ScarletWorkbench: {
 		Tooltip: ""
-		DisplayName: Scarlet Work Bench
+		DisplayName: 緋色の作業台
 	}
 
 	ScarletWall: {
 		Tooltip: ""
-		DisplayName: Scarlet Wall
+		DisplayName: 緋色の壁
 	}
 
 	ScarletToilet: {
 		Tooltip: ""
-		DisplayName: Scarlet Toilet
+		DisplayName: 緋色のトイレ
 	}
 
 	ScarletTable: {
 		Tooltip: ""
-		DisplayName: Scarlet Table
+		DisplayName: 緋色のテーブル
 	}
 
 	ScarletSofa: {
 		Tooltip: ""
-		DisplayName: Scarlet Sofa
+		DisplayName: 緋色のソファ
 	}
 
 	ScarletSink: {
 		Tooltip: ""
-		DisplayName: Scarlet Sink
+		DisplayName: 緋色のシンク
 	}
 
 	ScarletPlatform: {
 		Tooltip: ""
-		DisplayName: Scarlet Platform
+		DisplayName: 緋色の足場
 	}
 
 	ScarletPiano: {
 		Tooltip: ""
-		DisplayName: Scarlet Piano
+		DisplayName: 緋色のピアノ
 	}
 
 	ScarletLantern: {
 		Tooltip: ""
-		DisplayName: Scarlet Lantern
+		DisplayName: 緋色のランタン
 	}
 
 	ScarletLamp: {
 		Tooltip: ""
-		DisplayName: Scarlet Lamp
+		DisplayName: 緋色のランプ
 	}
 
 	ScarletDresser: {
 		Tooltip: ""
-		DisplayName: Scarlet Dresser
+		DisplayName: 緋色のドレッサー
 	}
 
 	ScarletDoor: {
 		Tooltip: ""
-		DisplayName: Scarlet Door
+		DisplayName: 緋色のドア
 	}
 
 	ScarletCup: {
 		Tooltip: ""
-		DisplayName: Scarlet Cup
+		DisplayName: 緋色のコップ
 	}
 
 	ScarletClock: {
 		Tooltip: ""
-		DisplayName: Scarlet Clock
+		DisplayName: 緋色の時計
 	}
 
 	ScarletChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Scarlet Chest
+		DisplayName: 緋色の宝箱（罠）
 	}
 
 	ScarletChest: {
 		Tooltip: ""
-		DisplayName: Scarlet Chest
+		DisplayName: 緋色の宝箱
 	}
 
 	ScarletChandelier: {
 		Tooltip: ""
-		DisplayName: Scarlet Chandelier
+		DisplayName: 緋色のシャンデリア
 	}
 
 	ScarletChair: {
 		Tooltip: ""
-		DisplayName: Scarlet Chair
+		DisplayName: 緋色のイス
 	}
 
 	ScarletCandle: {
 		Tooltip: ""
-		DisplayName: Scarlet Candle
+		DisplayName: 緋色のロウソク
 	}
 
 	ScarletCandelabra: {
 		Tooltip: ""
-		DisplayName: Scarlet Candelabra
+		DisplayName: 緋色の燭台
 	}
 
 	ScarletBookcase: {
 		Tooltip: ""
-		DisplayName: Scarlet Bookcase
+		DisplayName: 緋色の本棚
 	}
 
 	ScarletBlock: {
 		Tooltip: ""
-		DisplayName: Scarlet Block
+		DisplayName: 緋色のブロック
 	}
 
 	ScarletBed: {
 		Tooltip: ""
-		DisplayName: Scarlet Bed
+		DisplayName: 緋色のベッド
 	}
 
 	ScarletBathtub: {
 		Tooltip: ""
-		DisplayName: Scarlet Bathtub
+		DisplayName: 緋色のバスタブ
 	}
 
 	AquaiteScaleBlock: {
 		Tooltip: ""
-		DisplayName: Aquaite Scale Block
+		DisplayName: アクアライトスケールブロック
 	}
 
 	SapphireMarineBlock: {
 		Tooltip: ""
-		DisplayName: Sapphire Marine Block
+		DisplayName: サファイアマリンブロック
 	}
 
 	RubyMarineBlock: {
 		Tooltip: ""
-		DisplayName: Ruby Marine Block
+		DisplayName: ルビーマリンブロック
 	}
 
 	ViscountRelic: {
 		Tooltip: ""
-		DisplayName: Viscount Relic
+		DisplayName: ヴァイカウントのレリック
 	}
 
 	ThePrimordialsRelic: {
 		Tooltip: ""
-		DisplayName: Primordials Relic
+		DisplayName: プライモーディアルズのレリック
 	}
 
 	TheGrandThunderBirdRelic: {
 		Tooltip: ""
-		DisplayName: Grand Thunder Bird Relic
+		DisplayName: グランドサンダーバードのレリック
 	}
 
 	StarScouterRelic: {
 		Tooltip: ""
-		DisplayName: Star Scouter Relic
+		DisplayName: スタースカウターのレリック
 	}
 
 	QueenJellyfishRelic: {
 		Tooltip: ""
-		DisplayName: Queen Jellyfish Relic
+		DisplayName: 女王クラゲのレリック
 	}
 
 	PatchWerkRelic: {
 		Tooltip: ""
-		DisplayName: Patch Werk Relic
+		DisplayName: つぎはぎゾンビのレリック
 	}
 
 	LichRelic: {
 		Tooltip: ""
-		DisplayName: Lich Relic
+		DisplayName: リッチのレリック
 	}
 
 	IllusionistRelic: {
 		Tooltip: ""
-		DisplayName: Illusionist Relic
+		DisplayName: 幻術師のレリック
 	}
 
 	GraniteEnergyStormRelic: {
 		Tooltip: ""
-		DisplayName: Granite Energy Storm Relic
+		DisplayName: グラニットエナジーストームのレリック
 	}
 
 	ForgottenOneRelic: {
 		Tooltip: ""
-		DisplayName: Forgotten One Relic
+		DisplayName: 忘れられた者のレリック
 	}
 
 	FallenBeholderRelic: {
 		Tooltip: ""
-		DisplayName: Fallen Beholder Relic
+		DisplayName: フォールンビホルダーのレリック
 	}
 
 	CorpseBloomRelic: {
 		Tooltip: ""
-		DisplayName: Corpse Bloom Relic
+		DisplayName: コープスブルームのレリック
 	}
 
 	BuriedChampionRelic: {
 		Tooltip: ""
-		DisplayName: Buried Champion Relic
+		DisplayName: 埋もれた英雄のレリック
 	}
 
 	BoreanStriderRelic: {
 		Tooltip: ""
-		DisplayName: Borean Strider Relic
+		DisplayName:  ボレアンストライダーのレリック
 	}
 
 	RejectStatue: {
 		Tooltip: ""
-		DisplayName: Reject Statue
+		DisplayName: 拒絶の像
 	}
 
 	RefinedMarineWall: {
 		Tooltip: ""
-		DisplayName: Refined Marine Wall
+		DisplayName: 洗練されたマリンウォール
 	}
 
 	RefinedMarineBlock: {
 		Tooltip: ""
-		DisplayName: Refined Marine Block
+		DisplayName: 洗練されたマリンブロック
 	}
 
 	PurpleDumboOctopusCage: {
 		Tooltip: ""
-		DisplayName: Purple Dumbo Octopus Cage
+		DisplayName: テラリウム（紫のダンボタコ）
 	}
 
 	PotionShelfWall: {
 		Tooltip: ""
-		DisplayName: Potion Shelf Wall
+		DisplayName: 壁掛けポーションシェルフ
 	}
 
 	PotionShelfBlock: {
 		Tooltip: ""
-		DisplayName: Potion Shelf Block
+		DisplayName: ポーションシェルフブロック
 	}
 
 	PlateWorkbench: {
 		Tooltip: ""
-		DisplayName: Plate Work Bench
+		DisplayName: プレートの作業台
 	}
 
 	PlateWall: {
 		Tooltip: ""
-		DisplayName: Plate Wall
+		DisplayName: プレートの壁
 	}
 
 	PlateToilet: {
 		Tooltip: ""
-		DisplayName: Plate Toilet
+		DisplayName: プレートのトイレ
 	}
 
 	PlateTable: {
 		Tooltip: ""
-		DisplayName: Plate Table
+		DisplayName: プレートのテーブル
 	}
 
 	PlateSofa: {
 		Tooltip: ""
-		DisplayName: Plate Sofa
+		DisplayName: プレートのソファ
 	}
 
 	PlateSlab: {
 		Tooltip: ""
-		DisplayName: Plate Slab
+		DisplayName: プレートの厚板
 	}
 
 	PlateSink: {
 		Tooltip: ""
-		DisplayName: Plate Sink
+		DisplayName: プレートのシンク
 	}
 
 	PlatePlatform: {
 		Tooltip: ""
-		DisplayName: Plate Platform
+		DisplayName: プレートの足場
 	}
 
 	PlatePiano: {
 		Tooltip: ""
-		DisplayName: Plate Piano
+		DisplayName: プレートのピアノ
 	}
 
 	PlateLantern: {
 		Tooltip: ""
-		DisplayName: Plate Lantern
+		DisplayName: プレートのランタン
 	}
 
 	PlateLamp: {
 		Tooltip: ""
-		DisplayName: Plate Lamp
+		DisplayName: プレートのランプ
 	}
 
 	PlateDresser: {
 		Tooltip: ""
-		DisplayName: Plate Dresser
+		DisplayName: プレートのドレッサー
 	}
 
 	PlateDoor: {
 		Tooltip: ""
-		DisplayName: Plate Door
+		DisplayName: プレートのドア
 	}
 
 	PlateCup: {
 		Tooltip: ""
-		DisplayName: Plate Cup
+		DisplayName: プレートのコップ
 	}
 
 	PlateClock: {
 		Tooltip: ""
-		DisplayName: Plate Clock
+		DisplayName: プレートの時計
 	}
 
 	PlateChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Plate Chest
+		DisplayName: プレートの宝箱（罠）
 	}
 
 	PlateChest: {
 		Tooltip: ""
-		DisplayName: Plate Chest
+		DisplayName: プレートの宝箱
 	}
 
 	PlateChandelier: {
 		Tooltip: ""
-		DisplayName: Plate Chandelier
+		DisplayName: プレートのシャンデリア
 	}
 
 	PlateChair: {
 		Tooltip: ""
-		DisplayName: Plate Chair
+		DisplayName: プレートのイス
 	}
 
 	PlateCandle: {
 		Tooltip: ""
-		DisplayName: Plate Candle
+		DisplayName: プレートのロウソク
 	}
 
 	PlateCandelabra: {
 		Tooltip: ""
-		DisplayName: Plate Candelabra
+		DisplayName: プレートの燭台
 	}
 
 	PlateBookcase: {
 		Tooltip: ""
-		DisplayName: Plate Bookcase
+		DisplayName: プレートの本棚
 	}
 
 	PlateBed: {
 		Tooltip: ""
-		DisplayName: Plate Bed
+		DisplayName: プレートのベッド
 	}
 
 	PlateBathtub: {
 		Tooltip: ""
-		DisplayName: Plate Bathtub
+		DisplayName: プレートのバスタブ
 	}
 
 	PinkStainedGlass: {
 		Tooltip: ""
-		DisplayName: Pink Stained Glass
+		DisplayName: ピンクのステンドグラス
 	}
 
 	PermafrostWorkbench: {
 		Tooltip: ""
-		DisplayName: Permafrost Work Bench
+		DisplayName: 凍土の作業台
 	}
 
 	PermafrostWall: {
 		Tooltip: ""
-		DisplayName: Permafrost Wall
+		DisplayName: 凍土の壁
 	}
 
 	PermafrostToilet: {
 		Tooltip: ""
-		DisplayName: Permafrost Toilet
+		DisplayName: 凍土のトイレ
 	}
 
 	PermafrostTable: {
 		Tooltip: ""
-		DisplayName: Permafrost Table
+		DisplayName: 凍土のテーブル
 	}
 
 	PermafrostSofa: {
 		Tooltip: ""
-		DisplayName: Permafrost Sofa
+		DisplayName: 凍土のソファ
 	}
 
 	PermafrostSink: {
 		Tooltip: ""
-		DisplayName: Permafrost Sink
+		DisplayName: 凍土のシンク
 	}
 
 	PermafrostPlatform: {
 		Tooltip: ""
-		DisplayName: Permafrost Platform
+		DisplayName: 凍土の足場
 	}
 
 	PermafrostPiano: {
 		Tooltip: ""
-		DisplayName: Permafrost Piano
+		DisplayName: 凍土のピアノ
 	}
 
 	PermafrostLantern: {
 		Tooltip: ""
-		DisplayName: Permafrost Lantern
+		DisplayName: 凍土のランタン
 	}
 
 	PermafrostLamp: {
 		Tooltip: ""
-		DisplayName: Permafrost Lamp
+		DisplayName: 凍土のランプ
 	}
 
 	PermafrostDresser: {
 		Tooltip: ""
-		DisplayName: Permafrost Dresser
+		DisplayName: 凍土のドレッサー
 	}
 
 	PermafrostDoor: {
 		Tooltip: ""
-		DisplayName: Permafrost Door
+		DisplayName: 凍土のドア
 	}
 
 	PermafrostCup: {
 		Tooltip: ""
-		DisplayName: Permafrost Cup
+		DisplayName: 凍土のコップ
 	}
 
 	PermafrostClock: {
 		Tooltip: ""
-		DisplayName: Permafrost Clock
+		DisplayName: 凍土の時計
 	}
 
 	PermafrostChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Permafrost Chest
+		DisplayName: 凍土の宝箱（罠）
 	}
 
 	PermafrostChest: {
 		Tooltip: ""
-		DisplayName: Permafrost Chest
+		DisplayName: 凍土の宝箱
 	}
 
 	PermafrostChandelier: {
 		Tooltip: ""
-		DisplayName: Permafrost Chandelier
+		DisplayName: 凍土のシャンデリア
 	}
 
 	PermafrostChair: {
 		Tooltip: ""
-		DisplayName: Permafrost Chair
+		DisplayName: 凍土のイス
 	}
 
 	PermafrostCandle: {
 		Tooltip: ""
-		DisplayName: Permafrost Candle
+		DisplayName: 凍土のロウソク
 	}
 
 	PermafrostCandelabra: {
 		Tooltip: ""
-		DisplayName: Permafrost Candelabra
+		DisplayName: 凍土の燭台
 	}
 
 	PermafrostBookcase: {
 		Tooltip: ""
-		DisplayName: Permafrost Bookcase
+		DisplayName: 凍土の本棚
 	}
 
 	PermafrostBed: {
 		Tooltip: ""
-		DisplayName: Permafrost Bed
+		DisplayName: 凍土のベッド
 	}
 
 	PermafrostBathtub: {
 		Tooltip: ""
-		DisplayName: Permafrost Bathtub
+		DisplayName: 凍土のバスタブ
 	}
 
 	OrnateWorkbench: {
 		Tooltip: ""
-		DisplayName: Ornate Work Bench
+		DisplayName: 装飾付きの作業台
 	}
 
 	OrnateWall: {
 		Tooltip: ""
-		DisplayName: Ornate Wall
+		DisplayName: 装飾付きの壁
 	}
 
 	OrnateToilet: {
 		Tooltip: ""
-		DisplayName: Ornate Toilet
+		DisplayName: 装飾付きのトイレ
 	}
 
 	OrnateTable: {
 		Tooltip: ""
-		DisplayName: Ornate Table
+		DisplayName: 装飾付きのテーブル
 	}
 
 	OrnateSofa: {
 		Tooltip: ""
-		DisplayName: Ornate Sofa
+		DisplayName: 装飾付きのソファ
 	}
 
 	OrnateSink: {
 		Tooltip: ""
-		DisplayName: Ornate Sink
+		DisplayName: 装飾付きのシンク
 	}
 
 	OrnatePlatform: {
 		Tooltip: ""
-		DisplayName: Ornate Platform
+		DisplayName: 装飾付きの足場
 	}
 
 	OrnatePiano: {
 		Tooltip: ""
-		DisplayName: Ornate Piano
+		DisplayName: 装飾付きのピアノ
 	}
 
 	OrnateLantern: {
 		Tooltip: ""
-		DisplayName: Ornate Lantern
+		DisplayName: 装飾付きのランタン
 	}
 
 	OrnateLamp: {
 		Tooltip: ""
-		DisplayName: Ornate Lamp
+		DisplayName: 装飾付きのランプ
 	}
 
 	OrnateDresser: {
 		Tooltip: ""
-		DisplayName: Ornate Dresser
+		DisplayName: 装飾付きのドレッサー
 	}
 
 	OrnateDoor: {
 		Tooltip: ""
-		DisplayName: Ornate Door
+		DisplayName: 装飾付きのドア
 	}
 
 	OrnateCup: {
 		Tooltip: ""
-		DisplayName: Ornate Cup
+		DisplayName: 装飾付きのコップ
 	}
 
 	OrnateClock: {
 		Tooltip: ""
-		DisplayName: Ornate Clock
+		DisplayName: 装飾付きの時計
 	}
 
 	OrnateChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Ornate Chest
+		DisplayName: 装飾付きの宝箱（罠）
 	}
 
 	OrnateChest: {
 		Tooltip: ""
-		DisplayName: Ornate Chest
+		DisplayName: 装飾付きの宝箱
 	}
 
 	OrnateChandelier: {
 		Tooltip: ""
-		DisplayName: Ornate Chandelier
+		DisplayName: 装飾付きのシャンデリア
 	}
 
 	OrnateChair: {
 		Tooltip: ""
-		DisplayName: Ornate Chair
+		DisplayName: 装飾付きのイス
 	}
 
 	OrnateCandle: {
 		Tooltip: ""
-		DisplayName: Ornate Candle
+		DisplayName: 装飾付きのロウソク
 	}
 
 	OrnateCandelabra: {
 		Tooltip: ""
-		DisplayName: Ornate Candelabra
+		DisplayName: 装飾付きの燭台
 	}
 
 	OrnateBookcase: {
 		Tooltip: ""
-		DisplayName: Ornate Bookcase
+		DisplayName: 装飾付きの本棚
 	}
 
 	OrnateBlock: {
 		Tooltip: ""
-		DisplayName: Ornate Block
+		DisplayName: 装飾付きのブロック
 	}
 
 	OrnateBed: {
 		Tooltip: ""
-		DisplayName: Ornate Bed
+		DisplayName: 装飾付きのベッド
 	}
 
 	OrnateBathtub: {
 		Tooltip: ""
-		DisplayName: Ornate Bathtub
+		DisplayName: 装飾付きのバスタブ
 	}
 
 	OpalStoneWall: {
 		Tooltip: ""
-		DisplayName: Opal Stone Wall
+		DisplayName: オパールストーンの壁
 	}
 
 	OpalStoneBlock: {
 		Tooltip: ""
-		DisplayName: Opal Stone Block
+		DisplayName: オパールストーンブロック
 	}
 
 	OpalSquirrelCage: {
 		Tooltip: ""
-		DisplayName: Opal Squirrel Cage
+		DisplayName: テラリウム（ オパールのリス）
 	}
 
 	OpalMarineBlock: {
 		Tooltip: ""
-		DisplayName: Opal Marine Block
+		DisplayName:  オパールマリンブロック
 	}
 
 	OpalGemsparkWallOfflineItem: {
 		Tooltip: ""
-		DisplayName: Offline Opal Gemspark Wall
+		DisplayName: オフラインオパールジェムスパークウォール
 	}
 
 	OpalGemsparkWallItem: {
 		Tooltip: ""
-		DisplayName: Opal Gemspark Wall
+		DisplayName:  オパールジェムスパークウォール
 	}
 
 	OpalGemsparkBlock: {
 		Tooltip: ""
-		DisplayName: Opal Gemspark Block
+		DisplayName: オパールジェムスパークブロック
 	}
 
 	OpalBunnyCage: {
 		Tooltip: ""
-		DisplayName: Opal Bunny Cage
+		DisplayName: テラリウム（オパールのウサギ）
 	}
 
 	NagaWorkbench: {
 		Tooltip: ""
-		DisplayName: Naga Work Bench
+		DisplayName: ナーガの作業台
 	}
 
 	NagaWall: {
 		Tooltip: ""
-		DisplayName: Naga Wall
+		DisplayName: ナーガの壁
 	}
 
 	NagaToilet: {
 		Tooltip: ""
-		DisplayName: Naga Toilet
+		DisplayName: ナーガのトイレ
 	}
 
 	NagaTable: {
 		Tooltip: ""
-		DisplayName: Naga Table
+		DisplayName: ナーガのテーブル
 	}
 
 	NagaSofa: {
 		Tooltip: ""
-		DisplayName: Naga Sofa
+		DisplayName: ナーガのソファ
 	}
 
 	NagaSink: {
 		Tooltip: ""
-		DisplayName: Naga Sink
+		DisplayName: ナーガのシンク
 	}
 
 	NagaPlatform: {
 		Tooltip: ""
-		DisplayName: Naga Platform
+		DisplayName: ナーガの足場
 	}
 
 	NagaPiano: {
 		Tooltip: ""
-		DisplayName: Naga Piano
+		DisplayName: ナーガのピアノ
 	}
 
 	NagaLantern: {
 		Tooltip: ""
-		DisplayName: Naga Lantern
+		DisplayName: ナーガのランタン
 	}
 
 	NagaLamp: {
 		Tooltip: ""
-		DisplayName: Naga Lamp
+		DisplayName: ナーガのランプ
 	}
 
 	NagaDresser: {
 		Tooltip: ""
-		DisplayName: Naga Dresser
+		DisplayName: ナーガのドレッサー
 	}
 
 	NagaDoor: {
 		Tooltip: ""
-		DisplayName: Naga Door
+		DisplayName: ナーガのドア
 	}
 
 	NagaCup: {
 		Tooltip: ""
-		DisplayName: Naga Cup
+		DisplayName: ナーガのコップ
 	}
 
 	NagaClock: {
 		Tooltip: ""
-		DisplayName: Naga Clock
+		DisplayName: ナーガの時計
 	}
 
 	NagaChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Naga Chest
+		DisplayName: ナーガの宝箱（罠）
 	}
 
 	NagaChest: {
 		Tooltip: ""
-		DisplayName: Naga Chest
+		DisplayName: ナーガの宝箱
 	}
 
 	NagaChandelier: {
 		Tooltip: ""
-		DisplayName: Naga Chandelier
+		DisplayName: ナーガのシャンデリア
 	}
 
 	NagaChair: {
 		Tooltip: ""
-		DisplayName: Naga Chair
+		DisplayName: ナーガのイス
 	}
 
 	NagaCandle: {
 		Tooltip: ""
-		DisplayName: Naga Candle
+		DisplayName: ナーガのロウソク
 	}
 
 	NagaCandelabra: {
 		Tooltip: ""
-		DisplayName: Naga Candelabra
+		DisplayName: ナーガの燭台
 	}
 
 	NagaBookcase: {
 		Tooltip: ""
-		DisplayName: Naga Bookcase
+		DisplayName: ナーガの本棚
 	}
 
 	NagaBlock: {
 		Tooltip: ""
-		DisplayName: Naga Block
+		DisplayName: ナーガブロック
 	}
 
 	NagaBed: {
 		Tooltip: ""
-		DisplayName: Naga Bed
+		DisplayName: ナーガのベッド
 	}
 
 	NagaBathtub: {
 		Tooltip: ""
-		DisplayName: Naga Bathtub
+		DisplayName: ナーガのバスタブ
 	}
 
 	MusicNoteStatue: {
 		Tooltip: ""
-		DisplayName: Music Note Statue
+		DisplayName: 音符の石像
 	}
 
 	MossyPlatinumOre: {
 		Tooltip: ""
-		DisplayName: Mossy Platinum Ore
+		DisplayName: 苔むしたプラチナ鉱石
 	}
 
 	MossyGoldOre: {
 		Tooltip: ""
-		DisplayName: Mossy Gold Ore
+		DisplayName: 苔むした金鉱石
 	}
 
 	Mistletoe: {
-		Tooltip: "'Best shared with that special someone... or a monster'"
-		DisplayName: Mistletoe
+		Tooltip: "「特別な人...あるいは怪物と分かち合うのが一番」"
+		DisplayName: ヤドリギ
 	}
 
 	MinotaurStatue: {
 		Tooltip: ""
-		DisplayName: Minotaur Statue
+		DisplayName: ミノタウロスの石像
 	}
 
 	MiniBossMusicBox: {
-		MiniBoss: Mini-Boss
+		MiniBoss: ミニボス
 	}
 
 	MediciteBrickWall: {
 		Tooltip: ""
-		DisplayName: Medicite Brick Wall
+		DisplayName: メディサイトレンガの壁
 	}
 
 	MediciteBrick: {
 		Tooltip: ""
-		DisplayName: Medicite Brick
+		DisplayName: メディサイトレンガ
 	}
 
 	MarshyAstroturf: {
-		Tooltip: Can grow marshy weeds and yew trees
-		DisplayName: Marshy Astroturf
+		Tooltip: 湿地帯の雑草やイチイの木を育てることができる
+		DisplayName: 湿った人工芝
 	}
 
 	MarineWorkbench: {
 		Tooltip: ""
-		DisplayName: Marine Work Bench
+		DisplayName: マリンの作業台
 	}
 
 	MarineWall: {
 		Tooltip: ""
-		DisplayName: Marine Wall
+		DisplayName: マリンの壁
 	}
 
 	MarineToilet: {
 		Tooltip: ""
-		DisplayName: Marine Toilet
+		DisplayName: マリンのトイレ
 	}
 
 	MarineTable: {
 		Tooltip: ""
-		DisplayName: Marine Table
+		DisplayName: マリンのテーブル
 	}
 
 	MarineSofa: {
 		Tooltip: ""
-		DisplayName: Marine Sofa
+		DisplayName: マリンのソファ
 	}
 
 	MarineSink: {
 		Tooltip: ""
-		DisplayName: Marine Sink
+		DisplayName: マリンのシンク
 	}
 
 	MarinePlatform: {
 		Tooltip: ""
-		DisplayName: Refined Marine Platform
+		DisplayName: 洗練されたマリンの足場
 	}
 
 	MarinePiano: {
 		Tooltip: ""
-		DisplayName: Marine Piano
+		DisplayName: マリンのピアノ
 	}
 
 	MarineLantern: {
 		Tooltip: ""
-		DisplayName: Marine Lantern
+		DisplayName: マリンのランタン
 	}
 
 	MarineLamp: {
 		Tooltip: ""
-		DisplayName: Marine Lamp
+		DisplayName: マリンのランプ
 	}
 
 	MarineKelpPlanterBox: {
-		Tooltip: Can only grow Marine Kelp
-		DisplayName: Marine Kelp Planter Box
+		Tooltip: 海の昆布を育てることができる
+		DisplayName: 昆布のプランター
 	}
 
 	MarineDresser: {
 		Tooltip: ""
-		DisplayName: Marine Dresser
+		DisplayName: マリンのドレッサー
 	}
 
 	MarineDoor: {
 		Tooltip: ""
-		DisplayName: Marine Door
+		DisplayName: マリンのドア
 	}
 
 	MarineCup: {
 		Tooltip: ""
-		DisplayName: Marine Cup
+		DisplayName: マリンのコップ
 	}
 
 	MarineClock: {
 		Tooltip: ""
-		DisplayName: Marine Clock
+		DisplayName: マリンの時計
 	}
 
 	MarineChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Marine Chest
+		DisplayName: マリンの宝箱（罠）
 	}
 
 	MarineChest: {
 		Tooltip: ""
-		DisplayName: Marine Chest
+		DisplayName: マリンの宝箱
 	}
 
 	MarineChandelier: {
 		Tooltip: ""
-		DisplayName: Marine Chandelier
+		DisplayName: マリンのシャンデリア
 	}
 
 	MarineChair: {
 		Tooltip: ""
-		DisplayName: Marine Chair
+		DisplayName: マリンのイス
 	}
 
 	MarineCandle: {
 		Tooltip: ""
-		DisplayName: Marine Candle
+		DisplayName: マリンのロウソク
 	}
 
 	MarineCandelabra: {
 		Tooltip: ""
-		DisplayName: Marine Candelabra
+		DisplayName: マリンの燭台
 	}
 
 	MarineBookcase: {
 		Tooltip: ""
-		DisplayName: Marine Bookcase
+		DisplayName: マリンの本棚
 	}
 
 	MarineBed: {
 		Tooltip: ""
-		DisplayName: Marine Bed
+		DisplayName: マリンのベッド
 	}
 
 	MarineBathtub: {
 		Tooltip: ""
-		DisplayName: Marine Bathtub
+		DisplayName: マリンのバスタブ
 	}
 
 	LodestoneWorkbench: {
 		Tooltip: ""
-		DisplayName: Lodestone Work Bench
+		DisplayName: ロードストーンの作業台
 	}
 
 	LodestoneToilet: {
 		Tooltip: ""
-		DisplayName: Lodestone Toilet
+		DisplayName: ロードストーンのトイレ
 	}
 
 	LodestoneTable: {
 		Tooltip: ""
-		DisplayName: Lodestone Table
+		DisplayName: ロードストーンのテーブル
 	}
 
 	LodestoneSofa: {
 		Tooltip: ""
-		DisplayName: Lodestone Sofa
+		DisplayName: ロードストーンのソファ
 	}
 
 	LodestoneSlabWall: {
 		Tooltip: ""
-		DisplayName: Lodestone Slab Wall
+		DisplayName: ロードストーンの Slab壁
 	}
 
 	LodestoneSlab: {
 		Tooltip: ""
-		DisplayName: Lodestone Slab
+		DisplayName: ロードストーンの Slab
 	}
 
 	LodestoneSink: {
 		Tooltip: ""
-		DisplayName: Lodestone Sink
+		DisplayName: ロードストーンのシンク
 	}
 
 	LodestonePlatform: {
 		Tooltip: ""
-		DisplayName: Lodestone Platform
+		DisplayName: ロードストーンの足場
 	}
 
 	LodestonePiano: {
 		Tooltip: ""
-		DisplayName: Lodestone Piano
+		DisplayName: ロードストーンのピアノ
 	}
 
 	LodestoneLantern: {
 		Tooltip: ""
-		DisplayName: Lodestone Lantern
+		DisplayName: ロードストーンのランタン
 	}
 
 	LodestoneLamp: {
 		Tooltip: ""
-		DisplayName: Lodestone Lamp
+		DisplayName: ロードストーンのランプ
 	}
 
 	LodestoneDresser: {
 		Tooltip: ""
-		DisplayName: Lodestone Dresser
+		DisplayName: ロードストーンのドレッサー
 	}
 
 	LodestoneDoor: {
 		Tooltip: ""
-		DisplayName: Lodestone Door
+		DisplayName: ロードストーンのドア
 	}
 
 	LodestoneCup: {
 		Tooltip: ""
-		DisplayName: Lodestone Cup
+		DisplayName: ロードストーンのコップ
 	}
 
 	LodestoneClock: {
 		Tooltip: ""
-		DisplayName: Lodestone Clock
+		DisplayName: ロードストーンの時計
 	}
 
 	LodestoneChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Lodestone Chest
+		DisplayName: ロードストーンの宝箱（罠）
 	}
 
 	LodestoneChest: {
 		Tooltip: ""
-		DisplayName: Lodestone Chest
+		DisplayName: ロードストーンの宝箱
 	}
 
 	LodestoneChandelier: {
 		Tooltip: ""
-		DisplayName: Lodestone Chandelier
+		DisplayName: ロードストーンのシャンデリア
 	}
 
 	LodestoneChair: {
 		Tooltip: ""
-		DisplayName: Lodestone Chair
+		DisplayName: ロードストーンのイス
 	}
 
 	LodestoneCandle: {
 		Tooltip: ""
-		DisplayName: Lodestone Candle
+		DisplayName: ロードストーンのロウソク
 	}
 
 	LodestoneCandelabra: {
 		Tooltip: ""
-		DisplayName: Lodestone Candelabra
+		DisplayName: ロードストーンの燭台
 	}
 
 	LodestoneBookcase: {
 		Tooltip: ""
-		DisplayName: Lodestone Bookcase
+		DisplayName: ロードストーンの本棚
 	}
 
 	LodestoneBed: {
 		Tooltip: ""
-		DisplayName: Lodestone Bed
+		DisplayName: ロードストーンのベッド
 	}
 
 	LodestoneBathtub: {
 		Tooltip: ""
-		DisplayName: Lodestone Bathtub
+		DisplayName: ロードストーンのバスタブ
 	}
 
 	LobsterCage: {
 		Tooltip: ""
-		DisplayName: Lobster Cage
+		DisplayName: テラリウム（ロブスター）
 	}
 
 	LivingMahoganyWorkbench: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Work Bench
+		DisplayName: リビングマホガニーの作業台
 	}
 
 	LivingMahoganyWall: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Wall
+		DisplayName: リビングマホガニーの壁
 	}
 
 	LivingMahoganyToilet: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Toilet
+		DisplayName: リビングマホガニーのトイレ
 	}
 
 	LivingMahoganyTable: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Table
+		DisplayName: リビングマホガニーのテーブル
 	}
 
 	LivingMahoganySofa: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Sofa
+		DisplayName: リビングマホガニーのソファ
 	}
 
 	LivingMahoganySink: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Sink
+		DisplayName: リビングマホガニーのシンク
 	}
 
 	LivingMahoganyPlatform: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Platform
+		DisplayName: リビングマホガニーの足場
 	}
 
 	LivingMahoganyPiano: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Piano
+		DisplayName: リビングマホガニーのピアノ
 	}
 
 	LivingMahoganyLantern: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Lantern
+		DisplayName: リビングマホガニーのランタン
 	}
 
 	LivingMahoganyLamp: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Lamp
+		DisplayName: リビングマホガニーのランプ
 	}
 
 	LivingMahoganyDresser: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Dresser
+		DisplayName: リビングマホガニーのドレッサー
 	}
 
 	LivingMahoganyDoor: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Door
+		DisplayName: リビングマホガニーのドア
 	}
 
 	LivingMahoganyCup: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Cup
+		DisplayName: リビングマホガニーのコップ
 	}
 
 	LivingMahoganyClock: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Clock
+		DisplayName: リビングマホガニーの時計
 	}
 
 	LivingMahoganyChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Living Mahogany Chest
+		DisplayName: リビングマホガニーの宝箱（罠）
 	}
 
 	LivingMahoganyChest: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Chest
+		DisplayName: リビングマホガニーの宝箱
 	}
 
 	LivingMahoganyChandelier: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Chandelier
+		DisplayName: リビングマホガニーのシャンデリア
 	}
 
 	LivingMahoganyChair: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Chair
+		DisplayName: リビングマホガニーのイス
 	}
 
 	LivingMahoganyCandle: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Candle
+		DisplayName: リビングマホガニーのロウソク
 	}
 
 	LivingMahoganyCandelabra: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Candelabra
+		DisplayName: リビングマホガニーの燭台
 	}
 
 	LivingMahoganyBookcase: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Bookcase
+		DisplayName: リビングマホガニーの本棚
 	}
 
 	LivingMahoganyBed: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Bed
+		DisplayName: リビングマホガニーのベッド
 	}
 
 	LivingMahoganyBathtub: {
 		Tooltip: ""
-		DisplayName: Living Mahogany Bathtub
+		DisplayName: リビングマホガニーのバスタブ
 	}
 
 	LeakyMossyMarineBlock: {
 		Tooltip: ""
-		DisplayName: Leaky Mossy Marine Block
+		DisplayName: 苔まみれの漏水マリンブロック
 	}
 
 	LeakyMarineWall: {
 		Tooltip: ""
-		DisplayName: Leaky Marine Wall
+		DisplayName: 漏水マリンウォール
 	}
 
 	LeakyMarineBlock: {
 		Tooltip: ""
-		DisplayName: Leaky Marine Block
+		DisplayName: 漏水マリンブロック
 	}
 
 	IllumiteBrickWall: {
 		Tooltip: ""
-		DisplayName: Illumite Brick Wall
+		DisplayName:  イルミネイトレンガの壁
 	}
 
 	IllumiteBrick: {
 		Tooltip: ""
-		DisplayName: Illumite Brick
+		DisplayName:  イルミネイトレンガ
 	}
 
 	HangingStrangeBulb: {
 		Tooltip: ""
-		DisplayName: Hanging Strange Bulb
+		DisplayName: 吊り下げ式の奇妙な電球
 	}
 
 	HangingMarineKelp: {
 		Tooltip: ""
-		DisplayName: Hanging Marine Kelp
+		DisplayName: 吊り下げ式の海の昆布
 	}
 
 	HangingManaBerry: {
 		Tooltip: ""
-		DisplayName: Hanging Mana Berry
+		DisplayName: 吊り下げ式のマナベリー
 	}
 
 	HangingLivingLeafBush: {
 		Tooltip: ""
-		DisplayName: Hanging Living Leaf Bush
+		DisplayName: 吊り下げ式のリビングリーフ
 	}
 
 	HangingLifeFruit: {
 		Tooltip: ""
-		DisplayName: Hanging Life Fruit
+		DisplayName: 吊り下げ式の ライフフルーツ
 	}
 
 	HangingJungleFlower: {
 		Tooltip: ""
-		DisplayName: Hanging Jungle Flower
+		DisplayName: 吊り下げ式のジャングルの花
 	}
 
 	GoldLobsterCage: {
 		Tooltip: ""
-		DisplayName: Gold Lobster Cage
+		DisplayName: テラリウム（金のロブスター）
 	}
 
 	GoldDumboOctopusCage: {
 		Tooltip: ""
-		DisplayName: Gold Dumbo Octopus Cage
+		DisplayName: テラリウム（金のダンボタコ）
 	}
 
 	GoldDuckCage: {
 		Tooltip: ""
-		DisplayName: Gold Duck Cage
+		DisplayName: テラリウム（金のアヒル）
 	}
 
 	GlowingMarineBlock: {
 		Tooltip: ""
-		DisplayName: Glowing Marine Block
+		DisplayName: 輝くマリンブロック
 	}
 
 	GingerbreadWorkbench: {
 		Tooltip: ""
-		DisplayName: Gingerbread Work Bench
+		DisplayName: ジンジャーブレッドの作業台
 	}
 
 	GingerbreadWall: {
 		Tooltip: ""
-		DisplayName: Gingerbread Wall
+		DisplayName: ジンジャーブレッドの壁
 	}
 
 	GingerbreadToilet: {
 		Tooltip: ""
-		DisplayName: Gingerbread Toilet
+		DisplayName: ジンジャーブレッドのトイレ
 	}
 
 	GingerbreadTable: {
 		Tooltip: ""
-		DisplayName: Gingerbread Table
+		DisplayName: ジンジャーブレッドのテーブル
 	}
 
 	GingerbreadSofa: {
 		Tooltip: ""
-		DisplayName: Gingerbread Sofa
+		DisplayName: ジンジャーブレッドのソファ
 	}
 
 	GingerbreadSink: {
 		Tooltip: ""
-		DisplayName: Gingerbread Sink
+		DisplayName: ジンジャーブレッドのシンク
 	}
 
 	GingerbreadPlatform: {
 		Tooltip: ""
-		DisplayName: Gingerbread Platform
+		DisplayName: ジンジャーブレッドの足場
 	}
 
 	GingerbreadPiano: {
 		Tooltip: ""
-		DisplayName: Gingerbread Piano
+		DisplayName: ジンジャーブレッドのピアノ
 	}
 
 	GingerbreadLantern: {
 		Tooltip: ""
-		DisplayName: Gingerbread Lantern
+		DisplayName: ジンジャーブレッドのランタン
 	}
 
 	GingerbreadLamp: {
 		Tooltip: ""
-		DisplayName: Gingerbread Lamp
+		DisplayName: ジンジャーブレッドのランプ
 	}
 
 	GingerbreadDresser: {
 		Tooltip: ""
-		DisplayName: Gingerbread Dresser
+		DisplayName: ジンジャーブレッドのドレッサー
 	}
 
 	GingerbreadDoor: {
 		Tooltip: ""
-		DisplayName: Gingerbread Door
+		DisplayName: ジンジャーブレッドのドア
 	}
 
 	GingerbreadCup: {
 		Tooltip: ""
-		DisplayName: Gingerbread Cup
+		DisplayName: ジンジャーブレッドのコップ
 	}
 
 	GingerbreadClock: {
 		Tooltip: ""
-		DisplayName: Gingerbread Clock
+		DisplayName: ジンジャーブレッドの時計
 	}
 
 	GingerbreadChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Gingerbread Chest
+		DisplayName: ジンジャーブレッドのの宝箱（罠）
 	}
 
 	GingerbreadChest: {
 		Tooltip: ""
-		DisplayName: Gingerbread Chest
+		DisplayName: ジンジャーブレッドの宝箱
 	}
 
 	GingerbreadChandelier: {
 		Tooltip: ""
-		DisplayName: Gingerbread Chandelier
+		DisplayName: ジンジャーブレッドのシャンデリア
 	}
 
 	GingerbreadChair: {
 		Tooltip: ""
-		DisplayName: Gingerbread Chair
+		DisplayName: ジンジャーブレッドのイス
 	}
 
 	GingerbreadCandle: {
 		Tooltip: ""
-		DisplayName: Gingerbread Candle
+		DisplayName: ジンジャーブレッドのロウソク
 	}
 
 	GingerbreadCandelabra: {
 		Tooltip: ""
-		DisplayName: Gingerbread Candelabra
+		DisplayName: ジンジャーブレッドの燭台
 	}
 
 	GingerbreadBookcase: {
 		Tooltip: ""
-		DisplayName: Gingerbread Bookcase
+		DisplayName: ジンジャーブレッドの本棚
 	}
 
 	GingerbreadBlock: {
 		Tooltip: ""
-		DisplayName: Gingerbread Block
+		DisplayName: ジンジャーブレッドブロック
 	}
 
 	GingerbreadBed: {
 		Tooltip: ""
-		DisplayName: Gingerbread Bed
+		DisplayName: ジンジャーブレッドのベッド
 	}
 
 	GingerbreadBathtub: {
 		Tooltip: ""
-		DisplayName: Gingerbread Bathtub
+		DisplayName: ジンジャーブレッドのバスタブ
 	}
 
 	GemBottle: {
 		Tooltip: ""
-		DisplayName: Gem Bottle
+		DisplayName: 宝石詰めの瓶
 	}
 
 	FossilWorkbench: {
 		Tooltip: ""
-		DisplayName: Fossil Work Bench
+		DisplayName: 化石の作業台
 	}
 
 	FossilToilet: {
 		Tooltip: ""
-		DisplayName: Fossil Toilet
+		DisplayName: 化石のトイレ
 	}
 
 	FossilTable: {
 		Tooltip: ""
-		DisplayName: Fossil Table
+		DisplayName: 化石のテーブル
 	}
 
 	FossilSofa: {
 		Tooltip: ""
-		DisplayName: Fossil Sofa
+		DisplayName: 化石のソファ
 	}
 
 	FossilSink: {
 		Tooltip: ""
-		DisplayName: Fossil Sink
+		DisplayName: 化石のシンク
 	}
 
 	FossilPlatform: {
 		Tooltip: ""
-		DisplayName: Fossil Platform
+		DisplayName: 化石の足場
 	}
 
 	FossilPiano: {
 		Tooltip: ""
-		DisplayName: Fossil Piano
+		DisplayName: 化石のピアノ
 	}
 
 	FossilLantern: {
 		Tooltip: ""
-		DisplayName: Fossil Lantern
+		DisplayName: 化石のランタン
 	}
 
 	FossilLamp: {
 		Tooltip: ""
-		DisplayName: Fossil Lamp
+		DisplayName: 化石のランプ
 	}
 
 	FossilDresser: {
 		Tooltip: ""
-		DisplayName: Fossil Dresser
+		DisplayName: 化石のドレッサー
 	}
 
 	FossilDoor: {
 		Tooltip: ""
-		DisplayName: Fossil Door
+		DisplayName: 化石のドア
 	}
 
 	FossilCup: {
 		Tooltip: ""
-		DisplayName: Fossil Cup
+		DisplayName: 化石のコップ
 	}
 
 	FossilClock: {
 		Tooltip: ""
-		DisplayName: Fossil Clock
+		DisplayName: 化石の時計
 	}
 
 	FossilChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Fossil Chest
+		DisplayName: 化石の宝箱（罠）
 	}
 
 	FossilChest: {
 		Tooltip: ""
-		DisplayName: Fossil Chest
+		DisplayName: 化石の宝箱
 	}
 
 	FossilChandelier: {
 		Tooltip: ""
-		DisplayName: Fossil Chandelier
+		DisplayName: 化石のシャンデリア
 	}
 
 	FossilChair: {
 		Tooltip: ""
-		DisplayName: Fossil Chair
+		DisplayName: 化石のイス
 	}
 
 	FossilCandle: {
 		Tooltip: ""
-		DisplayName: Fossil Candle
+		DisplayName: 化石のロウソク
 	}
 
 	FossilCandelabra: {
 		Tooltip: ""
-		DisplayName: Fossil Candelabra
+		DisplayName: 化石の燭台
 	}
 
 	FossilBookcase: {
 		Tooltip: ""
-		DisplayName: Fossil Bookcase
+		DisplayName: 化石の本棚
 	}
 
 	FossilBed: {
 		Tooltip: ""
-		DisplayName: Fossil Bed
+		DisplayName: 化石のベッド
 	}
 
 	FossilBathtub: {
 		Tooltip: ""
-		DisplayName: Fossil Bathtub
+		DisplayName: 化石のバスタブ
 	}
 
 	FallingChandelier: {
 		Tooltip: ""
-		DisplayName: Fragile Chandelier
+		DisplayName: 脆いシャンデリア
 	}
 
 	EvergreenWorkbench: {
 		Tooltip: ""
-		DisplayName: Evergreen Work Bench
+		DisplayName: 常緑樹の作業台
 	}
 
 	EvergreenWall: {
 		Tooltip: ""
-		DisplayName: Evergreen Wall
+		DisplayName: 常緑樹の壁
 	}
 
 	EvergreenToilet: {
 		Tooltip: ""
-		DisplayName: Evergreen Toilet
+		DisplayName: 常緑樹のトイレ
 	}
 
 	EvergreenTable: {
 		Tooltip: ""
-		DisplayName: Evergreen Table
+		DisplayName: 常緑樹のテーブル
 	}
 
 	EvergreenSofa: {
 		Tooltip: ""
-		DisplayName: Evergreen Sofa
+		DisplayName: 常緑樹のソファ
 	}
 
 	EvergreenSink: {
 		Tooltip: ""
-		DisplayName: Evergreen Sink
+		DisplayName: 常緑樹のシンク
 	}
 
 	EvergreenPlatform: {
 		Tooltip: ""
-		DisplayName: Evergreen Platform
+		DisplayName: 常緑樹の足場
 	}
 
 	EvergreenPiano: {
 		Tooltip: ""
-		DisplayName: Evergreen Piano
+		DisplayName: 常緑樹のピアノ
 	}
 
 	EvergreenLantern: {
 		Tooltip: ""
-		DisplayName: Evergreen Lantern
+		DisplayName: 常緑樹のランタン
 	}
 
 	EvergreenLamp: {
 		Tooltip: ""
-		DisplayName: Evergreen Lamp
+		DisplayName: 常緑樹のランプ
 	}
 
 	EvergreenDresser: {
 		Tooltip: ""
-		DisplayName: Evergreen Dresser
+		DisplayName: 常緑樹のドレッサー
 	}
 
 	EvergreenDoor: {
 		Tooltip: ""
-		DisplayName: Evergreen Door
+		DisplayName: 常緑樹のドア
 	}
 
 	EvergreenCup: {
 		Tooltip: ""
-		DisplayName: Evergreen Cup
+		DisplayName: 常緑樹のコップ
 	}
 
 	EvergreenClock: {
 		Tooltip: ""
-		DisplayName: Evergreen Clock
+		DisplayName: 常緑樹の時計
 	}
 
 	EvergreenChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Evergreen Chest
+		DisplayName: 常緑樹の宝箱（罠）
 	}
 
 	EvergreenChest: {
 		Tooltip: ""
-		DisplayName: Evergreen Chest
+		DisplayName: 常緑樹の宝箱
 	}
 
 	EvergreenChandelier: {
 		Tooltip: ""
-		DisplayName: Evergreen Chandelier
+		DisplayName: 常緑樹のシャンデリア
 	}
 
 	EvergreenChair: {
 		Tooltip: ""
-		DisplayName: Evergreen Chair
+		DisplayName: 常緑樹のイス
 	}
 
 	EvergreenCandle: {
 		Tooltip: ""
-		DisplayName: Evergreen Candle
+		DisplayName: 常緑樹のロウソク
 	}
 
 	EvergreenCandelabra: {
 		Tooltip: ""
-		DisplayName: Evergreen Candelabra
+		DisplayName: 常緑樹の燭台
 	}
 
 	EvergreenBookcase: {
 		Tooltip: ""
-		DisplayName: Evergreen Bookcase
+		DisplayName: 常緑樹の本棚
 	}
 
 	EvergreenBlock: {
 		Tooltip: ""
-		DisplayName: Evergreen Block
+		DisplayName: 常緑樹のブロック
 	}
 
 	EvergreenBed: {
 		Tooltip: ""
-		DisplayName: Evergreen Bed
+		DisplayName: 常緑樹のベッド
 	}
 
 	EvergreenBathtub: {
 		Tooltip: ""
-		DisplayName: Evergreen Bathtub
+		DisplayName: 常緑樹のバスタブ
 	}
 
 	EmeraldMarineBlock: {
 		Tooltip: ""
-		DisplayName: Emerald Marine Block
+		DisplayName: エメラルドマリンブロック
 	}
 
 	DumboOctopusCage: {
 		Tooltip: ""
-		DisplayName: Dumbo Octopus Cage
+		DisplayName: テラリウム（ダンボタコ）
 	}
 
 	DiamondMarineBlock: {
 		Tooltip: ""
-		DisplayName: Diamond Marine Block
+		DisplayName: ダイヤモンドマリンブロック
 	}
 
 	DestinyStatue: {
 		Tooltip: ""
-		DisplayName: Destiny Statue
+		DisplayName: 運命の石像
 	}
 
 	DeeplightCampfire: {
 		Tooltip:
 			'''
 			キャンプファイアの近くではライフ自然回復が増進
-			Can be placed in water
+			水中に設置不可
 			'''
-		DisplayName: Deeplight Campfire
+		DisplayName: 深光のキャンプファイア
 	}
 
 	DecorativePotion: {
-		Tooltip: Resembles a random potion when placed
-		DisplayName: Decorative Potion
+		Tooltip: ランダムなポーションを設置できる
+		DisplayName: 装飾用ポーション
 	}
 
 	DecorativeDish: {
 		Tooltip:
 			'''
-			Places down a decorative piece of chosen food
-			Right click to cycle styles
+			装飾用の料理を置く
+			右クリックでスタイルを切り替える
 			'''
-		DisplayName: Decorative Dish
+		DisplayName: 飾り皿
 	}
 
 	CyanStainedGlass: {
 		Tooltip: ""
-		DisplayName: Cyan Stained Glass
+		DisplayName: シアンのステンドグラス
 	}
 
 	CutStoneBlockWall: {
 		Tooltip: ""
-		DisplayName: Cut Stone Block Wall
+		DisplayName: 加工された石の壁
 	}
 
 	CutStoneBlockSlabWall: {
 		Tooltip: ""
-		DisplayName: Cut Stone Block Slab Wall
+		DisplayName: 加工された石の厚板の壁
 	}
 
 	CutStoneBlockSlab: {
 		Tooltip: ""
-		DisplayName: Cut Stone Block Slab
+		DisplayName: 加工された石の厚板
 	}
 
 	CutStoneBlock: {
 		Tooltip: ""
-		DisplayName: Cut Stone Block
+		DisplayName: 加工された石
 	}
 
 	CutSandstoneBlockWall: {
 		Tooltip: ""
-		DisplayName: Cut Sandstone Block Wall
+		DisplayName: 加工された砂岩の壁
 	}
 
 	CutSandstoneBlockSlabWall: {
 		Tooltip: ""
-		DisplayName: Cut Sandstone Block Slab Wall
+		DisplayName: 加工された砂岩の厚板の壁
 	}
 
 	CutSandstoneBlockSlab: {
 		Tooltip: ""
-		DisplayName: Cut Sandstone Block Slab
+		DisplayName: 加工された砂岩の厚板
 	}
 
 	CutSandstoneBlock: {
 		Tooltip: ""
-		DisplayName: Cut Sandstone Block
+		DisplayName: 加工された砂岩
 	}
 
 	CursedWorkbench: {
 		Tooltip: ""
-		DisplayName: Cursed Work Bench
+		DisplayName: 呪われた作業台
 	}
 
 	CursedWall: {
 		Tooltip: ""
-		DisplayName: Cursed Wall
+		DisplayName: 呪われた壁
 	}
 
 	CursedToilet: {
 		Tooltip: ""
-		DisplayName: Cursed Toilet
+		DisplayName: 呪われたトイレ
 	}
 
 	CursedTable: {
 		Tooltip: ""
-		DisplayName: Cursed Table
+		DisplayName: 呪われたテーブル
 	}
 
 	CursedSofa: {
 		Tooltip: ""
-		DisplayName: Cursed Sofa
+		DisplayName: 呪われたソファ
 	}
 
 	CursedSink: {
 		Tooltip: ""
-		DisplayName: Cursed Sink
+		DisplayName: 呪われたシンク
 	}
 
 	CursedPlatform: {
 		Tooltip: ""
-		DisplayName: Cursed Platform
+		DisplayName: 呪われた足場
 	}
 
 	CursedPiano: {
 		Tooltip: ""
-		DisplayName: Cursed Piano
+		DisplayName: 呪われたピアノ
 	}
 
 	CursedLantern: {
 		Tooltip: ""
-		DisplayName: Cursed Lantern
+		DisplayName: 呪われたランタン
 	}
 
 	CursedLamp: {
 		Tooltip: ""
-		DisplayName: Cursed Lamp
+		DisplayName: 呪われたランプ
 	}
 
 	CursedDresser: {
 		Tooltip: ""
-		DisplayName: Cursed Dresser
+		DisplayName: 呪われたドレッサー
 	}
 
 	CursedDoor: {
 		Tooltip: ""
-		DisplayName: Cursed Door
+		DisplayName: 呪われたドア
 	}
 
 	CursedCup: {
 		Tooltip: ""
-		DisplayName: Cursed Cup
+		DisplayName: 呪われたコップ
 	}
 
 	CursedClock: {
 		Tooltip: ""
-		DisplayName: Cursed Clock
+		DisplayName: 呪われた時計
 	}
 
 	CursedChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Cursed Chest
+		DisplayName: 呪われたの宝箱（罠）
 	}
 
 	CursedChest: {
 		Tooltip: ""
-		DisplayName: Cursed Chest
+		DisplayName: 呪われた宝箱
 	}
 
 	CursedChandelier: {
 		Tooltip: ""
-		DisplayName: Cursed Chandelier
+		DisplayName: 呪われたシャンデリア
 	}
 
 	CursedChair: {
 		Tooltip: ""
-		DisplayName: Cursed Chair
+		DisplayName: 呪われたイス
 	}
 
 	CursedCandle: {
 		Tooltip: ""
-		DisplayName: Cursed Candle
+		DisplayName: 呪われたロウソク
 	}
 
 	CursedCandelabra: {
 		Tooltip: ""
-		DisplayName: Cursed Candelabra
+		DisplayName: 呪われた燭台
 	}
 
 	CursedBookcase: {
 		Tooltip: ""
-		DisplayName: Cursed Bookcase
+		DisplayName: 呪われた本棚
 	}
 
 	CursedBlock: {
 		Tooltip: ""
-		DisplayName: Cursed Block
+		DisplayName: 呪われたブロック
 	}
 
 	CursedBed: {
 		Tooltip: ""
-		DisplayName: Cursed Bed
+		DisplayName: 呪われたベッド
 	}
 
 	CursedBathtub: {
 		Tooltip: ""
-		DisplayName: Cursed Bathtub
+		DisplayName: 呪われたバスタブ
 	}
 
 	CloudSlabWall: {
@@ -15226,278 +15225,278 @@ Items: {
 	}
 
 	CherryAstroturf: {
-		Tooltip: Can grow cherry weeds and sakura trees
-		DisplayName: Cherry Astroturf
+		Tooltip: 雑草や桜の木を育てることができる
+		DisplayName: 桜の人工芝
 	}
 
 	CheckeredBrickWall: {
-		Tooltip: "'Anyone up for a game of chess?'"
-		DisplayName: Checkered Brick Wall
+		Tooltip: "「チェスを一局どうだ？」"
+		DisplayName: 市松模様のレンガの壁
 	}
 
 	CheckeredBrick: {
-		Tooltip: "'Anyone up for a game of chess?'"
-		DisplayName: Checkered Brick
+		Tooltip: "「チェスを一局どうだ？」"
+		DisplayName: 市松模様のレンガの壁
 	}
 
 	CelestialWorkbench: {
 		Tooltip: ""
-		DisplayName: Celestial Work Bench
+		DisplayName: 天空の作業台
 	}
 
 	CelestialToilet: {
 		Tooltip: ""
-		DisplayName: Celestial Toilet
+		DisplayName: 天空のトイレ
 	}
 
 	CelestialTable: {
 		Tooltip: ""
-		DisplayName: Celestial Table
+		DisplayName: 天空のテーブル
 	}
 
 	CelestialSofa: {
 		Tooltip: ""
-		DisplayName: Celestial Sofa
+		DisplayName: 天空のソファ
 	}
 
 	CelestialSink: {
 		Tooltip: ""
-		DisplayName: Celestial Sink
+		DisplayName: 天空のシンク
 	}
 
 	CelestialPlatform: {
 		Tooltip: ""
-		DisplayName: Celestial Platform
+		DisplayName: 天空の足場
 	}
 
 	CelestialPiano: {
 		Tooltip: ""
-		DisplayName: Celestial Piano
+		DisplayName: 天空のピアノ
 	}
 
 	CelestialLantern: {
 		Tooltip: ""
-		DisplayName: Celestial Lantern
+		DisplayName: 天空のランタン
 	}
 
 	CelestialLamp: {
 		Tooltip: ""
-		DisplayName: Celestial Lamp
+		DisplayName: 天空のランプ
 	}
 
 	CelestialFragmentBlock: {
 		Tooltip: ""
-		DisplayName: Celestial Fragment Block
+		DisplayName: 天空の断片のブロック
 	}
 
 	CelestialDresser: {
 		Tooltip: ""
-		DisplayName: Celestial Dresser
+		DisplayName: 天空のドレッサー
 	}
 
 	CelestialDoor: {
 		Tooltip: ""
-		DisplayName: Celestial Door
+		DisplayName: 天空のドア
 	}
 
 	CelestialClock: {
 		Tooltip: ""
-		DisplayName: Celestial Clock
+		DisplayName: 天空の時計
 	}
 
 	CelestialChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped Celestial Chest
+		DisplayName: 天空の宝箱（罠）
 	}
 
 	CelestialChest: {
 		Tooltip: ""
-		DisplayName: Celestial Chest
+		DisplayName: 天空の宝箱
 	}
 
 	CelestialChandelier: {
 		Tooltip: ""
-		DisplayName: Celestial Chandelier
+		DisplayName: 天空のシャンデリア
 	}
 
 	CelestialChair: {
 		Tooltip: ""
-		DisplayName: Celestial Chair
+		DisplayName: 天空のイス
 	}
 
 	CelestialCandle: {
 		Tooltip: ""
-		DisplayName: Celestial Candle
+		DisplayName: 天空のロウソク
 	}
 
 	CelestialCandelabra: {
 		Tooltip: ""
-		DisplayName: Celestial Candelabra
+		DisplayName: 天空の燭台
 	}
 
 	CelestialBrickWall: {
 		Tooltip: ""
-		DisplayName: Celestial Brick Wall
+		DisplayName: 天空のレンガの壁
 	}
 
 	CelestialBrick: {
 		Tooltip: ""
-		DisplayName: Celestial Brick
+		DisplayName: 天空のレンガ
 	}
 
 	CelestialBookcase: {
 		Tooltip: ""
-		DisplayName: Celestial Bookcase
+		DisplayName: 天空の本棚
 	}
 
 	CelestialBed: {
 		Tooltip: ""
-		DisplayName: Celestial Bed
+		DisplayName: 天空のベッド
 	}
 
 	CelestialBathtub: {
 		Tooltip: ""
-		DisplayName: Celestial Bathtub
+		DisplayName: 天空のバスタブ
 	}
 
 	BookshelfWall: {
 		Tooltip: ""
-		DisplayName: Bookshelf Wall
+		DisplayName: 本棚の壁
 	}
 
 	BookshelfBlock: {
 		Tooltip: ""
-		DisplayName: Bookshelf Block
+		DisplayName: 本棚のブロック
 	}
 
 	BlueLobsterCage: {
 		Tooltip: ""
-		DisplayName: Blue Lobster Cage
+		DisplayName: テラリウム（青いロブスター）
 	}
 
 	BloodstainedWorkbench: {
 		Tooltip: ""
-		DisplayName: 血塗れのWork Bench
+		DisplayName: 血塗れの作業台
 	}
 
 	BloodstainedWall: {
 		Tooltip: ""
-		DisplayName: 血塗れのWall
+		DisplayName: 血塗れの壁
 	}
 
 	BloodstainedToilet: {
 		Tooltip: ""
-		DisplayName: 血塗れのToilet
+		DisplayName: 血塗れのトイレ
 	}
 
 	BloodstainedTable: {
 		Tooltip: ""
-		DisplayName: 血塗れのTable
+		DisplayName: 血塗れのテーブル
 	}
 
 	BloodstainedSofa: {
 		Tooltip: ""
-		DisplayName: 血塗れのSofa
+		DisplayName: 血塗れのソファ
 	}
 
 	BloodstainedSink: {
 		Tooltip: ""
-		DisplayName: 血塗れのSink
+		DisplayName: 血塗れのシンク
 	}
 
 	BloodstainedPlatform: {
 		Tooltip: ""
-		DisplayName: 血塗れのPlatform
+		DisplayName: 血塗れの足場
 	}
 
 	BloodstainedPiano: {
 		Tooltip: ""
-		DisplayName: 血塗れのPiano
+		DisplayName: 血塗れのピアノ
 	}
 
 	BloodstainedLantern: {
 		Tooltip: ""
-		DisplayName: 血塗れのLantern
+		DisplayName: 血塗れのランタン
 	}
 
 	BloodstainedLamp: {
 		Tooltip: ""
-		DisplayName: 血塗れのLamp
+		DisplayName: 血塗れのランプ
 	}
 
 	BloodstainedDresser: {
 		Tooltip: ""
-		DisplayName: 血塗れのDresser
+		DisplayName: 血塗れのドレッサー
 	}
 
 	BloodstainedDoor: {
 		Tooltip: ""
-		DisplayName: 血塗れのDoor
+		DisplayName: 血塗れのドア
 	}
 
 	BloodstainedCup: {
 		Tooltip: ""
-		DisplayName: 血塗れのCup
+		DisplayName: 血塗れのカップ
 	}
 
 	BloodstainedClock: {
 		Tooltip: ""
-		DisplayName: 血塗れのClock
+		DisplayName: 血塗れの時計
 	}
 
 	BloodstainedChest_Trapped: {
 		Tooltip: ""
-		DisplayName: Trapped 血塗れのChest
+		DisplayName: 血塗れの宝箱（罠）
 	}
 
 	BloodstainedChest: {
 		Tooltip: ""
-		DisplayName: 血塗れのChest
+		DisplayName: 血塗れの宝箱
 	}
 
 	BloodstainedChandelier: {
 		Tooltip: ""
-		DisplayName: 血塗れのChandelier
+		DisplayName: 血塗れのシャンデリア
 	}
 
 	BloodstainedChair: {
 		Tooltip: ""
-		DisplayName: 血塗れのChair
+		DisplayName: 血塗れのイス
 	}
 
 	BloodstainedCandle: {
 		Tooltip: ""
-		DisplayName: 血塗れのCandle
+		DisplayName: 血塗れのロウソク
 	}
 
 	BloodstainedCandelabra: {
 		Tooltip: ""
-		DisplayName: 血塗れのCandelabra
+		DisplayName: 血塗れの燭台
 	}
 
 	BloodstainedBookcase: {
 		Tooltip: ""
-		DisplayName: 血塗れのBookcase
+		DisplayName: 血塗れの本棚
 	}
 
 	BloodstainedBlock: {
 		Tooltip: ""
-		DisplayName: 血塗れのBlock
+		DisplayName: 血塗れのブロック
 	}
 
 	BloodstainedBed: {
 		Tooltip: ""
-		DisplayName: 血塗れのBed
+		DisplayName: 血塗れのベッド
 	}
 
 	BloodstainedBathtub: {
 		Tooltip: ""
-		DisplayName: 血塗れのBathtub
+		DisplayName: 血塗れのバスタブ
 	}
 
 	ArenaMastersBrazier: {
-		Tooltip: "'Makes you feel like you can take on the world'"
-		DisplayName: Arena Master's Brazier
+		Tooltip: "「全てを相手にできる気がしてくる...」"
+		DisplayName: アリーナマスターの灯火台
 	}
 
 	AquamarineStoneWall: {
@@ -15552,233 +15551,233 @@ Items: {
 
 	WonderAcornPaint: {
 		Tooltip: "'H. Sixfore'"
-		DisplayName: Wonder Acorn
+		DisplayName: 絵画『驚異のドングリ』
 	}
 
 	WebbedOverPaint: {
 		Tooltip: "'S. Dew'"
-		DisplayName: Webbed Over
+		DisplayName: 絵画『絡まる糸』
 	}
 
 	WarmVisitPaint: {
 		Tooltip: "'D. Moore'"
-		DisplayName: Warm Visit
+		DisplayName: 絵画『温かな訪問』
 	}
 
 	UnspokenPain: {
 		Tooltip: "'B. Mitts'"
-		DisplayName: Unspoken Pain
+		DisplayName: 絵画『言葉にならない痛み』
 	}
 
 	UnderseaBountyPaint: {
 		Tooltip: "'N. Ominous'"
-		DisplayName: Undersea Bounty
+		DisplayName: 絵画『海底の宝』
 	}
 
 	TrackerandHermitsPaint: {
 		Tooltip: "'H. Sixfore'"
-		DisplayName: Tracker and Hermits
+		DisplayName: 絵画『追跡者と隠者たち』
 	}
 
 	TitanicTrioPaint: {
 		Tooltip: "'S. Day'"
-		DisplayName: Titanic Trio
+		DisplayName: 絵画『巨大な三巨頭』
 	}
 
 	ThunderOverDesertSkiesPaint: {
 		Tooltip: "'C. Sonds'"
-		DisplayName: Thunder over Desert Skies
+		DisplayName: 絵画『砂漠の空を裂く雷鳴』
 	}
 
 	ThunderbirdPaint: {
 		Tooltip: "'Unearthed by S. Dew'"
-		DisplayName: Thunderbird
+		DisplayName: 絵画『サンダーバード』
 	}
 
 	ThinkingAboutBallsPaint: {
 		Tooltip: "'N. Blu'"
-		DisplayName: Thinking About Balls
+		DisplayName: 絵画『球体を想う』
 	}
 
 	TheOneWhoCooksPaint: {
 		Tooltip: "'T. Flat'"
-		DisplayName: The One Who Cooks
+		DisplayName: 絵画『調理人』
 	}
 
 	TheFoggyFiferPaint: {
 		Tooltip: "'B. Mitts'"
-		DisplayName: The Foggy Fifer
+		DisplayName: 絵画『霧に包まれた笛吹き』
 	}
 
 	TerrarianThePrincessAndTheSpiritualistPaint: {
 		Tooltip: "'H. Sixfore'"
-		DisplayName: Terrarian, the Princess, and the Spiritualist
+		DisplayName: 絵画『テラリアン、王女、霊術師』
 	}
 
 	TeatimePaint: {
 		Tooltip: "'D. Craig'"
-		DisplayName: Teatime
+		DisplayName: 絵画『ティータイム』
 	}
 
 	StudyofMetallurgyPaint: {
 		Tooltip: "'S. B. Bee'"
-		DisplayName: Study of Metallurgy
+		DisplayName: 絵画『冶金学の研究』
 	}
 
 	SpectralSymphonyPaint: {
 		Tooltip: "'M. B. Nana'"
-		DisplayName: Spectral Symphony
+		DisplayName: 絵画『幽玄の交響曲』
 	}
 
 	ShroudedbytheStormPaint: {
 		Tooltip: "'B. Mitts'"
-		DisplayName: Shrouded by the Storm
+		DisplayName: 絵画『嵐に包まれて』
 	}
 
 	RitualPaint: {
 		Tooltip: "'H. Carter'"
-		DisplayName: Ritual
+		DisplayName: 絵画『儀式』
 	}
 
 	RedMistPaint: {
 		Tooltip: "'B. Mitts'"
-		DisplayName: Red Mist
+		DisplayName: 絵画『赤い霧』
 	}
 
 	PumpkinPaint: {
 		Tooltip: "'G. Anna'"
-		DisplayName: Study of Lich
+		DisplayName: 絵画『リッチの研究』
 	}
 
 	PaintedPiratePaint: {
 		Tooltip: "'H. Carter'"
-		DisplayName: Painted Pirate
+		DisplayName: 絵画『彩られた海賊』
 	}
 
 	MoonSlayerPaint: {
 		Tooltip: "'T. Flat'"
-		DisplayName: Moon Slayer
+		DisplayName: 絵画『月狩り』
 	}
 
 	LoudFootstepsPaint: {
 		Tooltip: "'M. Earl'"
-		DisplayName: Loud Footsteps
+		DisplayName: 絵画『鳴り響く足音』
 	}
 
 	LivingIslandPaint: {
 		Tooltip: "'S. Cratch'"
-		DisplayName: Living Island
+		DisplayName: 絵画『生ける島』
 	}
 
 	LastSupperPaint: {
 		Tooltip: "'L. Vinc'"
-		DisplayName: Last Supper
+		DisplayName: 絵画『最後の晩餐』
 	}
 
 	KnightsofHallowPaint: {
 		Tooltip: "'H. Sixfore'"
-		DisplayName: Knights of Hallow
+		DisplayName: 絵画『聖騎士たち』
 	}
 
 	JollyRogerPaint: {
 		Tooltip: "'B. Mitts'"
-		DisplayName: Jolly Roger
+		DisplayName: 絵画『ジョリー・ロジャー』
 	}
 
 	JellyintheWaterPaint: {
 		Tooltip: "'G. Son'"
-		DisplayName: Jelly in the Water
+		DisplayName: 絵画『水中のクラゲ』
 	}
 
 	InconspicuousTunnelPaint: {
 		Tooltip: "'H. Sixfore'"
-		DisplayName: Inconspicuous Tunnel
+		DisplayName: 絵画『地味なトンネル』
 	}
 
 	GreatForImpersonatingDevsPaint: {
 		Tooltip: "'H. Sixfore'"
-		DisplayName: Great for impersonating devs!
+		DisplayName: 絵画『開発者になりきるのに最適！』
 	}
 
 	FlightHat64Paint: {
 		Tooltip: "'H. Sixfore'"
-		DisplayName: Flight Hat 64
+		DisplayName: 絵画『フライトハット64』
 	}
 
 	FirstContactPaint: {
 		Tooltip: "'C. Sonds'"
-		DisplayName: First Contact
+		DisplayName: 絵画『最初の接触』
 	}
 
 	FinalMomentsPaint: {
 		Tooltip:
 			'''
 			'D. Man'
-			'この絵は、トリウムの脅威からこの世界を守るために命を捧げた
-			勇敢なテラリアンを記念するものです
-			忘れないように...'
+			「この絵は、この世界を守るために命を捧げた
+			勇敢なテラリアンを讃えるためのものです
+			語り継ぐために...」
 			'''
-		DisplayName: Final Moments
+		DisplayName: 絵画『最後の瞬間』
 	}
 
 	EntirelyHerePaint: {
 		Tooltip: "'H. Sixfore'"
-		DisplayName: Entirely Here
+		DisplayName: 絵画『全てはここに』
 	}
 
 	EmpireofNightPaint: {
 		Tooltip: "'M. B. Nana'"
-		DisplayName: Empire of Night
+		DisplayName: 絵画『エンプレスオブナイト』
 	}
 
 	EarthenEnergyPaint: {
 		Tooltip: "'B. Mitts'"
-		DisplayName: Earthen Energy
+		DisplayName: 絵画『大地の力』
 	}
 
 	CursedHarvestPaint: {
 		Tooltip: "'S. Day'"
-		DisplayName: Cursed Harvest
+		DisplayName: 絵画『呪われた収穫』
 	}
 
 	CuriousSeaLifePaint: {
 		Tooltip: "'N. Blu'"
-		DisplayName: Curious Sea Life
+		DisplayName: 絵画『好奇心旺盛な海の生き物』
 	}
 
 	ChorusofEvviePaint: {
 		Tooltip: "'H. Sixfore'"
-		DisplayName: Chorus of Evvie
+		DisplayName: 絵画『エヴィの合唱』
 	}
 
 	ChorusofAndrewPaint: {
 		Tooltip: "'H. Sixfore'"
-		DisplayName: Chorus of Andrew
+		DisplayName: 絵画『アンドリューの合唱』
 	}
 
 	BlankPainting: {
-		Tooltip: "'You could paint anything!'"
-		DisplayName: Blank Painting
+		Tooltip: "「何か書いてみよう！」"
+		DisplayName: 無地の絵画』
 	}
 
 	BackwardsPaint: {
 		Tooltip: "'D. Craig'"
-		DisplayName: Backwards
+		DisplayName: 絵画『後退』
 	}
 
 	AToastPaint: {
 		Tooltip: "'M. S. Kim'"
-		DisplayName: A Toast
+		DisplayName: 絵画『乾杯』
 	}
 
 	AquaticParadisePaint: {
 		Tooltip: "'C. Sonds'"
-		DisplayName: Aquatic Paradise
+		DisplayName: 絵画『水中の楽園』
 	}
 
 	AdorationoftheGoldBunnyPaint: {
 		Tooltip: "'H. Sixfore'"
-		DisplayName: Adoration of the Gold Bunny
+		DisplayName: 絵画『黄金ウサギへの賛美』
 	}
 
 	WhirlpoolSaber: {
@@ -16418,7 +16417,7 @@ Items: {
 	}
 
 	SpiritDroplet: {
-		Tooltip: "'A small bead of undead animating energy'"
+		Tooltip: 「死者の命を灯す、小さな雫」
 		DisplayName: 魂のしずく
 	}
 
@@ -16787,7 +16786,6 @@ Items: {
 			'''
 			移動することで最大{0}個の静電リングを生成し、各リングがライフシールドを形成する
 			フルチャージ時、エネルギーバリアが1回の攻撃を防ぐ
-			バリアが攻撃を防ぐと、近くの敵に電撃を放つ
 			'''
 		Tooltip:
 			'''
@@ -17734,7 +17732,7 @@ Items: {
 			'''
 			射撃ダメージ10%増加
 			射撃速度が15%増加
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: イルミネイトチェストプレート
 	}
@@ -18227,9 +18225,9 @@ Items: {
 	}
 
 	ShieldDroneBeacon: {
-		ShieldAmountMax: 味方のライフを {0} から {1} までシールドする（上限）
-		ShieldAmount: 味方のライフを {0} から {1}までシールドする
-		ShieldAmountNone: 自分のボーナス回復量に等しいライフを {0} まで護る
+		ShieldAmountMax: 味方のライフを{0}から{1}まで護る（上限）
+		ShieldAmount: 味方のライフを{0}から{1}まで護る
+		ShieldAmountNone: 自分のボーナス回復量に等しいライフを{0}まで護る
 		Tooltip:
 			'''
 			味方を護るシールドドローンを召喚する
@@ -18391,7 +18389,7 @@ Items: {
 		Tooltip:
 			'''
 			味方を癒すエネルギーの火花を放つ
-			自分と味方が戦闘不能の場合、基本回復量の3倍を回復する
+			自分と味方が非戦闘時の場合、基本回復量の3倍を回復する
 			'''
 		DisplayName: リカバリーワンド
 	}
@@ -18552,7 +18550,7 @@ Items: {
 	NoviceClericCowl: {
 		SetBonus:
 			'''
-			神聖な十字架を毎{0} {^0:秒;秒}に最大{1}個生成する
+			神聖な十字架を毎{0}{^0:秒;秒}に最大{1}個生成する
 			回復魔法を使うと、十字架がマナの代わりに使用される
 			'''
 		Tooltip:
@@ -18651,7 +18649,7 @@ Items: {
 	MartyrChalice: {
 		RespawnTime: マルチプレイで使用したプレイヤーがボスと交戦していない場合、リスポーン時間が長くなる
 		HealAmount: " [c/5aff5a:{0}] の命のために、自分の命を犠牲にして味方を癒す"
-		Tooltip: 回復後、味方に {0} 秒間の無敵時間付与
+		Tooltip: 回復後、味方に{0}秒間の無敵時間付与
 		DisplayName: 殉教者の聖杯
 	}
 
@@ -19608,8 +19606,8 @@ Items: {
 			'''
 			最近死亡したプレーヤーを復活させることができる
 			インベントリ内にある間、死亡したプレイヤーの近くに霊魂が残る
-			その霊魂に{0} {^0:秒;秒}触れ続けると、{1}%のライフで復活させることができる
-			復活したプレイヤーは復活後{2} {^2:秒間;秒間}デバフが付与される
+			その霊魂に{0}{^0:秒;秒}触れ続けると、{1}%のライフで復活させることができる
+			復活したプレイヤーは復活後{2}{^2:秒間;秒間}デバフが付与される
 			'''
 		DisplayName: 復活の古代書
 	}
@@ -19865,10 +19863,10 @@ Items: {
 	TomeoftheVoidGazersChariot: {
 		Tooltip:
 			'''
-			'Become the harbinger of the void'
-			Summons a mountable Beholder
+			「虚無の先触れとなれ」
+			ビホルダーを召喚し、騎乗する
 			'''
-		DisplayName: Tome of the Void Gazer's Chariot
+		DisplayName: 虚無を見つめる者の戦車の書
 	}
 
 	PyroclastStaff: {
@@ -20139,15 +20137,15 @@ Items: {
 		SetBonus:
 			'''
 			「アーマーアビリティ」キーを押すと、無限のインスピレーションを得て、旋律ダメージ、そして演奏速度が大幅に増加する
-			この効果は{0} {^0:秒;秒}間持続し、クールダウンには{1} {^1:分;分}かかる
+			この効果は{0}{^0:秒;秒}間持続し、クールダウンには{1}{^1:分;分}かかる
 			'''
 		Tooltip:
 			'''
 			「あなたの才能が誰にも負けないことをすべての人に証明する」
-			 {0} %演奏速度増加
-			旋律ダメージのクリティカル確率 {1} %増加
-			インスピレーションの再生速度が {2} %増加する
-			管楽器の追尾速度 {3} %増加
+			{0}%演奏速度増加
+			旋律ダメージのクリティカル確率{1}%増加
+			インスピレーションの再生速度が{2}%増加する
+			管楽器の追尾速度{3}%増加
 			弦楽器の弾のバウンド時間が追加される
 			'''
 		DisplayName: ソリストの帽子
@@ -20179,7 +20177,7 @@ Items: {
 		SetBonus:
 			'''
 			「アーマーアビリティ」キーを押すと、近くの味方全員にエンパワーメント{0}が{1} {^1:秒;秒}間与えられる
-			この能力を使用するには{2}インスピレーションが必要で、クールダウンには{3} {^3:分;分}かかる
+			この能力を使用するには{2}インスピレーションが必要で、クールダウンには{3}{^3:分;分}かかる
 			'''
 		Tooltip:
 			'''
@@ -20224,7 +20222,7 @@ Items: {
 			「生きるに値しない者に怒りをぶちまけろ...」
 			弾薬にジェルを使用する
 			呪われたドラゴンブレスを放つ
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: ウィルムデシメーター
 	}
@@ -20234,7 +20232,7 @@ Items: {
 			'''
 			「お前は死ぬことになる...」
 			死そのものを燃料とするミサイルを発射する
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: ザ・ジャベリン
 	}
@@ -20891,7 +20889,7 @@ Items: {
 	}
 
 	WishingGlass: {
-		SelectedDestination: 選択された目的地: {0}
+		SelectedDestination: 選択された目的地：{0}
 		Tooltip:
 			'''
 			「見つめる人の願いを感じ取ることができる魔法の鏡」
@@ -21709,7 +21707,8 @@ Items: {
 	OtherworldlyRune: {
 		Tooltip:
 			'''
-			「意味不明な声が響く：Zerath! Milogop! Tz'rok!」
+			「意味不明な声が響く...
+			　Zerath! Milogop! Tz'rok!」
 			黙示録のチャリオットを召喚する
 			'''
 		DisplayName: 異世界のルーン
@@ -22066,7 +22065,7 @@ Items: {
 	}
 
 	JetstreamSheath: {
-		Tooltip: 剣を持っている時に{1} {^1:second;秒} 間攻撃しないとステルスが付与され、次に攻撃した時に {0}の追加攻撃を行う"
+		Tooltip: 剣を持っている時に{1}{^1:second;秒}間攻撃しないとステルスが付与され、次に攻撃した時に{0}の追加攻撃を行う"
 		DisplayName: 烈流の鞘
 	}
 
@@ -22396,7 +22395,7 @@ Items: {
 	GardenersSheath: {
 		Tooltip:
 			'''
-			剣を持っている時、 {1} {^1:second;秒}間攻撃しないとステルスが付与され、次に攻撃した時に {0}% の追加ダメージを与える
+			剣を持っている時、{1}{^1:second;秒}間攻撃しないとステルスが付与され、次に攻撃した時に{0}% の追加ダメージを与える
 			さらに、この攻撃でテレポートし、カーソルにダメージを与える
 			'''
 		DisplayName: 庭師の鞘
@@ -22550,7 +22549,7 @@ Items: {
 	}
 
 	EclipseFang: {
-		Tooltip: この武器で  {0} の敵を倒すと、時間帯が変わるまで武器が大幅にパワーアップする
+		Tooltip: この武器で{0}の敵を倒すと、時間帯が変わるまで武器が大幅にパワーアップする
 		DisplayName: 日食の牙
 	}
 
@@ -22586,7 +22585,7 @@ Items: {
 	DMR: {
 		Tooltip:
 			'''
-			高速連射
+			高速連射可能
 			右クリックでスコープを使う
 			'''
 		DisplayName: DMR
@@ -22949,19 +22948,19 @@ Items: {
 	}
 
 	BirdFeeder: {
-		TileMouseover: Check back later...
-		SeedTooltipFallback: For use with bird feeders
-		SeedTooltipReplacement: For use with blowpipes and bird feeders
-		PylonRestriction: You can only place {0} Bird Feeders for every Pylon placed in the world (current limit: {1})
-		Hanging: hanging
-		Grounded: grounded
-		ConvertTooltip: Right click to cycle styles or recraft to convert into a {0} variant
+		TileMouseover: 後でもう一度確認してください...
+		SeedTooltipFallback: 鳥のエサ箱で使用するためのもの
+		SeedTooltipReplacement: 吹き矢や鳥のエサ箱で使用するためのもの
+		PylonRestriction: 世界に設置されたパイロン1つにつき、設置できる鳥のエサ箱は{0}個までです
+		Hanging: 吊り下げ式
+		Grounded: 地面設置式
+		ConvertTooltip: クラフトで{0}に再作成可能
 		CommonTooltip:
 			'''
-			巣箱内に種や果物を置くと、鳥の注意を引く
-			鳥は、巣箱に置いたものに応じて、ランダムな果物やポーションを置いていく
-			インベントリに置いたり、インベントリに入れたりすることで、種を集めることができる
-			表面にのみ設置可能
+			エサ箱に種や果物を入れると、最終的に鳥を引き寄せることができる
+			鳥は、入れたアイテムに応じてランダムな果物やポーションを残していくことがある
+			エサ箱を設置するか、インベントリに持っていると種を収集することができる
+			地表にのみ設置可能
 			'''
 	}
 
@@ -22984,7 +22983,7 @@ Items: {
 			'''
 			射撃中のダメージ軽減率が10%増加
 			射撃中、移動速度が50%減少する
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: カブトムシ・ブラスター
 	}
@@ -23288,7 +23287,7 @@ Items: {
 	}
 
 	SharkStorm: {
-		Tooltip: "{0}% chance to save ammo"
+		Tooltip: "{0}%の確率で弾薬を消費しない"
 		DisplayName: シャークストーム
 	}
 
@@ -23524,8 +23523,8 @@ Items: {
 	CrystalWave: {
 		Tooltip:
 			'''
-			自分の基本移動速度を {0} %増加させる
-			" {1} 回まで使用可能"
+			自分の基本移動速度を{0}%増加させる
+			"{1}回まで使用可能"
 			'''
 		DisplayName: クリスタルウェーブ
 	}
@@ -24018,7 +24017,7 @@ Items: {
 		Tooltip:
 			'''
 			全ステータスを大程度強化
-			「震るほどおいしい」
+			「震えるほどおいしい」
 			'''
 		DisplayName: トゲバンレイシ
 	}
@@ -24129,7 +24128,7 @@ Items: {
 	}
 
 	ManaDelight: {
-		ManaTooltip: 最大マナの {0} %を回復する
+		ManaTooltip: 最大マナの{0}%を回復する
 		Tooltip:
 			'''
 			「一口ごとにエネルギーを味わえる」
@@ -24570,7 +24569,7 @@ Items: {
 	}
 
 	TopazRing: {
-		Tooltip: 投擲ダメージが {0} 増加
+		Tooltip: 投擲ダメージが{0}増加
 		DisplayName: トパーズの指輪
 	}
 
@@ -24586,9 +24585,9 @@ Items: {
 	TheRing: {
 		Tooltip:
 			'''
-			すべてのダメージを {0} 増加
-			アーマーの貫通力が {1} 増加する
-			クリティカル確率を {2} 増加させる
+			すべてのダメージを{0}増加
+			アーマーの貫通力が{1}増加する
+			クリティカル確率を{2}増加させる
 			'''
 		DisplayName: ザ・リング
 	}
@@ -24640,12 +24639,12 @@ Items: {
 	}
 
 	SapphireRing: {
-		Tooltip: 魔法ダメージを {0} 増加させる
+		Tooltip: 魔法ダメージを{0}増加させる
 		DisplayName: サファイアの指輪
 	}
 
 	RubyRing: {
-		Tooltip: 近接ダメージを {0} 増加させる
+		Tooltip: 近接ダメージを{0}増加させる
 		DisplayName: ルビーの指輪
 	}
 
@@ -24659,7 +24658,7 @@ Items: {
 	}
 
 	OpalRing: {
-		Tooltip: 旋律ダメージを {0} 増加させる
+		Tooltip: 旋律ダメージを{0}増加させる
 		DisplayName: オパールの指輪
 	}
 
@@ -24799,7 +24798,7 @@ Items: {
 	}
 
 	EmeraldRing: {
-		Tooltip: 遠距離ダメージが {0} 増加させる
+		Tooltip: 遠距離ダメージが{0}増加させる
 		DisplayName: エメラルドの指輪
 	}
 
@@ -24813,7 +24812,7 @@ Items: {
 	}
 
 	DiamondRing: {
-		Tooltip: クリティカル確率を {0} %増加させる
+		Tooltip: クリティカル確率を{0}%増加させる
 		DisplayName: ダイヤモンドの指輪
 	}
 
@@ -24885,17 +24884,17 @@ Items: {
 	}
 
 	AquamarineRing: {
-		Tooltip: 神聖ダメージを {0} 増加させる
+		Tooltip: 神聖ダメージを{0}増加させる
 		DisplayName: アクアマリンの指輪
 	}
 
 	AmethystRing: {
-		Tooltip: アーマーの貫通力を {0} 増加させる
+		Tooltip: アーマーの貫通力を{0}増加させる
 		DisplayName: アメジストの指輪
 	}
 
 	AmberRing: {
-		Tooltip: 召喚ダメージを {0} 増加させる
+		Tooltip: 召喚ダメージを{0}増加させる
 		DisplayName: 琥珀の指輪
 	}
 
@@ -25492,7 +25491,7 @@ Items: {
 	MarineWineGlass: {
 		Tooltip:
 			'''
-			最大6個の「無害な」ワイングラスを投げつける
+			最大6個の無害なワイングラスを投げつける
 			右クリックで甲高い叫び声を上げ、すべてのワイングラスを粉々にする
 			'''
 		DisplayName: 海洋のワイングラス
@@ -25994,7 +25993,7 @@ Items: {
 	}
 
 	CriersCap: {
-		SetBonus: エンパワーメントが{0} {^0:秒;秒}延長される
+		SetBonus: エンパワーメントが{0}{^0:秒;秒}延長される
 		Tooltip: インスピレーションの再生率が4％増加
 		DisplayName: クライヤーのキャップ
 	}
@@ -26114,7 +26113,7 @@ Items: {
 		Tooltip:
 			'''
 			表面や敵に付着する爆弾を発射する
-			右クリックで {0} のインスピレーションを消費してすべての爆弾を爆発させ、命中した敵にスリップダメージを与える
+			右クリックで{0}のインスピレーションを消費してすべての爆弾を爆発させ、命中した敵にスリップダメージを与える
 
 			'''
 		DisplayName: ファゴット
@@ -26122,7 +26121,7 @@ Items: {
 
 	BardEmblem: {
 		Tooltip: 旋律ダメージ15%が増加
-		DisplayName: 吟遊詩人のエンブレム
+		DisplayName: 吟遊詩人の紋章
 	}
 
 	BandKit: {
@@ -26141,7 +26140,7 @@ Items: {
 			'''
 			大きなバグパイプを演奏する
 			タイミングよくヒットさせることで、ダメージ、エンパワーメント、レベル、オーブの量を増加させることができる
-			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
 			これらのボーナスは武器を変更すると徐々に減少する
 			'''
 		DisplayName: バグパイプ
@@ -26168,7 +26167,7 @@ Items: {
 			'''
 			大きなアルペンホルンを演奏する
 			タイミングよくヒットさせることで、ダメージ、エンパワーメント、レベル、貫通力が上昇する
-			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
 			これらのボーナスは武器を変更すると徐々に減少する
 			'''
 		DisplayName: アルペンホルン
@@ -26685,7 +26684,7 @@ Items: {
 		Tooltip:
 			'''
 			構えている間、遠距離攻撃がクリティカルヒットすると木の破片を放つ
-			{0}% chance to save ammo
+			{0}%の確率で弾薬を消費しない
 			'''
 		DisplayName: ゴブリンのウォーパイプ
 	}
@@ -26801,7 +26800,7 @@ Items: {
 			'''
 
 		SetBonusFallbackQuotes: {
-			1: 彼らは輪廻の外に存在している...
+			1: 奴らは輪廻の外に存在している...
 			0: 我々の一員ではないようだな...興味深い...
 		}
 
@@ -26810,7 +26809,7 @@ Items: {
 			MoonLord: 時の彼方に忘れ去られたのは、我々だけではない...
 			Cultist: その崇拝は、我々のためにあるべきだ...
 			DukeFishron: あれにはもっと期待していたのだが...
-			EmpressofLight: あれは多くの我々を討ち取られてしまった..見事だ...
+			EmpressofLight: あれには多くの我々を討ち取られてしまった..見事だ...
 			MartianSaucer: それでも抗うのか...
 			ForgottenOne: 必要な犠牲だった...
 			Golem: 死した神への偽りの偶像...
@@ -26930,7 +26929,7 @@ Items: {
 
 InfoDisplays: {
 	HPSInfoDisplay: {
-		DisplayValue: 毎秒 {0} 回復する
+		DisplayValue: 毎秒{0}回復する
 		DisplayName: 1秒あたりの回復量
 	}
 }
@@ -26971,12 +26970,12 @@ Empowerments: {
 	}
 
 	LifeRegeneration: {
-		Tooltip: +{0} 体力/秒
+		Tooltip: +{0}体力/秒
 		DisplayName: ライフ自然回復
 	}
 
 	JumpHeight: {
-		Tooltip: ジャンプ高度+{0} {^0:block;ブロック}
+		Tooltip: ジャンプ高度+{0}{^0:block;ブロック}
 		DisplayName: ジャンプ高度
 	}
 
@@ -27673,7 +27672,7 @@ Buffs: {
 	}
 
 	GlassShardBuff: {
-		Description: グラスの中でにやにや笑っていたように見えた...
+		Description: 鏡の中に不気味な笑みが映っている...
 		DisplayName: 奇妙な鏡
 	}
 
