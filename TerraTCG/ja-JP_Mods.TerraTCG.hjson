@@ -1,0 +1,1887 @@
+Items: {
+	TerraTCGDeckbox: {
+		DisplayName: TerraTCGのデッキボックス
+		Tooltip:
+			'''
+			TerraTCGのデッキボックスだ！
+			これを開いてデッキを編集してから、
+			NPCに話しかけてTerraTCGに挑戦しよう。
+			'''
+	}
+
+	TerraTCGDebugDeckbox: {
+		DisplayName: TerraTCGのデバッグ用デッキボックス
+		Tooltip:
+			'''
+			TerraTCGのデッキエディタを開く。
+			デバッグ用につき、すべてのカードにアクセスできる。
+			'''
+	}
+
+	TerraTCGBoosterPack: {
+		DisplayName: ブースターパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			開封するとランダムで3枚のカードが手に入ります！
+			開けたら早速デッキボックスでデッキを構築しよう！
+			'''
+	}
+
+	CavernPack: {
+		DisplayName: ブースターパック・帰らずの洞窟
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			洞窟をテーマにしたカードが収録されています！
+			開けたら早速デッキボックスでデッキを構築しよう！
+			'''
+	}
+
+	DungeonPack: {
+		DisplayName: ブースターパック・呪われたダンジョン
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			ダンジョンをテーマにしたカードが収録されています！
+			開けたら早速デッキボックスでデッキを構築しよう！
+			'''
+	}
+
+	EvilPack: {
+		DisplayName: ブースターパック・蝕む不浄と冒す真紅
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			不浄と真紅をテーマにしたカードが収録されています！
+			開けたら早速デッキボックスでデッキを構築しよう！
+			'''
+	}
+
+	ForestPack: {
+		DisplayName: ブースターパック・羽休めの森林
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			森林をテーマにしたカードが収録されています！
+			開けたら早速デッキボックスでデッキを構築しよう！
+			'''
+	}
+
+	GoblinPack: {
+		DisplayName: ブースターパック・ゴブリンの襲撃
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			森林をテーマにしたカードが収録されています！
+			開けたら早速デッキボックスでデッキを構築しよう！
+			'''
+	}
+
+	JunglePack: {
+		DisplayName: ブースターパック・ジャングルは休まず育つ
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			ジャングルをテーマにしたカードが収録されています！
+			開けたら早速デッキボックスでデッキを構築しよう！
+			'''
+	}
+
+	KingSlimePack: {
+		DisplayName: プロモパック・キングスライムの喜び
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！レアなキングスライムカードを収録！
+			TerraTCGデッキボックスでデッキを構築しよう。
+			'''
+	}
+
+	MushroomPack: {
+		DisplayName: ブースターパック・怪しいキノコにご用心
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			キノコをテーマにしたカードが収録されています！
+			開けたら早速デッキボックスでデッキを構築しよう！
+			'''
+	}
+
+	OceanPack: {
+		DisplayName: ブースターパック・母なる大海
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			海をテーマにしたカードが収録されています！
+			開けたら早速デッキボックスでデッキを構築しよう！
+			'''
+	}
+
+	QueenBeePack: {
+		DisplayName: プロモパック・親バカ女王バチ
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！レアな女王蜂カードを収録！
+			TerraTCGデッキボックスでデッキを構築しよう。
+			'''
+	}
+
+	SlimePack: {
+		DisplayName: ブースターパック・ぷるぷるスライムも悪くない
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			スライムをテーマにしたカードが収録されています！
+			開けたら早速デッキボックスでデッキを構築しよう！
+			'''
+	}
+
+	BloodMoonPack: {
+		DisplayName: ブースターパック・ブラッドムーンが昇る夜
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			ブラッドムーンをテーマにしたカードが収録されています！
+			開けたら早速デッキボックスでデッキを構築しよう！
+			'''
+	}
+
+	MimicPack: {
+		DisplayName: プロモパック・この中には貴重なミミックが入っているよ。
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！レアなミミックのカードを収録！
+			TerraTCGデッキボックスでデッキを構築しよう。
+			'''
+	}
+
+	InvitationToDuel: {
+		DisplayName: デュエルへの招待状
+		Tooltip:
+			'''
+			TerraTCGの栄光のために魂を賭けよう！
+			ハードモード前のボスの前で使用すると、魂を賭けたTerraTCGのゲームが開始される。
+			勝てば栄光と報酬が手に入るが、
+			もしも負ければ致命的な結果が降りかかる！
+			'''
+	}
+
+	BOCPack: {
+		DisplayName: プロモパック・真紅でThinkする脳
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！レアなクトゥルフの脳のカードを収録！
+			TerraTCGデッキボックスでデッキを構築しよう。
+			'''
+	}
+
+	EOCPack: {
+		DisplayName: プロモパック・あなたを見つめる視線
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！レアなクトゥルフの目のカードを収録！
+			TerraTCGデッキボックスでデッキを構築しよう。
+			'''
+	}
+
+	EOWPack: {
+		DisplayName: プロモパック・世界を食み喰らうもの
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！レアなイーターオブワールドのカードを収録！
+			TerraTCGデッキボックスでデッキを構築しよう。
+			'''
+	}
+
+	SkeletronPack: {
+		DisplayName: プロモパック・ダンジョンの主スケルトロン
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！レアなスケルトロンのカードを収録！
+			TerraTCGデッキボックスでデッキを構築しよう。
+			'''
+	}
+
+	WOFPack: {
+		DisplayName: プロモパック・地獄と試練の番人
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！レアなウォールオブフレッシュのカードを収録！
+			TerraTCGデッキボックスでデッキを構築しよう。
+			'''
+	}
+}
+
+Cards: {
+	GiantShelly: {
+		Name: "{$NPCName.GiantShelly}"
+		Attack.Name: Spiked Shell
+
+		Skill: {
+			Name: Skill: Solid Shell
+			Description:
+				'''
+				Your Salamander & 
+				Crawdad take 1 less 
+				dmg this turn.
+				'''
+		}
+	}
+
+	Crawdad: {
+		Name: "{$NPCName.Crawdad}"
+		Attack.Name: Crush Claw
+
+		Skill: {
+			Name: Skill: Claw Cheer
+			Description:
+				'''
+				Your Salamander & 
+				Shelly deal +1 dmg 
+				this turn.
+				'''
+		}
+	}
+
+	Salamander: {
+		Name: "{$NPCName.Salamander}"
+		Attack.Name: Acid Spit
+
+		Skill: {
+			Name: Skill: Silky Scales
+			Description:
+				'''
+				Your Crawdad & Shelly 
+				attack for 1 less MP 
+				this turn.
+				'''
+		}
+	}
+
+	Zombie: {
+		Name: "{$NPCName.Zombie}"
+		Attack.Name: Zombie Bite
+	}
+
+	GreenSlime: {
+		Name: "{$NPCName.GreenSlime}"
+		Attack.Name: Slime Ball
+	}
+
+	BlueSlime: {
+		Name: "{$NPCName.BlueSlime}"
+		Attack.Name: Slime Slap
+	}
+
+	MotherSlime: {
+		Name: "{$NPCName.MotherSlime}"
+
+		Attack: {
+			Name: Slime Brood
+			Description:
+				'''
+				Deals +1 dmg for
+				each slime you 
+				control.
+				'''
+		}
+	}
+
+	SlimedZombie: {
+		Name: Slimed Zombie
+
+		Attack: {
+			Name: Slime Bite
+			Description:
+				'''
+				Deals +1 dmg if you
+				control a slime.
+				'''
+		}
+
+		Modifier.Description:
+			'''
+			Takes -1 dmg if you 
+			control a slime.
+			'''
+	}
+
+	Pinky: {
+		Name: "{$NPCName.Pinky}"
+
+		Attack: {
+			Name: Pink Slime
+			Description:
+				'''
+				Costs 1 MP less for
+				each slime you 
+				control.
+				'''
+		}
+	}
+
+	FaceMonster: {
+		Name: "{$NPCName.FaceMonster}"
+
+		Attack: {
+			Name: Gaping Jaw
+			Description:
+				'''
+				Attack target gains
+				Bleeding (takes +1
+				dmg from attacks.)
+				'''
+		}
+	}
+
+	Crimera: {
+		Name: "{$NPCName.Crimera}"
+
+		Attack: {
+			Name: Blood Suck
+			Description:
+				'''
+				Attack target gains
+				Bleeding (takes +1
+				dmg from attacks.)
+				'''
+		}
+	}
+
+	Creeper: {
+		Name: "{$NPCName.Creeper}"
+		Modifier.Description:
+			'''
+			Boss' Helper: Your
+			Brain of Cthulhu's 
+			attacks cause Bleeding.
+			'''
+		Attack.Name: Evil Gaze
+	}
+
+	BrainOfCthulhu: {
+		Name: "{$NPCName.BrainofCthulhu}"
+		Modifier.Description:
+			'''
+			Bloodlust: Deals +2 dmg 
+			to Bleeding enemies.
+			Zealous.
+			'''
+		Attack.Name: Headache
+	}
+
+	QueenBee: {
+		Name: "{$NPCName.QueenBee}"
+		Modifier.Description:
+			'''
+			Royal Honey: Enemies
+			become Poisoned upon
+			attacking an ally.
+			'''
+		Attack.Name: Regal Buzz
+	}
+
+	SpikedSlime: {
+		Name: "{$NPCName.SlimeSpiked}"
+		Modifier.Description:
+			'''
+			Boss' Helper: Spiked.
+			Your King Slime has 
+			Spiked.
+			'''
+		Attack.Name: Royal Helper
+	}
+
+	KingSlime: {
+		Name: "{$NPCName.KingSlime}"
+
+		Skill: {
+			Name: Royal Decree
+			Description:
+				'''
+				All allied Slimes deal 
+				+1 dmg this turn, and 
+				heal 1 HP.
+				'''
+		}
+
+		Attack.Name: Royal Bounce
+	}
+
+	MushroomZombie: {
+		Name: "{$NPCName.ZombieMushroom}"
+		Attack.Name: Spore Bite
+		Modifier.Description:
+			'''
+			Lifesteal: Gains 1
+			HP after attacking.
+			'''
+	}
+
+	SporeSkeleton: {
+		Name: "{$NPCName.SporeSkeleton}"
+		Attack.Name: Fungal Bone
+		Modifier.Description:
+			'''
+			Lifesteal: Gains 1
+			HP after attacking.
+			'''
+	}
+
+	SporeBat: {
+		Name: "{$NPCName.SporeBat}"
+		Attack.Name: Spore Bite
+		Modifier.Description: Lifesteal, Evasive
+	}
+
+	GlowingSnail: {
+		Name: "{$NPCName.GlowingSnail}"
+		Attack.Name: Glowing Shell
+
+		Skill: {
+			Name: Skill: Spore Spread
+			Description:
+				'''
+				Allies gain Lifesteal
+				this turn (they gain
+				1 HP after attacking)
+				'''
+		}
+	}
+
+	AnomuraFungus: {
+		Name: "{$NPCName.AnomuraFungus}"
+
+		Attack: {
+			Name: Infect
+			Description:
+				'''
+				Allies that attack target 
+				creature get +1 HP.
+				'''
+		}
+
+		Modifier.Description:
+			'''
+			Lifesteal: Gains 1
+			HP after attacking.
+			'''
+	}
+
+	Wraith: {
+		Name: "{$NPCName.Wraith}"
+		Attack.Name: Haunt
+		Modifier.Description:
+			'''
+			Evasive: May attack 
+			blocked enemies
+			'''
+	}
+
+	PosessedArmor: {
+		Name: "{$NPCName.PossessedArmor}"
+		Attack.Name: Cursed Steel
+		Modifier.Description:
+			'''
+			Sturdy: Takes 1 less
+			dmg from attacks.
+			'''
+	}
+
+	ServantOfCthulhu: {
+		Name: Servant of C.
+		Modifier.Description:
+			'''
+			Boss' Helper: Your Eye
+			of Cthulhu has Sturdy 
+			if under half HP.
+			'''
+		Attack.Name: Royal Helper
+	}
+
+	EyeOfCthulhu: {
+		Name: "{$NPCName.EyeofCthulhu}"
+		Modifier.Description:
+			'''
+			Evasive: May attack 
+			blocked enemies
+			'''
+
+		Attack: {
+			Name: Eyebite
+			Description:
+				'''
+				If under half HP,
+				deals double dmg.
+				'''
+		}
+	}
+
+	WanderingEye: {
+		Name: "{$NPCName.WanderingEye}"
+		Modifier.Description:
+			'''
+			Evasive: May attack 
+			blocked enemies
+			'''
+
+		Attack: {
+			Name: Eyebite
+			Description:
+				'''
+				If under half HP,
+				deal +2 dmg.
+				'''
+		}
+	}
+
+	DemonEye: {
+		Name: "{$NPCName.DemonEye}"
+		Attack.Name: Harsh Gaze
+		Modifier.Description:
+			'''
+			Evasive: May attack 
+			blocked enemies
+			'''
+	}
+
+	Drippler: {
+		Name: "{$NPCName.Drippler}"
+
+		Attack: {
+			Name: Blood Drip
+			Description:
+				'''
+				+2 dmg the turn 
+				this creature enters
+				'''
+		}
+
+		Modifier.Description:
+			'''
+			Zealous: This card may
+			act the turn it enters
+			'''
+	}
+
+	WanderingEyeFish: {
+		Name: Eye Fish
+		Attack.Name: Bloody Gaze
+		Modifier.Description: Zealous, Evasive
+	}
+
+	ZombieMerman: {
+		Name: "{$NPCName.ZombieMerman}"
+		Attack.Name: Drag Down
+	}
+
+	ViciousGoldfish: {
+		Name: "{$NPCName.CrimsonGoldfish}"
+
+		Attack: {
+			Name: Bloody Scales
+			Description:
+				'''
+				+1 dmg the turn 
+				this creature enters
+				'''
+		}
+
+		Modifier.Description:
+			'''
+			Zealous: This card may
+			act the turn it enters
+			'''
+	}
+
+	ViciousBunny: {
+		Name: "{$NPCName.CrimsonBunny}"
+		Attack.Name: Bloody Kick
+
+		Skill: {
+			Name: Skill: Blood Cheer
+			Description:
+				'''
+				Target ally deals +1 dmg 
+				this turn, and gains
+				Bleeding (takes +1 dmg)
+				'''
+		}
+	}
+
+	BloodZombie: {
+		Name: "{$NPCName.BloodZombie}"
+
+		Attack: {
+			Name: Vicious Tear
+			Description:
+				'''
+				+1 dmg the turn 
+				this creature enters
+				'''
+		}
+
+		Modifier.Description:
+			'''
+			Zealous: This card may
+			act the turn it enters
+			'''
+	}
+
+	Harpy: {
+		Name: "{$NPCName.Harpy}"
+
+		Attack: {
+			Name: Dive-bomb
+			Description:
+				'''
+				All allies may attack
+				target blocked enemy
+				'''
+		}
+
+		Modifier.Description:
+			'''
+			Evasive: May attack 
+			blocked enemies
+			'''
+	}
+
+	JungleTurtle: {
+		Name: "{$NPCName.TurtleJungle}"
+		Attack.Name: Hard Shell
+
+		Skill: {
+			Name: Skill: Guardian
+			Description:
+				'''
+				Your opponent must 
+				attack this next turn
+				'''
+		}
+	}
+
+	GiantTortoise: {
+		Name: "{$NPCName.GiantTortoise}"
+		Attack.Name: Shell Smash
+		Modifier.Description:
+			'''
+			Spiked Shell: Spiked.
+			Enemies can't attack 
+			allies with the lowest
+			HP.
+			'''
+	}
+
+	Piranha: {
+		Name: "{$NPCName.Piranha}"
+
+		Attack: {
+			Name: Lethal Bite
+			Description:
+				'''
+				Attack target gains
+				Bleeding (takes +1
+				dmg from attacks.)
+				'''
+		}
+	}
+
+	MossHornet: {
+		Name: "{$NPCName.MossHornet}"
+
+		Attack: {
+			Name: Mossy Sting
+			Description:
+				'''
+				Poison target enemy
+				(it takes 1 dmg each
+				turn)
+				'''
+		}
+	}
+
+	Hornet: {
+		Name: "{$NPCName.Hornet}"
+
+		Attack: {
+			Name: Sting
+			Description:
+				'''
+				Poison target enemy
+				(it takes 1 dmg each
+				turn)
+				'''
+		}
+	}
+
+	Bee: {
+		Name: "{$NPCName.Bee}"
+		Attack.Name: Sting
+
+		Skill: {
+			Name: Skill: Toxic Honey
+			Description:
+				'''
+				Target ally Poisons 
+				enemies this turn 
+				(they take 1 dmg/turn)
+				'''
+		}
+	}
+
+	SpikedJungleSlime: {
+		Name: "{$NPCName.JungleSlime}"
+		Attack.Name: Toxic Ooze
+		Modifier.Description:
+			'''
+			Spiked: A creature that
+			attacks this card takes
+			2 dmg
+			'''
+	}
+
+	DoctorBones: {
+		Name: "{$NPCName.DoctorBones}"
+
+		Attack: {
+			Name: Find Fauna
+			Description:
+				'''
+				Deals +1 dmg for each
+				Critter you control.
+				'''
+		}
+	}
+
+	Crab: {
+		Name: "{$NPCName.Crab}"
+		Attack.Name: Pinch
+		Modifier.Description:
+			'''
+			Relentless: May attack
+			an additional time each
+			turn.
+			'''
+	}
+
+	Jellyfish: {
+		Name: Jellyfish
+		Attack.Name: Sting
+		Modifier.Description:
+			'''
+			Relentless: May attack
+			an additional time each
+			turn.
+			'''
+	}
+
+	Shark: {
+		Name: "{$NPCName.Shark}"
+		Attack.Name: Jaws
+		Modifier.Description:
+			'''
+			Relentless: May attack
+			an additional time each
+			turn.
+			'''
+	}
+
+	FeralClaws: {
+		Name: "{$ItemName.FeralClaws}"
+
+		Skill: {
+			Name: Equip
+			Description:
+				'''
+				Equipped creature gains
+				Relentless (it may attack
+				an additional time each
+				turn.)
+				'''
+		}
+	}
+
+	Tim: {
+		Name: "{$NPCName.Tim}"
+
+		Attack: {
+			Name: Magic Missile
+			Description:
+				'''
+				Deals 1 dmg for each
+				item you used this
+				game.
+				'''
+		}
+	}
+
+	LostGirl: {
+		Name: "{$NPCName.LostGirl}"
+		Attack.Name: Fake Tears
+		Modifier.Description:
+			'''
+			If you draw an item
+			for turn, transform
+			this card.
+			'''
+	}
+
+	Nymph: {
+		Name: "{$NPCName.Nymph}"
+		Attack.Name: Ensnare
+		Modifier.Description:
+			'''
+			Evasive: May attack 
+			blocked enemies
+			'''
+	}
+
+	Dryad: {
+		Name: "{$NPCName.Dryad}'s Ward"
+		Modifier.Description:
+			'''
+			Return target allied,
+			unpaused, non-expert 
+			creature to the hand
+			'''
+	}
+
+	PartyGirl: {
+		Name: "{$NPCName.PartyGirl}'s Favor"
+		Modifier.Description:
+			'''
+			Unpause target Ally. Its
+			attack costs 1 MP less 
+			this turn.
+			'''
+	}
+
+	Nurse: {
+		Name: "{$NPCName.Nurse}'s Care"
+		Modifier.Description:
+			'''
+			Target ally heals 3 hp.
+			Remove all debuffs 
+			from it.
+			'''
+	}
+
+	TorturedSoul: {
+		Name: Tortured Soul
+		Modifier.Description:
+			'''
+			If you have less HP
+			than your opponent,
+			add a Boss from your
+			deck to the hand.
+			'''
+	}
+
+	ArmsDealer: {
+		Name: "{$NPCName.ArmsDealer}'s Aim"
+		Modifier.Description:
+			'''
+			Unpause target allied
+			creature. It deals +2 
+			dmg this turn.
+			'''
+	}
+
+	Guide: {
+		Name: "{$NPCName.Guide}'s Guidance"
+		Modifier.Description: Draw 2 cards.
+	}
+
+	Wizard: {
+		Name: "{$NPCName.Wizard}'s Wisdom"
+		Modifier.Description: Add 1 Mana Crystal
+	}
+
+	OldMan: {
+		Name: "{$NPCName.OldMan}'s Curse"
+		Modifier.Description:
+			'''
+			Move target creature to
+			an unoccupied column
+			'''
+	}
+
+	Shuriken: {
+		Name: "{$ItemName.Shuriken}"
+
+		Skill: {
+			Name: Use
+			Description:
+				'''
+				Target creature
+				inflicts Bleeding this
+				turn (Enemies take
+				+1 dmg)
+				'''
+		}
+	}
+
+	LightsBane: {
+		Name: "{$ItemName.LightsBane}"
+
+		Skill: {
+			Name: Equip
+			Description:
+				'''
+				If target creature dies,
+				your other creatures 
+				deal +1 dmg.
+				'''
+		}
+	}
+
+	BloodButcherer: {
+		Name: "{$ItemName.BloodButcherer}"
+
+		Skill: {
+			Name: Equip
+			Description:
+				'''
+				Equipped creature
+				inflicts Bleeding
+				(Enemies take +1 dmg)
+				'''
+		}
+	}
+
+	PoisonedKnife: {
+		Name: "{$ItemName.PoisonedKnife}"
+
+		Skill: {
+			Name: Use
+			Description:
+				'''
+				Target creature
+				inflicts Poison this
+				turn (Enemies take
+				1 dmg per turn)
+				'''
+		}
+	}
+
+	BladeOfGrass: {
+		Name: "{$ItemName.BladeofGrass}"
+
+		Skill: {
+			Name: Equip
+			Description:
+				'''
+				Equipped creature
+				inflicts Poison 
+				(Enemies take
+				1 dmg per turn)
+				'''
+		}
+	}
+
+	CopperShortsword: {
+		Name: "{$ItemName.CopperShortsword}"
+
+		Skill: {
+			Name: Equip
+			Description:
+				'''
+				Equipped creature
+				deals +1 damage.
+				'''
+		}
+	}
+
+	PlatinumBroadsword: {
+		Name: "{$ItemName.PlatinumBroadsword}"
+
+		Skill: {
+			Name: Equip
+			Description:
+				'''
+				Equipped creature
+				deals +2 damage.
+				'''
+		}
+	}
+
+	Muramasa: {
+		Name: "{$ItemName.Muramasa}"
+
+		Skill: {
+			Name: Equip
+			Description:
+				'''
+				Equipped creature's
+				attack costs 1 MP
+				less.
+				'''
+		}
+	}
+
+	Shackle: {
+		Name: "{$ItemName.Shackle}"
+
+		Skill: {
+			Name: Equip
+			Description:
+				'''
+				Equipped creature takes
+				-2 dmg from the next 
+				attack against it. Then,
+				remove Shackle.
+				'''
+		}
+	}
+
+	CobaltShield: {
+		Name: "{$ItemName.CobaltShield}"
+
+		Skill: {
+			Name: Equip
+			Description:
+				'''
+				Equipped creature takes
+				-1 dmg from attacks.
+				'''
+		}
+	}
+
+	SwiftnessPotion: {
+		Name: "{$ItemName.SwiftnessPotion}"
+
+		Skill: {
+			Name: Use
+			Description: Unpause target creature.
+		}
+	}
+
+	ThornsPotion: {
+		Name: "{$ItemName.ThornsPotion}"
+
+		Skill: {
+			Name: Use
+			Description:
+				'''
+				Next turn, enemies that
+				attack target creature
+				take 2 dmg.
+				'''
+		}
+	}
+
+	IronskinPotion: {
+		Name: "{$ItemName.IronskinPotion}"
+
+		Skill: {
+			Name: Use
+			Description:
+				'''
+				Next turn, target ally
+				takes 2 less dmg from
+				attacks.
+				'''
+		}
+	}
+
+	LesserHealingPotion: {
+		Name: "{$ItemName.HealingPotion}"
+
+		Skill: {
+			Name: Use
+			Description: Target ally heals 3 hp.
+		}
+	}
+
+	AngelStatue: {
+		Name: "{$ItemName.AngelStatue}"
+
+		Skill: {
+			Name: Use
+			Description:
+				'''
+				Target creature does 
+				nothing.
+				'''
+		}
+	}
+
+	RagePotion: {
+		Name: "{$ItemName.RagePotion}"
+
+		Skill: {
+			Name: Use
+			Description:
+				'''
+				This turn, target ally
+				deals +2 dmg.
+				'''
+		}
+	}
+
+	ThrowingKnife: {
+		Name: "{$ItemName.ThrowingKnife}"
+
+		Skill: {
+			Name: Use
+			Description:
+				'''
+				target ally's next
+				attack deals +1 dmg.
+				'''
+		}
+	}
+
+	FledglingWings: {
+		Name: Fledgling Wings
+
+		Skill: {
+			Name: Equip
+			Description:
+				'''
+				Equipped creature gains
+				Evasive (it may attack
+				blocked enemies)
+				'''
+		}
+	}
+
+	GoblinThief: {
+		Name: "{$NPCName.GoblinThief}"
+		Attack.Name: Shank
+
+		Skill: {
+			Name: Skill: Pickpocket
+			Description:
+				'''
+				If you used an item 
+				this turn, draw 1 
+				card.
+				'''
+		}
+	}
+
+	GoblinScout: {
+		Name: "{$NPCName.GoblinScout}"
+
+		Attack: {
+			Name: Scout
+			Description:
+				'''
+				Deals +1 dmg for each
+				item used this turn.
+				'''
+		}
+
+		Modifier.Description:
+			'''
+			Zealous: This card may
+			act the turn it enters
+			'''
+	}
+
+	GoblinArcher: {
+		Name: "{$NPCName.GoblinArcher}"
+
+		Attack: {
+			Name: Sharpshoot
+			Description:
+				'''
+				Deals +1 dmg for each
+				item used this turn.
+				'''
+		}
+
+		Modifier.Description:
+			'''
+			Evasive: May target any 
+			enemy for attacks
+			'''
+	}
+
+	GoblinWarlock: {
+		Name: "{$NPCName.GoblinSummoner}"
+
+		Attack: {
+			Name: Shadowflame
+			Description:
+				'''
+				Deals +1 dmg each 
+				time you use an 
+				item.
+				'''
+		}
+	}
+
+	Mimic: {
+		Name: "{$NPCName.Mimic}"
+
+		Attack: {
+			Name: Lure
+			Description:
+				'''
+				Costs 1 less for each 
+				item used this game.
+				'''
+		}
+
+		Modifier.Description:
+			'''
+			Sturdy: Takes 1 less
+			dmg from attacks.
+			'''
+	}
+
+	Skeletron: {
+		Name: "{$NPCName.SkeletronHead}"
+		Attack.Name: Skull Spin
+		Modifier.Description:
+			'''
+			When this enters, place
+			two Skeletron Hands
+			'''
+	}
+
+	SkeletronHandL: {
+		Name: "{$NPCName.SkeletronHand} L."
+		Attack.Name: Slap
+		Modifier.Description:
+			'''
+			While this is in the
+			offence row, your 
+			Skeletron deals +2 dmg
+			'''
+	}
+
+	SkeletronHandR: {
+		Name: "{$NPCName.SkeletronHand} R."
+		Attack.Name: Slap
+		Modifier.Description:
+			'''
+			While this is in the
+			offence row, your 
+			Skeletron takes -2 dmg
+			'''
+	}
+
+	WallOfFlesh: {
+		Name: "{$NPCName.WallofFlesh}"
+		Attack.Name: Flesh Wall
+		Modifier.Description:
+			'''
+			Inevitable: When this
+			enters, place two Eyes.
+			This heals 1 HP/turn.
+			'''
+	}
+
+	WallOfFleshEye: {
+		Name: "{$NPCName.WallofFlesh} Eye"
+		Modifier.Description:
+			'''
+			Sturdy. Can't attack. 
+			Your Wall of Flesh 
+			deals +1 dmg/turn.
+			'''
+	}
+
+	Leech: {
+		Name: "{$NPCName.LeechHead}"
+		Attack.Name: Blood Suck
+		Modifier.Description:
+			'''
+			Boss' Helper: Your Wall
+			of Flesh's healing 
+			increases by 1 per turn
+			'''
+	}
+
+	EaterOfWorlds: {
+		Name: "{$NPCName.EaterofWorldsHead}"
+		Attack.Name: Worm's World
+		Modifier.Description:
+			'''
+			Spiked. Lifesteal. If this
+			card reaches half health,
+			transform it.
+			'''
+	}
+
+	EaterSegment1: {
+		Name: Eater Segment
+		Attack.Name: Worm's World
+		Modifier.Description:
+			'''
+			Morbid: If this dies, 
+			your other creatures 
+			gain Spiked. This has
+			Spiked.
+			'''
+	}
+
+	EaterSegment2: {
+		Name: Eater Segment
+		Attack.Name: Worm's World
+		Modifier.Description:
+			'''
+			Morbid: If this dies, 
+			your other creatures 
+			gain Lifesteal. This has
+			Lifesteal.
+			'''
+	}
+
+	EaterOfSouls: {
+		Name: "{$NPCName.EaterofSouls}"
+		Attack.Name: Soul Suck
+		Modifier.Description:
+			'''
+			Morbid: If this dies, 
+			your other creatures 
+			gain Sturdy.
+			'''
+	}
+
+	Devourer: {
+		Name: "{$NPCName.DevourerHead}"
+		Attack.Name: Worm Wiggle
+		Modifier.Description:
+			'''
+			Morbid: If this dies, 
+			your other creatures 
+			deal +1 dmg.
+			'''
+	}
+
+	EnchantedNightcrawler: {
+		Name: E. Nightcrawler
+		Attack.Name: Worm Wish
+		Modifier.Description:
+			'''
+			Morbid: If this dies, you 
+			gain 1 Mana Crystal and 
+			draw 1 card.
+			'''
+	}
+
+	Bunny: {
+		Name: "{$NPCName.Bunny}"
+		Attack.Name: Bunny Kick
+
+		Skill: {
+			Name: Skill: Forest Wish
+			Description: Gain 1 MP
+		}
+	}
+
+	Dolphin: {
+		Name: "{$NPCName.Dolphin}"
+		Attack.Name: Nose Boop
+
+		Skill: {
+			Name: Skill: Ocean Wish
+			Description:
+				'''
+				Target creature's
+				attack costs 1 MP less
+				this turn.
+				'''
+		}
+	}
+
+	Squirrel: {
+		Name: "{$NPCName.Squirrel}"
+		Attack.Name: Acorn Toss
+
+		Skill: {
+			Name: Skill: Forest Cheer
+			Description:
+				'''
+				Target ally's next attack
+				this turn deals +1 dmg
+				'''
+		}
+	}
+
+	Goldfish: {
+		Name: "{$NPCName.Goldfish}"
+		Attack.Name: Fin Slap
+
+		Skill: {
+			Name: Skill: Pond Healing
+			Description: Target ally heals 1 dmg
+		}
+	}
+
+	Bat: {
+		Name: "{$NPCName.CaveBat}"
+		Attack.Name: Swoop
+		Modifier.Description:
+			'''
+			Evasive: May target any 
+			enemy for attacks
+			'''
+	}
+
+	JungleBat: {
+		Name: "{$NPCName.JungleBat}"
+		Attack.Name: Jungle Swoop
+		Modifier.Description:
+			'''
+			Evasive: May target any 
+			enemy for attacks
+			'''
+	}
+
+	Skeleton: {
+		Name: "{$NPCName.Skeleton}"
+		Attack.Name: Bone Break
+	}
+
+	UndeadMiner: {
+		Name: "{$NPCName.UndeadMiner}"
+
+		Attack: {
+			Name: Pickaxe Swing
+			Description:
+				'''
+				Costs 1 MP less for
+				each equipment on
+				this creature
+				'''
+		}
+	}
+
+	UndeadViking: {
+		Name: "{$NPCName.UndeadViking}"
+
+		Attack: {
+			Name: Frozen Axe
+			Description:
+				'''
+				Deals +1 dmg if this 
+				creature is equipped.
+				'''
+		}
+	}
+
+	AngryBones: {
+		Name: "{$NPCName.AngryBones}"
+		Modifier.Description:
+			'''
+			Equipping this crea-
+			ture costs 1 MP less.
+			'''
+		Attack.Name: Cursed Axe
+	}
+
+	ArmoredSkeleton: {
+		Name: Armed Skeleton
+		Modifier.Description:
+			'''
+			Equipping this crea-
+			ture costs 1 MP less.
+			'''
+
+		Attack: {
+			Name: Mighty Swing
+			Description:
+				'''
+				Costs 1 MP less for ea-
+				ch equipment on this
+				'''
+		}
+	}
+
+	ToxicSludge: {
+		Name: "{$NPCName.ToxicSludge}"
+
+		Attack: {
+			Name: Corrode
+			Description:
+				'''
+				Remove the newest
+				equipment from 
+				target enemy.
+				'''
+		}
+	}
+
+	DarkCaster: {
+		Name: "{$NPCName.DarkCaster}"
+
+		Attack: {
+			Name: Hex
+			Description:
+				'''
+				Target enemy's attack
+				costs +2 MP next turn.
+				'''
+		}
+	}
+
+	CursedSkull: {
+		Name: "{$NPCName.CursedSkull}"
+
+		Attack: {
+			Name: Curse
+			Description:
+				'''
+				Target enemy can't use
+				skills next turn.
+				'''
+		}
+
+		Modifier.Description: Evasive
+	}
+
+	Types: {
+		CREATURE: Creature
+		ITEM: Item
+		TOWNSFOLK: Townsfolk
+		EQUIPMENT: Equipment
+		CONSUMABLE: Consumable
+		FOREST: Forest
+		CAVERN: Cavern
+		FIGHTER: Fighter
+		CRITTER: Critter
+		SCOUT: Scout
+		DEFENDER: Defender
+		CASTER: Caster
+		SLIME: Slime
+		JUNGLE: Jungle
+		EVIL: Evil
+		SKY: Sky
+		BLOOD_MOON: Blood Moon
+		DESERT: Desert
+		OCEAN: Ocean
+		GOBLIN_ARMY: Goblin Army
+		MUSHROOM: Mushroom
+		EXPERT: Expert
+		BOSS: Boss
+		OWNED: Only Owned
+	}
+
+	Modifiers: {
+		PAUSED: Paused: Cannot act until next turn
+		DEFENSE_BOOST: Sturdy: Takes {0} less damage
+		BLEEDING: Bleeding: Takes {0} more damage
+		POISON: Poisoned: Takes {0} damage per turn
+		RELENTLESS: Relentless: May attack {0} extra times
+		EVASIVE: Evasive: May attack blocked opponents
+		SPIKED: Spiked: Attackers take {0} damage
+		LIFESTEAL: Lifesteal: Regains {0} HP on attack
+		MORBID: Morbid: An effect triggers when this dies
+	}
+
+	ModifierNames: {
+		DEFENSE_BOOST: Sturdy
+		BLEEDING: Bleeding
+		POISON: Poison
+		RELENTLESS: Relentless
+		EVASIVE: Evasive
+		ZEALOUS: Zealous
+		SPIKED: Spiked
+		LIFESTEAL: Lifesteal
+		MORBID: Morbid
+	}
+
+	Common: {
+		Turn: Turn
+		EndTurn: Pass
+		AddToDeck: Add 1 {0} to deck
+		RemoveFromDeck: Remove 1 {0} from deck
+		UseDeck: Use Deck {0}
+		DeckEdit: Edit Deck {0}
+		DeckCount: Cards
+		FilterCards: Filter Cards
+		ShowCards: Show {0} Cards
+		DuelChat: Let's Duel!
+		AskDeck: Which deck would you like to face?
+		YouWin: You win!
+		YouLose: You lose...
+		DeckNotValid: Your deck must be exactly 20 cards, and contain at least one non-expert, non-critter creature.
+		Prev: Back
+		Next: Next
+		Close: Close
+		DoubleClickToClose: Double Click to Concede
+		Hearts: Hearts
+		Mana: Mana Crystals
+		Townsfolk: Townsfolk Emblem
+		Search: Search
+		For: " for"
+		UnlockedANewDeck: Unlocked a new deck
+		AcceptedInvitation: has accepted your invitation for a soul-stakes game!
+		FoundIn: Found In:
+		AnyPack: Any Pack
+		Forfeited: forfeited their soul to {0} in a card game!
+		PressEscAgainToExit: Press ESC again to concede
+	}
+
+	DeckNames: {
+		Tutorial: Tutorial
+		ForestBeginner: Forest 1
+		Forest: Forest 2
+		ForestAdvanced: Forest 3
+		SlimeBeginner: Slimes 1
+		Slime: Slimes 2
+		SlimeAdvanced: Slimes 3
+		JungleBeginner: Jungle 1
+		Jungle: Jungle 2
+		JungleAdvanced: Jungle 3
+		Treasure: Treasures
+		Salamander: Salamanders
+		BloodMoonBeginner: Blood Moon 1
+		BloodMoon: Blood Moon 2
+		BloodMoonAdvanced: Blood Moon 3
+		MushroomBeginner: Mushrooms 1
+		Mushroom: Mushrooms 2
+		SkeletonsBeginner: Skeletons 1
+		Skeletons: Skeletons 2
+		Curse: Dungeon 1
+		CurseAdvanced: Dungeon 2
+		GoblinsBeginner: Goblins 1
+		Goblins: Goblins 2
+		CrabsBeginner: Ocean 1
+		Crabs: Ocean 2
+		CrabsAdvanced: Ocean 3
+		EvilBeginner: Evil 1
+		Evil: Evil 2
+		EvilAdvanced: Evil 3
+		QueenBee: Queen Bee
+		KingSlime: King Slime
+		BoC: Brain of Cthulhu
+		EoC: Eye of Cthulhu
+		EoW: Eater of Worlds
+		Skeletron: Skeletron
+		WoF: Wall of Flesh
+	}
+
+	ActionText: {
+		You: You
+		Opponent: Opponent
+		Move: Move
+		Use: Use
+		Attack: Attack
+		Promote: Promote
+		Play: Play
+		Moved: moved
+		Used: used
+		Attacked: attacked
+		Promoted: promoted
+		Played: played
+		With: with
+		For: for
+		On: on
+		Died: died
+		Ownership: "'s"
+		Skill: skill
+		Bounced: returned a card to the hand
+		AddedMana: added a Mana crystal
+		Drew: drew
+		Cards: cards
+		To: to
+		NotEnoughMana: Not enough Mana
+		NotEnoughTownsfolk: No Townsfolk Emblem available
+		OnlyOneBoss: You can only control one Boss
+		Morbid: Its Morbid ability triggered.
+	}
+
+	Tutorial: {
+		Slide0:
+			'''
+			Welcome to TerraTCG, the Terraria Trading Card Game! To start a game,
+			try talking to an NPC and selecting "Let's Duel!". Not every NPC is
+			currently supported, but more will be added in the future.
+			'''
+		Slide1:
+			'''
+			TerraTCG is a card game played between two players. Each player begins by 
+			shuffling their deck and drawing 5 cards. One player is then selected
+			randomly to go first.
+			'''
+		Slide2:
+			'''
+			Each player has a pool of 3 resource types, used in different ways:
+			- Hearts, which are lost whenever a creature the player controls dies.
+			- Mana Crystals, used to attack and play items, which grow by 1 per turn.
+			- A Townsfolk Emblem, used to play Townsfolk, which refreshes every turn.
+			'''
+		Slide3:
+			'''
+			Hearts represent a player's remaining life total. One heart is lost
+			whenever a creature the player controls dies, and a player loses the
+			game when all of their hearts are depleted.
+			'''
+		Slide4:
+			'''
+			Mana crystals are consumed when performing most game actions, such as
+			attacking with a creature or playing an item. Players start with a single
+			crystal on turn 1, then gain an additional crystal per turn up to 8 on
+			turn 8. 
+			'''
+		Slide5:
+			'''
+			The Townsfolk Emblem is used to cast Townfolk cards, powerful single-use
+			effects that can singlehandedly turn the tide of a game. One Townsfolk 
+			Emblem is generated per turn.
+			'''
+		Slide6:
+			'''
+			There are 3 types of Card in TerraTCG:
+			- Creatures, which are placed onto the battlefield for combat
+			- Items, which provide temporary or permanent buffs to creatures
+			- Townsfolk, which provide powerful single-use effects like card draw.
+			'''
+		Slide7:
+			'''
+			Creatures are the core of gameplay. They can be placed onto the battlefield
+			from the hand for no cost. 
+			'''
+		Slide8:
+			'''
+			To play a creature, click on that creature in hand, then on an appropriate 
+			empty zone on your battlefield.
+			'''
+		Slide9:
+			'''
+			Fighter creatures are meant for combat, and should be placed in the Offense 
+			row. Only creatures in the Offense Row (Sword Icons) may attack.
+			'''
+		Slide10: "Creatures enter the battlefield Paused, and must wait a turn to act. "
+		Slide11:
+			'''
+			Critter creatures lack combat prowess, but have powerful skills that 
+			support other creatures in combat. 
+			'''
+		Slide12:
+			'''
+			Critters are vulnerable to attacks from enemies, but can be protected 
+			by placing them in the Defense Row (Shield Icon) in the same column as 
+			another friendly creature.
+			'''
+		Slide13:
+			'''
+			Items can be attached to creatures and provide bonuses to their stats. It 
+			costs Mana Crystals to play Items from the hand. 
+			'''
+		Slide14:
+			'''
+			To play an Item, click the Item's card in hand, then an appropriate target
+			creature on the field. 
+			'''
+		Slide15:
+			'''
+			Hover over a creature's card preview to see which item buffs are currently
+			affecting it!
+			'''
+		Slide16:
+			'''
+			Townsfolk are a special card type that provide powerful sources of advantage,
+			like card draw and extra mana crystals. You can only use one Townsfolk per 
+			turn, which consumes your single Townsfolk Emblem.
+			'''
+		Slide17:
+			'''
+			Once all Mana Crystals and the Townsfolk Emblem are used, and all 
+			creatures on your field are Paused, you can take no additional game actions. 
+			Click the "Pass" button to pass turn to your opponent.
+			'''
+		Slide18:
+			'''
+			Your opponent plays their own creatures, items, and townsfolk during their
+			turn. Once they pass back to you, your creatures will Unpause and be able
+			to act! 
+			'''
+		Slide19:
+			'''
+			Expert Creatures are a special creature type that can be placed on top
+			of an Unpaused creature with the same Biome and Combat Role. Both the 
+			Wraith and Zombie are Forest Fighters, so the Zombie can be Promoted!
+			'''
+		Slide20:
+			'''
+			To promote an Expert creature, click on that creature in hand, then a
+			matching creature on the field.
+			'''
+		Slide21:
+			'''
+			Critters have skills that support your other creatures. Click on an Unpaused 
+			Critter to use its skill. Here, the Bunny grants you an extra Mana Crystal!
+			Using a creature's skill Pauses it until the next turn.
+			'''
+		Slide22:
+			'''
+			At any point in your turn, you may declare an attack with a creature in your
+			Offense Row. Attacking with a creature consumes Mana Crystals equal to that
+			creature's attack cost and Pauses it until your next turn.
+			'''
+		Slide23:
+			'''
+			To declare on an attack, click on a creature in your Offense Row first, then
+			any opposing creature. 
+			'''
+		Slide24: "The opposing Bunny takes 4 damage from the attack. "
+		Slide25:
+			'''
+			Once a creature's life is fully depleted, it will die, and the opponent will 
+			lose 1 Life Point. Repeat this process until the opponent's hearts are gone
+			to win the game!
+			'''
+		Slide26:
+			'''
+			Winning a game of TerraTCG grants you several TerraTCG booster packs. 
+			Open them to obtain new cards for your collection! Townsfolk will give
+			packs that contain cards themed to their decks.
+			'''
+		Slide27:
+			'''
+			Defeating an NPC once will unlock a second, more challenging deck for
+			that NPC. Defeat this second deck to earn an Invitation to Duel, a 
+			mystical item that allows you to challenge the Bosses themselves to
+			a game of TerraTCG!
+			'''
+		Slide28:
+			'''
+			Defeat a boss in battle to earn rare promo cards! Do you have what it takes
+			to defeat every* boss in a game of TerraTCG?
+
+			*TerraTCG currently supports every Pre-Hardmode boss besides Deerclops.
+			'''
+		Slide29:
+			'''
+			A TerraTCG Deckbox, crafted with 5 wood at a workbench, can be used to
+			edit your decks. Experiment with the cards you get from booster packs, and 
+			challenge more difficult opponents!
+			'''
+		Slide30: That's all for this tutorial. Talk to me again to challenge me to a game!
+	}
+}
+
+Configs: {
+	ClientConfig: {
+		DisplayName: Client Config
+		Headers.GameUI: Game UI
+
+		ShowActionLog: {
+			Label: Show Action Log
+			Tooltip: Show a scrolling log of all TerraTCG game actions.
+		}
+
+		ShowTooltips: {
+			Label: Show Tooltips
+			Tooltip: Show action tooltips during TerraTCG Games.
+		}
+
+		ShowCardPreview: {
+			Label: Show Card Previews
+			Tooltip: Show a large image of the moused-over card during TerraTCG games.
+		}
+
+		ShowFoils: {
+			Label: Show Foils
+			Tooltip: ""
+		}
+	}
+}
