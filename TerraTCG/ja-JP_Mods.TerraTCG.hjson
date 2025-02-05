@@ -214,1648 +214,1568 @@ Items: {
 
 Cards: {
 	GiantShelly: {
-		Name: "{$NPCName.GiantShelly}"
-		Attack.Name: Spiked Shell
+		Name: ｼﾞｬｲｱﾝﾄｼｪﾘｰ
+		Attack.Name: トゲトゲした殻
 
 		Skill: {
-			Name: Skill: Solid Shell
+			Name: スキル：堅実な殻
 			Description:
 				'''
-				Your Salamander & 
-				Crawdad take 1 less 
-				dmg this turn.
+				このターン、
+				味方のサラマンダーとザリガニの
+				被ダメージが1減少する。
 				'''
 		}
 	}
 
 	Crawdad: {
 		Name: "{$NPCName.Crawdad}"
-		Attack.Name: Crush Claw
+		Attack.Name: ｻﾞﾘｶﾞﾆ
 
 		Skill: {
-			Name: Skill: Claw Cheer
+			Name: スキル：爪の援護
 			Description:
 				'''
-				Your Salamander & 
-				Shelly deal +1 dmg 
-				this turn.
+				このターン、
+				味方のサラマンダーとジャイアントシェリーの
+				与ダメージが1増加する。
 				'''
 		}
 	}
 
 	Salamander: {
-		Name: "{$NPCName.Salamander}"
-		Attack.Name: Acid Spit
+		Name: ｻﾗﾏﾝﾀﾞｰ
+		Attack.Name: 毒の唾
 
 		Skill: {
-			Name: Skill: Silky Scales
+			Name: スキル：絹のような鱗
 			Description:
 				'''
-				Your Crawdad & Shelly 
-				attack for 1 less MP 
-				this turn.
+				このターン、
+				味方のザリガニとジャイアントシェリーの
+				攻撃に必要なMPが1減る。
 				'''
 		}
 	}
 
 	Zombie: {
-		Name: "{$NPCName.Zombie}"
-		Attack.Name: Zombie Bite
+		Name: ｿﾞﾝﾋﾞ
+		Attack.Name: 噛みつき
 	}
 
 	GreenSlime: {
-		Name: "{$NPCName.GreenSlime}"
-		Attack.Name: Slime Ball
+		Name: ｸﾞﾘｰﾝｽﾗｲﾑ
+		Attack.Name: スライムボール
 	}
 
 	BlueSlime: {
-		Name: "{$NPCName.BlueSlime}"
-		Attack.Name: Slime Slap
+		Name: ﾌﾞﾙｰｽﾗｲﾑ
+		Attack.Name: スライムビンタ
 	}
 
 	MotherSlime: {
-		Name: "{$NPCName.MotherSlime}"
+		Name: ﾏｻﾞｰｽﾗｲﾑ
 
 		Attack: {
-			Name: Slime Brood
+			Name: 母なるスライム
 			Description:
 				'''
-				Deals +1 dmg for
-				each slime you 
-				control.
+				味方にいるスライム1体につき、
+				1ダメージを追加で与える。
 				'''
 		}
 	}
 
 	SlimedZombie: {
-		Name: Slimed Zombie
+		Name: ｽﾗｲﾑｿﾞﾝﾋﾞ
 
 		Attack: {
-			Name: Slime Bite
+			Name: べとべと噛みつき
 			Description:
 				'''
-				Deals +1 dmg if you
-				control a slime.
+				味方にスライムがいる場合、
+				与ダメージが1増加する。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			Takes -1 dmg if you 
-			control a slime.
+			味方にスライムがいる場合、
+			被ダメージが1減少する。
 			'''
 	}
 
 	Pinky: {
-		Name: "{$NPCName.Pinky}"
+		Name: ﾋﾟﾝｷｰ
 
 		Attack: {
-			Name: Pink Slime
+			Name: 珍しいスライム！
 			Description:
 				'''
-				Costs 1 MP less for
-				each slime you 
-				control.
+				味方にいるスライム1体につき、
+				消費MPが1少なくなる。
 				'''
 		}
 	}
 
 	FaceMonster: {
-		Name: "{$NPCName.FaceMonster}"
+		Name: ﾌｪｲｽﾓﾝｽﾀｰ
 
 		Attack: {
-			Name: Gaping Jaw
+			Name: 開かれたアゴ
 			Description:
 				'''
-				Attack target gains
-				Bleeding (takes +1
-				dmg from attacks.)
+				攻撃対象に出血状態を与える。
+				（出血状態：攻撃によるダメージが1増加する）
 				'''
 		}
 	}
 
 	Crimera: {
-		Name: "{$NPCName.Crimera}"
+		Name: ｸﾘﾒﾗ
 
 		Attack: {
-			Name: Blood Suck
+			Name: 吸血
 			Description:
 				'''
-				Attack target gains
-				Bleeding (takes +1
-				dmg from attacks.)
+				攻撃対象に出血状態を与える。
+				（出血状態：攻撃によるダメージが1増加する）
 				'''
 		}
 	}
 
 	Creeper: {
-		Name: "{$NPCName.Creeper}"
+		Name: ｸﾘｰﾊﾟｰ
 		Modifier.Description:
 			'''
-			Boss' Helper: Your
-			Brain of Cthulhu's 
-			attacks cause Bleeding.
+			「ボスの助っ人」
+			クトゥルフの脳の攻撃が出血状態を引き起こすようになる。
+			（出血状態：攻撃によるダメージが1増加する）
 			'''
-		Attack.Name: Evil Gaze
+		Attack.Name: 悪意の視線
 	}
 
 	BrainOfCthulhu: {
-		Name: "{$NPCName.BrainofCthulhu}"
+		Name: ｸﾄｩﾙﾌの脳
 		Modifier.Description:
 			'''
-			Bloodlust: Deals +2 dmg 
-			to Bleeding enemies.
-			Zealous.
+			「血塗れの渇望」
+			出血状態の敵に2の追加ダメージを与える。
 			'''
-		Attack.Name: Headache
+		Attack.Name: 痛い頭痛
 	}
 
 	QueenBee: {
-		Name: "{$NPCName.QueenBee}"
+		Name: 女王蜂
 		Modifier.Description:
 			'''
-			Royal Honey: Enemies
-			become Poisoned upon
-			attacking an ally.
+			「ロイヤルハニー」
+			味方を攻撃した敵を毒状態にする。
 			'''
-		Attack.Name: Regal Buzz
+		Attack.Name: 女王の羽音
 	}
 
 	SpikedSlime: {
-		Name: "{$NPCName.SlimeSpiked}"
+		Name: ｽﾊﾟｲｸｽﾗｲﾑ
 		Modifier.Description:
 			'''
-			Boss' Helper: Spiked.
-			Your King Slime has 
-			Spiked.
+			「ボスの助っ人」
+			キングスライムがトゲトゲ状態になる。
 			'''
 		Attack.Name: Royal Helper
 	}
 
 	KingSlime: {
-		Name: "{$NPCName.KingSlime}"
+		Name: ｷﾝｸﾞｽﾗｲﾑ
 
 		Skill: {
-			Name: Royal Decree
+			Name: 王の勅令
 			Description:
 				'''
-				All allied Slimes deal 
-				+1 dmg this turn, and 
-				heal 1 HP.
+				このターン、味方のスライムの与ダメージが1増加する。
+				さらに、味方のスライムのHPを1回復する。
 				'''
 		}
 
-		Attack.Name: Royal Bounce
+		Attack.Name: ロイヤルジャンプ
 	}
 
 	MushroomZombie: {
-		Name: "{$NPCName.ZombieMushroom}"
-		Attack.Name: Spore Bite
+		Name: 胞子ｿﾞﾝﾋﾞ
+		Attack.Name: キノキノ噛みつき
 		Modifier.Description:
 			'''
-			Lifesteal: Gains 1
-			HP after attacking.
+			「吸収」
+			攻撃後にHPを1回復する。
 			'''
 	}
 
 	SporeSkeleton: {
-		Name: "{$NPCName.SporeSkeleton}"
-		Attack.Name: Fungal Bone
+		Name: 胞子ｽｹﾙﾄﾝ
+		Attack.Name: キノコボーン
 		Modifier.Description:
 			'''
-			Lifesteal: Gains 1
-			HP after attacking.
+			「吸収」
+			攻撃後にHPを1回復する。
 			'''
 	}
 
 	SporeBat: {
-		Name: "{$NPCName.SporeBat}"
-		Attack.Name: Spore Bite
-		Modifier.Description: Lifesteal, Evasive
+		Name: 胞子ｺｳﾓﾘ
+		Attack.Name: キノキノ噛みつき
+		Modifier.Description: 「吸収」「前衛回避」
 	}
 
 	GlowingSnail: {
-		Name: "{$NPCName.GlowingSnail}"
-		Attack.Name: Glowing Shell
+		Name: 光るｶﾀﾂﾑﾘ
+		Attack.Name: 輝く殻
 
 		Skill: {
-			Name: Skill: Spore Spread
+			Name: スキル：胞子の拡散
 			Description:
 				'''
-				Allies gain Lifesteal
-				this turn (they gain
-				1 HP after attacking)
+				このターン、味方は吸収状態になる。
+				（攻撃後にHPを1回復する）
 				'''
 		}
 	}
 
 	AnomuraFungus: {
-		Name: "{$NPCName.AnomuraFungus}"
+		Name: ｱﾉﾑﾗﾌｧﾝｸﾞｽ
 
 		Attack: {
-			Name: Infect
+			Name: 感染
 			Description:
 				'''
-				Allies that attack target 
-				creature get +1 HP.
+				敵を攻撃した味方のHPを1回復する。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			Lifesteal: Gains 1
-			HP after attacking.
+			「吸収」
+			攻撃後にHPを1回復する。
 			'''
 	}
 
 	Wraith: {
-		Name: "{$NPCName.Wraith}"
-		Attack.Name: Haunt
+		Name: ﾚｲｽ
+		Attack.Name: 祟り
 		Modifier.Description:
 			'''
-			Evasive: May attack 
-			blocked enemies
+			「前衛回避」
+			ブロックされた敵を攻撃することができる
 			'''
 	}
 
 	PosessedArmor: {
-		Name: "{$NPCName.PossessedArmor}"
-		Attack.Name: Cursed Steel
+		Name: ﾎﾟｾﾞｯｼｮﾝｱｰﾏｰ
+		Attack.Name: 呪われた鋼
 		Modifier.Description:
 			'''
-			Sturdy: Takes 1 less
-			dmg from attacks.
+			「頑丈」
+			攻撃による被ダメージが1減少する。
 			'''
 	}
 
 	ServantOfCthulhu: {
-		Name: Servant of C.
+		Name: ｸﾄｩﾙﾌのしもべ
 		Modifier.Description:
 			'''
-			Boss' Helper: Your Eye
-			of Cthulhu has Sturdy 
-			if under half HP.
+			「ボスの助っ人」
+			クトゥルフの目はHPが半分以下になると頑丈になる。
 			'''
-		Attack.Name: Royal Helper
+		Attack.Name: 王のしもべ
 	}
 
 	EyeOfCthulhu: {
-		Name: "{$NPCName.EyeofCthulhu}"
+		Name: ｸﾄｩﾙﾌの目
 		Modifier.Description:
 			'''
-			Evasive: May attack 
-			blocked enemies
+			「前衛回避」
+			ブロックされた敵を攻撃することができる。
 			'''
 
 		Attack: {
-			Name: Eyebite
+			Name: 刮目の噛みつき
 			Description:
 				'''
-				If under half HP,
-				deals double dmg.
+				自身のHPが半分以下だった場合は
+				2倍のダメージを与える。
 				'''
 		}
 	}
 
 	WanderingEye: {
-		Name: "{$NPCName.WanderingEye}"
+		Name: ﾜﾝﾀﾞﾘﾝｸﾞｱｲ
 		Modifier.Description:
 			'''
-			Evasive: May attack 
-			blocked enemies
+			「前衛回避」
+			ブロックされた敵を攻撃することができる。
 			'''
 
 		Attack: {
-			Name: Eyebite
+			Name: 注目の噛みつき
 			Description:
 				'''
-				If under half HP,
-				deal +2 dmg.
+				自身のHPが半分以下だった場合は
+				追加で2ダメージを与える。
 				'''
 		}
 	}
 
 	DemonEye: {
-		Name: "{$NPCName.DemonEye}"
-		Attack.Name: Harsh Gaze
+		Name: ﾃﾞｰﾓﾝｱｲ
+		Attack.Name: 厳しい視線
 		Modifier.Description:
 			'''
-			Evasive: May attack 
-			blocked enemies
+			「前衛回避」
+			ブロックされた敵を攻撃することができる。
 			'''
 	}
 
 	Drippler: {
-		Name: "{$NPCName.Drippler}"
+		Name: ﾄﾞﾘｯﾌﾟﾗｰ
 
 		Attack: {
-			Name: Blood Drip
+			Name: 血の雫
 			Description:
 				'''
-				+2 dmg the turn 
-				this creature enters
+				このカードが登場したターンは
+				ダメージが2増加する。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			Zealous: This card may
-			act the turn it enters
+			「活力」
+			このカードは場に出たターンから
+			行動することができる。
 			'''
 	}
 
 	WanderingEyeFish: {
-		Name: Eye Fish
-		Attack.Name: Bloody Gaze
-		Modifier.Description: Zealous, Evasive
+		Name: ｱｲﾌｨｯｼｭ
+		Attack.Name: 血に塗れた視線
+		Modifier.Description: 「前衛回避」「活力」
 	}
 
 	ZombieMerman: {
-		Name: "{$NPCName.ZombieMerman}"
-		Attack.Name: Drag Down
+		Name: ｿﾞﾝﾋﾞﾏｰﾏﾝ
+		Attack.Name: 引きずり下ろし
 	}
 
 	ViciousGoldfish: {
-		Name: "{$NPCName.CrimsonGoldfish}"
+		Name: 真紅の金魚
 
 		Attack: {
-			Name: Bloody Scales
+			Name: 血塗れの鱗
 			Description:
 				'''
-				+1 dmg the turn 
-				this creature enters
+				このカードが登場したターンは
+				ダメージが1増加する。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			Zealous: This card may
-			act the turn it enters
+			「活力」
+			このカードは場に出たターンから
+			行動することができる。
 			'''
 	}
 
 	ViciousBunny: {
-		Name: "{$NPCName.CrimsonBunny}"
-		Attack.Name: Bloody Kick
+		Name: 真紅の兎
+		Attack.Name: 鮮血キック
 
 		Skill: {
-			Name: Skill: Blood Cheer
+			Name: スキル：出血援護
 			Description:
 				'''
-				Target ally deals +1 dmg 
-				this turn, and gains
-				Bleeding (takes +1 dmg)
+				対象の味方は1の追加ダメージを与え、出血状態になる。
 				'''
 		}
 	}
 
 	BloodZombie: {
-		Name: "{$NPCName.BloodZombie}"
+		Name: ﾌﾞﾗｯﾄﾞｿﾞﾝﾋﾞ
 
 		Attack: {
-			Name: Vicious Tear
+			Name: 血涙
 			Description:
 				'''
-				+1 dmg the turn 
-				this creature enters
+				このカードが登場したターンは
+				ダメージが1増加する。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			Zealous: This card may
-			act the turn it enters
+			「活力」
+			このカードは場に出たターンから
+			行動することができる。
 			'''
 	}
 
 	Harpy: {
-		Name: "{$NPCName.Harpy}"
+		Name: ﾊｰﾋﾟｰ
 
 		Attack: {
-			Name: Dive-bomb
+			Name: 急降下作戦
 			Description:
 				'''
-				All allies may attack
-				target blocked enemy
+				味方全員がブロックされた敵を攻撃できるようになる。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			Evasive: May attack 
-			blocked enemies
+			「前衛回避」
+			ブロックされた敵を攻撃することができる。
 			'''
 	}
 
 	JungleTurtle: {
-		Name: "{$NPCName.TurtleJungle}"
-		Attack.Name: Hard Shell
+		Name: ｼﾞｬﾝｸﾞﾙﾀｰﾄﾙ
+		Attack.Name: カタい甲羅
 
 		Skill: {
-			Name: Skill: Guardian
+			Name: スキル：守護者
 			Description:
 				'''
-				Your opponent must 
-				attack this next turn
+				次のターン、相手は攻撃しなければならない。
 				'''
 		}
 	}
 
 	GiantTortoise: {
-		Name: "{$NPCName.GiantTortoise}"
-		Attack.Name: Shell Smash
+		Name: ｼﾞｬｲｱﾝﾄﾀｰﾄﾙ
+		Attack.Name: 甲羅落とし
 		Modifier.Description:
 			'''
-			Spiked Shell: Spiked.
-			Enemies can't attack 
-			allies with the lowest
-			HP.
+			「トゲトゲ甲羅」
+			トゲ付き。
+			「頼れる守り手」
+			HPが最も低い味方を敵は攻撃できない。
 			'''
 	}
 
 	Piranha: {
-		Name: "{$NPCName.Piranha}"
+		Name: ﾋﾟﾗﾆｱ
 
 		Attack: {
-			Name: Lethal Bite
+			Name: 致命の噛みつき
 			Description:
 				'''
-				Attack target gains
-				Bleeding (takes +1
-				dmg from attacks.)
+				攻撃対象に出血状態を与える。
+				（出血状態：攻撃によるダメージが1増加する）
 				'''
 		}
 	}
 
 	MossHornet: {
-		Name: "{$NPCName.MossHornet}"
+		Name: ﾓｽﾎｰﾈｯﾄ
 
 		Attack: {
-			Name: Mossy Sting
+			Name: 苔むした針
 			Description:
 				'''
-				Poison target enemy
-				(it takes 1 dmg each
-				turn)
+				対象の敵を毒状態にする。
+				（毒状態：毎ターン1ダメージを受ける）
 				'''
 		}
 	}
 
 	Hornet: {
-		Name: "{$NPCName.Hornet}"
+		Name: ﾎｰﾈｯﾄ
 
 		Attack: {
-			Name: Sting
+			Name: 蜂の針
 			Description:
 				'''
-				Poison target enemy
-				(it takes 1 dmg each
-				turn)
+				対象の敵を毒状態にする。
+				（毒状態：毎ターン1ダメージを受ける）
 				'''
 		}
 	}
 
 	Bee: {
-		Name: "{$NPCName.Bee}"
-		Attack.Name: Sting
+		Name: 蜂
+		Attack.Name: 蜂の針
 
 		Skill: {
-			Name: Skill: Toxic Honey
+			Name: スキル：毒入り蜂蜜
 			Description:
 				'''
-				Target ally Poisons 
-				enemies this turn 
-				(they take 1 dmg/turn)
+				対象の味方は攻撃した敵を毒状態にする。
+				（毒状態：毎ターン1ダメージを受ける）
 				'''
 		}
 	}
 
 	SpikedJungleSlime: {
-		Name: "{$NPCName.JungleSlime}"
-		Attack.Name: Toxic Ooze
+		Name: ｽﾊﾟｲｸｼﾞｬﾝｸﾞﾙｽﾗｲﾑ
+		Attack.Name: 滲む毒
 		Modifier.Description:
 			'''
-			Spiked: A creature that
-			attacks this card takes
-			2 dmg
+			「トゲトゲ」
+			このカードを攻撃した敵は2ダメージを受ける。
 			'''
 	}
 
 	DoctorBones: {
-		Name: "{$NPCName.DoctorBones}"
+		Name: ﾄﾞｸﾀｰﾎﾞｰﾝｽﾞ
 
 		Attack: {
-			Name: Find Fauna
+			Name: 動物相の探求
 			Description:
 				'''
-				Deals +1 dmg for each
-				Critter you control.
+				味方の動物1体につき1ダメージを与える。
 				'''
 		}
 	}
 
 	Crab: {
-		Name: "{$NPCName.Crab}"
-		Attack.Name: Pinch
+		Name: ｶﾆ
+		Attack.Name: 挟む
 		Modifier.Description:
 			'''
-			Relentless: May attack
-			an additional time each
-			turn.
+			「非情」
+			毎ターン追加で攻撃できる。
 			'''
 	}
 
 	Jellyfish: {
-		Name: Jellyfish
-		Attack.Name: Sting
+		Name: ｸﾗｹﾞ
+		Attack.Name: クラゲの針
 		Modifier.Description:
 			'''
-			Relentless: May attack
-			an additional time each
-			turn.
+			「非情」
+			毎ターン追加で攻撃できる。
 			'''
 	}
 
 	Shark: {
-		Name: "{$NPCName.Shark}"
-		Attack.Name: Jaws
+		Name: ｻﾒ
+		Attack.Name: ｼﾞｮｰｽﾞ
 		Modifier.Description:
 			'''
-			Relentless: May attack
-			an additional time each
-			turn.
+			「非情」
+			毎ターン追加で攻撃できる。
 			'''
 	}
 
 	FeralClaws: {
-		Name: "{$ItemName.FeralClaws}"
+		Name: 野生のツメ
 
 		Skill: {
-			Name: Equip
+			Name: 装備
 			Description:
 				'''
-				Equipped creature gains
-				Relentless (it may attack
-				an additional time each
-				turn.)
+				装備しているモンスターは「非情」を得る。
+				（非情：毎ターン追加で攻撃できる）
 				'''
 		}
 	}
 
 	Tim: {
-		Name: "{$NPCName.Tim}"
+		Name: ﾃｨﾑ
 
 		Attack: {
-			Name: Magic Missile
+			Name: マジックミサイル
 			Description:
 				'''
-				Deals 1 dmg for each
-				item you used this
-				game.
+				このゲームで使用した
+				アイテムカード1つにつき、
+				1ダメージを与える。
 				'''
 		}
 	}
 
 	LostGirl: {
-		Name: "{$NPCName.LostGirl}"
-		Attack.Name: Fake Tears
+		Name: 迷子の女の子
+		Attack.Name: 嘘泣き
 		Modifier.Description:
 			'''
-			If you draw an item
-			for turn, transform
-			this card.
+			そのターンにあなたがアイテムカードを引いた場合、
+			このカードは変身する。
 			'''
 	}
 
 	Nymph: {
-		Name: "{$NPCName.Nymph}"
-		Attack.Name: Ensnare
+		Name: ﾆﾝﾌ
+		Attack.Name: 甘い嘘
 		Modifier.Description:
 			'''
-			Evasive: May attack 
-			blocked enemies
+			「前衛回避」
+			ブロックされた敵を攻撃することができる。
 			'''
 	}
 
 	Dryad: {
-		Name: "{$NPCName.Dryad}'s Ward"
+		Name: "{$NPCName.Dryad}の加護"
 		Modifier.Description:
 			'''
-			Return target allied,
-			unpaused, non-expert 
-			creature to the hand
+			未使用かつエキスパートでない味方を
+			手札に戻す。
 			'''
 	}
 
 	PartyGirl: {
-		Name: "{$NPCName.PartyGirl}'s Favor"
+		Name: "{$NPCName.PartyGirl}の寵愛"
 		Modifier.Description:
 			'''
-			Unpause target Ally. Its
-			attack costs 1 MP less 
-			this turn.
+			対象の味方の一時停止状態を解除し、
+			このターンの消費MPを1減少させる。
 			'''
 	}
 
 	Nurse: {
-		Name: "{$NPCName.Nurse}'s Care"
+		Name: "{$NPCName.Nurse}の手当"
 		Modifier.Description:
 			'''
-			Target ally heals 3 hp.
-			Remove all debuffs 
-			from it.
+			対象となった味方のデバフを解除し、
+			HPを3回復する。
 			'''
 	}
 
 	TorturedSoul: {
-		Name: Tortured Soul
+		Name: 苛まれた霊
 		Modifier.Description:
 			'''
-			If you have less HP
-			than your opponent,
-			add a Boss from your
-			deck to the hand.
+			自分のHPが相手のHPより少ない場合、
+			自分のデッキからボスを1体手札に加える。
 			'''
 	}
 
 	ArmsDealer: {
-		Name: "{$NPCName.ArmsDealer}'s Aim"
+		Name: "{$NPCName.ArmsDealer}の狙い"
 		Modifier.Description:
 			'''
-			Unpause target allied
-			creature. It deals +2 
-			dmg this turn.
+			対象の味方の一時停止状態を解除し、
+			このターンの間、2の追加ダメージを与えられるようになる。
 			'''
 	}
 
 	Guide: {
-		Name: "{$NPCName.Guide}'s Guidance"
-		Modifier.Description: Draw 2 cards.
+		Name: "{$NPCName.Guide}の教え"
+		Modifier.Description: カードを2枚ドローする。
 	}
 
 	Wizard: {
-		Name: "{$NPCName.Wizard}'s Wisdom"
-		Modifier.Description: Add 1 Mana Crystal
+		Name: "{$NPCName.Wizard}の知恵"
+		Modifier.Description: MPが1回復する。
 	}
 
 	OldMan: {
-		Name: "{$NPCName.OldMan}'s Curse"
+		Name: "{$NPCName.OldMan}の呪い"
 		Modifier.Description:
 			'''
-			Move target creature to
-			an unoccupied column
+			対象の敵を空いている列に移動させる。
 			'''
 	}
 
 	Shuriken: {
-		Name: "{$ItemName.Shuriken}"
+		Name: 手裏剣
 
 		Skill: {
-			Name: Use
+			Name: 消費
 			Description:
 				'''
-				Target creature
-				inflicts Bleeding this
-				turn (Enemies take
-				+1 dmg)
+				攻撃対象に出血状態を与える。
+				（出血状態：攻撃によるダメージが1増加する）
 				'''
 		}
 	}
 
 	LightsBane: {
-		Name: "{$ItemName.LightsBane}"
+		Name: ﾗｲﾂﾍﾞｲﾝ
 
 		Skill: {
-			Name: Equip
+			Name: 装備
 			Description:
 				'''
-				If target creature dies,
-				your other creatures 
-				deal +1 dmg.
+				対象の死亡時、他の敵に1のダメージを与える。
 				'''
 		}
 	}
 
 	BloodButcherer: {
-		Name: "{$ItemName.BloodButcherer}"
+		Name: 血の肉切り包丁
 
 		Skill: {
 			Name: Equip
 			Description:
 				'''
-				Equipped creature
-				inflicts Bleeding
-				(Enemies take +1 dmg)
+				装備者が攻撃した敵に出血状態を与える。
+				（出血状態：攻撃によるダメージが1増加する）
 				'''
 		}
 	}
 
 	PoisonedKnife: {
-		Name: "{$ItemName.PoisonedKnife}"
+		Name: 毒の投げﾅｲﾌ
 
 		Skill: {
-			Name: Use
+			Name: 消費
 			Description:
 				'''
-				Target creature
-				inflicts Poison this
-				turn (Enemies take
-				1 dmg per turn)
+				攻撃した敵を毒状態にする。
+				（毒状態：毎ターン1ダメージを受ける）
 				'''
 		}
 	}
 
 	BladeOfGrass: {
-		Name: "{$ItemName.BladeofGrass}"
+		Name: ｸﾞﾗｽﾌﾞﾚｰﾄﾞ
 
 		Skill: {
-			Name: Equip
+			Name: 装備
 			Description:
 				'''
-				Equipped creature
-				inflicts Poison 
-				(Enemies take
-				1 dmg per turn)
+				装備者が攻撃した敵に毒状態を与える。
+				（毒状態：毎ターン1ダメージを受ける）
 				'''
 		}
 	}
 
 	CopperShortsword: {
-		Name: "{$ItemName.CopperShortsword}"
+		Name: 銅の短剣
 
 		Skill: {
-			Name: Equip
+			Name: 装備
 			Description:
 				'''
-				Equipped creature
-				deals +1 damage.
+				装備者の与ダメージを1増加させる。
 				'''
 		}
 	}
 
 	PlatinumBroadsword: {
-		Name: "{$ItemName.PlatinumBroadsword}"
+		Name: プラチナの剣
 
 		Skill: {
-			Name: Equip
+			Name: 装備
 			Description:
 				'''
-				Equipped creature
-				deals +2 damage.
+				装備者の与ダメージを2増加させる。
 				'''
 		}
 	}
 
 	Muramasa: {
-		Name: "{$ItemName.Muramasa}"
+		Name: ﾑﾗﾏｻ
 
 		Skill: {
-			Name: Equip
+			Name: 装備
 			Description:
 				'''
-				Equipped creature's
-				attack costs 1 MP
-				less.
+				装備者の消費MPが1減少する。
 				'''
 		}
 	}
 
 	Shackle: {
-		Name: "{$ItemName.Shackle}"
+		Name: 手枷
 
 		Skill: {
-			Name: Equip
+			Name: 装備
 			Description:
 				'''
-				Equipped creature takes
-				-2 dmg from the next 
-				attack against it. Then,
-				remove Shackle.
+				装備者の被ダメージを1回だけ2減少させる。
+				効果発動後、破損して消滅する。
 				'''
 		}
 	}
 
 	CobaltShield: {
-		Name: "{$ItemName.CobaltShield}"
+		Name: ｺﾊﾞﾙﾄの盾
 
 		Skill: {
-			Name: Equip
+			Name: 装備
 			Description:
 				'''
-				Equipped creature takes
-				-1 dmg from attacks.
+				装備者の被ダメージを1減少させる。
 				'''
 		}
 	}
 
 	SwiftnessPotion: {
-		Name: "{$ItemName.SwiftnessPotion}"
+		Name: 俊足のﾎﾟｰｼｮﾝ
 
 		Skill: {
-			Name: Use
-			Description: Unpause target creature.
+			Name: 消費
+			Description: 対象の一時停止状態を解除する。
 		}
 	}
 
 	ThornsPotion: {
-		Name: "{$ItemName.ThornsPotion}"
+		Name: ﾄｹﾞのﾎﾟｰｼｮﾝ
 
 		Skill: {
-			Name: Use
+			Name: 消費
 			Description:
 				'''
-				Next turn, enemies that
-				attack target creature
-				take 2 dmg.
+				次のターンの間、
+				対象を攻撃した敵は2ダメージを受ける。
 				'''
 		}
 	}
 
 	IronskinPotion: {
-		Name: "{$ItemName.IronskinPotion}"
+		Name: 鉄壁のポーション
 
 		Skill: {
-			Name: Use
+			Name: 消費
 			Description:
 				'''
-				Next turn, target ally
-				takes 2 less dmg from
-				attacks.
+				次のターンの間、
+				対象の被ダメージを2減少させる。
 				'''
 		}
 	}
 
 	LesserHealingPotion: {
-		Name: "{$ItemName.HealingPotion}"
+		Name: ﾗｲﾌﾎﾟｰｼｮﾝ
 
 		Skill: {
-			Name: Use
-			Description: Target ally heals 3 hp.
+			Name: 消費
+			Description: 対象のHPを3回復する。
 		}
 	}
 
 	AngelStatue: {
-		Name: "{$ItemName.AngelStatue}"
+		Name: 天使の石像
 
 		Skill: {
-			Name: Use
+			Name: 消費
 			Description:
 				'''
-				Target creature does 
-				nothing.
+				対象は何もしない。
 				'''
 		}
 	}
 
 	RagePotion: {
-		Name: "{$ItemName.RagePotion}"
+		Name: 怒りのﾎﾟｰｼｮﾝ
 
 		Skill: {
-			Name: Use
+			Name: 消費
 			Description:
 				'''
-				This turn, target ally
-				deals +2 dmg.
+				次のターンの間、
+				対象の与ダメージを2増加させる。
 				'''
 		}
 	}
 
 	ThrowingKnife: {
-		Name: "{$ItemName.ThrowingKnife}"
+		Name: 投げﾅｲﾌ
 
 		Skill: {
-			Name: Use
+			Name: 消費
 			Description:
 				'''
-				target ally's next
-				attack deals +1 dmg.
+				装備者の与ダメージを1回だけ1増加させる。
 				'''
 		}
 	}
 
 	FledglingWings: {
-		Name: Fledgling Wings
+		Name: ひな鳥の翼
 
 		Skill: {
-			Name: Equip
+			Name: 装備
 			Description:
 				'''
-				Equipped creature gains
-				Evasive (it may attack
-				blocked enemies)
+				装備者は「前衛回避」を得る。
+				（前衛回避：ブロックされた敵を攻撃することができる）
 				'''
 		}
 	}
 
 	GoblinThief: {
-		Name: "{$NPCName.GoblinThief}"
-		Attack.Name: Shank
+		Name: ｺﾞﾌﾞﾘﾝｼｰﾌ
+		Attack.Name: 工具
 
 		Skill: {
-			Name: Skill: Pickpocket
+			Name: スキル: スリ
 			Description:
 				'''
-				If you used an item 
-				this turn, draw 1 
-				card.
+				このターンにアイテムを使用した場合、
+				カードを1枚引く。
 				'''
 		}
 	}
 
 	GoblinScout: {
-		Name: "{$NPCName.GoblinScout}"
+		Name: ｺﾞﾌﾞﾘﾝｽｶｳﾄ
 
 		Attack: {
-			Name: Scout
+			Name: 偵察
 			Description:
 				'''
-				Deals +1 dmg for each
-				item used this turn.
+				このターンに使用したアイテム1つにつき、
+				1の追加ダメージを与える。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			Zealous: This card may
-			act the turn it enters
+			「活力」
+			このカードは場に出たターンから
+			行動することができる。
 			'''
 	}
 
 	GoblinArcher: {
-		Name: "{$NPCName.GoblinArcher}"
+		Name: ｺﾞﾌﾞﾘﾝ弓兵
 
 		Attack: {
-			Name: Sharpshoot
+			Name: 鋭い射撃
 			Description:
 				'''
-				Deals +1 dmg for each
-				item used this turn.
+				このターンに使用したアイテム1つにつき、
+				1の追加ダメージを与える。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			Evasive: May target any 
-			enemy for attacks
+			「前衛回避」
+			ブロックされた敵を攻撃することができる。
 			'''
 	}
 
 	GoblinWarlock: {
-		Name: "{$NPCName.GoblinSummoner}"
+		Name: ｺﾞﾌﾞﾘﾝｳｫｰﾛｯｸ
 
 		Attack: {
-			Name: Shadowflame
+			Name: ｼｬﾄﾞｳﾌﾚｲﾑ
 			Description:
 				'''
-				Deals +1 dmg each 
-				time you use an 
-				item.
+				アイテムを使用するたびに1ダメージを与える。
 				'''
 		}
 	}
 
 	Mimic: {
-		Name: "{$NPCName.Mimic}"
+		Name: ﾐﾐｯｸ
 
 		Attack: {
-			Name: Lure
+			Name: 誘い
 			Description:
 				'''
-				Costs 1 less for each 
-				item used this game.
+				この試合で使用したアイテム1つにつき、消費MPが1少なくなる。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			Sturdy: Takes 1 less
-			dmg from attacks.
+			「頑丈」
+			攻撃による被ダメージが1減少する。
 			'''
 	}
 
 	Skeletron: {
-		Name: "{$NPCName.SkeletronHead}"
-		Attack.Name: Skull Spin
+		Name: ｽｹﾙﾄﾛﾝ
+		Attack.Name: 回転髑髏
 		Modifier.Description:
 			'''
-			When this enters, place
-			two Skeletron Hands
+			これが場に出たとき、「スケルトロンの手」を2枚召喚する。
 			'''
 	}
 
 	SkeletronHandL: {
-		Name: "{$NPCName.SkeletronHand} L."
-		Attack.Name: Slap
+		Name: ｽｹﾙﾄﾛﾝの左手
+		Attack.Name: 平手打ち
 		Modifier.Description:
 			'''
-			While this is in the
-			offence row, your 
-			Skeletron deals +2 dmg
+			自身が攻撃ゾーンにいる間、
+			味方のスケルトロンは与ダメージを2増加させる。
 			'''
 	}
 
 	SkeletronHandR: {
-		Name: "{$NPCName.SkeletronHand} R."
-		Attack.Name: Slap
+		Name: ｽｹﾙﾄﾛﾝの右手
+		Attack.Name: 受け身
 		Modifier.Description:
 			'''
-			While this is in the
-			offence row, your 
-			Skeletron takes -2 dmg
+			自身が攻撃ゾーンにいる間、
+			味方のスケルトロンは被ダメージを2減少させる。
 			'''
 	}
 
 	WallOfFlesh: {
-		Name: "{$NPCName.WallofFlesh}"
-		Attack.Name: Flesh Wall
+		Name: ｳｫｰﾙｵﾌﾞﾌﾚｯｼｭ
+		Attack.Name: 肉の壁
 		Modifier.Description:
 			'''
-			Inevitable: When this
-			enters, place two Eyes.
-			This heals 1 HP/turn.
+			「不可避」
+			これが場に出たとき、「ウォールオブフレッシュの目」を2枚召喚する。
+			「再生」
+			毎ターン自身のHPを1回復する。
 			'''
 	}
 
 	WallOfFleshEye: {
-		Name: "{$NPCName.WallofFlesh} Eye"
+		Name: ｳｫｰﾙｵﾌﾞﾌﾚｯｼｭの目
 		Modifier.Description:
 			'''
-			Sturdy. Can't attack. 
-			Your Wall of Flesh 
-			deals +1 dmg/turn.
+			「無敵」
+			攻撃できない。
+			ウォールオブフレッシュから毎ターン1ダメージを受ける。
 			'''
 	}
 
 	Leech: {
-		Name: "{$NPCName.LeechHead}"
-		Attack.Name: Blood Suck
+		Name: ﾘｰﾁ
+		Attack.Name: 吸血
 		Modifier.Description:
 			'''
-			Boss' Helper: Your Wall
-			of Flesh's healing 
-			increases by 1 per turn
+			「ボスの助っ人」
+			味方のウォールオブフレッシュの回復力が1増加する。
 			'''
 	}
 
 	EaterOfWorlds: {
-		Name: "{$NPCName.EaterofWorldsHead}"
-		Attack.Name: Worm's World
+		Name: ｲｰﾀｰｵﾌﾞﾜｰﾙﾄﾞの頭
+		Attack.Name: ﾐﾐｽﾞの世界
 		Modifier.Description:
 			'''
-			Spiked. Lifesteal. If this
-			card reaches half health,
-			transform it.
+			「トゲトゲ」「吸収」を保持する。
+			このカードは体力が半分になったら変身する。
 			'''
 	}
 
 	EaterSegment1: {
-		Name: Eater Segment
-		Attack.Name: Worm's World
+		Name: ｲｰﾀｰｵﾌﾞﾜｰﾙﾄﾞの部位
+		Attack.Name: ﾐﾐｽﾞの世界
 		Modifier.Description:
 			'''
-			Morbid: If this dies, 
-			your other creatures 
-			gain Spiked. This has
-			Spiked.
+			「伝染」
+			自身が死亡したとき、味方全員が 
+			「トゲトゲ」を得る。
 			'''
 	}
 
 	EaterSegment2: {
-		Name: Eater Segment
-		Attack.Name: Worm's World
+		Name: ｲｰﾀｰｵﾌﾞﾜｰﾙﾄﾞの部位
+
+		Attack.Name: ﾐﾐｽﾞの世界
 		Modifier.Description:
 			'''
-			Morbid: If this dies, 
-			your other creatures 
-			gain Lifesteal. This has
-			Lifesteal.
+			「伝染」
+			自身が死亡したとき、味方全員が 
+			「吸収」を得る。
 			'''
 	}
 
 	EaterOfSouls: {
-		Name: "{$NPCName.EaterofSouls}"
-		Attack.Name: Soul Suck
+		Name: ｲｰﾀｰｵﾌﾞｿｳﾙ
+		Attack.Name: 魂喰らい
 		Modifier.Description:
 			'''
-			Morbid: If this dies, 
-			your other creatures 
-			gain Sturdy.
+			「伝染」
+			自身が死亡したとき、味方全員が 
+			「頑丈」を得る。
 			'''
 	}
 
 	Devourer: {
-		Name: "{$NPCName.DevourerHead}"
-		Attack.Name: Worm Wiggle
+		Name: ﾃﾞﾊﾞｳﾗｰの頭
+		Attack.Name: ピクピク動く
 		Modifier.Description:
 			'''
-			Morbid: If this dies, 
-			your other creatures 
-			deal +1 dmg.
+			「伝染」
+			自身が死亡したとき、味方全員の与ダメージが1増加する。
 			'''
 	}
 
 	EnchantedNightcrawler: {
-		Name: E. Nightcrawler
-		Attack.Name: Worm Wish
+		Name: ｴﾝﾁｬﾝﾄﾅｲﾄｸﾛｳﾗｰ
+		Attack.Name: ﾐﾐｽﾞに願いを
 		Modifier.Description:
 			'''
-			Morbid: If this dies, you 
-			gain 1 Mana Crystal and 
-			draw 1 card.
+			「願い」
+			自身が死亡したとき、MPを1回復して、カードを1枚引く。
 			'''
 	}
 
 	Bunny: {
-		Name: "{$NPCName.Bunny}"
-		Attack.Name: Bunny Kick
+		Name: ｳｻｷﾞ
+		Attack.Name: ウサキック
 
 		Skill: {
-			Name: Skill: Forest Wish
-			Description: Gain 1 MP
+			Name: スキル：森の願い
+			Description: MPを1回復する。
 		}
 	}
 
 	Dolphin: {
-		Name: "{$NPCName.Dolphin}"
-		Attack.Name: Nose Boop
+		Name: ｲﾙｶ
+		Attack.Name: 鼻でつつく
 
 		Skill: {
-			Name: Skill: Ocean Wish
+			Name: Skill: 海の願い
 			Description:
 				'''
-				Target creature's
-				attack costs 1 MP less
-				this turn.
+				このターンの間、対象の消費MPを1減少させる。
 				'''
 		}
 	}
 
 	Squirrel: {
-		Name: "{$NPCName.Squirrel}"
-		Attack.Name: Acorn Toss
+		Name: ﾘｽ
+		Attack.Name: どんぐりトス
 
 		Skill: {
-			Name: Skill: Forest Cheer
+			Name: スキル： 森の援護
 			Description:
 				'''
-				Target ally's next attack
-				this turn deals +1 dmg
+				対象による次の攻撃は追加ダメージを1与える。
 				'''
 		}
 	}
 
 	Goldfish: {
-		Name: "{$NPCName.Goldfish}"
-		Attack.Name: Fin Slap
+		Name: 金魚
+		Attack.Name: 足ひれ打ち
 
 		Skill: {
-			Name: Skill: Pond Healing
-			Description: Target ally heals 1 dmg
+			Name: スキル： 池の癒し
+			Description: 対象のHPを1回復する。
 		}
 	}
 
 	Bat: {
-		Name: "{$NPCName.CaveBat}"
-		Attack.Name: Swoop
+		Name: ｹｲﾌﾞﾊﾞｯﾄ
+		Attack.Name: 急降下
 		Modifier.Description:
 			'''
-			Evasive: May target any 
-			enemy for attacks
+			「前衛回避」
+			ブロックされた敵を攻撃することができる
 			'''
 	}
 
 	JungleBat: {
-		Name: "{$NPCName.JungleBat}"
-		Attack.Name: Jungle Swoop
+		Name: ｼﾞｬﾝｸﾞﾙﾊﾞｯﾄ
+		Attack.Name: ジャングル急降下
 		Modifier.Description:
 			'''
-			Evasive: May target any 
-			enemy for attacks
+			「前衛回避」
+			ブロックされた敵を攻撃することができる
 			'''
 	}
 
 	Skeleton: {
-		Name: "{$NPCName.Skeleton}"
-		Attack.Name: Bone Break
+		Name: ｽｹﾙﾄﾝ
+		Attack.Name: 骨折
 	}
 
 	UndeadMiner: {
-		Name: "{$NPCName.UndeadMiner}"
+		Name: ｱﾝﾃﾞｯﾄﾞﾏｲﾅｰ
 
 		Attack: {
-			Name: Pickaxe Swing
+			Name: ツルハシ
 			Description:
 				'''
-				Costs 1 MP less for
-				each equipment on
-				this creature
+				自身の装備品1つにつき、消費MPが1少なくなる
 				'''
 		}
 	}
 
 	UndeadViking: {
-		Name: "{$NPCName.UndeadViking}"
+		Name: ｱﾝﾃﾞｯﾄﾞﾊﾞｲｷﾝｸﾞ
 
 		Attack: {
-			Name: Frozen Axe
+			Name: 凍った斧
 			Description:
 				'''
-				Deals +1 dmg if this 
-				creature is equipped.
+				自身の装備品1つにつき、与ダメージが1増加する。
 				'''
 		}
 	}
 
 	AngryBones: {
-		Name: "{$NPCName.AngryBones}"
+		Name: ｱﾝｸﾞﾘｰﾎﾞｰﾝｽﾞ
 		Modifier.Description:
 			'''
-			Equipping this crea-
-			ture costs 1 MP less.
+			自身がアイテムを装備する際の消費MPが1少なくなる。
 			'''
-		Attack.Name: Cursed Axe
+		Attack.Name: 呪われた斧
 	}
 
 	ArmoredSkeleton: {
-		Name: Armed Skeleton
+		Name: ｱｰﾏｰﾄﾞｽｹﾙﾄﾝ
 		Modifier.Description:
 			'''
-			Equipping this crea-
-			ture costs 1 MP less.
+			自身がアイテムを装備する際の消費MPが1少なくなる。
 			'''
 
 		Attack: {
-			Name: Mighty Swing
+			Name: 強振
 			Description:
 				'''
-				Costs 1 MP less for ea-
-				ch equipment on this
+				装備1つにつき消費MPが1少なくなる
 				'''
 		}
 	}
 
 	ToxicSludge: {
-		Name: "{$NPCName.ToxicSludge}"
+		Name: ﾄｷｼｯｸｽﾗｯｼﾞ
 
 		Attack: {
-			Name: Corrode
+			Name: 腐食
 			Description:
 				'''
-				Remove the newest
-				equipment from 
-				target enemy.
+				対象の敵から最新の装備を消去する。
 				'''
 		}
 	}
 
 	DarkCaster: {
-		Name: "{$NPCName.DarkCaster}"
+		Name: ﾀﾞｰｸｷｬｽﾀｰ
 
 		Attack: {
-			Name: Hex
+			Name: 呪詛
 			Description:
 				'''
-				Target enemy's attack
-				costs +2 MP next turn.
+				次のターン、対象となった敵の
+				消費MPを+2する。
 				'''
 		}
 	}
 
 	CursedSkull: {
-		Name: "{$NPCName.CursedSkull}"
+		Name: ｶｰｽﾞﾄﾞｽｶﾙ
 
 		Attack: {
-			Name: Curse
+			Name: 呪い
 			Description:
 				'''
-				Target enemy can't use
-				skills next turn.
+				次のターン、対象となった敵は
+				スキルが使えない。
 				'''
 		}
 
-		Modifier.Description: Evasive
+		Modifier.Description: 「前衛回避」
 	}
 
 	Types: {
-		CREATURE: Creature
-		ITEM: Item
-		TOWNSFOLK: Townsfolk
-		EQUIPMENT: Equipment
-		CONSUMABLE: Consumable
-		FOREST: Forest
-		CAVERN: Cavern
-		FIGHTER: Fighter
-		CRITTER: Critter
-		SCOUT: Scout
-		DEFENDER: Defender
-		CASTER: Caster
-		SLIME: Slime
-		JUNGLE: Jungle
-		EVIL: Evil
-		SKY: Sky
-		BLOOD_MOON: Blood Moon
-		DESERT: Desert
-		OCEAN: Ocean
-		GOBLIN_ARMY: Goblin Army
-		MUSHROOM: Mushroom
-		EXPERT: Expert
-		BOSS: Boss
-		OWNED: Only Owned
+		CREATURE: モンスター
+		ITEM: アイテム
+		TOWNSFOLK: 町民
+		EQUIPMENT: 装備
+		CONSUMABLE: 消費
+		FOREST: 森林
+		CAVERN: 洞窟
+		FIGHTER: ファイター
+		CRITTER: 動物
+		SCOUT: 斥候
+		DEFENDER: 守護者
+		CASTER: 魔法師
+		SLIME: スライム
+		JUNGLE: ジャングル
+		EVIL: 不浄・真紅
+		SKY: 空
+		BLOOD_MOON: ブラッドムーン
+		DESERT: 砂漠
+		OCEAN: 海
+		GOBLIN_ARMY: ゴブリン軍団
+		MUSHROOM: キノコ
+		EXPERT: エキスパート
+		BOSS: ボス
+		OWNED: オンリーワン
 	}
 
 	Modifiers: {
-		PAUSED: Paused: Cannot act until next turn
-		DEFENSE_BOOST: Sturdy: Takes {0} less damage
-		BLEEDING: Bleeding: Takes {0} more damage
-		POISON: Poisoned: Takes {0} damage per turn
-		RELENTLESS: Relentless: May attack {0} extra times
-		EVASIVE: Evasive: May attack blocked opponents
-		SPIKED: Spiked: Attackers take {0} damage
-		LIFESTEAL: Lifesteal: Regains {0} HP on attack
-		MORBID: Morbid: An effect triggers when this dies
+		PAUSED: 「一時停止」：次のターンまで行動不能。
+		DEFENSE_BOOST: 「頑丈」：被ダメージ {0} 減少。
+		BLEEDING: 「出血」:被ダメージ {0} 増加。
+		POISON: 「毒」：毎ターン {0} ダメージ。
+		RELENTLESS: 「非情」：追加で {0} 回攻撃できる。
+		EVASIVE: 「前衛回避」：ブロックされた相手を攻撃できる。
+		SPIKED: 「トゲトゲ」：攻撃してきた相手に {0} ダメージを与える。
+		LIFESTEAL: 「吸収」：攻撃時に {0} のHPを回復。
+		MORBID: 「伝染」：自身が死ぬと効果が発動する
 	}
 
 	ModifierNames: {
-		DEFENSE_BOOST: Sturdy
-		BLEEDING: Bleeding
-		POISON: Poison
-		RELENTLESS: Relentless
-		EVASIVE: Evasive
-		ZEALOUS: Zealous
-		SPIKED: Spiked
-		LIFESTEAL: Lifesteal
-		MORBID: Morbid
+		DEFENSE_BOOST: 頑丈
+		BLEEDING: 出血
+		POISON: 毒
+		RELENTLESS: 非情
+		EVASIVE: 前衛回避
+		ZEALOUS: 活力
+		SPIKED: トゲトゲ
+		LIFESTEAL: 吸収
+		MORBID: 伝染
 	}
 
 	Common: {
-		Turn: Turn
-		EndTurn: Pass
-		AddToDeck: Add 1 {0} to deck
-		RemoveFromDeck: Remove 1 {0} from deck
-		UseDeck: Use Deck {0}
-		DeckEdit: Edit Deck {0}
-		DeckCount: Cards
-		FilterCards: Filter Cards
-		ShowCards: Show {0} Cards
-		DuelChat: Let's Duel!
-		AskDeck: Which deck would you like to face?
-		YouWin: You win!
-		YouLose: You lose...
-		DeckNotValid: Your deck must be exactly 20 cards, and contain at least one non-expert, non-critter creature.
-		Prev: Back
-		Next: Next
-		Close: Close
-		DoubleClickToClose: Double Click to Concede
-		Hearts: Hearts
-		Mana: Mana Crystals
-		Townsfolk: Townsfolk Emblem
-		Search: Search
-		For: " for"
-		UnlockedANewDeck: Unlocked a new deck
-		AcceptedInvitation: has accepted your invitation for a soul-stakes game!
-		FoundIn: Found In:
-		AnyPack: Any Pack
-		Forfeited: forfeited their soul to {0} in a card game!
-		PressEscAgainToExit: Press ESC again to concede
+		Turn: ターン
+		EndTurn: ターンエンド
+		AddToDeck: デッキに {0} を1つ加える。
+		RemoveFromDeck: デッキから {0} を1つ除外する。
+		UseDeck: デッキから {0} を使用する。
+		DeckEdit: デッキの {0} を編集する
+		DeckCount: カード
+		FilterCards: カードフィルター
+		ShowCards: カード {0} を表示。
+		DuelChat: デュエルを申し込む！
+		AskDeck: 対戦したいデッキは？
+		YouWin: 勝利！
+		YouLose: 敗北…
+		DeckNotValid: あなたのデッキは20枚ジャストかつ、少なくとも1体は非エキスパート、非クリッターのモンスターカードが入っていなければならない。
+		Prev: 戻る
+		Next: 次へ
+		Close: 閉じる
+		DoubleClickToClose: ダブルクリックして降参する。
+		Hearts: ライフ
+		Mana: MP
+		Townsfolk: 町民のエンブレム
+		Search: 検索
+		For: " に"
+		UnlockedANewDeck: 新しいデッキが解禁
+		AcceptedInvitation: は魂を賭けたゲームへの招待を受け入れた！
+		FoundIn: 以下で手に入る：
+		AnyPack: 任意のパック
+		Forfeited: カードゲームで {0} に魂を奪われた！
+		PressEscAgainToExit: もう一度ESCキーを押して降参する。
 	}
 
 	DeckNames: {
-		Tutorial: Tutorial
-		ForestBeginner: Forest 1
-		Forest: Forest 2
-		ForestAdvanced: Forest 3
-		SlimeBeginner: Slimes 1
-		Slime: Slimes 2
-		SlimeAdvanced: Slimes 3
-		JungleBeginner: Jungle 1
-		Jungle: Jungle 2
-		JungleAdvanced: Jungle 3
-		Treasure: Treasures
-		Salamander: Salamanders
-		BloodMoonBeginner: Blood Moon 1
-		BloodMoon: Blood Moon 2
-		BloodMoonAdvanced: Blood Moon 3
-		MushroomBeginner: Mushrooms 1
-		Mushroom: Mushrooms 2
-		SkeletonsBeginner: Skeletons 1
-		Skeletons: Skeletons 2
-		Curse: Dungeon 1
-		CurseAdvanced: Dungeon 2
-		GoblinsBeginner: Goblins 1
-		Goblins: Goblins 2
-		CrabsBeginner: Ocean 1
-		Crabs: Ocean 2
-		CrabsAdvanced: Ocean 3
-		EvilBeginner: Evil 1
-		Evil: Evil 2
-		EvilAdvanced: Evil 3
-		QueenBee: Queen Bee
-		KingSlime: King Slime
-		BoC: Brain of Cthulhu
-		EoC: Eye of Cthulhu
-		EoW: Eater of Worlds
-		Skeletron: Skeletron
-		WoF: Wall of Flesh
+		Tutorial: チュートリアル
+		ForestBeginner: 森林１
+		Forest: 森林２
+		ForestAdvanced: 森林３
+		SlimeBeginner: スライム１
+		Slime: スライム２
+		SlimeAdvanced: スライム３
+		JungleBeginner: ジャングル１
+		Jungle: ジャングル２
+		JungleAdvanced: ジャングル３
+		Treasure: 宝物
+		Salamander: サラマンダーたち
+		BloodMoonBeginner: ブラッドムーン１
+		BloodMoon: ブラッドムーン２
+		BloodMoonAdvanced: ブラッドムーン３
+		MushroomBeginner: キノコ１
+		Mushroom: キノコ２
+		SkeletonsBeginner: スケルトン１
+		Skeletons: スケルトン２
+		Curse: ダンジョン１
+		CurseAdvanced: ダンジョン２
+		GoblinsBeginner: ゴブリン１
+		Goblins: ゴブリン２
+		CrabsBeginner: 海１
+		Crabs: 海２
+		CrabsAdvanced: 海３
+		EvilBeginner: 真紅不浄１
+		Evil: 真紅不浄２
+		EvilAdvanced: 真紅不浄３
+		QueenBee: 女王蜂
+		KingSlime: キングスライム
+		BoC: クトゥルフの脳
+		EoC: クトゥルフの目
+		EoW: イーターオブワールド
+		Skeletron: スケルトロン
+		WoF: ウォールオブフレッシュ
 	}
 
 	ActionText: {
-		You: You
-		Opponent: Opponent
-		Move: Move
-		Use: Use
-		Attack: Attack
-		Promote: Promote
-		Play: Play
-		Moved: moved
-		Used: used
-		Attacked: attacked
-		Promoted: promoted
-		Played: played
-		With: with
-		For: for
-		On: on
-		Died: died
-		Ownership: "'s"
-		Skill: skill
-		Bounced: returned a card to the hand
-		AddedMana: added a Mana crystal
-		Drew: drew
-		Cards: cards
-		To: to
-		NotEnoughMana: Not enough Mana
-		NotEnoughTownsfolk: No Townsfolk Emblem available
-		OnlyOneBoss: You can only control one Boss
-		Morbid: Its Morbid ability triggered.
+		You: あなた
+		Opponent: 対戦相手
+		Move: 動く
+		Use: 使用
+		Attack: 攻撃
+		Promote: 進化
+		Play: 発動
+		Moved: 移動済み
+		Used: 使用済み
+		Attacked: 攻撃済み
+		Promoted: 進化済み
+		Played: 発動済み
+		With: と
+		For: に
+		On: の
+		Died: 死亡
+		Ownership: "の"
+		Skill: スキル
+		Bounced: カードを手札に戻した
+		AddedMana: マナクリスタルを追加
+		Drew: ドロー
+		Cards: カード
+		To: は
+		NotEnoughMana: マナが足りない！
+		NotEnoughTownsfolk: 町民のエンブレムが足りない！
+		OnlyOneBoss: 操作できるボスは1体のみ！
+		Morbid: 「伝染」が発動した。
 	}
 
 	Tutorial: {
 		Slide0:
 			'''
-			Welcome to TerraTCG, the Terraria Trading Card Game! To start a game,
-			try talking to an NPC and selecting "Let's Duel!". Not every NPC is
-			currently supported, but more will be added in the future.
+			テラリアトレーディングカードゲーム「TerraTCG」へようこそ！ゲームを始めるには、
+			NPCに話しかけて「デュエルを申し込む！」を選んでみてください。
+			現在、すべてのNPCが決闘を受けてくれるわけではありませんが、今後追加される予定です。
 			'''
 		Slide1:
 			'''
-			TerraTCG is a card game played between two players. Each player begins by 
-			shuffling their deck and drawing 5 cards. One player is then selected
-			randomly to go first.
+			TerraTCGは2人で遊ぶカードゲームです。
+			各プレイヤーはまずデッキをシャッフルし、5枚のカードを引きます。
+			その後、ランダムに1人のプレイヤーが選ばれ、先攻となります。
 			'''
 		Slide2:
 			'''
-			Each player has a pool of 3 resource types, used in different ways:
-			- Hearts, which are lost whenever a creature the player controls dies.
-			- Mana Crystals, used to attack and play items, which grow by 1 per turn.
-			- A Townsfolk Emblem, used to play Townsfolk, which refreshes every turn.
+			各プレイヤーは3種類の資源を保持しており、それぞれ異なる方法で消費されます。
+			- ライフ：プレイヤーがコントロールするモンスターが死亡するたびに失われます。
+			- MP：攻撃やアイテムのプレイに使用し、1ターンに1回復します。
+			- 町民のエンブレム：町民のカードを使用するために使用されます。
 			'''
 		Slide3:
 			'''
-			Hearts represent a player's remaining life total. One heart is lost
-			whenever a creature the player controls dies, and a player loses the
-			game when all of their hearts are depleted.
+			ハートはプレイヤーの残りライフを表します。
+			プレイヤーがコントロールしているモンスターが死亡するたびにハートが1つ失われ、
+			ハートがすべてなくなるとゲームに敗北してしまいます。
 			'''
 		Slide4:
 			'''
-			Mana crystals are consumed when performing most game actions, such as
-			attacking with a creature or playing an item. Players start with a single
-			crystal on turn 1, then gain an additional crystal per turn up to 8 on
-			turn 8. 
+			MPは、モンスターによる攻撃やアイテムのプレイなど、ほとんどのゲーム・アクションを行う際に消費されます。
+			プレイヤーは1ターン目にMPを1つ獲得し、
+			その後1ターンごとにMPを追加し、8ターン目に最大8つまで獲得できます。
 			'''
 		Slide5:
 			'''
-			The Townsfolk Emblem is used to cast Townfolk cards, powerful single-use
-			effects that can singlehandedly turn the tide of a game. One Townsfolk 
-			Emblem is generated per turn.
+			町民のエンブレムはタウンフォーク・カードを唱えるために使用します。
+			町民のカードは強力な単発効果を持ち、ゲームの流れを一変させることができます。
+			町民のエンブレムは1ターンに1つ生成され、2つ以上は蓄積しません。
 			'''
 		Slide6:
 			'''
-			There are 3 types of Card in TerraTCG:
-			- Creatures, which are placed onto the battlefield for combat
-			- Items, which provide temporary or permanent buffs to creatures
-			- Townsfolk, which provide powerful single-use effects like card draw.
+			TerraTCGには3種類のカードがあります。
+			- モンスター：戦闘のために戦場に置かれる
+			- アイテム：モンスターに一時的または永続的なバフを与える。
+			- 町民：町民のエンブレムを消費することで強力な単発効果を与える。
 			'''
 		Slide7:
 			'''
-			Creatures are the core of gameplay. They can be placed onto the battlefield
-			from the hand for no cost. 
+			モンスターはゲームプレイの中核です。
+			コストなしで手札から戦場に出すことができます。
 			'''
 		Slide8:
 			'''
-			To play a creature, click on that creature in hand, then on an appropriate 
-			empty zone on your battlefield.
+			モンスターを設置するには、手札のそのモンスターをクリックし、
+			次に 自分の戦場の適当な空のゾーンをクリックします。
 			'''
 		Slide9:
 			'''
-			Fighter creatures are meant for combat, and should be placed in the Offense 
-			row. Only creatures in the Offense Row (Sword Icons) may attack.
+			ファイターは攻撃用のカードであり、攻撃列に置かれるべきです。
+			攻撃列（剣のアイコンがある列）にあるモンスターだけが攻撃できます。
 			'''
-		Slide10: "Creatures enter the battlefield Paused, and must wait a turn to act. "
+		Slide10: モンスターは一時停止状態で戦場に出るので、行動するには1ターン待たなければなりません。
 		Slide11:
 			'''
-			Critter creatures lack combat prowess, but have powerful skills that 
-			support other creatures in combat. 
+			動物は戦闘能力に欠けていますが、
+			戦闘において他のモンスターをサポートする強力なスキルを持っています。
 			'''
 		Slide12:
 			'''
-			Critters are vulnerable to attacks from enemies, but can be protected 
-			by placing them in the Defense Row (Shield Icon) in the same column as 
-			another friendly creature.
+			動物は敵からの攻撃に弱いですが、 
+			他の味方モンスターと同じ列の防御列（盾のアイコンがある列）に置くことで守ることができます。
 			'''
 		Slide13:
 			'''
-			Items can be attached to creatures and provide bonuses to their stats. It 
-			costs Mana Crystals to play Items from the hand. 
+			アイテムはモンスターにつけることができ、そのモンスターのスタッツにボーナスを与えます。
+			手札からアイテムをプレイするにはMPを消費します。
 			'''
 		Slide14:
 			'''
-			To play an Item, click the Item's card in hand, then an appropriate target
-			creature on the field. 
+			アイテムを使用するには、手札にあるそのアイテムのカードをクリックし、
+			次に場に設置された対象となるモンスターをクリックします。
 			'''
 		Slide15:
 			'''
-			Hover over a creature's card preview to see which item buffs are currently
-			affecting it!
+			モンスターのカードにカーソルを合わせると、
+			現在どのアイテム・バフがそのモンスターに影響を及ぼしているかを確認できます！
 			'''
 		Slide16:
 			'''
-			Townsfolk are a special card type that provide powerful sources of advantage,
-			like card draw and extra mana crystals. You can only use one Townsfolk per 
-			turn, which consumes your single Townsfolk Emblem.
+			町民はカードドローやマナクリスタルの追加など、強力なアドバンテージを提供する特殊なカードタイプです。
+			町民のカードは1ターンに1枚までしか使うことができず、町民のエンブレムを1つ消費します。
 			'''
 		Slide17:
 			'''
-			Once all Mana Crystals and the Townsfolk Emblem are used, and all 
-			creatures on your field are Paused, you can take no additional game actions. 
-			Click the "Pass" button to pass turn to your opponent.
+			すべてのMPと町民のエンブレムを使い、自分の場にいるすべてのモンスターが一時停止したら、
+			追加のゲームアクションはできません。
+			「パス」ボタンをクリックすると、相手にターンを渡すことができます。
 			'''
 		Slide18:
 			'''
-			Your opponent plays their own creatures, items, and townsfolk during their
-			turn. Once they pass back to you, your creatures will Unpause and be able
-			to act! 
+			相手のターンの間、相手はモンスターやアイテム、町人などを使用します。
+			ターンがあなたに戻ると、あなたのモンスターは一時停止を解除し、行動できます！
 			'''
 		Slide19:
 			'''
-			Expert Creatures are a special creature type that can be placed on top
-			of an Unpaused creature with the same Biome and Combat Role. Both the 
-			Wraith and Zombie are Forest Fighters, so the Zombie can be Promoted!
+			エキスパートモンスターは、同じバイオームと戦闘役割を持つ、
+			未使用モンスターの上に置くことができる特別なモンスターです。
+			レイスとゾンビはどちらも森ファイターなので、ゾンビはプロモートできます！
 			'''
 		Slide20:
 			'''
-			To promote an Expert creature, click on that creature in hand, then a
-			matching creature on the field.
+			エキスパートモンスターを昇格させるには、手札のそのモンスターをクリックし、
+			次にフィールド上の同じモンスターをクリックします。
 			'''
 		Slide21:
 			'''
-			Critters have skills that support your other creatures. Click on an Unpaused 
-			Critter to use its skill. Here, the Bunny grants you an extra Mana Crystal!
-			Using a creature's skill Pauses it until the next turn.
+			動物は他のモンスターをサポートするスキルを持っています。
+			未使用の動物をクリックすると、そのスキルを使用できます。
+			ここではうさぎがMPを1つ余分に与えてくれます！
+			モンスターのスキルを使用すると、そのモンスターは次のターンまで一時停止します。
 			'''
 		Slide22:
 			'''
-			At any point in your turn, you may declare an attack with a creature in your
-			Offense Row. Attacking with a creature consumes Mana Crystals equal to that
-			creature's attack cost and Pauses it until your next turn.
+			自分のターンのどの時点でも、自分の攻撃列にあるモンスター1体で攻撃を宣言できます！
+			モンスターで攻撃すると、そのモンスターの攻撃コストに等しいMPを消費し、
+			次のあなたのターンまで一時停止します。
 			'''
 		Slide23:
 			'''
-			To declare on an attack, click on a creature in your Offense Row first, then
-			any opposing creature. 
+			攻撃を宣言するには、まず自分の攻撃列にあるクリーチャーをクリックし、
+			次に対戦相手のクリーチャーをクリックします。
 			'''
-		Slide24: "The opposing Bunny takes 4 damage from the attack. "
+		Slide24: 相手のうさぎは攻撃から4ダメージを受けます。
 		Slide25:
 			'''
-			Once a creature's life is fully depleted, it will die, and the opponent will 
-			lose 1 Life Point. Repeat this process until the opponent's hearts are gone
-			to win the game!
+			モンスターのライフが完全になくなると、そのモンスターは死亡し、対戦相手はライフを1失う。
+			これを相手のハートがなくなるまで繰り返て決着をつけます。
 			'''
 		Slide26:
 			'''
-			Winning a game of TerraTCG grants you several TerraTCG booster packs. 
-			Open them to obtain new cards for your collection! Townsfolk will give
-			packs that contain cards themed to their decks.
+			TerraTCGのゲームに勝つと、TerraTCGのブースターパックが数個もらえます。
+			それらを開封して新しいカードを手に入れてください！
+			町民は自分のデッキをテーマにしたカードが入ったパックを与えます。
 			'''
 		Slide27:
 			'''
-			Defeating an NPC once will unlock a second, more challenging deck for
-			that NPC. Defeat this second deck to earn an Invitation to Duel, a 
-			mystical item that allows you to challenge the Bosses themselves to
-			a game of TerraTCG!
+			NPCを一度倒すと、そのNPCの2つ目のデッキがアンロックされます。
+			この2つ目のデッキを倒すと、「決闘の招待状」を獲得できます。
+			この招待状は、ボスとTerraTCGの勝負を挑むことができる神秘的なアイテムです！
 			'''
 		Slide28:
 			'''
-			Defeat a boss in battle to earn rare promo cards! Do you have what it takes
-			to defeat every* boss in a game of TerraTCG?
-
-			*TerraTCG currently supports every Pre-Hardmode boss besides Deerclops.
+			バトルでボスを倒して、レアなプロモカードを獲得しましょう！
+			あなたはTerraTCGのゲームで全てのボスを倒すために必要なものを持っていますか？
+			TerraTCGは現在、Deerclops以外のすべてのPre-Hardmodeボスをサポートしています。
 			'''
 		Slide29:
 			'''
-			A TerraTCG Deckbox, crafted with 5 wood at a workbench, can be used to
-			edit your decks. Experiment with the cards you get from booster packs, and 
-			challenge more difficult opponents!
+			作業台で5本の木材を使って作られたTerraTCGデッキボックスは、デッキの編集に使用できます。
+			ブースターパックで手に入れたカードを使って実験し、より難しい対戦相手に挑みましょう！
 			'''
-		Slide30: That's all for this tutorial. Talk to me again to challenge me to a game!
+		Slide30: 今回のチュートリアルは以上です。またゲームに挑戦したいときは声をかけてくださいね？
 	}
 }
 
