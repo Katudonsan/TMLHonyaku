@@ -1861,27 +1861,27 @@ Cards: {
 
 Configs: {
 	ClientConfig: {
-		DisplayName: Client Config
-		Headers.GameUI: Game UI
+		DisplayName: クライアント側設定
+		Headers.GameUI: ゲームＵＩ
 
 		ShowActionLog: {
-			Label: Show Action Log
-			Tooltip: Show a scrolling log of all TerraTCG game actions.
+			Label: 行動ログの表示
+			Tooltip: すべてのTerraTCGゲームアクションの行動ログを表示します。
 		}
 
 		ShowTooltips: {
-			Label: Show Tooltips
-			Tooltip: Show action tooltips during TerraTCG Games.
+			Label: ツールチップ表示
+			Tooltip: TerraTCGゲーム中にアクションツールチップを表示します。
 		}
 
 		ShowCardPreview: {
-			Label: Show Card Previews
-			Tooltip: Show a large image of the moused-over card during TerraTCG games.
+			Label: カードのプレビュー表示
+			Tooltip: TerraTCGゲーム中にマウスオーバーしたカードの画像を大きく表示します。
 		}
 
 		ShowFoils: {
-			Label: Show Foils
-			Tooltip: ""
+			Label: カードのマスク表示
+			Tooltip: "カード画像の上からかぶせるマスクを表示します"
 		}
 	}
 }
