@@ -1,0 +1,197 @@
+Generic: {
+	MainMenu: Terrariaのメインメニュー
+	MainMenuState: 導入済みのMod：{0}個
+	Fighting: 戦闘中：
+	In: 現在地：
+	Day: 昼
+	Night: 夜
+	Health: "HP: "
+	Mana: "MP: "
+	Defense: "DEF: "
+	Damage: ダメージ
+	Dead: 死亡
+	Playing: プレイ中。
+	PlayingWorld: "{0}を{1}プレイ中"
+	MasterMode: マスターモードで
+	ExpertMode: エキスパートモードで
+	NormalMode: ノーマルモードで
+}
+
+Event: {
+	Vanilla: {
+		Party: パーティー
+		Sandstorm: 砂嵐
+		SlimeRain: スライムレイン
+		OldOnesArmy: オールドワンズアーミー
+		GoblinInvasion: ゴブリン襲撃
+		BloodMoon: ブラッドムーン
+		FrostLegion: フロスト軍団
+		PirateInvasion: 海賊襲撃中
+		PumpkinMoon: パンプキンムーン
+		FrostMoon: フロストムーン
+		SolarEclipse: 日食
+		MartianEvent: 火星人の狂乱
+		SolarPillar: ソーラーピラー
+		VortexPillar: ヴォルテックスピラー
+		NebulaPillar: ネビュラピラー
+		StardustPillar: スターダストピラー
+	}
+
+	Calamity: {
+		AcidRain: 酸性雨
+		BossRush: ボスラッシュ
+	}
+}
+
+Biome: {
+	Vanilla: {
+		Forest: 森林
+		Underground: 地下
+		Cavern: 洞窟
+		Ocean: 海洋
+		Mushroom: キノコバイオーム
+		Jungle: ジャングル
+		UndergroundJungle: 地下ジャングル
+		Desert: 砂漠
+		UndergroundDesert: 地下砂漠
+		Snow: 雪原
+		Tundra: ツンドラ
+		Hallow: 聖域
+		UndergroundHallow: 地下聖域
+		Corruption: 不浄
+		UndergroundCorruption: 地下不浄
+		Crimson: 真紅
+		UndergroundCrimson: 地下真紅
+		UndergroundMushroom: 地下キノコバイオーム
+		GraniteCave: 御影石の洞窟
+		MarbleCave: 大理石の洞窟
+		Hive: 蜂の巣
+		Dungeon: ダンジョン
+		JungleTemple: ジャングル寺院
+		Space: 宇宙
+		Underworld: 地獄
+		Meteor: 隕石
+		Town: 町
+	}
+
+	Calamity: {
+		SunkenSea: 沈没海
+		SulphurousSea: 硫黄の海
+		Abyss: 深淵
+		BrimstoneCrag: 地獄の岩山
+		AstralInfection: アストラル汚染地帯
+	}
+
+	Gensokyo: {
+		SubterraneanSun: 地底の太陽
+	}
+}
+
+Boss: {
+	Vanilla: {
+		KingSlime: スライムキング
+		EyeOfCthulhu: クトゥルフの目
+		EaterOfWorlds: イーターオブワールド
+		BrainOfCthulhu: クトゥルフの脳
+		QueenBee: クイーンビー
+		Skeletron: スケルトロン
+		Deerclops: ディアクロプス
+		WallOfFlesh: ウォールオブフレッシュ
+		TheTwins: ツインズ
+		TheDestroyer: デストロイヤー
+		SkeletronPrime: スケルトロン・プライム
+		Plantera: プランテラ
+		EmpressOfLight: エンプレスオブライト
+		Golem: ゴーレム
+		DukeFishron: デュークフィッシュロン
+		LunaticCultist: 狂信者
+		MoonLord: ムーンロード
+		QueenSlime: クイーンスライム
+	}
+
+	Calamity: {
+		DesertScourge: デザートスカージ
+		GiantClam: 巨大ハマグリ
+		Crabulon: クラブロン
+		ThePerforators: パーフォレーター
+		TheHiveMind: ハイブマインド
+		SlimeGod: スライムゴッド
+		Cryogen: クライオジェン
+		AquaticScourge: アクアティックスカージ
+		BrimstoneElemental: ブリムストーンエレメンタル
+		Calamitas: カラミタス
+		GreatSandShark: グランドサンドシャーク
+		Leviathan: アナヒタ & リヴァイアサン
+		AstrumAureus: アストラムアウレウス
+		Plaguebringer: プレイグブリンガー
+		Ravager: ラヴェジャー
+		AstrumDeus: アストラムデウス
+		ProfanedGuardians: 冒涜された守護者たち
+		Dragonfolly: ドラゴンフォーリー
+		Providence: プロヴィデンス
+		CeaselessVoid: シースレスヴォイド
+		StormWeaver: ストームウィーバー
+		Signus: 破壊者の使徒、シグナス
+		Polterghast: ポルターガスト
+		OldDuke: オールドデューク
+		TheDevourerOfGods: デバウアーオブゴッド
+		Yharon: ヤーロン
+		ExoMechs: ドレイドン & エクソメカ
+		SupremeCalamitas: 至高の魔女カラミタス
+		ImpossibleDamnBoss: 原初のワーム
+	}
+
+	StarsAbove: {
+		Tsukiyomi: Tsukiyomi, the First Starfarer
+		TheWarriorOfLight: The Warrior of Light
+		PenthesileaTheWitchOfInk: Penthesilea, the Witch on Ink
+		NaulhaunTheBurnishedKing: Naulhaun, the Burnished King
+		TheVagrantOfSpaceAndTime: The Vagrant of Space and Time
+	}
+}
+
+Config: {
+	DisplayName: Discordya 設定
+	InternalDetailsHeader: メインメニュー設定
+	GameDetailsHeader: ゲーム内設定
+
+	DisplayModVersion: {
+		Label: MODバージョンを表示
+		Tooltip: 有効にすると、TerrariaのメインメニューでDiscordyaとtModLoaderのバージョンが表示されます。
+	}
+
+	DisplayModQuantity: {
+		Label: 有効なMODの数を表示
+		Tooltip: 有効にすると、Terrariaのメインメニューで有効なMODの数が表示されます。
+	}
+
+	DisplayHealth: {
+		Label: 体力を表示
+		Tooltip: ""
+	}
+
+	DisplayMana: {
+		Label: マナを表示
+		Tooltip: ""
+	}
+
+	DisplayTime: {
+		Label: 時間を表示
+		Tooltip: ""
+	}
+
+	DisplayDefense: {
+		Label: 防御力を表示
+		Tooltip: ""
+	}
+
+	DisplayBossFights: {
+		Label: ボス戦を表示
+		Tooltip: ""
+	}
+
+	DisplayCurrentItem: {
+		Label: 現在のアイテムを表示
+		Tooltip: ""
+	}
+}

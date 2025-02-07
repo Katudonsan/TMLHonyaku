@@ -1,0 +1,304 @@
+Configs: {
+	Modconfig: {
+		DisplayName: 設定
+
+		Headers: {
+			Hurt: "[i:29] ダメージオーバーレイ"
+			Low: "[i:29] 低HPオーバーレイ"
+			Bar: "[i:705] プレイヤーHPバー"
+			Potion: "[i:28] ポーションポップアップ"
+			Debuff:
+				'''
+				[i:2701] デバフポップアップ
+				(注: Fargo's Mutant Modには類似機能があります。
+				動作しない場合は、そちらの設定を確認してください)
+				'''
+		}
+
+		DisableMLShader: {
+			Label: ムーンロードのシェーダーを無効化
+			Tooltip:
+				'''
+				ムーンロードのシェーダーが原因で、以下の2つのオーバーレイが表示されなくなる可能性があります
+				チェックを入れると無効化されます
+				'''
+		}
+
+		DisableHurtOverlay: {
+			Label: ダメージ時のオーバーレイを無効化
+			Tooltip:
+				'''
+				ダメージを受けた際、画面の端が赤くなり、すぐに消える
+				チェックを入れると無効化されます
+				'''
+		}
+
+		HurtOverlayType: {
+			Label: 使用するオーバーレイ
+			Tooltip:
+				'''
+				オーバーレイの種類を選択
+				HPOverlay - 単色で画面の端を覆う (レトロ/トリッピー照明モード推奨)
+				New - グラデーションで画面の端を覆う (カラー/ホワイト照明モードのみ)
+				Flat - 単色で画面全体を覆う
+				'''
+		}
+
+		HurtAlpha: {
+			Label: オーバーレイの強度
+			Tooltip:
+				'''
+				オーバーレイの色の強度を設定できる
+				数値が高いほど強く表示される
+				'''
+		}
+
+		HurtSpeed: {
+			Label: オーバーレイのフェード速度
+			Tooltip:
+				'''
+				オーバーレイが消える速さを設定できる
+				数値が高いほど速く消える
+				'''
+		}
+
+		HaveIntensity: {
+			Label: 可変強度を使用
+			Tooltip:
+				'''
+				ダメージオーバーレイの強度が、ダメージの頻度によって変化される
+				高い強度設定と併用推奨
+				カラー/ホワイト照明モードのみ
+				'''
+		}
+
+		DisableLowHpOverlay: {
+			Label: 低HP時のオーバーレイを無効化
+			Tooltip:
+				'''
+				有効時、画面の端が赤く点滅される
+				チェックを入れると無効化される
+				'''
+		}
+
+		ClassicLowHpOverlay: {
+			Label: クラシック低HPオーバーレイを使用
+			Tooltip:
+				'''
+				グラデーションではなく単色表示される
+				レトロ/トリッピー照明モード推奨
+				'''
+		}
+
+		LowHpAlpha: {
+			Label: オーバーレイの強度
+			Tooltip:
+				'''
+				オーバーレイの色の強度を設定できる
+				数値が高いほど強く表示される
+				'''
+		}
+
+		LowHpFlash: {
+			Label: オーバーレイの点滅速度
+			Tooltip:
+				'''
+				点滅の頻度を設定できる
+				数値が高いほど頻繁に点滅する
+				'''
+		}
+
+		DisableLowHpAudio: {
+			Label: 音声を無効化
+			Tooltip:
+				'''
+				有効時、繰り返し音声が再生される
+				チェックを入れると無効化される
+				'''
+		}
+
+		LowHpSound: {
+			Label: "[i:5117] 使用する音"
+			Tooltip:
+				'''
+				再生される音を設定できる
+				カスタム音声についてはワークショップページを参照してください
+				'''
+		}
+
+		LowHpSdFreq: {
+			Label: 音の再生頻度
+			Tooltip:
+				'''
+				音が再生される間隔を設定できる (単位: ticks)
+				数値が低いほど頻繁に再生される
+				60 ticks = 1秒
+				'''
+		}
+
+		Overlaytrigger: {
+			Label: 低HPの発動割合
+			Tooltip: HPがこの割合以下になるとオーバーレイと音が発動する
+		}
+
+		DisableHPBar: {
+			Label: プレイヤーHPバーを無効化
+			Tooltip:
+				'''
+				ダメージを受けた際にプレイヤーの下に表示できる
+				チェックを入れると無効化
+				'''
+		}
+
+		HPBarDelay: {
+			Label: バーの表示時間
+			Tooltip:
+				'''
+				バーが画面に表示される時間を設定できる (単位: ticks)
+				60 ticks = 1秒
+				610 ticksで無限表示
+				'''
+		}
+
+		HPBarOpacity: {
+			Label: バーの透明度
+			Tooltip: バーの透過率を設定できる
+		}
+
+		HPBarScale: {
+			Label: バーのサイズ
+			Tooltip: バーの大きさを設定できる
+		}
+
+		DisablePSAudio: {
+			Label: ポーションクールタイム解除音を無効化
+			Tooltip:
+				'''
+				ポーションクールタイムが終了すると高音のポーション音が鳴る
+				チェックを入れると無効化
+				'''
+		}
+
+		DisablePSVisual: {
+			Label: ポーションクールタイム解除の視覚エフェクトを無効化
+			Tooltip:
+				'''
+				ポーションのアイコンがプレイヤーの上に表示できる
+				チェックを入れると無効化
+				'''
+		}
+
+		PotionDelay: {
+			Label: アイコンの表示時間
+			Tooltip:
+				'''
+				アイコンが画面に表示される時間を設定できる (単位: ticks)
+				60 ticks = 1秒
+				'''
+		}
+
+		PotionOpacity: {
+			Label: アイコンの透明度
+			Tooltip:
+				'''
+				アイコンの透過率を設定できる
+				255 = 完全に表示
+				0 = 完全に透明
+				'''
+		}
+
+		PotionScale: {
+			Label: アイコンのサイズ
+			Tooltip: アイコンの大きさを設定できる
+		}
+
+		DisableBuffVisual: {
+			Label: デバフポップアップを無効化
+			Tooltip:
+				'''
+				デバフを受けた際、アイコンが一瞬プレイヤーの上に表示される
+				チェックを入れると無効化
+				'''
+		}
+
+		BuffLayout: {
+			Label: 使用するレイアウト
+			Tooltip:
+				'''
+				アイコンの表示方法を選択できる
+				'''
+		}
+
+		DisableBuffTimer: {
+			Label: デバフの残り時間を非表示
+			Tooltip:
+				'''
+				デバフアイコンの上に残り時間を表示
+				チェックを入れると無効化
+				'''
+		}
+
+		BuffDelay: {
+			Label: アイコンの表示時間
+			Tooltip:
+				'''
+				アイコンが画面に表示される時間を設定できる (単位: ticks)
+				60 ticks = 1秒
+				610 ticksで無限表示
+				'''
+		}
+
+		BuffOpacity: {
+			Label: アイコンの不透明度
+			Tooltip:
+				'''
+				アイコンの透明度を変更できる
+				255 = 完全に見える
+				0 = 不可視
+				'''
+		}
+
+		BuffScale: {
+			Label: アイコンの大きさ
+			Tooltip: アイコンのサイズを変更できる
+		}
+
+		DebuffBL: {
+			Label: デバフブラックリスト
+			Tooltip:
+				'''
+				このリストにあるデバフはポップアップしなくなる
+				Modを再ロードしないと正しく読み込まれません
+				'''
+		}
+	}
+
+	NBuffList: {
+		DisplayName: デバフリスト
+
+		Headers: {
+			List:
+				'''
+				追加したいデバフをブラックリストにコピー&ペーストしてください。
+				表示するにはワールドにいる必要があります。
+				リストを更新するにはデフォルトに戻すを使用してください。
+				詳しくはこのMODのWorkshopページにある
+				デバフブラックリストガイドを参照してください。
+				'''
+		}
+
+		DebuffList: {
+			Label: デバフ
+			Tooltip: ""
+		}
+	}
+
+	DebuffList: {
+		Debuffs: {
+			Tooltip: ""
+			Label: デバフ
+		}
+
+		Tooltip: ""
+	}
+}

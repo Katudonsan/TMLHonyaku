@@ -1,0 +1,25 @@
+Reminder: {
+	DrinkWater: 水分補給をお忘れなく！[i:126]
+	DrinkWaterCombatText: 水を飲まないと...。
+}
+
+Configs: {
+	ReminderConfig: {
+		DisplayName: リマインダー設定
+
+		Headers: {
+			Reminders: リマインダー
+		}
+
+		ChatReminder: {
+			Label: チャットリマインダー
+			Tooltip: チャットメッセージを切り替えます
+		}
+
+		PlayerPopup: {
+			Label: プレイヤーポップアップ
+			Tooltip: プレイヤーの上に表示されるポップアップテキストを切り替えます
+		}
+	}
+}
+

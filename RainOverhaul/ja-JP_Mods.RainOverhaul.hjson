@@ -1,0 +1,75 @@
+Configs: {
+	RainConfig: {
+		DisplayName: レイン・オーバーホール　設定
+
+		Headers: {
+			RainSettings: 設定
+			RainWorldExactly: 追加設定
+		}
+
+		cIntensity: {
+			Label: 雨の強さ
+			Tooltip:
+				'''
+				このパラメータが少ないほど、雨の影響も少なくなる。
+				◉ ◉ ◉ ◌ | ◌ ◌ ◌
+				'''
+		}
+
+		cCycleIndicatorPos: {
+			Label: サイクルインジケータの位置
+			Tooltip:
+				'''
+				「雨の世界」モードでのサイクルのインジケーターの位置に影響する。
+				◉ ◉ ◉ ◉ | ◌ ◌ ◌
+				'''
+		}
+	}
+
+	RainConfigServer: {
+		DisplayName: レイン・オーバーホール・ワールド　設定
+
+		Headers: {
+			RainSettingsServer: ワールド設定
+		}
+
+		cRainWorld: {
+			Label: '''「雨の世界」モード'''
+			Tooltip:
+				'''
+				このトグルはサイクルを追加し、雨のシステムを完全に再構築します。
+				「雨の世界」のように、逃げたり隠れたりして生き延びよう！
+
+				[c/888888:Disables "{$RainConfig.cIntensity.Label}" parameter.]
+				◉ ◉ ◉ ◉ | ◉ ◌ ◌
+				'''
+		}
+	}
+}
+
+RainDeathReason: 自然の力によって亡くなった。
+
+Biomes: {
+	aDimRainSound: {
+		DisplayName: ""
+		TownNPCDialogueName: ""
+	}
+
+	aRainSound: {
+		DisplayName: ""
+		TownNPCDialogueName: ""
+	}
+
+	aQuakeSound: {
+		DisplayName: ""
+		TownNPCDialogueName: ""
+	}
+}
+
+Buffs: {
+	ShelterNotification: {
+		Description: 雨が強すぎる！避けられない事態を避けるため、急いで避難場所を探そう！
+		DisplayName: どこかで雨が降っているのか？
+	}
+}
+
