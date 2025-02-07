@@ -1,0 +1,16 @@
+Configs: {
+	StarConfig: {
+		DisplayName:スター設定
+
+		StarsHurt: {
+			Label:星で傷つく
+			Tooltip:落下した星がプレイヤーにダメージを与えるようにする
+		}
+
+		StarMulti: {
+			Label:スター落下頻度倍率
+			Tooltip: ""
+		}
+	}
+}
+

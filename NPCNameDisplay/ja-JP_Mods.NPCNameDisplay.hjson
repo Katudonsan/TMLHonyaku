@@ -1,0 +1,11 @@
+Configs: {
+	NPCNameDisplayConfig: {
+		BrightDisplay: {
+			Tooltip: 光量に関係なくNPCの名前を明るくする
+			Label: 明るいディスプレイ
+		}
+
+		DisplayName: NPC Name Display 設定
+	}
+}
+
