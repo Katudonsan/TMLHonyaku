@@ -112,10 +112,10 @@ Items: {
 	}
 
 	AnahitasArpeggio: {
-		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
+		DisplayName: アナヒタのアルペジオ
 		Tooltip:
 			'''
-			{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}
+			敵を混乱させるゆっくりと動く音符を放つ
 			DM Dokuroの "Forbidden Lullaby" のハープがベースになっている
 			'''
 	}
@@ -142,7 +142,7 @@ Items: {
 	}
 
 	AugmentedAuricTeslaFeatheredHeadwear: {
-		DisplayName: オーリックテスラの羽根付きヘッドウェア[c/70f4f4:+]
+		DisplayName: オーリックテスラの羽根付きヘッドウェア+
 		Tooltip:
 			'''
 			旋律ダメージ25%増加
@@ -163,7 +163,7 @@ Items: {
 	}
 
 	AugmentedAuricTeslaValkyrieVisage: {
-		DisplayName: オーリックテスラのヴァルキリーヴィザージュ[c/70f4f4:+]
+		DisplayName: オーリックテスラのヴァルキリーヴィザージュ+
 		Tooltip:
 			'''
 			神聖ダメージ15%増加
@@ -179,7 +179,8 @@ Items: {
 			ヒーラー用の星間、ブラッドフレア、シルヴァのアーマー効果
 			神聖ダメージ40%増加
 			神聖ダメージのクリティカル確率20%増加
-			ヒーラー武器の詠唱速度が16%増加			'''
+			ヒーラー武器の詠唱速度が16%増加			
+			'''
 	}
 
 	AuricTeslaFeatheredHeadwear: {
@@ -226,7 +227,7 @@ Items: {
 	}
 
 	BelchingSaxophone: {
-		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.BelchingSaxophone.DisplayName}"
+		DisplayName: ベルチングサクソフォン
 		Tooltip:
 			'''
 			ツル、シャボン玉、音符を発射
@@ -249,7 +250,7 @@ Items: {
 			神聖ダメージ27%増加
 			詠唱速度が11%増加
 			'{0}'を押すとライフの半分を使って回復の儀式を開始する
-			儀式は {1} のライフで急速に味方を回復する
+			儀式は{1}のライフで急速に味方を回復する
 			一度に使えるのは1つの儀式のみ
 			このアビリティにクールダウンは存在しないが、使いすぎると死亡する
 			'''
@@ -323,7 +324,8 @@ Items: {
 			タンバリンと一緒に3つの弱い氷片も放つ
 			タイミングよくヒットさせることで、タンバリンがパワーアップし、ダメージが上昇する
 			タイミングが合えば敵をなぎ払うこともできる
-			 {$Mods.ThoriumMod.Common.Tooltips.BigInstrument} を使用する
+			 ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			これらのボーナスは武器を変更すると徐々に減少する を使用する
 			'''
 	}
 
@@ -433,7 +435,8 @@ Items: {
 			命中時に竜の炎を放つ
 			25回目の攻撃ごとに、画面上に2体の大きな武器が出現し、一定方向に攻撃する
 			ヒットタイミングに成功すると、エンパワーメントレベル、ダメージ、追尾範囲、ラッパの数が徐々に増加する
-			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}「少なくとも3つの肺が必要
+			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			これらのボーナスは武器を変更すると徐々に減少する「少なくとも3つの肺が必要
 			「演奏するには少なくとも3つの肺が必要だ！」
 			'''
 	}
@@ -500,7 +503,7 @@ Items: {
 	}
 
 	FaceMelter: {
-		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.FaceMelter.DisplayName}"
+		DisplayName: フェイスメルター
 		Tooltip:
 			'''
 			溶けるような熱い音符を放つ
@@ -528,7 +531,8 @@ Items: {
 			呪いの炎を高速で放つ
 			タイミングよくヒットさせることで、威力と速度が増加する
 			5回目のタイミングに成功すると、レアなダンククリーパーを召喚する
-			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			これらのボーナスは武器を変更すると徐々に減少する
 			「腐敗の集合意識の歌」
 			DM Dokuro ft. SixteenInMonoの "Filthy Mind" のフルートがベースになっている
 			'''
@@ -793,6 +797,54 @@ Items: {
 			'''
 	}
 
+	DustDevilDrums: {
+		DisplayName: ダストデビルドラム
+		Tooltip:
+			'''
+			使用者の周囲にいくつかの竜巻を発生させる
+			25%の確率で、敵を追尾する青緑色の竜巻を召喚する
+			「一体どんな悪ふざけをしたら、これに冷却装置が必要になるんだ？」
+			'''
+	}
+
+	HarmonyoftheOldGod: {
+		DisplayName: Harmony of the Old God
+		Tooltip:
+			'''
+			Creates a giant staff above the user when held that is only visible to them
+			When playing this instrument, surges of notes will flow through the staff
+			Eventually, the notes will fall off and attack
+			"Building harmony with all the slimes in the world"
+			'''
+	}
+
+	TimesOldRoman: {
+		DisplayName: Times Old Roman
+		Tooltip:
+			'''
+			Swing a comically large pen that leaves behind a damaging ink trail
+			The ink trail can give the user soul essence
+			"Goozma experienced the time when it was just Times Roman"
+			'''
+	}
+
+
+	DesertedDrugDeal: {
+		DisplayName: 大砂鮫の血清弓
+		Tooltip:
+			'''
+			敵の防御力を30無視する
+			グレートサンドシャークの血で満たされた注射器を発射する
+			注射器は命中した敵やプレイヤーに付着し、注入される
+			敵に命中すると、継続ダメージを与える
+			プレイヤーに命中すると、回復効果をもたらす
+			命中した敵に圧潰とアーマーブレイクを付与する
+			回復した味方には、長時間持続するライフ回復効果を付与する
+			自身を回復することもできる
+			「微量のHerobrineが含まれています」
+			'''
+	}
+
 	ReturntoSludge: {
 		DisplayName: スラッジリターン
 		Tooltip: チャージしてグーボムを溜め、放すと発射される
@@ -912,7 +964,8 @@ Items: {
 			分裂する前にらせん状に動く2本のエレメンタルビームを放つ
 			15ポイントの防御力を無視する
 			タイミングよくヒットさせることで、エンパワーメントレベルが上昇する
-			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			これらのボーナスは武器を変更すると徐々に減少する
 			'''
 	}
 
@@ -1114,7 +1167,8 @@ Items: {
 			血を放つ
 			タイミングよくヒットさせることで、威力と弾速が増加する
 			3回タイミングが合うたびに、発射される弾丸の量が最大6発まで増加する
-			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}が表示される
+			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			これらのボーナスは武器を変更すると徐々に減少するが表示される
 			※18歳以上対象
 			DM Dokuro ft. SixteenInMonoの "Blood Coagulant"のバイオリンがベースになっている
 			'''
@@ -1170,19 +1224,19 @@ Items: {
 
 Projectiles: {
 	AcidicReed: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicReed.DisplayName}"
+		DisplayName: Acidic Reed
 	}
 
 	AcidicSaxBubble: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxBubble.DisplayName}"
+		DisplayName: Acid Bubble
 	}
 
 	AcidicSaxMist: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxMist.DisplayName}"
+		DisplayName: Acid Mist
 	}
 
 	AnahitasArpeggioNote: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AnahitasArpeggioNote.DisplayName}"
+		DisplayName: Anahita's Song
 	}
 
 	AncientSong: {
@@ -1281,6 +1335,10 @@ Projectiles: {
 		DisplayName: Death Adder Soul
 	}
 
+	DesertedDrugDeal: {
+		DisplayName: Blood of Greater Sand Sharks
+	}
+
 	Disaster: {
 		DisplayName: Disaster
 	}
@@ -1291,14 +1349,6 @@ Projectiles: {
 
 	DisasterSlashes: {
 		DisplayName: Disaster
-	}
-
-	FireHazard: {
-		DisplayName: Fire Hazard
-	}
-
-	FireStarter: {
-		DisplayName: Fire Starter
 	}
 
 	DoomsdayCatharsis: {
@@ -1319,6 +1369,10 @@ Projectiles: {
 
 	Duality: {
 		DisplayName: Duality
+	}
+
+	DustDevil: {
+		DisplayName: Dust Devil
 	}
 
 	ElectricChain: {
@@ -1361,12 +1415,28 @@ Projectiles: {
 		DisplayName: Filthy Flute
 	}
 
+	FireHazard: {
+		DisplayName: Fire Hazard
+	}
+
+	FireStarter: {
+		DisplayName: Fire Starter
+	}
+
 	Gashadokuro: {
 		DisplayName: Gashadokuro
 	}
 
 	GashadokuroCracks: {
 		DisplayName: Gashadokuro
+	}
+
+	GodNote: {
+		DisplayName: God Note
+	}
+
+	HarmonyoftheOldGod: {
+		DisplayName: Harmony of the Old God
 	}
 
 	HarpY: {
@@ -1422,15 +1492,15 @@ Projectiles: {
 	}
 
 	MelterAmp: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterAmp.DisplayName}"
+		DisplayName: Melter Amp
 	}
 
 	MelterNote1: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote1.DisplayName}"
+		DisplayName: Melter Song
 	}
 
 	MelterNote2: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote2.DisplayName}"
+		DisplayName: Melter Song
 	}
 
 	MilkyWay: {
@@ -1509,6 +1579,10 @@ Projectiles: {
 		DisplayName: Scuffed Keytar
 	}
 
+	SharkBloodInjection: {
+		DisplayName: Shark Blood Injection
+	}
+
 	Singularity: {
 		DisplayName: Singularity
 	}
@@ -1577,6 +1651,14 @@ Projectiles: {
 		DisplayName: Tidal Wave
 	}
 
+	TimesOldRoman: {
+		DisplayName: Times Old Roman
+	}
+
+	TimesOldTrail: {
+		DisplayName: Times Old Roman
+	}
+
 	TherapeuticSludge: {
 		DisplayName: Therapeutic Sludge
 	}
@@ -1586,15 +1668,15 @@ Projectiles: {
 	}
 
 	ToxicEightNote: {
-		DisplayName: Toxic "{$ProjectileName.EightNote}"
+		DisplayName: Toxic "???"
 	}
 
 	ToxicQuarterNote: {
-		DisplayName: Toxic "{$ProjectileName.QuarterNote}"
+		DisplayName: Toxic "音符"
 	}
 
 	ToxicTiedEightNote: {
-		DisplayName: Toxic "{$ProjectileName.TiedEightNote}"
+		DisplayName: Toxic "???"
 	}
 
 	Transfiguration: {
@@ -1705,6 +1787,16 @@ FargoEnchantments: {
 Configs: {
 	BalanceConfig: {
 		DisplayName: バランス設定
+
+		expensiveDraedonsForge: {
+			Label: ドレイドンの炉
+			Tooltip: ドレイドンの炉を作成するために希少なトリウム素材が必要になるように変更する
+		}
+
+		rogueThrowerMerge: {
+			Label: ローグと投擲クラスの統合
+			Tooltip: Ragnarok Modがインストールされている場合、自動で無効化されます
+		}
 
 		bard: {
 			Label: 吟遊詩人の武器ダメージ倍率

@@ -1,0 +1,249 @@
+Configs: {
+	Config: {
+		DisplayName: ボス体力バー設定
+
+		bossName: {
+			Label: ボス名
+			Tooltip: ボスの名前を表示します。
+		}
+
+		bossHealthInt: {
+			Label: ボス体力（整数）
+			Tooltip: ボスの体力を整数値で表示します。
+		}
+
+		bossHealthPercent: {
+			Label: ボス体力（パーセント）
+			Tooltip: ボスの体力をパーセンテージで表示します。
+		}
+
+		bossInvincibleWarning: {
+			Label: ボス無敵時警告
+			Tooltip: ボスが無敵のときに警告を表示します（多くの部位を持つボスには正しく動作しない場合があります）
+		}
+
+		hideBossBarOnInvinc: {
+			Label: 無敵時にボスバーを非表示
+			Tooltip: ボスが無敵のとき、体力バーを非表示にします（この設定を有効にするにはボス無敵警告をオンにする必要があります）
+		}
+
+		fontColorRed: {
+			Label: 文字色 [c/FF0000:(赤)]
+			Tooltip: 体力バーのテキストの色を変更します。
+		}
+
+		fontColorGreen: {
+			Label: 文字色 [c/00FF00:(緑)]
+			Tooltip: 体力バーのテキストの色を変更します。
+		}
+
+		fontColorBlue: {
+			Label: 文字色 [c/0000FF:(青)]
+			Tooltip: 体力バーのテキストの色を変更します。
+		}
+
+		fontOffsetX: {
+			Label: 文字位置 (X)
+			Tooltip: 表示されるテキストの位置を変更します。（ピクセル単位）
+		}
+
+		fontOffsetY: {
+			Label: 文字位置 (Y)
+			Tooltip: 表示されるテキストの位置を変更します。（ピクセル単位）
+		}
+
+		showBossDefense: {
+			Label: ボス防御力
+			Tooltip: ボスの防御力を表示します。
+		}
+
+		showBossDamageResist: {
+			Label: ボスダメージ耐性
+			Tooltip:
+				'''
+				ボスのダメージ耐性を表示します。
+				[c/FF0000:(Calamity Modが有効である必要があります)]
+				'''
+		}
+
+		defenseStatRed: {
+			Label: 防御力文字色 [c/FF0000:(赤)]
+			Tooltip: 防御力テキストの色を変更します。
+		}
+
+		defenseStatGreen: {
+			Label: 防御力文字色 [c/00FF00:(緑)]
+			Tooltip: 防御力テキストの色を変更します。
+		}
+
+		defenseStatBlue: {
+			Label: 防御力文字色 [c/0000FF:(青)]
+			Tooltip: 防御力テキストの色を変更します。
+		}
+
+		defenseStatX: {
+			Label: 防御力テキスト位置 (X)
+			Tooltip: 表示されるテキストの位置を変更します。（ピクセル単位）
+		}
+
+		defenseStatY: {
+			Label: 防御力テキスト位置 (Y)
+			Tooltip: 表示されるテキストの位置を変更します。（ピクセル単位）
+		}
+
+		showBossKBResist: {
+			Label: ボスノックバック耐性
+			Tooltip: ボスのノックバック耐性を表示します。
+		}
+
+		KBResistRed: {
+			Label: ノックバック耐性文字色 [c/FF0000:(赤)]
+			Tooltip: ノックバック耐性テキストの色を変更します。
+		}
+
+		KBResistGreen: {
+			Label: ノックバック耐性文字色 [c/00FF00:(緑)]
+			Tooltip: ノックバック耐性テキストの色を変更します。
+		}
+
+		KBResistBlue: {
+			Label: ノックバック耐性文字色 [c/0000FF:(青)]
+			Tooltip: ノックバック耐性テキストの色を変更します。
+		}
+
+		KBResistX: {
+			Label: ノックバック耐性テキスト位置 (X)
+			Tooltip:
+				'''
+				表示されるテキストの位置を変更します。（ピクセル単位）
+				[c/FF0000:(Calamity Modが有効な場合、内部位置が変更されます。ただし、この値自体は自動的には変わりません)]
+				'''
+		}
+
+		KBResistY: {
+			Label: ノックバック耐性テキスト位置 (Y)
+			Tooltip: 表示されるテキストの位置を変更します。（ピクセル単位）
+		}
+
+		showBossAtkDmg: {
+			Label: ボス攻撃力
+			Tooltip: ボスの攻撃力を表示します。
+		}
+
+		atkDmgRed: {
+			Label: 攻撃力文字色 [c/FF0000:(赤)]
+			Tooltip: 攻撃力テキストの色を変更します。
+		}
+
+		atkDmgGreen: {
+			Label: 攻撃力文字色 [c/00FF00:(緑)]
+			Tooltip: 攻撃力テキストの色を変更します。
+		}
+
+		atkDmgBlue: {
+			Label: 攻撃力文字色 [c/0000FF:(青)]
+			Tooltip: 攻撃力テキストの色を変更します。
+		}
+
+		atkDmgX: {
+			Label: 攻撃力テキスト位置 (X)
+			Tooltip: 表示されるテキストの位置を変更します。（ピクセル単位）
+		}
+
+		atkDmgY: {
+			Label: 攻撃力テキスト位置 (Y)
+			Tooltip: 表示されるテキストの位置を変更します。（ピクセル単位）
+		}
+
+		showBossTarget: {
+			Label: ボスターゲット
+			Tooltip: ボスがターゲットしているプレイヤーの名前を表示します。
+		}
+
+		targetRed: {
+			Label: ターゲット文字色 [c/FF0000:(赤)]
+			Tooltip: ターゲットテキストの色を変更します。
+		}
+
+		targetGreen: {
+			Label: ターゲット文字色 [c/00FF00:(緑)]
+			Tooltip: ターゲットテキストの色を変更します。
+		}
+
+		targetBlue: {
+			Label: ターゲット文字色 [c/0000FF:(青)]
+			Tooltip: ターゲットテキストの色を変更します。
+		}
+
+		targetX: {
+			Label: ターゲットテキスト位置 (X)
+			Tooltip: 表示されるテキストの位置を変更します（ピクセル単位）
+		}
+
+		targetY: {
+			Label: ターゲットテキスト位置 (Y)
+			Tooltip: 表示されるテキストの位置を変更します（ピクセル単位）
+		}
+
+		bossIconFlashing: {
+			Label: ボスアイコン点滅効果
+			Tooltip: ボスがダメージを受けるとアイコンが赤く点滅します。
+		}
+
+		barX: {
+			Label: ボスバー位置 (X)
+			Tooltip: ボスバーの位置を変更します（ピクセル単位）。フォント、防御、攻撃、ノックバック、ターゲットテキストの位置に影響します。
+		}
+
+		barY: {
+			Label: ボスバー位置 (Y)
+			Tooltip: ボスバーの位置を変更します（ピクセル単位）。フォント、防御、攻撃、ノックバック、ターゲットテキストの位置に影響します。
+		}
+
+		damageResistStatRed: {
+			Label: ダメージ軽減ステータスの色 [c/FF0000:(赤)]
+			Tooltip:
+				'''
+				ダメージ軽減ステータステキストの色を変更します。
+				[c/FF0000:(Calamity Modが有効である必要があります)]
+				'''
+		}
+
+		damageResistStatGreen: {
+			Label: ダメージ軽減ステータスの色 [c/00FF00:(緑)]
+			Tooltip:
+				'''
+				ダメージ軽減ステータステキストの色を変更します。
+				[c/FF0000:(Calamity Modが有効である必要があります)]
+				'''
+		}
+
+		damageResistStatBlue: {
+			Label: ダメージ軽減ステータスの色 [c/0000FF:(青)]
+			Tooltip:
+				'''
+				ダメージ軽減ステータステキストの色を変更します。
+				[c/FF0000:(Calamity Modが有効である必要があります)]
+				'''
+		}
+
+		damageResistStatX: {
+			Label: ダメージ軽減ステータスの位置 (X)
+			Tooltip:
+				'''
+				表示されるテキストの位置を変更します（ピクセル単位）
+				[c/FF0000:(Calamity Modが有効である必要があります)]
+				'''
+		}
+
+		damageResistStatY: {
+			Label: ダメージ軽減ステータスの位置 (Y)
+			Tooltip:
+				'''
+				表示されるテキストの位置を変更します（ピクセル単位）
+				[c/FF0000:(Calamity Modが有効である必要があります)]
+				'''
+		}
+	}
+}
+
