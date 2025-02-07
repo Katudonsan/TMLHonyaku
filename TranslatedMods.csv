@@ -68,7 +68,4 @@ steam_id,internal_name,display_name,lead_translator,version,note
 2906451681,FargowiltasSoulsDLC,Fargo's Soul Mod Extras,,0.6.2,ファイルのみ追加
 3044249615,FargowiltasCrossmod,Calamity - Fargo's Souls DLC,,1.1.1.01,ファイルのみ追加
 3326463997,FargoMoreSoulsCompat,Fargo's Souls More Cross-mod (Unofficial Addon),,0.5.2,ファイルのみ追加
-2835407664,NoMoreTombs,No More Tombs,もちつき,2.0.0,済
-2562915378,MaxStackExtra,Max Stack Plus Extra,もちつき,1.4.0.3,済
-2670628346,Lights,Lights And Shadows,もちつき,1.4.2,一部のみ(Bloomの項目の翻訳に悩んだため)
-2626764822,BannerBonanza,Banner Bonanza,もちつき,1.4.1,済
+2835407664,NoMoreTombs,No More Tombs,もちつき,2.0.0,一部未翻訳部分をkatudonsanが修正
