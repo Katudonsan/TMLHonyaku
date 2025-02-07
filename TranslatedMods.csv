@@ -64,8 +64,5 @@ steam_id,internal_name,display_name,lead_translator,version,note
 2563098343,TeamSpectate,Team Spectate,katudonsan,2.6.2,済
 2634682993,BetterMultiplayer,Better Multiplayer,katudonsan,1.6.3,済
 2707400823,AutoReroll,Auto Reforge,katudonsan,2024.8.31,済
-2815540735,FargowiltasSouls,Fargo's Souls Mod,,1.7.0.12,ファイルのみ追加
-2906451681,FargowiltasSoulsDLC,Fargo's Soul Mod Extras,,0.6.2,ファイルのみ追加
-3044249615,FargowiltasCrossmod,Calamity - Fargo's Souls DLC,,1.1.1.01,ファイルのみ追加
-3326463997,FargoMoreSoulsCompat,Fargo's Souls More Cross-mod (Unofficial Addon),,0.5.2,ファイルのみ追加
+2815540735,FargowiltasSouls,Fargo's Souls Mod,katudonsan,1.7.0.12,一部翻訳
 2835407664,NoMoreTombs,No More Tombs,もちつき,2.0.0,一部未翻訳部分をkatudonsanが修正
