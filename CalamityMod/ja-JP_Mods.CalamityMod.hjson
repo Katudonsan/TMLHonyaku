@@ -2888,7 +2888,7 @@ BossChecklistIntegration: {
 	}
 
 	GiantClam: {
-		SpawnInfo: 硫黄の海で自然にスポーンする
+		SpawnInfo: 沈没海で水中に自然にスポーンする
 		DespawnMessage: "[c/7FFFD4:大蛤は洞窟に隠れてしまった....]"
 	}
 
