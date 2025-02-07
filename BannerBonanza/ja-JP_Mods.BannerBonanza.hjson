@@ -1,8 +1,0 @@
-Items: {
-	BannerRackItem: {
-		DisplayName: Banner Rack
-		Tooltip: Place banners on the rack
-	}
-}
-
-Tiles.BannerRackTile.MapEntry: Banner Rack
