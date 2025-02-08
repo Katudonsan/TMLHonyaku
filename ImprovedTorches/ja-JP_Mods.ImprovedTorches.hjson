@@ -1,0 +1,16 @@
+Configs: {
+	ImprovedTorchesConfigClient: {
+		DisableTorchFlickering: {
+			Tooltip: ""
+			Label: "[i:966] たいまつのちらつきを無効にする"
+		}
+
+		DisplayName: クライアント設定
+
+		brightnessOffset: {
+			Label: "[i:8] 明るさのスケール"
+			Tooltip: ""
+		}
+	}
+}
+
