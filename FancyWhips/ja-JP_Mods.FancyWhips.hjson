@@ -1,0 +1,16 @@
+Configs: {
+	FancyWhipsConfig: {
+		DisplayName: Fancy Whips 設定
+
+		DefaultHitboxes: {
+			Label: デフォルト　攻撃判定
+			Tooltip:
+				'''
+				バニラの鞭の攻撃判定の修正を切り替えます。
+				オン： バニラの攻撃判定を使用する
+				オフ: 調整されたアニメーションによりマッチする攻撃判定を使用する
+				'''
+		}
+	}
+}
+

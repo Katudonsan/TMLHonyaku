@@ -1,0 +1,157 @@
+Configs: {
+	Config: {
+		Feature_FixForHotbarFlickerUponOpeningFancyUI: {
+			Tooltip: 派手なUI（エモートウィンドウやベスティアリーなど）が開かれたときにホットバーが1フレーム描画されるバニラのバグを修正。
+			Label: ファンシーUIを開いたときにホットバーがちらつくことがあった問題を修正
+		}
+
+		Feature_LockingHotbarLocksAdditionalUIs: {
+			Tooltip:
+				'''
+				ホットバーがロックされているときに、ホットバーの下にあるミニマップとバフバーをロックします。
+				ロックされたUIはマウスクリックやカーソルに反応せず、選択されたアイテムが代わりに入力を受け取る。
+				これらのUIのロックを切り替えるには、関連するツールバーのアイコンをクリックするか、このMODが提供するキーバインドを使用します。
+				'''
+			Label: ホットバーをロックすると追加UIがロックされる
+		}
+
+		Feature_DraggingOverBuffIconDoesntInterruptClick: {
+			Tooltip:
+				'''
+				バフアイコンの上でドラッグしても、クリックが中断されないようになります。
+				ただし、バフアイコンをクリックしても、選択されたアイテムは使用されません。
+				'''
+			Label: バフ・アイコンをドラッグしてもクリックが中断されない
+		}
+
+		Feature_DraggingOverHotbarSlotDoesntSelectItem: {
+			Tooltip:
+				'''
+				ホットバーのスロット上をドラッグしてもアイテムが選択されなくなります。
+				ただし、ホットバーのスロットをクリックすると、アイテムは選択されます。
+				'''
+			Label: ホットバーのスロットをドラッグしてもアイテムが選択されない
+		}
+
+		Feature_InvertedMouseScrollForRecipeList: {
+			Tooltip: レシピリストのマウススクロールを無効にします。
+			Label: レシピリストのマウス逆スクロール
+		}
+
+		Feature_MouseWheelButtonsScrollRecipeList: {
+			Tooltip: レシピリストをホットバーのようにマウスのホイールボタンでスクロールできるようにします。
+			Label: マウスホイールボタン レシピリストのスクロール
+		}
+
+		Feature_InteractiveUIsWhileUsingItem: {
+			Tooltip:
+				'''
+				アイテム使用中もホットバー、フルスクリーンマップ、レシピリストマップが反応し続けるようになります。
+				特にホットバーについては、戦闘中の選択アイテムの入れ替えがよりスムーズになります。
+				'''
+			Label: アイテム使用中のインタラクティブUI
+		}
+
+		Feature_AccessorySlotsImprovedScrollbar: {
+			Tooltip: アクセサリースロットのスクロールバーを、マウスホイール、マウスホイールボタン、またはスクローラーのドラッグでスクロールできるものに置き換えます。
+			Label: アクセサリースロット スクロールバーの改良
+		}
+
+		Feature_NPCHouseIconsScrollbar: {
+			Tooltip: NPCハウスアイコンにスクロールバーを追加し、マウスホイールやマウスホイールボタン、またはスクローラーのドラッグでスクロールできるようにします。
+			Label: NPCハウスアイコンスクロールバー
+		}
+
+		Feature_BuffsBarScrollbar: {
+			Tooltip: バフバーにスクロールバーを追加し、マウスホイールやマウスホイールボタン、またはスクローラーのドラッグでスクロールできるようにする。
+			Label: バフ・バー・スクロールバー
+		}
+
+		General_NPCHouseIconsColumns: {
+			Tooltip:
+				'''
+				NPCハウスアイコンに表示するバフアイコンの列数を指定します。
+				[NPCハウスアイコンスクロールバー]が有効な場合のみ有効です。
+				'''
+			Label: NPCハウス・アイコン・コラム
+		}
+
+		General_EquipPagesBuffsBarRows: {
+			Tooltip:
+				'''
+				このバフバーに最大何列のバフアイコンを表示するか。
+				[バフ・バー・スクロールバー] 機能が有効な場合にのみ関連する。
+				'''
+			Label: 装備ページのバフバー列
+		}
+
+		General_HotbarsBuffsBarRows: {
+			Tooltip:
+				'''
+				このバフバーに最大何列のバフアイコンを表示するか。
+				[バフ・バー・スクロールバー]機能が有効な場合のみ関連する。
+				'''
+			Label: ホットバーのバフ・バー列
+		}
+
+		General_HoverToActivateHotbarsBuffListScroll: {
+			Tooltip:
+				'''
+				このバフバーはマウスホイールとマウスホールドボタンをリッスンする。
+				[バフ・バー・スクロールバー] 機能が有効な場合のみ関連する。
+				'''
+			Label: ホバーでホットバーのバフリストスクロールを有効にする
+		}
+
+		Notifications_ShowStartupMessageForImportantChangeNotes_2_2_0: {
+			Tooltip:
+				'''
+				ワールドに入ると、最新のアップデートによる重要な変更点をメッセージで表示します。
+				新しいアップデートは、この設定をオンに戻すことができます。
+				'''
+			Label:  重要な変更点に関するスタートアップメッセージの表示
+		}
+
+		Headers: {
+			Features: 特徴
+			General: 一般
+			Notifications: お知らせ
+		}
+
+		DisplayName: 設定
+	}
+}
+
+Keybinds: {
+	ToggleLockingUIs: {
+		DisplayName: トグルロックUI
+	}
+
+	ActivateBuffsBarScroll: {
+		DisplayName: バフ・バー スクロール 有効
+	}
+
+	ActivateBuffListScroll: {
+		DisplayName: バフ・バー スクロール 有効
+	}
+
+	ToggleUILock: {
+		DisplayName: トグルUIロック
+	}
+}
+
+UI: {
+	Tooltip: {
+		UIUnlocked: UIロック解除
+		UILocked: UIロック
+	}
+}
+
+Message: {
+	ImportantChangeNotes: ""
+}
+
+Version: 0.4.0.1
+
+CompactName: BetterGameUI
+

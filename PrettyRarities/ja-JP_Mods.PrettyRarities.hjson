@@ -1,0 +1,44 @@
+Configs: {
+	ParticleSettings: {
+		HeavilyIncreased: {
+			Label: 大幅に増加
+		}
+
+		Increased: {
+			Label: 増加
+		}
+
+		Normal: {
+			Label: ノーマル
+		}
+
+		Reduced: {
+			Label: 削減
+		}
+
+		HeavilyReduced: {
+			Label: 大幅に削減
+		}
+
+		Disabled: {
+			Label: 無効
+		}
+
+		Tooltip: ""
+	}
+
+	PrettyRaritiesConfig: {
+		EnableGlow: {
+			Tooltip: ""
+			Label: 光の有効化
+		}
+
+		ParticleSettings: {
+			Tooltip: ""
+			Label: パーティクル設定
+		}
+
+		DisplayName: Pretty Rarities 設定
+	}
+}
+

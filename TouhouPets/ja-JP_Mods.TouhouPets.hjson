@@ -1,0 +1,2187 @@
+DeathReason: {
+	KilledByKoishi: "{0} は無意識の殺人で死亡した。"
+}
+
+Bestiary: {
+	YukariPortal: 未知の次元につながる空間的な隙間は、その内部から常識を超えた風景を垣間見ることができる。
+}
+
+YukaRequest: リクエスト
+
+YukaStop: ストップ
+
+YukaTips:
+	'''
+	---
+	このポットの下に1枚の紙がある
+	「プロジェクト・クレンタミネーター - コード・ユカ」
+	「こんにちは！「幽香」のチュートリアルへようこそ！」
+	「インベントリに色のついた溶液がある場合、「幽香」を右クリックすると自動的に溶液を噴霧します。」
+	スプレーをしていない時に「幽香」を左クリックすると、2つのスプレーモードを切り替えることができます。
+	「楽しい体験ができますように！」
+	'''
+
+YukariWealthCount: 提供コインの開示
+
+SwitchTopic: トピック切り替え
+
+PetShop: ペットショップ
+
+LightPetShop: 光源ペットショップ
+
+QQGroup: _
+
+GoodsShop: _
+
+CraftCondition_StarSapphire: 材料を地面に落とす
+
+FeedYuyuko: エサ
+
+MurasaTips: "[c/ff0000:彼女と一緒に水に入らないで！]"
+
+HinaTips: "[c/009966:不運から遠ざける]"
+
+VampireTips: "[c/ff3366:どうか彼女を太陽の下に置かないでください！]"
+
+TenshinTips: "[c/33ccff:天空の超幸運をもたらす]"
+
+SatoriTips: "[c/cc33cc:近くの生き物を察知]"
+
+WriggleTips: "[c/ccff99:ホタルが暗い隅を照らす]"
+
+YuyukoTips: "[c/ff66ff:食料の用意をしておこう！]"
+
+KaguyaTips: "[c/ff6600:彼女は不死鳥を倒したいと熱望している...]"
+
+MokuTips: "[c/ff6699:彼女は月の姫を打ち負かそうと懸命になるだろう]"
+
+StarTips: "[c/0033ff:近くのお宝を表示]"
+
+MinorikoTips: "[c/ff9900:食事をより充実したものにする]"
+
+TewiTips: "[c/ff9999:彼女との出会いが幸運を呼ぶ]"
+
+YukaTips2: "[c/33ff33:彼女は環境を変える力を持っている]"
+
+LettyTips: "[c/ccccff:冬の寒さを他のパートナーにもたらす]"
+
+KokoroTips: "[c/cc33cc:誰かの無意識の行動を抑える]"
+
+KoishiTelephone1: "[c/9dffce:あなたは こいし の呼びかけに応じ、幸運にも何も起こらなかった...]"
+
+KoishiTelephone2: "[c/ff0000:今から動いたって遅い。]"
+
+Configs: {
+	PetAbilitiesConfig: {
+		DisplayName: ペットの能力設定
+
+		SpecialAbility_Hina: {
+			Label: "[i:TouhouPets/HinaDoll] 雛人形の特殊能力"
+			Tooltip: 運が0以下になるのを防ぐ
+		}
+
+		SpecialAbility_Minoriko: {
+			Label: "[i:TouhouPets/MinorikoSweetPotato] 焼き芋の特殊能力"
+			Tooltip: フードバフの持続時間が3％増加
+		}
+
+		SpecialAbility_Murasa: {
+			Label: "[i:TouhouPets/MurasaBailer] 底なしおたまの特殊能力"
+			Tooltip: GFBワールドでは、プレイヤーは水の上を歩くことができなくなり、水中ではすぐに溺れてしまいます。
+		}
+
+		SpecialAbility_Satori: {
+			Label: "[i:TouhouPets/SatoriSlippers] ピンクのスリッパの特殊能力"
+			Tooltip: 定期的に周囲の敵を検知
+		}
+
+		SpecialAbility_Star: {
+			Label: "[i:TouhouPets/StarSapphire] スターリーサファイアの特殊能力"
+			Tooltip: 近くの宝物を輝かせる
+		}
+
+		SpecialAbility_Tenshin: {
+			Label: "[i:TouhouPets/TenshiKeyStone] 要石の特殊能力"
+			Tooltip: 運が0.5上昇
+		}
+
+		SpecialAbility_Wriggle: {
+			Label: "[i:TouhouPets/WriggleInAJar] 瓶の中の夜盗虫の特殊能力"
+			Tooltip: 定期的に広範囲を照らすため、昆虫を引き寄せることがある。
+		}
+
+		SpecialAbility_Yuka: {
+			Label: "[i:TouhouPets/YukaSunflower] 鉢植えひまわりの特殊能力"
+			Tooltip: 色付きの溶液が在庫にあれば、染色として使用できる。
+		}
+
+		SpecialAbility_Yuyuko: {
+			Label: "[i:TouhouPets/YuyukoFan] 桜扇の特殊能力"
+			Tooltip:
+				'''
+				インベントリや開封したボイドバッグにフードがある場合、1つのアイテムが定期的に消費されます。
+				餌を持った状態でペットを右クリックすると、餌を与えることができます。
+				'''
+		}
+
+		SpecialAbility_MokuAndKaguya: {
+			Label: "[i:TouhouPets/MokuMatch] & [i:TouhouPets/KaguyaBranch] 蓬莱の特殊能力「永遠のマッチ」と「宝石の枝」"
+			Tooltip: 10秒以上AFK状態が続くと、プレイヤー同士の戦いが始まる。
+		}
+
+		SpecialAbility_Tewi: {
+			Label: "[i:TouhouPets/TewiCarrot] ラッキーキャロット・ペンダントの特殊能力"
+			Tooltip: 運が0.3上昇
+		}
+
+		SpecialAbility_Letty: {
+			Label: "[i:TouhouPets/LettyGlobe] スノードームの特殊能力"
+			Tooltip:
+				'''
+				寒さを感じるペットがいます
+				彼女たち...: 
+				[i:TouhouPets/SizuhaBrush] [i:TouhouPets/WriggleInAJar]
+				'''
+		}
+	}
+
+	PetDialogConfig: {
+		DisplayName: ペットのダイアログ設定
+
+		TyperStyleChat: {
+			Label: タイピング風ダイアログ
+			Tooltip: ペットのダイアログを流れるように表示するかどうかを切り替える。
+		}
+
+		CanPetChat: {
+			Label: ペットのダイアログを表示する
+			Tooltip: ペットのダイアログを表示するかどうかを切り替える
+		}
+	}
+
+	PetObtainConfig: {
+		DisplayName: ペットの入手方法
+
+		PetCanDropFromBoss: {
+			Label: ペットはモンスターからドロップする
+			Tooltip: モンスターやボスからペットがドロップするかどうかの切り替え
+		}
+
+		ObtainPetByFishing: {
+			Label: ペットは釣りで手に入る
+			Tooltip:
+				'''
+				釣りで入手できるペットの有無を切り替える
+				彼女たち...: 
+				[i:TouhouPets/HinaDoll] [i:TouhouPets/WakasagihimeFishingRod] [i:TouhouPets/IkuOarfish] [i:TouhouPets/UselessBook]
+				'''
+		}
+
+		AllowGapToSpawn: {
+			Label: 不思議な隙間を夜間にスポーンするようにする。
+			Tooltip: 不思議な隙間が夜間にスポーンするかどうかを切り替えます。
+		}
+	}
+
+	MiscConfig: {
+		DisplayName: その他の機能設定
+
+		CompatibilityMode: {
+			Label: 互換性モード
+			Tooltip:
+				'''
+				いくつかのクロスモッドバグ（Calamity Modなど）を避けるために、ペットの染色効果を無効にします。
+				一部のペットの特別な染色効果は影響を受けません。
+				'''
+		}
+	}
+}
+
+GameTips: {
+	Tip1: Touhou Little Friends: 夜になると現れる不思議な隙間からペットを買うことができる！
+	Tip2: Touhou Little Friends: ペット召喚アイテムの中には、1つに合体できるものもある！ぜひ集めてみてね。
+	Tip3: Touhou Little Friends: 東方ペットがChatしすぎ？MOD設定でペットのChatを無効にできます。
+	Tip4: Touhou Little Friends: ペット同士の関係をもっと知り、彼女達の特別な交流を垣間見よう！
+	Tip5: Touhou Little Friends: ペットにも気分があり、好きなことをすることもある。
+	Tip6: Touhou Little Friends: ペット召喚アイテムは購入することで手に入るだけでなく、敵の上に隠れていたり、水の中に隠れていたりすることもある...
+	Tip7: Touhou Little Friends: 「東方Project」シリーズについて知りたい方、ぜひご覧ください！
+	Tip8: Touhou Little Friends: 不思議な隙間でたくさんの購入をすれば、彼女はあなたに何かをプレゼントしてくれるかもしれない...
+}
+
+Items: {
+	CirnoIceShard: {
+		DisplayName: 叡智に満ちた氷の破片
+		Tooltip:
+			'''
+			最強の妖精を召喚する
+			「あたいったら天才ね！」
+			'''
+	}
+
+	UtsuhoEye: {
+		DisplayName: クリムゾン・アイ
+		Tooltip:
+			'''
+			地底の太陽を召喚する
+			「触るとやけどするよ！」
+			'''
+	}
+
+	HinaDoll: {
+		DisplayName: 雛人形
+		Tooltip:
+			'''
+			災いの女神を召喚する
+			「不幸を取り払ってくれるそうだが...逆に不幸になってるような？」
+			'''
+	}
+
+	DaiyouseiBomb: {
+		DisplayName: ボム
+		Tooltip:
+			'''
+			大妖精を召喚する
+			「BOMだ！」
+			'''
+	}
+
+	PatchouliMoon: {
+		DisplayName: ゴールド・ムーン・グリモワール
+		Tooltip:
+			'''
+			動かない大図書館を召喚する
+			「知識の輝きを放つ」
+			'''
+	}
+
+	SekibankiBow: {
+		DisplayName: 青いリボン
+		Tooltip:
+			'''
+			ろくろ首を召喚する
+			「これは9個目の頭だ！」
+			'''
+	}
+
+	MarisaHakkero: {
+		DisplayName: ミニ八卦炉
+		Tooltip:
+			'''
+			普通の魔法使いを召喚する
+			「優しく燃える」
+			'''
+	}
+
+	ReimuYinyangOrb: {
+		DisplayName: 陰陽の玉
+		Tooltip:
+			'''
+			楽園の素敵な巫女を召喚する
+			「エネルギーに満ち溢れている...そしてかなり重い」
+			'''
+	}
+
+	RemiliaRedTea: {
+		DisplayName: 赤い紅茶
+		Tooltip:
+			'''
+			吸血鬼の姉を召喚する
+			「午後に楽しむのに良い血ね」
+			'''
+	}
+
+	FlandrePudding: {
+		DisplayName: さくらんぼプリン
+		Tooltip:
+			'''
+			吸血鬼の妹を召喚する
+			「おいしそう！」
+			'''
+	}
+
+	CakeOfScarlet: {
+		DisplayName: 緋色のケーキ
+		Tooltip:
+			'''
+			紅魔館の住人を集める
+			「紅魔館の皆で午後のティータイムよ」
+			'''
+	}
+
+	JunkoMooncake: {
+		DisplayName: ピュア・ムーンケーキ
+		Tooltip:
+			'''
+			浄化された精神を召喚する
+			「純粋なオリーブの実」
+			'''
+	}
+
+	HecatiaPlanet: {
+		DisplayName: 奇妙な赤い惑星
+		Tooltip:
+			'''
+			地獄の女神を召喚する
+			「異世界の... もの」
+			'''
+	}
+
+	IkuOarfish: {
+		DisplayName: 伝説の魚
+		Tooltip:
+			'''
+			竜宮の使いを召喚する
+			「希少で美しい」
+			'''
+	}
+
+	TenshiKeyStone: {
+		DisplayName: 要石
+		Tooltip:
+			'''
+			天界の娘を召喚する
+			「ジャイロでも漬物石でもない！」
+			'''
+	}
+
+	SatoriSlippers: {
+		DisplayName: ピンクのスリッパ
+		Tooltip:
+			'''
+			地霊殿の主を召喚する
+			「きっと居心地が良いのでしょう」
+			'''
+	}
+
+	KoishiTelephone: {
+		DisplayName: 紫色の電話機
+		Tooltip:
+			'''
+			無意識に迷い込む少女を召喚する
+			「もしもし？」
+			[c/ff0000:死にかけのあなたにとどめを刺してくるかもしれない！]
+			'''
+	}
+
+	TheThirdEye: {
+		DisplayName: サード・アイ
+		Tooltip:
+			'''
+			旧地獄の住民を集める
+			「あなたの心を見ているわ...」
+			'''
+	}
+
+	SanaeCoin: {
+		DisplayName: カエルの銀貨
+		Tooltip:
+			'''
+			奇跡の巫女を召喚する
+			「たくさん貯めたら何か面白いことが起こるかも？」
+			'''
+	}
+
+	KogasaUmbrella: {
+		DisplayName: 奇妙な傘
+		Tooltip:
+			'''
+			傘の付喪神を召喚する
+			「それは目なの！？」
+			                            
+			'''
+	}
+
+	NitoriCucumber: {
+		DisplayName: きゅうり
+		Tooltip:
+			'''
+			河の便利屋さんを召喚する
+			「とても新鮮だよ」
+			'''
+	}
+
+	UselessBook: {
+		DisplayName: 機能のないマジックブック
+		Tooltip:
+			'''
+			防水加工が施された、とても擦り切れた本
+			武器にもならないような猥褻なものばかりだ。
+			輝くプールに投げ込めば、リフレッシュできるかも？
+			'''
+	}
+
+	RinSkull: {
+		DisplayName: 憑依された頭蓋骨
+		Tooltip:
+			'''
+			地獄の輪禍を召喚する
+			「これは...猫のおもちゃにはふさわしくないのでは...？」
+			'''
+	}
+
+	LilyOneUp: {
+		DisplayName: 1 UP
+		Tooltip:
+			'''
+			春の妖精を召喚する
+			"Extend!"
+			'''
+	}
+
+	MystiaFeather: {
+		DisplayName: 夜雀の羽根
+		Tooltip:
+			'''
+			歌う夜雀を召喚する
+			「チキンナゲットの匂い...？」
+			'''
+	}
+
+	WriggleInAJar: {
+		DisplayName: 瓶の中の夜盗虫
+		Tooltip:
+			'''
+			ホタル妖怪を召喚する
+			「懐かしい記憶の光」
+			'''
+	}
+
+	AyaCamera: {
+		DisplayName: 旧式カメラ
+		Tooltip:
+			'''
+			鴉天狗のジャーナリストを召喚する
+			「背中にもみじの葉がある」
+			'''
+	}
+
+	YuyukoFan: {
+		DisplayName: 桜扇
+		Tooltip:
+			'''
+			桜の亡霊を召喚する
+			「まだ春の香りがする」
+			'''
+	}
+
+	YoumuKatana: {
+		DisplayName: おもちゃの刀
+		Tooltip:
+			'''
+			半人半霊の庭師を召喚する
+			「幽霊がいる。」
+			'''
+	}
+
+	AliceDoll: {
+		DisplayName: 上品な人形
+		Tooltip:
+			'''
+			七色の人形遣いを召喚する
+			「生き生きとした躍動感」
+			'''
+	}
+
+	RumiaRibbon: {
+		DisplayName: 赤いリボン
+		Tooltip:
+			'''
+			黄昏の妖怪を召喚する
+			「ほどけない」
+			'''
+	}
+
+	KoakumaPower: {
+		DisplayName: POWER
+		Tooltip:
+			'''
+			小悪魔を召喚する
+			「それは...実は染められた爆弾？」
+			'''
+	}
+
+	WakasagihimeFishingRod: {
+		DisplayName: おもちゃの釣り竿
+		Tooltip:
+			'''
+			人魚姫のリール
+			「何かが...釣れる」
+			'''
+	}
+
+	YukaSunflower: {
+		DisplayName: 鉢植えヒマワリ
+		Tooltip:
+			'''
+			四季の花マスターを召喚する
+			「これは妥当なのか？」
+			'''
+	}
+
+	YukarisItem: {
+		DisplayName: セージのチケット
+		Tooltip:
+			'''
+			境界の賢者と式神を召喚する
+			「これは私の承認の印よ、受け取ってちょうだい」
+			[c/ffff33:幻想郷に十分な貢献をした際にもらえる報酬]
+			'''
+	}
+
+	KaguyaBranch: {
+		DisplayName: 蓬莱の宝石の枝
+		Tooltip:
+			'''
+			月の姫を召喚する
+			「一見何の変哲もない枝に、色とりどりの宝石があしらわれている。
+			'''
+	}
+
+	MokuMatch: {
+		DisplayName: 永遠のマッチ
+		Tooltip:
+			'''
+			不老不死の竹林案内人を召喚する
+			「雨が降ろうが、風が吹こうが、炎は決して消えない」
+			'''
+	}
+
+	MeirinPanda: {
+		DisplayName: パンダ・ペンダント
+		Tooltip:
+			'''
+			小さな門番を召喚する
+			「神秘の東の国から」
+			'''
+	}
+
+	SakuyaWatch: {
+		DisplayName: ルナ・ダイアル
+		Tooltip:
+			'''
+			小さなメイドを召喚する
+			「手は永遠に4時16分のまま」
+			'''
+	}
+
+	RaikoDrum: {
+		DisplayName: おもちゃのドラム
+		Tooltip:
+			'''
+			太鼓の付喪神を召喚する
+			「バダム、プシュ～」
+			'''
+	}
+
+	KeineLeaf: {
+		DisplayName: イチョウの葉
+		Tooltip:
+			'''
+			知識と歴史の半獣を召喚する
+			「千年以上の文化を担う」
+			'''
+	}
+
+	LunaMoon: {
+		DisplayName: 眠れる月
+		Tooltip:
+			'''
+			月光の妖精を召喚する
+			「これで眠れば、物音は聞こえない」
+			'''
+	}
+
+	StarSapphire: {
+		DisplayName: スターリーサファイア
+		Tooltip:
+			'''
+			スターライトの妖精を召喚する
+			「抱きしめるとすべてを感じているように感じる」
+			'''
+	}
+
+	SunnyMilk: {
+		DisplayName: サンシャイン・ミルク
+		Tooltip:
+			'''
+			陽だまりの妖精を召喚する
+			「飲むと世界中が晴れやかになる」
+			'''
+	}
+
+	LightsJewels: {
+		DisplayName: 光の宝石
+		Tooltip:
+			'''
+			光の妖精3人全員を集める
+			「サファイアとルチルとチーズのネックレス」
+			'''
+	}
+
+	ReisenGun: {
+		DisplayName: ルナティック・ガン
+		Tooltip:
+			'''
+			月兎を召喚する
+			「銃かメガホンか？」
+			'''
+	}
+
+	SizuhaBrush: {
+		DisplayName: 秋のブラシ
+		Tooltip:
+			'''
+			紅葉の女神を召喚する
+			「紅葉を秋色に染めたのは誰？」
+			'''
+	}
+
+	MinorikoSweetPotato: {
+		DisplayName: 焼き芋
+		Tooltip:
+			'''
+			秋の収穫の女神を召喚する
+			「甘くて美味しい、秋の味覚満載！」
+			'''
+	}
+
+	MurasaBailer: {
+		DisplayName: 底なしのおたま
+		Tooltip:
+			'''
+			水難事故の念縛霊を召喚する
+			「決して満たされることはない...」
+			'''
+	}
+
+	SuikaGourd: {
+		DisplayName: 伊吹ヒョウタン
+		Tooltip:
+			'''
+			小さな酔っぱらいを召喚する
+			「中身が無くなることはない」
+			'''
+	}
+
+	EirinBow: {
+		DisplayName: おもちゃの弓
+		Tooltip:
+			'''
+			月の頭脳を召喚する
+			「警告: 他人も自分も撃たないでください」
+			'''
+	}
+
+	ShinkiHeart: {
+		DisplayName: 魔界の心臓
+		Tooltip:
+			'''
+			魔界の女神を召喚する
+			「過去からの愛」
+			'''
+	}
+
+	RukotoRemote: {
+		DisplayName: ロボット・リモート
+		Tooltip:
+			'''
+			小さなロボットメイドの電源が入る。
+			「説明書にはバッテリーは取り外せないと書いてあった。」
+			'''
+	}
+
+	BigPlateMochi: {
+		DisplayName: お餅の大皿
+		Tooltip:
+			'''
+			永遠亭のみんなを集める
+			「家族との共有に適している」
+			'''
+	}
+
+	DoremyPillow: {
+		DisplayName: 快眠枕
+		Tooltip:
+			'''
+			夢の支配者を召喚する
+			「良い夢を...」
+			'''
+	}
+
+	KokoroMask: {
+		DisplayName: 希望の面
+		Tooltip:
+			'''
+			面霊気(付喪神)を召喚する
+			「誰かさんにそっくりだ...」
+			'''
+	}
+
+	TewiCarrot: {
+		DisplayName: ラッキーキャロット・ペンダント
+		Tooltip:
+			'''
+			幸運のウサギを召喚する
+			「実は食べられる」
+			'''
+	}
+
+	MomoyoPickaxe: {
+		DisplayName: 小さな金のつるはし
+		Tooltip:
+			'''
+			虫姫さまを召喚する
+			「道具としては小さすぎるが、誰かのためにはなる」
+			'''
+	}
+
+	AliceOldDoll: {
+		DisplayName: 古い人形
+		Tooltip:
+			'''
+			魔法の国から少女を召喚する
+			「誰かの古いおもちゃのようだ」
+			'''
+	}
+
+	LettyGlobe: {
+		DisplayName: スノードーム
+		Tooltip:
+			'''
+			忘れ去られた冬の妖怪を召喚する
+			「北の国からの気配」
+			「氷に閉ざされた百里」
+			「渦巻く雪千里」
+			'''
+	}
+}
+
+NPCs: {
+	YukariPortal: {
+		DisplayName: 不思議な隙間
+	}
+}
+
+Projectiles: {
+	WriggleFirefly: {
+		DisplayName: ホタル
+	}
+
+	YuyukoButterfly: {
+		DisplayName: 蝶
+	}
+
+	AliceDoll_Proj: {
+		DisplayName: 上海人形
+	}
+
+	WakasagihimeBubble: {
+		DisplayName: バブル
+	}
+
+	KaguyaBullet: {
+		DisplayName: 弾丸
+	}
+
+	MokuBullet: {
+		DisplayName: 弾丸
+	}
+
+	MokuFireball: {
+		DisplayName: 火の玉
+	}
+
+	KaguyaWave: {
+		DisplayName: 満月の波
+	}
+
+	SakuyaKnife: {
+		DisplayName: ナイフ
+	}
+
+	StarTrail: {
+		DisplayName: 星の道
+	}
+
+	SizuhaLeaf: {
+		DisplayName: 落ち葉
+	}
+
+	MokuFlame: {
+		DisplayName: 火炎
+	}
+
+	Cirno: {
+		DisplayName: チルノ
+	}
+
+	Daiyousei: {
+		DisplayName: 大妖精
+	}
+
+	Flandre: {
+		DisplayName: ﾌﾗﾝﾄﾞｰﾙ･ｽｶｰﾚｯﾄ
+	}
+
+	Hecatia: {
+		DisplayName: ﾍｶｰﾃｨｱ･ﾗﾋﾟｽﾗｽﾞﾘ
+	}
+
+	Hina: {
+		DisplayName: 鍵山ヒナ
+	}
+
+	Iku: {
+		DisplayName: 永江衣玖
+	}
+
+	Junko: {
+		DisplayName: 純子
+	}
+
+	Marisa: {
+		DisplayName: 霧雨魔理沙
+	}
+
+	Patchouli: {
+		DisplayName: ﾊﾟﾁｭﾘｰ･ﾉｰﾚｯｼﾞ
+	}
+
+	Piece: {
+		DisplayName: ｸﾗｳﾝﾋﾟｰｽ
+	}
+
+	Reimu: {
+		DisplayName: 博麗霊夢
+	}
+
+	Remilia: {
+		DisplayName: ﾚﾐﾘｱ･ｽｶｰﾚｯﾄ
+	}
+
+	Sekibanki: {
+		DisplayName: 赤蛮奇
+	}
+
+	Tenshi: {
+		DisplayName: 比那名居天子
+	}
+
+	Utsuho: {
+		DisplayName: 霊烏路空
+	}
+
+	Koishi: {
+		DisplayName: 古明地こいし
+	}
+
+	Satori: {
+		DisplayName: 古明地さとり
+	}
+
+	Sanae: {
+		DisplayName: 東風谷早苗
+	}
+
+	Kogasa: {
+		DisplayName: 多々良小傘
+	}
+
+	Nitori: {
+		DisplayName: 河城にとり
+	}
+
+	Rin: {
+		DisplayName: 火焔猫燐
+	}
+
+	Lily: {
+		DisplayName: ﾘﾘｰﾎﾜｲﾄ
+	}
+
+	Mystia: {
+		DisplayName: ﾐｽﾃｨｱ･ﾛｰﾚﾗｲ
+	}
+
+	Wriggle: {
+		DisplayName: ﾘｸﾞﾙ･ﾅｲﾄﾊﾞｸﾞ
+	}
+
+	Aya: {
+		DisplayName: 射命丸文
+	}
+
+	Yuyuko: {
+		DisplayName: 西行寺幽々子
+	}
+
+	Youmu: {
+		DisplayName: 魂魄妖夢
+	}
+
+	Alice: {
+		DisplayName: ｱﾘｽ･ﾏｰｶﾞﾄﾛｲﾄﾞ
+	}
+
+	Rumia: {
+		DisplayName: ルーミア
+	}
+
+	Koakuma: {
+		DisplayName: 小悪魔 No.{0}
+	}
+
+	Wakasagihime: {
+		DisplayName: ワカサギ姫
+	}
+
+	Yuka: {
+		DisplayName: 風見幽香
+	}
+
+	Chen: {
+		DisplayName: 橙
+	}
+
+	Ran: {
+		DisplayName: 八雲藍
+	}
+
+	Yukari: {
+		DisplayName: 八雲紫
+	}
+
+	Kaguya: {
+		DisplayName: 蓬莱山輝夜
+	}
+
+	Moku: {
+		DisplayName: 藤原妹紅
+	}
+
+	Meirin: {
+		DisplayName: 紅美鈴
+	}
+
+	Sakuya: {
+		DisplayName: 十六夜咲夜
+	}
+
+	Raiko: {
+		DisplayName: 堀川雷鼓
+	}
+
+	Keine: {
+		DisplayName: 上白沢慧音
+	}
+
+	Luna: {
+		DisplayName: ルナチャイルド
+	}
+
+	Star: {
+		DisplayName: スターサファイア
+	}
+
+	Sunny: {
+		DisplayName: サニーミルク
+	}
+
+	Reisen: {
+		DisplayName: 鈴仙・優曇華院・イナバ
+	}
+
+	Sizuha: {
+		DisplayName: 秋静葉
+	}
+
+	Minoriko: {
+		DisplayName: 秋穣子
+	}
+
+	Murasa: {
+		DisplayName: 村紗水蜜
+	}
+
+	Suika: {
+		DisplayName: 伊吹萃香
+	}
+
+	Eirin: {
+		DisplayName: 八意永琳
+	}
+
+	Shinki: {
+		DisplayName: 神綺
+	}
+
+	Rukoto: {
+		DisplayName: る～こと
+	}
+
+	Kokoro: {
+		DisplayName: 秦こころ
+	}
+
+	Doremy: {
+		DisplayName: ﾄﾞﾚﾐ･ｽｲｰﾄ
+	}
+
+	Tewi: {
+		DisplayName: 因幡てゐ
+	}
+
+	Momoyo: {
+		DisplayName: 姫虫百々世
+	}
+
+	AliceOld: {
+		DisplayName: アリス
+	}
+
+	Letty: {
+		DisplayName: ﾚﾃｨｰ･ﾎﾜｲﾄ
+	}
+}
+
+Buffs: {
+	CirnoBuff: {
+		DisplayName: バカ
+		Description: ⑨
+	}
+
+	UtsuhoBuff: {
+		DisplayName: 地獄の鴉
+		Description: 「私は地底の太陽だ！」
+	}
+
+	HinaBuff: {
+		DisplayName: 災いの女神
+		Description: 回って、廻って...
+	}
+
+	DaiyouseiBuff: {
+		DisplayName: 大妖精
+		Description: 大妖精って誰？
+	}
+
+	PatchouliBuff: {
+		DisplayName: 小さな動かない大図書館
+		Description: 運動は体に良い
+	}
+
+	SekibankiBuff: {
+		DisplayName: ろくろ首
+		Description: 「私の頭で遊ばないでよ！」
+	}
+
+	MarisaBuff: {
+		DisplayName: 普通の魔法使い
+		Description: 彼女はもう物を盗めない
+	}
+
+	ReimuBuff: {
+		DisplayName: 楽園の素敵な巫女
+		Description: 「・・・」
+	}
+
+	RemiliaBuff: {
+		DisplayName: 吸血鬼の姉
+		Description: 「人間よ、血を捧げなさい！」
+	}
+
+	FlandreBuff: {
+		DisplayName: 吸血鬼の妹
+		Description: 「私と遊ぼうよ！」
+	}
+
+	ScarletBuff: {
+		DisplayName: THE・ｽｶｰﾚｯﾄﾌｧﾐﾘｰ
+		Description: 「午後のティータイムに参加しない？」
+	}
+
+	JunkoBuff: {
+		DisplayName: 純粋な精神
+		Description: ハートの行方
+	}
+
+	HecatiaBuff: {
+		DisplayName: 地獄の女神
+		Description: Welcome ♥ Hell
+	}
+
+	IkuBuff: {
+		DisplayName: 竜宮の使い
+		Description: アロワナのドリル！！！
+	}
+
+	TenshiBuff: {
+		DisplayName: 天界
+		Description: 空から来た不良
+	}
+
+	SatoriBuff: {
+		DisplayName: 意識の妖怪
+		Description: 「今何を考えているか分かるわ...」
+	}
+
+	KoishiBuff: {
+		DisplayName: 潜在意識に迷い込んだ少女
+		Description: 「彼女はどこ？」
+	}
+
+	KomeijiBuff: {
+		DisplayName: The・古明地ファミリー
+		Description: O v U
+	}
+
+	SanaeBuff: {
+		DisplayName: 奇跡の巫女
+		Description: 「奇跡を見よ！」
+	}
+
+	KogasaBuff: {
+		DisplayName: 傘の付喪神
+		Description: 「驚け！！！」
+	}
+
+	NitoriBuff: {
+		DisplayName: 河童エンジニア
+		Description: 「河童の技術はNo.1！！」
+	}
+
+	RinBuff: {
+		DisplayName: 火車
+		Description: 「死体を置いてって！私が持ってくから！！」
+	}
+
+	LilyBuff: {
+		DisplayName: 春の妖精
+		Description: 「春ですよ～！」
+	}
+
+	MystiaBuff: {
+		DisplayName: 夜雀
+		Description: 「夜雀の歌に迷い込んだ！」
+	}
+
+	WriggleBuff: {
+		DisplayName: ホタル妖怪
+		Description: キラキラ、キラキラ、小さな虫
+	}
+
+	YuyukoBuff: {
+		DisplayName: 桜の亡霊
+		Description: 命の境界
+	}
+
+	AyaBuff: {
+		DisplayName: カラス天狗記者
+		Description: 「私の速さに追いついてみよ！」
+	}
+
+	YoumuBuff: {
+		DisplayName: 庭師
+		Description: 「誰かいるの！？」
+	}
+
+	AliceBuff: {
+		DisplayName: 人形遣い
+		Description: 操り人形の達人
+	}
+
+	RumiaBuff: {
+		DisplayName: 黄昏の妖怪
+		Description: 「そ～なのか～？」
+	}
+
+	KoakumaBuff: {
+		DisplayName: 小悪魔
+		Description: 「小悪魔 No. {0} 、よろしくお願いします！」
+	}
+
+	WakasagihimeBuff: {
+		DisplayName: 人魚姫
+		Description: プルンプルン
+	}
+
+	YukaBuff: {
+		DisplayName: フラワー・マスター
+		Description: 「その花は摘まないで。」
+	}
+
+	YukariBuff: {
+		DisplayName: バウンダリー・セージ
+		Description: 「幻想郷を応援してくれてありがとう！」
+	}
+
+	KaguyaBuff: {
+		DisplayName: 月の姫
+		Description: 月の都から逃げ出した
+	}
+
+	MokuBuff: {
+		DisplayName: 不死鳥
+		Description: 永遠に燃え続ける！
+	}
+
+	MeirinBuff: {
+		DisplayName: 門番
+		Description: 「ちょっと、ここは私が守ってるんですよ！」
+	}
+
+	SakuyaBuff: {
+		DisplayName: メイド
+		Description: 「何か御用ですか？」
+	}
+
+	RaikoBuff: {
+		DisplayName: 太鼓の付喪神
+		Description: 「Let's PLAY!」
+	}
+
+	KeineBuff: {
+		DisplayName: 知識と歴史の半獣
+		Description: 歴史の創造者
+		Description_2: 歴史を喰らう者
+	}
+
+	LunaBuff: {
+		DisplayName: ルナチャイルド
+		Description: 静かな月明かり
+	}
+
+	StarBuff: {
+		DisplayName: スターサファイア
+		Description: 降り注ぐ星の光
+	}
+
+	SunnyBuff: {
+		DisplayName: サニーミルク
+		Description: 輝く太陽の光
+	}
+
+	TheThreeFairiesBuff: {
+		DisplayName: 3人の光の妖精
+		Description: 「イタズラに命を賭けてる！...いや、妖精は死なないわ」
+	}
+
+	ReisenBuff: {
+		DisplayName: 月兎
+		Description: 彼女はちょっと緊張しやすいの...
+	}
+
+	SizuhaBuff: {
+		DisplayName: 紅葉の女神
+		Description: 秋の訪れを告げる落ち葉
+	}
+
+	MinorikoBuff: {
+		DisplayName: 豊穣の女神
+		Description: 秋は収穫の喜びの象徴
+	}
+
+	MurasaBuff: {
+		DisplayName: シップ・ファントム
+		Description: 船を安全にしたいのなら、ほうれん草をあげたらどうだ？
+	}
+
+	SuikaBuff: {
+		DisplayName: 酔っぱらい
+		Description: 小さな夜のパレード
+	}
+
+	EirinBuff: {
+		DisplayName: 薬剤師
+		Description: 月の頭脳
+	}
+
+	ShinkiBuff: {
+		DisplayName: 魔界の女神
+		Description: 『親愛なるアリスへ』
+	}
+
+	RukotoBuff: {
+		DisplayName: ロボットメイド
+		Description: 原子力発電！
+	}
+
+	EienteiBuff: {
+		DisplayName: 永世亭の家族
+		Description: 月、永遠、そして兎
+	}
+
+	DoremyBuff: {
+		DisplayName: 夢のバク
+		Description: とぼけた顔
+	}
+
+	KokoroBuff: {
+		DisplayName: 面霊気
+		Description: 彼女は懸命に笑顔を作ろうとしている。
+	}
+
+	TewiBuff: {
+		DisplayName: 幸運の兎
+		Description: 「運というものは単純なものだが、幸せはそうでもない。」
+	}
+
+	MomoyoBuff: {
+		DisplayName: 虫姫
+		Description: 「マイン & クラフト って言いました？」
+	}
+
+	AliceOldBuff: {
+		DisplayName: 魔法の国の少女
+		Description: 死と魔法の匂い
+	}
+
+	LettyBuff: {
+		DisplayName: 冬の妖怪
+		Description: 冬がやってくる！
+	}
+
+	KoishiCalling: {
+		DisplayName: こいしの呼びかけ
+		Description: 急いで電話に出て！（紫色の電話を使って）
+	}
+
+	KoishiKILL: {
+		DisplayName: こいしの呼びかけ
+		Description: 手遅れだよ
+	}
+}
+
+Chat_Kogasa: {
+	Chat1: レロレロ～
+	Chat2: 驚け！！
+	Chat3: わちきは可愛いんじゃない、怖いんだよ！
+	Chat4: やった！今雨が降ってる！
+	Chat5: 雨の日に水たまりでジャンプするのが一番面白い！
+	Chat6: 傘持ってる？ないなら、わちきを連れて行ってよ！
+	Chat7: ラララ～ラララ～
+}
+
+Chat_Cirno: {
+	Chat1: 今日は何を凍らせようかな...
+	Chat2: あたいってば最強ね！
+	Chat3: 私が一番強いよ！
+	Chat4: 大ちゃんが一番好き！
+	Chat6: 1+1=... 何、⑨?
+	Chat7: 熱い...溶けちゃいそうだよー...
+	Chat8: 大丈夫...たぶん...
+	Chat9: 大ちゃん、怖がらないで。あたいはここにいるから！
+	Chat10: 大ちゃんの行くところなら、あたいも行くところ！
+	Chat11: カエルがたくさんいる！
+	Chat12: (ああもう！慧音先生に見つかっちゃうよ...)
+}
+
+Chat_Daiyousei: {
+	Chat1: こ...こんにちは！
+	Chat2: 今日はどこで遊ぶ？
+	Chat3: 私もチルノちゃんが好き！
+	Chat4: チルノちゃん、今日はどこへ行く？
+	Chat5: え...私、そんなの怖くないですよ！
+	Chat6: 大丈夫？チルノちゃん...
+	Chat7: 私もだよ！
+	Chat8: なんて...なんてひどい場所なんですか！
+}
+
+Chat_Flandre: {
+	Chat1: 一緒に遊んでくれる？
+	Chat2: あなたと遊びたい！
+	Chat3: お姉さまは嫌いじゃないけど、ちっとも私に気にかけてくれない...
+	Chat4: おいしい！
+	Chat5: 私が好きなのは...
+	Chat6: お姉さま、どうしたの？
+	Chat7: ...お姉さま、いつ私と遊んでくれるの...？
+	Chat8: いつもそういうんだから...
+	Chat9: 何を言ってるのかかしら、美鈴？
+	Chat10: 美鈴が何か奇妙なダンスを踊ってるの？
+	Chat11: 凄そう...私にも教えてくれませんか？
+}
+
+Chat_Remilia: {
+	Chat1: 人間よ、私に従いなさい！
+	Chat2: この世界はいつか、緋色の悪魔の故郷となるでしょう！
+	Chat3: え...気温が高すぎるような...
+	Chat4: 味はもう少し濃い方が...
+	Chat5: なんて素晴らしい夜なのかしら！
+	Chat6: 親愛なるフランドール...
+	Chat7: 別に...ただ、電話したかっただけよ！
+	Chat8: 暇が出来ればしてあげるわよ～。
+	Chat9: いつもお姉ちゃんに頼ってばかりじゃダメよ。
+	Chat10: なにかしら、パチェ？
+	Chat11: ハハ、それは全部嘘よ。吸血鬼が十字架を恐れるなんて神話、人間の想像にすぎないもの。
+	Chat12: もちろんよ、パチェ。もっと外に出るべきよ。
+	Chat13: 咲夜、たまには自分のことをもっと大事にした方がいいわ。
+	Chat14: 咲夜はまだ昔のことを覚えてるのかしら？
+}
+
+Chat_Patchouli: {
+	Chat1: 私は動きたくないの...
+	Chat2: 私が読んでいない本...？
+	Chat3: ここは...私が知っている場所とは違うようね。
+	Chat4: 興味深い...
+	Chat5: ...それ、本当？
+	Chat6: ゴホッ...ゴホッ
+	Chat7: 前はどのページを読んだかしらね...？
+	Chat8: ねえ...レミィ？
+	Chat9: 吸血鬼のあなたは、なぜ私の本に書いてあるように、十字架を恐れないの？
+	Chat10: まぁ...私の本に書いてあることも常に正しいというわけではないのね。
+	Chat11: いや...
+	Chat12: 魔理沙って最近、鼻をきれいにしていた？
+	Chat13: 彼女は私から盗んだ本も返そうとしないし...
+	Chat14: ...私たちは彼女に教訓を与えなければならないわ！
+	Chat15: いやっいやっイヤ！もう放してよ...
+	Chat16: ダメよ！これ以上動くと死んでしまうわ...！
+	Chat17: 本当に余計なお世話よ！もう全然大丈夫よ...こあ！
+	Chat18: ...私は本当に大丈夫よ！
+	Chat19: 中華料理の作り方の本なんだけど...
+	Chat20: 中世の人間の歴史についての本なんだけど...
+	Chat21: 世界の謎を解明する本なんだけど...
+	Chat22: ネットワーク・エンジニアリングについての本なんだけど...
+	Chat23: 量子力学についての本なんだけど...
+	Chat24: 有機化学の本なんだけど...
+	Chat25: 経済管理の本なんだけど...
+	Chat26: 食品科学についての本なんだけど...
+	Chat27: 動物医学の本なんだけど...
+	Chat28: ランドスケープ・アーキテクチャーについての本なんだけど...
+	Chat29: この本は... 何？チーム上海アリス？
+	Chat30: 土木工学の本なんだけど...
+	Chat31: 内科の本なんだけど...
+	Chat32: 植物保護に関する本なんだけど...
+	Chat33: 高度な数学についての本なんだけど...
+	Chat34: オートメーション・マネジメントについての本なんだけど...
+	Chat35: 心理学の本なんだ...
+}
+
+Chat_Hecatia: {
+	Chat1: 3つの異なる世界の地獄を管理するのは、時に面倒な仕事だわ...
+	Chat2: 私の服のスタイルは非の打ちどころがないわ...これを気に入らない人が本当にいるのかしら？
+}
+
+Chat_Piece: {
+	Chat1: ラララ～ラ～、今日はどこを騙そうか...
+	Chat2: 火をつけるにはいい場所みたいだけど...
+	Chat3: 師匠の服はもちろん最高だ！
+}
+
+Chat_Hina: {
+	Chat1: ご機嫌いかがですか？
+	Chat2: 不幸が訪れませんように...
+	Chat3: 回って、廻って...
+	Chat4: ニトリ、知ってる？願いがあるのだけど。
+	Chat5: 叶うなら、この世のすべての不運を浄化したいの。
+	Chat6: フフッ、さっき言ったように、これはただの願望よ。
+	Chat7: 私たちは...
+	Chat8: は ハハハ...
+}
+
+Chat_Iku: {
+	Chat1: 月は血に染まり、大地が呪われている...
+	Chat2: 太陽は月に食べられてしまい、今や化け物だらけだ...
+	Chat3: 砂嵐が吹き荒れている...
+	Chat4: ヌメヌメした生き物が空から降ってきてる！
+	Chat5: 今日が平和でありますように。
+	Chat6: 世界中が幸せそうね
+	Chat7: 至るところから平和の光が...
+	Chat8: 気候が安定していますね。
+	Chat9: 暖かい風が大地を横切っていきます。
+	Chat10: 今日の風はとてもきれいです。
+	Chat11: 風が吹いています。
+	Chat12: 冷たい雨が汚れを落としています。
+	Chat13: 嵐が近づいている。
+	Chat14: 激しい嵐が大地に押し寄せている。
+	Chat15: 龍神様がお怒りです。
+	Chat16: 天使様、お静かに。
+	Chat17: 不思議な霧が月を覆っています。
+	Chat18: 霜の魔法が月を覆っています。
+	Chat19: 異国の侵略者が到着しました。
+}
+
+Chat_Tenshin: {
+	Chat1: 私こそ最強だと証明してやる
+	Chat2: 今日はビッグバンを起こそう
+	Chat3: 天国は退屈すぎるわ。てなわけで、最強の天界人である私がここにやってまいりました！
+	Chat4: 天界のアドバイス？私は彼らのような退屈な人々ではありません！
+	Chat5: 私とバトルする勇気がありまして？
+	Chat6: 毎日桃を食べるのは面白くないわ。
+	Chat7: また私？彼女も強そうね
+	Chat8: 強そうな存在と戦うんでしょ？
+	Chat9: 僕が乗ってるのは 「要石」、漬物石じゃないよ！
+}
+
+Chat_Junko: {
+	Chat1:見ているか、嫦娥よ？
+	Chat2: ......
+	Chat3: うどんちゃん～元気？
+	Chat4: 嫌な月がついに地上へ。
+}
+
+Chat_Marisa: {
+	Chat1: 今日はどんな魔法を使おうかな？
+	Chat2: あれは借りる価値がありそうだな...
+	Chat3: 星は好きか？
+	Chat4: いい天気だな！
+	Chat5: 空に星がいっぱいだぜ！
+	Chat6: 今日はいつもと違うな。
+	Chat7: なあ、霊夢？
+	Chat8: 面白いもの見つけたぜ！
+	Chat9: 違う違う！本物の星だ
+	Chat10: でも光ってるだろ？
+	Chat11: なぁなぁ～...
+	Chat12: ああ、それを本当に'盗み'と言えるか？借りてるだ！
+	Chat13: 返す日は死ぬ日だ！
+	Chat14: またな！
+	Chat15: どうした霊夢？
+	Chat16: うぅ...なんで急にそんなこと言うの？変な感じだ
+	Chat17: え...結構いいんじゃない？私たちは生まれながらにして大いなる義務感に惑わされているってことよ！
+	Chat18: すごいスライムの塊だ！金の王冠は貴重だな
+	Chat19: 空を飛ぶ目玉？かっこいいな！
+	Chat20: キモい虫だぜ。
+	Chat21: 頭いいんだろうな。
+	Chat22: こんなに大きな蜂ならどれくらいの蜂蜜を作れるんだ？
+	Chat23: この骨格には少なくとも300の骨がないな。
+	Chat24: 鹿だって？何だよ
+	Chat25: もう見たくないぜ...
+	Chat26: キラキラしたスライムの塊！
+	Chat27: 目は二つあったほうがいいよな。
+	Chat28: 金属の虫。
+	Chat29: まさに鉄の骨！
+	Chat30: 鉢にこんなでかい花は咲かない。
+	Chat31: ガードゴーレム？おもちゃみたいだ
+	Chat32: 豚が飛んでいる！
+	Chat33: この妖精を捕まえたいが、瓶の大きさはどれくらいがいいのかな？
+	Chat34: 儀式かっこいいけど、なんかいい感じしない...
+	Chat35: 月のモンスターが来やがったぜ！
+}
+
+Chat_Reimu: {
+	Chat1: 今日も退屈ね...
+	Chat2: 誰かお金ちょうだい...
+	Chat3: トラブルはいつもそれを話すときに来る...
+	Chat4: 異変が起きたようね。
+	Chat5: なに？
+	Chat6: 何ですって？まさかパチュリーから盗んだ本？
+	Chat7: ...夜中によくあることなんだけど...
+	Chat8: そんなことないわよ。
+	Chat9: もういいわ！
+	Chat10: 異変だわ。
+	Chat11: 眠い
+	Chat12: ハックショ
+	Chat13: ねえ、魔理沙？
+	Chat14: もし私たちが誰かの手によって作られた世界だとしたら、あんたならどう思う？
+	Chat15: どう思う？
+	Chat16: そうかもね
+	Chat17: 氷の妖精が最強とか言ってるけど、どこでそんな自信がついたの？
+	Chat18: この貘、夢に出てきたような？
+	Chat19: 月の頭脳？そうなの？
+	Chat20: 姉より恐ろしい狂気の吸血鬼...
+	Chat21: こんな竜宮の使いがいれば明日の天気も心配ないよね？
+	Chat22: 恐ろしく純粋な神、彼女が幻想郷に敵意がないのは本当に幸運ね...
+	Chat23: ただの仮面だけど、感情を学びたいのね。
+	Chat24: この3人の妖精が問題を起こすのを見たくもないわ。
+	Chat25: もしあなたが彼女のことをあまり知らないなら、この眠そうな門番が人間じゃなくて妖怪だってことを知ることもないでしょうね。
+	Chat26: 昔は不老不死に憧れてたけど、今はもうどうでもいい。
+	Chat27: あの河童が安くしてくれたらいいのに。
+	Chat28: あいつ魔理沙に近づくたびに腹が立つ...ただの紫オタク...
+	Chat29: 守谷のやつ、私と距離を置くべきだよね。
+	Chat30: 彼女は心が読めるから、すべての地上人から嫌われてるけど、実は私もその能力が欲しいのよね。
+	Chat31: 魔界の神様？ただのバカな母親
+	Chat32: 秋を美しくするのは彼女の努力でしょう。
+	Chat33: 星を見てると、じろじろ見られることがあるんだけど、あれって彼女の能力なの？
+	Chat34: 太陽の光を直接見ると、何も見えないわ。
+	Chat35: 月明かりの下だと夜がもっと暗くなる、それは彼女の能力の説明？
+	Chat36: 彼女のようなカラスがいれば、暖房の心配はいらないですね。
+	Chat37: ツバメ...あの魚の尻尾は美味しそう...
+	Chat38: ホタルさえ操れれば好きになるかも。
+	Chat39: おなかをすかせたご主人様の世話をしながら、あんなに広い庭を管理しなければならないなんて...
+	Chat40: この子を見たら、春が来たって分かるのよね。
+	Chat41: この子を見て人形遣いを思い出したわ。
+}
+
+Chat_Nitori: {
+	Chat1: 河童の技術はNo.1！
+	Chat2: キュウリでも食べる？
+	Chat3: 河童の市に参加しないかい？
+	Chat4:え？何の願い？
+	Chat5: それはあなたの能力だろ？ただまだ世界は広すぎる。
+	Chat6: 将来叶うかもね！
+	Chat7: 回転カッパの会社！
+	Chat8: ははははは！...
+}
+
+Chat_Sanae: {
+	Chat1: 私は永遠に2人の親愛なる神々に従います...
+	Chat2: ここでは常識に囚われてはいけない！
+	Chat3: 時々、昔が恋しくなります...ああ、でも大切なのは今です！
+	Chat4: 守矢神社に入って、神奈子様と諏訪子様を信じましょう！
+	Chat5: 風を感じましょう！
+}
+
+Chat_Sekibanki: {
+	Chat1: ひとりぼっち...
+	Chat2: ずっと話しかけないで...
+	Chat3: このマント、いつも着てるんだ、
+	Chat4: 妖怪に見られたくないから。
+	Chat5: 人間は妖怪が嫌いだし、私も妖怪に近づきたくない。
+	Chat6: ...まあ、あなた以外はね。
+	Chat7: ...私は全てを乗り越える！
+	Chat8: 超！変！身!
+	Chat9: ....
+	Chat10: ...え、何も聞いてない！
+	Chat11: 「その人 」になろう！
+	Chat12: 「理屈」を盲信せず、自分の直感を信じましょう。
+	Chat13: 同情は嘘だ、ロマンスが鍵よ。
+	Chat14: 生きていれば、いいことも悪いことも両方手に入るわ。
+}
+
+Chat_Koishi: {
+	Chat1: 一緒に遊びましょう？
+	Chat2: あなたの体につけてあげる。どこがいい？
+	Chat3: ドキドキアドベンチャーしない？
+	Chat4: 私のこと、気づいてる？
+	Chat5: お姉ちゃんも私が何を考えているかわからないの！
+	Chat6: もしもし？
+	Chat7: こいしだよ...
+	Chat8: あなたの後ろにいるよ
+	Chat9: こころちゃん、どうしたの？
+	Chat10: わかんない、好きなことしてるだけで、あんまり感情ないんだ。
+	Chat11: そう！混乱 って知ってる？
+}
+
+Chat_Satori: {
+	Chat1: あなたが今何を考えているか見せてもらうわ。
+	Chat2: 面白いこと考えたのよ。
+	Chat3: あなたの心はとても単純ね。
+	Chat4: 私は今あなたを見ています。
+	Chat5: お凛も大好きな猫よ。
+	Chat6: うつほも大好きなカラスですよ。
+	Chat7: 心配しないで。
+}
+
+Chat_Rin: {
+	Chat1: 今日、私も新しい死体を手に入れました
+	Chat2: 幽霊と仲良くするのは得意ですよ！
+	Chat3: ニャー？
+	Chat4: 冥界、亡霊の楽園！
+	Chat5: さとり様最高！
+	Chat6: さとり様、今日も元気に食べてますか？
+	Chat7: うつほちゃん、今日もがんばってね！
+}
+
+Chat_Utsuho: {
+	Chat1: 私は太陽だ！
+	Chat2: 光って燃えている
+	Chat3: ...今なんて言おうとしたんだっけ？
+	Chat4: ここは私の家みたいです！
+	Chat5: さとり様最高！
+	Chat6: もちろん、任せてください！
+}
+
+Chat_Lily: {
+	Chat1: 冬が来たら、春は遠いのかな？
+	Chat2: 私が春を運んできます！
+	Chat3: 春は遊ぶのに最高の季節ですよ！
+	Chat4: 春はどこ～？
+}
+
+Chat_Mystia: {
+	Chat1: 夜鳥の歌に迷い込んだ～
+	Chat2: いつになったら居酒屋を再開できるのかしら...
+	Chat3: ラララ、ラ～
+	Chat4: 私はおいしくないし、私を食べることもできないよ！
+	Chat5: (よくわからない歌を歌っている、でも神聖な感じだ)
+	Chat6: (よくわからない歌を歌っている、でも陽気な感じだ)
+	Chat7: (よくわからない歌を歌っている、でもゆったりした感じだ)
+	Chat8: (よくわからない歌を歌っている、でもそれは悲しそうな感じだ)
+	Chat9: 空高く～ ダイヤモンドのように... 待って、虫はダイヤモンドには見えないよ！
+}
+
+Chat_Wriggle: {
+	Chat1: きらきら光る小さな虫～ あなたは何なんです？
+	Chat2: 昔の虫は恐ろしい存在だったよ！
+	Chat3: 今、大きな虫が落ちている...許せない！
+	Chat4: 蛍が見れるのはここだけだ...
+	Chat5: 蟲の日おめでとうございます
+	Chat6: ...寒すぎる
+	Chat7: 「虫のサービス」を楽しみませんか？
+	Chat8: クモは虫じゃないし、サソリもムカデも虫じゃない。覚えてる？
+	Chat9: ハチ、スズメバチ、スズメバチを見分けられる？
+	Chat10: ホタルはきれいな場所にしか現れないって知ってた？
+}
+
+Chat_Aya: {
+	Chat1: 今日は風がうるさいね！
+	Chat2: 私のスピードについてこれる？
+	Chat3: ネタ...今日のネタはどこ...?
+	Chat4: 私はフェイクニュース記者じゃないわ、面白くするためにちょっと誇張してるだけなんだから！
+	Chat5: これは特ダネになりそうですね！
+	Chat6: 素晴らしいネタだ！
+	Chat7: 今日の新聞だよ！
+	Chat8: 完璧！
+}
+
+Chat_Yuyuko: {
+	Chat1: 生であろうと死であろうと、それはただの輪廻で、自分とは関係のない輪廻で...
+	Chat2: 生も死も関係なく、単純に楽しく生きられたらいいわよね。
+	Chat3: 桜が咲き始めたら、それが実現するでしょう。
+	Chat4: 後で何食べようかしら？
+	Chat5: ごちそうさまでした！
+	Chat6: おいしい！
+	Chat7: ありがとう
+	Chat8: おなかすいたわね...
+	Chat9: 幽霊にも食べ物が必要だわ、早く用意して頂戴！
+	Chat10: 次のごはんはいつかしら？
+	Chat11: 妖夢ちゃん、今日は何食べるの？
+	Chat12: 妖夢ちゃん、今後の予定は？
+	Chat13: やっぱり妖夢ちゃんは単純ね～。
+	Chat14: お酒がないと人生も楽しくないわ、乾杯！
+	Chat15: ジャングルの珍味、高タンパクね！
+	Chat16: 故郷の味。でも霊界に海はないわよね。
+	Chat17: 伝説のコマーシャルフードに敬礼！
+	Chat18: ケチャップもタラコもないフライドポテト。
+	Chat19: ああ！金の味
+	Chat20: シャックでも何でもいいから、一緒に食べましょう。
+	Chat21: 1日1個のリンゴは医者を...待てよ、医者って必要？
+	Chat22: これ爆発しないわよね？
+	Chat23: パイナップルは全部隠したんだけど。
+	Chat24: パイかな？
+	Chat25: 小骨がない方がおいしいよ！
+	Chat26: ジャンクを食べさせないでください。
+	Chat27: ごちそうさまでした！
+}
+
+Chat_Youmu: {
+	Chat1: 庭を管理し、侵入者を追い払う、それが私の毎日の仕事です。
+	Chat2: 幽々子様、毎食ちゃんと食べてるでしょうか...？
+	Chat3: 敵を発見！
+	Chat4: ここ...怖い...
+	Chat5: ...お化けがいる?
+	Chat6: え？幽々子様をよろしくお願いします。
+	Chat7: あー...分からないです...
+	Chat8: 幽々子様、最後のお食事からまだ5分しか経っていません。
+	Chat9: でも、幽々子様はもうお亡くなりになっています！生まれ変わることはできません
+	Chat10: 私は幽々子様のそばにいれれば満足です。
+	Chat11: 幽々子様をお守りします！
+}
+
+Chat_Alice: {
+	Chat1: 私の操り人形、すぐにダメになっちゃうわ...
+	Chat2: また人形を作ろうかしら？
+	Chat3: もう人間じゃないのに、古い習慣を捨てられないのよ。
+	Chat4: 魔理沙、私から盗んだキノコはいつ返してくれる？
+	Chat5:冗談はやめて、明確な期限をちょうだい！
+	Chat6: ...そんなことしない方がいいわ...次はないからね！
+	Chat7:あんた！.......
+	Chat8: この前ポーション盗られちゃったよ。
+	Chat9: ...懲らしめないとね！
+	Chat10: 私が探しに行くからいいでしょ。
+	Chat11: そんな気持ち悪いこと言わないでよ。
+	Chat12: 私、あなたのことよく知らないんですよ。
+	Chat13: ...OK、OK、止めてください。しんきさんって呼ぶね。
+	Chat14: (複雑な関係...)
+	Chat15: まさか！
+	Chat16: あなた誰？どこかで見たような
+	Chat17: 昔の私？過去の...うっ、頭痛が...
+}
+
+Chat_Rumia: {
+	Chat1: そ～なのか？
+	Chat2: 暗闇は好き！でも光は嫌い
+	Chat3: 噛んでもいい？一口だけ！
+	Chat4: 十字架の聖人に見えるの？
+	Chat5: どこにいるの？暗いよ
+	Chat6: 日差しが強すぎる...
+}
+
+Chat_Koakuma: {
+	Chat1: 小悪魔No. {0} です、よろしくお願いします！
+	Chat2: 友達は大丈夫ですか？
+	Chat3: 何かお手伝いしましょうか？
+	Chat4: パチュリー様、運動しましょう！
+	Chat5: 健康のために必要なんです！
+	Chat6: 何を読んでるのですか？
+	Chat7: 面白そうですね！
+}
+
+Chat_Wakasagihime: {
+	Chat1: 私は魚だけど、その気になれば水から出ることもできるわ。
+	Chat2: 私は淡水魚なんです！
+	Chat3: 私は『魚の記憶』を持っていない！......
+	Chat4: プルンプルン
+}
+
+Chat_Yuka: {
+	Chat1: 最も美しい時はいつも花が満開の時よ。
+	Chat2: 今日も平和で退屈な一日だったわ。
+	Chat3: 花の命は短くてカラフルだから、邪魔しないほうがいいわよ。
+	Chat4: この子、魔界から来たのかな？
+	Chat5: 私は、ただお花が好きな妖怪です。
+	Chat6: ひまわりは日の光を求めない。でもひまわりは太陽のシンボルなの。
+}
+
+Chat_Yukari: {
+	Chat1: 賢者として、結界を守るのは永遠の義務です。
+	Chat2: 私の年齢を知りたい？もちろん、17歳よ。あとその話はやめなさい
+	Chat3: 霊夢ったら、もっと真面目にやらないと。
+	Chat4: 寂しかったら、一時的に帰らせてあげるわよ。
+	Chat5: あの旧友は元気しら...？
+	Chat6: 別に、食欲の心配はいらないかも。
+}
+
+Chat_Ran: {
+	Chat1: 太陽の位置と時間がおかしい...
+	Chat2: どうして金は鉄より強いの？
+	Chat3: 尤魔はまだ畜生界にいるの？
+	Chat4: 私ではありませんよ！紫様！
+	Chat5: つまり？
+	Chat6: 私は彼女が誰であるか知っているかもしれません...
+	Chat7: チェン、一人で遠くに行かないでね！
+}
+
+Chat_Chen: {
+	Chat1: ミャー！
+	Chat2: 魚が欲しい...
+	Chat3: 分かってますよ、蘭さま！
+}
+
+Chat_Kaguya: {
+	Chat1: グラウンドはあまり 「汚くない」...
+	Chat2: 地球に降りてきてから、昔のことを思い出さずにはいられない...
+	Chat3: ...今度こそ勝たなきゃ！
+	Chat4: ちょっと待って、ちょっと待って。
+	Chat5: 練習あるのみ
+	Chat6: 関係ないでしょ
+	Chat7: ちょっと、いつから喧嘩してるの？
+	Chat8: 今日何か新しいことしない？
+	Chat9: 何か... エキサイティングなことはどう？
+	Chat10: 私の勝ちね
+	Chat11: 練習あるのみ、わかる？
+	Chat12: アハハハ
+	Chat13: くっ！！
+	Chat14: ズルしたでしょ
+	Chat15: 次のラウンドであなたの願いを叶えてあげる...死ね
+	Chat16: 私が？何か間違ってる...?
+	Chat17: あそこ以外つまんないんだけど
+	Chat18: ちょっと、秘密保持能力低いんじゃない？
+	Chat19: 永琳に人里に行ったこと聞かれて、叱られちゃった。
+	Chat20: なに？喧嘩したいの？
+	Chat21: 待って待って。
+}
+
+Chat_Moku: {
+	Chat1: 永遠に生きることは、祝福より呪いの方がはるかに大きい。
+	Chat2: ...何年前の話だ？
+	Chat3: 1000年前のことを知ることができるか？
+	Chat4: ...お前は何をしたいんだ？
+	Chat5: いや、絶対に！...まあ、私たちが行くことができる場所を知っている...
+	Chat6: 一回静かにしてくれよ？
+	Chat7: 大丈夫。いつも通りだ
+	Chat8: いや、忘れようとしてるんだ。
+	Chat9: 満月のたびにこの姿になるのか、怖いな！
+	Chat10: 私が強くなったことを受け入れろ！
+	Chat11: 私に勝ちたいか？
+	Chat12: それだけか？
+	Chat13: 次は負けねぇ！
+	Chat14: 油断しすぎた...
+	Chat15: そんな油断もこれで終わりだ
+	Chat16: え？何言ってるんだ？
+	Chat17: はははは！そうだな
+	Chat18: じゃあ、次は連れてこないよ。
+}
+
+Chat_Meirin: {
+	Chat1: 今日も退屈な...いやいや、頑張る日だ！
+	Chat2: 私の名前は 「中国 」じゃなくて 「紅美鈴」です！
+	Chat3: ここの門番は本当につまらないです。
+	Chat4: 私の故郷は東の方、長江の真上です！
+	Chat5: 易有太极，是生两仪...
+	Chat6: フラン様、これは私の母国語です。
+	Chat7: 「タイ語」です、フラン様。
+	Chat8: レミリア様の同意が必要では？
+	Chat9: いいえ！
+	Chat10: 咲夜さんは忙しいけど、休みはあるの？
+	Chat11: この仕事は休暇同然です。
+	Chat12: ないです。
+	Chat13: 咲夜さん、最近看守とメイドが恋に落ちるマンガを見つけたんですが！
+	Chat14: あ！言わなきゃよかった...
+	Chat15: 残念。
+}
+
+Chat_Sakuya: {
+	Chat1: 過去は過去、今はレミリア様にお仕えするだけです。
+	Chat2: あなたと出会ってから、私の人生はすでに生まれ変わったのです。
+	Chat3: レミリア様が元気なら私は大丈夫です。
+	Chat4: 今は美鈴がリードしてるのかな？
+	Chat5: レミリア様、お茶をどうぞ。
+	Chat6: レミリア様と過ごす日々が私の休暇ですよ。
+	Chat7: え？
+	Chat8: 仕事の合間に漫画読んでるの？
+	Chat9: 今夜お仕置するわ！...あと、そのマンガ見せて...
+	Chat10: お屋敷のお酒が足りないわ。
+}
+
+Chat_Raiko: {
+	Chat1: バダム、プシュ～。
+	Chat2: 鬼もドラムが叩けるって聞いたことあるけど、そんなんでモンスター倒せるの？
+	Chat3: 人生はドラムセットだ、大きければ大きいほどいい！
+}
+
+Chat_Keine: {
+	Chat1: 最近、村の人たちは挨拶するのを嫌がるんだ・・・どうしてそんなに失礼なんだろう？
+	Chat2: この紙、9で埋め尽くされてる・・・チルノに違いない。
+	Chat3: いつも記録されているのは歴史だけ。
+	Chat4: 今夜は忙しい夜になりそうだ。
+	Chat5: 歴史を作り、歴史を守る。
+	Chat6: 宿題が終わってない人を見てみよう。
+	Chat7: 最近どう？
+	Chat8: まだ過去のことにとらわれてるのか？
+	Chat9: これは私の性質であり、義務でもある。
+}
+
+Chat_Luna: {
+	Chat1: 最近、月から何か落ちてきた？
+	Chat2: 世界中の食べ物がおいしくなればいいのに！
+	Chat3: 「月と六ペンス」って知ってる？
+	Chat4: 眠い
+	Chat5: はあ、うーん。
+	Chat6: 今、起きていることは面白いですね。
+	Chat7: 人間の新聞も悪くないね。
+	Chat8: 人はいつも満月の下で夢を見ている。
+	Chat9: 捕まったらどうなるかは置いといて...泥棒するのか？
+	Chat10: なんでいつも私なんですか！今回はあなた達だけだ、私は行かない！
+	Chat11: 絶対行かない！！！
+}
+
+Chat_Star: {
+	Chat1: 行って、この世界のあらゆる不思議を感じなさい！
+	Chat2: 星は今までで一番美しい！
+	Chat3: お天気なんて関係ないよ。
+	Chat4: 昼間は星が見えない。
+	Chat5: 頭を上げて、今夜の星を見よう！
+	Chat6: 黒白の魔女のキノコを盗むのはどう？
+	Chat7: わかった、やめろ！赤白の巫女の賽銭箱を盗むのはどう？
+	Chat8: 我慢できないなら、ひっぱたくぞ！
+}
+
+Chat_Sunny: {
+	Chat1: 日光浴は好き？
+	Chat2: 日光はとっても重要なんだよ！
+	Chat3: 日光浴は最高です！
+	Chat4: 日光浴～ 成長～ 日光～ 最高です！
+	Chat5: 太陽は私の力の源です！
+	Chat6: 雨...太陽...気分悪い...
+	Chat7: 湿度が高くて、能力まで落ちそう！
+	Chat8: この雨の日、さぼっていい？
+	Chat9: 晴れた妖精～ 白い体
+	Chat10: 晴れた妖精～ 紺碧の瞳
+	Chat11: 妖精さん、晴れてる！MILK
+	Chat12: 次は誰にイタズラする？
+	Chat13: 問題ない！ルナちゃんは後ろをお願いね！
+	Chat14: そんな！あなたの能力は私たちの計画に不可欠です！
+	Chat15: 絶対ダメ！！！
+}
+
+Chat_Reisen: {
+	Chat1: もう戻れないのかも... ここで暮らしたほうがいいのかな。
+	Chat2: ご主人様、あのウサギに教えてあげられた？
+	Chat3: 最近よく眠れない。
+	Chat4: 月の仲間は元気かな？
+	Chat5: きっと私もお姫様と同じ裏切り者なんだろうな。
+	Chat6: 人間とは関わりたくない！
+	Chat7: 私と睨めっこはしないほうがいいよ。
+	Chat8: ご主人様、もう私を実験台にしないでください。
+	Chat9: うどんとは何の関係もありません！でも目の前で食べないでください。
+	Chat10: こんな夜に月を眺めるのはやめたほうがいいですよ。もちろん私じゃなくて、君だけだよ。
+	Chat11: え、え～...大丈夫です...
+}
+
+Chat_Sizuha: {
+	Chat1: はぁ...年末が近づいてきて、冬が近づいてきました...
+	Chat2: 落葉は秋の到来を告げるが、同時に一年の終わりを意味する。
+	Chat3: 古来より、秋は孤独の象徴です。
+	Chat4: 今年は黄色と赤、どっちを使うべき？
+	Chat5: 誰も秋の訪れを遮ることはできません！
+	Chat6: 私は姉妹なのに、どうして妹ほど有名になれないの？
+	Chat7: ...もちろん！紅葉も秋の風物詩です！
+	Chat8: ...わかった。
+	Chat9: ここ寒いね、冬みたい。
+}
+
+Chat_Minoriko: {
+	Chat1: 焼き芋はいかがですか？
+	Chat2: サツマイモの匂いだって？甘い匂いだね！そうですね
+	Chat3: 収穫が欲しいなら、もっと私を大切にしてください。
+	Chat4: 農業は自然から得るものだから、自然農法のルールに従わなければならないわ。
+	Chat5: 食べ物を粗末にしてはいけない！
+	Chat6: 人間にとって食べることは一番大切なことです！
+	Chat7: では、焼き芋はいかがですか？
+	Chat8: 寒すぎてしんどいな...
+}
+
+Chat_Murasa: {
+	Chat1: 準備はいいかい？
+	Chat2: 私はワンピースを見つける女の子です！
+	Chat3: 弱った？ほうれん草食べよう
+	Chat4: 帆をあげて出発だ
+	Chat5: 船は好き？難破船が好きです
+	Chat6: 船長と呼んでください！
+	Chat7: 死期を悟られない方がいいよ。私は人生の喜びを探求しています！...あ、待って、私もう死んでる...
+	Chat8: そんな優しい声で軍艦を操縦するんですか？
+}
+
+Chat_Suika: {
+	Chat1: メロンって言ったか？メロンをつぶすのと同じくらい簡単に石をつぶせるぞ！
+	Chat2: 次のパーティには美味しいワインを持ってこなきゃな。
+	Chat3: 次はいつ他の3人と飲めるんだ？
+	Chat4: バーの料理？何でもいいけど、豆はダメだぞ。
+	Chat5: イワシの頭を枝に刺して持ってくるんじゃねえ。
+	Chat6: 私が大きくなるか小さくなるか、どっちが見たい？
+	Chat7: ビールの神様知ってるか？
+	Chat8: 今日はワインで乾杯！
+	Chat9: お酒は鬼にとって最高の幸せだな！
+	Chat10: さあ！酔拳を見ていけ！ディオニュソスと踊ってくぞ！
+}
+
+Chat_Eirin: {
+	Chat1: 地上にいる時間が長すぎのかな？姫と一緒にいれば大丈夫ですよ。
+	Chat2: 姫に運動させる方法が必要ですね。
+	Chat3: 今度てゐにモルモットになってもらおうかな。最近うどんげの調子悪そうだし。
+	Chat4: ハーブの種類は少ないけど、どれも面白い効果があるね。
+	Chat5:あの純狐さんと話してみようか。でないと、うどんげは実験にうまく参加できないよ。
+	Chat6:「死草」を材料にするポーションがどれくらいあるか知ってる？
+	Chat7: 月の都を離れて数千年...月詠、また会えるかな？会わないかも
+	Chat8: 頼姫と豊姫はもう大丈夫？
+	Chat9: 軽傷のようですね。
+	Chat10: 傷は少し大きいですが、もう大丈夫です。
+	Chat11: 体調があまりよくないですね。
+	Chat12: 治療したほうがいいですよ。
+	Chat13: 冗談でしょう。死んじゃうよ！
+	Chat14: 悼みましょう、すぐに戻ってきますよ。
+	Chat15: ひどい状態ですね、大丈夫ですか？
+	Chat16: ある意味、ポーション酔いもいいものです。
+	Chat17: あら！何ポーション飲んだの？持ちこたえられる？
+	Chat18: お姫様、この前人間の村に行ったんですね。
+	Chat19: はぁ...確かに家にばかりいるのは良くないって言ったけど、村は私たちが行けるところじゃないし。
+	Chat99: 永遠に｛0｝を嘆きましょう。
+}
+
+Chat_Shinki: {
+	Chat1: いわゆる 「神社の乙女 」は神の犬に過ぎない
+	Chat2: サラ、夢子、ルイーズ、そして魔界のみんな・・・調子はどう？
+	Chat3: 私は魔界の神です！...もちろん、神とは魔界を作った人のことです。
+	Chat4: 人間の世界には八百万の神がいると聞きましたが？この神様はレベルが低いですね～。
+	Chat5: すみません、アリスちゃんを見ませんでしたか？
+	Chat6: アリスちゃん
+	Chat7: さあ！お母さんのこと覚えてないの？
+	Chat8: 悲しい・・・娘に捨てられた・・・
+	Chat9: 今ママって言った？ママは嬉しいわ
+	Chat10: もう一回お願い！
+}
+
+Chat_Rukoto: {
+	Chat1: 原子力ロボットメイドのルコトです、喜んでお手伝いさせていただきます！
+	Chat2: 何をお探しですか？
+	Chat3: 掃除は私に任せてください！
+	Chat4: 原子力ってことは、ずっと現役ってことだね！
+	Chat5: この円盤みたいなのが掃除ロボット？私が本物のロボットです！
+}
+
+Chat_Kokoro: {
+	Chat1: 幸せ の意味を教えてください。
+	Chat2: 感情を司る「秦こころ」です。
+	Chat3: ハ～ハ～ハ～...どう？私の笑顔は？
+	Chat4: 人の感情って...豊かですよね。
+	Chat5: 「無言 」ってどんな感情？
+	Chat6: ※頬を上げて笑顔を見せようとする
+	Chat7: 宿敵！
+	Chat8: ...他に話せる感情はありますか？
+	Chat9: わからない...あ、これは 「混乱 」ですか？
+}
+
+Chat_Doremy: {
+	Chat1: いつも夢を見ていますか？
+	Chat2: 素敵な夢を見ることはみんなの願いだよね？
+	Chat3: 夢で私を見たことある？見たことあるよ
+	Chat4: 寝たいときに寝ればいいんだよ。
+	Chat5: 不眠症のとき羊を数える？
+	Chat6: 昼間居眠りしすぎなければ、夜ぐっすり眠れるよ。
+	Chat7: うっ... 面白い
+	Chat8: 羊が一匹、二匹、バァバァバァ...
+	Chat9: 誰か...私が...実は今...働いてるって知ってる？
+	Chat10: なんでこんな夜に寝ちゃったんだろう...
+	Chat11: 疲れた...
+	Chat12: あの怪物たち、しばらく静かにしてくれる？
+	Chat13: 今の環境は寝るのに適しているけど、安全な夢は見れないよ。
+}
+
+Chat_Tewi: {
+	Chat1: 運は実はとても簡単だけど、幸せはそんなに簡単ではないよ。
+	Chat2: 冷泉は昨日掘った穴に落ちなかった！もっと大きくしないと
+	Chat3: みんなはいつも、私を見つけられたらラッキーって言うけど、私を見つけられたことも一種のラッキーだって知ってる？
+	Chat4: もし竹林で迷子になったら、無事に連れ出してあげるって約束はしないよ。
+	Chat5: ここのウサギは迷子の竹林のウサギより弱いよ。
+}
+
+Chat_Momoyo: {
+	Chat1: ダイヤモンド？ドラゴンの宝石よりおいしいの？
+	Chat2: なぜ金のつるはしを使うかって？見た目がいいから
+	Chat3: 外国の土がどれだけ高いか知らないんだね。
+	Chat4: ドラゴンは美味い、ドラゴンの宝石は美味い、人間は...あ、ごめん、君じゃない。
+	Chat5: つるはしとシャベルは鉱夫の魂だ。
+	Chat6: 採掘に集中するときは背中に気をつけろ。
+	Chat7: 洞窟の中では、滑ることが命を救うこともある。
+	Chat8: ダイヤモンドの道具はないのか？
+	Chat9: ああ、洞窟。
+}
+
+Chat_AliceOld: {
+	Chat1: 誰もアリスを越えられない！...えっ、今はトレイル版じゃないの？
+	Chat2: この本には究極の力がある！！
+	Chat3: 人形？何言ってるの？作り方知らないよ。
+	Chat4: 大きな力には大きな代償が伴う...アリスはあいつらが嫌いだし！
+	Chat5: なんか...うざい目で見られてる気がする...
+	Chat6: よくわかんないけど、私、昔のあなたかも。
+	Chat7: この巫女さん、なんか嫌な思い出が...
+}
+
+Chat_Letty: {
+	Chat1: 銀の日が来る時、私は近づくだろう。
+	Chat2: 雪は好きですか？
+	Chat3: 冬はすべてが休みになる季節です。
+	Chat4: 冬は枯れるっていうけど、雪がなきゃ来年の収穫はないでしょ。
+	Chat5: 他の季節で私を見つけようとしないで。
+	Chat6: 万里の長城の両側、一つの白い巨大なもの。黄色い川の急流は、端から端まで流れている。
+	Chat7: 雪が舞っている、北風が吹いている。
+	Chat8: ...ああ...暑い...
+	Chat9: どうしてカラスは太陽の力があるの？
+}
+
+Chat_Portal: {
+	Chat1: ねえ、ここを見つけたんだから、何か買わない？全部幻想郷のためなんだから。
+	Chat2: ここにコインを置いて、好きなの子を選んで。幻想郷のために何かしてあげてね。
+	Chat3: かわいいパートナーが欲しい？ここで探してみない？
+	Chat4: あなたの今後の人生と幻想郷は関係ないかもしれないけど、今あなたがすることは幻想郷の運命に影響を与えるでしょうね。
+	Chat5: 長い間、幻想郷を支えてくれてありがとう！これはあなたが得たものです。
+	Chat6:
+		'''
+		あなたは {0} を提供してくれましたね。
+		'''
+	Chat7:
+		'''
+		あなたはまだここで何も買っていないけれど、買うのに遅すぎるということはないわ。
+		'''
+	Chat8: 待って、これが見えるんですか？あなたは不具合を見つけましたね！
+	Chat9: 待って、これが見えるんですか？あなたは不具合を見つけましたね！
+}
+
+Chat_Template: {
+	Chat1: _
+	Chat2: _
+	Chat3: _
+	Chat4: _
+	Chat5: _
+}
+

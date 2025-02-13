@@ -1,0 +1,76 @@
+AccessorySlot: {
+	FunctionalSlot: 翼
+	VanitySlot: 衣装翼
+	DyeSlot: 染料
+}
+
+Configuration: {
+	ConfigLabel: 翼設定
+	WingSlotHeader: 翼スロット設定
+	SlotsAtAccesories: "[i:156]アクセサリー欄の翼スロット"
+	SlotsAtAccesoriesTooltip:
+		'''
+		翼スロットをアクセサリー欄に配置（ON）
+		翼スロットをサブ装備品欄（ペット、マインカートなど）に配置（OFF）
+		'''
+	AllowAccessorySlots: "[i:4978]アクセサリースロットに翼を許可する"
+	AllowAccessorySlotsTooltip: 翼は翼スロット以外のアクセサリースロットに置くことができます。
+	SlotsAlongAccessories: "[i:212] 翼スロットをアクセサリーに統合"
+	SlotsAlongAccessoriesTooltip:
+		'''
+		翼スロットをアクセサリー欄に並べる（ON）
+		アクセサリー欄の左側（OFF）
+		'''
+	AllowMultipleWings: "[i:393] 複数の翼を許可する（ベータ版）"
+	AllowMultipleWingsTooltip:
+		'''
+		複数のウイングと関連アクセサリーを使用可能にする。
+		「アクセサリースロットに翼を許可する」を有効にする必要があります。スタックは変動する可能性があります。
+		'''
+	LoadoutSupportEnabled: "[i:1321] 翼スロットのロードアウト対応（ベータ版）"
+	LoadoutSupportEnabledTooltip: 警告 このMODを無効にすると、アクティブでないウィングスロットのロードアウトにアクセスできなくなる！
+}
+
+Configs: {
+	WingSlotConfig: {
+		DisplayName: 翼スロット設定
+
+		LoadoutSupportEnabled: {
+			Label: Mods.WingSlotExtra.設定.ロードアウトサポート
+			Tooltip: Mods.WingSlotExtra.設定.ロードアウトサポートツールチップ
+		}
+
+		SlotsNextToAccessories: {
+			Label: "[i:156] アクセサリー欄の翼スロット"
+			Tooltip:
+				'''
+				翼スロットをアクセサリー欄に配置（ON）
+				翼スロットをサブ装備品欄（ペット、マインカートなど）に配置（OFF）
+				'''
+		}
+
+		SlotsAlongAccessories: {
+			Label: "[i:212] 翼スロットをアクセサリーに統合"
+			Tooltip:
+				'''
+				翼スロットをアクセサリー欄に並べる（ON）
+				アクセサリー欄の左側（OFF）
+				'''
+		}
+
+		AllowAccessorySlots: {
+			Label: "[i:4978] アクセサリースロットに翼を許可する"
+			Tooltip: 翼は翼スロット以外のアクセサリースロットに置くことができます。
+		}
+
+		AllowMultipleWings: {
+			Label: "[i:393] 複数の翼を許可する（ベータ版）"
+			Tooltip:
+				'''
+				複数のウイングと関連アクセサリーを使用可能にする。
+				「アクセサリースロットに翼を許可する」を有効にする必要があります。スタックは変動する可能性があります。
+				'''
+		}
+	}
+}
+

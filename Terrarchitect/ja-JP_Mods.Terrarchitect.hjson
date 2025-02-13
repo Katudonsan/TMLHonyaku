@@ -1,0 +1,1753 @@
+Items: {
+	WellItem: {
+		Tooltip: 流し台として機能する
+		DisplayName: 井戸
+	}
+
+	WaterTapItem: {
+		Tooltip: 流し台として機能する
+		DisplayName: 水道栓
+	}
+
+	WaterPumpItem: {
+		Tooltip: 流し台として機能する
+		DisplayName: 水ポンプ
+	}
+
+	ThinVaseItem: {
+		Tooltip: 置きボトル工作台として機能する
+		DisplayName: 薄い花瓶
+	}
+
+	StripedVaseItem: {
+		Tooltip: 置きボトル工作台として機能する
+		DisplayName: ストライプの花瓶
+	}
+
+	SoapDispenserItem: {
+		Tooltip: 手洗いを忘れずに！
+		DisplayName: 石けんディスペンサー
+	}
+
+	SmallNoteItem: {
+		Tooltip: テキストを表示できる
+		DisplayName: 小さなメモ帳
+	}
+
+	SmallGlassItem: {
+		Tooltip: 置きボトル工作台として機能する
+		DisplayName: 小型グラス
+	}
+
+	SidewalkSignItem: {
+		Tooltip: テキストを表示できる
+		DisplayName: メニュー表
+	}
+
+	SewingMachineItem: {
+		Tooltip: 機織り機として機能する
+		DisplayName: ミシン
+	}
+
+	RockingChairItem: {
+		Tooltip: 「慰めのアイテム」
+		DisplayName: ロッキングチェア
+	}
+
+	PinnedNoteItem: {
+		Tooltip: テキストを表示できる
+		DisplayName: ピン留めノート
+	}
+
+	ParasolItem: {
+		Tooltip: 他のアイテムを下に置くことができる
+		DisplayName: パラソル
+	}
+
+	OuthouseItem: {
+		Tooltip: 「かつて誰かが私に言った」
+		DisplayName: 小屋
+	}
+
+	MetalPanItem: {
+		Tooltip: 料理ができる
+		DisplayName: 金属鍋
+	}
+
+	MetalCookingPotItem: {
+		Tooltip: 料理ができる
+		DisplayName: 金属製調理鍋
+	}
+
+	JugItem: {
+		Tooltip: 置きボトル工作台として機能する
+		DisplayName: 水差し
+	}
+
+	GuillotineItem: {
+		Tooltip: 使用すると、一定半径内にいる最も近い味方NPCが即死する
+		DisplayName: ギロチン
+	}
+
+	GrillItem: {
+		Tooltip: 料理ができる
+		DisplayName: グリル
+	}
+
+	GongItem: {
+		Tooltip: 「一発かましてやれ！」
+		DisplayName: ゴング
+	}
+
+	DrinkingGlassItem: {
+		Tooltip: 置きボトル工作台として機能する
+		DisplayName: 飲料用グラス
+	}
+
+	DivingBoardItem: {
+		Tooltip: 隙間に出っ張って置くことができる
+		DisplayName: 飛び込み台
+	}
+
+	DirectionalSignItem: {
+		Tooltip: テキストを表示できる
+		DisplayName: 方向指示器
+	}
+
+	CookieJarItem: {
+		Tooltip: 「触っちゃダメ！」
+		DisplayName: クッキー入れ
+	}
+
+	CoffeeCupItem: {
+		Tooltip: 置きボトル工作台として機能する
+		DisplayName: コーヒーカップ
+	}
+
+	ChampagneGlassItem: {
+		Tooltip: 置きボトル工作台として機能する
+		DisplayName: シャンパングラス
+	}
+
+	BucketItem: {
+		Tooltip: 「神よ…」
+		DisplayName: バケット
+	}
+
+	BigCauldronItem: {
+		Tooltip: 料理ができる
+		DisplayName: 大きな大鍋
+	}
+
+	BeeNestItem: {
+		Tooltip: クリックするとクールなサプライズが！
+		DisplayName: 蜂の巣
+	}
+	
+	AirBlowerItem: {
+		Tooltip: ""
+		DisplayName: 送風機
+	}
+
+	AirDuctItem: {
+		Tooltip: ""
+		DisplayName: エアダクト
+	}
+
+	AnchorWallMountItem: {
+		Tooltip: ""
+		DisplayName: アンカー壁掛け
+	}
+
+	AntelopeHuntingTrophyItem: {
+		Tooltip: ""
+		DisplayName: アンテロープ狩りのトロフィー
+	}
+
+	AxeWallMountItem: {
+		Tooltip: ""
+		DisplayName: 斧の壁掛け
+	}
+
+	AshtrayItem: {
+		Tooltip: ""
+		DisplayName: 灰皿
+	}
+
+	BalloonBottleItem: {
+		Tooltip: ""
+		DisplayName: 風船ボトル
+	}
+
+	BallOfYarnItem: {
+		Tooltip: ""
+		DisplayName: 毛糸の玉
+	}
+
+	BackpackItem: {
+		Tooltip: ""
+		DisplayName: リュックサック
+	}
+
+	BigBarrelItem: {
+		Tooltip: ""
+		DisplayName: 大きな樽
+	}
+
+	BeerMugItem: {
+		Tooltip: ""
+		DisplayName: ビールジョッキ
+	}
+
+	BasketItem: {
+		Tooltip: ""
+		DisplayName: バスケット
+	}
+
+	BarbedWireFenceItem: {
+		Tooltip: ""
+		DisplayName: 有刺鉄線フェンス
+	}
+
+	BigCauldronItem: {
+		Tooltip: 料理ができる
+		DisplayName: 大きな大鍋
+	}
+
+	BirdNestItem: {
+		Tooltip: ""
+		DisplayName: 鳥の巣
+	}
+
+	BirdHouseItem: {
+		Tooltip: ""
+		DisplayName: 鳥小屋
+	}
+
+	BigWagonItem: {
+		Tooltip: ""
+		DisplayName: 大型ワゴン
+	}
+
+	BigTentItem: {
+		Tooltip: ""
+		DisplayName: 大きなテント
+	}
+
+	BigChestItem: {
+		Tooltip: ""
+		DisplayName: 大きなチェスト
+	}
+
+	CashRegisterItem: {
+		Tooltip: ""
+		DisplayName: キャッシュレジスター
+	}
+
+	ButcherTableItem: {
+		Tooltip: ""
+		DisplayName: 肉屋テーブル
+	}
+
+	BustItem: {
+		Tooltip: ""
+		DisplayName: バスト
+	}
+
+	BroomItem: {
+		Tooltip: ""
+		DisplayName: ほうき
+	}
+
+	BonsaiTreeItem: {
+		Tooltip: ""
+		DisplayName: 盆栽の樹
+	}
+
+	BlueRoofTileItem: {
+		Tooltip: ""
+		DisplayName: 青い屋根瓦
+	}
+
+	CoffinItem: {
+		Tooltip: ""
+		DisplayName: 棺おけ
+	}
+
+	CoatRackItem: {
+		Tooltip: ""
+		DisplayName: コートラック
+	}
+
+	ChessboardItem: {
+		Tooltip: ""
+		DisplayName: チェス盤
+	}
+
+	CheckerboardGlassWallItem: {
+		Tooltip: ""
+		DisplayName: 市松模様のガラス壁
+	}
+
+	CheckerboardGlassItem: {
+		Tooltip: ""
+		DisplayName: 市松模様のガラス
+	}
+
+	ChainLinkFenceItem: {
+		Tooltip: ""
+		DisplayName: 金網フェンス
+	}
+
+	CookieJarItem: {
+		Tooltip: 「触っちゃダメ！」
+		DisplayName: クッキー入れ
+	}
+
+	CribItem: {
+		Tooltip: ""
+		DisplayName: ベビーベッド
+	}
+
+	CrudeOilBarrelItem: {
+		Tooltip: ""
+		DisplayName: 原油バレル
+	}
+
+	DecoAmmoReservationPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・弾薬節約ポーション
+	}
+
+	DecoAmethystItem: {
+		Tooltip: ""
+		DisplayName: デコ・アメジスト
+	}
+
+	DecoAmethystGemcornItem: {
+		Tooltip: ""
+		DisplayName: デコ・アメジストのどんぐり
+	}
+
+	DecoAmberItem: {
+		Tooltip: ""
+		DisplayName: デコ・コハク
+	}
+
+	DecoAmberGemcornItem: {
+		Tooltip: ""
+		DisplayName: デコ・コハクのどんぐり
+	}
+
+	DecoAcornItem: {
+		Tooltip: ""
+		DisplayName: デコ・どんぐり
+	}
+
+	DecoBuilderPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・建築のポーション
+	}
+
+	DecoBottledWaterItem: {
+		Tooltip: ""
+		DisplayName: デコ・瓶詰めの水
+	}
+
+	DecoBottledHoneyItem: {
+		Tooltip: ""
+		DisplayName: デコ・瓶詰めの蜂蜜
+	}
+
+	DecoBloodWaterItem: {
+		Tooltip: ""
+		DisplayName: デコ・血色の水
+	}
+
+	DecoBiomeSightPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・バイオームサイトポーション
+	}
+
+	DecoBattlePotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・闘争のポーション
+	}
+
+	DecoArcheryPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・弓使いのポーション
+	}
+
+	DecoDemonAltarItem: {
+		Tooltip: ""
+		DisplayName: デコ・デーモンアルター
+	}
+
+	DecoDangersensePotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・危険察知ポーション
+	}
+
+	DecoCrimsonHeartItem: {
+		Tooltip: ""
+		DisplayName: デコ・クリムゾンハート
+	}
+
+	DecoCrimsonAltarItem: {
+		Tooltip: ""
+		DisplayName: デコ・クリムゾンアルター
+	}
+
+	DecoCratePotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・箱のポーション
+	}
+
+	DecoCelestialSigilItem: {
+		Tooltip: ""
+		DisplayName: デコ・宇宙のシジル
+	}
+
+	DecoCalmingPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・平穏のポーション
+	}
+
+	DecoDiamondGemcornItem: {
+		Tooltip: ""
+		DisplayName: デコ・ダイヤモンドのどんぐり
+	}
+
+	DecoDiamondItem: {
+		Tooltip: ""
+		DisplayName: デコ・ダイヤモンド
+	}
+
+	DecoDynamiteItem: {
+		Tooltip: ""
+		DisplayName: デコ・ダイナマイト
+	}
+
+	DecoEggnogItem: {
+		Tooltip: ""
+		DisplayName: デコ・エッグノッグ
+	}
+
+	DecoEmeraldGemcornItem: {
+		Tooltip: ""
+		DisplayName: デコ・エメラルドのどんぐり
+	}
+
+	DecoEmeraldItem: {
+		Tooltip: ""
+		DisplayName: デコ・エメラルド
+	}
+
+	DecoFlaskofGoldItem: {
+		Tooltip: ""
+		DisplayName: デコ・金のフラスコ
+	}
+
+	DecoFlaskofFireItem: {
+		Tooltip: ""
+		DisplayName: デコ・火のフラスコ
+	}
+
+	DecoFlaskofCursedFlamesItem: {
+		Tooltip: ""
+		DisplayName: デコ・呪炎のフラスコ
+	}
+
+	DecoFishingPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・釣りのポーション
+	}
+
+	DecoFeatherfallPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・落下制御ポーション
+	}
+
+	DecoEndurancePotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・耐久のポーション
+	}
+
+	DecoShadowOrbItem: {
+		Tooltip: ""
+		DisplayName: デコ・シャドウオーブ
+	}
+
+	DecoSapphireItem: {
+		Tooltip: ""
+		DisplayName: デコ・サファイア
+	}
+
+	DecoSapphireGemcornItem: {
+		Tooltip: ""
+		DisplayName: デコ・サファイアのどんぐり
+	}
+
+	DecoRubyItem: {
+		Tooltip: ""
+		DisplayName: デコ・ルビー
+	}
+
+	DecoRubyGemcornItem: {
+		Tooltip: ""
+		DisplayName: デコ・ルビーのどんぐり
+	}
+
+	DecoRestorationPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・リストアポーション
+	}
+
+	DecoRegenerationPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・自然回復ポーション
+	}
+
+	DecoRedPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・レッドポーション
+	}
+
+	DecoRecallPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・帰還のポーション
+	}
+
+	DecoRagePotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・怒りのポーション
+	}
+
+	DecoPotionofReturnItem: {
+		Tooltip: ""
+		DisplayName: デコ・一時帰還のポーション
+	}
+
+	DecoPlanterasBulbItem: {
+		Tooltip: ""
+		DisplayName: デコ・一時帰還のポーション
+	}
+
+	DecoObsidianSkinPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・黒曜石の肌ポーショ
+	}
+
+	DecoNightOwlPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・夜目のポーション
+	}
+
+	DecoMysteriousTabletItem: {
+		Tooltip: ""
+		DisplayName: デコ・謎のタブレット
+	}
+
+	DecoMiningPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・掘削のポーション
+	}
+
+	DecoManaRegenerationPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・マナ自然回復ポーション
+	}
+
+	DecoManaPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・マナポーション
+	}
+
+	DecoMagicPowerPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・魔法力ポーション
+	}
+
+	DecoLuckPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・ラックポーション
+	}
+
+	DecoLovePotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・愛のポーション
+	}
+
+	DecoLifeFruitItem: {
+		Tooltip: ""
+		DisplayName: デコ・ライフフルーツ
+	}
+
+	DecoLifeforcePotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・生命強化ポーション
+	}
+
+	DecoLesserLuckPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・小型ラックポーション
+	}
+
+	DecoLarvaItem: {
+		Tooltip: ""
+		DisplayName: デコ・巨大なハチの幼虫
+	}
+
+	DecoLargeTopazItem: {
+		Tooltip: ""
+		DisplayName: デコ・大きなトパーズ
+	}
+
+	DecoLargeSapphireItem: {
+		Tooltip: ""
+		DisplayName: デコ・大きなサファイア
+	}
+
+	DecoLargeRubyItem: {
+		Tooltip: ""
+		DisplayName: デコ・大きなルビー
+	}
+
+	DecoLargeEmeraldItem: {
+		Tooltip: ""
+		DisplayName: デコ・大きなエメラルド
+	}
+
+	DecoLargeDiamondItem: {
+		Tooltip: ""
+		DisplayName: デコ・大きなダイアモンド
+	}
+
+	DecoLargeAmethystItem: {
+		Tooltip: ""
+		DisplayName: デコ・大きなアメジスト
+	}
+
+	DecoLargeAmberItem: {
+		Tooltip: ""
+		DisplayName: デコ・大きなコハク
+	}
+
+	DecoIronskinPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・鉄壁のポーション
+	}
+
+	DecoInvisibilityPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・透明化のポーション
+	}
+
+	DecoInfernoPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・獄炎のポーション
+	}
+
+	DecoHunterPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・狩人のポーション
+	}
+
+	DecoHolyWaterItem: {
+		Tooltip: ""
+		DisplayName: デコ・聖水
+	}
+
+	DecoHellstoneItem: {
+		Tooltip: ""
+		DisplayName: デコ・ヘルストーン
+	}
+
+	DecoHellstoneBrickItem: {
+		Tooltip: ""
+		DisplayName: デコ・ヘルストーンのレンガ
+	}
+
+	DecoHeartreachPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・ハート回収ポーション
+	}
+
+	DecoHealingPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・ライフポーション
+	}
+
+	DecoGreaterLuckPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・グレートラックポーション
+	}
+
+	DecoGravitationPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・重力制御ポーション
+	}
+
+	DecoGillsPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・エラのポーション
+	}
+
+	DecoGenderChangePotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・性転換のポーション
+	}
+
+	DecoFlipperPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・遊泳のポーション
+	}
+
+	DecoFlaskofVenomItem: {
+		Tooltip: ""
+		DisplayName: デコ・猛毒のフラスコ
+	}
+
+	DecoFlaskofPoisonItem: {
+		Tooltip: ""
+		DisplayName: デコ・毒のフラスコ
+	}
+
+	DecoFlaskofPartyItem: {
+		Tooltip: ""
+		DisplayName: デコ・紙吹雪のフラスコ
+	}
+
+	DecoFlaskofNanitesItem: {
+		Tooltip: ""
+		DisplayName: デコ・ナノマシンのフラスコ
+	}
+
+	DecoFlaskofIchorItem: {
+		Tooltip: ""
+		DisplayName: デコ・霊液のフラスコ
+	}
+
+	DecoTopazItem: {
+		Tooltip: ""
+		DisplayName: デコ・トパーズ
+	}
+
+	DecoTopazGemcornItem: {
+		Tooltip: ""
+		DisplayName: デコ・トパーズのどんぐり
+	}
+
+	DecoTitanPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・巨人のポーション
+	}
+
+	DecoThornsPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・イバラのポーション
+	}
+
+	DecoTeleportationPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・瞬間移動ポーション
+	}
+
+	DecoSwiftnessPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・俊足のポーション
+	}
+
+	DecoSummoningPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・召喚のポーション
+	}
+
+	DecoStrangeBrewItem: {
+		Tooltip: ""
+		DisplayName: デコ・奇妙な薬
+	}
+
+	DecoStinkPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・悪臭のポーション
+	}
+
+	DecoSpikeItem: {
+		Tooltip: ""
+		DisplayName: デコ・スパイク
+	}
+
+	DecoSpelunkerPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・探検家のポーション
+	}
+
+	DecoSonarPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・魚探知のポーション
+	}
+
+	DecoSmallBombItem: {
+		Tooltip: ""
+		DisplayName: デコ・小型爆弾
+	}
+
+	DecoShinePotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・輝きのポーション
+	}
+
+	DecoTreasureBagWallofFleshItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(ウォールオブフレッシュ)
+	}
+
+	DecoTreasureBagTwinsItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(ツインズ)
+	}
+
+	DecoTreasureBagSkeletronPrimeItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(スケルトロン・プライム)
+	}
+
+	DecoTreasureBagSkeletronItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(スケルトロン)
+	}
+
+	DecoTreasureBagQueenSlimeItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(クイーンスライム)
+	}
+
+	DecoTreasureBagQueenBeeItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(クイーンビー)
+	}
+
+	DecoTreasureBagPlanteraItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(プランテラ)
+	}
+
+	DecoTreasureBagOgreItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(オーガ)
+	}
+
+	DecoTreasureBagMoonLordItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(ムーンロード)
+	}
+
+	DecoTreasureBagLunaticCultistItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(狂気の崇拝者)
+	}
+
+	DecoTreasureBagKingSlimeItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(キングスライム)
+	}
+
+	DecoTreasureBagGolemItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(ゴーレム)
+	}
+
+	DecoTreasureBagEyeofCthulhuItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(クトゥルフの目)
+	}
+
+	DecoTreasureBagEmpressofLightItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(エンプレスオブライト)
+	}
+
+	DecoTreasureBagEaterofWorldsItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(イーターオブワールド)
+	}
+
+	DecoTreasureBagDukeFishronItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(デュークフィッシュロン)
+	}
+
+	DecoTreasureBagDestroyerItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(デストロイヤー)
+	}
+
+	DecoTreasureBagDeerclopsItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(ディアクロップス)
+	}
+
+	DecoTreasureBagDarkMageItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(ダークメイジ)
+	}
+
+	DecoTreasureBagBrainofCthulhuItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(クトゥルフの脳)
+	}
+
+	DecoTreasureBagBetsyItem: {
+		Tooltip: ""
+		DisplayName: デコ・トレジャーバッグ(ベスティ)
+	}
+
+	DecoWrathPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・激怒のポーション
+	}
+
+	DecoWormholePotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・ワームホールのポーション
+	}
+
+	DecoWoodenSpikeItem: {
+		Tooltip: ""
+		DisplayName: デコ・木製スパイク
+	}
+
+	DecoWaterWalkingPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・水上歩行ポーション
+	}
+
+	DecoWarmthPotionItem: {
+		Tooltip: ""
+		DisplayName: デコ・暖気のポーション
+	}
+
+	DecoUnholyWaterItem: {
+		Tooltip: ""
+		DisplayName: デコ・アンホリー・ウォーター
+	}
+
+	FallenLogItem: {
+		Tooltip: ""
+		DisplayName: 倒れた丸太
+	}
+
+	EyeInAJarItem: {
+		Tooltip: ""
+		DisplayName: 瓶の中の眼
+	}
+
+	ElectronicComponentsItem: {
+		Tooltip: ""
+		DisplayName: 電子コンポーネント
+	}
+
+	EaselItem: {
+		Tooltip: ""
+		DisplayName: イーゼル
+	}
+
+	DustpanAndBrushItem: {
+		Tooltip: ""
+		DisplayName: ちりとり&ブラシ
+	}
+
+	DumpsterItem: {
+		Tooltip: ""
+		DisplayName: ゴミ箱
+	}
+
+	DressingScreenItem: {
+		Tooltip: ""
+		DisplayName: ドレッシング・スクリーン
+	}
+
+	DoorbellItem: {
+		Tooltip: ""
+		DisplayName: 呼び鈴
+	}
+
+	DogHouseItem: {
+		Tooltip: ""
+		DisplayName: 犬小屋
+	}
+
+	DeerSkullTrophyItem: {
+		Tooltip: ""
+		DisplayName: 鹿の頭骨トロフィー
+	}
+
+	DeerHuntingTrophyItem: {
+		Tooltip: ""
+		DisplayName: 鹿狩りのトロフィー
+	}
+
+	WoodenTroughItem: {
+		Tooltip: ""
+		DisplayName: 木製桶
+	}
+
+	WoodcuttingStumpItem: {
+		Tooltip: ""
+		DisplayName: 切り株
+	}
+
+	WideCorkedJarItem: {
+		Tooltip: ""
+		DisplayName: 幅の広いコルク瓶
+	}
+
+	WheelbarrowItem: {
+		Tooltip: ""
+		DisplayName: 手押し車
+	}
+
+	WavyLinesWallpaperItem: {
+		Tooltip: ""
+		DisplayName: 波線の壁紙
+	}
+
+	WateringCanItem: {
+		Tooltip: ""
+		DisplayName: じょうろ
+	}
+
+	WaterBowlItem: {
+		Tooltip: ""
+		DisplayName: 水入れ
+	}
+
+	WagonWheelsItem: {
+		Tooltip: ""
+		DisplayName: ワゴンホイール
+	}
+
+	VintageVineWallpaperItem: {
+		Tooltip: ""
+		DisplayName: ヴィンテージ・ヴァイン壁紙
+	}
+
+	VintageFlowerWallpaperItem: {
+		Tooltip: ""
+		DisplayName: ヴィンテージ・フラワー壁紙
+	}
+
+	VerticalStripesWallpaperItem: {
+		Tooltip: ""
+		DisplayName: 縦縞の壁紙
+	}
+
+	UrnItem: {
+		Tooltip: ""
+		DisplayName: ツボ
+	}
+
+	TrussItem: {
+		Tooltip: ""
+		DisplayName: トラス
+	}
+
+	TowerClockItem: {
+		Tooltip: ""
+		DisplayName: 塔時計
+	}
+
+	ToothbrushItem: {
+		Tooltip: ""
+		DisplayName: 歯ブラシ
+	}
+
+	ToolboxItem: {
+		Tooltip: ""
+		DisplayName: ツールボックス
+	}
+
+	ToiletPaperItem: {
+		Tooltip: ""
+		DisplayName: トイレットペーパー
+	}
+
+	ToasterItem: {
+		Tooltip: ""
+		DisplayName: トースター
+	}
+
+	TikiMaskItem: {
+		Tooltip: ""
+		DisplayName: ティキ・マスク
+	}
+
+	ThornyBushPlanteraItem: {
+		Tooltip: ""
+		DisplayName: とげのあるブッシュ・プランテラ
+	}
+
+	ThornyBushJungleItem: {
+		Tooltip: ""
+		DisplayName: とげのあるブッシュ・ジャングル
+	}
+
+	ThornyBushCrimsonItem: {
+		Tooltip: ""
+		DisplayName: とげのある真紅
+	}
+
+	ThornyBushCorruptionItem: {
+		Tooltip: ""
+		DisplayName: とげのある不浄
+	}
+
+	ThinPipeItem: {
+		Tooltip: ""
+		DisplayName: 細いパイプ
+	}
+
+	ThinCorkedJarItem: {
+		Tooltip: ""
+		DisplayName: 薄型コルク瓶
+	}
+
+	ThatchRoofItem: {
+		Tooltip: ""
+		DisplayName: かやぶき屋根
+	}
+
+	TerrarchitectCatalogueItem: {
+		Tooltip: ""
+		DisplayName: Terrarchitect カタログ
+	}
+
+	TentItem: {
+		Tooltip: ""
+		DisplayName: テント
+	}
+
+	TelescopeItem: {
+		Tooltip: ""
+		DisplayName: 望遠鏡
+	}
+
+	TelephoneItem: {
+		Tooltip: ""
+		DisplayName: 電話機
+	}
+
+	TanningRackItem: {
+		Tooltip: ""
+		DisplayName: 日焼け防止ラック
+	}
+
+	TankardItem: {
+		Tooltip: ""
+		DisplayName: タンカー
+	}
+
+	SwordWallMountItem: {
+		Tooltip: ""
+		DisplayName: 剣の壁掛け
+	}
+
+	SuitOfArmorItem: {
+		Tooltip: ""
+		DisplayName: 鎧一式
+	}
+
+	SteelGirderItem: {
+		Tooltip: ""
+		DisplayName: 鋼鉄桁
+	}
+
+	StampItem: {
+		Tooltip: ""
+		DisplayName: スタンプ
+	}
+
+	StackOfFabricItem: {
+		Tooltip: ""
+		DisplayName: 積み重ねた布
+	}
+
+	SpoolOfThreadItem: {
+		Tooltip: ""
+		DisplayName: 糸巻き
+	}
+
+	SpiceRackItem: {
+		Tooltip: ""
+		DisplayName: スパイスラック
+	}
+
+	SoupBowlItem: {
+		Tooltip: ""
+		DisplayName: スープ入れ
+	}
+
+	SnowmanItem: {
+		Tooltip: ""
+		DisplayName: スノーマン
+	}
+
+	SmallTeapotItem: {
+		Tooltip: ""
+		DisplayName: 小型ティーポット
+	}
+
+	SmallSnowGlobeItem: {
+		Tooltip: ""
+		DisplayName: 小さなスノードーム
+	}
+
+	SmallGardenToolRackItem: {
+		Tooltip: ""
+		DisplayName: 小型ガーデン・ツール・ラック
+	}
+
+	SmallFramedPictureItem: {
+		Tooltip: ""
+		DisplayName: 小さな額絵
+	}
+
+	SmallCrystalBallItem: {
+		Tooltip: ""
+		DisplayName: 小さな水晶玉
+	}
+
+	SmallChestItem: {
+		Tooltip: ""
+		DisplayName: 小型チェスト
+	}
+
+	SmallBagItem: {
+		Tooltip: ""
+		DisplayName: 小型バッグ
+	}
+
+	SledItem: {
+		Tooltip: ""
+		DisplayName: ソリ
+	}
+
+	ShovelItem: {
+		Tooltip: ""
+		DisplayName: ショベル
+	}
+
+	ShipCannonItem: {
+		Tooltip: ""
+		DisplayName: 船の大砲
+	}
+
+	ServiceBellItem: {
+		Tooltip: ""
+		DisplayName: サービスベル
+	}
+
+	ScytheItem: {
+		Tooltip: ""
+		DisplayName: 大鎌
+	}
+
+	ScrubbingBrushItem: {
+		Tooltip: ""
+		DisplayName: タワシ
+	}
+
+	ScratchTreeItem: {
+		Tooltip: ""
+		DisplayName: スクラッチツリー
+	}
+
+	ScalesItem: {
+		Tooltip: ""
+		DisplayName: 天秤
+	}
+
+	SackItem: {
+		Tooltip: ""
+		DisplayName: 袋
+	}
+
+	RoyalWallpaperItem: {
+		Tooltip: ""
+		DisplayName: 王室の壁紙
+	}
+
+	RoundPaneGlassWallItem: {
+		Tooltip: ""
+		DisplayName: 丸窓のガラス壁
+	}
+
+	RoundPaneGlassItem: {
+		Tooltip: ""
+		DisplayName: 丸窓のガラス
+	}
+
+	RhinoHuntingTrophyItem: {
+		Tooltip: ""
+		DisplayName: サイ狩りのトロフィー
+	}
+
+	RakeItem: {
+		Tooltip: ""
+		DisplayName: 熊手
+	}
+
+	PracticeTargetItem: {
+		Tooltip: ""
+		DisplayName: 練習ターゲット
+	}
+
+	PottedSeedlingItem: {
+		Tooltip: ""
+		DisplayName: 鉢植え苗
+	}
+
+	PottedCactusItem: {
+		Tooltip: ""
+		DisplayName: 鉢植えサボテン
+	}
+
+	PottedAloeVeraItem: {
+		Tooltip: ""
+		DisplayName: 鉢植えアロエベラ
+	}
+
+	UnderworldPot3Item: {
+		Tooltip: ""
+		DisplayName: アンダーワールド・ポット3
+	}
+
+	UnderworldPot2Item: {
+		Tooltip: ""
+		DisplayName: アンダーワールド・ポット2
+	}
+
+	UnderworldPot1Item: {
+		Tooltip: ""
+		DisplayName: アンダーワールド・ポット1
+	}
+
+	UndergroundDesertPot3Item: {
+		Tooltip: ""
+		DisplayName: 地下砂漠ポット3
+	}
+
+	UndergroundDesertPot2Item: {
+		Tooltip: ""
+		DisplayName: 地下砂漠ポット2
+	}
+
+	UndergroundDesertPot1Item: {
+		Tooltip: ""
+		DisplayName: 地下砂漠ポット1
+	}
+
+	TundraPot3Item: {
+		Tooltip: ""
+		DisplayName: 地下氷雪・ポット3
+	}
+
+	TundraPot2Item: {
+		Tooltip: ""
+		DisplayName: 地下氷雪・ポット2
+	}
+
+	TundraPot1Item: {
+		Tooltip: ""
+		DisplayName: 地下氷雪・ポット1
+	}
+
+	SpiderCavePot3Item: {
+		Tooltip: ""
+		DisplayName: クモの洞窟ポット3
+	}
+
+	SpiderCavePot2Item: {
+		Tooltip: ""
+		DisplayName: クモの洞窟ポット2
+	}
+
+	SpiderCavePot1Item: {
+		Tooltip: ""
+		DisplayName: クモの洞窟ポット1
+	}
+
+	PyramidPotItem: {
+		Tooltip: ""
+		DisplayName: ピラミッド・ポット
+	}
+
+	MarbleCavePotItem: {
+		Tooltip: ""
+		DisplayName: 大理石洞窟ポット
+	}
+
+	LihzahrdPotItem: {
+		Tooltip: ""
+		DisplayName: リヒザルド・ポット
+	}
+
+	JunglePot3Item: {
+		Tooltip: ""
+		DisplayName: ジャングルポット3
+	}
+
+	JunglePot2Item: {
+		Tooltip: ""
+		DisplayName: ジャングルポット2
+	}
+
+	JunglePot1Item: {
+		Tooltip: ""
+		DisplayName: ジャングルポット1
+	}
+
+	ForestPot4Item: {
+		Tooltip: ""
+		DisplayName: 森林ポット4
+	}
+
+	ForestPot3Item: {
+		Tooltip: ""
+		DisplayName: 森林ポット3
+	}
+
+	ForestPot2Item: {
+		Tooltip: ""
+		DisplayName: 森林ポット2
+	}
+
+	ForestPot1Item: {
+		Tooltip: ""
+		DisplayName: 森林ポット1
+	}
+
+	DungeonPot3Item: {
+		Tooltip: ""
+		DisplayName: ダンジョンポット3
+	}
+
+	DungeonPot2Item: {
+		Tooltip: ""
+		DisplayName: ダンジョンポット2
+	}
+
+	DungeonPot1Item: {
+		Tooltip: ""
+		DisplayName: ダンジョンポット1
+	}
+
+	CrimsonPotItem: {
+		Tooltip: ""
+		DisplayName: 真紅ポット
+	}
+
+	CorruptionPot3Item: {
+		Tooltip: ""
+		DisplayName: 不浄ポット3
+	}
+
+	CorruptionPot2Item: {
+		Tooltip: ""
+		DisplayName: 不浄ポット2
+	}
+
+	CorruptionPot1Item: {
+		Tooltip: ""
+		DisplayName: 不浄ポット1
+	}
+
+	PorcelainItem: {
+		Tooltip: ""
+		DisplayName: 陶磁器
+	}
+
+	PolkaDotsWallpaperItem: {
+		Tooltip: ""
+		DisplayName: 水玉模様の壁紙
+	}
+
+	PlasticBarItem: {
+		Tooltip: ""
+		DisplayName: プラスチック・バー
+	}
+
+	PitchforkItem: {
+		Tooltip: ""
+		DisplayName: ピッチフォーク
+	}
+
+	PipeItem: {
+		Tooltip: ""
+		DisplayName: パイプ
+	}
+
+	PileOfScrollsItem: {
+		Tooltip: ""
+		DisplayName: 巻物の山
+	}
+
+	PileOfSacksItem: {
+		Tooltip: ""
+		DisplayName: 袋の山
+	}
+
+	PileOfDishesItem: {
+		Tooltip: ""
+		DisplayName: 食器の山
+	}
+
+	PileOfBooksItem: {
+		Tooltip: ""
+		DisplayName: 本の山
+	}
+
+	PickaxeRackItem: {
+		Tooltip: ""
+		DisplayName: ツルハシ用ラック
+	}
+
+	PatchworkFabricItem: {
+		Tooltip: ""
+		DisplayName: パッチワーク生地
+	}
+
+	ParchmentItem: {
+		Tooltip: ""
+		DisplayName: 羊皮紙
+	}
+
+	PaperItem: {
+		Tooltip: ""
+		DisplayName: 紙
+	}
+
+	PackageItem: {
+		Tooltip: ""
+		DisplayName: パッケージ
+	}
+
+	OpenBookItem: {
+		Tooltip: ""
+		DisplayName: 開かれた本
+	}
+
+	OldMinecartItem: {
+		Tooltip: ""
+		DisplayName: 古びれたマインカート
+	}
+
+	MortarAndPestleItem: {
+		Tooltip: ""
+		DisplayName: 乳鉢と乳棒
+	}
+
+	MonsterballItem: {
+		Tooltip: ""
+		DisplayName: モンスターボール
+	}
+
+	MeteoriteRockItem: {
+		Tooltip: ""
+		DisplayName: メテオライト・ロック
+	}
+
+	MedicineCabinetItem: {
+		Tooltip: ""
+		DisplayName: 薬箱
+	}
+
+	MailboxItem: {
+		Tooltip: ""
+		DisplayName: 郵便受け
+	}
+
+	LongTikiMaskItem: {
+		Tooltip: ""
+		DisplayName: ロング・ティキ・マスク
+	}
+
+	LogPileItem: {
+		Tooltip: ""
+		DisplayName: 丸太の山
+	}
+
+	LibraryWallItem: {
+		Tooltip: ""
+		DisplayName: 図書館の壁
+	}
+
+	LecternItem: {
+		Tooltip: ""
+		DisplayName: 講演台
+	}
+
+	LeadlightWallItem: {
+		Tooltip: ""
+		DisplayName: リードライトの壁
+	}
+
+	LeadlightItem: {
+		Tooltip: ""
+		DisplayName: リードライト
+	}
+
+	LargeMetalCageItem: {
+		Tooltip: ""
+		DisplayName: 大型メタルケージ
+	}
+
+	LargeHammerItem: {
+		Tooltip: ""
+		DisplayName: 大型ハンマー
+	}
+
+	LargeGlobeItem: {
+		Tooltip: ""
+		DisplayName: 大きな地球儀
+	}
+
+	LargeGardenToolRackItem: {
+		Tooltip: ""
+		DisplayName: 大型ガーデン・ツール・ラック
+	}
+
+	LargeBasketItem: {
+		Tooltip: ""
+		DisplayName: 大きなバスケット
+	}
+
+	KnifeRackItem: {
+		Tooltip: ""
+		DisplayName: 包丁ラック
+	}
+
+	KitchenToolRackItem: {
+		Tooltip: ""
+		DisplayName: キッチンツール・ラック
+	}
+
+	InterlockingRoofTileItem: {
+		Tooltip: ""
+		DisplayName: インターロッキング・ルーフ・タイル
+	}
+
+	InkwellItem: {
+		Tooltip: ""
+		DisplayName: インク壺
+	}
+
+	HourglassItem: {
+		Tooltip: ""
+		DisplayName: 砂時計
+	}
+
+	HorizontalStripesWallpaperItem: {
+		Tooltip: ""
+		DisplayName: 横縞の壁紙
+	}
+
+	HoeItem: {
+		Tooltip: ""
+		DisplayName: くわ
+	}
+
+	HeaterItem: {
+		Tooltip: ""
+		DisplayName: ヒーター
+	}
+
+	HazardWarningWallItem: {
+		Tooltip: ""
+		DisplayName: 危険警告の壁
+	}
+
+	HazardWarningBlockItem: {
+		Tooltip: ""
+		DisplayName: 危険警告ブロック
+	}
+
+	HayBaleItem: {
+		Tooltip: ""
+		DisplayName: 干し草俵
+	}
+
+	HangingHerbsItem: {
+		Tooltip: ""
+		DisplayName: 吊るされたハーブ
+	}
+
+	HandwagonItem: {
+		Tooltip: ""
+		DisplayName: 手押し車
+	}
+
+	HallstandItem: {
+		Tooltip: ""
+		DisplayName: ホールスタンド
+	}
+
+	GreenLawnmowerItem: {
+		Tooltip: ""
+		DisplayName: 緑の芝刈り機
+	}
+
+	GoldenBellItem: {
+		Tooltip: ""
+		DisplayName: 黄金のベル
+	}
+
+	GlobeItem: {
+		Tooltip: ""
+		DisplayName: 地球儀
+	}
+
+	GardenHoseItem: {
+		Tooltip: ""
+		DisplayName: 庭用ホース
+	}
+
+	GallowsItem: {
+		Tooltip: ""
+		DisplayName: ギャローズ
+	}
+
+	FruitBowlItem: {
+		Tooltip: ""
+		DisplayName: フルーツ入れ
+	}
+
+	FoodBowlItem: {
+		Tooltip: ""
+		DisplayName: 食べ物入れ
+	}
+
+	FlatPotItem: {
+		Tooltip: ""
+		DisplayName: 平たいポット
+	}
+
+	FireHydrantItem: {
+		Tooltip: ""
+		DisplayName: 消火栓
+	}
+
+	FireExtinguisherItem: {
+		Tooltip: ""
+		DisplayName: 消火器
+	}
+}
+
+Tiles: {
+	TerrarchitectCatalogue: {
+		MapEntry: Terrarchitect カタログ
+	}
+}
+

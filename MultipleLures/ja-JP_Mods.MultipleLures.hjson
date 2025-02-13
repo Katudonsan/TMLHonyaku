@@ -1,0 +1,11 @@
+Configs: {
+	Configuration: {
+		LuresAmount: {
+			Tooltip: ""
+			Label: 合計ルアー数
+		}
+
+		DisplayName: Multiple Lures 設定
+	}
+}
+

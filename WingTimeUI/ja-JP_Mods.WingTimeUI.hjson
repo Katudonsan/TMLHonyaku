@@ -1,0 +1,128 @@
+Configs: {
+	UIStyle: {
+		Fancy: {
+			Label: ファンシー
+		}
+
+		Classic: {
+			Label: クラシック
+		}
+
+		Tooltip: ""
+	}
+
+	UIDrawCondition: {
+		Tooltip: ""
+
+		DrawInAir: {
+			Label: 空中描画
+		}
+
+		DrawWhenJumpIsPressed: {
+			Label: ジャンプが押されたときに描画
+		}
+	}
+
+	UIDrawRule: {
+		NeverDraw: {
+			Label: 描画しない
+		}
+
+		DrawDuringBoss: {
+			Label: ボス戦時のみ描画
+		}
+
+		AlwaysDraw: {
+			Label: 常に描画
+		}
+
+		Tooltip: ""
+	}
+
+	UIConfig: {
+		drawOnHoverMounts: {
+			Tooltip:
+				'''
+				ホバーマウントには[i:2768]、[i:2769]、[i:4444]のようなものが含まれるが、[i:2502]も含まれます。
+				ホバーを使用しているマウントが必ずしも無限に飛行するとは限らないので、このオプションは次のことを可能にします。
+				このオプションはホバーマウントにバーを描画することを可能にします。
+				意図しない不具合を引き起こす可能性があります。バーを描画すべきMODマウントに描画する最後の手段として使用します。
+				'''
+			Label: ホバーマウント時に描画
+		}
+
+		style: {
+			Tooltip: ""
+			Label: UI スタイル
+		}
+
+		Headers: {
+			Style: スタイル
+			Visibility: 視認性
+			Placement: 配置
+		}
+
+		drawDigits: {
+			Tooltip: 残り時間（秒）を書き込むかどうかを決定します。この設定は推奨されます。
+			Label: 残り飛行時間
+		}
+
+		drawInsignia: {
+			Tooltip:
+				'''
+				バニラでは、飛翔記章は無限の飛行を与えるので、このUIを表示させるのはかなり冗長です。
+				MODによって飛翔記章が無限の飛行時間を持たないように変更された場合は、このUIを使用してください。
+				'''
+			ToolTip:
+				'''
+				バニラでは、飛翔記章は無限の飛行を与えるので、このUIを表示させるのはかなり冗長です。
+				MODによって飛翔記章が無限の飛行時間を持たないように変更された場合は、このUIを使用してください。
+				'''
+			Label: 飛翔記章を装備した状態で描画
+		}
+
+		condition: {
+			Tooltip:
+				'''
+				UIの可視性の動作 と協調して、UIが表示されるタイミングを決定します。
+				空中描画： 空中にいるときに描画します。
+				ジャンプが押されたときに描画： 空中にいるときにジャンプを押すと描画。
+				'''
+			Label: UIプレーヤーの振る舞い
+		}
+
+		visible: {
+			Tooltip:
+				'''
+				UIの可視性の動作を決定します。
+				常に描画： 常にUIを表示します。
+				ボス戦時のみ描画：ボス戦の時のみUIを表示します。
+				描画しない： UIを表示しない。
+				'''
+			Label: UIの可視性の動作
+		}
+
+		verticalPixelOffset: {
+			Tooltip: マイナスが上、プラスが下。UIが表示されていない場合は、0に設定してみてください。
+			Label: 垂直方向の設定
+		}
+
+		horizontalPixelOffset: {
+			Tooltip: マイナスが右、プラスが左です。UIが表示されていない場合は0に設定してみてください。
+			Label: 水平方向の設定
+		}
+
+		verticalPercentage: {
+			Tooltip: 0%は上、100%は下
+			Label: 縦画面比率
+		}
+
+		horizontalPercentage: {
+			Tooltip: 0%は左、100%は右
+			Label: 水平スクリーン比率
+		}
+
+		DisplayName: UI 設定
+	}
+}
+

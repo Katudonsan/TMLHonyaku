@@ -1,0 +1,752 @@
+NPCs: {
+	Cockroach: {
+		DisplayName: ゴキブリ
+	}
+
+	CockroachNPC: {
+		DisplayName: ゴキブリ
+	}
+}
+
+Configs: {
+	ServerConfig: {
+		EasterEggsEnabled: {
+			Tooltip: ""
+			Label: イースターエッグを有効にする
+		}
+
+		DisplayName: サーバ設定
+	}
+}
+
+Tiles: {
+	HistoricalTile: {
+		MapEntry: 国旗
+	}
+
+	Globe: {
+		MapEntry: 地球儀
+	}
+
+	FlagTile: {
+		MapEntry: 国旗
+	}
+}
+
+Items: {
+	Cockroach: {
+		Tooltip: ""
+		DisplayName: ゴキブリ
+	}
+
+	CockroachItem: {
+		DisplayName: ゴキブリアイテム
+		Tooltip: ""
+	}
+
+	PrussiaItem: {
+		Tooltip: ""
+		DisplayName: プロイセン国旗
+	}
+
+	HabsburgMonarchyItem: {
+		Tooltip: ""
+		DisplayName: ハプスブルク王朝の旗
+	}
+
+	RussianEmpireItem: {
+		Tooltip: ""
+		DisplayName: ロシア帝国国旗
+	}
+
+	QingDynastyItem: {
+		Tooltip: ""
+		DisplayName: 清王朝の旗
+	}
+
+	AustriaHungaryItem: {
+		Tooltip: ""
+		DisplayName: オーストリア＝ハンガリー国旗
+	}
+
+	MongolEmpireItem: {
+		Tooltip: ""
+		DisplayName: モンゴル帝国国旗
+	}
+
+	GreenlandItem: {
+		Tooltip: ""
+		DisplayName: グリーンランド国旗
+	}
+
+	LebanonItem: {
+		Tooltip: ""
+		DisplayName: レバノン国旗
+	}
+
+	MongoliaItem: {
+		Tooltip: ""
+		DisplayName: モンゴル国旗
+	}
+
+	MoroccoItem: {
+		Tooltip: ""
+		DisplayName: モロッコ国旗
+	}
+
+	EthiopiaItem: {
+		Tooltip: ""
+		DisplayName: エチオピア国旗
+	}
+
+	MyanmarItem: {
+		Tooltip: ""
+		DisplayName: ミャンマー国旗
+	}
+
+	KyrgyzstanItem: {
+		Tooltip: ""
+		DisplayName: キルギス国旗
+	}
+
+	SeychellesItem: {
+		Tooltip: ""
+		DisplayName: セーシェル国旗
+	}
+
+	ParaguayItem: {
+		Tooltip: ""
+		DisplayName: パラグアイ国旗
+	}
+
+	MalaysiaItem: {
+		Tooltip: ""
+		DisplayName: マレーシア国旗
+	}
+
+	HongKongItem: {
+		Tooltip: ""
+		DisplayName: 香港の旗
+	}
+
+	AndorraItem: {
+		Tooltip: ""
+		DisplayName: アンドラ国旗
+	}
+
+	HondurasItem: {
+		Tooltip: ""
+		DisplayName: ホンジュラス国旗
+	}
+
+	KuwaitItem: {
+		Tooltip: ""
+		DisplayName: クウェート国旗
+	}
+
+	MadagascarItem: {
+		Tooltip: ""
+		DisplayName: マダガスカル国旗
+	}
+
+	VaticanCityItem: {
+		Tooltip: ""
+		DisplayName: バチカン市国国旗
+	}
+
+	TunisiaItem: {
+		Tooltip: ""
+		DisplayName: チュニジア国旗
+	}
+
+	SyriaLegacyItem: {
+		Tooltip: ""
+		DisplayName: シリアの歴史的な国旗
+	}
+
+	SomaliaItem: {
+		Tooltip: ""
+		DisplayName: ソマリア国旗
+	}
+
+	SingaporeItem: {
+		Tooltip: ""
+		DisplayName: シンガポール国旗
+	}
+
+	SanMarinoItem: {
+		Tooltip: ""
+		DisplayName: サンマリノ国旗
+	}
+
+	PalestineItem: {
+		Tooltip: ""
+		DisplayName: パレスチナの旗
+	}
+
+	PakistanItem: {
+		Tooltip: ""
+		DisplayName: パキスタン国旗
+	}
+
+	NicaraguaItem: {
+		Tooltip: ""
+		DisplayName: ニカラグア国旗
+	}
+
+	NepalItem: {
+		Tooltip: ""
+		DisplayName: ネパール国旗
+	}
+
+	LibyaItem: {
+		Tooltip: ""
+		DisplayName: リビア国旗
+	}
+
+	KosovoItem: {
+		Tooltip: ""
+		DisplayName: コソボ国旗
+	}
+
+	JordanItem: {
+		Tooltip: ""
+		DisplayName: ヨルダン国旗
+	}
+
+	IranItem: {
+		Tooltip: ""
+		DisplayName: イラン国旗
+	}
+
+	EUItem: {
+		Tooltip: ""
+		DisplayName: 欧州連合（EU）の旗
+	}
+
+	ElSalvadorItem: {
+		Tooltip: ""
+		DisplayName: エルサルバドル国旗
+	}
+
+	CostaRicaItem: {
+		Tooltip: ""
+		DisplayName: コスタリカ国旗
+	}
+
+	BoliviaItem: {
+		Tooltip: ""
+		DisplayName: ボリビア国旗
+	}
+
+	BahamasItem: {
+		Tooltip: ""
+		DisplayName: バハマ国旗
+	}
+
+	AlgeriaItem: {
+		Tooltip: ""
+		DisplayName: アルジェリア国旗
+	}
+
+	AfghanistanItem: {
+		Tooltip: ""
+		DisplayName: アフガニスタン国旗
+	}
+
+	YemenItem: {
+		Tooltip: ""
+		DisplayName: イエメン国旗
+	}
+
+	WalesItem: {
+		Tooltip: ""
+		DisplayName: ウェールズ国旗（イギリス）
+	}
+
+	VietnamItem: {
+		Tooltip: ""
+		DisplayName: ベトナム国旗
+	}
+
+	VenezuelaItem: {
+		Tooltip: ""
+		DisplayName: ベネズエラ国旗
+	}
+
+	USAItem: {
+		Tooltip: ""
+		DisplayName: アメリカ国旗
+	}
+
+	UruguayItem: {
+		Tooltip: ""
+		DisplayName: ウルグアイ国旗
+	}
+
+	UkraineItem: {
+		Tooltip: ""
+		DisplayName: ウクライナ国旗
+	}
+
+	UKItem: {
+		Tooltip: ""
+		DisplayName: イギリス国旗
+	}
+
+	UAEItem: {
+		Tooltip: ""
+		DisplayName: アラブ首長国連邦国旗
+	}
+
+	TurkeyItem: {
+		Tooltip: ""
+		DisplayName: トルコ国旗
+	}
+
+	ThailandItem: {
+		Tooltip: ""
+		DisplayName: タイ国旗
+	}
+
+	TaiwanItem: {
+		Tooltip: ""
+		DisplayName: 台湾の旗
+	}
+
+	SyriaItem: {
+		Tooltip: ""
+		DisplayName: シリア国旗
+	}
+
+	SwitzerlandItem: {
+		Tooltip: ""
+		DisplayName: スイス国旗
+	}
+
+	SwedenItem: {
+		Tooltip: ""
+		DisplayName: スウェーデン国旗
+	}
+
+	SpainItem: {
+		Tooltip: ""
+		DisplayName: スペイン国旗
+	}
+
+	SovietUnionItem: {
+		Tooltip: ""
+		DisplayName: ソビエト連邦国旗
+	}
+
+	SouthKoreaItem: {
+		Tooltip: ""
+		DisplayName: 韓国国旗
+	}
+
+	SouthAfricaItem: {
+		Tooltip: ""
+		DisplayName: 南アフリカ国旗
+	}
+
+	SloveniaItem: {
+		Tooltip: ""
+		DisplayName: スロベニア国旗
+	}
+
+	SlovakiaItem: {
+		Tooltip: ""
+		DisplayName: スロバキア国旗
+	}
+
+	SerbiaItem: {
+		Tooltip: ""
+		DisplayName: セルビア国旗
+	}
+
+	ScotlandItem: {
+		Tooltip: ""
+		DisplayName: スコットランドの旗（イギリス）
+	}
+
+	SaudiArabiaItem: {
+		Tooltip: ""
+		DisplayName: サウジアラビア国旗
+	}
+
+	RussiaItem: {
+		Tooltip: ""
+		DisplayName: ロシア国旗
+	}
+
+	RomaniaItem: {
+		Tooltip: ""
+		DisplayName: ルーマニア国旗
+	}
+
+	QuebecItem: {
+		Tooltip: ""
+		DisplayName: ケベック州旗
+	}
+
+	QatarItem: {
+		Tooltip: ""
+		DisplayName: カタール国旗
+	}
+
+	PuertoRicoItem: {
+		Tooltip: ""
+		DisplayName: プエルトリコ国旗
+	}
+
+	PortugalItem: {
+		Tooltip: ""
+		DisplayName: ポルトガル国旗
+	}
+
+	PolandItem: {
+		Tooltip: ""
+		DisplayName: ポーランド国旗
+	}
+
+	PhilippinesItem: {
+		Tooltip: ""
+		DisplayName: フィリピン国旗
+	}
+
+	PeruItem: {
+		Tooltip: ""
+		DisplayName: ペルー国旗
+	}
+
+	PalauItem: {
+		Tooltip: ""
+		DisplayName: パラオ国旗
+	}
+
+	OmanItem: {
+		Tooltip: ""
+		DisplayName: オマーン国旗
+	}
+
+	NorwayItem: {
+		Tooltip: ""
+		DisplayName: ノルウェー国旗
+	}
+
+	NorthMacedoniaItem: {
+		Tooltip: ""
+		DisplayName: 北マケドニア国旗
+	}
+
+	NorthKoreaItem: {
+		Tooltip: ""
+		DisplayName: 北朝鮮国旗
+	}
+
+	NorthernIrelandItem: {
+		Tooltip: ""
+		DisplayName: 北アイルランド国旗（イギリス）
+	}
+
+	NigeriaItem: {
+		Tooltip: ""
+		DisplayName: ナイジェリア国旗
+	}
+
+	NewZealandItem: {
+		Tooltip: ""
+		DisplayName: ニュージーランド国旗
+	}
+
+	NetherlandsItem: {
+		Tooltip: ""
+		DisplayName: オランダ国旗
+	}
+
+	MontenegroItem: {
+		Tooltip: ""
+		DisplayName: モンテネグロ国旗
+	}
+
+	MoldovaItem: {
+		Tooltip: ""
+		DisplayName: モルドバ国旗
+	}
+
+	MexicoItem: {
+		Tooltip: ""
+		DisplayName: メキシコ国旗
+	}
+
+	MaltaItem: {
+		Tooltip: ""
+		DisplayName: マルタ国旗
+	}
+
+	LuxembourgItem: {
+		Tooltip: ""
+		DisplayName: ルクセンブルク国旗
+	}
+
+	LithuaniaItem: {
+		Tooltip: ""
+		DisplayName: リトアニア国旗
+	}
+
+	LiechtensteinItem: {
+		Tooltip: ""
+		DisplayName: リヒテンシュタイン国旗
+	}
+
+	LatviaItem: {
+		Tooltip: ""
+		DisplayName: ラトビア国旗
+	}
+
+	KazakhstanItem: {
+		Tooltip: ""
+		DisplayName: カザフスタン国旗
+	}
+
+	JapanItem: {
+		Tooltip: ""
+		DisplayName: 日本国旗
+	}
+
+	JamaicaItem: {
+		Tooltip: ""
+		DisplayName: ジャマイカ国旗
+	}
+
+	ItalyItem: {
+		Tooltip: ""
+		DisplayName: イタリア国旗
+	}
+
+	IsraelItem: {
+		Tooltip: ""
+		DisplayName: イスラエル国旗
+	}
+
+	IsleOfManItem: {
+		Tooltip: ""
+		DisplayName: マン島の国旗（イギリス）
+	}
+
+	IrelandItem: {
+		Tooltip: ""
+		DisplayName: アイルランド国旗
+	}
+
+	IraqItem: {
+		Tooltip: ""
+		DisplayName: イラク国旗
+	}
+
+	IndonesiaItem: {
+		Tooltip: ""
+		DisplayName: インドネシア国旗
+	}
+
+	IndiaItem: {
+		Tooltip: ""
+		DisplayName: インド国旗
+	}
+
+	IcelandItem: {
+		Tooltip: ""
+		DisplayName: アイスランド国旗
+	}
+
+	HungaryItem: {
+		Tooltip: ""
+		DisplayName: ハンガリー国旗
+	}
+
+	HolyRomanEmpireItem: {
+		Tooltip: ""
+		DisplayName: 神聖ローマ帝国国旗
+	}
+
+	GreeceItem: {
+		Tooltip: ""
+		DisplayName: ギリシャ国旗
+	}
+
+	Globe: {
+		Tooltip: 世界の国旗の作成に使用
+		DisplayName: 地球儀
+	}
+
+	GermanyItem: {
+		Tooltip: ""
+		DisplayName: ドイツ国旗
+	}
+
+	GermanEmpireItem: {
+		Tooltip: ""
+		DisplayName: ドイツ帝国国旗
+	}
+
+	GeorgiaItem: {
+		Tooltip: ""
+		DisplayName: グルジア国旗
+	}
+
+	FranceItem: {
+		Tooltip: ""
+		DisplayName: フランス国旗
+	}
+
+	FinlandItem: {
+		Tooltip: ""
+		DisplayName: フィンランド国旗
+	}
+
+	EstoniaItem: {
+		Tooltip: ""
+		DisplayName: エストニア国旗
+	}
+
+	EnglandItem: {
+		Tooltip: ""
+		DisplayName: イングランド国旗（イギリス）
+	}
+
+	EgyptItem: {
+		Tooltip: ""
+		DisplayName: エジプト国旗
+	}
+
+	EcuadorItem: {
+		Tooltip: ""
+		DisplayName: エクアドル国旗
+	}
+
+	DominicanRepublicItem: {
+		Tooltip: ""
+		DisplayName: ドミニカ共和国国旗
+	}
+
+	DenmarkItem: {
+		Tooltip: ""
+		DisplayName: デンマーク国旗
+	}
+
+	CzechiaItem: {
+		Tooltip: ""
+		DisplayName: チェコ国旗
+	}
+
+	CyprusItem: {
+		Tooltip: ""
+		DisplayName: キプロス国旗
+	}
+
+	CubaItem: {
+		Tooltip: ""
+		DisplayName: キューバ国旗
+	}
+
+	CroatiaItem: {
+		Tooltip: ""
+		DisplayName: クロアチア国旗
+	}
+
+	ColombiaItem: {
+		Tooltip: ""
+		DisplayName: コロンビア国旗
+	}
+
+	ChinaItem: {
+		Tooltip: ""
+		DisplayName: 中国国旗
+	}
+
+	ChileItem: {
+		Tooltip: ""
+		DisplayName: チリ国旗
+	}
+
+	CanadaItem: {
+		Tooltip: ""
+		DisplayName: カナダ国旗
+	}
+
+	ByzantineEmpireItem: {
+		Tooltip: ""
+		DisplayName: 東ローマ帝国国旗
+	}
+
+	BulgariaItem: {
+		Tooltip: ""
+		DisplayName: ブルガリア国旗
+	}
+
+	BrazilItem: {
+		Tooltip: ""
+		DisplayName: ブラジル国旗
+	}
+
+	BosniaItem: {
+		Tooltip: ""
+		DisplayName: ボスニア・ヘルツェゴビナ国旗
+	}
+
+	BhutanItem: {
+		Tooltip: ""
+		DisplayName: ブータン国旗
+	}
+
+	BelgiumItem: {
+		Tooltip: ""
+		DisplayName: ベルギー国旗
+	}
+
+	BelarusItem: {
+		Tooltip: ""
+		DisplayName: ベラルーシ国旗
+	}
+
+	BangladeshItem: {
+		Tooltip: ""
+		DisplayName: バングラデシュ国旗
+	}
+
+	BahrainItem: {
+		Tooltip: ""
+		DisplayName: バーレーン国旗
+	}
+
+	AzerbaijanItem: {
+		Tooltip: ""
+		DisplayName: アゼルバイジャン国旗
+	}
+
+	AustriaItem: {
+		Tooltip: ""
+		DisplayName: オーストリア国旗
+	}
+
+	AustraliaItem: {
+		Tooltip: ""
+		DisplayName: オーストラリア国旗
+	}
+
+	ArmeniaItem: {
+		Tooltip: ""
+		DisplayName: アルメニア国旗
+	}
+
+	ArgentinaItem: {
+		Tooltip: ""
+		DisplayName: アルゼンチン国旗
+	}
+
+	AlbaniaItem: {
+		Tooltip: ""
+		DisplayName: アルバニア国旗
+	}
+}
+

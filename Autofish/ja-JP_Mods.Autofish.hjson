@@ -1,0 +1,98 @@
+Keybinds: {
+	LockcastDirection: {
+		DisplayName: ターゲットをカーソルにロックする
+	}
+}
+
+Configs: {
+	Configuration: {
+		Headers: {
+			Utilities:
+				'''
+				活用法
+				ﾎﾟｰｼｮﾝを飲んだ後、ｲﾝﾍﾞﾝﾄﾘに同様ﾎﾟｰｼｮﾝがあれば自動的に飲み直す。
+				右クリックでバフをキャンセル
+				'''
+			Filters: フィルター [c/DD4422:(ソナーバフが有効な時のみ有効!)]
+		}
+
+		DisplayName: Autofish 設定
+
+		AutoCrate: {
+			Tooltip: ""
+			Label: "[i:2356] オート・クレート・ポーション"
+		}
+
+		AutoFishing: {
+			Tooltip: ""
+			Label: "[i:2354] オート・フィッシング・ポーション"
+		}
+
+		AutoSonar: {
+			Tooltip: ""
+			Label: "[i:2355] オート・ソナー・ポーション"
+		}
+
+		Blacklist: {
+			Tooltip: これらの漁獲物は捕獲されない
+			Label: "[i:5064] ブラックリスト"
+		}
+
+		OtherCatches: {
+			Tooltip: これらの漁獲物も漁獲される
+			Label: "[i:2676] その他の獲物"
+		}
+
+		CatchEnemies: {
+			Tooltip: ""
+			Label: "[i:4271] 自動捕獲 ブラッドムーン(敵)"
+		}
+
+		CatchNormalCatches: {
+			Tooltip: 有効な場合、ホワイトより上のレアリティの通常の魚も捕獲する（ホワイトは含まない）
+			Label: "[i:2308] 自動捕獲 高レアリティ ノーマルキャッチ"
+		}
+
+		CatchWhiteRarityCatches: {
+			Tooltip: 有効であれば、ホワイトかグレーのレアリティの魚も捕獲する。
+			Label: "[i:2290] 自動捕獲 ホワイト/グレー レアリティ ノーマルキャッチ"
+		}
+
+		CatchQuestFishes: {
+			Tooltip: ""
+			Label: "[i:2487] 自動捕獲 クエスト"
+		}
+
+		CatchTools: {
+			Tooltip: ""
+			Label: "[i:2341] 自動捕獲 ツールと武器"
+		}
+
+		CatchAccessories: {
+			Tooltip: ""
+			Label: "[i:2423] 自動捕獲 アクセサリー"
+		}
+
+		CatchCrates: {
+			Tooltip: ""
+			Label: "[i:2356] 自動捕獲 クレート"
+		}
+
+		PullingDelay: {
+			Tooltip: 魚を見つけてから浮きを引き上げるまでの時間。
+			Label: 自動捕獲・遅延（秒）
+		}
+
+		AutoCatch: {
+			Tooltip: ラインは自動的に引き出され、フィルターが有効になっていれば便利です。
+			Label: 自動捕獲
+		}
+	}
+}
+
+Tips: {
+	PotionsRanOut: すでに{0}を使い果たした。
+	TargetUnlock: キャスト対象が[c/BB2222:unlocked]になった。
+	TargetLock: キャスティングターゲットが現在のカーソル位置に[c/22CC22:lock]されるようになった。
+}
+

@@ -1,27 +1,27 @@
 Configs: {
-	QuestResetMode: {
-		ResetOnAny: {
-			Label: 誰でもリセット
-		}
-
-		ResetOnAll: {
-			Label: すべてリセット
-		}
-
-		Tooltip: ""
-	}
-
 	UFQConfiguration: {
+		DisplayName: 設定
+
 		QuestResetMode: {
+			Label: クエストリセットモード
 			Tooltip:
 				'''
-				すべてリセット： 全員が現在のアングラークエストを完了するとリセットされる。
-				誰でもリセット： 誰かが現在のアングラークエストを完了するとリセットされる。
+				全員でリセット： 全員が現在のアングラークエストを完了するとリセットされる。
+				誰かでリセット： 誰かが現在のアングラークエストを完了するとリセットされる。
 				'''
-			Label: クエストリセットモード
+		}
+	}
+
+	QuestResetMode: {
+		Tooltip: ""
+
+		ResetOnAll: {
+			Label: 全員でリセット
 		}
 
-		DisplayName: 設定
+		ResetOnAny: {
+			Label: 誰かでリセット
+		}
 	}
 }
 

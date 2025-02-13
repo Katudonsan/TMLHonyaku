@@ -47,7 +47,7 @@ Configs: {
 
 		UseLight: {
 			Tooltip: ""
-			Label: 照明を使う
+			Label: 影と光の適用
 		}
 
 		DisplayName: クライアント設定
