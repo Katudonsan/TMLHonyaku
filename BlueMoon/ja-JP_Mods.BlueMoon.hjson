@@ -2,54 +2,54 @@ Configs: {
 	BlueMoonConfig: {
 		IncreaseMintMoonSpawnRate: {
 			Tooltip: ""
-			Label: ミント・ムーンのスポーン率増加
+			Label: ミントムーンのスポーン率増加
 		}
 
 		DecreaseMintMoonSpawnRate: {
 			Tooltip: ""
-			Label: ミント・ムーンのスポーン率低下
+			Label: ミントムーンのスポーン率低下
 		}
 
 		EnableMintMoonSpawn: {
 			Tooltip: ""
-			Label: ミント・ムーン スポーンの有効化
+			Label: ミントムーンのスポーン有効化
 		}
 
 		DecreaseHarvestMoonSpawnRate: {
 			Tooltip: ""
-			Label: ハーヴェスト・ムーンのスポーン率低下
+			Label: ハーヴェストムーンのスポーン率低下
 		}
 
 		EnableHarvestMoonSpawn: {
 			Tooltip: ""
-			Label: ハーヴェスト・ムーン スポーンの有効化
+			Label: ハーヴェストムーンのスポーン有効化
 		}
 
 		DecreaseCherryMoonSpawnRate: {
 			Tooltip: ""
-			Label: チェリー・ムーンのスポーン率低下
+			Label: チェリームーンのスポーン率低下
 		}
 
 		EnableCherryMoonSpawn: {
 			Tooltip: ""
-			Label: チェリー・ムーン スポーンの有効化
+			Label: チェリームーンのスポーン有効化
 		}
 
 		DecreaseBlueMoonSpawnRate: {
 			Tooltip: ""
-			Label: ブルー・ムーンのスポーン率低下
+			Label: ブルームーンのスポーン率低下
 		}
 
 		EnableBlueMoonSpawn: {
 			Tooltip: ""
-			Label: ブルー・ムーン スポーンの有効化
+			Label: ブルームーンのスポーン有効化
 		}
 
 		Headers: {
-			Mint_Moon: ミント・ムーン
-			Harvest_Moon: ハーヴェスト・ムーン
-			Cherry_Moon: チェリー・ムーン
-			Blue_Moon: ブルー・ムーン
+			Mint_Moon: ミントムーン
+			Harvest_Moon: ハーヴェストムーン
+			Cherry_Moon: チェリームーン
+			Blue_Moon: ブルームーン
 		}
 
 		DisplayName: Enchanted Moons 設定
@@ -58,57 +58,57 @@ Configs: {
 
 Tiles: {
 	MintMoonMusicBoxTile: {
-		MapEntry: ミント・ムーン・ミュージック・ボックス
+		MapEntry: オルゴール(ミントムーン)
 	}
 
 	BlueMoonMusicBoxTile: {
-		MapEntry: ブルー・ムーン・ミュージック・ボックス
+		MapEntry: オルゴール(ブルームーン)
 	}
 
 	CherryMoonMusicBoxTile: {
-		MapEntry: チェリー・ムーン・ミュージック・ボックス
+		MapEntry: オルゴール(チェリームーン)
 	}
 
 	HarvestMoonMusicBoxTile: {
-		MapEntry: ハーヴェスト・ムーン・ミュージック・ボックス
+		MapEntry: オルゴール(ハーヴェストムーン)
 	}
 }
 
 Buffs: {
 	MoonsRingBuff: {
-		Description: あなたは4つの天の月の力に祝福されている。
+		Description: 4つの天の月の力に祝福されている。
 		DisplayName: 月光のハーモニー
 	}
 
 	MintyFreshnessBuff: {
-		Description: ミント・ムーンのきらめく光は君の魔法能力を強化する。より多くのダメージを与えられ、クールダウンも短くなる。
-		DisplayName: ミント・フレッシュネス
+		Description: ミントムーンのきらめく光は魔法能力を強化し、より多くのダメージを与えられ、クールダウンも短くなる。
+		DisplayName: ミントフレッシュネス
 	}
 
 	LunarEmpowermentBuff: {
-		Description: 月はあなたに幸運の一部を授けてくれる。
+		Description: 月は幸運の一部を授けてくれる
 		DisplayName: 月のエンパワーメント
 	}
 
 	FloralBlessingBuff: {
-		Description: チェリー・ムーンの癒しのオーラを抱きしめてください。あなたの傷は速やかに回復します。
+		Description: チェリームーンの癒しのオーラを抱きしめて...
 		DisplayName: 花の祝福
 	}
 
 	BountifulHarvestBuff: {
-		Description: ハーヴェスト・ムーンの祝福があなたのポケットをお金で満たします。敵がコインをたくさん落としてくれる。
+		Description: ハーヴェストムーンの祝福がポケットをお金で満たす...
 		DisplayName: 豊作
 	}
 }
 
 Items: {
 	MoonsRing: {
-		Tooltip: コインのドロップ、体力回復速度、クリティカル確率、魔法ダメージが増加する。
+		Tooltip: コインのドロップ、体力回復速度、クリティカル確率、魔法ダメージが増加する
 		DisplayName: 月の指輪
 	}
 
 	EmeraldRing: {
-		Tooltip: ミント・フレッシュネス・バフを与える
+		Tooltip: ミントフレッシュネスバフを与える
 		DisplayName: エメラルドの指輪
 	}
 
@@ -123,12 +123,12 @@ Items: {
 	}
 
 	SapphireRing: {
-		Tooltip: 月のエンパワーメントバフを与える。
+		Tooltip: 月のエンパワーメントバフを与える
 		DisplayName: サファイアの指輪
 	}
 
 	MintMoonMusicBox: {
-		DisplayName: ミント・ムーン・ミュージック・ボックス
+		DisplayName: オルゴール(ミントムーン)
 		Tooltip: ""
 	}
 
@@ -138,23 +138,23 @@ Items: {
 	}
 
 	BlueMoonMusicBox: {
-		DisplayName: ブルー・ムーン・ミュージック・ボックス
+		DisplayName: オルゴール(ブルームーン)
 		Tooltip: ""
 	}
 
 	CherryMoonMusicBox: {
-		DisplayName: チェリー・ムーン・ミュージック・ボックス
+		DisplayName: オルゴール(チェリームーン)
 		Tooltip: ""
 	}
 
 	HarvestMoonMusicBox: {
-		DisplayName: ハーヴェスト・ムーン・ミュージック・ボックス
+		DisplayName: オルゴール(ハーヴェストムーン)
 		Tooltip: ""
 	}
 
 	HarvestLantern: {
 		DisplayName: 収穫ランタン
-		Tooltip: 夜にお祭りのようなハーヴェスト・ムーンを召喚する
+		Tooltip: 夜にお祭りのようなハーヴェストムーンを召喚する
 	}
 
 	CherryAmulet: {
@@ -163,7 +163,7 @@ Items: {
 	}
 
 	BlueMedallion: {
-		DisplayName: ブルー・メダリオン
+		DisplayName: ブルーメダリオン
 		Tooltip: 夜に珍しいブルームーンを召喚する
 	}
 }
