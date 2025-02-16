@@ -2888,7 +2888,7 @@ BossChecklistIntegration: {
 	}
 
 	GiantClam: {
-		SpawnInfo: 沈没海で自然にスポーンする
+		SpawnInfo: 沈没海の水中で自然にスポーンする
 		DespawnMessage: "[c/7FFFD4:大蛤は洞窟に隠れてしまった....]"
 	}
 
@@ -16641,7 +16641,7 @@ Items: {
 			}
 
 			VoidEdge: {
-				DisplayName: 深淵の刃
+				DisplayName: 虚無の剣
 				Tooltip:
 					'''
 					深淵の魂を放つ
