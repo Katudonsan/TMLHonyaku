@@ -111,7 +111,7 @@ Items: {
 
 	DirectionalSignItem: {
 		Tooltip: テキストを表示できる
-		DisplayName: 方向指示器
+		DisplayName: 案内看板
 	}
 
 	CookieJarItem: {
@@ -131,7 +131,7 @@ Items: {
 
 	BucketItem: {
 		Tooltip: 「神よ…」
-		DisplayName: バケット
+		DisplayName: バケツ
 	}
 
 	BigCauldronItem: {
@@ -140,7 +140,7 @@ Items: {
 	}
 
 	BeeNestItem: {
-		Tooltip: クリックするとクールなサプライズが！
+		Tooltip: 右クリックで驚きのサプライズ！
 		DisplayName: 蜂の巣
 	}
 	
@@ -156,7 +156,7 @@ Items: {
 
 	AnchorWallMountItem: {
 		Tooltip: ""
-		DisplayName: アンカー壁掛け
+		DisplayName: アンカーの壁掛け
 	}
 
 	AntelopeHuntingTrophyItem: {
@@ -246,7 +246,7 @@ Items: {
 
 	ButcherTableItem: {
 		Tooltip: ""
-		DisplayName: 肉屋テーブル
+		DisplayName: 肉屋のテーブル
 	}
 
 	BustItem: {
@@ -941,7 +941,7 @@ Items: {
 
 	EyeInAJarItem: {
 		Tooltip: ""
-		DisplayName: 瓶の中の眼
+		DisplayName: 瓶の中の目玉
 	}
 
 	ElectronicComponentsItem: {
@@ -1716,7 +1716,7 @@ Items: {
 
 	GallowsItem: {
 		Tooltip: ""
-		DisplayName: ギャローズ
+		DisplayName: 絞首台
 	}
 
 	FruitBowlItem: {
