@@ -9,7 +9,7 @@ Configs: {
 		Headers: {
 			Utilities:
 				'''
-				活用法
+				自動利用　方法
 				ﾎﾟｰｼｮﾝを飲んだ後、ｲﾝﾍﾞﾝﾄﾘに同様ﾎﾟｰｼｮﾝがあれば自動的に飲み直す。
 				右クリックでバフをキャンセル
 				'''
@@ -20,72 +20,72 @@ Configs: {
 
 		AutoCrate: {
 			Tooltip: ""
-			Label: "[i:2356] オート・クレート・ポーション"
+			Label: "[i:2356] 自動利用　箱のポーション"
 		}
 
 		AutoFishing: {
 			Tooltip: ""
-			Label: "[i:2354] オート・フィッシング・ポーション"
+			Label: "[i:2354] 自動利用　釣りのポーション"
 		}
 
 		AutoSonar: {
 			Tooltip: ""
-			Label: "[i:2355] オート・ソナー・ポーション"
+			Label: "[i:2355] 自動利用　魚探知のポーション"
 		}
 
 		Blacklist: {
-			Tooltip: これらの漁獲物は捕獲されない
+			Tooltip: これらの漁獲物は釣り上げない
 			Label: "[i:5064] ブラックリスト"
 		}
 
 		OtherCatches: {
-			Tooltip: これらの漁獲物も漁獲される
+			Tooltip: これらの漁獲物も釣り上げる
 			Label: "[i:2676] その他の獲物"
 		}
 
 		CatchEnemies: {
 			Tooltip: ""
-			Label: "[i:4271] 自動捕獲 ブラッドムーン(敵)"
+			Label: "[i:4271] 自動釣り上げ ブラッドムーン(敵)"
 		}
 
 		CatchNormalCatches: {
-			Tooltip: 有効な場合、ホワイトより上のレアリティの通常の魚も捕獲する（ホワイトは含まない）
-			Label: "[i:2308] 自動捕獲 高レアリティ ノーマルキャッチ"
+			Tooltip: 有効な場合、ホワイトより上のレアリティの通常の魚も釣り上げる（ホワイトは含まない）
+			Label: "[i:2308] 自動釣り上げ 高レアリティ ノーマルキャッチ"
 		}
 
 		CatchWhiteRarityCatches: {
-			Tooltip: 有効であれば、ホワイトかグレーのレアリティの魚も捕獲する。
-			Label: "[i:2290] 自動捕獲 ホワイト/グレー レアリティ ノーマルキャッチ"
+			Tooltip: 有効であれば、ホワイトかグレーのレアリティの魚も釣り上げる。
+			Label: "[i:2290] 自動釣り上げ ホワイト/グレー レアリティ ノーマルキャッチ"
 		}
 
 		CatchQuestFishes: {
 			Tooltip: ""
-			Label: "[i:2487] 自動捕獲 クエスト"
+			Label: "[i:2487] 自動釣り上げ クエスト"
 		}
 
 		CatchTools: {
 			Tooltip: ""
-			Label: "[i:2341] 自動捕獲 ツールと武器"
+			Label: "[i:2341] 自動釣り上げ ツールと武器"
 		}
 
 		CatchAccessories: {
 			Tooltip: ""
-			Label: "[i:2423] 自動捕獲 アクセサリー"
+			Label: "[i:2423] 自動釣り上げ アクセサリー"
 		}
 
 		CatchCrates: {
 			Tooltip: ""
-			Label: "[i:2356] 自動捕獲 クレート"
+			Label: "[i:2356] 自動釣り上げ 箱"
 		}
 
 		PullingDelay: {
-			Tooltip: 魚を見つけてから浮きを引き上げるまでの時間。
-			Label: 自動捕獲・遅延（秒）
+			Tooltip: 魚が掛かってからから釣り上げるまでの時間。
+			Label: 自動釣り上げ・遅延（秒）
 		}
 
 		AutoCatch: {
 			Tooltip: ラインは自動的に引き出され、フィルターが有効になっていれば便利です。
-			Label: 自動捕獲
+			Label: 自動釣り上げ
 		}
 	}
 }
@@ -95,4 +95,3 @@ Tips: {
 	TargetUnlock: キャスト対象が[c/BB2222:unlocked]になった。
 	TargetLock: キャスティングターゲットが現在のカーソル位置に[c/22CC22:lock]されるようになった。
 }
-
