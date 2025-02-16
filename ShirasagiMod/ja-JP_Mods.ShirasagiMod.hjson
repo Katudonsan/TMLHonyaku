@@ -1,833 +1,832 @@
+Items: {
+	C370cNurseRobotWings: {
+		Tooltip: ""
+		DisplayName: ナースロボ＿タイプTの翼
+	}
+
+	C370bNurseRobotBody: {
+		Tooltip: ""
+		DisplayName: ナースロボ＿タイプＴ ボディ
+	}
+
+	C370aNurseRobotHead: {
+		Tooltip: ""
+		DisplayName: ナースロボ＿タイプＴ ヘッド
+	}
+
+	C370xNurseRobotBox: {
+		Tooltip: <right>で開く
+		DisplayName: ナースロボ＿タイプＴ衣装セット
+	}
+
+	C360bNumberSevenBody: {
+		Tooltip: ""
+		DisplayName: No.7 ボディ
+	}
+
+	C360aNumberSevenHead: {
+		Tooltip: ""
+		DisplayName: No.7 ヘッド
+	}
+
+	C360xNumberSevenBox: {
+		Tooltip: <right>で開く
+		DisplayName: No.7衣装セット
+	}
+
+	C351bOukaMiko2Body: {
+		Tooltip: ""
+		DisplayName: 2nd 櫻歌ミコ ボディ
+	}
+
+	C351aOukaMiko2Head: {
+		Tooltip: ""
+		DisplayName: 2nd 櫻歌ミコ ヘッド
+	}
+
+	C350bOukaMikoBody: {
+		Tooltip: ""
+		DisplayName: 櫻歌ミコ ボディ
+	}
+
+	C350aOukaMikoHead: {
+		Tooltip: ""
+		DisplayName: 櫻歌ミコ ヘッド
+	}
+
+	C350xOukaMikoBox: {
+		Tooltip: <right>で開く
+		DisplayName: 櫻歌ミコ衣装セット
+	}
+
+	C340bSayoBody: {
+		Tooltip: ""
+		DisplayName: SAYO Body
+	}
+
+	C340aSayoHead: {
+		Tooltip: ""
+		DisplayName: SAYO Head
+	}
+
+	C340xSayoBox: {
+		Tooltip: <right>で開く
+		DisplayName: SAYO Clothes Box
+	}
+
+	C322cArmageddoniaPurgatoryaWings: {
+		Tooltip: ""
+		DisplayName: ｱﾙﾏｼﾞｪﾀﾞｰﾆｬ･ﾌﾟﾙｶﾞﾄﾘｱの翼
+	}
+
+	C322bArmageddoniaPurgatoryaBody: {
+		Tooltip: ""
+		DisplayName: ｱﾙﾏｼﾞｪﾀﾞｰﾆｬ･ﾌﾟﾙｶﾞﾄﾘｱ ボディ
+	}
+
+	C322aArmageddoniaPurgatoryaHead: {
+		Tooltip: ""
+		DisplayName: ｱﾙﾏｼﾞｪﾀﾞｰﾆｬ･ﾌﾟﾙｶﾞﾄﾘｱ ヘッド
+	}
+
+	C322xArmageddoniaPurgatoryaBox: {
+		Tooltip: <right>で開く
+		DisplayName: ｱﾙﾏｼﾞｪﾀﾞｰﾆｬ･ﾌﾟﾙｶﾞﾄﾘｱ衣装セット
+	}
+
+	C320cDiamantePrincipalitiesWings: {
+		Tooltip: ""
+		DisplayName: ﾃﾞｨｱﾏﾝﾃ･ﾌﾟﾘﾝｼﾊﾟﾘﾃｨｰｽﾞの翼
+	}
+
+	C320bDiamantePrincipalitiesBody: {
+		Tooltip: ""
+		DisplayName: ﾃﾞｨｱﾏﾝﾃ･ﾌﾟﾘﾝｼﾊﾟﾘﾃｨｰｽﾞ ボディ
+	}
+
+	C320aDiamantePrincipalitiesHead: {
+		Tooltip: ""
+		DisplayName: ﾃﾞｨｱﾏﾝﾃ･ﾌﾟﾘﾝｼﾊﾟﾘﾃｨｰｽﾞ ヘッド
+	}
+
+	C320xDiamantePrincipalitiesBox: {
+		Tooltip: <right>で開く
+		DisplayName: ﾃﾞｨｱﾏﾝﾃ･ﾌﾟﾘﾝｼﾊﾟﾘﾃｨｰｽﾞ衣装セット
+	}
+
+	C310bSenoBody: {
+		Tooltip: ""
+		DisplayName: TYPE-Y SENO ボディ
+	}
+
+	C310aSenoHead: {
+		Tooltip: ""
+		DisplayName: TYPE-Y SENO ヘッド
+	}
+
+	C310xSenoBox: {
+		Tooltip: <right>で開く
+		DisplayName: TYPE-Y SENO衣装セット
+	}
+
+	C300bLosaBody: {
+		Tooltip: ""
+		DisplayName: TYPE-X LOSA ボディ
+	}
+
+	C300aLosaHead: {
+		Tooltip: ""
+		DisplayName: TYPE-X LOSA ヘッド
+	}
+
+	C300xLosaBox: {
+		Tooltip: <right>で開く
+		DisplayName: TYPE-X LOSA衣装セット
+	}
+
+	C290bKanaBody: {
+		Tooltip: ""
+		DisplayName: KANA ボディ
+	}
+
+	C290aKanaHead: {
+		Tooltip: ""
+		DisplayName: KANA ヘッド
+	}
+
+	C290xKanaBox: {
+		Tooltip: <right>で開く
+		DisplayName: KANA衣装セット
+	}
+
+	C280bManaBody: {
+		Tooltip: ""
+		DisplayName: MANA ボディ
+	}
+
+	C280aManaHead: {
+		Tooltip: ""
+		DisplayName: MANA ヘッド
+	}
+
+	C280xManaBox: {
+		Tooltip: <right>で開く
+		DisplayName: MANA衣装セット
+	}
+
+	C270bNamineRitsuBody: {
+		Tooltip: ""
+		DisplayName: 波音リツ ボディ
+	}
+
+	C270aNamineRitsuHead: {
+		Tooltip: ""
+		DisplayName: 波音リツ ヘッド
+	}
+
+	C270xNamineRitsuBox: {
+		Tooltip: <right>で開く
+		DisplayName: 波音リツ衣装セット
+	}
+
+	C260bAmehareHauBody: {
+		Tooltip: ""
+		DisplayName: 雨晴はう ボディ
+	}
+
+	C260aAmehareHauHead: {
+		Tooltip: ""
+		DisplayName: 雨晴はう ヘッド
+	}
+
+	C260xAmehareHauBox: {
+		Tooltip: <right>で開く
+		DisplayName: 雨晴はう衣装セット
+	}
+
+	C240bMeimeiHimariBody: {
+		Tooltip: ""
+		DisplayName: 冥鳴ひまり ボディ
+	}
+
+	C240aMeimeiHimariHead: {
+		Tooltip: ""
+		DisplayName: 冥鳴ひまり ヘッド
+	}
+
+	C240xMeimeiHimariBox: {
+		Tooltip: <right>で開く
+		DisplayName: 冥鳴ひまり衣装セット
+	}
+
+	C230bKasukabeTsumugiBody: {
+		Tooltip: ""
+		DisplayName: 春日部つむぎ ボディ
+	}
+
+	C230aKasukabeTsumugiHead: {
+		Tooltip: ""
+		DisplayName: 春日部つむぎ ヘッド
+	}
+
+	C230xKasukabeTsumugiBox: {
+		Tooltip: <right>で開く
+		DisplayName: 春日部つむぎ衣装セット
+	}
+
+	C220bTangeKotoeBody: {
+		Tooltip: ""
+		DisplayName: 丹下琴絵 ボディ
+	}
+
+	C220aTangeKotoeHead: {
+		Tooltip: ""
+		DisplayName: 丹下琴絵 ヘッド
+	}
+
+	C220xTangeKotoeBox: {
+		Tooltip: <right>で開く
+		DisplayName: 丹下琴絵衣装セット
+	}
+
+	C210bTsukuyomichanBody: {
+		Tooltip: ""
+		DisplayName: つくよみちゃん ボディ
+	}
+
+	C210aTsukuyomichanHead: {
+		Tooltip: ""
+		DisplayName: つくよみちゃん ヘッド
+	}
+
+	C210xTsukuyomichanBox: {
+		Tooltip: <right>で開く
+		DisplayName: つくよみちゃん衣装セット
+	}
+
+	C200bAdachiReiBody: {
+		Tooltip: ""
+		DisplayName: 足立レイ ボディ
+	}
+
+	C200aAdachiReiHead: {
+		Tooltip: ""
+		DisplayName: 足立レイ ヘッド
+	}
+
+	C200xAdachiReiBox: {
+		Tooltip: <right>で開く
+		DisplayName: 足立レイ衣装セット
+	}
+
+	C110cNakoRecoBody: {
+		Tooltip: ""
+		DisplayName: ナコ&レコ ボディ
+	}
+
+	C110bRecoHead: {
+		Tooltip: ""
+		DisplayName: レコ ヘッド
+	}
+
+	C110aNakoHead: {
+		Tooltip: ""
+		DisplayName: ナコ ヘッド
+	}
+
+	C110xNakoRecoBox: {
+		Tooltip: <right>で開く
+		DisplayName: ナコ&レコ衣装セット
+	}
+
+	C020bMillialBody: {
+		Tooltip: ""
+		DisplayName: ミリアル ボディ
+	}
+
+	C020aMillialHead: {
+		Tooltip: ""
+		DisplayName: ミリアル ヘッド
+	}
+
+	C020xMillialBox: {
+		Tooltip: <right>で開く
+		DisplayName: ミリアル衣装セット
+	}
+
+	C010bAllialBody: {
+		Tooltip: ""
+		DisplayName: アリアル ボディ
+	}
+
+	C010aAllialHead: {
+		Tooltip: ""
+		DisplayName: アリアル ヘッド
+	}
+
+	C010xAllialBox: {
+		Tooltip: <right>で開く
+		DisplayName: アリアル衣装セット
+	}
+
+	B710bFEEBody: {
+		Tooltip: ""
+		DisplayName: CCD-0500 フィー ボディ
+	}
+
+	B710aFEEHead: {
+		Tooltip: ""
+		DisplayName: CCD-0500 フィー ヘッド
+	}
+
+	B710xFEEBox: {
+		Tooltip: <right>で開く
+		DisplayName: CCD-0500 フィー衣装セット
+	}
+
+	B530bHanakumaChifuyuBody: {
+		Tooltip: ""
+		DisplayName: 花隈千冬 ボディ
+	}
+
+	B530aHanakumaChifuyuHead: {
+		Tooltip: ""
+		DisplayName: 花隈千冬 ヘッド
+	}
+
+	B530xHanakumaChifuyuBox: {
+		Tooltip: <right>で開く
+		DisplayName: 花隈千冬衣装セット
+	}
+
+	B520bNatsukiKarinBody: {
+		Tooltip: ""
+		DisplayName: 夏色花梨 ボディ
+	}
+
+	B520aNatsukiKarinHead: {
+		Tooltip: ""
+		DisplayName: 夏色花梨 ヘッド
+	}
+
+	B520xNatsukiKarinBox: {
+		Tooltip: <right>で開く
+		DisplayName: 夏色花梨衣装セット
+	}
+
+	B510bKoharuRikkaBody: {
+		Tooltip: ""
+		DisplayName: 小春六花 ボディ
+	}
+
+	B510aKoharuRikkaHead: {
+		Tooltip: ""
+		DisplayName: 小春六花 ヘッド
+	}
+
+	B510xKoharuRikkaBox: {
+		Tooltip: <right>で開く
+		DisplayName: 小春六花衣装セット
+	}
+
+	B410bEnNoTsuinaBody: {
+		Tooltip: ""
+		DisplayName: 役ついな ボディ
+	}
+
+	B410aEnNoTsuinaHead: {
+		Tooltip: ""
+		DisplayName: 役ついな ヘッド
+	}
+
+	B410xEnNoTsuinaBox: {
+		Tooltip: <right>で開く
+		DisplayName: 役ついな衣装セット
+	}
+
+	B330bGalacoBody: {
+		Tooltip: ""
+		DisplayName: ギャラ子 ボディ
+	}
+
+	B330aGalacoHead: {
+		Tooltip: ""
+		DisplayName: ギャラ子 ヘッド
+	}
+
+	B330xGalacoBox: {
+		Tooltip: <right>で開く
+		DisplayName: ギャラ子衣装セット
+	}
+
+	B320bKyomachiSeikaBody: {
+		Tooltip: ""
+		DisplayName: 京町セイカ ボディ
+	}
+
+	B320aKyomachiSeikaHead: {
+		Tooltip: ""
+		DisplayName: 京町セイカ ヘッド
+	}
+
+	B320xKyomachiSeikaBox: {
+		Tooltip: <right>で開く
+		DisplayName: 京町セイカ衣装セット
+	}
+
+	B310bOtomachiUnaBody: {
+		Tooltip: ""
+		DisplayName: 音街ウナ ボディ
+	}
+
+	B310aOtomachiUnaHead: {
+		Tooltip: ""
+		DisplayName: 音街ウナ ヘッド
+	}
+
+	B310xOtomachiUnaBox: {
+		Tooltip: <right>で開く
+		DisplayName: 音街ウナ衣装セット
+	}
+
+	B230bVFlowerBody: {
+		Tooltip: ""
+		DisplayName: v flower ボディ
+	}
+
+	B230aVFlowerHead: {
+		Tooltip: ""
+		DisplayName: v flower ヘッド
+	}
+
+	B230xVFlowerBox: {
+		Tooltip: <right>で開く
+		DisplayName: v flower衣装セット
+	}
+
+	B220bMeikaMikotoBody: {
+		Tooltip: ""
+		DisplayName: 鳴花ミコト ボディ
+	}
+
+	B220aMeikaMikotoHead: {
+		Tooltip: ""
+		DisplayName: 鳴花ミコト ヘッド
+	}
+
+	B220xMeikaMikotoBox: {
+		Tooltip: <right>で開く
+		DisplayName: 鳴花ミコト衣装セット
+	}
+
+	B210bMeikaHimeBody: {
+		Tooltip: ""
+		DisplayName: 鳴花ヒメ ボディ
+	}
+
+	B210aMeikaHimeHead: {
+		Tooltip: ""
+		DisplayName: 鳴花ヒメ ヘッド
+	}
+
+	B210xMeikaHimeBox: {
+		Tooltip: <right>で開く
+		DisplayName: 鳴花ヒメ衣装セット
+	}
+
+	B120bONEBody: {
+		Tooltip: ""
+		DisplayName: ONE ボディ
+	}
+
+	B120aONEHead: {
+		Tooltip: ""
+		DisplayName: ONE ヘッド
+	}
+
+	B120xONEBox: {
+		Tooltip: <right>で開く
+		DisplayName: ONE衣装セット
+	}
+
+	B110bIABody: {
+		Tooltip: ""
+		DisplayName: IA ボディ
+	}
+
+	B110aIAHead: {
+		Tooltip: ""
+		DisplayName: IA ヘッド
+	}
+
+	B110xIABox: {
+		Tooltip: <right>で開く
+		DisplayName: IA衣装セット
+	}
+
+	B070bChugokuUsagiBody: {
+		Tooltip: ""
+		DisplayName: 中国うさぎ ボディ
+	}
+
+	B070aChugokuUsagiHead: {
+		Tooltip: ""
+		DisplayName: 中国うさぎ ヘッド
+	}
+
+	B070xChugokuUsagiBox: {
+		Tooltip: <right>で開く
+		DisplayName: 中国うさぎ衣装セット
+	}
+
+	B060cKyushuSoraWings: {
+		Tooltip: ""
+		DisplayName: ソーラーパネル
+	}
+
+	B060bKyushuSoraBody: {
+		Tooltip: ""
+		DisplayName: 九州そら mk-II ボディ
+	}
+
+	B060aKyushuSoraHead: {
+		Tooltip: ""
+		DisplayName: 九州そら mk-II ヘッド
+	}
+
+	B060xKyushuSoraBox: {
+		Tooltip: <right>で開く
+		DisplayName: 九州そら mk-II衣装セット
+	}
+
+	B050bShikokuMethaneBody: {
+		Tooltip: ""
+		DisplayName: 四国めたん ボディ
+	}
+
+	B050aShikokuMethaneHead: {
+		Tooltip: ""
+		DisplayName: 四国めたん ヘッド
+	}
+
+	B050xShikokuMethaneBox: {
+		Tooltip: <right>で開く
+		DisplayName: 四国めたん衣装セット
+	}
+
+	B040bZundamonBody: {
+		Tooltip: ""
+		DisplayName: ずんだもん ボディ
+	}
+
+	B040aZundamonHead: {
+		Tooltip: ""
+		DisplayName: ずんだもん ヘッド
+	}
+
+	B040xZundamonBox: {
+		Tooltip: <right>で開く
+		DisplayName: ずんだもん衣装セット
+	}
+
+	B030bTohokuItakoBody: {
+		Tooltip: ""
+		DisplayName: 東北イタコ ボディ
+	}
+
+	B030aTohokuItakoHead: {
+		Tooltip: ""
+		DisplayName: 東北イタコ ヘッド
+	}
+
+	B030xTohokuItakoBox: {
+		Tooltip: <right>で開く
+		DisplayName: 東北イタコ衣装セット
+	}
+
+	B020cTohokuKiritanWings: {
+		Tooltip: ""
+		DisplayName: きりたんぽ
+	}
+
+	B020bTohokuKiritanBody: {
+		Tooltip: ""
+		DisplayName: 東北きりたん ボディ
+	}
+
+	B020aTohokuKiritanHead: {
+		Tooltip: ""
+		DisplayName: 東北きりたん ヘッド
+	}
+
+	B020xTohokuKiritanBox: {
+		Tooltip: <right>で開く
+		DisplayName: 東北きりたん衣装セット
+	}
+
+	B010bTohokuZunkoBody: {
+		Tooltip: ""
+		DisplayName: 東北ずん子 ボディ
+	}
+
+	B010aTohokuZunkoHead: {
+		Tooltip: ""
+		DisplayName: 東北ずん子 ヘッド
+	}
+
+	B010xTohokuZunkoBox: {
+		Tooltip: <right>で開く
+		DisplayName: 東北ずん子衣装セット
+	}
+
+	A360bAsumiRiriseBody: {
+		Tooltip: ""
+		DisplayName: 彩澄りりせ ボディ
+	}
+
+	A360aAsumiRiriseHead: {
+		Tooltip: ""
+		DisplayName: 彩澄りりせ ヘッド
+	}
+
+	A360xAsumiRiriseBox: {
+		Tooltip: <right>で開く
+		DisplayName: 彩澄りりせ衣装セット
+	}
+
+	A350bAsumiShuoBody: {
+		Tooltip: ""
+		DisplayName: 彩澄しゅお ボディ
+	}
+
+	A350aAsumiShuoHead: {
+		Tooltip: ""
+		DisplayName: 彩澄しゅお ヘッド
+	}
+
+	A350xAsumiShuoBox: {
+		Tooltip: <right>で開く
+		DisplayName: 彩澄しゅお衣装セット
+	}
+
+	A340bHarunoSoraBody: {
+		Tooltip: ""
+		DisplayName: 桜乃そら ボディ
+	}
+
+	A340aHarunoSoraHead: {
+		Tooltip: ""
+		DisplayName: 桜乃そら ヘッド
+	}
+
+	A340xHarunoSoraBox: {
+		Tooltip: <right>で開く
+		DisplayName: 桜乃そら衣装セット
+	}
+
+	A330bTsurumakiMakiBody: {
+		Tooltip: ""
+		DisplayName: 弦巻マキ ボディ
+	}
+
+	A330aTsurumakiMakiHead: {
+		Tooltip: ""
+		DisplayName: 弦巻マキ ヘッド
+	}
+
+	A330xTsurumakiMakiBox: {
+		Tooltip: <right>で開く
+		DisplayName: 弦巻マキ衣装セット
+	}
+
+	A310bTsukuyomiAiBody: {
+		Tooltip: ""
+		DisplayName: 月読アイ ボディ
+	}
+
+	A310aTsukuyomiAiHead: {
+		Tooltip: ""
+		DisplayName: 月読アイ ヘッド
+	}
+
+	A310xTsukuyomiAiBox: {
+		Tooltip: <right>で開く
+		DisplayName: 月読アイ衣装セット
+	}
+
+	A220bSuzukiTsudumiBody: {
+		Tooltip: ""
+		DisplayName: すずきつづみ ボディ
+	}
+
+	A220aSuzukiTsudumiHead: {
+		Tooltip: ""
+		DisplayName: すずきつづみ ヘッド
+	}
+
+	A220xSuzukiTsudumiBox: {
+		Tooltip: <right>で開く
+		DisplayName: すずきつづみ衣装セット
+	}
+
+	A210bSatoSasaraBody: {
+		Tooltip: ""
+		DisplayName: さとうささら ボディ
+	}
+
+	A210aSatoSasaraHead: {
+		Tooltip: ""
+		DisplayName: さとうささら ヘッド
+	}
+
+	A210xSatoSasaraBox: {
+		Tooltip: <right>で開く
+		DisplayName: さとうささら衣装セット
+	}
+
+	A130bIoriYuzuruBody: {
+		Tooltip: ""
+		DisplayName: 伊織弓鶴 ボディ
+	}
+
+	A130aIoriYuzuruHead: {
+		Tooltip: ""
+		DisplayName: 伊織弓鶴 ヘッド
+	}
+
+	A130xIoriYuzuruBox: {
+		Tooltip: <right>で開く
+		DisplayName: 伊織弓鶴衣装セット
+	}
+
+	A120bKotonohaAoiBody: {
+		Tooltip: ""
+		DisplayName: 琴葉葵 ボディ
+	}
+
+	A120aKotonohaAoiHead: {
+		Tooltip: ""
+		DisplayName: 琴葉葵 ヘッド
+	}
+
+	A120xKotonohaAoiBox: {
+		Tooltip: <right>で開く
+		DisplayName: 琴葉葵衣装セット
+	}
+
+	A110bKotonohaAkaneBody: {
+		Tooltip: ""
+		DisplayName: 琴葉茜 ボディ
+	}
+
+	A110aKotonohaAkaneHead: {
+		Tooltip: ""
+		DisplayName: 琴葉茜 ヘッド
+	}
+
+	A110xKotonohaAkaneBox: {
+		Tooltip: <right>で開く
+		DisplayName: 琴葉茜衣装セット
+	}
+
+	A020bKizunaAkariBody: {
+		Tooltip: ""
+		DisplayName: 紲星あかり ボディ
+	}
+
+	A020aKizunaAkariHead: {
+		Tooltip: ""
+		DisplayName: 紲星あかり ヘッド
+	}
+
+	A020xKizunaAkariBox: {
+		Tooltip: <right>で開く
+		DisplayName: 紲星あかり衣装セット
+	}
+
+	A010bYuzukiYukariBody: {
+		Tooltip: ""
+		DisplayName: 結月ゆかり ボディ
+	}
+
+	A010aYuzukiYukariHead: {
+		Tooltip: ""
+		DisplayName: メタルマカロン
+	}
+
+	A010xYuzukiYukariBox: {
+		Tooltip: <right>で開く
+		DisplayName: 結月ゆかり衣装セット
+	}
+
+	DressingRoom: {
+		Tooltip: 衣装アイテムを作成することが出来る。
+		DisplayName: ドレッシングルーム
+	}
+}
+
 Tiles: {
 	DressingRoom: {
 		MapEntry: ドレッシングルーム
 	}
 }
-
-Items: {
-	DressingRoom: {
-		DisplayName: ドレッシングルーム
-		Tooltip: 衣装アイテムを作成することが出来る。
-	}
-
-	A010xYuzukiYukariBox: {
-		DisplayName: 結月ゆかり衣装セット
-		Tooltip: <right>で開く
-	}
-
-	A010aYuzukiYukariHead: {
-		DisplayName: メタルマカロン
-		Tooltip: ""
-	}
-
-	A010bYuzukiYukariBody: {
-		DisplayName: 結月ゆかりスキン
-		Tooltip: ""
-	}
-
-	A020xKizunaAkariBox: {
-		DisplayName: 紲星あかり衣装セット
-		Tooltip: <right>で開く
-	}
-
-	A020aKizunaAkariHead: {
-		DisplayName: 紲星あかりマスク
-		Tooltip: ""
-	}
-
-	A020bKizunaAkariBody: {
-		DisplayName: 紲星あかりスキン
-		Tooltip: ""
-	}
-
-	A110xKotonohaAkaneBox: {
-		DisplayName: 琴葉茜衣装セット
-		Tooltip: <right>で開く
-	}
-
-	A110aKotonohaAkaneHead: {
-		DisplayName: 琴葉茜マスク
-		Tooltip: ""
-	}
-
-	A110bKotonohaAkaneBody: {
-		DisplayName: 琴葉茜スキン
-		Tooltip: ""
-	}
-
-	A120xKotonohaAoiBox: {
-		DisplayName: 琴葉葵衣装セット
-		Tooltip: <right>で開く
-	}
-
-	A120aKotonohaAoiHead: {
-		DisplayName: 琴葉葵マスク
-		Tooltip: ""
-	}
-
-	A120bKotonohaAoiBody: {
-		DisplayName: 琴葉葵スキン
-		Tooltip: ""
-	}
-
-	A130xIoriYuzuruBox: {
-		DisplayName: 伊織弓鶴衣装セット
-		Tooltip: <right>で開く
-	}
-
-	A130aIoriYuzuruHead: {
-		DisplayName: 伊織弓鶴マスク
-		Tooltip: ""
-	}
-
-	A130bIoriYuzuruBody: {
-		DisplayName: 伊織弓鶴スキン
-		Tooltip: ""
-	}
-
-	A210xSatoSasaraBox: {
-		DisplayName: さとうささら衣装セット
-		Tooltip: <right>で開く
-	}
-
-	A210aSatoSasaraHead: {
-		DisplayName: さとうささらマスク
-		Tooltip: ""
-	}
-
-	A210bSatoSasaraBody: {
-		DisplayName: さとうささらスキン
-		Tooltip: ""
-	}
-
-	A220xSuzukiTsudumiBox: {
-		DisplayName: すずきつづみ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	A220aSuzukiTsudumiHead: {
-		DisplayName: すずきつづみマスク
-		Tooltip: ""
-	}
-
-	A220bSuzukiTsudumiBody: {
-		DisplayName: すずきつづみスキン
-		Tooltip: ""
-	}
-
-	A310xTsukuyomiAiBox: {
-		DisplayName: 月読アイ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	A310aTsukuyomiAiHead: {
-		DisplayName: 月読アイマスク
-		Tooltip: ""
-	}
-
-	A310bTsukuyomiAiBody: {
-		DisplayName: 月読アイスキン
-		Tooltip: ""
-	}
-
-	A330xTsurumakiMakiBox: {
-		DisplayName: 弦巻マキ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	A330aTsurumakiMakiHead: {
-		DisplayName: 弦巻マキマスク
-		Tooltip: ""
-	}
-
-	A330bTsurumakiMakiBody: {
-		DisplayName: 弦巻マキスキン
-		Tooltip: ""
-	}
-
-	A340xHarunoSoraBox: {
-		DisplayName: 桜乃そら衣装セット
-		Tooltip: <right>で開く
-	}
-
-	A340aHarunoSoraHead: {
-		DisplayName: 桜乃そらマスク
-		Tooltip: ""
-	}
-
-	A340bHarunoSoraBody: {
-		DisplayName: 桜乃そらスキン
-		Tooltip: ""
-	}
-
-	A350xAsumiShuoBox: {
-		DisplayName: 彩澄しゅお衣装セット
-		Tooltip: <right>で開く
-	}
-
-	A350aAsumiShuoHead: {
-		DisplayName: 彩澄しゅおマスク
-		Tooltip: ""
-	}
-
-	A350bAsumiShuoBody: {
-		DisplayName: 彩澄しゅおスキン
-		Tooltip: ""
-	}
-
-	A360xAsumiRiriseBox: {
-		DisplayName: 彩澄りりせ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	A360aAsumiRiriseHead: {
-		DisplayName: 彩澄りりせマスク
-		Tooltip: ""
-	}
-
-	A360bAsumiRiriseBody: {
-		DisplayName: 彩澄りりせスキン
-		Tooltip: ""
-	}
-
-	B010xTohokuZunkoBox: {
-		DisplayName: 東北ずん子衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B010aTohokuZunkoHead: {
-		DisplayName: 東北ずん子マスク
-		Tooltip: ""
-	}
-
-	B010bTohokuZunkoBody: {
-		DisplayName: 東北ずん子スキン
-		Tooltip: ""
-	}
-
-	B020xTohokuKiritanBox: {
-		DisplayName: 東北きりたん衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B020aTohokuKiritanHead: {
-		DisplayName: 東北きりたんマスク
-		Tooltip: ""
-	}
-
-	B020bTohokuKiritanBody: {
-		DisplayName: 東北きりたんスキン
-		Tooltip: ""
-	}
-
-	B020cTohokuKiritanWings: {
-		DisplayName: きりたんぽ
-		Tooltip: ""
-	}
-
-	B030xTohokuItakoBox: {
-		DisplayName: 東北イタコ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B030aTohokuItakoHead: {
-		DisplayName: 東北イタコマスク
-		Tooltip: ""
-	}
-
-	B030bTohokuItakoBody: {
-		DisplayName: 東北イタコスキン
-		Tooltip: ""
-	}
-
-	B040xZundamonBox: {
-		DisplayName: ずんだもん衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B040aZundamonHead: {
-		DisplayName: ずんだもんマスク
-		Tooltip: ""
-	}
-
-	B040bZundamonBody: {
-		DisplayName: ずんだもんスキン
-		Tooltip: ""
-	}
-
-	B050xShikokuMethaneBox: {
-		DisplayName: 四国めたん衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B050aShikokuMethaneHead: {
-		DisplayName: 四国めたんマスク
-		Tooltip: ""
-	}
-
-	B050bShikokuMethaneBody: {
-		DisplayName: 四国めたんスキン
-		Tooltip: ""
-	}
-
-	B060xKyushuSoraBox: {
-		DisplayName: 九州そら mk-II衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B060aKyushuSoraHead: {
-		DisplayName: 九州そら mk-IIマスク
-		Tooltip: ""
-	}
-
-	B060bKyushuSoraBody: {
-		DisplayName: 九州そら mk-IIスキン
-		Tooltip: ""
-	}
-
-	B060cKyushuSoraWings: {
-		DisplayName: ソーラーパネル
-		Tooltip: ""
-	}
-
-	B070xChugokuUsagiBox: {
-		DisplayName: 中国うさぎ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B070aChugokuUsagiHead: {
-		DisplayName: 中国うさぎマスク
-		Tooltip: ""
-	}
-
-	B070bChugokuUsagiBody: {
-		DisplayName: 中国うさぎスキン
-		Tooltip: ""
-	}
-
-	B110xIABox: {
-		DisplayName: IA衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B110aIAHead: {
-		DisplayName: IAマスク
-		Tooltip: ""
-	}
-
-	B110bIABody: {
-		DisplayName: IAスキン
-		Tooltip: ""
-	}
-
-	B120xONEBox: {
-		DisplayName: ONE衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B120aONEHead: {
-		DisplayName: ONEマスク
-		Tooltip: ""
-	}
-
-	B120bONEBody: {
-		DisplayName: ONEスキン
-		Tooltip: ""
-	}
-
-	B210xMeikaHimeBox: {
-		DisplayName: 鳴花ヒメ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B210aMeikaHimeHead: {
-		DisplayName: 鳴花ヒメマスク
-		Tooltip: ""
-	}
-
-	B210bMeikaHimeBody: {
-		DisplayName: 鳴花ヒメスキン
-		Tooltip: ""
-	}
-
-	B220xMeikaMikotoBox: {
-		DisplayName: 鳴花ミコト衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B220aMeikaMikotoHead: {
-		DisplayName: 鳴花ミコトマスク
-		Tooltip: ""
-	}
-
-	B220bMeikaMikotoBody: {
-		DisplayName: 鳴花ミコトスキン
-		Tooltip: ""
-	}
-
-	B230xVFlowerBox: {
-		DisplayName: v flower衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B230aVFlowerHead: {
-		DisplayName: v flowerマスク
-		Tooltip: ""
-	}
-
-	B230bVFlowerBody: {
-		DisplayName: v flowerスキン
-		Tooltip: ""
-	}
-
-	B310xOtomachiUnaBox: {
-		DisplayName: 音街ウナ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B310aOtomachiUnaHead: {
-		DisplayName: 音街ウナマスク
-		Tooltip: ""
-	}
-
-	B310bOtomachiUnaBody: {
-		DisplayName: 音街ウナスキン
-		Tooltip: ""
-	}
-
-	B320xKyomachiSeikaBox: {
-		DisplayName: 京町セイカ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B320aKyomachiSeikaHead: {
-		DisplayName: 京町セイカマスク
-		Tooltip: ""
-	}
-
-	B320bKyomachiSeikaBody: {
-		DisplayName: 京町セイカスキン
-		Tooltip: ""
-	}
-
-	B330xGalacoBox: {
-		DisplayName: ギャラ子衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B330aGalacoHead: {
-		DisplayName: ギャラ子マスク
-		Tooltip: ""
-	}
-
-	B330bGalacoBody: {
-		DisplayName: ギャラ子スキン
-		Tooltip: ""
-	}
-
-	B410xEnNoTsuinaBox: {
-		DisplayName: 役ついな衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B410aEnNoTsuinaHead: {
-		DisplayName: 役ついなマスク
-		Tooltip: ""
-	}
-
-	B410bEnNoTsuinaBody: {
-		DisplayName: 役ついなスキン
-		Tooltip: ""
-	}
-
-	B510xKoharuRikkaBox: {
-		DisplayName: 小春六花衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B510aKoharuRikkaHead: {
-		DisplayName: 小春六花マスク
-		Tooltip: ""
-	}
-
-	B510bKoharuRikkaBody: {
-		DisplayName: 小春六花スキン
-		Tooltip: ""
-	}
-
-	B520xNatsukiKarinBox: {
-		DisplayName: 夏色花梨衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B520aNatsukiKarinHead: {
-		DisplayName: 夏色花梨マスク
-		Tooltip: ""
-	}
-
-	B520bNatsukiKarinBody: {
-		DisplayName: 夏色花梨スキン
-		Tooltip: ""
-	}
-
-	B530xHanakumaChifuyuBox: {
-		DisplayName: 花隈千冬衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B530aHanakumaChifuyuHead: {
-		DisplayName: 花隈千冬マスク
-		Tooltip: ""
-	}
-
-	B530bHanakumaChifuyuBody: {
-		DisplayName: 花隈千冬スキン
-		Tooltip: ""
-	}
-
-	B710xFEEBox: {
-		DisplayName: CCD-0500 フィー衣装セット
-		Tooltip: <right>で開く
-	}
-
-	B710aFEEHead: {
-		DisplayName: CCD-0500 フィーマスク
-		Tooltip: ""
-	}
-
-	B710bFEEBody: {
-		DisplayName: CCD-0500 フィースキン
-		Tooltip: ""
-	}
-
-	C010xAllialBox: {
-		DisplayName: アリアル衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C010aAllialHead: {
-		DisplayName: アリアルマスク
-		Tooltip: ""
-	}
-
-	C010bAllialBody: {
-		DisplayName: アリアルスキン
-		Tooltip: ""
-	}
-
-	C020xMillialBox: {
-		DisplayName: ミリアル衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C020aMillialHead: {
-		DisplayName: ミリアルマスク
-		Tooltip: ""
-	}
-
-	C020bMillialBody: {
-		DisplayName: ミリアルスキン
-		Tooltip: ""
-	}
-
-	C110xNakoRecoBox: {
-		DisplayName: ナコ&レコ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C110aNakoHead: {
-		DisplayName: ナコマスク
-		Tooltip: ""
-	}
-
-	C110bRecoHead: {
-		DisplayName: レコマスク
-		Tooltip: ""
-	}
-
-	C110cNakoRecoBody: {
-		DisplayName: ナコ&レコスキン
-		Tooltip: ""
-	}
-
-	C200xAdachiReiBox: {
-		DisplayName: 足立レイ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C200aAdachiReiHead: {
-		DisplayName: 足立レイマスク
-		Tooltip: ""
-	}
-
-	C200bAdachiReiBody: {
-		DisplayName: 足立レイスキン
-		Tooltip: ""
-	}
-
-	C210xTsukuyomichanBox: {
-		DisplayName: つくよみちゃん衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C210aTsukuyomichanHead: {
-		DisplayName: つくよみちゃんマスク
-		Tooltip: ""
-	}
-
-	C210bTsukuyomichanBody: {
-		DisplayName: つくよみちゃんスキン
-		Tooltip: ""
-	}
-
-	C220xTangeKotoeBox: {
-		DisplayName: 丹下琴絵衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C220aTangeKotoeHead: {
-		DisplayName: 丹下琴絵マスク
-		Tooltip: ""
-	}
-
-	C220bTangeKotoeBody: {
-		DisplayName: 丹下琴絵スキン
-		Tooltip: ""
-	}
-
-	C230xKasukabeTsumugiBox: {
-		DisplayName: 春日部つむぎ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C230aKasukabeTsumugiHead: {
-		DisplayName: 春日部つむぎマスク
-		Tooltip: ""
-	}
-
-	C230bKasukabeTsumugiBody: {
-		DisplayName: 春日部つむぎスキン
-		Tooltip: ""
-	}
-
-	C240xMeimeiHimariBox: {
-		DisplayName: 冥鳴ひまり衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C240aMeimeiHimariHead: {
-		DisplayName: 冥鳴ひまりマスク
-		Tooltip: ""
-	}
-
-	C240bMeimeiHimariBody: {
-		DisplayName: 冥鳴ひまりスキン
-		Tooltip: ""
-	}
-
-	C260xAmehareHauBox: {
-		DisplayName: 雨晴はう衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C260aAmehareHauHead: {
-		DisplayName: 雨晴はうマスク
-		Tooltip: ""
-	}
-
-	C260bAmehareHauBody: {
-		DisplayName: 雨晴はうスキン
-		Tooltip: ""
-	}
-
-	C270xNamineRitsuBox: {
-		DisplayName: 波音リツ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C270aNamineRitsuHead: {
-		DisplayName: 波音リツマスク
-		Tooltip: ""
-	}
-
-	C270bNamineRitsuBody: {
-		DisplayName: 波音リツスキン
-		Tooltip: ""
-	}
-
-	C280xManaBox: {
-		DisplayName: MANA衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C280aManaHead: {
-		DisplayName: MANAマスク
-		Tooltip: ""
-	}
-
-	C280bManaBody: {
-		DisplayName: MANAスキン
-		Tooltip: ""
-	}
-
-	C290xKanaBox: {
-		DisplayName: KANA衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C290aKanaHead: {
-		DisplayName: KANAマスク
-		Tooltip: ""
-	}
-
-	C290bKanaBody: {
-		DisplayName: KANAスキン
-		Tooltip: ""
-	}
-
-	C300xLosaBox: {
-		DisplayName: TYPE-X LOSA衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C300aLosaHead: {
-		DisplayName: TYPE-X LOSAマスク
-		Tooltip: ""
-	}
-
-	C300bLosaBody: {
-		DisplayName: TYPE-X LOSAスキン
-		Tooltip: ""
-	}
-
-	C310xSenoBox: {
-		DisplayName: TYPE-Y SENO衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C310aSenoHead: {
-		DisplayName: TYPE-Y SENOマスク
-		Tooltip: ""
-	}
-
-	C310bSenoBody: {
-		DisplayName: TYPE-Y SENOスキン
-		Tooltip: ""
-	}
-
-	C320xDiamantePrincipalitiesBox: {
-		DisplayName: ﾃﾞｨｱﾏﾝﾃ･ﾌﾟﾘﾝｼﾊﾟﾘﾃｨｰｽﾞ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C320aDiamantePrincipalitiesHead: {
-		DisplayName: ﾃﾞｨｱﾏﾝﾃ･ﾌﾟﾘﾝｼﾊﾟﾘﾃｨｰｽﾞマスク
-		Tooltip: ""
-	}
-
-	C320bDiamantePrincipalitiesBody: {
-		DisplayName: ﾃﾞｨｱﾏﾝﾃ･ﾌﾟﾘﾝｼﾊﾟﾘﾃｨｰｽﾞスキン
-		Tooltip: ""
-	}
-
-	C320cDiamantePrincipalitiesWings: {
-		DisplayName: ﾃﾞｨｱﾏﾝﾃ･ﾌﾟﾘﾝｼﾊﾟﾘﾃｨｰｽﾞの翼
-		Tooltip: ""
-	}
-
-	C322xArmageddoniaPurgatoryaBox: {
-		DisplayName: ｱﾙﾏｼﾞｪﾀﾞｰﾆｬ･ﾌﾟﾙｶﾞﾄﾘｱ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C322aArmageddoniaPurgatoryaHead: {
-		DisplayName: ｱﾙﾏｼﾞｪﾀﾞｰﾆｬ･ﾌﾟﾙｶﾞﾄﾘｱマスク
-		Tooltip: ""
-	}
-
-	C322bArmageddoniaPurgatoryaBody: {
-		DisplayName: ｱﾙﾏｼﾞｪﾀﾞｰﾆｬ･ﾌﾟﾙｶﾞﾄﾘｱスキン
-		Tooltip: ""
-	}
-
-	C322cArmageddoniaPurgatoryaWings: {
-		DisplayName: ｱﾙﾏｼﾞｪﾀﾞｰﾆｬ･ﾌﾟﾙｶﾞﾄﾘｱの翼
-		Tooltip: ""
-	}
-
-	C340x小夜Box: {
-		DisplayName: 小夜衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C340a小夜Head: {
-		DisplayName: 小夜マスク
-		Tooltip: ""
-	}
-
-	C340b小夜Body: {
-		DisplayName: 小夜スキン
-		Tooltip: ""
-	}
-
-	C350xOukaMikoBox: {
-		DisplayName: 櫻歌ミコ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C350aOukaMikoHead: {
-		DisplayName: 櫻歌ミコマスク
-		Tooltip: ""
-	}
-
-	C350bOukaMikoBody: {
-		DisplayName: 櫻歌ミコスキン
-		Tooltip: ""
-	}
-
-	C351aOukaMiko2Head: {
-		DisplayName: 2nd 櫻歌ミコマスク
-		Tooltip: ""
-	}
-
-	C351bOukaMiko2Body: {
-		DisplayName: 2nd 櫻歌ミコスキン
-		Tooltip: ""
-	}
-
-	C360xNumberSevenBox: {
-		DisplayName: No.7衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C360aNumberSevenHead: {
-		DisplayName: No.7マスク
-		Tooltip: ""
-	}
-
-	C360bNumberSevenBody: {
-		DisplayName: No.7スキン
-		Tooltip: ""
-	}
-
-	C370xNurseRobotBox: {
-		DisplayName: ナースロボ＿タイプＴ衣装セット
-		Tooltip: <right>で開く
-	}
-
-	C370aNurseRobotHead: {
-		DisplayName: ナースロボ＿タイプＴマスク
-		Tooltip: ""
-	}
-
-	C370bNurseRobotBody: {
-		DisplayName: ナースロボ＿タイプＴスキン
-		Tooltip: ""
-	}
-
-	C370cNurseRobotWings: {
-		DisplayName: ナースロボ＿タイプTの翼
-		Tooltip: ""
-	}
-}
-
