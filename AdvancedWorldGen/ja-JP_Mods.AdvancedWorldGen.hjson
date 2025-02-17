@@ -4,63 +4,63 @@ Zenith: {
 		$parentVal: スターゲーム
 	}
 
-	Description: ゼニスの秘密シード。
-	$parentVal: ゼニス
+	Description: Zenithの秘密シード。
+	$parentVal: Zenith(Get fixed boi)
 }
 
 TheConstant: {
-	Description: ドント・スターブ・秘密シード
-	$parentVal: コンスタント
+	Description: Don't Starveコラボの秘密シード
+	$parentVal: The Constant
 }
 
 Spooky: {
-	Description: ハロウィーンがテーマの世界。
-	$parentVal: 不気味
+	Description: ハロウィーンがテーマの世界
+	$parentVal: Spooky
 }
 
 SortedWorld: {
-	Description: 世界を身長でソート
-	$parentVal: ソートされた世界
+	Description: 世界を高さでソート
+	$parentVal: Sorted World
 }
 
 Santa: {
 	Description: クリスマスがテーマの世界。
 
 	Conflicts: {
-		Random: サンタが残すのは、ランダム化される数ブロックだけだ。
+		Random: Santaでは、ランダム化できるブロックがほとんどありません。
 
 		NotTheBees: {
-			JungleWorld: サンタはノット・ザ・ビーズの世界にはあまり影響を与えないだろう。
+			JungleWorld: SantaはNot the beesのワールドに影響を与えることはできません。
 		}
 	}
 
-	$parentVal: サンタ
+	$parentVal: Santa
 }
 
 Remix: {
 	Description: リミックスされた秘密シード。
-	$parentVal: リミックス
+	$parentVal: Remix
 }
 
 Random: {
 	Painted: {
 		Description: ブロックや壁の種類ごとにペイントされた世界。
-		$parentVal: 塗装済み
+		$parentVal: Painted
 	}
 
 	Description: 各ブロックと壁の種類がランダム化された世界。
 
 	Conflicts: {
-		Santa: サンタが残すのは、ランダム化される数ブロックだけだ。
+		Santa: Santaでは、ランダム化できるブロックがほとんどありません。
 
 		NotTheBees: {
-			JungleWorld: ノット・ザ・ビーでは、ランダム化されるべきブロックが数ブロックしか残されていない。
+			JungleWorld: Not the beesでは、ランダム化できるブロックがほとんどありません。
 		}
 
-		Evil: 邪悪なものは、ランダム化されるべき数ブロックしか残さない。
+		Evil: Evilでは、ランダム化できるブロックがほとんどありません。
 	}
 
-	$parentVal: ランダム
+	$parentVal: Randam
 }
 
 NotTheBees: {
@@ -68,107 +68,106 @@ NotTheBees: {
 		Description: 世界中がジャングルになる
 
 		Conflicts: {
-			Santa: サンタはノット・ザ・ビーズの世界にはあまり影響を与えないだろう。
-			Random: ノット・ザ・ビーでは、ランダム化されるべきブロックが数ブロックしか残されていない。
-			Evil: ノット・ザ・ビーは腐敗しやすいタイルをほとんど残さない。
+			Santa: SantaはNot the beesの世界には影響を与えることはできません。
+			Random: Not the beesでは、ランダム化できるブロックがほとんどありません。
+			Evil: Not the beesは汚染できるブロックがほとんどありません。
 		}
 
-		$parentVal: ジャングル・ワールド
+		$parentVal: Jungle World
 	}
 
-	Description: ノット・ザ・ビー・シークレットシード
-	$parentVal: ノット・ザ・ビー
+	Description: 「ハチはやめてくれ」秘密シード。
+	$parentVal: Not the bees
 }
 
 NoTraps: {
-	Description: 罠なき秘密シード。
-	$parentVal: 罠なし
+	Description: 「罠なき」秘密シード。
+	$parentVal: No Traps
 }
 
 ForTheWorthy: {
-	Description: 価値ある者のための秘密シード。
-	$parentVal: 価値ある者のために
+	Description: 「価値ある者のため」の秘密シード。
+	$parentVal: For the worthy
 }
 
 Evil: {
-	Description: すべてのタイルを邪悪なものに変える。
+	Description: すべてのブロックを汚染されたものに変える。
 
 	Conflicts: {
-		Random: 邪悪なものは、ランダム化されるべき数ブロックしか残さない。
+		Random: Evilでは、ランダム化できるブロックがほとんどありません。
 
 		NotTheBees: {
-			JungleWorld: ノット・ザ・ビーは腐敗しやすいタイルをほとんど残さない。
+			JungleWorld: Not the beesは汚染できるブロックがほとんどありません。
 		}
 	}
 
-	$parentVal: 邪悪
+	$parentVal: Evil
 }
 
 Entropy: {
 	Description: 夕暮れと夜明けのたびに、世界の一部が1種類のタイルと壁になる世界。
-	$parentVal: エントロピー
+	$parentVal: Entropy
 }
 
 Drunk: {
 	MiddleLavaOcean: {
-		Description: アンダーワールドには世界の真ん中に溶岩の海がある。
-		$parentVal: 広がる地獄
+		Description: 地底世界には世界の真ん中に溶岩の海が生成される。
+		$parentVal: Middle Lava Ocean
 	}
 
 	Description: 9周年の秘密シード。
 
 	Crimruption: {
-		Description: 真紅も腐敗もこの世界にある
-		$parentVal: クリム・ラプション
+		Description: 不浄と真紅の両方が世界に生成される。
+		$parentVal: Crimruption
 	}
 
 	BothOres: {
-		Description: 両方の鉱石が生成されるようにする
-		$parentVal: 両方の鉱石
+		Description: 両方の鉱石が生成される。
+		$parentVal: Both Ores
 	}
 
-	$parentVal: 酔っぱらい
+	$parentVal: Drunk world
 }
 
 Celebrationmk10: {
 	Painted: {
 		Description: 祝いの色で世界を彩る
-		$parentVal: 塗装済み
+		$parentVal: Painted
 	}
 
 	Description: 10周年の秘密シード。
 
 	BeachSpawn: {
-		Description: ビーチでグループを結成
-		$parentVal: ビーチスポーン
+		Description: 海岸でプレイヤーとNPCがスポーンする
+		$parentVal: Beach Spawn
 	}
 
-	$parentVal: セレブレーション Mk 10
+	$parentVal: Celebrationmk10
 }
 
 InvalidSizes: {
-	ClamityMaxX: カラミティはXLワールドを生み出すようには設計されていない
-	ClamityMinX: カラミティは小さな世界を生み出すようには設計されていない
+	ClamityMaxX: CalamityではXLワールドを利用できません
+	ClamityMinX: Calamityではスモールワールドを利用できません
 	NormalMaxX:
 		'''
-		そのような大きな世界を生成しようとすると、ワールド生成がクラッシュします、 
+		大きすぎる世界を生成しようとすると、ワールド生成がクラッシュします。
 		そのような世界を生成するには、MOD設定でオーバーホールされたワールド生成を有効にする必要があります。
 		'''
 	ComfortNormalMaxX:
 		'''
-		ワールド生成は大きなワールド生成に時間がかかるでしょう、 
-		MOD設定でオーバーホールされたワールド生成を有効にしてください。また、クラッシュするかもしれません。
+		大きなワールド生成には時間がかかります。
+		MOD設定でオーバーホールされたワールド生成を有効にしてください。また、クラッシュする可能性があります。
 		'''
 	NormalMinX:
 		'''
-		MODの設定でオーバーホールされたワールドジェネを有効にする必要があります。
+		MODの設定でオーバーホールされたワールド生成を有効にする必要があります。
 		x={0} のワールドを生成できるようにする必要があります。
 		'''
-	OverhauledMinY: 世界はこの値以下では生成できないことが知られている。 under y={0}.
-	OverhauledMinX: 世界はこの値以下では生成できないことが知られている。 under x={0}.
-	TooBigFromRAM: A world with a size of {0} x {1} is too big for this computer.
+	OverhauledMinY: ワールドはこの値以下では生成できません。 under y={0}.
+	OverhauledMinX: ワールドはこの値以下では生成できません。 under x={0}.
+	TooBigFromRAM:" {0}×{1}の大きさの世界は、このコンピューターでは利用できません。"
 }
-
 
 WorldGenMessage: {
 	SnowReplace: 世界をよりクールに
@@ -183,17 +182,17 @@ Config: {
 	}
 
 	VanillaWeight: {
-		Tooltip: MODのデバッグを速くするために有効にするのであって、そうでなければ有効にする意味はあまりない。
+		Tooltip: MODのデバッグ用です。
 		Label: ワールド生成予測時間の精度を落とす
 	}
 
 	ZenithEnabler: {
-		Tooltip: ゼニスを有効にすると、酔っ払い、ドント・スターブ、価値ある者のために、罠なし、リミックスのオプションが有効になる。
+		Tooltip: ゼニスを有効にすると、「Drunk World」「The Constant」「For the Worthy」「No Traps」「Remix」のシードオプションが適用される。
 		Label: ゼニスで他のオプションを有効にする
 	}
 
 	SaveOnFail: {
-		Tooltip: ワールド生成が失敗したり中止された場合は、とにかく保存する。
+		Tooltip: ワールド生成が失敗したり中止された場合は、その時点で保存する。
 		Label: 失敗したワールド生成を保存
 	}
 
@@ -302,3 +301,4 @@ CopiedSettings: コピーされた設定
 CopySettings: コピー設定
 
 Abort: 中止する
+
