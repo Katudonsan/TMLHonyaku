@@ -1,3 +1,18 @@
+Bestiary: {
+	Ward: 冷たい巨石の塊にして、揺るぎなき憤怒の化身。迷宮の曲がりくねった回廊を徘徊し、その中心に隠された何かを守護している...
+	HoneySlime: このスライムは大量の蜜を吸収したことで、驚異的な生命力と耐久力を得た。
+	Blaster: 重厚な装甲を持つ自動機械兵。爆発性の弾薬を搭載し、今なお古代の領域を侵す者を容赦なく排除する。
+	Flamer: 知性を持たないはずの機械兵。しかし、侵入者を焼き尽くす様子には、まるで悪意と喜びが宿っているかのようだ。
+	Gunner: 長年放置されながらも、その銃撃の嵐で標的を排除する能力は衰えていない。
+	Icer: 炎獄兵の姉妹機とされるが、その姿はめったに目撃されない。開発は途中で放棄されたらしく、未解明の技術が組み込まれているため、通常の機兵よりも危険とされる。
+	Shocker: 元々は旧式機械の修理を目的とした小型整備ドローン。無害に見えるが防衛機構の一部であり、侵入者には溶接機を武器として使用する。
+	Arcanist: かつては科学者であったが、実験の失敗により異形の存在となった。だが、魔法の才覚は失われておらず、容赦なくその力を振るう。
+	TomeofFrost: 魔法の可能性の果てを示す異形の書。自ら呪文を読み上げ、巨大な氷の槍を地面から突き出させ、敵を串刺しにする。
+	TomeofInferno: 魔法の可能性の果てを示す異形の書。高密度の炎球を放ち、標的を灼熱の業火に包む。
+	TomeofMending: 魔法の可能性の果てを示す異形の書。他の戦闘ユニットに付き従い、回復する。
+	TomeofSummoning: 魔法の可能性の果てを示す異形の書。無数の従者を召喚し、行く手を混沌へと変える。
+}
+
 Biomes: {
 	GoldenCity: {
 		DisplayName: 黄金都市
@@ -176,6 +191,19 @@ Tiles: {
 	VaultPipe: {
 		MapEntry: Vault Pipe
 	}
+
+	AlchemyBench: {
+		MapEntry: Desk
+	}
+
+	ArcaneChest2: {
+		MapEntry0: Arcane Chest
+		MapEntry1: Locked Arcane Chest
+	}
+
+	PrismbudHead: {
+		MapEntry: Prismbud
+	}
 }
 
 Buffs: {
@@ -192,7 +220,7 @@ Buffs: {
 
 Items: {
 	alchemybook: {
-		DisplayName: 錬金術書
+		DisplayName: 錬金術
 		Tooltip: ""
 	}
 
@@ -210,6 +238,16 @@ Items: {
 			'''
 	}
 
+	DivineShield: {
+		DisplayName: 神聖の盾
+		Tooltip:
+			'''
+			被弾後の無敵時間を延長する
+			マナを消費することで、受ける最終ダメージを25%軽減する
+			使用するマナがなくなると一時的に使用不可になる
+			'''
+	}
+
 	RingofElements: {
 		DisplayName: 元素の指輪
 		Tooltip: ポーション酔い以外のデバフの効果が100%早く切れるようになる
@@ -222,7 +260,7 @@ Items: {
 
 	NightglowBerry: {
 		DisplayName: ナイトグローベリー
-		Tooltip: ピリッとした鮮烈な味わいと、魔法のような特性を持つ輝く果実...
+		Tooltip: 「ピリッとした鮮烈な味わいと、魔法のような特性を持つ輝く果実...」
 	}
 
 	PyramidKey: {
@@ -246,7 +284,7 @@ Items: {
 	}
 
 	EnchantedBrick: {
-		DisplayName: 秘密のレンガ
+		DisplayName: 魔法のレンガ
 		Tooltip: ""
 	}
 
@@ -277,7 +315,7 @@ Items: {
 
 	StarOre: {
 		DisplayName: 星の残骸
-		Tooltip: 冷却されて固められた星で、鮮やかなエネルギーを放っている...
+		Tooltip: 「冷却されて固められた星で、鮮やかなエネルギーを放っている...」
 	}
 
 	ToxicWaste: {
@@ -307,12 +345,12 @@ Items: {
 
 	NightglowSeed: {
 		DisplayName: ナイトグローの種
-		Tooltip:  中心に硬い核がある...
+		Tooltip: 「中心に硬い核がある...」
 	}
 
 	RustedChest: {
 		DisplayName: 錆びついた宝箱
-		Tooltip: 鍵穴が壊れている...
+		Tooltip: 「鍵穴が壊れている...」
 	}
 
 	Sarcophagus: {
@@ -368,6 +406,16 @@ Items: {
 	SpiritLance: {
 		DisplayName: 精霊の槍
 		Tooltip: 与えたダメージに応じてマナを回復するが、マナが満タンの時は大幅に弱体化する
+	}
+
+	SoulLance: {
+		DisplayName: 魂の槍
+		Tooltip: マナが満タンでない時、4倍のダメージを与え、命中時にマナを回復する
+	}
+
+	SpectralLance: {
+		DisplayName: 幻影の槍
+		Tooltip: マナが満タンでない時、4倍のダメージを与え、命中時にマナを回復する
 	}
 
 	VintageSniper: {
@@ -506,7 +554,7 @@ Items: {
 	}
 
 	ArcaneChest: {
-		DisplayName: 魔術の宝箱
+		DisplayName:秘術の宝箱
 		Tooltip: ""
 	}
 
@@ -579,6 +627,65 @@ Items: {
 		DisplayName: ナイトグローベリーアイコン
 		Tooltip: ""
 	}
+
+	ArcanePlatform: {
+		DisplayName: 秘術の足場
+		Tooltip: ""
+	}
+
+	ArcaneChandelier: {
+		DisplayName: 秘術のシャンデリア
+		Tooltip: ""
+	}
+
+	AlchemyBench: {
+		DisplayName: 秘術の机
+		Tooltip: ""
+	}
+
+	StoneofElements: {
+		DisplayName: 元素の石
+		Tooltip:
+			'''
+			回復ポーションのクールダウン時間を25%短縮する
+			体力およびマナ低下の効果以外の弱体効果の持続時間が半減する
+			'''
+	}
+
+	CosmicStone: {
+		DisplayName: 宇宙の石
+		Tooltip:
+			'''
+			様々なステータスをわずかに向上させる
+			ポーション酔いの時間を25%短縮する
+			体力およびマナ低下の効果以外の弱体効果の持続時間が半減する
+			'''
+	}
+
+	PrismbudSeed: {
+		DisplayName: 光芽の種
+		Tooltip: ""
+	}
+
+	DreamJelly: {
+		DisplayName: 夢幻のゼリー
+		Tooltip: ハーブを複製するために使用できる
+	}
+
+	DreampodSeeds: {
+		DisplayName: 夢幻の種
+		Tooltip: ""
+	}
+
+	PrismbudSeeds: {
+		DisplayName: 光芽の種
+		Tooltip: ""
+	}
+
+	ArcaneKey: {
+		DisplayName: 秘術の鍵
+		Tooltip: ロックされた秘術の宝箱を一つ解錠する
+	}
 }
 
 NPCs: {
@@ -628,6 +735,10 @@ NPCs: {
 
 	TomeofMending: {
 		DisplayName: 回復の魔導書
+	}
+
+	TomeofSummoning: {
+		DisplayName: 召喚の魔導書
 	}
 }
 
@@ -727,6 +838,14 @@ Projectiles: {
 	FallingEyeball: {
 		DisplayName: Falling Eyeball
 	}
+
+	SoulLanceHoldout: {
+		DisplayName: Soul Lance Holdout
+	}
+
+	SpectralLanceHoldout: {
+		DisplayName: Spectral Lance Holdout
+	}
 }
 
 Configs: {
@@ -771,6 +890,21 @@ Configs: {
 
 				注意: テスト用です。通常のプレイには使用しないでください。
 				'''
+		}
+
+		LargerSky: {
+			Label: 大きな空
+			Tooltip: ""
+		}
+
+		IceMountain: {
+			Label: "[i:664] 氷の山脈"
+			Tooltip: 氷の地帯に山岳地形を追加します。
+		}
+
+		JungleValley: {
+			Label: "[i:176] ジャングルの山脈"
+			Tooltip: 密林の地帯に谷地形を追加します。
 		}
 	}
 
@@ -823,3 +957,4 @@ Configs: {
 		}
 	}
 }
+
