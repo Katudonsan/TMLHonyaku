@@ -220,7 +220,7 @@ Buffs: {
 
 Items: {
 	alchemybook: {
-		DisplayName: 錬金術
+		DisplayName: 錬金術書
 		Tooltip: ""
 	}
 
