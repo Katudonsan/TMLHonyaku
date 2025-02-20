@@ -330,8 +330,8 @@ DifficultyUI: {
 		 [c/B32E81:アドレナリンはチャージにかなり時間がかかる。]
 		 [c/FF0055:適応せよ。]
 		'''
-	InfernumText: 幸運を祈る。
-	InfernumText2: それなら結構だ。
+	InfernumText: Infernumが有効化されました。幸運を祈る。
+	InfernumText2: Infernumが無効化されました。それなら結構だ。
 }
 
 ExoMechsFight: {
