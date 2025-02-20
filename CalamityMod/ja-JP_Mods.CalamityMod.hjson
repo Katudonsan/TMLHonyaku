@@ -30737,8 +30737,8 @@ UI: {
 		[c/B55362:ボスには新しいAIメカニックやフェーズが追加され、マスターモードの戦利品をドロップする。敵のスポーン頻度が増加する。　　　　　　　　　　　　　]
 		[c/F7342A:このモードはエキスパートよりも難易度が高いです。必ず準備をしてから挑んでください。]
 		'''
-	RevengeanceActivate: Revengeanceが有効です。
-	RevengeanceDeactivate: Revengeanceが無効になりました。
+	RevengeanceActivate: Revengeanceモードが有効です。
+	RevengeanceDeactivate: Revengeanceモードが無効になりました。
 	Death: Death
 	DeathMaster: Death+Master
 	DeathLegend: Death+Legend
@@ -30751,8 +30751,8 @@ UI: {
 		[c/B834E0:デバフは特に致命的で、深淵は更に危険な場所になる。]
 		[c/E945FF:生き残るためには警戒心と不屈の精神が必要。]
 		'''
-	DeathActivate: Deathが有効です。楽しんでください。
-	DeathDeactivate: Deathが無効化されました。楽しくなかった？
+	DeathActivate: Deathモードが有効です。楽しんでください。
+	DeathDeactivate: Deathモードが無効化されました。刺激が足りませんでしたか？
 	ExoTwinsNameNormal: XS-01 アルテミス ＆ XS-03 アポロ
 	ExoTwinsNameHekate: XB-∞ ヘカーテの眼
 	ExtensionDisplay: ({0} 残り:{1})
