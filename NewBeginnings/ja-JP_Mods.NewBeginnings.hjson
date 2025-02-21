@@ -1,95 +1,380 @@
-Unlocks: {
-	Beginner: {
-		DisplayName: ビギナー
-		Description: 初めて素性を使用する。 
-		Rewards: 素性：[c/A7B5BC:代替者]がアンロックされる。
+Origins: {
+	Inevitable: {
+		Description:
+			'''
+			金のツール、金装備、体力300、マナ100、全ダメージ+1（固定値）、全ダメージ+10%の状態で開始する。
+			自分にしか見えないカタツムリが永遠についてくる。それに触れると即死する。
+			'''
+		Flavor: 呪われし身、カタツムリと共にエスカルGO...逃げ場なし。
+		DisplayName: 背負いしもの
+	}
+
+	Custom: {
+		Description:
+			'''
+			好きな装備で開始できる。ムーンロードを倒すことで解放される。
+			'''
+		Flavor: サンドボックスの精神は、あなたの中にも生きている。
+		DisplayName: カスタム
+	}
+
+	Unloaded: {
+		Description: ""
+		Flavor: プレースホルダー
+		DisplayName: (Unloaded)
+	}
+
+	Random: {
+		Description: ""
+		Flavor: ランダムな素性を選択する。
+		DisplayName: ランダム
 	}
 
 	Accursed: {
+		Generation: ハードモードを開始中
+		Description:
+			'''
+			ガイドの代わりにドライアドが出現し、、金のツール、パールウッドの防具を持ち、ハードモードで開始する。
+			素性を選択した状態でウォールオブフレッシュを倒すとアンロックされる。
+			'''
+		Flavor: ハードモードがすでに有効化された状態で開始する。幸運を祈る！
 		DisplayName: 呪われし者
-		Description: 素性を選択した状態でウォールオブフレッシュを撃破する。
-		Rewards: 素性：[c/832C2E:呪われし者]がアンロックされる。
 	}
 
-	UnlockText: "[c/CFC553:{0}] をアンロックしました！"
+	Alternate: {
+		Description:
+			'''
+			銅製のツールの代わりに錫製のツールを持って開始する。
+			最初の素性を使用するとアンロックされる。
+			'''
+		Flavor: もしかすると、少し違っていたらこれが純粋主義者だったのかもしれない。
+		DisplayName: 代替者
+	}
+
+	ReallyConfused: {
+		Description: 金の弓と矢100本を持って開始し、ダメージクラスが永久にランダム化され、一部の調整が加えられる。
+		Flavor:
+			'''
+			ただただ混乱している。全く状況が掴めない。
+			この弓って魔法撃てるの？
+			'''
+		DisplayName: 困惑者
+	}
+
+	Chef: {
+		Description: シェフの衣装、さまざまな食べ物、調理鍋、血塗られたナタを持って開始する。
+		Flavor:
+			'''
+			世界中でその料理が有名な食の魔術師。
+			遠くの地のスパイスを探し求めている。
+			'''
+		DisplayName: 料理人
+	}
+
+	Slayer: {
+		Description: 最大体力140、ブームスティック、無限のマスケット弾を持ち、地底世界で開始する。
+		Flavor: 切り裂け、全てが終わるまで。
+		DisplayName: 殲滅者
+	}
+
+	Frozen: {
+		Description: スノーボールキャノン、ピンクの雪の衣装、雪玉999個を持ち、かまくらで開始する。
+		Flavor:
+			'''
+			千年もの間凍りついていた者。
+			（そして数日かけてかまくらを作り）今こそ行動を開始する。
+			'''
+		DisplayName: 凍結者
+	}
+
+	Bereaved: {
+		Description: 悲劇の傘と葬儀の衣装を持ち、墓地で開始する。
+		Flavor: 傘は雨を防ぐが、心の曇りは晴らせない。
+		DisplayName: 喪失者
+	}
+
+	Australian: {
+		Description: カウボーイセット、カイリーブーメランを持ち、常に逆さまの状態で開始する。
+		Flavor:
+			'''
+			ただの普通の男だ。特に何もない。
+			ただ、こっちはちょっと世界が逆さまなんだ。
+			'''
+		DisplayName: オーストラリア人
+	}
+
+	Painter: {
+		Description: ペイントボールガン、塗装はがし、ペイントスプレー、ペイントブラシ、ペイントローラーを持ち、新しい世界ではガイドの代わりに画家が出現し、画家の商品が25%割引になる。
+		Flavor:
+			'''
+			芸術は表現の形であり、存在の方法であり、強力な道具でもある。
+			だが、高価だ。
+			'''
+		DisplayName: 画家
+	}
+
+	Druid: {
+		Description: ツタ縄の作り方、ヴァイルソーン、成長の杖、ハーブバッグ3つ、鉢10個を持って開始する。
+		Flavor:
+			'''
+			自然の使者。
+			世界を生かし、健やかに保つことに従事する！
+			'''
+		DisplayName: ドルイド
+	}
+
+	Bookworm: {
+		Description: 使い古された魔導書、ツタ縄の作り方、本8冊、生き物とのつきあい方を持って開始する。
+		Flavor:
+			'''
+			知性は物理に勝る。
+			最も強力な武器は鋭い頭脳！
+			'''
+		DisplayName: 本の虫
+	}
+
+	Spelunker: {
+		Description: 古代のノミ、鉱夫のヘルメット、金のツルハシ、鉄のトロッコ、爆弾10個、スペランカーポーション10個を持って開始する。
+		Flavor:
+			'''
+			洞窟の呼び声が聞こえる。
+			鉱石を採掘しなければ！
+			'''
+		DisplayName: 探鉱者
+	}
+
+	Farmer: {
+		Description: 夏帽子、鎌、干し草100個、デイブルーム、ブリンクルート、ムーングロウ、ウォータリーフ、シバーソーン、デスウィード、ファイアブロッサムの種とそのプランターボックス各12個を持って開始する。
+		Flavor: 大したことはないが、誠実な仕事だ。
+		DisplayName: 農夫
+	}
+
+	Adventurer: {
+		Description: グラップリングフック、たいまつ100本、考古学者の衣装、危険探知ポーション5個、スペランカーポーション5個を持って開始する。
+		Flavor: 探索への渇望と落石トラップへの執念！
+		DisplayName: 冒険者
+	}
+
+	Trailblazer: {
+		Description: 開拓者のヘルメット、ヘルメスの靴、アグレット、風の足飾りを持って開始する。
+		Flavor:
+			'''
+			説明している暇はない。
+			行くべき場所があり、見るべきものがある！
+			'''
+		DisplayName: 開拓者
+	}
+
+	Fisherman: {
+		Description: 高耐久の釣り糸、釣り人の帽子、強化釣り竿、ワームの缶3つを持ち、新しい世界ではガイドの代わりに釣り人が出現する。
+		Flavor: スライムは俺を求め、魚は俺を恐れる...
+		DisplayName: 漁師
+	}
+
+	Nobleman: {
+		Description: 最大体力20、ダイヤの指輪、金の懐中時計、プラチナコインを持って開始する。（ミディアムコアまたはハードコア専用）
+		Flavor: 大金を数えるのが大変だと思うなら、彼も勤勉だろう。
+		DisplayName: 貴族
+	}
+
+	Lumberjack: {
+		Description: フランネルシャツ、木こりの斧、製材ノコギリ、リンゴ12個、通常、ボーリアル、ヤシ、エボン、シェイド、マホガニー、王朝の木材各300個を持って開始する。
+		Flavor:
+			'''
+			質素な木こり。
+			彼のフランネルシャツと信頼できる斧。
+			'''
+		DisplayName: 木こり
+	}
+
+	Deprived: {
+		Description: 最大体力80、奪われし刃、奪われしランタン、回復ポーション3個を持って開始する。
+		Flavor: 遠い昔に失われた道具を携えた忘れられた戦士。
+		DisplayName: 奪われし者
+	}
+
+	Pirate: {
+		Description: アイパッチ、金の指輪、六分儀、錆びたカトラス、酒樽、帆200枚を持って開始する。
+		Flavor:
+			'''
+			真の海賊は、陸で略奪できるものがあるかを見極めるのさ。
+			そして、見つけたら迷わず略奪するんだ！
+			'''
+		DisplayName: 海賊
+	}
+
+	Firestarter: {
+		Description: 火花の杖、火炎瓶300個、フレアガン照明弾50個、たいまつ100本を持って開始する。
+		Flavor: ただ世界が燃えるのを見たいだけの者もいる。
+		DisplayName: 放火魔
+	}
+
+	Thief: {
+		Description: ラッキーコイン、プラチナショートソード、毒付きナイフ300本を持って開始する。
+		Flavor: ちょっとした盗みを働くコソ泥。
+		DisplayName: 盗賊
+	}
+
+	Builder: {
+		Description: 踏み台、建築装置パック、木材500個、石材500個を持ち、新しい世界ではガイドの代わりに画家が出現する。
+		Flavor: 遠方の都市から来た名高い建築家。
+		DisplayName: 建築家
+	}
+
+	Tiger: {
+		Description: ネコ耳、キツネの尻尾、タイガークライミングギア、爪付きグローブを持って開始する。
+		Flavor:
+			'''
+			他のテラリア人よりやや獣に近いが、
+			気にするほどでもない！
+			'''
+		DisplayName: タイガー
+	}
+
+	Zoomer: {
+		Description: ゴーグル、携帯電話を持って開始する。
+		Flavor:
+			'''
+			今日のTerredditの投稿がバズってるぜ。
+			スライム狩りに行くぞ、マジで！
+			'''
+		DisplayName: ズーマー
+	}
+
+	Boomer: {
+		Description: 芝刈り機、サングラス、バーベキューリブ、焼きリスを持って開始する。
+		Flavor: 昔は良かったんじゃ...
+		DisplayName: ブーマー
+	}
+
+	Demoman: {
+		Description: ダイナマイト2個、爆弾10個、グレネード15個を持って開始する。
+		Flavor: 鉱石、敵、あるいは自分自身に爆薬を投げつけろ！
+		DisplayName: 爆破技師
+	}
+
+	Alchemist: {
+		Description: 錬金術のテーブル、瓶詰めの水50個、ハーブバッグ12個を持って開始する。
+		Flavor: 自然と化学の達人。あらゆる事態に備えている。
+		DisplayName: 錬金術師
+	}
+
+	Shinobi: {
+		Description: 足袋と刀を持ち、最大体力80で開始する。
+		Flavor:
+			'''
+			東方から来た死をもたらす雇われの暗殺者。
+			素早く、俊敏で、効率的に敵を屠る。
+			'''
+		DisplayName: 忍者
+	}
+
+	Beastmaster: {
+		Description: 最大体力が低いが、スライムスタッフとレザーウィップを持って開始する。
+		Flavor: 森林で育ち、獣を召喚して旅を助ける者。
+		DisplayName: 魔獣使い
+	}
+
+	Wizard: {
+		Description: 魔術師の帽子、トパーズの杖、トパーズローブを持ち、マナが多いが体力が低い状態で開始する。
+		Flavor: 魔法を練習中の魔術師の見習い。
+		DisplayName: 魔術師
+	}
+
+	Huntsman: {
+		Description: 弓、無限矢筒、狩人のマントを持って開始する。
+		Flavor: 揺るがぬ手と鋭い眼差しを持つ、狩りの達人。
+		DisplayName: 狩人
+	}
+
+	Knight: {
+		Description: フルセットの鉄の防具と銀の剣を持って開始する。
+		Flavor: 鉄の鎧に身を包んだ高潔なる戦士。
+		DisplayName: 騎士
+	}
+
+	Purist: {
+		Description: ""
+		Flavor: 通常の『テラリア』の体験。
+		DisplayName: 原理主義者
+	}
 }
 
 Items: {
+	TrailblazerHelmet: {
+		Tooltip: 「幸運を！」
+		DisplayName: 開拓者のヘルメット
+	}
+
+	WornSpellbook: {
+		Tooltip: 「信頼できるが、かなり弱い...」
+		DisplayName: 使い古された魔導書
+	}
+
+	RustyCutlass: {
+		Tooltip: 「もっと良い時代を見てきた」
+		DisplayName: 錆びたカトラス
+	}
+
+	KylieBoomerang: {
+		Tooltip: 「意外と戦闘で役立つ！」
+		DisplayName: カイリーブーメラン
+	}
+
+	DeprivedBlade: {
+		Tooltip: かつての輝きは失われている...
+		DisplayName: 奪われた刃
+	}
+
+	LumberjackFlannel: {
+		Tooltip: 「信じられないほど快適」
+		DisplayName: 木こりのフランネル
+	}
+
+	LumberjackAxe: {
+		Tooltip: 「ルーシーと間違えないように」
+		DisplayName: 木こりの斧
+	}
+
+	LightStar: {
+		Tooltip: ""
+		DisplayName: 星(明)
+	}
+
+	DimStar: {
+		Tooltip: ""
+		DisplayName: 星(暗)
+	}
+
 	DeprivedLantern: {
-		DisplayName: 奪われしランタン
 		Tooltip:
 			'''
 			インベントリにあると光を放つ
 			無限に持続する
 			'''
-	}
-
-	DimStar: {
-		DisplayName: 星(暗)
-		Tooltip: ""
-	}
-
-	LightStar: {
-		DisplayName: 星(明)
-		Tooltip: ""
-	}
-
-	LumberjackAxe: {
-		DisplayName: 木こりの斧
-		Tooltip: 「ルーシーと間違えないように」
-	}
-
-	LumberjackFlannel: {
-		DisplayName: 木こりのフランネル
-		Tooltip: "「信じられないほど快適」"
-	}
-
-	DeprivedBlade: {
-		DisplayName: 奪われた刃
-		Tooltip: かつての輝きは失われている...
-	}
-
-	KylieBoomerang: {
-		DisplayName: カイリーブーメラン
-		Tooltip: "「意外と戦闘で役立つ！」"
-	}
-
-	RustyCutlass: {
-		DisplayName: 錆びたカトラス
-		Tooltip: 「もっと良い時代を見てきた」
-	}
-
-	WornSpellbook: {
-		DisplayName: 使い古された魔導書
-		Tooltip: 「信頼できるが、かなり弱い...」
-	}
-
-	TrailblazerHelmet: {
-		DisplayName: 開拓者のヘルメット
-		Tooltip: "「幸運を！」"
+		DisplayName: 奪われしランタン
 	}
 }
-
-Projectiles: {
-	FeintDagger: {
-		DisplayName: Feint Dagger
-	}
-
-	KylieProjectile: {
-		DisplayName: Kylie Projectile
-	}
-}
-
-MrPlaguesCompatLine: ここをクリックして「NewBeginnings」メニューを開く！
-
-TitleLine: " [c/8B8B8B:　　　　素性：{0}]"
 
 Configs: {
-	NewBeginningsConfig: {
-		DisplayName: NewBeginnings設定
+	Scaling: {
+		Relative: {
+			Label: 相対
+		}
 
+		Flat: {
+			Label: 固定
+		}
+
+		Scaled: {
+			Label: スケール
+		}
+
+		Tooltip: ""
+	}
+
+	NewBeginningsConfig: {
 		HealthScaling: {
-			Label: "[i:58] 最大体力のスケーリング"
 			Tooltip:
 				'''
 				初期体力が高い、低い素性が400にスケーリングされるかどうかを設定できる。
@@ -97,329 +382,123 @@ Configs: {
 				固定の場合、初期体力+300まで上昇。
 				相対スケールでは、最大ライフクリスタルの体力は 400 * (初期体力 / 100) となる。
 				'''
-		}
-	}
-
-	Scaling: {
-		Tooltip: ""
-
-		Scaled: {
-			Label: スケール
+			Label: "[i:58] 最大体力のスケーリング"
 		}
 
-		Flat: {
-			Label: 固定
-		}
-
-		Relative: {
-			Label: 相対
-		}
+		DisplayName: NewBeginnings設定
 	}
 }
 
-Origins: {
-	Purist: {
-		DisplayName: 原理主義者
-		Flavor: 通常の『テラリア』の体験。
-		Description: ""
+SnailDeath: {
+	2: "{0}...it was inevitable."
+	1: In the end, {0} was not persistent enough.
+	0: "{0} was too slow."
+}
+
+TitleLine: " [c/8B8B8B:　　　　素性：{0}]"
+
+MrPlaguesCompatLine: ここをクリックして「NewBeginnings」メニューを開く！
+
+Projectiles: {
+	KylieProjectile: {
+		DisplayName: Kylie Projectile
 	}
 
-	Knight: {
-		DisplayName: 騎士
-		Flavor: 鉄の鎧に身を包んだ高潔なる戦士。
-		Description: フルセットの鉄の防具と銀の剣を持って開始する。
+	FeintDagger: {
+		DisplayName: Feint Dagger
+	}
+}
+
+Unlocks: {
+	UnlockText: "[c/CFC553:{0}] をアンロックしました！"
+
+	Terrarian: {
+		Rewards: "[c/4D7B77:カスタム素性]の制限が完全になくなる"
+		Description: 素性を選択した状態でムーンロードを討伐する。
+		DisplayName: テラリアン
 	}
 
-	Huntsman: {
-		DisplayName: 狩人
-		Flavor: 揺るがぬ手と鋭い眼差しを持つ、狩りの達人。
-		Description: 弓、無限矢筒、狩人のマントを持って開始する。
-	}
-
-	Wizard: {
-		DisplayName: 魔術師
-		Flavor: 魔法を練習中の魔術師の見習い。
-		Description: 魔術師の帽子、トパーズの杖、トパーズローブを持ち、マナが多いが体力が低い状態で開始する。
-	}
-
-	Beastmaster: {
-		DisplayName: 魔獣使い
-		Flavor: 森林で育ち、獣を召喚して旅を助ける者。
-		Description: 最大体力が低いが、スライムスタッフとレザーウィップを持って開始する。
-	}
-
-	Shinobi: {
-		DisplayName: 忍者
-		Flavor: 
-			'''
-			東方から来た死をもたらす雇われの暗殺者。
-			素早く、俊敏で、効率的に敵を屠る。
-			'''
-		Description: 足袋と刀を持ち、最大体力80で開始する。
-	}
-
-	Alchemist: {
-		DisplayName: 錬金術師
-		Flavor: 自然と化学の達人。あらゆる事態に備えている。
-		Description: 錬金術のテーブル、瓶詰めの水50個、ハーブバッグ12個を持って開始する。
-	}
-
-	Demoman: {
-		DisplayName: 爆破技師
-		Flavor: 鉱石、敵、あるいは自分自身に爆薬を投げつけろ！
-		Description: ダイナマイト2個、爆弾10個、グレネード15個を持って開始する。
-	}
-
-	Boomer: {
-		DisplayName: ブーマー
-		Flavor: 昔は良かったんじゃ...
-		Description: 芝刈り機、サングラス、バーベキューリブ、焼きリスを持って開始する。
-	}
-
-	Zoomer: {
-		DisplayName: ズーマー
-		Flavor: 
-			'''
-			今日のTerredditの投稿がバズってるぜ。
-			スライム狩りに行くぞ、マジで！
-			'''
-		Description: ゴーグル、携帯電話を持って開始する。
-	}
-
-	Tiger: {
-		DisplayName: タイガー
-		Flavor: 
-			'''
-			他のテラリア人よりやや獣に近いが、
-			気にするほどでもない！
-			'''
-		Description: ネコ耳、キツネの尻尾、タイガークライミングギア、爪付きグローブを持って開始する。
-	}
-
-	Builder: {
-		DisplayName: 建築家
-		Flavor: 遠方の都市から来た名高い建築家。
-		Description: 踏み台、建築装置パック、木材500個、石材500個を持ち、新しい世界ではガイドの代わりに画家が出現する。
-	}
-
-	Thief: {
-		DisplayName: 盗賊
-		Flavor: ちょっとした盗みを働くコソ泥。
-		Description: ラッキーコイン、プラチナショートソード、毒付きナイフ300本を持って開始する。
-	}
-
-	Firestarter: {
-		DisplayName: 放火魔
-		Flavor: ただ世界が燃えるのを見たいだけの者もいる。
-		Description: 火花の杖、火炎瓶300個、フレアガン照明弾50個、たいまつ100本を持って開始する。
-	}
-
-	Pirate: {
-		DisplayName: 海賊
-		Flavor: 
-			'''
-			真の海賊は、陸で略奪できるものがあるかを見極めるのさ。
-			そして、見つけたら迷わず略奪するんだ！
-			'''
-		Description: アイパッチ、金の指輪、六分儀、錆びたカトラス、酒樽、帆200枚を持って開始する。
-	}
-
-	Deprived: {
-		DisplayName: 奪われし者
-		Flavor: 遠い昔に失われた道具を携えた忘れられた戦士。
-		Description: 最大体力80、奪われし刃、奪われしランタン、回復ポーション3個を持って開始する。
-	}
-
-	Lumberjack: {
-		DisplayName: 木こり
-		Flavor: 
-			'''
-			質素な木こり。
-			彼のフランネルシャツと信頼できる斧。
-			'''
-		Description: フランネルシャツ、木こりの斧、製材ノコギリ、リンゴ12個、通常、ボーリアル、ヤシ、エボン、シェイド、マホガニー、王朝の木材各300個を持って開始する。
-	}
-
-	Nobleman: {
-		DisplayName: 貴族
-		Flavor: 大金を数えるのが大変だと思うなら、彼も勤勉だろう。
-		Description: 最大体力20、ダイヤの指輪、金の懐中時計、プラチナコインを持って開始する。（ミディアムコアまたはハードコア専用）
-	}
-
-	Fisherman: {
-		DisplayName: 漁師
-		Flavor: スライムは俺を求め、魚は俺を恐れる...
-		Description: 高耐久の釣り糸、釣り人の帽子、強化釣り竿、ワームの缶3つを持ち、新しい世界ではガイドの代わりに釣り人が出現する。
-	}
-
-	Trailblazer: {
-		DisplayName: 開拓者
-		Flavor: 
-			'''
-			説明している暇はない。
-			行くべき場所があり、見るべきものがある！
-			'''
-		Description: 開拓者のヘルメット、ヘルメスの靴、アグレット、風の足飾りを持って開始する。
-	}
-
-	Adventurer: {
-		DisplayName: 冒険者
-		Flavor: 探索への渇望と落石トラップへの執念！
-		Description: グラップリングフック、たいまつ100本、考古学者の衣装、危険探知ポーション5個、スペランカーポーション5個を持って開始する。
-	}
-
-	Farmer: {
-		DisplayName: 農夫
-		Flavor: 大したことはないが、誠実な仕事だ。
-		Description: 夏帽子、鎌、干し草100個、デイブルーム、ブリンクルート、ムーングロウ、ウォータリーフ、シバーソーン、デスウィード、ファイアブロッサムの種とそのプランターボックス各12個を持って開始する。
-	}
-
-	Spelunker: {
-		DisplayName: 探鉱者
-		Flavor: 
-			'''
-			洞窟の呼び声が聞こえる。
-			鉱石を採掘しなければ！
-			'''
-		Description: 古代のノミ、鉱夫のヘルメット、金のツルハシ、鉄のトロッコ、爆弾10個、スペランカーポーション10個を持って開始する。
-	}
-
-	Bookworm: {
-		DisplayName: 本の虫
-		Flavor: 
-			'''
-			知性は物理に勝る。
-			最も強力な武器は鋭い頭脳！
-			'''
-		Description: 使い古された魔導書、ツタ縄の作り方、本8冊、生き物とのつきあい方を持って開始する。
-	}
-
-	Druid: {
-		DisplayName: ドルイド
-		Flavor: 
-			'''
-			自然の使者。
-			世界を生かし、健やかに保つことに従事する！
-			'''
-		Description: ツタ縄の作り方、ヴァイルソーン、成長の杖、ハーブバッグ3つ、鉢10個を持って開始する。
-	}
-
-	Painter: {
-		DisplayName: 画家
-		Flavor: 
-			'''
-			芸術は表現の形であり、存在の方法であり、強力な道具でもある。
-			だが、高価だ。
-			'''
-		Description: ペイントボールガン、塗装はがし、ペイントスプレー、ペイントブラシ、ペイントローラーを持ち、新しい世界ではガイドの代わりに画家が出現し、画家の商品が25%割引になる。
-	}
-
-	Australian: {
-		DisplayName: オーストラリア人
-		Flavor: 
-			'''
-			ただの普通の男だ。特に何もない。
-			ただ、こっちはちょっと世界が逆さまなんだ。
-			'''
-		Description: カウボーイセット、カイリーブーメランを持ち、常に逆さまの状態で開始する。
-	}
-
-	Bereaved: {
-		DisplayName: 喪失者
-		Flavor: 傘は雨を防ぐが、心の曇りは晴らせない。
-		Description: 悲劇の傘と葬儀の衣装を持ち、墓地で開始する。
-	}
-
-	Frozen: {
-		DisplayName: 凍結者
-		Flavor: 
-			'''
-		千年もの間凍りついていた者。
-		（そして数日かけてかまくらを作り）今こそ行動を開始する。
-			'''
-		Description: スノーボールキャノン、ピンクの雪の衣装、雪玉999個を持ち、かまくらで開始する。
-	}
-
-	Slayer: {
-		DisplayName: 殲滅者
-		Flavor: 切り裂け、全てが終わるまで。
-		Description: 最大体力140、ブームスティック、無限のマスケット弾を持ち、地底世界で開始する。
-	}
-
-	Chef: {
-		DisplayName: 料理人
-		Flavor: 
-			'''
-			世界中でその料理が有名な食の魔術師。
-			遠くの地のスパイスを探し求めている。
-			'''
-		Description: シェフの衣装、さまざまな食べ物、調理鍋、血塗られたナタを持って開始する。
-	}
-
-	ReallyConfused: {
-		DisplayName: 困惑者
-		Flavor: 
-			'''
-			ただただ混乱している。全く状況が掴めない。
-			この弓って魔法撃てるの？
-			'''
-		Description: 金の弓と矢100本を持って開始し、ダメージクラスが永久にランダム化され、一部の調整が加えられる。
-	}
-
-	Alternate: {
-		DisplayName: 代替者
-		Flavor: もしかすると、少し違っていたらこれが純粋主義者だったのかもしれない。
-		Description:
-			'''
-			銅製のツールの代わりに錫製のツールを持って開始する。
-			最初の素性を使用するとアンロックされる。
-			'''
+	Renewed: {
+		Rewards: "[c/4D7B77:カスタム素性]が解放される。"
+		Description: ムーンロードを討伐する。
+		DisplayName: 新生
 	}
 
 	Accursed: {
+		Rewards: 素性：[c/832C2E:呪われし者]がアンロックされる。
+		Description: 素性を選択した状態でウォールオブフレッシュを撃破する。
 		DisplayName: 呪われし者
-		Flavor: ハードモードがすでに有効化された状態で開始する。幸運を祈る！
-		Description:
-			'''
-			ガイドの代わりにドライアドが出現し、、金のツール、パールウッドの防具を持ち、ハードモードで開始する。
-			素性を選択した状態でウォールオブフレッシュを倒すとアンロックされる。
-			'''
-		Generation: ハードモードを開始中
 	}
 
-	Random: {
-		DisplayName: ランダム
-		Flavor: ランダムな素性を選択する。
-		Description: ""
-	}
-
-	Unloaded: {
-		DisplayName: (Unloaded)
-		Flavor: プレースホルダー
-		Description: ""
+	Beginner: {
+		Rewards: 素性：[c/A7B5BC:代替者]がアンロックされる。
+		Description: 初めて素性を使用する。
+		DisplayName: ビギナー
 	}
 }
 
 UI: {
-	Splash: {
-		0: さらに広がる世界へ！
-		1: 『Overseer』を手掛けたチームによる新作！
-		2: 『MrPlague's Authentic Races』とは別物です！
-		3: ﾅﾄﾘｳﾑ15%減、糖分15%減、ｷｬﾗｸﾀｰ100%向上！
-		4: 危険なほどひどいコードを含んでいます！
-		5: バグは一切なく、これからも発生しません！
-		6: 『純粋主義者』は、このMODを「眺める」人向けであって、「プレイ」する人向けではありません！
-		7: 南極で意外な人気を誇る！
-		8: Team Spiritがスポンサー！
-		9: シェーダーが圧倒的に不足しています！
-		10: 研究者が「ドラマなし」と認定！
-		11: Tremor？ そんなの聞いたことないね！
+	CustomOrigin: {
+		Splashes: {
+			15: ビタミンA・C・Dが不足しています！
+			14: YouTubeで紹介されました！
+			13: バチカン公認！
+			12: 一人当たり98%のバランス調整不満を生み出す！
+			11: 社員所有・創業！
+			10: 近日、X - The Everything Appに買収予定！
+			9: オープンソースなので、誰でも批評可能！
+			8: 3カ国で違法！
+			7:  6年連続プレイヤーズ・チョイス・アワード受賞！
+			6: 想像より333%多いストーリーが含まれています！
+			5: アメリカ食品医薬品局未承認！
+			4: 高級料理との相性抜群！
+			3: カラミティ？知らないよ！
+			2: 自分に「宇宙のシジル」を渡せば即勝利可能！
+			1: 1979年以来アスベストフリー！
+			0: 本当の挑戦はアイテムなしで始めることだ！
+		}
+
+		Sort: {
+			ID: 内部ID
+			Alphabetical: アルファベット順
+			Chaos: カオス
+		}
+
+		SortBy: "並び替え - "
+		Search: アイテムを検索 - Enterでフィルター
+		Mana: マナ ({0}/200)
+		Health: 体力 ({0}/400)
+		Legs: 足
+		Body: 体
+		Helmet: 兜
+		Acc: ｱｸｾｻﾘｰ
+		Inv: ｲﾝﾍﾞﾝﾄﾘ
 	}
 
 	SortBy: {
-		Line: "{0}で並び替え"
-		Default: デフォルト
 		Difficulty: 難易度
+		Default: デフォルト
+		Line: "{0}で並び替え"
+	}
+
+	Splash: {
+		16: Windows 95専用に最適化済み！
+		15: 食べられないが、想像ならできる！
+		14: 水中でも陸上でも安全に使用可能！
+		13: スポンサー募集中！
+		12: BFTAクラスターは我らの中に生きている！
+		11: Tremor？ そんなの聞いたことないね！
+		10: 研究者が「ドラマなし」と認定！
+		9: シェーダーが圧倒的に不足しています！
+		8: Team Spiritがスポンサー！
+		7: 南極で意外な人気を誇る！
+		6: 『純粋主義者』は、このMODを「眺める」人向けであって、「プレイ」する人向けではありません！
+		5: バグは一切なく、これからも発生しません！
+		4: 危険なほどひどいコードを含んでいます！
+		3: ﾅﾄﾘｳﾑ15%減、糖分15%減、ｷｬﾗｸﾀｰ100%向上！
+		2: 『MrPlague's Authentic Races』とは別物です！
+		1: 『Overseer』を手掛けたチームによる新作！
+		0: さらに広がる世界へ！
 	}
 }
 
