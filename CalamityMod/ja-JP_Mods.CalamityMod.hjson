@@ -30718,7 +30718,7 @@ UI: {
 	DifficultyShiftText: "[c/737373:SHIFTキーを押して詳細を見る]"
 	CurrentlySelected: 現在の難易度 :{0}
 	DifficultyClickText: "[c/919191:クリックして難易度を選択]"
-	ExpertDifficultyLock: "[c/919191:高難易度モードは、エキスパートモード以上でのみ切り替え可能]"
+	ExpertDifficultyLock: "[c/919191:高難易度モードは、エキスパートモード以上でのみ切り替え可能　　　　　　　　　　]"
 	ChangingTheRules: "[c/919191:今さらルールを変えることなんてできない！]"
 	NoDifficulty: なし
 	NoDifficultyInfo: クラシックなテラリアのゲームプレイ
