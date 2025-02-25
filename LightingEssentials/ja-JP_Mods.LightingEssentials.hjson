@@ -1,0 +1,291 @@
+Configs: {
+	Config: {
+		Grass: {
+			Tooltip: ""
+			Label: 芝生
+		}
+
+		Pots: {
+			Tooltip: ""
+			Label: ツボ
+		}
+
+		CrimsonBiome: {
+			Tooltip: ""
+			Label: クリムゾンバイオーム
+		}
+
+		LifeFruitBlue: {
+			Tooltip: ""
+			Label: ライフフルーツ(青)
+		}
+
+		LifeFruitGreen: {
+			Tooltip: ""
+			Label: ライフフルーツ(緑)
+		}
+
+		LifeFruitRed: {
+			Tooltip: ""
+			Label: ライフフルーツ(赤)
+		}
+
+		CorruptionBiome: {
+			Tooltip: ""
+			Label: 不浄バイオーム
+		}
+
+		DesertBiome: {
+			Tooltip: ""
+			Label: 砂漠バイオーム
+		}
+
+		SnowBiome: {
+			Tooltip: ""
+			Label: 雪原バイオーム
+		}
+
+		JungleBiome: {
+			Tooltip: ""
+			Label: ジャングルバイオーム
+		}
+
+		WalkingOnPlantsLightsThemUpBlue: {
+			Tooltip: ""
+			Label: 植物の上を歩くと光る(青)
+		}
+
+		WalkingOnPlantsLightsThemUpGreen: {
+			Tooltip: ""
+			Label: 植物の上を歩くと光る(緑)
+		}
+
+		WalkingOnPlantsLightsThemUpRed: {
+			Tooltip: ""
+			Label: 植物の上を歩くと光る(赤)
+		}
+
+		PlantsBlue: {
+			Tooltip: ""
+			Label: 植物(青)
+		}
+
+		PlantsGreen: {
+			Tooltip: ""
+			Label: 植物(緑)
+		}
+
+		PlantsRed: {
+			Tooltip: ""
+			Label: 植物(赤)
+		}
+
+		Sapphire: {
+			Tooltip: ""
+			Label: サファイア
+		}
+
+		Ruby: {
+			Tooltip: ""
+			Label: ルビー
+		}
+
+		Diamond: {
+			Tooltip: ""
+			Label: ダイアモンド
+		}
+
+		AmberGemspark: {
+			Tooltip: ""
+			Label: 発光(コハク)
+		}
+
+		Emerald: {
+			Tooltip: ""
+			Label: エメラルド
+		}
+
+		Topaz: {
+			Tooltip: ""
+			Label: トパーズ
+		}
+
+		Amethyst: {
+			Tooltip: ""
+			Label: アメジスト
+		}
+
+		CommonOres: {
+			Tooltip: ""
+			Label: 一般的な鉱石
+		}
+
+		Meteorite: {
+			Tooltip: ""
+			Label: メテオライト
+		}
+
+		Chlorophyte: {
+			Tooltip: ""
+			Label: クロロファイト
+		}
+
+		Hellstone: {
+			Tooltip: ""
+			Label: ヘルストーン
+		}
+
+		Cobalt: {
+			Tooltip: ""
+			Label: コバルト
+		}
+
+		Palladium: {
+			Tooltip: ""
+			Label: パラジウム
+		}
+
+		Mythril: {
+			Tooltip: ""
+			Label: ミスリル
+		}
+
+		Orichalcum: {
+			Tooltip: ""
+			Label: オリハルコン
+		}
+
+		Adamantite: {
+			Tooltip: ""
+			Label: アダマンタイト
+		}
+
+		Titanium: {
+			Tooltip: ""
+			Label: チタニウム
+		}
+
+		LunarOre: {
+			Tooltip: ""
+			Label: 鉱石(月)
+		}
+
+		BlueMoss: {
+			Tooltip: ""
+			Label: 苔(青)
+		}
+
+		BrownMoss: {
+			Tooltip: ""
+			Label: 苔(茶)
+		}
+
+		GreenMoss: {
+			Tooltip: ""
+			Label: 苔(緑)
+		}
+
+		LavaMoss: {
+			Tooltip: ""
+			Label: 苔(溶岩)
+		}
+
+		LongMoss: {
+			Tooltip: ""
+			Label: 長い苔
+		}
+
+		PurpleMoss: {
+			Tooltip: ""
+			Label: 苔(紫)
+		}
+
+		RedMoss: {
+			Tooltip: ""
+			Label: 苔(赤)
+		}
+
+		Jungle: {
+			Tooltip: ""
+			Label: ジャングル
+		}
+
+		Containers: {
+			Tooltip: ""
+			Label: コンテナ
+		}
+
+		Plants: {
+			Tooltip: ""
+			Label: 植物
+		}
+
+		Cactus: {
+			Tooltip: ""
+			Label: サボテン
+		}
+
+		LifeCrystal: {
+			Tooltip: ""
+			Label: ライフクリスタル
+		}
+
+		LifeCrystalRedness: {
+			Tooltip: ""
+			Label: ライフクリスタルの赤み
+		}
+
+		WalkingOnPlantsLightsThemUp: {
+			Tooltip: ""
+			Label: 植物の上を歩くと光る
+		}
+
+		LightLifeFruitAndLifeCrystalsAndHearts: {
+			Tooltip: ""
+			Label: ライフフルーツ、ライフクリスタルが光る
+		}
+
+		LightJungle: {
+			Tooltip: ""
+			Label: ジャングルが光る
+		}
+
+		LightEnvironment: {
+			Tooltip: ""
+			Label: 光源設定の有効化
+		}
+
+		Test: {
+			Tooltip: ""
+			Label: テスト
+		}
+
+		Experimental: {
+			Tooltip: ""
+			Label: 実験的
+		}
+
+		LightOres: {
+			Tooltip: ""
+			Label: 鉱石が光る
+		}
+
+		PlayerLight: {
+			Tooltip: ""
+			Label: プレイヤーが光る
+		}
+
+		EntityRedHitLight: {
+			Tooltip: ""
+			Label: エンティティが赤く光る
+		}
+
+		PlayerMeleeLight: {
+			Tooltip: ""
+			Label: プレイヤー近接攻撃ライト
+		}
+
+		DisplayName: 設定
+	}
+}
+

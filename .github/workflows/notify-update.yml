@@ -1,0 +1,19 @@
+name: Notify Update
+on:
+    push:
+        branches:
+        - main
+
+jobs:
+  call-workflow:
+    if: github.repository == 'ExternalLocalizer/TMLHonyaku'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Dispatch
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: update-localizations.yml
+          repo: ExternalLocalizer/ExternalLocalizer-Jp-Pack
+          ref: master
+          token: "${{ secrets.PAT }}"
+

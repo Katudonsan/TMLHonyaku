@@ -1,0 +1,90 @@
+Buffs: {
+	FriendlyBulletBallBuff: {
+		DisplayName: フレンドリー弾丸
+		Description: ミニチュアの友好的な弾幕があなたの後をついてくる
+	}
+}
+
+Items: {
+	BulletNecklace: {
+		DisplayName: 弾丸のネックレス
+		Tooltip: 無敵フレームが50%増加
+	}
+
+	FriendlyBulletBall: {
+		DisplayName: フレンドリーな弾丸
+		Tooltip: ミニチュアの友好的な弾丸を召喚する
+	}
+
+	Gunsword: {
+		DisplayName: グリミー・ガンソード
+		Tooltip:
+			'''
+			マウスの左ボタンで攻撃すると、5発の弾丸が発射する
+			空中にいるときに撃つと、カーソルから離れるように反動がつく
+			マウスの右ボタンで攻撃すると、ライジングスラッシュを繰り出す
+			ライジングスラッシュは地上にいるときのみ発動可能で、発動時に弾を反射することがある
+			'''
+	}
+
+	GunswordReplica: {
+		DisplayName: ガンソード・レプリカ
+		Tooltip: カーソルの位置にロスト・ソードを召喚する
+	}
+
+	GunswordSlimeMask: {
+		DisplayName: ガンソード・スライム マスク
+		Tooltip: ""
+	}
+
+	GunswordSlimeRelic: {
+		DisplayName: ガンソード・スライムのレリック
+		Tooltip: ""
+	}
+
+	GunswordSlimeTrophy: {
+		DisplayName: ガンソード・スライムのトロフィー
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	Camera: {
+		DisplayName: カメラ
+	}
+
+	GunswordSlime: {
+		DisplayName: ガンソード・スライム
+	}
+
+	LostSword: {
+		DisplayName: 失われた剣
+	}
+}
+
+Projectiles: {
+	Bullet: {
+		DisplayName: 弾
+	}
+
+	BulletBall: {
+		DisplayName: 弾幕
+	}
+
+	Gunsword: {
+		DisplayName: ガンソード
+	}
+
+	BulletFriendly: {
+		DisplayName: 弾
+	}
+
+	FriendlyBulletBall_Body: {
+		DisplayName: 弾幕
+	}
+
+	RisingSlash: {
+		DisplayName: ライジングスラッシュ
+	}
+}
+

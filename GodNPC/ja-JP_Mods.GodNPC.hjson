@@ -1,0 +1,201 @@
+Configs: {
+	ServerConfig: {
+		GodNPCDebugMode: {
+			Tooltip: ONにするとチャットでタウンNPCのステータス更新が可能になります。デバッグ目的で使用します。
+			Label: "[i:1344] デバッグモード"
+		}
+
+		TownNPCReduceEnemyDamage: {
+			Tooltip:
+				'''
+				敵から受けるダメージ 1で通常、0で免疫。
+				この値を増やすとNPCに与える敵のダメージが増加する。
+				'''
+			Label: "[i:1344] 敵から受けるNPCのダメージ"
+		}
+
+		TownNPCReduceBossDamage: {
+			Tooltip:
+				'''
+				対ボス戦で受けるダメージ。1で通常、0で免疫。
+				この値を増やすとNPCに与えるボスダメージが増加する。
+				'''
+			Label: "[i:1344] 対ボス戦で受けるNPCのダメージ"
+		}
+
+		TownNPCMultiDamage: {
+			Tooltip: ダメージ倍率。ベースと倍率のダメージを調整する。
+			Label: "[i:18] NPC ダメージ倍率"
+		}
+
+		TownNPCScaleDamage: {
+			Tooltip:
+				'''
+				ボスごとのダメージ倍率。0で無効。
+				マスター以外のモードでは50%の効果がある。
+				'''
+			Label: "[i:18] NPC ダメージ倍率"
+		}
+
+		TownNPCBaseDamage: {
+			Tooltip: 追加基本ダメージ。マスター以外のモードでは50%の効果がある。
+			Label: "[i:18] NPC 基本ダメージ"
+		}
+
+		TownNPCScaleArmor: {
+			Tooltip:
+				'''
+				ボスごとの防御力倍率。0で無効。
+				マスター以外のモードでは50%の効果がある。
+				'''
+			Label: "[i:156] NPC 防御力倍率"
+		}
+
+		TownNPCBaseArmor: {
+			Tooltip: 追加基本防御力。マスター以外のモードでは50％の効果がある。
+			Label: "[i:156] NPC 基本防御力"
+		}
+
+		TownNPCResistKB: {
+			Tooltip: ノックバック耐性。0でノックバック無効。
+			Label: "[i:936] NPC ノックバック耐性"
+		}
+
+		TownNPCAttackKB: {
+			Tooltip: 攻撃ノックバック。0はNPCの攻撃にノックバックを与えない。
+			Label: "[i:936] NPC 攻撃ノックバック"
+		}
+
+		TownNPCProjSpeed: {
+			Tooltip:
+				'''
+				発射速度。この値を大きくすることで、より速い弾丸を発射することができる。
+				範囲攻撃を持つNPCにのみ影響する。
+				'''
+			Label: "[i:16] NPC 発射速度"
+		}
+
+		TownNPCAttackSpeed: {
+			Tooltip: 武器の使用時間。より速く攻撃するならこの値を下げる（最大速度は1）。
+			Label: "[i:16] NPC 攻撃速度"
+		}
+
+		TownNPCHealthRegen: {
+			Tooltip:
+				'''
+				体力回復倍率。0で無効。
+				マスター以外のモードでは50％の効果がある。
+				'''
+			Label: "[i:58] NPC 体力回復倍率"
+		}
+
+		TownNPCScaleHealth: {
+			Tooltip:
+				'''
+				ボスごとの体力倍率。0で無効。
+				マスター以外のモードでは50％の効果がある。
+				'''
+			Label: "[i:58] NPC 体力倍率"
+		}
+
+		TownNPCMaxHealth: {
+			Tooltip: 基本体力. マスター以外のモードでは50％の効果がある。
+			Label: "[i:58] NPC 基本体力"
+		}
+
+		TownNPCPetImmune: {
+			Tooltip: これをONにすると、タウンペットはすべてのダメージソースに対して無敵になる。
+			Label: "[i:1959] タウンペット 無敵"
+		}
+
+		TownNPCTrapImmune: {
+			Tooltip: これをONにすると、町のNPCはトラップに対して無敵になる。
+			Label: "[i:539] 味方/街のNPCは罠にかからない"
+		}
+
+		TownNPCLavaImmune: {
+			Tooltip: これをONにすると、町のNPCは溶岩に対して無敵になる。
+			Label: "[i:207] 味方/町のNPCは溶岩の影響を受けない"
+		}
+
+		TownNPCImmortal: {
+			Tooltip: これをONにすると、敵が町のNPCを攻撃しなくなります。
+			Label: "[i:43] 味方/町のNPCは敵に狙われない"
+		}
+
+		DisplayName: GodNPC 設定
+	}
+}
+
+Configuration: {
+	GodNPCDebugModeTooltip: ONにするとチャットでタウンNPCのステータス更新が可能になります。デバッグ目的で使用します。
+	GodNPCDebugMode: "[i:1344] デバッグモード"
+	TownNPCReduceEnemyDamageTooltip:
+		'''
+		敵から受けるダメージ 1で通常、0で免疫。
+		この値を増やすとNPCに与える敵のダメージが増加する。
+		'''
+	TownNPCReduceEnemyDamage: "[i:1344] 敵から受けるNPCのダメージ"
+	Extras: エクストラ
+	TownNPCReduceBossDamageTooltip:
+		'''
+		対ボス戦で受けるダメージ。1で通常、0で免疫。
+		この値を増やすとNPCに与えるボスダメージが増加する。
+		'''
+	TownNPCReduceBossDamage: "[i:1344] 対ボス戦で受けるNPCのダメージ"
+	TownNPCMultiDamageTooltip: ダメージ倍率。ベースとスケーリングのダメージを調整する。
+	TownNPCMultiDamage: "[i:18] NPC ダメージ倍率"
+	TownNPCScaleDamageTooltip:
+		'''
+		ボスごとのダメージ倍率。0で無効。
+		マスター以外のモードでは50％の効果がある。
+		'''
+	TownNPCScaleDamage: "[i:18] NPC ダメージ倍率"
+	TownNPCBaseDamageTooltip: 追加基本ダメージ。 マスター以外のモードでは50％の効果がある。
+	TownNPCBaseDamage: "[i:18] NPC 基本ダメージ"
+	TownNPCScaleArmorTooltip:
+		'''
+		ボスごとの防御力倍率。0で無効。
+		マスター以外のモードでは50％の効果がある。
+		'''
+	TownNPCScaleArmor: "[i:156] NPC 防御力倍率"
+	TownNPCBaseArmorTooltip: 追加基本防御力。 マスター以外のモードでは50％の効果がある。
+	TownNPCBaseArmor: "[i:156] NPC 基本防御力"
+	TownNPCResistKBTooltip: ノックバック耐性。0でノックバック無効。
+	TownNPCResistKB: "[i:936] NPC ノックバック耐性"
+	TownNPCAttackKBTooltip: 攻撃ノックバック。0はNPCの攻撃にノックバックを与えない。
+	TownNPCAttackKB: "[i:936] NPC 攻撃ノックバック"
+	TownNPCProjSpeedTooltip:
+		'''
+		発射速度。この値を大きくすることで、より速い弾丸を発射することができる。
+		範囲攻撃を持つNPCにのみ影響する。
+		'''
+	TownNPCProjSpeed: "[i:16] NPC 発射速度"
+	TownNPCAttackSpeedTooltip: 武器の使用時間。より速く攻撃するならこの値を下げる（最大速度は1）。
+	TownNPCAttackSpeed: "[i:16] NPC 攻撃速度"
+	TownNPCHealthRegenTooltip:
+		'''
+		体力回復倍率。0で無効。
+		マスター以外のモードでは50％の効果がある。
+		'''
+	TownNPCHealthRegen: "[i:58] NPC 体力回復倍率"
+	TownNPCScaleHealthTooltip:
+		'''
+		ボスごとの体力倍率。0で無効。
+		マスター以外のモードでは50％の効果がある。
+		'''
+	TownNPCScaleHealth: "[i:58] NPC 体力倍率"
+	TownNPCMaxHealthTooltip: 基本体力. マスター以外のモードでは50％の効果がある。
+	TownNPCMaxHealth: "[i:58] NPC 基本体力"
+	FriendlyNPCHeader: Friendly NPC 統計情報
+	TownNPCPetImmuneTooltip: これをONにすると、タウンペットはすべてのダメージソースに対して無敵になる。
+	TownNPCPetImmune: "[i:1959] タウンペット 無敵"
+	TownNPCTrapImmuneTooltip: これをONにすると、町のNPCはトラップに対して無敵になる。
+	TownNPCTrapImmune: "[i:539] 味方/街のNPCは罠にかからない"
+	TownNPCLavaImmuneTooltip: これをONにすると、町のNPCは溶岩に対して無敵になる。
+	TownNPCLavaImmune: "[i:207] 味方/町のNPCは溶岩の影響を受けない"
+	TownNPCImmortalTooltip: これをONにすると、敵が町のNPCを攻撃しなくなります。
+	TownNPCImmortal: "[i:43] 味方/町のNPCは敵に狙われない"
+	InteractionHeader: 味方NPCと敵／ワールドの交流
+}
+

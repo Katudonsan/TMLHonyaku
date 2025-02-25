@@ -13,12 +13,12 @@ Configs: {
 		}
 
 		TownNPCTombs: {
-			Label: 街のNPCの墓を出す
+			Label: タウンNPCの墓を出す
 			Tooltip: ""
 		}
 
 		NoTownNPCTombs: {
-			Label: 街のNPCの墓を出さない
+			Label: タウンNPCの墓を出さない
 			Tooltip: ""
 		}
 	}

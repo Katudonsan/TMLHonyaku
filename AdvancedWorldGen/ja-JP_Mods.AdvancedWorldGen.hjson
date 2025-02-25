@@ -1,0 +1,304 @@
+Zenith: {
+	StarGame: {
+		Description: 星のミニゲームを有効にする
+		$parentVal: スターゲーム
+	}
+
+	Description: Zenithの秘密シード。
+	$parentVal: Zenith(Get fixed boi)
+}
+
+TheConstant: {
+	Description: Don't Starveコラボの秘密シード
+	$parentVal: The Constant
+}
+
+Spooky: {
+	Description: ハロウィーンがテーマの世界
+	$parentVal: Spooky
+}
+
+SortedWorld: {
+	Description: 世界を高さでソート
+	$parentVal: Sorted World
+}
+
+Santa: {
+	Description: クリスマスがテーマの世界。
+
+	Conflicts: {
+		Random: Santaでは、ランダム化できるブロックがほとんどありません。
+
+		NotTheBees: {
+			JungleWorld: SantaはNot the beesのワールドに影響を与えることはできません。
+		}
+	}
+
+	$parentVal: Santa
+}
+
+Remix: {
+	Description: リミックスされた秘密シード。
+	$parentVal: Remix
+}
+
+Random: {
+	Painted: {
+		Description: ブロックや壁の種類ごとにペイントされた世界。
+		$parentVal: Painted
+	}
+
+	Description: 各ブロックと壁の種類がランダム化された世界。
+
+	Conflicts: {
+		Santa: Santaでは、ランダム化できるブロックがほとんどありません。
+
+		NotTheBees: {
+			JungleWorld: Not the beesでは、ランダム化できるブロックがほとんどありません。
+		}
+
+		Evil: Evilでは、ランダム化できるブロックがほとんどありません。
+	}
+
+	$parentVal: Randam
+}
+
+NotTheBees: {
+	JungleWorld: {
+		Description: 世界中がジャングルになる
+
+		Conflicts: {
+			Santa: SantaはNot the beesの世界には影響を与えることはできません。
+			Random: Not the beesでは、ランダム化できるブロックがほとんどありません。
+			Evil: Not the beesは汚染できるブロックがほとんどありません。
+		}
+
+		$parentVal: Jungle World
+	}
+
+	Description: 「ハチはやめてくれ」秘密シード。
+	$parentVal: Not the bees
+}
+
+NoTraps: {
+	Description: 「罠なき」秘密シード。
+	$parentVal: No Traps
+}
+
+ForTheWorthy: {
+	Description: 「価値ある者のため」の秘密シード。
+	$parentVal: For the worthy
+}
+
+Evil: {
+	Description: すべてのブロックを汚染されたものに変える。
+
+	Conflicts: {
+		Random: Evilでは、ランダム化できるブロックがほとんどありません。
+
+		NotTheBees: {
+			JungleWorld: Not the beesは汚染できるブロックがほとんどありません。
+		}
+	}
+
+	$parentVal: Evil
+}
+
+Entropy: {
+	Description: 夕暮れと夜明けのたびに、世界の一部が1種類のタイルと壁になる世界。
+	$parentVal: Entropy
+}
+
+Drunk: {
+	MiddleLavaOcean: {
+		Description: 地底世界には世界の真ん中に溶岩の海が生成される。
+		$parentVal: Middle Lava Ocean
+	}
+
+	Description: 9周年の秘密シード。
+
+	Crimruption: {
+		Description: 不浄と真紅の両方が世界に生成される。
+		$parentVal: Crimruption
+	}
+
+	BothOres: {
+		Description: 両方の鉱石が生成される。
+		$parentVal: Both Ores
+	}
+
+	$parentVal: Drunk world
+}
+
+Celebrationmk10: {
+	Painted: {
+		Description: 祝いの色で世界を彩る
+		$parentVal: Painted
+	}
+
+	Description: 10周年の秘密シード。
+
+	BeachSpawn: {
+		Description: 海岸でプレイヤーとNPCがスポーンする
+		$parentVal: Beach Spawn
+	}
+
+	$parentVal: Celebrationmk10
+}
+
+InvalidSizes: {
+	ClamityMaxX: CalamityではXLワールドを利用できません
+	ClamityMinX: Calamityではスモールワールドを利用できません
+	NormalMaxX:
+		'''
+		大きすぎる世界を生成しようとすると、ワールド生成がクラッシュします。
+		そのような世界を生成するには、MOD設定でオーバーホールされたワールド生成を有効にする必要があります。
+		'''
+	ComfortNormalMaxX:
+		'''
+		大きなワールド生成には時間がかかります。
+		MOD設定でオーバーホールされたワールド生成を有効にしてください。また、クラッシュする可能性があります。
+		'''
+	NormalMinX:
+		'''
+		MODの設定でオーバーホールされたワールド生成を有効にする必要があります。
+		x={0} のワールドを生成できるようにする必要があります。
+		'''
+	OverhauledMinY: ワールドはこの値以下では生成できません。 under y={0}.
+	OverhauledMinX: ワールドはこの値以下では生成できません。 under x={0}.
+	TooBigFromRAM:" {0}×{1}の大きさの世界は、このコンピューターでは利用できません。"
+}
+
+WorldGenMessage: {
+	SnowReplace: 世界をよりクールに
+	Random: タイルのランダム化
+	Evil: ピュアさを取り除く
+}
+
+Config: {
+	Analytics: {
+		Tooltip: 匿名化されたデータは、ワールドが生成されるたびに送信され、MODの開発に役立てられます。
+		Label: 分析提供
+	}
+
+	VanillaWeight: {
+		Tooltip: MODのデバッグ用です。
+		Label: ワールド生成予測時間の精度を落とす
+	}
+
+	ZenithEnabler: {
+		Tooltip: ゼニスを有効にすると、「Drunk World」「The Constant」「For the Worthy」「No Traps」「Remix」のシードオプションが適用される。
+		Label: ゼニスで他のオプションを有効にする
+	}
+
+	SaveOnFail: {
+		Tooltip: ワールド生成が失敗したり中止された場合は、その時点で保存する。
+		Label: 失敗したワールド生成を保存
+	}
+
+	FasterWorldgen: {
+		Tooltip:
+			'''
+			ワールド生成がより速く、カスタムサイズのワールドに適応するように調整されました。
+			4200 x ... より小さいワールドは、この機能なしでは生成できません。
+			'''
+		Label: ワールド生成オーバーホール
+	}
+}
+
+Exceptions: {
+	RockUnderHell: 高さが足りない！
+}
+
+Vanilla: {
+	"Passes['Micro_Biomes']": {
+		CorruptionPitCount: {
+			ScaleWith: 腐敗穴の数：
+			Max: バイオーム内の腐敗穴の最大数
+			Min: バイオーム内の腐敗穴の最小数
+		}
+	}
+}
+
+CustomSizes: {
+	TerrainType: 地形タイプ
+	EditTerrainPass: ワールド生成中に別のカスタマイズを有効にする
+	ScaledBeaches: 世界の大きさに合わせたビーチのスケール
+	BeachMultiplier: ビーチサイズの倍率：
+	DungeonMultiplier: ダンジョンサイズ倍率：
+	TempleMultiplier: 寺院サイズの倍率：
+	SizeY: 縦サイズ :
+	SizeX: 横サイズ :
+}
+
+Configs: {
+	WorldgenSettings: {
+		DisplayName: ワールド生成設定
+	}
+}
+
+Items: {
+	CorruptionOrb: {
+		Tooltip: ""
+		DisplayName: 腐敗のオーブ
+	}
+}
+
+Warning: 警告
+
+OverhauledDisabled: ワールド生成をオーバーホールし、より多くのオプションを選べるようにしよう。
+
+OverhauledConfig: 設定の見直し
+
+VanillaConfig: バニラ設定
+
+Timer: 残り時間 : {0}
+
+ShowHidden: {
+	Description: マイナーまたは不安定な特徴を示す。
+}
+
+Presets: プリセット
+
+Randomize: オプションのランダム化
+
+OptionButton: ワールド生成の設定を選ぶ
+
+NoneSelected: {
+	Description: ご希望のオプションを選択してください。
+}
+
+NoOptions: 選択肢なき世界
+
+Import: クリップボードからのインポート
+
+HideHidden: {
+	Description: マイナーで不安定な機能は隠す。
+}
+
+Export: クリップボードにエクスポート
+
+DownLevel: このシードから使用されるものを編集する
+
+DeleteWorlds: 最後のワールド以外はすべて削除
+
+DedServ: {
+	Validate: y : 検証
+	ShowHidden: h : 非表示のオプションを表示する
+	Selected: (選択)
+	InvalidInput: 入力が認識されない
+	InvalidImport: 有効なインポートではない
+	InvalidId: 有効な数字ではない
+	Import: i <options> : インポートオプション
+}
+
+CustomSizedWorld: "{0}x{1}"
+
+CustomSize: カスタムサイズ
+
+CopiedSettings: コピーされた設定
+
+CopySettings: コピー設定
+
+Abort: 中止する
+

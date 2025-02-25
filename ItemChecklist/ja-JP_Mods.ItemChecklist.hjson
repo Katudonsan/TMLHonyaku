@@ -1,0 +1,123 @@
+Configs: {
+	ItemChecklistClientConfig: {
+		ShowItemModSource: {
+			Label: アイテムMODのソースを表示
+			Tooltip: どのmodがレシピカタログにどのアイテムを追加するかを表示します 没入感を高めるために無効にします
+		}
+
+		DisplayName: 「ItemChecklist」クライアント設定
+		Headers.AutomaticSettings: 自動設定
+
+		ItemChecklistSize: {
+			Label: アイテムチェックリストサイズ
+			Tooltip: アイテムチェックリストUIのサイズ これは自動的に保存されるので、調整する必要はありません
+		}
+
+		ItemChecklistPosition: {
+			Label: アイテムチェックリストの位置
+			Tooltip: アイテムチェックリストUIの位置 これは自動的に保存されるので、調整する必要はありません
+		}
+	}
+}
+
+Keybinds.ToggleItemChecklist.DisplayName: アイテムチェックリスト切り替え
+GlobalItem.ItemChecklistAnnounceText: "{0}を初めて見つけた！   {1}/{2}   {3}%"
+
+UICollectionBar: {
+	collectionTotalText: 合計: {0}/{1} ({2}% コレクション)
+	collectionTerrariaText: テラリア: {0}/{1} ({2}% コレクション)
+	collectionModText: "{0}: {1}/{2} ({3}% コレクション)"
+}
+
+Ui: {
+	FilterByTooltipText: ツールチップ検索
+	FilterByNameText: 名前検索
+	ToggleCollectChestItemsText: チェストアイテムを集める
+	ToggleMessagesText: メッセージ切り替え
+	ShowSortValueTextText: ソート値のテキストを表示
+	CycleModFilterText: モッドフィルター: {0}
+	CycleFoundFilterText: 見つかったフィルター: {0}
+	ModnamesAllText: すべて
+	FoundFilterAllText: すべて
+	FoundFilterUnfoundText: まだ未発見
+	FoundFilterFoundText: 既に発見している
+	ModnamesVanillaText: バニラ
+}
+
+SharedUI: {
+	mutuallyExclusiveFilterVanityText: Vanity
+	mutuallyExclusiveFilterArmorText: Armor
+	cycleAmmoTypesText: Cycle Ammo Types
+	cycleUsedAmmoTypesText: Cycle Used Ammo Types
+	categoryAllText: すべて
+	categoryMeleeText: 近接武器
+	categoryYoyoText: ヨーヨー
+	categoryMagicText: 魔法
+	categoryRangedText: 遠距離武器
+	sortUseAmmoTypeText: 使用弾薬の種類
+	categoryThrowingText: 投擲武器
+	categorySummonText: 召喚
+	categorySentryText: セントリー
+	sortDamageText: ダメージ
+	categoryToolsText: ツール
+	categoryPickaxesText: つるはし
+	categoryAxesText: 斧
+	categoryHammersText: ハンマー
+	categoryArmorText: 防具
+	categoryWeaponsText: 武器
+	sortValueText: 価値
+	sortAlphabeticalText: アルファベット順
+	sortRarityText: レアリティ
+	sortTerrariaSortText: テラリアソート
+	filterMaterialsText: 材料
+	sortPickPower: つるはしパワー
+	sortAxePower: 斧パワー
+	sortHammerPower: ハンマーパワー
+	categoryHead: 頭
+	categoryBody: 胴体
+	categoryLegs: 脚
+	sortDefense: 防御力
+	categoryTiles: タイル
+	categoryContainersText: チェスト
+	categoryWiringText: ワイヤー
+	categoryStatuesText: 彫像
+	categoryDoorsText: ドア
+	categoryChairsText: 椅子
+	categoryTablesText: 机
+	categoryLightSourcesText: 光源
+	categoryTorchesText: 松明
+	categoryWallsText: 壁
+	categoryAccessoriesText: アクセサリー
+	categoryWingsText: 翼
+	categoryAmmoText: 弾薬
+	categoryPotionsText: ポーション
+	categoryHealthPotionsText: ヘルスポーション
+	categoryManaPotionsText: マナポーション
+	categoryBuffPotionsText: バフポーション
+	categoryExpertText: エキスパート
+	categoryPetsText: ペット
+	categoryLightPetsText: ライトペット
+	categoryMountsText: マウント
+	categoryCartsText: カート
+	categoryHooksText: フック
+	categoryDyesText: 染料
+	categoryHairDyesText: 毛髪染料
+	categoryBossSummonsText: ボス召喚
+	categoryConsumablesText: 消耗アイテム
+	categoryCapturedNPCText: 捕らえられたNPC
+	categoryFishingText: 釣り
+	categoryPolesText: 釣竿
+	categoryBaitText: エサ
+	categoryQuestFishText: クエストフィッシュ
+	categoryExtractinatorText: 取り出し器
+	categoryOtherText: その他
+	sortItemIdText: アイテムID
+	sortPlaceTileText: プレースタイル
+	sortAmmoTypeText: 弾薬タイプ
+	sortHealLifeText: ヒールライフ
+	sortHealManaText: ヒールマナ
+	sortGrappleRangeText: グラップル範囲
+	sortProgressionOrderText: 進行順序
+	sortPolePowerText: 釣竿パワー
+	sortBaitPowerText: エサパワー
+}

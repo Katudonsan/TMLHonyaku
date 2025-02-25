@@ -1,0 +1,5498 @@
+Items: {
+	DeerHead: {
+		DisplayName: 鹿の頭
+		Tooltip: ""
+	}
+
+	KrampusHead: {
+		DisplayName: クランプスの頭
+		Tooltip: ""
+	}
+
+	WolfPelt: {
+		DisplayName: 狼の毛皮
+		Tooltip: ""
+	}
+
+	DisplayAmmonite: {
+		DisplayName: アンモナイトの化石の展示
+		Tooltip: ""
+	}
+
+	DisplayDinoEgg: {
+		DisplayName: 恐竜の卵の展示
+		Tooltip: ""
+	}
+
+	DisplayDinoSkull: {
+		DisplayName: 恐竜の頭蓋骨の展示
+		Tooltip: ""
+	}
+
+	DisplayTusk: {
+		DisplayName: マンモスの牙の展示
+		Tooltip: ""
+	}
+
+	FossilAmmonite: {
+		DisplayName: アンモナイトの化石
+		Tooltip: ""
+	}
+
+	FossilAmmonite2: {
+		DisplayName: アンモナイトの化石
+		Tooltip: ""
+	}
+
+	FossilDinoSkull: {
+		DisplayName: 恐竜の頭蓋骨の化石
+		Tooltip: ""
+	}
+
+	FossilDinoSkull2: {
+		DisplayName: 恐竜の頭蓋骨の化石
+		Tooltip: ""
+	}
+
+	FossilEgg: {
+		DisplayName: 恐竜の卵の化石
+		Tooltip: ""
+	}
+
+	FossilTusk: {
+		DisplayName: マンモスの牙の化石
+		Tooltip: ""
+	}
+
+	GnawedBone: {
+		DisplayName: 齧られた骨
+		Tooltip: ""
+	}
+
+	Mammooth: {
+		DisplayName: マンモスのぬいぐるみ
+		Tooltip: ""
+	}
+
+	PrimCamp: {
+		DisplayName: 原始的なキャンプ
+		Tooltip: ""
+	}
+
+	PrimTanningRack: {
+		DisplayName: 原始的ななめしのラック
+		Tooltip: ""
+	}
+
+	SabertoothSkin: {
+		DisplayName: サーベルタイガーの皮
+		Tooltip: ""
+	}
+
+	barberpole: {
+		DisplayName: 理容室の柱
+		Tooltip: ""
+	}
+
+	bottle2: {
+		DisplayName: ヘアスプレー
+		Tooltip: "「9種類のアロマ！」"
+	}
+
+	mannheadleft: {
+		DisplayName: マネキンの頭
+		Tooltip:
+			'''
+			「ハゲバージョンと8種類のウィッグ付き！」
+			左向き
+			'''
+	}
+
+	mannheadoriginal: {
+		DisplayName: マネキンの頭（オリジナル）
+		Tooltip: 「ヘアスタイルを変更するには設置後に右クリックしよう」
+	}
+
+	mannheadright: {
+		DisplayName: マネキンの頭
+		Tooltip:
+			'''
+			「ハゲバージョンと8種類のウィッグ付き！」
+			右向き
+			'''
+	}
+
+	bell: {
+		DisplayName: 時計台の鐘
+		Tooltip: ""
+	}
+
+	BiomeJarCorruption: {
+		DisplayName: 不浄の瓶
+		Tooltip: ""
+	}
+
+	BiomeJarCrimson: {
+		DisplayName: 真紅の瓶
+		Tooltip: ""
+	}
+
+	BiomeJarForest: {
+		DisplayName: 森林の瓶
+		Tooltip: ""
+	}
+
+	BiomeJarHallow: {
+		DisplayName: 聖域の瓶
+		Tooltip: ""
+	}
+
+	BiomeJarJungle: {
+		DisplayName: ジャングルの瓶
+		Tooltip: ""
+	}
+
+	cobwall: {
+		DisplayName: 穂軸の壁
+		Tooltip: ""
+	}
+
+	glasswall: {
+		DisplayName: 鉛ガラスの壁
+		Tooltip: ""
+	}
+
+	granitebrick: {
+		DisplayName: 御影石のレンガ
+		Tooltip: ""
+	}
+
+	granitebrickwall: {
+		DisplayName: 御影石のレンガ壁
+		Tooltip: ""
+	}
+
+	granitepillar: {
+		DisplayName: 御影石の柱
+		Tooltip: ""
+	}
+
+	hierogwall: {
+		DisplayName: 砂岩のレンガ壁
+		Tooltip: ""
+	}
+
+	Ivy: {
+		DisplayName: ツタ
+		Tooltip: ""
+	}
+
+	leadglass: {
+		DisplayName: 鉛ガラス
+		Tooltip: ""
+	}
+
+	marblepillar: {
+		DisplayName: 大理石の柱
+		Tooltip: ""
+	}
+
+	marbleslab: {
+		DisplayName: 大理石の平石
+		Tooltip: ""
+	}
+
+	marbleslabwall: {
+		DisplayName: 大理石の平石の壁
+		Tooltip: ""
+	}
+
+	OrganPipe: {
+		DisplayName: オルガンパイプ
+		Tooltip: ""
+	}
+
+	sandpillar: {
+		DisplayName: 砂の柱
+		Tooltip: ""
+	}
+
+	sandstonebrick: {
+		DisplayName: 砂岩レンガ
+		Tooltip: ""
+	}
+
+	sandstonepillar: {
+		DisplayName: 砂岩の柱
+		Tooltip: ""
+	}
+
+	Shingles: {
+		DisplayName: 黒い帯板
+		Tooltip: ""
+	}
+
+	Stonepillar: {
+		DisplayName: 石の柱
+		Tooltip: ""
+	}
+
+	SunflowerWall: {
+		DisplayName: ひまわりの壁
+		Tooltip: ""
+	}
+
+	SunflowerWallWindy: {
+		DisplayName: 風を受けるひまわりの壁
+		Tooltip: 風のエフェクトがあるひまわりの壁
+	}
+
+	bottle: {
+		DisplayName: 酒瓶
+		Tooltip: "「9種類の味！」"
+	}
+
+	brazier: {
+		DisplayName: 吊り火鉢
+		Tooltip: ""
+	}
+
+	CabBlue: {
+		DisplayName: 青ダンジョンのキャビネット
+		Tooltip: ""
+	}
+
+	CabBone: {
+		DisplayName: 骨のキャビネット
+		Tooltip: ""
+	}
+
+	CabBoreal: {
+		DisplayName: ボリアルウッドのキャビネット
+		Tooltip: ""
+	}
+
+	CabCactus: {
+		DisplayName: サボテンのキャビネット
+		Tooltip: ""
+	}
+
+	CabCrystal: {
+		DisplayName: クリスタルのキャビネット
+		Tooltip: ""
+	}
+
+	CabDynasty: {
+		DisplayName: 王朝風のキャビネット
+		Tooltip: ""
+	}
+
+	CabEbon: {
+		DisplayName: エボンウッドのキャビネット
+		Tooltip: ""
+	}
+
+	CabFlesh: {
+		DisplayName: 肉のキャビネット
+		Tooltip: ""
+	}
+
+	CabGlass: {
+		DisplayName: ガラスのキャビネット
+		Tooltip: ""
+	}
+
+	CabGolden: {
+		DisplayName: 黄金のキャビネット
+		Tooltip: ""
+	}
+
+	CabGranite: {
+		DisplayName: 御影石のキャビネット
+		Tooltip: ""
+	}
+
+	CabGreen: {
+		DisplayName: 緑ダンジョンのキャビネット
+		Tooltip: ""
+	}
+
+	CabHoney: {
+		DisplayName: 蜂蜜のキャビネット
+		Tooltip: ""
+	}
+
+	CabIce: {
+		DisplayName: 凍ったキャビネット
+		Tooltip: ""
+	}
+
+	CabLiving: {
+		DisplayName: リビングウッドのキャビネット
+		Tooltip: ""
+	}
+
+	CabLizard: {
+		DisplayName: リザードのキャビネット
+		Tooltip: ""
+	}
+
+	CabMahogany: {
+		DisplayName: マホガニーのキャビネット
+		Tooltip: ""
+	}
+
+	CabMarble: {
+		DisplayName: 大理石のキャビネット
+		Tooltip: ""
+	}
+
+	CabMartian: {
+		DisplayName: 火星のキャビネット
+		Tooltip: ""
+	}
+
+	CabMeteor: {
+		DisplayName: メテオライトのキャビネット
+		Tooltip: ""
+	}
+
+	CabMushroom: {
+		DisplayName: キノコのキャビネット
+		Tooltip: ""
+	}
+
+	CabObsidian: {
+		DisplayName: 黒曜石のキャビネット
+		Tooltip: ""
+	}
+
+	CabPalm: {
+		DisplayName: ヤシの木のキャビネット
+		Tooltip: ""
+	}
+
+	CabPearl: {
+		DisplayName: パールウッドのキャビネット
+		Tooltip: ""
+	}
+
+	CabPink: {
+		DisplayName: ピンクダンジョンのキャビネット
+		Tooltip: ""
+	}
+
+	CabPumpkin: {
+		DisplayName: カボチャのキャビネット
+		Tooltip: ""
+	}
+
+	CabShade: {
+		DisplayName: シェイドウッドのキャビネット
+		Tooltip: ""
+	}
+
+	CabSkyware: {
+		DisplayName: 天空のキャビネット
+		Tooltip: ""
+	}
+
+	CabSlime: {
+		DisplayName: スライムのキャビネット
+		Tooltip: ""
+	}
+
+	CabSpooky: {
+		DisplayName: 不気味なキャビネット
+		Tooltip: ""
+	}
+
+	CabSteampunk: {
+		DisplayName: スチームパンクのキャビネット
+		Tooltip: ""
+	}
+
+	CabWood: {
+		DisplayName: 木のキャビネット
+		Tooltip: ""
+	}
+
+	carpet_1: {
+		DisplayName: 赤い絨毯
+		Tooltip:  「床の上に設置可能」
+	}
+
+	carpet_10: {
+		DisplayName: ピンクの絨毯
+		Tooltip: 「床の上に設置可能」
+	}
+
+	carpet_11: {
+		DisplayName: 大理石の平石の床
+		Tooltip: 「床の上に設置可能」
+	}
+
+	carpet_12: {
+		DisplayName: 高級な絨毯
+		Tooltip: 「床の上に設置可能」
+	}
+
+	carpet_2: {
+		DisplayName: 緑の絨毯
+		Tooltip: 「床の上に設置可能」
+	}
+
+	carpet_3: {
+		DisplayName: 灰レンガの床
+		Tooltip: 「床の上に設置可能」
+	}
+
+	carpet_4: {
+		DisplayName: 木の床
+		Tooltip: 「床の上に設置可能」
+	}
+
+	carpet_5: {
+		DisplayName: 滑らかな大理石の床
+		Tooltip: 「床の上に設置可能」
+	}
+
+	carpet_6: {
+		DisplayName: 滑らかな御影石の床
+		Tooltip: 「床の上に設置可能」
+	}
+
+	carpet_7: {
+		DisplayName: 市松模様の床
+		Tooltip: 「床の上に設置可能」
+	}
+
+	carpet_8: {
+		DisplayName: 青の絨毯
+		Tooltip: 「床の上に設置可能」
+	}
+
+	carpet_9: {
+		DisplayName: 黄の絨毯
+		Tooltip: 「床の上に設置可能」
+	}
+
+	stanleyknife: {
+		DisplayName: スタンレーナイフ
+		Tooltip: 絨毯の除去に使う
+	}
+
+	Chalice: {
+		DisplayName: 聖杯
+		Tooltip: ""
+	}
+
+	BishopBlack: {
+		DisplayName: 黒のビショップ
+		Tooltip: ""
+	}
+
+	BishopWhite: {
+		DisplayName: 白のビショップ
+		Tooltip: ""
+	}
+
+	KingBlack: {
+		DisplayName: 黒のキング
+		Tooltip: ""
+	}
+
+	KingWhite: {
+		DisplayName: 白のキング
+		Tooltip: ""
+	}
+
+	KnightBlack: {
+		DisplayName: 黒のナイト
+		Tooltip: ""
+	}
+
+	KnightWhite: {
+		DisplayName: 白のナイト
+		Tooltip: ""
+	}
+
+	PawnBlack: {
+		DisplayName: 黒のポーン
+		Tooltip: ""
+	}
+
+	PawnWhite: {
+		DisplayName: 白のポーン
+		Tooltip: ""
+	}
+
+	QueenBlack: {
+		DisplayName: 黒のクイーン
+		Tooltip: ""
+	}
+
+	QueenWhite: {
+		DisplayName: 白のクイーン
+		Tooltip: ""
+	}
+
+	RookBlack: {
+		DisplayName: 黒のルーク
+		Tooltip: ""
+	}
+
+	RookWhite: {
+		DisplayName: 白のルーク
+		Tooltip: ""
+	}
+
+	boneclock: {
+		DisplayName: 骨の時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	borealclock: {
+		DisplayName: ボリアルウッドの時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	cactusclock: {
+		DisplayName: サボテンの時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	dynastyclock: {
+		DisplayName: 王朝風の時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	ebonclock: {
+		DisplayName: エボンウッドの時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	fleshclock: {
+		DisplayName: 肉の時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	goldclock: {
+		DisplayName: 黄金の時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	graniteclock: {
+		DisplayName: 御影石の時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	honeyclock: {
+		DisplayName: 蜂蜜の時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	iceclock: {
+		DisplayName: 凍った時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	livingclock: {
+		DisplayName: リビングウッドの時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	lizardclock: {
+		DisplayName: リザードの時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	maclockany: {
+		DisplayName: マホガニーの時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	marbleclock: {
+		DisplayName: 大理石の時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	meteorclock: {
+		DisplayName: メテオライトの時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	mushroomclock: {
+		DisplayName: キノコの時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	obsidianclock: {
+		DisplayName: 黒曜石の時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	palmclock: {
+		DisplayName: ヤシの木の時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	pearlclock: {
+		DisplayName: パールウッドの時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	pumpkinclock: {
+		DisplayName: カボチャの時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	shadeclock: {
+		DisplayName: シェイドウッドの時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	spooclock: {
+		DisplayName: 不気味な時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	steamclock: {
+		DisplayName: スチームパンクの時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	sunclock: {
+		DisplayName: 天空の時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	woodclock: {
+		DisplayName: 木の時計
+		Tooltip: 壁に吊り下げることができる
+	}
+
+	coatrack: {
+		DisplayName: コートのラック
+		Tooltip: 「小さいコートのラック」
+	}
+
+	coatrack2: {
+		DisplayName: コートのラック
+		Tooltip: 「大きなコートのラック」
+	}
+
+	CobWeb: {
+		DisplayName: 丈夫なクモの巣
+		Tooltip: 「壊れにくい」
+	}
+
+	crate: {
+		DisplayName: 木箱
+		Tooltip: 「積み重ねることができる」
+	}
+
+	DiningChair: {
+		DisplayName: ダイニングチェア
+		Tooltip: ""
+	}
+
+	Diningtable: {
+		DisplayName: ダイニングテーブル
+		Tooltip: ""
+	}
+
+	easel: {
+		DisplayName: 画架
+		Tooltip: ""
+	}
+
+CashRegister: {
+		DisplayName: レジ
+		Tooltip: 「資本主義万歳！」
+	}
+
+
+	Computer: {
+		DisplayName: コンピューター
+		Tooltip: 「フロッピーディスクを挿入し、オペレーションシステムをインストールしてください」
+	}
+
+	computer2: {
+		DisplayName: ハイテクコンピューター
+		Tooltip: 「もうゲームがラグることはないはずさ！」
+	}
+
+	computer3: {
+		DisplayName: ハイテクコンピューター
+		Tooltip: 「もうゲームがラグることはないはずさ！」
+	}
+
+	computer4: {
+		DisplayName: ハイテクコンピューター
+		Tooltip: 「もうゲームがラグることはないはずさ！」
+	}
+
+	ComputerMonitor: {
+		DisplayName: コンピューターモニター
+		Tooltip: 「新品のCRTコンピューターモニター」
+	}
+
+	Laptop: {
+		DisplayName: ノートパソコン
+		Tooltip: 「仕事、ゲーム、猫の昼寝に最適」
+	}
+
+	Television: {
+		DisplayName: テレビ
+		Tooltip:
+			'''
+			「白黒だ」
+			右クリックでオン／オフ
+			'''
+	}
+
+	Television2: {
+		DisplayName: プラズマテレビ
+		Tooltip:
+			'''
+			「人間の目が認識できる以上の色を持っている！」
+			右クリックでオン／オフ
+			てんかん警告
+			'''
+	}
+
+	ETBlue: {
+		DisplayName: 青ダンジョンのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETBone: {
+		DisplayName: 骨のエンドテーブル
+		Tooltip: ""
+	}
+
+	ETBoreal: {
+		DisplayName: ボリアルウッドのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETCactus: {
+		DisplayName: サボテンのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETCrystal: {
+		DisplayName: クリスタルのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETDynasty: {
+		DisplayName: 王朝風のエンドテーブル
+		Tooltip: ""
+	}
+
+	ETEbon: {
+		DisplayName: エボンウッドのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETFlesh: {
+		DisplayName: 肉のエンドテーブル
+		Tooltip: ""
+	}
+
+	ETGlass: {
+		DisplayName: ガラスのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETGolden: {
+		DisplayName: 黄金のエンドテーブル
+		Tooltip: ""
+	}
+
+	ETGothic: {
+		DisplayName: ゴシック調のエンドテーブル
+		Tooltip: ""
+	}
+
+	ETGranite: {
+		DisplayName: 御影石のエンドテーブル
+		Tooltip: ""
+	}
+
+	ETGreen: {
+		DisplayName: 緑レンガのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETHoney: {
+		DisplayName: 蜂蜜のエンドテーブル
+		Tooltip: ""
+	}
+
+	ETIce: {
+		DisplayName: 凍ったエンドテーブル
+		Tooltip: ""
+	}
+
+	ETLiving: {
+		DisplayName: リビングウッドのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETLizard: {
+		DisplayName: リザードのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETMahogany: {
+		DisplayName: マホガニーのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETMarble: {
+		DisplayName: 大理石のエンドテーブル
+		Tooltip: ""
+	}
+
+	ETMartian: {
+		DisplayName: 火星のエンドテーブル
+		Tooltip: ""
+	}
+
+	ETMeteor: {
+		DisplayName: メテオライトのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETMushroom: {
+		DisplayName: キノコのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETObsidian: {
+		DisplayName: 黒曜石のエンドテーブル
+		Tooltip: ""
+	}
+
+	ETPalm: {
+		DisplayName: ヤシの木のエンドテーブル
+		Tooltip: ""
+	}
+
+	ETPearl: {
+		DisplayName: パールウッドのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETPink: {
+		DisplayName: ピンクダンジョンのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETPumpkin: {
+		DisplayName: カボチャのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETShade: {
+		DisplayName: シェイドウッドのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETSkyware: {
+		DisplayName: 天空のエンドテーブル
+		Tooltip: ""
+	}
+
+	ETSlime: {
+		DisplayName: スライムのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETSpooky: {
+		DisplayName: 不気味なエンドテーブル
+		Tooltip: ""
+	}
+
+	ETSteampunk: {
+		DisplayName: スチームパンクのエンドテーブル
+		Tooltip: ""
+	}
+
+	ETWood: {
+		DisplayName: エンドテーブル
+		Tooltip: ""
+	}
+
+	GiantFountain: {
+		DisplayName: 巨大なムーンロードの噴水
+		Tooltip: ""
+	}
+
+	horsestatue: {
+		DisplayName: 馬の像
+		Tooltip: "「マジェスティック」"
+	}
+
+	MarbleFountain: {
+		DisplayName: 大理石の噴水
+		Tooltip: ""
+	}
+
+	StatueAzura: {
+		DisplayName: アズラの像
+		Tooltip: ""
+	}
+
+	StatueClavicus: {
+		DisplayName: クラヴィカス・ヴァイルの像
+		Tooltip: ""
+	}
+
+	birdhouse: {
+		DisplayName: 巣箱
+		Tooltip: "「鳥たちの夢の家」"
+	}
+
+	BirdhouseCardinal: {
+		DisplayName: 小鳥の巣箱
+		Tooltip: "「小鳥たちの夢の家」"
+	}
+
+	BirdhouseGold: {
+		DisplayName: 金色の巣箱
+		Tooltip: "「鳥たちの夢の家」"
+	}
+
+	BirdhouseJay: {
+		DisplayName: アオカケスの巣箱
+		Tooltip: "「アオカケスたちの夢の家」"
+	}
+
+	BonsaiTree: {
+		DisplayName: 盆栽
+		Tooltip: ""
+	}
+
+	ETRush: {
+		DisplayName: イグサのエンドテーブル
+		Tooltip: ""
+	}
+
+	GiantButtercup: {
+		DisplayName: 巨大なバターカップ
+		Tooltip: ""
+	}
+
+	gnome: {
+		DisplayName: ノーム
+		Tooltip: 「小さなシャベルを持っている」
+	}
+
+	Gnome2: {
+		DisplayName: ノーム
+		Tooltip: 「小さな手押し車を持っている」
+	}
+
+	Gnome3: {
+		DisplayName: ノーム
+		Tooltip: 「小さな釣り竿を持っている」
+	}
+
+	GnomeHouse: {
+		DisplayName: ノームの家
+		Tooltip: 「キノコと混同しないように」
+	}
+
+	HallowedFlowerbush: {
+		DisplayName: 神聖な花の茂み
+		Tooltip: ""
+	}
+
+	IronChair: {
+		DisplayName: 錬鉄のイス
+		Tooltip: ""
+	}
+
+	JunglePlant: {
+		DisplayName: ジャングルの植物
+		Tooltip: ""
+	}
+
+	JunglePlant2: {
+		DisplayName: 大きなジャングルの植物
+		Tooltip: ""
+	}
+
+	Miracle: {
+		DisplayName: ミラクルシードミックス
+		Tooltip: 森林
+	}
+
+	MiracleCorruption: {
+		DisplayName: ミラクルシードミックス
+		Tooltip: 不浄
+	}
+
+	MiracleCorruptionFlower: {
+		DisplayName: ミラクルシードミックス
+		Tooltip:
+			'''
+			不浄
+			花
+			'''
+	}
+
+	MiracleCrimson: {
+		DisplayName: ミラクルシードミックス
+		Tooltip: 真紅
+	}
+
+	MiracleCrimsonFlower: {
+		DisplayName: ミラクルシードミックス
+		Tooltip:
+			'''
+			真紅
+			花
+			'''
+	}
+
+	MiracleFlower: {
+		DisplayName: ミラクルシードミックス
+		Tooltip:
+			'''
+			森林
+			花
+			'''
+	}
+
+	MiracleHallowed: {
+		DisplayName: ミラクルシードミックス
+		Tooltip: 聖域
+	}
+
+	MiracleHallowedFlower: {
+		DisplayName: ミラクルシードミックス
+		Tooltip:
+			'''
+			聖域
+			花
+			'''
+	}
+
+	MiracleJungle: {
+		DisplayName: ミラクルシードミックス
+		Tooltip: ジャングル
+	}
+
+	MiracleJungleFlower: {
+		DisplayName: ミラクルシードミックス
+		Tooltip:
+			'''
+			ジャングル
+			花
+			'''
+	}
+
+	MiracleMushroom: {
+		DisplayName: ミラクルシードミックス
+		Tooltip: 光るキノコ
+	}
+
+	Plant: {
+		DisplayName: 植物
+		Tooltip: ""
+	}
+
+	Plant10: {
+		DisplayName: 植物
+		Tooltip: ""
+	}
+
+	Plant11: {
+		DisplayName: 植物
+		Tooltip: ""
+	}
+
+	Plant12: {
+		DisplayName: ヤシの木
+		Tooltip: ""
+	}
+
+	Plant13: {
+		DisplayName: ヤシの木
+		Tooltip: ""
+	}
+
+	Plant2: {
+		DisplayName: 植物
+		Tooltip: ""
+	}
+
+	Plant3: {
+		DisplayName: 植物
+		Tooltip: ""
+	}
+
+	Plant4: {
+		DisplayName: 植物
+		Tooltip: ""
+	}
+
+	Plant5: {
+		DisplayName: 植物
+		Tooltip: ""
+	}
+
+	Plant6: {
+		DisplayName: 植物
+		Tooltip: ""
+	}
+
+	Plant7: {
+		DisplayName: サボテン
+		Tooltip: ""
+	}
+
+	Plant8: {
+		DisplayName: サボテン
+		Tooltip: ""
+	}
+
+	Plant9: {
+		DisplayName: サボテン
+		Tooltip: ""
+	}
+
+	RabbitHole: {
+		DisplayName: ウサギの穴
+		Tooltip:
+			'''
+			「食料と水源の近くの庭園に位置するエレガントな物件でありながら、ヨーロッパ式ウサギ建築の野性的で逞しいカントリーテイストを表現している
+			建築年：1854」
+			- 4ベッド
+			- 2バス
+			- キッチン付き
+			'''
+	}
+
+	RushChair: {
+		DisplayName: イグサのイス
+		Tooltip: ""
+	}
+
+	RushTable: {
+		DisplayName: イグサのテーブル
+		Tooltip: ""
+	}
+
+	RushWorkBench: {
+		DisplayName: イグサの作業台
+		Tooltip: ""
+	}
+
+	SmallCactus: {
+		DisplayName: 小さなサボテン
+		Tooltip: ""
+	}
+
+	StrangePlant: {
+		DisplayName: 奇妙な種
+		Tooltip: 植木鉢に入る程度の小さな奇妙な植物を育てることができる
+	}
+
+	StrangePlant1: {
+		DisplayName: 奇妙な種
+		Tooltip: 植木鉢に入る程度の小さな奇妙な植物を育てることができる
+	}
+
+	StrangePlant2: {
+		DisplayName: 奇妙な種
+		Tooltip: 植木鉢に入る程度の小さな奇妙な植物を育てることができる
+	}
+
+	StrangePlant3: {
+		DisplayName: 奇妙な種
+		Tooltip: 植木鉢に入る程度の小さな奇妙な植物を育てることができる
+	}
+
+	WateringCan: {
+		DisplayName: じょうろ
+		Tooltip:
+			'''
+			Miracle Mix(R)ブランドの草花を左/右クリック
+			すると異なるフレームに切り替わる
+			'''
+	}
+
+	windmill: {
+		DisplayName: 風車
+		Tooltip: 「小さなものだが」
+	}
+
+	GunRack: {
+		DisplayName: 銃のラック
+		Tooltip: ""
+	}
+
+	keg: {
+		DisplayName: 大樽
+		Tooltip: エールの醸造に使う
+	}
+
+	keg2: {
+		DisplayName: 樽
+		Tooltip: エールの醸造に使う
+	}
+
+	keg3: {
+		DisplayName: 樽
+		Tooltip:
+			'''
+			「ただし左を向いている」
+			エールの醸造に使う
+			'''
+	}
+
+	kingbed: {
+		DisplayName: 天蓋付きのベッド
+		Tooltip: ""
+	}
+
+	counter: {
+		DisplayName: キッチンカウンター
+		Tooltip: ""
+	}
+
+	counter2: {
+		DisplayName: キッチンカウンター
+		Tooltip: ""
+	}
+
+	countersink: {
+		DisplayName: キッチンシンク
+		Tooltip: ""
+	}
+
+	fridge: {
+		DisplayName: 冷蔵庫
+		Tooltip: ""
+	}
+
+	kniferack: {
+		DisplayName: ナイフのラック
+		Tooltip: ""
+	}
+
+	minifridge: {
+		DisplayName: 小型冷蔵庫
+		Tooltip: 一般的に食品に使用される
+	}
+
+	OrnateCounter: {
+		DisplayName: 装飾用のキッチンカウンター
+		Tooltip: ""
+	}
+
+	OrnateCounter2: {
+		DisplayName: 装飾用のキッチンカウンター
+		Tooltip: ""
+	}
+
+	OrnateCounterSink: {
+		DisplayName: 装飾用のキッチンシンク
+		Tooltip: ""
+	}
+
+	OrnateFridge: {
+		DisplayName: 装飾用の冷蔵庫
+		Tooltip: ""
+	}
+
+	plate: {
+		DisplayName: 金の皿
+		Tooltip: ""
+	}
+
+	Pot: {
+		DisplayName: 料理鍋
+		Tooltip: ""
+	}
+
+	stove: {
+		DisplayName: ストーブ
+		Tooltip: 鉱石の精錬や食品の調理に使うことができる
+	}
+
+	StoveOrnate: {
+		DisplayName: 装飾用のストーブ
+		Tooltip:
+			'''
+			鉱石の精錬や食品の調理に使うことができる
+			「普通のストーブよりファンシーで古く見える」
+			'''
+	}
+
+	StuffedTurkey: {
+		DisplayName: 七面鳥の詰め物
+		Tooltip: 「厳密な装飾」
+	}
+
+	ladder: {
+		DisplayName: 梯子
+		Tooltip: ""
+	}
+
+	lantern: {
+		DisplayName: 吊下げられたランプ
+		Tooltip: ""
+	}
+
+	bust: {
+		DisplayName: 胸像
+		Tooltip: 「ローマ皇帝か何かだ」
+	}
+
+	Globe: {
+		DisplayName: 地球儀
+		Tooltip: 「2Dのゲームなのに立体地球儀だって？」
+	}
+
+	LargeGlobe: {
+		DisplayName: 大きな地球儀
+		Tooltip: 「2Dのゲームなのに立体地球儀だって？」
+	}
+
+	ornatebook: {
+		DisplayName: 装飾用の本棚
+		Tooltip: ""
+	}
+
+	limecrocket: {
+		DisplayName: 石灰岩の尖塔
+		Tooltip: 「石灰岩の装飾品」
+	}
+
+	limecrocket2: {
+		DisplayName: 大きな石灰岩の尖塔
+		Tooltip: 「石灰岩の装飾品」
+	}
+
+	limecrocket3: {
+		DisplayName: 大きな石灰岩の尖塔
+		Tooltip: 「石灰岩の装飾品」
+	}
+
+	limecrocket4: {
+		DisplayName: 小さな石灰岩の尖塔
+		Tooltip: 「石灰岩の装飾品」
+	}
+
+	limegargoyle: {
+		DisplayName: 石灰岩のガーゴイルの立像
+		Tooltip: 「石灰岩の装飾品」
+	}
+
+	limegargoyle2: {
+		DisplayName: 石灰岩のガーゴイルの像
+		Tooltip: 「石灰岩の装飾品」
+	}
+
+	limestone: {
+		DisplayName: 石灰岩の平石
+		Tooltip: ""
+	}
+
+	limestone2: {
+		DisplayName: 石灰岩の平石のアーチ
+		Tooltip: 「石灰岩の平石との併用が最適」
+	}
+
+	limestone3: {
+		DisplayName: 石灰岩の平石のエンタブラチュア
+		Tooltip: 「石灰岩の平石との併用が最適」
+	}
+
+	LimestoneSmall: {
+		DisplayName: 石灰岩のレンガ
+		Tooltip: ""
+	}
+
+	limestonewall: {
+		DisplayName: 石灰岩の平石の壁
+		Tooltip: ""
+	}
+
+	limestonewall2: {
+		DisplayName: 石灰岩のレンガ壁
+		Tooltip: ""
+	}
+
+	Jute: {
+		DisplayName: 麻
+		Tooltip: ""
+	}
+
+	paper: {
+		DisplayName: 紙
+		Tooltip: ""
+	}
+
+	RoyalCloth: {
+		DisplayName: ロイヤルクロス
+		Tooltip: ""
+	}
+
+	stardust: {
+		DisplayName: 星屑
+		Tooltip: 「おそらく家具を作るには最高の材料だろう...」
+	}
+
+	borealmirror: {
+		DisplayName: ボリアルウッドの鏡
+		Tooltip: ""
+	}
+
+	ebonmirror: {
+		DisplayName: エボンウッドの鏡
+		Tooltip: ""
+	}
+
+	mahoganymirror: {
+		DisplayName: マホガニーの鏡
+		Tooltip: ""
+	}
+
+	palmmirror: {
+		DisplayName: ヤシの木の鏡
+		Tooltip: ""
+	}
+
+	pearlmirror: {
+		DisplayName: パールウッドの鏡
+		Tooltip: ""
+	}
+
+	shademirror: {
+		DisplayName: シェイドウッドの鏡
+		Tooltip: ""
+	}
+
+	woodmirror: {
+		DisplayName: 鏡
+		Tooltip: ""
+	}
+
+	ModelCastle: {
+		DisplayName: 城の模型
+		Tooltip: ""
+	}
+
+	moneybagcopper: {
+		DisplayName: 袋詰めのコッパーコイン
+		Tooltip: ""
+	}
+
+	moneybaggold: {
+		DisplayName: 袋詰めのゴールドコイン
+		Tooltip: ""
+	}
+
+	moneybagplatinum: {
+		DisplayName: 袋詰めのプラチナコイン
+		Tooltip: ""
+	}
+
+	moneybagsilver: {
+		DisplayName: 袋詰めのシルバーコイン
+		Tooltip: ""
+	}
+
+	MysteriousTablet: {
+		DisplayName: 装飾用の不思議なタブレット
+		Tooltip: ""
+	}
+
+	ETMystic: {
+		DisplayName: 神秘的なエンドテーブル
+		Tooltip: ""
+	}
+
+	mysticbath: {
+		DisplayName: 神秘的なバスタブ
+		Tooltip: ""
+	}
+
+	mysticbed: {
+		DisplayName: 神秘的なベッド
+		Tooltip: ""
+	}
+
+	mysticbook: {
+		DisplayName: 神秘的な本棚
+		Tooltip: ""
+	}
+
+	mysticcandel: {
+		DisplayName: 神秘的な燭台
+		Tooltip: ""
+	}
+
+	mysticcandle: {
+		DisplayName: 神秘的な蝋燭
+		Tooltip: ""
+	}
+
+	mysticchand: {
+		DisplayName: 神秘的なシャンデリア
+		Tooltip: ""
+	}
+
+	mysticchest: {
+		DisplayName: 神秘的な宝箱
+		Tooltip: 「次元の空洞が中で蠢く音が聞こえる」
+	}
+
+	mysticclock: {
+		DisplayName: 神秘的な時計
+		Tooltip: ""
+	}
+
+	mysticclock2: {
+		DisplayName: 神秘的な時計
+		Tooltip: ""
+	}
+
+	mysticcloset: {
+		DisplayName: 神秘的なワードローブ
+		Tooltip: ""
+		"Cannot be made in multiplayer": Mods.chadsfurniport.Items.mysticcloset.Cannot be made in multiplayer
+	}
+
+	mysticdoor: {
+		DisplayName: 神秘的なドア
+		Tooltip: ""
+	}
+
+	mysticdresser: {
+		DisplayName: 神秘的なドレッサー
+		Tooltip: ""
+	}
+
+	mysticlamp: {
+		DisplayName: 神秘的なランプ
+		Tooltip: ""
+	}
+
+	mysticlant: {
+		DisplayName: 神秘的なランタン
+		Tooltip: ""
+	}
+
+	mysticpiano: {
+		DisplayName: 神秘的なピアノ
+		Tooltip: ""
+	}
+
+	MysticPlatform: {
+		DisplayName: 神秘的な足場
+		Tooltip: ""
+	}
+
+	mysticpouf: {
+		DisplayName: 神秘的なプーフ
+		Tooltip: ""
+	}
+
+	mysticsink: {
+		DisplayName: 神秘的なシンク
+		Tooltip: ""
+	}
+
+	mysticsofa: {
+		DisplayName: 神秘的なソファ
+		Tooltip: ""
+	}
+
+	mystictable: {
+		DisplayName: 神秘的なテーブル
+		Tooltip: ""
+	}
+
+	mysticworkbench: {
+		DisplayName: 神秘的な作業台
+		Tooltip: ""
+	}
+
+	FilingCabinet: {
+		DisplayName: ファイルキャビネット
+		Tooltip: ""
+	}
+
+	NoticeBoard: {
+		DisplayName: 掲示板
+		Tooltip: ""
+	}
+
+	radiator: {
+		DisplayName: ラジエーター
+		Tooltip: 「錆びたラジエーター」
+	}
+
+	OrnateChandelier: {
+		DisplayName: 装飾用の金のシャンデリア
+		Tooltip: 「『普通の』金のシャンデリアではゴールドが足りない場合」
+	}
+
+	OrnateChandelier2: {
+		DisplayName: 装飾用のプラチナのシャンデリア
+		Tooltip: 「『普通の』プラチナのシャンデリアではプラチナが足りない場合」
+	}
+
+	beanbag: {
+		DisplayName: 豆袋のイス
+		Tooltip: 「Paintables(R)コレクションより！」
+	}
+
+	easychair: {
+		DisplayName: 安楽イス
+		Tooltip: 「Paintables(R)コレクションより！」
+	}
+
+	lamp: {
+		DisplayName: ランプ
+		Tooltip: 「Paintables(R)コレクションより！」
+	}
+
+	lamp2: {
+		DisplayName: ランタン
+		Tooltip: 「Paintables(R)コレクションより！」
+	}
+
+	mug: {
+		DisplayName: マグカップ
+		Tooltip: 「Paintables(R)コレクションより！」
+	}
+
+	sofa: {
+		DisplayName: ソファ
+		Tooltip: 「Paintables(R)コレクションより！」
+	}
+
+	paintface: {
+		DisplayName: 溶けた顔
+		Tooltip: "'Chadwick M. deVries'"
+	}
+
+	paintflower: {
+		DisplayName: とても孤独な花
+		Tooltip: "'Chadwick M. deVries'"
+	}
+
+	paintflutelady: {
+		DisplayName: フルート・レディ
+		Tooltip: "'Chadwick M. deVries'"
+	}
+
+	paintfuckingagony: {
+		DisplayName: インターネット接続が悪すぎてオンラインで何もできない
+		Tooltip: "'Chadwick M. deVries'"
+	}
+
+	PaintFuryForged: {
+		DisplayName: フューリーのModテラリア100エピソード！
+		Tooltip:
+			'''
+			唯一無二の祝賀絵画
+			'Chadwick M. deVries'
+			'''
+	}
+
+	paintmount: {
+		DisplayName: 山
+		Tooltip: "'X. Zimur'"
+	}
+
+	paintplant: {
+		DisplayName: 植物の抵抗
+		Tooltip: "'Chadwick M. deVries'"
+	}
+
+	paintrancher: {
+		DisplayName: スライムランチャー
+		Tooltip: "'Chadwick M. deVries'"
+	}
+
+	paintree: {
+		DisplayName: 巨木
+		Tooltip: "'X. Zimur'"
+	}
+
+	paintself: {
+		DisplayName: 自画像
+		Tooltip: "'Chadwick M. deVries'"
+	}
+
+	paintsjaak: {
+		DisplayName: ジャック・ド・モンフォール
+		Tooltip: "'Chadwick M. deVries'"
+	}
+
+	paintslime: {
+		DisplayName: ピンクの微笑み
+		Tooltip: "'Chadwick M. deVries'"
+	}
+
+	paintsunflower: {
+		DisplayName: ひまわり
+		Tooltip: "'X. Zimur'"
+	}
+
+	paintveil: {
+		DisplayName: ベールに包まれた人
+		Tooltip: "'Chadwick M. deVries'"
+	}
+
+	paintwater: {
+		DisplayName: 水と空
+		Tooltip: "'X. Zimur'"
+	}
+
+	altarcrimson: {
+		DisplayName: クリムゾンアルター
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	altardemon: {
+		DisplayName: デーモンアルター
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	ashbit: {
+		DisplayName: 大きな灰のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bagamethyst: {
+		DisplayName: アメジストの隠し場所
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bagcopper: {
+		DisplayName: 銅貨の袋
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bagcopper2: {
+		DisplayName: 銅貨の岩
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bagdiamond: {
+		DisplayName: ダイヤモンドの隠し場所
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bagemerald: {
+		DisplayName: エメラルドの隠し場所
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	baggold: {
+		DisplayName: 金貨の袋
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	baggold2: {
+		DisplayName: 金貨の岩
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bagruby: {
+		DisplayName: ルビーの隠し場所
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bagsapphire: {
+		DisplayName: サファイアの隠し場所
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bagsilver: {
+		DisplayName: 銀貨の袋
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bagsilver2: {
+		DisplayName: 銀貨の岩
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bagtopaz: {
+		DisplayName: トパーズの隠し場所
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	beemite: {
+		DisplayName: 小さな蜂蜜の石筍 
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	beetite: {
+		DisplayName: 小さな蜂蜜の鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bit: {
+		DisplayName: 小さな石のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bit2: {
+		DisplayName: 石のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bit3: {
+		DisplayName: 大きな石のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bonebit: {
+		DisplayName: 小さな骨のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bonebit2: {
+		DisplayName: 骨のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bonebit3: {
+		DisplayName: 大きな骨のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	cormite: {
+		DisplayName: 不浄の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	cormite2: {
+		DisplayName: 小さな不浄の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	cortite: {
+		DisplayName: 不浄の鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	cortite2: {
+		DisplayName: 小さな不浄の鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	crimite: {
+		DisplayName: 真紅の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	crimite2: {
+		DisplayName: 小さな真紅の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	critite: {
+		DisplayName: 真紅の鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	critite2: {
+		DisplayName: 小さな真紅の鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	dirtbit: {
+		DisplayName: 小さな土のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	furniturebit: {
+		DisplayName: 壊れた家具のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	furniturebit2: {
+		DisplayName: 大きな壊れた家具のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	granbit: {
+		DisplayName: 小さな御影石のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	granbit2: {
+		DisplayName: 御影石のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	granbit3: {
+		DisplayName: 大きな御影石のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	granmite: {
+		DisplayName: 御影石の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	granmite2: {
+		DisplayName: 小さな御影石の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	grantite: {
+		DisplayName: 御影石の鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	grantite2: {
+		DisplayName: 小さな御影石の鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	icebit: {
+		DisplayName: 小さな氷のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	icebit2: {
+		DisplayName: 大きな氷のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	junglebit: {
+		DisplayName: 大きなジャングルの岩のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	lizardbit: {
+		DisplayName: 大きなリザードのオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	marbit: {
+		DisplayName: 小さな大理石のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	marbit2: {
+		DisplayName: 大理石のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	marbit3: {
+		DisplayName: 大きな大理石のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	marmite: {
+		DisplayName: 大理石の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	marmite2: {
+		DisplayName: 小さな大理石の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	martite: {
+		DisplayName: 大理石の鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	martite2: {
+		DisplayName: 小さな大理石の鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	mossbit: {
+		DisplayName: 苔むした石のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	mossbit2: {
+		DisplayName: 大きな苔むした石のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	mushroombit: {
+		DisplayName: 大きなキノコ岩のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	orbheart: {
+		DisplayName: クリムゾンハート
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	orbshadow: {
+		DisplayName: シャドウオーブ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	pearlmite: {
+		DisplayName: パールストーンの石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	pearlmite2: {
+		DisplayName: 小さなパールストーンの石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	pearltite: {
+		DisplayName: パールストーンの鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	pearltite2: {
+		DisplayName: 小さなパールストーンの鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	sandbit: {
+		DisplayName: 小さな砂岩のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	sandbit2: {
+		DisplayName: 砂岩のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	sandbit3: {
+		DisplayName: 大きな砂岩のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	sandmite: {
+		DisplayName: 砂岩の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	sandmite2: {
+		DisplayName: 小さな砂岩の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	sandtite: {
+		DisplayName: 砂岩の鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	sandtite2: {
+		DisplayName: 小さな砂岩の鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	snowbit: {
+		DisplayName: 小さな雪のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	snowbit2: {
+		DisplayName: 雪のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	stalagmice: {
+		DisplayName: 氷の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	stalagmice2: {
+		DisplayName: 小さな氷の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	stalagmite: {
+		DisplayName: 石の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	stalagmite2: {
+		DisplayName: 小さな石の石筍
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	stalagtite: {
+		DisplayName: 石の鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	stalagtite2: {
+		DisplayName: 小さな石の鍾乳石
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	swordbit: {
+		DisplayName: 石に刺さった偽物の剣
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	swordbit2: {
+		DisplayName: 石に刺さった本物の剣
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	toolbit: {
+		DisplayName: 小さな道具のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	toolbit2: {
+		DisplayName: 大きな道具のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	underbit: {
+		DisplayName: 大きな洞窟のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	webbit: {
+		DisplayName: 小さなクモの巣のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	webbit2: {
+		DisplayName: クモの巣のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	webbit3: {
+		DisplayName: 大きなクモの巣のオブジェ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	websack: {
+		DisplayName: クモの巣の袋
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	bowlofsoup: {
+		DisplayName: 装飾用のスープ皿
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	cookedfish: {
+		DisplayName: 装飾用の焼き魚
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	cookedshrimp: {
+		DisplayName: 装飾用の蒸しエビ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	eggnog: {
+		DisplayName: 装飾用のエッグノッグ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	harp: {
+		DisplayName: 装飾用の魔法のハープ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	heart: {
+		DisplayName: 装飾用のライフクリスタル
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	honeyfin: {
+		DisplayName: 装飾用の蜂蜜のヒレ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	lifefruit: {
+		DisplayName: 装飾用のライフフルーツ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	MedusaHead: {
+		DisplayName: 装飾用のメデューサの頭
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	padthai: {
+		DisplayName: 装飾用のパッタイ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	pho: {
+		DisplayName: 装飾用のフォー
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_110: {
+		DisplayName: 装飾用の小型マナポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_1134: {
+		DisplayName: 装飾用の瓶詰めの蜂蜜
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_126: {
+		DisplayName: 装飾用の瓶詰めの水
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_1340: {
+		DisplayName: 装飾用の猛毒のフラスコ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_1353: {
+		DisplayName: 装飾用の呪炎のフラスコ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_1354: {
+		DisplayName: 装飾用の火のフラスコ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_1355: {
+		DisplayName: 装飾用の金のフラスコ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_1356: {
+		DisplayName: 装飾用の霊液のフラスコ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_1357: {
+		DisplayName: 装飾用のナノマシンのフラスコ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_1358: {
+		DisplayName: 装飾用の紙吹雪のフラスコ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_1359: {
+		DisplayName: 装飾用の毒のフラスコ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_188: {
+		DisplayName: 装飾用のライフポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_189: {
+		DisplayName: 装飾用のマナポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_1919: {
+		DisplayName: 装飾用のシュガークッキー
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_1920: {
+		DisplayName: 装飾用のジンジャーブレッド・クッキー
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2209: {
+		DisplayName: 装飾用のスーパーマナポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_226: {
+		DisplayName: 装飾用の小型リストアポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2266: {
+		DisplayName: 装飾用の日本酒
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_227: {
+		DisplayName: 装飾用のリストアポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2322: {
+		DisplayName: 装飾用の掘削のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2323: {
+		DisplayName: 装飾用のハート回収ポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2324: {
+		DisplayName: 装飾用の平穏のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2325: {
+		DisplayName: 装飾用の建築のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2326: {
+		DisplayName: 装飾用の巨人のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2327: {
+		DisplayName: 装飾用の遊泳のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2328: {
+		DisplayName: 装飾用の召喚のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2329: {
+		DisplayName: 装飾用の危険察知ポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2344: {
+		DisplayName: 装飾用の弾薬節約ポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2345: {
+		DisplayName: 装飾用の生命強化ポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2346: {
+		DisplayName: 装飾用の耐久のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2347: {
+		DisplayName: 装飾用の怒りのポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2348: {
+		DisplayName: 装飾用の獄炎のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2349: {
+		DisplayName: 装飾用の激怒のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2350: {
+		DisplayName: 装飾用の帰還のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2351: {
+		DisplayName: 装飾用の瞬間移動ポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2352: {
+		DisplayName: 装飾用の愛のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2353: {
+		DisplayName: 装飾用の悪臭のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2354: {
+		DisplayName: 装飾用の釣りのポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2355: {
+		DisplayName: 装飾用の魚探知のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2356: {
+		DisplayName: 装飾用の箱のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2359: {
+		DisplayName: 装飾用の暖気のポーション　
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2756: {
+		DisplayName: 装飾用の性転換のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_28: {
+		DisplayName: 装飾用の小型ライフポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_288: {
+		DisplayName: 装飾用の黒曜石の肌ポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_289: {
+		DisplayName: 装飾用の自然回復ポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_290: {
+		DisplayName: 装飾用の俊足のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_291: {
+		DisplayName: 装飾用のエラのポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_292: {
+		DisplayName: 装飾用の鉄壁のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_293: {
+		DisplayName: 装飾用のマナ自然回復ポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_294: {
+		DisplayName: 装飾用の魔法力ポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_295: {
+		DisplayName: 装飾用の落下制御ポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_296: {
+		DisplayName: 装飾用の探検家のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_297: {
+		DisplayName: 装飾用の透明化のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_298: {
+		DisplayName: 装飾用の輝きのポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_299: {
+		DisplayName: 装飾用の夜目のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_2997: {
+		DisplayName: 装飾用のワームホールのポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_300: {
+		DisplayName: 装飾用の闘争のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_3001: {
+		DisplayName: 装飾用の奇妙な薬
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_301: {
+		DisplayName: 装飾用のイバラのポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_302: {
+		DisplayName: 装飾用の水上歩行ポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_303: {
+		DisplayName: 装飾用の弓使いのポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_304: {
+		DisplayName: 装飾用の狩人のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_305: {
+		DisplayName: 装飾用の重力制御のポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_353: {
+		DisplayName: 装飾用のエール
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_3544: {
+		DisplayName: 装飾用のスーパーライフポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_499: {
+		DisplayName: 装飾用のグレートライフポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	potion_500: {
+		DisplayName: 装飾用のグレートマナポーション
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	pudding: {
+		DisplayName: 装飾用のクリスマスプディング
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	sashimi: {
+		DisplayName: 装飾用の刺身
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	poster_0: {
+		DisplayName: ポスター
+		Tooltip: "「私たちならできる！」"
+	}
+
+	postermc: {
+		DisplayName: マインクラフトポスター
+		Tooltip: ""
+	}
+
+	posterraria: {
+		DisplayName: テラリアポスター
+		Tooltip: "「これは見覚えがある...」"
+	}
+
+	skyrimmap: {
+		DisplayName: スカイリムの地図
+		Tooltip: ""
+	}
+
+	worldmap: {
+		DisplayName: 世界地図
+		Tooltip: "「もう古い」"
+	}
+
+	ancientpot: {
+		DisplayName: ピラミッドの壺
+		Tooltip: ""
+	}
+
+	bonepot: {
+		DisplayName: ダンジョンの壺
+		Tooltip: ""
+	}
+
+	brownpot: {
+		DisplayName: 壺
+		Tooltip: ""
+	}
+
+	corruptionpot: {
+		DisplayName: 不浄の壺
+		Tooltip: ""
+	}
+
+	crimsonpot: {
+		DisplayName: 真紅の壺
+		Tooltip: ""
+	}
+
+	frozenpot: {
+		DisplayName: 凍った壺
+		Tooltip: ""
+	}
+
+	lizardpot: {
+		DisplayName: リザードの壺
+		Tooltip: ""
+	}
+
+	marblepot: {
+		DisplayName: 大理石の壺
+		Tooltip: ""
+	}
+
+	obsidianpot: {
+		DisplayName: 地獄の壺
+		Tooltip: ""
+	}
+
+	PlantPot0: {
+		DisplayName: 植木鉢
+		Tooltip: ""
+	}
+
+	PlantPot1: {
+		DisplayName: 植木鉢
+		Tooltip: ""
+	}
+
+	PlantPot2: {
+		DisplayName: 植木鉢
+		Tooltip: ""
+	}
+
+	PlantPot3: {
+		DisplayName: 植木鉢
+		Tooltip: ""
+	}
+
+	PlantPot4: {
+		DisplayName: 植木鉢
+		Tooltip: ""
+	}
+
+	PlantPot5: {
+		DisplayName: 植木鉢
+		Tooltip: ""
+	}
+
+	PlantPot6: {
+		DisplayName: 植木鉢
+		Tooltip: ""
+	}
+
+	PlantPot7: {
+		DisplayName: 植木鉢
+		Tooltip: ""
+	}
+
+	PlantPot8: {
+		DisplayName: 植木鉢
+		Tooltip: ""
+	}
+
+	PlantPot9: {
+		DisplayName: 植木鉢
+		Tooltip: ""
+	}
+
+	rushbasket: {
+		DisplayName: ジャングルの壺
+		Tooltip: ""
+	}
+
+	spiderbulb: {
+		DisplayName: クモの壺
+		Tooltip: ""
+	}
+
+	ETPrincess: {
+		DisplayName: プリンセスのエンドテーブル
+		Tooltip: ""
+	}
+
+	prinbath: {
+		DisplayName: プリンセスの浴槽
+		Tooltip: ""
+	}
+
+	prinbed: {
+		DisplayName: プリンセスのベッド
+		Tooltip: ""
+	}
+
+	prinbook: {
+		DisplayName: プリンセスの本棚
+		Tooltip: ""
+	}
+
+	princandel: {
+		DisplayName: プリンセスの燭台
+		Tooltip: ""
+	}
+
+	princandle: {
+		DisplayName: プリンセスの蝋燭
+		Tooltip: ""
+	}
+
+	princhair: {
+		DisplayName: プリンセスのイス
+		Tooltip: ""
+	}
+
+	princhand: {
+		DisplayName: プリンセスのシャンデリア
+		Tooltip: ""
+	}
+
+	princhest: {
+		DisplayName: プリンセスの宝箱
+		Tooltip: ""
+	}
+
+	princlock: {
+		DisplayName: プリンセスの時計
+		Tooltip: ""
+	}
+
+	princlock2: {
+		DisplayName: プリンセスの時計
+		Tooltip: ""
+	}
+
+	princloset: {
+		DisplayName: プリンセスのワードローブ
+		Tooltip: ""
+		"Cannot be made in multiplayer": Mods.chadsfurniport.Items.princloset.Cannot be made in multiplayer
+	}
+
+	prindoor: {
+		DisplayName: プリンセスのドア
+		Tooltip: ""
+	}
+
+	prindresser: {
+		DisplayName: プリンセスのドレッサー
+		Tooltip: ""
+	}
+
+	prinlamp: {
+		DisplayName: プリンセスのランプ
+		Tooltip: ""
+	}
+
+	prinlant: {
+		DisplayName: プリンセスのランタン
+		Tooltip: ""
+	}
+
+	prinmirror: {
+		DisplayName: プリンセスの鏡
+		Tooltip: ""
+	}
+
+	prinpiano: {
+		DisplayName: プリンセスのピアノ
+		Tooltip: ""
+	}
+
+	PrinPlatform: {
+		DisplayName: プリンセスの足場
+		Tooltip: ""
+	}
+
+	prinsink: {
+		DisplayName: プリンセスのシンク
+		Tooltip: ""
+	}
+
+	prinsofa: {
+		DisplayName: プリンセスのソファ
+		Tooltip: ""
+	}
+
+	printable: {
+		DisplayName: プリンセスのテーブル
+		Tooltip: ""
+	}
+
+	prinwork: {
+		DisplayName: プリンセスの作業台
+		Tooltip: ""
+	}
+
+	ETRoyal: {
+		DisplayName: 王室のエンドテーブル
+		Tooltip: ""
+	}
+
+	KingBedActual: {
+		DisplayName: 王室の天蓋付きベッド
+		Tooltip: ""
+	}
+
+	RoyalBookcase: {
+		DisplayName: 王室の本棚
+		Tooltip: ""
+	}
+
+	RoyalCandel: {
+		DisplayName: 王室の燭台
+		Tooltip: ""
+	}
+
+	RoyalCandle: {
+		DisplayName: 王室の蝋燭
+		Tooltip: ""
+	}
+
+	RoyalChair: {
+		DisplayName: 王室のダイニングチェア
+		Tooltip: ""
+	}
+
+	RoyalChest: {
+		DisplayName: 王室の宝箱
+		Tooltip: ""
+	}
+
+	RoyalClock: {
+		DisplayName: 王室の時計
+		Tooltip: ""
+	}
+
+	RoyalClock2: {
+		DisplayName: 王室の時計
+		Tooltip: ""
+	}
+
+	RoyalCurtain: {
+		DisplayName: 王室のカーテン
+		Tooltip: ""
+	}
+
+	RoyalDiningTable: {
+		DisplayName: 王室のダイニングテーブル
+		Tooltip: ""
+	}
+
+	RoyalDoor: {
+		DisplayName: 王室のドア
+		Tooltip: ""
+	}
+
+	RoyalDresser: {
+		DisplayName: 王室のドレッサー
+		Tooltip: ""
+	}
+
+	RoyalLamp: {
+		DisplayName: 王室のランプ
+		Tooltip: ""
+	}
+
+	RoyalLantern: {
+		DisplayName: 王室のランタン
+		Tooltip: ""
+	}
+
+	RoyalPiano: {
+		DisplayName: 王室のピアノ
+		Tooltip: ""
+	}
+
+	RoyalPlatform: {
+		DisplayName: 王室の足場
+		Tooltip: ""
+	}
+
+	RoyalPouf: {
+		DisplayName: 王室のプーフ
+		Tooltip: ""
+	}
+
+	RoyalSink: {
+		DisplayName: 王室のシンク
+		Tooltip: ""
+	}
+
+	RoyalSofa: {
+		DisplayName: 王室のソファ
+		Tooltip: ""
+	}
+
+	RoyalWardrobe: {
+		DisplayName: 王室のワードローブ
+		Tooltip: ""
+		"Cannot be made in multiplayer": Mods.chadsfurniport.Items.RoyalWardrobe.Cannot be made in multiplayer
+	}
+
+	RoyalWorkbench: {
+		DisplayName: 王室の作業台
+		Tooltip: ""
+	}
+
+	Throne: {
+		DisplayName: 背の高い玉座
+		Tooltip: "「格別に威厳があり、格別に背の高い人のために」"
+	}
+
+	Throne2: {
+		DisplayName: 背の高い玉座
+		Tooltip: "「格別に威厳があり、格別に背の高い人のために」"
+	}
+
+	Throne3: {
+		DisplayName: 玉座
+		Tooltip: ""
+	}
+
+	ETSandstone: {
+		DisplayName: 砂岩のエンドテーブル
+		Tooltip: ""
+	}
+
+	horus: {
+		DisplayName: ホルスの目
+		Tooltip: 宗教的（および装飾的）な意味合いを持つ
+	}
+
+	sandstonebath: {
+		DisplayName: 砂岩の浴槽
+		Tooltip: ""
+	}
+
+	sandstonebed: {
+		DisplayName: 砂岩の石棺
+		Tooltip: ""
+	}
+
+	sandstonebook: {
+		DisplayName: 砂岩の本棚
+		Tooltip: ""
+	}
+
+	sandstonecandel: {
+		DisplayName: 砂岩の燭台
+		Tooltip: ""
+	}
+
+	sandstonecandle: {
+		DisplayName: 砂岩の蝋燭
+		Tooltip: ""
+	}
+
+	sandstonechair: {
+		DisplayName: 砂岩のイス
+		Tooltip: ""
+	}
+
+	sandstonechand: {
+		DisplayName: 砂岩の火鉢
+		Tooltip: ""
+	}
+
+	sandstonechest: {
+		DisplayName: 砂岩の骨壺
+		Tooltip: ""
+	}
+
+	sandstoneclock: {
+		DisplayName: 砂岩の時計
+		Tooltip: ""
+	}
+
+	sandstoneclock2: {
+		DisplayName: 砂岩の時計
+		Tooltip: ""
+	}
+
+	sandstonecloset: {
+		DisplayName: 砂岩のワードローブ
+		Tooltip: ""
+		"Cannot be made in multiplayer": Mods.chadsfurniport.Items.sandstonecloset.Cannot be made in multiplayer
+	}
+
+	sandstonedoor: {
+		DisplayName: 砂岩のドア
+		Tooltip: ""
+	}
+
+	sandstonedresser: {
+		DisplayName: 砂岩のドレッサー
+		Tooltip: ""
+	}
+
+	sandstonelamp: {
+		DisplayName: 砂岩のランプ
+		Tooltip: ""
+	}
+
+	sandstonelant: {
+		DisplayName: 砂岩のランタン
+		Tooltip: ""
+	}
+
+	sandstonepiano: {
+		DisplayName: 砂岩のピアノ
+		Tooltip: ""
+	}
+
+	SandstonePlatform: {
+		DisplayName: 砂岩の足場
+		Tooltip: ""
+	}
+
+	sandstonesink: {
+		DisplayName: 砂岩のシンク
+		Tooltip: ""
+	}
+
+	sandstonesofa: {
+		DisplayName: 砂岩のソファ
+		Tooltip: ""
+	}
+
+	sandstonetable: {
+		DisplayName: 砂岩のテーブル
+		Tooltip: ""
+	}
+
+	sandstonetorch: {
+		DisplayName: 砂岩の松明
+		Tooltip: ""
+	}
+
+	sandstoneworkbench: {
+		DisplayName: 砂岩の作業台
+		Tooltip: ""
+	}
+
+	mintjar: {
+		DisplayName: ジャー・オ・ミント
+		Tooltip: "「純粋に装飾目的だ」"
+	}
+
+	tipjar: {
+		DisplayName: チップ入れ
+		Tooltip: "「純粋に装飾目的だ」"
+	}
+
+	signbank: {
+		DisplayName: 銀行の看板
+		Tooltip: "「コインの山を示す」"
+	}
+
+	signbook: {
+		DisplayName: 図書館の看板
+		Tooltip: "「開いた本を示す」"
+	}
+
+	signempty: {
+		DisplayName: 空の看板
+		Tooltip: ""
+	}
+
+	signfish: {
+		DisplayName: 魚の看板
+		Tooltip: "「バスを示す」"
+	}
+
+	signjewel: {
+		DisplayName: 宝石の看板
+		Tooltip: "「ダイヤモンドを示す」"
+	}
+
+	signpub: {
+		DisplayName: 居酒屋の看板
+		Tooltip: "「ビールのジョッキを示す」"
+	}
+
+	signsmith: {
+		DisplayName: 鍛冶屋の看板
+		Tooltip: "「金床を示す」"
+	}
+
+	signtailor: {
+		DisplayName: 仕立て屋の看板
+		Tooltip: "「糸巻きを示す」"
+	}
+
+	StglCthulhu: {
+		DisplayName: 大きなステンドグラスの窓
+		Tooltip: "「ムーンロードが描かれている」"
+	}
+
+	StglDryad: {
+		DisplayName: ステンドグラスの窓
+		Tooltip: "「ドライアドが描かれている」"
+	}
+
+	StglNebula: {
+		DisplayName: 小さなステンドグラスの窓
+		Tooltip: "「ネビュラピラーが描かれている」"
+	}
+
+	StglSolar: {
+		DisplayName: 小さなステンドグラスの窓
+		Tooltip: "「ソーラーピラーが描かれている」"
+	}
+
+	StglStardust: {
+		DisplayName: 小さなステンドグラスの窓
+		Tooltip: "「スターダストピラーが描かれている」"
+	}
+
+	StglVortex: {
+		DisplayName: 小さなステンドグラスの窓
+		Tooltip: "「ボルテックスピラーが描かれている」"
+	}
+
+	blacksmith: {
+		DisplayName: 鍛冶屋の炉
+		Tooltip:
+			'''
+			鉱石を溶かすのに使う
+			インゴットからアイテムを作成できる
+			'''
+	}
+
+	CultivationBox: {
+		DisplayName: 栽培箱
+		Tooltip: 植物の加工に使う
+	}
+
+	hardsmith1: {
+		DisplayName: ハードモードの鍛冶屋の炉
+		Tooltip:
+			'''
+			鉱石を溶かすのに使う
+			インゴットからアイテムを作成できる
+			'''
+	}
+
+	hardsmith2: {
+		DisplayName: ハードモードの鍛冶屋の炉
+		Tooltip:
+			'''
+			鉱石を溶かすのに使う
+			インゴットからアイテムを作成できる
+			'''
+	}
+
+	hardsmith3: {
+		DisplayName: ハードモードの鍛冶屋の炉
+		Tooltip:
+			'''
+			鉱石を溶かすのに使う
+			インゴットからアイテムを作成できる
+			'''
+	}
+
+	hardsmith4: {
+		DisplayName: ハードモードの鍛冶屋の炉
+		Tooltip:
+			'''
+			鉱石を溶かすのに使う
+			インゴットからアイテムを作成できる
+			'''
+	}
+
+	hellsmith: {
+		DisplayName: 地獄の鍛冶屋の炉
+		Tooltip:
+			'''
+			鉱石を溶かすのに使う
+			インゴットからアイテムを作成できる
+			'''
+	}
+
+	printer: {
+		DisplayName: プリンター
+		Tooltip: ""
+	}
+
+	printer3: {
+		DisplayName: 3Dプリンター
+		Tooltip: ""
+	}
+
+	RimpelstiltskinsLoom: {
+		DisplayName: ルンペルシュティルツキンの回し車
+		Tooltip: "「家具の製作に使う」"
+	}
+
+	wallomatic: {
+		DisplayName: ウォール・オ・マチック
+		Tooltip: "「特別な壁を作るために」"
+	}
+
+	statuebee: {
+		DisplayName: クイーンビーのフィギュア
+		Tooltip: ""
+	}
+
+	statuebrain: {
+		DisplayName: クトゥルフの脳のフィギュア
+		Tooltip: ""
+	}
+
+	statuecult: {
+		DisplayName: 狂気の崇拝者のフィギュア
+		Tooltip: ""
+	}
+
+	statueduke: {
+		DisplayName: デューク・フィッシュロンのフィギュア
+		Tooltip: ""
+	}
+
+	statueeye: {
+		DisplayName: クトゥルフの目のフィギュア
+		Tooltip: ""
+	}
+
+	statuegolem: {
+		DisplayName: ゴーレムのフィギュア
+		Tooltip: ""
+	}
+
+	statueking: {
+		DisplayName: キングスライムのフィギュア
+		Tooltip: ""
+	}
+
+	statuelord: {
+		DisplayName: ムーンロードのフィギュア
+		Tooltip: ""
+	}
+
+	statuemechskull: {
+		DisplayName: スケルトロンプライムのフィギュア
+		Tooltip: ""
+	}
+
+	statuemechworm: {
+		DisplayName: デストロイヤーのフィギュア
+		Tooltip: ""
+	}
+
+	statueplant: {
+		DisplayName: プランテラのフィギュア
+		Tooltip: ""
+	}
+
+	statueretina: {
+		DisplayName: レティナイザーのフィギュア
+		Tooltip: ""
+	}
+
+	statueskull: {
+		DisplayName: スケルトロンのフィギュア
+		Tooltip: ""
+	}
+
+	statuespazm: {
+		DisplayName: スパズマティズムのフィギュア
+		Tooltip: ""
+	}
+
+	statuetortoise: {
+		DisplayName: ゾウガメのフィギュア
+		Tooltip: ""
+	}
+
+	statuewall: {
+		DisplayName: ウォールオブフレッシュのフィギュア
+		Tooltip: ""
+	}
+
+	statueworm: {
+		DisplayName: イーターオブワールドのフィギュア
+		Tooltip: ""
+	}
+
+	stool: {
+		DisplayName: スツール
+		Tooltip: "「小さなスツール」"
+	}
+
+	Tapestry: {
+		DisplayName: タペストリー
+		Tooltip: "「ドライアドに騎士の称号を授けられるジャック王が描かれている」"
+	}
+
+	Tapestry2: {
+		DisplayName: タペストリー
+		Tooltip: "「クリムゾンの脅威と対峙するジャック王が描かれている」"
+	}
+
+	Tapestry3: {
+		DisplayName: タペストリー
+		Tooltip: "「ジャック王が、妻が操縦するカタパルトで不慮の死を遂げた様子が描かれている」"
+	}
+
+	Tapestry4: {
+		DisplayName: タペストリー
+		Tooltip: "「ジャック王の家系図が描かれている」"
+	}
+
+	BlueBanner: {
+		DisplayName: 鮮やかな青のバナー
+		Tooltip: ""
+	}
+
+	bluebannerl: {
+		DisplayName: 大きな青のバナー
+		Tooltip: ""
+	}
+
+	CurtainBlue: {
+		DisplayName: 青のカーテン
+		Tooltip: ""
+	}
+
+	CurtainGreen: {
+		DisplayName: 緑のカーテン
+		Tooltip: ""
+	}
+
+	CurtainPink: {
+		DisplayName: ピンクのカーテン
+		Tooltip: ""
+	}
+
+	CurtainRed: {
+		DisplayName: 赤のカーテン
+		Tooltip: ""
+	}
+
+	CurtainYellow: {
+		DisplayName: 黄のカーテン
+		Tooltip: ""
+	}
+
+	GreenBanner: {
+		DisplayName: 鮮やかな緑のバナー
+		Tooltip: ""
+	}
+
+	greenbannerl: {
+		DisplayName: 大きな緑のバナー
+		Tooltip: ""
+	}
+
+	pinkbanner: {
+		DisplayName: 鮮やかなピンクのバナー
+		Tooltip: ""
+	}
+
+	pinkbannerl: {
+		DisplayName: 大きなピンクのバナー
+		Tooltip: ""
+	}
+
+	RedBanner: {
+		DisplayName: 鮮やかな赤のバナー
+		Tooltip: ""
+	}
+
+	redbannerl: {
+		DisplayName: 大きな赤のバナー
+		Tooltip: ""
+	}
+
+	YellowBanner: {
+		DisplayName: 鮮やかな黄のバナー
+		Tooltip: ""
+	}
+
+	yellowbannerl: {
+		DisplayName: 大きな黄のバナー
+		Tooltip: ""
+	}
+
+	telescope: {
+		DisplayName: 望遠鏡
+		Tooltip: ""
+	}
+
+	TelescopeGold: {
+		DisplayName: 金の望遠鏡
+		Tooltip: ""
+	}
+
+	TelescopePlatinum: {
+		DisplayName: プラチナの望遠鏡
+		Tooltip: ""
+	}
+
+	Toolrack: {
+		DisplayName: 暖炉のラック
+		Tooltip: ""
+	}
+
+	Toolrack2: {
+		DisplayName: 金の暖炉のラック
+		Tooltip: ""
+	}
+
+	BorealWoodTrellis: {
+		DisplayName: ボリアルウッドの格子柵
+		Tooltip: ""
+	}
+
+	EbonwoodTrellis: {
+		DisplayName: エボンウッドの格子柵
+		Tooltip: ""
+	}
+
+	PalmWoodTrellis: {
+		DisplayName: ヤシの木の格子柵
+		Tooltip: ""
+	}
+
+	PearlwoodTrellis: {
+		DisplayName: パールウッドの格子柵
+		Tooltip: ""
+	}
+
+	RichMahoganyTrellis: {
+		DisplayName: マホガニーの格子柵
+		Tooltip: ""
+	}
+
+	ShadewoodTrellis: {
+		DisplayName: シェイドウッドの格子柵
+		Tooltip: ""
+	}
+
+	WoodTrellis: {
+		DisplayName: 木の格子柵
+		Tooltip: ""
+	}
+
+	WCBlue: {
+		DisplayName: 青ダンジョン壁の燭台
+		Tooltip: ""
+	}
+
+	WCBone: {
+		DisplayName: 骨の壁の燭台
+		Tooltip: ""
+	}
+
+	WCBoreal: {
+		DisplayName: ボリアルウッドの壁の燭台
+		Tooltip: ""
+	}
+
+	WCCactus: {
+		DisplayName: サボテンの壁の燭台
+		Tooltip: ""
+	}
+
+	WCCrystal: {
+		DisplayName: クリスタルの壁の燭台
+		Tooltip: ""
+	}
+
+	WCDynasty: {
+		DisplayName: 大きな王朝風の壁の燭台
+		Tooltip: ""
+	}
+
+	WCEbon: {
+		DisplayName: エボンウッドの壁の燭台
+		Tooltip: ""
+	}
+
+	WCFlesh: {
+		DisplayName: 肉の壁の燭台
+		Tooltip: ""
+	}
+
+	WCGel: {
+		DisplayName: スライムの壁の燭台
+		Tooltip: ""
+	}
+
+	WCGlass: {
+		DisplayName: ガラスの壁の燭台
+		Tooltip: ""
+	}
+
+	WCGold: {
+		DisplayName: 壁の燭台
+		Tooltip: ""
+	}
+
+	WCGolden: {
+		DisplayName: 黄金の壁の燭台
+		Tooltip: ""
+	}
+
+	WCGranite: {
+		DisplayName: 御影石の壁の燭台
+		Tooltip: ""
+	}
+
+	WCGreen: {
+		DisplayName: 緑ダンジョン壁の燭台
+		Tooltip: ""
+	}
+
+	WCHoney: {
+		DisplayName: 蜂蜜の壁の燭台
+		Tooltip: ""
+	}
+
+	WCIce: {
+		DisplayName: 凍った壁の燭台
+		Tooltip: ""
+	}
+
+	WCLiving: {
+		DisplayName: リビングウッドの壁の燭台
+		Tooltip: ""
+	}
+
+	WCLizard: {
+		DisplayName: リザードの壁の燭台
+		Tooltip: ""
+	}
+
+	WCMahogany: {
+		DisplayName: マホガニーの壁の燭台
+		Tooltip: ""
+	}
+
+	WCMarble: {
+		DisplayName: 大理石の壁の燭台
+		Tooltip: ""
+	}
+
+	WCMartian: {
+		DisplayName: 火星の壁の燭台
+		Tooltip: ""
+	}
+
+	WCMeteor: {
+		DisplayName: メテオライトの壁の燭台
+		Tooltip: ""
+	}
+
+	WCMushroom: {
+		DisplayName: キノコの壁の燭台
+		Tooltip: ""
+	}
+
+	WCObsidian: {
+		DisplayName: 黒曜石の壁の燭台
+		Tooltip: ""
+	}
+
+	WCPalm: {
+		DisplayName: ヤシの木の壁の燭台
+		Tooltip: ""
+	}
+
+	WCPearl: {
+		DisplayName: パールウッドの壁の燭台
+		Tooltip: ""
+	}
+
+	WCPink: {
+		DisplayName: ピンクダンジョン壁の燭台
+		Tooltip: ""
+	}
+
+	WCPlatinum: {
+		DisplayName: プラチナの壁の燭台
+		Tooltip: ""
+	}
+
+	WCPumpkin: {
+		DisplayName: カボチャの壁の燭台
+		Tooltip: ""
+	}
+
+	WCShade: {
+		DisplayName: シェイドウッドの壁の燭台
+		Tooltip: ""
+	}
+
+	WCSpooky: {
+		DisplayName: 不気味な木の壁の燭台
+		Tooltip: ""
+	}
+
+	WCSteampunk: {
+		DisplayName: スチームパンクの壁の燭台
+		Tooltip: ""
+	}
+
+	WCSunplate: {
+		DisplayName: 天空の壁の燭台
+		Tooltip: ""
+	}
+
+	wardrobebony: {
+		DisplayName: エボンウッドのワードローブ
+		Tooltip: ""
+	}
+
+	wardrobeboreal: {
+		DisplayName: ボリアルウッドのワードローブ
+		Tooltip: ""
+	}
+
+	wardrobemahogany: {
+		DisplayName: マホガニーのワードローブ
+		Tooltip: ""
+	}
+
+	wardrobepalm: {
+		DisplayName: ヤシの木のワードローブ
+		Tooltip: ""
+	}
+
+	wardrobepearl: {
+		DisplayName: パールウッドのワードローブ
+		Tooltip: ""
+	}
+
+	wardrobeshade: {
+		DisplayName: シェイドウッドのワードローブ
+		Tooltip: ""
+	}
+
+	wardrobewood: {
+		DisplayName: ワードローブ
+		Tooltip: ""
+	}
+
+	fountainmettaton: {
+		DisplayName: メタトンの像
+		Tooltip: ""
+	}
+
+	horsestatueright: {
+		DisplayName: 馬の像
+		Tooltip: "「ただし右を向いている」"
+	}
+
+	WateringCanReplica: {
+		DisplayName: 装飾用のじょうろ
+		Tooltip: "「※プラスチックのレプリカ」"
+	}
+
+	Bar: {
+		DisplayName: カクテルバー
+		Tooltip: ""
+	}
+
+	chadstoken: {
+		DisplayName: チャドのトークン
+		Tooltip: レシピのない家具を作るために
+	}
+
+	wallborderlessmirror: {
+		DisplayName: 枠のない壁掛けの鏡
+		Tooltip: ""
+	}
+
+	wallborealmirror: {
+		DisplayName: 壁掛けのボリアルウッドの鏡
+		Tooltip: ""
+	}
+
+	wallebonmirror: {
+		DisplayName: 壁掛けのエボンウッドの鏡
+		Tooltip: ""
+	}
+
+	wallmahoganymirror: {
+		DisplayName: 壁掛けのマホガニーの鏡
+		Tooltip: ""
+	}
+
+	wallpalmmirror: {
+		DisplayName: 壁掛けのヤシの木の鏡
+		Tooltip: ""
+	}
+
+	wallpearlmirror: {
+		DisplayName: 壁掛けのパールウッドの鏡
+		Tooltip: ""
+	}
+
+	wallshademirror: {
+		DisplayName: 壁掛けのシェイドウッドの鏡
+		Tooltip: ""
+	}
+
+	wallwoodmirror: {
+		DisplayName: 壁掛けの木の鏡
+		Tooltip: ""
+	}
+
+	SpecialPottedPlant1: {
+		DisplayName: 鉢植えのシダ
+		Tooltip: ""
+	}
+
+	SpecialPottedPlant2: {
+		DisplayName: 鉢植えの神聖な花の茂み
+		Tooltip: ""
+	}
+
+	SpecialPottedPlant3: {
+		DisplayName: 鉢植えの巨大なバターカップ
+		Tooltip: ""
+	}
+
+	SpecialPottedPlant4: {
+		DisplayName: 鉢植えの植物
+		Tooltip: ""
+	}
+
+	SpecialPottedPlant5: {
+		DisplayName: 鉢植えのプランテラのつぼみ
+		Tooltip: ""
+	}
+
+	statueangrybones: {
+		DisplayName: アングリーボーンのフィギュア
+		Tooltip: ""
+	}
+
+	statueanomura: {
+		DisplayName: アノムラファンガスのフィギュア
+		Tooltip: ""
+	}
+
+	statueantlion: {
+		DisplayName: アントリオンのフィギュア
+		Tooltip: ""
+	}
+
+	statueantlioncharger: {
+		DisplayName: アントリオンチャージャーのフィギュア
+		Tooltip: ""
+	}
+
+	statueantlionswarmer: {
+		DisplayName: アントリオンスワーマーのフィギュア
+		Tooltip: ""
+	}
+
+	statuebat: {
+		DisplayName: ケイブバットのフィギュア
+		Tooltip: ""
+	}
+
+	statuebloodcrawler: {
+		DisplayName: ブラッドクロウラーのフィギュア
+		Tooltip: ""
+	}
+
+	statuebloodzombie: {
+		DisplayName: ブラッドゾンビのフィギュア
+		Tooltip: ""
+	}
+
+	statueboneserpent: {
+		DisplayName: ボーンサーペントのフィギュア
+		Tooltip: ""
+	}
+
+	statuecochineal: {
+		DisplayName: コチニールビートルのフィギュア
+		Tooltip: ""
+	}
+
+	statuecrab: {
+		DisplayName: クラブのフィギュア
+		Tooltip: ""
+	}
+
+	statuecrawdad: {
+		DisplayName: ザリガニのフィギュア
+		Tooltip: ""
+	}
+
+	statuecrimera: {
+		DisplayName: クリメラのフィギュア
+		Tooltip: ""
+	}
+
+	statuecursedskull: {
+		DisplayName: カースドスカルのフィギュア
+		Tooltip: ""
+	}
+
+	statuecyanbeetle: {
+		DisplayName: シアンビートルのフィギュア
+		Tooltip: ""
+	}
+
+	statuedarkcaster: {
+		DisplayName: ダークキャスターのフィギュア
+		Tooltip: ""
+	}
+
+	statuedemon: {
+		DisplayName: デーモンのフィギュア
+		Tooltip: ""
+	}
+
+	statuedemoneye: {
+		DisplayName: デーモンアイのフィギュア
+		Tooltip: ""
+	}
+
+	statuedevourer: {
+		DisplayName: デバウラーのフィギュア
+		Tooltip: ""
+	}
+
+	statuejellyfish: {
+		DisplayName: ブルージェリーフィッシュのフィギュア
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	BirdhouseBird: {
+		DisplayName: 鳥
+	}
+
+	BirdhouseCardinal: {
+		DisplayName: カーディナル
+	}
+
+	BirdhouseGold: {
+		DisplayName: 金色の鳥
+	}
+
+	BirdhouseJay: {
+		DisplayName: アオカケス
+	}
+
+	RabbitHoleBunny: {
+		DisplayName: ウサギ
+	}
+}
+
+Tiles: {
+	crate: {
+		ContainerName: Wooden Crate
+		MapEntry: Wooden Crate
+	}
+
+	minifridge: {
+		ContainerName: Mini Fridge
+		MapEntry: Mini Fridge
+	}
+
+	mysticchest: {
+		ContainerName: Mystic Chest
+		MapEntry: Mystic Chest
+	}
+
+	mysticcloset: {
+		ContainerName: Wadrdrobe
+		MapEntry: Wardrobe
+	}
+
+	mysticdresser: {
+		ContainerName: Mystical Dresser
+		MapEntry: Dresser
+	}
+
+	princhest: {
+		ContainerName: Princess Chest
+		MapEntry: Princess Chest
+	}
+
+	princloset: {
+		ContainerName: Wadrdrobe
+		MapEntry: Wardrobe
+	}
+
+	prindresser: {
+		ContainerName: Princess Dresser
+		MapEntry: Dresser
+	}
+
+	RoyalChest: {
+		ContainerName: Royal Chest
+		MapEntry: Royal Chest
+	}
+
+	RoyalDresser: {
+		ContainerName: Royal Dresser
+		MapEntry: Dresser
+	}
+
+	RoyalWardrobe: {
+		ContainerName: Wadrdrobe
+		MapEntry: Wardrobe
+	}
+
+	sandstonechest: {
+		ContainerName: Sandstone Chest
+		MapEntry: Chest
+	}
+
+	sandstonecloset: {
+		ContainerName: Wadrdrobe
+		MapEntry: Wardrobe
+	}
+
+	sandstonedresser: {
+		ContainerName: Sandstone Dresser
+		MapEntry: Dresser
+	}
+
+	Cabinets: {
+		ContainerName: Cabinet
+		MapEntry: Cabinet
+	}
+
+	wardrobebony: {
+		ContainerName: Wadrdrobe
+		MapEntry: Wadrdrobe
+	}
+
+	wardrobeboreal: {
+		ContainerName: Wadrdrobe
+		MapEntry: Wadrdrobe
+	}
+
+	wardrobemahogany: {
+		ContainerName: Wadrdrobe
+		MapEntry: Wadrdrobe
+	}
+
+	wardrobepalm: {
+		ContainerName: Wadrdrobe
+		MapEntry: Wadrdrobe
+	}
+
+	wardrobepearl: {
+		ContainerName: Wadrdrobe
+		MapEntry: Wadrdrobe
+	}
+
+	wardrobeshade: {
+		ContainerName: Wadrdrobe
+		MapEntry: Wadrdrobe
+	}
+
+	wardrobewood: {
+		ContainerName: Wadrdrobe
+		MapEntry: Wadrdrobe
+	}
+
+	DeerHead: {
+		MapEntry: Deer Head
+	}
+
+	KrampusHead: {
+		MapEntry: Krampus Head
+	}
+
+	WolfPelt: {
+		MapEntry: Animal Skin
+	}
+
+	barberpole: {
+		MapEntry: Barber's Pole
+	}
+
+	bar: {
+		MapEntry: Cocktail Bar
+	}
+
+	bottle2: {
+		MapEntry: Bottle
+	}
+
+	mannhead: {
+		MapEntry: Mannequin Head
+	}
+
+	mirrors: {
+		MapEntry: Mirror
+	}
+
+	bell: {
+		MapEntry: Bell
+	}
+
+	BiomeJarCorruption: {
+		MapEntry: Biome Jar
+	}
+
+	BiomeJarCrimson: {
+		MapEntry: Biome Jar
+	}
+
+	BiomeJarForest: {
+		MapEntry: Biome Jar
+	}
+
+	BiomeJarHallow: {
+		MapEntry: Biome Jar
+	}
+
+	BiomeJarJungle: {
+		MapEntry: Biome Jar
+	}
+
+	bottle: {
+		MapEntry: Bottle
+	}
+
+	brazier: {
+		MapEntry: Brazier
+	}
+
+	Chalice: {
+		MapEntry: Chalice
+	}
+
+	BishopBlack: {
+		MapEntry: Chess
+	}
+
+	BishopWhite: {
+		MapEntry: Chess
+	}
+
+	KingBlack: {
+		MapEntry: Chess
+	}
+
+	KingWhite: {
+		MapEntry: Chess
+	}
+
+	KnightBlack: {
+		MapEntry: Chess
+	}
+
+	KnightWhite: {
+		MapEntry: Chess
+	}
+
+	PawnBlack: {
+		MapEntry: Chess
+	}
+
+	PawnWhite: {
+		MapEntry: Chess
+	}
+
+	QueenBlack: {
+		MapEntry: Chess
+	}
+
+	QueenWhite: {
+		MapEntry: Chess
+	}
+
+	RookBlack: {
+		MapEntry: Chess
+	}
+
+	RookWhite: {
+		MapEntry: Chess
+	}
+
+	coatrack: {
+		MapEntry: Coatrack
+	}
+
+	coatrack2: {
+		MapEntry: Coatrack
+	}
+
+	DiningChair: {
+		MapEntry: Chair
+	}
+
+	Diningtable: {
+		MapEntry: Table
+	}
+
+	easel: {
+		MapEntry: Easel
+	}
+
+	GiantFountain: {
+		MapEntry: Fountain
+	}
+
+	horsestatue: {
+		MapEntry: Statue
+	}
+
+	MarbleFountain: {
+		MapEntry: Fountain
+	}
+
+	StatueAzura: {
+		MapEntry: Statue
+	}
+
+	StatueClavicus: {
+		MapEntry: Statue
+	}
+
+	birdhouse: {
+		MapEntry: Birdhouse
+	}
+
+	BirdhouseCardinal: {
+		MapEntry: Birdhouse
+	}
+
+	BirdhouseGold: {
+		MapEntry: Birdhouse
+	}
+
+	BirdhouseJay: {
+		MapEntry: Birdhouse
+	}
+
+	BonsaiTree: {
+		MapEntry: Bonsai Tree
+	}
+
+	GiantButtercup: {
+		MapEntry: Plant
+	}
+
+	gnome: {
+		MapEntry: Gnome
+	}
+
+	Gnome2: {
+		MapEntry: Gnome
+	}
+
+	Gnome3: {
+		MapEntry: Gnome
+	}
+
+	GnomeHouse: {
+		MapEntry: Gnome House
+	}
+
+	HallowedFlowerbush: {
+		MapEntry: Plant
+	}
+
+	IronChair: {
+		MapEntry: Chair
+	}
+
+	JunglePlant: {
+		MapEntry: Plant
+	}
+
+	JunglePlant2: {
+		MapEntry: Plant
+	}
+
+	Plant: {
+		MapEntry: Plant
+	}
+
+	Plant10: {
+		MapEntry: Plant
+	}
+
+	Plant11: {
+		MapEntry: Plant
+	}
+
+	Plant12: {
+		MapEntry: Plant
+	}
+
+	Plant13: {
+		MapEntry: Plant
+	}
+
+	Plant2: {
+		MapEntry: Plant
+	}
+
+	Plant3: {
+		MapEntry: Plant
+	}
+
+	Plant4: {
+		MapEntry: Plant
+	}
+
+	Plant5: {
+		MapEntry: Plant
+	}
+
+	Plant6: {
+		MapEntry: Plant
+	}
+
+	Plant7: {
+		MapEntry: Plant
+	}
+
+	Plant8: {
+		MapEntry: Plant
+	}
+
+	Plant9: {
+		MapEntry: Plant
+	}
+
+	RabbitHole: {
+		MapEntry: Rabbit Hole
+	}
+
+	RushChair: {
+		MapEntry: Chair
+	}
+
+	RushTable: {
+		MapEntry: Table
+	}
+
+	RushWorkBench: {
+		MapEntry: Workbench
+	}
+
+	SmallCactus: {
+		MapEntry: Cactus
+	}
+
+	StrangePlant: {
+		MapEntry: Plant
+	}
+
+	StrangePlant1: {
+		MapEntry: Plant
+	}
+
+	StrangePlant2: {
+		MapEntry: Plant
+	}
+
+	StrangePlant3: {
+		MapEntry: Plant
+	}
+
+	windmill: {
+		MapEntry: Windmill
+	}
+
+	GunRack: {
+		MapEntry: Gun Rack
+	}
+
+	keg: {
+		MapEntry: Keg
+	}
+
+	keg2: {
+		MapEntry: Keg
+	}
+
+	keg3: {
+		MapEntry: Keg
+	}
+
+	kingbed: {
+		MapEntry: Bed
+	}
+
+	counter: {
+		MapEntry: Counter
+	}
+
+	counter2: {
+		MapEntry: Counter
+	}
+
+	countersink: {
+		MapEntry: Counter
+	}
+
+	fishhook: {
+		MapEntry: Fish Hook
+	}
+
+	fridge: {
+		MapEntry: Refridgerator
+	}
+
+	herbs: {
+		MapEntry: Herbs
+	}
+
+	kniferack: {
+		MapEntry: Knife Rack
+	}
+
+	OrnateCounter: {
+		MapEntry: Counter
+	}
+
+	OrnateCounter2: {
+		MapEntry: Counter
+	}
+
+	OrnateCounterSink: {
+		MapEntry: Counter
+	}
+
+	OrnateFridge: {
+		MapEntry: Refridgerator
+	}
+
+	stove: {
+		MapEntry: Stove
+	}
+
+	StuffedTurkey: {
+		MapEntry: Bowl
+	}
+
+	ladder: {
+		MapEntry: Ladder
+	}
+
+	lantern: {
+		MapEntry: Lamp
+	}
+
+	bust: {
+		MapEntry: Bust
+	}
+
+	globe: {
+		MapEntry: Globe
+	}
+
+	ink: {
+		MapEntry: Ink
+	}
+
+	LargeGlobe: {
+		MapEntry: Globe
+	}
+
+	ornatebook: {
+		MapEntry: Bookcase
+	}
+
+	limecrocket: {
+		MapEntry: Limestone Ornament
+	}
+
+	limecrocket2: {
+		MapEntry: Limestone Ornament
+	}
+
+	limecrocket3: {
+		MapEntry: Limestone Ornament
+	}
+
+	limecrocket4: {
+		MapEntry: Limestone Ornament
+	}
+
+	limegargoyle: {
+		MapEntry: Limestone Ornament
+	}
+
+	limegargoyle2: {
+		MapEntry: Limestone Ornament
+	}
+
+	statues3x2: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statues3x3: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statues3x4: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	ModelCastle: {
+		MapEntry: Model Castle
+	}
+
+	moneybagcopper: {
+		MapEntry: Moneybag
+	}
+
+	moneybaggold: {
+		MapEntry: Moneybag
+	}
+
+	moneybagplatinum: {
+		MapEntry: Moneybag
+	}
+
+	moneybagsilver: {
+		MapEntry: Moneybag
+	}
+
+	mysticbath: {
+		MapEntry: Bathtub
+	}
+
+	mysticbed: {
+		MapEntry: Bed
+	}
+
+	mysticbook: {
+		MapEntry: Bookcase
+	}
+
+	mysticcandel: {
+		MapEntry: Candelabra
+	}
+
+	mysticcandle: {
+		MapEntry: Candle
+	}
+
+	mysticchand: {
+		MapEntry: Chandelier
+	}
+
+	mysticclock: {
+		MapEntry: Mystical Clock
+	}
+
+	mysticclock2: {
+		MapEntry: Clock
+	}
+
+	mysticdoorClosed: {
+		MapEntry: Door
+	}
+
+	mysticdoorOpen: {
+		MapEntry: Door
+	}
+
+	mysticlamp: {
+		MapEntry: Lamp
+	}
+
+	mysticlant: {
+		MapEntry: Lamp
+	}
+
+	mysticpiano: {
+		MapEntry: Piano
+	}
+
+	mysticpouf: {
+		MapEntry: Pouf
+	}
+
+	mysticsink: {
+		MapEntry: Sink
+	}
+
+	mysticsofa: {
+		MapEntry: Sofa
+	}
+
+	mystictable: {
+		MapEntry: Table
+	}
+
+	mysticworkbench: {
+		MapEntry: Workbench
+	}
+
+	FilingCabinet: {
+		MapEntry: Filing Cabinet
+	}
+
+	NoticeBoard: {
+		MapEntry: Notice Board
+	}
+
+	Paper: {
+		MapEntry: Paper Stack
+	}
+
+	radiator: {
+		MapEntry: Radiator
+	}
+
+	OrnateChandelier: {
+		MapEntry: Chandelier
+	}
+
+	OrnateChandelier2: {
+		MapEntry: Chandelier
+	}
+
+	beanbag: {
+		MapEntry: Beanbag Chair
+	}
+
+	easychair: {
+		MapEntry: Easy Chair
+	}
+
+	lamp: {
+		MapEntry: Lamp
+	}
+
+	lamp2: {
+		MapEntry: Lantern
+	}
+
+	mug: {
+		MapEntry: Mug
+	}
+
+	sofa: {
+		MapEntry: Sofa
+	}
+
+	paintface: {
+		MapEntry: Painting
+	}
+
+	paintflower: {
+		MapEntry: Painting
+	}
+
+	paintflutelady: {
+		MapEntry: Painting
+	}
+
+	paintfuckingagony: {
+		MapEntry: Painting
+	}
+
+	PaintFuryForged: {
+		MapEntry: Painting
+	}
+
+	paintmount: {
+		MapEntry: Painting
+	}
+
+	paintplant: {
+		MapEntry: Painting
+	}
+
+	paintrancher: {
+		MapEntry: Painting
+	}
+
+	paintree: {
+		MapEntry: Painting
+	}
+
+	paintself: {
+		MapEntry: Painting
+	}
+
+	paintsjaak: {
+		MapEntry: Painting
+	}
+
+	paintslime: {
+		MapEntry: Painting
+	}
+
+	paintsunflower: {
+		MapEntry: Painting
+	}
+
+	paintveil: {
+		MapEntry: Painting
+	}
+
+	paintwater: {
+		MapEntry: Painting
+	}
+
+	beemite: {
+		MapEntry: Stalagmite
+	}
+
+	beetite: {
+		MapEntry: Stalagtite
+	}
+
+	bowlofsoup: {
+		MapEntry: Bowl
+	}
+
+	cookedfish: {
+		MapEntry: Bowl
+	}
+
+	cookedshrimp: {
+		MapEntry: Bowl
+	}
+
+	cormite: {
+		MapEntry: Stalagmite
+	}
+
+	cormite2: {
+		MapEntry: Stalagmite
+	}
+
+	cortite: {
+		MapEntry: Stalagtite
+	}
+
+	cortite2: {
+		MapEntry: Stalagtite
+	}
+
+	crimite: {
+		MapEntry: Stalagmite
+	}
+
+	crimite2: {
+		MapEntry: Stalagmite
+	}
+
+	critite: {
+		MapEntry: Stalagtite
+	}
+
+	critite2: {
+		MapEntry: Stalagtite
+	}
+
+	eggnog: {
+		MapEntry: Potion
+	}
+
+	granmite: {
+		MapEntry: Stalagmite
+	}
+
+	granmite2: {
+		MapEntry: Stalagmite
+	}
+
+	grantite: {
+		MapEntry: Stalagtite
+	}
+
+	grantite2: {
+		MapEntry: Stalagtite
+	}
+
+	harp: {
+		MapEntry: Harp
+	}
+
+	heart: {
+		MapEntry: Life Crystal
+	}
+
+	lifefruit: {
+		MapEntry: Life Fruit
+	}
+
+	marmite: {
+		MapEntry: Stalagmite
+	}
+
+	marmite2: {
+		MapEntry: Stalagmite
+	}
+
+	martite: {
+		MapEntry: Stalagtite
+	}
+
+	martite2: {
+		MapEntry: Stalagtite
+	}
+
+	MedusaHead: {
+		MapEntry: Medusa Head
+	}
+
+	padthai: {
+		MapEntry: Bowl
+	}
+
+	pearlmite: {
+		MapEntry: Stalagmite
+	}
+
+	pearlmite2: {
+		MapEntry: Stalagmite
+	}
+
+	pearltite: {
+		MapEntry: Stalagtite
+	}
+
+	pearltite2: {
+		MapEntry: Stalagtite
+	}
+
+	pho: {
+		MapEntry: Bowl
+	}
+
+	pudding: {
+		MapEntry: Bowl
+	}
+
+	sandmite: {
+		MapEntry: Stalagmite
+	}
+
+	sandmite2: {
+		MapEntry: Stalagmite
+	}
+
+	sandtite: {
+		MapEntry: Stalagtite
+	}
+
+	sandtite2: {
+		MapEntry: Stalagtite
+	}
+
+	sashimi: {
+		MapEntry: Bowl
+	}
+
+	stalagmice: {
+		MapEntry: Stalagtite
+	}
+
+	stalagmice2: {
+		MapEntry: Stalagtite
+	}
+
+	stalagmite: {
+		MapEntry: Stalagmite
+	}
+
+	stalagmite2: {
+		MapEntry: Stalagmite
+	}
+
+	stalagtite: {
+		MapEntry: Stalagtite
+	}
+
+	stalagtite2: {
+		MapEntry: Stalagtite
+	}
+
+	websack: {
+		MapEntry: Web Sack
+	}
+
+	poster: {
+		MapEntry: Poster
+	}
+
+	postermc: {
+		MapEntry: Poster
+	}
+
+	posterraria: {
+		MapEntry: Poster
+	}
+
+	skyrimmap: {
+		MapEntry: World Map
+	}
+
+	worldmap: {
+		MapEntry: World Map
+	}
+
+	ancientpot: {
+		MapEntry: Pot
+	}
+
+	bonepot: {
+		MapEntry: Pot
+	}
+
+	brownpot: {
+		MapEntry: Pot
+	}
+
+	corruptionpot: {
+		MapEntry: Pot
+	}
+
+	crimsonpot: {
+		MapEntry: Pot
+	}
+
+	frozenpot: {
+		MapEntry: Pot
+	}
+
+	lifefruitpots: {
+		MapEntry: Pot
+	}
+
+	lizardpot: {
+		MapEntry: Pot
+	}
+
+	marblepot: {
+		MapEntry: Pot
+	}
+
+	obsidianpot: {
+		MapEntry: Pot
+	}
+
+	PlantPot: {
+		MapEntry: Pot
+	}
+
+	pots: {
+		MapEntry: Pot
+	}
+
+	rushbasket: {
+		MapEntry: Pot
+	}
+
+	spiderbulb: {
+		MapEntry: Pot
+	}
+
+	prinbath: {
+		MapEntry: Bathtub
+	}
+
+	prinbed: {
+		MapEntry: Bed
+	}
+
+	prinbook: {
+		MapEntry: Bookcase
+	}
+
+	princandel: {
+		MapEntry: Candelabra
+	}
+
+	princandle: {
+		MapEntry: Candle
+	}
+
+	princhair: {
+		MapEntry: Chair
+	}
+
+	princhand: {
+		MapEntry: Chandelier
+	}
+
+	princlock: {
+		MapEntry: Clock
+	}
+
+	princlock2: {
+		MapEntry: Clock
+	}
+
+	prindoorClosed: {
+		MapEntry: Door
+	}
+
+	prindoorOpen: {
+		MapEntry: Door
+	}
+
+	prinlamp: {
+		MapEntry: Lamp
+	}
+
+	prinlant: {
+		MapEntry: Lamp
+	}
+
+	prinpiano: {
+		MapEntry: Piano
+	}
+
+	prinsink: {
+		MapEntry: Sink
+	}
+
+	prinsofa: {
+		MapEntry: Sofa
+	}
+
+	printable: {
+		MapEntry: Table
+	}
+
+	prinwork: {
+		MapEntry: Workbench
+	}
+
+	KingBedActual: {
+		MapEntry: Bed
+	}
+
+	RoyalBookcase: {
+		MapEntry: Bookcase
+	}
+
+	RoyalCandel: {
+		MapEntry: Candelabra
+	}
+
+	RoyalCandle: {
+		MapEntry: Candle
+	}
+
+	RoyalChair: {
+		MapEntry: Chair
+	}
+
+	RoyalClock: {
+		MapEntry: Clock
+	}
+
+	RoyalClock2: {
+		MapEntry: Clock
+	}
+
+	RoyalDiningTable: {
+		MapEntry: Table
+	}
+
+	RoyalDoorClosed: {
+		MapEntry: Door
+	}
+
+	RoyalDoorOpen: {
+		MapEntry: Door
+	}
+
+	RoyalLamp: {
+		MapEntry: Lamp
+	}
+
+	RoyalLantern: {
+		MapEntry: Lamp
+	}
+
+	RoyalPiano: {
+		MapEntry: Piano
+	}
+
+	RoyalPouf: {
+		MapEntry: Pouf
+	}
+
+	RoyalSink: {
+		MapEntry: Sink
+	}
+
+	RoyalSofa: {
+		MapEntry: Sofa
+	}
+
+	RoyalWorkbench: {
+		MapEntry: Workbench
+	}
+
+	Throne: {
+		MapEntry: Throne
+	}
+
+	Throne2: {
+		MapEntry: Throne
+	}
+
+	Throne3: {
+		MapEntry: Throne
+	}
+
+	horus: {
+		MapEntry: Eye of Horus
+	}
+
+	sandstonebath: {
+		MapEntry: Bathtub
+	}
+
+	sandstonebed: {
+		MapEntry: Bed
+	}
+
+	sandstonebook: {
+		MapEntry: Bookcase
+	}
+
+	sandstonecandel: {
+		MapEntry: Candelabra
+	}
+
+	sandstonecandle: {
+		MapEntry: Candle
+	}
+
+	sandstonechair: {
+		MapEntry: Chair
+	}
+
+	sandstonechand: {
+		MapEntry: Chandelier
+	}
+
+	sandstoneclock: {
+		MapEntry: Clock
+	}
+
+	sandstoneclock2: {
+		MapEntry: Clock
+	}
+
+	sandstonedoorClosed: {
+		MapEntry: Door
+	}
+
+	sandstonedoorOpen: {
+		MapEntry: Door
+	}
+
+	sandstonelamp: {
+		MapEntry: Lamp
+	}
+
+	sandstonelant: {
+		MapEntry: Lamp
+	}
+
+	sandstonepiano: {
+		MapEntry: Piano
+	}
+
+	sandstonesink: {
+		MapEntry: Sink
+	}
+
+	sandstonesofa: {
+		MapEntry: Sofa
+	}
+
+	sandstonetable: {
+		MapEntry: Table
+	}
+
+	sandstonetorch: {
+		MapEntry: Torch
+	}
+
+	sandstoneworkbench: {
+		MapEntry: Workbench
+	}
+
+	mintjar: {
+		MapEntry: Jar O' Mints
+	}
+
+	tipjar: {
+		MapEntry: Tip Jar
+	}
+
+	signbank: {
+		MapEntry: Sign
+	}
+
+	signbook: {
+		MapEntry: Sign
+	}
+
+	signempty: {
+		MapEntry: Sign
+	}
+
+	signfish: {
+		MapEntry: Sign
+	}
+
+	signjewel: {
+		MapEntry: Sign
+	}
+
+	signpub: {
+		MapEntry: Sign
+	}
+
+	signsmith: {
+		MapEntry: Sign
+	}
+
+	signtailor: {
+		MapEntry: Sign
+	}
+
+	StglCthulhu: {
+		MapEntry: Stained Glass Window
+	}
+
+	StglDryad: {
+		MapEntry: Stained Glass Window
+	}
+
+	StglNebula: {
+		MapEntry: Stained Glass Window
+	}
+
+	StglSolar: {
+		MapEntry: Stained Glass Window
+	}
+
+	StglStardust: {
+		MapEntry: Stained Glass Window
+	}
+
+	StglVortex: {
+		MapEntry: Stained Glass Window
+	}
+
+	blacksmith: {
+		MapEntry: Blacksmith's Forge
+	}
+
+	CultivationBox: {
+		MapEntry: Cultivation Box
+	}
+
+	hardsmith1: {
+		MapEntry: Blacksmith's Forge
+	}
+
+	hardsmith2: {
+		MapEntry: Blacksmith's Forge
+	}
+
+	hardsmith3: {
+		MapEntry: Blacksmith's Forge
+	}
+
+	hardsmith4: {
+		MapEntry: Blacksmith's Forge
+	}
+
+	hellsmith: {
+		MapEntry: Hellsmith's Forge
+	}
+
+	printer: {
+		MapEntry: Printer
+	}
+
+	printer3: {
+		MapEntry: 3D Printer
+	}
+
+	RimpelstiltskinsLoom: {
+		MapEntry: Spinning Wheel
+	}
+
+	wallomatic: {
+		MapEntry: Wall-O-Matic
+	}
+
+	stool: {
+		MapEntry: Stool
+	}
+
+	Tapestry: {
+		MapEntry: Tapestry
+	}
+
+	Tapestry2: {
+		MapEntry: Tapestry
+	}
+
+	Tapestry3: {
+		MapEntry: Tapestry
+	}
+
+	Tapestry4: {
+		MapEntry: Tapestry
+	}
+
+	banners: {
+		MapEntry: Banner
+	}
+
+	bannersl: {
+		MapEntry: Banner
+	}
+
+	telescope: {
+		MapEntry: Telescope
+	}
+
+	TelescopeGold: {
+		MapEntry: Telescope
+	}
+
+	TelescopePlatinum: {
+		MapEntry: Telescope
+	}
+
+	Toolrack: {
+		MapEntry: Fireplace Rack
+	}
+
+	Toolrack2: {
+		MapEntry: Fireplace Rack
+	}
+
+	Clocks: {
+		MapEntry: Clock
+	}
+
+	EndTables: {
+		MapEntry: End Table
+	}
+
+	WallCandle: {
+		MapEntry: Wall Candle
+	}
+
+	DisplayAmmonite: {
+		MapEntry: Fossil Display
+	}
+
+	DisplayDinoEgg: {
+		MapEntry: Fossil Display
+	}
+
+	DisplayDinoSkull: {
+		MapEntry: Fossil Display
+	}
+
+	DisplayTusk: {
+		MapEntry: Fossil Display
+	}
+
+	FossilAmmonite: {
+		MapEntry: Fossil
+	}
+
+	FossilAmmonite2: {
+		MapEntry: Fossil
+	}
+
+	FossilDinoSkull: {
+		MapEntry: Fossil
+	}
+
+	FossilDinoSkull2: {
+		MapEntry: Fossil
+	}
+
+	FossilEgg: {
+		MapEntry: Fossil
+	}
+
+	FossilTusk: {
+		MapEntry: Fossil
+	}
+
+	GnawedBone: {
+		MapEntry: Bone
+	}
+
+	Mammooth: {
+		MapEntry: Toy
+	}
+
+	PrimCamp: {
+		MapEntry: Primitive Camp
+	}
+
+	PrimTanningRack: {
+		MapEntry: Tanning Rack
+	}
+
+	SabertoothSkin: {
+		MapEntry: Animal Skin
+	}
+
+	mannheadleft: {
+		MapEntry: Mannequin Head
+	}
+
+	mannheadoriginal: {
+		MapEntry: Mannequin Head
+	}
+
+	mannheadright: {
+		MapEntry: Mannequin Head
+	}
+
+	mirrorswall: {
+		MapEntry: Wall Mirror
+	}
+
+	CashRegister: {
+		MapEntry: Cash Register
+	}
+
+	Computer: {
+		MapEntry: Computer
+	}
+
+	computer2: {
+		MapEntry: Computer
+	}
+
+	computer3: {
+		MapEntry: Computer
+	}
+
+	computer4: {
+		MapEntry: Computer
+	}
+
+	ComputerMonitor: {
+		MapEntry: Monitor
+	}
+
+	laptop: {
+		MapEntry: Laptop
+	}
+
+	Television: {
+		MapEntry: Television
+	}
+
+	Television2: {
+		MapEntry: Television
+	}
+
+	fountainmettaton: {
+		MapEntry: Mettaton Statue
+	}
+
+	horsestatueright: {
+		MapEntry: Horse Statue
+	}
+
+	WateringCanReplica: {
+		MapEntry: Watering Can
+	}
+
+	plate: {
+		MapEntry: plate
+	}
+
+	Pot: {
+		MapEntry: Pot
+	}
+
+	statueantlioncharger: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statueantlionswarmer: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statuebat: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statuebloodcrawler: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statueboneserpent: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statuecochineal: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statuecrab: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statuecrawdad: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statuecrimera: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statuecursedskull: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statuecyanbeetle: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statuedemoneye: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statuedevourer: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statues2x1: {
+		MapEntry: Collectable Inaction Figure
+	}
+
+	statues2x2: {
+		MapEntry: Collectable Inaction Figure
+	}
+}
+

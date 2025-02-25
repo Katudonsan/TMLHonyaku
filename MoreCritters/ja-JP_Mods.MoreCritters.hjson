@@ -1,0 +1,177 @@
+Configs: {
+	MoreCrittersConfig: {
+		DisplayName: More Critters 設定
+
+		MonkeySpawnRate: {
+			Label: 猿 スポーンレート
+			Tooltip: 高いほど頻繁にスポーンすることを意味する。0に設定するとスポーンしない。（デフォルト = 1）
+		}
+
+		CowSpawnRate: {
+			Label: 牛 スポーンレート
+			Tooltip: 高いほど頻繁にスポーンすることを意味する。0に設定するとスポーンしない。（デフォルト = 1）
+		}
+
+		TruffletSpawnRate: {
+			Label: トリュフレット スポーンレート
+			Tooltip: 高いほど頻繁にスポーンすることを意味する。0に設定するとスポーンしない。（デフォルト = 1）
+		}
+
+		LizardSpawnRate: {
+			Label: トカゲ スポーンレート
+			Tooltip: 高いほど頻繁にスポーンすることを意味する。0に設定するとスポーンしない。（デフォルト = 1）
+		}
+
+		RattlesnakeSpawnRate: {
+			Label: ガラガラヘビ スポーンレート
+			Tooltip: 高いほど頻繁にスポーンすることを意味する。0に設定するとスポーンしない。（デフォルト = 1）
+		}
+
+		SnowyOwlSpawnRate: {
+			Label: シロフクロウ スポーンレート
+			Tooltip: 高いほど頻繁にスポーンすることを意味する。0に設定するとスポーンしない。（デフォルト = 1）
+		}
+
+		AxolotlSpawnRate: {
+			Label: ウーパールーパー スポーンレート
+			Tooltip: 高いほど頻繁にスポーンすることを意味する。0に設定するとスポーンしない。（デフォルト = 1）
+		}
+
+		Headers: {
+			SpawnRates: スポーンレート
+		}
+	}
+}
+
+NPCs: {
+	Trufflet: {
+		DisplayName: トリュフレット
+	}
+
+	SnowyOwl: {
+		DisplayName: シロフクロウ
+	}
+
+	Rattlesnake: {
+		DisplayName: ガラガラヘビ
+	}
+
+	Monkey: {
+		DisplayName: 猿
+	}
+
+	Lizard: {
+		DisplayName: トカゲ
+	}
+
+	Cow: {
+		DisplayName: 牛
+	}
+
+	Axolotl: {
+		DisplayName: ウーパールーパー
+	}
+}
+
+Items: {
+	TruffletItem: {
+		Tooltip: ""
+		DisplayName: トリュフレット
+	}
+
+	TruffletCageItem: {
+		Tooltip: ""
+		DisplayName: テラリウム（トリュフレット）
+	}
+
+	SnowyOwlItem: {
+		Tooltip: ""
+		DisplayName: シロフクロウ
+	}
+
+	SnowyOwlCageItem: {
+		Tooltip: ""
+		DisplayName: テラリウム（シロフクロウ）
+	}
+
+	RattlesnakeItem: {
+		Tooltip: ""
+		DisplayName: ガラガラヘビ
+	}
+
+	RattlesnakeCageItem: {
+		Tooltip: ""
+		DisplayName: テラリウム（ガラガラヘビ）
+	}
+
+	MonkeyItem: {
+		Tooltip: ""
+		DisplayName: 猿
+	}
+
+	MonkeyCageItem: {
+		Tooltip: ""
+		DisplayName: テラリウム（猿）
+	}
+
+	LizardItem: {
+		Tooltip: ""
+		DisplayName: トカゲ
+	}
+
+	LizardCageItem: {
+		Tooltip: ""
+		DisplayName: テラリウム（トカゲ）
+	}
+
+	CowItem: {
+		Tooltip: ""
+		DisplayName: 牛
+	}
+
+	AxolotlItem: {
+		Tooltip: ""
+		DisplayName: ウーパールーパー
+	}
+
+	AxolotlCageItem: {
+		Tooltip: ""
+		DisplayName: テラリウム（ウーパールーパー）
+	}
+
+	AxolotlBowlItem: {
+		Tooltip: もう少しスペースが必要かも...
+		DisplayName: ウーパールーパー入りの瓶
+	}
+}
+
+Tiles: {
+	TruffletCageTile: {
+		MapEntry: テラリウム（トリュフレット）
+	}
+
+	SnowyOwlCageTile: {
+		MapEntry: テラリウム（シロフクロウ）
+	}
+
+	RattlesnakeCageTile: {
+		MapEntry: テラリウム（ガラガラヘビ）
+	}
+
+	MonkeyCageTile: {
+		MapEntry: テラリウム（猿）
+	}
+
+	LizardCageTile: {
+		MapEntry: テラリウム（トカゲ）
+	}
+
+	AxolotlCageTile: {
+		MapEntry: テラリウム（ウーパールーパー）
+	}
+
+	AxolotlBowlTile: {
+		MapEntry: ウーパールーパー入りの瓶
+	}
+}
+

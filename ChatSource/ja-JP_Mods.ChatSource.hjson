@@ -1,0 +1,20 @@
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		ChatSourceEnabled: {
+			Label: チャットソース有効化
+			Tooltip: このModの主な機能を動作させるかを変更できる。
+		}
+
+		DisplayTerrariaSource: {
+			Label: バニラゲームをソースとして表示
+			Tooltip: Terrariaからのメッセージを同じように表示するかを変更できる。
+		}
+
+		ShowDisplayName: {
+			Label: 「表示名」の変更
+			Tooltip: Modを「表示名」または「内部名」で表示されるかを変更できる。
+		}
+	}
+}

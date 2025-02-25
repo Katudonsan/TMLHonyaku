@@ -1,0 +1,52 @@
+Configs: {
+	MyModConfig: {
+		DisplayName: Mod設定
+
+		Headers: {
+			Items: アイテム設定
+		}
+
+		HideFriendlyProjectilesDuringBosses: {
+			Label: ボス戦中は味方の弾を非表示にする
+			Tooltip: ""
+		}
+
+		HideAllDustDuringBosses: {
+			Label: ボス戦中は全てのダストを非表示にする
+			Tooltip: ""
+		}
+	}
+
+	HideProjConfig: {
+		DisplayName: 非表示設定
+
+		Headers: {
+			HideToggles: 非表示設定
+		}
+
+		HideFriendlyProjectilesDuringBosses: {
+			Label: ボス戦中は味方の弾を非表示にする
+			Tooltip: ""
+		}
+
+		HideFriendlyProjectiles: {
+			Label: 味方の弾を非表示にする
+			Tooltip: ""
+		}
+
+		HideAllDustDuringBosses: {
+			Label: ボス戦中に全てのダストを非表示
+			Tooltip: ""
+		}
+
+		OnlyDuringBosses: {
+			Label: ボス戦中のみ
+			Tooltip: ""
+		}
+
+		HideFriendlyDust: {
+			Label: 味方のダストを非表示
+			Tooltip: ""
+		}
+	}
+}

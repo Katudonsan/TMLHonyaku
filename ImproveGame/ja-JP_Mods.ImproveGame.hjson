@@ -1,18 +1,1250 @@
 # hazamax405様より
 
+UI: {
+	DummyControl: {
+		Name: ダミーコントロール
+	}
+
+	GrabBagInfo: {
+		Title: 詳細アイテムドロップ
+	}
+
+	RecipeSearchUI: {
+		Tips:
+			'''
+			「Quality of Life」によるレシピ検索機能
+			個人設定から無効化できます
+			'''
+	}
+
+	LiquidWandUI: {
+		Name: 液体制御
+		Absorb: 吸収
+		Water: 水
+		Lava: 溶岩
+		Honey: 蜂蜜
+		Shimmer: シマー
+	}
+
+	MasterControl: {
+		Available: 利用可能
+		Unavailable: 利用不可
+		Version: バージョン {0}
+		Changelog: 新しい内容を見るにはクリック
+		PinIntro:
+			'''
+			マスターコントロールをピン留め
+			マスターコントロールのキーを押すと、パネルを切り替え可能
+			'''
+		PopupTitle: ホットキーがありません
+		PopupText: 「Quality of Terraria」のコントロールパネルにホットキーが割り当てられていません。ショートカットを使用するにはホットキーを設定してください。このメッセージは設定後に消えます。
+		PopupPanelWidth: "290"
+		PopupPanelHeight: "200"
+		ChangelogLink: https://github.com/ForOne-Club/ImproveGame/blob/1.4.4/Changelog/en/v{0}.md
+	}
+
+	AmmoChain: {
+		Title: 弾薬チェーン
+		LoadError: 無効な弾薬チェーンファイルまたは不正な弾薬チェーン
+		ClickToAddL1: 弾薬タイプを選択した後
+		ClickToAddL2: ここをクリックしてチェーンに追加
+		FileName: 弾薬チェーン
+		AddChain: 弾薬チェーンを追加
+		OpenFolder: フォルダーを開く
+		GetHelp: どうすればいい？助けて！
+		Cancel: キャンセル
+		Confirm: 確定
+		ItemNotAvailable: × このアイテムは弾薬を使用しません
+		PutInItem: ← ここに武器を配置
+		ClickAmmoChain: 適用する弾薬チェーンをクリック
+		AddAmmoChain: 現在、弾薬チェーンがありません。まず1つ追加してください
+		Empty: 空の弾薬チェーンは保存できません
+	}
+
+	WeatherGUI: {
+		Title: 天候制御
+		Wind: <左クリック> で風向きを調整
+		WindLockFalse: <右クリック> で風向きをロック
+		WindLockTrue: <右クリック> で風向きを解除
+		WindWest: 強い西風に設定
+		WindNo: 風なしに設定
+		WindEast: 強い東風に設定
+		WindLocked: 風速と風向きがロックされました
+		WindUnlocked: 風速と風向きのロックが解除されました
+		RainActive: <左クリック> で雨を開始
+		RainInactive: <左クリック> で雨を停止
+		RainLockFalse: <右クリック> で雨をロック
+		RainLockTrue: <右クリック> で雨のロックを解除
+		RainOn: 雨が始まりました
+		RainOff: 雨が止まりました
+		RainLocked: 雨がロックされました
+		RainUnlocked: 雨のロックが解除されました
+		Time: <左クリック> で時間を調整
+		Dawn: 夜明けに設定
+		Noon: 正午に設定
+		Dusk: 夕暮れに設定
+		Midnight: 真夜中に設定
+		MoonPhase: <左クリック> で月の位相を調整
+		MoonPhaseLockFalse: <右クリック> で月の位相をロック
+		MoonPhaseLockTrue: <右クリック> で月の位相のロックを解除
+		MoonPhaseAdjusted: "{0} に設定"
+		MoonPhaseLocked: 月の位相が {0} にロックされました
+		MoonPhaseUnlocked: 月の位相のロックが解除されました
+		AlreadyUnlocked: 天候制御はこのワールドですでに利用可能です
+		Unlocked: 天候制御がアンロックされました！コントロールパネルから開いてください
+		EasterEgg: マッシュルーム！
+		Locked: 天候制御をアンロックするには [i:ImproveGame/WeatherBook] を使用してください
+		TimeUnlockCondition: ウォールオブフレッシュを撃破して時間を制御可能にしてください
+	}
+
+	PlayerStats: {
+		Introduction:
+			'''
+			[c/CC88AA:ステータスパネル]
+			カテゴリまたはステータスを<left>すると画面に表示させ続けることができます
+			右クリックを押し続けると、このボタンをドラッグできます
+			'''
+		Control: ステータスパネルコントローラー
+		Name: プレイヤーステータス
+		Melee: 近接
+		Ranged: 遠隔
+		Magic: 魔法
+		Summon: 召喚
+		Throwing: 投擲
+		Other: その他
+		LifeRegen: ライフ再生
+		ArmorPenetration: 防御無視
+		Regen: 再生
+		Cost: コスト
+		MaxMinions: ミニオン数
+		MaxTurrets: セントリー数
+		Endurance: 耐久
+		Luck: 運
+		Aggro: 敵対心
+		BulletDamage: 弾丸ダメージ
+		ArrowDamage: 矢ダメージ
+		SpecialistDamage: 専門ダメージ
+		Damage: ダメージ
+		Crit: ｸﾘﾃｨｶﾙ
+		Speed: 攻撃速度
+		SummonMeleeSpeed: 鞭の速度
+
+		CalamityMod: {
+			Rogue: ローグ
+			RogueVelocity: 移動速度
+		}
+
+		ThoriumMod: {
+			Healer: ヒーラー
+			HealingSpeed: 回復速度
+			HealBonus: 回復ボーナス
+			Bard: 吟遊詩人
+		}
+	}
+
+	ExtremeStorage: {
+		AddChest: チェストを追加
+		AddChestTip: 右クリックでキャンセル
+		RejectNearbyStack: 他のプレイヤーが近くのストレージマネージャーを使用しているため、近くのチェストへのスタックに失敗しました
+		CloseCraftingWindow: クラフトウィンドウを閉じる
+		OpenCraftingWindow: クラフトウィンドウを開く
+
+		CountForCrafting: {
+			Label: クラフトにカウント
+			Tooltip:
+				'''
+				選択したカテゴリ内のアイテムが [c/CC88AA: クラフトでカウントされるかどうか] を制御します
+				開いているチェスト内のアイテムは引き続き使用可能です
+				カテゴリ内のアイテムが多すぎるとパフォーマンス問題を引き起こす可能性があります。
+				低スペックPCでは注意してください
+				'''
+		}
+
+		UseUnlimitedPotion: {
+			Label: 無限ポーション
+			Tooltip:
+				'''
+				[c/CC88AA: Alchemy ] 内のポーションやバフステーションを
+				[c/CC88AA:無限ポーション] として使用できるかどうかを制御します
+				Mod設定で「無限ポーション」を有効にする必要があります
+				'''
+		}
+
+		UsePortableStation: {
+			Label: ポータブルクラフトステーション
+			Tooltip:
+				'''
+				[c/CC88AA: 家具 ] 内のステーションを
+				[c/CC88AA:ポータブルクラフトステーション] として使用できるかどうかを制御します
+				Mod設定で「ポータブルクラフトステーション」を有効にする必要があります
+				'''
+		}
+
+		UsePortableBanner: {
+			Label: ポータブルバナー
+			Tooltip:
+				'''
+				[c/CC88AA: 家具 ] 内のバナーを
+				[c/CC88AA:ポータブルバナー] として使用できるかどうかを制御します
+				Mod設定で「ポータブルバナー」を有効にする必要があります
+				'''
+		}
+
+		ChestBeingUsed:
+			'''
+			このスロット用のチェストは他のプレイヤーが使用しています
+			操作を行うことはできません
+			'''
+		BasicIntroduction:
+			'''
+			注意：
+			1. チェストのソートは、チェスト名に付けられた識別子に依存します。
+			チェスト名を適当に変更しないでください
+			2. アイテムのソートは手動で行う必要があります。
+			識別子は便宜のためのものです
+			3. マルチプレイでは、他のプレイヤーがチェストを使用している場合、
+			そのチェスト内のアイテムに対して操作を行うことはできません
+			'''
+
+		ItemGroup: {
+			Weapon: 武器
+			Tool: 道具
+			Ammo: 弾薬
+			Armor: 防具
+			Accessory: アクセサリー
+			Furniture: 家具
+			Block: ブロック
+			Material: 素材アイテム
+			Alchemy: Alchemy
+			Misc: 雑貨
+			Setting: 設定
+			Everything: Everything
+		}
+
+		Weapon: {
+			Melee: 近接
+			Ranged: 遠隔
+			Magic: 魔法
+			Summon: 召喚
+			Other: その他
+		}
+
+		Tool: {
+			Pickaxe: つるはし
+			Axe: 斧
+			Hammer: ハンマー
+			Hook: グラップリングフック
+			Wiring: 配線ツール
+			FishingPole: 釣り竿
+			Other: その他
+		}
+
+		Ammo: {
+			Arrow: 弓矢
+			Bullet: 弾薬
+			Rocket: ロケット
+			Dart: ダーツ
+			Other: その他
+		}
+
+		Armor: {
+			Headgear: 頭
+			Torso: 体
+			Pants: 足
+			Vanity: 衣装
+		}
+
+		Accessory: {
+			Boot: ブーツ
+			Wing: 翼
+			Shield: 盾
+			Other: その他
+			Vanity: 衣装
+		}
+
+		Block: {
+			Solid: ブロック
+			Wall: 壁
+			Platform: 足場
+			Other: その他
+		}
+
+		Misc: {
+			Herb: ハーブ
+			SummonItem: 召喚
+			Pet: ペット
+			Mount: マウント
+			Material: 素材
+			Other: その他
+		}
+	}
+
+	AutoTrash: {
+		Introduction:
+			'''
+			これは自動ゴミ箱です。
+			すでにゴミ箱内にあるタイプのアイテムは自動的に破棄されます。
+			破棄されたアイテムは最大6個まで保存されます。
+			Shift+Ctrl+ <left> でアイテムをゴミ箱に移動します。
+			UI設定で[c/CC88AA:無効化]できます。
+			UIを非表示にするには[c/CC88AA:{0}]を押してください。
+			'''
+		TrashedItemsList: 破棄されたアイテム
+	}
+
+	WorldFeature: {
+		Title: ワールドの特徴
+
+		Halloween: {
+			Label: ハロウィン
+			Tooltip: ハロウィン状態を切り替えます。
+		}
+
+		XMas: {
+			Label: クリスマス
+			Tooltip: クリスマス状態を切り替えます。
+		}
+
+		Drunk:
+			'''
+			Drunk world
+			シード値: 05162020 | 5162020
+			'''
+		Bees:
+			'''
+			Not the bees
+			シード値: not the bees | not the bees! | notthebees
+			'''
+		Ftw:
+			'''
+			For the worthy
+			シード値: for the worthy | fortheworthy
+			'''
+		Anniversary:
+			'''
+			Celebrationmk10
+			シード値: celebrationmk10 | 05162011 | 5162011 | 05162021 | 5162021
+			'''
+		DontStarve:
+			'''
+			The Constant
+			シード値: constant | theconstant | the constant | eye4aneye | eyeforaneye
+			'''
+		Traps:
+			'''
+			No traps
+			シード値: no traps | notraps
+			備考：ワールド内で切り替えても効果はありません。
+			'''
+		Remix:
+			'''
+			Don't dig up
+			シード値: don't dig up | dont dig up | dontdigup
+			'''
+		Zenith:
+			'''
+			Get fixed boi
+			シード値: get fixed boi | getfixedboi
+			備考：Get fixed boi は他のすべての隠しシードが有効になっている場合にのみ完了します。
+			'''
+		OpenWiki: <right> でWikiを開きます
+		NotPermitted: あなたにはこのワールドの特徴を変更する権限がありません。
+	}
+
+	ItemSearcher: {
+		Title: アイテム検索
+		TipText: 検索されたアイテムがここに表示されます
+		NotFoundText: アイテムが見つかりません
+
+		FuzzySearch: {
+			Label: あいまい検索
+			Tooltip:
+				'''
+				検索時に1文字の誤差を許容します。
+				例： "obsdian" で "obsidian" を検索可能。
+				'''
+		}
+
+		SearchTooltip: {
+			Label: ツールチップで検索
+			Tooltip: アイテム名ではなくツールチップを検索します。
+		}
+	}
+
+	OpenBag: {
+		Title: バッグオープナー
+		TipText: 入手したアイテムがここに表示されます
+		Open: すべて開く
+		Stop: 停止
+		EmptyText: トレジャーバッグ
+		NotFullyDisplayed: 他に {0} アイテムが未発見です
+
+		SellAll: {
+			Name: すべて売却
+			Tooltip:
+				'''
+				アイテムをすべてベース価格の110％で売却します。
+				コインはコインスロットに送られます。
+				'''
+		}
+
+		AreYouSure: {
+			Name: 本当によろしいですか？
+			Tooltip:
+				'''
+				<left> で売却
+				<right> でキャンセル
+				'''
+		}
+	}
+
+	QuickShimmer: {
+		Title: クイックシマー
+		TipText: 変換されたアイテムがここに一時保存されます。
+		Open: 変換
+		Stop: 停止
+		EmptyText: シマー変換中...
+		NotFullyDisplayed: 他に {0} アイテムが現在未発見です。
+		CoinLuck: コインが{0}運に変換されました。
+		AlreadyUnlocked: クイックシマーはこのワールドですでに利用可能です。
+		Unlocked: クイックシマーがアンロックされました！コントロールパネルから開いてください。
+		Locked:
+			'''
+			[i:ImproveGame/ShellShipInBottle_Shimmered] シマーに入れられたボトルシップを使用してクイックシマーをアンロックしてください
+			[i:ImproveGame/ShellShipInBottle] ボトルシップをシマープールに投げ入れてみてください！
+			'''
+	}
+
+	DummyConfiguration: {
+		Title: ダミー設定
+
+		fieldName: {
+			LockHP: ライフを固定
+			LifeMax: 最大ライフ
+			Defense: 防御
+			Damage: 接触ダメージ
+			ShowBox: ヒットボックスを表示
+			ShowDamageData: ダメージ統計を表示
+			ShowNameOnHover: NPCの名前を表示
+			Immortal: ターゲットとしてカウントしない
+			NoGravity: 重力の影響を受けない
+			NoTileCollide: ブロック衝突を無効化
+			KnockBackResist: ノックバック係数
+			AIStyle: AIスタイル
+		}
+	}
+
+	Autofisher: {
+		Accessory: 釣り用アクセサリ
+		FishingPole: 釣り竿
+		Bait: 餌
+		SelectPool: 釣り場を選択してください
+		CarefulNextTime: 次回は注意してください！
+		Unavailable: 現在釣り情報はありません
+		InShimmer: シマーでは動作しません！
+		CatchCratesFilter: クレート
+		CatchAccessoriesFilter: アクセサリ
+		CatchToolsFilter: ツールと武器
+		CatchWhiteRarityCatchesFilter: 白レアリティ
+		CatchNormalCatchesFilter: 白より高いレアリティ
+		PerItemFilter: アイテムフィルター
+		ChestAutoDeposit:
+			'''
+			近くのチェストに自動預金します
+			1分ごとに最寄りのチェストに自動的に預けられます
+			'''
+		AccBoost:
+			'''
+			[i:{IconID}] 釣り機械用アクセサリボーナス：
+			    釣り速度：{Speed}
+			    釣り力：{Power}
+			'''
+		AccBoostTackle: "    餌の消費確率を減少"
+		AccBoostLava: "    溶岩で釣り可能"
+	}
+
+	MapLayer: {
+		TheAether: エーテル
+		Pyramid: ピラミッド
+		FloatingIsland: 浮島
+		FloatingLake: 浮湖
+		EmptyAutofisher: 餌なしの釣り機
+	}
+
+	ThemePreview: {
+		Title: テーマプレビュー
+	}
+
+	PiggyFilter: {
+		Title: Filter Currencies
+	}
+}
+
+ModName: Quality of Terraria
+
+Search: Search...
+
+PathIllegal: File name must not include following characterts: \, /, :, *, ?, ", <, > or |
+
+FolderNameEmpty: Folder name cannot be empty
+
+Tiles: {
+	Autofisher: {
+		MapEntry: ???
+	}
+
+	ExtremeStorage: {
+		MapEntry: ???
+	}
+
+	BaitSupplier: {
+		MapEntry: Bait Chamber
+	}
+
+	FakeAltar: {
+		MapEntry: Fake Altar
+	}
+}
+
+MoonPhases: {
+	FullMoon: 満月
+	WaningGibbous: 居待月
+	ThirdQuarter: 下弦の月
+	WaningCrescent: 有明月
+	NewMoon: 新月
+	WaxingCrescent: 三日月
+	FirstQuarter: 七日月
+	WaxingGibbous: 十三夜月
+}
+
+ItemDropRule: {
+	DropWhenEnabled: 「{0} が有効の場合にドロップします」
+	DropCoinOne: 「Enemy Money Drop Multiplier」が最大で、かつ「幸運のコイン 入手可能」が有効な場合にドロップします。
+	WandDrop: インベントリにすでに所持している場合はドロップしません。
+}
+
+Conditions: {
+	AvailableAutofisher: 自動釣り機 入手可能
+	AvailableActuationRodMkII: 究極のアクチュエーションワンド 入手可能
+	AvailableBaitSupplier: 餌チェンバー 入手可能
+	AvailableExtremeStorage: ストレージマネージャー 入手可能
+	AvailableLiquidWand: 液体の杖 入手可能
+	NotAvailableLiquidWand: 液体の杖 入手不可
+	AvailableLiquidWandAdvanced: 究極の液体の杖 入手可能
+	AvailableMagickWand: 爆破の杖 入手可能
+	NotAvailableMagickWand: 爆破の杖 入手不可
+	AvailableStarburstWand: 星屑の杖 入手可能
+	AvailablePotionBag: ポーションカバン 入手可能
+	AvailableSpaceWand: 空間の杖 入手可能
+	AvailableWallPlace: 技術の杖 入手可能
+	AvailablePaintWand: ペイントの杖 入手可能
+	AvailableBannerChest: バナーボックス 入手可能
+	AvailableConstructWand: 工事の杖 入手可能
+	AvailableCreateWand: 建築の杖 入手可能
+	AvailableDetectorDrone: 探索ドローン 入手可能
+	AvailableMoveChest: 虚空の杖 入手可能
+	AvailableCoinOne: 幸運のコイン 入手可能
+	EnableQuickShimmer: クイックシマー有効化
+	EnableMinimapMark: 構造物マーカー有効化
+	EnableWeatherControl: 天候制御有効化
+
+}
+
+CombatText: {
+	Item: {
+		CreateWand_NotEnough: 材料が不足しています!
+		SpaceWand_Cancel: キャンセルしました!
+		SpaceWand_Lack: 足場が不足しています!
+		WallPlace_Limit: この範囲は大きすぎます!
+		WallPlace_Consume: "予想される消費量: "
+		WallPlace_Kill: 配置を停止しました!
+	}
+
+	Projectile: {
+		PlaceWall_Lack: 壁不足のため配置を中止
+	}
+
+	Commonds: {
+		ResurrectionTimeShortened: "{Time}秒、スポーン時間を減少させました！"
+	}
+}
+
+AutoSummon: {
+	Set: 自動再召喚の項目を{0}に設定
+	Summoned: "{1}を使用して{0}回召喚された。"
+}
+
+QuickHome: {
+	Teleported: "{0}を使用して帰還した。"
+	NoItem: 帰還アイテムがありません。
+}
+
+Tips: {
+	AmmoChainDisabled: 弾薬チェーン無効です
+	AmmoChain: "[centeritem:ImproveGame/AmmoChainItem]弾薬チェーン: "
+	ShimmerInto: "シマーに入れると: "
+	ShimmerIntoWithStack: シマーに{0}個入れると:
+	ShimmerIntoWithCoinLuck: シマーにこれを入れると一時的に{0}の運を得る
+	PrefixCount: "リフォージカウント: "
+	AnglerQuest: 釣り人のクエストがリフレッシュされました
+	FromMod: 【{DisplayName}】
+	LootDisplay: "{KeybindName} を押すと、アイテムドロップの詳細が表示されます"
+	LootDisplayBindless: (この機能のホットキーをバインドされていません)
+	Refreshing: ショップ入れ替え中
+	Refresh: ショップ入れ替え
+	SummonSlot: ミニオンスロット占有率: [c/22CC22:{Current}/{Total}]
+	SummonSlotFull: ミニオンスロット占有率: [c/CC2222:{Current}/{Total} (最大!)]
+	BuffTrackerOn: <left> でバフトラッカーを開く
+	BuffTrackerOff: <left> でバフトラッカーを閉じる
+	HideMyBuffs: 無限バフを非表示にするには、「個人設定」で切り替え可能です。
+	BankEnableOn: "{KeybindName}で個人インベントリを開く"
+	BankEnableOff: "{KeybindName}で個人インベントリを閉じる"
+	MouseMiddleOpen: "{KeybindName}で {ItemName} を開く"
+	MouseMiddleClose: "{KeybindName}で {ItemName} を閉じる"
+	MouseMiddleUse: "{KeybindName}で {ItemName} を使用する"
+	CreateWandOn: "{KeybindName}でハウスマテリアルパネルを開く"
+	CreateWandOff: "{KeybindName}でハウスマテリアルパネルを閉じる"
+	LiquidWandOn: "{KeybindName}で液体コントロールパネルを開く"
+	LiquidWandOff: "{KeybindName}で液体コントロールパネルを閉じる"
+	PotionBagCurrent: 次のポーションを含む ({StoredCount}/200):
+	PotionBagCurrentFull: 次のポーションを含む (最大!):
+	PotionBagNone: 空 (0/200)
+	PotionBagAvailable: (無限)
+	PotionBagUnavailable: (有限)
+	PotionBagDisabled: (有限)
+	BannerChestCurrent: 保存しているバナー: ({StoredCount}/500):
+	BannerChestCurrentFull: 保存しているバナー: (最大!):
+	BannerChestNone: バナーが入っていません (0/500)
+	BannerChestUseless: 携帯バナーがオンになっていない場合、中のバナーは機能しません
+
+	Tag: {
+		ShiftEnable: "[[c/88CCEE:Shift] で詳細を表示]"
+	}
+
+	TagDetailed: {
+		OwnedInfineBuff: "[無限バフ有効 {Count}/{Threshold}]"
+		NotOwnedInfineBuff: "[無限バフ無効 {Count}/{Threshold}]"
+		RedPotion: "[レッドポーション]"
+		GardenGnome: "[ガーデンノーム]"
+		Enabled: "[有効]"
+		Disabled: "[無効]"
+		Hided: "[バフアイコン非表示]"
+		NonHided: "[バフアイコン表示]"
+		CombinedBuff: "[利用可能なバフの組み合わせあり]"
+		AutoCollect: "[自動預け入れ]"
+	}
+
+
+	TagDetailedTip: {
+		RedPotion:
+			'''
+			レッドポーション拡張が有効な場合、以下の無限バフが付与されます：  
+			黒曜石の肌, ライフ自然回復増進, 俊足, 鉄の肌,
+			マナ自然回復増進, 魔法強化, 落下制御, 探検家,
+			弓使い, ハート回収, 狩人, 忍耐, 生命強化, 獄炎,
+			採掘, 怒り, 激怒, 危険察知
+			'''
+		GardenGnome:
+			'''
+			庭のノームによる運のボーナスが適用されています。  
+			この効果は「バフ」ではないため無効化できません。
+			'''
+		Enabled:
+			'''
+			バフ [c/88CCEE:[{BuffName}][c/88CCEE:]] はすでに適用されています。  
+			このアイテムのバフを無効化したい場合は、このアイテムをミドルクリックするか、  
+			バフアイコンを左クリックしてバフトラッカーを開き、バフを有効/無効にしてください。  
+			'''
+		Disabled:
+			'''
+			設定により、アイテムバフ [c/88CCEE:[{BuffName}][c/88CCEE:]] は無効化されました。  
+			このアイテムをミドルクリックするか、バフアイコンを左クリックして  
+			バフトラッカーを開き、バフを有効/無効にしてください。  
+			'''
+		Hided:
+			'''
+			バフアイコンは非表示になっています。  
+			表示させるには、Mod設定で「無限ポーションのバフアイコンを非表示にする」を無効化してください。  
+			'''
+		NonHided: 無限バフアイコンを非表示にしたい場合は、Mod設定を変更してください。
+		AutoCollect:
+			'''
+			コインスロット内のコインが自動的に豚の貯金箱に保存されます。  
+			この機能はインベントリの左上で切り替え可能です。  
+			商人の出現条件には豚の貯金箱内のコインも含まれます。  
+			'''
+
+		CombinedBuff: {
+			Battle:
+				'''
+				[c/88CCEE:バフの組み合わせ: ][i:CalmingPotion][i:Sunflower][i:PeaceCandle][i:WaterCandle][i:BattlePotion]  
+				上記の無限バフアイテムをすべて所持していると、  
+				バフトラッカーの右側にスポーン率スライダーが表示されます。  
+				このスライダーでスポーン率をx0〜x{MaxSpawn}の範囲で調整可能です。  
+				'''
+		}
+	}
+}
+
+ConstructGUI: {
+	Structure: QoL Structure
+	SavedAs: "構造物は次のように保存されています "
+	SaveMode: 記録モード
+	LoadMode: 設置モード
+	ExplodeAndPlace: 破壊してから設置する
+	PlaceOnly: 設置
+	Path: "ファイルパス: "
+	Saving: セーブ中
+	Saved: セーブ完了
+	Placing: 設置中
+	Placed: 設置済み
+	Stopped: 中止
+
+	RenameTip: {
+		Exists: 同名のファイルがすでに存在する
+		TooLong: ファイル名は40文字以内
+	}
+
+	FileInfo: {
+		Title: ファイル情報
+		Name: ファイル名: {Name}
+		Time: 保存した時間: {Time}
+		Version: バージョン: {Version}
+		Size: 構造物のサイズ: {Size}
+
+		ModMissing: {
+			Count: "2"
+			1: この構造体には、アンロードされたMODのブロックや壁が含まれている
+			2: 配置エラーが発生する可能性がある
+		}
+
+		LoadError: ファイルが許可されたファイルでないか、構造ファイルでない
+	}
+
+	MaterialInfo: {
+		Title: 材料情報
+		Tip: Materials stored in Big Backpack also count
+		Stored: Has: {Stack}
+		Requirement: 必要: {Stack}
+	}
+
+	Preview: {
+		Title: 構造物プレビュー
+		CenterSet: クリックすると配置の中央に設定される
+	}
+
+	Tutorial: {
+		Button: はじめに
+
+		AlphaTest: {
+			Count: "4"
+			1: ベータテスト機能
+			2: このModのSteamワークショップページでバグを報告してください
+			3: Modのブロックや壁のサポートは保証されません
+		}
+
+		Save: {
+			Title: 記録モード
+			Text:
+				'''
+				パネル左上の3つ目のボタンは、記録モードと配置モードに切り替えることができます
+
+				記録モードでは、左キーを押しながらドラッグして構造物を選択できます
+				選択すると、ファイルとしてPCに保存され、異なるワールドやサーバーでも配置できるようになります
+				'''
+		}
+
+		Place: {
+			Title: 設置モード
+			Text:
+				'''
+				配置モードでは、メインパネルで構造物を選択する必要があります
+				    
+				インベントリや巨大リュックの材料で十分な場合は、左クリックで構造物を配置します
+				ブロックや家具の向きが変わることがあります
+				'''
+		}
+
+		Explode: {
+			Title: 破壊してから配置する
+			Text: 破壊してから配置するを選択した場合、構造物を配置するための十分なスペースが確保されます
+		}
+
+		Panel: {
+			Title: 構造物リスト
+			Text:
+				'''
+				メインパネルには、ファイル名とパスを含むPC上の構造物ファイルが表示されます
+				    
+				Windowsシステム上の構造物を誤って削除してしまった場合、ごみ箱から復元することができます
+
+				右側の '詳細情報' ボタンをクリックすると、詳細情報とプレビューを確認できます
+				'''
+		}
+
+		Materials: {
+			Title: 材料情報
+			Text: 必要な材料と保存されている材料は、材料情報で確認できます
+		}
+
+		Preview: {
+			Title: 構造物プレビュー
+			Text: 構造プレビューでは、配置の中心（黄色のボックス）も表示されます
+		}
+	}
+}
+
+SuperVault: {
+	Name: 巨大リュック
+	Sort: 整理
+	Synthesis: クラフトに使う
+	SmartPickup: スマートピックアップ
+	OverflowPickup: オートピックアップ
+}
+
+MoveChest: {
+	Heavy: 宝箱の重みで動きが制限される
+}
+
+BuffTracker: {
+	Title: バフトラッカー
+	LeftClickDisable: "[c/CC88AA:<left>] でこのバフを無効化"
+	LeftClickEnable: "[c/CC88AA:<left>] でこのバフを有効化"
+	NoInfBuff: 現在利用可能な無限バフはありません。
+	NoInfBuffAlt: Mod設定で無限ポーションを有効化してください。
+	NPCSpawnRatePanel: 敵スポーン率パネル
+}
+
+LifeAnalyzer: {
+	Priority: "優先度: "
+	Tip: <left> で探知の管理
+}
+
+Architecture: {
+	Materials: 家の建材
+	StoredMaterials: (保存済: {MaterialCount})
+	MaterialsRequired: "必要な建材: "
+	Block: ブロック
+	Platform: 足場
+	Torch: 松明
+	Chair: 椅子
+	Table: 机
+	Workbench: 作業台
+	Wall: 壁
+	Bed: ベッド
+}
+
+PaintWandGUI: {
+	Paintbrush: ブロックを塗る
+	PaintRoller: 壁を塗る
+	PaintScraper: ペイントを剥がす
+}
+
+SpaceWandGUI: {
+	PlaceType: ブロックの種類
+	Platform: 足場
+	Soild: 固体ブロック
+	Rope: ロープ
+	Rail: レール
+	GrassSeed: 種
+	PlantPot: プランターの箱
+	BlockType: 変形
+	ShapeType: 形
+}
+
+PackageGUI: {
+	AutoStorage: 自動収集
+	AutoSort: 自動整理
+	Incompatible: そのアイテムはこのインベントリには含まれていません
+}
+
+Common: {
+	Loading: ロード中...
+	Refresh: 入れ替え
+	Switch: 切り替え
+	Unavailable: 有効ではありません
+	Cancel: キャンセル
+}
+
+RecipeGroup: {
+	AnyCopperBar: いずれかの銅インゴット
+	AnyGoldBar: いずれかの金インゴット
+	AnySilverBar: いずれかの銀インゴット
+	AnyDemoniteBar: いずれかのデモナイトインゴット
+	AnyShadowScale: いずれかのシャドウケール
+	AnyCobaltBar: いずれかのコバルトインゴット
+	AnyMythrilBar: いずれかのミスリルインゴット
+	AnyAdamantiteBar: いずれかのアダマンタイトインゴット
+	AnyGem: いずれかの宝石
+}
+
+Keybinds: {
+	HugeInventory: {
+		DisplayName: 巨大リュック
+		Tip: 巨大リュックを開きます。コントロールパネルからも開けます。
+	}
+
+	BuffTracker: {
+		DisplayName: バフトラッカー
+		Tip: キー設定が行われている場合、バフアイコンをクリックしてもバフトラッカーは開きません。
+	}
+
+	GrabBagLoot: {
+		DisplayName: トレジャーバッグのドロップ表示
+		Tip: カーソルがホバーしているグラブバッグの内容とドロップ率を表示します。
+	}
+
+	HotbarSwitch: {
+		DisplayName: ホットバーの切り替え
+		Tip: インベントリの1行目と2行目のアイテムを交換します。
+	}
+
+	AutoTrashKeybind: {
+		DisplayName: 自動ゴミ箱の表示/非表示
+		Tip: ゴミ箱を非表示にするだけで無効化はしません。無効化するには「その他」設定を使用してください。
+	}
+
+	DiscordRodKeybind: {
+		DisplayName: テレポートの杖使用
+		Tip: インベントリ内の「ロッドオブディスコード」または「ロッドオブハーモニー」を使用します。
+	}
+
+	HomeKeybind: {
+		DisplayName: 帰還アイテム使用
+		Tip: インベントリ内の帰還アイテムを使用します（帰還のポーション > リコールポーション > 魔法の鏡の順）
+	}
+
+	OpenBagGUI: {
+		DisplayName: バッグオープナー
+		Tip: バッグオープナーを開きます。コントロールパネルからも開けます。
+	}
+
+	MasterControl: {
+		DisplayName: コントロールパネル
+		Tip:
+			'''
+			Quality of Terrariaのショートカットにアクセスします。  
+			ショートカットを使用するには、ホットキーを必ず設定してください。 
+			'''
+	}
+
+	ItemInteract: {
+		DisplayName: 特別なインタラクション
+		Tip: 一部のアイテム（例：マウントや豚の貯金箱）とインタラクションします。
+	}
+
+	CopyItemName: {
+		DisplayName: アイテム内部名をコピー
+		Tip: カーソルがアイテムにあるとき、このショートカットキーを押すと内部名をコピーします。
+	}
+
+	CopyItemName_Control: {
+		DisplayName: アイテム内部名のフルネームコピーショートカット
+		Tip: このショートカットキーを「アイテム内部名をコピー」と同時に押すと、フルネームをコピーします。
+	}
+
+	QuickShimmerGUI: {
+		DisplayName: クイックシマー
+		Tip: 押すとクイックシマーのインターフェースを開きます。総合管理パネルからも開けます。
+	}
+}
+
+Projectiles: {
+	KillProj: {
+		DisplayName: プロジェクブロック削除
+	}
+
+	WallRobot: {
+		DisplayName: 壁ロボット
+	}
+
+	ExpelliarmusProj: {
+		DisplayName: Expelliarmus!
+	}
+
+	DetectorDroneProj: {
+		DisplayName: 探索ドローン
+		TooFarAway: 探索ドローンが遠すぎます。
+	}
+
+	HomeEffect: {
+		DisplayName: 帰還効果
+	}
+
+	GlobeEffect: {
+		DisplayName: Globe Effect
+	}
+}
+
+BuilderToggles: {
+	PiggyToggle: {
+		OffText: Auto-deposit: オフ
+		OnText: Auto-deposit: オン
+		RightFilter: Right click to open currency filter
+	}
+}
+
+FakeShops: {
+	Wand: {
+		Label: 杖ショップ
+		Wand: 杖ショップ
+		Disable: なし
+	}
+
+	Locator: {
+		Label: ロケーターショップ
+		Locator: ロケーターショップ
+		Disable: なし
+	}
+
+	Other: {
+		Label: その他ショップ
+		Other: その他ショップ
+		Disable: なし
+	}
+}
+
+NPCs: {
+	DummyNPC: {
+		DisplayName: ダミーのかかし
+	}
+}
+
+ModernConfig: {
+	NoTooltip: 説明文はありません
+	Name: 設定センター
+	ButtonApply: プリセットを適用する
+	ButtonInfo: 詳細情報
+	ButtonDelete: プリセットの削除
+	ButtonRename: 名前変更
+
+	AboutPage: {
+		Label: 概要
+		Tooltip: 新しいコンフィグインターフェースについて。
+		About:
+			'''
+			これはQuality of Terrariaの[c/0099ff:全く新しいコンフィグインターフェース]です。Discordサーバーに参加してフィードバックしてください。以前のtModLoaderのMODコンフィグメニューを使っても全く問題ありません。
+			左側には機能性に基づいた[c/0099ff:カテゴリ]があり、クリックすると子項目が表示されます。
+			一番下に[c/0099ff:ツールチップ]があり、カーソルを項目に合わせるとツールチップが表示されます。
+			[c/0099ff:右クリック]すると[c/0099ff:デフォルトにリセット]されます。
+			'''
+		LinkDiscord: Discord: https://discord.gg/rEmGMQv5z7 (クリックできます！)
+		LinkQQ: 中国人向け
+	}
+
+	Presets: {
+		Label: プリセット
+		Tooltip: 一括設定用にテラリアのクオリティ別にプリセットが用意されています。また、独自のプリセットを作成することもできます。
+		PlayerPresetTooltip: プレーヤーが作成したプリセット
+		DefaultPresetName: マイプリセット
+
+		ExplorerPreset: {
+			Label: "[centeritem:GravityGlobe] 探検家"
+			Tooltip: バニラ風のプレイに最適。バランスが壊れない程度の便利機能が使用可能で、適度な困難に挑戦しつつ探索可能。ThoriumやSpiritなどを導入している人にオススメ。
+			Link: https://github.com/ForOne-Club/ImproveGame/wiki/Config-Preset#explorer
+		}
+
+		WarriorPreset: {
+			Label: "[centeritem:EmpressBlade] 戦士"
+			Tooltip: 掘るのはやめて戦闘を始めよう！ほとんどの作業要素をスキップ可能。CalamityやFargo's SoulsなどのModを導入している人にオススメ。
+			Link: https://github.com/ForOne-Club/ImproveGame/wiki/Config-Preset#fighter
+		}
+
+		VanillaPreset: {
+			Label: "[centeritem:MusicBoxCredits] バニラ愛好家"
+			Tooltip: ほぼバニラそのまま。少数のQoL（快適性向上）機能を活用可能。
+			Link: https://github.com/ForOne-Club/ImproveGame/wiki/Config-Preset#vanilla-enjoyer
+		}
+
+		AddPreset: {
+			Label: "[centeritem:ImproveGame/AddIconDummy] プリセットとして保存"
+			Tooltip: 現在の設定をプリセットとして保存します。
+			Link: https://github.com/ForOne-Club/ImproveGame/wiki/Config-Preset#adding-a-preset
+		}
+
+		OpenFolder: {
+			Label: "[centeritem:ImproveGame/OpenFolderDummy] プリセットフォルダを開く"
+			Tooltip: プリセットフォルダを開きます。
+		}
+	}
+
+	Favorites: {
+		Label: お気に入りの項目
+		Tooltip: 項目をお気に入りに登録するには、<right>してください。お気に入り登録されたエントリはこちらに表示されます。
+	}
+
+	Everything: {
+		Label: すべて
+		Tooltip: すべての設定可能な機能を表示します。検索するときに便利です。
+	}
+
+	GameMechanics: {
+		Label: ゲームメカニクス
+		Tooltip: 墓石の出現やリスポーン速度などのゲームメカニクスを編集します。
+	}
+
+	PylonMechanics: {
+		Label: パイロンメカニクス
+		Tooltip: さまざまなパイロンの制限を解除します。
+	}
+
+	NpcSettings: {
+		Label: フレンドリーNPC
+		Tooltip: 住宅や満足度など、フレンドリーNPCの挙動を編集します。
+	}
+
+	EnemySettings: {
+		Label: 敵
+		Tooltip: マグマスライムが溶岩を落とさない、コインドロップ率の変更など、敵の挙動を編集します。
+	}
+
+	PlayerAbility: {
+		Label: プレイヤーの能力
+		Tooltip: ブロック配置範囲の拡張、復活時に体力全快、死亡時のバフ保持、鉱石の一括採掘など、プレイヤー能力を強化します。
+	}
+
+	Multiplayer: {
+		Label: マルチプレイ
+		Tooltip: チーム自動参加や無制限のテレポートなど、マルチプレイ体験を向上させます。
+	}
+
+	PlantSettings: {
+		Label: 植物
+		Tooltip: ハーブの成長速度、木の高さ、宝石樹のドロップなど、植物の挙動を編集します。
+	}
+
+	ItemSettings: {
+		Label: アイテム
+		Tooltip: 無限の弾薬やポーション、インベントリからバフステーション使用など、アイテムの挙動を編集します。
+	}
+
+	ModItemSettings: {
+		Label: Modアイテム
+		Tooltip: 一部の「Quality of Terraria」アイテムの設定を変更し、一部アイテムの入手可否を調整します。
+	}
+
+	VisualAndInterface: {
+		Label: ビジュアル
+		Tooltip: バニラやQoTのビジュアルを編集し、QoTのユーザーインターフェースを調整します。
+	}
+
+	ModFeatures: {
+		Label: その他
+		Tooltip: 弾薬チェーン、オートゴミ箱、巨大リュックなどのその他の機能を編集します。
+	}
+
+	Minimap: {
+		Label: マップ
+		Tooltip: ロケーターなどのマップ機能を編集します。
+	}
+
+	Keybinds: {
+		Label: コントロール
+		Tooltip: 「Quality of Terraria」のホットキーを管理します。<右クリック> でエントリをデフォルトに設定します。
+		Default: デフォルト: {0}
+	}
+}
+
+MasterControl: {
+	NotEnabled: MODのコンフィグでこれを有効にする必要があります。
+
+	SuperVault: {
+		DisplayName: 巨大リュック
+		Description: 100個のアイテムスロットを備えたバックパック
+	}
+
+	PlayerStats: {
+		DisplayName: プレイヤーデータ
+		Description: プレイヤーの様々なステータスを見る
+	}
+
+	Spectating: {
+		DisplayName: 観戦
+		Description: ボス戦でチームメイトを観戦可能にする
+	}
+
+	WeatherControl: {
+		DisplayName: 天候制御
+		Description: 時間や月の満ち欠け、風向き、雨を変える
+	}
+
+	ItemSearcher: {
+		DisplayName: アイテム検索
+		Description: 個人倉庫や近くのチェストからアイテムを探す
+	}
+
+	BagOpener: {
+		Description: トレジャーバッグの一括開封
+		DisplayName: バッグオープナー
+	}
+
+	WorldFeature: {
+		Description: ワールドの祝日やシークレットシードの機能を変更
+		DisplayName: ワールドの特徴
+	}
+
+	PotionBag: {
+		Description: インベントリにある最初のポーションバッグ
+		DisplayName: ポーションカバン
+	}
+
+	BannerChest: {
+		Description: インベントリにある最初のバナーボックス
+		DisplayName: バナーボックス
+	}
+
+	ModConfig: {
+		DisplayName: Mod設定
+		Description: お気に入り設定へのクイックアクセス
+	}
+
+	AmmoChain: {
+		DisplayName: 弾薬チェーン
+		Description: 武器が特定の順序で弾薬を選ぶようにする
+	}
+
+	QuickShimmer: {
+		DisplayName: クイックシマー
+		Description: インベントリにシマーがあるよ、みんな！
+	}
+}
+
+NPC: {
+	LockHP: HP固定
+	LifeMax: 最大ライフ
+	Defense: 防御力
+	Damage: 受けたダメージ
+	ShowBox: ヒットボックスを表示
+	ShowDamageData: ダメージステータスを表示
+	ShowNameOnHover: カーソルをあわせた時にNPC名を表示する
+	Immortal: バニラではTarget Dummyに対してのみ`true`となり、クロロファイトの弾は追尾しない
+	NoGravity: 重力の影響を受けない
+	NoTileCollide: ブロックの衝突を無効にする
+	KnockBackResist: ノックバック耐性、0はノックバックを受けない
+	AIStyle: AI Style, Please refer to the WIKI, default -1
+	Dummy_Damage: ダメージ： {S}/秒, {F}/tick
+	Dummy_Time: 効果時間： {S} 秒, {F} ticks
+	Dummy_FinalBlow: 最後の攻撃： {FinalBlow}
+	DummyCommand_DummyAttributes: ダミーステータス
+	DummyCommand_Usage: 使用量: /dummy <attribute> <value> (大文字小文字を区別しない)
+	DummyCommand_Description: チャットコマンド '/dummy info' は、利用可能な属性とそのタイプ、現在の値を出力します
+	DummyCommand_Success: 変更が成功しました: {name} {args}!
+	DummyCommand_Fail: 変更が失敗しました ({input})!
+	DummyCommand_Invalid: 無効なコマンド ( {input} )!
+}
+
 Configs: {
 	ImproveConfigs: {
 		DisplayName: メイン設定
 
 		ILoveBalance: {
-			Label: バランスを愛している
+			Label: バランス重視
 			Tooltip:
 				'''
-				よりバニラベースのゲームプレーを体験したいなら、このプリセットを選ぶといいだろう
-				このプリセットでは、無限のバフを持つ代わりに、死亡時にバフを維持する
-				ほとんどの機能は比較的バランスの取れたレベルに調整されている
-				バニラのような難易度を楽しみながら、まともなゲームプレイができるように
-				(このMODのアイテムの中には、アンバランスなものもあるかもしれないので、自分の判断で使ってほしい)
+				よりバニラベースのゲームプレーを体験したいなら、このプリセットがおすすめ。
+				このプリセットでは、無限のバフを持つ代わりに、死亡時にバフを維持する。
+				バニラのような難易度を楽しみながら、まともなゲームプレイができるように調整されています。
+				(このMODのアイテムの中には、アンバランスなものもあるかもしれないので、自分の判断で使ってください)
 				(プリセットを選択した後も調整が可能)
 				'''
 		}
@@ -21,20 +1253,20 @@ Configs: {
 			Label: tIMBALoader
 			Tooltip:
 				'''
-				このプリセットには最も便利な機能が含まれており、繰り返し作業を大幅に軽減します
-				カラミティのリベンジェンスモードやファーゴズソウルのエタニティモードをプレイしているのであれば、いいオプションだろう
-				ほとんどの設定は利便性のためのもので、ゲームプレイを進行させ、ボスを倒すことに集中させる
+				このプリセットには最も便利な機能が含まれており、繰り返し作業を大幅に短縮させることができます。
+				カラミティのリベンジェンスモードやファーゴズソウルのエタニティモードをプレイしているのであれば、おすすめのオプションです。
+				ほとんどの設定は利便性のためのもので、ゲームプレイの進行を早め、ボスとの戦闘をメインに楽しめるように調整されています。
 				(プリセットを選択した後も調整が可能)
 				'''
 		}
 
 		SuperVault: {
-			Label: "[centeritem:3813] 大きなバックパック"
+			Label: "[centeritem:3813] 巨大リュック"
 			Tooltip:
 				'''
 				別個のUIチャンネル、100スロット、クラフトに使用可能
 				オートピックアップとスマートピックアップ機能を搭載
-				設定 → コントロール → スクロールダウンして「大きなパック」を見つけてホットキーを割り当ててください
+				設定 → コントロール → スクロールダウンして「巨大リュック」を見つけてホットキーを割り当ててください
 				'''
 		}
 
@@ -68,25 +1300,25 @@ Configs: {
 
 		NoConsume_SummonItem: {
 			Label: "[centeritem:560] 召喚アイテムを消費しなくなる"
-			Tooltip: バニラのボスとイベントの召喚アイテムのみ
+			Tooltip: バニラのボスとイベントの召喚アイテムのみ適用されます
 		}
 
 		ModifyPlayerPlaceSpeed: {
-			Label: "[centeritem:2214] タイルの配置速度を向上"
+			Label: "[centeritem:2214] ブロックの配置速度を向上"
 			Tooltip: ""
 		}
 
 		ModifyPlayerTileRange: {
-			Label: "[centeritem:2215] タイルの配置範囲を向上"
+			Label: "[centeritem:2215] ブロックの配置範囲を向上"
 			Tooltip: ""
 		}
 
 		TileSpeed_Blacklist: {
-			Label: "[centeritem:1448] タイル配置速度向上のブラックリスト"
+			Label: "[centeritem:1448] ブロック配置速度向上のブラックリスト"
 			Tooltip:
 				'''
-				タイルの名前に以下のテキストが含まれている場合、タイルの配置速度と配置範囲は増加しない
-				大文字と小文字を区別しない
+				ブロックの名前に以下のテキストが含まれている場合、ブロックの配置速度と配置範囲は増加しません
+				大文字と小文字を区別しません
 				'''
 		}
 
@@ -96,8 +1328,8 @@ Configs: {
 				'''
 				インベントリや個人インベントリにあるクラフトステーションは、配置されたように機能します
 				配置する必要はありません
-				例：インベントリにかまどがあるので、どこでも鉱石をインゴットに加工できる
-				水バケツは水源とみなされ、溶岩バケツや蜂蜜バケツも同様である
+				例：インベントリにかまどがあるので、どこでも鉱石をインゴットに加工できます
+				水バケツは水源とみなされ、溶岩バケツや蜂蜜バケツも同様です
 				'''
 		}
 
@@ -115,9 +1347,9 @@ Configs: {
 			Label: "[centeritem:227] 無限ポーションを有効化"
 			Tooltip:
 				'''
-				インベントリや個人のインベントリ（豚の貯金箱、金庫など）にあるポーション
-				一定数以上のスタックで消費されなくなり、無限バフが付与される
-				必要量は次のコンフィグにある
+				インベントリや個人のインベントリ（豚の貯金箱、金庫など）にあるポーションが
+				一定数以上のスタックで消費されなくなり、無限バフが付与されます
+				必要量は次のコンフィグで設定可能
 				'''
 		}
 
@@ -125,53 +1357,49 @@ Configs: {
 			Label: "[centeritem:TeleportationPotion] 無限ポーションの必要量"
 			Tooltip:
 				'''
-				ポーションのスタック数がこの数以上である場合のみ、無限バフが付与される
+				ポーションのスタック数がこの数以上である場合のみ、無限バフが付与されます
 				範囲: 10~999
 				'''
 		}
 
 		NoConsume_Ammo: {
 			Label: "[centeritem:3104] 無限弾薬の有効化"
-			Tooltip: 3996以上の弾薬は消費されない
+			Tooltip: 3996以上の弾薬は消費されなくなります
 		}
 
 		NoConsume_Projectile: {
-			Label: "[centeritem:42] 無限の投擲武器"
-			Tooltip: 3996以上の投擲武器は消費されない
+			Label: "[centeritem:42] 無限投擲武器の有効化"
+			Tooltip: 3996以上の投擲武器は消費されなくなります
 		}
 
-		HideNoConsumeBuffs: {
-			Label: "[centeritem:297] 無限ポーションのバフアイコンを隠す"
-			Tooltip:
-				'''
-				無限ポーションのバフアイコンを隠す
-				効果は元のバフによって提供されるが、表示されない
-				'''
+		NoConsume_Wire: {
+			Label: "[centeritem:530] 无限电线"
+			Tooltip: 当电线的堆叠数  ≥ 3996 时将不再消耗。
 		}
 
 		ImprovePrefix: {
-			Label: "[centeritem:1551] 回顧的なリフォージ"
-			Tooltip: ロールされた接頭辞は手動で適用できる
+			Label: "[centeritem:1551] リフォージ改善"
+			Tooltip: 接頭辞を手動で適用できます
 			Unknown: 不明な接頭辞です
 		}
 
 		ResurrectionTimeShortened: {
-			Label: "[centeritem:3232] 早いリスポーン"
-			Tooltip: 例：25はリスポーン時間を25％短縮することを意味する
+			Label: "[centeritem:3232] リスポーン高速化"
+			Tooltip: 例：25はリスポーン時間を25％短縮します
 		}
 
 		BOSSBattleResurrectionTimeShortened: {
-			Label: "[centeritem:3232] ボス戦闘中の早いリスポーン"
+			Label: "[centeritem:3232] ボス戦闘中のリスポーン高速化"
 			Tooltip: ""
 		}
 
 		MiddleEnableBank: {
-			Label: "[centeritem:87] 中クリックで個人インベントリを開く"
+			Label: "[centeritem:87] ミドルクリックで個人インベントリを開く"
 			Tooltip:
 				'''
 				インベントリ内のアイテムをミドルクリックしたとき
 				対応するインベントリを開きます
-				携帯インベントリの距離制限も無効にする
+				携帯インベントリの距離制限も無効にします
 				'''
 		}
 
@@ -181,7 +1409,7 @@ Configs: {
 		}
 
 		FasterExtractinator: {
-			Label: "[centeritem:ChlorophyteExtractinator] 早い取り出し機"
+			Label: "[centeritem:ChlorophyteExtractinator] 取り出し機高速化"
 			Tooltip: 取り出し機の抽出速度が大幅に向上します
 		}
 
@@ -189,9 +1417,9 @@ Configs: {
 			Label: "[centeritem:MusicBoxTownDay] タウンNPCのスポーンメカニズムの改善"
 			Tooltip:
 				'''
-				救出されていないゴブリンのよろずや、居酒屋、魔法使い、メカニック、収税吏のスポーン条件を満たした場合
-				救出する必要はないが、有効な家屋があればスポーンできる。スポーンした時点で救出されたものとみなされます
-				タウンNPCは夜間にスポーンする
+				救出されていないゴブリンのよろずや、居酒屋、魔法使い、メカニック、収税吏のスポーン条件を満たした場合、
+				救出する必要はないが、有効な家屋があればスポーンできます。スポーンした時点で救出されたものとみなされます。
+				タウンNPCは夜間にスポーンします。
 				'''
 		}
 
@@ -215,14 +1443,23 @@ Configs: {
 			Tooltip: ""
 		}
 
+		SlimeExDrop: {
+			Label: "[centeritem:11] スライムアイテムのドロップ保証"
+			Tooltip:
+				'''
+				スライムはランダムなアイテムを持っていることがあり、それを確定ドロップするようにします。
+				コンフィグがオフの場合、バニラのドロップ率に従います
+				'''
+		}
+
 		LavalessLavaSlime: {
-			Label: "[centeritem:LavaSlimeBanner] 溶岩なし溶岩スライム"
-			Tooltip: エキスパートモードまたはマスターモードで、溶岩スライムを倒しても溶岩が生成されなくなる
+			Label: "[centeritem:LavaSlimeBanner] 溶岩なしマグマスライム"
+			Tooltip: エキスパートモードまたはマスターモードで、マグマスライムを倒しても溶岩が生成されなくなる
 		}
 
 		TravellingMerchantStay: {
 			Label: "[centeritem:2222] 旅商人は立ち去らない"
-			Tooltip: 旅商人は殺されない限り立ち去らない
+			Tooltip: 旅商人は殺されない限り立ち去りません
 		}
 
 		TravellingMerchantRefresh: {
@@ -234,43 +1471,48 @@ Configs: {
 			Label: "[centeritem:AdhesiveBandage] 救急治療"
 			Tooltip:
 				'''
-				右クリックでナースと話すと、ナースが回復してくれる
-				プレーヤーの上に金額が表示される
+				右クリックでナースと話すと、ナースが回復してくれます
+				プレーヤーの上に金額が表示されます
 				'''
 		}
 
 		BestiaryQuickUnlock: {
 			Label: "[centeritem:DontHurtCrittersBook] 教訓"
-			Tooltip: 生物の図鑑のロックが解除されている限り、その生物の図鑑のロックはキル数に関係なく完全に解除される
+			Tooltip: 生物の図鑑のロックが解除されている場合、その生物の図鑑の説明文などのロックはキル数に関係なく解除されるようになります
 		}
 
 		BannerRequirement: {
 			Label: "[centeritem:2990] バナー獲得までのキル数"
 			Tooltip:
 				'''
-				バナー獲得までのキル数を調整し、倍率が小さいほど少ないキル数でバナーを獲得できる
-				参考までに、倍率が0.1(10%)に設定されている場合、ブルースライムを5匹倒すと、50匹倒さなくても、ブルースライムバナーが1枚もらえる
-				倍率が10(1000%)に設定されている場合、ブルースライムを500匹倒すと、ブルースライムバナーが1枚もらえる
+				バナー獲得までのキル数を調整し、倍率が小さいほど少ないキル数でバナーを獲得できます
+				参考までに、倍率が0.1(10%)に設定されている場合、ブルースライムを5匹倒すと、50匹倒さなくても、ブルースライムバナーが1枚もらえます
+				倍率が10(1000%)に設定されている場合、ブルースライムを500匹倒すと、ブルースライムバナーが1枚もらえます
 				'''
 		}
 
 		AlchemyGrassGrowsFaster: {
 			Label: "[centeritem:313] ハーブの成長加速"
-			Tooltip: すべてのハーブの成長を早める
+			Tooltip: すべてのハーブの成長を早めます
 		}
 
 		AlchemyGrassAlwaysBlooms: {
-			Label: "[centeritem:316] ハーブはどんな状態でも花を咲かせる"
-			Tooltip: すべてのハーブを開花させ、種を落とせるようにする
+			Label: "[centeritem:316] ハーブ開花条件"
+			Tooltip: すべてのハーブを開花させ、種を落とせるようにします
+		}
+
+		PumpkinGrowsFaster: {
+			Label: "[centeritem:1725] カボチャの成長加速"
+			Tooltip: カボチャの成長を早めます
 		}
 
 		StaffOfRegenerationAutomaticPlanting: {
 			Label: "[centeritem:213] 成長の 杖/斧の自動植え込み"
-			Tooltip: 成長の 斧/杖の使用時に、採取したハーブを自動的に植える
+			Tooltip: 成長の 斧/杖の使用時に、採取したハーブを自動的に植えます
 		}
 
 		NoBiomeSpread: {
-			Label: "[centeritem:Sunflower] 汚染バイオームと聖域バイオームの拡がりを止める"
+			Label: "[centeritem:Sunflower] 汚染バイオームと聖域バイオームの拡大防止"
 			Tooltip: ""
 		}
 
@@ -281,7 +1523,7 @@ Configs: {
 
 		DontDeleteBuff: {
 			Label: "[centeritem:FlaskofNanites] 死んだあともバフを維持する"
-			Tooltip: すべてのバフを死んだあとも有効にする
+			Tooltip: すべてのバフを死んだあとも有効にします
 		}
 
 		JourneyResearch: {
@@ -289,7 +1531,7 @@ Configs: {
 			Tooltip:
 				'''
 				ジャーニーモードで、十分なスタック数があり、お気に入りとしてマークされているアイテムは、自動的にリサーチされます
-				この機能は、以下の項目を使用しない
+				この機能は、以下の項目を使用しません
 				'''
 		}
 
@@ -308,7 +1550,7 @@ Configs: {
 			Tooltip:
 				'''
 				木の成長速度 * 500%
-				自然に発生したジャングルの木や巨大な光るキノコには影響しない
+				自然に発生したジャングルの木や巨大な光るキノコには影響します
 				'''
 		}
 
@@ -322,18 +1564,18 @@ Configs: {
 		}
 
 		GemTreeAlwaysDropGem: {
-			Label: "[centeritem:3649] 宝石の木が必ず宝石をドロップする"
-			Tooltip: 宝石の木のあらゆる部分が宝石や宝石のどんぐりをドロップする
+			Label: "[centeritem:3649] 宝石の木が宝石を確定ドロップ"
+			Tooltip: 宝石の木のあらゆる部分が宝石や宝石のどんぐりをドロップします
 		}
 
 		ShareCraftingStation: {
 			Label: "[centeritem:WorkBench] 共有携帯クラフトステーション"
 			Tooltip:
 				'''
-				同じチームのプレイヤーは、携帯クラフトステーションを共有する
+				同じチームのプレイヤーは、携帯クラフトステーションを共有します
 				つまり チーム内に作業台を持っているプレイヤーがいる場合、椅子を作るために作業台を持っている必要はありません
-				携帯クラフティングステーションがオンになっていることが必要
-				プレーヤーが多すぎる場合（100人以上）、ラグが発生する可能性がある
+				携帯クラフティングステーションがオンになっていることが必要です
+				プレーヤーが多すぎる場合（100人以上）、ラグが発生する可能性があります
 				'''
 		}
 
@@ -341,29 +1583,29 @@ Configs: {
 			Label: "[centeritem:227] 無限バフを共有"
 			Tooltip:
 				'''
-				同じチームのプレイヤーは、バナーバフを含む無限バフを共有する
-				つまり チーム内にケーキのスライスを持っているプレイヤーがいる場合、あなたはシュガー・ラッシュのバフを受ける必要がない
-				少なくとも1つの無限バフ機能がオンになっている必要がある
-				プレーヤーが多すぎる場合（100人以上）、ラグが発生する可能性がある
+				同じチームのプレイヤーは、バナーバフを含む無限バフを共有します
+				つまり チーム内にケーキのスライスを持っているプレイヤーがいる場合、あなたはケーキを食べる必要がありません！
+				少なくとも1つの無限バフ機能がオンになっている必要があります
+				プレーヤーが多すぎる場合（100人以上）、ラグが発生する可能性があります
 				'''
 		}
 
 		ShareRange: {
-			Label: "[centeritem:WorldGlobe] 共有効果の範囲（タイル単位）"
+			Label: "[centeritem:WorldGlobe] 共有効果の範囲（ブロック単位）"
 			Tooltip:
 				'''
-				この範囲内にいるチームメイトのみが、共有効果を共有する
+				この範囲内にいるチームメイトのみが、共有効果を共有します
 				デフォルトでは-1、つまり無限の範囲
 				'''
 		}
 
 		TeamAutoJoin: {
 			Label: "[centeritem:TeamBlockRed] レッドチームに自動参加"
-			Tooltip: マルチプレイヤーモードでは、新規参加したプレイヤーは自動的にレッドチームに加わる
+			Tooltip: マルチプレイヤーモードでは、新規参加したプレイヤーは自動的にレッドチームに加わります
 		}
 
 		OnlyHost: {
-			Label: "[centeritem:2203] ホストだけがMODの設定を変更できる(ポートフォワーディングでは機能しない)"
+			Label: "[centeritem:2203] ホストのみ設定変更可(ポートフォワーディングでは機能しない)"
 			Tooltip:
 				'''
 				シングルプレイヤーモードでは動作しない
@@ -372,10 +1614,15 @@ Configs: {
 				サーバーがポートフォワーディングで動作している場合は、以下の関数を使用してください
 				'''
 			Unaccepted: 変更を保存できません：あなたはホストではありません!
+			Tips:
+				'''
+				「ホストのみ設定変更可」が有効になっています
+				ホスト(IP: 127.0.0.1)だけがMODコンフィグを変更できます
+				'''
 		}
 
 		OnlyHostByPassword: {
-			Label: "[centeritem:2203] 認証されたパスワードを持つプレイヤーのみがMODの設定を変更できる"
+			Label: "[centeritem:2203] MOD設定の変更は認証済みパスワードを持つプレイヤーのみ許可"
 			Tooltip:
 				'''
 				シングルプレイヤーモードでは動作せず、リロードが必要
@@ -387,12 +1634,13 @@ Configs: {
 				IP認証が機能しないため、ポートフォワーディングのあるサーバーで効果的
 				'''
 			Unaccepted: パスワードが認証されていません!
+			Tips: 「MOD設定の変更は認証済みパスワードを持つプレイヤーのみ許可」が有効になっています
 			Registered: MODの設定はすでに変更できる
 			Correct: 正しいパスワードで、MODの設定を変更できる
 			Incorrect: パスワードが正しくありません!
 			ServerPassword: "[Quality of Terraria] 設定確認用パスワード: {Password}"
 			ServerPasswordLog: 設定確認用パスワード: {Password}
-			CommandDescription: クライアントを確認し、MODの設定を変更する許可を求める
+			CommandDescription: クライアントを確認し、MODの設定を変更する許可を要求します
 			NotOn: パスワード認証オプションが有効になっていない
 			Format: パスワードは4文字（大文字と小文字は区別しない）
 		}
@@ -418,43 +1666,47 @@ Configs: {
 				'''
 		}
 
+		ICanSeeForeverAllBag: {
+			Label: "[centeritem:GoodieBag] トレジャーバッグの詳細を表示"
+			Tooltip:
+				'''
+				無効の場合、ドロップルールコードが非表示にするかどうかを決定します
+				有効にすると、非表示ルールは常に表示されます
+				'''
+		}
+
 		LoadModItems: {
 			Label: Modアイテムのロード設定
 			Tooltip: いくつかのModアイテムを削除し、ゲームに表示されないようにする
 		}
 
-		ShowModName: {
-			Label: "[centeritem:ImproveGame/LiquidWand] どのMODからのアイテムかを表示"
-			Tooltip: ""
-		}
-
 		EmptyAutofisher: {
-			Label: "[centeritem:ImproveGame/Autofisher] 餌が不十分な場合、警告"
+			Label: "[centeritem:ImproveGame/Autofisher] 餌残量警告"
 			Tooltip:
 				'''
-				フィッシング・マシンのエサがなくなると、メッセージが表示されます: 
-				"\[horizontal position, depth] のフィッシングマシーンに餌がありません\"
+				釣り機のエサがなくなると、メッセージが表示されます: 
+				"\[horizontal position, depth] の釣り機に餌がありません\"
 				'''
-			Tip: "[c/15d36a:{Compass}, {Depth}] のフィッシングマシーンに餌がありません"
+			Tip: "[c/15d36a:{Compass}, {Depth}] の釣り機に餌がありません"
 		}
 
 		OtherFunctions: {
 			Label: 設定不可能な機能
 			ExpandTip: クリックで拡大
-			Subtitle: 以下は、このModの設定不可能な機能である
+			Subtitle: 以下は、このMODの設定変更ができない機能です
 			Tooltip:
 				'''
-				"戦利品バッグを表示" キーバインドをクリックしている間、バッグの詳細なアイテムドロップを表示するようにしました
-				ホットバーをインベントリの2列目と入れ替えるホットキー
-				ミニオンスロットの占有率をツールチップに表示する
-				生命体分析器のアイコンをクリックすると開くフィルターパネル
-				カーソルを宝箱アイテムに合わせ、Altを押すと宝箱アイテムが検査される
-				ツールチップの簡素化（お気に入りツールチップの削除、衣装スロットの詳細ツールチップ
-				ライフクリスタル、マナクリスタル、ライフフルーツの使用速度を上げ、自動再使用を可能にした
-				マウントアイテムをミドルクリックするとマウントが切り替わります
-				すべての髪型はキャラクター作成時に選択できる
-				テレポートの杖のホットキー。どのインベントリでもロッド・オブ・ディスコードまたはロッド・オブ・ハーモニーを使用し、ロッド・オブ・ハーモニーを優先する
-				帰還ホットキー。任意のインベントリにある任意の無限帰還アイテムを使用する
+				トレジャーバッグを表示" キーバインドをクリックしている間、バッグの詳細なアイテムドロップを表示されます
+				ホットキーでホットバーとインベントリの第2行を切り替えます
+				巨大リュック内の弾薬も使用可能
+				ライフフォームアナライザーのアイコンをクリックすると開くフィルターパネルがあります
+				チェスト内のアイテムにカーソルを合わせてAltキーを押すと内容を確認できます
+				ツールチップの簡略化（「お気に入り」のツールチップ削除、装飾スロットでの詳細ツールチップ）
+				ライフクリスタル、マナクリスタル、ライフフルーツの使用速度が向上し、自動使用が可能になります
+				マウントアイテムをミドルクリックでマウントの切り替えが可能
+				キャラクター作成時にすべての髪型が選択可能
+				テレポート用のホットキーで、インベントリ内のディスコードの杖またはハーモニーの杖を使用（RoHを優先）
+				ホームに戻るホットキーで、インベントリ内の無限に使用できる帰還アイテムを使用（帰還のポーションを優先）
 				'''
 		}
 
@@ -502,7 +1754,8 @@ Configs: {
 			Server: "[centeritem:ImproveGame/CreateWand] Mod設定"
 			Presets: "[centeritem:ImproveGame/PaintWand] プリセット"
 			Others: "[centeritem/h4:HandOfCreation] その他"
-			ItemEffect: "[centeritem/h4:RedPotion] Item効果"
+			ItemEffect: "[centeritem/h4:RedPotion] アイテム効果"
+			PylonMechanics: "[centeritem:4951]パイロンの制限"
 		}
 
 		OpenConfig: {
@@ -521,43 +1774,43 @@ Configs: {
 		}
 
 		NoLakeSizePenalty: {
-			Label: "[centeritem:FishingPotion] プールサイズのペナルティなし"
+			Label: "[centeritem:FishingPotion] プールサイズのペナルティ無効化"
 			Tooltip:
 				'''
-				すべての釣り堀は満杯とみなされる
-				これにより、小さなプールでの釣りでは、プールの大きさによるフィッシングパワーの減少を防ぐことができる
-				2ブロックの水でも釣りができる
+				すべての釣り堀は満杯とみなされます
+				これにより、小さなプールでの釣りでは、プールの大きさによるフィッシングパワーの減少を防ぐことができます
+				2ブロックの水でも釣りができます
 				'''
 		}
 
 		InfiniteRedPotion: {
-			Label: "[centeritem:RedPotion] レッドポーションの拡張"
+			Label: "[centeritem:RedPotion] レッドポーション拡張"
 			Tooltip:
 				'''
 				もし "Get fixed boi "や "For the worthy "の世界
-				の場合、すべてのポーションの材料を使ってレッドポーションを作ることができる
-				無限レッドポーションはそのバフをすべて提供する
-				ただし、ポーションバッグに入れることはできない
+				の場合、すべてのポーションの材料を使ってレッドポーションを作ることができます
+				無限レッドポーションはそのバフをすべて提供します
+				ただし、ポーションバッグに入れることはできません
 				'''
 			Condition: レッドポーションの拡張が有効
 		}
 
 		RedPotionEverywhere: {
-			Label: "[centeritem:RedPotion] 制限なしのレッドポーションの拡張"
+			Label: "[centeritem:RedPotion] 無制限レッドポーション拡張"
 			Tooltip:
 				'''
-				レッドポーションの拡張をアンロックして、あらゆるワールドを楽しもう、
-				その代わり、"Get fixed boi "と "For worthy "のみ
+				レッドポーションの拡張をアンロックして、あらゆるワールドを楽しもう！
+				"Get fixed boi "と "For worthy "ワールド以外でも使用可能になります
 				'''
-			Condition: 制限なしのレッドポーションの拡張が有効/{$Conditions.WorldForTheWorthy}
+			Condition: 制限なしのレッドポーションの拡張が有効/In a For the Worthy world
 		}
 
 		RedPotionRequirement: {
-			Label: "[centeritem:RedPotion] 無限レッドポーションの必要量"
+			Label: "[centeritem:RedPotion] 無限レッドポーション必要量"
 			Tooltip:
 				'''
 				レッドポーションの拡張を有効にする必要があります
-				レッドポーション専用の無限ポーションのスタック条件を設定する
+				レッドポーション専用の無限ポーションのスタック条件を設定します
 				'''
 		}
 
@@ -565,30 +1818,53 @@ Configs: {
 			Label: "[centeritem:DemonHeart] エキスパートデバフの効果時間"
 			Tooltip:
 				'''
-				エキスパート/マスターモードでデバフの持続時間を延長する
-				これがオフの場合、クラシックモードの持続時間が使用される
+				エキスパート/マスターモードでデバフの持続時間を延長します
+				これがオフの場合、クラシックモードの持続時間が使用されます
 				'''
+		}
+
+		LightNotBlocked: {
+			Label: "[centeritem:UltrabrightTorch] ブロック遮光効果"
+			Tooltip:
+				'''
+				ライトがブロックを無視するかどうか
+				消灯時のバニラの動作に従います
+				'''
+		}
+
+		BombsNotDamage: {
+			Label: "[centeritem:TNTBarrel] 爆弾ダメージ無効化"
+			Tooltip:
+				'''
+				ブロック破壊アイテムのダメージを無効にします
+				ブロックを破壊する爆発物のみに影響する。手榴弾やブロックを壊さないロケット弾などは影響を受けません
+				'''
+		}
+
+		DisableNonPlayerBombsExplosions: {
+			Label: "[centeritem:TNTBarrel] プレイヤー以外の爆発物破壊無効化"
+			Tooltip: ブロックの意図しない破壊を防ぎます
 		}
 
 		WorldFeaturePanel: {
 			Label: "[centeritem:WorldGlobe] ワールドフィーチャーパネル"
 			Tooltip:
 				'''
-				これをオンにして、"Controls "でホットキーをバインドする
-				ワールドフィーチャーパネルを使用する
-				ホリデーや秘密のシードを切り替えることができる
+				これをオンにして、"Controls "でホットキーをバインドしてください
+				ワールドフィーチャーパネルを使用できます
+				ホリデーや秘密のシードを切り替えることができます
 				'''
 		}
 
 		BedEverywhere: {
-			Label: "[centeritem:Bed] 制限なしのベッドリスポーン"
-			Tooltip: ベッドはハウジングの条件に関係なく、どんな状態でもリスポーンポイントを設定できる
+			Label: "[centeritem:Bed] 無制限ベッドリスポーン"
+			Tooltip: ベッドはハウジングの条件に関係なく、どんな状態でもリスポーンポイントを設定できます
 		}
 
 		MinimapMark: {
 			Tooltip:
 				'''
-				探知機を使って、地図上に次の構造物をマークすることができる:
+				探知機を使って、地図上に次の構造物をマークすることが可能:
 				エーテル、ダンジョン、ジャングル寺院、浮島、プランテラのつぼみ
 				'''
 			Label: "[centeritem:WorldGlobe] 構造物マーカー"
@@ -603,9 +1879,14 @@ Configs: {
 			Label: "[centeritem:LifeCrystal] NPCの幸福度"
 			Tooltip:
 				'''
-				設定値が小さいほど、NPCからアイテムを安く買うことができる
-				そして、NPCに売るアイテムの値段が高くなる
+				設定値が小さいほど、NPCからアイテムを安く買うことができます
+				そして、NPCに売るアイテムの値段が高くなります
 				'''
+		}
+
+		NoSleepRestrictions: {
+			Label: "[centeritem:Bed] 無条件睡眠"
+			Tooltip: 睡眠はどんな状況でも時間を加速させます
 		}
 
 		BedTimeRate: {
@@ -614,106 +1895,229 @@ Configs: {
 		}
 
 		BedOnlyOne: {
-			Label: "[centeritem:Bed] 一人が寝ればいい"
-			Tooltip: マルチプレイで時間を早めるには、眠っているプレイヤーが1人いれば十分だ
+			Label: "[centeritem:Bed] 孤独な睡眠"
+			Tooltip: マルチプレイでは眠っているプレイヤーが1人いれば時間を進めることができます
 		}
 
 		WandMaterialNoConsume: {
 			Tooltip:
 				'''
-				スタック数が999を超えるタイルや壁は、空間/技術/建築 の杖によって配置された場合、消費されない
-				作業台、テーブル、ベッドなど、スタック数が99を超えるものは消費されない
+				スタック数が999を超えるブロックや壁は、空間/技術/建築 の杖によって配置された場合、消費されません
+				作業台、テーブル、ベッドなど、スタック数が99を超えるものも消費されません
 				'''
 			Label: "[centeritem:ImproveGame/SpaceWand] 杖の設置物無限化"
 		}
 
 		QuestFishStack: {
 			Label: "[centeritem:Clownfish] クエスト用魚のスタック化"
-			Tooltip: クエスト用の魚はスタック可能で、インベントリに同じ種類があっても釣ったり拾ったりできる
+			Tooltip: クエスト用の魚はスタック可能で、インベントリに同じ種類があっても釣ったり拾ったりできます
+		}
+
+		QuickRespawn: {
+			Label: "[centeritem:3232] 非ボス戦闘時高速リスポーン化"
+			Tooltip: ボスが存在しない場合、リスポーン時間が1.5秒に短縮されます
+		}
+
+		AllOff: {
+			Label: 全てOFFにする
+			Tooltip: （ほぼ）すべての設定をバニラの状態に戻し、バニラのTerrariaをプレイします
+		}
+
+		NoConditionTP: {
+			Label: "[centeritem:WormholePotion] 無条件チームテレポート"
+			Tooltip: ワームホールポーションがインベントリにあってもなくても、プレイヤーはチームメイトにテレポートできます
+		}
+
+		OpenFaq: {
+			Tooltip:
+				'''
+				問題が発生した際にこのウェブページを確認することを強くお勧めします
+				以下の質問への解決策が含まれています：
+				- 無限バフを非表示にする方法
+				- お金の自動貯金を無効にする方法
+				- プレイヤーの頭上のバフアイコンを隠す方法
+				'''
+			Label: よくある質問
+		}
+
+		WeatherControl: {
+			Label: "[centeritem:ImproveGame/WeatherBook] 天候制御"
+			Tooltip:
+				'''
+				風向き、月の位相、雨、時間を変更可能
+				ウォールオブフレッシュ撃破後に解放
+				天候の書から利用可能で、コントロールパネルからアクセスできます
+				ワールドによっては利用できない場合があります
+				'''
+		}
+
+		AmmoChain: {
+			Label: "[centeritem:ImproveGame/AmmoChainItem] 弾薬チェーン"
+			Tooltip:
+				'''
+				特定の順序で武器が弾薬を選択可能
+				コントロールパネルから利用できます
+				'''
+		}
+
+		SimpleVeinMining: {
+			Label: "[centeritem:IronPickaxe] 簡易鉱脈採掘"
+			Tooltip:
+				'''
+				基本的な鉱脈採掘機能
+				ピッケルで掘るだけで使用可能です
+				ブラックリスト/ホワイトリスト機能はなく、調整もできません
+				細かい調整がしたい場合は、Ore ExcavatorやBasic Automated Miningを使用することを推奨します
+				これらのMODがロードされている場合、この機能は無効になります
+				'''
+			PopupTip: Vein Miningが不要な場合は、QoTの設定から無効化できます
+		}
+
+		DisableVeinMiningPopup: {
+			Label: "[centeritem:IronPickaxe] 鉱脈採掘ポップアップを無効化"
+			Tooltip: ポップアップを完全に無効化します。
+		}
+
+		QuickShimmer: {
+			Label: "[centeritem:ImproveGame/ShellShipInBottle_Shimmered] クイックシマー"
+			Tooltip:
+				'''
+				シマーの変換をインベントリ内で使用可能にします
+				シマー船の瓶をアンロックすると、コントロールパネルからアクセスできます
+				ワールドによっては利用できない場合があります
+				'''
+		}
+
+		PylonPlaceNoRestriction: {
+			Label: "[centeritem:TeleportationPylonPurity] 無制限のパイロン配置"
+			Tooltip: 任意の場所に任意の数のパイロンを設置可能
+		}
+
+		PylonTeleNoNear: {
+			Label: "[centeritem:TeleportationPylonUnderground] グローバルパイロンテレポート"
+			Tooltip: どこからでもパイロンにテレポート可能
+		}
+
+		PylonTeleNoNPC: {
+			Label: "[centeritem:TeleportationPylonHallow] NPCなしでのパイロンテレポート"
+			Tooltip: 近くに町NPCがいなくてもパイロンにテレポート可能
+		}
+
+		PylonTeleNoDanger: {
+			Label: "[centeritem:TeleportationPylonJungle] 危険度無関係のパイロンテレポート"
+			Tooltip: ボスが生存していてもパイロンにテレポート可能
+		}
+
+		PylonTeleNoBiome: {
+			Label: "[centeritem:TeleportationPylonMushroom] バイオーム無関係のパイロンテレポート"
+			Tooltip: " 「なぜなら、私がそう言ったからさ！」"
 		}
 	}
 
-	ModItemLoadPage: {
-		MagickWand: {
-			Label: "{$Mods.ImproveGame.Items.MagickWand.DisplayName}"
+	AvailableModItemConfigs: {
+		DisplayName: Modアイテム設定
+		Available: " 入手可能"
+		Unavailable: " 入手不可"
+		Enable: 启用
+
+		AvailableMagickWand: {
+			Label: "[centeritem:ImproveGame/MagickWand] 爆破の杖 入手可能"
 			Tooltip: ""
 		}
 
-		SpaceWand: {
-			Label: "{$Mods.ImproveGame.Items.SpaceWand.DisplayName}"
+		AvailableSpaceWand: {
+			Label: "[centeritem:ImproveGame/SpaceWand] 空間の杖 入手可能"
 			Tooltip: ""
 		}
 
-		StarburstWand: {
-			Label: "{$Mods.ImproveGame.Items.StarburstWand.DisplayName}"
+		AvailableStarburstWand: {
+			Label: "[centeritem:ImproveGame/StarburstWand] 星屑の杖 入手可能"
 			Tooltip: ""
 		}
 
-		WallPlace: {
-			Label: "{$Mods.ImproveGame.Items.WallPlace.DisplayName}"
+		AvailableWallPlace: {
+			Label: "[centeritem:ImproveGame/WallPlace] 技術の杖 入手可能"
 			Tooltip: ""
 		}
 
-		CreateWand: {
-			Label: "{$Mods.ImproveGame.Items.CreateWand.DisplayName}"
+		AvailableCreateWand: {
+			Label: "[centeritem:ImproveGame/CreateWand] 建築の杖 入手可能"
 			Tooltip: ""
 		}
 
-		LiquidWand: {
-			Label: "{$Mods.ImproveGame.Items.LiquidWand.DisplayName}"
+		AvailableLiquidWand: {
+			Label: "[centeritem:ImproveGame/LiquidWand] 液体の杖 入手可能"
 			Tooltip: ""
 		}
 
-		PotionBag: {
-			Label: "{$Mods.ImproveGame.Items.PotionBag.DisplayName}"
+		AvailablePotionBag: {
+			Label: "[centeritem:ImproveGame/PotionBag] ポーションカバン 入手可能"
 			Tooltip: ""
 		}
 
-		BannerChest: {
-			Label: "{$Mods.ImproveGame.Items.BannerChest.DisplayName}"
+		AvailableBannerChest: {
+			Label: "[centeritem:ImproveGame/BannerChest] バナーボックス 入手可能"
 			Tooltip: ""
 		}
 
-		Autofisher: {
-			Label: "{$Mods.ImproveGame.Items.Autofisher.DisplayName}"
+		AvailableAutofisher: {
+			Label: "[centeritem:ImproveGame/Autofisher] 自動釣り機 入手可能"
 			Tooltip: ""
 		}
 
-		PaintWand: {
-			Label: "{$Mods.ImproveGame.Items.PaintWand.DisplayName}"
+		AvailablePaintWand: {
+			Label: "[centeritem:ImproveGame/PaintWand] ペイントの杖 入手可能"
 			Tooltip: ""
 		}
 
-		ConstructWand: {
-			Label: "{$Mods.ImproveGame.Items.ConstructWand.DisplayName}"
+		AvailableConstructWand: {
+			Label: "[centeritem:ImproveGame/ConstructWand] 工事の杖 入手可能"
 			Tooltip: ""
 		}
 
-		MoveChest: {
-			Label: "{$Mods.ImproveGame.Items.MoveChest.DisplayName}"
+		AvailableMoveChest: {
+			Label: "[centeritem:ImproveGame/MoveChest] 虚空の杖 入手可能"
 			Tooltip: ""
 		}
 
-		CoinOne: {
-			Label: "{$Mods.ImproveGame.Items.CoinOne.DisplayName}"
+		AvailableCoinOne: {
+			Label: "[centeritem:ImproveGame/CoinOne] 幸運のコイン 入手可能"
 			Tooltip: ""
 		}
 
-		ExtremeStorage: {
-			Label: "{$Mods.ImproveGame.Items.ExtremeStorage.DisplayName}"
+		AvailableExtremeStorage: {
+			Label: "[centeritem:ImproveGame/ExtremeStorage] ストレージマネージャー 入手可能"
 			Tooltip: ""
 		}
 
-		DetectorDrone: {
-			Label: "{$Mods.ImproveGame.Items.DetectorDrone.DisplayName}"
+		AvailableDetectorDrone: {
+			Label: "[centeritem:ImproveGame/DetectorDrone] 探索ドローン 入手可能"
 			Tooltip: ""
 		}
 
-		Tooltip: ""
+		AvailableBaitSupplier: {
+			Label: "[centeritem:ImproveGame/BaitSupplier] 餌チェンバー 入手可能"
+			Tooltip: ""
+		}
+
+		AvailableLiquidWandAdvanced: {
+			Label: "[centeritem:ImproveGame/LiquidWandAdvanced] 究極の液体の杖 入手可能"
+			Tooltip: ""
+		}
+
+		AvailableActuationRodMkII: {
+			Label: "[centeritem:ImproveGame/ActuationRodMkII] 究極のアクチュエーションワンド 入手可能"
+			Tooltip: ""
+		}
 	}
 
 	UIConfigs: {
 		DisplayName: 個人設定
+
+		BigBackpackButton: {
+			Label: "[centeritem:3813]大きなリュック"
+			Tooltip: ""
+		}
 
 		ResetNativeUI: {
 			Label: "[centeritem:1544] バニラUIをリセット"
@@ -735,6 +2139,11 @@ Configs: {
 			Tooltip: ""
 		}
 
+		ShowModName: {
+			Label: "[centeritem:ImproveGame/LiquidWand] どのMODのアイテムかを表示"
+			Tooltip: ""
+		}
+
 		PlyInfo: {
 			Label: "[centeritem:3124] プレイヤーステータス"
 			Tooltip: ""
@@ -745,18 +2154,18 @@ Configs: {
 			Tooltip:
 				'''
 				自動ゴミ箱
-				アイテムは、その種類が中にある場合、このゴミ箱に移動されます
-				アイテムを登録できる6つのゴミ箱がある
-				Shift+Ctrl+左クリックでゴミ箱にアイテムを移動
+				アイテムを登録できる6つのゴミ箱が表示されます
+				アイテムは、同じものが中にある場合、このゴミ箱に移動されます
+				Shift+Ctrl+左クリックでゴミ箱にアイテムを移動できます
 				'''
 		}
 
-		FontOffsetPreviewText: テキストが行に収まるようにオフセット値を調整する
-		BigFontOffsetPreviewText: 素早い茶色の狐...
+		FontOffsetPreviewText: テキストが行に収まるようにオフセット値を調整してください
+		BigFontOffsetPreviewText: テストテキスト
 
 		OpenConfig: {
-			Label: "{$Mods.ImproveGame.Configs.ImproveConfigs.OpenConfig.Label}"
-			Tooltip: "{$Mods.ImproveGame.Configs.ImproveConfigs.OpenConfig.Tooltip}"
+			Label: 設定ファイルを開く
+			Tooltip: どのような設定も、変更された後にのみファイルに表示される
 		}
 
 		KeepFocus: {
@@ -764,67 +2173,98 @@ Configs: {
 			Tooltip:
 				'''
 				フォーカスが外れても（バックグラウンドでも）、ゲームは実行され続けます
-				シングルプレーヤーでは一時停止されない
+				シングルプレーヤーでは一時停止されません
 				'''
 		}
 
 		ExplosionEffect: {
 			Label: "[centeritem:TNTBarrel] 爆破の杖の効果"
-			Tooltip: このMODの杖の爆発効果を切り替える
+			Tooltip: このMODの杖の爆発効果を切り替えます
 		}
 
 		Headers: {
 			MinimapHeader: "[centeritem:WorldGlobe] マップマーカー設定"
+			UIHeader: "[centeritem:EchoMonolith] UI設定"
+			GameHeader: "[centeritem:JimsDrone] ゲーム設定"
 		}
 
 		MarkFloatingIsland: {
-			Tooltip: マークされた浮島を地図上に表示する
+			Tooltip: マークされた浮島を地図上に表示します
 			Label: "[centeritem:ImproveGame/FloatingIslandGlobe] 浮島"
 		}
 
 		MarkAether: {
-			Tooltip: マークされたエーテルを地図上に表示する
+			Tooltip: マークされたエーテルを地図上に表示します
 			Label: "[centeritem:ImproveGame/AetherGlobe] エーテル"
 		}
 
 		MarkTemple: {
-			Tooltip: マークされたジャングル寺院を地図上に表示する
+			Tooltip: マークされたジャングル寺院を地図上に表示します
 			Label: "[centeritem:ImproveGame/TempleGlobe] ジャングル寺院"
 		}
 
 		MarkDungeon: {
-			Tooltip: マークされたダンジョンを地図上に表示する
+			Tooltip: マークされたダンジョンを地図上に表示します
 			Label: "[centeritem:ImproveGame/DungeonGlobe] ダンジョン"
 		}
 
 		MarkPyramid: {
 			Label: "[centeritem:ImproveGame/PyramidGlobe] ピラミッド"
-			Tooltip: マークされたピラミッドを地図上に表示する
+			Tooltip: マークされたピラミッドを地図上に表示します
 		}
 
 		MarkPlantera: {
 			Label: "[centeritem:ImproveGame/PlanteraGlobe] プランテラのつぼみ"
-			Tooltip: マークされた {$MapObject.PlanterasBulb} を地図上に表示する
+			Tooltip: マークされたプランテラのつぼみを地図上に表示します
+		}
+
+		MarkEnchantedSword: {
+			Label: "[centeritem:ImproveGame/EnchantedSwordGlobe] エンチャントソードのアイコンのサイズ"
+			Tooltip: マークされたエンチャントソードのアイコンのサイズで、0で非表示になります
+		}
+
+		MarkMarbleCave: {
+			Label: "[centeritem:ImproveGame/MarbleCaveGlobe] 大理石の洞窟のアイコンのサイズ"
+			Tooltip: マークされた大理石の洞窟の地図アイコンのサイズで、0で非表示になります
+		}
+
+		MarkGraniteCave: {
+			Label: "[centeritem:ImproveGame/GraniteCaveGlobe] 御影石の洞窟のアイコンのサイズ"
+			Tooltip: マークされた御影石の洞窟の地図アイコンのサイズで、0で非表示になります
+		}
+
+		MarkEmptyAutofisher: {
+			Label: "[centeritem:ImproveGame/Autofisher] エサなし釣り機アイコンサイズ"
+			Tooltip: エサなし釣り機の地図アイコンの大きさで、0で非表示になります
 		}
 
 		SuicideButton: {
 			Label: セルフキル
-			Tooltip: このボタンを押すとキャラクターは死ぬ、 [c/FF4444:押す前にもう一度考えて].
+			Tooltip: このボタンを押すとキャラクターは死にます。[c/FF4444:押す前にもう一度考えて]。
 		}
 
 		MagicMirrorInstantTp: {
 			Label: "[centeritem:MagicMirror] 即時帰還アイテム"
-			Tooltip: 魔法の鏡のようなホームに戻るアイテムは即座に使えるが、テレポート前のディレイは削除される
+			Tooltip: 魔法の鏡のようなホームに戻るアイテムは即座に使えるようになり、テレポート前のディレイは削除されます
+		}
+
+		HideNoConsumeBuffs: {
+			Label: "[centeritem:297] 無限ポーションのバフアイコンを隠す"
+			Tooltip:
+				'''
+				無限ポーションのバフアイコンを隠します
+				効果は元のバフのままですが、表示されません
+				'''
 		}
 
 		InfernoTransparency: {
-			Label: "[centeritem:InfernoPotion] インンフェルノリングアルファ"
-			Tooltip: インフェルノのリングのアルファは、あなたの視点では、1がソリッド、0が透明
+			Label: "[centeritem:InfernoPotion] インフェルノリングアルファ"
+			Tooltip: インフェルノのリングのアルファは、あなたの視点では、1がソリッド、0が透明です
 		}
 
 		InvisibleTransparency: {
 			Label: "[centeritem:InvisibilityPotion] 不可視のアルファ"
-			Tooltip: 不可視時の視点におけるキャラクターのアルファ値
+			Tooltip: 不可視時の視点におけるキャラクターのアルファ値を設定します
 		}
 
 		ThemeType: {
@@ -834,7 +2274,57 @@ Configs: {
 
 		ShowShimmerInfo: {
 			Label: "[centeritem:BottomlessShimmerBucket] シマー情報を表示"
-			Tooltip: アイテムがどのようなアイテムにシマーできるかをツールチップに表示します
+			Tooltip: シマーにアイテムを投入するとどのように変化するかをツールチップに表示します
+		}
+
+		ResetUIPositionsButton: {
+			Label: UI位置リセット
+			Tooltip: すべてのUIポジションをデフォルトに戻します
+		}
+
+		GlassVfxOn: {
+			Label: "[centeritem:MulticoloredStainedGlass] ガラスモルフィズム効果"
+			Tooltip:
+				'''
+				このMODのUIにグラスモルフィズム効果を適用し、より美しくします
+				ライティングモードが 「Color」または 「White」の時のみ効果があります
+				パフォーマンスに影響する可能性があります
+				'''
+		}
+
+		AutoSummon: {
+			Label: "[centeritem:SlimeStaff] 自動再召喚"
+			Tooltip:
+				'''
+				リスポーン後に最後に使用したミニオンを召喚する
+				MOD「Summoners' Association」がロードされている場合は無効化されます
+				Summoners' Associationで設定をしてください！
+				'''
+		}
+
+		RecipeSearch: {
+			Label: "[centeritem:ImproveGame/SearchIcon] レシピ検索"
+			Tooltip: レシピメニューの拡張時に検索バーを表示する
+		}
+
+		RemoveGraveyardVisual: {
+			Label: "[centeritem:RichGravestone2] 墓場のエフェクトを削除"
+			Tooltip: 墓場のビジュアルエフェクトを削除します
+		}
+
+		RemoveGraveyardMist: {
+			Label: "[centeritem:RichGravestone2] 墓場の霧を削除"
+			Tooltip: 墓場の霧エフェクトを削除します
+		}
+
+		RemoveGraveyardMusic: {
+			Label: "[centeritem:RichGravestone2] 墓場のBGMを削除"
+			Tooltip: 墓場のBGMを削除します
+		}
+
+		GlobeEffect: {
+			Tooltip: 気に入らなければ消してください
+			Label: "[centeritem:WorldGlobe] ロケーターエフェクト"
 		}
 	}
 
@@ -851,19 +2341,105 @@ Configs: {
 
 		WhenOpeningBackpack: {
 			Label: インベントリのみ
+			Tooltip: インベントリーを開いている時のみ、ピン留めされた統計情報を表示します
 		}
 	}
 
 	ThemeType: {
 		Stormdark: {
 			Label: ストームダーク
+			Tooltip: Stormdarkのスキーム。Stormdarkのテクスチャパックと組み合わせると最適です（TerrariaのSteamワークショップでサブスクライブしてください）
 		}
 
 		Blue: {
 			Label: クラシック
+			Tooltip: バニラのスキームです
 		}
 
 		Tooltip: ""
+	}
+
+	GlassType: {
+		Tooltip: ""
+
+		Disabled: {
+			Label: オフ
+		}
+
+		MicaLike: {
+			Label: マイカ風
+		}
+	}
+
+	BombsNotDamageType: {
+		Tooltip: ""
+
+		Disabled: {
+			Label: オフ
+		}
+
+		Item: {
+			Label: 爆発物のみ
+			Tooltip: アイテムのみ
+		}
+
+		ItemAndRocket: {
+			Label: 爆発物とロケット
+			Tooltip: アイテムおよびロケットのみ
+		}
+	}
+
+	DisableNonPlayerBombsExplosionsType: {
+		Tooltip: ""
+
+		Disabled: {
+			Label: オフ
+		}
+
+		FTW: {
+			Label: For the Worthy ワールドのみ
+			Tooltip: 「For the Worthy」ワールドでのみ、ポットや揺れる木、Mech Primeが生成する爆弾がブロックを破壊しません
+		}
+
+		FTWAndExplosives: {
+			Label: すべて
+			Tooltip: 爆弾と自然生成された爆弾がブロックを破壊しません
+		}
+	}
+
+	FavoritedConfigs: {
+		DisplayName: お気に入り設定
+
+		Header: {
+			Favorited: "[centeritem:FallenStar] お気に入り設定"
+			News: "[centeritem:RainbowCursor] 新規コンフィグ"
+		}
+
+		FavoriteIntroduction: {
+			Label: よく使うコンフィグを管理するページ
+			Tooltip:
+				'''
+				<right> で任意の「Quality of Terraria」設定をお気に入りに追加します。  
+				お気に入りにした設定はこのページに表示され、すぐにアクセスできます。  
+				また、更新後に追加された新しい設定もこのページに表示されます。
+				'''
+		}
+	}
+
+	FishQuestResetType: {
+		Tooltip: ""
+
+		Disabled: {
+			Label: 無効化
+		}
+
+		NotResetFish: {
+			Label: 魚をリセットしない
+		}
+
+		ResetFish: {
+			Label: 魚をリセット
+		}
 	}
 }
 
@@ -872,12 +2448,12 @@ Items: {
 		DisplayName: 爆破の杖
 		Tooltip:
 			'''
-			固定モード： 指定された固定エリアのタイルを破壊する
-			自由モード： 選択したタイルを破壊する
+			固定モード： 指定された固定エリアのブロックを破壊する
+			自由モード： 選択したブロックを破壊する
 			採掘速度に影響されることがある
 			採掘力は、インベントリにある一番高いツルハシの採掘力と同等である
-			マナコストは破壊されたタイルの数に依存する
-			<right> を押して破壊設定を編集する"
+			マナコストは破壊されたブロックの数に依存する
+			<right> を押して破壊設定を編集したり、選択した範囲をキャンセルできる
 			<right> を押して選択した範囲をキャンセルする
 			'''
 	}
@@ -887,13 +2463,10 @@ Items: {
 		Tooltip:
 			'''
 			[c/0099ff:右クリックで管理パネルを開く]
-			選択した種類のタイルを指定された範囲に配置する
-			インベントリのタイルを消費する
-			ブロック交換が有効になっている場合、異なる種類のタイルを交換します
-			一度に最大500枚（サーバーでは244枚）のタイルを配置できる
-			ブロック勾配のタイプをカスタマイズできる
+			選択した種類のブロックを指定された範囲に配置することができる
+			インベントリのブロックを消費する
 			<right> を押して選択した範囲をキャンセルする
-			'私はこれらの道具に同情する'
+			「私はこれらの道具に同情する」
 			'''
 	}
 
@@ -901,13 +2474,12 @@ Items: {
 		DisplayName: 星屑の杖
 		Tooltip:
 			'''
-			固定モード： 指定された固定エリアのタイルを破壊する
-			自由モード： 選択したタイルを破壊する
+			<right> を押すと破壊設定を編集したり、選択した範囲をキャンセルできる
+			固定モード： 指定された固定エリアのブロックを破壊する
+			自由モード： 選択したブロックを破壊する
 			採掘速度に影響されることがある
-			採掘力は、インベントリにある一番高いツルハシの採掘力と同等である
-			マナコストは破壊されたタイルの数に依存する
-			<right> を押して破壊設定を編集する
-			<right> を押して選択した範囲をキャンセルする
+			採掘力は、インベントリにある一番高いツルハシの採掘力と同等になる
+			マナコストは破壊されたブロックの数に依存する
 			'''
 	}
 
@@ -916,20 +2488,21 @@ Items: {
 		Tooltip:
 			'''
 			保管されている材料を使って家を建てる
-			保管されている材料がない場合は、インベントリにある材料を使用します
-			<right> 材料保存庫と家の種類の切り替えパネルを開く
-			十分な材料を用意してください。そうしないと家が完全に建ちません!
-			[c/ff0000:廃棄された場合、中の保管物は返却されない!]
+			保管されている材料がない場合は、インベントリにある材料を使用する
+			十分な材料がない場合、不完全な家になる
+			<right>で、材料保存庫と家の種類の切り替えパネルを開く
+			[c/ff0000:廃棄された場合、中の保管物は返却されません！]
 			'''
 	}
 
 	WallPlace: {
+		PureName: 技術の杖
 		DisplayName: 技術の杖
 		Tooltip:
 			'''
 			カーソルの位置にウォールプレイサーを召喚する
 			部屋を自動的に認識し、インベントリにある壁を自動で配置する
-			認識された部屋は、最大2500タイルの空間を持つことができる
+			部屋の大きさは最大10000ブロックまで
 			ブロック、プラットフォーム、ドアを境界とみなす
 			各プレイヤーは1つしか召喚できない
 			'''
@@ -951,42 +2524,45 @@ Items: {
 		DisplayName: ポーションカバン
 		Tooltip:
 			'''
-			バフポーションを保管
-			<left> を押してポーションを持ったままポーションバッグにポーションを入れる
-			<right> を押してポーションバッグを持ちながらポーションを取り出す"
+			バフポーションを保管できる鞄
+			ポーションを持った状態で[c/0099ff:<left>]を押すと収納できる
+			[c/0099ff:<right>]を押すとポーションバッグを開く
 			200スタックのポーションを保存可能
 			'''
+		TooltipByKeybind: "[c/0099ff:{KeybindName}]を押してポータブルストレージからポーションを集める"
 	}
 
 	BannerChest: {
-		DisplayName: バナー箱
+		DisplayName: バナーボックス
 		Tooltip:
 			'''
 			バナーを保存する
-			バナーを持ちながら <left> でバナー箱に入れる
-			<right> でバナー箱からバナーを取り出す
+			ポーションを持った状態で[c/0099ff:<left>]を押すと収納できる
+			[c/0099ff:<right>]を押すとバナーボックスを開く
 			200スタックのバナーを保存可能
 			'''
+		TooltipByKeybind: "[c/0099ff:{KeybindName}]を押してポータブルストレージからポーションを集める"
 	}
 
 	Autofisher: {
-		DisplayName: オートフィッシングマシーン
+		DisplayName: 自動釣り機
 		Tooltip:
 			'''
-			配置されたフィッシングマシンを右クリックしてフィッシングパネルを開く
-			最初の行の "+" をクリックして水の種類を選択する
-			釣り竿とルアーを入れてスタート、仕組みは手釣りと同じ
+			配置された釣り機を右クリックしてフィッシングパネルを開く
+			上の"+"をクリックして水の種類を選択し、
+			釣り竿とルアーを入れると稼働させることができる
+			仕組みはプレイヤーが釣りをするときと同じ
 			釣りのパワーを上げたり、溶岩で釣りをする能力を付与するアクセサリーを付けることもできる
-			初期の釣り速度は手動釣り速度の20％で、あなたは釣りプロセスをスピードアップすることができます
+			初期の釣り速度は手動釣り速度の20％で、釣りプロセスをスピードアップすることができる
 			- 各 [i:Bass] に10%の釣り速度ボーナスが与えられ、上限は500% ([i/s50:Bass])
 			"- [i:AnglerEarring] 釣りのスピードが200％アップ"
 			"- [i:AnglerTackleBag] 釣りのスピードが300％アップ"
 			"- [i:LavaproofTackleBag] 釣りのスピードが500％アップ"
 			- ハードモードで釣り速度が300％アップ
-			[c/AAAAAA:フィッシング・マシンは釣り糸を使わないので、アクセサリー・スロットに] [i:HighTestFishingLine] [c/AAAAAA:を入れることができる]
-			[c/AAAAAA:Quality of TerrariaをサポートするMODアクセサリのみがサポートされます]
-			ほとんどのModバイオームをサポート
-			フィルタリングされた項目のみが捕捉される
+			[c/AAAAAA:釣り機は釣り糸を使わないので、アクセサリー・スロットに][i:HighTestFishingLine][c/AAAAAA:高耐久の釣り糸を入れることができる]
+			[c/AAAAAA:Quality of TerrariaをサポートするMODアクセサリのみ使用可能]
+			ほとんどのMod追加バイオームに対応
+			釣る対象をフィルタリングできる
 			'''
 	}
 
@@ -995,24 +2571,24 @@ Items: {
 		Tooltip:
 			'''
 			[c/0099ff:<right> でペイントモードパネルを開く]
-			範囲を選択し、範囲内のタイルのペンキを塗る、剥がす
-			[i:PaintScraper]のように、塗料を落としながらタイルのコケも除去する
+			範囲内のブロックのペンキを塗ったりはがしたりできる
+			[i:塗装はがし]のように、塗料を落としながらブロックのコケも除去できる
 			999スタック以上の塗料は消費されない
 			'''
 	}
 
 	ConstructWand: {
-		DisplayName: 建設の杖
+		DisplayName: 工事の杖
 		Tooltip:
 			'''
 			[c/0099ff:<right> で建設パネルを開く]
 			自由に構造物を配置できる
-			記録モード - 選択した構造をファイルとして保存します
+			記録モード - 選択した構造をファイルとして保存する
 			配置モード - 材料が十分にあると構造物を配置する
-			液体は記録しない
-			ワイヤーはプレビューでは表示されませんが、記録され、配置されます
+			液体は記録されない
+			ワイヤーはプレビューでは表示されないが、記録され、配置される
 			詳細は右上の 'はじめに' をクリック
-			"[c/AAAAAA:ベータテスト機能、このMODのSteamワークショップページでバグを報告してください]"
+			[c/AAAAAA:ベータテスト機能、このMODのSteamワークショップページでバグを報告してください]
 			'''
 	}
 
@@ -1029,8 +2605,8 @@ Items: {
 		DisplayName: 幸運のコイン
 		Tooltip:
 			'''
-			あなたは幸運な人だ!
-			'これはおそらく売れるだろう'
+			かなりツイてるな！
+			これはおそらく売れるだろう...
 			'''
 	}
 
@@ -1038,30 +2614,27 @@ Items: {
 		DisplayName: ストレージマネージャー
 		Tooltip:
 			'''
-			[c/cc2200:どうすればいいかわからない場合は、このマニュアルを読んでください:] 
-			チェスト内のアイテムを管理するために使用します
-			配置後、 <right> でチェストパネルを開く
-			マネージャーには、アイテムにアクセスするための [c/0099ff:filter options] いくつか組み込まれています
-			"'{$Mods.ImproveGame.UI.ExtremeStorage.AddChest}' をクリックして、チェストをカテゴリーに追加します"
-			チェストの並べ替えは、チェストの名前の前に付けられた識別子に依存する、 [c/0088dd:恣意的なチェスト名の編集はご遠慮ください]
-			アイテムの並べ替えは手動で行う必要があります
-			"[c/0099ff:Portable Crafting Station] を有効にすると、'{$Mods.ImproveGame.UI.ItemGroup.Furniture}' 配下のアイテムが携帯クラフティングステーションとして表示されます"
-			"[c/0099ff:Infinite Potion]を有効にすると、アイテムから '{$Mods.ImproveGame.UI.ItemGroup.Alchemy}' のポーションの効果を得ることができます"
-			[c/cc2200:複数のストレージマネージャーをマルチプレイヤーモードで使用すると、帯域幅の消費が増加する場合があります] 
+			[c/cc2200:分からない場合はこのマニュアルをお読みください:]
+			これはチェスト内のアイテムを管理するために使用します。
+			カテゴリを選択し、[i:ImproveGame/AddChestIconDummy] をクリックしてそのカテゴリにチェストを追加します。
+			チェストの並べ替えは、チェスト名の先頭に付けられた識別子によって行われます。[c/0088dd:チェスト名を後から編集しないでください！]
+			家具やポーションはそれぞれのカテゴリに入れ、その他のアイテムは「すべて」のカテゴリに入れてください。
+			[c/0099ff:携帯用クラフティングステーション] や [c/0099ff:無限ポーション] は、対応するカテゴリに保管すると、すべてのプレイヤーが効果を得られます。
+			[c/cc2200:マルチプレイヤーモードで複数のストレージマネージャーを配置すると、送信されるパケットが増加し、ラグの原因になる可能性があります。]
 			'''
 	}
 
 	GlobeBase: {
-		DisplayName: "{0} 探知機"
-		Tooltip: "{0} をマップにマークします"
-		AlreadyRevealed: "{0} は既にマークされています"
-		Reveal: "{1} は {0} をマップにマークしました"
-		RevealPlantera: "{0} は {NPCName.Plantera} をマップにマークしました"
-		NotFound: "{0} のデータが存在しない場合、ワールド作成時にQoL v1.6.6+が有効になっていない可能性があります。"
-	}
-
-	AetherGlobe: {
-		BiomeName: エーテル
+		DisplayName: "{0}探知機"
+		Tooltip: "{0}をマップにマークします。"
+		Tooltip_1:
+			'''
+			マップ上で最も近い{0}をマークする
+			マーカーは [c/CC88AA:個人設定]で非表示にできる。
+			'''
+		AlreadyRevealed: "{0}は既にマークされています。"
+		Reveal: "{1}は{0}をマップにマークしました。"
+		NotFound: "{0}のデータが存在しない場合、ワールド作成時にQoL v1.6.6+が有効になっていない可能性があります。"
 	}
 
 	DungeonGlobe: {
@@ -1074,7 +2647,7 @@ Items: {
 
 	PyramidGlobe: {
 		BiomeName: ピラミッド
-		NotFound: この世界にピラミッドは存在しない
+		NotFound: このワールドにピラミッドは存在しません。
 	}
 
 	TempleGlobe: {
@@ -1082,14 +2655,37 @@ Items: {
 	}
 
 	PlanteraGlobe: {
-		NotFound: "{$MapObject.PlanterasBulb}を見つけられませんでした"
+		BiomeName: プランテラ
+		NotFound: プランテラのつぼみが見つかりませんでした。
+		Reveal: "{0}がマップ上のプランテラのつぼみをマークしました。"
+	}
+
+	EnchantedSwordGlobe: {
+		BiomeName: エンチャントソード
+		NotFound: エンチャントソードの祠が見つかりませんでした。
+		Reveal: "{0}がマップ上のエンチャントソードの祠をマークしました。"
+	}
+
+	MarbleCaveGlobe: {
+		BiomeName: 大理石の洞窟
+		NotFound: 大理石の洞窟が見つかりませんでした。
+	}
+
+	GraniteCaveGlobe: {
+		BiomeName: 御影石の洞窟
+		NotFound: 御影石の洞窟が見つかりませんでした。
+	}
+
+	AetherGlobe: {
+		BiomeName: シマー
+		NotFound: シマーが見つかりませんでした
+		Reveal: "{0}がマップ上の{ImproveGame.Mods.Items.AetherGlobe.BiomeName}をマークしました。"
 	}
 
 	DetectorDrone: {
 		Tooltip:
 			'''
-			高く飛んだり低く飛んだりして地形を探索する
-			照明も含まれる
+			光りながら高く飛んだり低く飛んだりして地形を探索するドローン
 			注意：遠くに行き過ぎると爆発します
 			'''
 		DisplayName: 探索ドローン
@@ -1110,721 +2706,162 @@ Items: {
 			'''
 	}
 
+	ShimmerTech: {
+		DisplayName: Shimmemeter
+		Tooltip:
+			'''
+			[c/ff0000:デバッグアイテム]
+			Removes shimmer bonuses of your player
+			<right> instead removes shimmer bonuses of the world
+			バイタルクリスタル
+			アルケインクリスタル
+			イージスフルーツ
+			アンブロシア
+			グミワーム
+			ギャラクシーパール
+			高度な戦闘テクニック：第２巻
+			旅商人のカバン
+			"Oh God, I can see forever!"
+			'''
+	}
+
 	Dummy: {
 		DisplayName: ダミーのかかし
 		Tooltip:
 			'''
-			私を傷つけないで :)"
+			叩かないで；；
 			チャットコマンド:
-			 /dummy info → ダミーのステータスを表示
-			 /help dummy → ダミー使用量を取得
-			(マルチプレイではまだ使えない)
+			/dummy info → ダミーのステータスを表示
+			/help dummy → ダミーの使い方を確認
+			左クリックでマウスの位置にダミーをスポーン
+			右クリックで選択したダミーを削除
+			ミドルクリックで設定パネルを表示
 			'''
 		CannotUse: マルチプレイには未対応
 	}
-}
 
-NPC: {
-	LockHP: HP固定
-	LifeMax: 最大ライフ
-	Defense: 防御力
-	Damage: 受けたダメージ
-	ShowBox: ヒットボックスを表示
-	ShowDamageData: ダメージステータスを表示
-	ShowNameOnHover: カーソルをあわせた時にNPC名を表示する
-	Immortal: バニラではTarget Dummyに対してのみ`true`となり、クロロファイトの弾は追尾しない
-	NoGravity: 重力の影響を受けない
-	NoTileCollide: タイルの衝突を無効にする
-	KnockBackResist: ノックバック耐性、0はノックバックを受けない
-	Dummy_Damage: ダメージ: {S}/秒, {F}/tick
-	Dummy_Time: 効果時間: {S} 秒, {F} ticks
-	Dummy_FinalBlow: 最後の攻撃: {FinalBlow}
-	DummyCommand_DummyAttributes: ダミーステータス
-	DummyCommand_Usage: 使用量: /dummy <attribute> <value> (大文字小文字を区別しない)
-	DummyCommand_Description: チャットコマンド '/dummy info' は、利用可能な属性とそのタイプ、現在の値を出力します
-	DummyCommand_Success: 変更が成功しました: {name} {args}!
-	DummyCommand_Fail: 変更が失敗しました ({input})!
-	DummyCommand_Invalid: 無効なコマンド ( {input} )!
-}
-
-ModName: Quality of Terraria
-
-Tiles: {
-	Autofisher: {
-		MapEntry: "{$Mods.ImproveGame.ItemName.Autofisher}"
-	}
-
-	ExtremeStorage: {
-		MapEntry: "{$Mods.ImproveGame.ItemName.ExtremeStorage}"
-	}
-}
-
-ItemDropRule: {
-	WandDrop: インベントリにすでにインベントリがある場合はドロップしない
-}
-
-CombatText: {
-	Item: {
-		CreateWand_NotEnough:材料が不足しています!
-		SpaceWand_Cancel: キャンセルしました!
-		SpaceWand_Lack: 足場が不足しています!
-		WallPlace_Limit: この範囲は大きすぎます!
-		WallPlace_Consume: "予想される消費量: "
-		WallPlace_Kill: 配置を停止しました!
-	}
-
-	Projectile: {
-		PlaceWall_Lack: 壁不足のため配置を中止
-	}
-
-	Commonds: {
-		ResurrectionTimeShortened: "{Time}秒、スポーン時間を減少させました！"
-	}
-}
-
-Tips: {
-	ShimmerInto: "シマーに入れると: "
-	ShimmerIntoWithStack: "すべての{0}をシマーに入れると: "
-	PrefixCount: "リフォージカウント: "
-	AnglerQuest: 釣り人のクエストがリフレッシュされました
-	FromMod: "{DisplayName}のModから"
-	LootDisplay: "{KeybindName} を押すと、アイテムドロップの詳細が表示されます"
-	LootDisplayBindless: (この機能にホットキーをバインドしていません)
-	Refreshing: ショップ入れ替え中
-	Refresh: ショップ入れ替え
-	SummonSlot: ミニオンスロット占有率: [c/22CC22:{Current}/{Total}]
-	SummonSlotFull: ミニオンスロット占有率: [c/CC2222:{Current}/{Total} (最大!)]
-	BuffTrackerOn: <left> でバフトラッカーを開く
-	BuffTrackerOff: <left> でバフトラッカーを閉じる
-	BankEnableOn: 中クリックで個人インベントリを開く
-	BankEnableOff: 中クリックで個人インベントリを閉じる
-	MouseMiddleOpen: 中クリックで {ItemName} を開く
-	MouseMiddleClose: 中クリックで {ItemName} を閉じる
-	MouseMiddleUse: 中クリックで {ItemName} を使用する
-	CreateWandOn: 中クリックでハウスマテリアルパネルを開く
-	CreateWandOff: 中クリックでハウスマテリアルパネルを閉じる
-	LiquidWandOn: 中クリックで液体コントロールパネルを開く
-	LiquidWandOff: 中クリックで液体コントロールパネルを閉じる
-	PotionBagCurrent: 次のポーションを含む ({StoredCount}/200):
-	PotionBagCurrentFull: 次のポーションを含む (最大!):
-	PotionBagNone: 空 (0/200)
-	PotionBagAvailable: (有効)
-	PotionBagUnavailable: (停止中)
-	PotionBagDisabled: (無効)
-	BannerChestCurrent: 保存しているバナー: ({StoredCount}/500):
-	BannerChestCurrentFull: 保存しているバナー: (最大!):
-	BannerChestNone: バナーが入っていません (0/500)
-	BannerChestUseless: 携帯バナーがオンになっていない場合、中のバナーは機能しません
-
-	Tag: {
-		ShiftEnable: "[[c/88CCEE:Shift] で詳細を表示]"
-	}
-
-	TagDetailed: {
-		OwnedInfineBuff: "[Infinite buff obtained {Count}/{Threshold}]"
-		NotOwnedInfineBuff: "[Infinite buff not obtained {Count}/{Threshold}]"
-		RedPotion: "[Red Potion]"
-		GardenGnome: "[Garden Gnome]"
-		Enabled: "[Enabled]"
-		Disabled: "[Disabled]"
-		Hided: "[Buff icons hiden]"
-		NonHided: "[Buff icons shown]"
-		CombinedBuff: "[Has available buff combination]"
-		AutoCollect: "[Auto-deposit]"
-	}
-
-	TagDetailedTip: {
-		RedPotion:
+	StorageCommunicator: {
+		DisplayName: ストレージ通信機
+		Tooltip:
 			'''
-			The Red Potion Extension is enabled, the following infinite buffs are granted:
-			{$BuffName.ObsidianSkin}, {$BuffName.Regeneration}, {$BuffName.Swiftness}, {$BuffName.Ironskin},
-			{$BuffName.ManaRegeneration}, {$BuffName.MagicPower}, {$BuffName.Featherfall}, {$BuffName.Spelunker},
-			{$BuffName.Archery}, {$BuffName.Heartreach}, {$BuffName.Hunter}, {$BuffName.Endurance}, {$BuffName.Lifeforce}, {$BuffName.Inferno},
-			{$BuffName.Mining}, {$BuffName.Rage}, {$BuffName.Wrath}, {$BuffName.Dangersense}
+			ストレージマネージャーを遠隔で開くことができる
+			<right> で任意のストレージマネージャーに接続できる
 			'''
-		GardenGnome:
+		NotSet: 現在接続されていません。
+		SetTo: "[{0}, {1}]にあるストレージマネージャーに接続中。"
+		MissingStorage: ストレージマネージャーが見つかりません。
+		Unlocated: ストレージマネージャーに接続されていません。このアイテムを保持しながら<right>で接続してください。
+	}
+
+	WeatherBook: {
+		DisplayName: 天候の書
+		Tooltip:
 			'''
-			Luck bonus of the Garden Gnome has been applied
-			You could not disable this effect as it is not a 'buff'
-			'''
-		Enabled:
-			'''
-			The buff [c/88CCEE:[{BuffName}][c/88CCEE:]] is already applied.
-			If you just want to disable buff of this item,
-			please middle click on this item or left click
-			on the buff icon to open buff tracker,
-			to enable/disable that buff.
-			'''
-		Disabled:
-			'''
-			Item buff [c/88CCEE:[{BuffName}][c/88CCEE:]] has been disabled
-			due to configuration.
-			Middle click on this item or left click on the
-			buff icon to open buff tracker, to
-			enable/disable that buff.
-			'''
-		Hided:
-			'''
-			Buff icons have been hiden.
-			To display them, disable "Hide buff icons of
-			infinite potions" in Mod Configuration.
-			'''
-		NonHided:
-			'''
-			Change the mod config to hide infinite buff
-			icons if you want.
-			'''
-		AutoCollect:
-			'''
-			Your coins in coin slots will be automatically
-			saved into the Piggy Bank.
-			This feature can be toggled in the upper-left
-			of the inventory.
-			The Merchant's spawning condition counts
-			coins in the Piggy Bank.
-			'''
-
-		CombinedBuff: {
-			Battle:
-				'''
-				[c/88CCEE:Buff Combination: ][i:CalmingPotion][i:Sunflower][i:PeaceCandle][i:WaterCandle][i:BattlePotion]
-				When you have all the infinite buff items
-				above. A spawn rate slider will appear at the
-				right side of the Buff Tracker. Allows you
-				to multiply the spawn rate from x0-x{MaxSpawn}
-				'''
-		}
-	}
-}
-
-ConstructGUI: {
-	Structure: QoL Structure
-	SavedAs: "構造物は次のように保存されています "
-	SaveMode: 記録モード
-	LoadMode: 設置モード
-	ExplodeAndPlace: 破壊してから設置する
-	PlaceOnly: 設置
-	Path: "ファイルパス: "
-
-	RenameTip: {
-		Exists: 同名のファイルがすでに存在する
-		TooLong: ファイル名は40文字以内
-		Illegal: ファイル名には次の文字を含めてはならない: \, /, :, *, ?, ", <, > または |
-	}
-
-	FileInfo: {
-		Title: ファイル情報
-		Name: ファイル名: {Name}
-		Time: 保存した時間: {Time}
-		Version: バージョン: {Version}
-		Size: 構造物のサイズ: {Size}
-
-		ModMissing: {
-			Count: "2"
-			1: この構造体には、アンロードされたMODのタイルや壁が含まれている
-			2: 配置エラーが発生する可能性がある
-		}
-
-		LoadError: ファイルが許可されたファイルでないか、構造ファイルでない
-	}
-
-	MaterialInfo: {
-		Title: 材料情報
-		Stored: Has: {Stack}
-		Requirement: 必要: {Stack}
-	}
-
-	Preview: {
-		Title: 構造物プレビュー
-		CenterSet: クリックすると配置の中央に設定される
-	}
-
-	Tutorial: {
-		Button: はじめに
-
-		AlphaTest: {
-			Count: "4"
-			1: ベータテスト機能
-			2: このModのSteamワークショップページでバグを報告してください
-			3: Modのタイルや壁のサポートは保証されません
-			4: バグとはみなされません
-		}
-
-		Save: {
-			Title: "{$Mods.ImproveGame.ConstructGUI.SaveMode}"
-			Text:
-				'''
-				パネル左上の3つ目のボタンは、記録モードと配置モードに切り替えることができます
-
-				記録モードでは、左キーを押しながらドラッグして構造物を選択できます
-				その後、異なるワールドやサーバーでも配置できるように、ファイルとしてPCに保存します
-				    
-				下の図は、構造を選択して保存する方法を示している:
-				'''
-		}
-
-		Place: {
-			Title: "{$Mods.ImproveGame.ConstructGUI.LoadMode}"
-			Text:
-				'''
-				配置モードでは、メインパネルで構造物を選択する必要があります
-				    
-				インベントリや大きなバックパックの材料で十分な場合は、左クリックで構造物を配置します
-				タイルの向きが正しくない場合があります
-				    
-				以下は、構造物の配置の例である: 
-				'''
-		}
-
-		Explode: {
-			Title: 破壊してから配置する
-			Text: 破壊してから配置するを選択した場合、構造物を配置するための十分なスペースが確保されます
-		}
-
-		Panel: {
-			Title: 構造物リスト
-			Text:
-				'''
-				メインパネルには、ファイル名とパスを含むPC上の構造物ファイルが表示されます
-				    
-				Windowsシステム上の構造物を誤って削除してしまった場合、ごみ箱から復元することができます
-
-				右側の '{$tModLoader.ModsMoreInfo}' ボタンをクリックすると、詳細情報とプレビューを確認できます
-				'''
-		}
-
-		Materials: {
-			Title: "{$Mods.ImproveGame.ConstructGUI.MaterialInfo.Title}"
-			Text: 必要な材料と保存されている材料は、材料情報で確認できます
-		}
-
-		Preview: {
-			Title: "{$Mods.ImproveGame.ConstructGUI.Preview.Title}"
-			Text: 構造プレビューでは、配置の中心（黄色のボックス）も表示されます
-		}
-	}
-}
-
-SuperVault: {
-	Name: 大きなバックパック
-	Sort: 整理
-	Synthesis: クラフトに使う
-	SmartPickup: スマートピックアップ
-	OverflowPickup: オートピックアップ
-}
-
-MoveChest: {
-	Heavy: 宝箱の重みで動きが制限される
-}
-
-Autofisher: {
-	Title: フィッシングマシーン
-	Accessory: 釣り用アクセサリー
-	FishingPole: 釣り竿
-	Bait: 餌
-	SelectPool: 釣り堀を選択してください
-	CarefulNextTime: 次は気をつけよう!
-	Unavailable: 現在、釣果情報なし
-	CatchCratesFilter: 箱
-	CatchAccessoriesFilter: アクセサリー
-	CatchToolsFilter: 道具と武器
-	CatchWhiteRarityCatchesFilter: 白レアリティ
-	CatchNormalCatchesFilter: 白レアリティより高い
-}
-
-BuffTracker: {
-	Title: Buff Tracker
-	LeftClickDisable: "[c/CC88AA:<left>] to disable this buff"
-	LeftClickEnable: "[c/CC88AA:<left>] to enable this buff"
-	NoInfBuff: Currently no infinite buff available
-	NoInfBuffAlt: Enable the Infinite Potions in the mod config
-	NPCSpawnRatePanel: Enemy Spawn Rate Panel
-}
-
-LifeAnalyzer: {
-	Priority: "優先度: "
-	Tip: <left> で探知の管理
-}
-
-Architecture: {
-	Materials: 家の建材
-	StoredMaterials: (保存済: {MaterialCount})
-	MaterialsRequired: "必要な建材: "
-	Block: ブロック
-	Platform: 足場
-	Torch: 松明
-	Chair: 椅子
-	Table: 机
-	Workbench: 作業台
-	Wall: 壁
-	Bed: ベッド
-}
-
-LiquidWand: {
-	Title: 液体管理
-	Water: 水 ({LiquidAmount})
-	Lava: 溶岩 ({LiquidAmount})
-	Honey: ハチミツ ({LiquidAmount})
-	Shimmer: シマー ({LiquidAmount})
-}
-
-PaintWandGUI: {
-	Paintbrush: タイルを塗る
-	PaintRoller: 壁を塗る
-	PaintScraper: ペイントを剥がす
-}
-
-SpaceWandGUI: {
-	PlaceType: タイルの種類
-	Platform: 足場
-	Soild: 固体ブロック
-	Rope: ロープ
-	Rail: レール
-	GrassSeed: 種
-	PlantPot: プランターの箱
-}
-
-PackageGUI: {
-	AutoStorage: 自動収集
-	AutoSort: 自動整理
-	Incompatible: そのアイテムはこのインベントリには含まれていません
-}
-
-Common: {
-	Loading: ロード中...
-	Refresh: 入れ替え
-	Switch: 切り替え
-	Unavailable: 有効ではありません
-	Cancel: キャンセル
-}
-
-RecipeGroup: {
-	AnyCopperBar: いずれかの銅インゴット
-	AnyGoldBar: いずれかの金インゴット
-	AnySilverBar: いずれかの銀インゴット
-	AnyDemoniteBar: いずれかのデモナイトインゴット
-	AnyShadowScale: いずれかのシャドウケール
-	AnyCobaltBar: いずれかのコバルトインゴット
-	AnyMythrilBar: いずれかのミスリルインゴット
-	AnyAdamantiteBar: いずれかのアダマンタイトインゴット
-	AnyGem: いずれかの宝石
-}
-
-Keybind: {
-	BuffTracker: {
-		Tip: Clicking on a buff icon no longer opens the Buff Tracker if the keybind is set
-	}
-
-	HotbarSwitch: {
-		Tip: Swap items in the first row with the second row in inventory
-	}
-}
-
-Keybinds: {
-	HugeInventory: {
-		DisplayName: Big Backpack
-	}
-
-	BuffTracker: {
-		DisplayName: Buff Tracker
-	}
-
-	GrabBagLoot: {
-		DisplayName: Display Grab Bag Loot
-	}
-
-	HotbarSwitch: {
-		DisplayName: Swap Hotbar
-	}
-
-	AutoTrashKeybind: {
-		DisplayName: Hide/Show the Auto-Trash Bin
-	}
-
-	DiscordRodKeybind: {
-		DisplayName: Use Teleportation Rods
-	}
-
-	HomeKeybind: {
-		DisplayName: Use Recall Items
-	}
-
-	WorldFeature: {
-		DisplayName: Hide/Show the World Feature Panel
-	}
-
-	ConfigMenu: {
-		DisplayName: Open Mod Config
-	}
-
-	ItemSearcher: {
-		DisplayName: Search Item
-	}
-
-	OpenBagGUI: {
-		DisplayName: Bag Opener
-	}
-}
-
-Projectiles: {
-	KillProj: {
-		DisplayName: Kill Proj
-	}
-
-	WallRobot: {
-		DisplayName: Wall Robot
-	}
-
-	ExpelliarmusProj: {
-		DisplayName: Expelliarmus!
-	}
-
-	DetectorDroneProj: {
-		DisplayName: Explorer Drone
-		TooFarAway: Explorer Drone is too far away from you.
-	}
-}
-
-BuilderToggles: {
-	PiggyToggle: {
-		OffText: Auto-deposit: Off
-		OnText: Auto-deposit: On
-	}
-}
-
-NPCs: {
-	DummyNPC: {
-		DisplayName: ダミーのかかし
-	}
-}
-
-UI: {
-	PlayerInfo: {
-		Name: ステータス
-		LifeRegen: HP回復
-		ArmorPenetration: 防御貫通
-		MeleeDamage: 近接ダメージ
-		MeleeCrit: 近接クリティカル
-		MeleeSpeed: 攻撃速度
-		RangedDamage: 遠距離ダメージ
-		RangedCrit: 遠距離クリティカル
-		ManaRegen: マナ回復
-		ManaDamage: マナダメージ
-		ManaCrit: マナクリティカル
-		ManaCost: マナコスト
-		SummonDamage: 召喚ダメージ
-		MaxMinions: 最大召喚数
-		MaxTurrets: 最大セントリー数
-		Endurance: 持久力
-		FishingSkill: 釣りパワー
-		Luck: 幸運
-		Aggro: 厄介
-		WingTimeMax: 飛行時間
-		CardWidth: "190"
-		WingTime: Mods.ImproveGame.UI.PlayerInfo.WingTime
-	}
-
-	ExtremeStorage: {
-		AddChest: Add Chest
-		RejectNearbyStack: Failed to stack to nearby chests, because another player is using a nearby Storage Manager
-
-		CountForCrafting: {
-			Label: Count for Crafting
-			Tooltip:
-				'''
-				Controls whether items under the selected category [c/CC88AA:can be counted in crafting]
-				You could still craft with items in the chest you open
-				To many items under a category may cause performance issues, use with caution on low-end PCs
-				'''
-		}
-
-		UseUnlimitedPotion: {
-			Label: Infinite Potion
-			Tooltip:
-				'''
-				Controls whether potions and buff stations under [c/CC88AA:'{$Mods.ImproveGame.UI.ExtremeStorage.ItemGroup.Alchemy}'] can be used for [c/CC88AA:Infinite Potion]
-				You need to enable 'Infinite Potions' in mod config
-				'''
-		}
-
-		UsePortableStation: {
-			Label: Portable Crafting Station
-			Tooltip:
-				'''
-				Controls whether stations under [c/CC88AA:'{$Mods.ImproveGame.UI.ExtremeStorage.ItemGroup.Furniture}'] can be used for [c/CC88AA:Portable Crafting Station]
-				You need to enable 'Portable Crafting Stations' in mod config
-				'''
-		}
-
-		UsePortableBanner: {
-			Label: Portable Banners
-			Tooltip:
-				'''
-				Controls whether banners under [c/CC88AA:'{$Mods.ImproveGame.UI.ExtremeStorage.ItemGroup.Furniture}'] can be used for [c/CC88AA:Portable Banners]
-				You need to enable 'Portable Banners' in mod config
-				'''
-		}
-
-		ChestBeingUsed:
-			'''
-			Chest for this slot is being used by another player
-			No action can be taken
-			'''
-		BasicIntroduction:
-			'''
-			Note:
-			  1. Chest sorting depends on identifiers prefixed
-			     on the chests' names. Please do NOT arbitrarily
-			     edit chest names
-			  2. You still need to sort items manually
-			     The identifiers are just for convenience
-			  3. In multiplayer mode, if a chest is being used by
-			     another player, you are not able to take actions
-			     on items inside the chest
-			'''
-
-		ItemGroup: {
-			Weapon: "{$CreativePowers.TabWeapons}"
-			Tool: "{$CreativePowers.TabTools}"
-			Ammo: "{$LegacyInterface.27}"
-			Armor: "{$CreativePowers.TabArmor}"
-			Accessory: "{$CreativePowers.TabAccessories}"
-			Furniture: "{$CreativePowers.TabFurniture}"
-			Block: "{$CreativePowers.TabBlocks}"
-			Material: "{$CreativePowers.TabMaterials}"
-			Alchemy: Alchemy
-			Misc: "{$CreativePowers.TabMisc}"
-			Setting: "{$LegacyMenu.14}"
-		}
-	}
-
-	AutoTrash: {
-		Introduction:
-			'''
-			This is an automatic trash bin.
-			Items will be trashed if their type is already inside.
-			Reserves 6 trashed items.
-			Shift+Ctrl+<left> an item to move it to this bin.
-			Can be [c/CC88AA:disabled] in UI configuration.
-			Press [c/CC88AA:{0}] to hide the UI.
+			コントロールパネルで天候制御ができるようになる
+			風向き、月の位相、雨、さらにウォールオブフレッシュ撃破後は時間を変更可能になる
 			'''
 	}
 
-	WorldFeature: {
-		Title: World Features
-
-		Halloween: {
-			Label: Halloween
-			Tooltip: Toggles Halloween status.
-		}
-
-		XMas: {
-			Label: Christmas
-			Tooltip: Toggles Christmas status.
-		}
-
-		Drunk:
-			'''
-			Drunk world
-			Seeds: 05162020 | 5162020
-			'''
-		Bees:
-			'''
-			Not the bees
-			Seeds: not the bees | not the bees! | notthebees
-			'''
-		Ftw:
-			'''
-			For the worthy
-			Seeds: for the worthy | fortheworthy
-			'''
-		Anniversary:
-			'''
-			Celebrationmk10
-			Seeds: celebrationmk10 | 05162011 | 5162011 | 05162021 | 5162021
-			'''
-		DontStarve:
-			'''
-			The Constant
-			Seeds: constant | theconstant | the constant | eye4aneye | eyeforaneye
-			'''
-		Traps:
-			'''
-			No traps
-			Seeds: no traps | notraps
-			P.S. No effect if toggled inside a world.
-			'''
-		Remix:
-			'''
-			Don't dig up
-			Seeds: don't dig up | dont dig up | dontdigup
-			'''
-		Zenith:
-			'''
-			Get fixed boi
-			Seeds: get fixed boi | getfixedboi
-			P.S. Get fixed boi is only complete with all other secrete seeds enabled.
-			'''
-		OpenWiki: <right> to open its wiki page
-		NotPermitted: You have no permission to modify this world's features.
+	AddChestIconDummy: {
+		DisplayName: チェストアイコン追加（ダミー）
+		Tooltip: ""
 	}
 
-	ItemSearcher: {
-		Title: Find Items
-		TipText: Items found are shown here
-		NotFoundText: No item found
-
-		FuzzySearch: {
-			Label: Fuzzy Search
-			Tooltip:
-				'''
-				Allows deviation of 1 character in searching.
-				E.g. "obsdian" can search "obsidian".
-				'''
-		}
-
-		SearchTooltip: {
-			Label: Search Tooltip
-			Tooltip: Searches item tooltips instead of names.
-		}
+	SearchIcon: {
+		DisplayName: レシピが見つかりません
+		Tooltip: 条件に一致するレシピはありません
 	}
 
-	OpenBag: {
-		Title: Bag Opener
-		TipText: Items obtained are staged here
-		Open: Open All
-		Stop: Stop
-		EmptyText: Grab Bag
-		NotFullyDisplayed: Besides, {0} items are hidden
-
-		SellAll: {
-			Name: Sell All
-			Tooltip:
-				'''
-				Sell all items at 110% of their base price.
-				Coins will go to your coin slots.
-				'''
-		}
-
-		AreYouSure: {
-			Name: Are you sure?
-			Tooltip:
-				'''
-				<left> to sell,
-				<right> to cancel.
-				'''
-		}
+	BaitSupplier: {
+		DisplayName: 餌チェンバー
+		Tooltip:
+			'''
+			近くに置かれたチェストから自動的に餌を取り出し、
+			ワールド中の餌なしの釣り装置を補充する
+			'''
 	}
 
-	MapLayer: {
-		TheAether: エーテル
-		Pyramid: ピラミッド
-		FloatingIsland: 浮島
-		FloatingLake: 浮湖
+	UniversalAmmoIcon: {
+		DisplayName: 未指定の弾薬
+		Tooltip:
+			'''
+			[c/00ffff:弾薬タイプが] [c/60ffff:指定されていません]！
+			武器が[c/00ffff:使用するべき][c/20ffff:弾薬]を[c/40ffff:自動的に][c/60ffff:使用します]
+			'''
 	}
 
-	ThemePreview: {
-		Title: テーマプレビュー
+	AmmoChainItem: {
+		DisplayName: 弾薬チェーン
+		Tooltip:
+			'''
+			弾薬チェーン情報を保存し、他のプレイヤーと共有することができる
+			このアイテムを使用すると、その情報がコンピューターに保存される
+			'''
+		FromPlayer: プレイヤーから: {0}
+		Added: 弾薬チェーンが追加されました: {0}
+	}
+
+	AddIconDummy: {
+		DisplayName: アイコン追加（ダミー）
+		Tooltip: ""
+	}
+
+	OpenFolderDummy: {
+		DisplayName: フォルダーを開く（ダミー）
+		Tooltip: ""
+	}
+
+	CrimsonAltarItem: {
+		DisplayName: クリムゾンアルター
+		Tooltip: ""
+	}
+
+	DemonAltarItem: {
+		DisplayName: デーモンアルター
+		Tooltip: ""
+	}
+
+	LicenseBook: {
+		DisplayName: ライセンス
+		Tooltip: QoTのライセンスと参照を表示する
+	}
+
+	LiquidWandAdvanced: {
+		DisplayName: 究極の液体の杖
+		Tooltip:
+			'''
+			選択したエリアで液体を吸収/配置できる
+			<right> で液体制御パネルを開く
+			液体の量は無制限
+			'''
+	}
+
+	WallPlaceSelectorMode: {
+		DisplayName: 技術の杖（選択モード）
+		Tooltip:
+			'''
+			長方形のエリアを選択し、インベントリから壁を配置できる
+			<right> で配置モードに切り替えられる
+			'''
+	}
+
+	ActuationRodMkII: {
+		DisplayName: 究極のアクチュエーションワンド
+		Tooltip:
+			'''
+			長方形のエリアを選択してアクチュエーションを実行できる
+			アクチュエーターを配置する必要はない
+			'''
+	}
+
+	ShellShipInBottle: {
+		DisplayName: ボトルシップ
+		Tooltip: シマーに投げ入れてみよう！
+	}
+
+	ShellShipInBottle_Shimmered: {
+		DisplayName: シマーに入れられたボトルシップ
+		Tooltip: クイックシマーをアンロックできる
 	}
 }
 

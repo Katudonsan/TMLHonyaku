@@ -1,0 +1,56 @@
+Configs: {
+	LightsConfig: {
+		Headers: {
+			Presets: プリセット・ヘッダー
+			Bloom: ブルーム
+			Lighting: Lighting & Shadows
+		}
+
+		BloomCounts: {
+			Tooltip: ""
+			Label: ブルームカウント
+		}
+
+		BloomIntensity: {
+			Tooltip: ""
+			Label: ブルーム強度
+		}
+
+		UseBloom: {
+			Tooltip: ""
+			Label: ブルームを使用
+		}
+
+		shadowIntensity: {
+			Tooltip: ""
+			Label: 影の強さ
+		}
+
+		moonlightIntensity: {
+			Tooltip: ""
+			Label: 月明かりの強さ
+		}
+
+		dayColor: {
+			Tooltip:
+				'''
+				クラシック： 真昼の光は黄色い
+				代替： 真昼の光は白い
+				'''
+			Label: 昼光カラー
+		}
+
+		lightIntensity: {
+			Tooltip: ""
+			Label: 光の強さ
+		}
+
+		UseLight: {
+			Tooltip: ""
+			Label: 影と光の適用
+		}
+
+		DisplayName: クライアント設定
+	}
+}
+

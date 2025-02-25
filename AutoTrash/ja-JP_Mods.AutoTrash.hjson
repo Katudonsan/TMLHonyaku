@@ -1,0 +1,82 @@
+NoValue: 価値なし
+
+TrashAllItemsWithNoValue: 価値のないものはすべてゴミ箱へ
+
+ClickToRemove: クリックして削除
+
+YouNeedToHoldAltAndClickToClearTheList: リストをクリアするには、altを押しながらクリックする必要があります
+
+NotEnoughMoneyToReclaimAutoSellItem: 自動売却アイテムを取り戻すためのコインが足りない
+
+ClickToRemoveFromAutoSellList: クリックして自動売却リストから削除する
+
+ClickToRemoveFromAutoTrashList: クリックして自動破棄リストから削除する
+
+PlaceItemToAddToAutoSellList: 自動売却リストに追加するアイテムを置く
+
+PlaceItemToAddToAutoTrashList: 自動破棄リストに追加するアイテムを置く
+
+EnableAutoSellToAutomaticallySellItemsOnPickup: 自動売却を有効にして、選択時に商品を自動的に売却する
+
+EnableAutoTrashToAutomaticallyTrashItemsOnPickup: 自動破棄を有効にして、拾う時に自動的にゴミ箱に捨てる
+
+AutoSellEnabled: 自動売却が有効： {0} {^0:アイテム}
+
+AutoTrashEnabled: 自動破棄が有効： {0} {^0:アイテム}
+
+AutoSellDisabled: 自動売却が無効
+
+AutoTrashDisabled: 自動破棄が無効
+
+ClickToViewAutoSellList: クリックして自動売却リストを表示
+
+ClickToViewAutoTrashList: クリックして自動破棄リストを表示
+
+HoldAltAndClickToClearAutoSellList: Altを押しながらクリックして自動売却リストを消去する
+
+HoldAltAndClickToClearAutoTrashList: Altを押しながらクリックして自動破棄リストを消去する
+
+RecipeBrowserFilterNotAutoTrashed: Not Auto-Trashed
+
+Configs: {
+	AutoTrashServerConfig: {
+		DisplayName: AutoTrash サーバー設定
+
+		SellValue: {
+			Tooltip: アイテムの売却価格をカスタマイズする。商人に売却時のデフォルト価格は20%、MODのデフォルト売却価格は~15%。
+			Label: 自動売却の価格の割合 %
+		}
+	}
+
+	AutoTrashClientConfig: {
+		DisplayName: AutoTrash クライアント設定
+
+		SlotPositionX: {
+			Tooltip: 1番目のホットバーから左から右に数えたスロットの位置に、AutoTrashスロットのX座標を設定する
+			Label: AutoTrashスロットのX座標
+		}
+
+		SlotPositionY: {
+			Tooltip: 一番上のホットバーから上から下に数えたスロットの位置に、AutoTrashスロットのY座標を設定する
+			Label: AutoTrashスロットのY座標
+		}
+
+		SellInstead: {
+			Tooltip: 拾得時に破棄する代わりに売却する
+			Label: 代わりに売る
+		}
+
+		PreventSpawn: {
+			Tooltip:
+				'''
+				自動廃棄リスト内のアイテムが出現するのを防ぎます
+				AFK ファーミング時に便利です
+				これが有効な場合、自動売却は機能しません
+
+				サーバーでは動作しません
+				'''
+			Label: 自動廃棄リストに含まれるアイテムを直ちに消滅させる
+		}
+	}
+}
+

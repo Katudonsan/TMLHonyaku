@@ -7,7 +7,7 @@ ItemDescriptions: {
 		加速倍率：2.5
 		優れた垂直方向のスピード
 		飛行時間：180
-		天空の鎧を着用している間、回復魔法でライフを4回復する
+		天空の鎧を着用している間、回復魔法のライフ回復量が4増加する
 		'''
 	DemonshadeGreaves:
 		'''
@@ -112,10 +112,10 @@ Items: {
 	}
 
 	AnahitasArpeggio: {
-		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
+		DisplayName: アナヒタのアルペジオ
 		Tooltip:
 			'''
-			{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}
+			敵を混乱させるゆっくりと動く音符を放つ
 			DM Dokuroの "Forbidden Lullaby" のハープがベースになっている
 			'''
 	}
@@ -124,15 +124,15 @@ Items: {
 		DisplayName: アクイウスの助言
 		Tooltip:
 			'''
-			ランダムな方向に巻き上がる深海触手を急速に噴出する
+			ランダムな方向に巻き上がる深海の触手を噴出させる
 			やがて沈降し、有害な水流を形成する
 			命中時、水深を浅くする
-			「深海に溺れるか、深海から蘇るか...アクエイアスが助言する」
+			「深海に溺れるか、深海から蘇るか...アクイウスが助言する」
 			'''
 	}
 
 	ArcticReinforcement: {
-		DisplayName: アークテックリインフォースメント
+		DisplayName: 極寒の対旋律
 		Tooltip:
 			'''
 			氷柱のミニブリザードを放つ
@@ -142,7 +142,7 @@ Items: {
 	}
 
 	AugmentedAuricTeslaFeatheredHeadwear: {
-		DisplayName: オーリックテスラの羽根付きヘッドウェア[c/70f4f4:+]
+		DisplayName: オーリックテスラの羽根付きヘッドウェア+
 		Tooltip:
 			'''
 			旋律ダメージ25%増加
@@ -163,11 +163,10 @@ Items: {
 	}
 
 	AugmentedAuricTeslaValkyrieVisage: {
-		DisplayName: オーリックテスラのヴァルキリーヴィザージュ[c/70f4f4:+]
+		DisplayName: オーリックテスラのヴァルキリーヴィザージュ+
 		Tooltip:
 			'''
-			神聖ダメージ15%増加
-			神聖ダメージのクリティカル確率10%増加
+			神聖ダメージが15%増加し、クリティカル確率が10%増加する
 			マナコストが45%減少
 			ライフとマナの回復量が大幅に増加
 			最大ライフ+100
@@ -179,7 +178,8 @@ Items: {
 			ヒーラー用の星間、ブラッドフレア、シルヴァのアーマー効果
 			神聖ダメージ40%増加
 			神聖ダメージのクリティカル確率20%増加
-			ヒーラー武器の詠唱速度が16%増加			'''
+			ヒーラー武器の詠唱速度が16%増加			
+			'''
 	}
 
 	AuricTeslaFeatheredHeadwear: {
@@ -198,9 +198,8 @@ Items: {
 			ゴッドスレイヤーダッシュはCalamityのアーマーアビリティのキーバインドを使用する
 			魅惑の歌はThoriumのアーマーアビリティのキーバインドを使用する
 			エンパワーメントの範囲が50%増加
-			インスピレーションの持続時間が5秒増加
-			インスピレーションの再生率が20%増加
-			インスピレーションのメモが落ちる確率が45%増加
+			インスピレーションの持続時間が5秒増加し、再生率を20%増加させる
+			インスピレーションノートが落ちる確率が45%増加
 			'''
 	}
 
@@ -219,17 +218,16 @@ Items: {
 		SetBonus:
 			'''
 			ヒーラー専用のタラゴン、ブラッドフレア、シルヴァのアーマー効果
-			神聖ダメージ40%増加
-			神聖ダメージのクリティカル確率20%増加
+			神聖ダメージ40%増加し、クリティカル確率を20%増加させる
 			詠唱速度が16%増加
 			'''
 	}
 
 	BelchingSaxophone: {
-		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.BelchingSaxophone.DisplayName}"
+		DisplayName: ベルチングサクソフォン
 		Tooltip:
 			'''
-			ツル、シャボン玉、音符を発射
+			ツル、シャボン玉、音符を放つ
 			ツルと泡は照射された毒を与え
 			音符は硫黄の毒と酸の毒を与える
 			'''
@@ -241,15 +239,15 @@ Items: {
 			'''
 			神聖ダメージとクリティカル確率15%増加
 			最大ライフ+80
-			ライフ回復量が適度に増加
+			ライフ回復量が少し増加
 			回復魔法によるライフ回復量が12増加
 			'''
 		SetBonus:
 			'''
 			神聖ダメージ27%増加
 			詠唱速度が11%増加
-			'{0}'を押すとライフの半分を使って回復の儀式を開始する
-			儀式は {1} のライフで急速に味方を回復する
+			「{0}」キーを押すとライフの半分を使って回復の儀式を開始する
+			儀式は{1}のライフで急速に味方を回復する
 			一度に使えるのは1つの儀式のみ
 			このアビリティにクールダウンは存在しないが、使いすぎると死亡する
 			'''
@@ -268,8 +266,8 @@ Items: {
 			旋律ダメージ8%増加
 			旋律ダメージのクリティカル確率と演奏速度が5%増加
 			エンパワーメントの持続時間が4秒増加
-			'{0}'を押すと5秒間魅惑の歌バフを得る
-			魅惑の歌はインスピレーションの再生率とエンパワーメントの範囲を50%増加させ、エンパワーメントの持続時間を5秒増加させる
+			「{0}」キーを押すと5秒間魅惑の歌バフを得る
+			魅惑の歌はインスピレーションの再生率とエンパワーメントの範囲を50%増加させ、エンパワーメントの持続時間が5秒増加する
 			魅惑の歌発動中にダメージを受けると一律200ライフ回復するが、魅惑の歌は解除される
 			魅惑の歌のクールダウンは45秒
 			'''
@@ -288,12 +286,10 @@ Items: {
 		DisplayName: 花の聖女の像
 		Tooltip:
 			'''
-			最大ライフが20増加
-			最大マナが20%増加
+			最大ライフと最大マナが20増加
 			回復速度が12%増加
-			神聖ダメージが14%増加
+			神聖ダメージが14%増加し、クリティカル確率が8%増加する
 			詠唱速度が6%増加
-			神聖のクリティカル確率が8%増加
 			回復魔法のライフ回復量が2増加
 			暁炎で神聖攻撃を強化する
 			「幸運なことに、大きすぎてどの瓶にも入らない」
@@ -323,7 +319,8 @@ Items: {
 			タンバリンと一緒に3つの弱い氷片も放つ
 			タイミングよくヒットさせることで、タンバリンがパワーアップし、ダメージが上昇する
 			タイミングが合えば敵をなぎ払うこともできる
-			 {$Mods.ThoriumMod.Common.Tooltips.BigInstrument} を使用する
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
+			これらのボーナスは武器を変更すると徐々に減少する
 			'''
 	}
 
@@ -373,8 +370,8 @@ Items: {
 			'''
 			神聖ダメージが25%増加
 			回復魔法でライフが1回復する
-			 '{0}' を押すとアイスクリームマシーンが召喚され、再度 '{0}' を押すと召喚が解除される。
-			プレイヤーはアイスクリームマシンを右クリックすることで、1分間シュガーラッシュのバフを受けることができる。
+			 「{0}」キーを押すとアイスクリームマシーンが召喚され、再度 「{0}」キーを押すと召喚が解除される
+			プレイヤーはアイスクリームマシンを右クリックすることで、1分間シュガーラッシュのバフを受けることができる
 			その際プレイヤーは {1}0ライフ回復するが、クールダウンに3分かかる
 			'''
 	}
@@ -391,7 +388,7 @@ Items: {
 			演奏速度が5%増加
 			インスピレーションの再生率が10%増加
 			エンパワーメントの持続時間が3秒増加
-			旋律ダメージが命中時にフロストバーンとフロストバイトを与える。
+			旋律ダメージが命中時にフロストバーンとフロストバイトを与える
 			近くの味方は命中時に確率でフロストバーンを与える
 			'''
 	}
@@ -414,8 +411,7 @@ Items: {
 			'''
 			70ポイントの防御力を無視
 			軌跡を残す3つの灼熱の斬撃を放つ
-			3振りごとに鎌を回転させる
-			回転すると、代わりに灼熱の大渦を巻き起こす
+			3振りごとに鎌を回転させ、灼熱の大渦を巻き起こす
 			灼熱の渦はプレイヤーと敵の両方にダメージを与える
 			命中時に弱体化の呪いを与える
 			この鎌は回転させるのではなく、カーソルに向かって攻撃する
@@ -433,7 +429,8 @@ Items: {
 			命中時に竜の炎を放つ
 			25回目の攻撃ごとに、画面上に2体の大きな武器が出現し、一定方向に攻撃する
 			ヒットタイミングに成功すると、エンパワーメントレベル、ダメージ、追尾範囲、ラッパの数が徐々に増加する
-			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}「少なくとも3つの肺が必要
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
+			これらのボーナスは武器を変更すると徐々に減少する
 			「演奏するには少なくとも3つの肺が必要だ！」
 			'''
 	}
@@ -458,7 +455,8 @@ Items: {
 			赤のエネルギーを敵に当てると、体力の回復量が大幅に増加する
 			<right> で大鎌を投げる
 			大鎌を投げたときはダメージが20％増加する
-			「私には二面性がある。忘れた私と覚えている私だ」
+			「私には二面性がある
+			　忘れた私と覚えている私だ」
 			'''
 	}
 
@@ -466,9 +464,8 @@ Items: {
 		DisplayName: エレクトリッククォータースタッフ
 		Tooltip:
 			'''
-			電撃を放つ杖
-			一振りの初撃に連鎖する雷を放つ
-			鎖雷は同じ敵に再ヒットすることがある
+			連鎖する雷を放つ
+			雷は同じ敵に再ヒットすることがある
 			「スタンガン内蔵の巻き取り式の杖」
 			'''
 	}
@@ -480,9 +477,8 @@ Items: {
 			最大ライフが40増加
 			最大マナが20%増加
 			回復速度が15%増加
-			神聖ダメージ20%増加
+			神聖ダメージが20%増加し、クリティカル確率が12%増加する
 			詠唱速度10%増加
-			神聖ダメージのクリティカル確率が12%増加
 			回復魔法のライフ回復量が2増加
 			エレメンタルエネルギーによる神聖攻撃を強化する
 			時間経過によるダメージの強さが66％増加する
@@ -500,7 +496,7 @@ Items: {
 	}
 
 	FaceMelter: {
-		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.FaceMelter.DisplayName}"
+		DisplayName: フェイスメルター
 		Tooltip:
 			'''
 			溶けるような熱い音符を放つ
@@ -528,7 +524,8 @@ Items: {
 			呪いの炎を高速で放つ
 			タイミングよくヒットさせることで、威力と速度が増加する
 			5回目のタイミングに成功すると、レアなダンククリーパーを召喚する
-			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
+			これらのボーナスは武器を変更すると徐々に減少する
 			「腐敗の集合意識の歌」
 			DM Dokuro ft. SixteenInMonoの "Filthy Mind" のフルートがベースになっている
 			'''
@@ -586,7 +583,7 @@ Items: {
 			エンパワーメントの範囲が50%増加
 			インスピレーションの再生率が18%増加
 			災いの鐘が頭上に浮かび、攻撃中に鳴ることがある
-			鐘が鳴ると周囲の敵に7500の真ダメージを与える
+			鐘が鳴ると周囲の敵に7500のダメージを与える
 			'''
 	}
 
@@ -601,7 +598,7 @@ Items: {
 			'''
 			50ポイントの防御力を無視する
 			この鎌は回転させるのではなく、カーソルに向かって攻撃する
-			2つのホーミング炎を伴う炎の波動を放つ
+			2つの追尾する炎を伴う炎の波動を放つ
 			命中時に破砕奥義と地獄の業火を与える
 			「致命的な化学反応の触媒となる」
 			'''
@@ -621,7 +618,7 @@ Items: {
 			ヒーラー武器の詠唱速度が9%増加
 			回復魔法によるライフ回復量が2増加
 			75以上のダメージを受けると3秒間オアシスが出現する
-			オアシスは1/3秒ごとに {0} ライフを回復する
+			オアシスは1/3秒ごとに{0}ライフを回復する
 			一度にアクティブにできるオアシスは1つのみ
 			'''
 	}
@@ -653,8 +650,7 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			インスピレーションの再生率が17%増加
-			インスピレーションの最大値が7増加
+			インスピレーションの最大値が7増加し、再生率が17%増加する
 			インスピレーションの持続時間が2秒増加する
 			小惑星が敵に当たったとき、33%の確率でインスピレーションを3回復する
 			'''
@@ -664,7 +660,7 @@ Items: {
 		DisplayName: 星間のプロテクターヘルム
 		Tooltip:
 			'''
-			神聖ダメージ、クリティカル確率、詠唱速度が11%増加
+			神聖ダメージ、クリティカル確率、詠唱速度が11%増加する
 			回復魔法のライフ回復量が4増加する
 			'''
 		SetBonus:
@@ -793,6 +789,54 @@ Items: {
 			'''
 	}
 
+	DustDevilDrums: {
+		DisplayName: ダストデビルドラム
+		Tooltip:
+			'''
+			使用者の周囲にいくつかの竜巻を発生させる
+			25%の確率で、敵を追尾する青緑色の竜巻を召喚する
+			「一体どんな悪ふざけをしたら、これに冷却装置が必要になるんだ？」
+			'''
+	}
+
+	HarmonyoftheOldGod: {
+		DisplayName: 古き神のバイオリン
+		Tooltip:
+			'''
+			この武器を持っている間、使用者にしか見えない巨大な五線譜が現れる  
+			この楽器を演奏すると、五線譜に音符が流れていく
+			その後、音符が落ち、敵を攻撃する
+			「世界中のスライムたちと調和を築くために」  
+			'''
+	}
+
+	TimesOldRoman: {
+		DisplayName: 古記の筆
+		Tooltip:
+			'''
+			巨大な筆を振り回し、インクの軌跡を残す。このインクは敵にダメージを与える
+			インクの軌跡に触れると、使用者はソウルエッセンスを獲得できる
+			「グーズマは、これがまだ'Times Roman'と呼ばれていた時代を知っている」
+			'''
+	}
+
+
+	DesertedDrugDeal: {
+		DisplayName: 大砂鮫の血清弓
+		Tooltip:
+			'''
+			敵の防御力を30無視する
+			グレートサンドシャークの血で満たされた注射器を発射する
+			注射器は命中した敵やプレイヤーに付着し、注入される
+			敵に命中すると、継続ダメージを与える
+			プレイヤーに命中すると、回復効果をもたらす
+			命中した敵に圧潰とアーマーブレイクを付与する
+			回復した味方には、長時間持続するライフ回復効果を付与する
+			自身を回復することもできる
+			「微量のHerobrineが含まれています」
+			'''
+	}
+
 	ReturntoSludge: {
 		DisplayName: スラッジリターン
 		Tooltip: チャージしてグーボムを溜め、放すと発射される
@@ -815,8 +859,8 @@ Items: {
 		DisplayName: セービンググレイス
 		Tooltip:
 			'''
-			宇宙エネルギーの癒しのらせんを素早く発射する
-			らせんは最終的にプレイヤーに向かう
+			癒しの宇宙エネルギーを発射する
+			エネルギーは最終的にプレイヤーに飛んでいく
 			体力が10％以下のプレイヤーは全回復する
 			「グレースとは何者か？」
 			'''
@@ -853,12 +897,12 @@ Items: {
 	}
 
 	ScuffedKeytar: {
-		DisplayName: 傷だらけのキーター
+		DisplayName: 傷だらけのショルダーキーボード
 		Tooltip:
 			'''
 			5ポイントの防御力を無視
 			無限に突き刺さる五線譜を放つ
-			「かろうじて動く古いキーター」
+			「かなり古いが、かろうじて動く...」
 			'''
 	}
 
@@ -886,12 +930,11 @@ Items: {
 			100ポイントの防御力を無視する
 			この鎌は回転させるのではなく、カーソルに向かって攻撃する
 			一振りごとに複数回ヒットする追尾する星を放つ
-			3スイングコンボ
 			一振りに追尾する星を1つ放つ
 			ニ振り目に追尾する星を3つ放つ
 			三振り目に鎌を回転させる
 			回転中は最大6つの追尾する星を放つ
-			「無限の密度、まるで母のようだ」
+			「無限の密度...まるで母のようだ」
 			'''
 	}
 
@@ -912,7 +955,8 @@ Items: {
 			分裂する前にらせん状に動く2本のエレメンタルビームを放つ
 			15ポイントの防御力を無視する
 			タイミングよくヒットさせることで、エンパワーメントレベルが上昇する
-			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
+			これらのボーナスは武器を変更すると徐々に減少する
 			'''
 	}
 
@@ -920,7 +964,7 @@ Items: {
 		DisplayName: 宇宙の歌
 		Tooltip:
 			'''
-			らせん状に動く5本の宇宙ビームを発射する
+			らせん状の5本の宇宙ビームを発射する
 			同じターゲットに複数回当てることができる
 			75ポイントの防御力を無視
 			「宇宙を調和させる歌」
@@ -944,7 +988,7 @@ Items: {
 	}
 
 	StarBirth: {
-		DisplayName: 星がうまれた地
+		DisplayName: 星誕の杖
 		Tooltip:
 			'''
 			3分の1秒ごとに回復する星雲を召喚する
@@ -1005,7 +1049,7 @@ Items: {
 			'''
 			25ポイントの防御力を無視
 			<right>で鎌を投げる
-			常にエレメンタル・エネルギーを生み出し、それが回転する
+			攻撃するとエレメンタルエネルギーを生み出す
 			「ほとんどの人にとっては恐ろしい破局、一部の人にとっては美しい調和」
 			'''
 	}
@@ -1044,7 +1088,7 @@ Items: {
 			'''
 			カーソルの位置で衝突する2つの岩を撃ち出す
 			衝突時に中程度の爆発を起こし、圧潰デバフを与える
-			「スポンサー：アルフレッド・ヴェゲナー」
+			スポンサー：アルフレッド・ヴェゲナー
 			'''
 	}
 
@@ -1114,7 +1158,8 @@ Items: {
 			血を放つ
 			タイミングよくヒットさせることで、威力と弾速が増加する
 			3回タイミングが合うたびに、発射される弾丸の量が最大6発まで増加する
-			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}が表示される
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
+			これらのボーナスは武器を変更すると徐々に減少するが表示される
 			※18歳以上対象
 			DM Dokuro ft. SixteenInMonoの "Blood Coagulant"のバイオリンがベースになっている
 			'''
@@ -1163,26 +1208,26 @@ Items: {
 			自分の横と下にホバリングする3つの超音速スピーカーを召喚する
 			スピーカーは最も近い敵に追尾する灼熱のビートを放つ
 			ヒットした敵に竜の炎とチューニングを与える
-			「これで音の壁を越えて昇っていく [i/s1:2701][i/s1:2701][i/s1:2701]」
+			「これで音の壁を越えて昇っていく[i/s1:2701][i/s1:2701][i/s1:2701]」
 			'''
 	}
 }
 
 Projectiles: {
 	AcidicReed: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicReed.DisplayName}"
+		DisplayName: Acidic Reed
 	}
 
 	AcidicSaxBubble: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxBubble.DisplayName}"
+		DisplayName: Acid Bubble
 	}
 
 	AcidicSaxMist: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxMist.DisplayName}"
+		DisplayName: Acid Mist
 	}
 
 	AnahitasArpeggioNote: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AnahitasArpeggioNote.DisplayName}"
+		DisplayName: Anahita's Song
 	}
 
 	AncientSong: {
@@ -1281,6 +1326,10 @@ Projectiles: {
 		DisplayName: Death Adder Soul
 	}
 
+	DesertedDrugDeal: {
+		DisplayName: Blood of Greater Sand Sharks
+	}
+
 	Disaster: {
 		DisplayName: Disaster
 	}
@@ -1291,14 +1340,6 @@ Projectiles: {
 
 	DisasterSlashes: {
 		DisplayName: Disaster
-	}
-
-	FireHazard: {
-		DisplayName: Fire Hazard
-	}
-
-	FireStarter: {
-		DisplayName: Fire Starter
 	}
 
 	DoomsdayCatharsis: {
@@ -1319,6 +1360,10 @@ Projectiles: {
 
 	Duality: {
 		DisplayName: Duality
+	}
+
+	DustDevil: {
+		DisplayName: Dust Devil
 	}
 
 	ElectricChain: {
@@ -1361,12 +1406,28 @@ Projectiles: {
 		DisplayName: Filthy Flute
 	}
 
+	FireHazard: {
+		DisplayName: Fire Hazard
+	}
+
+	FireStarter: {
+		DisplayName: Fire Starter
+	}
+
 	Gashadokuro: {
 		DisplayName: Gashadokuro
 	}
 
 	GashadokuroCracks: {
 		DisplayName: Gashadokuro
+	}
+
+	GodNote: {
+		DisplayName: God Note
+	}
+
+	HarmonyoftheOldGod: {
+		DisplayName: Harmony of the Old God
 	}
 
 	HarpY: {
@@ -1422,15 +1483,15 @@ Projectiles: {
 	}
 
 	MelterAmp: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterAmp.DisplayName}"
+		DisplayName: Melter Amp
 	}
 
 	MelterNote1: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote1.DisplayName}"
+		DisplayName: Melter Song
 	}
 
 	MelterNote2: {
-		DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote2.DisplayName}"
+		DisplayName: Melter Song
 	}
 
 	MilkyWay: {
@@ -1509,6 +1570,10 @@ Projectiles: {
 		DisplayName: Scuffed Keytar
 	}
 
+	SharkBloodInjection: {
+		DisplayName: Shark Blood Injection
+	}
+
 	Singularity: {
 		DisplayName: Singularity
 	}
@@ -1577,6 +1642,14 @@ Projectiles: {
 		DisplayName: Tidal Wave
 	}
 
+	TimesOldRoman: {
+		DisplayName: Times Old Roman
+	}
+
+	TimesOldTrail: {
+		DisplayName: Times Old Roman
+	}
+
 	TherapeuticSludge: {
 		DisplayName: Therapeutic Sludge
 	}
@@ -1586,15 +1659,15 @@ Projectiles: {
 	}
 
 	ToxicEightNote: {
-		DisplayName: Toxic "{$ProjectileName.EightNote}"
+		DisplayName: Toxic "???"
 	}
 
 	ToxicQuarterNote: {
-		DisplayName: Toxic "{$ProjectileName.QuarterNote}"
+		DisplayName: Toxic "音符"
 	}
 
 	ToxicTiedEightNote: {
-		DisplayName: Toxic "{$ProjectileName.TiedEightNote}"
+		DisplayName: Toxic "???"
 	}
 
 	Transfiguration: {
@@ -1683,28 +1756,38 @@ FargoEnchantments: {
 		'''
 	BloodflareEnchant:
 		'''
-		「Armor Ability」キーを押すと、ライフの半分を使い、ボーナス回復量と同じだけ味方を回復する治癒儀式を展開する
+		「アーマーアビリティ」キーを押すと、ライフの半分を使い、ボーナス回復量と同じだけ味方を回復する治癒儀式を展開する
 		一度にアクティブにできるのは1つの儀式のみで、この能力にはクールダウンはないが、使いすぎると死亡する
 		また、魅惑の歌のバフを5秒間付与する
 		魅惑の歌はインスピレーションの再生率とエンパワーメントの範囲を50%増加させ、エンパワーメントの持続時間を5秒増加させる
-		魅惑の歌発動中にダメージを受けると一律200ライフ回復するが、魅惑の歌は解除される
+		発動中にダメージを受けるとライフを200回復するが、魅惑の歌は解除される
 		'''
 	GodSlayerEnchant:
 		'''
 		災いの鐘が頭上に浮かび、攻撃中に時々鳴る
-		鐘が鳴ると周囲の敵に15000の真ダメージを与え、近くの敵の投擲物は破壊される
+		鐘が鳴ると周囲の敵に15000ダメージを与え、近くの敵の投擲物は破壊される
 		'''
 	SilvaEnchant: 一撃で大ダメージを受けると、ヘルスが最も低いプレイヤーに30秒間守護天使バフが付与される
 	TarragonEnchant:
 		'''
 		敵に当たるとインスピレーションを回復するクォーターレストを周囲に2つ生成する
-		時折ヒーリングパルスを発し、ボーナス回復と同等の回復とシールドを味方に与える
+		ヒーリングパルスを放つことがあり、回復とシールドを味方に与える
 		'''
 }
 
 Configs: {
 	BalanceConfig: {
 		DisplayName: バランス設定
+
+		expensiveDraedonsForge: {
+			Label: ドレイドンの炉
+			Tooltip: ドレイドンの炉を作成するために希少なトリウム素材が必要になるように変更します
+		}
+
+		rogueThrowerMerge: {
+			Label: ローグと投擲クラスの統合
+			Tooltip: Ragnarok Modがインストールされている場合、自動で無効化されます
+		}
 
 		bard: {
 			Label: 吟遊詩人の武器ダメージ倍率
@@ -1719,7 +1802,7 @@ Configs: {
 			Label: 神聖武器のダメージ倍率
 			Tooltip:
 				'''
-				ヒーラー武器のダメージ倍率
+				神聖武器のダメージ倍率
 				(これを有効にするにはワールドの再起動が必要です!)
 				'''
 		}

@@ -1,0 +1,170 @@
+Configs: {
+	BlueMoonConfig: {
+		IncreaseMintMoonSpawnRate: {
+			Tooltip: ""
+			Label: ミントムーンのスポーン率増加
+		}
+
+		DecreaseMintMoonSpawnRate: {
+			Tooltip: ""
+			Label: ミントムーンのスポーン率低下
+		}
+
+		EnableMintMoonSpawn: {
+			Tooltip: ""
+			Label: ミントムーンのスポーン有効化
+		}
+
+		DecreaseHarvestMoonSpawnRate: {
+			Tooltip: ""
+			Label: ハーヴェストムーンのスポーン率低下
+		}
+
+		EnableHarvestMoonSpawn: {
+			Tooltip: ""
+			Label: ハーヴェストムーンのスポーン有効化
+		}
+
+		DecreaseCherryMoonSpawnRate: {
+			Tooltip: ""
+			Label: チェリームーンのスポーン率低下
+		}
+
+		EnableCherryMoonSpawn: {
+			Tooltip: ""
+			Label: チェリームーンのスポーン有効化
+		}
+
+		DecreaseBlueMoonSpawnRate: {
+			Tooltip: ""
+			Label: ブルームーンのスポーン率低下
+		}
+
+		EnableBlueMoonSpawn: {
+			Tooltip: ""
+			Label: ブルームーンのスポーン有効化
+		}
+
+		Headers: {
+			Mint_Moon: ミントムーン
+			Harvest_Moon: ハーヴェストムーン
+			Cherry_Moon: チェリームーン
+			Blue_Moon: ブルームーン
+		}
+
+		DisplayName: Enchanted Moons 設定
+	}
+}
+
+Tiles: {
+	MintMoonMusicBoxTile: {
+		MapEntry: オルゴール(ミントムーン)
+	}
+
+	BlueMoonMusicBoxTile: {
+		MapEntry: オルゴール(ブルームーン)
+	}
+
+	CherryMoonMusicBoxTile: {
+		MapEntry: オルゴール(チェリームーン)
+	}
+
+	HarvestMoonMusicBoxTile: {
+		MapEntry: オルゴール(ハーヴェストムーン)
+	}
+}
+
+Buffs: {
+	MoonsRingBuff: {
+		Description: 4つの天の月の力に祝福されている。
+		DisplayName: 月光のハーモニー
+	}
+
+	MintyFreshnessBuff: {
+		Description: ミントムーンのきらめく光は魔法能力を強化し、より多くのダメージを与えられ、クールダウンも短くなる。
+		DisplayName: ミントフレッシュネス
+	}
+
+	LunarEmpowermentBuff: {
+		Description: 月は幸運の一部を授けてくれる
+		DisplayName: 月のエンパワーメント
+	}
+
+	FloralBlessingBuff: {
+		Description: チェリームーンの癒しのオーラを抱きしめて...
+		DisplayName: 花の祝福
+	}
+
+	BountifulHarvestBuff: {
+		Description: ハーヴェストムーンの祝福がポケットをお金で満たす...
+		DisplayName: 豊作
+	}
+}
+
+Items: {
+	MoonsRing: {
+		Tooltip: コインのドロップ、体力回復速度、クリティカル確率、魔法ダメージが増加する
+		DisplayName: 月の指輪
+	}
+
+	EmeraldRing: {
+		Tooltip: ミントフレッシュネスバフを与える
+		DisplayName: エメラルドの指輪
+	}
+
+	AmethystRing: {
+		Tooltip: 花の祝福バフを与える
+		DisplayName: アメジストの指輪
+	}
+
+	TopazRing: {
+		Tooltip: 豊作バフを与える
+		DisplayName: トパーズの指輪
+	}
+
+	SapphireRing: {
+		Tooltip: 月のエンパワーメントバフを与える
+		DisplayName: サファイアの指輪
+	}
+
+	MintMoonMusicBox: {
+		DisplayName: オルゴール(ミントムーン)
+		Tooltip: ""
+	}
+
+	MintRing: {
+		DisplayName: ミントの指輪
+		Tooltip: 夜に爽やかなミントムーンを召喚する
+	}
+
+	BlueMoonMusicBox: {
+		DisplayName: オルゴール(ブルームーン)
+		Tooltip: ""
+	}
+
+	CherryMoonMusicBox: {
+		DisplayName: オルゴール(チェリームーン)
+		Tooltip: ""
+	}
+
+	HarvestMoonMusicBox: {
+		DisplayName: オルゴール(ハーヴェストムーン)
+		Tooltip: ""
+	}
+
+	HarvestLantern: {
+		DisplayName: 収穫ランタン
+		Tooltip: 夜にお祭りのようなハーヴェストムーンを召喚する
+	}
+
+	CherryAmulet: {
+		DisplayName: チェリーのお守り
+		Tooltip: 夜に素敵なチェリームーンを召喚する
+	}
+
+	BlueMedallion: {
+		DisplayName: ブルーメダリオン
+		Tooltip: 夜に珍しいブルームーンを召喚する
+	}
+}
+

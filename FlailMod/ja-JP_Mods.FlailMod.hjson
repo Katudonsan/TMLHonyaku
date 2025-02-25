@@ -1,0 +1,88 @@
+Projectiles: {
+	AnchorProjectile: {
+		DisplayName: イカリ
+	}
+
+	FlaironProjectile: {
+		DisplayName: フレイロン
+	}
+
+	BallOhurtProjectile: {
+		DisplayName: ボールオブハート
+	}
+
+	TheMeatballProjectile: {
+		DisplayName: ミートボール
+	}
+
+	BlueMoonProjectile: {
+		DisplayName: ブルームーン
+	}
+
+	SunfuryProjectile: {
+		DisplayName: サンフューリー
+	}
+
+	DaoOfPowProjectile: {
+		DisplayName: ダオオブポウ
+	}
+
+	DripplerCripplerProjectile: {
+		DisplayName: ドリップラークリップラー
+	}
+
+	FlowerPowProjectile: {
+		DisplayName: フラワーポウ
+	}
+}
+
+Items: {
+	AmberCarving: {
+		DisplayName: 琥珀の彫刻
+		Tooltip: フレイル・チャージのダメージが50%増加
+	}
+
+	GoblinGrease: {
+		DisplayName: ゴブリン・グリース
+		Tooltip: フレイルのチャージ速度が25%増加
+	}
+
+	AmberGrease: {
+		DisplayName: 琥珀のグリース
+		Tooltip:
+			'''
+			フレイル・チャージのダメージが50%増加
+			フレイルのチャージ速度が25%増加
+			'''
+	}
+
+	MechanicalGrease: {
+		DisplayName: メカニカルグリース
+		Tooltip:
+			'''
+			フレイル・チャージのダメージが80%増加
+			フレイルのチャージ速度が30%増加
+			'''
+	}
+
+	ScarabGrease: {
+		DisplayName: スカラベ・グリース
+		Tooltip:
+			'''
+			フレイル・チャージのダメージが100%増加
+			フレイルのチャージ速度が50%増加
+			フレイルのチャージ時に受けるダメージを20%軽減
+			フルチャージしたフレイルの攻撃でライフが10回復
+			'''
+	}
+
+	ScarabIdol: {
+		DisplayName: スカラベの偶像
+		Tooltip:
+			'''
+			フレイルのチャージ時に受けるダメージを20%軽減
+			フルチャージしたフレイルの攻撃でライフが10回復
+			'''
+	}
+}
+

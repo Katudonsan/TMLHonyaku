@@ -1,0 +1,58 @@
+Keybinds: {
+	PingObjectAtCursor: {
+		DisplayName: ピン設置
+	}
+}
+
+Configs: {
+	ClientConfig: {
+		DisplayName: クライアント設定
+
+		CircularParticles: {
+			Label: ピンされたオブジェクトに円状のパーティクルを表示
+			Tooltip: パーティクルがピンされたオブジェクトの周りを回転します。
+		}
+
+		Highlight: {
+			Label: ピンされたオブジェクトをハイライト
+			Tooltip: オブジェクトをハイライト表示します。この設定は鉱石に対するスペランカー効果に似ています。
+		}
+
+		MouseoverIconSize: {
+			Label: マウスオーバー時のアイコンサイズ
+			Tooltip: ピンアイコンのマウスオーバーサイズの大きさを変更します。
+		}
+	}
+
+	ServerConfig: {
+		DisplayName: サーバー設定
+
+		PingsPerPlayer: {
+			Label: プレイヤーごとの最大ピン数
+			Tooltip: この制限を超えた場合、そのプレイヤーの最も古いピンが削除されます。
+		}
+
+		PingDuration: {
+			Label: ピンの存続時間/持続時間
+			Tooltip: 秒単位。最大の場合、持続時間は無限になります。
+		}
+
+		PingCooldown: {
+			Label: ピンのクールダウン
+			Tooltip: 秒単位
+		}
+	}
+}
+
+PingStatus: {
+	PlayerNameUnknown: 不明
+	PlayerRendezvous: "{0}集合地点"
+}
+
+PingFeedback: {
+	PingCD: ピンのクールダウン:{0}秒
+	RemovedPing: ピンを削除しました。
+	PingAnything: "{0} が「{1}」を見つけました！"
+	PingPlayer: "{0}が集合地点をマークしました！"
+}
+

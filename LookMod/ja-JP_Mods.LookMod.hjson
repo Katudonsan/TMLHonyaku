@@ -1,0 +1,99 @@
+Configs: {
+	IMVConfigClient: {
+		yVelocityImpact: {
+			Tooltip:
+				'''
+				この設定は「オルタネート」と「クラシック-オルタネート」傾きスタイルにのみ影響します。
+				値が小さいほどY速度が回転に与える影響は小さくなり、値が大きいほどY速度が回転に与える影響は大きくなります。
+				'''
+			Label: Y 速度の影響
+		}
+
+		Headers: {
+			BugFix: "[i:1344] バグ修正"
+			NPC: "[i:1307] NPC"
+			Player: "[i:267] プレイヤー"
+		}
+
+		leaningType: {
+			Label: 傾きスタイル
+			Tooltip:
+				'''
+				オフ：速度の傾きを無効にする
+				標準： X速度ベースの傾き
+				オルタネート XおよびY速度ベースの回転
+				クラシック： v1.3以前で使用されていたクランプ回転
+				クラシック-オルタネート： オルタネートのロジックを使用し、v1.3以前で使用されていたクランプ回転
+				スピン：面白い
+				'''
+		}
+
+		DisableMountLeaning: {
+			Label: マウントの傾きを無効にする
+			Tooltip: 騎乗中の傾きを無効にする。
+		}
+
+		DisableNeckPlayerLayer: {
+			Label: 追加のネック プレーヤー レイヤーを無効にする
+			Tooltip:
+				'''
+				余分な首のPlayerLayerを削除します。
+				デフォルトのアーマーレスボディは頭を回したときに頭とボディの間に隙間ができるが、このレイヤーはそれを修正する。
+				'''
+		}
+
+		DisableSlimeLeaning: {
+			Label: スライムジャンプの傾きを無効にする
+			Tooltip: ""
+		}
+
+		DisableZombieLeaning: {
+			Label: ゾンビタイプの敵の傾きを無効にする
+			Tooltip: ""
+		}
+
+		DisableCritterLeaning: {
+			Label: クリッターの傾きを無効にする
+			Tooltip: ""
+		}
+
+		DisableFlickeringFix: {
+			Label: 近接武器のちらつきを無効にする修正
+			Tooltip:
+				'''
+				これは、後ろ向きに歩きながらuseTurn近接武器を使用しているとき、プレイヤーの武器がちらつくという修正を無効にします。
+				これはすべての近接武器のuseTurnを無効にすることで行われます。しかし、このModは基本的にすべての武器をフェイスカーソル機能でuseTurnするようにします。
+				また、useTurnOnAnimationStartも無効化し、基本的にTMLパッチを解除します。
+				もしこれが何らかの問題を引き起こすのであれば、この修正を無効にすることができます。
+				'''
+		}
+
+		DisableRopeTurning: {
+			Label: ロープターンを無効にする
+			Tooltip:
+				'''
+				これは、ロープの上ではプレイヤーがカーソルを向けないようにするものです。
+				これを無効にすると、ロープ上での戦闘に一貫性がなくなり、
+				カーソルをプレイヤーの真上に置くと方向転換が激しくなります。
+				'''
+		}
+
+		faceCursor: {
+			Tooltip: ""
+			Label: フェイス・カーソル
+		}
+
+		lookingType: {
+			Tooltip:
+				'''
+				オフ：ヘッドの回転を無効にする
+				標準 スムーズなヘッド回転
+				クランプ ヘッド回転をクランプ
+				'''
+			Label: カーソルを見る
+		}
+
+		DisplayName: クライアント設定
+	}
+}
+

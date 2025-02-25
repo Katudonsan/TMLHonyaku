@@ -1,0 +1,64 @@
+Keybinds: {
+	Aimbot: {
+		DisplayName: Aimbot
+	}
+
+	CycleAimMode: {
+		DisplayName: サイクルエイムモード
+	}
+
+	ToggleAimbotAutoMode: {
+		DisplayName: 自動エイムボットモードを切り換える
+	}
+}
+
+Configs: {
+	AimFilter: {
+		Tooltip: ""
+
+		Bosses: {
+			Label: ボス
+			Tooltip: ""
+		}
+
+		HostileNpcs: {
+			Label: 接触ダメージのあるNPC
+			Tooltip: ""
+		}
+
+		RangerNpcs: {
+			Label: ダメージのないNPC
+			Tooltip: 例：アーチャー、メイジ、スライムなどの災難
+		}
+
+		CrittersNpcs: {
+			Label: クリック NPC
+			Tooltip: ""
+		}
+
+		CountAsBoss: {
+			Label: ボスとしてカウントされているが、ゲームではボスとしてフラグが立っていないNPC
+			Tooltip: 例：ｳｫｰﾙｵﾌﾞﾌﾚｯｼｭの頭やピラーズ
+		}
+	}
+
+	AimbotConfig: {
+		DisplayName: Aimbot 設定
+
+		DisablePrediction: {
+			Label: 予測を無効化する
+			Tooltip: NPCの動きを予測しようとするエイムボットを無効にする。
+		}
+
+		AimbotRange: {
+			Label: エイムボット範囲
+			Tooltip: 自分の周囲でターゲットを探す範囲
+		}
+
+		AimOptions: {
+			Tooltip: 狙い撃ちできる対象を選択する
+			Label: 目標オプション
+		}
+	}
+}
+

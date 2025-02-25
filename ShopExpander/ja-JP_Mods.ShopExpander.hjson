@@ -1,0 +1,39 @@
+Configs: {
+	ShopExpanderConfig: {
+		DisplayName: Shop Expanderの設定
+
+		DisableShopPagingForNPCs: {
+			Label: NPCのショップページ機能を無効にする
+			Tooltip: このリストにNPCを追加すると、ショップのページ機能を無効にすることができる。
+		}
+	}
+}
+
+Items: {
+	Mods: {
+		ShopExpander: {
+			Items: {
+				ArrowLeft: {
+					DisplayName: 前のページ
+					Tooltip: ""
+				}
+
+				ArrowRight: {
+					DisplayName: 次のページ
+					Tooltip: ""
+				}
+			}
+		}
+	}
+
+	ArrowLeft: {
+		DisplayName: 前のページ
+		Tooltip: ""
+	}
+
+	ArrowRight: {
+		DisplayName: 次のページ
+		Tooltip: ""
+	}
+}
+
