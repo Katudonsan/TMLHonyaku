@@ -14,115 +14,115 @@ Configs: {
 	FargoServerConfig: {
 		DisplayName: サーバー側コンフィグ
 
-		Mutant: {
-			Label: "[i:Fargowiltas/MutantMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Mutant.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
-			Tooltip: ""
-		}
+		// Mutant: {
+		// 	Label: "[i:Fargowiltas/MutantMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Mutant.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+		// 	// Tooltip: ""
+		// }
 
-		Abom: {
-			Label: "[i:Fargowiltas/AbominationnMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Abominationn.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
-			Tooltip: ""
-		}
+		// Abom: {
+		// 	Label: "[i:Fargowiltas/AbominationnMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Abominationn.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+		// 	// Tooltip: ""
+		// }
 
-		Devi: {
-			Label: "[i:Fargowiltas/DevianttMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Deviantt.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
-			Tooltip: ""
-		}
+		// Devi: {
+		// 	Label: "[i:Fargowiltas/DevianttMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Deviantt.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+		// 	// Tooltip: ""
+		// }
 
-		Lumber: {
-			Label: "[i:Fargowiltas/LumberjackMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.LumberJack.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
-			Tooltip: ""
-		}
+		// Lumber: {
+		// 	Label: "[i:Fargowiltas/LumberjackMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.LumberJack.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+		// 	// Tooltip: ""
+		// }
 
-		Squirrel: {
-			Label: "[i:239] [c/ffffff:{$Mods.Fargowiltas.NPCs.Squirrel.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
-			Tooltip: ""
-		}
+		// Squirrel: {
+		// 	Label: "[i:239] [c/ffffff:{$Mods.Fargowiltas.NPCs.Squirrel.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+		// 	// Tooltip: ""
+		// }
 
 		CatchNPCs: {
 			Label: "[i:267] タウンNPCを虫取り網で捕獲する"
-			Tooltip: ""
+			// Tooltip: ""
 		}
 
 		NPCSales: {
 			Label: "[i:267] タウンNPCの特別商品"
-			Tooltip: ""
+			// Tooltip: ""
 		}
 
 		SaferBoundNPCs: {
 			Label: "[i:1274] 救出可能な町のNPCは接触ダメージを受けない"
-			Tooltip: ""
+			// Tooltip: ""
 		}
 
 		Halloween: {
 			Label: "[i:1774] 年中ハロウィン"
-			Tooltip: ""
+			// Tooltip: ""
 		}
 
 		Christmas: {
 			Label: "[i:1869] 年中クリスマス"
-			Tooltip: ""
+			// Tooltip: ""
 		}
 
-		DrunkWorld: {
-			Label: "[i:353] Drunk World"
-			Tooltip: ""
-		}
+		// DrunkWorld: {
+		// 	Label: "[i:353] Drunk World"
+		// 	// Tooltip: ""
+		// }
 
-		BeeWorld: {
-			Label: "[i:1133] Bee World"
-			Tooltip: ""
-		}
+		// BeeWorld: {
+		// 	Label: "[i:1133] Bee World"
+		// 	// Tooltip: ""
+		// }
 
-		WorthyWorld: {
-			Label: "[i:2107] For the Worthy World"
-			Tooltip: ""
-		}
+		// WorthyWorld: {
+		// 	Label: "[i:2107] For the Worthy World"
+		// 	// Tooltip: ""
+		// }
 
-		CelebrationWorld: {
-			Label: "[i:3732] Celebration World"
-			Tooltip: ""
-		}
+		// CelebrationWorld: {
+		// 	Label: "[i:3732] Celebration World"
+		// 	// Tooltip: ""
+		// }
 
-		ConstantWorld: {
-			Label: "[i:5109] Constant World"
-			Tooltip: ""
-		}
+		// ConstantWorld: {
+		// 	Label: "[i:5109] Constant World"
+		// 	// Tooltip: ""
+		// }
 
-		UnlimitedAmmo: {
-			Label: "[i:771] Unlimited Ammo at 3996+ in Hardmode"
-			Tooltip: ""
-		}
+		// UnlimitedAmmo: {
+		// 	Label: "[i:771] Unlimited Ammo at 3996+ in Hardmode"
+		// 	// Tooltip: ""
+		// }
 
-		UnlimitedConsumableWeapons: {
-			Label: "[i:42] Unlimited Consumable Weapons at 3996+ in Hardmode"
-			Tooltip: ""
-		}
+		// UnlimitedConsumableWeapons: {
+		// 	Label: "[i:42] Unlimited Consumable Weapons at 3996+ in Hardmode"
+		// 	// Tooltip: ""
+		// }
 
-		UnlimitedPotionBuffsOn120: {
-			Label: "[i:292] Unlimited Buffs and Bait when carried in certain stacks"
-			Tooltip: 30+ for potions and bait
-		}
+		// UnlimitedPotionBuffsOn120: {
+		// 	Label: "[i:292] Unlimited Buffs and Bait when carried in certain stacks"
+		// 	Tooltip: 30+ for potions and bait
+		// }
 
-		ExtraBuffSlots: {
-			Label: "[i:3000] Additional Buff Slots"
-			Tooltip: ""
-		}
+		// ExtraBuffSlots: {
+		// 	Label: "[i:3000] Additional Buff Slots"
+		// 	// Tooltip: ""
+		// }
 
-		AnglerQuestInstantReset: {
-			Label: "[i:2374] Angler Quest Instant Reset"
-			Tooltip: ""
-		}
+		// AnglerQuestInstantReset: {
+		// 	Label: "[i:2374] Angler Quest Instant Reset"
+		// 	// Tooltip: ""
+		// }
 
 		ExtraLures: {
 			Label: "[i:2373] 釣竿に追加のルアーをつける"
-			Tooltip: ""
+			// Tooltip: ""
 		}
 
-		StalkerMoneyTrough: {
-			Label: "[i:3213] Stalker Money Trough"
-			Tooltip: ""
-		}
+		// StalkerMoneyTrough: {
+		// 	Label: "[i:3213] Stalker Money Trough"
+		// 	// Tooltip: ""
+		// }
 
 		RottenEggs: {
 			Label: "[i:1809] パワフルな腐った卵"
@@ -131,48 +131,48 @@ Configs: {
 
 		BannerRecipes: {
 			Label: "[i:1683] バナーを使ったレシピ"
-			Tooltip: ""
+			// Tooltip: ""
 		}
 
 		IncreaseMaxStack: {
 			Label: "[i:2] 最大スタック数の増加"
-			Tooltip: ""
+			// Tooltip: ""
 		}
 
-		ExtractSpeed: {
-			Label: "[i:997] Increased Extractinator Speed"
-			Tooltip: ""
-		}
+		// ExtractSpeed: {
+		// 	Label: "[i:997] Increased Extractinator Speed"
+		// 	// Tooltip: ""
+		// }
 
-		Fountains: {
-			Label: "[i:909] Fountains Cause Biomes"
-			Tooltip: ""
-		}
+		// Fountains: {
+		// 	Label: "[i:909] Fountains Cause Biomes"
+		// 	// Tooltip: ""
+		// }
 
-		BossZen: {
-			Label: "[i:3117] No enemies spawn during boss fights"
-			Tooltip: ""
-		}
+		// BossZen: {
+		// 	Label: "[i:3117] No enemies spawn during boss fights"
+		// 	// Tooltip: ""
+		// }
 
-		PiggyBankAcc: {
-			Label: "[i:87] Informational and Construction Accessories work in Piggy Bank"
-			Tooltip: ""
-		}
+		// PiggyBankAcc: {
+		// 	Label: "[i:87] Informational and Construction Accessories work in Piggy Bank"
+		// 	// Tooltip: ""
+		// }
 
 		FasterLavaFishing: {
 			Label: "[i:4881] 溶岩でより速い釣りを許可する"
-			Tooltip: ""
+			// Tooltip: ""
 		}
 
-		TorchGodEX: {
-			Label: "[i:5043] Torch God's Favor Automatically Swaps Placed Torches"
-			Tooltip: Obeys true torch luck, which may differ from Torch God's Favor
-		}
+		// TorchGodEX: {
+		// 	Label: "[i:5043] Torch God's Favor Automatically Swaps Placed Torches"
+		// 	Tooltip: Obeys true torch luck, which may differ from Torch God's Favor
+		// }
 
-		PylonsIgnoreEvents: {
-			Label: "[i:4876] Pylons Ignore Events"
-			Tooltip: ""
-		}
+		// PylonsIgnoreEvents: {
+		// 	Label: "[i:4876] Pylons Ignore Events"
+		// 	// Tooltip: ""
+		// }
 
 		Headers: {
 			TownNPCs: タウンNPC
@@ -183,73 +183,73 @@ Configs: {
 			Misc: その他
 		}
 
-		EnemyHealth: {
-			Label: "[i:29] Enemy Health"
-			Tooltip: Multiplies the health of all enemies.
-		}
+		// EnemyHealth: {
+		// 	Label: "[i:29] Enemy Health"
+		// 	Tooltip: Multiplies the health of all enemies.
+		// }
 
-		BossHealth: {
-			Label: "[i:29] Boss Health"
-			Tooltip: Multiplies the health of all bosses. Highest multiplier between this or Enemy Health is applied.
-		}
+		// BossHealth: {
+		// 	Label: "[i:29] Boss Health"
+		// 	Tooltip: Multiplies the health of all bosses. Highest multiplier between this or Enemy Health is applied.
+		// }
 
-		EnemyDamage: {
-			Label: "[i:3507] Enemy Damage"
-			Tooltip: Multiplies post-mitigation damage of all enemies and projectiles.
-		}
+		// EnemyDamage: {
+		// 	Label: "[i:3507] Enemy Damage"
+		// 	Tooltip: Multiplies post-mitigation damage of all enemies and projectiles.
+		// }
 
-		BossDamage: {
-			Label: "[i:3507] Boss Damage"
-			Tooltip: Multiplies post-mitigation damage of all bosses. Highest multiplier between this or Enemy Damage is applied.
-		}
+		// BossDamage: {
+		// 	Label: "[i:3507] Boss Damage"
+		// 	Tooltip: Multiplies post-mitigation damage of all bosses. Highest multiplier between this or Enemy Damage is applied.
+		// }
 
-		BossApplyToAllWhenAlive: {
-			Label: Boss Multipliers Apply Universally
-			Tooltip: Boss Health and Boss Damage configs apply to all enemies while a boss is alive, rather than just bosses themselves.
-		}
+		// BossApplyToAllWhenAlive: {
+		// 	Label: Boss Multipliers Apply Universally
+		// 	Tooltip: Boss Health and Boss Damage configs apply to all enemies while a boss is alive, rather than just bosses themselves.
+		// }
 	}
 
 	FargoClientConfig: {
 		DisplayName: クライアント側コンフィグ
 
-		ExpandedTooltips: {
-			Label: "[i:171] More tooltips indicate Mutant Mod changes"
-			Tooltip: ""
-		}
+		// ExpandedTooltips: {
+		// 	Label: "[i:171] More tooltips indicate Mutant Mod changes"
+		// 	// Tooltip: ""
+		// }
 
-		HideUnlimitedBuffs: {
-			Label: "[i:292] Hide unlimited buffs in tray"
-			Tooltip: ""
-		}
+		// HideUnlimitedBuffs: {
+		// 	Label: "[i:292] Hide unlimited buffs in tray"
+		// 	// Tooltip: ""
+		// }
 
-		DoubleTapDashDisabled: {
-			Label: "[i:3097] Disable double-tap for dashes"
-			Tooltip: Prevent dashes from using the normal double-tap keybind. The Dash key is available regardless of this config.
-		}
+		// DoubleTapDashDisabled: {
+		// 	Label: "[i:3097] Disable double-tap for dashes"
+		// 	Tooltip: Prevent dashes from using the normal double-tap keybind. The Dash key is available regardless of this config.
+		// }
 
-		DoubleTapSetBonusDisabled: {
-			Label: "[i:3776] Disable double-tap for Set Bonuses"
-			Tooltip: Prevent set bonuses from using the normal double-tap keybind. The Set Bonus key is available regardless of this config.
-		}
+		// DoubleTapSetBonusDisabled: {
+		// 	Label: "[i:3776] Disable double-tap for Set Bonuses"
+		// 	Tooltip: Prevent set bonuses from using the normal double-tap keybind. The Set Bonus key is available regardless of this config.
+		// }
 
-		DebuffOpacity: {
-			Label: "[i:1612] Debuff Display Max Opacity"
-			Tooltip: ""
-		}
+		// DebuffOpacity: {
+		// 	Label: "[i:1612] Debuff Display Max Opacity"
+		// 	// Tooltip: ""
+		// }
 
-		DebuffFaderRatio: {
-			Label: "[i:1612] Debuff Duration Fader Strength"
-			Tooltip: ""
-		}
+		// DebuffFaderRatio: {
+		// 	Label: "[i:1612] Debuff Duration Fader Strength"
+		// 	// Tooltip: ""
+		// }
 
-		TransparentFriendlyProjectiles: {
-			Label: "[i:1309] Transparent Friendly Projectiles"
-			Tooltip: Use with vanilla setting for Quality at Medium or Low for best results
-		}
+		// TransparentFriendlyProjectiles: {
+		// 	Label: "[i:1309] Transparent Friendly Projectiles"
+		// 	Tooltip: Use with vanilla setting for Quality at Medium or Low for best results
+		// }
 	}
 
 	SeasonSelections: {
-		Tooltip: ""
+		// Tooltip: ""
 
 		Normal: {
 			Label: バニラ仕様
@@ -280,50 +280,50 @@ RecipeGroups: {
 }
 
 UI: {
-	StatButton: Stat Sheet
+	// StatButton: Stat Sheet
 	SearchText: ここで検索...
-	MeleeDamage: Melee Damage: {0}%
-	MeleeCritical: Melee Critical: {0}%
-	MeleeSpeed: Melee Speed: {0}%
-	RangedDamage: Ranged Damage: {0}%
-	RangedCritical: Ranged Critical: {0}%
-	MagicDamage: Magic Damage: {0}%
-	MagicCritical: Magic Critical: {0}%
-	ManaCostReduction: Mana Cost Reduction: {0}%
-	SummonDamage: Summon Damage: {0}%
-	SummonCritical: Summon Critical: {0}%
-	MaxMinions: Max Minions: {0}
-	MaxSentries: Max Sentries: {0}
-	ArmorPenetration: Armor Penetration: {0}
-	Aggro: Aggro: {0}
-	Life: Life: {0}
-	LifeRegen: Life Regen: {0}/sec
-	Mana: Mana: {0}
-	ManaRegen: Mana Regen: {0}/sec
-	Defense: Defense: {0}
-	DRCap: " (cap {0}%)"
-	DamageReduction: Damage Reduction: {0}%{1}
-	Luck: Luck: {0}
-	FishingQuests: Fishing Quests: {0}
-	BattleCry: Battle Cry: {0}
-	BattleCryNone: None
-	MaxSpeed: Max Speed: {0} mph
-	WingNull: ???
-	WingTime: Wing Time: {0}
-	WingTimeMoreThan60Sec: Yes
-	WingTimeActual: "{0} sec"
-	WingMaxSpeed: Wing Max Speed: {0} mph
-	WingAscentModifier: Wing Ascent Modifier: {0}%
-	WingHover: Wing Can Hover: {0}
-	WingHoverTrue: True
-	WingHoverFalse: False
+	// MeleeDamage: Melee Damage: {0}%
+	// MeleeCritical: Melee Critical: {0}%
+	// MeleeSpeed: Melee Speed: {0}%
+	// RangedDamage: Ranged Damage: {0}%
+	// RangedCritical: Ranged Critical: {0}%
+	// MagicDamage: Magic Damage: {0}%
+	// MagicCritical: Magic Critical: {0}%
+	// ManaCostReduction: Mana Cost Reduction: {0}%
+	// SummonDamage: Summon Damage: {0}%
+	// SummonCritical: Summon Critical: {0}%
+	// MaxMinions: Max Minions: {0}
+	// MaxSentries: Max Sentries: {0}
+	// ArmorPenetration: Armor Penetration: {0}
+	// Aggro: Aggro: {0}
+	// Life: Life: {0}
+	// LifeRegen: Life Regen: {0}/sec
+	// Mana: Mana: {0}
+	// ManaRegen: Mana Regen: {0}/sec
+	// Defense: Defense: {0}
+	// DRCap: " (cap {0}%)"
+	// DamageReduction: Damage Reduction: {0}%{1}
+	// Luck: Luck: {0}
+	// FishingQuests: Fishing Quests: {0}
+	// BattleCry: Battle Cry: {0}
+	// BattleCryNone: None
+	// MaxSpeed: Max Speed: {0} mph
+	// WingNull: ???
+	// WingTime: Wing Time: {0}
+	// WingTimeMoreThan60Sec: Yes
+	// WingTimeActual: "{0} sec"
+	// WingMaxSpeed: Wing Max Speed: {0} mph
+	// WingAscentModifier: Wing Ascent Modifier: {0}%
+	// WingHover: Wing Can Hover: {0}
+	// WingHoverTrue: True
+	// WingHoverFalse: False
 }
 
 MessageInfo: {
-	Common: {
-		Exclamation: !
-		Period: .
-	}
+	// Common: {
+	// 	Exclamation: !
+	// 	Period: .
+	// }
 
 	SiblingPylonNotNearSiblings: このパイロンが機能するには、別の兄弟パイロンが必要です
 	NearbySiblingPylonNotNearSiblings: 近くにいるパイロンが機能するためには、近くに別の兄弟パイロンが必要です
@@ -394,19 +394,19 @@ Buffs: {
 
 	WoodDrop: {
 		DisplayName: 樹液
-		Description: Mods.Fargowiltas.BuffDescription.WoodDrop
+		// Description: Mods.Fargowiltas.BuffDescription.WoodDrop
 	}
 
-	BigSuckBuff: {
-		DisplayName: Big Suck
-		Description: You are sucking everything
-	}
+	// BigSuckBuff: {
+	// 	DisplayName: Big Suck
+	// 	Description: You are sucking everything
+	// }
 }
 
 Items: {
 	BoneQuiver: {
 		DisplayName: 無限骨矢筒
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	ChlorophyteQuiver: {
@@ -416,22 +416,22 @@ Items: {
 
 	CursedQuiver: {
 		DisplayName: 無限呪われた矢筒
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	FlameQuiver: {
 		DisplayName: 無限火矢筒
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	FrostburnQuiver: {
 		DisplayName: 無限吹雪の矢筒
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	HellfireQuiver: {
 		DisplayName: 無限ヘルファイアの矢筒
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	HolyQuiver: {
@@ -446,7 +446,7 @@ Items: {
 
 	JesterQuiver: {
 		DisplayName: 無限道化師の矢筒
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	LuminiteQuiver: {
@@ -456,17 +456,17 @@ Items: {
 
 	UnholyQuiver: {
 		DisplayName: 無限不浄な矢筒
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	VenomQuiver: {
 		DisplayName: 無限猛毒矢筒
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	BrittleBone: {
 		DisplayName: 脆い骨
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	ChlorophytePouch: {
@@ -481,7 +481,7 @@ Items: {
 
 	CursedPouch: {
 		DisplayName: 無限呪われた弾丸ポーチ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	ExplosivePouch: {
@@ -506,7 +506,7 @@ Items: {
 
 	MeteorPouch: {
 		DisplayName: 無限隕石弾丸ポーチ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	NanoPouch: {
@@ -521,17 +521,17 @@ Items: {
 
 	SilverPouch: {
 		DisplayName: 無限銀の弾丸ポーチ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	TungstenPouch: {
 		DisplayName: 無限タングステン弾丸ポーチ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	VelocityPouch: {
 		DisplayName: 無限高速弾ポーチ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	VenomPouch: {
@@ -541,112 +541,112 @@ Items: {
 
 	CopperCoinBag: {
 		DisplayName: 無限カッパー金庫
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	GoldCoinBag: {
 		DisplayName: 無限ゴールド金庫
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	PlatinumCoinBag: {
 		DisplayName: 無限プラチナ金庫
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	SilverCoinBag: {
 		DisplayName: 無限シルバー金庫
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	CrystalDartBox: {
 		DisplayName: 無限クリスタルダーツ箱
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	CursedDartBox: {
 		DisplayName: 無限呪われたダーツ箱
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	IchorDartBox: {
 		DisplayName: 無限霊液ダーツ箱
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	PoisonDartBox: {
 		DisplayName: 無限毒ダーツ箱
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	GelPack: {
 		DisplayName: 無限ジェルパック
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	ClusterRocket1Bag: {
 		DisplayName: 無限クラスターロケットⅠバッグ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	ClusterRocket2Bag: {
 		DisplayName: 無限クラスターロケットⅡバッグ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	DryRocketBag: {
 		DisplayName: 無限ドライロケットバッグ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	HoneyRocketBag: {
 		DisplayName: 無限はちみつロケットバッグ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	LavaRocketBag: {
 		DisplayName: 無限溶岩ロケットバッグ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	MiniNuke1Bag: {
 		DisplayName: 無限ミニ核爆弾Ⅰバッグ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	MiniNuke2Bag: {
 		DisplayName: 無限ミニ核爆弾Ⅱバッグ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	Rocket1Bag: {
 		DisplayName: 無限ロケットⅠバッグ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	Rocket2Bag: {
 		DisplayName: 無限ロケットⅡバッグ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	Rocket3Bag: {
 		DisplayName: 無限ロケットⅢバッグ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	Rocket4Bag: {
 		DisplayName: 無限ロケットⅣバッグ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	WetRocketBag: {
 		DisplayName: 無限ウェットロケットバッグ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	StarPouch: {
 		DisplayName: 無限流れ星ポーチ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	AltarExterminator: {
@@ -1910,7 +1910,7 @@ Items: {
 
 	CrimsonAltar: {
 		DisplayName: クリムゾンアルター
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	CrucibleCosmos: {
@@ -1924,7 +1924,7 @@ Items: {
 
 	DemonAltar: {
 		DisplayName: デーモンアルター
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	MutantToilet: {
@@ -2074,72 +2074,72 @@ Items: {
 
 	AbominationnBody: {
 		DisplayName: アボミネーションの体
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	AbominationnMask: {
 		DisplayName: アボミネーションの頭
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	AbominationnPants: {
 		DisplayName: アボミネーションのパンツ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	AbominationnScythe: {
 		DisplayName: アボミネーションの鎌
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	DevianttBody: {
 		DisplayName: デビアントの体
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	DevianttMask: {
 		DisplayName: デビアントの頭
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	DevianttPants: {
 		DisplayName: デビアントのパンツ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	LumberHat: {
 		DisplayName: 木こりの帽子
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	LumberjackBody: {
 		DisplayName: 木こりの体
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	LumberjackMask: {
 		DisplayName: 木こりの頭
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	LumberjackPants: {
 		DisplayName: 木こりのパンツ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	MutantBody: {
 		DisplayName: ミュータントの体
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	MutantMask: {
 		DisplayName: ミュータントの頭
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	MutantPants: {
 		DisplayName: ミュータントのパンツ
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	LumberJaxe: {
@@ -2353,63 +2353,63 @@ Items: {
 	}
 
 	HoneyRocketBox: {
-		Tooltip: ""
+		// Tooltip: ""
 		DisplayName: 無限蜂蜜ロケット箱
 	}
 
 	DryRocketBox: {
-		Tooltip: ""
+		// Tooltip: ""
 		DisplayName: 無限ドライロケット箱
 	}
 
 	ClusterRocket2Box: {
-		Tooltip: ""
+		// Tooltip: ""
 		DisplayName: 無限クラスターロケットⅡ箱
 	}
 
 	ClusterRocket1Box: {
-		Tooltip: ""
+		// Tooltip: ""
 		DisplayName: 無限クラスターロケットⅠ箱
 	}
 
 	LavaRocketBox: {
 		DisplayName: 無限溶岩ロケット箱
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	MiniNuke1Box: {
 		DisplayName: 無限ミニ核爆弾Ⅰ箱
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	MiniNuke2Box: {
 		DisplayName: 無限ミニ核爆弾Ⅱ箱
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	Rocket1Box: {
 		DisplayName: 無限ロケットⅠ箱
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	Rocket2Box: {
 		DisplayName: 無限ロケットⅡ箱
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	Rocket3Box: {
 		DisplayName: 無限ロケットⅢ箱
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	Rocket4Box: {
 		DisplayName: 無限ロケットⅣ箱
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	WetRocketBox: {
 		DisplayName: 無限ウェットロケット箱
-		Tooltip: ""
+		// Tooltip: ""
 	}
 
 	InstaPond: {
@@ -2483,28 +2483,28 @@ NPCs: {
 			Formattable1: 鎌はどこで手に入れたんだっけ？ {0}
 			Formatter1PHM: 後で聞いてくれ。
 			Formatter1HM: そのうちわかるよ。
-			Normal1: I have slain one thousand humans! Huh? You're a human? There's so much blood on your hands..
-			Normal2: I have defeated everything in this land... nothing can beat me.
-			Normal3: Have you ever had a weapon stuck to your hand? It's not very handy.
-			Normal4: What happened to Yoramur? No idea who you're talking about.
-			Normal5: You wish you could dress like me? Ha! Actually yea.. you can.
-			Normal6: You ever read the ancient classics, I love all the fighting in them.
-			Normal7: I'm a world class poet, ever read my piece about impending doom?
-			Normal8: You want swarm summons? Maybe next year.
-			Normal9: Like my wings? Thanks, the thing I got them from didn't like it much.
-			Normal10: Heroism has no place in this world, instead let's just play ping pong.
-			Normal11: Why are you looking at me like that? Your fashion sense isn't going to be winning you any awards either.
-			Normal12: No, you can't have my hat.
-			Normal13: Embrace suffering... Wait what do you mean that's already taken?
-			Normal14: Your attempt to exploit my anger is admirable, but I cannot be angered.
-			Normal15: Is it really a crime if everyone else does it.
-			Normal16: Inflicting suffering upon others is the most amusing thing there is.
-			Normal17: Irony is the best kind of humor, isn't that ironic?
-			Normal18: I like Cat... What do you mean who's Cat?
-			Normal19: Check the wiki if you need anything, the star is slowly getting it up to par.
-			Normal20: I've heard tales of a legendary Diver... Anyway what was that about a giant jellyfish?
-			Normal21: Overloaded events...? Yeah, they're pretty cool.
-			Normal22: It's not like I don't enjoy your company, but can you buy something?
+			// Normal1: I have slain one thousand humans! Huh? You're a human? There's so much blood on your hands..
+			// Normal2: I have defeated everything in this land... nothing can beat me.
+			// Normal3: Have you ever had a weapon stuck to your hand? It's not very handy.
+			// Normal4: What happened to Yoramur? No idea who you're talking about.
+			// Normal5: You wish you could dress like me? Ha! Actually yea.. you can.
+			// Normal6: You ever read the ancient classics, I love all the fighting in them.
+			// Normal7: I'm a world class poet, ever read my piece about impending doom?
+			// Normal8: You want swarm summons? Maybe next year.
+			// Normal9: Like my wings? Thanks, the thing I got them from didn't like it much.
+			// Normal10: Heroism has no place in this world, instead let's just play ping pong.
+			// Normal11: Why are you looking at me like that? Your fashion sense isn't going to be winning you any awards either.
+			// Normal12: No, you can't have my hat.
+			// Normal13: Embrace suffering... Wait what do you mean that's already taken?
+			// Normal14: Your attempt to exploit my anger is admirable, but I cannot be angered.
+			// Normal15: Is it really a crime if everyone else does it.
+			// Normal16: Inflicting suffering upon others is the most amusing thing there is.
+			// Normal17: Irony is the best kind of humor, isn't that ironic?
+			// Normal18: I like Cat... What do you mean who's Cat?
+			// Normal19: Check the wiki if you need anything, the star is slowly getting it up to par.
+			// Normal20: I've heard tales of a legendary Diver... Anyway what was that about a giant jellyfish?
+			// Normal21: Overloaded events...? Yeah, they're pretty cool.
+			// Normal22: It's not like I don't enjoy your company, but can you buy something?
 			Canceled: イベントイベント飛んでいけ～！...ほ～ら、イベントが終わったよ！
 			CancelCD: 今は気分が乗らないから、 {0} 秒後にまた来てくれないかな。
 			NoEvent: 今停止可能なイベントはないと思うよ。
@@ -2520,100 +2520,100 @@ NPCs: {
 	Deviantt: {
 		DisplayName: デビアント
 
-		TownNPCMood: {
-			Content: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.Content}"
-			NoHome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.NoHome}"
-			LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LoveSpace}"
-			FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.FarFromHome}"
-			DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.DislikeCrowded}"
-			HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.HateCrowded}"
-			LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LikeBiome}"
-			LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LoveBiome}"
-			DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.DislikeBiome}"
-			HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.HateBiome}"
-			LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LikeNPC}"
-			LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LoveNPC}"
-			DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.DislikeNPC}"
-			HateNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.HateNPC}"
-			LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LikeNPC_Princess}"
-			Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Deviantt}"
-		}
+		// TownNPCMood: {
+		// 	Content: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.Content}"
+		// 	NoHome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.NoHome}"
+		// 	LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LoveSpace}"
+		// 	FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.FarFromHome}"
+		// 	DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.DislikeCrowded}"
+		// 	HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.HateCrowded}"
+		// 	LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LikeBiome}"
+		// 	LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LoveBiome}"
+		// 	DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.DislikeBiome}"
+		// 	HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.HateBiome}"
+		// 	LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LikeNPC}"
+		// 	LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LoveNPC}"
+		// 	DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.DislikeNPC}"
+		// 	HateNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.HateNPC}"
+		// 	LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LikeNPC_Princess}"
+		// 	Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Deviantt}"
+		// }
 
-		Chat: {
-			GiveGifts: This world looks tougher than usual, so you can have these on the house just this once! Talk to me if you need any tips, yeah?
-			NTB: IT'S THE FUNNY BEE WORLD!
-			NTBHA: " HA"
-			NTBHEE: " HEE"
-			NTBHOO: " HOO"
-			NTBHEH: " HEH"
-			NTBHAH: " HAH"
-			EridanusArmor: UWAH! Please don't hurt... wait, it's just you. Don't scare me like that! And why is that THING following you?!
-			NekomiArmor: Ooh, that's my hoodie! So how is it? Comfy and great for gaming, right? Maybe you'll even go beat a boss without taking damage!
-			Defeat: Good work getting one over on me! Hope I didn't make you sweat too much. Keep at the grind - I wanna see how far you can go!
-			Stinky: Wow, you smell rancid. When's the last time you took a shower, stinky?
-			LoveStruck: You're making too many hearts at me! Sorry, we're only at bond level {0} right now!
-			BloodMoon: The blood moon's effects? I'm not human anymore, so nope!
-			HM: Shower thought. If I put you in a meat grinder and all that's left is two Dye... I'd probably be rich! Not that I would, not to you, specifically, I mean... never mind!
-			Mutant1: Can you tell {0} to put some clothes on?
-			Mutant2: One day, I'll sell a summon for myself! ...Just kidding. That's {0}'s job.
-			Lumber: What's that? You want to fight {0}? ...even I know better than to try.
-			EternityMode: Embrace suffering... and while you're at it, embrace another purchase!
-			Formattable1: "{0}! I saw something rodent-y just now! You don't have a hamster infestation, right? Right!?"
-			Normal1: No, I'm totally not throwing Love Potions while you're not looking! Um, I mean... oh, just buy something!
-			Normal2: Did you know? The only real music genres are death metal and artcore.
-			Normal3: I'll have you know I'm over a hundred Fargo years old! Don't ask me how long a Fargo year is.
-			Normal4: I might be able to afford a taller body if you keep buying!
-			Normal5: Where's that screm cat?
-			Normal6: You're the Terrarian? Honestly, I was expecting someone a little... taller.
-			Normal7: Don't look at me like that! The only thing I've deviated from is my humanity.
-			Normal8: Rip and tear and buy from me for more things to rip and tear!
-			Normal9: What's a chee-bee doe-goe?
-			Normal10: Wait a second. Are you sure this house isn't what they call 'prison?'
-			Normal11: Deviantt has awoken! Quick, give her all your money to defeat her!
-			Normal12: One day, I'll sell a summon for myself! ...Just kidding.
-			Normal13: Hmm, I can tell! You've killed a lot, but you haven't killed enough!
-			Normal14: Why the extra letter, you ask? Only the strongest sibling is allowed to remove their own!
-			Normal15: The more rare things you kill, the more stuff I sell! Simple, right?
-			Normal16: Oh, hi! I, uh, definitely don't have any Stink Potions on me right now! Not that I normally would!
-		}
+		// Chat: {
+		// 	GiveGifts: This world looks tougher than usual, so you can have these on the house just this once! Talk to me if you need any tips, yeah?
+		// 	NTB: IT'S THE FUNNY BEE WORLD!
+		// 	NTBHA: " HA"
+		// 	NTBHEE: " HEE"
+		// 	NTBHOO: " HOO"
+		// 	NTBHEH: " HEH"
+		// 	NTBHAH: " HAH"
+		// 	EridanusArmor: UWAH! Please don't hurt... wait, it's just you. Don't scare me like that! And why is that THING following you?!
+		// 	NekomiArmor: Ooh, that's my hoodie! So how is it? Comfy and great for gaming, right? Maybe you'll even go beat a boss without taking damage!
+		// 	Defeat: Good work getting one over on me! Hope I didn't make you sweat too much. Keep at the grind - I wanna see how far you can go!
+		// 	Stinky: Wow, you smell rancid. When's the last time you took a shower, stinky?
+		// 	LoveStruck: You're making too many hearts at me! Sorry, we're only at bond level {0} right now!
+		// 	BloodMoon: The blood moon's effects? I'm not human anymore, so nope!
+		// 	HM: Shower thought. If I put you in a meat grinder and all that's left is two Dye... I'd probably be rich! Not that I would, not to you, specifically, I mean... never mind!
+		// 	Mutant1: Can you tell {0} to put some clothes on?
+		// 	Mutant2: One day, I'll sell a summon for myself! ...Just kidding. That's {0}'s job.
+		// 	Lumber: What's that? You want to fight {0}? ...even I know better than to try.
+		// 	EternityMode: Embrace suffering... and while you're at it, embrace another purchase!
+		// 	Formattable1: "{0}! I saw something rodent-y just now! You don't have a hamster infestation, right? Right!?"
+		// 	Normal1: No, I'm totally not throwing Love Potions while you're not looking! Um, I mean... oh, just buy something!
+		// 	Normal2: Did you know? The only real music genres are death metal and artcore.
+		// 	Normal3: I'll have you know I'm over a hundred Fargo years old! Don't ask me how long a Fargo year is.
+		// 	Normal4: I might be able to afford a taller body if you keep buying!
+		// 	Normal5: Where's that screm cat?
+		// 	Normal6: You're the Terrarian? Honestly, I was expecting someone a little... taller.
+		// 	Normal7: Don't look at me like that! The only thing I've deviated from is my humanity.
+		// 	Normal8: Rip and tear and buy from me for more things to rip and tear!
+		// 	Normal9: What's a chee-bee doe-goe?
+		// 	Normal10: Wait a second. Are you sure this house isn't what they call 'prison?'
+		// 	Normal11: Deviantt has awoken! Quick, give her all your money to defeat her!
+		// 	Normal12: One day, I'll sell a summon for myself! ...Just kidding.
+		// 	Normal13: Hmm, I can tell! You've killed a lot, but you haven't killed enough!
+		// 	Normal14: Why the extra letter, you ask? Only the strongest sibling is allowed to remove their own!
+		// 	Normal15: The more rare things you kill, the more stuff I sell! Simple, right?
+		// 	Normal16: Oh, hi! I, uh, definitely don't have any Stink Potions on me right now! Not that I normally would!
+		// }
 
-		HelpDialogue: {
-			DownedMutant: What's that? You want to fight me for real? ...nah, I can't put up a good fight on my own.
-			DownedAbom: Hey, you've almost made it to the end! Got all your Soul accessories ready? What's that? You want to fight my big brother? ...maybe if he had a reason to.
-			DownedEridanus: Ready to fight my big brother? Remember how you've learned to learn. Stay focused, look for patterns, and don't panic. Good luck!
-			PostML: Wanna craft Forces, but missing Enchantments? Craft the Sigil of Champions and they'll give you what you want, so long as you earn it.
-			MoonLord: Only a specific type of weapon will work against each specific pillar. As for that moon guy, his weakness will keep changing.
-			Cultist: Some powerful enemies like that dungeon guy can create their own arenas. You won't be able to escape, so make full use of the room you do have.
-			Fishron: Did you beat that fish pig dragon yet? He reduces your maximum life a little on every hit. He's also strong enough to break defenses in one hit. Too bad you don't have any reinforced plating to prevent that, right?
-			Betsy: Now's a good time to go for Betsy! Don't worry. If you reach the last wave and lose, you won't have to retry the event for more attempts at her. Careful not to slip up before then, and mind her debuffs!
-			Golem: That temple? Reach the altar to regain wire control! The golem gets upset when you leave, so fighting in there is best. Platforms won't work, but a Lihzahrd Instactuation Bomb can help clear space!
-			Plantera: That overgrown plant inflicts a special venom that works her into an enraged frenzy if she stacks enough hits on you. She also has a ring of crystal leaves, but minions go through it.
-			Destroyer: That metal worm has a few upgrades, but its probes were downgraded to compensate. It'll start shooting homing dark stars and flying. When it coils around you, don't try to escape!
-			Twins: I saw that metal eye spinning while firing a huge laser the other day. Also, even if you kill them, they won't die until they're both killed!
-			Prime: Focus on taking down that metal skull, not its limbs. Don't try to outrun its spinning limbs! Keep your eyes open and learn to recognize what's doing what.
-			WOF: That thing's mouth is as good as immune to damage, so you'll have to aim for the eye. Only one of them is vulnerable at a time, though. What thing? You know, that thing!
-			Deviantt: Next up is me! Make sure you can recognize whatever attack I'll throw at you. Blocks and turning away can nullify petrification!
-			Skeletron: The master of the dungeon can use its babies to attack! Which attack it uses depends on whether or not it's spinning. It'll also take a last stand, so be ready to run when you make the kill!
-			QueenBee: The queen bee will summon her progeny for backup. She's harder to hurt while they're there, so take them out first. Oh, and her swarm can't hit right above or below her!
-			Brain: Focus on how the ichor moves and don't get overwhelmed! When the brain gets mad, it'll confuse you every few seconds. Four rings to confuse you, one ring when it wears off!
-			Eater: The more the world eater splits, the more worms can rush you at once. The head is extra sturdy now, but don't let them pile up too much!
-			GoblinsCrimson: Watch out when you break your second Crimson Heart! It might attract the goblins, so prepare before you do it.
-			GoblinsCorruption: Watch out when you break your second Shadow Orb! It might attract the goblins, so prepare before you do it.
-			EOC: That big eyeball has the power of the moon, but it's too flashy for its own good! Learn to notice and focus only on the bits that threaten to hurt you.
-			Slime: Gonna fight that slime king soon? Crafting a Mini Instabridge or two might help, and mind the slimy rain. Don't stay up and out of his range or he'll get mad, though!
-			Auras: Seems like everyone's learning to project auras these days. If you look at the particles, you can see whether it'll affect you at close range or a distance!
-			Debuffs: There's probably a thousand items to protect against all these debuffs. It's a shame you don't have a thousand hands to carry them all at once!
-			SoulToggle: Don't forget you can turn off your effect toggles! They're all in that little wrench button right below your inventory. Those small buttons at the very bottom of the list include a recommended low-lag preset!
-			LifeCrystals: I don't have any Life Crystals for you, but I think my big brother left some in the fat slime king. Maybe he'll share if you beat it up!
-			Fish: Watch out for those fish! Sharks will leave you alone if you leave them alone, but piranhas go wild when they smell blood. They can jump out of water to get you!
-			Underwater: The water is bogging you down? Never had an issue with it, personally... Have you tried breathing water instead of air?
-			Underworld: The underworld has gotten a lot hotter since the last time I visited. I hear an obsidian skull is a good luck charm against burning alive, though!
-			SpaceSuffocation: Want to have a breath-holding contest? The empty vacuum of space would be perfect. No, I won't cheat by breathing water instead of air!
-			UndergroundHallow: That's a funny face you're making... Is the underground Hallow too disorienting? Try controlling gravity on your own and maybe it can't flip you by force!
-			LifeFruit: If you ask me, Plantera is really letting herself go. A diet of Chlorophyte Ore and Life Fruit isn't THAT healthy! Why don't you help her slim down?
-			CactusDamage: Those cacti can be pretty prickly! Feeling prickled? Try enchanting yourself with cactus essence and see how it goes!
-			RainLightning: Watch out for the lightning when it rains. It's good to pack an umbrella so you're not caught out and end up all wet!
-		}
+		// HelpDialogue: {
+		// 	DownedMutant: What's that? You want to fight me for real? ...nah, I can't put up a good fight on my own.
+		// 	DownedAbom: Hey, you've almost made it to the end! Got all your Soul accessories ready? What's that? You want to fight my big brother? ...maybe if he had a reason to.
+		// 	DownedEridanus: Ready to fight my big brother? Remember how you've learned to learn. Stay focused, look for patterns, and don't panic. Good luck!
+		// 	PostML: Wanna craft Forces, but missing Enchantments? Craft the Sigil of Champions and they'll give you what you want, so long as you earn it.
+		// 	MoonLord: Only a specific type of weapon will work against each specific pillar. As for that moon guy, his weakness will keep changing.
+		// 	Cultist: Some powerful enemies like that dungeon guy can create their own arenas. You won't be able to escape, so make full use of the room you do have.
+		// 	Fishron: Did you beat that fish pig dragon yet? He reduces your maximum life a little on every hit. He's also strong enough to break defenses in one hit. Too bad you don't have any reinforced plating to prevent that, right?
+		// 	Betsy: Now's a good time to go for Betsy! Don't worry. If you reach the last wave and lose, you won't have to retry the event for more attempts at her. Careful not to slip up before then, and mind her debuffs!
+		// 	Golem: That temple? Reach the altar to regain wire control! The golem gets upset when you leave, so fighting in there is best. Platforms won't work, but a Lihzahrd Instactuation Bomb can help clear space!
+		// 	Plantera: That overgrown plant inflicts a special venom that works her into an enraged frenzy if she stacks enough hits on you. She also has a ring of crystal leaves, but minions go through it.
+		// 	Destroyer: That metal worm has a few upgrades, but its probes were downgraded to compensate. It'll start shooting homing dark stars and flying. When it coils around you, don't try to escape!
+		// 	Twins: I saw that metal eye spinning while firing a huge laser the other day. Also, even if you kill them, they won't die until they're both killed!
+		// 	Prime: Focus on taking down that metal skull, not its limbs. Don't try to outrun its spinning limbs! Keep your eyes open and learn to recognize what's doing what.
+		// 	WOF: That thing's mouth is as good as immune to damage, so you'll have to aim for the eye. Only one of them is vulnerable at a time, though. What thing? You know, that thing!
+		// 	Deviantt: Next up is me! Make sure you can recognize whatever attack I'll throw at you. Blocks and turning away can nullify petrification!
+		// 	Skeletron: The master of the dungeon can use its babies to attack! Which attack it uses depends on whether or not it's spinning. It'll also take a last stand, so be ready to run when you make the kill!
+		// 	QueenBee: The queen bee will summon her progeny for backup. She's harder to hurt while they're there, so take them out first. Oh, and her swarm can't hit right above or below her!
+		// 	Brain: Focus on how the ichor moves and don't get overwhelmed! When the brain gets mad, it'll confuse you every few seconds. Four rings to confuse you, one ring when it wears off!
+		// 	Eater: The more the world eater splits, the more worms can rush you at once. The head is extra sturdy now, but don't let them pile up too much!
+		// 	GoblinsCrimson: Watch out when you break your second Crimson Heart! It might attract the goblins, so prepare before you do it.
+		// 	GoblinsCorruption: Watch out when you break your second Shadow Orb! It might attract the goblins, so prepare before you do it.
+		// 	EOC: That big eyeball has the power of the moon, but it's too flashy for its own good! Learn to notice and focus only on the bits that threaten to hurt you.
+		// 	Slime: Gonna fight that slime king soon? Crafting a Mini Instabridge or two might help, and mind the slimy rain. Don't stay up and out of his range or he'll get mad, though!
+		// 	Auras: Seems like everyone's learning to project auras these days. If you look at the particles, you can see whether it'll affect you at close range or a distance!
+		// 	Debuffs: There's probably a thousand items to protect against all these debuffs. It's a shame you don't have a thousand hands to carry them all at once!
+		// 	SoulToggle: Don't forget you can turn off your effect toggles! They're all in that little wrench button right below your inventory. Those small buttons at the very bottom of the list include a recommended low-lag preset!
+		// 	LifeCrystals: I don't have any Life Crystals for you, but I think my big brother left some in the fat slime king. Maybe he'll share if you beat it up!
+		// 	Fish: Watch out for those fish! Sharks will leave you alone if you leave them alone, but piranhas go wild when they smell blood. They can jump out of water to get you!
+		// 	Underwater: The water is bogging you down? Never had an issue with it, personally... Have you tried breathing water instead of air?
+		// 	Underworld: The underworld has gotten a lot hotter since the last time I visited. I hear an obsidian skull is a good luck charm against burning alive, though!
+		// 	SpaceSuffocation: Want to have a breath-holding contest? The empty vacuum of space would be perfect. No, I won't cheat by breathing water instead of air!
+		// 	UndergroundHallow: That's a funny face you're making... Is the underground Hallow too disorienting? Try controlling gravity on your own and maybe it can't flip you by force!
+		// 	LifeFruit: If you ask me, Plantera is really letting herself go. A diet of Chlorophyte Ore and Life Fruit isn't THAT healthy! Why don't you help her slim down?
+		// 	CactusDamage: Those cacti can be pretty prickly! Feeling prickled? Try enchanting yourself with cactus essence and see how it goes!
+		// 	RainLightning: Watch out for the lightning when it rains. It's good to pack an umbrella so you're not caught out and end up all wet!
+		// }
 
 		Census: {
 			SpawnCondition: レアエネミーを１種類倒すか、ワールドをエタニティモードにする
@@ -2625,64 +2625,64 @@ NPCs: {
 	LumberJack: {
 		DisplayName: 木こり
 
-		TownNPCMood: {
-			Content: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.Content}"
-			NoHome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.NoHome}"
-			LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LoveSpace}"
-			FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.FarFromHome}"
-			DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.DislikeCrowded}"
-			HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateCrowded}"
-			LikeBiome: Plenty of trees to chop in {BiomeName} makes for a happy lumberjack.
-			LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LoveBiome}"
-			DislikeBiome: There's nothing to chop in {BiomeName}!
-			HateBiome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateBiome}"
-			LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LikeNPC}"
-			LoveNPC: I'm glad {NPCName} understands the beauty of felling a big tree.
-			DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.DislikeNPC}"
-			HateNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateNPC}"
-			LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LikeNPC_Princess}"
-			Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/LumberJack}"
-		}
+		// TownNPCMood: {
+		// 	Content: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.Content}"
+		// 	NoHome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.NoHome}"
+		// 	LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LoveSpace}"
+		// 	FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.FarFromHome}"
+		// 	DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.DislikeCrowded}"
+		// 	HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateCrowded}"
+		// 	LikeBiome: Plenty of trees to chop in {BiomeName} makes for a happy lumberjack.
+		// 	LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LoveBiome}"
+		// 	DislikeBiome: There's nothing to chop in {BiomeName}!
+		// 	HateBiome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateBiome}"
+		// 	LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LikeNPC}"
+		// 	LoveNPC: I'm glad {NPCName} understands the beauty of felling a big tree.
+		// 	DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.DislikeNPC}"
+		// 	HateNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateNPC}"
+		// 	LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LikeNPC_Princess}"
+		// 	Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/LumberJack}"
+		// }
 
-		Chat: {
-			Nurse: I always see {0} looking at my biceps when I'm working. Wonder if she wants some of my wood.
-			LucyTheAxe: Lucy from that universe.. Interesting things await you.
-			Normal1: Dynasty wood? Between you and me, that stuff ain't real wood!
-			Normal2: Sure cactus isn't wood, but I can still chop it with me trusty axe.
-			Normal3: You wouldn't by chance have any fantasies about me... right?
-			Normal4: I eat a bowl of woodchips for breakfast... without any milk.
-			Normal5: TIIIIIIIIIMMMBEEEEEEEERRR!
-			Normal6: I'm a lumberjack and I'm okay, I sleep all night and I work all day!
-			Normal7: You won't ever need an axe again with me around.
-			Normal8: I have heard of people cutting trees with fish, who does that?
-			Normal9: I'm glad my wood put such a big smile on your face.
-			Normal10: You ever seen the world tree?
-			Normal11: You want what? ...Sorry that's not the kind of wood I'm selling.
-			Normal12: Why don't I sell acorns? ...I replant all the trees I chop, don't you?
-			Normal13: What's the best kind of tree? ... Any if I can chop it.
-			Normal14: Can I axe you a question?
-			Normal15: Might take a nap under a tree later, care to join me?
-			Normal16: I'm an expert in all wood types.
-			Normal17: I'm glad there's more trees to chop here at journey's end.
-			Normal18: Red is one of my favourite colors, right after wood.
-			Normal19: It's always flannel season.
-			Desert: While I was chopping down a cactus these things leaped at me, why don't you take care of them?
-			Jungle: These mahogany trees are full of life, but a tree only has one purpose: to be chopped. Oh yea these fell out of the last one.
-			Hallow: This place is a bit fanciful for my tastes, but the wood's as choppable as any. Nighttime has these cool bugs though, take a few.
-			GlowshroomHM: Whatever causes these to glow is beyond me, you're probably gonna eat them anyway so have this while you're at it.
-			Evil: The trees here are probably the toughest in this branch of reality.. Sorry, just tree puns. I found these for you here.
-			Snow: This neck of the woods is pretty eh? Here I've got some of my favorite wood for you.
-			Beach: Even on vacation, I always fit in a little chopping. A couple annoying birds fell out of a palm tree. Take them off my hands.. maybe cook them up?
-			Underworld: I looked around here for a while and eventually found some weird, ashy trees. Very fragile. I also found this critter and vegetable. Please take them, they're hot to hold.
-			DirtRockGem: I certainly didn't expect to find such wonderful trees down here. Check this out.
-			DirtRockMouse: Went for a long haul today, but there were only so many of those strange trees to go around. I did find a lot of these, why don't you give some of them a new home?
-			CommonDayTimeWindy: Seems like the wind brought a bunch of these out of hiding. Some people say they're good luck. All I know is, the only luck I need is a sharp axe!
-			CommonDayTimeButterfly: Back in the day, people used to forge butterflies into powerful gear. We try to forget those days... but here have one.
-			CommonDayTimeEucaluptusSap: I found this, but I'm not a sappy person. You can have it instead.
-			CommonDayTimeCritter: These little critters are always falling out of the trees I cut down. Maybe you can find a use for them?
-			CommonNightTime: Chopping trees at night is always relaxing... well except for the flying eyeballs. Have one of these little guys to keep you company.
-			Rest: I'm resting after a good day of chopping, come back tomorrow and maybe I'll have something else for you.
-		}
+		// Chat: {
+		// 	Nurse: I always see {0} looking at my biceps when I'm working. Wonder if she wants some of my wood.
+		// 	LucyTheAxe: Lucy from that universe.. Interesting things await you.
+		// 	Normal1: Dynasty wood? Between you and me, that stuff ain't real wood!
+		// 	Normal2: Sure cactus isn't wood, but I can still chop it with me trusty axe.
+		// 	Normal3: You wouldn't by chance have any fantasies about me... right?
+		// 	Normal4: I eat a bowl of woodchips for breakfast... without any milk.
+		// 	Normal5: TIIIIIIIIIMMMBEEEEEEEERRR!
+		// 	Normal6: I'm a lumberjack and I'm okay, I sleep all night and I work all day!
+		// 	Normal7: You won't ever need an axe again with me around.
+		// 	Normal8: I have heard of people cutting trees with fish, who does that?
+		// 	Normal9: I'm glad my wood put such a big smile on your face.
+		// 	Normal10: You ever seen the world tree?
+		// 	Normal11: You want what? ...Sorry that's not the kind of wood I'm selling.
+		// 	Normal12: Why don't I sell acorns? ...I replant all the trees I chop, don't you?
+		// 	Normal13: What's the best kind of tree? ... Any if I can chop it.
+		// 	Normal14: Can I axe you a question?
+		// 	Normal15: Might take a nap under a tree later, care to join me?
+		// 	Normal16: I'm an expert in all wood types.
+		// 	Normal17: I'm glad there's more trees to chop here at journey's end.
+		// 	Normal18: Red is one of my favourite colors, right after wood.
+		// 	Normal19: It's always flannel season.
+		// 	Desert: While I was chopping down a cactus these things leaped at me, why don't you take care of them?
+		// 	Jungle: These mahogany trees are full of life, but a tree only has one purpose: to be chopped. Oh yea these fell out of the last one.
+		// 	Hallow: This place is a bit fanciful for my tastes, but the wood's as choppable as any. Nighttime has these cool bugs though, take a few.
+		// 	GlowshroomHM: Whatever causes these to glow is beyond me, you're probably gonna eat them anyway so have this while you're at it.
+		// 	Evil: The trees here are probably the toughest in this branch of reality.. Sorry, just tree puns. I found these for you here.
+		// 	Snow: This neck of the woods is pretty eh? Here I've got some of my favorite wood for you.
+		// 	Beach: Even on vacation, I always fit in a little chopping. A couple annoying birds fell out of a palm tree. Take them off my hands.. maybe cook them up?
+		// 	Underworld: I looked around here for a while and eventually found some weird, ashy trees. Very fragile. I also found this critter and vegetable. Please take them, they're hot to hold.
+		// 	DirtRockGem: I certainly didn't expect to find such wonderful trees down here. Check this out.
+		// 	DirtRockMouse: Went for a long haul today, but there were only so many of those strange trees to go around. I did find a lot of these, why don't you give some of them a new home?
+		// 	CommonDayTimeWindy: Seems like the wind brought a bunch of these out of hiding. Some people say they're good luck. All I know is, the only luck I need is a sharp axe!
+		// 	CommonDayTimeButterfly: Back in the day, people used to forge butterflies into powerful gear. We try to forget those days... but here have one.
+		// 	CommonDayTimeEucaluptusSap: I found this, but I'm not a sappy person. You can have it instead.
+		// 	CommonDayTimeCritter: These little critters are always falling out of the trees I cut down. Maybe you can find a use for them?
+		// 	CommonNightTime: Chopping trees at night is always relaxing... well except for the flying eyeballs. Have one of these little guys to keep you company.
+		// 	Rest: I'm resting after a good day of chopping, come back tomorrow and maybe I'll have something else for you.
+		// }
 
 		Census: {
 			SpawnCondition: 切り倒された木のタイルの総量が500個以上になる
@@ -2694,99 +2694,99 @@ NPCs: {
 	Mutant: {
 		DisplayName: ミュータント
 
-		TownNPCMood: {
-			Content: "{$Mods.Fargowiltas.TownNPCMood.Mutant.Content}"
-			NoHome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.NoHome}"
-			LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveSpace}"
-			FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.FarFromHome}"
-			DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeCrowded}"
-			HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Mutant.HateCrowded}"
-			LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeBiome}"
-			LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveBiome}"
-			DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeBiome}"
-			HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.HateBiome}"
-			LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeNPC}"
-			LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveNPC}"
-			DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeNPC}"
-			HateNPC: "{NPCName} needs to leave before my Penetrator makes it happen."
-			LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeNPC_Princess}"
-			Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Mutant}"
-		}
+		// TownNPCMood: {
+		// 	Content: "{$Mods.Fargowiltas.TownNPCMood.Mutant.Content}"
+		// 	NoHome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.NoHome}"
+		// 	LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveSpace}"
+		// 	FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.FarFromHome}"
+		// 	DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeCrowded}"
+		// 	HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Mutant.HateCrowded}"
+		// 	LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeBiome}"
+		// 	LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveBiome}"
+		// 	DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeBiome}"
+		// 	HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.HateBiome}"
+		// 	LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeNPC}"
+		// 	LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveNPC}"
+		// 	DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeNPC}"
+		// 	HateNPC: "{NPCName} needs to leave before my Penetrator makes it happen."
+		// 	LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeNPC_Princess}"
+		// 	Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Mutant}"
+		// }
 
-		Chat: {
-			EternityDefeat: Congratulations. You truly embraced eternity... at least, I think you did? So what happens next? Ascend from this plane of existence? Fight a transcendent cat-like entity? Destroy the world? All the power's in your hands now.
-			Defeat: Good work beating me, I guess. I still feel like stretching my wings... Why don't we go at it for real next time?
-			MutantArmor: Nice armor you have, very realistic skin. As a matter of fact, mind if I borrow it? Your skin, that is.
-			SoulsPostML: Now that you've defeated the big guy, I'd say it's time to start collecting those materials!
-			DefeatCommon: What's that? You want to fight me? ...sure, I guess.
-			DefeatAbom: What's that? You want to fight me? ...maybe if I had a reason.
-			SoulsModDisabled: What's that? You want to fight me? ...you're not worthy you rat.
-			PumpkinMoon: A bit spooky tonight, isn't it.
-			FrostMoon: I'd ask for a coat, but I don't think you have any my size.
-			SlimeRain: Weather seems odd today, wouldn't you agree?
-			BloodMoon1: Lovely night, isn't it?
-			BloodMoon2: I hope the constant arguing I'm hearing isn't my fault.
-			NightTime: I'd follow and help, but I'd much rather sit around right now.
-			Party: "{0} is the one who invited me, I don't understand why though."
-			PartyWithoutPartyGirl: I don't know what everyone's so happy about, but as long as nobody mistakes me for a Pigronata, I'm happy too.
-			Nurse: Whenever we're alone, {0} keeps throwing syringes at me, no matter how many times I tell her to stop!
-			WitchDoctor: Please go tell {0} to drop the 'mystical' shtick, I mean, come on! I get it, you make tainted water or something.
-			Dryad: Why does {0}'s outfit make my wings flutter?
-			Stylist: "{0} once gave me a wig... I look hideous with long hair."
-			Truffle: That mutated mushroom seems like my type of fella.
-			TaxCollector: "{0} keeps asking me for money, but he won't accept my spawners!"
-			Guide: Any idea why {0} is always cowering in fear when I get near him?
-			WitchDoctorTruffleCyborg: If any of us could play instruments, I'd totally start a band with {0}, {1}, and {2}.
-			PartyGirl: Man, {0}'s confetti keeps getting stuck to my wings.
-			Demolitionist: I'm surprised {0} hasn't blown a hole in the floor yet, on second thought that sounds fun.
-			Tavernkeep: "{0} keeps suggesting I drink some beer, something tells me he wouldn't like me when I'm drunk though."
-			DyeTrader: "{0} wants to see what I would look like in blue... I don't know how to feel."
-			Normal1: Savagery, barbarism, bloodthirst, that's what I like seeing in people.
-			Normal2: The stronger you get, the more stuff I sell. Makes sense, right?
-			Normal3: There's something all of you have that I don't... Death perception, I think it's called?
-			Normal4: It would be pretty cool if I sold a summon for myself...
-			Normal5: The only way to get stronger is to keep buying from me and in bulk too!
-			Normal6: Why are you looking at me like that, all I did was eat an apple.
-			Normal7: Don't bother with anyone else, all you'll ever need is right here.
-			Normal8: You're lucky I'm on your side.
-			Normal9: Why yes I would love a ham and swiss sandwich.
-			Normal10: Should I start wearing clothes? ...Nah.
-			Normal11: It's not like I can actually use all the gold you're spending.
-			Normal12: Violence for violence is the law of the beast.
-			Normal13: Those guys really need to get more creative. All of their first bosses are desert themed!
-			Normal14: You say you want to know how a Mutant and Abominationn are brothers? You're better off not knowing.
-			Normal15: I'm all you need for a calamity.
-			Normal16: Everything shall bow before me! ...after you make this purchase.
-			Normal17: It's clear that I'm helping you out, but uh.. what's in this for me? A house you say? I eat zombies for breakfast.
-			Normal18: Can I jump? No, I don't have something called a 'spacebar'.
-			Normal19: Got your nose, I needed one to replace mine.
-			Normal20: What's a Terry?
-			Normal21: Why do so many creatures carry around a weird looking blue doll? The world may never know.
-			Normal22: Impending doom approaches. ...If you don't buy anything of course.
-			Normal23: I've heard of a '3rd dimension', I wonder what that looks like.
-			Normal24: Boy don't I look fabulous today.
-			Normal25: You have fewer friends than I do eyes.
-			Normal26: The ocean is a dangerous place, I wonder where Diver is?
-			Normal27: Do you know what an Ee-arth is?
-			Normal28: I can't even spell 'apotheosis', do you expect me to know what it is?
-			Normal29: Where do monsters get their gold from? ...I don't have pockets you know.
-			Normal30: Dogs are cool and all, but cats don't try to bite my brain.
-			Normal31: Beware the green dragon... What's that face mean?
-			Normal32: Where is this O-hi-o I keep hearing about.
-			Normal33: I've told you 56 times already, I'm busy... Oh wait you want to buy something, I suppose I have time.
-			Normal34: I've heard of a 'Soul of Souls' that only exists in 2015.
-			Normal35: Adding EX after everything makes it way more difficult.
-			Normal36: I think that all modern art looks great, especially the bloody stuff.
-			Normal37: How many guides does it take to change a lightbulb? ... I don't know, how about you ask him.
-			Normal38: Good thing I don't have a bed, I'd probably never leave it.
-			Normal39: What's this about an update? Sounds rare.
-			Normal40: If you need me I'll be slacking off somewhere.
-			Normal41: What do you mean who is Fargo!
-			Normal42: Have you seen the ech cat?
-			Normal43: I don't understand music nowadays, I prefer some smooth jazz... or the dying screams of monsters.
-			Normal44: Cthulhu's got nothing on me!
-			Normal45: I heard of a rumor of infinite use boss summons. Makes me sick..
-		}
+		// Chat: {
+		// 	EternityDefeat: Congratulations. You truly embraced eternity... at least, I think you did? So what happens next? Ascend from this plane of existence? Fight a transcendent cat-like entity? Destroy the world? All the power's in your hands now.
+		// 	Defeat: Good work beating me, I guess. I still feel like stretching my wings... Why don't we go at it for real next time?
+		// 	MutantArmor: Nice armor you have, very realistic skin. As a matter of fact, mind if I borrow it? Your skin, that is.
+		// 	SoulsPostML: Now that you've defeated the big guy, I'd say it's time to start collecting those materials!
+		// 	DefeatCommon: What's that? You want to fight me? ...sure, I guess.
+		// 	DefeatAbom: What's that? You want to fight me? ...maybe if I had a reason.
+		// 	SoulsModDisabled: What's that? You want to fight me? ...you're not worthy you rat.
+		// 	PumpkinMoon: A bit spooky tonight, isn't it.
+		// 	FrostMoon: I'd ask for a coat, but I don't think you have any my size.
+		// 	SlimeRain: Weather seems odd today, wouldn't you agree?
+		// 	BloodMoon1: Lovely night, isn't it?
+		// 	BloodMoon2: I hope the constant arguing I'm hearing isn't my fault.
+		// 	NightTime: I'd follow and help, but I'd much rather sit around right now.
+		// 	Party: "{0} is the one who invited me, I don't understand why though."
+		// 	PartyWithoutPartyGirl: I don't know what everyone's so happy about, but as long as nobody mistakes me for a Pigronata, I'm happy too.
+		// 	Nurse: Whenever we're alone, {0} keeps throwing syringes at me, no matter how many times I tell her to stop!
+		// 	WitchDoctor: Please go tell {0} to drop the 'mystical' shtick, I mean, come on! I get it, you make tainted water or something.
+		// 	Dryad: Why does {0}'s outfit make my wings flutter?
+		// 	Stylist: "{0} once gave me a wig... I look hideous with long hair."
+		// 	Truffle: That mutated mushroom seems like my type of fella.
+		// 	TaxCollector: "{0} keeps asking me for money, but he won't accept my spawners!"
+		// 	Guide: Any idea why {0} is always cowering in fear when I get near him?
+		// 	WitchDoctorTruffleCyborg: If any of us could play instruments, I'd totally start a band with {0}, {1}, and {2}.
+		// 	PartyGirl: Man, {0}'s confetti keeps getting stuck to my wings.
+		// 	Demolitionist: I'm surprised {0} hasn't blown a hole in the floor yet, on second thought that sounds fun.
+		// 	Tavernkeep: "{0} keeps suggesting I drink some beer, something tells me he wouldn't like me when I'm drunk though."
+		// 	DyeTrader: "{0} wants to see what I would look like in blue... I don't know how to feel."
+		// 	Normal1: Savagery, barbarism, bloodthirst, that's what I like seeing in people.
+		// 	Normal2: The stronger you get, the more stuff I sell. Makes sense, right?
+		// 	Normal3: There's something all of you have that I don't... Death perception, I think it's called?
+		// 	Normal4: It would be pretty cool if I sold a summon for myself...
+		// 	Normal5: The only way to get stronger is to keep buying from me and in bulk too!
+		// 	Normal6: Why are you looking at me like that, all I did was eat an apple.
+		// 	Normal7: Don't bother with anyone else, all you'll ever need is right here.
+		// 	Normal8: You're lucky I'm on your side.
+		// 	Normal9: Why yes I would love a ham and swiss sandwich.
+		// 	Normal10: Should I start wearing clothes? ...Nah.
+		// 	Normal11: It's not like I can actually use all the gold you're spending.
+		// 	Normal12: Violence for violence is the law of the beast.
+		// 	Normal13: Those guys really need to get more creative. All of their first bosses are desert themed!
+		// 	Normal14: You say you want to know how a Mutant and Abominationn are brothers? You're better off not knowing.
+		// 	Normal15: I'm all you need for a calamity.
+		// 	Normal16: Everything shall bow before me! ...after you make this purchase.
+		// 	Normal17: It's clear that I'm helping you out, but uh.. what's in this for me? A house you say? I eat zombies for breakfast.
+		// 	Normal18: Can I jump? No, I don't have something called a 'spacebar'.
+		// 	Normal19: Got your nose, I needed one to replace mine.
+		// 	Normal20: What's a Terry?
+		// 	Normal21: Why do so many creatures carry around a weird looking blue doll? The world may never know.
+		// 	Normal22: Impending doom approaches. ...If you don't buy anything of course.
+		// 	Normal23: I've heard of a '3rd dimension', I wonder what that looks like.
+		// 	Normal24: Boy don't I look fabulous today.
+		// 	Normal25: You have fewer friends than I do eyes.
+		// 	Normal26: The ocean is a dangerous place, I wonder where Diver is?
+		// 	Normal27: Do you know what an Ee-arth is?
+		// 	Normal28: I can't even spell 'apotheosis', do you expect me to know what it is?
+		// 	Normal29: Where do monsters get their gold from? ...I don't have pockets you know.
+		// 	Normal30: Dogs are cool and all, but cats don't try to bite my brain.
+		// 	Normal31: Beware the green dragon... What's that face mean?
+		// 	Normal32: Where is this O-hi-o I keep hearing about.
+		// 	Normal33: I've told you 56 times already, I'm busy... Oh wait you want to buy something, I suppose I have time.
+		// 	Normal34: I've heard of a 'Soul of Souls' that only exists in 2015.
+		// 	Normal35: Adding EX after everything makes it way more difficult.
+		// 	Normal36: I think that all modern art looks great, especially the bloody stuff.
+		// 	Normal37: How many guides does it take to change a lightbulb? ... I don't know, how about you ask him.
+		// 	Normal38: Good thing I don't have a bed, I'd probably never leave it.
+		// 	Normal39: What's this about an update? Sounds rare.
+		// 	Normal40: If you need me I'll be slacking off somewhere.
+		// 	Normal41: What do you mean who is Fargo!
+		// 	Normal42: Have you seen the ech cat?
+		// 	Normal43: I don't understand music nowadays, I prefer some smooth jazz... or the dying screams of monsters.
+		// 	Normal44: Cthulhu's got nothing on me!
+		// 	Normal45: I heard of a rumor of infinite use boss summons. Makes me sick..
+		// }
 
 		Census: {
 			SpawnCondition: なんでもいいのでボスを倒す
@@ -2801,31 +2801,31 @@ NPCs: {
 	Squirrel: {
 		DisplayName: リス
 
-		TownNPCMood: {
-			Content: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.Content}"
-			NoHome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.NoHome}"
-			LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LoveSpace}"
-			FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.FarFromHome}"
-			DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.DislikeCrowded}"
-			HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.HateCrowded}"
-			LikeBiome: *happy squeak about {BiomeName}*
-			LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LoveBiome}"
-			DislikeBiome: *sad squeak about {BiomeName}*
-			HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.HateBiome}"
-			LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LikeNPC}"
-			LoveNPC: *very happy squeak about {NPCName}*
-			DislikeNPC: *angry squeak about {NPCName}*
-			HateNPC: *very angry squeak about {NPCName}*
-			LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LikeNPC_Princess}"
-			Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Squirrel}"
-		}
+		// TownNPCMood: {
+		// 	Content: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.Content}"
+		// 	NoHome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.NoHome}"
+		// 	LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LoveSpace}"
+		// 	FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.FarFromHome}"
+		// 	DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.DislikeCrowded}"
+		// 	HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.HateCrowded}"
+		// 	LikeBiome: *happy squeak about {BiomeName}*
+		// 	LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LoveBiome}"
+		// 	DislikeBiome: *sad squeak about {BiomeName}*
+		// 	HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.HateBiome}"
+		// 	LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LikeNPC}"
+		// 	LoveNPC: *very happy squeak about {NPCName}*
+		// 	DislikeNPC: *angry squeak about {NPCName}*
+		// 	HateNPC: *very angry squeak about {NPCName}*
+		// 	LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LikeNPC_Princess}"
+		// 	Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Squirrel}"
+		// }
 
-		Chat: {
-			BloodMoon: "[c/FF0000:You will suffer.]"
-			Normal1: *squeak*
-			Normal2: *chitter*
-			Normal3: *crunch crunch*
-		}
+		// Chat: {
+		// 	BloodMoon: "[c/FF0000:You will suffer.]"
+		// 	Normal1: *squeak*
+		// 	Normal2: *chitter*
+		// 	Normal3: *crunch crunch*
+		// }
 
 		Census: {
 			SpawnCondition: Trojan Squirrelを倒す（Souls Mod導入時）
@@ -2837,233 +2837,233 @@ NPCs: {
 	}
 }
 
-Projectiles: {
-	CorruptNukeProj: {
-		DisplayName: CorruptRenewal
-	}
+// Projectiles: {
+// 	CorruptNukeProj: {
+// 		DisplayName: CorruptRenewal
+// 	}
 
-	CorruptNukeSupremeProj: {
-		DisplayName: CorruptRenewalSupreme
-	}
+// 	CorruptNukeSupremeProj: {
+// 		DisplayName: CorruptRenewalSupreme
+// 	}
 
-	CrimsonNukeProj: {
-		DisplayName: CrimsonRenewal
-	}
+// 	CrimsonNukeProj: {
+// 		DisplayName: CrimsonRenewal
+// 	}
 
-	CrimsonNukeSupremeProj: {
-		DisplayName: CrimsonRenewalSupreme
-	}
+// 	CrimsonNukeSupremeProj: {
+// 		DisplayName: CrimsonRenewalSupreme
+// 	}
 
-	DeathScythe: {
-		DisplayName: Abominationn Scythe
-	}
+// 	DeathScythe: {
+// 		DisplayName: Abominationn Scythe
+// 	}
 
-	Explosion: {
-		DisplayName: Explosion
-	}
+// 	Explosion: {
+// 		DisplayName: Explosion
+// 	}
 
-	AltarExterminatorProj: {
-		DisplayName: Altar Exterminator
-	}
+// 	AltarExterminatorProj: {
+// 		DisplayName: Altar Exterminator
+// 	}
 
-	AutoHouseProj: {
-		DisplayName: Auto House Proj
-	}
+// 	AutoHouseProj: {
+// 		DisplayName: Auto House Proj
+// 	}
 
-	CityBuster: {
-		DisplayName: City Buster
-	}
+// 	CityBuster: {
+// 		DisplayName: City Buster
+// 	}
 
-	DoubleObsInstaBridgeProj: {
-		DisplayName: Double Obsidian Instabridge
-	}
+// 	DoubleObsInstaBridgeProj: {
+// 		DisplayName: Double Obsidian Instabridge
+// 	}
 
-	GraveBuster: {
-		DisplayName: Grave Buster
-	}
+// 	GraveBuster: {
+// 		DisplayName: Grave Buster
+// 	}
 
-	HalfInstaProj: {
-		DisplayName: Half Instavator
-	}
+// 	HalfInstaProj: {
+// 		DisplayName: Half Instavator
+// 	}
 
-	InstabridgeProj: {
-		DisplayName: Instabridge
-	}
+// 	InstabridgeProj: {
+// 		DisplayName: Instabridge
+// 	}
 
-	InstaHouseVisual: {
-		DisplayName: Insta House Visual
-	}
+// 	InstaHouseVisual: {
+// 		DisplayName: Insta House Visual
+// 	}
 
-	InstaProj: {
-		DisplayName: Instavator
-	}
+// 	InstaProj: {
+// 		DisplayName: Instavator
+// 	}
 
-	InstatrackProj: {
-		DisplayName: Instatrack
-	}
+// 	InstatrackProj: {
+// 		DisplayName: Instatrack
+// 	}
 
-	LihzahrdInstactuationBombProj: {
-		DisplayName: Lihzahrd Instactuation Bomb
-	}
+// 	LihzahrdInstactuationBombProj: {
+// 		DisplayName: Lihzahrd Instactuation Bomb
+// 	}
 
-	MiniInstabridgeProj: {
-		DisplayName: Mini Instabridge
-	}
+// 	MiniInstabridgeProj: {
+// 		DisplayName: Mini Instabridge
+// 	}
 
-	ObsInstabridgeProj: {
-		DisplayName: Obsidian Instabridge
-	}
+// 	ObsInstabridgeProj: {
+// 		DisplayName: Obsidian Instabridge
+// 	}
 
-	OmniBridgifierProj: {
-		DisplayName: Omni-Bridgifier
-	}
+// 	OmniBridgifierProj: {
+// 		DisplayName: Omni-Bridgifier
+// 	}
 
-	ShurikenProj: {
-		DisplayName: Shuriken
-	}
+// 	ShurikenProj: {
+// 		DisplayName: Shuriken
+// 	}
 
-	EyeProjectile: {
-		DisplayName: EyeProjectile
-	}
+// 	EyeProjectile: {
+// 		DisplayName: EyeProjectile
+// 	}
 
-	FakeHeart2Deviantt: {
-		DisplayName: Fake Heart
-	}
+// 	FakeHeart2Deviantt: {
+// 		DisplayName: Fake Heart
+// 	}
 
-	FakeHeartDeviantt: {
-		DisplayName: Fake Heart
-	}
+// 	FakeHeartDeviantt: {
+// 		DisplayName: Fake Heart
+// 	}
 
-	FakeHeartMarkDeviantt: {
-		DisplayName: Fake Heart
-	}
+// 	FakeHeartMarkDeviantt: {
+// 		DisplayName: Fake Heart
+// 	}
 
-	HallowNukeProj: {
-		DisplayName: HallowRenewal
-	}
+// 	HallowNukeProj: {
+// 		DisplayName: HallowRenewal
+// 	}
 
-	HallowNukeSupremeProj: {
-		DisplayName: HallowRenewalSupreme
-	}
+// 	HallowNukeSupremeProj: {
+// 		DisplayName: HallowRenewalSupreme
+// 	}
 
-	LumberJaxe: {
-		DisplayName: LumberJaxe
-	}
+// 	LumberJaxe: {
+// 		DisplayName: LumberJaxe
+// 	}
 
-	MechEyeProjectile: {
-		DisplayName: MechEyeProjectile
-	}
+// 	MechEyeProjectile: {
+// 		DisplayName: MechEyeProjectile
+// 	}
 
-	MushroomNukeProj: {
-		DisplayName: MushroomRenewal
-	}
+// 	MushroomNukeProj: {
+// 		DisplayName: MushroomRenewal
+// 	}
 
-	MushroomNukeSupremeProj: {
-		DisplayName: MushroomRenewalSupreme
-	}
+// 	MushroomNukeSupremeProj: {
+// 		DisplayName: MushroomRenewalSupreme
+// 	}
 
-	PhantasmalEyeProjectile: {
-		DisplayName: PhantasmalEyeProjectile
-	}
+// 	PhantasmalEyeProjectile: {
+// 		DisplayName: PhantasmalEyeProjectile
+// 	}
 
-	PurityNukeProj: {
-		DisplayName: PurityRenewal
-	}
+// 	PurityNukeProj: {
+// 		DisplayName: PurityRenewal
+// 	}
 
-	PurityNukeSupremeProj: {
-		DisplayName: PurityRenewalSupreme
-	}
+// 	PurityNukeSupremeProj: {
+// 		DisplayName: PurityRenewalSupreme
+// 	}
 
-	SpawnProj: {
-		DisplayName: Spawn
-	}
+// 	SpawnProj: {
+// 		DisplayName: Spawn
+// 	}
 
-	SemiBridgifierProj: {
-		DisplayName: Semi-Bridgifier
-	}
+// 	SemiBridgifierProj: {
+// 		DisplayName: Semi-Bridgifier
+// 	}
 
-	DirtNukeProj: {
-		DisplayName: DirtRenewal
-	}
+// 	DirtNukeProj: {
+// 		DisplayName: DirtRenewal
+// 	}
 
-	DirtNukeSupremeProj: {
-		DisplayName: DirtRenewalSupreme
-	}
+// 	DirtNukeSupremeProj: {
+// 		DisplayName: DirtRenewalSupreme
+// 	}
 
-	SandNukeProj: {
-		DisplayName: SandRenewal
-	}
+// 	SandNukeProj: {
+// 		DisplayName: SandRenewal
+// 	}
 
-	SandNukeSupremeProj: {
-		DisplayName: SandRenewalSupreme
-	}
+// 	SandNukeSupremeProj: {
+// 		DisplayName: SandRenewalSupreme
+// 	}
 
-	SnowNukeProj: {
-		DisplayName: SnowRenewal
-	}
+// 	SnowNukeProj: {
+// 		DisplayName: SnowRenewal
+// 	}
 
-	SnowNukeSupremeProj: {
-		DisplayName: SnowRenewalSupreme
-	}
+// 	SnowNukeSupremeProj: {
+// 		DisplayName: SnowRenewalSupreme
+// 	}
 
-	WorldTokenProj: {
-		DisplayName: World Token Proj
-	}
+// 	WorldTokenProj: {
+// 		DisplayName: World Token Proj
+// 	}
 
-	InstaPondProj: {
-		DisplayName: Insta Pond Proj
-	}
-}
+// 	InstaPondProj: {
+// 		DisplayName: Insta Pond Proj
+// 	}
+// }
 
-Tiles: {
-	CrimsonAltarSheet: {
-		MapEntry: Crimson Altar
-	}
+// Tiles: {
+// 	CrimsonAltarSheet: {
+// 		MapEntry: Crimson Altar
+// 	}
 
-	CrucibleCosmosSheet: {
-		MapEntry: Crucible of the Cosmos
-	}
+// 	CrucibleCosmosSheet: {
+// 		MapEntry: Crucible of the Cosmos
+// 	}
 
-	DemonAltarSheet: {
-		MapEntry: Demon Altar
-	}
+// 	DemonAltarSheet: {
+// 		MapEntry: Demon Altar
+// 	}
 
-	ElementalAssemblerSheet: {
-		MapEntry: Elemental Assembler
-	}
+// 	ElementalAssemblerSheet: {
+// 		MapEntry: Elemental Assembler
+// 	}
 
-	GoldenDippingVatSheet: {
-		MapEntry: Golden Dipping Vat
-	}
+// 	GoldenDippingVatSheet: {
+// 		MapEntry: Golden Dipping Vat
+// 	}
 
-	MultitaskCenterSheet: {
-		MapEntry: Multitask Center
-	}
+// 	MultitaskCenterSheet: {
+// 		MapEntry: Multitask Center
+// 	}
 
-	OmnistationSheet: {
-		MapEntry: Omnistation
-	}
+// 	OmnistationSheet: {
+// 		MapEntry: Omnistation
+// 	}
 
-	OmnistationSheet2: {
-		MapEntry: Omnistation
-	}
+// 	OmnistationSheet2: {
+// 		MapEntry: Omnistation
+// 	}
 
-	RegalStatueSheet: {
-		MapEntry: Regal Statue
-	}
+// 	RegalStatueSheet: {
+// 		MapEntry: Regal Statue
+// 	}
 
-	SemistationSheet: {
-		MapEntry: Semistation
-	}
+// 	SemistationSheet: {
+// 		MapEntry: Semistation
+// 	}
 
-	SiblingPylonTile: {
-		MapEntry: Sibling Pylon
-	}
+// 	SiblingPylonTile: {
+// 		MapEntry: Sibling Pylon
+// 	}
 
-	PurityTotemSheet: {
-		MapEntry: Purity Totem
-	}
-}
+// 	PurityTotemSheet: {
+// 		MapEntry: Purity Totem
+// 	}
+// }
 
 Conditions: {
 	DownedBoss: ボスが一体討伐された後
@@ -3109,94 +3109,94 @@ Conditions: {
 	LeeDown: "{$NPCName.BoneLee}と{$NPCName.Plantera}が討伐された後"
 	PaladinDown: "{$NPCName.Paladin}と{$NPCName.Plantera}が討伐された後"
 	SkeleGunDown: "{$NPCName.Plantera}が討伐された、かつ{$NPCName.Necromancer}か{$NPCName.RaggedCaster}か{$NPCName.DiabolistRed}のどれかが討伐された後"
-	SkeleMagesDown: After defeating a Necromancer, Diabloist or Ragged Caster, After defeating Plantera
+	// SkeleMagesDown: After defeating a Necromancer, Diabloist or Ragged Caster, After defeating Plantera
 	SiblingPylon: すべての兄弟が存在しているとき
 	BossDown: ボスが一体討伐された後
-	DownedTheBoss: After the boss has been defeated
-	Angler5: Finish 5 angler quests
-	Angler10: Finish 10 angler quests
-	Angler15: Finish 15 angler quests
-	Angler20: Finish 20 angler quests
-	Angler25: Finish 25 angler quests
-	Angler30: Finish 30 angler quests
-	InRockOrDirtLayerHeight: While underground
-	BrittleBone: Have a weapon that uses Brittle Bones as ammunition in your inventory
-	Seeds: Have a weapon that uses seeds as ammunition in your inventory
-	RedHusk: After having picked up a Red Husk
-	OrangeBloodroot: After having picked up an Orange Bloodroot
-	YellowMarigold: After having picked up a Yellow Marigold
-	LimeKelp: After having picked up a Lime Kelp
-	GreenMushroom: After having picked up a Green Mushroom
-	TealMushroom: After having picked up a Teal Mushroom
-	CyanHusk: After having picked up a Cyan Husk
-	SkyBlueFlower: After having picked up a Sky Blue Flower
-	BlueBerries: After having picked up Blueberries
-	PurpleMucos: After having picked up Purple Mucos
-	VioletHusk: After having picked up a Violet Husk
-	PinkPricklyPear: After having picked up a Pink Prickly Pear
-	BlackInk: After having picked up Black Ink
+	// DownedTheBoss: After the boss has been defeated
+	// Angler5: Finish 5 angler quests
+	// Angler10: Finish 10 angler quests
+	// Angler15: Finish 15 angler quests
+	// Angler20: Finish 20 angler quests
+	// Angler25: Finish 25 angler quests
+	// Angler30: Finish 30 angler quests
+	// InRockOrDirtLayerHeight: While underground
+	// BrittleBone: Have a weapon that uses Brittle Bones as ammunition in your inventory
+	// Seeds: Have a weapon that uses seeds as ammunition in your inventory
+	// RedHusk: After having picked up a Red Husk
+	// OrangeBloodroot: After having picked up an Orange Bloodroot
+	// YellowMarigold: After having picked up a Yellow Marigold
+	// LimeKelp: After having picked up a Lime Kelp
+	// GreenMushroom: After having picked up a Green Mushroom
+	// TealMushroom: After having picked up a Teal Mushroom
+	// CyanHusk: After having picked up a Cyan Husk
+	// SkyBlueFlower: After having picked up a Sky Blue Flower
+	// BlueBerries: After having picked up Blueberries
+	// PurpleMucos: After having picked up Purple Mucos
+	// VioletHusk: After having picked up a Violet Husk
+	// PinkPricklyPear: After having picked up a Pink Prickly Pear
+	// BlackInk: After having picked up Black Ink
 }
 
-Keybinds: {
-	Home: {
-		DisplayName: Quick Recall/Mirror
-	}
+// Keybinds: {
+// 	Home: {
+// 		DisplayName: Quick Recall/Mirror
+// 	}
 
-	Stat: {
-		DisplayName: Open Stat Sheet
-	}
+// 	Stat: {
+// 		DisplayName: Open Stat Sheet
+// 	}
 
-	Dash: {
-		DisplayName: Dash Key
-	}
+// 	Dash: {
+// 		DisplayName: Dash Key
+// 	}
 
-	SetBonus: {
-		DisplayName: Set Bonus Key
-	}
+// 	SetBonus: {
+// 		DisplayName: Set Bonus Key
+// 	}
 
-	"Quick Recall/Mirror": {
-		DisplayName: Quick Recall/Mirror
-	}
+// 	"Quick Recall/Mirror": {
+// 		DisplayName: Quick Recall/Mirror
+// 	}
 
-	"Open Stat Sheet": {
-		DisplayName: Open Stat Sheet
-	}
+// 	"Open Stat Sheet": {
+// 		DisplayName: Open Stat Sheet
+// 	}
 
-	"Dash Key": {
-		DisplayName: Dash Key
-	}
+// 	"Dash Key": {
+// 		DisplayName: Dash Key
+// 	}
 
-	"Set Bonus (Double Tap Up/Down) Key": {
-		DisplayName: Set Bonus Key
-	}
-}
+// 	"Set Bonus (Double Tap Up/Down) Key": {
+// 		DisplayName: Set Bonus Key
+// 	}
+// }
 
-ExpandedTooltips: {
-	FountainOcean: Forces surrounding biome state to Ocean upon activation
-	FountainDesert: Forces surrounding biome state to Desert upon activation
-	FountainJungle: Forces surrounding biome state to Jungle upon activation
-	FountainSnow: Forces surrounding biome state to Snow upon activation
-	FountainCorruption: Forces surrounding biome state to Corruption upon activation
-	FountainCrimson: Forces surrounding biome state to Crimson upon activation
-	FountainHallow: Forces surrounding biome state to Hallow (in hardmode only) upon activation
-	CatchNPCs: Can also catch townsfolk
-	ExtraLure1: Also grants one extra lure
-	Lures2: This rod fires 2 lures
-	Lures3: This rod fires 3 lures
-	Lures5: This rod fires 5 lures
-	AutoTorch: Automatically swaps placed torches to boost luck
-	TrueTorchLuck: Obeys true torch luck when replacing torches, which may differ from default choices
-	UnlimitedBuff30: Unlimited buff at 30 stack in inventory, Piggy Bank, or Safe
-	UnlimitedUse30: Unlimited use at 30 stack
-	PermanentEffectNearby: Permanently provides effect to nearby players
-	WorksFromBanks: Works from Piggy Bank and Safe
-	SoldBySquirrel: Sold By Squirrel
-	SomeMaterialsSold: Some Materials Sold
-	CraftableMaterialsSold: Craftable Materials Sold
-	SoldAtThirtyStack: Sold At Thirty Stack
-	SoldBy: Sold By
-	SeveralVendors: several vendors
-}
+// ExpandedTooltips: {
+// 	FountainOcean: Forces surrounding biome state to Ocean upon activation
+// 	FountainDesert: Forces surrounding biome state to Desert upon activation
+// 	FountainJungle: Forces surrounding biome state to Jungle upon activation
+// 	FountainSnow: Forces surrounding biome state to Snow upon activation
+// 	FountainCorruption: Forces surrounding biome state to Corruption upon activation
+// 	FountainCrimson: Forces surrounding biome state to Crimson upon activation
+// 	FountainHallow: Forces surrounding biome state to Hallow (in hardmode only) upon activation
+// 	CatchNPCs: Can also catch townsfolk
+// 	ExtraLure1: Also grants one extra lure
+// 	Lures2: This rod fires 2 lures
+// 	Lures3: This rod fires 3 lures
+// 	Lures5: This rod fires 5 lures
+// 	AutoTorch: Automatically swaps placed torches to boost luck
+// 	TrueTorchLuck: Obeys true torch luck when replacing torches, which may differ from default choices
+// 	UnlimitedBuff30: Unlimited buff at 30 stack in inventory, Piggy Bank, or Safe
+// 	UnlimitedUse30: Unlimited use at 30 stack
+// 	PermanentEffectNearby: Permanently provides effect to nearby players
+// 	WorksFromBanks: Works from Piggy Bank and Safe
+// 	SoldBySquirrel: Sold By Squirrel
+// 	SomeMaterialsSold: Some Materials Sold
+// 	CraftableMaterialsSold: Craftable Materials Sold
+// 	SoldAtThirtyStack: Sold At Thirty Stack
+// 	SoldBy: Sold By
+// 	SeveralVendors: several vendors
+// }
 
 TownNPCMood: {
 	Deviantt: {
