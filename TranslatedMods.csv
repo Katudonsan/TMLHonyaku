@@ -14,16 +14,16 @@ steam_id,internal_name,display_name,lead_translator,version,note
 2831752947,miningcracks_take_on_luiafk,LuiAFK Reborn,katudonsan,,
 2563309347,MagicStorage,Magic Storage,hazamax405,,
 2621278406,MoreZenith,MoreZenithItems,katudonsan,,
-2797518634,ImproveGame,Quality of Terraria,hazamax405,,
+2797518634,ImproveGame,Quality of Terraria,hazamax405,1.8.6.0,大規模修正しました(Taccom368)
 2619954303,RecipeBrowser,Recipe Browser,sysnote8,,
 2562997415,ShorterRespawn,Shorter Respawn Time,katudonsan,,
 2839001756,UnofficialCalamityWhips,Unofficial Calamity Whips,hazamax405,1.1.6,
 2563851005,WMITF,Which Mod Is This From? (WMITF),katudonsan,,
-2909886416,ThoriumMod,Thorium Mod,Hurugitune,1.7.2.0,ブロック以外は全て翻訳済み。ほとんど推敲済み。
+2909886416,ThoriumMod,Thorium Mod,Hurugitune,1.7.2.2,ブロック以外は全て翻訳済み。ほとんど推敲済み。
 3114886209,RagnarokMod,Ragnarok,Hurugitune,1.4.3.2,全て翻訳済み。ほとんど推敲済み。
 3070717963,ThoriumRework,Thorium Bosses Reworked,Hurugitune,0.9.4,全て翻訳済み。ほとんど推敲済み。
-3015412343,InfernumMode,Calamity Mod Infernum Mode,Hurugitune,2.0.1.14,バフ以外はほぼ全て翻訳済み。ほとんど推敲済み。
-3142064272,CalamityBardHealer,Unofficial Calamity Bard & Healer,Hurugitune,0.9.1,全て翻訳済み。ほとんど推敲済み。
+3015412343,InfernumMode,Calamity Mod Infernum Mode,Hurugitune,2.0.1.16,バフ以外はほぼ全て翻訳済み。ほとんど推敲済み。
+3142064272,CalamityBardHealer,Unofficial Calamity Bard & Healer,Hurugitune,0.9.6,全て翻訳済み。ほとんど推敲済み。
 2864849706,CampingMod,Camping,Hurugitune,3.0.2,全て翻訳済み。推敲済み。
 2864843929,Consolaria,Consolaria,Hurugitune,2.1.1,全て翻訳済み。ほとんど推敲済み。一部重大なバグがあるアイテムがあったので注意書きを追加。修正され次第削除。
 2838015851,CatalystMod,Catalyst Mod,Hurugitune,1.1.2.3,全て翻訳済み。ほとんど推敲済み。
@@ -40,7 +40,7 @@ steam_id,internal_name,display_name,lead_translator,version,note
 3299699015,ModFolder,Mod Folder System,Hurugitune,0.4.0,すべて翻訳済み
 3001536716,MachineTranslate,In-game Translate (Supports both v1.4.4 and v1.4.3),Hurugitune,1.0,すべて翻訳済み
 3378168037,CompatChecker,Compatibility Checker (Beta),Hurugitune,0.1.4.1,すべて翻訳済み
-2861542679,Remnants,Remnants,Hurugitune,1.5.31.2,すべて翻訳済み
+2861542679,Remnants,Remnants,Hurugitune,1.5.41,すべて翻訳済み
 2825008228,ZeroXHUD,ZeroX's Combat HUDs,Hurugitune,0.2.4.2,すべて翻訳済み
 2815010161,SharedMap,Shared World Map,Hurugitune,0.1.4.3,すべて翻訳済み
 2563815443,DialogueTweak,Dialogue Panel Rework,Hurugitune,1.5.9,すべて翻訳済み
@@ -55,11 +55,12 @@ steam_id,internal_name,display_name,lead_translator,version,note
 3018447913,BetterBossBarPlus,Better Boss Health Bar for 1.4.4+,Hurugitune,0.9.2.3,全て翻訳済み
 2824854732,Discordya,Discordya - Discord Rich Presence,Hurugitune,1.0.6.1,全て翻訳済み
 2564503881,HPAware,HP Awareness,Hurugitune,1.0.3.4,全て翻訳済み 
+2910253435,NewBeginnings,New Beginnings,Hurugitune,1.1.0.5,仮翻訳
 2927446524,TestChadsFurni,Chad's Furni Reborn,mori (new),0.2,すべて翻訳済み
 2824879484,tsorcRevamp,The Story of Red Cloud,katudonsan,0.15.18.6,現在The Story of Red Cloudブランチで翻訳中
 3222493606,Luminance,Luminance,katudonsan,1.0.6,翻訳完了
 2824688804,CalValEX,Calamity's Vanities,Chuzume,11.1,ほぼ翻訳完了、マップでのタイル名、Projectile名など未翻訳。
-3161388997,CalamityOverhaul,CalamityOverhaul,右折禁止,0.5018,
+3161388997,CalamityOverhaul,CalamityOverhaul,右折禁止,0.6015,
 2871665851,Verdant,Verdant,まめ,1.2.6.5,
 2981752535,FishGunsPlus,Fish Guns+,まめ,3.9,
 2817545194,HelpfulNPCs,Helpful NPCs,まめ,2.2.2,
@@ -115,5 +116,11 @@ steam_id,internal_name,display_name,lead_translator,version,note
 3219030425,Spotlight,The Spotlight - 聚光灯,ぽぷのべり,1.0.2,
 3138615548,SpearMod,Spear Rework Mod,ぽぷのべり,1.0.2,
 3164271154,FlailMod,Flail Rework Mod,ぽぷのべり,1.1.7,
-2973922820,TouhouPets,东方小伙伴 ~ Adventure with cute partners,ぽぷのべり,1.1.4.3,
+2973922820,TouhouPets,东方小伙伴 ~ Adventure with cute partners,ぽぷのべり,1.1.4.3,大規模修正を行いました。解釈などに関してはメモを残してあります。(Taccom368)
 2799559538,Terrarchitect,Terrarchitect,ぽぷのべり,1.7.0.1,
+3331547573,Coyoteframes,Coyote frames,ぽぷのべり,1.5,
+2589338274,x1526modDifficultBuff,Difficulty Editor,ぽぷのべり,1.0.1.6,
+2799797838,HostiumProelium,Gunsword Slime,ぽぷのべり,1.0.111111,
+2822950837,FancyLighting,Fancy Lighting,ぽぷのべり,0.9.7,
+3069195391,LureBaitDisplay,Lures Display Bait,ぽぷのべり,1.0.3,
+2817795758,LightingEssentials,Lighting Essentials,ぽぷのべり,1.3.9,

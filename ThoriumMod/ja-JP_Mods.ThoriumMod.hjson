@@ -371,7 +371,7 @@ ThrowerTechniques: {
 
 	HiddenBlade: {
 		Description: カーソルに向かってダメージを与える隠し刃を放つ
-		DisplayName: アサシンブレード
+		DisplayName: ニンジャブレード
 	}
 
 	GravityWell: {
@@ -459,7 +459,7 @@ Common: {
 
 		BigInstrument:
 			'''
-			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
 			これらのボーナスは武器を変更すると徐々に減少する
 			'''
 		BannerPlacement: 旗を1本地面に立てる
@@ -480,8 +480,8 @@ MonsterContracts: {
 	}
 
 	TimContract: {
-		Description: この世界の深層にいる、つかみどころのないダーク・キャスターを探し出すことに成功した。名前は... ティム 。彼はかなりの力を秘めているが、1つ致命的な弱点がある。彼は自分の服装にかなり誇りを持っているようで、他の誰よりも優れていると思っている。宝石のローブを着ておびき出すといいかもな。
-		Title: 影を落とす
+		Description: この世界の深層にいる、つかみどころのないダークキャスターを探し出すことに成功した。名前は... ティム 。彼はかなりの力を秘めているが、1つ致命的な弱点がある。彼は自分の服装にかなり誇りを持っているようで、他の誰よりも優れていると思っている。宝石のローブを着ておびき出すといいかもな。
+		Title: 闇の奥底にて
 	}
 
 	SandContract: {
@@ -490,13 +490,13 @@ MonsterContracts: {
 	}
 
 	RuneContract: {
-		Description: ウォール・オブ・フレッシュの敗北によって放出された制御不能のエネルギーは、一部のイヤなヤツに大きな力を与えることになってしまった。ある悪党のスケルトンは、長い間封印されていた精霊の力を利用し、ルーンウィザードとして地下を恐怖に陥れている。アイツのパワーは不安定で予測不可能だ！
-		Title: ルーン・プルーン
+		Description: ウォールオブフレッシュの敗北によって放出された制御不能のエネルギーは、一部のイヤなヤツに大きな力を与えることになってしまった。ある悪党のスケルトンは、長い間封印されていた精霊の力を利用し、ルーンウィザードとして地下を恐怖に陥れている。アイツのパワーは不安定で予測不可能だ！
+		Title: 魔術師の剪定
 	}
 
 	RecluseContract: {
 		Description: さてと、今回はちょっと二重契約になる。町の仲間の多くが重度のクモ恐怖症らしい。 ドクイドグモがクモの洞窟を徘徊しているという噂が浮上しているが、そいつを引きずり出すには、厳しい吹雪の時にツンドラを徘徊する「巨大な氷の蜘蛛」の一種を最優先で倒すしかないようだ。氷のクモを倒し、次にドクイドグモを倒すことができれば、この辺りの人々はもっと安心できるはずだ。
-		Title: イッツィー・ビッツィー....じゃない！
+		Title: ちっちゃなヤツ....じゃない！
 	}
 
 	PirateShipContract: {
@@ -526,16 +526,16 @@ MonsterContracts: {
 
 	MothContract: {
 		Description: 騙されるな、小僧。地下ジャングルに潜む生き物は、美しいだけではなく、とても危険だ。その存在そのものが、俺たちの個人としての傲慢さを物語っているのだ。そしてそれは...蛾だ。
-		Title: もっと大きなランプをもってこい！
+		Title: 巨大な灯りが必要だ！
 	}
 
 	MinotaurContract: {
-		Description: " ダンジョンはスケルトンやスライムが徘徊しているだけでも十分ひどい環境だが、荒れ狂うミノタウロスが放たれるとさらにややこしくなる。その獣は信じられないほどのスピードで突進してくるから、注意していないとぶつかってしまう。よろめかないようにな。"
+		Description: " ダンジョンはスケルトンやスライムが徘徊しているだけでも十分ひどい環境だが、荒れ狂うミノタウロスが放たれるとさらに状況は悪化する。その獣は信じられないほどのスピードで突進してくるから、注意していないとぶつかってしまう。気をつけろよ。"
 		Title: 迷宮の獣
 	}
 
 	MimicContract: {
-		Description: お前が外で何をしたのか知らないが、物事はより慌ただしくなっている。解放された霊がこの世界を徘徊しているから、今は何も信用できない！さらに悪いことに、地中深くにある宝箱に憑依した貪欲な霊が、宝箱をミミックに変えてしまったようだ。その辺に宝箱がないか、目を凝らしてみろ。見かけとは違うかもしれないが...。
+		Description: お前が外で何をしたのか知らないが、物事はより慌ただしくなっている。解放された霊がこの世界を徘徊しているから、今は何も信用できない！さらに悪いことに、地中深くにある宝箱に憑依した貪欲な霊が、宝箱をミミックに変えてしまったようだ。その辺に宝箱がないか、目を凝らしてみろ。見かけが少し違うかもしれない...
 		Title: 愚者の金
 	}
 
@@ -551,11 +551,11 @@ MonsterContracts: {
 
 	HagContract: {
 		Description: 多くの者は力を求めて近道をしようとし、しばしばその恩恵のためにエレメントを求める。しかし、エレメントは彼らが求めるものを与えてくれるが、それにはそれなりの代償が伴う。若さを取り戻そうと世界を徘徊するハグと呼ばれる化物も存在する。地底世界、ジャングル、海、そして空が、最も見つけやすい場所だ。
-		Title: ハガード・ハグラーズ
+		Title: 代償の果て
 	}
 
 	GildedContract: {
-		Description: テラリアの地下を徘徊している獣が目撃された。 金のコウモリ 、 金の狼男 、 金のスライム は光り輝いてるせいで眩しいし、かなりの強敵だ。少しでも数が減ってくれれば一番いいんだが...。
+		Description: テラリアの地下を徘徊している獣が目撃された。 金のコウモリ 、 金の狼男 、 金のスライム は光り輝いてるせいで眩しいし、かなりの強敵だ。少しでも数が減ってくれれば一番いいんだが...
 		Title: 給料日！
 	}
 
@@ -571,19 +571,19 @@ MonsterContracts: {
 	}
 
 	CursedContract: {
-		Description: 無秩序な精霊魔術が、武器や防具に憑依するなど、さまざまな事態を招くことは知っているか？。それだけでも恐ろしいことだが、強力なアーティファクトが憑依されると、事態はさらに悪化する......。地中深くで、攻撃的なエンチャントされた武器に目を光らせていてほしい。
+		Description: 精霊魔術が、武器や防具に憑依することがあるのは知っているか？それだけでも恐ろしいことだが、強力な遺物に憑依されると、事態はさらに悪化する......地中深くで、攻撃的なエンチャントされた武器に目を光らせていてほしい。
 		Title: 魅惑の婚約
 	}
 
 	BoneLeeContract: {
-		DescriptionCompleted: お前は一生かかっても返せない恩をくれた。リーに面と向かって謝りたい...。もうお前は俺たちの強さを凌駕しているはずだ。報酬として、リーがよく使っていた武器のコレクションを持ってきた。お前がそれを戦場で振るえば、アイツも光栄に思うだろう。これからも頑張ってくれ！
-		Description: お前には個人的な契約がある。軽い気持ちで頼むわけじゃないから、最後まで聞いてくれ。数年前、俺とパートナーのリーは一緒に色々なものに挑んでいた。無敵のコンビだったが、特に難しい契約を甘く見るという重大なミスを犯した。俺を救おうと必死になって、アイツはダンジョンでやられてしまった。俺はあの時のことを決して忘れていない...。どうかダンジョンに行き、アイツの魂を安らかに眠らせてあげてくれないか。
+		DescriptionCompleted: お前は一生かかっても返せない恩をくれた。リーに面と向かって謝りたい...もうお前は俺たちの強さを凌駕しているはずだ。報酬として、リーがよく使っていた武器のコレクションを持ってきた。お前がそれを戦場で振るえば、アイツも光栄に思うだろう。これからも頑張ってくれ！
+		Description: お前には個人的な契約がある。軽い気持ちで頼むわけじゃないから、最後まで聞いてくれ。数年前、俺とパートナーのリーは一緒に色々なものに挑んでいた。無敵のコンビだったが、特に難しい契約を甘く見るという重大なミスを犯した。俺を救おうと必死になって、アイツはダンジョンでやられてしまった。俺はあの時のことを決して忘れていない...どうかダンジョンに行き、アイツの魂を安らかに眠らせてあげてくれないか。
 		Title: トラッカーズ・エンド
 	}
 
 	AlmostContract: {
 		Description: 他のすべての契約を完了させると解放
-		Title: To Be Continued...
+		Title: つづく...
 	}
 }
 
@@ -607,23 +607,23 @@ Keybinds: {
 
 Tiles: {
 	FurnitureVanillaCup: {
-		MapEntry: Furniture Vanilla Cup
+		MapEntry: コップ
 	}
 
 	WorldEngineTile: {
-		MapEntry: World Engine
+		MapEntry: ワールドエンジン
 	}
 
 	ValadiumChunk: {
-		MapEntry: Valadium
+		MapEntry:  バラジウム
 	}
 
 	UnderworldChest: {
-		MapEntry_Locked: Locked 地底世界の宝箱
+		MapEntry_Locked: ロックされている地底世界の宝箱
 	}
 
 	DesertBiomeChest: {
-		MapEntry_Locked: Locked 砂漠の宝箱
+		MapEntry_Locked: ロックされている砂漠の宝箱
 	}
 
 	AquaticDepthsBiomeChest: {
@@ -631,11 +631,11 @@ Tiles: {
 	}
 
 	ThoriumOre: {
-		MapEntry: Thorium
+		MapEntry: トリウム
 	}
 
 	OceanCrystal: {
-		MapEntry: Aquatic Crystal
+		MapEntry: 深海の結晶
 	}
 
 	MarkedGraveTileTrue: {
@@ -647,47 +647,47 @@ Tiles: {
 	}
 
 	LodeStone: {
-		MapEntry: Lodestone
+		MapEntry: ロードストーン
 	}
 
 	LivingLeafBush: {
-		MapEntry: Living Leaf Bush
+		MapEntry: リビングリーフの草むら
 	}
 
 	LargeCoral: {
-		MapEntry: Coral
+		MapEntry: サンゴ
 	}
 
 	JungleFlower: {
-		MapEntry: Jungle Flower
+		MapEntry: ジャングルの花
 	}
 
 	IllumiteChunk: {
-		MapEntry: Illumite
+		MapEntry:   イルミネイト
 	}
 
 	FurnitureCup: {
-		MapEntry: Cup
+		MapEntry: カップ
 	}
 
 	FishingCrate: {
-		MapEntry: Crate
+		MapEntry: クレート
 	}
 
 	CookTilesLegacy: {
-		MapEntry: Food
+		MapEntry: 食べ物
 	}
 
 	BloodSplatterTile: {
-		MapEntry: Blood Stain
+		MapEntry: 血痕
 	}
 
 	BloodDropTile: {
-		MapEntry: Dripping Blood
+		MapEntry: 滴り落ちる血
 	}
 
 	Aquaite: {
-		MapEntry: Aquaite
+		MapEntry: アクアライト
 	}
 }
 
@@ -7573,7 +7573,7 @@ Prefixes: {
 	}
 
 	Engrossing: {
-		Tooltip: +{0}秒間の強化効果の持続時間
+		Tooltip: "{0}秒間の強化効果の持続時間"
 		DisplayName: 魅惑的な
 	}
 
@@ -7667,7 +7667,7 @@ NPCs: {
 	}
 
 	UnderworldPot1: {
-		BestiaryFlavorText: このミミックは、冥界が荒れ果て、誰もいなくなったことで、平穏と静寂を得られると思っていた。特にそんなことはなかったので、現在はただイライラし続けている。
+		BestiaryFlavorText: このミミックは、地底世界が荒れ果て、誰もいなくなったことで、平穏と静寂を得られると思っていた。特にそんなことはなかったので、現在はただイライラし続けている。
 		DisplayName: 地底世界の壺
 	}
 
@@ -7681,7 +7681,7 @@ NPCs: {
 		Button: メダルと交換する
 
 		Census: {
-			SpawnCondition: " クトゥルフの目 を倒す"
+			SpawnCondition: " クトゥルフの目を倒す"
 		}
 
 		TownNPCMood: {
@@ -7722,7 +7722,7 @@ NPCs: {
 
 	TheStarved: {
 		BestiaryFlavorText: よだれを垂らしているこの生き物は、その果てしない空腹を満たそうとして、すべての理性を放棄した。
-		DisplayName: 飢えた者たち
+		DisplayName: 飢えた者
 	}
 
 	TheInnocent: {
@@ -7731,7 +7731,7 @@ NPCs: {
 	}
 
 	TempleGuardian: {
-		BestiaryFlavorText: 太陽電池で動く機械人形で、神秘的な神殿を監視し、細心の注意を払って守るように設計されている。
+		BestiaryFlavorText: 太陽電池で動く機械人形で、神秘的な寺院を監視し、細心の注意を払って守るように設計されている。
 		DisplayName: 寺院の守護者
 	}
 
@@ -7741,7 +7741,7 @@ NPCs: {
 	}
 
 	SunPriestess: {
-		BestiaryFlavorText: 太陽の力を宿したトカゲ族。神殿の中では素晴らしい夜の明かりとなる。
+		BestiaryFlavorText: 太陽の力を宿したトカゲ族。神殿の中では素晴らしい明かりとなる。
 		DisplayName: 太陽の巫女
 	}
 
@@ -7754,7 +7754,7 @@ NPCs: {
 		Button2: 守護天使の力を借りる
 
 		Census: {
-			SpawnCondition: " [c/4dffb8:埋もれた英雄] を倒す。"
+			SpawnCondition: " [c/4dffb8:埋もれた英雄]を倒す。"
 		}
 
 		TownNPCMood: {
@@ -7780,7 +7780,7 @@ NPCs: {
 	}
 
 	Spectrumite: {
-		BestiaryFlavorText: 成長しすぎたこのクリスタルの欠片は、聖なる大地に侵入する人間を退治する任務を負っている。
+		BestiaryFlavorText: 成長しすぎたこのクリスタルの欠片は、聖なる大地に侵入する人間を退治する使命を負っている。
 		DisplayName: スペクトラマイト
 	}
 
@@ -7897,18 +7897,18 @@ NPCs: {
 			EntryName: プライモーディアルズ
 		}
 
-		BestiaryFlavorText: 原初の炎であるスラグフューリーは宇宙のすべてのエネルギーを象徴する。スラグフューリーは、その脅威だと判断した者のみを裁く。
+		BestiaryFlavorText: 原初の炎であるスラグフューリーは宇宙のすべてのエネルギーを象徴する。脅威だと判断した者のみを裁く。
 		BestiaryNameOverride: スラグフューリー
 		DisplayName: 原初の炎、スラグフューリー
 	}
 
 	DreamEater: {
-		BestiaryFlavorText: 宇宙の支配者。死にゆく現実。ドリームイーターは宇宙の歯車を乱すとみなしたものすべて消し去ろうとしている。世界を救え、英雄よ！
+		BestiaryFlavorText: 宇宙の支配者であるドリームイーターは宇宙の歯車を乱すとみなしたものすべて消し去ろうとしている。世界を救え、英雄よ！
 		DisplayName: ドリームイーター
 	}
 
 	Omnicide: {
-		BestiaryFlavorText: 生命の冒涜者であるオムニサイドは宇宙のすべての変遷を象徴する。オムニサイドは、脅威だと判断した者だけを裁く。
+		BestiaryFlavorText: 生命の冒涜者であるオムニサイドは宇宙のすべての変遷を象徴する。脅威だと判断した者だけを裁く。
 		BestiaryNameOverride: オムニサイド
 		DisplayName: 生命の冒涜者、オムニサイド
 	}
@@ -7930,7 +7930,7 @@ NPCs: {
 	}
 
 	Aquaius: {
-		BestiaryFlavorText: 果てしない潮流であるアクイウスは、宇宙におけるすべての引力と推進力を象徴している。アクイウスは、脅威だと判断した者だけを裁く。
+		BestiaryFlavorText: 果てしない潮流であるアクイウスは、宇宙におけるすべての引力と推進力を象徴している。脅威だと判断した者だけを裁く。
 		BestiaryNameOverride: アクイウス
 		DisplayName: 終わりなき潮、アクイウス
 	}
@@ -7958,7 +7958,7 @@ NPCs: {
 	}
 
 	NecroPot: {
-		BestiaryFlavorText: ダンジョン には膨大な謎のエネルギーが宿っている。そのエネルギーの一部が、壺のひとつやふたつに憑依することになったとしても不思議ではない。
+		BestiaryFlavorText: ダンジョンには膨大な謎のエネルギーが宿っている。そのエネルギーの一部が、壺のひとつやふたつに憑依することになったとしても不思議ではない。
 		DisplayName: 死の壺
 	}
 
@@ -7993,7 +7993,7 @@ NPCs: {
 	}
 
 	MartianScout: {
-		BestiaryFlavorText: このエイリアンはここの環境と来るべき事態の調査のためにやってきたのだ...
+		BestiaryFlavorText: このエイリアンはここの環境と来るべき事態の調査のためにやってきたらしい...
 		DisplayName: 火星の偵察兵
 	}
 
@@ -8009,7 +8009,7 @@ NPCs: {
 
 	LivingHemorrhage: {
 		BestiaryFlavorText: 真紅の肉からちぎれ落ちたおぞましい奇形腫。見た目に反して、こいつは思ってた以上にしぶとい。
-		DisplayName: 動き回る血の塊
+		DisplayName: 血の塊
 	}
 
 	LihzardPotMimic1: {
@@ -8028,7 +8028,7 @@ NPCs: {
 	}
 
 	PhylacteryofaThousandSouls: {
-		BestiaryFlavorText: リッチの永遠の命の源。その中には千以上の魂があるが、リッチは途中から数えきれなくなった。
+		BestiaryFlavorText: リッチの永遠の命の源。その中には千以上の魂があるが、リッチは途中から数えきれなくなったらしい....
 		BestiaryNameOverride: 千の魂の護符
 		DisplayName: 千の魂の護符
 	}
@@ -8136,17 +8136,17 @@ NPCs: {
 	}
 
 	GoldDuck: {
-		BestiaryFlavorText: 稀に、金色の生き物が見つかることがある！店主は高値をつけるし、ケージに入れて見せびらかすこともできる！
+		BestiaryFlavorText: 稀に、金色の生き物が見つかることがある！売れば高値がつくし、ケージに入れれば自慢できるぞ！
 		DisplayName: 金のアヒル
 	}
 
 	GoblinTrapper: {
-		BestiaryFlavorText: 彼らの種族が持つスパイキーボールを実際に使うことを選んだ数少ないゴブリンの一人だ。
+		BestiaryFlavorText: 彼らの種族が持つスパイクボールを実際に使うことを選んだ数少ないゴブリンの一人だ。
 		DisplayName: ゴブリントラッパー
 	}
 
 	GoblinSpiritGuide: {
-		BestiaryFlavorText: 密教の呪文を使えば、この高位のシャーマンは最近死んだゴブリンを蘇生して略奪を続けることができる。
+		BestiaryFlavorText: 密教の呪文を使えば、この高位のシャーマンは死んだゴブリンを蘇生して略奪を続けることができる。
 		DisplayName: ゴブリンシャーマン
 	}
 
@@ -8161,27 +8161,27 @@ NPCs: {
 	}
 
 	GildedSlimeling: {
-		BestiaryFlavorText: そのきらびやかな外観を得るためにたくさんの金を摂取してきたスライムの子供。親の鉱石を少量ながらも受け継いでいるのできらめいている。
+		BestiaryFlavorText: そのきらびやかな外観を得るためにたくさんの金を摂取してきたスライムの子供。親の鉱石を少量ながらも受け継いでいるため、きらめいている。
 		DisplayName: きらめくスライム
 	}
 
 	GildedSlime: {
-		BestiaryFlavorText: より捕らえどころのないゴールデンスライムに化けて、貪欲なトレジャーハンターたちを丸呑みにするスライムだ。
+		BestiaryFlavorText: 価値のありそうな見た目のスライムに化けて、貪欲なトレジャーハンターたちを丸呑みにするスライムだ。
 		DisplayName: 金のスライム
 	}
 
 	GildedLycan: {
-		BestiaryFlavorText: 人狼は銀に弱いと言われているが、まばゆい輝きを放つ獣人たちの存在を考えれば、同じことが金にも当てはまらないことは明らかだ。
+		BestiaryFlavorText: 人狼は銀に弱いと言われているが、まばゆい輝きを放つ獣人たちの存在を考えれば、同じことが金に当てはまらないことは明らかだ。
 		DisplayName: 金の狼男
 	}
 
 	GildedBat: {
-		BestiaryFlavorText: この希少なコウモリの仲間は、貴重な金属につられた無謀な探検家を殺害するのに十分な大きさと力を持っている。
+		BestiaryFlavorText: この希少なコウモリは、貴重な金属につられた無謀な探検家を殺害するのに十分な大きさと力を持っている。
 		DisplayName: 金のコウモリ
 	}
 
 	GelatinousSludge: {
-		BestiaryFlavorText: ゼラチンキューブから生まれた引き裂かれた子供。父親の罪は重かったが、子供たちはそれを何とも思っていないので跳躍力を得た。
+		BestiaryFlavorText: ゼラチンキューブから生まれた子供。父親の罪は重かったが、子供たちはそれを何とも思っていないので高い跳躍力を得たらしい。
 		DisplayName: スラッジ
 	}
 
@@ -8196,12 +8196,12 @@ NPCs: {
 	}
 
 	FrozenFace: {
-		BestiaryFlavorText: クトゥルフの脳は、そんなヘンな顔をするなと警告したのだが...
+		BestiaryFlavorText: クトゥルフの脳は、ヘンな顔をし続けるんじゃないと警告したのだが...
 		DisplayName: フローズン・フェイス
 	}
 
 	FrostWurmHead: {
-		BestiaryFlavorText: エボンストーンの代わりに雪や氷を掘るのは簡単かもしれないが、この極寒の貪食者たちは殺傷能力も劣らない。
+		BestiaryFlavorText: エボンストーンの代わりに雪や氷を掘るのは簡単かもしれないが、この極寒の貪食者たちは不浄の大地のモンスターと同じぐらい危険だ。
 		DisplayName: フロストワーム
 	}
 
@@ -8216,7 +8216,7 @@ NPCs: {
 	}
 
 	FlamekinCaster: {
-		BestiaryFlavorText: 洞窟の奥深くにある溶岩だまりの力を利用し、爆発的な火のコウモリを召喚する奇妙な魔術師。
+		BestiaryFlavorText: 洞窟の奥深くにある溶岩だまりの力を利用し、火のコウモリを召喚する奇妙な魔術師。
 		DisplayName: 炎の魔術師
 	}
 
@@ -8226,12 +8226,12 @@ NPCs: {
 	}
 
 	EpiDermon: {
-		BestiaryFlavorText: クリムゾンの陰湿な汚染の被害者。悪魔でさえも、その汚染から逃れることができないようだ。
+		BestiaryFlavorText: 真紅の大地の陰湿な汚染の被害者。悪魔でさえも、その汚染から逃れることができないようだ。
 		DisplayName: 疫病神
 	}
 
 	EarthenGolem: {
-		BestiaryFlavorText: "この覚醒した石の山は、洞窟の壁に沿って地震動を放ち、侵入者の頭上に石の雨を降らせることができる。 "
+		BestiaryFlavorText: "この覚醒した石の塊は、洞窟の壁に沿って地震動を放ち、侵入者の頭上に石の雨を降らせることができる。 "
 		DisplayName: 土のゴーレム
 	}
 
@@ -8368,7 +8368,7 @@ NPCs: {
 	}
 
 	MorayHead: {
-		BestiaryFlavorText: " 深海の洞窟 に生息するウナギの一種。自分で掘った穴や隙間にたむろするのが好き。"
+		BestiaryFlavorText: " 深海の洞窟に生息するウナギの一種。自分で掘った穴や隙間にたむろするのが好き。"
 		DisplayName: ウツボ
 	}
 
@@ -8393,12 +8393,12 @@ NPCs: {
 	}
 
 	GoldLobster: {
-		BestiaryFlavorText: 稀に、金色の生き物が見つかることがある！店主は高値をつけるし、ケージに入れて見せびらかすこともできる！
+		BestiaryFlavorText: 稀に、金色の生き物が見つかることがある！売れば高値がつくし、ケージに入れれば自慢できるぞ！
 		DisplayName: 金のロブスター
 	}
 
 	GoldDumboOctopus: {
-		BestiaryFlavorText: 稀に、金色の生き物が見つかることがある！店主は高値をつけるし、ケージに入れて見せびらかすこともできる！
+		BestiaryFlavorText: 稀に、金色の生き物が見つかることがある！売れば高値がつくし、ケージに入れれば自慢できるぞ！
 		DisplayName: 金のダンボタコ
 	}
 
@@ -8413,7 +8413,7 @@ NPCs: {
 	}
 
 	GiantIsopod: {
-		BestiaryFlavorText: この平和的な生き物は、何千年もの間 深海の洞窟 で穏やかに過ごしている。地表の住人も学ぶべきことがあるだろう。
+		BestiaryFlavorText: この平和的な生き物は、何千年もの間、深海の洞窟で穏やかに過ごしている。地表の住人も学ぶべきことがあるだろう。
 		DisplayName: ダイオウグソクムシ
 	}
 
@@ -8438,12 +8438,12 @@ NPCs: {
 	}
 
 	Blowfish: {
-		BestiaryFlavorText: コイツをイジめないでやってくれ、きっと君に仕返しをするだろう！
+		BestiaryFlavorText: コイツをイジめないでやってくれ、やり返されるかもしれないからな！
 		DisplayName: フグ
 	}
 
 	Blobfish: {
-		BestiaryFlavorText: 深海の洞窟 の中で最も醜い小さな生き物。彼が欲しいのは愛だけ...
+		BestiaryFlavorText: 深海の洞窟の中で最も醜い小さな生き物。彼が欲しいのは愛だけ...
 		DisplayName: ニュウドウカジカ
 	}
 
@@ -8454,13 +8454,13 @@ NPCs: {
 
 	AquaticHallucination: {
 		BestiaryFlavorText: 気が狂いそうになるほどの遠い異世界の存在...
-		DisplayName: アクアティックハルシネーション
+		DisplayName: 海魔の邪眼
 	}
 
 	ForgottenOne: {
 		BossChecklistIntegration: {
 			EntryName: 忘れられた者
-			SpawnInfo: アクアティックハルシネーションが深海の洞窟で落とす [i:ThoriumMod/AbyssalShadow] を3個拾う
+			SpawnInfo: 海魔の邪眼が深海の洞窟で落とす [i:ThoriumMod/AbyssalShadow] を3個拾う
 		}
 
 		BestiaryFlavorText: 人類が長い間存在を忘れていた生物。何世紀も前の血なまぐさい戦争で、この生物は封印された。
@@ -8613,8 +8613,8 @@ NPCs: {
 			Content: I've got a pep in my step, don't you worry!
 		}
 
-		BestiaryFlavorText: コブラーはヒーローの時代から引退して久しいが、次の世代に高品質の靴を提供している。
-		DisplayName: コブラー
+		BestiaryFlavorText: 靴屋は冒険家を引退して久しいが、次の世代に高品質の靴を提供している。
+		DisplayName: 靴屋
 	}
 
 	Clot: {
@@ -8634,7 +8634,7 @@ NPCs: {
 
 	BuriedChampion: {
 		BossChecklistIntegration: {
-			SpawnInfo: 大理石の洞窟の地下深くで [i:ThoriumMod/AncientBlade] を使うか、 奇妙な岩 を見つけて倒す。
+			SpawnInfo: 大理石の洞窟の地下深くで [i:ThoriumMod/AncientBlade] を使うか、奇妙な岩を見つけて破壊する。
 		}
 
 		BestiaryFlavorText: かつては伝説の英雄だったが、もう既にその名は忘れ去られてしまった。ダンジョンの呪いを解いた者に戦いを挑む。
@@ -8811,11 +8811,11 @@ NPCs: {
 
 	Blacksmith: {
 		Census: {
-			SpawnCondition: " クトゥルフの目 を倒す"
+			SpawnCondition: " クトゥルフの目を倒す"
 		}
 
 		TownNPCMood: {
-			Princess_LovesNPC: " {NPCName} が私のティアラを修理してくれたの、感謝してるわ！"
+			Princess_LovesNPC: " {NPCName} がわたくしのティアラを修理してくれたの、感謝してますわ！"
 			LikeNPC_Princess: ガキはガキだが、 {NPCName} は特別だ。
 			DislikeNPC: " {NPCName} はたまに俺の血圧を上げやがるが、良い客になりそうだ！でも、斧の修理しか頼まねえんだよ…"
 			LikeNPC: 寡黙だが、必要な時に動くやつだ。 {NPCName} は気に入ってる。
@@ -8850,7 +8850,7 @@ NPCs: {
 			SpawnInfo: 地底世界で [i:ThoriumMod/VoidLens] を使用する
 		}
 
-		BestiaryFlavorText: 虚空の彼方にあるものを垣間見る。テラリアの世界にとどまり続けたからか、本来の次元にいたころよりも弱体化している。
+		BestiaryFlavorText: 虚空の彼方にあるものを垣間見ている。テラリアの世界にとどまり続けたからか、本来の次元にいたころよりも弱体化している。
 		DisplayName: フォールンビホルダー
 	}
 
@@ -9368,7 +9368,7 @@ Items: {
 			Tooltip:
 				'''
 				エンパワーメントの持続時間を{0}{^0:second;秒} 延長する
-				"{1} のエンパワーメントレベルを{2}増加させる"
+				{1} のエンパワーメントレベルを{2}増加させる
 				'''
 			DisplayName: "ミュージックプレイヤー：{0}"
 		}
@@ -9396,7 +9396,7 @@ Items: {
 		}
 
 		Common: {
-			Tooltip: プレイヤーのエンパワーメントレベルを{0}から{1}増加させる
+			Tooltip: "{0}のエンパワーメントレベルを{1}増加させる"
 			DisplayName: "トラックプレイヤー：{0}"
 		}
 	}
@@ -9463,7 +9463,7 @@ Items: {
 	TheTruePenguinWand: {
 		Tooltip:
 			'''
-			「現実を終わらせるドリームイーターでも、これには負けるだろう...」
+			「現実を終わらせるドリームイーターでも、これには敵わないだろう...」
 			使用すると世界に甚大な影響を及ぼすので、注意すること
 			'''
 		DisplayName: 真のペンギンの杖
@@ -9627,7 +9627,7 @@ Items: {
 			ヒーリングダミーは回復が可能で、5秒間で回復量が表示される
 			ダミーには回復しか効かない
 			'''
-		DisplayName: ヒーリング・ダミー
+		DisplayName: ヒーリングダミー
 	}
 
 	GodMode: {
@@ -10558,7 +10558,7 @@ Items: {
 	}
 
 	StormFlare: {
-		Tooltip: " グランドフレアガン の弾"
+		Tooltip: "グランドフレアガンの弾"
 		DisplayName: ストームフレア
 	}
 
@@ -10567,7 +10567,7 @@ Items: {
 			'''
 			「空に向かって撃てー！」
 			機能させるにはストームフレアが必要
-			砂漠で グランドサンダーバード を召喚する
+			砂漠でグランドサンダーバードを召喚する
 			'''
 		DisplayName: グランドフレアガン
 	}
@@ -14353,12 +14353,12 @@ Items: {
 
 	LodestoneSlabWall: {
 		Tooltip: ""
-		DisplayName: ロードストーンの Slab壁
+		DisplayName: ロードストーンの厚壁
 	}
 
 	LodestoneSlab: {
 		Tooltip: ""
-		DisplayName: ロードストーンの Slab
+		DisplayName: ロードストーンの厚板
 	}
 
 	LodestoneSink: {
@@ -14718,7 +14718,7 @@ Items: {
 
 	GingerbreadChest_Trapped: {
 		Tooltip: ""
-		DisplayName: ジンジャーブレッドのの宝箱（罠）
+		DisplayName: ジンジャーブレッドの宝箱（罠）
 	}
 
 	GingerbreadChest: {
@@ -15061,7 +15061,7 @@ Items: {
 
 	CutStoneBlockSlabWall: {
 		Tooltip: ""
-		DisplayName: 加工された石の厚板の壁
+		DisplayName: 加工された石の厚壁
 	}
 
 	CutStoneBlockSlab: {
@@ -15081,7 +15081,7 @@ Items: {
 
 	CutSandstoneBlockSlabWall: {
 		Tooltip: ""
-		DisplayName: 加工された砂岩の厚板の壁
+		DisplayName: 加工された砂岩の厚壁
 	}
 
 	CutSandstoneBlockSlab: {
@@ -15715,7 +15715,7 @@ Items: {
 			'D. Man'
 			「この絵は、この世界を守るために命を捧げた
 			勇敢なテラリアンを讃えるためのものです
-			語り継ぐために...」
+			忘れてはならない...」
 			'''
 		DisplayName: 絵画『最後の瞬間』
 	}
@@ -15852,7 +15852,7 @@ Items: {
 	}
 
 	Spud: {
-		Tooltip: 敵やブロックにぶつかると一定時間残る
+		Tooltip: 敵やブロックにぶつかると一定時間こびり付く
 		DisplayName: ジャガイモ
 	}
 
@@ -15930,7 +15930,7 @@ Items: {
 	}
 
 	Rapier: {
-		Tooltip: 攻撃に「パリースタンス」を付与し、受けるダメージを一時的に軽減する
+		Tooltip: 攻撃に「パリィスタンス」を付与し、受けるダメージを一時的に軽減する
 		DisplayName: レイピア
 	}
 
@@ -17499,9 +17499,9 @@ Items: {
 			'''
 		Tooltip:
 			'''
-			2% 近接攻撃のクリティカル確率が増加
-			4% 近接攻撃ダメージ増加
-			10% 近接攻撃速度が増加
+			近接攻撃のクリティカル確率が2%増加
+			近接攻撃ダメージが4%増加
+			近接攻撃速度が10%増加
 			'''
 		DisplayName: ロードストーンのフェイスガード
 	}
@@ -17524,9 +17524,9 @@ Items: {
 		Tooltip:
 			'''
 			敵に狙われやすくなる
-			4% 近接攻撃のクリティカル確率が増加
-			8% 近接攻撃ダメージが増加
-			5% 近接攻撃速度が増加
+			近接攻撃のクリティカル確率が4%増加
+			近接攻撃ダメージが8%増加
+			近接攻撃速度が5%増加
 			'''
 		DisplayName: ロードストーンの鎧
 	}
@@ -18089,7 +18089,7 @@ Items: {
 	TheEffuser: {
 		Tooltip:
 			'''
-			攻撃の初回ヒット時にヒーリングミストを放つメイス
+			攻撃の初回ヒット時にヒーリングミストを放つ
 			一度に最大10個のヒーリングミストを放つことができる
 			'''
 		DisplayName: エフューザー
@@ -18382,7 +18382,7 @@ Items: {
 
 	Recuperate: {
 		Tooltip: ""
-		DisplayName: 回復
+		DisplayName: 回復の書
 	}
 
 	RecoveryWand: {
@@ -20002,7 +20002,7 @@ Items: {
 
 	ThePrimordialsTrophy: {
 		Tooltip: ""
-		DisplayName: プリモーディアルズのトロフィー
+		DisplayName: プライモーディアルズのトロフィー
 	}
 
 	TheOmegaCore: {
@@ -20117,7 +20117,7 @@ Items: {
 			ドラムセットをリズミカルに叩くことができる
 			タイミングを合わせて叩くごとに、セットのダメージが4%増加し、最大120%まで増加する
 			ボーナスダメージが80%を超えると、タイミングを合わせて叩くたびに、サウンドのバーストが追加される
-			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
 			これらのボーナスは武器を変更すると徐々に減少する
 			'''
 		DisplayName: 舞台セット
@@ -20453,25 +20453,25 @@ Items: {
 			1秒ごとに浮遊するグロビュールを生成
 			すべてのグロビュールは直近の攻撃がクリティカルではなかった場合、次の攻撃をクリティカルにする
 			'''
-		DisplayName: 潮の支配者の深みの王冠
+		DisplayName: 潮汐の王冠
 	}
 
 	TideTurnerHelmet: {
 		SetBonus:
 			'''
 			「アーマーアビリティ」キーを押すと、泡に包まれる
-			バブルが有効な間、受けたダメージは回復に変換される
+			泡が有効な間、受けたダメージは回復に変換される
 			'''
 		Tooltip:
 			'''
-			「潮のように止められなくなる」
+			「荒れ狂う潮のように」
 			近接攻撃ダメージ12%増加
 			受けるダメージが15%減少
 			ライフ回復量が5%増加
 			5秒毎に浮遊するグロビュールを生成
 			グロビュールごとに防御力が5%増加する
 			'''
-		DisplayName: 潮の支配者の深みの兜
+		DisplayName: 潮汐の兜
 	}
 
 	TideTurnerGreaves: {
@@ -20481,7 +20481,7 @@ Items: {
 			近接攻撃時のノックバックと投擲速度が20%増加
 			移動速度30%増加
 			'''
-		DisplayName: 潮の支配者の深みの足甲
+		DisplayName: 潮汐の足甲
 	}
 
 	TideTurnerBreastplate: {
@@ -20491,7 +20491,7 @@ Items: {
 			近接攻撃と投擲のスピードが10%増加
 			近接攻撃と投擲のクリティカル確率が16%増加
 			'''
-		DisplayName: 潮の支配者の深みの鎧
+		DisplayName: 潮汐の鎧
 	}
 
 	TidalWave: {
@@ -20892,11 +20892,11 @@ Items: {
 		SelectedDestination: 選択された目的地：{0}
 		Tooltip:
 			'''
-			「見つめる人の願いを感じ取ることができる魔法の鏡」
+			「見つめる人の想いを感じ取ることができる魔法の鏡」
 			さまざまな場所にテレポートできる
 			手に持って右クリックすると、目的地の選択が表示される
 			'''
-		DisplayName: ガラスの願い
+		DisplayName: 願いの鏡
 	}
 
 	ViciousMockery: {
@@ -21062,7 +21062,7 @@ Items: {
 
 	Teslanator: {
 		Tooltip: 5体までの敵に有害な電流を生成することができる
-		DisplayName: Teslanator
+		DisplayName: テスラネイター
 	}
 
 	TerrariansLastKnife: {
@@ -21077,7 +21077,6 @@ Items: {
 	TeleologicImposition: {
 		Tooltip:
 			'''
-			魔法を放つ
 			魔法が敵やブロックに命中すると、星の嵐を発生させる
 			星の嵐は一つまで生成可能
 			'''
@@ -21149,7 +21148,7 @@ Items: {
 	SubspaceWings: {
 		Tooltip:
 			'''
-			「敵は逃げた方がいい...」
+			「さっさと逃げた方がいい...」
 			飛行とスローフォールを可能にする
 			'''
 		DisplayName: 亜空間の翼
@@ -21348,7 +21347,7 @@ Items: {
 			複数の敵を貫通し、壁に当たるとバウンドする
 			ヒットした敵に火をつける
 			'''
-		DisplayName: モルテンソーブレード
+		DisplayName: 溶岩のノコギリ刃
 	}
 
 	SawbladeLight: {
@@ -21357,7 +21356,7 @@ Items: {
 			複数の敵を貫通し、壁に当たるとバウンドする
 			命中した敵に混乱を与える
 			'''
-		DisplayName: まばゆいノコギリ刃
+		DisplayName: 輝くノコギリ刃
 	}
 
 	SawbladeIchor: {
@@ -21470,8 +21469,8 @@ Items: {
 	RichLeaf: {
 		Tooltip:
 			'''
-			「豊かなパワーと風味も」
-			光を宿したヤギを召喚し、行く手を明るく照らす
+			「豊かなパワーと風味」
+			光を宿したヤギを召喚する
 			'''
 		DisplayName: リッチリーフ
 	}
@@ -24917,7 +24916,7 @@ Items: {
 			'''
 			大きな琴でリズミカルに演奏することができる
 			タイミングよくヒットさせると、ダメージ、エンパワーメント・レベル、爆発半径が増加する
-			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
 			これらのボーナスは武器を変更すると徐々に減少する
 			'''
 		DisplayName: 鉄琴
@@ -25120,7 +25119,7 @@ Items: {
 			'''
 			大きなスチールドラムでリズミカルな演奏ができる
 			タイミングよく叩くことで、ダメージ、エンパワーメント・レベル、射程距離を着実に伸ばすことができる
-			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
 			これらのボーナスは武器を変更すると徐々に減少する
 			'''
 		DisplayName: スチールドラム
@@ -25157,7 +25156,7 @@ Items: {
 			'''
 			大きなエアロフォンでリズミカルな演奏ができる
 			タイミングよくヒットさせることで、ダメージ、エンパワーメント・レベル、速度が着実に上昇する
-			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
 			これらのボーナスは武器を変更すると徐々に減少する
 			'''
 		DisplayName: 氷と炎の歌
@@ -25280,7 +25279,7 @@ Items: {
 			'''
 			大きな魔法のハープでリズミカルに演奏することができる
 			タイミングよくヒットさせることで、ダメージ、エンパワーメントレベル、バウンド回数、発射回数が増加する
-			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
 			これらのボーナスは武器を変更すると徐々に減少する
 			'''
 		DisplayName: 学者のハープ
@@ -25375,7 +25374,7 @@ Items: {
 			'''
 			大きなオルガンでリズミカルに演奏することができる
 			タイミングよくヒットさせることで、ダメージ、エンパワーメントレベル、発射回数が着実に増加する
-			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
 			これらのボーナスは武器を変更すると徐々に減少する
 			'''
 		DisplayName: オルガン
@@ -25765,7 +25764,7 @@ Items: {
 			'''
 			大きなピアノでリズミカルに演奏することができる
 			タイミングよくヒットさせることで、ダメージ、エンパワーメントレベル、バウンド回数が上昇する
-			ミスをするとボーナスが減少し、5インスピレーションを消費する。
+			ミスをするとボーナスが減少し、5インスピレーションを消費する
 			これらのボーナスは武器を変更すると徐々に減少する
 			'''
 		DisplayName: グランドピアノ
@@ -27197,7 +27196,7 @@ Buffs: {
 	}
 
 	LastStandBuff: {
-		Description: 投擲のスピードとダメージが30％アップしたが、代償は大きい...
+		Description: 投擲のスピードとダメージが30％アップしたが、代償は必ず支払うことになる...
 		DisplayName: ラストスタンド
 	}
 
@@ -28799,4 +28798,3 @@ Announcements: {
 	LodestoneWarning1: ロードストーンの祝福を受けた！
 	WorldEngineChange: ワールドの難易度が{0}に変更されました。
 }
-
