@@ -1,30 +1,25 @@
 Configs: {
 	Configuration: {
-		NoTownNPCTombs: {
-			Tooltip: ""
-			Label: タウンNPCの墓なし
-		}
+		DisplayName: 設定
 
-		TownNPCTombs: {
+		NoTombstones: {
+			Label: 死亡時に墓石を出さない
 			Tooltip: ""
-			Label: タウンNPCの墓
 		}
 
 		NoDeathMessage: {
+			Label: 死亡時に死亡ログを出さない
 			Tooltip: ""
-			Label: 死亡メッセージなし
 		}
 
-		NoTombstones: {
+		TownNPCTombs: {
+			Label: タウンNPCの墓を出す
 			Tooltip: ""
-			Label: 墓石なし
 		}
 
-		DisplayName: 設定
+		NoTownNPCTombs: {
+			Label: タウンNPCの墓を出さない
+			Tooltip: ""
+		}
 	}
 }
-
-UI: {
-	InGameNotificationTitle: この世界へようこそ、Example Modをお使いですね！
-}
-
