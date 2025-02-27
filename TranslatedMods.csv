@@ -1,130 +1,130 @@
-steam_id,internal_name,display_name,lead_translator,version,note
-2599842771,AlchemistNPCLite,AlchemistNPC Lite,hazamax405,,
-2658783282,ApacchiisClassesMod2,Apacchii's Classes: Reborn,hazamax405,,
-2773928114,BetterExtractinator,Better Extractinator,katudonsan,,
-3018208290,BSWLmod,Block's Leveling Mod,hazamax405,,
-2669644269,BossChecklist,Boss Checklist,katudonsan,,
-2816694149,BossCursor,Boss Cursor,ponzu_ika,,
-2824688072,CalamityMod,Calamity Mod,hazamax405,,
-2563784437,CheatSheet,Cheat Sheet,sysnote8,,
-2567580488,FargoEnemyModifiers,Fargo's Enemy Modifiers,ponzu_ika,,
-2570931073,Fargowiltas,Fargo's Mutant Mod,katudonsan,,NPCとアイテム名の一部のみ翻訳
-2828041071,imkSushisMod,imkSushi's Mod,hazamax405,,
-2837407674,LansUnlimitedBuffSlots,Lan's Unlimited Buff Slots,katudonsan,,
-2831752947,miningcracks_take_on_luiafk,LuiAFK Reborn,katudonsan,,
-2563309347,MagicStorage,Magic Storage,hazamax405,,
-2621278406,MoreZenith,MoreZenithItems,katudonsan,,
-2797518634,ImproveGame,Quality of Terraria,hazamax405,1.8.6.0,大規模修正しました(Taccom368)
-2619954303,RecipeBrowser,Recipe Browser,sysnote8,,
-2562997415,ShorterRespawn,Shorter Respawn Time,katudonsan,,
-2839001756,UnofficialCalamityWhips,Unofficial Calamity Whips,hazamax405,1.1.6,
-2563851005,WMITF,Which Mod Is This From? (WMITF),katudonsan,,
-2909886416,ThoriumMod,Thorium Mod,Hurugitune,1.7.2.2,ブロック以外は全て翻訳済み。ほとんど推敲済み。
-3114886209,RagnarokMod,Ragnarok,Hurugitune,1.4.3.2,全て翻訳済み。ほとんど推敲済み。
-3070717963,ThoriumRework,Thorium Bosses Reworked,Hurugitune,0.9.4,全て翻訳済み。ほとんど推敲済み。
-3015412343,InfernumMode,Calamity Mod Infernum Mode,Hurugitune,2.0.1.16,バフ以外はほぼ全て翻訳済み。ほとんど推敲済み。
-3142064272,CalamityBardHealer,Unofficial Calamity Bard & Healer,Hurugitune,0.9.6,全て翻訳済み。ほとんど推敲済み。
-2864849706,CampingMod,Camping,Hurugitune,3.0.2,全て翻訳済み。推敲済み。
-2864843929,Consolaria,Consolaria,Hurugitune,2.1.1,全て翻訳済み。ほとんど推敲済み。一部重大なバグがあるアイテムがあったので注意書きを追加。修正され次第削除。
-2838015851,CatalystMod,Catalyst Mod,Hurugitune,1.1.2.3,全て翻訳済み。ほとんど推敲済み。
-3273327692,StartingClassWeapons,Starting Class Weapons,Hurugitune,0.1.6,全て翻訳済み。推敲済み。
-3281805198,LowHealthEffects,Low Health Effects,Hurugitune,1.0.4,全て翻訳済み。推敲途中。
-2979448082,SummonsUI,Summoner UI (Latest Stable Release),Hurugitune,1.3.2,全て翻訳済み。推敲途中。
-2824688266,CalamityModMusic,Calamity Mod Music,Hurugitune,2.0.4.3,全て翻訳済み
-2816188633,UnCalamityModMusic,Vanilla Calamity Mod Music,Hurugitune,2.0.0.1,全て翻訳済み
-2466463382,CalmExtraMusic,Calamity Extra Music,Hurugitune,2.0.0,全て翻訳済み
-3015416182,InfernumModeMusic,Infernum Mode Music,Hurugitune,2.0.1.2,全て翻訳済み
-2565639705,OreExcavator,Ore Excavator,Hurugitune,0.8.9,仮翻訳
-3241967932,CalamityHunt,Hunt of the Old God,Hurugitune,1.1.5,全て翻訳済み。フィードバック募集中。
-2995193002,NoxusBoss,Wrath of the Gods,Hurugitune,1.1.29,全て翻訳済み。フィードバック募集中。
-3299699015,ModFolder,Mod Folder System,Hurugitune,0.4.0,すべて翻訳済み
-3001536716,MachineTranslate,In-game Translate (Supports both v1.4.4 and v1.4.3),Hurugitune,1.0,すべて翻訳済み
-3378168037,CompatChecker,Compatibility Checker (Beta),Hurugitune,0.1.4.1,すべて翻訳済み
-2861542679,Remnants,Remnants,Hurugitune,1.5.41,すべて翻訳済み
-2825008228,ZeroXHUD,ZeroX's Combat HUDs,Hurugitune,0.2.4.2,すべて翻訳済み
-2815010161,SharedMap,Shared World Map,Hurugitune,0.1.4.3,すべて翻訳済み
-2563815443,DialogueTweak,Dialogue Panel Rework,Hurugitune,1.5.9,すべて翻訳済み
-2877696929,WombatQOL,Wombat's General Improvements,Hurugitune,1.3.10.4,すべて翻訳済み
-2975417797,CombinedHealth,Shared Health,Hurugitune,1.3.0,すべて翻訳済み
-3231435221,DtbsNoProjectiles,Dtboss' no friendly projectiles,Hurugitune,1.20,すべて翻訳済み
-2803799129,Pings,Pings,Hurugitune,0.3.0.3,すべて翻訳済み
-2566083800,ChatSource,Chat Source,Hurugitune,1.1.1.2,すべて翻訳済み
-2828370879,ShopExpander,Shop Expander,Hurugitune,1.5.0,すべて翻訳済み
-2614858363,Wireless,Wireless,mori (new),1.6.1,すべて翻訳済み
-3301034468,DrinkWatar,Remember To Drink Water!,Hurugitune,0.1,全て翻訳済み
-3018447913,BetterBossBarPlus,Better Boss Health Bar for 1.4.4+,Hurugitune,0.9.2.3,全て翻訳済み
-2824854732,Discordya,Discordya - Discord Rich Presence,Hurugitune,1.0.6.1,全て翻訳済み
-2564503881,HPAware,HP Awareness,Hurugitune,1.0.3.4,全て翻訳済み 
-2910253435,NewBeginnings,New Beginnings,Hurugitune,1.1.0.5,仮翻訳
-2927446524,TestChadsFurni,Chad's Furni Reborn,mori (new),0.2,すべて翻訳済み
-2824879484,tsorcRevamp,The Story of Red Cloud,katudonsan,0.15.18.6,現在The Story of Red Cloudブランチで翻訳中
-3222493606,Luminance,Luminance,katudonsan,1.0.6,翻訳完了
-2824688804,CalValEX,Calamity's Vanities,Chuzume,11.1,ほぼ翻訳完了、マップでのタイル名、Projectile名など未翻訳。
-3161388997,CalamityOverhaul,CalamityOverhaul,右折禁止,0.6015,
-2871665851,Verdant,Verdant,まめ,1.2.6.5,
-2981752535,FishGunsPlus,Fish Guns+,まめ,3.9,
-2817545194,HelpfulNPCs,Helpful NPCs,まめ,2.2.2,
-2816941454,BetterBlending,Better Blending,まめ,1.2.4,
-2565505925,MaxLuck,Max Luck,まめ,1.5,
-3010989007,BankButtons,Bank Buttons,まめ,1.3.2,
-3311481926,AcornHamaxe,Hamaxe of Regrowth,まめ,0.2,
-2939093580,OrchidMineshaft,Orchid Mineshaft,まめ,1.2.5,
-3158254975,VervCaves,Better Caves,まめ,1.1.7,
-2687866031,Census,Census - Town NPC Checklist,まめ,0.5.2.6,
-2802867430,FargoSeeds,Fargo's Best of Both Worlds,まめ,0.5.2,
-2563862309,StarsAbove,The Stars Above,ユウ,2.1.3.0,
-2829105343,bowmod,Archery Overhaul,まめ,1.5.4.2,
-2797773802,ExtraPylons,Extra Pylons,まめ,0.6.0.3,
-3119712528,HighFPSSupport,High FPS Support,まめ,0.6.6.2,
-2563082541,NoFishingQuests,Angler Shop,まめ,3.2.0.4,
-3310041861,Munchies,Munchies - Consumables Checklist,まめ,1.4.2,
-3293218222,OffHandidiotmod,Off Hand Slot,まめ,4.3.9,
-2811803870,TerrariaOverhaul,Terraria Overhaul (Configuration Update!),まめ,5.0.0.38,
-2563098343,TeamSpectate,Team Spectate,katudonsan,2.6.2,済
-2634682993,BetterMultiplayer,Better Multiplayer,katudonsan,1.6.3,済
-2707400823,AutoReroll,Auto Reforge,katudonsan,2024.8.31,済
-2815540735,FargowiltasSouls,Fargo's Souls Mod,katudonsan,1.7.0.12,一部翻訳
-2565540604,AutoTrash,Auto Trash,HAKU,0.7.2,
-2866111868,ItemChecklist,Item Checklist,HAKU,0.7,
-3400340796,RareDropNotification,Rare Drop Notification,HAKU,1.3,
-2835407664,NoMoreTombs,No More Tombs,ぽぷのべり,2.1,
-3001692619,ConciseModList,Concise Mods List,ぽぷのべり,1.4.2,
-2670628346,Lights,Lights And Shadows,ぽぷのべり,1.4.2,
-2567152289,StarHell,Fargo's Fallen Stars,ぽぷのべり,2.2,
-2618902706,UnlimitedFishingQuests,Unlimited Fishing Quests,ぽぷのべり,1.2.1,
-2981525206,RainOverhaul,Rain Overhaul,ぽぷのべり,1.7,
-2565611547,NPCNameDisplay,NPC Name Display,ぽぷのべり,1.4.4.9,
-2817496179,ImprovedTorches,Atmospheric Torches,ぽぷのべり,1.4.3,
-3006139970,WingTimeUI,Wing Time UI,ぽぷのべり,0.1.4.1,
-2597324266,WingSlotExtra,Wing Slot Extra,ぽぷのべり,1.4.4,
-2621687273,Autofish,Autofish,ぽぷのべり,1.2.1,
-2568214360,GodNPC,Better Friendly NPCs,ぽぷのべり,1.8.6,
-3168223097,Roommates,Roommates,ぽぷのべり,3.2.0.1,
-2562968836,AdvancedWorldGen,Advanced World Generation,ぽぷのべり,3.1.7.4,
-3030483105,BlueMoon,Enchanted Moons,ぽぷのべり,1.7.3,
-3201195744,PrettyRarities,Better Tooltips,ぽぷのべり,1.4.3,
-2903065706,BetterGameUI,Better Game UI,ぽぷのべり,2.2.1,
-2847872897,LootBeams,Loot Beams,ぽぷのべり,1.9.3,
-2795036823,MultipleLures,Multiple Lures,ぽぷのべり,1.4,
-2806899404,PlayerSwapper,Player Swap,ぽぷのべり,0.4,
-2816557864,LookMod,Improved Movement Visuals,ぽぷのべり,1.3.4,
-3141716573,SpawnHouses,Generated Housing,ぽぷのべり,1.0.9,
-2843258712,WorldGenPreviewer,WorldGen Previewer,ぽぷのべり,0.8,
-2858293378,WorldFlags,World Country Flags,ぽぷのべり,1.2,
+steam_id,display_name,internal_name,lead_translator,version,note
+2562968836,Advanced World Generation,AdvancedWorldGen,ぽぷのべり,3.1.7.4,
 2831179995,Aimbot,Aimbot,ぽぷのべり,0.3.1,
+2599842771,AlchemistNPC Lite,AlchemistNPCLite,hazamax405,,
+2563082541,Angler Shop,NoFishingQuests,まめ,3.2.0.4,
+2658783282,Apacchii's Classes: Reborn,ApacchiisClassesMod2,hazamax405,,
+2829105343,Archery Overhaul,bowmod,まめ,1.5.4.2,
+2817496179,Atmospheric Torches,ImprovedTorches,ぽぷのべり,1.4.3,
+2707400823,Auto Reforge,AutoReroll,katudonsan,2024.8.31,済
+2565540604,Auto Trash,AutoTrash,HAKU,0.7.2,
+2621687273,Autofish,Autofish,ぽぷのべり,1.2.1,
+3010989007,Bank Buttons,BankButtons,まめ,1.3.2,
+2816941454,Better Blending,BetterBlending,まめ,1.2.4,
+3018447913,Better Boss Health Bar for 1.4.4+,BetterBossBarPlus,Hurugitune,0.9.2.3,全て翻訳済み
+3158254975,Better Caves,VervCaves,まめ,1.1.7,
+2773928114,Better Extractinator,BetterExtractinator,katudonsan,,
+2568214360,Better Friendly NPCs,GodNPC,ぽぷのべり,1.8.6,
+2903065706,Better Game UI,BetterGameUI,ぽぷのべり,2.2.1,
+2634682993,Better Multiplayer,BetterMultiplayer,katudonsan,1.6.3,済
+3201195744,Better Tooltips,PrettyRarities,ぽぷのべり,1.4.3,
+3018208290,Block's Leveling Mod,BSWLmod,hazamax405,,
+2669644269,Boss Checklist,BossChecklist,katudonsan,,
+2816694149,Boss Cursor,BossCursor,ponzu_ika,,
+2466463382,Calamity Extra Music,CalmExtraMusic,Hurugitune,2.0.0,全て翻訳済み
+2824688072,Calamity Mod,CalamityMod,hazamax405,,
+3015412343,Calamity Mod Infernum Mode,InfernumMode,Hurugitune,2.0.1.16,バフ以外はほぼ全て翻訳済み。ほとんど推敲済み。
+2824688266,Calamity Mod Music,CalamityModMusic,Hurugitune,2.0.4.3,全て翻訳済み
+2824688804,Calamity's Vanities,CalValEX,Chuzume,11.1,ほぼ翻訳完了、マップでのタイル名、Projectile名など未翻訳。
+3241967932,Calamity:Hunt of the Old God,CalamityHunt,Hurugitune,1.1.5,全て翻訳済み。フィードバック募集中。
+2995193002,Calamity:Wrath of the Gods,NoxusBoss,Hurugitune,1.1.29,全て翻訳済み。フィードバック募集中。
+3161388997,CalamityOverhaul,CalamityOverhaul,右折禁止,0.6015,
+2864849706,Camping,CampingMod,Hurugitune,3.0.2,全て翻訳済み。推敲済み。
+2838015851,Catalyst Mod,CatalystMod,Hurugitune,1.1.2.3,全て翻訳済み。ほとんど推敲済み。
+2687866031,Census - Town NPC Checklist,Census,まめ,0.5.2.6,
+2927446524,Chad's Furni Reborn,TestChadsFurni,mori (new),0.2,すべて翻訳済み
+2566083800,Chat Source,ChatSource,Hurugitune,1.1.1.2,すべて翻訳済み
+2563784437,Cheat Sheet,CheatSheet,sysnote8,,
+3378168037,Compatibility Checker (Beta),CompatChecker,Hurugitune,0.1.4.1,すべて翻訳済み
+3001692619,Concise Mods List,ConciseModList,ぽぷのべり,1.4.2,
+2864843929,Consolaria,Consolaria,Hurugitune,2.1.1,全て翻訳済み。ほとんど推敲済み。一部重大なバグがあるアイテムがあったので注意書きを追加。修正され次第削除。
+3331547573,Coyote frames,Coyoteframes,ぽぷのべり,1.5,
+2563815443,Dialogue Panel Rework,DialogueTweak,Hurugitune,1.5.9,すべて翻訳済み
+2589338274,Difficulty Editor,x1526modDifficultBuff,ぽぷのべり,1.0.1.6,
+2824854732,Discordya - Discord Rich Presence,Discordya,Hurugitune,1.0.6.1,全て翻訳済み
+3231435221,Dtboss' no friendly projectiles,DtbsNoProjectiles,Hurugitune,1.2,すべて翻訳済み
+3030483105,Enchanted Moons,BlueMoon,ぽぷのべり,1.7.3,
+2990396828,Extended Equipment Loadouts,.ExtraLoadouts,ぽぷのべり,1.4.1,
+2797773802,Extra Pylons,ExtraPylons,まめ,0.6.0.3,
+2822950837,Fancy Lighting,FancyLighting,ぽぷのべり,0.9.7,
+307043042,Fancy Whips,FancyWhips,ぽぷのべり,1.1,
+2802867430,Fargo's Best of Both Worlds,FargoSeeds,まめ,0.5.2,
+2567580488,Fargo's Enemy Modifiers,FargoEnemyModifiers,ponzu_ika,,
+2567152289,Fargo's Fallen Stars,StarHell,ぽぷのべり,2.2,
+2570931073,Fargo's Mutant Mod,Fargowiltas,katudonsan,,NPCとアイテム名の一部のみ翻訳
+2815540735,Fargo's Souls Mod,FargowiltasSouls,katudonsan,1.7.0.12,一部翻訳
+2981752535,Fish Guns+,FishGunsPlus,まめ,3.9,
+3164271154,Flail Rework Mod,FlailMod,ぽぷのべり,1.1.7,
+3141716573,Generated Housing,SpawnHouses,ぽぷのべり,1.0.9,
+2799797838,Gunsword Slime,HostiumProelium,ぽぷのべり,1.0.111111,
+3311481926,Hamaxe of Regrowth,AcornHamaxe,まめ,0.2,
+2817545194,Helpful NPCs,HelpfulNPCs,まめ,2.2.2,
+3119712528,High FPS Support,HighFPSSupport,まめ,0.6.6.2,
+2564503881,HP Awareness,HPAware,Hurugitune,1.0.3.4,全て翻訳済み
+2828041071,imkSushi's Mod,imkSushisMod,hazamax405,,
+2816557864,Improved Movement Visuals,LookMod,ぽぷのべり,1.3.4,
+3001536716,In-game Translate (Supports both v1.4.4 and v1.4.3),MachineTranslate,Hurugitune,1,すべて翻訳済み
+3015416182,Infernum Mode Music,InfernumModeMusic,Hurugitune,2.0.1.2,全て翻訳済み
+2866111868,Item Checklist,ItemChecklist,HAKU,0.7,
+2837407674,Lan's Unlimited Buff Slots,LansUnlimitedBuffSlots,katudonsan,,
+2817795758,Lighting Essentials,LightingEssentials,ぽぷのべり,1.3.9,
+2670628346,Lights And Shadows,Lights,ぽぷのべり,1.4.2,
+2847872897,Loot Beams,LootBeams,ぽぷのべり,1.9.3,
+3281805198,Low Health Effects,LowHealthEffects,Hurugitune,1.0.4,全て翻訳済み。推敲途中。
+2831752947,LuiAFK Reborn,miningcracks_take_on_luiafk,katudonsan,,
+3222493606,Luminance,Luminance,katudonsan,1.0.6,翻訳完了
+3069195391,Lures Display Bait,LureBaitDisplay,ぽぷのべり,1.0.3,
+2563309347,Magic Storage,MagicStorage,hazamax405,,
+2565505925,Max Luck,MaxLuck,まめ,1.5,
+3299699015,Mod Folder System,ModFolder,Hurugitune,0.4.0,すべて翻訳済み
+2861550387,More Critters,MoreCritters,ぽぷのべり,0.5.4,
+2621278406,MoreZenithItems,MoreZenith,katudonsan,,
+2795036823,Multiple Lures,MultipleLures,ぽぷのべり,1.4,
+3310041861,Munchies - Consumables Checklist,Munchies,まめ,1.4.2,
+2910253435,New Beginnings,NewBeginnings,Hurugitune,1.1.0.5,仮翻訳
+2835407664,No More Tombs,NoMoreTombs,ぽぷのべり,2.1,
+2565611547,NPC Name Display,NPCNameDisplay,ぽぷのべり,1.4.4.9,
+3293218222,Off Hand Slot,OffHandidiotmod,まめ,4.3.9,
+2939093580,Orchid Mineshaft,OrchidMineshaft,まめ,1.2.5,
+2565639705,Ore Excavator,OreExcavator,Hurugitune,0.8.9,仮翻訳
 2562921545,PetRenamer,PetRenamer,ぽぷのべり,1.3.0.4,
-2990396828,.ExtraLoadouts,Extended Equipment Loadouts,ぽぷのべり,1.4.1,
-307043042,FancyWhips,Fancy Whips,ぽぷのべり,1.1,
-2925184535,ShirasagiMod,Shirasagi's VOICEROID Skin Mod,ぽぷのべり,2.0.2,
-2861550387,MoreCritters,More Critters,ぽぷのべり,0.5.4,
-3219030425,Spotlight,The Spotlight - 聚光灯,ぽぷのべり,1.0.2,
-3138615548,SpearMod,Spear Rework Mod,ぽぷのべり,1.0.2,
-3164271154,FlailMod,Flail Rework Mod,ぽぷのべり,1.1.7,
-2973922820,TouhouPets,东方小伙伴 ~ Adventure with cute partners,ぽぷのべり,1.1.4.3,大規模修正を行いました。解釈などに関してはメモを残してあります。(Taccom368)
+2803799129,Pings,Pings,Hurugitune,0.3.0.3,すべて翻訳済み
+2806899404,Player Swap,PlayerSwapper,ぽぷのべり,0.4,
+2797518634,Quality of Terraria,ImproveGame,hazamax405,1.8.6.0,大規模修正しました(Taccom368)
+3114886209,Ragnarok,RagnarokMod,Hurugitune,1.4.3.2,全て翻訳済み。ほとんど推敲済み。
+2981525206,Rain Overhaul,RainOverhaul,ぽぷのべり,1.7,
+3400340796,Rare Drop Notification,RareDropNotification,HAKU,1.3,
+2619954303,Recipe Browser,RecipeBrowser,sysnote8,,
+3301034468,Remember To Drink Water!,DrinkWatar,Hurugitune,0.1,全て翻訳済み
+2861542679,Remnants,Remnants,Hurugitune,1.5.41,すべて翻訳済み
+3168223097,Roommates,Roommates,ぽぷのべり,3.2.0.1,
+2975417797,Shared Health,CombinedHealth,Hurugitune,1.3.0,すべて翻訳済み
+2815010161,Shared World Map,SharedMap,Hurugitune,0.1.4.3,すべて翻訳済み
+2925184535,Shirasagi's VOICEROID Skin Mod,ShirasagiMod,ぽぷのべり,2.0.2,
+2828370879,Shop Expander,ShopExpander,Hurugitune,1.5.0,すべて翻訳済み
+2562997415,Shorter Respawn Time,ShorterRespawn,katudonsan,,
+3138615548,Spear Rework Mod,SpearMod,ぽぷのべり,1.0.2,
+3273327692,Starting Class Weapons,StartingClassWeapons,Hurugitune,0.1.6,全て翻訳済み。推敲済み。
+2979448082,Summoner UI (Latest Stable Release),SummonsUI,Hurugitune,1.3.2,全て翻訳済み。推敲途中。
+2563098343,Team Spectate,TeamSpectate,katudonsan,2.6.2,済
 2799559538,Terrarchitect,Terrarchitect,ぽぷのべり,1.7.0.1,
-3331547573,Coyoteframes,Coyote frames,ぽぷのべり,1.5,
-2589338274,x1526modDifficultBuff,Difficulty Editor,ぽぷのべり,1.0.1.6,
-2799797838,HostiumProelium,Gunsword Slime,ぽぷのべり,1.0.111111,
-2822950837,FancyLighting,Fancy Lighting,ぽぷのべり,0.9.7,
-3069195391,LureBaitDisplay,Lures Display Bait,ぽぷのべり,1.0.3,
-2817795758,LightingEssentials,Lighting Essentials,ぽぷのべり,1.3.9,
+2811803870,Terraria Overhaul (Configuration Update!),TerrariaOverhaul,まめ,5.0.0.38,
+3219030425,The Spotlight - 聚光灯,Spotlight,ぽぷのべり,1.0.2,
+2563862309,The Stars Above,StarsAbove,ユウ,2.1.3.0,
+2824879484,The Story of Red Cloud,tsorcRevamp,katudonsan,0.15.18.6,現在The Story of Red Cloudブランチで翻訳中
+3070717963,Thorium Bosses Reworked,ThoriumRework,Hurugitune,0.9.4,全て翻訳済み。ほとんど推敲済み。
+2909886416,Thorium Mod,ThoriumMod,Hurugitune,1.7.2.2,ブロック以外は全て翻訳済み。ほとんど推敲済み。
+2618902706,Unlimited Fishing Quests,UnlimitedFishingQuests,ぽぷのべり,1.2.1,
+3142064272,Unofficial Calamity Bard & Healer,CalamityBardHealer,Hurugitune,0.9.6,全て翻訳済み。ほとんど推敲済み。
+2839001756,Unofficial Calamity Whips,UnofficialCalamityWhips,hazamax405,1.1.6,
+2816188633,Vanilla Calamity Mod Music,UnCalamityModMusic,Hurugitune,2.0.0.1,全て翻訳済み
+2871665851,Verdant,Verdant,まめ,1.2.6.5,
+2563851005,Which Mod Is This From? (WMITF),WMITF,katudonsan,,
+2597324266,Wing Slot Extra,WingSlotExtra,ぽぷのべり,1.4.4,
+3006139970,Wing Time UI,WingTimeUI,ぽぷのべり,0.1.4.1,
+2614858363,Wireless,Wireless,mori (new),1.6.1,すべて翻訳済み
+2877696929,Wombat's General Improvements,WombatQOL,Hurugitune,1.3.10.4,すべて翻訳済み
+2858293378,World Country Flags,WorldFlags,ぽぷのべり,1.2,
+2843258712,WorldGen Previewer,WorldGenPreviewer,ぽぷのべり,0.8,
+2825008228,ZeroX's Combat HUDs,ZeroXHUD,Hurugitune,0.2.4.2,すべて翻訳済み
+2973922820,东方小伙伴 ~ Adventure with cute partners,TouhouPets,ぽぷのべり,1.1.4.3,大規模修正を行いました。解釈などに関してはメモを残してあります。(Taccom368)
